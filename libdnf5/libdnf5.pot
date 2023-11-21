@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-06 15:41+0000\n"
+"POT-Creation-Date: 2023-11-21 10:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,11 +28,11 @@ msgid "Unsupported argument for REMOVE action: {}"
 msgstr ""
 
 #. TODO(lukash) throw a proper exception
-#: base/goal.cpp:963
+#: base/goal.cpp:967
 msgid "Incorrect configuration value for multilib_policy: {}"
 msgstr ""
 
-#: base/goal.cpp:2148
+#: base/goal.cpp:2160
 msgid "Failed to resolve modules."
 msgstr ""
 
@@ -334,11 +334,11 @@ msgstr ""
 msgid "get_user_runtime_dir(): Cannot determine the user's runtime directory"
 msgstr ""
 
-#: comps/environment/environment.cpp:234
+#: comps/environment/environment.cpp:252
 msgid "failed to save xml document for comps"
 msgstr ""
 
-#: comps/group/group.cpp:281
+#: comps/group/group.cpp:283
 msgid "Failed to save xml document for group \"{}\" to file \"{}\": {}"
 msgstr ""
 
@@ -469,7 +469,7 @@ msgstr ""
 msgid "Variable \"{}\" is read-only"
 msgstr ""
 
-#: module/module_db.cpp:76 module/module_db.cpp:85 module/module_sack.cpp:757
+#: module/module_db.cpp:76 module/module_db.cpp:85 module/module_sack.cpp:764
 msgid "No such module: {}"
 msgstr ""
 
@@ -504,23 +504,23 @@ msgstr ""
 msgid "Failed to upgrade streams: {}"
 msgstr ""
 
-#: module/module_sack.cpp:91
+#: module/module_sack.cpp:92
 msgid "Failed to load module metadata for repository \"{}\": {}"
 msgstr ""
 
-#: module/module_sack.cpp:584
+#: module/module_sack.cpp:591
 msgid "Missing '='"
 msgstr ""
 
-#: module/module_sack.cpp:588 module/module_sack.cpp:596
+#: module/module_sack.cpp:595 module/module_sack.cpp:603
 msgid "Missing '\"' in the value"
 msgstr ""
 
-#: module/module_sack.cpp:592
+#: module/module_sack.cpp:599
 msgid "Missing ':' in the value"
 msgstr ""
 
-#: module/module_sack.cpp:823
+#: module/module_sack.cpp:830
 msgid "Invalid module status: {}"
 msgstr ""
 
@@ -821,7 +821,7 @@ msgstr ""
 msgid "{} state for \"{}\" not found."
 msgstr ""
 
-#: system/state.cpp:498
+#: system/state.cpp:522
 msgid "Unsupported TOML version \"{}\", maximum supported version is \"{}\""
 msgstr ""
 
