@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-06 15:41+0000\n"
+"POT-Creation-Date: 2023-11-21 10:15+0000\n"
 "PO-Revision-Date: 2023-11-16 19:01+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -31,11 +31,11 @@ msgid "Unsupported argument for REMOVE action: {}"
 msgstr "მხარდაუჭერელი არგუმენტი ქმედებისთვის REMOVE: {}"
 
 #. TODO(lukash) throw a proper exception
-#: base/goal.cpp:963
+#: base/goal.cpp:967
 msgid "Incorrect configuration value for multilib_policy: {}"
 msgstr "არასწორი კონფიგურაციის მნიშვნელობა multilib_policy-სთვის: {}"
 
-#: base/goal.cpp:2148
+#: base/goal.cpp:2160
 msgid "Failed to resolve modules."
 msgstr "მოდულების ამოხსნა ჩავარდა."
 
@@ -348,11 +348,11 @@ msgstr ""
 "get_user_runtime_dir(): მომხმარებლის სამუშაო საქაღალდის განსაზღვრა "
 "შეუძლებელია"
 
-#: comps/environment/environment.cpp:234
+#: comps/environment/environment.cpp:252
 msgid "failed to save xml document for comps"
 msgstr "comps-სთვის xml დოკუმენტის შენახვის შეცდომა"
 
-#: comps/group/group.cpp:281
+#: comps/group/group.cpp:283
 msgid "Failed to save xml document for group \"{}\" to file \"{}\": {}"
 msgstr "ჩავარდა XML დოკუმენტისს შენახვა ჯგუფისთვის \"{}\" ფაილში \"{}\": {}"
 
@@ -491,7 +491,7 @@ msgstr "rpm-ის კონფიგურაციის ფაილები
 msgid "Variable \"{}\" is read-only"
 msgstr "ცვლადი '{}' მხოლოდ-კითხვადია"
 
-#: module/module_db.cpp:76 module/module_db.cpp:85 module/module_sack.cpp:757
+#: module/module_db.cpp:76 module/module_db.cpp:85 module/module_sack.cpp:764
 msgid "No such module: {}"
 msgstr "ასეთი მოდული არ არსებიბს: {}"
 
@@ -526,24 +526,24 @@ msgstr "ნაგულისხმების განახლების �
 msgid "Failed to upgrade streams: {}"
 msgstr "ნაკადების განახლების შეცდომა: {}"
 
-#: module/module_sack.cpp:91
+#: module/module_sack.cpp:92
 msgid "Failed to load module metadata for repository \"{}\": {}"
 msgstr ""
 "შეცდომა მოდულის მეტამონაცემების ჩატვირთვისას რეპოზიტორიისთვის \"{}\": {}"
 
-#: module/module_sack.cpp:584
+#: module/module_sack.cpp:591
 msgid "Missing '='"
 msgstr "აკლია '='"
 
-#: module/module_sack.cpp:588 module/module_sack.cpp:596
+#: module/module_sack.cpp:595 module/module_sack.cpp:603
 msgid "Missing '\"' in the value"
 msgstr "მნიშვნელობაში აკლია '\"'"
 
-#: module/module_sack.cpp:592
+#: module/module_sack.cpp:599
 msgid "Missing ':' in the value"
 msgstr "მნიშვნელობაში ':' აკლია"
 
-#: module/module_sack.cpp:823
+#: module/module_sack.cpp:830
 msgid "Invalid module status: {}"
 msgstr "არასწორი მოდულის სტატუსი: {}"
 
@@ -648,7 +648,8 @@ msgstr "Librepo-ის შეცდომა: {}"
 
 #: repo/repo_downloader.cpp:170
 msgid "Failed to download metadata ({}: \"{}\") for repository \"{}\""
-msgstr "მეტამონაცემების ({}: \"{}\") გადმოწერის შეცდომა რეპოზიტორიისთვის \"{}\""
+msgstr ""
+"მეტამონაცემების ({}: \"{}\") გადმოწერის შეცდომა რეპოზიტორიისთვის \"{}\""
 
 #: repo/repo_downloader.cpp:241
 msgid "Error checking if metalink \"{}\" is in sync for repository \"{}\""
@@ -707,8 +708,8 @@ msgstr "რეპოზიტორიისთვის \"{}\" \"{}\"-დან
 #: repo/solv_repo.cpp:312
 msgid "Unsupported extended repodata type for the system repo: \"{}\"."
 msgstr ""
-"მხარდაუჭერელი გაფართოებული რეპოზიტორიის მონაცემების ტიპი სისტემური რეპოსთვის:"
-" \"{}\"."
+"მხარდაუჭერელი გაფართოებული რეპოზიტორიის მონაცემების ტიპი სისტემური "
+"რეპოსთვის: \"{}\"."
 
 #: repo/solv_repo.cpp:378
 msgid "Failed to load {} extension for repo \"{}\" from \"{}\": {}"
@@ -729,8 +730,8 @@ msgstr "ძირითადი კეშის ჩაწერის პრო
 #: repo/solv_repo.cpp:580
 msgid "Failed to re-load primary cache for repo \"{}\" from \"{}\": {}"
 msgstr ""
-"ძირითადი კეშის თავიდან ჩატვირთვის პრობლემა რეპოზიტორიისთვის \"{}\" \"{}\""
-"-დან: {}"
+"ძირითადი კეშის თავიდან ჩატვირთვის პრობლემა რეპოზიტორიისთვის \"{}\" \"{}\"-"
+"დან: {}"
 
 #: repo/solv_repo.cpp:640
 msgid "Failed to write {} cache for repo \"{}\" to \"{}\": {}"
@@ -871,7 +872,7 @@ msgstr "არასწორი TOML-ის ვერსია \"{}\", მო�
 msgid "{} state for \"{}\" not found."
 msgstr "{} მდგომარეობა \"{}\"-სთვის აღმოჩენილი არაა."
 
-#: system/state.cpp:498
+#: system/state.cpp:522
 msgid "Unsupported TOML version \"{}\", maximum supported version is \"{}\""
 msgstr ""
 "TOML-ის მხარდაუჭერელი ვერსია \"{}\". მაქსიმალური მხარდაჭერილი ვერსიაა \"{}\""
@@ -1006,8 +1007,8 @@ msgstr "შეცდომა integer64 -ის მნიშვნელობ�
 #: utils/sqlite3/sqlite3.cpp:35
 msgid "Binding unsigned integer32 value to SQL statement failed: \"{}\""
 msgstr ""
-"შეცდომა unsigned integer32-ის მნიშვნელობის SQL გამოსახულებაზე მიბმისას: \"{}"
-"\""
+"შეცდომა unsigned integer32-ის მნიშვნელობის SQL გამოსახულებაზე მიბმისას: "
+"\"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:37
 msgid "Binding double value to SQL statement failed: \"{}\""
@@ -1031,7 +1032,8 @@ msgstr "SQL გამოსახულების შეფასების 
 
 #: utils/sqlite3/sqlite3.cpp:44
 msgid "Insufficient memory or result exceed maximum SQLite3 string length"
-msgstr "არასაკმარისი მეხსიერება ან შედეგი SQLite3-ის სტრიქონის სიგრძეს აჭარბებს"
+msgstr ""
+"არასაკმარისი მეხსიერება ან შედეგი SQLite3-ის სტრიქონის სიგრძეს აჭარბებს"
 
 #: utils/sqlite3/sqlite3.cpp:46
 msgid "Column \"{}\" not found"
