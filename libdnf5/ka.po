@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-28 02:52+0000\n"
+"POT-Creation-Date: 2023-11-30 02:52+0000\n"
 "PO-Revision-Date: 2023-11-16 19:01+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -329,7 +329,7 @@ msgstr "გაფრთხილება: PGP-ით შემოწმებ�
 msgid "System error"
 msgstr "სისტემური შეცდომა"
 
-#: common/exception.cpp:178
+#: common/exception.cpp:199
 msgid "General RuntimeError exception"
 msgstr "ზოგადი RuntimeError გამონაკლისი"
 
@@ -673,15 +673,15 @@ msgid ""
 msgstr ""
 "რეპოზიტორიას \"{}\" წყარო (baseurl, mirrorlist ან metalink)მითითებული არ აქვს"
 
-#: repo/repo_pgp.cpp:62
+#: repo/repo_pgp.cpp:61
 msgid "Failed to import pgp keys into temporary keyring: {}"
 msgstr "ჩავარდა PGP გასაღებების შემოტანა დროებით ბრელოკში: {}"
 
-#: repo/repo_pgp.cpp:68 repo/repo_pgp.cpp:95
+#: repo/repo_pgp.cpp:67 repo/repo_pgp.cpp:94
 msgid "Failed to list pgp keys: {}"
 msgstr "PGP გასაღების ჩამოთვლა ჩავარდა: {}"
 
-#: repo/repo_pgp.cpp:142
+#: repo/repo_pgp.cpp:141
 msgid "Failed to import pgp keys: {}"
 msgstr "ჩავარდა შემოტანა PGP გასაღებებისთვის: {}"
 
@@ -723,21 +723,21 @@ msgstr "შეცდომა სისტემური რეპოზიტ�
 msgid "Failed to load {} cache for repo \"{}\" from \"{}\": {}"
 msgstr "შეცდომა {} კეშის ჩატვირთვისას რეპოზიტორიისთვის \"{}\" \"{}\"-დან: {}"
 
-#: repo/solv_repo.cpp:563
+#: repo/solv_repo.cpp:564
 msgid "Failed to write primary cache for repo \"{}\" to \"{}\": {}"
 msgstr "ძირითადი კეშის ჩაწერის პრობლემა რეპოზიტორიისთვის \"{}\" \"{}\"-ში: {}"
 
-#: repo/solv_repo.cpp:580
+#: repo/solv_repo.cpp:581
 msgid "Failed to re-load primary cache for repo \"{}\" from \"{}\": {}"
 msgstr ""
 "ძირითადი კეშის თავიდან ჩატვირთვის პრობლემა რეპოზიტორიისთვის \"{}\" \"{}\"-"
 "დან: {}"
 
-#: repo/solv_repo.cpp:640
+#: repo/solv_repo.cpp:641
 msgid "Failed to write {} cache for repo \"{}\" to \"{}\": {}"
 msgstr "{} კეშის ჩაწერის პრობლემა რეპოზიტორიისთვის \"{}\" \"{}\"-ში: {}"
 
-#: repo/solv_repo.cpp:661
+#: repo/solv_repo.cpp:662
 msgid "Failed to re-load {} cache for repo \"{}\" from \"{}\": {}"
 msgstr ""
 "{} კეშის თავიდან ჩატვირთვის პრობლემა რეპოზიტორიისთვის \"{}\" \"{}\"-დან: {}"
@@ -938,6 +938,60 @@ msgstr "არასწორი ტრანზაქციის ელემ�
 #: transaction/transaction_item_type.cpp:28
 msgid "Invalid transaction item type: {}"
 msgstr "არასწორი ტრანზაქციის ელემენტის ტიპი: {}"
+
+#: utils/fs/file.cpp:84
+msgid "cannot open file"
+msgstr ""
+
+#: utils/fs/file.cpp:97
+msgid "cannot open file from fd"
+msgstr ""
+
+#: utils/fs/file.cpp:107
+msgid "cannot close file"
+msgstr ""
+
+#: utils/fs/file.cpp:137 utils/fs/file.cpp:166
+msgid "error reading file"
+msgstr ""
+
+#: utils/fs/file.cpp:152 utils/fs/file.cpp:178
+msgid "error writing file"
+msgstr ""
+
+#: utils/fs/file.cpp:187
+msgid "error flushing file"
+msgstr ""
+
+#: utils/fs/file.cpp:196
+msgid "error seeking in file"
+msgstr ""
+
+#: utils/fs/file.cpp:207
+msgid "error retrieving file position"
+msgstr ""
+
+#: utils/fs/file.cpp:260
+msgid "error reading a line from file"
+msgstr ""
+
+#: utils/fs/file.cpp:283
+msgid "error retrieving file descriptor"
+msgstr ""
+
+#: utils/fs/temp.cpp:42
+#, fuzzy
+#| msgid "Cannot set root directory \"{}\""
+msgid "cannot create temporary directory"
+msgstr "შეცდომა root საქაღალდის (\"{}\") დაყენებისას"
+
+#: utils/fs/temp.cpp:89
+msgid "cannot create temporary file"
+msgstr ""
+
+#: utils/fs/temp.cpp:142
+msgid "cannot close temporary file"
+msgstr ""
 
 #: utils/iniparser.cpp:126
 msgid "Missing ']' on line {}"
