@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-30 02:52+0000\n"
+"POT-Creation-Date: 2023-12-05 02:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,16 +23,16 @@ msgid ""
 "advisory prefix \"{}\""
 msgstr ""
 
-#: base/goal.cpp:383
+#: base/goal.cpp:387
 msgid "Unsupported argument for REMOVE action: {}"
 msgstr ""
 
 #. TODO(lukash) throw a proper exception
-#: base/goal.cpp:967
+#: base/goal.cpp:1098
 msgid "Incorrect configuration value for multilib_policy: {}"
 msgstr ""
 
-#: base/goal.cpp:2160
+#: base/goal.cpp:2306
 msgid "Failed to resolve modules."
 msgstr ""
 
@@ -249,68 +249,68 @@ msgstr ""
 msgid "Problem {}: "
 msgstr ""
 
-#: base/transaction.cpp:70
+#: base/transaction.cpp:71
 msgid "This transaction has been already run before."
 msgstr ""
 
-#: base/transaction.cpp:71
+#: base/transaction.cpp:72
 msgid "Cannot run transaction with resolving problems."
 msgstr ""
 
-#: base/transaction.cpp:72
+#: base/transaction.cpp:73
 msgid "Rpm transaction check failed."
 msgstr ""
 
-#: base/transaction.cpp:74
+#: base/transaction.cpp:75
 msgid ""
 "Failed to obtain rpm transaction lock. Another transaction is in progress."
 msgstr ""
 
-#: base/transaction.cpp:75
+#: base/transaction.cpp:76
 msgid "Rpm transaction failed."
 msgstr ""
 
-#: base/transaction.cpp:76
+#: base/transaction.cpp:77
 msgid "Signature verification failed."
 msgstr ""
 
-#: base/transaction.cpp:80
+#: base/transaction.cpp:81
 msgid "The repository does not have any PGP keys configured."
 msgstr ""
 
-#: base/transaction.cpp:81
+#: base/transaction.cpp:82
 msgid "Public key is not installed."
 msgstr ""
 
-#: base/transaction.cpp:82
+#: base/transaction.cpp:83
 msgid "Canceled by the user."
 msgstr ""
 
-#: base/transaction.cpp:83
+#: base/transaction.cpp:84
 msgid "Public key import failed."
 msgstr ""
 
-#: base/transaction.cpp:601
+#: base/transaction.cpp:620
 msgid "Invalid tsflag: {}"
 msgstr ""
 
-#: base/transaction.cpp:935
+#: base/transaction.cpp:954
 msgid "Public key \"{}\" is already present, not importing."
 msgstr ""
 
-#: base/transaction.cpp:956
+#: base/transaction.cpp:975
 msgid "An error occurred importing key \"{}\": {}"
 msgstr ""
 
-#: base/transaction.cpp:989
+#: base/transaction.cpp:1008
 msgid "PGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
 msgstr ""
 
-#: base/transaction.cpp:1016
+#: base/transaction.cpp:1035
 msgid "Import of the key didn't help, wrong key?"
 msgstr ""
 
-#: base/transaction.cpp:1034
+#: base/transaction.cpp:1053
 msgid "Warning: skipped PGP checks for {} package(s)."
 msgstr ""
 
@@ -862,11 +862,11 @@ msgstr ""
 msgid "Failed to insert record into table 'item' in history database"
 msgstr ""
 
-#: transaction/transaction.cpp:65
+#: transaction/transaction.cpp:66
 msgid "Invalid transaction state: {}"
 msgstr ""
 
-#: transaction/transaction.cpp:233
+#: transaction/transaction.cpp:234
 msgid "Transaction has already started!"
 msgstr ""
 
@@ -884,6 +884,18 @@ msgstr ""
 
 #: transaction/transaction_item_type.cpp:28
 msgid "Invalid transaction item type: {}"
+msgstr ""
+
+#: transaction/transaction_sr.cpp:55
+msgid "Transaction replay JSON serialized transaction input is empty"
+msgstr ""
+
+#: transaction/transaction_sr.cpp:63
+msgid "Error during transaction replay JSON parsing : {}"
+msgstr ""
+
+#: transaction/transaction_sr.cpp:73
+msgid "Incompatible major version: \"{}\", supported major version is \"{}\""
 msgstr ""
 
 #: utils/fs/file.cpp:84

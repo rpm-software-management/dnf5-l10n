@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-30 02:52+0000\n"
+"POT-Creation-Date: 2023-12-05 02:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -207,6 +207,18 @@ msgstr ""
 msgid "Reverse the order of transactions."
 msgstr ""
 
+#: commands/history/history_store.cpp:62
+msgid "File \"{}\" already exists, it will be overwritten.\n"
+msgstr ""
+
+#: commands/history/history_store.cpp:76
+msgid "No transactions selected for storing, exactly one required."
+msgstr ""
+
+#: commands/history/history_store.cpp:79
+msgid "Multiple transactions selected for storing, only one allowed."
+msgstr ""
+
 #: commands/history/transaction_id.cpp:32
 msgid ""
 "Invalid transaction ID range \"{}\", \"ID\" or \"ID..ID\" expected, where ID "
@@ -283,51 +295,51 @@ msgstr ""
 msgid "Cannot obtain address of symbol \"{}\": {}"
 msgstr ""
 
-#: main.cpp:179
+#: main.cpp:180
 msgid "Failed to expire repository cache in path \"{0}\": {1}"
 msgstr ""
 
-#: main.cpp:204
+#: main.cpp:205
 msgid "repofrompath: Incorrect repoid and path specification \"{}\""
 msgstr ""
 
-#: main.cpp:227
+#: main.cpp:228
 msgid "setopt: Badly formatted argument value \"{}\""
 msgstr ""
 
-#: main.cpp:234
+#: main.cpp:235
 msgid ""
 "setopt: Badly formatted argument value: Last key character cannot be '.': {}"
 msgstr ""
 
-#: main.cpp:246
+#: main.cpp:247
 msgid "setopt: \"{0}\": {1}"
 msgstr ""
 
-#: main.cpp:265
+#: main.cpp:266
 msgid "setvar: Badly formatted argument value \"{}\""
 msgstr ""
 
-#: main.cpp:272
+#: main.cpp:273
 msgid "setvar: {}"
 msgstr ""
 
-#: main.cpp:607 shared_options.cpp:90
+#: main.cpp:608 shared_options.cpp:90
 msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
 msgstr ""
 
-#: main.cpp:815
+#: main.cpp:817
 msgid "======== Main configuration: ========"
 msgstr ""
 
-#: main.cpp:856
+#: main.cpp:858
 msgid "======== \"{}\" repository configuration: ========"
 msgstr ""
 
-#: main.cpp:877
+#: main.cpp:879
 msgid "======== Variables: ========"
 msgstr ""
 
-#: main.cpp:995 main.cpp:1143
+#: main.cpp:997 main.cpp:1145
 msgid ". Add \"--help\" for more information about the arguments."
 msgstr ""
