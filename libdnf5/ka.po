@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-05 02:52+0000\n"
+"POT-Creation-Date: 2023-12-08 02:52+0000\n"
 "PO-Revision-Date: 2023-11-16 19:01+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -483,11 +483,15 @@ msgstr ""
 "შეყვანილი მნიშვნელობა \"{}\" დაშვებული არაა. ამ პარამეტრისთვის დაშვებული "
 "მნიშვნელობა რეგულარული გამოსახულება \"{}\"-ის მიერ განისაზღვრება"
 
-#: conf/vars.cpp:62
+#: conf/vars.cpp:64
 msgid "failed to read rpm config files"
 msgstr "rpm-ის კონფიგურაციის ფაილების წაკითხვის შეცდომა"
 
-#: conf/vars.cpp:321
+#: conf/vars.cpp:90
+msgid "Failed to execute uname()"
+msgstr ""
+
+#: conf/vars.cpp:355
 msgid "Variable \"{}\" is read-only"
 msgstr "ცვლადი '{}' მხოლოდ-კითხვადია"
 
@@ -685,7 +689,7 @@ msgstr "PGP გასაღების ჩამოთვლა ჩავარ
 msgid "Failed to import pgp keys: {}"
 msgstr "ჩავარდა შემოტანა PGP გასაღებებისთვის: {}"
 
-#: repo/repo_sack.cpp:82
+#: repo/repo_sack.cpp:83
 msgid ""
 "Failed to create repo \"{}\": Id is present more than once in the "
 "configuration"
@@ -693,7 +697,7 @@ msgstr ""
 "რეპოს \"{}\" შექმნა ჩავარდა: კონფიგურაციაში, ეს ID-ები, ერთზე მეტჯერაა "
 "ნახსენები"
 
-#: repo/repo_sack.cpp:404
+#: repo/repo_sack.cpp:417
 msgid "Cache-only enabled but no cache for repository \"{}\""
 msgstr "მხოლოდ-კეში ჩართულია, მაგრამ რეპოზიტორიას \"{}\" კეში არ გააჩნია"
 
@@ -733,11 +737,11 @@ msgstr ""
 "ძირითადი კეშის თავიდან ჩატვირთვის პრობლემა რეპოზიტორიისთვის \"{}\" \"{}\"-"
 "დან: {}"
 
-#: repo/solv_repo.cpp:641
+#: repo/solv_repo.cpp:645
 msgid "Failed to write {} cache for repo \"{}\" to \"{}\": {}"
 msgstr "{} კეშის ჩაწერის პრობლემა რეპოზიტორიისთვის \"{}\" \"{}\"-ში: {}"
 
-#: repo/solv_repo.cpp:662
+#: repo/solv_repo.cpp:666
 msgid "Failed to re-load {} cache for repo \"{}\" from \"{}\": {}"
 msgstr ""
 "{} კეშის თავიდან ჩატვირთვის პრობლემა რეპოზიტორიისთვის \"{}\" \"{}\"-დან: {}"
