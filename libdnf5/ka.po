@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-08 02:52+0000\n"
+"POT-Creation-Date: 2023-12-12 02:52+0000\n"
 "PO-Revision-Date: 2023-11-16 19:01+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -494,6 +494,12 @@ msgstr ""
 #: conf/vars.cpp:355
 msgid "Variable \"{}\" is read-only"
 msgstr "ცვლადი '{}' მხოლოდ-კითხვადია"
+
+#: logger/rotating_file_logger.cpp:59
+#, fuzzy
+#| msgid "Failed to open lock file \"{}\""
+msgid "Cannot open log file"
+msgstr "შეცდომა დაბლოკვის ფაილის \"{}\" გახსნისას"
 
 #: module/module_db.cpp:76 module/module_db.cpp:85 module/module_sack.cpp:764
 msgid "No such module: {}"
