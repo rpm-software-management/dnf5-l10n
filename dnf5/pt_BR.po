@@ -2,149 +2,171 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Rafael Fontenelle <rafaelff@gnome.org>, 2024.
+# Fábio Rodrigues Ribeiro <farribeiro@gmail.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-09 02:52+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-01-11 17:37+0000\n"
+"Last-Translator: Fábio Rodrigues Ribeiro <farribeiro@gmail.com>\n"
+"Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
+"projects/dnf5/dnf5/pt_BR/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.3.1\n"
 
 #: commands/advisory/advisory_info.hpp:33
 msgid "Print details about advisories"
-msgstr ""
+msgstr "Imprime detalhes sobre os avisos"
 
 #: commands/advisory/advisory_list.hpp:33
 msgid "List advisories"
-msgstr ""
+msgstr "Liste os avisos"
 
 #: commands/advisory/advisory_summary.cpp:44
 msgid "All"
-msgstr ""
+msgstr "Todos"
 
 #: commands/advisory/advisory_summary.cpp:48
 msgid "Installed"
-msgstr ""
+msgstr "Instalado"
 
 #: commands/advisory/advisory_summary.cpp:52
 msgid "Updates"
-msgstr ""
+msgstr "Atualizações"
 
 #: commands/advisory/advisory_summary.cpp:65
 msgid "Available"
-msgstr ""
+msgstr "Disponível"
 
 #: commands/advisory/advisory_summary.hpp:33
 msgid "Print summary of advisories"
-msgstr ""
+msgstr "Imprime um resumo dos avisos"
 
 #: commands/advisory/arguments.hpp:34
 msgid "Show advisories containing any version of installed packages."
-msgstr ""
+msgstr "Mostre os avisos que contenham qualquer versão dos pacotes instalados."
 
 #: commands/advisory/arguments.hpp:45
 msgid "Show advisories containing newer versions of installed packages."
 msgstr ""
+"Mostre os avisos que contenham versões mais recentes dos pacotes instalados."
 
 #: commands/advisory/arguments.hpp:57
 msgid ""
 "Show advisories containing equal and older versions of installed packages."
 msgstr ""
+"Mostre os avisos que contenham versões iguais e mais antigas dos pacotes "
+"instalados."
 
 #: commands/advisory/arguments.hpp:69
 msgid ""
 "Show advisories containing newer versions of installed packages for which a "
 "newer version is available."
 msgstr ""
+"Mostre os avisos que contenham versões mais recentes dos pacotes instalados "
+"para os quais uma versão mais recente está disponível."
 
 #: commands/advisory/arguments.hpp:82
 msgid ""
 "Show only advisories containing packages with specified names. List option, "
 "supports globs."
 msgstr ""
+"Mostre apenas os avisos que contenham pacotes com nomes específicos. Opção "
+"de lista, suporta caracteres curinga."
 
 #: commands/advisory/arguments.hpp:83
+#, fuzzy
 msgid "PACKAGE_NAME,..."
-msgstr ""
+msgstr "PACKAGE_NAME,..."
 
 #: commands/advisory/arguments.hpp:90
 msgid "List of patterns matched against advisory names."
-msgstr ""
+msgstr "Liste de padrões correspondentes aos nomes dos avisos."
 
 #: commands/advisory/arguments.hpp:100
 msgid "Show only advisories referencing a bugzilla."
-msgstr ""
+msgstr "Mostre apenas os avisos que fazem referência a um bugzilla."
 
 #: commands/advisory/arguments.hpp:107
 msgid "Show only advisories referencing a CVE."
-msgstr ""
+msgstr "Mostre apenas os avisos que fazem referência a um CVE."
 
 #: commands/advisory_shared.hpp:113
 msgid "Limit to packages in advisories with specified name. List option."
-msgstr ""
+msgstr "Limite para pacotes em avisos com o nome especificado. Opção de lista."
 
 #: commands/advisory_shared.hpp:114
+#, fuzzy
 msgid "ADVISORY_NAME,..."
-msgstr ""
+msgstr "ADVISORY_NAME,..."
 
 #: commands/advisory_shared.hpp:121
 msgid "Limit to packages in security advisories."
-msgstr ""
+msgstr "Limite para pacotes em avisos de segurança."
 
 #: commands/advisory_shared.hpp:128
 msgid "Limit to packages in bugfix advisories."
-msgstr ""
+msgstr "Limite para pacotes em avisos de correção de bugs."
 
 #: commands/advisory_shared.hpp:135
 msgid "Limit to packages in enhancement advisories."
-msgstr ""
+msgstr "Limite para pacotes em avisos de melhorias."
 
 #: commands/advisory_shared.hpp:142
 msgid "Limit to packages in newpackage advisories."
-msgstr ""
+msgstr "Limite para pacotes em avisos de novos pacotes."
 
 #: commands/advisory_shared.hpp:153
 msgid ""
 "Limit to packages in advisories with specified severity. List option. Can be "
 "\"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgstr ""
+"Limite para pacotes em avisos com a gravidade especificada. Opção de lista. "
+"Pode ser \"crítico\", \"importante\", \"moderado\", \"baixo\" ou \"nenhum\"."
 
 #: commands/advisory_shared.hpp:155
+#, fuzzy
 msgid "ADVISORY_SEVERITY,..."
-msgstr ""
+msgstr "ADVISORY_SEVERITY,..."
 
 #: commands/advisory_shared.hpp:179
 msgid ""
 "Limit to packages in advisories that fix a Bugzilla ID, Eg. 123123. List "
 "option."
 msgstr ""
+"Limite para pacotes em avisos que corrigem um Bugzilla ID, ex. 123123. Opção "
+"de lista."
 
 #: commands/advisory_shared.hpp:180
+#, fuzzy
 msgid "BUGZILLA_ID,..."
-msgstr ""
+msgstr "BUGZILLA_ID,..."
 
 #: commands/advisory_shared.hpp:190
 msgid ""
 "Limit to packages in advisories that fix a CVE (Common Vulnerabilities and "
 "Exposures) ID, Eg. CVE-2201-0123. List option."
 msgstr ""
+"Limite para pacotes em avisos que corrigem um ID de CVE (Common "
+"Vulnerabilities and Exposures), ex. CVE-2201-0123. Opção de lista."
 
 #: commands/advisory_shared.hpp:192
+#, fuzzy
 msgid "CVE_ID,..."
-msgstr ""
+msgstr "CVE_ID,..."
 
 #: commands/check/check.cpp:335
 msgid "Check discovered {} problem(s) in {} package(s)"
-msgstr ""
+msgstr "Verifique {} problema(s) descoberto(s) em {} pacote(s)"
 
 #: commands/clean/clean.cpp:86
 msgid "List of cache types to clean up. Supported types: {0}"
-msgstr ""
+msgstr "Lista de tipos de cache para limpar. Tipos suportados: {0}"
 
 #: commands/clean/clean.cpp:104
 msgid "Unknown cache type \"{0}\". Supported types: {1}"
@@ -203,7 +225,7 @@ msgstr ""
 
 #: commands/history/arguments.hpp:34
 msgid "Transaction ID"
-msgstr ""
+msgstr "ID da Transação"
 
 #: commands/history/arguments.hpp:41
 msgid "Reverse the order of transactions."
