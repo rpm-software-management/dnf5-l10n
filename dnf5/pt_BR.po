@@ -9,9 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-09 02:52+0000\n"
-"PO-Revision-Date: 2024-01-11 22:23+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2024-01-12 03:36+0000\n"
+"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf5/dnf5/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -188,7 +187,7 @@ msgstr "Mostra apenas ambientes instalados."
 
 #: commands/environment/arguments.hpp:47
 msgid "Pattern matching environment IDs."
-msgstr "IDs de ambiente de correspondência de padrão."
+msgstr "Padrão correspondendo a IDs de ambientes."
 
 #: commands/group/arguments.hpp:34
 msgid "Show only available groups."
@@ -200,180 +199,190 @@ msgstr "Mostra também grupos ocultos."
 
 #: commands/group/arguments.hpp:48
 msgid "Show only installed groups."
-msgstr "mostrar somente os grupos instalados"
+msgstr "Mostra somente os grupos instalados."
 
 #: commands/group/arguments.hpp:59
 msgid ""
 "Show only groups containing packages with specified names. List option, "
 "supports globs."
 msgstr ""
+"Mostra apenas grupos contendo pacotes com nomes especificados. Opção de "
+"lista, suporta caracteres curinga."
 
 #: commands/group/arguments.hpp:67
 msgid "Pattern matching group IDS."
-msgstr ""
+msgstr "Padrão correspondendo a IDs de grupos."
 
 #: commands/group/arguments.hpp:76
 msgid "Include optional packages from group."
-msgstr ""
+msgstr "Inclui pacotes opcionais do grupo."
 
 #: commands/group/arguments.hpp:83
 msgid "Operate on groups only, no packages are changed."
-msgstr ""
+msgstr "Opera em apenas grupos, nenhum pacotes são alteradas."
 
 #: commands/history/arguments.hpp:34
 msgid "Transaction ID"
-msgstr "ID da Transação"
+msgstr "ID da transação"
 
 #: commands/history/arguments.hpp:41
 msgid "Reverse the order of transactions."
-msgstr ""
+msgstr "Inverte a ordem das transações."
 
 #: commands/history/history_store.cpp:62
 msgid "File \"{}\" already exists, it will be overwritten.\n"
-msgstr ""
+msgstr "O arquivo \"{}\" já existe, ele será sobrescritos.\n"
 
 #: commands/history/history_store.cpp:76
 msgid "No transactions selected for storing, exactly one required."
-msgstr ""
+msgstr "Nenhuma transação selecionada para armazenar, exatamente uma é exigida."
 
 #: commands/history/history_store.cpp:79
 msgid "Multiple transactions selected for storing, only one allowed."
-msgstr ""
+msgstr "Várias transações selecionadas para armazenar, apenas uma é permitida."
 
 #: commands/history/transaction_id.cpp:32
 msgid ""
 "Invalid transaction ID range \"{}\", \"ID\" or \"ID..ID\" expected, where ID "
 "is \"NUMBER\", \"last\" or \"last-NUMBER\"."
 msgstr ""
+"Esperava-se ID de transação de intervalo inválido \"{}\", \"ID\" ou \"ID.."
+"ID\", onde ID é \"NUMBER\", \"last\" ou \"last-NUMBER\"."
 
 #: commands/list/list.cpp:256
 msgid "No matching packages to list"
-msgstr ""
+msgstr "Nenhum pacote correspondente para listar"
 
 #: commands/module/arguments.hpp:36
 msgid "Show enabled modules."
-msgstr ""
+msgstr "Mostra módulos habilitados."
 
 #: commands/module/arguments.hpp:43
 msgid "Show disabled modules."
-msgstr ""
+msgstr "Mostra nódulos desabilitados."
 
 #: commands/module/arguments.hpp:50
 msgid "Pattern matching module NSVCAs."
-msgstr ""
+msgstr "Padrão correspondendo a NSVCAs de módulos."
 
 #: commands/module/module_list.cpp:84
 msgid "No matches found for \"{}\"."
-msgstr ""
+msgstr "Nenhuma correspondência encontrada para \"{}\"."
 
 #: commands/repo/arguments.hpp:35
 msgid "Show all repositories."
-msgstr ""
+msgstr "Mostra todos os repositórios."
 
 #: commands/repo/arguments.hpp:42
 msgid "Show enabled repositories (default)."
-msgstr ""
+msgstr "Mostra repositórios habilitados (padrão)."
 
 #: commands/repo/arguments.hpp:49
 msgid "Show disabled repositories."
-msgstr ""
+msgstr "Mostra repositórios desabilitados."
 
 #: commands/repo/arguments.hpp:56
 msgid "Pattern matching repo IDs."
-msgstr ""
+msgstr "Padrão correspondendo a IDs de repositórios."
 
 #: commands/repoquery/repoquery.cpp:514
 msgid ""
 "Option \"--exactdeps\" has to be used either with \"--whatrequires\" or \"--"
 "whatdepends\""
 msgstr ""
+"A opção \"--exactdeps\" tem que ser usada com \"--whatrequires\" ou \"--"
+"whatdepends\""
 
 #: commands/repoquery/repoquery.cpp:519
 msgid ""
 "Option \"--recursive\" has to be used either with \"--whatrequires\" or \"--"
 "providers-of=requires\""
 msgstr ""
+"A opção \"--recursive\" tem que ser usada com \"--whatrequires\" ou \""
+"--providers-of=requires\""
 
 #: commands/search/arguments.hpp:37
 msgid "Search also package description and URL."
-msgstr ""
+msgstr "Pesquisa também a URL e a descrição do pacote."
 
 #: commands/search/arguments.hpp:45
 msgid "Patterns"
-msgstr ""
+msgstr "Padrões"
 
 #: context.cpp:80
 msgid "The key was successfully imported."
-msgstr ""
+msgstr "A chave foi importada com sucesso."
 
 #: context.cpp:126
 msgid "No matching repositories for \"{}\""
-msgstr ""
+msgstr "Nenhum repositório correspondente para \"{}\""
 
 #: include/dnf5/shared_options.hpp:33
 msgid "Allow erasing of installed packages to resolve problems"
-msgstr ""
+msgstr "Permite apagar pacotes instalados para resolver problemas"
 
 #: include/dnf5/shared_options.hpp:43
 msgid "Allow resolving of depsolve problems by skipping packages"
-msgstr ""
+msgstr "Permite resolver problemas com dependências pulando pacotes"
 
 #: include/dnf5/shared_options.hpp:55
 msgid "Allow skipping unavailable packages"
-msgstr ""
+msgstr "Permite pular pacotes indisponíveis"
 
 #: library.cpp:33
 msgid "Cannot load shared library \"{}\": {}"
-msgstr ""
+msgstr "Não foi possível carregar a biblioteca compartilhada \"{}\": {}"
 
 #: library.cpp:48
 msgid "Cannot obtain address of symbol \"{}\": {}"
-msgstr ""
+msgstr "Não foi possível obter o endereço de símbolo \"{}\": {}"
 
 #: main.cpp:179
 msgid "Failed to expire repository cache in path \"{0}\": {1}"
-msgstr ""
+msgstr "Falha ao expirar o cache do repositório no caminho \"{0}\": {1}"
 
 #: main.cpp:204
 msgid "repofrompath: Incorrect repoid and path specification \"{}\""
-msgstr ""
+msgstr "repofrompath: especificação de repoid e caminho incorretos \"{}\""
 
 #: main.cpp:227
 msgid "setopt: Badly formatted argument value \"{}\""
-msgstr ""
+msgstr "setopt: Formatação inválida no valor de argumento \"{}\""
 
 #: main.cpp:234
 msgid ""
 "setopt: Badly formatted argument value: Last key character cannot be '.': {}"
 msgstr ""
+"setopt: Formatação inválida no valor de argumento: O último caractere da "
+"chave não pode ser '.': {}"
 
 #: main.cpp:246
 msgid "setopt: \"{0}\": {1}"
-msgstr ""
+msgstr "setopt: \"{0}\": {1}"
 
 #: main.cpp:265
 msgid "setvar: Badly formatted argument value \"{}\""
-msgstr ""
+msgstr "setvar: Formatação inválida no valor de argumento \"{}\""
 
 #: main.cpp:272
 msgid "setvar: {}"
-msgstr ""
+msgstr "setvar: {}"
 
 #: main.cpp:607 shared_options.cpp:90
 msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
-msgstr ""
+msgstr "Sem suporte à arquitetura \"{0}. Escolha uma entre {1}"
 
 #: main.cpp:816
 msgid "======== Main configuration: ========"
-msgstr ""
+msgstr "====== Configuração principal: ======"
 
 #: main.cpp:857
 msgid "======== \"{}\" repository configuration: ========"
-msgstr ""
+msgstr "====== Configuração do repositório \"{}\": ======="
 
 #: main.cpp:878
 msgid "======== Variables: ========"
-msgstr ""
+msgstr "======== Variáveis: ========"
 
 #: main.cpp:996 main.cpp:1149
 msgid ". Add \"--help\" for more information about the arguments."
