@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-09 02:52+0000\n"
-"PO-Revision-Date: 2024-01-11 22:23+0000\n"
+"PO-Revision-Date: 2024-01-13 02:47+0000\n"
 "Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/sv/>\n"
@@ -25,7 +25,7 @@ msgstr "Skriv ut detaljer om rekommendationer"
 
 #: commands/advisory/advisory_list.hpp:33
 msgid "List advisories"
-msgstr "Lista varningar"
+msgstr "Lista rekommendationer"
 
 #: commands/advisory/advisory_summary.cpp:44
 msgid "All"
@@ -49,33 +49,36 @@ msgstr "Skriv ut en sammanfattning av rekommendationer"
 
 #: commands/advisory/arguments.hpp:34
 msgid "Show advisories containing any version of installed packages."
-msgstr "Visa varningar som innehåller valfri version av installerade paket."
+msgstr ""
+"Visa rekommendationer som innehåller någon version av installerade paket."
 
 #: commands/advisory/arguments.hpp:45
 msgid "Show advisories containing newer versions of installed packages."
-msgstr "Visa varningar som innehåller nyare versioner av installerade paket."
+msgstr ""
+"Visa rekommendationer som innehåller nyare versioner av installerade paket."
 
 #: commands/advisory/arguments.hpp:57
 msgid ""
 "Show advisories containing equal and older versions of installed packages."
 msgstr ""
-"Visa varningar som innehåller lika och äldre versioner av installerade paket."
+"Visa rekommendationer som innehåller samma eller äldre versioner av "
+"installerade paket."
 
 #: commands/advisory/arguments.hpp:69
 msgid ""
 "Show advisories containing newer versions of installed packages for which a "
 "newer version is available."
 msgstr ""
-"Visa varningar som innehåller nyare versioner av installerade paket för "
-"vilka en nyare version är tillgänglig."
+"Visa rekommendationer som innehåller nyare versioner av installerade paket "
+"för vilka en nyare version är tillgänglig."
 
 #: commands/advisory/arguments.hpp:82
 msgid ""
 "Show only advisories containing packages with specified names. List option, "
 "supports globs."
 msgstr ""
-"Visa endast varningar som innehåller paket med specificerade namn. "
-"Listalternativ, stöder globs."
+"Visa endast rekommendationer som innehåller paket med angivna namn. "
+"Listaflagga, stödjer ”glob”:ar."
 
 #: commands/advisory/arguments.hpp:83
 msgid "PACKAGE_NAME,..."
@@ -83,61 +86,60 @@ msgstr "PAKET_NAMN,..."
 
 #: commands/advisory/arguments.hpp:90
 msgid "List of patterns matched against advisory names."
-msgstr "Lista över mönster som matchas med varningsnamn."
+msgstr "Lista av mönster matchade mot rekommendationsnamn."
 
 #: commands/advisory/arguments.hpp:100
 msgid "Show only advisories referencing a bugzilla."
-msgstr "Visa endast varningar som hänvisar till en bugzilla."
+msgstr "Visa endast rekommendationer som refererar en bugzilla."
 
 #: commands/advisory/arguments.hpp:107
 msgid "Show only advisories referencing a CVE."
-msgstr "Visa endast varningar som hänvisar till en CVE."
+msgstr "Visa endast rekommendationer som refererar en CVE."
 
 #: commands/advisory_shared.hpp:113
 msgid "Limit to packages in advisories with specified name. List option."
 msgstr ""
-"Begränsa till paket som har varningar med specificerat namn. Listalternativ."
+"Begränsa till paket som har rekommendationer med angivna namn. Listflagga."
 
 #: commands/advisory_shared.hpp:114
 msgid "ADVISORY_NAME,..."
-msgstr "VARNINGS_NAMN,..."
+msgstr "REKOMMENDATIONSNAMN,…"
 
 #: commands/advisory_shared.hpp:121
 msgid "Limit to packages in security advisories."
-msgstr "Begränsa till paket med säkerhetsvarningar."
+msgstr "Begränsa till paket i säkerhetsrekommendationer."
 
 #: commands/advisory_shared.hpp:128
 msgid "Limit to packages in bugfix advisories."
-msgstr "Begränsa till paket med buggfixvarningar."
+msgstr "Begränsa till paket i felrättningsrekommendationer."
 
 #: commands/advisory_shared.hpp:135
 msgid "Limit to packages in enhancement advisories."
-msgstr "Begränsa till paket med förbättringsvarningar."
+msgstr "Begränsa till paket i förbättringsrekommendationer."
 
 #: commands/advisory_shared.hpp:142
 msgid "Limit to packages in newpackage advisories."
-msgstr "Begränsa till paket med nya paket varningar."
+msgstr "Begränsa till paket i nya pakets-rekommendationer."
 
 #: commands/advisory_shared.hpp:153
 msgid ""
 "Limit to packages in advisories with specified severity. List option. Can be "
 "\"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgstr ""
-"Begränsa till paket med varningar av en specificerad allvarlighetsgrad. "
-"Listalternativ. Kan vara \"kritisk\", \"viktig\", \"måttlig\", \"låg\", "
-"\"ingen\"."
+"Begränsa till paket i rekommendationer med den angivna allvarlighetsgraden. "
+"Listflagga. Kan vara ”critical”, ”important”, ”moderate”, ”low”, ”none”."
 
 #: commands/advisory_shared.hpp:155
 msgid "ADVISORY_SEVERITY,..."
-msgstr "VARNING_ALLVARLIGHETSGRAD,..."
+msgstr "REKOMMENDATIONSALLVARLIGHET,…"
 
 #: commands/advisory_shared.hpp:179
 msgid ""
 "Limit to packages in advisories that fix a Bugzilla ID, Eg. 123123. List "
 "option."
 msgstr ""
-"Begränsa till paket i varningar som fixar ett Bugzilla ID, t.e.x. 123123. "
-"Listalternativ."
+"Begränsa till paket i rekommendationer som löser ett Bugzilla-ID, t.ex. "
+"123123. Listflagga."
 
 #: commands/advisory_shared.hpp:180
 msgid "BUGZILLA_ID,..."
@@ -148,8 +150,8 @@ msgid ""
 "Limit to packages in advisories that fix a CVE (Common Vulnerabilities and "
 "Exposures) ID, Eg. CVE-2201-0123. List option."
 msgstr ""
-"Begränsa till paket med varningar som fixar en CVE (Vanliga sårbarheter och "
-"exponeringar) ID, t.ex. CVE-2201-0123. Listalternativ."
+"Begränsa till paket med rekommendationer som fixar en CVE (Vanliga "
+"sårbarheter och exponeringar) ID, t.ex. CVE-2201-0123. Listflagga."
 
 #: commands/advisory_shared.hpp:192
 msgid "CVE_ID,..."
