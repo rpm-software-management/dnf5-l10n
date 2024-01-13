@@ -8,9 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-13 02:52+0000\n"
-"PO-Revision-Date: 2024-01-13 22:00+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2024-01-14 12:42+0000\n"
+"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf5/libdnf5/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -331,174 +330,185 @@ msgstr "Aviso: ignoradas as verificações de PGP para {} pacote(s)."
 
 #: common/exception.cpp:78
 msgid "System error"
-msgstr "Erro do sistema"
+msgstr "Erro no sistema"
 
 #: common/exception.cpp:199
 msgid "General RuntimeError exception"
-msgstr ""
+msgstr "Exceção geral RuntimeError"
 
 #: common/sack/query.cpp:27
 msgid "Query must contain exactly one object."
-msgstr ""
+msgstr "A consulta deve conter exatamente um objeto."
 
 #: common/xdg.cpp:43
 msgid "get_user_home_dir(): Cannot determine the user's home directory"
 msgstr ""
+"get_user_home_dir(): Não é possível determinar o diretório pessoal (home) do "
+"usuário"
 
 #: common/xdg.cpp:98
 msgid "get_user_runtime_dir(): Cannot determine the user's runtime directory"
 msgstr ""
+"get_user_runtime_dir(): Não é possível determinar o diretório de tempo de "
+"execução (runtime) do usuário"
 
 #: comps/environment/environment.cpp:252
 msgid "failed to save xml document for comps"
-msgstr ""
+msgstr "falha ao salvar o documento xml para comps"
 
 #: comps/group/group.cpp:283
 msgid "Failed to save xml document for group \"{}\" to file \"{}\": {}"
-msgstr ""
+msgstr "Falha ao salvar o documento xml do grupo \"{}\" no arquivo \"{}\": {}"
 
 #: comps/group/package.cpp:31 comps/group/package.cpp:34
 msgid "Invalid package type: {}"
-msgstr ""
+msgstr "Tipo de pacote inválido: {}"
 
 #: conf/config_main.cpp:53
 msgid "Input is empty. Must contain a value."
-msgstr ""
+msgstr "A entrada está vazia. Deve conter um valor."
 
 #: conf/config_main.cpp:59
 msgid "Input value '{}' must not be negative"
-msgstr ""
+msgstr "O valor de entrada '{}' não deve ser negativo"
 
 #: conf/config_main.cpp:64
 msgid "Could not convert '{}' to bytes"
-msgstr ""
+msgstr "Não foi possível converter '{}' em bytes"
 
 #: conf/config_main.cpp:80
 msgid "Unknown unit '{}'"
-msgstr ""
+msgstr "Unidade desconhecida '{}'"
 
 #: conf/config_main.cpp:327
 msgid "The throttle value {} is outside the allowed range {} ... {}"
-msgstr ""
+msgstr "O valor de aceleração {} está fora do intervalo permitido {} ... {}"
 
 #: conf/config_parser.cpp:53
 msgid "Section \"{}\" not found"
-msgstr ""
+msgstr "Seção \"{}\" não encontrada"
 
 #: conf/config_parser.cpp:58
 msgid "Section \"{}\" does not contain option \"{}\""
-msgstr ""
+msgstr "A seção \"{}\" não contém a opção \"{}\""
 
 #: conf/config_parser.cpp:66
 msgid "Configuration file \"{}\" not found"
-msgstr ""
+msgstr "Arquivo de configuração \"{}\" não encontrado"
 
 #: conf/config_parser.cpp:68
 msgid "Unable to access configuration file \"{}\""
-msgstr ""
+msgstr "Não é possível acessar o arquivo de configuração \"{}\""
 
 #: conf/config_parser.cpp:71
 msgid "Error in configuration file \"{}\""
-msgstr ""
+msgstr "Erro no arquivo de configuração \"{}\""
 
 #: conf/option_binds.cpp:29
 msgid "Option \"{}\" not found"
-msgstr ""
+msgstr "Opção \"{}\" não encontrada"
 
 #: conf/option_binds.cpp:32
 msgid "Option \"{}\" already exists"
-msgstr ""
+msgstr "A opção \"{}\" já existe"
 
 #: conf/option_bool.cpp:84
 msgid "Invalid boolean value \"{}\""
-msgstr ""
+msgstr "Valor booleano \"{}\" inválido"
 
 #: conf/option_enum.cpp:79 conf/option_enum.cpp:164
 msgid "Enum option value \"{}\" not allowed"
-msgstr ""
+msgstr "Valor da opção enum \"{}\" não permitido"
 
 #: conf/option_enum.cpp:92
 msgid "Invalid enum option value \"{}\""
-msgstr ""
+msgstr "Valor de opção enum inválido \"{}\""
 
 #: conf/option_number.cpp:76
 msgid "Input value {} is outside the allowed range {} ... {}"
-msgstr ""
+msgstr "O valor de entrada {} está fora do intervalo permitido {} ... {}"
 
 #: conf/option_number.cpp:89
 msgid "Invalid number option value \"{}\""
-msgstr ""
+msgstr "Valor de opção de número inválido \"{}\""
 
 #: conf/option_path.cpp:81
 msgid "Only absolute paths allowed, relative path \"{}\" detected"
 msgstr ""
+"Somente caminhos absolutos permitidos, caminho relativo \"{}\" detectado"
 
 #: conf/option_path.cpp:86
 msgid "Path \"{}\" does not exist"
-msgstr ""
+msgstr "O caminho \"{}\" não existe"
 
 #: conf/option_seconds.cpp:38
 msgid "Empty time option value"
-msgstr ""
+msgstr "Valor vazio da opção de tempo"
 
 #: conf/option_seconds.cpp:50
 msgid "Invalid time option value \"{}\", number or \"never\" expected"
-msgstr ""
+msgstr "Valor de opção de tempo inválido \"{}\", número ou \"never\" esperado"
 
 #: conf/option_seconds.cpp:54
 msgid ""
 "Invalid time option value \"{}\", negative values except \"-1\" not allowed"
 msgstr ""
+"Valor de opção de tempo inválido \"{}\", valores negativos exceto \"-1\" não "
+"são permitidos"
 
 #: conf/option_seconds.cpp:59
 msgid "Unknown time format \"{}\""
-msgstr ""
+msgstr "Formato de hora desconhecido \"{}\""
 
 #: conf/option_seconds.cpp:78
 msgid "Unknown time unit '{}'"
-msgstr ""
+msgstr "Unidade de hora desconhecida \"{}\""
 
 #: conf/option_string.cpp:72
 msgid ""
 "Input value \"{}\" not allowed, allowed values for this option are defined "
 "by regular expression \"{}\""
 msgstr ""
+"Valor de entrada \"{}\" não permitido, os valores permitidos para esta opção "
+"são definidos pela expressão regular \"{}\""
 
 #. TODO(jrohel): We don't know the option name at this time. Add a text name to the options
 #. or extend exception (add name) in upper layer.
 #: conf/option_string.cpp:97
 msgid "Option value is not set"
-msgstr ""
+msgstr "O valor da opção não está definido"
 
 #: conf/option_string_list.cpp:118
 msgid ""
 "Input item value \"{}\" not allowed, allowed values for this option are "
 "defined by regular expression \"{}\""
 msgstr ""
+"O valor do item de entrada \"{}\" não é permitido, os valores permitidos "
+"para esta opção são definidos pela expressão regular \"{}\""
 
 #: conf/vars.cpp:64
 msgid "failed to read rpm config files"
-msgstr ""
+msgstr "falha ao ler os arquivos de configuração rpm"
 
 #: conf/vars.cpp:90
 msgid "Failed to execute uname()"
-msgstr ""
+msgstr "Falha ao executar uname()"
 
 #: conf/vars.cpp:355
 msgid "Variable \"{}\" is read-only"
-msgstr ""
+msgstr "A variável \"{}\" é somente leitura"
 
 #: logger/rotating_file_logger.cpp:59
 msgid "Cannot open log file"
-msgstr ""
+msgstr "Não é possível abrir o arquivo de log"
 
 #: module/module_db.cpp:76 module/module_db.cpp:85 module/module_sack.cpp:764
 msgid "No such module: {}"
-msgstr ""
+msgstr "Esse módulo não existe: {}"
 
 #: module/module_db.cpp:268
 msgid "Cannot enable multiple streams for module '{}'"
-msgstr ""
+msgstr "Não é possível habilitar vários fluxos para o módulo '{}'"
 
 #. TODO(pkratoch) replace with a proper and descriptive exception
 #. TODO(jmracek) else if (removalOfProtected && removalOfProtected->size()) {
@@ -513,73 +523,75 @@ msgstr ""
 
 #: module/module_metadata.cpp:102
 msgid "Failed to update from string: {}"
-msgstr ""
+msgstr "Falha ao atualizar da string: {}"
 
 #: module/module_metadata.cpp:129
 msgid "Failed to resolve: {}"
-msgstr ""
+msgstr "Falha ao resolver: {}"
 
 #: module/module_metadata.cpp:139
 msgid "Failed to upgrade defaults: {}"
-msgstr ""
+msgstr "Falha ao atualizar padrões: {}"
 
 #: module/module_metadata.cpp:143
 msgid "Failed to upgrade streams: {}"
-msgstr ""
+msgstr "Falha ao atualizar fluxos: {}"
 
 #: module/module_sack.cpp:92
 msgid "Failed to load module metadata for repository \"{}\": {}"
-msgstr ""
+msgstr "Falha ao carregar metadados do módulo para o repositório \"{}\": {}"
 
 #: module/module_sack.cpp:591
 msgid "Missing '='"
-msgstr ""
+msgstr "Faltando '='"
 
 #: module/module_sack.cpp:595 module/module_sack.cpp:603
 msgid "Missing '\"' in the value"
-msgstr ""
+msgstr "Faltando '\"' no valor"
 
 #: module/module_sack.cpp:599
 msgid "Missing ':' in the value"
-msgstr ""
+msgstr "Faltando ':' no valor"
 
 #: module/module_sack.cpp:830
 msgid "Invalid module status: {}"
-msgstr ""
+msgstr "Status de módulo inválido: {}"
 
 #: plugin/plugins.cpp:64
 msgid ""
 "Unsupported plugin API combination. API version provided by plugin "
 "\"{}\" (\"{}\") is \"{}.{}\". API version in libdnf is \"{}.{}\"."
 msgstr ""
+"Combinação de API de plug-in não suportada. A versão da API fornecida pelo "
+"plug-in \"{}\" (\"{}\") é \"{}.{}\". A versão da API em libdnf é \"{}.{}\"."
 
 #: plugin/plugins.cpp:113
 msgid "Cannot find plugin library \"{}\""
-msgstr ""
+msgstr "Não é possível encontrar a biblioteca de plug-in \"{}\""
 
 #: plugin/plugins.cpp:169
 msgid "Invalid option value: enabled={}"
-msgstr ""
+msgstr "Valor de opção inválido: enabled={}"
 
 #: plugin/plugins.cpp:187
 msgid "Plugins::load_plugins(): config_dir_path cannot be empty"
-msgstr ""
+msgstr "Plugins::load_plugins(): config_dir_path não pode estar vazio"
 
 #: plugin/plugins.cpp:212
 msgid "Cannot load plugins: {}"
-msgstr ""
+msgstr "Não é possível carregar plugins: {}"
 
 #: repo/config_repo.cpp:582
 msgid "get_unique_id(): Computation of SHA256 failed"
-msgstr ""
+msgstr "get_unique_id(): Falha no cálculo do SHA256"
 
 #: repo/file_downloader.cpp:143
 msgid "Cannot download files, cacheonly option is activated."
-msgstr ""
+msgstr "Não é possível baixar arquivos, a opção cacheonly está ativada."
 
 #: repo/file_downloader.cpp:204
 msgid "Failed to download files"
-msgstr ""
+msgstr "Falha ao baixar arquivos"
 
 #: repo/librepo.cpp:123
 msgid ""
