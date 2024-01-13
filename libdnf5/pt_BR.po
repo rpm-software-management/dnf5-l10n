@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-13 02:52+0000\n"
-"PO-Revision-Date: 2024-01-13 21:06+0000\n"
+"PO-Revision-Date: 2024-01-13 22:00+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf5/libdnf5/pt_BR/>\n"
@@ -186,7 +186,8 @@ msgstr "algum problema de dependência"
 
 #: base/solver_problems.cpp:46
 msgid "cannot install the best update candidate for package {}"
-msgstr "não é possível instalar o melhor candidato à atualização para o pacote"
+msgstr ""
+"não é possível instalar o melhor candidato à atualização para o pacote {}"
 
 #: base/solver_problems.cpp:47
 msgid "cannot install the best candidate for the job"
@@ -194,137 +195,138 @@ msgstr ""
 
 #: base/solver_problems.cpp:48
 msgid "package {} is filtered out by modular filtering"
-msgstr ""
+msgstr "pacote {} é filtrado pela filtragem modular"
 
 #: base/solver_problems.cpp:49
 msgid "package {} does not have a compatible architecture"
-msgstr ""
+msgstr "o pacote {} não possui uma arquitetura compatível"
 
 #: base/solver_problems.cpp:50
 msgid "package {} is not installable"
-msgstr ""
+msgstr "pacote {} não é instalável"
 
 #: base/solver_problems.cpp:51
 msgid "package {} is filtered out by exclude filtering"
-msgstr ""
+msgstr "o pacote {} está filtrado pela filtragem de exclusão"
 
 #: base/solver_problems.cpp:52
 msgid "nothing provides {0} needed by {1}"
-msgstr ""
+msgstr "nada fornece {0} necessário para {1}"
 
 #: base/solver_problems.cpp:53
 msgid "cannot install both {0} and {1}"
-msgstr ""
+msgstr "não é possível instalar {0} e {1}"
 
 #: base/solver_problems.cpp:54
 msgid "package {0} conflicts with {1} provided by {2}"
-msgstr ""
+msgstr "o pacote {0} entra em conflito com {1} fornecido por {2}"
 
 #: base/solver_problems.cpp:55
 msgid "package {0} obsoletes {1} provided by {2}"
-msgstr ""
+msgstr "o pacote {0} torna obsoleto {1} fornecido por {2}"
 
 #: base/solver_problems.cpp:56
 msgid "installed package {0} obsoletes {1} provided by {2}"
-msgstr ""
+msgstr "o pacote instalado {0} torna obsoleto {1} fornecido por {2}"
 
 #: base/solver_problems.cpp:57
 msgid "package {0} implicitly obsoletes {1} provided by {2}"
-msgstr ""
+msgstr "o pacote {0} implicitamente torna obsoleto {1} fornecido por {2}"
 
 #: base/solver_problems.cpp:58
 msgid "package {1} requires {0}, but none of the providers can be installed"
-msgstr ""
+msgstr "o pacote {1} requer {0}, mas nenhum dos provedores pode ser instalado"
 
 #: base/solver_problems.cpp:59
 msgid "package {1} conflicts with {0} provided by itself"
-msgstr ""
+msgstr "o pacote {1} entra em conflito com {0} fornecido por ele mesmo"
 
 #: base/solver_problems.cpp:60
 msgid "both package {0} and {2} obsolete {1}"
-msgstr ""
+msgstr "ambos os pacotes {0} e {2} tornam obsoletos {1}"
 
 #: base/solver_problems.cpp:62
 msgid ""
 "The operation would result in removing the following protected packages: {}"
-msgstr ""
+msgstr "A operação resultaria na remoção dos seguintes pacotes protegidos: {}"
 
 #: base/solver_problems.cpp:65
 msgid "The operation would result in removing of running kernel: {}"
-msgstr ""
+msgstr "A operação resultaria na remoção do kernel em execução: {}"
 
 #: base/solver_problems.cpp:249
 msgid "Problem: "
-msgstr ""
+msgstr "Problema: "
 
 #: base/solver_problems.cpp:253
 msgid "Problem {}: "
-msgstr ""
+msgstr "Problema {}: "
 
 #: base/transaction.cpp:71
 msgid "This transaction has been already run before."
-msgstr ""
+msgstr "Esta transação já foi executada antes."
 
 #: base/transaction.cpp:72
 msgid "Cannot run transaction with resolving problems."
-msgstr ""
+msgstr "Não é possível executar a transação com a resolução de problemas."
 
 #: base/transaction.cpp:73
 msgid "Rpm transaction check failed."
-msgstr ""
+msgstr "Falha na verificação da transação RPM."
 
 #: base/transaction.cpp:75
 msgid ""
 "Failed to obtain rpm transaction lock. Another transaction is in progress."
 msgstr ""
+"Falha ao obter bloqueio de transação rpm. Outra transação está em andamento."
 
 #: base/transaction.cpp:76
 msgid "Rpm transaction failed."
-msgstr ""
+msgstr "Falha na transação RPM."
 
 #: base/transaction.cpp:77
 msgid "Signature verification failed."
-msgstr ""
+msgstr "A verificação da assinatura falhou."
 
 #: base/transaction.cpp:81
 msgid "The repository does not have any PGP keys configured."
-msgstr ""
+msgstr "O repositório não possui nenhuma chave PGP configurada."
 
 #: base/transaction.cpp:82
 msgid "Public key is not installed."
-msgstr ""
+msgstr "A chave pública não está instalada."
 
 #: base/transaction.cpp:83
 msgid "Canceled by the user."
-msgstr ""
+msgstr "Cancelada pelo usuário."
 
 #: base/transaction.cpp:84
 msgid "Public key import failed."
-msgstr ""
+msgstr "Falha na importação da chave pública."
 
 #: base/transaction.cpp:620
 msgid "Invalid tsflag: {}"
-msgstr ""
+msgstr "tsflag inválida: {}"
 
 #: base/transaction.cpp:954
 msgid "Public key \"{}\" is already present, not importing."
-msgstr ""
+msgstr "A chave pública \"{}\" já está presente, não será importada."
 
 #: base/transaction.cpp:975
 msgid "An error occurred importing key \"{}\": {}"
-msgstr ""
+msgstr "Ocorreu um erro ao importar a chave \"{}\": {}"
 
 #: base/transaction.cpp:1008
 msgid "PGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
-msgstr ""
+msgstr "A verificação PGP do pacote \"{}\" ({}) do repositório \"{}\" falhou: "
 
 #: base/transaction.cpp:1035
 msgid "Import of the key didn't help, wrong key?"
-msgstr ""
+msgstr "A importação da chave não ajudou, chave errada?"
 
 #: base/transaction.cpp:1053
 msgid "Warning: skipped PGP checks for {} package(s)."
-msgstr ""
+msgstr "Aviso: ignoradas as verificações de PGP para {} pacote(s)."
 
 #: common/exception.cpp:78
 msgid "System error"
