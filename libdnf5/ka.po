@@ -1,13 +1,13 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2023.
+# Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2023, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-13 02:52+0000\n"
-"PO-Revision-Date: 2023-11-16 19:01+0000\n"
+"PO-Revision-Date: 2024-01-13 13:46+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/ka/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.2\n"
+"X-Generator: Weblate 5.3.1\n"
 
 #: advisory/advisory.cpp:44
 msgid ""
@@ -489,17 +489,15 @@ msgstr "rpm-ის კონფიგურაციის ფაილები
 
 #: conf/vars.cpp:90
 msgid "Failed to execute uname()"
-msgstr ""
+msgstr "ჩავარდა შესრულება ფუნქციისთვის uname ()"
 
 #: conf/vars.cpp:355
 msgid "Variable \"{}\" is read-only"
 msgstr "ცვლადი '{}' მხოლოდ-კითხვადია"
 
 #: logger/rotating_file_logger.cpp:59
-#, fuzzy
-#| msgid "Failed to open lock file \"{}\""
 msgid "Cannot open log file"
-msgstr "შეცდომა დაბლოკვის ფაილის \"{}\" გახსნისას"
+msgstr "ჟურნალის ფაილი ვერ გავხსენი"
 
 #: module/module_db.cpp:76 module/module_db.cpp:85 module/module_sack.cpp:764
 msgid "No such module: {}"
@@ -884,7 +882,7 @@ msgstr "{} მდგომარეობა \"{}\"-სთვის აღმო
 
 #: system/state.cpp:508
 msgid "{}"
-msgstr ""
+msgstr "{}"
 
 #: system/state.cpp:535
 msgid "Unsupported TOML version \"{}\", maximum supported version is \"{}\""
@@ -956,25 +954,24 @@ msgstr "არასწორი ტრანზაქციის ელემ�
 #: transaction/transaction_sr.cpp:55
 msgid "Transaction replay JSON serialized transaction input is empty"
 msgstr ""
+"ტრანზაქციის თავიდან გაშვების JSON სერიალიზებული ტრანზქციის შეყვანა ცარიელია"
 
 #: transaction/transaction_sr.cpp:63
 msgid "Error during transaction replay JSON parsing : {}"
-msgstr ""
+msgstr "შეცდომა ტრანზაქციის თავიდან გაშვების JSON-ის დამუშავებისას: {}"
 
 #: transaction/transaction_sr.cpp:73
-#, fuzzy
-#| msgid "Unsupported TOML version \"{}\", maximum supported version is \"{}\""
 msgid "Incompatible major version: \"{}\", supported major version is \"{}\""
 msgstr ""
-"TOML-ის მხარდაუჭერელი ვერსია \"{}\". მაქსიმალური მხარდაჭერილი ვერსიაა \"{}\""
+"მხარდაუჭერელი ძირითადი ვერსია \"{}\". მხარდაჭერილი ძირითადი ვერსიაა \"{}\""
 
 #: utils/fs/file.cpp:86
 msgid "cannot open file"
-msgstr ""
+msgstr "ფაილი ვერ გავხსენი"
 
 #: utils/fs/file.cpp:99
 msgid "cannot open file from fd"
-msgstr ""
+msgstr "ფაილი fd-დან ვერ გავხსენი"
 
 #: utils/fs/file.cpp:109
 msgid "cannot close file"
@@ -990,29 +987,27 @@ msgstr ""
 
 #: utils/fs/file.cpp:189
 msgid "error flushing file"
-msgstr ""
+msgstr "ფაილის კეშის ჩაწერის შეცდომა"
 
 #: utils/fs/file.cpp:198
 msgid "error seeking in file"
-msgstr ""
+msgstr "ფაილის გადახვევის შეცდომა"
 
 #: utils/fs/file.cpp:209
 msgid "error retrieving file position"
-msgstr ""
+msgstr "ფაილის მდებარეობის მიღების შეცდომა"
 
 #: utils/fs/file.cpp:297
 msgid "error reading a line from file"
-msgstr ""
+msgstr "ფაილიდან ხაზის წაკითხვის შეცდომა"
 
 #: utils/fs/file.cpp:335
 msgid "error retrieving file descriptor"
-msgstr ""
+msgstr "ფაილის დესკრიპტორის მიღების შეცდომა"
 
 #: utils/fs/temp.cpp:42
-#, fuzzy
-#| msgid "Cannot set root directory \"{}\""
 msgid "cannot create temporary directory"
-msgstr "შეცდომა root საქაღალდის (\"{}\") დაყენებისას"
+msgstr "დროებითი საქაღალდის შექმნის შეცდომა"
 
 #: utils/fs/temp.cpp:89
 msgid "cannot create temporary file"
