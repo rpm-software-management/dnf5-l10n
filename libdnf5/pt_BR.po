@@ -4,13 +4,14 @@
 # Rafael Fontenelle <rafaelff@gnome.org>, 2024.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024.
 # "Geraldo S. Simião Kutz" <geraldo.simiao.kutz@gmail.com>, 2024.
+# Fábio Rodrigues Ribeiro <farribeiro@gmail.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-13 02:52+0000\n"
 "PO-Revision-Date: 2024-01-14 22:08+0000\n"
-"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
+"Last-Translator: Fábio Rodrigues Ribeiro <farribeiro@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf5/libdnf5/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -842,11 +843,11 @@ msgstr ""
 
 #: rpm/transaction.cpp:284
 msgid "Failed to read package header from file \"{}\""
-msgstr ""
+msgstr "Falha ao ler o cabeçalho do pacote do arquivo \"{}\""
 
 #: rpm/transaction.cpp:297
 msgid "Cannot init rpm database iterator"
-msgstr ""
+msgstr "Não é possível iniciar o iterador do banco de dados RPM"
 
 #: rpm/transaction.cpp:301
 msgid "Package was not found in rpm database"
@@ -855,42 +856,43 @@ msgstr "Pacote não foi encontrado no banco de dados rpm"
 #. TODO(jrohel): Why? Librpm does not provide this information.
 #: rpm/transaction.cpp:317
 msgid "Cannot reinstall package \"{}\""
-msgstr ""
+msgstr "Não é possível reinstalar o pacote \"{}\""
 
 #. TODO(jrohel): Why? Librpm does not provide this information.
 #: rpm/transaction.cpp:335
 msgid "Cannot remove package \"{}\""
-msgstr ""
+msgstr "Não é possível remover o pacote \"{}\""
 
 #. TODO(jrohel): Why? Librpm does not provide this information.
 #: rpm/transaction.cpp:371
 msgid "Cannot {} package \"{}\""
-msgstr ""
+msgstr "Não é possível {} o pacote \"{}\""
 
 #. TODO(lukash) throw proper exception class
 #: solv/pool.cpp:174
 msgid "Failed to convert epoch \"{}\" to number"
-msgstr ""
+msgstr "Falha ao converter a época \"{}\" para número"
 
 #: solv/solver.cpp:79
 msgid "Writing debugsolver data into \"{}\" failed: {}"
-msgstr ""
+msgstr "Falha ao gravar os dados do solucionador de depuração em \"{}\": {}"
 
 #: system/state.cpp:226 system/state.cpp:235
 msgid "Invalid TOML version \"{}\", \"MAJOR.MINOR\" expected"
-msgstr ""
+msgstr "Versão TOML \"{}\" inválida, esperava-se \"MAJOR.MINOR\""
 
 #: system/state.cpp:243
 msgid "{} state for \"{}\" not found."
-msgstr ""
+msgstr "Estado {} para \"{}\" não encontrado."
 
 #: system/state.cpp:508
+#, fuzzy
 msgid "{}"
-msgstr ""
+msgstr "{}"
 
 #: system/state.cpp:535
 msgid "Unsupported TOML version \"{}\", maximum supported version is \"{}\""
-msgstr ""
+msgstr "Versão TOML \"{}\" não suportada, a versão máxima suportada é \"{}\""
 
 #: transaction/Swdb.cpp:91
 msgid "In progress"
@@ -903,7 +905,7 @@ msgstr ""
 
 #: transaction/Swdb.cpp:158
 msgid "No transaction in progress"
-msgstr ""
+msgstr "Nenhuma transação em andamento"
 
 #: transaction/Transformer.cpp:647
 msgid "Transformer: can't open history persist dir"
