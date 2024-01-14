@@ -10,9 +10,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-13 02:52+0000\n"
-"PO-Revision-Date: 2024-01-14 22:44+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2024-01-14 22:53+0000\n"
+"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf5/libdnf5/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -887,7 +886,6 @@ msgid "{} state for \"{}\" not found."
 msgstr "Estado {} para \"{}\" não encontrado."
 
 #: system/state.cpp:508
-#, fuzzy
 msgid "{}"
 msgstr "{}"
 
@@ -910,8 +908,7 @@ msgstr "Nenhuma transação em andamento"
 
 #: transaction/Transformer.cpp:647
 msgid "Transformer: can't open history persist dir"
-msgstr ""
-"Transformador: não é possível abrir o diretório persistente do histórico"
+msgstr "Transformer: não é possível abrir o diretório persistente do histórico"
 
 #: transaction/Transformer.cpp:660
 msgid "Couldn't find a history database"
@@ -928,7 +925,7 @@ msgstr ""
 
 #: transaction/db/db.cpp:71
 msgid "Unable to get 'version' from table 'config'"
-msgstr "Não é possível obter 'versão' da tabela 'config'"
+msgstr "Não é possível obter 'version' da tabela 'config'"
 
 #. TODO(dmach): replace with a better exception class
 #: transaction/db/item.cpp:43
@@ -1041,7 +1038,7 @@ msgstr "Texto após a seção na linha {}"
 
 #: utils/iniparser.cpp:147
 msgid "Missing section header on line {}"
-msgstr "Cabeçalho de seção ausente na linha {}"
+msgstr "Faltando o cabeçalho de seção na linha {}"
 
 #: utils/iniparser.cpp:152
 msgid "Illegal continuation line on line {}"
@@ -1049,7 +1046,7 @@ msgstr "Linha de continuação ilegal na linha {}"
 
 #: utils/iniparser.cpp:159
 msgid "Missing option name on line {}"
-msgstr "Nome da opção ausente na linha {}"
+msgstr "Faltando o nome da opção na linha {}"
 
 #: utils/iniparser.cpp:163
 msgid "Missing '=' on line {}"
@@ -1065,24 +1062,20 @@ msgid "Cannot obtain address of symbol \"{}\": {}"
 msgstr "Não foi possível obter o endereço de símbolo \"{}\": {}"
 
 #: utils/locker.cpp:43
-#, fuzzy
 msgid "Failed to open lock file \"{}\""
 msgstr "Falha ao abrir o arquivo de bloqueio \"{}\""
 
 #: utils/locker.cpp:58
-#, fuzzy
 msgid "Failed to obtain lock \"{}\""
 msgstr "Falha ao obter o arquivo de bloqueio \"{}\""
 
 #: utils/locker.cpp:68
-#, fuzzy
 msgid "Failed to close lock file \"{}\""
 msgstr "Falha ao fechar o arquivo de bloqueio \"{}\""
 
 #: utils/locker.cpp:71
-#, fuzzy
 msgid "Failed to delete lock file \"{}\""
-msgstr "Falha ao apagar o arquivo de bloqueio \"{}\""
+msgstr "Falha ao excluir o arquivo de bloqueio \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:29
 msgid "SQL statement compilation failed: \"{}\""
