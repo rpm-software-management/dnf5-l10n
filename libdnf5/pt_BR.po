@@ -8,9 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-13 02:52+0000\n"
-"PO-Revision-Date: 2024-01-14 12:42+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2024-01-14 21:34+0000\n"
+"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf5/libdnf5/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -599,154 +598,174 @@ msgid ""
 "Maximum download speed is lower than minimum, please change configuration of "
 "minrate or throttle"
 msgstr ""
-"A velocidade máxima de download é menor que a mínima. Por favor altere a "
+"A velocidade máxima de download é inferior à mínima. Por favor, altere a "
 "configuração de minrate ou throttle"
 
 #: repo/package_downloader.cpp:147
 msgid "Cannot download the \"{0}\" package, cacheonly option is activated."
 msgstr ""
+"Não é possível fazer download do pacote \"{0}\", a opção cacheonly está "
+"ativada."
 
 #: repo/package_downloader.cpp:222
 msgid "Failed to download packages"
-msgstr ""
+msgstr "Falha ao baixar pacotes"
 
 #: repo/repo.cpp:74
 msgid "Failed to load RPM \"{}\": doesn't have the \".rpm\" extension"
-msgstr ""
+msgstr "Falha ao carregar RPM \"{}\": não possui a extensão \".rpm\""
 
 #: repo/repo.cpp:78
 msgid "Failed to access RPM \"{}\": {}"
-msgstr ""
+msgstr "Falha ao acessar o RPM \"{}\": {}"
 
 #: repo/repo.cpp:98
 msgid "Invalid repository id \"{}\": unexpected character '{}'"
-msgstr ""
+msgstr "ID de repositório inválido \"{}\": caractere inesperado '{}'"
 
 #: repo/repo.cpp:139
 msgid "Repository \"{}\" has no source (baseurl, mirrorlist or metalink) set."
 msgstr ""
+"O repositório \"{}\" não possui fonte definida (baseurl, mirrorlist ou "
+"metalink)."
 
 #: repo/repo.cpp:150
 msgid "Repository \"{}\" has unsupported type \"{}\", skipping."
-msgstr ""
+msgstr "O repositório \"{}\" tem tipo \"{}\" não suportado, ignorando."
 
 #: repo/repo.cpp:415
 msgid ""
 "Failed to load repository: \"primary\" data not present or in unsupported "
 "format"
 msgstr ""
+"Falha ao carregar o repositório: dados \"primários\" não presentes ou em "
+"formato não suportado"
 
 #: repo/repo.cpp:480
 msgid "Failed to load RPM \"{}\": {}"
-msgstr ""
+msgstr "Falha ao carregar RPM \"{}\": {}"
 
 #: repo/repo_cache.cpp:105
 msgid "Empty path to the repository cache directory."
-msgstr ""
+msgstr "Caminho vazio para o diretório de cache do repositório."
 
 #: repo/repo_cache.cpp:209
 msgid "Unable to determine id of the repository in the cache."
-msgstr ""
+msgstr "Não foi possível determinar o ID do repositório no cache."
 
 #: repo/repo_downloader.cpp:138
 msgid "Librepo error: {}"
-msgstr ""
+msgstr "Erro no librepo: {}"
 
 #: repo/repo_downloader.cpp:170
 msgid "Failed to download metadata ({}: \"{}\") for repository \"{}\""
-msgstr ""
+msgstr "Falha ao baixar metadados ({}: \"{}\") para o repositório \"{}\""
 
 #: repo/repo_downloader.cpp:241
 msgid "Error checking if metalink \"{}\" is in sync for repository \"{}\""
 msgstr ""
+"Erro ao verificar se o metalink \"{}\" está sincronizado com o repositório \""
+"{}\""
 
 #: repo/repo_downloader.cpp:271
 msgid "Error checking if repomd ({}: \"{}\") is in sync for repository \"{}\""
 msgstr ""
+"Erro ao verificar se repomd ({}: \"{}\") está sincronizado com o repositório "
+"\"{}\""
 
 #: repo/repo_downloader.cpp:335
 msgid "Error loading local metadata for repository \"{}\""
-msgstr ""
+msgstr "Erro ao carregar metadados locais para o repositório \"{}\""
 
 #: repo/repo_downloader.cpp:455
 msgid ""
 "No valid source (baseurl, mirrorlist or metalink) found for repository \"{}\""
 msgstr ""
+"Nenhuma fonte válida (baseurl, mirrorlist ou metalink) encontrada para o "
+"repositório \"{}\""
 
 #: repo/repo_pgp.cpp:61
 msgid "Failed to import pgp keys into temporary keyring: {}"
-msgstr ""
+msgstr "Falha ao importar chaves pgp para um chaveiro temporário: {}"
 
 #: repo/repo_pgp.cpp:67 repo/repo_pgp.cpp:94
 msgid "Failed to list pgp keys: {}"
-msgstr ""
+msgstr "Falha ao listar chaves pgp: {}"
 
 #: repo/repo_pgp.cpp:141
 msgid "Failed to import pgp keys: {}"
-msgstr ""
+msgstr "Falha ao importar chaves pgp: {}"
 
 #: repo/repo_sack.cpp:83
 msgid ""
 "Failed to create repo \"{}\": Id is present more than once in the "
 "configuration"
 msgstr ""
+"Falha ao criar o repositório \"{}\": o ID está presente mais de uma vez na "
+"configuração"
 
 #: repo/repo_sack.cpp:417
 msgid "Cache-only enabled but no cache for repository \"{}\""
-msgstr ""
+msgstr "Somente cache ativado, mas sem cache para o repositório \"{}\""
 
 #: repo/solv_repo.cpp:258
 msgid "Failed to load repomd for repo \"{}\" from \"{}\": {}."
-msgstr ""
+msgstr "Falha ao carregar o repomd para o repositório \"{}\" de \"{}\": {}."
 
 #: repo/solv_repo.cpp:266
 msgid "Failed to load primary for repo \"{}\" from \"{}\": {}."
-msgstr ""
+msgstr "Falha ao carregar o primário do repositório \"{}\" de \"{}\": {}."
 
 #: repo/solv_repo.cpp:311
 msgid "Unsupported extended repodata type for the system repo: \"{}\"."
 msgstr ""
+"Tipo de repodata estendido não compatível para o repositório do sistema: \"{}"
+"\"."
 
 #: repo/solv_repo.cpp:377
 msgid "Failed to load {} extension for repo \"{}\" from \"{}\": {}"
-msgstr ""
+msgstr "Falha ao carregar a extensão {} para o repositório \"{}\" de \"{}\": {}"
 
 #: repo/solv_repo.cpp:412
 msgid "Failed to load system repo from root \"{}\": {}"
-msgstr ""
+msgstr "Falha ao carregar o repositório do sistema a partir da raiz \"{}\": {}"
 
 #: repo/solv_repo.cpp:511
 msgid "Failed to load {} cache for repo \"{}\" from \"{}\": {}"
-msgstr ""
+msgstr "Falha ao carregar o cache de {} para o repositório \"{}\" de \"{}\": {}"
 
 #: repo/solv_repo.cpp:563
 msgid "Failed to write primary cache for repo \"{}\" to \"{}\": {}"
-msgstr ""
+msgstr "Falha ao gravar cache primário do repositório \"{}\" em \"{}\": {}"
 
 #: repo/solv_repo.cpp:580
 msgid "Failed to re-load primary cache for repo \"{}\" from \"{}\": {}"
 msgstr ""
+"Falha ao recarregar o cache primário do repositório \"{}\" de \"{}\": {}"
 
 #: repo/solv_repo.cpp:644
 msgid "Failed to write {} cache for repo \"{}\" to \"{}\": {}"
-msgstr ""
+msgstr "Falha ao gravar o cache de {} do repositório \"{}\" em \"{}\": {}"
 
 #: repo/solv_repo.cpp:665
 msgid "Failed to re-load {} cache for repo \"{}\" from \"{}\": {}"
 msgstr ""
+"Falha ao recarregar o cache de {} para o repositório \"{}\" de \"{}\": {}"
 
 #: repo/temp_files_memory.cpp:52
 msgid ""
 "An error occurred when parsing the temporary files memory file at '{}': {}"
 msgstr ""
+"Ocorreu um erro ao analisar o arquivo de memória de arquivos temporários em "
+"'{}': {}"
 
 #: rpm/nevra.cpp:69
 msgid "NEVRA string \"{}\" contains ':' multiple times"
-msgstr ""
+msgstr "A string NEVRA \"{}\" contém ':' várias vezes"
 
 #: rpm/nevra.cpp:73
 msgid "Invalid character '{}' in NEVRA string \"{}\""
-msgstr ""
+msgstr "Caractere inválido '{}' na string NEVRA \"{}\""
 
 #: rpm/package.cpp:507
 msgid "Package with rpmdbid was not found"
@@ -754,7 +773,7 @@ msgstr ""
 
 #: rpm/reldep.cpp:93 rpm/reldep.cpp:100
 msgid "Cannot parse a dependency string"
-msgstr ""
+msgstr "Não é possível analisar uma string de dependência"
 
 #: rpm/rpm_signature.cpp:45
 msgid "No corresponding key was found."
