@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Rafael Fontenelle <rafaelff@gnome.org>, 2024.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024.
+# "Geraldo S. Simião Kutz" <geraldo.simiao.kutz@gmail.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-13 02:52+0000\n"
 "PO-Revision-Date: 2024-01-14 21:34+0000\n"
-"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
+"Last-Translator: \"Geraldo S. Simião Kutz\" <geraldo.simiao.kutz@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf5/libdnf5/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -769,7 +770,7 @@ msgstr "Caractere inválido '{}' na string NEVRA \"{}\""
 
 #: rpm/package.cpp:507
 msgid "Package with rpmdbid was not found"
-msgstr ""
+msgstr "Pacote com rpmdbid não foi encontrado"
 
 #: rpm/reldep.cpp:93 rpm/reldep.cpp:100
 msgid "Cannot parse a dependency string"
@@ -777,19 +778,20 @@ msgstr "Não é possível analisar uma string de dependência"
 
 #: rpm/rpm_signature.cpp:45
 msgid "No corresponding key was found."
-msgstr ""
+msgstr "Nenhuma chave correspondente foi encontrada."
 
 #: rpm/rpm_signature.cpp:46
+#, fuzzy
 msgid "The signature is valid, but the key is not trusted."
-msgstr ""
+msgstr "A assinatura é válida, mas a chave não é confiável."
 
 #: rpm/rpm_signature.cpp:47
 msgid "The package is not signed."
-msgstr ""
+msgstr "O pacote não está assinado."
 
 #: rpm/rpm_signature.cpp:48
 msgid "Problem occurred when opening the package."
-msgstr ""
+msgstr "Ocorreu um problema ao abrir o pacote."
 
 #: rpm/rpm_signature.cpp:64
 msgid "Failed to set rpm transaction rootDir \"{}\"."
@@ -809,9 +811,9 @@ msgid "Cannot set root directory \"{}\""
 msgstr ""
 
 #: rpm/transaction.cpp:127
-#, c-format
+#, c-format, fuzzy
 msgid "Error %i opening rpm database"
-msgstr ""
+msgstr "Erro %i ao abrir o banco de dados rpm"
 
 #: rpm/transaction.cpp:136
 msgid "The rpmdbCookie() function did not return cookie of rpm database."
@@ -844,7 +846,7 @@ msgstr ""
 
 #: rpm/transaction.cpp:301
 msgid "Package was not found in rpm database"
-msgstr ""
+msgstr "Pacote não foi encontrado no banco de dados rpm"
 
 #. TODO(jrohel): Why? Librpm does not provide this information.
 #: rpm/transaction.cpp:317
