@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-13 02:52+0000\n"
-"PO-Revision-Date: 2024-01-14 21:34+0000\n"
+"PO-Revision-Date: 2024-01-15 09:42+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/ka/>\n"
@@ -270,7 +270,7 @@ msgstr "შეუძლებელია ტრანზაქციის გ�
 
 #: base/transaction.cpp:73
 msgid "Rpm transaction check failed."
-msgstr "RPM-ის ტრანზაქციის შემოწმების შეცდომა."
+msgstr "Rpm-ის ტრანზაქციის შემოწმება ჩავარდა."
 
 #: base/transaction.cpp:75
 msgid ""
@@ -280,7 +280,7 @@ msgstr ""
 
 #: base/transaction.cpp:76
 msgid "Rpm transaction failed."
-msgstr "RPM-ის ტრანზაქციის შეცდომა."
+msgstr "Rpm-ის ტრანზაქცია ჩავარდა."
 
 #: base/transaction.cpp:77
 msgid "Signature verification failed."
@@ -663,7 +663,7 @@ msgstr ""
 #: repo/repo_downloader.cpp:241
 msgid "Error checking if metalink \"{}\" is in sync for repository \"{}\""
 msgstr ""
-"შეცდომა შემოწმებისას, არის თუ არა მეტაბმული \"{}\" სინქრონიზებული, "
+"შეცდომა შემოწმებისას, არის თუ არა metalink \"{}\" სინქრონიზებული, "
 "რეპოზიტორიისთვის \"{}\""
 
 #: repo/repo_downloader.cpp:271
@@ -792,7 +792,7 @@ msgstr "პრობლემა პაკეტის გახსნისა�
 
 #: rpm/rpm_signature.cpp:64
 msgid "Failed to set rpm transaction rootDir \"{}\"."
-msgstr "RPM-ის ტრანზაქციის rootDir-ის \"{}\"-ზე დაყენების შეცდომა."
+msgstr "'rpm'-ის ტრანზაქციის rootDir-ის \"{}\"-ზე დაყენების შეცდომა."
 
 #: rpm/rpm_signature.cpp:204
 msgid "\"{}\": key is not an armored public key."
@@ -818,7 +818,7 @@ msgstr "ფუნქციამ rpmdbCookie() rpm-ის ბაზის ქუ
 
 #: rpm/transaction.cpp:200
 msgid "Failed to order the rpm transaction."
-msgstr "RPM-ის ტრანზაქციის შეკვეთა ჩავარდა."
+msgstr "'rpm'-ის ტრანზაქციის შეკვეთა ჩავარდა."
 
 #: rpm/transaction.cpp:227
 msgid ""
@@ -843,11 +843,11 @@ msgstr "პაკეტის თავსართის ფაილიდა�
 
 #: rpm/transaction.cpp:297
 msgid "Cannot init rpm database iterator"
-msgstr "RPM ბაზის იტერატორის ინიციალიზაციის შეცდომა"
+msgstr "'rpm'-ის ბაზის იტერატორის ინიციალიზაციის შეცდომა"
 
 #: rpm/transaction.cpp:301
 msgid "Package was not found in rpm database"
-msgstr "პაკეტი RPM-ის ბაზაში ნაპოვნი არაა"
+msgstr "პაკეტი rpm-ის ბაზაში ნაპოვნი არაა"
 
 #. TODO(jrohel): Why? Librpm does not provide this information.
 #: rpm/transaction.cpp:317
