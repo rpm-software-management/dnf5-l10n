@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-13 02:52+0000\n"
+"POT-Creation-Date: 2024-01-16 02:52+0000\n"
 "PO-Revision-Date: 2024-01-15 09:42+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -1046,7 +1046,7 @@ msgstr "აკლია პარამეტრის სახელი ხა
 msgid "Missing '=' on line {}"
 msgstr "აკლია '=' ხაზზე {}"
 
-#. returns localized mesage, problem with later translation
+#. returns localized message, problem with later translation
 #: utils/library.cpp:32
 msgid "Cannot load shared library \"{}\": {}"
 msgstr "გაზიარებული ბიბლიოთეკის ფაილის ჩატვირთვის შეცდომა \"{}\": {}"
@@ -1139,5 +1139,7 @@ msgid "Failed to backup database \"{}\" into \"{}\""
 msgstr "შეცდომა ბაზის \"{}\" \"{}\"-ში დამარქაფებისას"
 
 #: utils/sqlite3/sqlite3.cpp:158
-msgid "Failed to restored database \"{}\""
+#, fuzzy
+#| msgid "Failed to restored database \"{}\""
+msgid "Failed to restore database \"{}\""
 msgstr "შეცდომა ბაზის \"{}\" აღდგენისას"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-13 02:52+0000\n"
+"POT-Creation-Date: 2024-01-16 02:52+0000\n"
 "PO-Revision-Date: 2024-01-14 12:42+0000\n"
 "Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -1035,7 +1035,7 @@ msgstr "Alternativnamn saknas på rad {}"
 msgid "Missing '=' on line {}"
 msgstr "Saknar '=' på rad {}"
 
-#. returns localized mesage, problem with later translation
+#. returns localized message, problem with later translation
 #: utils/library.cpp:32
 msgid "Cannot load shared library \"{}\": {}"
 msgstr "Kan inte ladda delat bibliotek \"{}\": {}"
@@ -1127,5 +1127,7 @@ msgid "Failed to backup database \"{}\" into \"{}\""
 msgstr "Misslyckades med att säkerhetskopiera databas \"{}\" till \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:158
-msgid "Failed to restored database \"{}\""
+#, fuzzy
+#| msgid "Failed to restored database \"{}\""
+msgid "Failed to restore database \"{}\""
 msgstr "Misslyckades med att återställa databas \"{}\""
