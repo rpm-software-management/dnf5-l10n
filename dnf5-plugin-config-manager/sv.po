@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-16 02:52+0000\n"
+"POT-Creation-Date: 2024-01-17 02:52+0000\n"
 "PO-Revision-Date: 2024-01-11 13:50+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -27,32 +27,34 @@ msgstr "från-förrådfil \"{}\" fil existerar inte"
 msgid "from-repofile: {}"
 msgstr "från-förrådfil: {}"
 
-#: addrepo.cpp:184
-msgid "set: Badly formatted argument value \"{}\""
+#: addrepo.cpp:185 setopt.cpp:83 setvar.cpp:49
+#, fuzzy
+#| msgid "set: Badly formatted argument value \"{}\""
+msgid "{}: Badly formatted argument value \"{}\""
 msgstr "set: Felaktigt formaterat argumentvärde \"{}\""
 
-#: addrepo.cpp:194
+#: addrepo.cpp:195
 msgid "Cannot set repository option \"{}={}\": {}"
 msgstr "Kan inte ställa in förrådsalternativ \"{}={}\": {}"
 
-#: addrepo.cpp:202 setopt.cpp:136
+#: addrepo.cpp:203 setopt.cpp:138
 msgid "Sets the \"{}\" option again with a different value: \"{}\" != \"{}\""
 msgstr ""
 "Ställer in alternativet \"{}\" igen med ett annat värde: \"{}\" != \"{}\""
 
-#: addrepo.cpp:268
+#: addrepo.cpp:269
 msgid "Missing path to repository configuration directory"
 msgstr "Saknar sökväg till förrådskonfigurations katalog"
 
-#: addrepo.cpp:318
+#: addrepo.cpp:319
 msgid "Failed to copy repository configuration file \"{}\": {}"
 msgstr "Misslyckades att kopiera förrådets konfigurationsfil \"{}\": {}"
 
-#: addrepo.cpp:329
+#: addrepo.cpp:330
 msgid "Failed to download repository configuration file \"{}\": {}"
 msgstr "Misslyckades att ladda ner förrådets konfigurationsfil \"{}\": {}"
 
-#: addrepo.cpp:351
+#: addrepo.cpp:352
 msgid ""
 "Error in added repository configuration file. Cannot set repository option "
 "\"{}={}\": {}"
@@ -60,11 +62,11 @@ msgstr ""
 "Fel i tillagd konfigurationsfil för förråd. Kan inte ställa in "
 "lagringsalternativ \"{}={}\": {}"
 
-#: addrepo.cpp:385
+#: addrepo.cpp:386
 msgid "Bad baseurl: {}={}"
 msgstr "Dålig basurl: {}={}"
 
-#: addrepo.cpp:393
+#: addrepo.cpp:394
 msgid ""
 "One of --from-repofile=<URL>, --set=baseurl=<URL>, --set=mirrorlist=<URL>, --"
 "set=metalink=<URL> must be set to a non-empty URL"
@@ -72,11 +74,11 @@ msgstr ""
 "En av --from-repofile=<URL>, --set=baseurl=<URL>, --set=mirrorlist=<URL>, --"
 "set=metalink=<URL> måste vara inställd på en icke-tom URL"
 
-#: addrepo.cpp:438
+#: addrepo.cpp:439
 msgid "Failed to save repository configuration file \"{}\": {}"
 msgstr "Misslyckades att spara konfigurationsfil för förråd \"{}: {}"
 
-#: addrepo.cpp:460
+#: addrepo.cpp:461
 msgid ""
 "File \"{}\" already exists and configures repositories with IDs \"{}\". Add "
 "\"--add-or-replace\" or \"--overwrite\"."
@@ -84,7 +86,7 @@ msgstr ""
 "Filen \"{}\" finns redan och konfigurerar förråd med ID:n \"{}\". Lägg till "
 "\"--add-or-replace\" eller \"--overwrite\"."
 
-#: addrepo.cpp:463
+#: addrepo.cpp:464
 msgid ""
 "File \"{}\" already exists and configures repositories with IDs \"{}\". Add "
 "\"--overwrite\" to overwrite."
@@ -92,30 +94,32 @@ msgstr ""
 "Filen \"{}\" finns redan och konfigurerar förråd med ID:n \"{}\". Lägg till "
 "--overwrite\" för att skriva över."
 
-#: addrepo.cpp:483 addrepo.cpp:508
+#: addrepo.cpp:484 addrepo.cpp:509
 msgid "A repository with id \"{}\" already configured in file: {}"
 msgstr "Ett förråd med id \"{}\" är redan konfigurerat i fil {}"
 
-#: setopt.cpp:82
-msgid "optval: Badly formatted argument value \"{}\""
-msgstr "optval: Felformaterat argumentvärde \"{}\""
-
-#: setopt.cpp:90
+#: setopt.cpp:91 unsetopt.cpp:65
+#, fuzzy
+#| msgid ""
+#| "optval: Badly formatted argument value: Last key character cannot be '.': "
+#| "{}"
 msgid ""
-"optval: Badly formatted argument value: Last key character cannot be '.': {}"
+"{}: Badly formatted argument value: Last key character cannot be '.': {}"
 msgstr ""
 "optval: Felformaterat argumentvärde: Sista nyckeltecknet kan inte vara '.': "
 "{}"
 
-#: setopt.cpp:98
-msgid "optval: Empty repository id is not allowed: {}"
+#: setopt.cpp:100 unsetopt.cpp:74
+#, fuzzy
+#| msgid "optval: Empty repository id is not allowed: {}"
+msgid "{}: Empty repository id is not allowed: {}"
 msgstr "optval: Tomt förråds-ID är inte tillåtet: {}"
 
-#: setopt.cpp:107
+#: setopt.cpp:109
 msgid "Cannot set repository option \"{}\": {}"
 msgstr "Kan inte ställa in förråds alternativ \"{}\": {}"
 
-#: setopt.cpp:114 setopt.cpp:177
+#: setopt.cpp:116 setopt.cpp:179
 msgid ""
 "Sets the \"{}\" option of the repository \"{}\" again with a different "
 "value: \"{}\" != \"{}\""
@@ -123,17 +127,13 @@ msgstr ""
 "Ställer in \"{}\" alternativ för förråd \"{} igen med ett annat värde: {}\" !"
 "=\"{}\""
 
-#: setopt.cpp:128
+#: setopt.cpp:130
 msgid "Cannot set option: \"{}\": {}"
 msgstr "Kan inte ställa in alternativ: \"{}\":{}"
 
-#: setopt.cpp:168
+#: setopt.cpp:170
 msgid "No matching repository to modify: {}"
 msgstr "Inget matchande förråd att modifiera: {}"
-
-#: setvar.cpp:49
-msgid "varval: Badly formatted argument value \"{}\""
-msgstr "varval: Felaktigt formaterat argumentvärde \"{}\""
 
 #: setvar.cpp:60
 msgid "Cannot set \"{}\": Variable \"{}\" is read-only"
@@ -177,18 +177,22 @@ msgstr ""
 msgid "Variable name can contain only ASCII letters, numbers and '_': {}"
 msgstr "Variabelnamn kan endast innehålla ASCII-bokstäver, siffror och '_': {}"
 
-#: unsetopt.cpp:65
-msgid ""
-"remove-opt: Badly formatted argument value: Last key character cannot be "
-"'.': {}"
-msgstr ""
-"remove-opt: Felaktigt formaterat argumentvärde: Sista nyckeltecknet kan inte "
-"vara '.': {}"
-
-#: unsetopt.cpp:73
-msgid "remove-opt: Empty repository id is not allowed: {}"
-msgstr "remove-opt: Tomt arkiv-id är inte tillåtet: {}"
-
 #: unsetvar.cpp:76
 msgid "Cannot remove variable file \"{}\": {}"
 msgstr "Kan inte ta bort variabelfil \"{}\": {}"
+
+#~ msgid "optval: Badly formatted argument value \"{}\""
+#~ msgstr "optval: Felformaterat argumentvärde \"{}\""
+
+#~ msgid "varval: Badly formatted argument value \"{}\""
+#~ msgstr "varval: Felaktigt formaterat argumentvärde \"{}\""
+
+#~ msgid ""
+#~ "remove-opt: Badly formatted argument value: Last key character cannot be "
+#~ "'.': {}"
+#~ msgstr ""
+#~ "remove-opt: Felaktigt formaterat argumentvärde: Sista nyckeltecknet kan "
+#~ "inte vara '.': {}"
+
+#~ msgid "remove-opt: Empty repository id is not allowed: {}"
+#~ msgstr "remove-opt: Tomt arkiv-id är inte tillåtet: {}"

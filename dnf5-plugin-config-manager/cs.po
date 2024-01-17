@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-16 02:52+0000\n"
+"POT-Creation-Date: 2024-01-17 02:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,99 +25,91 @@ msgstr ""
 msgid "from-repofile: {}"
 msgstr ""
 
-#: addrepo.cpp:184
-msgid "set: Badly formatted argument value \"{}\""
+#: addrepo.cpp:185 setopt.cpp:83 setvar.cpp:49
+msgid "{}: Badly formatted argument value \"{}\""
 msgstr ""
 
-#: addrepo.cpp:194
+#: addrepo.cpp:195
 msgid "Cannot set repository option \"{}={}\": {}"
 msgstr ""
 
-#: addrepo.cpp:202 setopt.cpp:136
+#: addrepo.cpp:203 setopt.cpp:138
 msgid "Sets the \"{}\" option again with a different value: \"{}\" != \"{}\""
 msgstr ""
 
-#: addrepo.cpp:268
+#: addrepo.cpp:269
 msgid "Missing path to repository configuration directory"
 msgstr ""
 
-#: addrepo.cpp:318
+#: addrepo.cpp:319
 msgid "Failed to copy repository configuration file \"{}\": {}"
 msgstr ""
 
-#: addrepo.cpp:329
+#: addrepo.cpp:330
 msgid "Failed to download repository configuration file \"{}\": {}"
 msgstr ""
 
-#: addrepo.cpp:351
+#: addrepo.cpp:352
 msgid ""
 "Error in added repository configuration file. Cannot set repository option "
 "\"{}={}\": {}"
 msgstr ""
 
-#: addrepo.cpp:385
+#: addrepo.cpp:386
 msgid "Bad baseurl: {}={}"
 msgstr ""
 
-#: addrepo.cpp:393
+#: addrepo.cpp:394
 msgid ""
 "One of --from-repofile=<URL>, --set=baseurl=<URL>, --set=mirrorlist=<URL>, --"
 "set=metalink=<URL> must be set to a non-empty URL"
 msgstr ""
 
-#: addrepo.cpp:438
+#: addrepo.cpp:439
 msgid "Failed to save repository configuration file \"{}\": {}"
 msgstr ""
 
-#: addrepo.cpp:460
+#: addrepo.cpp:461
 msgid ""
 "File \"{}\" already exists and configures repositories with IDs \"{}\". Add "
 "\"--add-or-replace\" or \"--overwrite\"."
 msgstr ""
 
-#: addrepo.cpp:463
+#: addrepo.cpp:464
 msgid ""
 "File \"{}\" already exists and configures repositories with IDs \"{}\". Add "
 "\"--overwrite\" to overwrite."
 msgstr ""
 
-#: addrepo.cpp:483 addrepo.cpp:508
+#: addrepo.cpp:484 addrepo.cpp:509
 msgid "A repository with id \"{}\" already configured in file: {}"
 msgstr ""
 
-#: setopt.cpp:82
-msgid "optval: Badly formatted argument value \"{}\""
-msgstr ""
-
-#: setopt.cpp:90
+#: setopt.cpp:91 unsetopt.cpp:65
 msgid ""
-"optval: Badly formatted argument value: Last key character cannot be '.': {}"
+"{}: Badly formatted argument value: Last key character cannot be '.': {}"
 msgstr ""
 
-#: setopt.cpp:98
-msgid "optval: Empty repository id is not allowed: {}"
+#: setopt.cpp:100 unsetopt.cpp:74
+msgid "{}: Empty repository id is not allowed: {}"
 msgstr ""
 
-#: setopt.cpp:107
+#: setopt.cpp:109
 msgid "Cannot set repository option \"{}\": {}"
 msgstr ""
 
-#: setopt.cpp:114 setopt.cpp:177
+#: setopt.cpp:116 setopt.cpp:179
 msgid ""
 "Sets the \"{}\" option of the repository \"{}\" again with a different "
 "value: \"{}\" != \"{}\""
 msgstr ""
 
-#: setopt.cpp:128
+#: setopt.cpp:130
 msgid "Cannot set option: \"{}\": {}"
 msgstr ""
 
-#: setopt.cpp:168
+#: setopt.cpp:170
 msgid "No matching repository to modify: {}"
-msgstr ""
-
-#: setvar.cpp:49
-msgid "varval: Badly formatted argument value \"{}\""
 msgstr ""
 
 #: setvar.cpp:60
@@ -154,16 +146,6 @@ msgstr ""
 
 #: shared.hpp:71
 msgid "Variable name can contain only ASCII letters, numbers and '_': {}"
-msgstr ""
-
-#: unsetopt.cpp:65
-msgid ""
-"remove-opt: Badly formatted argument value: Last key character cannot be "
-"'.': {}"
-msgstr ""
-
-#: unsetopt.cpp:73
-msgid "remove-opt: Empty repository id is not allowed: {}"
 msgstr ""
 
 #: unsetvar.cpp:76

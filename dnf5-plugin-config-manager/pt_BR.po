@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-16 02:52+0000\n"
+"POT-Creation-Date: 2024-01-17 02:52+0000\n"
 "PO-Revision-Date: 2024-01-11 22:23+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
@@ -26,32 +26,34 @@ msgstr "from-repofile: o arquivo \"{}\" não existe"
 msgid "from-repofile: {}"
 msgstr "from-repofile: {}"
 
-#: addrepo.cpp:184
-msgid "set: Badly formatted argument value \"{}\""
+#: addrepo.cpp:185 setopt.cpp:83 setvar.cpp:49
+#, fuzzy
+#| msgid "set: Badly formatted argument value \"{}\""
+msgid "{}: Badly formatted argument value \"{}\""
 msgstr "set: Formatação inválida no valor de argumento \"{}\""
 
-#: addrepo.cpp:194
+#: addrepo.cpp:195
 msgid "Cannot set repository option \"{}={}\": {}"
 msgstr "Não foi possível definir a opção de repositório \"{}={}\": {}"
 
-#: addrepo.cpp:202 setopt.cpp:136
+#: addrepo.cpp:203 setopt.cpp:138
 msgid "Sets the \"{}\" option again with a different value: \"{}\" != \"{}\""
 msgstr ""
 "Define a opção \"{}\" novamente com um valor diferente: \"{}\" != \"{}\""
 
-#: addrepo.cpp:268
+#: addrepo.cpp:269
 msgid "Missing path to repository configuration directory"
 msgstr "Faltando caminho para o diretório de configuração de repositório"
 
-#: addrepo.cpp:318
+#: addrepo.cpp:319
 msgid "Failed to copy repository configuration file \"{}\": {}"
 msgstr "Falha ao copiar o arquivo de configuração de repositório \"{}\": {}"
 
-#: addrepo.cpp:329
+#: addrepo.cpp:330
 msgid "Failed to download repository configuration file \"{}\": {}"
 msgstr "Falha ao baixar o arquivo de configuração de repositório \"{}\": {}"
 
-#: addrepo.cpp:351
+#: addrepo.cpp:352
 msgid ""
 "Error in added repository configuration file. Cannot set repository option "
 "\"{}={}\": {}"
@@ -59,11 +61,11 @@ msgstr ""
 "Erro no arquivo de configuração de repositório adicionado. Não é possível "
 "definir a opção de repositório \"{}={}\": {}"
 
-#: addrepo.cpp:385
+#: addrepo.cpp:386
 msgid "Bad baseurl: {}={}"
 msgstr "baseurl inválida: {}={}"
 
-#: addrepo.cpp:393
+#: addrepo.cpp:394
 msgid ""
 "One of --from-repofile=<URL>, --set=baseurl=<URL>, --set=mirrorlist=<URL>, --"
 "set=metalink=<URL> must be set to a non-empty URL"
@@ -72,11 +74,11 @@ msgstr ""
 "set=mirrorlist=<URL>, --set=metalink=<URL> deve ser definida com uma URL não "
 "vazia"
 
-#: addrepo.cpp:438
+#: addrepo.cpp:439
 msgid "Failed to save repository configuration file \"{}\": {}"
 msgstr "Falha ao salvar o arquivo de configuração de repositório \"{}\": {}"
 
-#: addrepo.cpp:460
+#: addrepo.cpp:461
 msgid ""
 "File \"{}\" already exists and configures repositories with IDs \"{}\". Add "
 "\"--add-or-replace\" or \"--overwrite\"."
@@ -84,7 +86,7 @@ msgstr ""
 "O arquivo \"{}\" já existe e configura repositórios com IDs \"{}\". Adicione "
 "\"--add-or-replace\" ou \"--overwrite\"."
 
-#: addrepo.cpp:463
+#: addrepo.cpp:464
 msgid ""
 "File \"{}\" already exists and configures repositories with IDs \"{}\". Add "
 "\"--overwrite\" to overwrite."
@@ -92,30 +94,32 @@ msgstr ""
 "O arquivo \"{}\" já existe e configura repositórios com IDs \"{}\". Adicione "
 "\"--overwrite\" para sobrescrever."
 
-#: addrepo.cpp:483 addrepo.cpp:508
+#: addrepo.cpp:484 addrepo.cpp:509
 msgid "A repository with id \"{}\" already configured in file: {}"
 msgstr "Um repositório com id \"{}\" já configurado no arquivo: {}"
 
-#: setopt.cpp:82
-msgid "optval: Badly formatted argument value \"{}\""
-msgstr "optval: Formatação inválida no valor de argumento \"{}\""
-
-#: setopt.cpp:90
+#: setopt.cpp:91 unsetopt.cpp:65
+#, fuzzy
+#| msgid ""
+#| "optval: Badly formatted argument value: Last key character cannot be '.': "
+#| "{}"
 msgid ""
-"optval: Badly formatted argument value: Last key character cannot be '.': {}"
+"{}: Badly formatted argument value: Last key character cannot be '.': {}"
 msgstr ""
 "optval: Formatação inválida no valor de argumento: O último caractere da "
 "chave não pode ser '.': {}"
 
-#: setopt.cpp:98
-msgid "optval: Empty repository id is not allowed: {}"
+#: setopt.cpp:100 unsetopt.cpp:74
+#, fuzzy
+#| msgid "optval: Empty repository id is not allowed: {}"
+msgid "{}: Empty repository id is not allowed: {}"
 msgstr "optval: ID de repositório vazio não é permitido: {}"
 
-#: setopt.cpp:107
+#: setopt.cpp:109
 msgid "Cannot set repository option \"{}\": {}"
 msgstr "Não é possível definir a opção de repositório \"{}\": {}"
 
-#: setopt.cpp:114 setopt.cpp:177
+#: setopt.cpp:116 setopt.cpp:179
 msgid ""
 "Sets the \"{}\" option of the repository \"{}\" again with a different "
 "value: \"{}\" != \"{}\""
@@ -123,17 +127,13 @@ msgstr ""
 "Define a opção \"{}\" do repositório \"{}\" novamente com um valor "
 "diferente: \"{}\" != \"{}\""
 
-#: setopt.cpp:128
+#: setopt.cpp:130
 msgid "Cannot set option: \"{}\": {}"
 msgstr "Não é possível definir a opção: \"{}\": {}"
 
-#: setopt.cpp:168
+#: setopt.cpp:170
 msgid "No matching repository to modify: {}"
 msgstr "Nenhum repositório correspondente para modificar: {}"
-
-#: setvar.cpp:49
-msgid "varval: Badly formatted argument value \"{}\""
-msgstr "varval: Formatação inválida no valor de argumento \"{}\""
 
 #: setvar.cpp:60
 msgid "Cannot set \"{}\": Variable \"{}\" is read-only"
@@ -178,18 +178,22 @@ msgstr ""
 msgid "Variable name can contain only ASCII letters, numbers and '_': {}"
 msgstr "Nome de variável pode conter apenas letras ASCII, números e '_': {}"
 
-#: unsetopt.cpp:65
-msgid ""
-"remove-opt: Badly formatted argument value: Last key character cannot be "
-"'.': {}"
-msgstr ""
-"remove-opt: Formatação inválida no valor de argumento: O último caractere da "
-"chave não pode ser '.': {}"
-
-#: unsetopt.cpp:73
-msgid "remove-opt: Empty repository id is not allowed: {}"
-msgstr "remove-opt: ID de repositório vazio não é permitido: {}"
-
 #: unsetvar.cpp:76
 msgid "Cannot remove variable file \"{}\": {}"
 msgstr "Não é possível remover o arquivo de variável \"{}\": {}"
+
+#~ msgid "optval: Badly formatted argument value \"{}\""
+#~ msgstr "optval: Formatação inválida no valor de argumento \"{}\""
+
+#~ msgid "varval: Badly formatted argument value \"{}\""
+#~ msgstr "varval: Formatação inválida no valor de argumento \"{}\""
+
+#~ msgid ""
+#~ "remove-opt: Badly formatted argument value: Last key character cannot be "
+#~ "'.': {}"
+#~ msgstr ""
+#~ "remove-opt: Formatação inválida no valor de argumento: O último caractere "
+#~ "da chave não pode ser '.': {}"
+
+#~ msgid "remove-opt: Empty repository id is not allowed: {}"
+#~ msgstr "remove-opt: ID de repositório vazio não é permitido: {}"
