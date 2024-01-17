@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-16 02:52+0000\n"
+"POT-Creation-Date: 2024-01-17 02:52+0000\n"
 "PO-Revision-Date: 2024-01-13 19:36+0000\n"
 "Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -346,45 +346,50 @@ msgstr "Det gick inte att upphöra förrådscache i sökväg \"{0}\": {1}"
 msgid "repofrompath: Incorrect repoid and path specification \"{}\""
 msgstr "repofrompath: Felaktigt förrådsid och sökvägsspecifikation \"{}\""
 
-#: main.cpp:227
-msgid "setopt: Badly formatted argument value \"{}\""
+#: main.cpp:227 main.cpp:266
+#, fuzzy
+#| msgid "setopt: Badly formatted argument value \"{}\""
+msgid "{}: Badly formatted argument value \"{}\""
 msgstr "setopt: Felformaterat argumentvärde \"{}\""
 
 #: main.cpp:234
+#, fuzzy
+#| msgid ""
+#| "setopt: Badly formatted argument value: Last key character cannot be '.': "
+#| "{}"
 msgid ""
-"setopt: Badly formatted argument value: Last key character cannot be '.': {}"
+"{}: Badly formatted argument value: Last key character cannot be '.': {}"
 msgstr ""
 "setopt: Felaktigt formaterat argumentvärde: Sista nyckeltecknet kan inte "
 "vara '.': {}"
 
-#: main.cpp:246
+#: main.cpp:247
 msgid "setopt: \"{0}\": {1}"
 msgstr "setopt: \"{0}\": {1}"
 
-#: main.cpp:265
-msgid "setvar: Badly formatted argument value \"{}\""
-msgstr "setvar: Felaktigt formaterat argumentvärde \"{}\""
-
-#: main.cpp:272
+#: main.cpp:273
 msgid "setvar: {}"
 msgstr "setvar: {}"
 
-#: main.cpp:607 shared_options.cpp:90
+#: main.cpp:608 shared_options.cpp:90
 msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
 msgstr "Arkitektur \"{0}\" som inte stöds. Välj en från {1}"
 
-#: main.cpp:816
+#: main.cpp:817
 msgid "======== Main configuration: ========"
 msgstr "======== Huvudkonfiguration: ========"
 
-#: main.cpp:857
+#: main.cpp:858
 msgid "======== \"{}\" repository configuration: ========"
 msgstr "======== \"{}\" Förrådskonfiguration: ========"
 
-#: main.cpp:878
+#: main.cpp:879
 msgid "======== Variables: ========"
 msgstr "======== Variabler: ========"
 
-#: main.cpp:996 main.cpp:1149
+#: main.cpp:997 main.cpp:1150
 msgid ". Add \"--help\" for more information about the arguments."
 msgstr ". Lägg till \"--help\" för mer information om argumenten."
+
+#~ msgid "setvar: Badly formatted argument value \"{}\""
+#~ msgstr "setvar: Felaktigt formaterat argumentvärde \"{}\""
