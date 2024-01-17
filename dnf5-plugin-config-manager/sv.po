@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-17 02:52+0000\n"
-"PO-Revision-Date: 2024-01-11 13:50+0000\n"
+"PO-Revision-Date: 2024-01-18 02:47+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5-plugin-config-manager/sv/>\n"
@@ -28,10 +28,8 @@ msgid "from-repofile: {}"
 msgstr "från-förrådfil: {}"
 
 #: addrepo.cpp:185 setopt.cpp:83 setvar.cpp:49
-#, fuzzy
-#| msgid "set: Badly formatted argument value \"{}\""
 msgid "{}: Badly formatted argument value \"{}\""
-msgstr "set: Felaktigt formaterat argumentvärde \"{}\""
+msgstr "{}: Felaktigt formaterat argumentvärde \"{}\""
 
 #: addrepo.cpp:195
 msgid "Cannot set repository option \"{}={}\": {}"
@@ -99,21 +97,15 @@ msgid "A repository with id \"{}\" already configured in file: {}"
 msgstr "Ett förråd med id \"{}\" är redan konfigurerat i fil {}"
 
 #: setopt.cpp:91 unsetopt.cpp:65
-#, fuzzy
-#| msgid ""
-#| "optval: Badly formatted argument value: Last key character cannot be '.': "
-#| "{}"
 msgid ""
 "{}: Badly formatted argument value: Last key character cannot be '.': {}"
 msgstr ""
-"optval: Felformaterat argumentvärde: Sista nyckeltecknet kan inte vara '.': "
-"{}"
+"{}: Felaktigt formaterat argumentvärde: Sista nyckeltecknet kan inte vara "
+"'.': {}"
 
 #: setopt.cpp:100 unsetopt.cpp:74
-#, fuzzy
-#| msgid "optval: Empty repository id is not allowed: {}"
 msgid "{}: Empty repository id is not allowed: {}"
-msgstr "optval: Tomt förråds-ID är inte tillåtet: {}"
+msgstr "{}: Tomt förråds-ID är inte tillåtet: {}"
 
 #: setopt.cpp:109
 msgid "Cannot set repository option \"{}\": {}"
