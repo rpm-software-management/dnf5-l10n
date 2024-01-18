@@ -1,13 +1,13 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2023.
+# Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2023, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-18 02:52+0000\n"
-"PO-Revision-Date: 2023-11-28 02:51+0000\n"
+"PO-Revision-Date: 2024-01-19 02:47+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5-plugin-config-manager/ka/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.2.1\n"
+"X-Generator: Weblate 5.3.1\n"
 
 #: addrepo.cpp:152
 msgid "from-repofile: \"{}\" file does not exist"
@@ -27,10 +27,8 @@ msgid "from-repofile: {}"
 msgstr "რეპოფაილიდან: {}"
 
 #: addrepo.cpp:185 setopt.cpp:83 setvar.cpp:49
-#, fuzzy
-#| msgid "set: Badly formatted argument value \"{}\""
 msgid "{}: Badly formatted argument value \"{}\""
-msgstr "დაყენება: არასწორად დაფორმატებული არგუმენტის მნიშვნელობა \"{}\""
+msgstr "{}: ცუდად დაფორმატებული არგუმენტის მნიშვნელობა \"{}\""
 
 #: addrepo.cpp:195
 msgid "Cannot set repository option \"{}={}\": {}"
@@ -98,21 +96,15 @@ msgid "A repository with id \"{}\" already configured in file: {}"
 msgstr "რეპოზიტორია ID-ით \"{}\" უკვე მორგებულია ფაილში:{}"
 
 #: setopt.cpp:91 unsetopt.cpp:65
-#, fuzzy
-#| msgid ""
-#| "optval: Badly formatted argument value: Last key character cannot be '.': "
-#| "{}"
 msgid ""
 "{}: Badly formatted argument value: Last key character cannot be '.': {}"
 msgstr ""
-"optval: ცუდად დაფორმატებული არგუმენტის მნიშვნელობა: ბოლო საკვანძო სიმბოლო "
-"ვერ იქნება '.': {}"
+"{}: ცუდად დაფორმატებული არგუმენტის მნიშვნელობა: ბოლო საკვანძო სიმბოლო ვერ "
+"იქნება '.': {}"
 
 #: setopt.cpp:100 unsetopt.cpp:74
-#, fuzzy
-#| msgid "optval: Empty repository id is not allowed: {}"
 msgid "{}: Empty repository id is not allowed: {}"
-msgstr "optval: ცარიელი რეპოზიტორიის ID დაშვებული არაა: {}"
+msgstr "{}: ცარიელი რეპოზიტორიის ID დაშვებული არაა: {}"
 
 #: setopt.cpp:109
 msgid "Cannot set repository option \"{}\": {}"
