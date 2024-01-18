@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-17 02:52+0000\n"
+"POT-Creation-Date: 2024-01-18 02:52+0000\n"
 "PO-Revision-Date: 2024-01-18 02:47+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
@@ -98,7 +98,9 @@ msgstr "Limite para pacotes em avisos de melhorias."
 msgid "Limit to packages in newpackage advisories."
 msgstr "Limite para pacotes em avisos de novos pacotes."
 
-#: commands/advisory/arguments.hpp:153
+#. Note for translators: "critical" etc. quoted words are
+#. literals that should not be translated.
+#: commands/advisory/arguments.hpp:155
 msgid ""
 "Limit to packages in advisories with specified severity. List option. Can be "
 "\"critical\", \"important\", \"moderate\", \"low\", \"none\"."
@@ -106,11 +108,11 @@ msgstr ""
 "Limite para pacotes em avisos com a gravidade especificada. Opção de lista. "
 "Pode ser \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 
-#: commands/advisory/arguments.hpp:155
+#: commands/advisory/arguments.hpp:157
 msgid "ADVISORY_SEVERITY,..."
 msgstr "GRAVIDADE_AVISO,..."
 
-#: commands/advisory/arguments.hpp:179
+#: commands/advisory/arguments.hpp:181
 msgid ""
 "Limit to packages in advisories that fix a Bugzilla ID, Eg. 123123. List "
 "option."
@@ -118,11 +120,11 @@ msgstr ""
 "Limite para pacotes em avisos que corrigem um Bugzilla ID, ex. 123123. Opção "
 "de lista."
 
-#: commands/advisory/arguments.hpp:180
+#: commands/advisory/arguments.hpp:182
 msgid "BUGZILLA_ID,..."
 msgstr "BUGZILLA_ID,..."
 
-#: commands/advisory/arguments.hpp:190
+#: commands/advisory/arguments.hpp:192
 msgid ""
 "Limit to packages in advisories that fix a CVE (Common Vulnerabilities and "
 "Exposures) ID, Eg. CVE-2201-0123. List option."
@@ -130,7 +132,7 @@ msgstr ""
 "Limite para pacotes em avisos que corrigem um ID de CVE (Common "
 "Vulnerabilities and Exposures), ex. CVE-2201-0123. Opção de lista."
 
-#: commands/advisory/arguments.hpp:192
+#: commands/advisory/arguments.hpp:194
 msgid "CVE_ID,..."
 msgstr "ID_CVE,..."
 

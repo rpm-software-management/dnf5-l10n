@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-17 02:52+0000\n"
+"POT-Creation-Date: 2024-01-18 02:52+0000\n"
 "PO-Revision-Date: 2024-01-18 02:47+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -101,7 +101,9 @@ msgstr "Begränsa till paket i förbättringsrekommendationer."
 msgid "Limit to packages in newpackage advisories."
 msgstr "Begränsa till paket i nya pakets-rekommendationer."
 
-#: commands/advisory/arguments.hpp:153
+#. Note for translators: "critical" etc. quoted words are
+#. literals that should not be translated.
+#: commands/advisory/arguments.hpp:155
 msgid ""
 "Limit to packages in advisories with specified severity. List option. Can be "
 "\"critical\", \"important\", \"moderate\", \"low\", \"none\"."
@@ -109,11 +111,11 @@ msgstr ""
 "Begränsa till paket i rekommendationer med den angivna allvarlighetsgraden. "
 "Listflagga. Kan vara ”critical”, ”important”, ”moderate”, ”low”, ”none”."
 
-#: commands/advisory/arguments.hpp:155
+#: commands/advisory/arguments.hpp:157
 msgid "ADVISORY_SEVERITY,..."
 msgstr "REKOMMENDATIONSALLVARLIGHET,…"
 
-#: commands/advisory/arguments.hpp:179
+#: commands/advisory/arguments.hpp:181
 msgid ""
 "Limit to packages in advisories that fix a Bugzilla ID, Eg. 123123. List "
 "option."
@@ -121,11 +123,11 @@ msgstr ""
 "Begränsa till paket i rekommendationer som löser ett Bugzilla-ID, t.ex. "
 "123123. Listflagga."
 
-#: commands/advisory/arguments.hpp:180
+#: commands/advisory/arguments.hpp:182
 msgid "BUGZILLA_ID,..."
 msgstr "BUGZILLA_ID,..."
 
-#: commands/advisory/arguments.hpp:190
+#: commands/advisory/arguments.hpp:192
 msgid ""
 "Limit to packages in advisories that fix a CVE (Common Vulnerabilities and "
 "Exposures) ID, Eg. CVE-2201-0123. List option."
@@ -133,7 +135,7 @@ msgstr ""
 "Begränsa till paket med rekommendationer som fixar en CVE (Vanliga "
 "sårbarheter och exponeringar) ID, t.ex. CVE-2201-0123. Listflagga."
 
-#: commands/advisory/arguments.hpp:192
+#: commands/advisory/arguments.hpp:194
 msgid "CVE_ID,..."
 msgstr "CVE_ID,..."
 
