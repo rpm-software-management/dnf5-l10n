@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-26 02:52+0000\n"
+"POT-Creation-Date: 2024-01-30 02:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -27,11 +27,11 @@ msgid "Unsupported argument for REMOVE action: {}"
 msgstr ""
 
 #. TODO(lukash) throw a proper exception
-#: base/goal.cpp:1098
+#: base/goal.cpp:1114
 msgid "Incorrect configuration value for multilib_policy: {}"
 msgstr ""
 
-#: base/goal.cpp:2306
+#: base/goal.cpp:2322
 msgid "Failed to resolve modules."
 msgstr ""
 
@@ -133,6 +133,17 @@ msgstr ""
 
 #: base/log_event.cpp:165
 msgid "{} action for argument \"{}\" is not supported."
+msgstr ""
+
+#: base/log_event.cpp:177
+msgid ""
+"\n"
+"  - Argument '{}' matches {} streams ('{}') of module '{}', but none of the "
+"streams are enabled or default."
+msgstr ""
+
+#: base/log_event.cpp:185
+msgid "Unable to resolve argument '{}':{}"
 msgstr ""
 
 #: base/solver_problems.cpp:37
@@ -527,7 +538,7 @@ msgstr ""
 msgid "Missing ':' in the value"
 msgstr ""
 
-#: module/module_sack.cpp:830
+#: module/module_sack.cpp:908
 msgid "Invalid module status: {}"
 msgstr ""
 
