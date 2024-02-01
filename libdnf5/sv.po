@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-31 02:52+0000\n"
-"PO-Revision-Date: 2024-01-16 23:29+0000\n"
+"PO-Revision-Date: 2024-02-02 09:36+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/sv/>\n"
@@ -154,12 +154,13 @@ msgid ""
 "  - Argument '{}' matches {} streams ('{}') of module '{}', but none of the "
 "streams are enabled or default."
 msgstr ""
+"\n"
+"  - Argument '{}' matchar {} strömmar ('{}') av modul '{}', men ingen av "
+"strömmarna är aktiverade eller standard."
 
 #: base/log_event.cpp:185
-#, fuzzy
-#| msgid "No {} to remove for argument: {}"
 msgid "Unable to resolve argument '{}':{}"
-msgstr "Inget {} att ta bort för argument: {}"
+msgstr "Kunde inte lösa argumentet '{}':{}"
 
 #: base/solver_problems.cpp:37
 msgid "{} does not belong to a distupgrade repository"
