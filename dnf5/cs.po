@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-31 02:52+0000\n"
-"PO-Revision-Date: 2024-02-02 11:44+0000\n"
+"PO-Revision-Date: 2024-02-02 11:55+0000\n"
 "Last-Translator: Petr Ptacek <petr106@atlas.cz>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf5/dnf5/"
 "cs/>\n"
@@ -337,49 +337,52 @@ msgstr "Nelze načíst sdílenou knihovnu \"{}\": {}"
 
 #: library.cpp:48
 msgid "Cannot obtain address of symbol \"{}\": {}"
-msgstr "Nelze získat adresu symbolu \"%s\": %s"
+msgstr "Nelze získat adresu symbolu \"{}\": {}"
 
 #: main.cpp:179
 msgid "Failed to expire repository cache in path \"{0}\": {1}"
-msgstr ""
+msgstr "Selhalo vypršení platnosti mezipaměti repozitáře na cestě \"{0}\": {1}"
 
 #: main.cpp:204
 msgid "repofrompath: Incorrect repoid and path specification \"{}\""
 msgstr ""
+"repofrompath: Nesprávné ID repozitáře a nesprávná specifikace cesty \"{}\""
 
 #: main.cpp:227 main.cpp:266
 msgid "{}: Badly formatted argument value \"{}\""
-msgstr ""
+msgstr "{}: Špatně naformátovaná hodnota argumentu \"{}\""
 
 #: main.cpp:234
 msgid ""
 "{}: Badly formatted argument value: Last key character cannot be '.': {}"
 msgstr ""
+"{}: Špatně naformátovaná hodnota argumentu: Poslední klíčový znak nemůže být "
+"'.': {}"
 
 #: main.cpp:247
 msgid "setopt: \"{0}\": {1}"
-msgstr ""
+msgstr "setopt: \"{0}\": {1}"
 
 #: main.cpp:273
 msgid "setvar: {}"
-msgstr ""
+msgstr "setvar: {}"
 
 #: main.cpp:608 shared_options.cpp:90
 msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
-msgstr ""
+msgstr "Nepodporovaná architektura \"{0}\". Vyberte prosím jednu z {1}"
 
 #: main.cpp:817
 msgid "======== Main configuration: ========"
-msgstr ""
+msgstr "======== Hlavní konfigurace: ========"
 
 #: main.cpp:858
 msgid "======== \"{}\" repository configuration: ========"
-msgstr ""
+msgstr "======== Konfigurace repozitáře \"{}\": ========"
 
 #: main.cpp:879
 msgid "======== Variables: ========"
-msgstr ""
+msgstr "======== Proměnné: ========"
 
 #: main.cpp:997 main.cpp:1150
 msgid ". Add \"--help\" for more information about the arguments."
-msgstr ""
+msgstr ". Přidejte \"--help\" pro více informací o argumentech."
