@@ -8,9 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-31 02:52+0000\n"
-"PO-Revision-Date: 2024-02-02 11:06+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2024-02-02 11:14+0000\n"
+"Last-Translator: Petr Ptacek <petr106@atlas.cz>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf5/dnf5/"
 "cs/>\n"
 "Language: cs\n"
@@ -226,29 +225,31 @@ msgstr "Pracuje pouze na skupinách, žádné balíčky se nemění."
 
 #: commands/history/arguments.hpp:34
 msgid "Transaction ID"
-msgstr "ID transakce:"
+msgstr "ID transakce"
 
 #: commands/history/arguments.hpp:41
 msgid "Reverse the order of transactions."
-msgstr ""
+msgstr "Obrací pořadí transakcí."
 
 #: commands/history/history_store.cpp:62
 msgid "File \"{}\" already exists, it will be overwritten.\n"
-msgstr ""
+msgstr "Soubor \"{}\" již existuje, bude přepsán.\n"
 
 #: commands/history/history_store.cpp:76
 msgid "No transactions selected for storing, exactly one required."
-msgstr ""
+msgstr "Nejsou vybrány žádné transakce k uložení, je vyžadována právě jedna."
 
 #: commands/history/history_store.cpp:79
 msgid "Multiple transactions selected for storing, only one allowed."
-msgstr ""
+msgstr "Pro uložení bylo vybráno více transakcí, povolena pouze jedna."
 
 #: commands/history/transaction_id.cpp:32
 msgid ""
 "Invalid transaction ID range \"{}\", \"ID\" or \"ID..ID\" expected, where ID "
 "is \"NUMBER\", \"last\" or \"last-NUMBER\"."
 msgstr ""
+"Neplatný rozsah ID transakce \"{}\", očekává se \"ID\" nebo \"ID..ID\", kde "
+"ID je \"NUMBER\", \"last\" nebo \"last-NUMBER\"."
 
 #: commands/list/list.cpp:256
 msgid "No matching packages to list"
