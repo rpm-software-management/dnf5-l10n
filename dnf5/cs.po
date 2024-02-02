@@ -8,9 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-31 02:52+0000\n"
-"PO-Revision-Date: 2024-02-02 11:14+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2024-02-02 11:26+0000\n"
+"Last-Translator: Petr Ptacek <petr106@atlas.cz>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf5/dnf5/"
 "cs/>\n"
 "Language: cs\n"
@@ -254,51 +253,55 @@ msgstr ""
 
 #: commands/list/list.cpp:256
 msgid "No matching packages to list"
-msgstr "Nenalezeny odpovídající balíčky"
+msgstr "Žádné odpovídající balíčky k seznamu"
 
 #: commands/module/arguments.hpp:36
 msgid "Show enabled modules."
-msgstr ""
+msgstr "Zobrazí povolené moduly."
 
 #: commands/module/arguments.hpp:43
 msgid "Show disabled modules."
-msgstr ""
+msgstr "Zobrazí zakázané moduly."
 
 #: commands/module/arguments.hpp:50
 msgid "Pattern matching module NSVCAs."
-msgstr ""
+msgstr "Modul NSVCA odpovídající vzoru."
 
 #: commands/module/module_list.cpp:84
 msgid "No matches found for \"{}\"."
-msgstr ""
+msgstr "Nebyly nalezeny žádné shody pro \"{}\"."
 
 #: commands/repo/arguments.hpp:35
 msgid "Show all repositories."
-msgstr ""
+msgstr "Zobrazí všechny repozitáře."
 
 #: commands/repo/arguments.hpp:42
 msgid "Show enabled repositories (default)."
-msgstr ""
+msgstr "Zobrazí povolené repozitáře (výchozí)."
 
 #: commands/repo/arguments.hpp:49
 msgid "Show disabled repositories."
-msgstr ""
+msgstr "Zobrazí zakázané repozitáře."
 
 #: commands/repo/arguments.hpp:56
 msgid "Pattern matching repo IDs."
-msgstr ""
+msgstr "ID repozitáře odpovídající vzoru."
 
 #: commands/repoquery/repoquery.cpp:514
 msgid ""
 "Option \"--exactdeps\" has to be used either with \"--whatrequires\" or \"--"
 "whatdepends\""
 msgstr ""
+"Volba \"--exactdeps\" musí být použita buď s \"--whatrequires\" nebo \"--"
+"whatdepends\""
 
 #: commands/repoquery/repoquery.cpp:519
 msgid ""
 "Option \"--recursive\" has to be used either with \"--whatrequires\" or \"--"
 "providers-of=requires\""
 msgstr ""
+"Volba \"--recursive\" musí být použita buď s \"--whatrequires\" nebo \""
+"--providers-of=requires\""
 
 #: commands/search/arguments.hpp:37
 msgid "Search also package description and URL."
