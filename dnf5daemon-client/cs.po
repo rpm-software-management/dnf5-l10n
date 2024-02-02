@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-31 02:52+0000\n"
-"PO-Revision-Date: 2024-02-02 09:36+0000\n"
+"PO-Revision-Date: 2024-02-02 10:59+0000\n"
 "Last-Translator: Petr Ptacek <petr106@atlas.cz>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5daemon-client/cs/>\n"
@@ -66,35 +66,35 @@ msgstr "Seznam vzorů porovnaných s doporučenými názvy."
 
 #: commands/advisory/arguments.hpp:95
 msgid "Show only advisories referencing a bugzilla."
-msgstr ""
+msgstr "Zobrazí pouze doporučení odkazující na bugzillu."
 
 #: commands/advisory/arguments.hpp:102
 msgid "Show only advisories referencing a CVE."
-msgstr ""
+msgstr "Zobrazí pouze doporučení odkazující na CVE."
 
 #: commands/advisory/arguments.hpp:113
 msgid "Limit to packages in advisories with specified name. List option."
-msgstr ""
+msgstr "Omezí se na balíčky v doporučeních se zadaným názvem. Seznam možností."
 
 #: commands/advisory/arguments.hpp:114
 msgid "ADVISORY_NAME,..."
-msgstr ""
+msgstr "ADVISORY_NAME,..."
 
 #: commands/advisory/arguments.hpp:121
 msgid "Limit to packages in security advisories."
-msgstr ""
+msgstr "Omezí se na balíčky v bezpečnostních doporučeních."
 
 #: commands/advisory/arguments.hpp:128
 msgid "Limit to packages in bugfix advisories."
-msgstr ""
+msgstr "Omezí se na balíčky v doporučeních na opravu chyb."
 
 #: commands/advisory/arguments.hpp:135
 msgid "Limit to packages in enhancement advisories."
-msgstr ""
+msgstr "Omezí se na balíčky v doporučeních pro vylepšení."
 
 #: commands/advisory/arguments.hpp:142
 msgid "Limit to packages in newpackage advisories."
-msgstr ""
+msgstr "Omezí se na balíčky v doporučeních na nové balíčky."
 
 #. Note for translators: "critical" etc. quoted words are
 #. literals that should not be translated.
@@ -103,30 +103,37 @@ msgid ""
 "Limit to packages in advisories with specified severity. List option. Can be "
 "\"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgstr ""
+"Omezí se na balíčky v doporučeních se specifikovanou závažností. Seznamu "
+"možností. Může být \"critical\", \"important\", \"moderate\", \"low\", \"none"
+"\"."
 
 #: commands/advisory/arguments.hpp:157
 msgid "ADVISORY_SEVERITY,..."
-msgstr ""
+msgstr "ADVISORY_SEVERITY,..."
 
 #: commands/advisory/arguments.hpp:181
 msgid ""
 "Limit to packages in advisories that fix a Bugzilla ID, Eg. 123123. List "
 "option."
 msgstr ""
+"Omezí se na balíčky v doporučeních, které opravují Bugzilla ID, např. "
+"123123. Seznamu možností."
 
 #: commands/advisory/arguments.hpp:182
 msgid "BUGZILLA_ID,..."
-msgstr ""
+msgstr "BUGZILLA_ID,..."
 
 #: commands/advisory/arguments.hpp:192
 msgid ""
 "Limit to packages in advisories that fix a CVE (Common Vulnerabilities and "
 "Exposures) ID, Eg. CVE-2201-0123. List option."
 msgstr ""
+"Omezí se na balíčky v doporučeních, které opravují ID CVE (Common "
+"Vulnerabilities and Exposures), např. CVE-2201-0123. Seznam možností."
 
 #: commands/advisory/arguments.hpp:194
 msgid "CVE_ID,..."
-msgstr ""
+msgstr "CVE_ID,..."
 
 #: exception.cpp:28
 msgid ""
