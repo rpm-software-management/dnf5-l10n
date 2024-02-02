@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-31 02:52+0000\n"
-"PO-Revision-Date: 2024-02-02 12:15+0000\n"
+"PO-Revision-Date: 2024-02-02 13:11+0000\n"
 "Last-Translator: Petr Ptacek <petr106@atlas.cz>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5-plugin-config-manager/cs/>\n"
@@ -20,11 +20,11 @@ msgstr ""
 
 #: addrepo.cpp:152
 msgid "from-repofile: \"{}\" file does not exist"
-msgstr ""
+msgstr "from-repofile: soubor \"{}\" neexistuje"
 
 #: addrepo.cpp:155
 msgid "from-repofile: {}"
-msgstr ""
+msgstr "from-repofile: {}"
 
 #: addrepo.cpp:185 setopt.cpp:83 setvar.cpp:49
 msgid "{}: Badly formatted argument value \"{}\""
@@ -32,11 +32,11 @@ msgstr "{}: Špatně naformátovaná hodnota argumentu \"{}\""
 
 #: addrepo.cpp:195
 msgid "Cannot set repository option \"{}={}\": {}"
-msgstr ""
+msgstr "Nelze nastavit volbu repozitáře \"{}={}\": {}"
 
 #: addrepo.cpp:203 setopt.cpp:138
 msgid "Sets the \"{}\" option again with a different value: \"{}\" != \"{}\""
-msgstr ""
+msgstr "Nastaví volbu \"{}\" znovu s jinou hodnotou: \"{}\" != \"{}\""
 
 #: addrepo.cpp:269
 msgid "Missing path to repository configuration directory"
@@ -44,47 +44,55 @@ msgstr "Chybí cesta ke konfiguračnímu adresáři repozitáře"
 
 #: addrepo.cpp:319
 msgid "Failed to copy repository configuration file \"{}\": {}"
-msgstr ""
+msgstr "Nepodařilo se zkopírovat konfigurační soubor repozitáře \"{}\": {}"
 
 #: addrepo.cpp:330
 msgid "Failed to download repository configuration file \"{}\": {}"
-msgstr ""
+msgstr "Nepodařilo se stáhnout konfigurační soubor repozitáře „{}“: {}"
 
 #: addrepo.cpp:352
 msgid ""
 "Error in added repository configuration file. Cannot set repository option "
 "\"{}={}\": {}"
 msgstr ""
+"Chyba v přidaném konfiguračním souboru repozitáře. Nelze nastavit volbu "
+"úložiště \"{}={}\": {}"
 
 #: addrepo.cpp:386
 msgid "Bad baseurl: {}={}"
-msgstr ""
+msgstr "Špatná základní adresa URL: {}={}"
 
 #: addrepo.cpp:394
 msgid ""
 "One of --from-repofile=<URL>, --set=baseurl=<URL>, --set=mirrorlist=<URL>, --"
 "set=metalink=<URL> must be set to a non-empty URL"
 msgstr ""
+"Jeden z --from-repofile=<URL>, --set=baseurl=<URL>, --set=mirrorlist=<URL>, "
+"--set=metalink=<URL> musí být nastaven na neprázdnou adresu URL"
 
 #: addrepo.cpp:439
 msgid "Failed to save repository configuration file \"{}\": {}"
-msgstr ""
+msgstr "Nepodařilo se uložit konfigurační soubor repozitáře \"{}\": {}"
 
 #: addrepo.cpp:461
 msgid ""
 "File \"{}\" already exists and configures repositories with IDs \"{}\". Add "
 "\"--add-or-replace\" or \"--overwrite\"."
 msgstr ""
+"Soubor \"{}\" již existuje a konfiguruje repozitář s ID \"{}\". Přidejte \""
+"--add-or-replace\" nebo \"--overwrite\"."
 
 #: addrepo.cpp:464
 msgid ""
 "File \"{}\" already exists and configures repositories with IDs \"{}\". Add "
 "\"--overwrite\" to overwrite."
 msgstr ""
+"Soubor \"{}\" již existuje a konfiguruje repozitář s ID \"{}\". Chcete-li "
+"jej přepsat, přidejte \"--overwrite\"."
 
 #: addrepo.cpp:484 addrepo.cpp:509
 msgid "A repository with id \"{}\" already configured in file: {}"
-msgstr ""
+msgstr "Repozitář s ID \"{}\" již má konfiguraci v souboru: {}"
 
 #: setopt.cpp:91 unsetopt.cpp:65
 msgid ""
@@ -95,62 +103,68 @@ msgstr ""
 
 #: setopt.cpp:100 unsetopt.cpp:74
 msgid "{}: Empty repository id is not allowed: {}"
-msgstr ""
+msgstr "{}: Prázdné ID repozitáře není povoleno: {}"
 
 #: setopt.cpp:109
 msgid "Cannot set repository option \"{}\": {}"
-msgstr ""
+msgstr "Nelze nastavit volbu repozitáře \"{}\": {}"
 
 #: setopt.cpp:116 setopt.cpp:179
 msgid ""
 "Sets the \"{}\" option of the repository \"{}\" again with a different "
 "value: \"{}\" != \"{}\""
 msgstr ""
+"Nastaví volbu \"{}\" repozitáře \"{}\" znovu s jinou hodnotou: \"{}\" != \"{}"
+"\""
 
 #: setopt.cpp:130
 msgid "Cannot set option: \"{}\": {}"
-msgstr ""
+msgstr "Nelze nastavit volbu: \"{}\": {}"
 
 #: setopt.cpp:170
 msgid "No matching repository to modify: {}"
-msgstr ""
+msgstr "Žádný odpovídající repozitář k úpravě: {}"
 
 #: setvar.cpp:60
 msgid "Cannot set \"{}\": Variable \"{}\" is read-only"
-msgstr ""
+msgstr "Nelze nastavit \"{}\": Proměnná \"{}\" je pouze pro čtení"
 
 #: setvar.cpp:68
 msgid "Sets the \"{}\" variable again with a different value: \"{}\" != \"{}\""
-msgstr ""
+msgstr "Nastaví proměnnou \"{}\" znovu s jinou hodnotou: \"{}\" != \"{}\""
 
 #: setvar.cpp:97 unsetvar.cpp:63
 msgid "Missing path to vars directory"
-msgstr ""
+msgstr "Chybí cesta k adresáři vars"
 
 #: setvar.cpp:110
 msgid "Cannot write variable to file \"{}\": {}"
-msgstr ""
+msgstr "Nelze zapsat proměnnou do souboru \"{}\": {}"
 
 #: shared.hpp:49
 msgid ""
 "The path \"{}\" exists, but it is not a directory or a symlink to a "
 "directory."
 msgstr ""
+"Cesta \"{}\" existuje, ale není to adresář ani symbolický odkaz na adresář."
 
 #: shared.hpp:54
 msgid "The path \"{}\" exists, but it is a symlink to a non-existent object."
 msgstr ""
+"Cesta \"{}\" existuje, ale je to symbolický odkaz na neexistující objekt."
 
 #: shared.hpp:60
 msgid ""
 "Directory \"{}\" does not exist. Add \"--create-missing-dir\" to create "
 "missing directories."
 msgstr ""
+"Adresář \"{}\" neexistuje. Chcete-li vytvořit chybějící adresáře, přidejte \""
+"--create-missing-dir\"."
 
 #: shared.hpp:71
 msgid "Variable name can contain only ASCII letters, numbers and '_': {}"
-msgstr ""
+msgstr "Název proměnné může obsahovat pouze písmena ASCII, čísla a '_': {}"
 
 #: unsetvar.cpp:76
 msgid "Cannot remove variable file \"{}\": {}"
-msgstr ""
+msgstr "Nelze odstranit variabilní soubor \"{}\": {}"
