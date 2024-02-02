@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-31 02:52+0000\n"
-"PO-Revision-Date: 2024-02-02 09:36+0000\n"
+"PO-Revision-Date: 2024-02-02 10:59+0000\n"
 "Last-Translator: Petr Ptacek <petr106@atlas.cz>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf5/dnf5/"
 "cs/>\n"
@@ -86,110 +86,117 @@ msgstr "Seznam vzorů porovnaných s doporučenými názvy."
 
 #: commands/advisory/arguments.hpp:100
 msgid "Show only advisories referencing a bugzilla."
-msgstr ""
+msgstr "Zobrazí pouze doporučení odkazující na bugzillu."
 
 #: commands/advisory/arguments.hpp:107
 msgid "Show only advisories referencing a CVE."
-msgstr ""
+msgstr "Zobrazí pouze doporučení odkazující na CVE."
 
 #: commands/advisory_shared.hpp:113
 msgid "Limit to packages in advisories with specified name. List option."
-msgstr ""
+msgstr "Omezí se na balíčky v doporučeních se zadaným názvem. Seznam možností."
 
 #: commands/advisory_shared.hpp:114
 msgid "ADVISORY_NAME,..."
-msgstr ""
+msgstr "ADVISORY_NAME,..."
 
 #: commands/advisory_shared.hpp:121
 msgid "Limit to packages in security advisories."
-msgstr ""
+msgstr "Omezí se na balíčky v bezpečnostních doporučeních."
 
 #: commands/advisory_shared.hpp:128
 msgid "Limit to packages in bugfix advisories."
-msgstr ""
+msgstr "Omezí se na balíčky v doporučeních na opravu chyb."
 
 #: commands/advisory_shared.hpp:135
 msgid "Limit to packages in enhancement advisories."
-msgstr ""
+msgstr "Omezí se na balíčky v doporučeních pro vylepšení."
 
 #: commands/advisory_shared.hpp:142
 msgid "Limit to packages in newpackage advisories."
-msgstr ""
+msgstr "Omezí se na balíčky v doporučeních na nové balíčky."
 
 #: commands/advisory_shared.hpp:153
 msgid ""
 "Limit to packages in advisories with specified severity. List option. Can be "
 "\"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgstr ""
+"Omezí se na balíčky v doporučeních se specifikovanou závažností. Seznamu "
+"možností. Může být \"critical\", \"important\", \"moderate\", \"low\", \"none"
+"\"."
 
 #: commands/advisory_shared.hpp:155
 msgid "ADVISORY_SEVERITY,..."
-msgstr ""
+msgstr "ADVISORY_SEVERITY,..."
 
 #: commands/advisory_shared.hpp:179
 msgid ""
 "Limit to packages in advisories that fix a Bugzilla ID, Eg. 123123. List "
 "option."
 msgstr ""
+"Omezí se na balíčky v doporučeních, které opravují Bugzilla ID, např. "
+"123123. Seznamu možností."
 
 #: commands/advisory_shared.hpp:180
 msgid "BUGZILLA_ID,..."
-msgstr ""
+msgstr "BUGZILLA_ID,..."
 
 #: commands/advisory_shared.hpp:190
 msgid ""
 "Limit to packages in advisories that fix a CVE (Common Vulnerabilities and "
 "Exposures) ID, Eg. CVE-2201-0123. List option."
 msgstr ""
+"Omezí se na balíčky v doporučeních, které opravují ID CVE (Common "
+"Vulnerabilities and Exposures), např. CVE-2201-0123. Seznam možností."
 
 #: commands/advisory_shared.hpp:192
 msgid "CVE_ID,..."
-msgstr ""
+msgstr "CVE_ID,..."
 
 #: commands/check/check.cpp:335
 msgid "Check discovered {} problem(s) in {} package(s)"
-msgstr ""
+msgstr "Zkontroluje zjištěné {} problémy v {} balíčcích"
 
 #: commands/clean/clean.cpp:86
 msgid "List of cache types to clean up. Supported types: {0}"
-msgstr ""
+msgstr "Seznam typů mezipaměti k vyčištění. Podporované typy: {0}"
 
 #: commands/clean/clean.cpp:104
 msgid "Unknown cache type \"{0}\". Supported types: {1}"
-msgstr ""
+msgstr "Neznámý typ mezipaměti \"{0}\". Podporované typy: {1}"
 
 #: commands/clean/clean.cpp:161
 msgid "Failed to cleanup repository cache in path \"{0}\": {1}"
-msgstr ""
+msgstr "Nepodařilo se vyčistit mezipaměť repozitory na cestě \"{0}\": {1}"
 
 #: commands/download/download.cpp:101
 msgid "Invalid urlprotocol option: {}"
-msgstr ""
+msgstr "Neplatná volba protokolu adresy URL: {}"
 
 #. TODO(jrohel): Add support for requiring an argument by another argument in ArgumentParser?
 #: commands/download/download.cpp:130
 msgid "Option \"--alldeps\" should be used with \"--resolve\""
-msgstr ""
+msgstr "Volba \"--alldeps\" by měla být použita s \"--resolve\""
 
 #: commands/environment/arguments.hpp:33
 msgid "Show only available environments."
-msgstr ""
+msgstr "Zobrazí pouze dostupná prostředí."
 
 #: commands/environment/arguments.hpp:40
 msgid "Show only installed environments."
-msgstr ""
+msgstr "Zobrazí pouze nainstalovaná prostředí."
 
 #: commands/environment/arguments.hpp:47
 msgid "Pattern matching environment IDs."
-msgstr ""
+msgstr "ID prostředí odpovídající vzoru."
 
 #: commands/group/arguments.hpp:34
 msgid "Show only available groups."
-msgstr ""
+msgstr "Zobrazí pouze dostupné skupiny."
 
 #: commands/group/arguments.hpp:41
 msgid "Show also hidden groups."
-msgstr ""
+msgstr "Zobrazí také skryté skupiny."
 
 #: commands/group/arguments.hpp:48
 msgid "Show only installed groups."
