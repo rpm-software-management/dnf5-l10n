@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-31 02:52+0000\n"
+"POT-Creation-Date: 2024-02-08 02:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -156,12 +156,16 @@ msgstr ""
 msgid "Failed to cleanup repository cache in path \"{0}\": {1}"
 msgstr ""
 
-#: commands/download/download.cpp:101
+#: commands/download/download.cpp:103
 msgid "Invalid urlprotocol option: {}"
 msgstr ""
 
+#: commands/download/download.cpp:130 main.cpp:608 shared_options.cpp:90
+msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
+msgstr ""
+
 #. TODO(jrohel): Add support for requiring an argument by another argument in ArgumentParser?
-#: commands/download/download.cpp:130
+#: commands/download/download.cpp:163
 msgid "Option \"--alldeps\" should be used with \"--resolve\""
 msgstr ""
 
@@ -340,10 +344,6 @@ msgstr ""
 
 #: main.cpp:273
 msgid "setvar: {}"
-msgstr ""
-
-#: main.cpp:608 shared_options.cpp:90
-msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
 msgstr ""
 
 #: main.cpp:817
