@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-31 02:52+0000\n"
+"POT-Creation-Date: 2024-02-08 02:52+0000\n"
 "PO-Revision-Date: 2024-01-27 05:35+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -176,12 +176,16 @@ msgstr "უცნობი კეშის ტიპი \"{0}\". მხარდ
 msgid "Failed to cleanup repository cache in path \"{0}\": {1}"
 msgstr "რეპოზიტორიის კეშის გასუფთავება ჩავარდა ბილიკზე \"{0}\": {1}"
 
-#: commands/download/download.cpp:101
+#: commands/download/download.cpp:103
 msgid "Invalid urlprotocol option: {}"
 msgstr "არასწორი urlprotocol-ის პარამეტრი: {}"
 
+#: commands/download/download.cpp:130 main.cpp:608 shared_options.cpp:90
+msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
+msgstr "მხარდაუჭერელი არქიტექტურა \"{0}\". აირჩიეთ ერთ-ერთი სიიდან {1}"
+
 #. TODO(jrohel): Add support for requiring an argument by another argument in ArgumentParser?
-#: commands/download/download.cpp:130
+#: commands/download/download.cpp:163
 msgid "Option \"--alldeps\" should be used with \"--resolve\""
 msgstr ""
 "პარამეტრი \"--alldeps\" პარამეტრ \"--resolve\"-თან ერთად უნდა გამოიყენოთ"
@@ -373,10 +377,6 @@ msgstr "setopt: \"{0}\": {1}"
 #: main.cpp:273
 msgid "setvar: {}"
 msgstr "setvar: {}"
-
-#: main.cpp:608 shared_options.cpp:90
-msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
-msgstr "მხარდაუჭერელი არქიტექტურა \"{0}\". აირჩიეთ ერთ-ერთი სიიდან {1}"
 
 #: main.cpp:817
 msgid "======== Main configuration: ========"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-31 02:52+0000\n"
+"POT-Creation-Date: 2024-02-08 02:52+0000\n"
 "PO-Revision-Date: 2024-01-28 11:35+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -173,12 +173,16 @@ msgstr "Okänd cachetyp \"{0}\". Typer som stöds: {1}"
 msgid "Failed to cleanup repository cache in path \"{0}\": {1}"
 msgstr "Misslyckades att rensa arkivets cache i sökväg \"{0}\": {1}"
 
-#: commands/download/download.cpp:101
+#: commands/download/download.cpp:103
 msgid "Invalid urlprotocol option: {}"
 msgstr "Ogiltigt urlprotocol alternativ: {}"
 
+#: commands/download/download.cpp:130 main.cpp:608 shared_options.cpp:90
+msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
+msgstr "Arkitektur \"{0}\" som inte stöds. Välj en från {1}"
+
 #. TODO(jrohel): Add support for requiring an argument by another argument in ArgumentParser?
-#: commands/download/download.cpp:130
+#: commands/download/download.cpp:163
 msgid "Option \"--alldeps\" should be used with \"--resolve\""
 msgstr "Alternativet \"--alldeps\" ska användas med \"--resolve\""
 
@@ -368,10 +372,6 @@ msgstr "setopt: \"{0}\": {1}"
 #: main.cpp:273
 msgid "setvar: {}"
 msgstr "setvar: {}"
-
-#: main.cpp:608 shared_options.cpp:90
-msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
-msgstr "Arkitektur \"{0}\" som inte stöds. Välj en från {1}"
 
 #: main.cpp:817
 msgid "======== Main configuration: ========"

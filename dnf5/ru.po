@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-31 02:52+0000\n"
+"POT-Creation-Date: 2024-02-08 02:52+0000\n"
 "PO-Revision-Date: 2024-01-29 14:37+0000\n"
 "Last-Translator: Aleksey Fedorov <aleksejfedorov963@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -175,12 +175,16 @@ msgstr "Неизвестный тип кэша \"{0}\". Поддерживаем
 msgid "Failed to cleanup repository cache in path \"{0}\": {1}"
 msgstr "Не удалось очистить кэш репозитория по пути \"{0}\": {1}"
 
-#: commands/download/download.cpp:101
+#: commands/download/download.cpp:103
 msgid "Invalid urlprotocol option: {}"
 msgstr "Недопустимый параметр urlprotocol: {}"
 
+#: commands/download/download.cpp:130 main.cpp:608 shared_options.cpp:90
+msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
+msgstr "Неподдерживаемая архитектура \"{0}\". Пожалуйста, выберите одну из {1}"
+
 #. TODO(jrohel): Add support for requiring an argument by another argument in ArgumentParser?
-#: commands/download/download.cpp:130
+#: commands/download/download.cpp:163
 msgid "Option \"--alldeps\" should be used with \"--resolve\""
 msgstr "Опция \"--alldeps\" должна использоваться вместе с \"--resolve\""
 
@@ -370,10 +374,6 @@ msgstr "setopt: \"{0}\": {1}"
 #: main.cpp:273
 msgid "setvar: {}"
 msgstr "setvar: {}"
-
-#: main.cpp:608 shared_options.cpp:90
-msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
-msgstr "Неподдерживаемая архитектура \"{0}\". Пожалуйста, выберите одну из {1}"
 
 #: main.cpp:817
 msgid "======== Main configuration: ========"

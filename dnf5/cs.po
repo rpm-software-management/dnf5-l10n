@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-31 02:52+0000\n"
+"POT-Creation-Date: 2024-02-08 02:52+0000\n"
 "PO-Revision-Date: 2024-02-06 09:36+0000\n"
 "Last-Translator: Petr Ptacek <petr106@atlas.cz>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf5/dnf5/"
@@ -123,8 +123,8 @@ msgid ""
 "\"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgstr ""
 "Omezí se na balíčky v doporučeních se specifikovanou závažností. Seznamu "
-"možností. Může být \"critical\", \"important\", \"moderate\", \"low\", \"none"
-"\"."
+"možností. Může být \"critical\", \"important\", \"moderate\", \"low\", "
+"\"none\"."
 
 #: commands/advisory_shared.hpp:155
 msgid "ADVISORY_SEVERITY,..."
@@ -170,12 +170,16 @@ msgstr "Neznámý typ mezipaměti \"{0}\". Podporované typy: {1}"
 msgid "Failed to cleanup repository cache in path \"{0}\": {1}"
 msgstr "Nepodařilo se vyčistit mezipaměť repozitory na cestě \"{0}\": {1}"
 
-#: commands/download/download.cpp:101
+#: commands/download/download.cpp:103
 msgid "Invalid urlprotocol option: {}"
 msgstr "Neplatná volba protokolu adresy URL: {}"
 
+#: commands/download/download.cpp:130 main.cpp:608 shared_options.cpp:90
+msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
+msgstr "Nepodporovaná architektura \"{0}\". Vyberte prosím jednu z {1}"
+
 #. TODO(jrohel): Add support for requiring an argument by another argument in ArgumentParser?
-#: commands/download/download.cpp:130
+#: commands/download/download.cpp:163
 msgid "Option \"--alldeps\" should be used with \"--resolve\""
 msgstr "Volba \"--alldeps\" by měla být použita s \"--resolve\""
 
@@ -300,8 +304,8 @@ msgid ""
 "Option \"--recursive\" has to be used either with \"--whatrequires\" or \"--"
 "providers-of=requires\""
 msgstr ""
-"Volba \"--recursive\" musí být použita buď s \"--whatrequires\" nebo \""
-"--providers-of=requires\""
+"Volba \"--recursive\" musí být použita buď s \"--whatrequires\" nebo \"--"
+"providers-of=requires\""
 
 #: commands/search/arguments.hpp:37
 msgid "Search also package description and URL."
@@ -366,10 +370,6 @@ msgstr "setopt: \"{0}\": {1}"
 #: main.cpp:273
 msgid "setvar: {}"
 msgstr "setvar: {}"
-
-#: main.cpp:608 shared_options.cpp:90
-msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
-msgstr "Nepodporovaná architektura \"{0}\". Vyberte prosím jednu z {1}"
 
 #: main.cpp:817
 msgid "======== Main configuration: ========"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-31 02:52+0000\n"
+"POT-Creation-Date: 2024-02-08 02:52+0000\n"
 "PO-Revision-Date: 2024-01-18 02:47+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
@@ -172,12 +172,16 @@ msgstr "Tipo de cache desconhecido \"{0}\". Tipos suportados: {1}"
 msgid "Failed to cleanup repository cache in path \"{0}\": {1}"
 msgstr "Falha para limpar o cache de repositório no caminho \"{0}\": {1}"
 
-#: commands/download/download.cpp:101
+#: commands/download/download.cpp:103
 msgid "Invalid urlprotocol option: {}"
 msgstr ""
 
+#: commands/download/download.cpp:130 main.cpp:608 shared_options.cpp:90
+msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
+msgstr "Sem suporte à arquitetura \"{0}. Escolha uma entre {1}"
+
 #. TODO(jrohel): Add support for requiring an argument by another argument in ArgumentParser?
-#: commands/download/download.cpp:130
+#: commands/download/download.cpp:163
 msgid "Option \"--alldeps\" should be used with \"--resolve\""
 msgstr "As opções \"--alldeps\" devem ser usadas com \"--resolve\""
 
@@ -368,10 +372,6 @@ msgstr "setopt: \"{0}\": {1}"
 #: main.cpp:273
 msgid "setvar: {}"
 msgstr "setvar: {}"
-
-#: main.cpp:608 shared_options.cpp:90
-msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
-msgstr "Sem suporte à arquitetura \"{0}. Escolha uma entre {1}"
 
 #: main.cpp:817
 msgid "======== Main configuration: ========"
