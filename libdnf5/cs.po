@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-31 02:52+0000\n"
+"POT-Creation-Date: 2024-02-08 02:52+0000\n"
 "PO-Revision-Date: 2024-02-06 09:36+0000\n"
 "Last-Translator: Petr Ptacek <petr106@atlas.cz>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf5/"
@@ -331,7 +331,8 @@ msgstr "Při importu klíče \"{}\" došlo k chybě: {}"
 
 #: base/transaction.cpp:1008
 msgid "PGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
-msgstr "Kontrola PGP pro balíček \"{}\" ({}) z repozitáře \"{}\" se nezdařila: "
+msgstr ""
+"Kontrola PGP pro balíček \"{}\" ({}) z repozitáře \"{}\" se nezdařila: "
 
 #: base/transaction.cpp:1035
 msgid "Import of the key didn't help, wrong key?"
@@ -574,8 +575,8 @@ msgid ""
 "Unsupported plugin API combination. API version provided by plugin "
 "\"{}\" (\"{}\") is \"{}.{}\". API version in libdnf is \"{}.{}\"."
 msgstr ""
-"Nepodporovaná kombinace API pluginu. Verze API poskytovaná pluginem \"{}\" ("
-"\"{}\") je \"{}.{}\". Verze API v libdnf je \"{}.{}\"."
+"Nepodporovaná kombinace API pluginu. Verze API poskytovaná pluginem "
+"\"{}\" (\"{}\") je \"{}.{}\". Verze API v libdnf je \"{}.{}\"."
 
 #: plugin/plugins.cpp:113
 msgid "Cannot find plugin library \"{}\""
@@ -842,12 +843,13 @@ msgstr ""
 #: rpm/transaction.cpp:246
 msgid "Failed to set scriptlet output file, cannot open file \"{}\": {}"
 msgstr ""
-"Nepodařilo se nastavit výstupní soubor skriptletu, nelze otevřít soubor \"{}"
-"\": {}"
+"Nepodařilo se nastavit výstupní soubor skriptletu, nelze otevřít soubor "
+"\"{}\": {}"
 
 #: rpm/transaction.cpp:267
 msgid "Failed to read package header, cannot open file \"{}\": {}"
-msgstr "Nepodařilo se přečíst hlavičku balíčku, nelze otevřít soubor \"{}\": {}"
+msgstr ""
+"Nepodařilo se přečíst hlavičku balíčku, nelze otevřít soubor \"{}\": {}"
 
 #: rpm/transaction.cpp:284
 msgid "Failed to read package header from file \"{}\""
@@ -974,7 +976,8 @@ msgstr "Chyba parsování JSON při přehrání transakce: {}"
 
 #: transaction/transaction_sr.cpp:73
 msgid "Incompatible major version: \"{}\", supported major version is \"{}\""
-msgstr "Nekompatibilní hlavní verze: \"{}\", podporovaná hlavní verze je \"{}\""
+msgstr ""
+"Nekompatibilní hlavní verze: \"{}\", podporovaná hlavní verze je \"{}\""
 
 #: utils/fs/file.cpp:86
 msgid "cannot open file"
@@ -1095,7 +1098,8 @@ msgstr "Navázání hodnoty integer64 s SQL příkazem se nezdařilo: \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:35
 msgid "Binding unsigned integer32 value to SQL statement failed: \"{}\""
-msgstr "Navázání hodnoty unsigned integer32 s SQL příkazem se nezdařilo: \"{}\""
+msgstr ""
+"Navázání hodnoty unsigned integer32 s SQL příkazem se nezdařilo: \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:37
 msgid "Binding double value to SQL statement failed: \"{}\""
