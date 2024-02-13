@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-08 02:52+0000\n"
+"POT-Creation-Date: 2024-02-13 02:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -141,26 +141,32 @@ msgid "CVE_ID,..."
 msgstr ""
 
 #: commands/check/check.cpp:335
+#, c++-format
 msgid "Check discovered {} problem(s) in {} package(s)"
 msgstr ""
 
 #: commands/clean/clean.cpp:86
+#, c++-format
 msgid "List of cache types to clean up. Supported types: {0}"
 msgstr ""
 
 #: commands/clean/clean.cpp:104
+#, c++-format
 msgid "Unknown cache type \"{0}\". Supported types: {1}"
 msgstr ""
 
 #: commands/clean/clean.cpp:161
+#, c++-format
 msgid "Failed to cleanup repository cache in path \"{0}\": {1}"
 msgstr ""
 
 #: commands/download/download.cpp:103
+#, c++-format
 msgid "Invalid urlprotocol option: {}"
 msgstr ""
 
 #: commands/download/download.cpp:130 main.cpp:608 shared_options.cpp:90
+#, c++-format
 msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
 msgstr ""
 
@@ -220,6 +226,7 @@ msgid "Reverse the order of transactions."
 msgstr ""
 
 #: commands/history/history_store.cpp:62
+#, c++-format
 msgid "File \"{}\" already exists, it will be overwritten.\n"
 msgstr ""
 
@@ -232,6 +239,7 @@ msgid "Multiple transactions selected for storing, only one allowed."
 msgstr ""
 
 #: commands/history/transaction_id.cpp:32
+#, c++-format
 msgid ""
 "Invalid transaction ID range \"{}\", \"ID\" or \"ID..ID\" expected, where ID "
 "is \"NUMBER\", \"last\" or \"last-NUMBER\"."
@@ -254,6 +262,7 @@ msgid "Pattern matching module NSVCAs."
 msgstr ""
 
 #: commands/module/module_list.cpp:84
+#, c++-format
 msgid "No matches found for \"{}\"."
 msgstr ""
 
@@ -298,6 +307,7 @@ msgid "The key was successfully imported."
 msgstr ""
 
 #: context.cpp:126
+#, c++-format
 msgid "No matching repositories for \"{}\""
 msgstr ""
 
@@ -314,35 +324,43 @@ msgid "Allow skipping unavailable packages"
 msgstr ""
 
 #: library.cpp:33
+#, c++-format
 msgid "Cannot load shared library \"{}\": {}"
 msgstr ""
 
 #: library.cpp:48
+#, c++-format
 msgid "Cannot obtain address of symbol \"{}\": {}"
 msgstr ""
 
 #: main.cpp:179
+#, c++-format
 msgid "Failed to expire repository cache in path \"{0}\": {1}"
 msgstr ""
 
 #: main.cpp:204
+#, c++-format
 msgid "repofrompath: Incorrect repoid and path specification \"{}\""
 msgstr ""
 
 #: main.cpp:227 main.cpp:266
+#, c++-format
 msgid "{}: Badly formatted argument value \"{}\""
 msgstr ""
 
 #: main.cpp:234
+#, c++-format
 msgid ""
 "{}: Badly formatted argument value: Last key character cannot be '.': {}"
 msgstr ""
 
 #: main.cpp:247
+#, c++-format
 msgid "setopt: \"{0}\": {1}"
 msgstr ""
 
 #: main.cpp:273
+#, c++-format
 msgid "setvar: {}"
 msgstr ""
 
@@ -351,6 +369,7 @@ msgid "======== Main configuration: ========"
 msgstr ""
 
 #: main.cpp:858
+#, c++-format
 msgid "======== \"{}\" repository configuration: ========"
 msgstr ""
 
