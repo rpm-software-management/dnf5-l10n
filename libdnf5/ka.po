@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-15 02:52+0000\n"
-"PO-Revision-Date: 2024-01-31 02:46+0000\n"
+"PO-Revision-Date: 2024-02-16 04:35+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/ka/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.3.1\n"
+"X-Generator: Weblate 5.4\n"
 
 #: advisory/advisory.cpp:44
 msgid ""
@@ -97,10 +97,8 @@ msgid "Argument '{}' matches only excluded packages."
 msgstr "არგუმენტი '{}' მხოლოდ ამოღებულ პაკეტებს ემთხვევა."
 
 #: base/log_event.cpp:116
-#, fuzzy
-#| msgid "Argument '{}' matches only excluded packages."
 msgid "Argument '{}' matches only packages excluded by versionlock."
-msgstr "არგუმენტი '{}' მხოლოდ ამოღებულ პაკეტებს ემთხვევა."
+msgstr "არგუმენტი '{}' მხოლოდ versionlock-ის მიერ ამოღებულ პაკეტებს ემთხვევა."
 
 #: base/log_event.cpp:121
 msgid "  * Maybe you meant: {}"
