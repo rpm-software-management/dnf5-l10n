@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-15 02:52+0000\n"
-"PO-Revision-Date: 2024-02-02 09:36+0000\n"
+"PO-Revision-Date: 2024-02-16 04:35+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/sv/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.3.1\n"
+"X-Generator: Weblate 5.4\n"
 
 #: advisory/advisory.cpp:44
 msgid ""
@@ -98,10 +98,8 @@ msgid "Argument '{}' matches only excluded packages."
 msgstr "Argumentet '{}' matchar endast exkluderade paket."
 
 #: base/log_event.cpp:116
-#, fuzzy
-#| msgid "Argument '{}' matches only excluded packages."
 msgid "Argument '{}' matches only packages excluded by versionlock."
-msgstr "Argumentet '{}' matchar endast exkluderade paket."
+msgstr "Argumentet '{}' matchar endast paket som exkluderas av versionslås."
 
 #: base/log_event.cpp:121
 msgid "  * Maybe you meant: {}"
