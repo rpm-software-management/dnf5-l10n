@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-13 02:52+0000\n"
+"POT-Creation-Date: 2024-02-15 02:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -165,7 +165,7 @@ msgstr ""
 msgid "Invalid urlprotocol option: {}"
 msgstr ""
 
-#: commands/download/download.cpp:130 main.cpp:608 shared_options.cpp:90
+#: commands/download/download.cpp:130 main.cpp:609 shared_options.cpp:90
 #, c++-format
 msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
 msgstr ""
@@ -302,6 +302,71 @@ msgstr ""
 msgid "Patterns"
 msgstr ""
 
+#. TODO(mblaha): add full command line
+#: commands/versionlock/utils.cpp:34
+#, c++-format
+msgid "Added by 'versionlock {}' command on {}"
+msgstr ""
+
+#: commands/versionlock/versionlock_add.cpp:37
+msgid "Add new entry to versionlock configuration"
+msgstr ""
+
+#: commands/versionlock/versionlock_add.cpp:43
+msgid "List of package specs to add versionlock for"
+msgstr ""
+
+#: commands/versionlock/versionlock_add.cpp:103
+#: commands/versionlock/versionlock_exclude.cpp:122
+#, c++-format
+msgid "No package found for \"{}\"."
+msgstr ""
+
+#: commands/versionlock/versionlock_add.cpp:121
+#, c++-format
+msgid "Adding versionlock on \"{0} = {1}\"."
+msgstr ""
+
+#: commands/versionlock/versionlock_add.cpp:124
+#, c++-format
+msgid "Package \"{}\" is already locked."
+msgstr ""
+
+#: commands/versionlock/versionlock_clear.cpp:32
+msgid "Remove all entries from versionlock configuration"
+msgstr ""
+
+#: commands/versionlock/versionlock_delete.cpp:35
+msgid "Remove any matching versionlock configuration entries"
+msgstr ""
+
+#: commands/versionlock/versionlock_delete.cpp:41
+msgid "List of package specs to remove versionlock for"
+msgstr ""
+
+#: commands/versionlock/versionlock_delete.cpp:55
+msgid "Deleting versionlock entry:"
+msgstr ""
+
+#: commands/versionlock/versionlock_exclude.cpp:37
+msgid "Add new exclude entry to versionlock configuration"
+msgstr ""
+
+#: commands/versionlock/versionlock_exclude.cpp:43
+msgid "List of package specs to add versionlock exclude for"
+msgstr ""
+
+#: commands/versionlock/versionlock_exclude.cpp:88
+#: commands/versionlock/versionlock_exclude.cpp:100
+#, c++-format
+msgid "Adding versionlock exclude on \"{0} = {1}\"."
+msgstr ""
+
+#: commands/versionlock/versionlock_exclude.cpp:136
+#, c++-format
+msgid "Package \"{}\" is already excluded."
+msgstr ""
+
 #: context.cpp:80
 msgid "The key was successfully imported."
 msgstr ""
@@ -333,50 +398,50 @@ msgstr ""
 msgid "Cannot obtain address of symbol \"{}\": {}"
 msgstr ""
 
-#: main.cpp:179
+#: main.cpp:180
 #, c++-format
 msgid "Failed to expire repository cache in path \"{0}\": {1}"
 msgstr ""
 
-#: main.cpp:204
+#: main.cpp:205
 #, c++-format
 msgid "repofrompath: Incorrect repoid and path specification \"{}\""
 msgstr ""
 
-#: main.cpp:227 main.cpp:266
+#: main.cpp:228 main.cpp:267
 #, c++-format
 msgid "{}: Badly formatted argument value \"{}\""
 msgstr ""
 
-#: main.cpp:234
+#: main.cpp:235
 #, c++-format
 msgid ""
 "{}: Badly formatted argument value: Last key character cannot be '.': {}"
 msgstr ""
 
-#: main.cpp:247
+#: main.cpp:248
 #, c++-format
 msgid "setopt: \"{0}\": {1}"
 msgstr ""
 
-#: main.cpp:273
+#: main.cpp:274
 #, c++-format
 msgid "setvar: {}"
 msgstr ""
 
-#: main.cpp:817
+#: main.cpp:819
 msgid "======== Main configuration: ========"
 msgstr ""
 
-#: main.cpp:858
+#: main.cpp:860
 #, c++-format
 msgid "======== \"{}\" repository configuration: ========"
 msgstr ""
 
-#: main.cpp:879
+#: main.cpp:881
 msgid "======== Variables: ========"
 msgstr ""
 
-#: main.cpp:997 main.cpp:1150
+#: main.cpp:999 main.cpp:1152
 msgid ". Add \"--help\" for more information about the arguments."
 msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-13 02:52+0000\n"
+"POT-Creation-Date: 2024-02-15 02:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -102,63 +102,68 @@ msgstr ""
 msgid "Argument '{}' matches only excluded packages."
 msgstr ""
 
-#: base/log_event.cpp:119
+#: base/log_event.cpp:116
+#, c++-format
+msgid "Argument '{}' matches only packages excluded by versionlock."
+msgstr ""
+
+#: base/log_event.cpp:121
 #, c++-format
 msgid "  * Maybe you meant: {}"
 msgstr ""
 
-#: base/log_event.cpp:122
+#: base/log_event.cpp:124
 #, c++-format
 msgid "There are following alternatives for '{0}': {1}"
 msgstr ""
 
-#: base/log_event.cpp:129
+#: base/log_event.cpp:131
 #, c++-format
 msgid ""
 "The lowest available version of the \"{}\" package is already installed, "
 "cannot downgrade it."
 msgstr ""
 
-#: base/log_event.cpp:135
+#: base/log_event.cpp:137
 #, c++-format
 msgid ""
 "Packages for argument '{}' installed and available, but in a different "
 "version => cannot reinstall"
 msgstr ""
 
-#: base/log_event.cpp:140
+#: base/log_event.cpp:142
 #, c++-format
 msgid ""
 "Packages for argument '{}' installed and available, but in a different "
 "version."
 msgstr ""
 
-#: base/log_event.cpp:142
+#: base/log_event.cpp:144
 #, c++-format
 msgid "Packages for argument '{}' installed, but not available."
 msgstr ""
 
-#: base/log_event.cpp:151
+#: base/log_event.cpp:153
 #, c++-format
 msgid "Package \"{}\" is already installed with reason \"{}\"."
 msgstr ""
 
-#: base/log_event.cpp:153
+#: base/log_event.cpp:155
 #, c++-format
 msgid "Package \"{}\" is already installed."
 msgstr ""
 
-#: base/log_event.cpp:162
+#: base/log_event.cpp:164
 #, c++-format
 msgid "Debug data written to \"{}\""
 msgstr ""
 
-#: base/log_event.cpp:165
+#: base/log_event.cpp:167
 #, c++-format
 msgid "{} action for argument \"{}\" is not supported."
 msgstr ""
 
-#: base/log_event.cpp:177
+#: base/log_event.cpp:179
 #, c++-format
 msgid ""
 "\n"
@@ -166,7 +171,7 @@ msgid ""
 "streams are enabled or default."
 msgstr ""
 
-#: base/log_event.cpp:185
+#: base/log_event.cpp:187
 #, c++-format
 msgid "Unable to resolve argument '{}':{}"
 msgstr ""
@@ -347,31 +352,31 @@ msgstr ""
 msgid "Public key import failed."
 msgstr ""
 
-#: base/transaction.cpp:620
+#: base/transaction.cpp:633
 #, c++-format
 msgid "Invalid tsflag: {}"
 msgstr ""
 
-#: base/transaction.cpp:954
+#: base/transaction.cpp:967
 #, c++-format
 msgid "Public key \"{}\" is already present, not importing."
 msgstr ""
 
-#: base/transaction.cpp:975
+#: base/transaction.cpp:988
 #, c++-format
 msgid "An error occurred importing key \"{}\": {}"
 msgstr ""
 
-#: base/transaction.cpp:1008
+#: base/transaction.cpp:1021
 #, c++-format
 msgid "PGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
 msgstr ""
 
-#: base/transaction.cpp:1035
+#: base/transaction.cpp:1048
 msgid "Import of the key didn't help, wrong key?"
 msgstr ""
 
-#: base/transaction.cpp:1053
+#: base/transaction.cpp:1066
 #, c++-format
 msgid "Warning: skipped PGP checks for {} package(s)."
 msgstr ""
@@ -955,6 +960,11 @@ msgstr ""
 msgid "Cannot {} package \"{}\""
 msgstr ""
 
+#: rpm/versionlock_config.cpp:261 system/state.cpp:508
+#, c++-format
+msgid "{}"
+msgstr ""
+
 #. TODO(lukash) throw proper exception class
 #: solv/pool.cpp:174
 #, c++-format
@@ -974,11 +984,6 @@ msgstr ""
 #: system/state.cpp:243
 #, c++-format
 msgid "{} state for \"{}\" not found."
-msgstr ""
-
-#: system/state.cpp:508
-#, c++-format
-msgid "{}"
 msgstr ""
 
 #: system/state.cpp:535
