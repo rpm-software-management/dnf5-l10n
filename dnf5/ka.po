@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-15 02:52+0000\n"
-"PO-Revision-Date: 2024-01-27 05:35+0000\n"
+"PO-Revision-Date: 2024-02-16 04:35+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ka/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.3.1\n"
+"X-Generator: Weblate 5.4\n"
 
 #: commands/advisory/advisory_info.hpp:33
 msgid "Print details about advisories"
@@ -325,63 +325,61 @@ msgstr "შაბლონები"
 #. TODO(mblaha): add full command line
 #: commands/versionlock/utils.cpp:34
 msgid "Added by 'versionlock {}' command on {}"
-msgstr ""
+msgstr "დამატებულია ბრძანების 'versionlock {}' მიერ {}-ზე"
 
 #: commands/versionlock/versionlock_add.cpp:37
 msgid "Add new entry to versionlock configuration"
-msgstr ""
+msgstr "ახალი ჩანაწერის დამატება versionlock-ის კონფიგურაციაში"
 
 #: commands/versionlock/versionlock_add.cpp:43
 msgid "List of package specs to add versionlock for"
-msgstr ""
+msgstr "პაკეტის spec-ების სია versionlock-ის დასამატებლად"
 
 #: commands/versionlock/versionlock_add.cpp:103
 #: commands/versionlock/versionlock_exclude.cpp:122
-#, fuzzy
-#| msgid "No matches found for \"{}\"."
 msgid "No package found for \"{}\"."
-msgstr "\"{}\"-სთვის დამთხვევა აღმოჩენილი არაა."
+msgstr "\"{}\"-სთვის პაკეტი ვერ ვიპოვე."
 
 #: commands/versionlock/versionlock_add.cpp:121
 msgid "Adding versionlock on \"{0} = {1}\"."
-msgstr ""
+msgstr "დაემატა versionlock \"{0}={1}\"-ზე."
 
 #: commands/versionlock/versionlock_add.cpp:124
 msgid "Package \"{}\" is already locked."
-msgstr ""
+msgstr "პაკეტი \"{}\" უკვე დაბლოკილია."
 
 #: commands/versionlock/versionlock_clear.cpp:32
 msgid "Remove all entries from versionlock configuration"
-msgstr ""
+msgstr "ყველა ჩანაწერის წაშლა versionlock-ის კონფიგურაციიდან"
 
 #: commands/versionlock/versionlock_delete.cpp:35
 msgid "Remove any matching versionlock configuration entries"
-msgstr ""
+msgstr "ყველა დამთხვეული versionlock-ის კონფიგურაციის ჩანაწერის წაშლა"
 
 #: commands/versionlock/versionlock_delete.cpp:41
 msgid "List of package specs to remove versionlock for"
-msgstr ""
+msgstr "პაკეტის spec-ების სია, რომლისთვისაც versionlock წაიშლება"
 
 #: commands/versionlock/versionlock_delete.cpp:55
 msgid "Deleting versionlock entry:"
-msgstr ""
+msgstr "იშლება versionlock-ის ჩანაწერი:"
 
 #: commands/versionlock/versionlock_exclude.cpp:37
 msgid "Add new exclude entry to versionlock configuration"
-msgstr ""
+msgstr "ახალი ამოღების ჩანაწერის ჩამატება versionlock-ის კონფიგურაციაში"
 
 #: commands/versionlock/versionlock_exclude.cpp:43
 msgid "List of package specs to add versionlock exclude for"
-msgstr ""
+msgstr "პაკეტის spec-ების სია versionlock-ის ამოღების დასამატებლად"
 
 #: commands/versionlock/versionlock_exclude.cpp:88
 #: commands/versionlock/versionlock_exclude.cpp:100
 msgid "Adding versionlock exclude on \"{0} = {1}\"."
-msgstr ""
+msgstr "Versionlock-ის ამოღების დამატება \"{0}={1}\"-სთვის."
 
 #: commands/versionlock/versionlock_exclude.cpp:136
 msgid "Package \"{}\" is already excluded."
-msgstr ""
+msgstr "პაკეტი \"{}\" უკვე ამოღებულია."
 
 #: context.cpp:80
 msgid "The key was successfully imported."
