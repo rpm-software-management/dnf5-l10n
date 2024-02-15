@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-15 02:52+0000\n"
-"PO-Revision-Date: 2024-01-28 11:35+0000\n"
+"PO-Revision-Date: 2024-02-16 04:35+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/sv/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.3.1\n"
+"X-Generator: Weblate 5.4\n"
 
 #: commands/advisory/advisory_info.hpp:33
 msgid "Print details about advisories"
@@ -321,63 +321,62 @@ msgstr "Mönster"
 #. TODO(mblaha): add full command line
 #: commands/versionlock/utils.cpp:34
 msgid "Added by 'versionlock {}' command on {}"
-msgstr ""
+msgstr "Tillagt av 'versionlock {}'-kommandot på {}"
 
 #: commands/versionlock/versionlock_add.cpp:37
 msgid "Add new entry to versionlock configuration"
-msgstr ""
+msgstr "Lägg till ny post i versionslåskonfigurationen"
 
 #: commands/versionlock/versionlock_add.cpp:43
 msgid "List of package specs to add versionlock for"
-msgstr ""
+msgstr "Lista över paketspecifikationer att lägga till versionslås för"
 
 #: commands/versionlock/versionlock_add.cpp:103
 #: commands/versionlock/versionlock_exclude.cpp:122
-#, fuzzy
-#| msgid "No matches found for \"{}\"."
 msgid "No package found for \"{}\"."
-msgstr "Inga matchningar hittades för \"{}\"."
+msgstr "Inga paket hittades för \"{}\"."
 
 #: commands/versionlock/versionlock_add.cpp:121
 msgid "Adding versionlock on \"{0} = {1}\"."
-msgstr ""
+msgstr "Lägger till versionslås på \"{0}={1}\"."
 
 #: commands/versionlock/versionlock_add.cpp:124
 msgid "Package \"{}\" is already locked."
-msgstr ""
+msgstr "Paket \"{}\" är redan låst."
 
 #: commands/versionlock/versionlock_clear.cpp:32
 msgid "Remove all entries from versionlock configuration"
-msgstr ""
+msgstr "Ta bort alla poster från versionlåskonfiguration"
 
 #: commands/versionlock/versionlock_delete.cpp:35
 msgid "Remove any matching versionlock configuration entries"
-msgstr ""
+msgstr "Ta bort alla matchande versionslåskonfigurationsposter"
 
 #: commands/versionlock/versionlock_delete.cpp:41
 msgid "List of package specs to remove versionlock for"
-msgstr ""
+msgstr "Lista över paketspecifikationer att ta bort versionslås för"
 
 #: commands/versionlock/versionlock_delete.cpp:55
 msgid "Deleting versionlock entry:"
-msgstr ""
+msgstr "Tar bort versionslåspost:"
 
 #: commands/versionlock/versionlock_exclude.cpp:37
 msgid "Add new exclude entry to versionlock configuration"
-msgstr ""
+msgstr "Lägg till ny exkluderingspost i versionslåskonfigurationen"
 
 #: commands/versionlock/versionlock_exclude.cpp:43
 msgid "List of package specs to add versionlock exclude for"
 msgstr ""
+"Lista över paketspecifikationer att lägga till versionslås exkludering för"
 
 #: commands/versionlock/versionlock_exclude.cpp:88
 #: commands/versionlock/versionlock_exclude.cpp:100
 msgid "Adding versionlock exclude on \"{0} = {1}\"."
-msgstr ""
+msgstr "Lägger till versionslås exkludering på \"{0}={1}\"."
 
 #: commands/versionlock/versionlock_exclude.cpp:136
 msgid "Package \"{}\" is already excluded."
-msgstr ""
+msgstr "Paketet \"{}\" är redan exkluderat."
 
 #: context.cpp:80
 msgid "The key was successfully imported."
