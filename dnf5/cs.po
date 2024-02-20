@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-15 02:52+0000\n"
+"POT-Creation-Date: 2024-02-20 02:52+0000\n"
 "PO-Revision-Date: 2024-02-06 09:36+0000\n"
 "Last-Translator: Petr Ptacek <petr106@atlas.cz>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf5/dnf5/"
@@ -170,16 +170,16 @@ msgstr "Neznámý typ mezipaměti \"{0}\". Podporované typy: {1}"
 msgid "Failed to cleanup repository cache in path \"{0}\": {1}"
 msgstr "Nepodařilo se vyčistit mezipaměť repozitory na cestě \"{0}\": {1}"
 
-#: commands/download/download.cpp:103
+#: commands/download/download.cpp:112
 msgid "Invalid urlprotocol option: {}"
 msgstr "Neplatná volba protokolu adresy URL: {}"
 
-#: commands/download/download.cpp:130 main.cpp:609 shared_options.cpp:90
+#: commands/download/download.cpp:139 main.cpp:609 shared_options.cpp:90
 msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
 msgstr "Nepodporovaná architektura \"{0}\". Vyberte prosím jednu z {1}"
 
 #. TODO(jrohel): Add support for requiring an argument by another argument in ArgumentParser?
-#: commands/download/download.cpp:163
+#: commands/download/download.cpp:173
 msgid "Option \"--alldeps\" should be used with \"--resolve\""
 msgstr "Volba \"--alldeps\" by měla být použita s \"--resolve\""
 
@@ -444,6 +444,6 @@ msgstr "======== Konfigurace repozitáře \"{}\": ========"
 msgid "======== Variables: ========"
 msgstr "======== Proměnné: ========"
 
-#: main.cpp:999 main.cpp:1152
+#: main.cpp:1006 main.cpp:1159
 msgid ". Add \"--help\" for more information about the arguments."
 msgstr ". Přidejte \"--help\" pro více informací o argumentech."
