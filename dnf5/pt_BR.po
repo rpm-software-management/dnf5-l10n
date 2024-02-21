@@ -9,9 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-20 02:52+0000\n"
-"PO-Revision-Date: 2024-02-21 12:54+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2024-02-21 13:24+0000\n"
+"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf5/dnf5/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -175,7 +174,7 @@ msgstr "Falha para limpar o cache de repositório no caminho \"{0}\": {1}"
 
 #: commands/download/download.cpp:112
 msgid "Invalid urlprotocol option: {}"
-msgstr ""
+msgstr "Opção inválida de urlprotocol: {}"
 
 #: commands/download/download.cpp:139 main.cpp:609 shared_options.cpp:90
 msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
@@ -343,40 +342,40 @@ msgstr "Adicionando versionlock a \"{0} = {1}\"."
 
 #: commands/versionlock/versionlock_add.cpp:124
 msgid "Package \"{}\" is already locked."
-msgstr "O pacote {} já está bloqueado"
+msgstr "O pacote \"{}\" já está bloqueado."
 
 #: commands/versionlock/versionlock_clear.cpp:32
 msgid "Remove all entries from versionlock configuration"
-msgstr ""
+msgstr "Remove todas as entradas da configuração do versionlock"
 
 #: commands/versionlock/versionlock_delete.cpp:35
 msgid "Remove any matching versionlock configuration entries"
-msgstr ""
+msgstr "Remove qualquer entrada de configuração do versionlock correspondente"
 
 #: commands/versionlock/versionlock_delete.cpp:41
 msgid "List of package specs to remove versionlock for"
-msgstr ""
+msgstr "Lista de specs de pacotes para remover versionlock"
 
 #: commands/versionlock/versionlock_delete.cpp:55
 msgid "Deleting versionlock entry:"
-msgstr ""
+msgstr "Excluir entrada versionlock:"
 
 #: commands/versionlock/versionlock_exclude.cpp:37
 msgid "Add new exclude entry to versionlock configuration"
-msgstr ""
+msgstr "Adiciona nova entrada de exclusão à configuração de versionlock"
 
 #: commands/versionlock/versionlock_exclude.cpp:43
 msgid "List of package specs to add versionlock exclude for"
-msgstr ""
+msgstr "Lista de specs de pacotes para adicionar exclusão de versionlock"
 
 #: commands/versionlock/versionlock_exclude.cpp:88
 #: commands/versionlock/versionlock_exclude.cpp:100
 msgid "Adding versionlock exclude on \"{0} = {1}\"."
-msgstr ""
+msgstr "Adicionando exclusão de versionlock em \"{0} = {1}\"."
 
 #: commands/versionlock/versionlock_exclude.cpp:136
 msgid "Package \"{}\" is already excluded."
-msgstr ""
+msgstr "O pacote \"{}\" já foi excluído."
 
 #: context.cpp:80
 msgid "The key was successfully imported."
