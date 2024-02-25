@@ -7,41 +7,44 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-20 02:52+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-02-26 01:35+0000\n"
+"Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
+"Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf5/"
+"dnf5/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4\n"
 
 #: commands/advisory/advisory_info.hpp:33
 msgid "Print details about advisories"
-msgstr ""
+msgstr "Tavsiyeler hakkında ayrıntıları yazdır"
 
 #: commands/advisory/advisory_list.hpp:33
 msgid "List advisories"
-msgstr ""
+msgstr "Tavsiyeleri listele"
 
 #: commands/advisory/advisory_summary.cpp:44
 msgid "All"
-msgstr ""
+msgstr "Tümü"
 
 #: commands/advisory/advisory_summary.cpp:48
 msgid "Installed"
-msgstr ""
+msgstr "Kurulu"
 
 #: commands/advisory/advisory_summary.cpp:52
 msgid "Updates"
-msgstr ""
+msgstr "Güncellemeler"
 
 #: commands/advisory/advisory_summary.cpp:65
 msgid "Available"
-msgstr ""
+msgstr "Kullanılabilir"
 
 #: commands/advisory/advisory_summary.hpp:33
 msgid "Print summary of advisories"
-msgstr ""
+msgstr "Tavsiyelerin özetini yazdır"
 
 #: commands/advisory/arguments.hpp:34
 msgid "Show advisories containing any version of installed packages."
@@ -70,7 +73,7 @@ msgstr ""
 
 #: commands/advisory/arguments.hpp:83
 msgid "PACKAGE_NAME,..."
-msgstr ""
+msgstr "PAKET_ADI,..."
 
 #: commands/advisory/arguments.hpp:90
 msgid "List of patterns matched against advisory names."
@@ -90,7 +93,7 @@ msgstr ""
 
 #: commands/advisory_shared.hpp:114
 msgid "ADVISORY_NAME,..."
-msgstr ""
+msgstr "TAVSİYE_ADI,..."
 
 #: commands/advisory_shared.hpp:121
 msgid "Limit to packages in security advisories."
@@ -116,7 +119,7 @@ msgstr ""
 
 #: commands/advisory_shared.hpp:155
 msgid "ADVISORY_SEVERITY,..."
-msgstr ""
+msgstr "TAVSİYE_ÖNEMİ,..."
 
 #: commands/advisory_shared.hpp:179
 msgid ""
@@ -126,7 +129,7 @@ msgstr ""
 
 #: commands/advisory_shared.hpp:180
 msgid "BUGZILLA_ID,..."
-msgstr ""
+msgstr "BUGZILLA_KİMLİĞİ,..."
 
 #: commands/advisory_shared.hpp:190
 msgid ""
@@ -136,7 +139,7 @@ msgstr ""
 
 #: commands/advisory_shared.hpp:192
 msgid "CVE_ID,..."
-msgstr ""
+msgstr "CVE_KİMLİĞİ,..."
 
 #: commands/check/check.cpp:335
 #, c++-format
@@ -217,7 +220,7 @@ msgstr ""
 
 #: commands/history/arguments.hpp:34
 msgid "Transaction ID"
-msgstr ""
+msgstr "İşlem Kimliği"
 
 #: commands/history/arguments.hpp:41
 msgid "Reverse the order of transactions."
@@ -249,11 +252,11 @@ msgstr ""
 
 #: commands/module/arguments.hpp:36
 msgid "Show enabled modules."
-msgstr ""
+msgstr "Etkin modülleri göster."
 
 #: commands/module/arguments.hpp:43
 msgid "Show disabled modules."
-msgstr ""
+msgstr "Devre dışı bırakılmış modülleri göster."
 
 #: commands/module/arguments.hpp:50
 msgid "Pattern matching module NSVCAs."
@@ -262,11 +265,11 @@ msgstr ""
 #: commands/module/module_list.cpp:84
 #, c++-format
 msgid "No matches found for \"{}\"."
-msgstr ""
+msgstr "\"{}\" için eşleşme bulunamadı."
 
 #: commands/repo/arguments.hpp:35
 msgid "Show all repositories."
-msgstr ""
+msgstr "Tüm depoları göster."
 
 #: commands/repo/arguments.hpp:42
 msgid "Show enabled repositories (default)."
@@ -274,11 +277,11 @@ msgstr ""
 
 #: commands/repo/arguments.hpp:49
 msgid "Show disabled repositories."
-msgstr ""
+msgstr "Devre dışı bırakılmış depoları göster."
 
 #: commands/repo/arguments.hpp:56
 msgid "Pattern matching repo IDs."
-msgstr ""
+msgstr "Depo kimlikleriyle eşleşen desen."
 
 #: commands/repoquery/repoquery.cpp:514
 msgid ""
@@ -298,7 +301,7 @@ msgstr ""
 
 #: commands/search/arguments.hpp:45
 msgid "Patterns"
-msgstr ""
+msgstr "Desenler"
 
 #. TODO(mblaha): add full command line
 #: commands/versionlock/utils.cpp:34
@@ -318,7 +321,7 @@ msgstr ""
 #: commands/versionlock/versionlock_exclude.cpp:122
 #, c++-format
 msgid "No package found for \"{}\"."
-msgstr ""
+msgstr "\"{}\" için paket bulunamadı."
 
 #: commands/versionlock/versionlock_add.cpp:121
 #, c++-format
@@ -328,7 +331,7 @@ msgstr ""
 #: commands/versionlock/versionlock_add.cpp:124
 #, c++-format
 msgid "Package \"{}\" is already locked."
-msgstr ""
+msgstr "\"{}\" paketi zaten kilitli."
 
 #: commands/versionlock/versionlock_clear.cpp:32
 msgid "Remove all entries from versionlock configuration"
@@ -344,7 +347,7 @@ msgstr ""
 
 #: commands/versionlock/versionlock_delete.cpp:55
 msgid "Deleting versionlock entry:"
-msgstr ""
+msgstr "Sürüm kilidi girişi siliniyor:"
 
 #: commands/versionlock/versionlock_exclude.cpp:37
 msgid "Add new exclude entry to versionlock configuration"
@@ -363,7 +366,7 @@ msgstr ""
 #: commands/versionlock/versionlock_exclude.cpp:136
 #, c++-format
 msgid "Package \"{}\" is already excluded."
-msgstr ""
+msgstr "\"{}\" paketi zaten dışlanmış."
 
 #: context.cpp:80
 msgid "The key was successfully imported."
@@ -372,7 +375,7 @@ msgstr ""
 #: context.cpp:126
 #, c++-format
 msgid "No matching repositories for \"{}\""
-msgstr ""
+msgstr "\"{}\" için eşleşen depo yok"
 
 #: include/dnf5/shared_options.hpp:33
 msgid "Allow erasing of installed packages to resolve problems"
@@ -429,16 +432,16 @@ msgstr ""
 
 #: main.cpp:819
 msgid "======== Main configuration: ========"
-msgstr ""
+msgstr "======== Ana yapılandırma: ========"
 
 #: main.cpp:860
 #, c++-format
 msgid "======== \"{}\" repository configuration: ========"
-msgstr ""
+msgstr "======== \"{}\" repo yapılandırması: ========"
 
 #: main.cpp:881
 msgid "======== Variables: ========"
-msgstr ""
+msgstr "======== Değişkenler: ========"
 
 #: main.cpp:1006 main.cpp:1159
 msgid ". Add \"--help\" for more information about the arguments."
