@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-20 02:52+0000\n"
+"POT-Creation-Date: 2024-02-27 02:52+0000\n"
 "PO-Revision-Date: 2024-02-26 01:35+0000\n"
 "Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -19,27 +19,22 @@ msgstr ""
 "X-Generator: Weblate 5.4\n"
 
 #: addrepo.cpp:152
-#, c++-format
 msgid "from-repofile: \"{}\" file does not exist"
 msgstr "from-repofile: \"{}\" dosyası yok"
 
 #: addrepo.cpp:155
-#, c++-format
 msgid "from-repofile: {}"
 msgstr "from-repofile: {}"
 
 #: addrepo.cpp:185 setopt.cpp:83 setvar.cpp:49
-#, c++-format
 msgid "{}: Badly formatted argument value \"{}\""
 msgstr ""
 
 #: addrepo.cpp:195
-#, c++-format
 msgid "Cannot set repository option \"{}={}\": {}"
 msgstr ""
 
 #: addrepo.cpp:203 setopt.cpp:138
-#, c++-format
 msgid "Sets the \"{}\" option again with a different value: \"{}\" != \"{}\""
 msgstr ""
 
@@ -48,24 +43,20 @@ msgid "Missing path to repository configuration directory"
 msgstr ""
 
 #: addrepo.cpp:319
-#, c++-format
 msgid "Failed to copy repository configuration file \"{}\": {}"
 msgstr ""
 
 #: addrepo.cpp:330
-#, c++-format
 msgid "Failed to download repository configuration file \"{}\": {}"
 msgstr ""
 
 #: addrepo.cpp:352
-#, c++-format
 msgid ""
 "Error in added repository configuration file. Cannot set repository option "
 "\"{}={}\": {}"
 msgstr ""
 
 #: addrepo.cpp:386
-#, c++-format
 msgid "Bad baseurl: {}={}"
 msgstr ""
 
@@ -76,69 +67,57 @@ msgid ""
 msgstr ""
 
 #: addrepo.cpp:439
-#, c++-format
 msgid "Failed to save repository configuration file \"{}\": {}"
 msgstr ""
 
 #: addrepo.cpp:461
-#, c++-format
 msgid ""
 "File \"{}\" already exists and configures repositories with IDs \"{}\". Add "
 "\"--add-or-replace\" or \"--overwrite\"."
 msgstr ""
 
 #: addrepo.cpp:464
-#, c++-format
 msgid ""
 "File \"{}\" already exists and configures repositories with IDs \"{}\". Add "
 "\"--overwrite\" to overwrite."
 msgstr ""
 
 #: addrepo.cpp:484 addrepo.cpp:509
-#, c++-format
 msgid "A repository with id \"{}\" already configured in file: {}"
 msgstr ""
 
 #: setopt.cpp:91 unsetopt.cpp:65
-#, c++-format
 msgid ""
 "{}: Badly formatted argument value: Last key character cannot be '.': {}"
 msgstr ""
 
 #: setopt.cpp:100 unsetopt.cpp:74
-#, c++-format
 msgid "{}: Empty repository id is not allowed: {}"
 msgstr ""
 
 #: setopt.cpp:109
-#, c++-format
 msgid "Cannot set repository option \"{}\": {}"
 msgstr ""
 
 #: setopt.cpp:116 setopt.cpp:179
-#, c++-format
 msgid ""
 "Sets the \"{}\" option of the repository \"{}\" again with a different "
 "value: \"{}\" != \"{}\""
 msgstr ""
 
 #: setopt.cpp:130
-#, c++-format
 msgid "Cannot set option: \"{}\": {}"
 msgstr ""
 
 #: setopt.cpp:170
-#, c++-format
 msgid "No matching repository to modify: {}"
 msgstr ""
 
 #: setvar.cpp:60
-#, c++-format
 msgid "Cannot set \"{}\": Variable \"{}\" is read-only"
 msgstr ""
 
 #: setvar.cpp:68
-#, c++-format
 msgid "Sets the \"{}\" variable again with a different value: \"{}\" != \"{}\""
 msgstr ""
 
@@ -147,35 +126,29 @@ msgid "Missing path to vars directory"
 msgstr ""
 
 #: setvar.cpp:110
-#, c++-format
 msgid "Cannot write variable to file \"{}\": {}"
 msgstr ""
 
 #: shared.hpp:49
-#, c++-format
 msgid ""
 "The path \"{}\" exists, but it is not a directory or a symlink to a "
 "directory."
 msgstr ""
 
 #: shared.hpp:54
-#, c++-format
 msgid "The path \"{}\" exists, but it is a symlink to a non-existent object."
 msgstr ""
 
 #: shared.hpp:60
-#, c++-format
 msgid ""
 "Directory \"{}\" does not exist. Add \"--create-missing-dir\" to create "
 "missing directories."
 msgstr ""
 
 #: shared.hpp:71
-#, c++-format
 msgid "Variable name can contain only ASCII letters, numbers and '_': {}"
 msgstr ""
 
 #: unsetvar.cpp:76
-#, c++-format
 msgid "Cannot remove variable file \"{}\": {}"
 msgstr ""
