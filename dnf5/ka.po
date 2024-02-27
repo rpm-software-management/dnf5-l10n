@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-27 02:52+0000\n"
-"PO-Revision-Date: 2024-02-16 04:35+0000\n"
+"PO-Revision-Date: 2024-02-28 03:35+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ka/>\n"
@@ -264,51 +264,52 @@ msgstr ""
 
 #: commands/list/list.cpp:46
 msgid "Lists packages depending on the packages' relation to the system"
-msgstr ""
+msgstr "ჩამოთვლის პაკეტებს სისტემის მიმართ მათი დამოკიდებულების მიხედვით"
 
 #: commands/list/list.cpp:49
 msgid "List of keys to match case insensitively"
-msgstr ""
+msgstr "გასაღებების სია, რომლებიც რეგისტრის დამთხვევის გარეშე ემთხვვა"
 
 #: commands/list/list.cpp:61
 msgid "Show all versions of the packages, not only the latest ones."
-msgstr ""
+msgstr "პაკეტის ყველა ვერსიის ჩვენება და არა მხოლოდ უკანასკნელი ვერსიის."
 
 #: commands/list/list.cpp:67
 msgid "List installed packages."
-msgstr ""
+msgstr "დაყენებული პაკეტების ჩამონათვალი."
 
 #: commands/list/list.cpp:71
-#, fuzzy
-#| msgid "Allow skipping unavailable packages"
 msgid "List available packages."
-msgstr "ხელმიუწვდომელი პაკეტების გამოტოვების დაშვება"
+msgstr "ხელმისაწვდომი პაკეტების ჩამონათვალი."
 
 #: commands/list/list.cpp:78
 msgid ""
 "List extras, that is packages installed on the system that are not available "
 "in any known repository."
 msgstr ""
+"დამატებითი ჩამონათვალი, რომ სისტემაში დაყენებული პაკეტი არც ერთი ცნობილი "
+"რეპოზიტორიიდან არაა."
 
 #: commands/list/list.cpp:86
 msgid ""
 "List packages installed on the system that are obsoleted by packages in any "
 "known repository."
 msgstr ""
+"პაკეტების ჩამონათვალი, რომლებიც ამ სისტემაშია დაყენებული და მოძველებულად "
+"ცხადდება პაკეტის მიერ ნებისმიერი ცნობილი რეპოზიტორიიდან."
 
 #: commands/list/list.cpp:91
-#, fuzzy
-#| msgid "Limit to packages in enhancement advisories."
 msgid "List packages recently added into the repositories."
-msgstr "შეზღუდვა დამატებითი ფუნქციონალის რეკომენდაციების პაკეტებზე."
+msgstr "რეპოზიტორიებში ახლახან ჩამატებული პაკეტების ჩამონათვალი."
 
 #: commands/list/list.cpp:95
 msgid "List upgrades available for the installed packages."
 msgstr ""
+"დაყენებული პაკეტებისთვის ხელმისაწვდომი ვერსიის განახლებების ჩამონათვალი."
 
 #: commands/list/list.cpp:99
 msgid "List packages which will be removed by the 'dnf autoremove' command."
-msgstr ""
+msgstr "პაკეტები ჩამონათვალი, რომელსაც 'dnf autoremove' ბრძანება წაშლის."
 
 #: commands/list/list.cpp:260
 msgid "No matching packages to list"
