@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-20 02:52+0000\n"
+"POT-Creation-Date: 2024-02-27 02:52+0000\n"
 "PO-Revision-Date: 2024-02-26 01:35+0000\n"
 "Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -142,32 +142,26 @@ msgid "CVE_ID,..."
 msgstr "CVE_KİMLİĞİ,..."
 
 #: commands/check/check.cpp:335
-#, c++-format
 msgid "Check discovered {} problem(s) in {} package(s)"
 msgstr ""
 
 #: commands/clean/clean.cpp:86
-#, c++-format
 msgid "List of cache types to clean up. Supported types: {0}"
 msgstr ""
 
 #: commands/clean/clean.cpp:104
-#, c++-format
 msgid "Unknown cache type \"{0}\". Supported types: {1}"
 msgstr ""
 
 #: commands/clean/clean.cpp:161
-#, c++-format
 msgid "Failed to cleanup repository cache in path \"{0}\": {1}"
 msgstr ""
 
 #: commands/download/download.cpp:112
-#, c++-format
 msgid "Invalid urlprotocol option: {}"
 msgstr ""
 
 #: commands/download/download.cpp:139 main.cpp:609 shared_options.cpp:90
-#, c++-format
 msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
 msgstr ""
 
@@ -227,7 +221,6 @@ msgid "Reverse the order of transactions."
 msgstr ""
 
 #: commands/history/history_store.cpp:62
-#, c++-format
 msgid "File \"{}\" already exists, it will be overwritten.\n"
 msgstr ""
 
@@ -240,13 +233,56 @@ msgid "Multiple transactions selected for storing, only one allowed."
 msgstr ""
 
 #: commands/history/transaction_id.cpp:32
-#, c++-format
 msgid ""
 "Invalid transaction ID range \"{}\", \"ID\" or \"ID..ID\" expected, where ID "
 "is \"NUMBER\", \"last\" or \"last-NUMBER\"."
 msgstr ""
 
-#: commands/list/list.cpp:256
+#: commands/list/list.cpp:46
+msgid "Lists packages depending on the packages' relation to the system"
+msgstr ""
+
+#: commands/list/list.cpp:49
+msgid "List of keys to match case insensitively"
+msgstr ""
+
+#: commands/list/list.cpp:61
+msgid "Show all versions of the packages, not only the latest ones."
+msgstr ""
+
+#: commands/list/list.cpp:67
+msgid "List installed packages."
+msgstr ""
+
+#: commands/list/list.cpp:71
+msgid "List available packages."
+msgstr ""
+
+#: commands/list/list.cpp:78
+msgid ""
+"List extras, that is packages installed on the system that are not available "
+"in any known repository."
+msgstr ""
+
+#: commands/list/list.cpp:86
+msgid ""
+"List packages installed on the system that are obsoleted by packages in any "
+"known repository."
+msgstr ""
+
+#: commands/list/list.cpp:91
+msgid "List packages recently added into the repositories."
+msgstr ""
+
+#: commands/list/list.cpp:95
+msgid "List upgrades available for the installed packages."
+msgstr ""
+
+#: commands/list/list.cpp:99
+msgid "List packages which will be removed by the 'dnf autoremove' command."
+msgstr ""
+
+#: commands/list/list.cpp:260
 msgid "No matching packages to list"
 msgstr ""
 
@@ -263,7 +299,6 @@ msgid "Pattern matching module NSVCAs."
 msgstr ""
 
 #: commands/module/module_list.cpp:84
-#, c++-format
 msgid "No matches found for \"{}\"."
 msgstr "\"{}\" için eşleşme bulunamadı."
 
@@ -304,8 +339,7 @@ msgid "Patterns"
 msgstr "Desenler"
 
 #. TODO(mblaha): add full command line
-#: commands/versionlock/utils.cpp:34
-#, c++-format
+#: commands/versionlock/utils.cpp:35
 msgid "Added by 'versionlock {}' command on {}"
 msgstr ""
 
@@ -319,17 +353,14 @@ msgstr ""
 
 #: commands/versionlock/versionlock_add.cpp:103
 #: commands/versionlock/versionlock_exclude.cpp:122
-#, c++-format
 msgid "No package found for \"{}\"."
 msgstr "\"{}\" için paket bulunamadı."
 
 #: commands/versionlock/versionlock_add.cpp:121
-#, c++-format
 msgid "Adding versionlock on \"{0} = {1}\"."
 msgstr ""
 
 #: commands/versionlock/versionlock_add.cpp:124
-#, c++-format
 msgid "Package \"{}\" is already locked."
 msgstr "\"{}\" paketi zaten kilitli."
 
@@ -359,12 +390,10 @@ msgstr ""
 
 #: commands/versionlock/versionlock_exclude.cpp:88
 #: commands/versionlock/versionlock_exclude.cpp:100
-#, c++-format
 msgid "Adding versionlock exclude on \"{0} = {1}\"."
 msgstr ""
 
 #: commands/versionlock/versionlock_exclude.cpp:136
-#, c++-format
 msgid "Package \"{}\" is already excluded."
 msgstr "\"{}\" paketi zaten dışlanmış."
 
@@ -373,7 +402,6 @@ msgid "The key was successfully imported."
 msgstr ""
 
 #: context.cpp:126
-#, c++-format
 msgid "No matching repositories for \"{}\""
 msgstr "\"{}\" için eşleşen depo yok"
 
@@ -390,43 +418,35 @@ msgid "Allow skipping unavailable packages"
 msgstr ""
 
 #: library.cpp:33
-#, c++-format
 msgid "Cannot load shared library \"{}\": {}"
 msgstr ""
 
 #: library.cpp:48
-#, c++-format
 msgid "Cannot obtain address of symbol \"{}\": {}"
 msgstr ""
 
 #: main.cpp:180
-#, c++-format
 msgid "Failed to expire repository cache in path \"{0}\": {1}"
 msgstr ""
 
 #: main.cpp:205
-#, c++-format
 msgid "repofrompath: Incorrect repoid and path specification \"{}\""
 msgstr ""
 
 #: main.cpp:228 main.cpp:267
-#, c++-format
 msgid "{}: Badly formatted argument value \"{}\""
 msgstr ""
 
 #: main.cpp:235
-#, c++-format
 msgid ""
 "{}: Badly formatted argument value: Last key character cannot be '.': {}"
 msgstr ""
 
 #: main.cpp:248
-#, c++-format
 msgid "setopt: \"{0}\": {1}"
 msgstr ""
 
 #: main.cpp:274
-#, c++-format
 msgid "setvar: {}"
 msgstr ""
 
@@ -435,7 +455,6 @@ msgid "======== Main configuration: ========"
 msgstr "======== Ana yapılandırma: ========"
 
 #: main.cpp:860
-#, c++-format
 msgid "======== \"{}\" repository configuration: ========"
 msgstr "======== \"{}\" repo yapılandırması: ========"
 
