@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-09 02:52+0000\n"
-"PO-Revision-Date: 2024-01-18 02:47+0000\n"
+"PO-Revision-Date: 2024-03-10 07:36+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5-plugin-config-manager/sv/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.3.1\n"
+"X-Generator: Weblate 5.4\n"
 
 #: addrepo.cpp:153
 msgid "from-repofile: \"{}\" file does not exist"
@@ -97,10 +97,8 @@ msgid "A repository with id \"{}\" already configured in file: {}"
 msgstr "Ett förråd med id \"{}\" är redan konfigurerat i fil {}"
 
 #: addrepo.cpp:497 setopt.cpp:263
-#, fuzzy
-#| msgid "Cannot set repository option \"{}\": {}"
 msgid "Cannot read repositories from directory \"{}\": {}"
-msgstr "Kan inte ställa in förråds alternativ \"{}\": {}"
+msgstr "Kan inte läsa in förråd från katalog \"{}\": {}"
 
 #: setopt.cpp:91 unsetopt.cpp:72
 msgid ""
@@ -178,51 +176,67 @@ msgstr "Variabelnamn kan endast innehålla ASCII-bokstäver, siffror och '_': {}
 #: unsetopt.cpp:93
 msgid "config-manager: Request to remove unsupported repository option: {}"
 msgstr ""
+"config-manager: Begäran om att ta bort förrådsalternativ som inte stöds: {}"
 
 #: unsetopt.cpp:105
 msgid "config-manager: Request to remove unsupported main option: {}"
 msgstr ""
+"config-manager: Begäran om att ta bort huvudalternativ som inte stöds: {}"
 
 #: unsetopt.cpp:140
 msgid ""
 "config-manager: Request to remove main option but it is not present in the "
 "config file: {}"
 msgstr ""
+"config-manager: Begäran att ta bort huvudalternativet men det finns inte i "
+"konfigurationsfilen: {}"
 
 #: unsetopt.cpp:152
 msgid ""
 "config-manager: Request to remove main option but config file not found: {}"
 msgstr ""
+"config-manager: Begäran om att ta bort huvudalternativet men "
+"konfigurationsfilen hittades inte: {}"
 
 #: unsetopt.cpp:186
 msgid ""
 "config-manager: Request to remove repository option but repoid is not "
 "present in the overrides: {}"
 msgstr ""
+"config-manager: Begäran om att ta bort förrådsalternativ men förrådsid finns "
+"inte i åsidosättningarna: {}"
 
 #: unsetopt.cpp:194
 msgid ""
 "config-manager: Request to remove repository option but it is not present in "
 "the overrides: {}.{}"
 msgstr ""
+"config-manager: Begäran att ta bort förrådsalternativ men det finns inte i "
+"åsidosättningarna: {}.{}"
 
 #: unsetopt.cpp:214
 msgid ""
 "config-manager: Request to remove repository option but file with overrides "
 "not found: {}"
 msgstr ""
+"config-manager: Begäran om att ta bort förrådsalternativ men filen med "
+"åsidosättningar hittades inte: {}"
 
 #: unsetvar.cpp:69
 msgid ""
 "config-manager: Request to remove variable but vars directory was not found: "
 "{}"
 msgstr ""
+"config-manager: Begäran om att ta bort variabel men vars-katalogen hittades "
+"inte: {}"
 
 #: unsetvar.cpp:82
 msgid ""
 "config-manager: Request to remove variable but it is not present in the vars "
 "directory: {}"
 msgstr ""
+"config-manager: Begäran om att ta bort variabel men den finns inte i vars-"
+"katalogen: {}"
 
 #: unsetvar.cpp:88
 msgid "Cannot remove variable file \"{}\": {}"
