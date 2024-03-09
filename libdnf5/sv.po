@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-07 02:52+0000\n"
+"POT-Creation-Date: 2024-03-09 02:52+0000\n"
 "PO-Revision-Date: 2024-03-05 13:50+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -961,17 +961,88 @@ msgstr "Ogiltigt transaktionsobjekts tillstånd: {}"
 msgid "Invalid transaction item type: {}"
 msgstr "Ogiltig transaktionsobjektstyp: {}"
 
-#: transaction/transaction_sr.cpp:55
+#: transaction/transaction_sr.cpp:56
 msgid "Transaction replay JSON serialized transaction input is empty"
 msgstr "Transaktionsuppspelning JSON-serialiserad transaktionsindata är tom"
 
-#: transaction/transaction_sr.cpp:63
+#: transaction/transaction_sr.cpp:65
 msgid "Error during transaction replay JSON parsing : {}"
 msgstr "Fel under JSON-tolkning av transaktionsuppspelning: {}"
 
-#: transaction/transaction_sr.cpp:73
+#: transaction/transaction_sr.cpp:75
+#, fuzzy
+#| msgid "Unsupported TOML version \"{}\", maximum supported version is \"{}\""
+msgid "Unexpected version format: \"{}\", supported version is \"{}\""
+msgstr "Ostödd TOML-version \"{}\", maximalt stödd version är \"{}\""
+
+#: transaction/transaction_sr.cpp:81
 msgid "Incompatible major version: \"{}\", supported major version is \"{}\""
 msgstr "Inkompatibel huvudversion: \"{}\", stödd huvudversion är \"{}\""
+
+#: transaction/transaction_sr.cpp:88
+#, fuzzy
+#| msgid "Invalid time option value \"{}\", number or \"never\" expected"
+msgid "Invalid minor version: \"{}\", number expected."
+msgstr ""
+"Ogiltigt tidsalternativsvärde \"{}\", ett tal eller \"never\" förväntades"
+
+#: transaction/transaction_sr.cpp:91
+msgid "Missing key \"version\"."
+msgstr ""
+
+#: transaction/transaction_sr.cpp:103
+msgid "Unexpected type of \"environments\", array expected."
+msgstr ""
+
+#: transaction/transaction_sr.cpp:111
+msgid "Missing object key \"id\" in an environment."
+msgstr ""
+
+#: transaction/transaction_sr.cpp:116
+msgid "Missing object key \"action\" in an environment."
+msgstr ""
+
+#: transaction/transaction_sr.cpp:137
+msgid "Unexpected type of \"groups\", array expected."
+msgstr ""
+
+#: transaction/transaction_sr.cpp:145
+msgid "Missing object key \"id\" in a group."
+msgstr ""
+
+#: transaction/transaction_sr.cpp:150
+msgid "Missing object key \"action\" in a group."
+msgstr ""
+
+#: transaction/transaction_sr.cpp:155
+msgid "Missing object key \"reason\" in a group."
+msgstr ""
+
+#: transaction/transaction_sr.cpp:180
+msgid "Unexpected type of \"rpms\", array expected."
+msgstr ""
+
+#: transaction/transaction_sr.cpp:189
+msgid "Cannot parse NEVRA for rpm \"{}\"."
+msgstr ""
+
+#: transaction/transaction_sr.cpp:197
+msgid "Either \"nevra\" or \"package_path\" object key is required in an rpm."
+msgstr ""
+
+#: transaction/transaction_sr.cpp:202
+msgid "Missing object key \"action\" in an rpm."
+msgstr ""
+
+#: transaction/transaction_sr.cpp:207
+msgid "Missing object key \"reason\" in an rpm."
+msgstr ""
+
+#: transaction/transaction_sr.cpp:214
+msgid ""
+"Missing mandatory object key \"group_id\" in an rpm with reason \"Group\" "
+"and action \"Reason Change\"."
+msgstr ""
 
 #: utils/fs/file.cpp:86
 msgid "cannot open file"
