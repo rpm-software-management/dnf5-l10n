@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-09 02:52+0000\n"
-"PO-Revision-Date: 2024-01-19 02:47+0000\n"
+"PO-Revision-Date: 2024-03-12 20:36+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5-plugin-config-manager/ka/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.3.1\n"
+"X-Generator: Weblate 5.4\n"
 
 #: addrepo.cpp:153
 msgid "from-repofile: \"{}\" file does not exist"
@@ -96,10 +96,8 @@ msgid "A repository with id \"{}\" already configured in file: {}"
 msgstr "რეპოზიტორია ID-ით \"{}\" უკვე მორგებულია ფაილში:{}"
 
 #: addrepo.cpp:497 setopt.cpp:263
-#, fuzzy
-#| msgid "Cannot set repository option \"{}\": {}"
 msgid "Cannot read repositories from directory \"{}\": {}"
-msgstr "ვერ დავაყენე რეპოზიტორიის პარამეტრი \"{}\": {}"
+msgstr "ვერ წავიკითხე რეპოზიტორია საქაღალდიდან \"{}\": {}"
 
 #: setopt.cpp:91 unsetopt.cpp:72
 msgid ""
@@ -177,51 +175,66 @@ msgstr ""
 #: unsetopt.cpp:93
 msgid "config-manager: Request to remove unsupported repository option: {}"
 msgstr ""
+"config-manager: მოთხოვნა, წავშალო მხარდაუჭერელი რეპოზიტორიის პარამეტრი: {}"
 
 #: unsetopt.cpp:105
 msgid "config-manager: Request to remove unsupported main option: {}"
-msgstr ""
+msgstr "config-manager: მოთხოვნა, წავშალო მხარდაუჭერელი მთავარი პარამეტრი: {}"
 
 #: unsetopt.cpp:140
 msgid ""
 "config-manager: Request to remove main option but it is not present in the "
 "config file: {}"
 msgstr ""
+"config-manager: მოთხოვნა, რომ წავშალო მთავარი პარამეტრი, მაგრამ ის "
+"კონფიგურაციის ფაილში არ არსებობს: {}"
 
 #: unsetopt.cpp:152
 msgid ""
 "config-manager: Request to remove main option but config file not found: {}"
 msgstr ""
+"config-manager: მოთხოვნა, წავშალო მთავარი პარამეტრი, მაგრამ კონფიგურაციის "
+"ფაილი ვერ ვიპოვე: {}"
 
 #: unsetopt.cpp:186
 msgid ""
 "config-manager: Request to remove repository option but repoid is not "
 "present in the overrides: {}"
 msgstr ""
+"config-manager: მოთხოვნა, წავშალო რეპოზიტორიის პარამეტრი, მაგრამ "
+"გადაფარვებში repoid აღმოჩენილი არაა: {}"
 
 #: unsetopt.cpp:194
 msgid ""
 "config-manager: Request to remove repository option but it is not present in "
 "the overrides: {}.{}"
 msgstr ""
+"config-manager: მოთხოვნა, წავშალო რეპოზიტორიის პარამეტრი, მაგრამ ის "
+"გადაფარვებში წარმოდგენილი არაა: {}.{}"
 
 #: unsetopt.cpp:214
 msgid ""
 "config-manager: Request to remove repository option but file with overrides "
 "not found: {}"
 msgstr ""
+"config-manager: მოთხოვნა, წავშალო რეპოზიტორიის პარამეტრი, მაგრამ "
+"გადაფარვების შემცველი ფაილი ვერ ვიპოვე: {}"
 
 #: unsetvar.cpp:69
 msgid ""
 "config-manager: Request to remove variable but vars directory was not found: "
 "{}"
 msgstr ""
+"confg-manager: მოთხოვნა, წავშალო ცვლადი, მაგრამ ცვლადების საქაღალდე ვერ "
+"ვიპოვე: {}"
 
 #: unsetvar.cpp:82
 msgid ""
 "config-manager: Request to remove variable but it is not present in the vars "
 "directory: {}"
 msgstr ""
+"config-manager: მოთხოვნა, წავშალო ცვლადი, მაგრამ ის არ არსებობს ცვლადების "
+"საქაღალდეში: {}"
 
 #: unsetvar.cpp:88
 msgid "Cannot remove variable file \"{}\": {}"
