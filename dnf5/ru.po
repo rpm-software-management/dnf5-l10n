@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-19 02:52+0000\n"
-"PO-Revision-Date: 2024-01-29 14:37+0000\n"
+"PO-Revision-Date: 2024-03-20 02:43+0000\n"
 "Last-Translator: Aleksey Fedorov <aleksejfedorov963@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ru/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.3.1\n"
+"X-Generator: Weblate 5.4\n"
 
 #: commands/advisory/advisory_info.hpp:33
 msgid "Print details about advisories"
@@ -262,51 +262,51 @@ msgstr ""
 
 #: commands/list/list.cpp:46
 msgid "Lists packages depending on the packages' relation to the system"
-msgstr ""
+msgstr "Показ списка пакетов в зависимости от их отношения к системе"
 
 #: commands/list/list.cpp:49
 msgid "List of keys to match case insensitively"
-msgstr ""
+msgstr "Список ключей для нечувствительного соответствия регистру"
 
 #: commands/list/list.cpp:61
 msgid "Show all versions of the packages, not only the latest ones."
-msgstr ""
+msgstr "Показывать все версии пакетов, а не только последние."
 
 #: commands/list/list.cpp:67
 msgid "List installed packages."
-msgstr ""
+msgstr "Список установленных пакетов."
 
 #: commands/list/list.cpp:71
-#, fuzzy
-#| msgid "Allow skipping unavailable packages"
 msgid "List available packages."
-msgstr "Позволять пропускать недоступные пакеты"
+msgstr "Список доступных пакетов."
 
 #: commands/list/list.cpp:78
 msgid ""
 "List extras, that is packages installed on the system that are not available "
 "in any known repository."
 msgstr ""
+"Список дополнительных пакетов Extras, то есть пакетов, установленных в "
+"системе, которые не доступны ни в одном из известных репозиториев."
 
 #: commands/list/list.cpp:86
 msgid ""
 "List packages installed on the system that are obsoleted by packages in any "
 "known repository."
 msgstr ""
+"Список пакетов, установленных в системе, которые устарели из-за пакетов в "
+"любом из известных репозиториев."
 
 #: commands/list/list.cpp:91
-#, fuzzy
-#| msgid "Limit to packages in enhancement advisories."
 msgid "List packages recently added into the repositories."
-msgstr "Ограничение на пакеты в рекомендациях по улучшению."
+msgstr "Список пакетов, недавно добавленных в репозитории."
 
 #: commands/list/list.cpp:95
 msgid "List upgrades available for the installed packages."
-msgstr ""
+msgstr "Список обновлений, доступных для установленных пакетов."
 
 #: commands/list/list.cpp:99
 msgid "List packages which will be removed by the 'dnf autoremove' command."
-msgstr ""
+msgstr "Список пакетов, которые будут удалены командой 'dnf autoremove'."
 
 #: commands/list/list.cpp:259
 msgid "No matching packages to list"
@@ -371,63 +371,65 @@ msgstr "Шаблоны"
 #. TODO(mblaha): add full command line
 #: commands/versionlock/utils.cpp:35
 msgid "Added by 'versionlock {}' command on {}"
-msgstr ""
+msgstr "Добавлено командой 'versionlock {}' на {}"
 
 #: commands/versionlock/versionlock_add.cpp:37
 msgid "Add new entry to versionlock configuration"
-msgstr ""
+msgstr "Добавить новую запись в конфигурацию блокировки версий"
 
 #: commands/versionlock/versionlock_add.cpp:43
 msgid "List of package specs to add versionlock for"
 msgstr ""
+"Список спецификаций пакетов, для которых необходимо добавить блокировку "
+"версий"
 
 #: commands/versionlock/versionlock_add.cpp:103
 #: commands/versionlock/versionlock_exclude.cpp:122
-#, fuzzy
-#| msgid "No matches found for \"{}\"."
 msgid "No package found for \"{}\"."
-msgstr "Для \"{}\" не найдено ни одного совпадения."
+msgstr "Для \"{}\" не найдено ни одного пакета."
 
 #: commands/versionlock/versionlock_add.cpp:121
 msgid "Adding versionlock on \"{0} = {1}\"."
-msgstr ""
+msgstr "Добавление блокировки версий на \"{0} = {1}\"."
 
 #: commands/versionlock/versionlock_add.cpp:124
 msgid "Package \"{}\" is already locked."
-msgstr ""
+msgstr "Пакет \"{}\" уже заблокирован."
 
 #: commands/versionlock/versionlock_clear.cpp:32
 msgid "Remove all entries from versionlock configuration"
-msgstr ""
+msgstr "Удалить все записи из конфигурации блокировки версий"
 
 #: commands/versionlock/versionlock_delete.cpp:35
 msgid "Remove any matching versionlock configuration entries"
-msgstr ""
+msgstr "Удалите все совпадающие записи конфигурации блокировки версий"
 
 #: commands/versionlock/versionlock_delete.cpp:41
 msgid "List of package specs to remove versionlock for"
-msgstr ""
+msgstr "Список спецификаций пакетов для снятия блокировки версий"
 
 #: commands/versionlock/versionlock_delete.cpp:55
 msgid "Deleting versionlock entry:"
-msgstr ""
+msgstr "Удаление записи о блокировке версий:"
 
 #: commands/versionlock/versionlock_exclude.cpp:37
 msgid "Add new exclude entry to versionlock configuration"
-msgstr ""
+msgstr "Добавить новый исключающий элемент в конфигурацию блокировки версий"
 
 #: commands/versionlock/versionlock_exclude.cpp:43
 msgid "List of package specs to add versionlock exclude for"
 msgstr ""
+"Список спецификаций пакетов, для которых необходимо добавить исключение "
+"блокировки версий"
 
 #: commands/versionlock/versionlock_exclude.cpp:88
 #: commands/versionlock/versionlock_exclude.cpp:100
 msgid "Adding versionlock exclude on \"{0} = {1}\"."
-msgstr ""
+msgstr "Добавление исключения блокировки версий на \"{0} = {1}\"."
 
 #: commands/versionlock/versionlock_exclude.cpp:136
 msgid "Package \"{}\" is already excluded."
-msgstr ""
+msgstr "Пакет \"{}\" уже исключен."
 
 #: context.cpp:80
 msgid "The key was successfully imported."
