@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-26 02:52+0000\n"
-"PO-Revision-Date: 2024-03-21 05:35+0000\n"
+"PO-Revision-Date: 2024-03-28 02:42+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ka/>\n"
@@ -361,10 +361,8 @@ msgid "Power off the system after the operation is complete"
 msgstr "სისტემის გამორთვა ოპერაციის დასრულების შემდეგ"
 
 #: commands/offline/offline.cpp:294
-#, fuzzy
-#| msgid "Manage offline transactions"
 msgid "No offline transaction is stored."
-msgstr "ქსელის გარეშე ტრანზაქციების მართვა"
+msgstr "ქსელგარეშე ტრანზაქციები დამახსოვრებული არაა."
 
 #: commands/offline/offline.cpp:301
 msgid "System is not ready for offline transaction."
@@ -623,10 +621,8 @@ msgid "No matching repositories for \"{}\""
 msgstr "რეპოზიტორიები, რომლებიც \"{}\"-ს ემთხვევა, აღმოჩენილი არაა"
 
 #: include/dnf5/offline.cpp:39
-#, fuzzy
-#| msgid "Error reading offline state file."
 msgid "error reading offline state file"
-msgstr "ქსელგარეშე მდგონარეობის ფაილის წაკითხვის შეცდომა."
+msgstr "ქსელგარეშე მდგომარეობის ფაილის წაკითხვის შეცდომა"
 
 #: include/dnf5/offline.cpp:44
 msgid "incompatible version of state data"
