@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-28 02:52+0000\n"
-"PO-Revision-Date: 2024-03-21 05:35+0000\n"
+"PO-Revision-Date: 2024-03-29 02:42+0000\n"
 "Last-Translator: Aleksey Fedorov <aleksejfedorov963@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ru/>\n"
@@ -358,10 +358,8 @@ msgid "Power off the system after the operation is complete"
 msgstr "Выключить систему после завершения операции"
 
 #: commands/offline/offline.cpp:294
-#, fuzzy
-#| msgid "Manage offline transactions"
 msgid "No offline transaction is stored."
-msgstr "Управление автономными транзакциями"
+msgstr "Нет сохраненных автономных транзакций."
 
 #: commands/offline/offline.cpp:301
 msgid "System is not ready for offline transaction."
@@ -436,8 +434,7 @@ msgstr "Журналы не найдены."
 
 #: commands/offline/offline.cpp:592
 msgid "The following boots appear to contain offline transaction logs:"
-msgstr ""
-"Следующие ботинки boots, похоже, содержат автономные журналы транзакций:"
+msgstr "Следующие boots, похоже, содержат автономные журналы транзакций:"
 
 #: commands/offline/offline.cpp:609
 msgid "Cannot find logs with this index."
@@ -625,10 +622,8 @@ msgid "No matching repositories for \"{}\""
 msgstr "Нет подходящих репозиториев для \"{}\""
 
 #: include/dnf5/offline.cpp:39
-#, fuzzy
-#| msgid "Error reading offline state file."
 msgid "error reading offline state file"
-msgstr "Ошибка при чтении автономного файла состояния."
+msgstr "ошибка при чтении автономного файла состояния"
 
 #: include/dnf5/offline.cpp:44
 msgid "incompatible version of state data"
@@ -660,7 +655,8 @@ msgstr "Не удалось завершить кэш репозитория п�
 
 #: main.cpp:207
 msgid "repofrompath: Incorrect repoid and path specification \"{}\""
-msgstr "repofrompath: Неверный ID репозитория и спецификация пути \"{}\""
+msgstr ""
+"repofrompath: Неверный идентификатор репозитория и спецификация пути \"{}\""
 
 #: main.cpp:230 main.cpp:269
 msgid "{}: Badly formatted argument value \"{}\""
