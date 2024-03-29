@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-28 02:52+0000\n"
+"POT-Creation-Date: 2024-03-29 02:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -497,18 +497,26 @@ msgstr ""
 msgid "Prepare system for upgrade to a new release"
 msgstr ""
 
-#: commands/system-upgrade/system-upgrade.cpp:69
+#: commands/system-upgrade/system-upgrade.cpp:70
 msgid "Download everything needed to upgrade to a new release"
 msgstr ""
 
-#: commands/system-upgrade/system-upgrade.cpp:77
+#: commands/system-upgrade/system-upgrade.cpp:78
 msgid ""
 "Do not install packages from the new release if they are older than what is "
 "currently installed"
 msgstr ""
 
-#: commands/system-upgrade/system-upgrade.cpp:96
+#: commands/system-upgrade/system-upgrade.cpp:97
 msgid "Need a --releasever greater than the current system version."
+msgstr ""
+
+#: commands/system-upgrade/system-upgrade.cpp:131
+msgid "Store a distro-sync transaction to be performed offline"
+msgstr ""
+
+#: commands/system-upgrade/system-upgrade.cpp:153
+msgid "Store an upgrade transaction to be performed offline"
 msgstr ""
 
 #. TODO(mblaha): add full command line
@@ -646,19 +654,48 @@ msgstr ""
 msgid "setvar: {}"
 msgstr ""
 
-#: main.cpp:823
+#: main.cpp:825
 msgid "======== Main configuration: ========"
 msgstr ""
 
-#: main.cpp:864
+#: main.cpp:866
 #, c++-format
 msgid "======== \"{}\" repository configuration: ========"
 msgstr ""
 
-#: main.cpp:885
+#: main.cpp:887
 msgid "======== Variables: ========"
 msgstr ""
 
-#: main.cpp:1010 main.cpp:1163
+#: main.cpp:962
+#, c++-format
+msgid "{} to skip unavailable packages"
+msgstr ""
+
+#: main.cpp:1003
+#, c++-format
+msgid "{} to not limit the transaction to the best candidates"
+msgstr ""
+
+#: main.cpp:1010
+#, c++-format
+msgid "{} to allow erasing of installed packages to resolve problems"
+msgstr ""
+
+#: main.cpp:1018
+#, c++-format
+msgid "{} to load additional filelists metadata"
+msgstr ""
+
+#: main.cpp:1025
+#, c++-format
+msgid "{} to skip uninstallable packages"
+msgstr ""
+
+#: main.cpp:1031
+msgid "You can try to add to command line:"
+msgstr ""
+
+#: main.cpp:1112 main.cpp:1271
 msgid ". Add \"--help\" for more information about the arguments."
 msgstr ""
