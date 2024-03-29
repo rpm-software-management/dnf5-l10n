@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-29 02:52+0000\n"
-"PO-Revision-Date: 2024-03-28 02:42+0000\n"
+"PO-Revision-Date: 2024-03-30 04:36+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ka/>\n"
@@ -556,10 +556,11 @@ msgstr "--releasever უფრო დიდი უნდა იყოს, ვი
 #: commands/system-upgrade/system-upgrade.cpp:131
 msgid "Store a distro-sync transaction to be performed offline"
 msgstr ""
+"ტრანზაქცია 'distro-sync'-ის დამახსოვრება ინტერნეტის გარეშე შესასრულებლად"
 
 #: commands/system-upgrade/system-upgrade.cpp:153
 msgid "Store an upgrade transaction to be performed offline"
-msgstr ""
+msgstr "ტრანზაქციის 'upgrade' დამახსოვრება ინტერნეტის გარეშე გასაშვებად"
 
 #. TODO(mblaha): add full command line
 #: commands/versionlock/utils.cpp:35
@@ -697,34 +698,28 @@ msgid "======== Variables: ========"
 msgstr "======== ცვლადები: ========"
 
 #: main.cpp:962
-#, fuzzy
-#| msgid "Allow skipping unavailable packages"
 msgid "{} to skip unavailable packages"
-msgstr "ხელმიუწვდომელი პაკეტების გამოტოვების დაშვება"
+msgstr "{} ხელმიუწვდომელი პაკეტების გამოსატოვებლად"
 
 #: main.cpp:1003
 msgid "{} to not limit the transaction to the best candidates"
-msgstr ""
+msgstr "{} ტრანზაქციის საუკეთესო კანდიდატებზე შეზღუდვის მოსახსნელად"
 
 #: main.cpp:1010
-#, fuzzy
-#| msgid "Allow erasing of installed packages to resolve problems"
 msgid "{} to allow erasing of installed packages to resolve problems"
-msgstr "პრობლემების გადასაჭრელად დაუშვით დაყენებული პაკეტების წაშლის დაშვება"
+msgstr "{} პრობლემების გადასაჭრელად დაყენებული პაკეტების წაშლის დასაშვებად"
 
 #: main.cpp:1018
 msgid "{} to load additional filelists metadata"
-msgstr ""
+msgstr "{} დამატებითი ფაილების სიის მეტამონაცემების ჩასატვირთად"
 
 #: main.cpp:1025
-#, fuzzy
-#| msgid "Allow skipping unavailable packages"
 msgid "{} to skip uninstallable packages"
-msgstr "ხელმიუწვდომელი პაკეტების გამოტოვების დაშვება"
+msgstr "{} ისეთი პაკეტების გამოსატოვებლად, რომლებიც არ იშლება"
 
 #: main.cpp:1031
 msgid "You can try to add to command line:"
-msgstr ""
+msgstr "შეგიძლიათ, სცადოთ, მიამატოთ ბრძანების სტრიქონს:"
 
 #: main.cpp:1112 main.cpp:1271
 msgid ". Add \"--help\" for more information about the arguments."
