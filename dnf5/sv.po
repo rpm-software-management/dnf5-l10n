@@ -9,9 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-29 02:52+0000\n"
-"PO-Revision-Date: 2024-04-03 20:18+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2024-04-03 20:26+0000\n"
+"Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/sv/>\n"
 "Language: sv\n"
@@ -350,52 +349,56 @@ msgid ""
 "Prepare the system to perform the offline transaction and reboot to start "
 "the transaction."
 msgstr ""
+"Förbered systemet för att utföra den frånkopplade transaktionen och starta "
+"om för att påbörja transaktionen."
 
 #: commands/offline/offline.cpp:284
 msgid "Power off the system after the operation is complete"
-msgstr ""
+msgstr "Stäng av systemet efter att åtgärden är färdig"
 
 #: commands/offline/offline.cpp:294
 msgid "No offline transaction is stored."
-msgstr ""
+msgstr "Ingen frånkopplad transaktion är lagrad."
 
 #: commands/offline/offline.cpp:301
-#, fuzzy
-#| msgid "Reverse the order of transactions."
 msgid "System is not ready for offline transaction."
-msgstr "Vänd om ordningsföljden på transaktioner."
+msgstr "Systemet är inte redo för en frånkopplad transaktion."
 
 #: commands/offline/offline.cpp:304
 msgid "Data directory {} does not exist."
-msgstr ""
+msgstr "Datakatalogen {} finns inte."
 
 #: commands/offline/offline.cpp:328
 msgid "{} is not wanted by system-update.target."
-msgstr ""
+msgstr "{} är inte önskat av system-update.target."
 
 #: commands/offline/offline.cpp:334
 msgid "The system will now reboot to upgrade to release version "
-msgstr ""
+msgstr "Systemet kommer nu starta om för att uppgradera till utgåveversion "
 
 #: commands/offline/offline.cpp:338
 msgid ""
 "The system will now reboot to perform the offline transaction initiated by "
 "the following command:"
 msgstr ""
+"Systemet kommer nu starta om för att utföra den frånkopplade transaktionen "
+"som initierades av följande kommando:"
 
 #: commands/offline/offline.cpp:369
 msgid ""
 "Internal use only, not intended to be run by the user. Execute the "
 "transaction in the offline environment."
 msgstr ""
+"Endast intern användning, inte avsett att köras av användaren. Kör "
+"transaktionen i den frånkopplade miljön."
 
 #: commands/offline/offline.cpp:396
 msgid "Trigger file does not exist. Exiting."
-msgstr ""
+msgstr "Utlösarfilen finns inte. Avslutar."
 
 #: commands/offline/offline.cpp:400
 msgid "Another offline transaction tool is running. Exiting."
-msgstr ""
+msgstr "En annan frånkopplad transaktion kör. Avslutar."
 
 #: commands/offline/offline.cpp:436
 msgid ""
@@ -403,10 +406,13 @@ msgid ""
 "to be run directly by the user. To initiate the system upgrade/offline "
 "transaction, you should run `dnf5 offline reboot`."
 msgstr ""
+"Varning: kommandot `_execute`är endast för intern användning och är inte "
+"avsett att köras direkt av användaren. För att initiera systemuppgraderingen/"
+"den frånkopplade transaktionen skall man köra ? dnf5 offline reboot`."
 
 #: commands/offline/offline.cpp:443
 msgid "Use `dnf5 offline reboot` to begin the transaction."
-msgstr ""
+msgstr "Använd `dnf5 offline reboot` för att påbörja transaktionen."
 
 #: commands/offline/offline.cpp:481
 #, fuzzy
