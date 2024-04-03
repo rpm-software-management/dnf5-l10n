@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-29 02:52+0000\n"
-"PO-Revision-Date: 2024-03-20 02:43+0000\n"
-"Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
+"PO-Revision-Date: 2024-04-03 20:18+0000\n"
+"Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/sv/>\n"
 "Language: sv\n"
@@ -328,13 +328,16 @@ msgstr "Inga matchningar hittades för \"{}\"."
 
 #: commands/offline/offline.cpp:187
 msgid "Manage offline transactions"
-msgstr ""
+msgstr "Hantera frånkopplade transaktioner"
 
 #: commands/offline/offline.cpp:228
 msgid ""
 "Error reading state: {}. Rerun the command you used to initiate the offline "
 "transaction, e.g. `dnf5 system-upgrade download [OPTIONS]`."
 msgstr ""
+"Fel vid läsning av tillståndet: {}. Kör om kommandot du använde för att "
+"initiera den frånkopplade transaktionen, t.ex. `dnf5 system-upgrade download "
+"[FLAGGOR]`."
 
 #: commands/offline/offline.cpp:248
 msgid "Couldn't connect to D-Bus: {}"
