@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-04-04 02:52+0000\n"
-"PO-Revision-Date: 2024-04-04 18:01+0000\n"
+"PO-Revision-Date: 2024-04-04 18:06+0000\n"
 "Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/sv/>\n"
@@ -442,45 +442,53 @@ msgstr "Kan inte hitta loggar med detta index."
 
 #: commands/offline/offline.cpp:616
 msgid "Unable to match systemd journal entry."
-msgstr "Kunde inte matcha systemd journalinmatning"
+msgstr "Kan inte matcha systemd:s journalpost."
 
 #: commands/offline/offline.cpp:628
 msgid "Show logs from past offline transactions"
-msgstr ""
+msgstr "Visa loggar från tidigare frånkopplade transaktioner"
 
 #: commands/offline/offline.cpp:636
 msgid ""
 "Which log to show. Run without any arguments to get a list of available logs."
 msgstr ""
+"Vilka loggar som skall visas. Kör utan några argument för att få en lista "
+"över tillgängliga loggar."
 
 #: commands/offline/offline.cpp:651
 msgid ""
 "systemd is not supported in this build of DNF 5; the `log` subcommand is "
 "unavailable."
 msgstr ""
+"systemd stödjs inte i detta bygge av DNF 5; underkommandot `log` är "
+"otillgängligt."
 
 #: commands/offline/offline.cpp:656
 msgid "Show status of the current offline transaction"
-msgstr ""
+msgstr "Visa status för den aktuella frånkopplade transaktionen"
 
 #: commands/offline/offline.cpp:672
 msgid "An offline transaction was initiated by the following command:"
-msgstr ""
+msgstr "En frånkopplad transaktion initierades av följande kommando:"
 
 #: commands/offline/offline.cpp:674
 msgid ""
 "Run `dnf5 offline reboot` to reboot and perform the offline transaction."
 msgstr ""
+"Kör `dnf5 offline reboot` för att starta om och utföra den frånkopplade "
+"transaktionen."
 
 #: commands/offline/offline.cpp:676
 msgid ""
 "An offline transaction was started, but it did not finish. Run `dnf5 offline "
 "log` for more information. The command that initiated the transaction was:"
 msgstr ""
+"En frånkopplad transaktion startades, men avslutades inte. Kör `dnf5 offline "
+"log` för mer information. Kommandot som initierade transaktionen var:"
 
 #: commands/offline/offline.cpp:681
 msgid "Unknown offline transaction status: "
-msgstr ""
+msgstr "Okänd status på frånkopplad transaktion: "
 
 #: commands/repo/arguments.hpp:35
 msgid "Show all repositories."
@@ -528,13 +536,15 @@ msgstr ""
 
 #: commands/system-upgrade/system-upgrade.cpp:70
 msgid "Download everything needed to upgrade to a new release"
-msgstr ""
+msgstr "Hämta allt som behövs för att uppgradera till en ny utgåva"
 
 #: commands/system-upgrade/system-upgrade.cpp:78
 msgid ""
 "Do not install packages from the new release if they are older than what is "
 "currently installed"
 msgstr ""
+"Installera inte paket från den nya utgåvan om de är äldre än vad som för "
+"närvarande är installerat"
 
 #: commands/system-upgrade/system-upgrade.cpp:97
 msgid "Need a --releasever greater than the current system version."
