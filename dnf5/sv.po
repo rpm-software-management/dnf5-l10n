@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-04-04 02:52+0000\n"
-"PO-Revision-Date: 2024-04-05 18:36+0000\n"
+"PO-Revision-Date: 2024-04-05 19:46+0000\n"
 "Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/sv/>\n"
@@ -556,7 +556,7 @@ msgstr "Lagra en distro-sync-transaktion att utföras frånkopplat"
 
 #: commands/system-upgrade/system-upgrade.cpp:153
 msgid "Store an upgrade transaction to be performed offline"
-msgstr ""
+msgstr "Lagra en uppgraderingstransaktion att utföras frånkopplat"
 
 #. TODO(mblaha): add full command line
 #: commands/versionlock/utils.cpp:35
@@ -628,11 +628,11 @@ msgstr "Inga matchande förråd för \"{}\""
 
 #: include/dnf5/offline.cpp:39
 msgid "error reading offline state file"
-msgstr ""
+msgstr "fel vid läsning av tillståndsfilen för frånkopplat"
 
 #: include/dnf5/offline.cpp:44
 msgid "incompatible version of state data"
-msgstr ""
+msgstr "inkompatibel version av tillståndsdata"
 
 #: include/dnf5/shared_options.hpp:33
 msgid "Allow erasing of installed packages to resolve problems"
@@ -694,14 +694,12 @@ msgid "======== Variables: ========"
 msgstr "======== Variabler: ========"
 
 #: main.cpp:962
-#, fuzzy
-#| msgid "Allow skipping unavailable packages"
 msgid "{} to skip unavailable packages"
-msgstr "Tillåt att du hoppar över otillgängliga paket"
+msgstr "{} för att hoppa över otillgängliga paket"
 
 #: main.cpp:1003
 msgid "{} to not limit the transaction to the best candidates"
-msgstr ""
+msgstr "{} för att inte begränsa transaktionen till de bästa kandidaterna"
 
 #: main.cpp:1010
 #, fuzzy
