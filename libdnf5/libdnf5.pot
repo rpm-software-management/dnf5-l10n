@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-09 02:52+0000\n"
+"POT-Creation-Date: 2024-04-10 02:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,12 +30,12 @@ msgid "Unsupported argument for REMOVE action: {}"
 msgstr ""
 
 #. TODO(lukash) throw a proper exception
-#: base/goal.cpp:1114
+#: base/goal.cpp:1118
 #, c++-format
 msgid "Incorrect configuration value for multilib_policy: {}"
 msgstr ""
 
-#: base/goal.cpp:2322
+#: base/goal.cpp:2326
 msgid "Failed to resolve modules."
 msgstr ""
 
@@ -311,72 +311,72 @@ msgstr ""
 msgid "Problem {}: "
 msgstr ""
 
-#: base/transaction.cpp:71
+#: base/transaction.cpp:72
 msgid "This transaction has been already run before."
 msgstr ""
 
-#: base/transaction.cpp:72
+#: base/transaction.cpp:73
 msgid "Cannot run transaction with resolving problems."
 msgstr ""
 
-#: base/transaction.cpp:73
+#: base/transaction.cpp:74
 msgid "Rpm transaction check failed."
 msgstr ""
 
-#: base/transaction.cpp:75
+#: base/transaction.cpp:76
 msgid ""
 "Failed to obtain rpm transaction lock. Another transaction is in progress."
 msgstr ""
 
-#: base/transaction.cpp:76
+#: base/transaction.cpp:77
 msgid "Rpm transaction failed."
 msgstr ""
 
-#: base/transaction.cpp:77
+#: base/transaction.cpp:78
 msgid "Signature verification failed."
 msgstr ""
 
-#: base/transaction.cpp:81
+#: base/transaction.cpp:82
 msgid "The repository does not have any PGP keys configured."
 msgstr ""
 
-#: base/transaction.cpp:82
+#: base/transaction.cpp:83
 msgid "Public key is not installed."
 msgstr ""
 
-#: base/transaction.cpp:83
+#: base/transaction.cpp:84
 msgid "Canceled by the user."
 msgstr ""
 
-#: base/transaction.cpp:84
+#: base/transaction.cpp:85
 msgid "Public key import failed."
 msgstr ""
 
-#: base/transaction.cpp:638
+#: base/transaction.cpp:639
 #, c++-format
 msgid "Invalid tsflag: {}"
 msgstr ""
 
-#: base/transaction.cpp:972
+#: base/transaction.cpp:973
 #, c++-format
 msgid "Public key \"{}\" is already present, not importing."
 msgstr ""
 
-#: base/transaction.cpp:993
+#: base/transaction.cpp:994
 #, c++-format
 msgid "An error occurred importing key \"{}\": {}"
 msgstr ""
 
-#: base/transaction.cpp:1026
+#: base/transaction.cpp:1027
 #, c++-format
 msgid "PGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
 msgstr ""
 
-#: base/transaction.cpp:1053
+#: base/transaction.cpp:1054
 msgid "Import of the key didn't help, wrong key?"
 msgstr ""
 
-#: base/transaction.cpp:1071
+#: base/transaction.cpp:1072
 #, c++-format
 msgid "Warning: skipped PGP checks for {} package(s)."
 msgstr ""
