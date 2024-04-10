@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-09 02:52+0000\n"
+"POT-Creation-Date: 2024-04-10 02:52+0000\n"
 "PO-Revision-Date: 2024-03-17 02:36+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
@@ -34,11 +34,11 @@ msgid "Unsupported argument for REMOVE action: {}"
 msgstr "Argumento não suportado para ação REMOVE: {}"
 
 #. TODO(lukash) throw a proper exception
-#: base/goal.cpp:1114
+#: base/goal.cpp:1118
 msgid "Incorrect configuration value for multilib_policy: {}"
 msgstr "Valor de configuração incorreto para multilib_policy: {}"
 
-#: base/goal.cpp:2322
+#: base/goal.cpp:2326
 msgid "Failed to resolve modules."
 msgstr "Falha ao resolver módulos."
 
@@ -283,69 +283,69 @@ msgstr "Problema: "
 msgid "Problem {}: "
 msgstr "Problema {}: "
 
-#: base/transaction.cpp:71
+#: base/transaction.cpp:72
 msgid "This transaction has been already run before."
 msgstr "Esta transação já foi executada antes."
 
-#: base/transaction.cpp:72
+#: base/transaction.cpp:73
 msgid "Cannot run transaction with resolving problems."
 msgstr "Não é possível executar a transação com a resolução de problemas."
 
-#: base/transaction.cpp:73
+#: base/transaction.cpp:74
 msgid "Rpm transaction check failed."
 msgstr "Falha na verificação da transação RPM."
 
-#: base/transaction.cpp:75
+#: base/transaction.cpp:76
 msgid ""
 "Failed to obtain rpm transaction lock. Another transaction is in progress."
 msgstr ""
 "Falha ao obter bloqueio de transação rpm. Outra transação está em andamento."
 
-#: base/transaction.cpp:76
+#: base/transaction.cpp:77
 msgid "Rpm transaction failed."
 msgstr "Falha na transação RPM."
 
-#: base/transaction.cpp:77
+#: base/transaction.cpp:78
 msgid "Signature verification failed."
 msgstr "A verificação da assinatura falhou."
 
-#: base/transaction.cpp:81
+#: base/transaction.cpp:82
 msgid "The repository does not have any PGP keys configured."
 msgstr "O repositório não possui nenhuma chave PGP configurada."
 
-#: base/transaction.cpp:82
+#: base/transaction.cpp:83
 msgid "Public key is not installed."
 msgstr "A chave pública não está instalada."
 
-#: base/transaction.cpp:83
+#: base/transaction.cpp:84
 msgid "Canceled by the user."
 msgstr "Cancelada pelo usuário."
 
-#: base/transaction.cpp:84
+#: base/transaction.cpp:85
 msgid "Public key import failed."
 msgstr "Falha na importação da chave pública."
 
-#: base/transaction.cpp:638
+#: base/transaction.cpp:639
 msgid "Invalid tsflag: {}"
 msgstr "tsflag inválida: {}"
 
-#: base/transaction.cpp:972
+#: base/transaction.cpp:973
 msgid "Public key \"{}\" is already present, not importing."
 msgstr "A chave pública \"{}\" já está presente, não será importada."
 
-#: base/transaction.cpp:993
+#: base/transaction.cpp:994
 msgid "An error occurred importing key \"{}\": {}"
 msgstr "Ocorreu um erro ao importar a chave \"{}\": {}"
 
-#: base/transaction.cpp:1026
+#: base/transaction.cpp:1027
 msgid "PGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
 msgstr "A verificação PGP do pacote \"{}\" ({}) do repositório \"{}\" falhou: "
 
-#: base/transaction.cpp:1053
+#: base/transaction.cpp:1054
 msgid "Import of the key didn't help, wrong key?"
 msgstr "A importação da chave não ajudou, chave errada?"
 
-#: base/transaction.cpp:1071
+#: base/transaction.cpp:1072
 msgid "Warning: skipped PGP checks for {} package(s)."
 msgstr "Aviso: ignoradas as verificações de PGP para {} pacote(s)."
 
