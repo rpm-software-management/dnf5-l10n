@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-04-11 02:52+0000\n"
-"PO-Revision-Date: 2024-03-31 19:36+0000\n"
+"PO-Revision-Date: 2024-04-12 07:36+0000\n"
 "Last-Translator: Aleksey Fedorov <aleksejfedorov963@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/ru/>\n"
@@ -161,32 +161,31 @@ msgid "Unable to resolve argument '{}':{}"
 msgstr "Невозможно разрешить аргумент '{}':{}"
 
 #: base/log_event.cpp:255
-#, fuzzy
-#| msgid "some dependency problem"
 msgid "Modular dependency problems:\n"
-msgstr "некоторая проблема с зависимостями"
+msgstr "Проблемы с модульными зависимостями:\n"
 
 #: base/log_event.cpp:262
 msgid "Modular dependency problems with the latest modules:\n"
-msgstr ""
+msgstr "Проблемы с модульными зависимостями с последними модулями:\n"
 
 #: base/log_event.cpp:269
 msgid "Modular dependency problems with the defaults:\n"
-msgstr ""
+msgstr "Проблемы с модульными зависимостями с настройками по умолчанию:\n"
 
 #: base/log_event.cpp:284
-#, fuzzy
-#| msgid "The operation would result in removing of running kernel: {}"
 msgid ""
 "The operation would result in switching of module '{0}' stream '{1}' to "
 "stream '{2}'\n"
-msgstr "В результате операции будет удалено запущенное ядро: {}"
+msgstr ""
+"Операция приведет к переключению модуля '{0}' потока '{1}' на поток '{2}'\n"
 
 #: base/log_event.cpp:289
 msgid ""
 "Error: It is not possible to switch enabled streams of a module unless "
 "explicitly enabled via configuration option module_stream_switch."
 msgstr ""
+"Ошибка: Невозможно переключать включенные потоки модуля, если это явно не "
+"разрешено с помощью конфигурационной опции module_stream_switch."
 
 #: base/solver_problems.cpp:41
 msgid "{} does not belong to a distupgrade repository"
@@ -295,105 +294,73 @@ msgid "The operation would result in removing of running kernel: {}"
 msgstr "В результате операции будет удалено запущенное ядро: {}"
 
 #: base/solver_problems.cpp:71
-#, fuzzy
-#| msgid "{} does not belong to a distupgrade repository"
 msgid "module {} does not belong to a distupgrade repository"
-msgstr "{} не принадлежит репозиторию distupgrade"
+msgstr "модуль {} не принадлежит репозиторию distupgrade"
 
 #: base/solver_problems.cpp:72
-#, fuzzy
-#| msgid "{} has inferior architecture"
 msgid "module {} has inferior architecture"
-msgstr "{} имеет низкую архитектуру"
+msgstr "модуль {} имеет низкую архитектуру"
 
 #: base/solver_problems.cpp:73
-#, fuzzy
-#| msgid "problem with installed package "
 msgid "problem with installed module {}"
-msgstr "проблема с установленным пакетом "
+msgstr "проблема с установленным модулем {}"
 
 #: base/solver_problems.cpp:77
-#, fuzzy
-#| msgid "package {} does not exist"
 msgid "module {} does not exist"
-msgstr "пакет {} не существует"
+msgstr "модуль {} не существует"
 
 #: base/solver_problems.cpp:80
-#, fuzzy
-#| msgid "cannot install the best update candidate for package {}"
 msgid "cannot install the best update candidate for module {}"
-msgstr "Не удается установить лучшего кандидата на обновление для пакета {}"
+msgstr "Не удается установить лучшего кандидата на обновление для модуля {}"
 
 #: base/solver_problems.cpp:82 base/solver_problems.cpp:85
 msgid "module {} is disabled"
-msgstr ""
+msgstr "модуль {} отключен"
 
 #: base/solver_problems.cpp:83
-#, fuzzy
-#| msgid "package {} does not have a compatible architecture"
 msgid "module {} does not have a compatible architecture"
-msgstr "пакет {} не имеет совместимой архитектуры"
+msgstr "модуль {} не имеет совместимой архитектуры"
 
 #: base/solver_problems.cpp:84
-#, fuzzy
-#| msgid "package {} is not installable"
 msgid "module {} is not installable"
-msgstr "пакет {} не может быть установлен"
+msgstr "модуль {} не может быть установлен"
 
 #: base/solver_problems.cpp:86
-#, fuzzy
-#| msgid "nothing provides {0} needed by {1}"
 msgid "nothing provides {0} needed by module {1}"
-msgstr "ничто не предоставляет {0}, необходимый для {1}"
+msgstr "ничто не предоставляет {0}, необходимый для модуля {1}"
 
 #: base/solver_problems.cpp:87
-#, fuzzy
-#| msgid "cannot install both {0} and {1}"
 msgid "cannot install both modules {0} and {1}"
-msgstr "нельзя установить и {0}, и {1}"
+msgstr "нельзя установить оба модуля {0} и {1}"
 
 #: base/solver_problems.cpp:88
-#, fuzzy
-#| msgid "package {0} conflicts with {1} provided by {2}"
 msgid "module {0} conflicts with {1} provided by {2}"
-msgstr "пакет {0} конфликтует с {1}, предоставляемым {2}"
+msgstr "модуль {0} конфликтует с {1}, предоставляемым {2}"
 
 #: base/solver_problems.cpp:89
-#, fuzzy
-#| msgid "package {0} obsoletes {1} provided by {2}"
 msgid "module {0} obsoletes {1} provided by {2}"
-msgstr "пакет {0} заменяет {1}, предоставляемый {2}"
+msgstr "модуль {0} заменяет {1}, предоставляемый {2}"
 
 #: base/solver_problems.cpp:90
-#, fuzzy
-#| msgid "installed package {0} obsoletes {1} provided by {2}"
 msgid "installed module {0} obsoletes {1} provided by {2}"
-msgstr "установленный пакет {0} заменяет {1}, предоставляемый {2}"
+msgstr "установленный модуль {0} заменяет {1}, предоставляемый {2}"
 
 #: base/solver_problems.cpp:91
-#, fuzzy
-#| msgid "package {0} implicitly obsoletes {1} provided by {2}"
 msgid "module {0} implicitly obsoletes {1} provided by {2}"
-msgstr "пакет {0} косвенно заменяет {1}, предоставляемый {2}"
+msgstr "модуль {0} косвенно заменяет {1}, предоставляемый {2}"
 
 #: base/solver_problems.cpp:92
-#, fuzzy
-#| msgid "package {1} requires {0}, but none of the providers can be installed"
 msgid "module {1} requires {0}, but none of the providers can be installed"
 msgstr ""
-"пакет {1} требует {0}, но ни один из поставщиков не может быть установлен"
+"модуль {1} требует {0}, но ни один из поставщиков не может быть установлен"
 
 #: base/solver_problems.cpp:93
-#, fuzzy
-#| msgid "package {1} conflicts with {0} provided by itself"
 msgid "module {1} conflicts with {0} provided by itself"
-msgstr "пакет {1} конфликтует с пакетом {0}, предоставленным самостоятельно"
+msgstr "модуль {1} конфликтует с {0}, предоставленным самостоятельно"
 
 #: base/solver_problems.cpp:94
-#, fuzzy
-#| msgid "both package {0} and {2} obsolete {1}"
 msgid "both module {0} and {2} obsolete {1}"
-msgstr "оба пакета {0} и {2} заменяют {1}"
+msgstr "оба модуля {0} и {2} заменяют {1}"
 
 #: base/solver_problems.cpp:326
 msgid "Problem: "
