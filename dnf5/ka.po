@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-10 02:52+0000\n"
+"POT-Creation-Date: 2024-04-11 02:52+0000\n"
 "PO-Revision-Date: 2024-03-30 04:36+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -180,7 +180,7 @@ msgstr "რეპოზიტორიის კეშის გასუფთ�
 msgid "Invalid urlprotocol option: {}"
 msgstr "არასწორი urlprotocol-ის პარამეტრი: {}"
 
-#: commands/download/download.cpp:139 main.cpp:611 shared_options.cpp:92
+#: commands/download/download.cpp:139 main.cpp:613
 msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
 msgstr "მხარდაუჭერელი არქიტექტურა \"{0}\". აირჩიეთ ერთ-ერთი სიიდან {1}"
 
@@ -262,27 +262,27 @@ msgstr ""
 "არასწორი ტრანზაქციის ID-ის შუალედი. \"{}\". მოველოდი \"ID\" ან \"ID..ID\", "
 "სადაც ID რიცხვია, \"last\" (ბოლო), ან \"last-რიცხვი\"."
 
-#: commands/list/list.cpp:46
+#: commands/list/list.cpp:44
 msgid "Lists packages depending on the packages' relation to the system"
 msgstr "ჩამოთვლის პაკეტებს სისტემის მიმართ მათი დამოკიდებულების მიხედვით"
 
-#: commands/list/list.cpp:49
+#: commands/list/list.cpp:47
 msgid "List of keys to match case insensitively"
 msgstr "გასაღებების სია, რომლებიც რეგისტრის დამთხვევის გარეშე ემთხვვა"
 
-#: commands/list/list.cpp:61
+#: commands/list/list.cpp:59
 msgid "Show all versions of the packages, not only the latest ones."
 msgstr "პაკეტის ყველა ვერსიის ჩვენება და არა მხოლოდ უკანასკნელი ვერსიის."
 
-#: commands/list/list.cpp:67
+#: commands/list/list.cpp:65
 msgid "List installed packages."
 msgstr "დაყენებული პაკეტების ჩამონათვალი."
 
-#: commands/list/list.cpp:71
+#: commands/list/list.cpp:69
 msgid "List available packages."
 msgstr "ხელმისაწვდომი პაკეტების ჩამონათვალი."
 
-#: commands/list/list.cpp:78
+#: commands/list/list.cpp:76
 msgid ""
 "List extras, that is packages installed on the system that are not available "
 "in any known repository."
@@ -290,7 +290,7 @@ msgstr ""
 "დამატებითი ჩამონათვალი, რომ სისტემაში დაყენებული პაკეტი არც ერთი ცნობილი "
 "რეპოზიტორიიდან არაა."
 
-#: commands/list/list.cpp:86
+#: commands/list/list.cpp:84
 msgid ""
 "List packages installed on the system that are obsoleted by packages in any "
 "known repository."
@@ -298,20 +298,20 @@ msgstr ""
 "პაკეტების ჩამონათვალი, რომლებიც ამ სისტემაშია დაყენებული და მოძველებულად "
 "ცხადდება პაკეტის მიერ ნებისმიერი ცნობილი რეპოზიტორიიდან."
 
-#: commands/list/list.cpp:91
+#: commands/list/list.cpp:89
 msgid "List packages recently added into the repositories."
 msgstr "რეპოზიტორიებში ახლახან ჩამატებული პაკეტების ჩამონათვალი."
 
-#: commands/list/list.cpp:95
+#: commands/list/list.cpp:93
 msgid "List upgrades available for the installed packages."
 msgstr ""
 "დაყენებული პაკეტებისთვის ხელმისაწვდომი ვერსიის განახლებების ჩამონათვალი."
 
-#: commands/list/list.cpp:99
+#: commands/list/list.cpp:97
 msgid "List packages which will be removed by the 'dnf autoremove' command."
 msgstr "პაკეტები ჩამონათვალი, რომელსაც 'dnf autoremove' ბრძანება წაშლის."
 
-#: commands/list/list.cpp:259
+#: commands/list/list.cpp:257
 msgid "No matching packages to list"
 msgstr "არცერთი პაკეტი არ ემთხვევა"
 
@@ -327,15 +327,15 @@ msgstr "გამორთული მოდულების ჩვენე�
 msgid "Pattern matching module NSVCAs."
 msgstr "ნიმუში, რომელიც მოდულის NSVCA-ებს ემთხვევა."
 
-#: commands/module/module_list.cpp:84
+#: commands/module/module_list.cpp:85
 msgid "No matches found for \"{}\"."
 msgstr "\"{}\"-სთვის დამთხვევა აღმოჩენილი არაა."
 
-#: commands/offline/offline.cpp:187
+#: commands/offline/offline.cpp:190
 msgid "Manage offline transactions"
 msgstr "ქსელის გარეშე ტრანზაქციების მართვა"
 
-#: commands/offline/offline.cpp:228
+#: commands/offline/offline.cpp:231
 msgid ""
 "Error reading state: {}. Rerun the command you used to initiate the offline "
 "transaction, e.g. `dnf5 system-upgrade download [OPTIONS]`."
@@ -344,11 +344,11 @@ msgstr ""
 "ტრანზაციის გასაშვებად გამოიყენეთ, თავიდან. მაგ: 'dnf5 system-upgrade "
 "download [პარამეტრები]'."
 
-#: commands/offline/offline.cpp:248
+#: commands/offline/offline.cpp:251
 msgid "Couldn't connect to D-Bus: {}"
 msgstr "D-Bus-თან მიერთება შეუძლებელია: {}"
 
-#: commands/offline/offline.cpp:277
+#: commands/offline/offline.cpp:280
 msgid ""
 "Prepare the system to perform the offline transaction and reboot to start "
 "the transaction."
@@ -356,31 +356,31 @@ msgstr ""
 "სისტემის მომზადება ქსელგარეშე ტრანზაქციისთვის და გადატვირთვა ტრანზაქციის "
 "დასაწყებად."
 
-#: commands/offline/offline.cpp:284
+#: commands/offline/offline.cpp:287
 msgid "Power off the system after the operation is complete"
 msgstr "სისტემის გამორთვა ოპერაციის დასრულების შემდეგ"
 
-#: commands/offline/offline.cpp:294
+#: commands/offline/offline.cpp:297
 msgid "No offline transaction is stored."
 msgstr "ქსელგარეშე ტრანზაქციები დამახსოვრებული არაა."
 
-#: commands/offline/offline.cpp:301
+#: commands/offline/offline.cpp:304
 msgid "System is not ready for offline transaction."
 msgstr "სისტემა ქსელგარეშე ტრანზაქციისთვის მზად არაა."
 
-#: commands/offline/offline.cpp:304
+#: commands/offline/offline.cpp:307
 msgid "Data directory {} does not exist."
 msgstr "მონაცემების საქაღალდე {} არა რსებობს."
 
-#: commands/offline/offline.cpp:328
+#: commands/offline/offline.cpp:331
 msgid "{} is not wanted by system-update.target."
 msgstr "{} system-update.target-ს არ სჭირდება."
 
-#: commands/offline/offline.cpp:334
+#: commands/offline/offline.cpp:337
 msgid "The system will now reboot to upgrade to release version "
 msgstr "სისტემა ახლა გადაიტვირთოს, რომ განახლდეს რელიზის ვერსიამდე "
 
-#: commands/offline/offline.cpp:338
+#: commands/offline/offline.cpp:341
 msgid ""
 "The system will now reboot to perform the offline transaction initiated by "
 "the following command:"
@@ -388,7 +388,7 @@ msgstr ""
 "სისტემა ახლა გადაიტვირთება, რომ მოხდეს ქსელგარეშე ტრანზაქცია, რომელიც გაუშვა "
 "შემდეგმა ბრძანებამ:"
 
-#: commands/offline/offline.cpp:369
+#: commands/offline/offline.cpp:372
 msgid ""
 "Internal use only, not intended to be run by the user. Execute the "
 "transaction in the offline environment."
@@ -396,15 +396,15 @@ msgstr ""
 "მხოლოდ შიდა მოხმარებისთვის. არაა განკუთვნილი, რომ მომხმარებელმა გამოიყენოთ. "
 "ტრანზაქციის შესრულება ქსელგარეშე გარემოში."
 
-#: commands/offline/offline.cpp:396
+#: commands/offline/offline.cpp:399
 msgid "Trigger file does not exist. Exiting."
 msgstr "ტრიგერი ფაილი არ არსებობს. გასვლა."
 
-#: commands/offline/offline.cpp:400
+#: commands/offline/offline.cpp:403
 msgid "Another offline transaction tool is running. Exiting."
 msgstr "გაშვებულია სხვა ქსელგარეშე ტრანზაქციის პროგრამა. გასვლა."
 
-#: commands/offline/offline.cpp:436
+#: commands/offline/offline.cpp:439
 msgid ""
 "Warning: the `_execute` command is for internal use only and is not intended "
 "to be run directly by the user. To initiate the system upgrade/offline "
@@ -414,51 +414,51 @@ msgstr ""
 "რომ მომხმარებელმა გაუშვას. სისტემის ვერსიის აწევის/ქსელგარეშე ტრანზაქციის "
 "გასაშვებად გამოიყენეთ ბრძანება 'dnf5 offline reboot'."
 
-#: commands/offline/offline.cpp:443
+#: commands/offline/offline.cpp:446
 msgid "Use `dnf5 offline reboot` to begin the transaction."
 msgstr "ტრანზაქციის გასაშვებად გამოიყენეთ 'dnf5 offline reboot'."
 
-#: commands/offline/offline.cpp:481
+#: commands/offline/offline.cpp:485
 msgid "Transaction failed: "
 msgstr "ტრანზაქცია ჩავარდა: "
 
-#: commands/offline/offline.cpp:554
+#: commands/offline/offline.cpp:558
 msgid "Error reading journal: {}"
 msgstr "შეცდომა ჟურნალის კითხვისას: {}"
 
-#: commands/offline/offline.cpp:560
+#: commands/offline/offline.cpp:564
 msgid "Add journal match failed: {}"
 msgstr "ჟურნალის დამთხვევის დამატება ჩავარდა: {}"
 
-#: commands/offline/offline.cpp:588
+#: commands/offline/offline.cpp:592
 msgid "No logs were found."
 msgstr "ჟურნალი ვერ ვიპოვე."
 
-#: commands/offline/offline.cpp:592
+#: commands/offline/offline.cpp:596
 msgid "The following boots appear to contain offline transaction logs:"
 msgstr ""
 "შემდეგი ჩატვირთვები, როგორც ჩანს, ქსელგარეშე ტრანზქციის ჟურნალს შეიცავენ:"
 
-#: commands/offline/offline.cpp:609
+#: commands/offline/offline.cpp:613
 msgid "Cannot find logs with this index."
 msgstr "ამ ინდექსით ჟურნალი ვერ ვიპოვე."
 
-#: commands/offline/offline.cpp:616
+#: commands/offline/offline.cpp:620
 msgid "Unable to match systemd journal entry."
 msgstr "ვერ ვიპოვე შესაბამისი systemd ჟურნალის ჩანაწერი."
 
-#: commands/offline/offline.cpp:628
+#: commands/offline/offline.cpp:632
 msgid "Show logs from past offline transactions"
 msgstr "ჟურნალის ჩანაწერების ჩვენება ძველი ქსელგარეშე ტრანზაქციებისთვის"
 
-#: commands/offline/offline.cpp:636
+#: commands/offline/offline.cpp:640
 msgid ""
 "Which log to show. Run without any arguments to get a list of available logs."
 msgstr ""
 "რომელი ჟურნალის გაჩვენოთ. გაუშვით არგუმენტების გარეშე ხელმისაწვდომი "
 "ჟურნალების სიის მისაღებად."
 
-#: commands/offline/offline.cpp:651
+#: commands/offline/offline.cpp:655
 msgid ""
 "systemd is not supported in this build of DNF 5; the `log` subcommand is "
 "unavailable."
@@ -466,22 +466,22 @@ msgstr ""
 "systemd მხარდაჭერილი არაა DNF 5-ის ამ ვარიანტში. ქვებრძანება 'log' "
 "ხელმისაწვდომი არაა."
 
-#: commands/offline/offline.cpp:656
+#: commands/offline/offline.cpp:660
 msgid "Show status of the current offline transaction"
 msgstr "მიმდინარე ქსელგარეშე ტრანზაქციის სტატუსის მიღება"
 
-#: commands/offline/offline.cpp:672
+#: commands/offline/offline.cpp:676
 msgid "An offline transaction was initiated by the following command:"
 msgstr "ქსელგარეშე ტრანზქცია დაიწყო შემდეგ ბრძანების მიერ:"
 
-#: commands/offline/offline.cpp:674
+#: commands/offline/offline.cpp:678
 msgid ""
 "Run `dnf5 offline reboot` to reboot and perform the offline transaction."
 msgstr ""
 "გაუშვით 'dnf5 offline reboot' გადასატვირთად და ქსელგარეშე ტრანზაქციის "
 "შესასრულებლად."
 
-#: commands/offline/offline.cpp:676
+#: commands/offline/offline.cpp:680
 msgid ""
 "An offline transaction was started, but it did not finish. Run `dnf5 offline "
 "log` for more information. The command that initiated the transaction was:"
@@ -489,7 +489,7 @@ msgstr ""
 "ქსელგარეშე ტრანზაქცია გაეშვა, მაგრამ არ დასრულდა. მეტი ინფორმაციის მისაღებად "
 "გაუშვით 'dnf5 offline log'. ბრძანება, რომელმაც ტრანზაქცია გაუშვა, იყო:"
 
-#: commands/offline/offline.cpp:681
+#: commands/offline/offline.cpp:685
 msgid "Unknown offline transaction status: "
 msgstr "უცნობი ქსელგარეშე ტრანზაქციის სტატუსი: "
 
@@ -509,7 +509,7 @@ msgstr "გამორთული რეპოზიტორიების �
 msgid "Pattern matching repo IDs."
 msgstr "რეპოზიტორიის ID-ების შესაბამისი შაბლონი."
 
-#: commands/repoquery/repoquery.cpp:514
+#: commands/repoquery/repoquery.cpp:516
 msgid ""
 "Option \"--exactdeps\" has to be used either with \"--whatrequires\" or \"--"
 "whatdepends\""
@@ -517,7 +517,7 @@ msgstr ""
 "პარამეტრი \"--exactdeps\", მხოლოდ, \"--whatrequires\" ან \"--whatdepends\" "
 "პარამეტრებთან ერთად შეგიძლიათ, გამოიყენოთ"
 
-#: commands/repoquery/repoquery.cpp:519
+#: commands/repoquery/repoquery.cpp:521
 msgid ""
 "Option \"--recursive\" has to be used either with \"--whatrequires\" or \"--"
 "providers-of=requires\""
@@ -575,16 +575,16 @@ msgstr "ახალი ჩანაწერის დამატება ver
 msgid "List of package specs to add versionlock for"
 msgstr "პაკეტის spec-ების სია versionlock-ის დასამატებლად"
 
-#: commands/versionlock/versionlock_add.cpp:103
-#: commands/versionlock/versionlock_exclude.cpp:122
+#: commands/versionlock/versionlock_add.cpp:106
+#: commands/versionlock/versionlock_exclude.cpp:125
 msgid "No package found for \"{}\"."
 msgstr "\"{}\"-სთვის პაკეტი ვერ ვიპოვე."
 
-#: commands/versionlock/versionlock_add.cpp:121
+#: commands/versionlock/versionlock_add.cpp:124
 msgid "Adding versionlock on \"{0} = {1}\"."
 msgstr "დაემატა versionlock \"{0}={1}\"-ზე."
 
-#: commands/versionlock/versionlock_add.cpp:124
+#: commands/versionlock/versionlock_add.cpp:127
 msgid "Package \"{}\" is already locked."
 msgstr "პაკეტი \"{}\" უკვე დაბლოკილია."
 
@@ -617,7 +617,7 @@ msgstr "პაკეტის spec-ების სია versionlock-ის ა
 msgid "Adding versionlock exclude on \"{0} = {1}\"."
 msgstr "Versionlock-ის ამოღების დამატება \"{0}={1}\"-სთვის."
 
-#: commands/versionlock/versionlock_exclude.cpp:136
+#: commands/versionlock/versionlock_exclude.cpp:139
 msgid "Package \"{}\" is already excluded."
 msgstr "პაკეტი \"{}\" უკვე ამოღებულია."
 
@@ -658,70 +658,70 @@ msgstr "გაზიარებული ბიბლიოთეკის ფ�
 msgid "Cannot obtain address of symbol \"{}\": {}"
 msgstr "სიმბოლოსთვს (\"{}\") მისამართის პოვნის შეცდომა: {}"
 
-#: main.cpp:182
+#: main.cpp:184
 msgid "Failed to expire repository cache in path \"{0}\": {1}"
 msgstr "რეპოზიტორიის კეშის მოძველებულად მონიშვნა ჩავარდა ბილიკზე \"{0}\": {1}"
 
-#: main.cpp:207
+#: main.cpp:209
 msgid "repofrompath: Incorrect repoid and path specification \"{}\""
 msgstr "repofrompath: არასწორი repoid და ბილიკის სპეციფიკაცია \"{}\""
 
-#: main.cpp:230 main.cpp:269
+#: main.cpp:232 main.cpp:271
 msgid "{}: Badly formatted argument value \"{}\""
 msgstr "{}: ცუდად დაფორმატებული არგუმენტის მნიშვნელობა \"{}\""
 
-#: main.cpp:237
+#: main.cpp:239
 msgid ""
 "{}: Badly formatted argument value: Last key character cannot be '.': {}"
 msgstr ""
 "{}: ცუდად დაფორმატებული არგუმენტის მნიშვნელობა: ბოლო საკვანძო სიმბოლო ვერ "
 "იქნება '.': {}"
 
-#: main.cpp:250
+#: main.cpp:252
 msgid "setopt: \"{0}\": {1}"
 msgstr "setopt: \"{0}\": {1}"
 
-#: main.cpp:276
+#: main.cpp:278
 msgid "setvar: {}"
 msgstr "setvar: {}"
 
-#: main.cpp:825
+#: main.cpp:831
 msgid "======== Main configuration: ========"
 msgstr "======== მთავარი კონფიგურაცია: ========"
 
-#: main.cpp:866
+#: main.cpp:872
 msgid "======== \"{}\" repository configuration: ========"
 msgstr "======== \"{}\" რეპოზიტორიის კონფიგურაცია: ========"
 
-#: main.cpp:887
+#: main.cpp:893
 msgid "======== Variables: ========"
 msgstr "======== ცვლადები: ========"
 
-#: main.cpp:962
+#: main.cpp:968
 msgid "{} to skip unavailable packages"
 msgstr "{} ხელმიუწვდომელი პაკეტების გამოსატოვებლად"
 
-#: main.cpp:1003
+#: main.cpp:1009
 msgid "{} to not limit the transaction to the best candidates"
 msgstr "{} ტრანზაქციის საუკეთესო კანდიდატებზე შეზღუდვის მოსახსნელად"
 
-#: main.cpp:1010
+#: main.cpp:1016
 msgid "{} to allow erasing of installed packages to resolve problems"
 msgstr "{} პრობლემების გადასაჭრელად დაყენებული პაკეტების წაშლის დასაშვებად"
 
-#: main.cpp:1018
+#: main.cpp:1024
 msgid "{} to load additional filelists metadata"
 msgstr "{} დამატებითი ფაილების სიის მეტამონაცემების ჩასატვირთად"
 
-#: main.cpp:1025
+#: main.cpp:1031
 msgid "{} to skip uninstallable packages"
 msgstr "{} ისეთი პაკეტების გამოსატოვებლად, რომლებიც არ იშლება"
 
-#: main.cpp:1031
+#: main.cpp:1037
 msgid "You can try to add to command line:"
 msgstr "შეგიძლიათ, სცადოთ, მიამატოთ ბრძანების სტრიქონს:"
 
-#: main.cpp:1112 main.cpp:1271
+#: main.cpp:1118 main.cpp:1277
 msgid ". Add \"--help\" for more information about the arguments."
 msgstr "დაამატეთ \"--help\" არგუმენტების შესახებ მეტი ინფორმაციის მისაღებად."
 
