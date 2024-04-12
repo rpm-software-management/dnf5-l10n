@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-04-11 02:52+0000\n"
-"PO-Revision-Date: 2024-03-21 05:35+0000\n"
+"PO-Revision-Date: 2024-04-12 07:36+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/ka/>\n"
@@ -161,32 +161,32 @@ msgid "Unable to resolve argument '{}':{}"
 msgstr "ვერ ამოვხსენი არგუმენტი '{}':{}"
 
 #: base/log_event.cpp:255
-#, fuzzy
-#| msgid "some dependency problem"
 msgid "Modular dependency problems:\n"
-msgstr "დამოკიდებულების რამდენიმე პრობლემა"
+msgstr "მოდულური დამოკიდებულების პრობლემები:\n"
 
 #: base/log_event.cpp:262
 msgid "Modular dependency problems with the latest modules:\n"
-msgstr ""
+msgstr "მოდულური დამოკიდებულების პრობლემები უახლეს მოდულებთან:\n"
 
 #: base/log_event.cpp:269
 msgid "Modular dependency problems with the defaults:\n"
-msgstr ""
+msgstr "მოდულური დამოკიდებულების პრობლემები ნაგულისხმევებთან:\n"
 
 #: base/log_event.cpp:284
-#, fuzzy
-#| msgid "The operation would result in removing of running kernel: {}"
 msgid ""
 "The operation would result in switching of module '{0}' stream '{1}' to "
 "stream '{2}'\n"
-msgstr "ოპერაცია შეიძლება გაშვებული ბირთვს წაშლით დასრულდეს: {}"
+msgstr ""
+"ოპერაციამ, შეიძლება, მოდულის '{0}' ნაკადიდან '{1}' ნაკადზე '{2}' გადართვა "
+"გამოიწვიოს\n"
 
 #: base/log_event.cpp:289
 msgid ""
 "Error: It is not possible to switch enabled streams of a module unless "
 "explicitly enabled via configuration option module_stream_switch."
 msgstr ""
+"შეცდომა: მოდულის ჩართული ნაკადების გადართვა შეუძლებელია, თუ ამას "
+"კონფიგურაციაში აშკარად არ ჩართავთ module_stream_switch პარამეტრით."
 
 #: base/solver_problems.cpp:41
 msgid "{} does not belong to a distupgrade repository"
@@ -295,105 +295,74 @@ msgid "The operation would result in removing of running kernel: {}"
 msgstr "ოპერაცია შეიძლება გაშვებული ბირთვს წაშლით დასრულდეს: {}"
 
 #: base/solver_problems.cpp:71
-#, fuzzy
-#| msgid "{} does not belong to a distupgrade repository"
 msgid "module {} does not belong to a distupgrade repository"
-msgstr "{}-ი distupgrade ტიპის რეპოზიტორიას არ მიეკუთვნება"
+msgstr "მოდული {} distupgrade ტიპის რეპოზიტორიას არ მიეკუთვნება"
 
 #: base/solver_problems.cpp:72
-#, fuzzy
-#| msgid "{} has inferior architecture"
 msgid "module {} has inferior architecture"
-msgstr "{}-ს უარესი არქიტექტურა გააჩნია"
+msgstr "მოდულს {} უარესი არქიტექტურა გააჩნია"
 
 #: base/solver_problems.cpp:73
-#, fuzzy
-#| msgid "problem with installed package "
 msgid "problem with installed module {}"
-msgstr "პრობლემა დაყენებულ პაკეტთან "
+msgstr "პრობლემა დაყენებულ მოდულთან {}"
 
 #: base/solver_problems.cpp:77
-#, fuzzy
-#| msgid "package {} does not exist"
 msgid "module {} does not exist"
-msgstr "პაკეტი {} არ არსებობს"
+msgstr "მოდული {} არ არსებობს"
 
 #: base/solver_problems.cpp:80
-#, fuzzy
-#| msgid "cannot install the best update candidate for package {}"
 msgid "cannot install the best update candidate for module {}"
-msgstr "პაკეტისთვის {} განახლების საუკეთესო კანდიდატის დაყენების შეცდომა"
+msgstr "მოდულისთვის {} განახლების საუკეთესო კანდიდატის დაყენება შეუძლებელია"
 
 #: base/solver_problems.cpp:82 base/solver_problems.cpp:85
 msgid "module {} is disabled"
-msgstr ""
+msgstr "მოდული {} გათიშულია"
 
 #: base/solver_problems.cpp:83
-#, fuzzy
-#| msgid "package {} does not have a compatible architecture"
 msgid "module {} does not have a compatible architecture"
-msgstr "პაკეტს {} თავსებადი არქიტექტურა არ გააჩნია"
+msgstr "მოდულს {} თავსებადი არქიტექტურა არ გააჩნია"
 
 #: base/solver_problems.cpp:84
-#, fuzzy
-#| msgid "package {} is not installable"
 msgid "module {} is not installable"
-msgstr "პაკეტი {} დაყენებადი არაა"
+msgstr "მოდული {} დაყენებადი არაა"
 
 #: base/solver_problems.cpp:86
-#, fuzzy
-#| msgid "nothing provides {0} needed by {1}"
 msgid "nothing provides {0} needed by module {1}"
-msgstr "არცერთი პაკეტი წარმოადგენს {0}-ს, რომელიც {1}-ს სჭირდება"
+msgstr "არცერთი მოდული წარმოადგენს {0}-ს, რომელიც {1}-ს სჭირდება"
 
 #: base/solver_problems.cpp:87
-#, fuzzy
-#| msgid "cannot install both {0} and {1}"
 msgid "cannot install both modules {0} and {1}"
-msgstr "{0}-ის და {1}-ის ერთდრულად დაყენება შეუძლებელია"
+msgstr "ორივე მოდულის, {0}-ის და {1}-ის ერთდროულად დაყენება შეუძლებელია"
 
 #: base/solver_problems.cpp:88
-#, fuzzy
-#| msgid "package {0} conflicts with {1} provided by {2}"
 msgid "module {0} conflicts with {1} provided by {2}"
-msgstr "პაკეტი {0} კონფლიქტშია {1}-სთან, რომელსაც {2} წარმოადგენს"
+msgstr "მოდული {0} კონფლიქტშია {1}-სთან, რომელსაც {2} წარმოადგენს"
 
 #: base/solver_problems.cpp:89
-#, fuzzy
-#| msgid "package {0} obsoletes {1} provided by {2}"
 msgid "module {0} obsoletes {1} provided by {2}"
-msgstr "პაკეტი {0} მოძველებულად მონიშნავს {1}-ს, რომელსაც {2} წარმოადგენს"
+msgstr "მოდული {0} მოძველებულად მონიშნავს {1}-ს, რომელსაც {2} წარმოადგენს"
 
 #: base/solver_problems.cpp:90
-#, fuzzy
-#| msgid "installed package {0} obsoletes {1} provided by {2}"
 msgid "installed module {0} obsoletes {1} provided by {2}"
 msgstr ""
-"დაყენებული პაკეტი {0} მოძველებულად მონიშნვს {1}-ს, რომელსაც {2} წარმოადგენს"
+"დაყენებული მოდული {0} მოძველებულად მონიშნავს {1}-ს, რომელსაც {2} წარმოადგენს"
 
 #: base/solver_problems.cpp:91
-#, fuzzy
-#| msgid "package {0} implicitly obsoletes {1} provided by {2}"
 msgid "module {0} implicitly obsoletes {1} provided by {2}"
-msgstr "პაკეტი {0} მოძველებულად მონიშნავს {1}-ს, რომელსაც {2} წარმოადგენს"
+msgstr ""
+"მოდული {0} აშკარად მოძველებულად მონიშნავს {1}-ს, რომელსაც {2} წარმოადგენს"
 
 #: base/solver_problems.cpp:92
-#, fuzzy
-#| msgid "package {1} requires {0}, but none of the providers can be installed"
 msgid "module {1} requires {0}, but none of the providers can be installed"
-msgstr "პაკეტი {1} მოითხოვს {0}-ს, მაგრამ მომწოდებლების დაყენება შეუძლებელია"
+msgstr "მოდული {1} მოითხოვს {0}-ს, მაგრამ მომწოდებლების დაყენება შეუძლებელია"
 
 #: base/solver_problems.cpp:93
-#, fuzzy
-#| msgid "package {1} conflicts with {0} provided by itself"
 msgid "module {1} conflicts with {0} provided by itself"
-msgstr "პაკეტი {1} კონფლიქტშია {0}-სთან, რომელსაც თვითონვე წარმოადგენს"
+msgstr "მოდული {1} კონფლიქტშია {0}-სთან, რომელსაც თვითონვე წარმოადგენს"
 
 #: base/solver_problems.cpp:94
-#, fuzzy
-#| msgid "both package {0} and {2} obsolete {1}"
 msgid "both module {0} and {2} obsolete {1}"
-msgstr "ორივე პაკეტი, {0} და {2}, {1}-ის მიერ მოძველებულადაა მონიშნული"
+msgstr "ორივე მოდული, {0} და {2}, {1}-ის მიერ მოძველებულადაა მონიშნული"
 
 #: base/solver_problems.cpp:326
 msgid "Problem: "
