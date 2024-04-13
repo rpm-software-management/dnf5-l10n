@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-04-13 02:52+0000\n"
-"PO-Revision-Date: 2024-04-13 02:41+0000\n"
+"PO-Revision-Date: 2024-04-14 02:35+0000\n"
 "Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/sv/>\n"
@@ -357,16 +357,12 @@ msgid "module {1} requires {0}, but none of the providers can be installed"
 msgstr "modulen {1} kräver {0}, men ingen av leverantörerna kan installeras"
 
 #: base/solver_problems.cpp:93
-#, fuzzy
-#| msgid "package {1} conflicts with {0} provided by itself"
 msgid "module {1} conflicts with {0} provided by itself"
-msgstr "paket {1} är i konflikt med {0} som tillhandahålls av sig självt"
+msgstr "modulen {1} står i konflikt med {0} som tillhandahålls av sig själv"
 
 #: base/solver_problems.cpp:94
-#, fuzzy
-#| msgid "both package {0} and {2} obsolete {1}"
 msgid "both module {0} and {2} obsolete {1}"
-msgstr "både paket {0} och {2} föråldrar {1}"
+msgstr "både modulen {0} och {2} fasar ut {1}"
 
 #: base/solver_problems.cpp:326
 msgid "Problem: "
