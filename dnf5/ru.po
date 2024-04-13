@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-04-13 02:52+0000\n"
-"PO-Revision-Date: 2024-04-10 02:41+0000\n"
+"PO-Revision-Date: 2024-04-14 02:35+0000\n"
 "Last-Translator: Aleksey Fedorov <aleksejfedorov963@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ru/>\n"
@@ -53,13 +53,12 @@ msgstr ""
 "Показывать рекомендации, содержащие любую версию установленных пакетов."
 
 #: commands/advisory/arguments.hpp:45
-#, fuzzy
-#| msgid "Show advisories containing newer versions of installed packages."
 msgid ""
 "Show advisories containing newer versions of installed packages. This is the "
 "default behavior."
 msgstr ""
-"Показывать рекомендации, содержащие новые версии установленных пакетов."
+"Показывать рекомендации, содержащие новые версии установленных пакетов. Это "
+"поведение по умолчанию."
 
 #: commands/advisory/arguments.hpp:57
 msgid ""
@@ -82,7 +81,7 @@ msgid ""
 "supports globs."
 msgstr ""
 "Показывать только рекомендации, содержащие пакеты с указанными именами. "
-"Опция списка, поддерживает глобусы."
+"Опция списка, поддерживает шаблоны поиска."
 
 #: commands/advisory/arguments.hpp:83
 msgid "PACKAGE_NAME,..."
@@ -222,7 +221,7 @@ msgid ""
 "supports globs."
 msgstr ""
 "Показывать только группы, содержащие пакеты с указанными именами. Опция "
-"списка, поддерживает глобусы."
+"списка, поддерживает шаблоны поиска."
 
 #: commands/group/arguments.hpp:67
 msgid "Pattern matching group IDS."
@@ -664,27 +663,27 @@ msgstr "Невозможно получить адрес символа \"{}\": 
 
 #: main.cpp:122
 msgid "Utility for packages maintaining"
-msgstr ""
+msgstr "Утилита для обслуживания пакетов"
 
 #: main.cpp:123
 msgid "DNF5 is a program for maintaining packages."
-msgstr ""
+msgstr "DNF5 - это программа для обслуживания пакетов."
 
 #: main.cpp:124
 msgid "Unclassified options:"
-msgstr ""
+msgstr "Неклассифицированные опции:"
 
 #: main.cpp:127
 msgid "Global options:"
-msgstr ""
+msgstr "Глобальные опции:"
 
 #: main.cpp:132
 msgid "Print help"
-msgstr ""
+msgstr "Вывести справку"
 
 #: main.cpp:139
 msgid "Configuration file location"
-msgstr ""
+msgstr "Расположение файла конфигурации"
 
 #: main.cpp:147
 msgid ""
@@ -692,16 +691,21 @@ msgid ""
 "content. Suppresses messages notifying about the current state or actions of "
 "dnf5."
 msgstr ""
+"В сочетании с неинтерактивной командой, показывает только соответствующее "
+"содержимое. Подавляет сообщения, уведомляющие о текущем состоянии или "
+"действиях dnf5."
 
 #: main.cpp:162
 msgid ""
 "Run entirely from system cache, don't update the cache and use it even in "
 "case it is expired."
 msgstr ""
+"Работать полностью из системного кэша, не обновлять кэш и использовать его "
+"даже в том случае, если срок его действия истек."
 
 #: main.cpp:169
 msgid "Force refreshing metadata before running the command."
-msgstr ""
+msgstr "Принудительно обновлять метаданные перед выполнением команды."
 
 #: main.cpp:185
 msgid "Failed to expire repository cache in path \"{0}\": {1}"
@@ -709,7 +713,7 @@ msgstr "Не удалось завершить кэш репозитория п�
 
 #: main.cpp:202
 msgid "create additional repository using id and path"
-msgstr ""
+msgstr "создать дополнительный репозиторий, используя идентификатор и путь"
 
 #: main.cpp:210
 msgid "repofrompath: Incorrect repoid and path specification \"{}\""
@@ -718,7 +722,7 @@ msgstr ""
 
 #: main.cpp:222
 msgid "set arbitrary config and repo options"
-msgstr ""
+msgstr "установка произвольных параметров конфигурации и репозитория"
 
 #: main.cpp:224
 msgid ""
@@ -730,6 +734,13 @@ msgid ""
 "              they do not override it. However, specifying an empty value (e."
 "g. --setopt=tsflags=) will clear the option."
 msgstr ""
+"Отменяет опцию конфигурации из файла конфигурации. Чтобы переопределить "
+"параметры конфигурации для репозиториев, используйте repoid.option для\n"
+"              <option>.  Значения таких параметров конфигурации, как "
+"excludepkgs, includepkgs, installonlypkgs и tsflags, добавляются к исходному "
+"значению,\n"
+"              но не отменяют его. Однако указание пустого значения ("
+"например, --setopt=tsflags=) очистит опцию."
 
 #: main.cpp:233 main.cpp:272
 msgid "{}: Badly formatted argument value \"{}\""
@@ -752,130 +763,146 @@ msgstr "setvar: {}"
 
 #: main.cpp:288
 msgid "automatically answer yes for all questions"
-msgstr ""
+msgstr "автоматически отвечать \"да\" на все вопросы"
 
 #: main.cpp:295
 msgid "automatically answer no for all questions"
-msgstr ""
+msgstr "автоматически отвечать \"нет\" на все вопросы"
 
 #: main.cpp:309
-#, fuzzy
-#| msgid "{} to not limit the transaction to the best candidates"
 msgid "do not limit the transaction to the best candidate"
-msgstr "{}, чтобы не ограничивать транзакцию лучшими кандидатами"
+msgstr "не ограничивать транзакцию лучшим кандидатом"
 
 #: main.cpp:320
 msgid ""
 "Don't install files that are marked as documentation (which includes man "
 "pages and texinfo documents)"
 msgstr ""
+"Не устанавливать файлы, помеченные как документация (к ним относятся man-"
+"страницы и документы texinfo)"
 
 #: main.cpp:336
 msgid "exclude packages by name or glob"
-msgstr ""
+msgstr "исключить пакеты по имени или шаблонам поиска"
 
 #: main.cpp:355
 msgid ""
 "Enable additional repositories. List option. Supports globs, can be "
 "specified multiple times."
 msgstr ""
+"Включить дополнительные репозитории. Опция списка. Поддерживает шаблоны "
+"поиска, может быть указана несколько раз."
 
 #: main.cpp:373
 msgid ""
 "Disable repositories. List option. Supports globs, can be specified multiple "
 "times."
 msgstr ""
+"Отключить репозитории. Опция списка. Поддерживает шаблоны поиска, может быть "
+"указана несколько раз."
 
 #: main.cpp:391
 msgid ""
 "Enable just specific repositories. List option. Supports globs, can be "
 "specified multiple times."
 msgstr ""
+"Включить только определенные репозитории. Опция списка. Поддерживает шаблоны "
+"поиска, может быть указана несколько раз."
 
 #: main.cpp:413
 msgid "disable gpg signature checking (if RPM policy allows)"
-msgstr ""
+msgstr "отключить проверку подписи gpg (если позволяет политика RPM)"
 
 #: main.cpp:439
 msgid ""
 "Enable plugins by name. List option. Supports globs, can be specified "
 "multiple times."
 msgstr ""
+"Включить плагины по имени. Опция списка. Поддерживает шаблоны поиска, может "
+"быть указана несколько раз."
 
 #: main.cpp:456
 msgid ""
 "Disable plugins by name. List option. Supports globs, can be specified "
 "multiple times."
 msgstr ""
+"Отключение плагинов по имени. Опция списка. Поддерживает шаблоны поиска, "
+"может быть указана несколько раз."
 
 #: main.cpp:475
-#, fuzzy
-#| msgid "Manage offline transactions"
 msgid "add a comment to transaction"
-msgstr "Управление автономными транзакциями"
+msgstr "добавить комментарий к транзакции"
 
 #: main.cpp:477
 msgid ""
 "Adds a comment to the action. If a transaction takes place, the comment is "
 "stored in it."
 msgstr ""
+"Добавляет комментарий к действию. Если происходит транзакция, комментарий "
+"сохраняется в ней."
 
 #: main.cpp:490
 msgid "set install root"
-msgstr ""
+msgstr "установить корень установки"
 
 #: main.cpp:497
 msgid ""
 "use configuration, reposdir, and vars from the host system rather than the "
 "installroot"
 msgstr ""
+"использовать конфигурацию, reposdir и vars из хост-системы, а не из корня "
+"установки"
 
 #: main.cpp:506
 msgid "override the value of $releasever in config and repo files"
-msgstr ""
+msgstr "переопределение значения $releasever в конфигурационных и репо-файлах"
 
 #: main.cpp:519
 msgid ""
 "Show newly installed leaf packages and packages that became leaves after a "
 "transaction."
 msgstr ""
+"Показать только что установленные листовые пакеты и пакеты, которые стали "
+"таковыми после транзакции."
 
 #: main.cpp:533
 msgid "Dump detailed solving results into files"
-msgstr ""
+msgstr "Выдавать подробные результаты решения в файлы"
 
 #: main.cpp:542
 msgid "Print main configuration values to stdout"
-msgstr ""
+msgstr "Вывести основные значения конфигурации в stdout"
 
 #: main.cpp:559
 msgid ""
 "Print repository configuration values to stdout. List option. Supports globs"
 msgstr ""
+"Вывод значений конфигурации репозитория в stdout. Опция списка. Поддерживает "
+"шаблоны поиска"
 
 #: main.cpp:574
 msgid "Print variable values to stdout"
-msgstr ""
+msgstr "Выведите значения переменных в stdout"
 
 #: main.cpp:588
 msgid "Show DNF5 version and exit"
-msgstr ""
+msgstr "Показать версию DNF5 и выйти"
 
 #: main.cpp:595
 msgid "Force the use of a different architecture."
-msgstr ""
+msgstr "Принуждение к использованию другой архитектуры."
 
 #: main.cpp:633
 msgid "Software Management Commands:"
-msgstr ""
+msgstr "Команды управления ПО:"
 
 #: main.cpp:640
 msgid "Query Commands:"
-msgstr ""
+msgstr "Команды запросов:"
 
 #: main.cpp:647
 msgid "Subcommands:"
-msgstr ""
+msgstr "Подкоманды:"
 
 #: main.cpp:832
 msgid "======== Main configuration: ========"
