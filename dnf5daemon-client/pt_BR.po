@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-11 02:52+0000\n"
+"POT-Creation-Date: 2024-04-13 02:52+0000\n"
 "PO-Revision-Date: 2024-01-18 02:47+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
@@ -31,7 +31,11 @@ msgid "Show advisories containing any version of installed packages."
 msgstr "Mostra os avisos que contenham qualquer versão dos pacotes instalados."
 
 #: commands/advisory/arguments.hpp:43
-msgid "Show advisories containing newer versions of installed packages."
+#, fuzzy
+#| msgid "Show advisories containing newer versions of installed packages."
+msgid ""
+"Show advisories containing newer versions of installed packages. This is the "
+"default behavior."
 msgstr ""
 "Mostra os avisos que contenham versões mais recentes dos pacotes instalados."
 
@@ -112,7 +116,7 @@ msgstr ""
 msgid "ADVISORY_SEVERITY,..."
 msgstr "GRAVIDADE_AVISO,..."
 
-#: commands/advisory/arguments.hpp:181
+#: commands/advisory/arguments.hpp:169
 msgid ""
 "Limit to packages in advisories that fix a Bugzilla ID, Eg. 123123. List "
 "option."
@@ -120,11 +124,11 @@ msgstr ""
 "Limite para pacotes em avisos que corrigem um Bugzilla ID, ex. 123123. Opção "
 "de lista."
 
-#: commands/advisory/arguments.hpp:182
+#: commands/advisory/arguments.hpp:170
 msgid "BUGZILLA_ID,..."
 msgstr "BUGZILLA_ID,..."
 
-#: commands/advisory/arguments.hpp:192
+#: commands/advisory/arguments.hpp:180
 msgid ""
 "Limit to packages in advisories that fix a CVE (Common Vulnerabilities and "
 "Exposures) ID, Eg. CVE-2201-0123. List option."
@@ -132,7 +136,7 @@ msgstr ""
 "Limite para pacotes em avisos que corrigem um ID de CVE (Common "
 "Vulnerabilities and Exposures), ex. CVE-2201-0123. Opção de lista."
 
-#: commands/advisory/arguments.hpp:194
+#: commands/advisory/arguments.hpp:182
 msgid "CVE_ID,..."
 msgstr "ID_CVE,..."
 
