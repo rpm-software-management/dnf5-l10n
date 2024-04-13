@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-11 02:52+0000\n"
+"POT-Creation-Date: 2024-04-13 02:52+0000\n"
 "PO-Revision-Date: 2024-03-30 04:36+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -52,7 +52,11 @@ msgstr ""
 "დაყენებული პაკეტების ნებისმიერი ვერსიის შემცველი რეკომენდაციების ჩვენება."
 
 #: commands/advisory/arguments.hpp:45
-msgid "Show advisories containing newer versions of installed packages."
+#, fuzzy
+#| msgid "Show advisories containing newer versions of installed packages."
+msgid ""
+"Show advisories containing newer versions of installed packages. This is the "
+"default behavior."
 msgstr ""
 "დაყენებული პაკეტების უფრო ახალი ვერსიის შემცველი რეკომენდაციების ჩვენება."
 
@@ -135,7 +139,7 @@ msgstr ""
 msgid "ADVISORY_SEVERITY,..."
 msgstr "რეკომენდაციის_სიმძიმე,..."
 
-#: commands/advisory_shared.hpp:179
+#: commands/advisory_shared.hpp:167
 msgid ""
 "Limit to packages in advisories that fix a Bugzilla ID, Eg. 123123. List "
 "option."
@@ -143,11 +147,11 @@ msgstr ""
 "მხოლოდ იმ პაკეტების გაზიარება, რასაც შეიცავენ რეკომენდაციები, რომლებიც "
 "მითითებულ Bugzilla ID-ს ასწორებენ. მაგ: 123123. სიის პარამეტრი."
 
-#: commands/advisory_shared.hpp:180
+#: commands/advisory_shared.hpp:168
 msgid "BUGZILLA_ID,..."
 msgstr "BUGZILLA_ID,..."
 
-#: commands/advisory_shared.hpp:190
+#: commands/advisory_shared.hpp:178
 msgid ""
 "Limit to packages in advisories that fix a CVE (Common Vulnerabilities and "
 "Exposures) ID, Eg. CVE-2201-0123. List option."
@@ -156,7 +160,7 @@ msgstr ""
 "მითითებულ CVE ID-ს (Common Vulnerabilities and Exposures) ასწორებენ. მაგ: "
 "CVE-2201-0123. სიის პარამეტრი."
 
-#: commands/advisory_shared.hpp:192
+#: commands/advisory_shared.hpp:180
 msgid "CVE_ID,..."
 msgstr "CVE_ID,..."
 
@@ -180,7 +184,7 @@ msgstr "რეპოზიტორიის კეშის გასუფთ�
 msgid "Invalid urlprotocol option: {}"
 msgstr "არასწორი urlprotocol-ის პარამეტრი: {}"
 
-#: commands/download/download.cpp:139 main.cpp:613
+#: commands/download/download.cpp:139 main.cpp:614
 msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
 msgstr "მხარდაუჭერელი არქიტექტურა \"{0}\". აირჩიეთ ერთ-ერთი სიიდან {1}"
 
@@ -658,70 +662,257 @@ msgstr "გაზიარებული ბიბლიოთეკის ფ�
 msgid "Cannot obtain address of symbol \"{}\": {}"
 msgstr "სიმბოლოსთვს (\"{}\") მისამართის პოვნის შეცდომა: {}"
 
-#: main.cpp:184
+#: main.cpp:122
+msgid "Utility for packages maintaining"
+msgstr ""
+
+#: main.cpp:123
+msgid "DNF5 is a program for maintaining packages."
+msgstr ""
+
+#: main.cpp:124
+msgid "Unclassified options:"
+msgstr ""
+
+#: main.cpp:127
+msgid "Global options:"
+msgstr ""
+
+#: main.cpp:132
+msgid "Print help"
+msgstr ""
+
+#: main.cpp:139
+msgid "Configuration file location"
+msgstr ""
+
+#: main.cpp:147
+msgid ""
+"In combination with a non-interactive command, shows just the relevant "
+"content. Suppresses messages notifying about the current state or actions of "
+"dnf5."
+msgstr ""
+
+#: main.cpp:162
+msgid ""
+"Run entirely from system cache, don't update the cache and use it even in "
+"case it is expired."
+msgstr ""
+
+#: main.cpp:169
+msgid "Force refreshing metadata before running the command."
+msgstr ""
+
+#: main.cpp:185
 msgid "Failed to expire repository cache in path \"{0}\": {1}"
 msgstr "რეპოზიტორიის კეშის მოძველებულად მონიშვნა ჩავარდა ბილიკზე \"{0}\": {1}"
 
-#: main.cpp:209
+#: main.cpp:202
+msgid "create additional repository using id and path"
+msgstr ""
+
+#: main.cpp:210
 msgid "repofrompath: Incorrect repoid and path specification \"{}\""
 msgstr "repofrompath: არასწორი repoid და ბილიკის სპეციფიკაცია \"{}\""
 
-#: main.cpp:232 main.cpp:271
+#: main.cpp:222
+msgid "set arbitrary config and repo options"
+msgstr ""
+
+#: main.cpp:224
+msgid ""
+"Override a configuration option from the configuration file. To override "
+"configuration options for repositories, use repoid.option for  the\n"
+"              <option>.  Values  for configuration options like excludepkgs, "
+"includepkgs, installonlypkgs and tsflags are appended to the original "
+"value,\n"
+"              they do not override it. However, specifying an empty value (e."
+"g. --setopt=tsflags=) will clear the option."
+msgstr ""
+
+#: main.cpp:233 main.cpp:272
 msgid "{}: Badly formatted argument value \"{}\""
 msgstr "{}: ცუდად დაფორმატებული არგუმენტის მნიშვნელობა \"{}\""
 
-#: main.cpp:239
+#: main.cpp:240
 msgid ""
 "{}: Badly formatted argument value: Last key character cannot be '.': {}"
 msgstr ""
 "{}: ცუდად დაფორმატებული არგუმენტის მნიშვნელობა: ბოლო საკვანძო სიმბოლო ვერ "
 "იქნება '.': {}"
 
-#: main.cpp:252
+#: main.cpp:253
 msgid "setopt: \"{0}\": {1}"
 msgstr "setopt: \"{0}\": {1}"
 
-#: main.cpp:278
+#: main.cpp:279
 msgid "setvar: {}"
 msgstr "setvar: {}"
 
-#: main.cpp:831
+#: main.cpp:288
+msgid "automatically answer yes for all questions"
+msgstr ""
+
+#: main.cpp:295
+msgid "automatically answer no for all questions"
+msgstr ""
+
+#: main.cpp:309
+#, fuzzy
+#| msgid "{} to not limit the transaction to the best candidates"
+msgid "do not limit the transaction to the best candidate"
+msgstr "{} ტრანზაქციის საუკეთესო კანდიდატებზე შეზღუდვის მოსახსნელად"
+
+#: main.cpp:320
+msgid ""
+"Don't install files that are marked as documentation (which includes man "
+"pages and texinfo documents)"
+msgstr ""
+
+#: main.cpp:336
+msgid "exclude packages by name or glob"
+msgstr ""
+
+#: main.cpp:355
+msgid ""
+"Enable additional repositories. List option. Supports globs, can be "
+"specified multiple times."
+msgstr ""
+
+#: main.cpp:373
+msgid ""
+"Disable repositories. List option. Supports globs, can be specified multiple "
+"times."
+msgstr ""
+
+#: main.cpp:391
+msgid ""
+"Enable just specific repositories. List option. Supports globs, can be "
+"specified multiple times."
+msgstr ""
+
+#: main.cpp:413
+msgid "disable gpg signature checking (if RPM policy allows)"
+msgstr ""
+
+#: main.cpp:439
+msgid ""
+"Enable plugins by name. List option. Supports globs, can be specified "
+"multiple times."
+msgstr ""
+
+#: main.cpp:456
+msgid ""
+"Disable plugins by name. List option. Supports globs, can be specified "
+"multiple times."
+msgstr ""
+
+#: main.cpp:475
+#, fuzzy
+#| msgid "Manage offline transactions"
+msgid "add a comment to transaction"
+msgstr "ქსელის გარეშე ტრანზაქციების მართვა"
+
+#: main.cpp:477
+msgid ""
+"Adds a comment to the action. If a transaction takes place, the comment is "
+"stored in it."
+msgstr ""
+
+#: main.cpp:490
+msgid "set install root"
+msgstr ""
+
+#: main.cpp:497
+msgid ""
+"use configuration, reposdir, and vars from the host system rather than the "
+"installroot"
+msgstr ""
+
+#: main.cpp:506
+msgid "override the value of $releasever in config and repo files"
+msgstr ""
+
+#: main.cpp:519
+msgid ""
+"Show newly installed leaf packages and packages that became leaves after a "
+"transaction."
+msgstr ""
+
+#: main.cpp:533
+msgid "Dump detailed solving results into files"
+msgstr ""
+
+#: main.cpp:542
+msgid "Print main configuration values to stdout"
+msgstr ""
+
+#: main.cpp:559
+msgid ""
+"Print repository configuration values to stdout. List option. Supports globs"
+msgstr ""
+
+#: main.cpp:574
+msgid "Print variable values to stdout"
+msgstr ""
+
+#: main.cpp:588
+msgid "Show DNF5 version and exit"
+msgstr ""
+
+#: main.cpp:595
+msgid "Force the use of a different architecture."
+msgstr ""
+
+#: main.cpp:633
+msgid "Software Management Commands:"
+msgstr ""
+
+#: main.cpp:640
+msgid "Query Commands:"
+msgstr ""
+
+#: main.cpp:647
+msgid "Subcommands:"
+msgstr ""
+
+#: main.cpp:832
 msgid "======== Main configuration: ========"
 msgstr "======== მთავარი კონფიგურაცია: ========"
 
-#: main.cpp:872
+#: main.cpp:873
 msgid "======== \"{}\" repository configuration: ========"
 msgstr "======== \"{}\" რეპოზიტორიის კონფიგურაცია: ========"
 
-#: main.cpp:893
+#: main.cpp:894
 msgid "======== Variables: ========"
 msgstr "======== ცვლადები: ========"
 
-#: main.cpp:968
+#: main.cpp:977
 msgid "{} to skip unavailable packages"
 msgstr "{} ხელმიუწვდომელი პაკეტების გამოსატოვებლად"
 
-#: main.cpp:1009
+#: main.cpp:1018
 msgid "{} to not limit the transaction to the best candidates"
 msgstr "{} ტრანზაქციის საუკეთესო კანდიდატებზე შეზღუდვის მოსახსნელად"
 
-#: main.cpp:1016
+#: main.cpp:1025
 msgid "{} to allow erasing of installed packages to resolve problems"
 msgstr "{} პრობლემების გადასაჭრელად დაყენებული პაკეტების წაშლის დასაშვებად"
 
-#: main.cpp:1024
+#: main.cpp:1033
 msgid "{} to load additional filelists metadata"
 msgstr "{} დამატებითი ფაილების სიის მეტამონაცემების ჩასატვირთად"
 
-#: main.cpp:1031
+#: main.cpp:1040
 msgid "{} to skip uninstallable packages"
 msgstr "{} ისეთი პაკეტების გამოსატოვებლად, რომლებიც არ იშლება"
 
-#: main.cpp:1037
+#: main.cpp:1046
 msgid "You can try to add to command line:"
 msgstr "შეგიძლიათ, სცადოთ, მიამატოთ ბრძანების სტრიქონს:"
 
-#: main.cpp:1118 main.cpp:1277
+#: main.cpp:1129 main.cpp:1288
 msgid ". Add \"--help\" for more information about the arguments."
 msgstr "დაამატეთ \"--help\" არგუმენტების შესახებ მეტი ინფორმაციის მისაღებად."
 
