@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-11 02:52+0000\n"
+"POT-Creation-Date: 2024-04-13 02:52+0000\n"
 "PO-Revision-Date: 2024-02-06 09:36+0000\n"
 "Last-Translator: Petr Ptacek <petr106@atlas.cz>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf5/"
@@ -556,7 +556,7 @@ msgstr "Volba \"{}\" nebyla nalezena"
 msgid "Option \"{}\" already exists"
 msgstr "Volba \"{}\" již existuje"
 
-#: conf/option_bool.cpp:83
+#: conf/option_bool.cpp:82
 msgid "Invalid boolean value \"{}\""
 msgstr "Neplatná logická hodnota \"{}\""
 
@@ -572,12 +572,12 @@ msgstr "Vstupní hodnota {} je mimo povolený rozsah {} ... {}"
 msgid "Invalid number option value \"{}\""
 msgstr "Neplatný počet hodnot volby \"{}\""
 
-#: conf/option_path.cpp:94
+#: conf/option_path.cpp:93
 msgid "Only absolute paths allowed, relative path \"{}\" detected"
 msgstr ""
 "Jsou povoleny pouze absolutní cesty, byla zjištěna relativní cesta \"{}\""
 
-#: conf/option_path.cpp:99
+#: conf/option_path.cpp:98
 msgid "Path \"{}\" does not exist"
 msgstr "Cesta \"{}\" neexistuje"
 
@@ -605,7 +605,7 @@ msgstr "Neznámý formát času \"{}\""
 msgid "Unknown time unit '{}'"
 msgstr "Neznámá jednotka času '{}'"
 
-#: conf/option_string.cpp:88
+#: conf/option_string.cpp:89
 msgid ""
 "Input value \"{}\" not allowed, allowed values for this option are defined "
 "by regular expression \"{}\""
@@ -615,7 +615,7 @@ msgstr ""
 
 #. TODO(jrohel): We don't know the option name at this time. Add a text name to the options
 #. or extend exception (add name) in upper layer.
-#: conf/option_string.cpp:113
+#: conf/option_string.cpp:114
 msgid "Option value is not set"
 msgstr "Hodnota volby není nastavena"
 
@@ -1008,7 +1008,7 @@ msgstr "Nelze odstranit balíček \"{}\""
 msgid "Cannot {} package \"{}\""
 msgstr "Nelze {} balíček \"{}\""
 
-#: rpm/versionlock_config.cpp:261 system/state.cpp:508
+#: rpm/versionlock_config.cpp:261 system/state.cpp:513
 msgid "{}"
 msgstr "{}"
 
@@ -1029,7 +1029,7 @@ msgstr "Neplatná verze TOML \"{}\", očekává se \"MAJOR.MINOR\""
 msgid "{} state for \"{}\" not found."
 msgstr "Stav {} pro \"{}\" nebyl nalezen."
 
-#: system/state.cpp:535
+#: system/state.cpp:540
 msgid "Unsupported TOML version \"{}\", maximum supported version is \"{}\""
 msgstr "Nepodporovaná verze TOML \"{}\", maximální podporovaná verze je \"{}\""
 

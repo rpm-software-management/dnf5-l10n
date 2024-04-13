@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-11 02:52+0000\n"
+"POT-Creation-Date: 2024-04-13 02:52+0000\n"
 "PO-Revision-Date: 2024-03-17 02:36+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
@@ -558,7 +558,7 @@ msgstr "Opção \"{}\" não encontrada"
 msgid "Option \"{}\" already exists"
 msgstr "A opção \"{}\" já existe"
 
-#: conf/option_bool.cpp:83
+#: conf/option_bool.cpp:82
 msgid "Invalid boolean value \"{}\""
 msgstr "Valor booleano \"{}\" inválido"
 
@@ -574,12 +574,12 @@ msgstr "O valor de entrada {} está fora do intervalo permitido {} ... {}"
 msgid "Invalid number option value \"{}\""
 msgstr "Valor de opção de número inválido \"{}\""
 
-#: conf/option_path.cpp:94
+#: conf/option_path.cpp:93
 msgid "Only absolute paths allowed, relative path \"{}\" detected"
 msgstr ""
 "Somente caminhos absolutos permitidos, caminho relativo \"{}\" detectado"
 
-#: conf/option_path.cpp:99
+#: conf/option_path.cpp:98
 msgid "Path \"{}\" does not exist"
 msgstr "O caminho \"{}\" não existe"
 
@@ -606,7 +606,7 @@ msgstr "Formato de hora desconhecido \"{}\""
 msgid "Unknown time unit '{}'"
 msgstr "Unidade de hora desconhecida \"{}\""
 
-#: conf/option_string.cpp:88
+#: conf/option_string.cpp:89
 msgid ""
 "Input value \"{}\" not allowed, allowed values for this option are defined "
 "by regular expression \"{}\""
@@ -616,7 +616,7 @@ msgstr ""
 
 #. TODO(jrohel): We don't know the option name at this time. Add a text name to the options
 #. or extend exception (add name) in upper layer.
-#: conf/option_string.cpp:113
+#: conf/option_string.cpp:114
 msgid "Option value is not set"
 msgstr "O valor da opção não está definido"
 
@@ -1010,7 +1010,7 @@ msgstr "Não é possível remover o pacote \"{}\""
 msgid "Cannot {} package \"{}\""
 msgstr "Não é possível {} o pacote \"{}\""
 
-#: rpm/versionlock_config.cpp:261 system/state.cpp:508
+#: rpm/versionlock_config.cpp:261 system/state.cpp:513
 msgid "{}"
 msgstr "{}"
 
@@ -1031,7 +1031,7 @@ msgstr "Versão TOML \"{}\" inválida, esperava-se \"MAJOR.MINOR\""
 msgid "{} state for \"{}\" not found."
 msgstr "Estado {} para \"{}\" não encontrado."
 
-#: system/state.cpp:535
+#: system/state.cpp:540
 msgid "Unsupported TOML version \"{}\", maximum supported version is \"{}\""
 msgstr "Versão TOML \"{}\" não suportada, a versão máxima suportada é \"{}\""
 

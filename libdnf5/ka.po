@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-11 02:52+0000\n"
+"POT-Creation-Date: 2024-04-13 02:52+0000\n"
 "PO-Revision-Date: 2024-04-12 07:36+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -521,7 +521,7 @@ msgstr "პარამეტრი \"{}\" ვერ ვიპოვე"
 msgid "Option \"{}\" already exists"
 msgstr "პარამეტრი \"{} უკვე არსებობს"
 
-#: conf/option_bool.cpp:83
+#: conf/option_bool.cpp:82
 msgid "Invalid boolean value \"{}\""
 msgstr "არასწორი ლოგიკური მნიშვნელობა \"{}\""
 
@@ -537,11 +537,11 @@ msgstr "შეყვანილი მნიშვნელობა {} და�
 msgid "Invalid number option value \"{}\""
 msgstr "არასწორი რიცხვითი პარამეტრის მნიშვნელობა \"{}\""
 
-#: conf/option_path.cpp:94
+#: conf/option_path.cpp:93
 msgid "Only absolute paths allowed, relative path \"{}\" detected"
 msgstr "დაშვებულია მხოლოდ აბსოლუტური ბილიკები. ბილიკი \"{}\" შედარებითია"
 
-#: conf/option_path.cpp:99
+#: conf/option_path.cpp:98
 msgid "Path \"{}\" does not exist"
 msgstr "ბილიკი \"{}\" არ არსებობს"
 
@@ -570,7 +570,7 @@ msgstr "უცნობი დროის ფორმატი \"{}\""
 msgid "Unknown time unit '{}'"
 msgstr "უცნობი დროის ერთეული '{}'"
 
-#: conf/option_string.cpp:88
+#: conf/option_string.cpp:89
 msgid ""
 "Input value \"{}\" not allowed, allowed values for this option are defined "
 "by regular expression \"{}\""
@@ -580,7 +580,7 @@ msgstr ""
 
 #. TODO(jrohel): We don't know the option name at this time. Add a text name to the options
 #. or extend exception (add name) in upper layer.
-#: conf/option_string.cpp:113
+#: conf/option_string.cpp:114
 msgid "Option value is not set"
 msgstr "პარამეტრის მნიშვნელობა დაყენებული არაა"
 
@@ -972,7 +972,7 @@ msgstr "შეცდომა პაკეტის \"{}\" წაშლისა
 msgid "Cannot {} package \"{}\""
 msgstr "{}-ის შეცდომა პაკეტისთვის \"{}\""
 
-#: rpm/versionlock_config.cpp:261 system/state.cpp:508
+#: rpm/versionlock_config.cpp:261 system/state.cpp:513
 msgid "{}"
 msgstr "{}"
 
@@ -993,7 +993,7 @@ msgstr "არასწორი TOML-ის ვერსია \"{}\", მო�
 msgid "{} state for \"{}\" not found."
 msgstr "{} მდგომარეობა \"{}\"-სთვის აღმოჩენილი არაა."
 
-#: system/state.cpp:535
+#: system/state.cpp:540
 msgid "Unsupported TOML version \"{}\", maximum supported version is \"{}\""
 msgstr ""
 "TOML-ის მხარდაუჭერელი ვერსია \"{}\". მაქსიმალური მხარდაჭერილი ვერსიაა \"{}\""

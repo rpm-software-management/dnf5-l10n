@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-11 02:52+0000\n"
+"POT-Creation-Date: 2024-04-13 02:52+0000\n"
 "PO-Revision-Date: 2024-04-13 02:41+0000\n"
 "Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -524,7 +524,7 @@ msgstr "Alternativ \"{}\" hittades inte"
 msgid "Option \"{}\" already exists"
 msgstr "Alternativ \"{}\" existerar redan"
 
-#: conf/option_bool.cpp:83
+#: conf/option_bool.cpp:82
 msgid "Invalid boolean value \"{}\""
 msgstr "Ogiltigt booleskt värde \"{}\""
 
@@ -540,11 +540,11 @@ msgstr "Indatavärdet {} ligger utanför det tillåtna intervallet {} ... {}"
 msgid "Invalid number option value \"{}\""
 msgstr "Ogiltigt nummeralternativvärde \"{}\""
 
-#: conf/option_path.cpp:94
+#: conf/option_path.cpp:93
 msgid "Only absolute paths allowed, relative path \"{}\" detected"
 msgstr "Endast absoluta sökvägar tillåtna, relativ sökväg \"{}\" upptäckt"
 
-#: conf/option_path.cpp:99
+#: conf/option_path.cpp:98
 msgid "Path \"{}\" does not exist"
 msgstr "Sökväg \"{}\" existerar inte"
 
@@ -572,7 +572,7 @@ msgstr "Okänt tidsformat \"{}\""
 msgid "Unknown time unit '{}'"
 msgstr "Okänd tidsenhet '{}'"
 
-#: conf/option_string.cpp:88
+#: conf/option_string.cpp:89
 msgid ""
 "Input value \"{}\" not allowed, allowed values for this option are defined "
 "by regular expression \"{}\""
@@ -582,7 +582,7 @@ msgstr ""
 
 #. TODO(jrohel): We don't know the option name at this time. Add a text name to the options
 #. or extend exception (add name) in upper layer.
-#: conf/option_string.cpp:113
+#: conf/option_string.cpp:114
 msgid "Option value is not set"
 msgstr "Alternativvärdet är inte inställt"
 
@@ -966,7 +966,7 @@ msgstr "Kunde inte ta bort paket \"{}\""
 msgid "Cannot {} package \"{}\""
 msgstr "Kan inte {} med paketet \"{}\""
 
-#: rpm/versionlock_config.cpp:261 system/state.cpp:508
+#: rpm/versionlock_config.cpp:261 system/state.cpp:513
 msgid "{}"
 msgstr "{}"
 
@@ -987,7 +987,7 @@ msgstr "Ogiltig TOML version \"{}\", \"HUVUD.SMÄRRE\" förväntas"
 msgid "{} state for \"{}\" not found."
 msgstr "{} tillstånd för \"{}\" hittades inte."
 
-#: system/state.cpp:535
+#: system/state.cpp:540
 msgid "Unsupported TOML version \"{}\", maximum supported version is \"{}\""
 msgstr "Ostödd TOML-version \"{}\", maximalt stödd version är \"{}\""
 

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-11 02:52+0000\n"
+"POT-Creation-Date: 2024-04-13 02:52+0000\n"
 "PO-Revision-Date: 2024-04-12 07:36+0000\n"
 "Last-Translator: Aleksey Fedorov <aleksejfedorov963@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -519,7 +519,7 @@ msgstr "Опция \"{}\" не найдена"
 msgid "Option \"{}\" already exists"
 msgstr "Опция \"{}\" уже существует"
 
-#: conf/option_bool.cpp:83
+#: conf/option_bool.cpp:82
 msgid "Invalid boolean value \"{}\""
 msgstr "Недопустимое булево значение \"{}\""
 
@@ -535,11 +535,11 @@ msgstr "Входное значение {} находится вне допус�
 msgid "Invalid number option value \"{}\""
 msgstr "Недопустимое значение параметра числа \"{}\""
 
-#: conf/option_path.cpp:94
+#: conf/option_path.cpp:93
 msgid "Only absolute paths allowed, relative path \"{}\" detected"
 msgstr "Разрешены только абсолютные пути, обнаружены относительные пути \"{}\""
 
-#: conf/option_path.cpp:99
+#: conf/option_path.cpp:98
 msgid "Path \"{}\" does not exist"
 msgstr "Путь \"{}\" не существует"
 
@@ -567,7 +567,7 @@ msgstr "Неизвестный формат времени \"{}\""
 msgid "Unknown time unit '{}'"
 msgstr "Неизвестная единица времени '{}'"
 
-#: conf/option_string.cpp:88
+#: conf/option_string.cpp:89
 msgid ""
 "Input value \"{}\" not allowed, allowed values for this option are defined "
 "by regular expression \"{}\""
@@ -577,7 +577,7 @@ msgstr ""
 
 #. TODO(jrohel): We don't know the option name at this time. Add a text name to the options
 #. or extend exception (add name) in upper layer.
-#: conf/option_string.cpp:113
+#: conf/option_string.cpp:114
 msgid "Option value is not set"
 msgstr "Значение опции не задано"
 
@@ -966,7 +966,7 @@ msgstr "Невозможно удалить пакет \"{}\""
 msgid "Cannot {} package \"{}\""
 msgstr "Невозможно {} пакет \"{}\""
 
-#: rpm/versionlock_config.cpp:261 system/state.cpp:508
+#: rpm/versionlock_config.cpp:261 system/state.cpp:513
 msgid "{}"
 msgstr "{}"
 
@@ -987,7 +987,7 @@ msgstr "Недопустимая версия TOML \"{}\", ожидается \"
 msgid "{} state for \"{}\" not found."
 msgstr "Состояние {} для \"{}\" не найдено."
 
-#: system/state.cpp:535
+#: system/state.cpp:540
 msgid "Unsupported TOML version \"{}\", maximum supported version is \"{}\""
 msgstr ""
 "Неподдерживаемая версия TOML \"{}\", максимальная поддерживаемая версия - "
