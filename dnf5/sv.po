@@ -10,8 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-04-13 02:52+0000\n"
 "PO-Revision-Date: 2024-04-15 19:58+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/sv/>\n"
 "Language: sv\n"
@@ -815,12 +814,16 @@ msgid ""
 "Enable plugins by name. List option. Supports globs, can be specified "
 "multiple times."
 msgstr ""
+"Akvtivera insticksmoduler efter namn. Listalternativ. Stödjer globbningar, "
+"kan anges flera gånger."
 
 #: main.cpp:456
 msgid ""
 "Disable plugins by name. List option. Supports globs, can be specified "
 "multiple times."
 msgstr ""
+"Avakvtivera insticksmoduler efter namn. Listalternativ. Stödjer globbningar, "
+"kan anges flera gånger."
 
 #: main.cpp:475
 msgid "add a comment to transaction"
@@ -831,6 +834,8 @@ msgid ""
 "Adds a comment to the action. If a transaction takes place, the comment is "
 "stored in it."
 msgstr ""
+"Lägger till kommentarer till åtgärden. Om en transaktion sker lagras "
+"kommentaren i den."
 
 #: main.cpp:490
 msgid "set install root"
@@ -841,6 +846,8 @@ msgid ""
 "use configuration, reposdir, and vars from the host system rather than the "
 "installroot"
 msgstr ""
+"använd konfiguration, förrådskatalog och variabler från värdsystemet "
+"istället för installationsroten"
 
 #: main.cpp:506
 msgid "override the value of $releasever in config and repo files"
@@ -851,19 +858,23 @@ msgid ""
 "Show newly installed leaf packages and packages that became leaves after a "
 "transaction."
 msgstr ""
+"Visa nyligen installerade lövpaket och paket som blev löv efter en "
+"transaktion."
 
 #: main.cpp:533
 msgid "Dump detailed solving results into files"
-msgstr ""
+msgstr "Dumpa ut detaljerade lösningsresultat till filer"
 
 #: main.cpp:542
 msgid "Print main configuration values to stdout"
-msgstr ""
+msgstr "Skriv huvudkonfigurationsvärden till standard ut"
 
 #: main.cpp:559
 msgid ""
 "Print repository configuration values to stdout. List option. Supports globs"
 msgstr ""
+"Skriv förrådskonfigurationsvärden till standard ut. Listalternativ. Stödjer "
+"globbningar"
 
 #: main.cpp:574
 msgid "Print variable values to stdout"
