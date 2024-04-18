@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-13 02:52+0000\n"
+"POT-Creation-Date: 2024-04-18 02:52+0000\n"
 "PO-Revision-Date: 2024-03-17 02:36+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
@@ -29,12 +29,12 @@ msgstr ""
 "ID libsolv inválido para aviso \"{}\", o nome solucionável \"{}\" não tem "
 "prefixo de aviso \"{}\""
 
-#: base/goal.cpp:388
+#: base/goal.cpp:390
 msgid "Unsupported argument for REMOVE action: {}"
 msgstr "Argumento não suportado para ação REMOVE: {}"
 
 #. TODO(lukash) throw a proper exception
-#: base/goal.cpp:1119
+#: base/goal.cpp:1142
 msgid "Incorrect configuration value for multilib_policy: {}"
 msgstr "Valor de configuração incorreto para multilib_policy: {}"
 
@@ -450,27 +450,27 @@ msgstr "Cancelada pelo usuário."
 msgid "Public key import failed."
 msgstr "Falha na importação da chave pública."
 
-#: base/transaction.cpp:662
+#: base/transaction.cpp:668
 msgid "Invalid tsflag: {}"
 msgstr "tsflag inválida: {}"
 
-#: base/transaction.cpp:996
+#: base/transaction.cpp:1002
 msgid "Public key \"{}\" is already present, not importing."
 msgstr "A chave pública \"{}\" já está presente, não será importada."
 
-#: base/transaction.cpp:1017
+#: base/transaction.cpp:1023
 msgid "An error occurred importing key \"{}\": {}"
 msgstr "Ocorreu um erro ao importar a chave \"{}\": {}"
 
-#: base/transaction.cpp:1050
+#: base/transaction.cpp:1056
 msgid "PGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
 msgstr "A verificação PGP do pacote \"{}\" ({}) do repositório \"{}\" falhou: "
 
-#: base/transaction.cpp:1077
+#: base/transaction.cpp:1083
 msgid "Import of the key didn't help, wrong key?"
 msgstr "A importação da chave não ajudou, chave errada?"
 
-#: base/transaction.cpp:1095
+#: base/transaction.cpp:1101
 msgid "Warning: skipped PGP checks for {} package(s)."
 msgstr "Aviso: ignoradas as verificações de PGP para {} pacote(s)."
 
@@ -699,7 +699,7 @@ msgstr "Faltando ':' no valor"
 msgid "Invalid module status: {}"
 msgstr "Status de módulo inválido: {}"
 
-#: plugin/plugins.cpp:64
+#: plugin/plugins.cpp:65
 msgid ""
 "Unsupported plugin API combination. API version provided by plugin "
 "\"{}\" (\"{}\") is \"{}.{}\". API version in libdnf is \"{}.{}\"."
@@ -707,19 +707,19 @@ msgstr ""
 "Combinação de API de plug-in não suportada. A versão da API fornecida pelo "
 "plug-in \"{}\" (\"{}\") é \"{}.{}\". A versão da API em libdnf é \"{}.{}\"."
 
-#: plugin/plugins.cpp:113
+#: plugin/plugins.cpp:114
 msgid "Cannot find plugin library \"{}\""
 msgstr "Não é possível encontrar a biblioteca de plug-in \"{}\""
 
-#: plugin/plugins.cpp:169
+#: plugin/plugins.cpp:170
 msgid "Invalid option value: enabled={}"
 msgstr "Valor de opção inválido: enabled={}"
 
-#: plugin/plugins.cpp:187
+#: plugin/plugins.cpp:188
 msgid "Plugins::load_plugins(): config_dir_path cannot be empty"
 msgstr "Plugins::load_plugins(): config_dir_path não pode estar vazio"
 
-#: plugin/plugins.cpp:212
+#: plugin/plugins.cpp:213
 msgid "Cannot load plugins: {}"
 msgstr "Não é possível carregar plugins: {}"
 
@@ -783,7 +783,19 @@ msgstr ""
 "Falha ao carregar o repositório: dados \"primários\" não presentes ou em "
 "formato não suportado"
 
-#: repo/repo.cpp:481
+#: repo/repo.cpp:469
+#, fuzzy
+#| msgid "Failed to load RPM \"{}\": doesn't have the \".rpm\" extension"
+msgid "Failed to load comps \"{}\": doesn't have the \".xml\" extension"
+msgstr "Falha ao carregar RPM \"{}\": não possui a extensão \".rpm\""
+
+#: repo/repo.cpp:476
+#, fuzzy
+#| msgid "Failed to load RPM \"{}\": {}"
+msgid "Failed to load xml Comps \"{}\": {}"
+msgstr "Falha ao carregar RPM \"{}\": {}"
+
+#: repo/repo.cpp:493
 msgid "Failed to load RPM \"{}\": {}"
 msgstr "Falha ao carregar RPM \"{}\": {}"
 
@@ -838,7 +850,7 @@ msgstr "Falha ao listar chaves pgp: {}"
 msgid "Failed to import pgp keys: {}"
 msgstr "Falha ao importar chaves pgp: {}"
 
-#: repo/repo_sack.cpp:123
+#: repo/repo_sack.cpp:125
 msgid ""
 "Failed to create repo \"{}\": Id is present more than once in the "
 "configuration"
@@ -846,7 +858,7 @@ msgstr ""
 "Falha ao criar o repositório \"{}\": o ID está presente mais de uma vez na "
 "configuração"
 
-#: repo/repo_sack.cpp:460
+#: repo/repo_sack.cpp:496
 msgid "Cache-only enabled but no cache for repository \"{}\""
 msgstr "Somente cache ativado, mas sem cache para o repositório \"{}\""
 
@@ -1126,56 +1138,56 @@ msgstr "Versão mínima inválida: \"{}\", esperava número."
 msgid "Missing key \"version\"."
 msgstr "Faltando a chave \"version\"."
 
-#: transaction/transaction_sr.cpp:103
+#: transaction/transaction_sr.cpp:104
 msgid "Unexpected type of \"environments\", array expected."
 msgstr "Tipo inesperado de \"environments\", esperava array."
 
-#: transaction/transaction_sr.cpp:111
+#: transaction/transaction_sr.cpp:112
 msgid "Missing object key \"id\" in an environment."
 msgstr "Faltando chave de objeto \"id\" em um ambiente."
 
-#: transaction/transaction_sr.cpp:116
+#: transaction/transaction_sr.cpp:117
 msgid "Missing object key \"action\" in an environment."
 msgstr "Faltando a chave de objeto \"action\" em um ambiente."
 
-#: transaction/transaction_sr.cpp:137
+#: transaction/transaction_sr.cpp:142
 msgid "Unexpected type of \"groups\", array expected."
 msgstr "Tipo inesperado de \"groups\", esperava array."
 
-#: transaction/transaction_sr.cpp:145
+#: transaction/transaction_sr.cpp:150
 msgid "Missing object key \"id\" in a group."
 msgstr "Faltando a chave de objeto \"id\" em um grupo."
 
-#: transaction/transaction_sr.cpp:150
+#: transaction/transaction_sr.cpp:155
 msgid "Missing object key \"action\" in a group."
 msgstr "Faltando a chave de objeto \"action\" em um grupo."
 
-#: transaction/transaction_sr.cpp:155
+#: transaction/transaction_sr.cpp:160
 msgid "Missing object key \"reason\" in a group."
 msgstr "Faltando a chave de objeto \"reason\" em um grupo."
 
-#: transaction/transaction_sr.cpp:180
+#: transaction/transaction_sr.cpp:189
 msgid "Unexpected type of \"rpms\", array expected."
 msgstr "Tipo inesperado de \"rpms\", esperava array."
 
-#: transaction/transaction_sr.cpp:189
+#: transaction/transaction_sr.cpp:198
 msgid "Cannot parse NEVRA for rpm \"{}\"."
 msgstr "Não foi possível analisar NEVRA para o rpm \"{}\"."
 
-#: transaction/transaction_sr.cpp:197
+#: transaction/transaction_sr.cpp:206
 msgid "Either \"nevra\" or \"package_path\" object key is required in an rpm."
 msgstr ""
 "A chave do objeto \"nevra\" ou \"package_path\" é necessária em um rpm."
 
-#: transaction/transaction_sr.cpp:202
+#: transaction/transaction_sr.cpp:211
 msgid "Missing object key \"action\" in an rpm."
 msgstr "Faltando a chave de objeto \"action\" em um rpm."
 
-#: transaction/transaction_sr.cpp:207
+#: transaction/transaction_sr.cpp:216
 msgid "Missing object key \"reason\" in an rpm."
 msgstr "Faltando a chave de objeto \"reason\" em um rpm."
 
-#: transaction/transaction_sr.cpp:214
+#: transaction/transaction_sr.cpp:223
 msgid ""
 "Missing mandatory object key \"group_id\" in an rpm with reason \"Group\" "
 "and action \"Reason Change\"."

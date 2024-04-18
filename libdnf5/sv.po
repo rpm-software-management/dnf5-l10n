@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-13 02:52+0000\n"
+"POT-Creation-Date: 2024-04-18 02:52+0000\n"
 "PO-Revision-Date: 2024-04-14 02:35+0000\n"
 "Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -29,12 +29,12 @@ msgstr ""
 "Felaktigt libsolv-id för rekommendationen \"{}\", lösbart namn \"{}\" har "
 "inte ett rekommendationsprefix \"{}\""
 
-#: base/goal.cpp:388
+#: base/goal.cpp:390
 msgid "Unsupported argument for REMOVE action: {}"
 msgstr "Argument som inte stöds för TA BORT åtgärd: {}"
 
 #. TODO(lukash) throw a proper exception
-#: base/goal.cpp:1119
+#: base/goal.cpp:1142
 msgid "Incorrect configuration value for multilib_policy: {}"
 msgstr "Felaktigt konfigurationsvärde för multilib_policy: {}"
 
@@ -415,28 +415,28 @@ msgstr "Avbröts av användaren."
 msgid "Public key import failed."
 msgstr "Import av publik nyckel misslyckades."
 
-#: base/transaction.cpp:662
+#: base/transaction.cpp:668
 msgid "Invalid tsflag: {}"
 msgstr "Ogiltig tsflag: {}"
 
-#: base/transaction.cpp:996
+#: base/transaction.cpp:1002
 msgid "Public key \"{}\" is already present, not importing."
 msgstr "Publik nyckel \"{}\" finns redan, importerar inte."
 
-#: base/transaction.cpp:1017
+#: base/transaction.cpp:1023
 msgid "An error occurred importing key \"{}\": {}"
 msgstr "Ett fel uppstod vid import av nyckeln \"{}\": {}"
 
-#: base/transaction.cpp:1050
+#: base/transaction.cpp:1056
 msgid "PGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
 msgstr ""
 "PGP-kontroll för paket \"{}\" ({}) från förråd \"{}\" har misslyckats: "
 
-#: base/transaction.cpp:1077
+#: base/transaction.cpp:1083
 msgid "Import of the key didn't help, wrong key?"
 msgstr "Importen av nyckeln hjälpte inte, fel nyckel?"
 
-#: base/transaction.cpp:1095
+#: base/transaction.cpp:1101
 msgid "Warning: skipped PGP checks for {} package(s)."
 msgstr "Varning: hoppade över PGP-kontroller för {} paket."
 
@@ -661,7 +661,7 @@ msgstr "Saknar ':' i värdet"
 msgid "Invalid module status: {}"
 msgstr "Ogiltig modul status: {}"
 
-#: plugin/plugins.cpp:64
+#: plugin/plugins.cpp:65
 msgid ""
 "Unsupported plugin API combination. API version provided by plugin "
 "\"{}\" (\"{}\") is \"{}.{}\". API version in libdnf is \"{}.{}\"."
@@ -669,19 +669,19 @@ msgstr ""
 "Plugin-API-kombination som inte stöds. API-version som tillhandahålls av "
 "plugin \"{}\" (\"{}\") är \"{}.{}\". API-versionen i libdnf är \"{}.{}\"."
 
-#: plugin/plugins.cpp:113
+#: plugin/plugins.cpp:114
 msgid "Cannot find plugin library \"{}\""
 msgstr "Kan inte hitta plugin-bibliotek \"{}\""
 
-#: plugin/plugins.cpp:169
+#: plugin/plugins.cpp:170
 msgid "Invalid option value: enabled={}"
 msgstr "Ogiltigt alternativvärde: enabled={}"
 
-#: plugin/plugins.cpp:187
+#: plugin/plugins.cpp:188
 msgid "Plugins::load_plugins(): config_dir_path cannot be empty"
 msgstr "Plugins::load_plugins(): config_dir_path kan inte vara tom"
 
-#: plugin/plugins.cpp:212
+#: plugin/plugins.cpp:213
 msgid "Cannot load plugins: {}"
 msgstr "Kan inte ladda plugins: {}"
 
@@ -744,7 +744,19 @@ msgstr ""
 "Misslyckades att ladda förrådet : \"primär\" data finns inte eller i format "
 "som inte stöds"
 
-#: repo/repo.cpp:481
+#: repo/repo.cpp:469
+#, fuzzy
+#| msgid "Failed to load RPM \"{}\": doesn't have the \".rpm\" extension"
+msgid "Failed to load comps \"{}\": doesn't have the \".xml\" extension"
+msgstr "Misslyckades med att ladda RPM \"{}\": har inte tillägget \".rpm\""
+
+#: repo/repo.cpp:476
+#, fuzzy
+#| msgid "Failed to load RPM \"{}\": {}"
+msgid "Failed to load xml Comps \"{}\": {}"
+msgstr "Misslyckades att ladda RPM \"{}\": {}"
+
+#: repo/repo.cpp:493
 msgid "Failed to load RPM \"{}\": {}"
 msgstr "Misslyckades att ladda RPM \"{}\": {}"
 
@@ -798,7 +810,7 @@ msgstr "Misslyckades att lista pgp nycklar: {}"
 msgid "Failed to import pgp keys: {}"
 msgstr "Misslyckades att importera pgp nycklar: {}"
 
-#: repo/repo_sack.cpp:123
+#: repo/repo_sack.cpp:125
 msgid ""
 "Failed to create repo \"{}\": Id is present more than once in the "
 "configuration"
@@ -806,7 +818,7 @@ msgstr ""
 "Misslyckades att skapa förråd \"{}\": Id finns mer än en gång i "
 "konfigurationen"
 
-#: repo/repo_sack.cpp:460
+#: repo/repo_sack.cpp:496
 msgid "Cache-only enabled but no cache for repository \"{}\""
 msgstr "Endast cache aktiverat men ingen cache för förråd \"{}\""
 
@@ -1074,55 +1086,55 @@ msgstr "Ogiltig underversion version: \"{}\", nummer förväntades."
 msgid "Missing key \"version\"."
 msgstr "Saknar nyckel \"version\"."
 
-#: transaction/transaction_sr.cpp:103
+#: transaction/transaction_sr.cpp:104
 msgid "Unexpected type of \"environments\", array expected."
 msgstr "Oväntad typ av \"miljöer\", array förväntad."
 
-#: transaction/transaction_sr.cpp:111
+#: transaction/transaction_sr.cpp:112
 msgid "Missing object key \"id\" in an environment."
 msgstr "Saknar objekt nyckel \"id\" i en miljö."
 
-#: transaction/transaction_sr.cpp:116
+#: transaction/transaction_sr.cpp:117
 msgid "Missing object key \"action\" in an environment."
 msgstr "Saknar objekt nyckel \"action\" i en miljö."
 
-#: transaction/transaction_sr.cpp:137
+#: transaction/transaction_sr.cpp:142
 msgid "Unexpected type of \"groups\", array expected."
 msgstr "Oväntad typ av \"grupper\", förväntad array."
 
-#: transaction/transaction_sr.cpp:145
+#: transaction/transaction_sr.cpp:150
 msgid "Missing object key \"id\" in a group."
 msgstr "Saknar objekt nyckel \"id\" i en grupp."
 
-#: transaction/transaction_sr.cpp:150
+#: transaction/transaction_sr.cpp:155
 msgid "Missing object key \"action\" in a group."
 msgstr "Saknar objektnyckel \"action\" i en grupp."
 
-#: transaction/transaction_sr.cpp:155
+#: transaction/transaction_sr.cpp:160
 msgid "Missing object key \"reason\" in a group."
 msgstr "Saknar objektnyckel \"reason\" i en grupp."
 
-#: transaction/transaction_sr.cpp:180
+#: transaction/transaction_sr.cpp:189
 msgid "Unexpected type of \"rpms\", array expected."
 msgstr "Oväntad typ av \"rpms\", array förväntad."
 
-#: transaction/transaction_sr.cpp:189
+#: transaction/transaction_sr.cpp:198
 msgid "Cannot parse NEVRA for rpm \"{}\"."
 msgstr "Kan inte analysera NEVRA för rpm \"{}\"."
 
-#: transaction/transaction_sr.cpp:197
+#: transaction/transaction_sr.cpp:206
 msgid "Either \"nevra\" or \"package_path\" object key is required in an rpm."
 msgstr "Antingen \"nevra\" eller \"package_path\" objektnyckel krävs i en rpm."
 
-#: transaction/transaction_sr.cpp:202
+#: transaction/transaction_sr.cpp:211
 msgid "Missing object key \"action\" in an rpm."
 msgstr "Saknar objektnyckel \"action\" i en rpm."
 
-#: transaction/transaction_sr.cpp:207
+#: transaction/transaction_sr.cpp:216
 msgid "Missing object key \"reason\" in an rpm."
 msgstr "Saknar objektnyckel \"reason\" i en rpm."
 
-#: transaction/transaction_sr.cpp:214
+#: transaction/transaction_sr.cpp:223
 msgid ""
 "Missing mandatory object key \"group_id\" in an rpm with reason \"Group\" "
 "and action \"Reason Change\"."
