@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-23 02:52+0000\n"
+"POT-Creation-Date: 2024-04-24 02:52+0000\n"
 "PO-Revision-Date: 2024-03-17 02:36+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
@@ -699,7 +699,7 @@ msgstr "Faltando ':' no valor"
 msgid "Invalid module status: {}"
 msgstr "Status de módulo inválido: {}"
 
-#: plugin/plugins.cpp:65
+#: plugin/plugins.cpp:66
 msgid ""
 "Unsupported plugin API combination. API version provided by plugin "
 "\"{}\" (\"{}\") is \"{}.{}\". API version in libdnf is \"{}.{}\"."
@@ -707,19 +707,19 @@ msgstr ""
 "Combinação de API de plug-in não suportada. A versão da API fornecida pelo "
 "plug-in \"{}\" (\"{}\") é \"{}.{}\". A versão da API em libdnf é \"{}.{}\"."
 
-#: plugin/plugins.cpp:114
+#: plugin/plugins.cpp:115
 msgid "Cannot find plugin library \"{}\""
 msgstr "Não é possível encontrar a biblioteca de plug-in \"{}\""
 
-#: plugin/plugins.cpp:181
+#: plugin/plugins.cpp:182
 msgid "Invalid option value: enabled={}"
 msgstr "Valor de opção inválido: enabled={}"
 
-#: plugin/plugins.cpp:202
+#: plugin/plugins.cpp:206
 msgid "Plugins::load_plugins(): config_dir_path cannot be empty"
 msgstr "Plugins::load_plugins(): config_dir_path não pode estar vazio"
 
-#: plugin/plugins.cpp:227
+#: plugin/plugins.cpp:231
 msgid "Cannot load plugins: {}"
 msgstr "Não é possível carregar plugins: {}"
 
@@ -761,21 +761,21 @@ msgstr "Falha ao carregar RPM \"{}\": não possui a extensão \".rpm\""
 msgid "Failed to access RPM \"{}\": {}"
 msgstr "Falha ao acessar o RPM \"{}\": {}"
 
-#: repo/repo.cpp:107
+#: repo/repo.cpp:106
 msgid "Invalid repository id \"{}\": unexpected character '{}'"
 msgstr "ID de repositório inválido \"{}\": caractere inesperado '{}'"
 
-#: repo/repo.cpp:150
+#: repo/repo.cpp:149
 msgid "Repository \"{}\" has no source (baseurl, mirrorlist or metalink) set."
 msgstr ""
 "O repositório \"{}\" não possui fonte definida (baseurl, mirrorlist ou "
 "metalink)."
 
-#: repo/repo.cpp:161
+#: repo/repo.cpp:160
 msgid "Repository \"{}\" has unsupported type \"{}\", skipping."
 msgstr "O repositório \"{}\" tem tipo \"{}\" não suportado, ignorando."
 
-#: repo/repo.cpp:411
+#: repo/repo.cpp:408
 msgid ""
 "Failed to load repository: \"primary\" data not present or in unsupported "
 "format"
@@ -783,19 +783,19 @@ msgstr ""
 "Falha ao carregar o repositório: dados \"primários\" não presentes ou em "
 "formato não suportado"
 
-#: repo/repo.cpp:469
+#: repo/repo.cpp:466
 #, fuzzy
 #| msgid "Failed to load RPM \"{}\": doesn't have the \".rpm\" extension"
 msgid "Failed to load comps \"{}\": doesn't have the \".xml\" extension"
 msgstr "Falha ao carregar RPM \"{}\": não possui a extensão \".rpm\""
 
-#: repo/repo.cpp:476
+#: repo/repo.cpp:473
 #, fuzzy
 #| msgid "Failed to load RPM \"{}\": {}"
 msgid "Failed to load xml Comps \"{}\": {}"
 msgstr "Falha ao carregar RPM \"{}\": {}"
 
-#: repo/repo.cpp:493
+#: repo/repo.cpp:490
 msgid "Failed to load RPM \"{}\": {}"
 msgstr "Falha ao carregar RPM \"{}\": {}"
 
