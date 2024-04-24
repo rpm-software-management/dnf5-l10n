@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-23 02:52+0000\n"
+"POT-Creation-Date: 2024-04-24 02:52+0000\n"
 "PO-Revision-Date: 2024-04-23 02:40+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -629,38 +629,17 @@ msgstr "პაკეტი \"{}\" უკვე ამოღებულია."
 msgid "The key was successfully imported."
 msgstr "გასაღები წარმატებით იქნა შემოტანილი."
 
-#: context.cpp:130
+#: context.cpp:241
 msgid "No matching repositories for \"{}\""
 msgstr "რეპოზიტორიები, რომლებიც \"{}\"-ს ემთხვევა, აღმოჩენილი არაა"
 
-#: context.cpp:418
+#: context.cpp:363
 msgid ""
 "Location \"{}\" already contains a stored transaction, it will be "
 "overwritten.\n"
 msgstr ""
 "მდებარეობა \"{}\" უკვე შეიცავს დამახსოვრებულ ტრანზაქციას. მას თავზე "
 "გადაეწერება.\n"
-
-#: include/dnf5/offline.cpp:39
-msgid "error reading offline state file"
-msgstr "ქსელგარეშე მდგომარეობის ფაილის წაკითხვის შეცდომა"
-
-#: include/dnf5/offline.cpp:44
-msgid "incompatible version of state data"
-msgstr "მდგომარეობის მონაცემების შეუთავსებელი ვერსია"
-
-#: include/dnf5/shared_options.hpp:33
-msgid "Allow erasing of installed packages to resolve problems"
-msgstr "პრობლემების გადასაჭრელად დაუშვით დაყენებული პაკეტების წაშლის დაშვება"
-
-#: include/dnf5/shared_options.hpp:43
-msgid "Allow resolving of depsolve problems by skipping packages"
-msgstr ""
-"დამოკიდებულებების ამოხსნის პაკეტების გამოტოვების საშუალებით ამოხსნის დაშვება"
-
-#: include/dnf5/shared_options.hpp:55
-msgid "Allow skipping unavailable packages"
-msgstr "ხელმიუწვდომელი პაკეტების გამოტოვების დაშვება"
 
 #: library.cpp:33
 msgid "Cannot load shared library \"{}\": {}"
@@ -953,6 +932,27 @@ msgstr "შეგიძლიათ, სცადოთ, მიამატო�
 #: main.cpp:1125 main.cpp:1295
 msgid ". Add \"--help\" for more information about the arguments."
 msgstr "დაამატეთ \"--help\" არგუმენტების შესახებ მეტი ინფორმაციის მისაღებად."
+
+#: offline.cpp:54
+msgid "error reading offline state file"
+msgstr "ქსელგარეშე მდგომარეობის ფაილის წაკითხვის შეცდომა"
+
+#: offline.cpp:59
+msgid "incompatible version of state data"
+msgstr "მდგომარეობის მონაცემების შეუთავსებელი ვერსია"
+
+#: shared_options.cpp:32
+msgid "Allow erasing of installed packages to resolve problems"
+msgstr "პრობლემების გადასაჭრელად დაუშვით დაყენებული პაკეტების წაშლის დაშვება"
+
+#: shared_options.cpp:42
+msgid "Allow resolving of depsolve problems by skipping packages"
+msgstr ""
+"დამოკიდებულებების ამოხსნის პაკეტების გამოტოვების საშუალებით ამოხსნის დაშვება"
+
+#: shared_options.cpp:54
+msgid "Allow skipping unavailable packages"
+msgstr "ხელმიუწვდომელი პაკეტების გამოტოვების დაშვება"
 
 #~ msgid "Couldn't detect the current release version of the system."
 #~ msgstr "სისტემის მიმდინარე რელიზის ვერსიის დადგენა შეუძლებელია."

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-23 02:52+0000\n"
+"POT-Creation-Date: 2024-04-24 02:52+0000\n"
 "PO-Revision-Date: 2024-04-24 02:40+0000\n"
 "Last-Translator: Aleksey Fedorov <aleksejfedorov963@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -629,36 +629,16 @@ msgstr "Пакет \"{}\" уже исключен."
 msgid "The key was successfully imported."
 msgstr "Ключ был успешно импортирован."
 
-#: context.cpp:130
+#: context.cpp:241
 msgid "No matching repositories for \"{}\""
 msgstr "Нет подходящих репозиториев для \"{}\""
 
-#: context.cpp:418
+#: context.cpp:363
 msgid ""
 "Location \"{}\" already contains a stored transaction, it will be "
 "overwritten.\n"
 msgstr ""
 "Место \"{}\" уже содержит сохраненную транзакцию, она будет перезаписана.\n"
-
-#: include/dnf5/offline.cpp:39
-msgid "error reading offline state file"
-msgstr "ошибка при чтении автономного файла состояния"
-
-#: include/dnf5/offline.cpp:44
-msgid "incompatible version of state data"
-msgstr "несовместимая версия данных состояния"
-
-#: include/dnf5/shared_options.hpp:33
-msgid "Allow erasing of installed packages to resolve problems"
-msgstr "Позволить удалять установленные пакеты для решения проблем"
-
-#: include/dnf5/shared_options.hpp:43
-msgid "Allow resolving of depsolve problems by skipping packages"
-msgstr "Позволять решать проблемы с depsolve, пропуская пакеты"
-
-#: include/dnf5/shared_options.hpp:55
-msgid "Allow skipping unavailable packages"
-msgstr "Позволять пропускать недоступные пакеты"
 
 #: library.cpp:33
 msgid "Cannot load shared library \"{}\": {}"
@@ -951,6 +931,26 @@ msgstr "Можно попробовать добавить в командную
 msgid ". Add \"--help\" for more information about the arguments."
 msgstr ""
 ". Добавьте \"--help\" для получения дополнительной информации об аргументах."
+
+#: offline.cpp:54
+msgid "error reading offline state file"
+msgstr "ошибка при чтении автономного файла состояния"
+
+#: offline.cpp:59
+msgid "incompatible version of state data"
+msgstr "несовместимая версия данных состояния"
+
+#: shared_options.cpp:32
+msgid "Allow erasing of installed packages to resolve problems"
+msgstr "Позволить удалять установленные пакеты для решения проблем"
+
+#: shared_options.cpp:42
+msgid "Allow resolving of depsolve problems by skipping packages"
+msgstr "Позволять решать проблемы с depsolve, пропуская пакеты"
+
+#: shared_options.cpp:54
+msgid "Allow skipping unavailable packages"
+msgstr "Позволять пропускать недоступные пакеты"
 
 #~ msgid "Couldn't detect the current release version of the system."
 #~ msgstr "Не удалось определить текущую версию выпуска системы."

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-23 02:52+0000\n"
+"POT-Creation-Date: 2024-04-24 02:52+0000\n"
 "PO-Revision-Date: 2024-02-06 09:36+0000\n"
 "Last-Translator: Petr Ptacek <petr106@atlas.cz>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf5/dnf5/"
@@ -603,37 +603,17 @@ msgstr ""
 msgid "The key was successfully imported."
 msgstr "Klíč byl úspěšně importován."
 
-#: context.cpp:130
+#: context.cpp:241
 msgid "No matching repositories for \"{}\""
 msgstr "Žádné odpovídající repozitáře pro \"{}\""
 
-#: context.cpp:418
+#: context.cpp:363
 #, fuzzy
 #| msgid "File \"{}\" already exists, it will be overwritten.\n"
 msgid ""
 "Location \"{}\" already contains a stored transaction, it will be "
 "overwritten.\n"
 msgstr "Soubor \"{}\" již existuje, bude přepsán.\n"
-
-#: include/dnf5/offline.cpp:39
-msgid "error reading offline state file"
-msgstr ""
-
-#: include/dnf5/offline.cpp:44
-msgid "incompatible version of state data"
-msgstr ""
-
-#: include/dnf5/shared_options.hpp:33
-msgid "Allow erasing of installed packages to resolve problems"
-msgstr "Chcete-li vyřešit problémy, povolte vymazání nainstalovaných balíčků"
-
-#: include/dnf5/shared_options.hpp:43
-msgid "Allow resolving of depsolve problems by skipping packages"
-msgstr "Přeskakováním balíčků povolíte řešení depsolve problémů"
-
-#: include/dnf5/shared_options.hpp:55
-msgid "Allow skipping unavailable packages"
-msgstr "Povolit přeskočení nedostupných balíčků"
 
 #: library.cpp:33
 msgid "Cannot load shared library \"{}\": {}"
@@ -899,3 +879,23 @@ msgstr ""
 #: main.cpp:1125 main.cpp:1295
 msgid ". Add \"--help\" for more information about the arguments."
 msgstr ". Přidejte \"--help\" pro více informací o argumentech."
+
+#: offline.cpp:54
+msgid "error reading offline state file"
+msgstr ""
+
+#: offline.cpp:59
+msgid "incompatible version of state data"
+msgstr ""
+
+#: shared_options.cpp:32
+msgid "Allow erasing of installed packages to resolve problems"
+msgstr "Chcete-li vyřešit problémy, povolte vymazání nainstalovaných balíčků"
+
+#: shared_options.cpp:42
+msgid "Allow resolving of depsolve problems by skipping packages"
+msgstr "Přeskakováním balíčků povolíte řešení depsolve problémů"
+
+#: shared_options.cpp:54
+msgid "Allow skipping unavailable packages"
+msgstr "Povolit přeskočení nedostupných balíčků"
