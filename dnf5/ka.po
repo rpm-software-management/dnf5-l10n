@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-24 02:52+0000\n"
+"POT-Creation-Date: 2024-04-25 02:52+0000\n"
 "PO-Revision-Date: 2024-04-23 02:40+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -629,11 +629,11 @@ msgstr "პაკეტი \"{}\" უკვე ამოღებულია."
 msgid "The key was successfully imported."
 msgstr "გასაღები წარმატებით იქნა შემოტანილი."
 
-#: context.cpp:241
+#: context.cpp:252
 msgid "No matching repositories for \"{}\""
 msgstr "რეპოზიტორიები, რომლებიც \"{}\"-ს ემთხვევა, აღმოჩენილი არაა"
 
-#: context.cpp:363
+#: context.cpp:374
 msgid ""
 "Location \"{}\" already contains a stored transaction, it will be "
 "overwritten.\n"
@@ -929,7 +929,19 @@ msgstr "{} ისეთი პაკეტების გამოსატო�
 msgid "You can try to add to command line:"
 msgstr "შეგიძლიათ, სცადოთ, მიამატოთ ბრძანების სტრიქონს:"
 
-#: main.cpp:1125 main.cpp:1295
+#: main.cpp:1060
+msgid ""
+"No matches were found for the following plugin name patterns while enabling "
+"libdnf plugins: {}"
+msgstr ""
+
+#: main.cpp:1061
+msgid ""
+"No matches were found for the following plugin name patterns while disabling "
+"libdnf plugins: {}"
+msgstr ""
+
+#: main.cpp:1160 main.cpp:1333
 msgid ". Add \"--help\" for more information about the arguments."
 msgstr "დაამატეთ \"--help\" არგუმენტების შესახებ მეტი ინფორმაციის მისაღებად."
 

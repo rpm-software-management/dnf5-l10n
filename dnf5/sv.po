@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-24 02:52+0000\n"
+"POT-Creation-Date: 2024-04-25 02:52+0000\n"
 "PO-Revision-Date: 2024-04-21 10:36+0000\n"
 "Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -625,11 +625,11 @@ msgstr "Paketet \"{}\" är redan exkluderat."
 msgid "The key was successfully imported."
 msgstr "Nyckeln importerades framgångsrikt."
 
-#: context.cpp:241
+#: context.cpp:252
 msgid "No matching repositories for \"{}\""
 msgstr "Inga matchande förråd för \"{}\""
 
-#: context.cpp:363
+#: context.cpp:374
 msgid ""
 "Location \"{}\" already contains a stored transaction, it will be "
 "overwritten.\n"
@@ -924,7 +924,19 @@ msgstr "{} för att hoppa över oinstallerbara paket"
 msgid "You can try to add to command line:"
 msgstr "Du kan försöka lägga till till kommandoraden:"
 
-#: main.cpp:1125 main.cpp:1295
+#: main.cpp:1060
+msgid ""
+"No matches were found for the following plugin name patterns while enabling "
+"libdnf plugins: {}"
+msgstr ""
+
+#: main.cpp:1061
+msgid ""
+"No matches were found for the following plugin name patterns while disabling "
+"libdnf plugins: {}"
+msgstr ""
+
+#: main.cpp:1160 main.cpp:1333
 msgid ". Add \"--help\" for more information about the arguments."
 msgstr ". Lägg till \"--help\" för mer information om argumenten."
 

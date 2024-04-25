@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-24 02:52+0000\n"
+"POT-Creation-Date: 2024-04-25 02:52+0000\n"
 "PO-Revision-Date: 2024-04-16 20:36+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
@@ -604,11 +604,11 @@ msgstr "O pacote \"{}\" já foi excluído."
 msgid "The key was successfully imported."
 msgstr "A chave foi importada com sucesso."
 
-#: context.cpp:241
+#: context.cpp:252
 msgid "No matching repositories for \"{}\""
 msgstr "Nenhum repositório correspondente para \"{}\""
 
-#: context.cpp:363
+#: context.cpp:374
 #, fuzzy
 #| msgid "File \"{}\" already exists, it will be overwritten.\n"
 msgid ""
@@ -876,7 +876,19 @@ msgstr "Permite pular pacotes indisponíveis"
 msgid "You can try to add to command line:"
 msgstr ""
 
-#: main.cpp:1125 main.cpp:1295
+#: main.cpp:1060
+msgid ""
+"No matches were found for the following plugin name patterns while enabling "
+"libdnf plugins: {}"
+msgstr ""
+
+#: main.cpp:1061
+msgid ""
+"No matches were found for the following plugin name patterns while disabling "
+"libdnf plugins: {}"
+msgstr ""
+
+#: main.cpp:1160 main.cpp:1333
 msgid ". Add \"--help\" for more information about the arguments."
 msgstr ". Adicione \"--help\" para mais informações sobre os argumentos."
 
