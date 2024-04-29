@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-04-25 02:52+0000\n"
-"PO-Revision-Date: 2024-04-28 17:35+0000\n"
+"PO-Revision-Date: 2024-04-30 05:36+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/ko/>\n"
@@ -172,7 +172,7 @@ msgstr ""
 #: base/log_event.cpp:249
 #, c++-format
 msgid "Unable to resolve argument '{}':{}"
-msgstr ""
+msgstr "인수를 해결 할 수 없습니다 '{}':{}"
 
 #: base/log_event.cpp:255
 msgid "Modular dependency problems:\n"
@@ -202,16 +202,16 @@ msgstr ""
 #: base/solver_problems.cpp:41
 #, c++-format
 msgid "{} does not belong to a distupgrade repository"
-msgstr ""
+msgstr "{}가 distupgrade 저장소에 속하지 않습니다"
 
 #: base/solver_problems.cpp:42
 #, c++-format
 msgid "{} has inferior architecture"
-msgstr ""
+msgstr "{}는 열악한 구조를 갖고 있습니다"
 
 #: base/solver_problems.cpp:43
 msgid "problem with installed package "
-msgstr ""
+msgstr "설치된 꾸러미 문제 "
 
 #: base/solver_problems.cpp:44 base/solver_problems.cpp:74
 msgid "conflicting requests"
@@ -224,7 +224,7 @@ msgstr ""
 #: base/solver_problems.cpp:46 base/solver_problems.cpp:76
 #, c++-format
 msgid "nothing provides requested {}"
-msgstr ""
+msgstr "요청된 {}에 어떤 것도 제공하지 않습니다"
 
 #: base/solver_problems.cpp:47
 #, c++-format
@@ -234,16 +234,16 @@ msgstr ""
 #: base/solver_problems.cpp:48 base/solver_problems.cpp:78
 #, c++-format
 msgid "{} is provided by the system"
-msgstr ""
+msgstr "{}는 시스템에서 제공됩니다"
 
 #: base/solver_problems.cpp:49 base/solver_problems.cpp:79
 msgid "some dependency problem"
-msgstr ""
+msgstr "일부 의존성 문제"
 
 #: base/solver_problems.cpp:50
 #, c++-format
 msgid "cannot install the best update candidate for package {}"
-msgstr ""
+msgstr "꾸러미 {}를 위해 가장 적합한 최신화 후보를 설치 할 수 없습니다"
 
 #: base/solver_problems.cpp:51 base/solver_problems.cpp:81
 msgid "cannot install the best candidate for the job"
