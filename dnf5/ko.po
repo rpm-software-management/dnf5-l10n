@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-25 02:52+0000\n"
+"POT-Creation-Date: 2024-05-02 02:52+0000\n"
 "PO-Revision-Date: 2024-04-28 17:35+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
@@ -146,32 +146,26 @@ msgid "CVE_ID,..."
 msgstr ""
 
 #: commands/check/check.cpp:335
-#, c++-format
 msgid "Check discovered {} problem(s) in {} package(s)"
 msgstr ""
 
 #: commands/clean/clean.cpp:88
-#, c++-format
 msgid "List of cache types to clean up. Supported types: {0}"
 msgstr ""
 
 #: commands/clean/clean.cpp:106
-#, c++-format
 msgid "Unknown cache type \"{0}\". Supported types: {1}"
 msgstr ""
 
 #: commands/clean/clean.cpp:164
-#, c++-format
 msgid "Failed to cleanup repository cache in path \"{0}\": {1}"
 msgstr ""
 
 #: commands/download/download.cpp:112
-#, c++-format
 msgid "Invalid urlprotocol option: {}"
 msgstr ""
 
 #: commands/download/download.cpp:139 main.cpp:610
-#, c++-format
 msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
 msgstr ""
 
@@ -231,7 +225,6 @@ msgid "Reverse the order of transactions."
 msgstr ""
 
 #: commands/history/history_store.cpp:62
-#, c++-format
 msgid "File \"{}\" already exists, it will be overwritten.\n"
 msgstr ""
 
@@ -244,7 +237,6 @@ msgid "Multiple transactions selected for storing, only one allowed."
 msgstr ""
 
 #: commands/history/transaction_id.cpp:32
-#, c++-format
 msgid ""
 "Invalid transaction ID range \"{}\", \"ID\" or \"ID..ID\" expected, where ID "
 "is \"NUMBER\", \"last\" or \"last-NUMBER\"."
@@ -311,7 +303,6 @@ msgid "Pattern matching module NSVCAs."
 msgstr ""
 
 #: commands/module/module_list.cpp:85
-#, c++-format
 msgid "No matches found for \"{}\"."
 msgstr ""
 
@@ -319,146 +310,140 @@ msgstr ""
 msgid "Manage offline transactions"
 msgstr ""
 
-#: commands/offline/offline.cpp:230
-#, c++-format
+#: commands/offline/offline.cpp:224
 msgid ""
 "Error reading state: {}. Rerun the command you used to initiate the offline "
 "transaction, e.g. `dnf5 system-upgrade download [OPTIONS]`."
 msgstr ""
 
-#: commands/offline/offline.cpp:250
-#, c++-format
+#: commands/offline/offline.cpp:247
 msgid "Couldn't connect to D-Bus: {}"
 msgstr "D-Bus로 연결 할 수 없음: {}"
 
-#: commands/offline/offline.cpp:279
+#: commands/offline/offline.cpp:276
 msgid ""
 "Prepare the system to perform the offline transaction and reboot to start "
 "the transaction."
 msgstr ""
 
-#: commands/offline/offline.cpp:286
+#: commands/offline/offline.cpp:283
 msgid "Power off the system after the operation is complete"
 msgstr ""
 
-#: commands/offline/offline.cpp:296
+#: commands/offline/offline.cpp:294
 msgid "No offline transaction is stored."
 msgstr ""
 
-#: commands/offline/offline.cpp:303
+#: commands/offline/offline.cpp:301
 msgid "System is not ready for offline transaction."
 msgstr ""
 
-#: commands/offline/offline.cpp:306
-#, c++-format
+#: commands/offline/offline.cpp:304
 msgid "Data directory {} does not exist."
 msgstr ""
 
-#: commands/offline/offline.cpp:330
-#, c++-format
+#: commands/offline/offline.cpp:328
 msgid "{} is not wanted by system-update.target."
 msgstr ""
 
-#: commands/offline/offline.cpp:336
+#: commands/offline/offline.cpp:337
 msgid "The system will now reboot to upgrade to release version "
 msgstr ""
 
-#: commands/offline/offline.cpp:340
+#: commands/offline/offline.cpp:341
 msgid ""
 "The system will now reboot to perform the offline transaction initiated by "
 "the following command:"
 msgstr ""
 
-#: commands/offline/offline.cpp:371
+#: commands/offline/offline.cpp:372
 msgid ""
 "Internal use only, not intended to be run by the user. Execute the "
 "transaction in the offline environment."
 msgstr ""
 
-#: commands/offline/offline.cpp:398
+#: commands/offline/offline.cpp:399
 msgid "Trigger file does not exist. Exiting."
 msgstr ""
 
-#: commands/offline/offline.cpp:402
+#: commands/offline/offline.cpp:403
 msgid "Another offline transaction tool is running. Exiting."
 msgstr ""
 
-#: commands/offline/offline.cpp:438
+#: commands/offline/offline.cpp:435
 msgid ""
 "Warning: the `_execute` command is for internal use only and is not intended "
 "to be run directly by the user. To initiate the system upgrade/offline "
 "transaction, you should run `dnf5 offline reboot`."
 msgstr ""
 
-#: commands/offline/offline.cpp:445
+#: commands/offline/offline.cpp:442
 msgid "Use `dnf5 offline reboot` to begin the transaction."
 msgstr ""
 
-#: commands/offline/offline.cpp:479
+#: commands/offline/offline.cpp:493
 msgid "Transaction failed: "
 msgstr "연결 실패함: "
 
-#: commands/offline/offline.cpp:552
-#, c++-format
+#: commands/offline/offline.cpp:562
 msgid "Error reading journal: {}"
 msgstr ""
 
-#: commands/offline/offline.cpp:558
-#, c++-format
+#: commands/offline/offline.cpp:568
 msgid "Add journal match failed: {}"
 msgstr ""
 
-#: commands/offline/offline.cpp:586
+#: commands/offline/offline.cpp:596
 msgid "No logs were found."
 msgstr ""
 
-#: commands/offline/offline.cpp:590
+#: commands/offline/offline.cpp:600
 msgid "The following boots appear to contain offline transaction logs:"
 msgstr ""
 
-#: commands/offline/offline.cpp:607
+#: commands/offline/offline.cpp:617
 msgid "Cannot find logs with this index."
 msgstr "이와 같은 색인을 갖는 기록을 찾을 수 없습니다."
 
-#: commands/offline/offline.cpp:614
+#: commands/offline/offline.cpp:624
 msgid "Unable to match systemd journal entry."
 msgstr "systemd journal 항목과 일치 할 수 없음."
 
-#: commands/offline/offline.cpp:626
+#: commands/offline/offline.cpp:636
 msgid "Show logs from past offline transactions"
 msgstr ""
 
-#: commands/offline/offline.cpp:634
+#: commands/offline/offline.cpp:644
 msgid ""
 "Which log to show. Run without any arguments to get a list of available logs."
 msgstr ""
 
-#: commands/offline/offline.cpp:649
+#: commands/offline/offline.cpp:659
 msgid ""
 "systemd is not supported in this build of DNF 5; the `log` subcommand is "
 "unavailable."
 msgstr ""
 
-#: commands/offline/offline.cpp:654
+#: commands/offline/offline.cpp:664
 msgid "Show status of the current offline transaction"
 msgstr ""
 
-#: commands/offline/offline.cpp:670
+#: commands/offline/offline.cpp:680
 msgid "An offline transaction was initiated by the following command:"
 msgstr ""
 
-#: commands/offline/offline.cpp:672
+#: commands/offline/offline.cpp:682
 msgid ""
 "Run `dnf5 offline reboot` to reboot and perform the offline transaction."
 msgstr ""
 
-#: commands/offline/offline.cpp:674
+#: commands/offline/offline.cpp:684
 msgid ""
 "An offline transaction was started, but it did not finish. Run `dnf5 offline "
 "log` for more information. The command that initiated the transaction was:"
 msgstr ""
 
-#: commands/offline/offline.cpp:679
+#: commands/offline/offline.cpp:689
 msgid "Unknown offline transaction status: "
 msgstr ""
 
@@ -526,7 +511,6 @@ msgstr ""
 
 #. TODO(mblaha): add full command line
 #: commands/versionlock/utils.cpp:35
-#, c++-format
 msgid "Added by 'versionlock {}' command on {}"
 msgstr ""
 
@@ -540,17 +524,14 @@ msgstr ""
 
 #: commands/versionlock/versionlock_add.cpp:106
 #: commands/versionlock/versionlock_exclude.cpp:125
-#, c++-format
 msgid "No package found for \"{}\"."
 msgstr ""
 
 #: commands/versionlock/versionlock_add.cpp:124
-#, c++-format
 msgid "Adding versionlock on \"{0} = {1}\"."
 msgstr ""
 
 #: commands/versionlock/versionlock_add.cpp:127
-#, c++-format
 msgid "Package \"{}\" is already locked."
 msgstr "꾸러미 {} 는 이미 잠겨졌습니다"
 
@@ -580,12 +561,10 @@ msgstr ""
 
 #: commands/versionlock/versionlock_exclude.cpp:88
 #: commands/versionlock/versionlock_exclude.cpp:100
-#, c++-format
 msgid "Adding versionlock exclude on \"{0} = {1}\"."
 msgstr ""
 
 #: commands/versionlock/versionlock_exclude.cpp:139
-#, c++-format
 msgid "Package \"{}\" is already excluded."
 msgstr "꾸러미 {} 는 이미 제외되었습니다."
 
@@ -594,24 +573,20 @@ msgid "The key was successfully imported."
 msgstr ""
 
 #: context.cpp:252
-#, c++-format
 msgid "No matching repositories for \"{}\""
 msgstr ""
 
-#: context.cpp:374
-#, c++-format
+#: context.cpp:406
 msgid ""
 "Location \"{}\" already contains a stored transaction, it will be "
 "overwritten.\n"
 msgstr ""
 
 #: library.cpp:33
-#, c++-format
 msgid "Cannot load shared library \"{}\": {}"
 msgstr ""
 
 #: library.cpp:48
-#, c++-format
 msgid "Cannot obtain address of symbol \"{}\": {}"
 msgstr ""
 
@@ -657,7 +632,6 @@ msgid "Force refreshing metadata before running the command."
 msgstr ""
 
 #: main.cpp:185
-#, c++-format
 msgid "Failed to expire repository cache in path \"{0}\": {1}"
 msgstr ""
 
@@ -666,7 +640,6 @@ msgid "create additional repository using id and path"
 msgstr ""
 
 #: main.cpp:210
-#, c++-format
 msgid "repofrompath: Incorrect repoid and path specification \"{}\""
 msgstr ""
 
@@ -686,23 +659,19 @@ msgid ""
 msgstr ""
 
 #: main.cpp:233 main.cpp:272
-#, c++-format
 msgid "{}: Badly formatted argument value \"{}\""
 msgstr ""
 
 #: main.cpp:240
-#, c++-format
 msgid ""
 "{}: Badly formatted argument value: Last key character cannot be '.': {}"
 msgstr ""
 
 #: main.cpp:253
-#, c++-format
 msgid "setopt: \"{0}\": {1}"
 msgstr ""
 
 #: main.cpp:279
-#, c++-format
 msgid "setvar: {}"
 msgstr ""
 
@@ -834,7 +803,6 @@ msgid "======== Main configuration: ========"
 msgstr ""
 
 #: main.cpp:869
-#, c++-format
 msgid "======== \"{}\" repository configuration: ========"
 msgstr ""
 
@@ -843,27 +811,22 @@ msgid "======== Variables: ========"
 msgstr ""
 
 #: main.cpp:973
-#, c++-format
 msgid "{} to skip unavailable packages"
 msgstr ""
 
 #: main.cpp:1014
-#, c++-format
 msgid "{} to not limit the transaction to the best candidates"
 msgstr ""
 
 #: main.cpp:1021
-#, c++-format
 msgid "{} to allow erasing of installed packages to resolve problems"
 msgstr ""
 
 #: main.cpp:1029
-#, c++-format
 msgid "{} to load additional filelists metadata"
 msgstr ""
 
 #: main.cpp:1036
-#, c++-format
 msgid "{} to skip uninstallable packages"
 msgstr ""
 
@@ -872,14 +835,12 @@ msgid "You can try to add to command line:"
 msgstr ""
 
 #: main.cpp:1060
-#, c++-format
 msgid ""
 "No matches were found for the following plugin name patterns while enabling "
 "libdnf plugins: {}"
 msgstr ""
 
 #: main.cpp:1061
-#, c++-format
 msgid ""
 "No matches were found for the following plugin name patterns while disabling "
 "libdnf plugins: {}"
