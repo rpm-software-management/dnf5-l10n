@@ -7,13 +7,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-02 02:52+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-05-07 13:36+0000\n"
+"Last-Translator: Pierre GRASSER <pierre.grasser@proton.me>\n"
+"Language-Team: French <https://translate.fedoraproject.org/projects/dnf5/"
+"libdnf5/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.5.2\n"
 
 #: advisory/advisory.cpp:81
 #, c++-format
@@ -21,17 +24,19 @@ msgid ""
 "Bad libsolv id for advisory \"{}\", solvable name \"{}\" doesn't have "
 "advisory prefix \"{}\""
 msgstr ""
+"Mauvais ID libsolv pour l'avertissement \"{}\", le nom résoluble \"{}\" ne "
+"commence pas par le préfixe d'avertissement \"{}\""
 
 #: base/goal.cpp:390
 #, c++-format
 msgid "Unsupported argument for REMOVE action: {}"
-msgstr ""
+msgstr "Argument non pris en charge pour l'action REMOVE : {}"
 
 #. TODO(lukash) throw a proper exception
 #: base/goal.cpp:1142
 #, c++-format
 msgid "Incorrect configuration value for multilib_policy: {}"
-msgstr ""
+msgstr "Valeur de configuration pour multilib_policy incorrecte : {}"
 
 #: base/log_event.cpp:142
 msgid "packages"
@@ -72,12 +77,12 @@ msgstr ""
 #: base/log_event.cpp:165
 #, c++-format
 msgid "No match for argument '{0}' in repositories '{1}'"
-msgstr ""
+msgstr "Aucune correspondance pour l'argument '{0}' dans les dépôts '{1}'"
 
 #: base/log_event.cpp:169
 #, c++-format
 msgid "Packages for argument '{}' available, but not installed."
-msgstr ""
+msgstr "Paquets pour l'argument '{}' disponibles mais pas installés."
 
 #: base/log_event.cpp:172
 #, c++-format
@@ -85,6 +90,8 @@ msgid ""
 "Packages for argument '{}' available, but installed for a different "
 "architecture."
 msgstr ""
+"Paquets pour l'argument '{}' disponibles mais installés pour une "
+"architecture différente."
 
 #: base/log_event.cpp:174
 #, c++-format
