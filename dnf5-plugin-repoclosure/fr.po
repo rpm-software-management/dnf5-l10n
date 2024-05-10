@@ -7,26 +7,29 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-10 02:52+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-05-11 02:51+0000\n"
+"Last-Translator: Pierre GRASSER <pierre.grasser@proton.me>\n"
+"Language-Team: French <https://translate.fedoraproject.org/projects/dnf5/"
+"dnf5-plugin-repoclosure/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.5.2\n"
 
 #: repoclosure.cpp:45
 msgid "Print list of unresolved dependencies for repositories"
-msgstr ""
+msgstr "Afficher la liste des dépendances des dépôts non résolues"
 
 #: repoclosure.cpp:154
 #, c++-format
 msgid "No match for argument \"{}\"."
-msgstr ""
+msgstr "Aucune correspondance pour l'argument \"{}\"."
 
 #: repoclosure.cpp:160
 msgid "Failed to resolve package specifications."
-msgstr ""
+msgstr "Échec de la résolution des spécifications de paquet."
 
 #: repoclosure.cpp:215
 #, c++-format
@@ -34,3 +37,5 @@ msgid ""
 "Error: Repoclosure ended with unresolved dependencies ({}) across {} "
 "packages."
 msgstr ""
+"Erreur : l'exécution de repoclosure s'est terminée avec des dépendances non "
+"résolues ({}) pour {} paquets."
