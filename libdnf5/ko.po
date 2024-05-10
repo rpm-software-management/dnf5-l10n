@@ -8,8 +8,9 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-02 02:52+0000\n"
-"PO-Revision-Date: 2024-05-10 00:48+0000\n"
-"Last-Translator: 김인수 <simmon@nplob.com>\n"
+"PO-Revision-Date: 2024-05-10 00:50+0000\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/ko/>\n"
 "Language: ko\n"
@@ -872,11 +873,11 @@ msgstr ""
 #: rpm/transaction.cpp:127
 #, c-format
 msgid "Error %i opening rpm database"
-msgstr ""
+msgstr "rpm 데이타베이스를 여는 동안 오류 %i가 발생했습니다"
 
 #: rpm/transaction.cpp:136
 msgid "The rpmdbCookie() function did not return cookie of rpm database."
-msgstr ""
+msgstr "rpmdbCookie() 함수는 rpm 데이타베이스의 쿠키를 반환하지 않습니다."
 
 #: rpm/transaction.cpp:201
 msgid "Failed to order the rpm transaction."
@@ -949,24 +950,24 @@ msgstr ""
 
 #: transaction/Swdb.cpp:91
 msgid "In progress"
-msgstr ""
+msgstr "진행 중"
 
 #: transaction/Swdb.cpp:99 transaction/Swdb.cpp:126 transaction/Swdb.cpp:136
 #: transaction/Swdb.cpp:150 transaction/Swdb.cpp:273 transaction/Swdb.cpp:281
 msgid "Not in progress"
-msgstr ""
+msgstr "진행 중이 아님"
 
 #: transaction/Swdb.cpp:158
 msgid "No transaction in progress"
-msgstr ""
+msgstr "진행 중인 연결 없음"
 
 #: transaction/Transformer.cpp:647
 msgid "Transformer: can't open history persist dir"
-msgstr ""
+msgstr "변형: persist dir 기록을 열 수 없습니다"
 
 #: transaction/Transformer.cpp:660
 msgid "Couldn't find a history database"
-msgstr ""
+msgstr "기록 데이타베이스를 찾을 수 없습니다"
 
 #. TODO(dmach): replace with a better exception class
 #: transaction/db/comps_environment_group.cpp:100
@@ -1026,7 +1027,7 @@ msgstr ""
 
 #: transaction/transaction_sr.cpp:88
 msgid "Invalid minor version: \"{}\", number expected."
-msgstr ""
+msgstr "잘못된 하위 버전 \"{minor}\", 번호가 예상됩니다."
 
 #: transaction/transaction_sr.cpp:91
 msgid "Missing key \"version\"."
