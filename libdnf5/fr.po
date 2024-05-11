@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-10 02:52+0000\n"
+"POT-Creation-Date: 2024-05-11 02:52+0000\n"
 "PO-Revision-Date: 2024-05-11 02:51+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -374,78 +374,79 @@ msgstr "le module {1} entre en conflit avec {0}, fourni par lui-même"
 msgid "both module {0} and {2} obsolete {1}"
 msgstr "les modules {0} et {2} rendent tous les deux {1} obsolète"
 
-#: base/solver_problems.cpp:326
+#: base/solver_problems.cpp:267
 msgid "Problem: "
 msgstr "Problème : "
 
-#: base/solver_problems.cpp:330
+#: base/solver_problems.cpp:271
 msgid "Problem {}: "
 msgstr "Problème {} : "
 
-#: base/transaction.cpp:74
+#: base/transaction.cpp:76
 msgid "This transaction has been already run before."
 msgstr "Cette transaction a déjà été exécutée par le passé."
 
-#: base/transaction.cpp:75
+#: base/transaction.cpp:77
 msgid "Cannot run transaction with resolving problems."
-msgstr "Impossible d'exécuter une transaction avec des problèmes de résolution."
+msgstr ""
+"Impossible d'exécuter une transaction avec des problèmes de résolution."
 
-#: base/transaction.cpp:76
+#: base/transaction.cpp:78
 msgid "Rpm transaction check failed."
 msgstr "Vérification de la transaction RPM échouée."
 
-#: base/transaction.cpp:78
+#: base/transaction.cpp:80
 msgid ""
 "Failed to obtain rpm transaction lock. Another transaction is in progress."
 msgstr ""
 "Impossible d'obtenir le verrou de transaction RPM. Une autre transaction est "
 "en cours."
 
-#: base/transaction.cpp:79
+#: base/transaction.cpp:81
 msgid "Rpm transaction failed."
 msgstr "Transaction RPM échouée."
 
-#: base/transaction.cpp:80
+#: base/transaction.cpp:82
 msgid "Signature verification failed."
 msgstr "Échec de la vérification de la signature."
 
-#: base/transaction.cpp:84
+#: base/transaction.cpp:86
 msgid "The repository does not have any PGP keys configured."
 msgstr "Le dépôt n'a aucune clé PGP configurée."
 
-#: base/transaction.cpp:85
+#: base/transaction.cpp:87
 msgid "Public key is not installed."
 msgstr "La clé publique n'est pas installée."
 
-#: base/transaction.cpp:86
+#: base/transaction.cpp:88
 msgid "Canceled by the user."
 msgstr "Annulé par l'utilisateur."
 
-#: base/transaction.cpp:87
+#: base/transaction.cpp:89
 msgid "Public key import failed."
 msgstr "Échec de l'importation de la clé publique."
 
-#: base/transaction.cpp:668
+#: base/transaction.cpp:885
 msgid "Invalid tsflag: {}"
 msgstr "tsflag invalide : {}"
 
-#: base/transaction.cpp:1002
+#: base/transaction.cpp:1219
 msgid "Public key \"{}\" is already present, not importing."
 msgstr "La clé publique \"{}\" est déjà présente, elle ne sera pas importée."
 
-#: base/transaction.cpp:1023
+#: base/transaction.cpp:1240
 msgid "An error occurred importing key \"{}\": {}"
 msgstr "Une erreur s'est produite lors de l'importation de la clé \"{}\" : {}"
 
-#: base/transaction.cpp:1056
+#: base/transaction.cpp:1273
 msgid "PGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
 msgstr "La vérification PGP du paquet \"{}\" ({}) du dépôt \"{}\" a échoué : "
 
-#: base/transaction.cpp:1083
+#: base/transaction.cpp:1300
 msgid "Import of the key didn't help, wrong key?"
 msgstr "L'importation de la clé n'a pas aidé, s'agissait-il de la bonne clé ?"
 
-#: base/transaction.cpp:1101
+#: base/transaction.cpp:1318
 msgid "Warning: skipped PGP checks for {} package(s)."
 msgstr "Attention : vérifications PGP ignorées pour {} paquet(s)."
 
@@ -558,8 +559,8 @@ msgstr "Valeur d'option numérique \"{}\" invalide"
 #: conf/option_path.cpp:93
 msgid "Only absolute paths allowed, relative path \"{}\" detected"
 msgstr ""
-"Seuls les chemins d'accès absolus sont autorisés, chemin d'accès relatif \"{}"
-"\" détecté"
+"Seuls les chemins d'accès absolus sont autorisés, chemin d'accès relatif "
+"\"{}\" détecté"
 
 #: conf/option_path.cpp:98
 msgid "Path \"{}\" does not exist"
@@ -663,7 +664,8 @@ msgstr "Échec de la mise à jour des flux : {}"
 
 #: module/module_sack.cpp:93
 msgid "Failed to load module metadata for repository \"{}\": {}"
-msgstr "Échec du chargement des métadonnées de module pour le dépôt \"{}\" : {}"
+msgstr ""
+"Échec du chargement des métadonnées de module pour le dépôt \"{}\" : {}"
 
 #: module/module_sack.cpp:594
 msgid "Missing '='"
@@ -712,7 +714,8 @@ msgstr "get_unique_id(): Échec du calcul du SHA256"
 
 #: repo/file_downloader.cpp:143
 msgid "Cannot download files, cacheonly option is activated."
-msgstr "Impossible de télécharger les fichiers, l'option cacheonly est activée."
+msgstr ""
+"Impossible de télécharger les fichiers, l'option cacheonly est activée."
 
 #: repo/file_downloader.cpp:204
 msgid "Failed to download files"
@@ -858,8 +861,8 @@ msgstr ""
 #: repo/solv_repo.cpp:377
 msgid "Failed to load {} extension for repo \"{}\" from \"{}\": {}"
 msgstr ""
-"Échec du chargement de l'extension {} pour le dépôt \"{}\" à partir de \"{}\""
-" : {}"
+"Échec du chargement de l'extension {} pour le dépôt \"{}\" à partir de "
+"\"{}\" : {}"
 
 #: repo/solv_repo.cpp:412
 msgid "Failed to load system repo from root \"{}\": {}"
@@ -878,8 +881,8 @@ msgstr ""
 #: repo/solv_repo.cpp:580
 msgid "Failed to re-load primary cache for repo \"{}\" from \"{}\": {}"
 msgstr ""
-"Échec du rechargement du cache primary pour le dépôt \"{}\" à partir de \"{}"
-"\" : {}"
+"Échec du rechargement du cache primary pour le dépôt \"{}\" à partir de "
+"\"{}\" : {}"
 
 #: repo/solv_repo.cpp:644
 msgid "Failed to write {} cache for repo \"{}\" to \"{}\": {}"
@@ -979,8 +982,8 @@ msgstr ""
 #: rpm/transaction.cpp:277
 msgid "Failed to read package header, cannot open file \"{}\": {}"
 msgstr ""
-"Échec de la lecture de l'en-tête de paquet, impossible d'ouvrir le fichier \""
-"{}\" : {}"
+"Échec de la lecture de l'en-tête de paquet, impossible d'ouvrir le fichier "
+"\"{}\" : {}"
 
 #: rpm/transaction.cpp:294
 msgid "Failed to read package header from file \"{}\""
@@ -1117,8 +1120,8 @@ msgstr "Format de version inattendu : \"{}\", version prise en charge : \"{}
 #: transaction/transaction_sr.cpp:81
 msgid "Incompatible major version: \"{}\", supported major version is \"{}\""
 msgstr ""
-"Version majeure incompatible : \"{}\", version majeure prise en charge : \"{}"
-"\""
+"Version majeure incompatible : \"{}\", version majeure prise en charge : "
+"\"{}\""
 
 #: transaction/transaction_sr.cpp:88
 msgid "Invalid minor version: \"{}\", number expected."
@@ -1130,7 +1133,8 @@ msgstr "Clé \"version\" manquante."
 
 #: transaction/transaction_sr.cpp:104
 msgid "Unexpected type of \"environments\", array expected."
-msgstr "Type de la variable \"environments\" inattendu, un tableau est attendu."
+msgstr ""
+"Type de la variable \"environments\" inattendu, un tableau est attendu."
 
 #: transaction/transaction_sr.cpp:112
 msgid "Missing object key \"id\" in an environment."
@@ -1304,8 +1308,8 @@ msgstr ""
 #: utils/sqlite3/sqlite3.cpp:33
 msgid "Binding integer64 value to SQL statement failed: \"{}\""
 msgstr ""
-"Échec de l'association d'une valeur de type integer64 à une déclaration SQL :"
-" \"{}\""
+"Échec de l'association d'une valeur de type integer64 à une déclaration "
+"SQL : \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:35
 msgid "Binding unsigned integer32 value to SQL statement failed: \"{}\""
@@ -1316,14 +1320,14 @@ msgstr ""
 #: utils/sqlite3/sqlite3.cpp:37
 msgid "Binding double value to SQL statement failed: \"{}\""
 msgstr ""
-"Échec de l'association d'une valeur de type double à une déclaration SQL : \""
-"{}\""
+"Échec de l'association d'une valeur de type double à une déclaration SQL : "
+"\"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:39
 msgid "Binding bool value to SQL statement failed: \"{}\""
 msgstr ""
-"Échec de l'association d'une valeur de type bool à une déclaration SQL : \"{}"
-"\""
+"Échec de l'association d'une valeur de type bool à une déclaration SQL : "
+"\"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:40
 msgid "Binding text to SQL statement failed: \"{}\""

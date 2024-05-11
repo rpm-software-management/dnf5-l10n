@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-10 02:52+0000\n"
+"POT-Creation-Date: 2024-05-11 02:52+0000\n"
 "PO-Revision-Date: 2024-02-06 09:36+0000\n"
 "Last-Translator: Petr Ptacek <petr106@atlas.cz>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf5/"
@@ -400,77 +400,77 @@ msgstr "balíček {1} je v konfliktu s {0} poskytovaným sebou samotným"
 msgid "both module {0} and {2} obsolete {1}"
 msgstr "oba balíčky {0} a {2} zastarávají {1}"
 
-#: base/solver_problems.cpp:326
+#: base/solver_problems.cpp:267
 msgid "Problem: "
 msgstr "Problém: "
 
-#: base/solver_problems.cpp:330
+#: base/solver_problems.cpp:271
 msgid "Problem {}: "
 msgstr "Problém {}: "
 
-#: base/transaction.cpp:74
+#: base/transaction.cpp:76
 msgid "This transaction has been already run before."
 msgstr "Tato transakce již proběhla dříve."
 
-#: base/transaction.cpp:75
+#: base/transaction.cpp:77
 msgid "Cannot run transaction with resolving problems."
 msgstr "Nelze spustit transakci s nevyřešenými problémy."
 
-#: base/transaction.cpp:76
+#: base/transaction.cpp:78
 msgid "Rpm transaction check failed."
 msgstr "Kontrola transakce Rpm se nezdařila."
 
-#: base/transaction.cpp:78
+#: base/transaction.cpp:80
 msgid ""
 "Failed to obtain rpm transaction lock. Another transaction is in progress."
 msgstr "Nepodařilo se získat zámek rpm transakce. Probíhá další transakce."
 
-#: base/transaction.cpp:79
+#: base/transaction.cpp:81
 msgid "Rpm transaction failed."
 msgstr "Transakce Rpm se nezdařila."
 
-#: base/transaction.cpp:80
+#: base/transaction.cpp:82
 msgid "Signature verification failed."
 msgstr "Ověření podpisu selhalo."
 
-#: base/transaction.cpp:84
+#: base/transaction.cpp:86
 msgid "The repository does not have any PGP keys configured."
 msgstr "Repozitář nemá nakonfigurované žádné klíče PGP."
 
-#: base/transaction.cpp:85
+#: base/transaction.cpp:87
 msgid "Public key is not installed."
 msgstr "Veřejný klíč není nainstalován."
 
-#: base/transaction.cpp:86
+#: base/transaction.cpp:88
 msgid "Canceled by the user."
 msgstr "Zrušeno uživatelem."
 
-#: base/transaction.cpp:87
+#: base/transaction.cpp:89
 msgid "Public key import failed."
 msgstr "Import veřejného klíče se nezdařil."
 
-#: base/transaction.cpp:668
+#: base/transaction.cpp:885
 msgid "Invalid tsflag: {}"
 msgstr "Neplatný tsflag: {}"
 
-#: base/transaction.cpp:1002
+#: base/transaction.cpp:1219
 msgid "Public key \"{}\" is already present, not importing."
 msgstr "Veřejný klíč \"{}\" již existuje, neimportuje se."
 
-#: base/transaction.cpp:1023
+#: base/transaction.cpp:1240
 msgid "An error occurred importing key \"{}\": {}"
 msgstr "Při importu klíče \"{}\" došlo k chybě: {}"
 
-#: base/transaction.cpp:1056
+#: base/transaction.cpp:1273
 msgid "PGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
 msgstr ""
 "Kontrola PGP pro balíček \"{}\" ({}) z repozitáře \"{}\" se nezdařila: "
 
-#: base/transaction.cpp:1083
+#: base/transaction.cpp:1300
 msgid "Import of the key didn't help, wrong key?"
 msgstr "Import klíče nepomohl, špatný klíč?"
 
-#: base/transaction.cpp:1101
+#: base/transaction.cpp:1318
 msgid "Warning: skipped PGP checks for {} package(s)."
 msgstr "Upozornění: vynechané PGP kontroly pro {} balík(y)."
 

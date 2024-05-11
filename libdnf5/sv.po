@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-10 02:52+0000\n"
+"POT-Creation-Date: 2024-05-11 02:52+0000\n"
 "PO-Revision-Date: 2024-05-02 02:52+0000\n"
 "Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -364,79 +364,79 @@ msgstr "modulen {1} står i konflikt med {0} som tillhandahålls av sig själv"
 msgid "both module {0} and {2} obsolete {1}"
 msgstr "både modulen {0} och {2} fasar ut {1}"
 
-#: base/solver_problems.cpp:326
+#: base/solver_problems.cpp:267
 msgid "Problem: "
 msgstr "Problem: "
 
-#: base/solver_problems.cpp:330
+#: base/solver_problems.cpp:271
 msgid "Problem {}: "
 msgstr "Problem {}: "
 
-#: base/transaction.cpp:74
+#: base/transaction.cpp:76
 msgid "This transaction has been already run before."
 msgstr "Denna transaktion har redan körts tidigare."
 
-#: base/transaction.cpp:75
+#: base/transaction.cpp:77
 msgid "Cannot run transaction with resolving problems."
 msgstr "Det går inte att köra transaktionen för att lösa problem."
 
-#: base/transaction.cpp:76
+#: base/transaction.cpp:78
 msgid "Rpm transaction check failed."
 msgstr "Rpm transaktionskontroll misslyckades."
 
-#: base/transaction.cpp:78
+#: base/transaction.cpp:80
 msgid ""
 "Failed to obtain rpm transaction lock. Another transaction is in progress."
 msgstr ""
 "Misslyckades att erhålla rpm-transaktionslås. Ytterligare en transaktion "
 "pågår."
 
-#: base/transaction.cpp:79
+#: base/transaction.cpp:81
 msgid "Rpm transaction failed."
 msgstr "Rpm-transaktion misslyckades."
 
-#: base/transaction.cpp:80
+#: base/transaction.cpp:82
 msgid "Signature verification failed."
 msgstr "Signaturverifiering misslyckades."
 
-#: base/transaction.cpp:84
+#: base/transaction.cpp:86
 msgid "The repository does not have any PGP keys configured."
 msgstr "Förrådet har inga PGP-nycklar konfigurerade."
 
-#: base/transaction.cpp:85
+#: base/transaction.cpp:87
 msgid "Public key is not installed."
 msgstr "Publik nyckel är inte installerad."
 
-#: base/transaction.cpp:86
+#: base/transaction.cpp:88
 msgid "Canceled by the user."
 msgstr "Avbröts av användaren."
 
-#: base/transaction.cpp:87
+#: base/transaction.cpp:89
 msgid "Public key import failed."
 msgstr "Import av publik nyckel misslyckades."
 
-#: base/transaction.cpp:668
+#: base/transaction.cpp:885
 msgid "Invalid tsflag: {}"
 msgstr "Ogiltig tsflag: {}"
 
-#: base/transaction.cpp:1002
+#: base/transaction.cpp:1219
 msgid "Public key \"{}\" is already present, not importing."
 msgstr "Publik nyckel \"{}\" finns redan, importerar inte."
 
-#: base/transaction.cpp:1023
+#: base/transaction.cpp:1240
 msgid "An error occurred importing key \"{}\": {}"
 msgstr "Ett fel uppstod vid import av nyckeln \"{}\": {}"
 
-#: base/transaction.cpp:1056
+#: base/transaction.cpp:1273
 msgid "PGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
 msgstr ""
 "PGP-kontroll för paket \"{}\" ({}) från förråd \"{}\" har misslyckats: "
 
-#: base/transaction.cpp:1083
+#: base/transaction.cpp:1300
 msgid "Import of the key didn't help, wrong key?"
 msgstr "Importen av nyckeln hjälpte inte, fel nyckel?"
 
-#: base/transaction.cpp:1101
+#: base/transaction.cpp:1318
 msgid "Warning: skipped PGP checks for {} package(s)."
 msgstr "Varning: hoppade över PGP-kontroller för {} paket."
 
