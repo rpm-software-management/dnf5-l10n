@@ -7,144 +7,156 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-11 02:52+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-05-12 14:35+0000\n"
+"Last-Translator: Pierre GRASSER <pierre.grasser@proton.me>\n"
+"Language-Team: French <https://translate.fedoraproject.org/projects/dnf5/"
+"libdnf5-cli/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.5.2\n"
 
 #: argument_parser.cpp:62
 #, c++-format
 msgid "\"{}\" not allowed together with named argument \"{}\""
-msgstr ""
+msgstr "\"{}\" non autorisé avec l'argument nommé \"{}\""
 
 #: argument_parser.cpp:64
 #, c++-format
 msgid "\"{}\" not allowed in command \"{}\""
-msgstr ""
+msgstr "\"{}\" non autorisé dans la commande \"{}\""
 
 #: argument_parser.cpp:66
 #, c++-format
 msgid "\"{}\" not allowed together with positional argument \"{}\""
-msgstr ""
+msgstr "\"{}\" non autorisé avec l'argument positionnel \"{}\""
 
 #: argument_parser.cpp:110
 #, c++-format
 msgid "Argument id \"{}\" already registered in group \"{}\""
-msgstr ""
+msgstr "ID d'argument \"{}\" déjà enregistré dans le groupe \"{}\""
 
 #: argument_parser.cpp:237
 #, c++-format
 msgid "Invalid character '.' in argument id \"{}\""
-msgstr ""
+msgstr "Caractère '.' invalide dans l'ID d'argument \"{}\""
 
 #: argument_parser.cpp:345 argument_parser.cpp:350
 #, c++-format
 msgid "Too few values for positional argument \"{}\""
-msgstr ""
+msgstr "Valeurs trop peu nombreuses pour l'argument positionnel \"{}\""
 
 #: argument_parser.cpp:511
 #, c++-format
 msgid "Missing value for named argument \"--{}\""
-msgstr ""
+msgstr "Valeur manquante pour l'argument nommé \"--{}\""
 
 #: argument_parser.cpp:519
 #, c++-format
 msgid "Unexpected value for named argumend \"--{}\""
-msgstr ""
+msgstr "Valeur inattendue pour l'argument nommé \"--{}\""
 
 #: argument_parser.cpp:561
 #, c++-format
 msgid "Missing value for named argument \"-{}\""
-msgstr ""
+msgstr "Valeur manquante pour l'argument nommé \"-{}\""
 
 #. print usage
 #: argument_parser.cpp:657
 msgid "Usage:"
-msgstr ""
+msgstr "Utilisation :"
 
 #: argument_parser.cpp:665
 msgid "Description:"
-msgstr ""
+msgstr "Description :"
 
 #: argument_parser.cpp:915
 #, c++-format
 msgid "Command id \"{}\" already registered for command \"{}\""
-msgstr ""
+msgstr "ID de commande \"{}\" déjà enregistré pour la commande \"{}\""
 
 #: argument_parser.cpp:926
 #, c++-format
 msgid "Named argument id \"{}\" already registered for command \"{}\""
-msgstr ""
+msgstr "ID d'argument nommé \"{}\" déjà enregistré pour la commande \"{}\""
 
 #: argument_parser.cpp:936
 #, c++-format
 msgid "Positional argument id \"{}\" already registered for command \"{}\""
 msgstr ""
+"ID d'argument positionnel \"{}\" déjà enregistré pour la commande \"{}\""
 
 #: argument_parser.cpp:946
 #, c++-format
 msgid "Group id \"{}\" already registered for command \"{}\""
-msgstr ""
+msgstr "ID de groupe \"{}\" déjà enregistré pour la commande \"{}\""
 
 #: argument_parser.cpp:973
 #, c++-format
 msgid "Command id \"{}\" does not contain subcommand with id \"{}\""
 msgstr ""
+"La commande ayant pour ID \"{}\" ne contient pas de sous-commande avec \"{}\""
+" pour ID"
 
 #: argument_parser.cpp:981
 #, c++-format
 msgid "Command id \"{}\" does not contain named argument with id \"{}\""
 msgstr ""
+"La commande ayant pour ID \"{}\" ne contient pas d'argument nommé avec \"{}\""
+" pour ID"
 
 #: argument_parser.cpp:989
 #, c++-format
 msgid "Command id \"{}\" does not contain positional argument with id \"{}\""
 msgstr ""
+"La commande ayant pour ID \"{}\" ne contient paas d'argument positionnel "
+"avec \"{}\" pour ID"
 
 #: argument_parser.cpp:996
 #, c++-format
 msgid "Command id \"{}\" does not contain group with id \"{}\""
 msgstr ""
+"La commande ayant pour ID \"{}\" ne contient pas de groupe avec \"{}\" pour "
+"ID"
 
 #: argument_parser.cpp:1103 argument_parser.cpp:1307
 #, c++-format
 msgid "Unknown argument \"{}\" for command \"{}\""
-msgstr ""
+msgstr "Argument \"{}\" inconnu pour la commande \"{}\""
 
 #: argument_parser.cpp:1118 argument_parser.cpp:1322
 #, c++-format
 msgid "Missing positional argument \"{}\" for command \"{}\""
-msgstr ""
+msgstr "Argument positionnel \"{}\" manquant pour la commande \"{}\""
 
 #: argument_parser.cpp:1525
 #, c++-format
 msgid "Named argument with path id \"{}\" not found"
-msgstr ""
+msgstr "Argument nommé avec pour ID de chemin \"{}\" introuvable"
 
 #: argument_parser.cpp:1535
 #, c++-format
 msgid "Positional argument with path id \"{}\" not found"
-msgstr ""
+msgstr "Argument positionnel avec pour ID de chemin \"{}\" introuvable"
 
 #: exception.cpp:30
 msgid "Operation aborted by the user."
-msgstr ""
+msgstr "Opération interrompue par l'utilisateur."
 
 #: exception.cpp:33
 msgid "Failed to resolve the transaction"
-msgstr ""
+msgstr "Échec de la résolution de la transaction"
 
 #: output/moduleinfo.cpp:36
 msgid "Hint: [d]efault, [e]nabled, [x]disabled, [i]nstalled, [a]ctive"
-msgstr ""
+msgstr "Astuce : par [d]éfaut, [e]activé, [x]désactivé, [i]nstallé, [a]ctif"
 
 #: output/modulelist.cpp:39
 msgid "Hint: [d]efault, [e]nabled, [x]disabled, [i]nstalled"
-msgstr ""
+msgstr "Astuce : par [d]éfaut, [e]activé, [x]désactivé, [i]nstallé"
 
 #: session.cpp:149
 msgid "Missing command"
-msgstr ""
+msgstr "Commande manquante"
