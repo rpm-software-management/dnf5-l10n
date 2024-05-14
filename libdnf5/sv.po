@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-11 02:52+0000\n"
+"POT-Creation-Date: 2024-05-14 02:52+0000\n"
 "PO-Revision-Date: 2024-05-02 02:52+0000\n"
 "Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -38,47 +38,51 @@ msgstr "Argument som inte stöds för TA BORT åtgärd: {}"
 msgid "Incorrect configuration value for multilib_policy: {}"
 msgstr "Felaktigt konfigurationsvärde för multilib_policy: {}"
 
-#: base/log_event.cpp:142
-msgid "packages"
-msgstr "paket"
-
-#: base/log_event.cpp:145
-msgid "groups"
-msgstr "grupper"
-
-#: base/log_event.cpp:148
-msgid "environmental groups"
-msgstr "miljögrupper"
-
-#: base/log_event.cpp:151
-msgid "modules"
-msgstr "moduler"
-
-#: base/log_event.cpp:154
-msgid "No {} to remove for argument: {}"
+#: base/log_event.cpp:141
+#, fuzzy
+#| msgid "No {} to remove for argument: {}"
+msgid "No packages to remove for argument: {}"
 msgstr "Inget {} att ta bort för argument: {}"
 
-#: base/log_event.cpp:157
+#: base/log_event.cpp:143
+#, fuzzy
+#| msgid "No {} to remove for argument: {}"
+msgid "No groups to remove for argument: {}"
+msgstr "Inget {} att ta bort för argument: {}"
+
+#: base/log_event.cpp:146
+#, fuzzy
+#| msgid "No {} to remove for argument: {}"
+msgid "No environmental groups to remove for argument: {}"
+msgstr "Inget {} att ta bort för argument: {}"
+
+#: base/log_event.cpp:148
+#, fuzzy
+#| msgid "No {} to remove for argument: {}"
+msgid "No modules to remove for argument: {}"
+msgstr "Inget {} att ta bort för argument: {}"
+
+#: base/log_event.cpp:152
 msgid "No match for group from environment: {}"
 msgstr "Ingen matchning för grupp från miljö: {}"
 
-#: base/log_event.cpp:159
+#: base/log_event.cpp:154
 msgid "No match for group package: {}"
 msgstr "Ingen matchning för grupppaket: {}"
 
-#: base/log_event.cpp:162
+#: base/log_event.cpp:157
 msgid "No match for argument: {}"
 msgstr "Ingen matchning för argument: {}"
 
-#: base/log_event.cpp:165
+#: base/log_event.cpp:160
 msgid "No match for argument '{0}' in repositories '{1}'"
 msgstr "Ingen matchning för argumentet '{0}' i förråd '{1}'"
 
-#: base/log_event.cpp:169
+#: base/log_event.cpp:164
 msgid "Packages for argument '{}' available, but not installed."
 msgstr "Paket för argumentet '{}' tillgängliga, men inte installerade."
 
-#: base/log_event.cpp:172
+#: base/log_event.cpp:167
 msgid ""
 "Packages for argument '{}' available, but installed for a different "
 "architecture."
@@ -86,27 +90,27 @@ msgstr ""
 "Paket för argumentet '{}' tillgängliga, men installerade för en annan "
 "arkitektur."
 
-#: base/log_event.cpp:174
+#: base/log_event.cpp:169
 msgid "Argument '{}' matches only source packages."
 msgstr "Argumentet '{}' matchar endast källpaket."
 
-#: base/log_event.cpp:176
+#: base/log_event.cpp:171
 msgid "Argument '{}' matches only excluded packages."
 msgstr "Argumentet '{}' matchar endast exkluderade paket."
 
-#: base/log_event.cpp:178
+#: base/log_event.cpp:173
 msgid "Argument '{}' matches only packages excluded by versionlock."
 msgstr "Argumentet '{}' matchar endast paket som exkluderas av versionslås."
 
-#: base/log_event.cpp:183
+#: base/log_event.cpp:178
 msgid "  * Maybe you meant: {}"
 msgstr "  *  Du kanske menade: {}"
 
-#: base/log_event.cpp:186
+#: base/log_event.cpp:181
 msgid "There are following alternatives for '{0}': {1}"
 msgstr "Det finns följande alternativ för '{0}': {1}"
 
-#: base/log_event.cpp:193
+#: base/log_event.cpp:188
 msgid ""
 "The lowest available version of the \"{}\" package is already installed, "
 "cannot downgrade it."
@@ -114,7 +118,7 @@ msgstr ""
 "Den lägsta tillgängliga versionen av \"{}\"-paketet är redan installerad, "
 "kan inte nedgradera det."
 
-#: base/log_event.cpp:199
+#: base/log_event.cpp:194
 msgid ""
 "Packages for argument '{}' installed and available, but in a different "
 "version => cannot reinstall"
@@ -122,60 +126,80 @@ msgstr ""
 "Paket för argument '{}' installerade och tillgängliga, men i en annan "
 "version => kan inte installera om"
 
-#: base/log_event.cpp:204
+#: base/log_event.cpp:199
 msgid ""
 "Packages for argument '{}' installed and available, but in a different "
 "version."
 msgstr ""
 "Paket för argument'{}' installerade och tillgängliga, men i en annan version."
 
-#: base/log_event.cpp:206
+#: base/log_event.cpp:201
 msgid "Packages for argument '{}' installed, but not available."
 msgstr "Paket för argument '{}' installerade, men inte tillgängliga."
 
-#: base/log_event.cpp:215
+#: base/log_event.cpp:210
 msgid "Package \"{}\" is already installed with reason \"{}\"."
 msgstr "Paketet \"{}\" är redan installerat med anledningen \"{}\"."
 
-#: base/log_event.cpp:217
+#: base/log_event.cpp:212
 msgid "Package \"{}\" is already installed."
 msgstr "Paketet \"{}\" är redan installerat."
 
-#: base/log_event.cpp:226
+#: base/log_event.cpp:221
 msgid "Debug data written to \"{}\""
 msgstr "Felsöknings data har skrivits till \"{}\""
 
-#: base/log_event.cpp:229
+#: base/log_event.cpp:224
 msgid "{} action for argument \"{}\" is not supported."
 msgstr "{} åtgärd för argument \"{}\" stöds inte."
 
-#: base/log_event.cpp:241
+#. Format a leading line of the error message.
+#: base/log_event.cpp:233
+#, fuzzy
+#| msgid "Unable to resolve argument '{}':{}"
+msgid "Unable to resolve argument '{}':"
+msgstr "Kunde inte lösa argumentet '{}':{}"
+
+#: base/log_event.cpp:237
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "  - Argument '{}' matches {} streams ('{}') of module '{}', but none of "
+#| "the streams are enabled or default."
 msgid ""
+"\n"
+"  - Argument '{}' matches {} stream ('{}') of module '{}', but the stream is "
+"not enabled or default."
+msgid_plural ""
 "\n"
 "  - Argument '{}' matches {} streams ('{}') of module '{}', but none of the "
 "streams are enabled or default."
-msgstr ""
+msgstr[0] ""
+"\n"
+"  - Argument '{}' matchar {} strömmar ('{}') av modul '{}', men ingen av "
+"strömmarna är aktiverade eller standard."
+msgstr[1] ""
 "\n"
 "  - Argument '{}' matchar {} strömmar ('{}') av modul '{}', men ingen av "
 "strömmarna är aktiverade eller standard."
 
-#: base/log_event.cpp:249
-msgid "Unable to resolve argument '{}':{}"
-msgstr "Kunde inte lösa argumentet '{}':{}"
+#: base/log_event.cpp:244
+msgid "', '"
+msgstr ""
 
-#: base/log_event.cpp:255
+#: base/log_event.cpp:253
 msgid "Modular dependency problems:\n"
 msgstr "Modulärt beroendeproblem:\n"
 
-#: base/log_event.cpp:262
+#: base/log_event.cpp:260
 msgid "Modular dependency problems with the latest modules:\n"
 msgstr "Modulärt beroendeproblem med de senaste modulerna:\n"
 
-#: base/log_event.cpp:269
+#: base/log_event.cpp:267
 msgid "Modular dependency problems with the defaults:\n"
 msgstr "Modulärt beroendeproblem med standarderna:\n"
 
-#: base/log_event.cpp:284
+#: base/log_event.cpp:282
 msgid ""
 "The operation would result in switching of module '{0}' stream '{1}' to "
 "stream '{2}'\n"
@@ -183,7 +207,7 @@ msgstr ""
 "Åtgärden skulle resultera i byte av modulen ”{0}” ström ”{1}” till ström "
 "”{2}”\n"
 
-#: base/log_event.cpp:289
+#: base/log_event.cpp:287
 msgid ""
 "Error: It is not possible to switch enabled streams of a module unless "
 "explicitly enabled via configuration option module_stream_switch."
@@ -1311,6 +1335,18 @@ msgstr "Misslyckades med att säkerhetskopiera databas \"{}\" till \"{}\""
 #: utils/sqlite3/sqlite3.cpp:158
 msgid "Failed to restore database \"{}\""
 msgstr "Misslyckades med att återställa databas \"{}\""
+
+#~ msgid "packages"
+#~ msgstr "paket"
+
+#~ msgid "groups"
+#~ msgstr "grupper"
+
+#~ msgid "environmental groups"
+#~ msgstr "miljögrupper"
+
+#~ msgid "modules"
+#~ msgstr "moduler"
 
 #~ msgid "Failed to resolve modules."
 #~ msgstr "Misslyckades med att lösa moduler."

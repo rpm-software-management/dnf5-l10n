@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-11 02:52+0000\n"
+"POT-Creation-Date: 2024-05-14 02:52+0000\n"
 "PO-Revision-Date: 2024-05-10 02:51+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
@@ -34,140 +34,155 @@ msgstr ""
 msgid "Incorrect configuration value for multilib_policy: {}"
 msgstr ""
 
-#: base/log_event.cpp:142
-msgid "packages"
-msgstr "꾸러미"
+#: base/log_event.cpp:141
+#, fuzzy
+#| msgid "No match for argument: {}"
+msgid "No packages to remove for argument: {}"
+msgstr "일치하는 인수가 없습니다 :{}"
 
-#: base/log_event.cpp:145
-msgid "groups"
-msgstr "그룹"
+#: base/log_event.cpp:143
+#, fuzzy
+#| msgid "No match for argument: {}"
+msgid "No groups to remove for argument: {}"
+msgstr "일치하는 인수가 없습니다 :{}"
+
+#: base/log_event.cpp:146
+#, fuzzy
+#| msgid "No match for argument: {}"
+msgid "No environmental groups to remove for argument: {}"
+msgstr "일치하는 인수가 없습니다 :{}"
 
 #: base/log_event.cpp:148
-msgid "environmental groups"
-msgstr ""
+#, fuzzy
+#| msgid "No match for argument: {}"
+msgid "No modules to remove for argument: {}"
+msgstr "일치하는 인수가 없습니다 :{}"
 
-#: base/log_event.cpp:151
-msgid "modules"
-msgstr "모듈"
-
-#: base/log_event.cpp:154
-msgid "No {} to remove for argument: {}"
-msgstr ""
-
-#: base/log_event.cpp:157
+#: base/log_event.cpp:152
 msgid "No match for group from environment: {}"
 msgstr ""
 
-#: base/log_event.cpp:159
+#: base/log_event.cpp:154
 msgid "No match for group package: {}"
 msgstr "그룹 꾸러미를 위해 일치하는 항목이 없습니다: {}"
 
-#: base/log_event.cpp:162
+#: base/log_event.cpp:157
 msgid "No match for argument: {}"
 msgstr "일치하는 인수가 없습니다 :{}"
 
-#: base/log_event.cpp:165
+#: base/log_event.cpp:160
 msgid "No match for argument '{0}' in repositories '{1}'"
 msgstr ""
 
-#: base/log_event.cpp:169
+#: base/log_event.cpp:164
 msgid "Packages for argument '{}' available, but not installed."
 msgstr ""
 
-#: base/log_event.cpp:172
+#: base/log_event.cpp:167
 msgid ""
 "Packages for argument '{}' available, but installed for a different "
 "architecture."
 msgstr ""
 
-#: base/log_event.cpp:174
+#: base/log_event.cpp:169
 msgid "Argument '{}' matches only source packages."
 msgstr ""
 
-#: base/log_event.cpp:176
+#: base/log_event.cpp:171
 msgid "Argument '{}' matches only excluded packages."
 msgstr ""
 
-#: base/log_event.cpp:178
+#: base/log_event.cpp:173
 msgid "Argument '{}' matches only packages excluded by versionlock."
 msgstr ""
 
-#: base/log_event.cpp:183
+#: base/log_event.cpp:178
 msgid "  * Maybe you meant: {}"
 msgstr "  * 다음을 의미 할 수도 있습니다: {}"
 
-#: base/log_event.cpp:186
+#: base/log_event.cpp:181
 msgid "There are following alternatives for '{0}': {1}"
 msgstr "다음 대안이 있습니다 '{0}': {1}"
 
-#: base/log_event.cpp:193
+#: base/log_event.cpp:188
 msgid ""
 "The lowest available version of the \"{}\" package is already installed, "
 "cannot downgrade it."
 msgstr ""
 
-#: base/log_event.cpp:199
+#: base/log_event.cpp:194
 msgid ""
 "Packages for argument '{}' installed and available, but in a different "
 "version => cannot reinstall"
 msgstr ""
 
-#: base/log_event.cpp:204
+#: base/log_event.cpp:199
 msgid ""
 "Packages for argument '{}' installed and available, but in a different "
 "version."
 msgstr ""
 
-#: base/log_event.cpp:206
+#: base/log_event.cpp:201
 msgid "Packages for argument '{}' installed, but not available."
 msgstr ""
 
-#: base/log_event.cpp:215
+#: base/log_event.cpp:210
 msgid "Package \"{}\" is already installed with reason \"{}\"."
 msgstr ""
 
-#: base/log_event.cpp:217
+#: base/log_event.cpp:212
 msgid "Package \"{}\" is already installed."
 msgstr ""
 
-#: base/log_event.cpp:226
+#: base/log_event.cpp:221
 msgid "Debug data written to \"{}\""
 msgstr ""
 
-#: base/log_event.cpp:229
+#: base/log_event.cpp:224
 msgid "{} action for argument \"{}\" is not supported."
 msgstr ""
 
-#: base/log_event.cpp:241
+#. Format a leading line of the error message.
+#: base/log_event.cpp:233
+#, fuzzy
+#| msgid "Unable to resolve argument '{}':{}"
+msgid "Unable to resolve argument '{}':"
+msgstr "인수를 해결 할 수 없습니다 '{}':{}"
+
+#: base/log_event.cpp:237
 msgid ""
+"\n"
+"  - Argument '{}' matches {} stream ('{}') of module '{}', but the stream is "
+"not enabled or default."
+msgid_plural ""
 "\n"
 "  - Argument '{}' matches {} streams ('{}') of module '{}', but none of the "
 "streams are enabled or default."
+msgstr[0] ""
+
+#: base/log_event.cpp:244
+msgid "', '"
 msgstr ""
 
-#: base/log_event.cpp:249
-msgid "Unable to resolve argument '{}':{}"
-msgstr "인수를 해결 할 수 없습니다 '{}':{}"
-
-#: base/log_event.cpp:255
+#: base/log_event.cpp:253
 msgid "Modular dependency problems:\n"
 msgstr ""
 
-#: base/log_event.cpp:262
+#: base/log_event.cpp:260
 msgid "Modular dependency problems with the latest modules:\n"
 msgstr ""
 
-#: base/log_event.cpp:269
+#: base/log_event.cpp:267
 msgid "Modular dependency problems with the defaults:\n"
 msgstr ""
 
-#: base/log_event.cpp:284
+#: base/log_event.cpp:282
 msgid ""
 "The operation would result in switching of module '{0}' stream '{1}' to "
 "stream '{2}'\n"
 msgstr "이 작업은 '{0}' 모듈을 '{1}' 스트림에서 ‘{2}' 스트림으로 전환합니다\n"
 
-#: base/log_event.cpp:289
+#: base/log_event.cpp:287
 msgid ""
 "Error: It is not possible to switch enabled streams of a module unless "
 "explicitly enabled via configuration option module_stream_switch."
@@ -1259,3 +1274,12 @@ msgstr ""
 #: utils/sqlite3/sqlite3.cpp:158
 msgid "Failed to restore database \"{}\""
 msgstr ""
+
+#~ msgid "packages"
+#~ msgstr "꾸러미"
+
+#~ msgid "groups"
+#~ msgstr "그룹"
+
+#~ msgid "modules"
+#~ msgstr "모듈"

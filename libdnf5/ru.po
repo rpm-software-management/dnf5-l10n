@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-11 02:52+0000\n"
+"POT-Creation-Date: 2024-05-14 02:52+0000\n"
 "PO-Revision-Date: 2024-04-19 02:40+0000\n"
 "Last-Translator: Aleksey Fedorov <aleksejfedorov963@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -36,75 +36,79 @@ msgstr "Неподдерживаемый аргумент для действи�
 msgid "Incorrect configuration value for multilib_policy: {}"
 msgstr "Неверное значение конфигурации для multilib_policy: {}"
 
-#: base/log_event.cpp:142
-msgid "packages"
-msgstr "пакеты"
-
-#: base/log_event.cpp:145
-msgid "groups"
-msgstr "группы"
-
-#: base/log_event.cpp:148
-msgid "environmental groups"
-msgstr "группы среды"
-
-#: base/log_event.cpp:151
-msgid "modules"
-msgstr "модули"
-
-#: base/log_event.cpp:154
-msgid "No {} to remove for argument: {}"
+#: base/log_event.cpp:141
+#, fuzzy
+#| msgid "No {} to remove for argument: {}"
+msgid "No packages to remove for argument: {}"
 msgstr "Нет {} для удаления аргумента: {}"
 
-#: base/log_event.cpp:157
+#: base/log_event.cpp:143
+#, fuzzy
+#| msgid "No {} to remove for argument: {}"
+msgid "No groups to remove for argument: {}"
+msgstr "Нет {} для удаления аргумента: {}"
+
+#: base/log_event.cpp:146
+#, fuzzy
+#| msgid "No {} to remove for argument: {}"
+msgid "No environmental groups to remove for argument: {}"
+msgstr "Нет {} для удаления аргумента: {}"
+
+#: base/log_event.cpp:148
+#, fuzzy
+#| msgid "No {} to remove for argument: {}"
+msgid "No modules to remove for argument: {}"
+msgstr "Нет {} для удаления аргумента: {}"
+
+#: base/log_event.cpp:152
 msgid "No match for group from environment: {}"
 msgstr "Нет совпадений для группы из среды: {}"
 
-#: base/log_event.cpp:159
+#: base/log_event.cpp:154
 msgid "No match for group package: {}"
 msgstr "Нет соответствия для группового пакета: {}"
 
-#: base/log_event.cpp:162
+#: base/log_event.cpp:157
 msgid "No match for argument: {}"
 msgstr "Нет соответствия для аргумента: {}"
 
-#: base/log_event.cpp:165
+#: base/log_event.cpp:160
 msgid "No match for argument '{0}' in repositories '{1}'"
 msgstr "Нет соответствия для аргумента '{0}' в репозиториях '{1}'"
 
-#: base/log_event.cpp:169
+#: base/log_event.cpp:164
 msgid "Packages for argument '{}' available, but not installed."
 msgstr "Пакеты для аргумента '{}' доступны, но не установлены."
 
-#: base/log_event.cpp:172
+#: base/log_event.cpp:167
 msgid ""
 "Packages for argument '{}' available, but installed for a different "
 "architecture."
 msgstr ""
 "Пакеты для аргумента '{}' доступны, но установлены для другой архитектуры."
 
-#: base/log_event.cpp:174
+#: base/log_event.cpp:169
 msgid "Argument '{}' matches only source packages."
 msgstr "Аргумент '{}' соответствует только исходным пакетам."
 
-#: base/log_event.cpp:176
+#: base/log_event.cpp:171
 msgid "Argument '{}' matches only excluded packages."
 msgstr "Аргумент '{}' соответствует только исключенным пакетам."
 
-#: base/log_event.cpp:178
+#: base/log_event.cpp:173
 msgid "Argument '{}' matches only packages excluded by versionlock."
 msgstr ""
 "Аргумент '{}' соответствует только пакетам, исключенным блокировкой версий."
 
-#: base/log_event.cpp:183
+#: base/log_event.cpp:178
 msgid "  * Maybe you meant: {}"
 msgstr "  * Возможно, вы имели в виду: {}"
 
-#: base/log_event.cpp:186
+#: base/log_event.cpp:181
 msgid "There are following alternatives for '{0}': {1}"
 msgstr "Существуют следующие альтернативы для '{0}': {1}"
 
-#: base/log_event.cpp:193
+#: base/log_event.cpp:188
 msgid ""
 "The lowest available version of the \"{}\" package is already installed, "
 "cannot downgrade it."
@@ -112,7 +116,7 @@ msgstr ""
 "Самая низкая доступная версия пакета \"{}\" уже установлена, понизить её "
 "невозможно."
 
-#: base/log_event.cpp:199
+#: base/log_event.cpp:194
 msgid ""
 "Packages for argument '{}' installed and available, but in a different "
 "version => cannot reinstall"
@@ -120,66 +124,90 @@ msgstr ""
 "Пакеты для аргумента '{}' установлены и доступны, но в другой версии => "
 "невозможно переустановить"
 
-#: base/log_event.cpp:204
+#: base/log_event.cpp:199
 msgid ""
 "Packages for argument '{}' installed and available, but in a different "
 "version."
 msgstr "Пакеты для аргумента '{}' установлены и доступны, но в другой версии."
 
-#: base/log_event.cpp:206
+#: base/log_event.cpp:201
 msgid "Packages for argument '{}' installed, but not available."
 msgstr "Пакеты для аргумента '{}' установлены, но недоступны."
 
-#: base/log_event.cpp:215
+#: base/log_event.cpp:210
 msgid "Package \"{}\" is already installed with reason \"{}\"."
 msgstr "Пакет \"{}\" уже установлен по причине \"{}\"."
 
-#: base/log_event.cpp:217
+#: base/log_event.cpp:212
 msgid "Package \"{}\" is already installed."
 msgstr "Пакет \"{}\" уже установлен."
 
-#: base/log_event.cpp:226
+#: base/log_event.cpp:221
 msgid "Debug data written to \"{}\""
 msgstr "Отладочные данные записаны в \"{}\""
 
-#: base/log_event.cpp:229
+#: base/log_event.cpp:224
 msgid "{} action for argument \"{}\" is not supported."
 msgstr "Действие {} для аргумента \"{}\" не поддерживается."
 
-#: base/log_event.cpp:241
+#. Format a leading line of the error message.
+#: base/log_event.cpp:233
+#, fuzzy
+#| msgid "Unable to resolve argument '{}':{}"
+msgid "Unable to resolve argument '{}':"
+msgstr "Невозможно разрешить аргумент '{}':{}"
+
+#: base/log_event.cpp:237
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "  - Argument '{}' matches {} streams ('{}') of module '{}', but none of "
+#| "the streams are enabled or default."
 msgid ""
+"\n"
+"  - Argument '{}' matches {} stream ('{}') of module '{}', but the stream is "
+"not enabled or default."
+msgid_plural ""
 "\n"
 "  - Argument '{}' matches {} streams ('{}') of module '{}', but none of the "
 "streams are enabled or default."
-msgstr ""
+msgstr[0] ""
+"\n"
+"  - Аргумент '{}' соответствует {} потокам ('{}') модуля '{}', но ни один из "
+"потоков не включен и не используется по умолчанию."
+msgstr[1] ""
+"\n"
+"  - Аргумент '{}' соответствует {} потокам ('{}') модуля '{}', но ни один из "
+"потоков не включен и не используется по умолчанию."
+msgstr[2] ""
 "\n"
 "  - Аргумент '{}' соответствует {} потокам ('{}') модуля '{}', но ни один из "
 "потоков не включен и не используется по умолчанию."
 
-#: base/log_event.cpp:249
-msgid "Unable to resolve argument '{}':{}"
-msgstr "Невозможно разрешить аргумент '{}':{}"
+#: base/log_event.cpp:244
+msgid "', '"
+msgstr ""
 
-#: base/log_event.cpp:255
+#: base/log_event.cpp:253
 msgid "Modular dependency problems:\n"
 msgstr "Проблемы с модульными зависимостями:\n"
 
-#: base/log_event.cpp:262
+#: base/log_event.cpp:260
 msgid "Modular dependency problems with the latest modules:\n"
 msgstr "Проблемы с модульными зависимостями с последними модулями:\n"
 
-#: base/log_event.cpp:269
+#: base/log_event.cpp:267
 msgid "Modular dependency problems with the defaults:\n"
 msgstr "Проблемы с модульными зависимостями с настройками по умолчанию:\n"
 
-#: base/log_event.cpp:284
+#: base/log_event.cpp:282
 msgid ""
 "The operation would result in switching of module '{0}' stream '{1}' to "
 "stream '{2}'\n"
 msgstr ""
 "Операция приведет к переключению модуля '{0}' потока '{1}' на поток '{2}'\n"
 
-#: base/log_event.cpp:289
+#: base/log_event.cpp:287
 msgid ""
 "Error: It is not possible to switch enabled streams of a module unless "
 "explicitly enabled via configuration option module_stream_switch."
@@ -1321,6 +1349,18 @@ msgstr "Не удалось создать резервную копию баз�
 #: utils/sqlite3/sqlite3.cpp:158
 msgid "Failed to restore database \"{}\""
 msgstr "Не удалось восстановить базу данных \"{}\""
+
+#~ msgid "packages"
+#~ msgstr "пакеты"
+
+#~ msgid "groups"
+#~ msgstr "группы"
+
+#~ msgid "environmental groups"
+#~ msgstr "группы среды"
+
+#~ msgid "modules"
+#~ msgstr "модули"
 
 #~ msgid "Failed to resolve modules."
 #~ msgstr "Не удалось разрешить модули."
