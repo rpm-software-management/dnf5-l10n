@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-11 02:52+0000\n"
+"POT-Creation-Date: 2024-05-14 02:52+0000\n"
 "PO-Revision-Date: 2024-05-12 14:35+0000\n"
 "Last-Translator: Pierre GRASSER <pierre.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf5/"
@@ -73,7 +73,8 @@ msgstr "Liste des motifs à rechercher dans les noms d'avertissements."
 
 #: commands/advisory/arguments.hpp:95
 msgid "Show only advisories referencing a bugzilla."
-msgstr "Afficher uniquement les avertissements faisant référence à un bugzilla."
+msgstr ""
+"Afficher uniquement les avertissements faisant référence à un bugzilla."
 
 #: commands/advisory/arguments.hpp:102
 msgid "Show only advisories referencing a CVE."
@@ -116,8 +117,8 @@ msgid ""
 "\"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgstr ""
 "Se limiter aux paquets mentionnés dans les avertissements avec la sévérité "
-"spécifiée. Les options sont \"critical\", \"important\", \"moderate\", \"low"
-"\" et \"none\"."
+"spécifiée. Les options sont \"critical\", \"important\", \"moderate\", "
+"\"low\" et \"none\"."
 
 #: commands/advisory/arguments.hpp:157
 msgid "ADVISORY_SEVERITY,..."
@@ -169,7 +170,6 @@ msgstr ""
 "aux noms spécifiés. Option liste, prend en charge les globs."
 
 #: commands/repoquery/repoquery.cpp:158
-#, c++-format
 msgid "Error parsing JSON object \"{}\": {}"
 msgstr "Erreur lors de l'analyse de l'objet JSON \"{}\" : {}"
 
@@ -182,7 +182,6 @@ msgstr ""
 "tant que l'utilisateur root sur la plupart des systèmes)."
 
 #: main.cpp:155
-#, c++-format
 msgid ""
 "{}: Badly formatted argument value: Last key character cannot be '.': {}"
 msgstr ""
