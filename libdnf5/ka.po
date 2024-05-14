@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-14 02:52+0000\n"
-"PO-Revision-Date: 2024-04-19 02:40+0000\n"
+"PO-Revision-Date: 2024-05-15 07:36+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/ka/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.4\n"
+"X-Generator: Weblate 5.5.5\n"
 
 #: advisory/advisory.cpp:81
 msgid ""
@@ -37,28 +37,20 @@ msgid "Incorrect configuration value for multilib_policy: {}"
 msgstr "არასწორი კონფიგურაციის მნიშვნელობა multilib_policy-სთვის: {}"
 
 #: base/log_event.cpp:141
-#, fuzzy
-#| msgid "No {} to remove for argument: {}"
 msgid "No packages to remove for argument: {}"
-msgstr "წასაშლელი {}-ის გარეშე არგუმენტისთვის: {}"
+msgstr "წასაშლელი პაკეტების გარეშე არგუმენტისთვის: [{}"
 
 #: base/log_event.cpp:143
-#, fuzzy
-#| msgid "No {} to remove for argument: {}"
 msgid "No groups to remove for argument: {}"
-msgstr "წასაშლელი {}-ის გარეშე არგუმენტისთვის: {}"
+msgstr "წასაშლელი ჯგუფების გარეშე არგუმენტისთვის: {}"
 
 #: base/log_event.cpp:146
-#, fuzzy
-#| msgid "No {} to remove for argument: {}"
 msgid "No environmental groups to remove for argument: {}"
-msgstr "წასაშლელი {}-ის გარეშე არგუმენტისთვის: {}"
+msgstr "წასაშლელი გარემოს ჯგუფების გარეშე არგუმენტისთვის: {}"
 
 #: base/log_event.cpp:148
-#, fuzzy
-#| msgid "No {} to remove for argument: {}"
 msgid "No modules to remove for argument: {}"
-msgstr "წასაშლელი {}-ის გარეშე არგუმენტისთვის: {}"
+msgstr "წასაშლელი მოდულების გარეშე არგუმენტისთვის: {}"
 
 #: base/log_event.cpp:152
 msgid "No match for group from environment: {}"
@@ -152,17 +144,10 @@ msgstr "ქმედება {} არგუმენტისთვის \"{}
 
 #. Format a leading line of the error message.
 #: base/log_event.cpp:233
-#, fuzzy
-#| msgid "Unable to resolve argument '{}':{}"
 msgid "Unable to resolve argument '{}':"
-msgstr "ვერ ამოვხსენი არგუმენტი '{}':{}"
+msgstr "ვერ ამოვხსენი არგუმენტი '{}':"
 
 #: base/log_event.cpp:237
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "  - Argument '{}' matches {} streams ('{}') of module '{}', but none of "
-#| "the streams are enabled or default."
 msgid ""
 "\n"
 "  - Argument '{}' matches {} stream ('{}') of module '{}', but the stream is "
@@ -174,7 +159,7 @@ msgid_plural ""
 msgstr[0] ""
 "\n"
 "  - არგუმენტი '{}' ემთხვევა {} ნაკადს ('{}') მოდულისთვის '{}', მაგრამ ეს "
-"ნაკადები ნაგულისხმევად ჩართული არაა."
+"ნაკადი ნაგულისხმევად ჩართული არაა."
 msgstr[1] ""
 "\n"
 "  - არგუმენტი '{}' ემთხვევა {} ნაკადს ('{}') მოდულისთვის '{}', მაგრამ ეს "
@@ -182,7 +167,7 @@ msgstr[1] ""
 
 #: base/log_event.cpp:244
 msgid "', '"
-msgstr ""
+msgstr "', '"
 
 #: base/log_event.cpp:253
 msgid "Modular dependency problems:\n"
