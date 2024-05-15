@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-14 02:52+0000\n"
-"PO-Revision-Date: 2024-04-19 02:40+0000\n"
+"PO-Revision-Date: 2024-05-16 02:51+0000\n"
 "Last-Translator: Aleksey Fedorov <aleksejfedorov963@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/ru/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.4\n"
+"X-Generator: Weblate 5.5.5\n"
 
 #: advisory/advisory.cpp:81
 msgid ""
@@ -37,28 +37,20 @@ msgid "Incorrect configuration value for multilib_policy: {}"
 msgstr "Неверное значение конфигурации для multilib_policy: {}"
 
 #: base/log_event.cpp:141
-#, fuzzy
-#| msgid "No {} to remove for argument: {}"
 msgid "No packages to remove for argument: {}"
-msgstr "Нет {} для удаления аргумента: {}"
+msgstr "Нет пакетов на удаление для аргумента: {}"
 
 #: base/log_event.cpp:143
-#, fuzzy
-#| msgid "No {} to remove for argument: {}"
 msgid "No groups to remove for argument: {}"
-msgstr "Нет {} для удаления аргумента: {}"
+msgstr "Нет групп на удаление для аргумента: {}"
 
 #: base/log_event.cpp:146
-#, fuzzy
-#| msgid "No {} to remove for argument: {}"
 msgid "No environmental groups to remove for argument: {}"
-msgstr "Нет {} для удаления аргумента: {}"
+msgstr "Нет групп сред на удаление для аргумента: {}"
 
 #: base/log_event.cpp:148
-#, fuzzy
-#| msgid "No {} to remove for argument: {}"
 msgid "No modules to remove for argument: {}"
-msgstr "Нет {} для удаления аргумента: {}"
+msgstr "Нет модулей на удаление для аргумента: {}"
 
 #: base/log_event.cpp:152
 msgid "No match for group from environment: {}"
@@ -152,17 +144,10 @@ msgstr "Действие {} для аргумента \"{}\" не поддерж
 
 #. Format a leading line of the error message.
 #: base/log_event.cpp:233
-#, fuzzy
-#| msgid "Unable to resolve argument '{}':{}"
 msgid "Unable to resolve argument '{}':"
-msgstr "Невозможно разрешить аргумент '{}':{}"
+msgstr "Невозможно разрешить аргумент '{}':"
 
 #: base/log_event.cpp:237
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "  - Argument '{}' matches {} streams ('{}') of module '{}', but none of "
-#| "the streams are enabled or default."
 msgid ""
 "\n"
 "  - Argument '{}' matches {} stream ('{}') of module '{}', but the stream is "
@@ -173,8 +158,8 @@ msgid_plural ""
 "streams are enabled or default."
 msgstr[0] ""
 "\n"
-"  - Аргумент '{}' соответствует {} потокам ('{}') модуля '{}', но ни один из "
-"потоков не включен и не используется по умолчанию."
+"  - Аргумент '{}' соответствует {} потоку ('{}') модуля '{}', но поток не "
+"включен и не используется по умолчанию."
 msgstr[1] ""
 "\n"
 "  - Аргумент '{}' соответствует {} потокам ('{}') модуля '{}', но ни один из "
@@ -186,7 +171,7 @@ msgstr[2] ""
 
 #: base/log_event.cpp:244
 msgid "', '"
-msgstr ""
+msgstr "', '"
 
 #: base/log_event.cpp:253
 msgid "Modular dependency problems:\n"
