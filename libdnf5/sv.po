@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-16 02:52+0000\n"
+"POT-Creation-Date: 2024-05-17 02:52+0000\n"
 "PO-Revision-Date: 2024-05-15 07:36+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -973,10 +973,23 @@ msgstr "Kunde inte installera om paket \"{}\""
 msgid "Cannot remove package \"{}\""
 msgstr "Kunde inte ta bort paket \"{}\""
 
-#. TODO(jrohel): Why? Librpm does not provide this information.
-#: rpm/transaction.cpp:381
-msgid "Cannot {} package \"{}\""
-msgstr "Kan inte {} med paketet \"{}\""
+#: rpm/transaction.cpp:364
+#, fuzzy
+#| msgid "Cannot remove package \"{}\""
+msgid "Cannot upgrade package \"{}\""
+msgstr "Kunde inte ta bort paket \"{}\""
+
+#: rpm/transaction.cpp:368
+#, fuzzy
+#| msgid "Cannot remove package \"{}\""
+msgid "Cannot downgrade package \"{}\""
+msgstr "Kunde inte ta bort paket \"{}\""
+
+#: rpm/transaction.cpp:372
+#, fuzzy
+#| msgid "Cannot reinstall package \"{}\""
+msgid "Cannot install package \"{}\""
+msgstr "Kunde inte installera om paket \"{}\""
 
 #: rpm/versionlock_config.cpp:261 system/state.cpp:513
 msgid "{}"
@@ -1320,6 +1333,9 @@ msgstr "Misslyckades med att säkerhetskopiera databas \"{}\" till \"{}\""
 #: utils/sqlite3/sqlite3.cpp:158
 msgid "Failed to restore database \"{}\""
 msgstr "Misslyckades med att återställa databas \"{}\""
+
+#~ msgid "Cannot {} package \"{}\""
+#~ msgstr "Kan inte {} med paketet \"{}\""
 
 #~ msgid "packages"
 #~ msgstr "paket"

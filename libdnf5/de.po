@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-16 02:52+0000\n"
+"POT-Creation-Date: 2024-05-17 02:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -919,9 +919,16 @@ msgstr ""
 msgid "Cannot remove package \"{}\""
 msgstr ""
 
-#. TODO(jrohel): Why? Librpm does not provide this information.
-#: rpm/transaction.cpp:381
-msgid "Cannot {} package \"{}\""
+#: rpm/transaction.cpp:364
+msgid "Cannot upgrade package \"{}\""
+msgstr ""
+
+#: rpm/transaction.cpp:368
+msgid "Cannot downgrade package \"{}\""
+msgstr ""
+
+#: rpm/transaction.cpp:372
+msgid "Cannot install package \"{}\""
 msgstr ""
 
 #: rpm/versionlock_config.cpp:261 system/state.cpp:513

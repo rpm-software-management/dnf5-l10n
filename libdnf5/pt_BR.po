@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-16 02:52+0000\n"
+"POT-Creation-Date: 2024-05-17 02:52+0000\n"
 "PO-Revision-Date: 2024-03-17 02:36+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
@@ -1041,10 +1041,23 @@ msgstr "Não é possível reinstalar o pacote \"{}\""
 msgid "Cannot remove package \"{}\""
 msgstr "Não é possível remover o pacote \"{}\""
 
-#. TODO(jrohel): Why? Librpm does not provide this information.
-#: rpm/transaction.cpp:381
-msgid "Cannot {} package \"{}\""
-msgstr "Não é possível {} o pacote \"{}\""
+#: rpm/transaction.cpp:364
+#, fuzzy
+#| msgid "Cannot remove package \"{}\""
+msgid "Cannot upgrade package \"{}\""
+msgstr "Não é possível remover o pacote \"{}\""
+
+#: rpm/transaction.cpp:368
+#, fuzzy
+#| msgid "Cannot remove package \"{}\""
+msgid "Cannot downgrade package \"{}\""
+msgstr "Não é possível remover o pacote \"{}\""
+
+#: rpm/transaction.cpp:372
+#, fuzzy
+#| msgid "Cannot reinstall package \"{}\""
+msgid "Cannot install package \"{}\""
+msgstr "Não é possível reinstalar o pacote \"{}\""
 
 #: rpm/versionlock_config.cpp:261 system/state.cpp:513
 msgid "{}"
@@ -1393,6 +1406,9 @@ msgstr "Falha ao fazer backup do banco de dados \"{}\" para \"{}\""
 #: utils/sqlite3/sqlite3.cpp:158
 msgid "Failed to restore database \"{}\""
 msgstr "Falha ao restaurar o banco de dados \"{}\""
+
+#~ msgid "Cannot {} package \"{}\""
+#~ msgstr "Não é possível {} o pacote \"{}\""
 
 #~ msgid "packages"
 #~ msgstr "pacotes"

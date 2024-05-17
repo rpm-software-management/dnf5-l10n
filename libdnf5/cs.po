@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-16 02:52+0000\n"
+"POT-Creation-Date: 2024-05-17 02:52+0000\n"
 "PO-Revision-Date: 2024-02-06 09:36+0000\n"
 "Last-Translator: Petr Ptacek <petr106@atlas.cz>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf5/"
@@ -1043,10 +1043,23 @@ msgstr "Nelze přeinstalovat balíček \"{}\""
 msgid "Cannot remove package \"{}\""
 msgstr "Nelze odstranit balíček \"{}\""
 
-#. TODO(jrohel): Why? Librpm does not provide this information.
-#: rpm/transaction.cpp:381
-msgid "Cannot {} package \"{}\""
-msgstr "Nelze {} balíček \"{}\""
+#: rpm/transaction.cpp:364
+#, fuzzy
+#| msgid "Cannot remove package \"{}\""
+msgid "Cannot upgrade package \"{}\""
+msgstr "Nelze odstranit balíček \"{}\""
+
+#: rpm/transaction.cpp:368
+#, fuzzy
+#| msgid "Cannot remove package \"{}\""
+msgid "Cannot downgrade package \"{}\""
+msgstr "Nelze odstranit balíček \"{}\""
+
+#: rpm/transaction.cpp:372
+#, fuzzy
+#| msgid "Cannot reinstall package \"{}\""
+msgid "Cannot install package \"{}\""
+msgstr "Nelze přeinstalovat balíček \"{}\""
 
 #: rpm/versionlock_config.cpp:261 system/state.cpp:513
 msgid "{}"
@@ -1394,6 +1407,9 @@ msgstr "Zálohování databáze \"{}\" do \"{}\" se nezdařilo"
 #: utils/sqlite3/sqlite3.cpp:158
 msgid "Failed to restore database \"{}\""
 msgstr "Obnovení databáze \"{}\" se nezdařilo"
+
+#~ msgid "Cannot {} package \"{}\""
+#~ msgstr "Nelze {} balíček \"{}\""
 
 #~ msgid "packages"
 #~ msgstr "balíčky"

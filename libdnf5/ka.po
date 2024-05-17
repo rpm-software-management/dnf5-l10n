@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-16 02:52+0000\n"
+"POT-Creation-Date: 2024-05-17 02:52+0000\n"
 "PO-Revision-Date: 2024-05-15 07:36+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -984,10 +984,23 @@ msgstr "შეცდომა პაკეტის \"{}\" თავიდან
 msgid "Cannot remove package \"{}\""
 msgstr "შეცდომა პაკეტის \"{}\" წაშლისას"
 
-#. TODO(jrohel): Why? Librpm does not provide this information.
-#: rpm/transaction.cpp:381
-msgid "Cannot {} package \"{}\""
-msgstr "{}-ის შეცდომა პაკეტისთვის \"{}\""
+#: rpm/transaction.cpp:364
+#, fuzzy
+#| msgid "Cannot remove package \"{}\""
+msgid "Cannot upgrade package \"{}\""
+msgstr "შეცდომა პაკეტის \"{}\" წაშლისას"
+
+#: rpm/transaction.cpp:368
+#, fuzzy
+#| msgid "Cannot remove package \"{}\""
+msgid "Cannot downgrade package \"{}\""
+msgstr "შეცდომა პაკეტის \"{}\" წაშლისას"
+
+#: rpm/transaction.cpp:372
+#, fuzzy
+#| msgid "Cannot reinstall package \"{}\""
+msgid "Cannot install package \"{}\""
+msgstr "შეცდომა პაკეტის \"{}\" თავიდან დაყენებისას"
 
 #: rpm/versionlock_config.cpp:261 system/state.cpp:513
 msgid "{}"
@@ -1335,6 +1348,9 @@ msgstr "შეცდომა ბაზის \"{}\" \"{}\"-ში დამა�
 #: utils/sqlite3/sqlite3.cpp:158
 msgid "Failed to restore database \"{}\""
 msgstr "შეცდომა ბაზის \"{}\" აღდგენისას"
+
+#~ msgid "Cannot {} package \"{}\""
+#~ msgstr "{}-ის შეცდომა პაკეტისთვის \"{}\""
 
 #~ msgid "packages"
 #~ msgstr "პაკეტი"

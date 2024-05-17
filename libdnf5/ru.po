@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-16 02:52+0000\n"
+"POT-Creation-Date: 2024-05-17 02:52+0000\n"
 "PO-Revision-Date: 2024-05-16 02:51+0000\n"
 "Last-Translator: Aleksey Fedorov <aleksejfedorov963@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -982,10 +982,23 @@ msgstr "Невозможно переустановить пакет \"{}\""
 msgid "Cannot remove package \"{}\""
 msgstr "Невозможно удалить пакет \"{}\""
 
-#. TODO(jrohel): Why? Librpm does not provide this information.
-#: rpm/transaction.cpp:381
-msgid "Cannot {} package \"{}\""
-msgstr "Невозможно {} пакет \"{}\""
+#: rpm/transaction.cpp:364
+#, fuzzy
+#| msgid "Cannot remove package \"{}\""
+msgid "Cannot upgrade package \"{}\""
+msgstr "Невозможно удалить пакет \"{}\""
+
+#: rpm/transaction.cpp:368
+#, fuzzy
+#| msgid "Cannot remove package \"{}\""
+msgid "Cannot downgrade package \"{}\""
+msgstr "Невозможно удалить пакет \"{}\""
+
+#: rpm/transaction.cpp:372
+#, fuzzy
+#| msgid "Cannot reinstall package \"{}\""
+msgid "Cannot install package \"{}\""
+msgstr "Невозможно переустановить пакет \"{}\""
 
 #: rpm/versionlock_config.cpp:261 system/state.cpp:513
 msgid "{}"
@@ -1334,6 +1347,9 @@ msgstr "Не удалось создать резервную копию баз�
 #: utils/sqlite3/sqlite3.cpp:158
 msgid "Failed to restore database \"{}\""
 msgstr "Не удалось восстановить базу данных \"{}\""
+
+#~ msgid "Cannot {} package \"{}\""
+#~ msgstr "Невозможно {} пакет \"{}\""
 
 #~ msgid "packages"
 #~ msgstr "пакеты"
