@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-17 02:52+0000\n"
-"PO-Revision-Date: 2024-05-15 07:36+0000\n"
+"PO-Revision-Date: 2024-05-17 22:11+0000\n"
 "Last-Translator: Pierre GRASSER <pierre.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/fr/>\n"
@@ -55,7 +55,7 @@ msgstr "Aucun module à supprimer correspondant à l'argument : {}"
 
 #: base/log_event.cpp:152
 msgid "No match for group from environment: {}"
-msgstr ""
+msgstr "Aucune correspondance pour le groupe de l'environnement : {}"
 
 #: base/log_event.cpp:154
 msgid "No match for group package: {}"
@@ -1017,22 +1017,16 @@ msgid "Cannot remove package \"{}\""
 msgstr "Impossible de supprimer le paquet \"{}\""
 
 #: rpm/transaction.cpp:364
-#, fuzzy
-#| msgid "Cannot remove package \"{}\""
 msgid "Cannot upgrade package \"{}\""
-msgstr "Impossible de supprimer le paquet \"{}\""
+msgstr "Impossible de mettre à jour le paquet \"{}\""
 
 #: rpm/transaction.cpp:368
-#, fuzzy
-#| msgid "Cannot remove package \"{}\""
 msgid "Cannot downgrade package \"{}\""
-msgstr "Impossible de supprimer le paquet \"{}\""
+msgstr "Impossible de rétrograder le paquet \"{}\""
 
 #: rpm/transaction.cpp:372
-#, fuzzy
-#| msgid "Cannot reinstall package \"{}\""
 msgid "Cannot install package \"{}\""
-msgstr "Impossible de réinstaller le paquet \"{}\""
+msgstr "Impossible d'installer le paquet \"{}\""
 
 #: rpm/versionlock_config.cpp:261 system/state.cpp:513
 msgid "{}"
