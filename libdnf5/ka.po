@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-17 02:52+0000\n"
-"PO-Revision-Date: 2024-05-15 07:36+0000\n"
+"PO-Revision-Date: 2024-05-19 07:36+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/ka/>\n"
@@ -985,22 +985,16 @@ msgid "Cannot remove package \"{}\""
 msgstr "შეცდომა პაკეტის \"{}\" წაშლისას"
 
 #: rpm/transaction.cpp:364
-#, fuzzy
-#| msgid "Cannot remove package \"{}\""
 msgid "Cannot upgrade package \"{}\""
-msgstr "შეცდომა პაკეტის \"{}\" წაშლისას"
+msgstr "ვერ ავწიე ვერსია პაკეტისთვის \"{}\""
 
 #: rpm/transaction.cpp:368
-#, fuzzy
-#| msgid "Cannot remove package \"{}\""
 msgid "Cannot downgrade package \"{}\""
-msgstr "შეცდომა პაკეტის \"{}\" წაშლისას"
+msgstr "ვერ ჩამოვწიე ვერსია პაკეტისთვის \"{}\""
 
 #: rpm/transaction.cpp:372
-#, fuzzy
-#| msgid "Cannot reinstall package \"{}\""
 msgid "Cannot install package \"{}\""
-msgstr "შეცდომა პაკეტის \"{}\" თავიდან დაყენებისას"
+msgstr "ვერ დავაყენე პაკეტი \"{}\""
 
 #: rpm/versionlock_config.cpp:261 system/state.cpp:513
 msgid "{}"
