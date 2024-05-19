@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-17 02:52+0000\n"
-"PO-Revision-Date: 2024-05-15 07:36+0000\n"
+"PO-Revision-Date: 2024-05-20 17:36+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/sv/>\n"
@@ -974,22 +974,16 @@ msgid "Cannot remove package \"{}\""
 msgstr "Kunde inte ta bort paket \"{}\""
 
 #: rpm/transaction.cpp:364
-#, fuzzy
-#| msgid "Cannot remove package \"{}\""
 msgid "Cannot upgrade package \"{}\""
-msgstr "Kunde inte ta bort paket \"{}\""
+msgstr "Kan inte uppgradera paket \"{}\""
 
 #: rpm/transaction.cpp:368
-#, fuzzy
-#| msgid "Cannot remove package \"{}\""
 msgid "Cannot downgrade package \"{}\""
-msgstr "Kunde inte ta bort paket \"{}\""
+msgstr "Kunde inte nergradera paket \"{}\""
 
 #: rpm/transaction.cpp:372
-#, fuzzy
-#| msgid "Cannot reinstall package \"{}\""
 msgid "Cannot install package \"{}\""
-msgstr "Kunde inte installera om paket \"{}\""
+msgstr "Kan inte installera paket \"{}\""
 
 #: rpm/versionlock_config.cpp:261 system/state.cpp:513
 msgid "{}"
