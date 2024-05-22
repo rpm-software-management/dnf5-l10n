@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-17 02:52+0000\n"
-"PO-Revision-Date: 2024-05-22 08:25+0000\n"
+"PO-Revision-Date: 2024-05-22 15:54+0000\n"
 "Last-Translator: Dennis Koerner <dennis@bumblebeeman.dev>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5daemon-client/de/>\n"
@@ -29,24 +29,29 @@ msgstr "Hinweise auflisten"
 
 #: commands/advisory/arguments.hpp:32
 msgid "Show advisories containing any version of installed packages."
-msgstr ""
+msgstr "Hinweise zu beliebigen Versionen installierter Pakete anzeigen."
 
 #: commands/advisory/arguments.hpp:43
 msgid ""
 "Show advisories containing newer versions of installed packages. This is the "
 "default behavior."
 msgstr ""
+"Hinweise zu neueren Versionen installierter Pakete anzeigen. Dies ist das "
+"Standardverhalten."
 
 #: commands/advisory/arguments.hpp:55
 msgid ""
 "Show advisories containing equal and older versions of installed packages."
 msgstr ""
+"Hinweise zu identischen oder älteren Versionen installierter Pakete anzeigen."
 
 #: commands/advisory/arguments.hpp:67
 msgid ""
 "Show advisories containing newer versions of installed packages for which a "
 "newer version is available."
 msgstr ""
+"Hinweise zu neueren Versionen der installierten Pakete, für die eine neue "
+"Version verfügbar ist, anzeigen."
 
 #: commands/advisory/arguments.hpp:80
 msgid ""
@@ -84,15 +89,15 @@ msgstr "Auf Pakete mit Sicherheitshinweisen beschränken."
 
 #: commands/advisory/arguments.hpp:128
 msgid "Limit to packages in bugfix advisories."
-msgstr ""
+msgstr "Auf Pakete mit Hinweisen zu Fehlerkorrekturen beschränken."
 
 #: commands/advisory/arguments.hpp:135
 msgid "Limit to packages in enhancement advisories."
-msgstr ""
+msgstr "Auf Pakete mit Hinweisen zu Verbesserungen beschränken."
 
 #: commands/advisory/arguments.hpp:142
 msgid "Limit to packages in newpackage advisories."
-msgstr ""
+msgstr "Auf Pakete mit Hinweisen in neuen Paketen beschränken."
 
 #. Note for translators: "critical" etc. quoted words are
 #. literals that should not be translated.
@@ -104,13 +109,15 @@ msgstr ""
 
 #: commands/advisory/arguments.hpp:157
 msgid "ADVISORY_SEVERITY,..."
-msgstr ""
+msgstr "HINWEIS_SCHWEREGRAD,..."
 
 #: commands/advisory/arguments.hpp:169
 msgid ""
 "Limit to packages in advisories that fix a Bugzilla ID, Eg. 123123. List "
 "option."
 msgstr ""
+"Auf Pakete mit Hinweisen beschränken, die eine Bugzilla-ID beheben, z.B. "
+"123123. Listenoption."
 
 #: commands/advisory/arguments.hpp:170
 msgid "BUGZILLA_ID,..."
@@ -121,6 +128,8 @@ msgid ""
 "Limit to packages in advisories that fix a CVE (Common Vulnerabilities and "
 "Exposures) ID, Eg. CVE-2201-0123. List option."
 msgstr ""
+"Auf Pakete mit Hinweisen beschränken, die eine CVE-ID (Common "
+"Vulnerabilities and Exposures) beheben, z.B. CVE-2201-0123. Listenoption."
 
 #: commands/advisory/arguments.hpp:182
 msgid "CVE_ID,..."
@@ -147,7 +156,7 @@ msgstr ""
 #: commands/repoquery/repoquery.cpp:158
 #, c++-format
 msgid "Error parsing JSON object \"{}\": {}"
-msgstr ""
+msgstr "Fehler beim Parsen von JSON-Objekt \"{}\": {}"
 
 #: exception.cpp:28
 msgid ""
