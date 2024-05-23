@@ -8,9 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-17 02:52+0000\n"
-"PO-Revision-Date: 2024-05-22 08:25+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2024-05-23 18:48+0000\n"
+"Last-Translator: Dennis Koerner <dennis@bumblebeeman.dev>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5-plugin-config-manager/de/>\n"
 "Language: de\n"
@@ -114,23 +113,25 @@ msgstr "Ein Repository mit ID \"{}\" ist bereits konfiguriert in Datei: {}"
 #: addrepo.cpp:497 setopt.cpp:263
 #, c++-format
 msgid "Cannot read repositories from directory \"{}\": {}"
-msgstr ""
+msgstr "Kann Repositories nicht aus dem Verzeichnis \"{}\" lesen: {}"
 
 #: setopt.cpp:91 unsetopt.cpp:72
 #, c++-format
 msgid ""
 "{}: Badly formatted argument value: Last key character cannot be '.': {}"
 msgstr ""
+"{}: Schlecht formatierter Argumentwert: Letzter Schlüsselwert kann nicht '.' "
+"sein: {}"
 
 #: setopt.cpp:100 unsetopt.cpp:81
 #, c++-format
 msgid "{}: Empty repository id is not allowed: {}"
-msgstr ""
+msgstr "{}: Leere Repository-ID ist nicht erlaubt: {}"
 
 #: setopt.cpp:109
 #, c++-format
 msgid "Cannot set repository option \"{}\": {}"
-msgstr ""
+msgstr "Kann Repository-Option \"{}\" nicht setzen: {}"
 
 #: setopt.cpp:116 setopt.cpp:179
 #, c++-format
