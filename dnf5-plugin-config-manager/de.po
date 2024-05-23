@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-17 02:52+0000\n"
-"PO-Revision-Date: 2024-05-23 18:48+0000\n"
+"PO-Revision-Date: 2024-05-23 19:06+0000\n"
 "Last-Translator: Dennis Koerner <dennis@bumblebeeman.dev>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5-plugin-config-manager/de/>\n"
@@ -139,35 +139,38 @@ msgid ""
 "Sets the \"{}\" option of the repository \"{}\" again with a different "
 "value: \"{}\" != \"{}\""
 msgstr ""
+"Setzt die \"{}\" Option des Repository \"{}\" mit einem anderen Wert erneut: "
+"\"{}\" != \"{}\""
 
 #: setopt.cpp:130
 #, c++-format
 msgid "Cannot set option: \"{}\": {}"
-msgstr ""
+msgstr "Kann Option nicht setzen: \"{}\": {}"
 
 #: setopt.cpp:170
 #, c++-format
 msgid "No matching repository to modify: {}"
-msgstr ""
+msgstr "Kein passendes Repository zum Ändern gefunden: {}"
 
 #: setvar.cpp:60
 #, c++-format
 msgid "Cannot set \"{}\": Variable \"{}\" is read-only"
-msgstr ""
+msgstr "Kann \"{}\" nicht setzen: Variable \"{}\" ist schreibgeschützt"
 
 #: setvar.cpp:68
 #, c++-format
 msgid "Sets the \"{}\" variable again with a different value: \"{}\" != \"{}\""
 msgstr ""
+"Setzt die Variable \"{}\" mit einem anderen Wert erneut: \"{}\" != \"{}\""
 
 #: setvar.cpp:97 unsetvar.cpp:63
 msgid "Missing path to vars directory"
-msgstr ""
+msgstr "Fehlender Pfad zum Variablenverzeichnis"
 
 #: setvar.cpp:110
 #, c++-format
 msgid "Cannot write variable to file \"{}\": {}"
-msgstr ""
+msgstr "Kann Variable nicht in Datei \"{}\" schreiben: {}"
 
 #: shared.hpp:58
 #, c++-format
@@ -175,11 +178,15 @@ msgid ""
 "The path \"{}\" exists, but it is not a directory or a symlink to a "
 "directory."
 msgstr ""
+"Der Pfad \"{}\" existiert, ist aber kein Verzeichnis oder symbolischer Link "
+"zu einem Verzeichnis."
 
 #: shared.hpp:63
 #, c++-format
 msgid "The path \"{}\" exists, but it is a symlink to a non-existent object."
 msgstr ""
+"Der Pfad \"{}\" existiert, ist aber ein symbolischer Link zu einem nicht "
+"existierenden Objekt."
 
 #: shared.hpp:69
 #, c++-format
@@ -187,16 +194,20 @@ msgid ""
 "Directory \"{}\" does not exist. Add \"--create-missing-dir\" to create "
 "missing directories."
 msgstr ""
+"Verzeichnis \"{}\" existiert nicht. Fügen Sie \"--create-missing-dir\" "
+"hinzu, um fehlende Verzeichnisse zu erzeugen."
 
 #: shared.hpp:80
 #, c++-format
 msgid "Variable name can contain only ASCII letters, numbers and '_': {}"
-msgstr ""
+msgstr "Variablenname kann nur ASCII-Zeichen, Zahlen und '_' enthalten:{}"
 
 #: unsetopt.cpp:93
 #, c++-format
 msgid "config-manager: Request to remove unsupported repository option: {}"
 msgstr ""
+"config-manager: Anforderung zur Entfernung einer nicht unterstützten "
+"Repository-Option: {}"
 
 #: unsetopt.cpp:105
 #, c++-format
@@ -254,4 +265,4 @@ msgstr ""
 #: unsetvar.cpp:88
 #, c++-format
 msgid "Cannot remove variable file \"{}\": {}"
-msgstr ""
+msgstr "Kann Variablendatei \"{}\" nicht entfernen:{}"
