@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-17 02:52+0000\n"
-"PO-Revision-Date: 2024-05-23 18:48+0000\n"
+"PO-Revision-Date: 2024-05-23 19:06+0000\n"
 "Last-Translator: Fábio Rodrigues Ribeiro <farribeiro@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf5/dnf5/pt_BR/>\n"
@@ -339,6 +339,9 @@ msgid ""
 "Error reading state: {}. Rerun the command you used to initiate the offline "
 "transaction, e.g. `dnf5 system-upgrade download [OPTIONS]`."
 msgstr ""
+"Estado de leitura de erro: {}. Execute novamente o comando usado para "
+"iniciar a transação offline, por exemplo`dnf5 system-upgrade download "
+"[OPTIONS]`."
 
 #: commands/offline/offline.cpp:247
 msgid "Couldn't connect to D-Bus: {}"
@@ -349,10 +352,12 @@ msgid ""
 "Prepare the system to perform the offline transaction and reboot to start "
 "the transaction."
 msgstr ""
+"Prepare o sistema para executar a transação offline e reinicialize para "
+"iniciar a transação."
 
 #: commands/offline/offline.cpp:283
 msgid "Power off the system after the operation is complete"
-msgstr ""
+msgstr "Desligue o sistema após a conclusão da operação"
 
 #: commands/offline/offline.cpp:294
 msgid "No offline transaction is stored."
@@ -845,30 +850,24 @@ msgid "======== Variables: ========"
 msgstr "======== Variáveis: ========"
 
 #: main.cpp:973
-#, fuzzy
-#| msgid "Allow skipping unavailable packages"
 msgid "{} to skip unavailable packages"
-msgstr "Permite pular pacotes indisponíveis"
+msgstr "{} para ignorar pacotes indisponíveis"
 
 #: main.cpp:1014
 msgid "{} to not limit the transaction to the best candidates"
 msgstr ""
 
 #: main.cpp:1021
-#, fuzzy
-#| msgid "Allow erasing of installed packages to resolve problems"
 msgid "{} to allow erasing of installed packages to resolve problems"
-msgstr "Permite apagar pacotes instalados para resolver problemas"
+msgstr "{} Permite apagar pacotes instalados para resolver problemas"
 
 #: main.cpp:1029
 msgid "{} to load additional filelists metadata"
 msgstr ""
 
 #: main.cpp:1036
-#, fuzzy
-#| msgid "Allow skipping unavailable packages"
 msgid "{} to skip uninstallable packages"
-msgstr "Permite pular pacotes indisponíveis"
+msgstr "{} para ignorar pacotes desinstaláveis"
 
 #: main.cpp:1042
 msgid "You can try to add to command line:"
