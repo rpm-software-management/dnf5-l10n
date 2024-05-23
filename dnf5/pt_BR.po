@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-17 02:52+0000\n"
-"PO-Revision-Date: 2024-04-16 20:36+0000\n"
-"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
+"PO-Revision-Date: 2024-05-23 18:48+0000\n"
+"Last-Translator: Fábio Rodrigues Ribeiro <farribeiro@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf5/dnf5/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.4\n"
+"X-Generator: Weblate 5.5.5\n"
 
 #: commands/advisory/advisory_info.hpp:33
 msgid "Print details about advisories"
@@ -408,10 +408,8 @@ msgid "Use `dnf5 offline reboot` to begin the transaction."
 msgstr ""
 
 #: commands/offline/offline.cpp:493
-#, fuzzy
-#| msgid "Transaction ID"
 msgid "Transaction failed: "
-msgstr "ID da transação"
+msgstr "Falha na transação: "
 
 #: commands/offline/offline.cpp:562
 msgid "Error reading journal: {}"
