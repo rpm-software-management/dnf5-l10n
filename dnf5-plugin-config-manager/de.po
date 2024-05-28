@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-28 02:52+0000\n"
-"PO-Revision-Date: 2024-05-23 19:06+0000\n"
+"PO-Revision-Date: 2024-05-28 08:58+0000\n"
 "Last-Translator: Dennis Koerner <dennis@bumblebeeman.dev>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5-plugin-config-manager/de/>\n"
@@ -185,47 +185,63 @@ msgstr ""
 #: unsetopt.cpp:105
 msgid "config-manager: Request to remove unsupported main option: {}"
 msgstr ""
+"config-manager: Anfrage zur Entfernung einer nicht unterstützten Hauptoption:"
+" {}"
 
 #: unsetopt.cpp:140
 msgid ""
 "config-manager: Request to remove main option but it is not present in the "
 "config file: {}"
 msgstr ""
+"config-manager: Anfrage zur Entfernung einer Hauptoption, welche nicht in "
+"der Konfigurationsdatei enthalten ist: {}"
 
 #: unsetopt.cpp:152
 msgid ""
 "config-manager: Request to remove main option but config file not found: {}"
 msgstr ""
+"config-manager: Anfrage zur Entfernung einer Hauptoption, aber die "
+"Konfigurationsdatei wurde nicht gefunden: {}"
 
 #: unsetopt.cpp:186
 msgid ""
 "config-manager: Request to remove repository option but repoid is not "
 "present in the overrides: {}"
 msgstr ""
+"config-manager: Anfrage zur Entfernung einer Repository-Option, dessen Repo-"
+"ID nicht in den Überschreibungen vorhanden ist: {}"
 
 #: unsetopt.cpp:194
 msgid ""
 "config-manager: Request to remove repository option but it is not present in "
 "the overrides: {}.{}"
 msgstr ""
+"config-manager: Anfrage zur Entfernung einer Repository-Option, die nicht in "
+"den Überschreibungen vorhanden ist: {}"
 
 #: unsetopt.cpp:214
 msgid ""
 "config-manager: Request to remove repository option but file with overrides "
 "not found: {}"
 msgstr ""
+"config-manager: Anfrage zur Entfernung einer Repository-Option, aber die "
+"Datei mit Überschreibungen wurde nicht gefunden: {}"
 
 #: unsetvar.cpp:69
 msgid ""
 "config-manager: Request to remove variable but vars directory was not found: "
 "{}"
 msgstr ""
+"config-manager: Anfrage zur Entfernung einer Variable, aber das "
+"Variablenverzeichnis wurde nicht gefunden: {}"
 
 #: unsetvar.cpp:82
 msgid ""
 "config-manager: Request to remove variable but it is not present in the vars "
 "directory: {}"
 msgstr ""
+"config-manager: Anfrage zur Entfernung einer Variable, aber sie ist nicht im "
+"Variablenverzeichnis vorhanden: {}"
 
 #: unsetvar.cpp:88
 msgid "Cannot remove variable file \"{}\": {}"
