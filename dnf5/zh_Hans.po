@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-17 02:52+0000\n"
+"POT-Creation-Date: 2024-05-28 02:52+0000\n"
 "PO-Revision-Date: 2024-05-19 07:36+0000\n"
 "Last-Translator: Red Guard <redg@disroot.org>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
@@ -144,32 +144,26 @@ msgid "CVE_ID,..."
 msgstr ""
 
 #: commands/check/check.cpp:335
-#, c++-format
 msgid "Check discovered {} problem(s) in {} package(s)"
 msgstr ""
 
 #: commands/clean/clean.cpp:88
-#, c++-format
 msgid "List of cache types to clean up. Supported types: {0}"
 msgstr ""
 
 #: commands/clean/clean.cpp:106
-#, c++-format
 msgid "Unknown cache type \"{0}\". Supported types: {1}"
 msgstr ""
 
 #: commands/clean/clean.cpp:164
-#, c++-format
 msgid "Failed to cleanup repository cache in path \"{0}\": {1}"
 msgstr ""
 
 #: commands/download/download.cpp:112
-#, c++-format
 msgid "Invalid urlprotocol option: {}"
 msgstr ""
 
 #: commands/download/download.cpp:139 main.cpp:610
-#, c++-format
 msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
 msgstr ""
 
@@ -229,7 +223,6 @@ msgid "Reverse the order of transactions."
 msgstr ""
 
 #: commands/history/history_store.cpp:62
-#, c++-format
 msgid "File \"{}\" already exists, it will be overwritten.\n"
 msgstr ""
 
@@ -242,7 +235,6 @@ msgid "Multiple transactions selected for storing, only one allowed."
 msgstr ""
 
 #: commands/history/transaction_id.cpp:32
-#, c++-format
 msgid ""
 "Invalid transaction ID range \"{}\", \"ID\" or \"ID..ID\" expected, where ID "
 "is \"NUMBER\", \"last\" or \"last-NUMBER\"."
@@ -309,7 +301,6 @@ msgid "Pattern matching module NSVCAs."
 msgstr ""
 
 #: commands/module/module_list.cpp:85
-#, c++-format
 msgid "No matches found for \"{}\"."
 msgstr ""
 
@@ -318,14 +309,12 @@ msgid "Manage offline transactions"
 msgstr ""
 
 #: commands/offline/offline.cpp:224
-#, c++-format
 msgid ""
 "Error reading state: {}. Rerun the command you used to initiate the offline "
 "transaction, e.g. `dnf5 system-upgrade download [OPTIONS]`."
 msgstr ""
 
 #: commands/offline/offline.cpp:247
-#, c++-format
 msgid "Couldn't connect to D-Bus: {}"
 msgstr ""
 
@@ -348,12 +337,10 @@ msgid "System is not ready for offline transaction."
 msgstr ""
 
 #: commands/offline/offline.cpp:304
-#, c++-format
 msgid "Data directory {} does not exist."
 msgstr ""
 
 #: commands/offline/offline.cpp:328
-#, c++-format
 msgid "{} is not wanted by system-update.target."
 msgstr ""
 
@@ -397,12 +384,10 @@ msgid "Transaction failed: "
 msgstr ""
 
 #: commands/offline/offline.cpp:562
-#, c++-format
 msgid "Error reading journal: {}"
 msgstr ""
 
 #: commands/offline/offline.cpp:568
-#, c++-format
 msgid "Add journal match failed: {}"
 msgstr ""
 
@@ -524,7 +509,6 @@ msgstr ""
 
 #. TODO(mblaha): add full command line
 #: commands/versionlock/utils.cpp:35
-#, c++-format
 msgid "Added by 'versionlock {}' command on {}"
 msgstr ""
 
@@ -538,17 +522,14 @@ msgstr ""
 
 #: commands/versionlock/versionlock_add.cpp:106
 #: commands/versionlock/versionlock_exclude.cpp:125
-#, c++-format
 msgid "No package found for \"{}\"."
 msgstr ""
 
 #: commands/versionlock/versionlock_add.cpp:124
-#, c++-format
 msgid "Adding versionlock on \"{0} = {1}\"."
 msgstr ""
 
 #: commands/versionlock/versionlock_add.cpp:127
-#, c++-format
 msgid "Package \"{}\" is already locked."
 msgstr ""
 
@@ -578,12 +559,10 @@ msgstr ""
 
 #: commands/versionlock/versionlock_exclude.cpp:88
 #: commands/versionlock/versionlock_exclude.cpp:100
-#, c++-format
 msgid "Adding versionlock exclude on \"{0} = {1}\"."
 msgstr ""
 
 #: commands/versionlock/versionlock_exclude.cpp:139
-#, c++-format
 msgid "Package \"{}\" is already excluded."
 msgstr ""
 
@@ -592,24 +571,20 @@ msgid "The key was successfully imported."
 msgstr ""
 
 #: context.cpp:252
-#, c++-format
 msgid "No matching repositories for \"{}\""
 msgstr ""
 
 #: context.cpp:406
-#, c++-format
 msgid ""
 "Location \"{}\" already contains a stored transaction, it will be "
 "overwritten.\n"
 msgstr ""
 
 #: library.cpp:33
-#, c++-format
 msgid "Cannot load shared library \"{}\": {}"
 msgstr ""
 
 #: library.cpp:48
-#, c++-format
 msgid "Cannot obtain address of symbol \"{}\": {}"
 msgstr ""
 
@@ -655,7 +630,6 @@ msgid "Force refreshing metadata before running the command."
 msgstr ""
 
 #: main.cpp:185
-#, c++-format
 msgid "Failed to expire repository cache in path \"{0}\": {1}"
 msgstr ""
 
@@ -664,7 +638,6 @@ msgid "create additional repository using id and path"
 msgstr ""
 
 #: main.cpp:210
-#, c++-format
 msgid "repofrompath: Incorrect repoid and path specification \"{}\""
 msgstr ""
 
@@ -684,23 +657,19 @@ msgid ""
 msgstr ""
 
 #: main.cpp:233 main.cpp:272
-#, c++-format
 msgid "{}: Badly formatted argument value \"{}\""
 msgstr ""
 
 #: main.cpp:240
-#, c++-format
 msgid ""
 "{}: Badly formatted argument value: Last key character cannot be '.': {}"
 msgstr ""
 
 #: main.cpp:253
-#, c++-format
 msgid "setopt: \"{0}\": {1}"
 msgstr ""
 
 #: main.cpp:279
-#, c++-format
 msgid "setvar: {}"
 msgstr ""
 
@@ -832,7 +801,6 @@ msgid "======== Main configuration: ========"
 msgstr ""
 
 #: main.cpp:869
-#, c++-format
 msgid "======== \"{}\" repository configuration: ========"
 msgstr ""
 
@@ -841,27 +809,22 @@ msgid "======== Variables: ========"
 msgstr ""
 
 #: main.cpp:973
-#, c++-format
 msgid "{} to skip unavailable packages"
 msgstr ""
 
 #: main.cpp:1014
-#, c++-format
 msgid "{} to not limit the transaction to the best candidates"
 msgstr ""
 
 #: main.cpp:1021
-#, c++-format
 msgid "{} to allow erasing of installed packages to resolve problems"
 msgstr ""
 
 #: main.cpp:1029
-#, c++-format
 msgid "{} to load additional filelists metadata"
 msgstr ""
 
 #: main.cpp:1036
-#, c++-format
 msgid "{} to skip uninstallable packages"
 msgstr ""
 
@@ -870,14 +833,12 @@ msgid "You can try to add to command line:"
 msgstr ""
 
 #: main.cpp:1060
-#, c++-format
 msgid ""
 "No matches were found for the following plugin name patterns while enabling "
 "libdnf plugins: {}"
 msgstr ""
 
 #: main.cpp:1061
-#, c++-format
 msgid ""
 "No matches were found for the following plugin name patterns while disabling "
 "libdnf plugins: {}"
