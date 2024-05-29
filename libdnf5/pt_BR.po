@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-28 02:52+0000\n"
+"POT-Creation-Date: 2024-05-29 02:52+0000\n"
 "PO-Revision-Date: 2024-03-17 02:36+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
@@ -531,17 +531,33 @@ msgstr "A chave pública \"{}\" já está presente, não será importada."
 msgid "An error occurred importing key \"{}\": {}"
 msgstr "Ocorreu um erro ao importar a chave \"{}\": {}"
 
-#: base/transaction.cpp:1324
+#: base/transaction.cpp:1325
 msgid "PGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
 msgstr "A verificação PGP do pacote \"{}\" ({}) do repositório \"{}\" falhou: "
 
-#: base/transaction.cpp:1351
+#: base/transaction.cpp:1353
 msgid "Import of the key didn't help, wrong key?"
 msgstr "A importação da chave não ajudou, chave errada?"
 
-#: base/transaction.cpp:1369
-msgid "Warning: skipped PGP checks for {} package(s)."
+#: base/transaction.cpp:1372
+msgctxt "It is a joining character for repositories IDs"
+msgid ", "
+msgstr ""
+
+#: base/transaction.cpp:1375
+#, fuzzy
+#| msgid "Warning: skipped PGP checks for {} package(s)."
+msgid "Warning: skipped PGP checks for 1 package from repository: {}"
 msgstr "Aviso: ignoradas as verificações de PGP para {} pacote(s)."
+
+#: base/transaction.cpp:1377
+#, fuzzy
+#| msgid "Warning: skipped PGP checks for {} package(s)."
+msgid "Warning: skipped PGP checks for {0} packages from repository: {1}"
+msgid_plural ""
+"Warning: skipped PGP checks for {0} packages from repositories: {1}"
+msgstr[0] "Aviso: ignoradas as verificações de PGP para {} pacote(s)."
+msgstr[1] "Aviso: ignoradas as verificações de PGP para {} pacote(s)."
 
 #: common/exception.cpp:78
 msgid "System error"
