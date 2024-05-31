@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-31 02:52+0000\n"
-"PO-Revision-Date: 2024-05-29 02:50+0000\n"
+"PO-Revision-Date: 2024-05-31 23:30+0000\n"
 "Last-Translator: Dennis Koerner <dennis@bumblebeeman.dev>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/de/>\n"
@@ -24,15 +24,17 @@ msgid ""
 "Bad libsolv id for advisory \"{}\", solvable name \"{}\" doesn't have "
 "advisory prefix \"{}\""
 msgstr ""
+"Ungültige libsolv-ID für Hinweis \"{}\", der auflösbare Name \"{}\" enthält "
+"keinen Hinweispräfix \"{}\""
 
 #: base/goal.cpp:390
 msgid "Unsupported argument for REMOVE action: {}"
-msgstr ""
+msgstr "Nicht unterstütztes Argument für die REMOVE Aktion: {}"
 
 #. TODO(lukash) throw a proper exception
 #: base/goal.cpp:1142
 msgid "Incorrect configuration value for multilib_policy: {}"
-msgstr ""
+msgstr "Fehlerhafter Konfigurationswert für multilib_policy: {}"
 
 #: base/log_event.cpp:141
 msgid "No packages to remove for argument: {}"
@@ -75,10 +77,12 @@ msgid ""
 "Packages for argument '{}' available, but installed for a different "
 "architecture."
 msgstr ""
+"Pakete für Argument '{}' sind verfügbar, aber für eine andere Architektur "
+"installiert."
 
 #: base/log_event.cpp:169
 msgid "Argument '{}' matches only source packages."
-msgstr ""
+msgstr "Argument '{}' passt nur für Quellpakete."
 
 #: base/log_event.cpp:171
 msgid "Argument '{}' matches only excluded packages."
