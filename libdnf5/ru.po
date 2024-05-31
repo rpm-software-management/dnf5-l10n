@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-31 02:52+0000\n"
-"PO-Revision-Date: 2024-05-29 02:50+0000\n"
+"PO-Revision-Date: 2024-05-31 23:30+0000\n"
 "Last-Translator: Aleksey Fedorov <aleksejfedorov963@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/ru/>\n"
@@ -266,7 +266,7 @@ msgstr "ничто не предоставляет {0}, необходимый �
 
 #: base/solver_problems.cpp:57
 msgid "cannot install both {0} from {1} and {2} from {3}"
-msgstr "нельзя установить и {0}, и {1} из {3}"
+msgstr "нельзя установить как {0} из {1}, так и {2} из {3}"
 
 #: base/solver_problems.cpp:58
 msgid "package {0} from {1} conflicts with {2} provided by {3} from {4}"
@@ -461,27 +461,24 @@ msgid "Import of the key didn't help, wrong key?"
 msgstr "Импорт ключа не помог, неправильный ключ?"
 
 #: base/transaction.cpp:1373
-#, fuzzy
-#| msgid "', '"
 msgctxt "It is a joining character for repositories IDs"
 msgid ", "
-msgstr "', '"
+msgstr ", "
 
 #: base/transaction.cpp:1376
-#, fuzzy
-#| msgid "Warning: skipped PGP checks for {} package(s)."
 msgid "Warning: skipped PGP checks for 1 package from repository: {}"
-msgstr "Предупреждение: пропущены PGP-проверки для {} пакета(ов)."
+msgstr "Предупреждение: пропущены проверки PGP для 1 пакета из репозитория: {}"
 
 #: base/transaction.cpp:1378
-#, fuzzy
-#| msgid "Warning: skipped PGP checks for {} package(s)."
 msgid "Warning: skipped PGP checks for {0} packages from repository: {1}"
 msgid_plural ""
 "Warning: skipped PGP checks for {0} packages from repositories: {1}"
-msgstr[0] "Предупреждение: пропущены PGP-проверки для {} пакета(ов)."
-msgstr[1] "Предупреждение: пропущены PGP-проверки для {} пакета(ов)."
-msgstr[2] "Предупреждение: пропущены PGP-проверки для {} пакета(ов)."
+msgstr[0] ""
+"Предупреждение: пропущены проверки PGP для {0} пакетов из репозитория: {1}"
+msgstr[1] ""
+"Предупреждение: пропущены проверки PGP для {0} пакетов из репозиториев: {1}"
+msgstr[2] ""
+"Предупреждение: пропущены проверки PGP для {0} пакетов из репозиториев: {1}"
 
 #: common/exception.cpp:78
 msgid "System error"
