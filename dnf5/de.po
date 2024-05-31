@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-31 02:52+0000\n"
-"PO-Revision-Date: 2024-05-29 02:50+0000\n"
+"PO-Revision-Date: 2024-05-31 23:30+0000\n"
 "Last-Translator: Dennis Koerner <dennis@bumblebeeman.dev>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/de/>\n"
@@ -161,7 +161,7 @@ msgstr "CVE_ID,..."
 
 #: commands/check/check.cpp:335
 msgid "Check discovered {} problem(s) in {} package(s)"
-msgstr ""
+msgstr "Prüfung stellte {} Problem(e) in {} Paket(en) fest"
 
 #: commands/clean/clean.cpp:88
 msgid "List of cache types to clean up. Supported types: {0}"
@@ -177,7 +177,7 @@ msgstr "Bereinigung des Repository-Cache fehlgeschlagen im Pfad \"{0}\": {1}"
 
 #: commands/download/download.cpp:112
 msgid "Invalid urlprotocol option: {}"
-msgstr ""
+msgstr "Ungültige URL-Protokolloption: {}"
 
 #: commands/download/download.cpp:139 main.cpp:612
 msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
@@ -198,7 +198,7 @@ msgstr "Nur installierte Umgebungen anzeigen."
 
 #: commands/environment/arguments.hpp:47
 msgid "Pattern matching environment IDs."
-msgstr ""
+msgstr "Mustervergleich von Umgebungs-IDs."
 
 #: commands/group/arguments.hpp:34
 msgid "Show only available groups."
@@ -222,7 +222,7 @@ msgstr ""
 
 #: commands/group/arguments.hpp:67
 msgid "Pattern matching group IDS."
-msgstr ""
+msgstr "Mustervergleich von Gruppen-IDs."
 
 #: commands/group/arguments.hpp:76
 msgid "Include optional packages from group."
@@ -230,7 +230,7 @@ msgstr "Optionale Pakete aus der Gruppe einschließen."
 
 #: commands/group/arguments.hpp:83
 msgid "Operate on groups only, no packages are changed."
-msgstr ""
+msgstr "Verarbeitet nur Gruppen, keine Pakete werden geändert."
 
 #: commands/history/arguments.hpp:34
 msgid "Transaction ID"
@@ -261,11 +261,11 @@ msgstr ""
 
 #: commands/list/list.cpp:44
 msgid "Lists packages depending on the packages' relation to the system"
-msgstr ""
+msgstr "Listet Pakete abhängig von ihrer Beziehung zum System auf"
 
 #: commands/list/list.cpp:47
 msgid "List of keys to match case insensitively"
-msgstr ""
+msgstr "Schlüssel zum fallunabhängigen Vergleich auflisten"
 
 #: commands/list/list.cpp:59
 msgid "Show all versions of the packages, not only the latest ones."
@@ -284,24 +284,29 @@ msgid ""
 "List extras, that is packages installed on the system that are not available "
 "in any known repository."
 msgstr ""
+"Extras, also Pakete, die auf dem System installiert sind, aber in keinem "
+"bekannten Repository verfügbar sind, auflisten."
 
 #: commands/list/list.cpp:84
 msgid ""
 "List packages installed on the system that are obsoleted by packages in any "
 "known repository."
 msgstr ""
+"Pakete auflisten, die auf dem System installiert sind, aber von Paketen in "
+"einem bekannten Repository ersetzt werden (obsolete Pakete)."
 
 #: commands/list/list.cpp:89
 msgid "List packages recently added into the repositories."
-msgstr ""
+msgstr "Pakete, die kürzlich den Repositories hinzugefügt wurden, auflisten."
 
 #: commands/list/list.cpp:93
 msgid "List upgrades available for the installed packages."
-msgstr ""
+msgstr "Verfügbare Aktualisierungen für die installierten Pakete auflisten."
 
 #: commands/list/list.cpp:97
 msgid "List packages which will be removed by the 'dnf autoremove' command."
 msgstr ""
+"Pakete, die durch das Kommando 'dnf autoremove' entfernt werden, auflisten."
 
 #: commands/list/list.cpp:257
 msgid "No matching packages to list"
@@ -317,7 +322,7 @@ msgstr "Deaktivierte Module anzeigen."
 
 #: commands/module/arguments.hpp:50
 msgid "Pattern matching module NSVCAs."
-msgstr ""
+msgstr "Mustervergleichsmodul NSVCAs."
 
 #: commands/module/module_list.cpp:85
 msgid "No matches found for \"{}\"."
@@ -345,10 +350,12 @@ msgid ""
 "Prepare the system to perform the offline transaction and reboot to start "
 "the transaction."
 msgstr ""
+"Bereiten Sie das System für die Durchführung der Offline-Transaktion vor und "
+"starten Sie es neu, um die Transaktion zu starten."
 
 #: commands/offline/offline.cpp:283
 msgid "Power off the system after the operation is complete"
-msgstr ""
+msgstr "Das System nach Abschluss des Vorgangs ausschalten"
 
 #: commands/offline/offline.cpp:294
 msgid "No offline transaction is stored."
@@ -385,6 +392,8 @@ msgid ""
 "Internal use only, not intended to be run by the user. Execute the "
 "transaction in the offline environment."
 msgstr ""
+"Nur für interne Zwecke, nicht zur Ausführung durch den Benutzer gedacht. "
+"Führen Sie die Transaktion in der Offline-Umgebung aus."
 
 #: commands/offline/offline.cpp:399
 msgid "Trigger file does not exist. Exiting."
@@ -392,7 +401,7 @@ msgstr ""
 
 #: commands/offline/offline.cpp:403
 msgid "Another offline transaction tool is running. Exiting."
-msgstr ""
+msgstr "Ein weiteres Offline-Transaktionstool wird ausgeführt. Wird beendet."
 
 #: commands/offline/offline.cpp:435
 msgid ""
@@ -400,6 +409,9 @@ msgid ""
 "to be run directly by the user. To initiate the system upgrade/offline "
 "transaction, you should run `dnf5 offline reboot`."
 msgstr ""
+"Warnung: Der Befehl `_execute` ist nur für die interne Nutzung und nicht für "
+"die Ausführung durch den Benutzer bestimmt. Um das Systemupgrade / die "
+"Offline-Transaktion zu starten, sollten Sie `dnf5 offline reboot` ausführen."
 
 #: commands/offline/offline.cpp:442
 msgid "Use `dnf5 offline reboot` to begin the transaction."
@@ -411,7 +423,7 @@ msgstr "Transaktion fehlgeschlagen: "
 
 #: commands/offline/offline.cpp:562
 msgid "Error reading journal: {}"
-msgstr ""
+msgstr "Fehler beim Lesen des Journals: {}"
 
 #: commands/offline/offline.cpp:568
 msgid "Add journal match failed: {}"
@@ -424,6 +436,7 @@ msgstr "Es wurden keine Logs gefunden."
 #: commands/offline/offline.cpp:600
 msgid "The following boots appear to contain offline transaction logs:"
 msgstr ""
+"Folgende Bootvorgänge scheinen Offline-Transaktionsprotokolle zu enthalten:"
 
 #: commands/offline/offline.cpp:617
 msgid "Cannot find logs with this index."
@@ -431,7 +444,7 @@ msgstr "Es können keine Logs mit diesem Index gefunden werden."
 
 #: commands/offline/offline.cpp:624
 msgid "Unable to match systemd journal entry."
-msgstr ""
+msgstr "Kein treffender Eintrag im systemd-Journal gefunden."
 
 #: commands/offline/offline.cpp:636
 msgid "Show logs from past offline transactions"
@@ -441,6 +454,8 @@ msgstr "Logs vergangener Offline-Transaktionen anzeigen"
 msgid ""
 "Which log to show. Run without any arguments to get a list of available logs."
 msgstr ""
+"Welches Protokoll anzuzeigen. Ohne Argumente ausführen, um eine Liste der "
+"verfügbaren Protokolle zu erhalten."
 
 #: commands/offline/offline.cpp:659
 msgid ""
@@ -492,19 +507,23 @@ msgstr "Deaktivierte Repositorys anzeigen."
 
 #: commands/repo/arguments.hpp:56
 msgid "Pattern matching repo IDs."
-msgstr ""
+msgstr "Mustervergleich von Repository-IDs."
 
 #: commands/repoquery/repoquery.cpp:516
 msgid ""
 "Option \"--exactdeps\" has to be used either with \"--whatrequires\" or \"--"
 "whatdepends\""
 msgstr ""
+"Option \"--exactdeps\" muss entweder mit \"--whatrequires\" oder \"--"
+"whatdepends\" genutzt werden"
 
 #: commands/repoquery/repoquery.cpp:521
 msgid ""
 "Option \"--recursive\" has to be used either with \"--whatrequires\" or \"--"
 "providers-of=requires\""
 msgstr ""
+"Option \"--recursive\" muss entweder mit \"--whatrequires\" oder \""
+"--providers-of=requires\" genutzt werden"
 
 #: commands/search/arguments.hpp:37
 msgid "Search also package description and URL."
@@ -512,7 +531,7 @@ msgstr "Auch Paketbeschreibung und URL durchsuchen."
 
 #: commands/search/arguments.hpp:45
 msgid "Patterns"
-msgstr ""
+msgstr "Muster"
 
 #: commands/system-upgrade/system-upgrade.cpp:54
 msgid "Prepare system for upgrade to a new release"
@@ -537,24 +556,24 @@ msgstr "Ein --releasever größer als die aktuelle Systemversion wird benötigt.
 
 #: commands/system-upgrade/system-upgrade.cpp:131
 msgid "Store a distro-sync transaction to be performed offline"
-msgstr ""
+msgstr "Distro-Sync-Transaktion zur Offline-Durchführung speichern"
 
 #: commands/system-upgrade/system-upgrade.cpp:153
 msgid "Store an upgrade transaction to be performed offline"
-msgstr ""
+msgstr "Upgrade-Transaktion zur Offline-Durchführung speichern"
 
 #. TODO(mblaha): add full command line
 #: commands/versionlock/utils.cpp:35
 msgid "Added by 'versionlock {}' command on {}"
-msgstr ""
+msgstr "Von 'versionlock {}' Kommando zu {} hinzugefügt"
 
 #: commands/versionlock/versionlock_add.cpp:37
 msgid "Add new entry to versionlock configuration"
-msgstr ""
+msgstr "Neuen Eintrag zur Versionlock-Konfiguration hinzufügen"
 
 #: commands/versionlock/versionlock_add.cpp:43
 msgid "List of package specs to add versionlock for"
-msgstr ""
+msgstr "Liste der Paketspezifikationen, denen Versionlock hinzugefügt wird"
 
 #: commands/versionlock/versionlock_add.cpp:106
 #: commands/versionlock/versionlock_exclude.cpp:125
@@ -563,7 +582,7 @@ msgstr "Kein Paket für \"{}\" gefunden."
 
 #: commands/versionlock/versionlock_add.cpp:124
 msgid "Adding versionlock on \"{0} = {1}\"."
-msgstr ""
+msgstr "Hinzufügen von Versionssperre an \"{0} = {1}\"."
 
 #: commands/versionlock/versionlock_add.cpp:127
 msgid "Package \"{}\" is already locked."
