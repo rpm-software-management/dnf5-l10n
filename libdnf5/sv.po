@@ -10,9 +10,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-31 02:52+0000\n"
-"PO-Revision-Date: 2024-05-29 02:50+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2024-05-31 23:30+0000\n"
+"Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/sv/>\n"
 "Language: sv\n"
@@ -465,26 +464,21 @@ msgid "Import of the key didn't help, wrong key?"
 msgstr "Importen av nyckeln hjälpte inte, fel nyckel?"
 
 #: base/transaction.cpp:1373
-#, fuzzy
-#| msgid "', '"
 msgctxt "It is a joining character for repositories IDs"
 msgid ", "
-msgstr "', '"
+msgstr ", "
 
 #: base/transaction.cpp:1376
-#, fuzzy
-#| msgid "Warning: skipped PGP checks for {} package(s)."
 msgid "Warning: skipped PGP checks for 1 package from repository: {}"
-msgstr "Varning: hoppade över PGP-kontroller för {} paket."
+msgstr "Varning: hoppade över PGP-kontroller för 1 paket från förråd: {}"
 
 #: base/transaction.cpp:1378
-#, fuzzy
-#| msgid "Warning: skipped PGP checks for {} package(s)."
 msgid "Warning: skipped PGP checks for {0} packages from repository: {1}"
 msgid_plural ""
 "Warning: skipped PGP checks for {0} packages from repositories: {1}"
-msgstr[0] "Varning: hoppade över PGP-kontroller för {} paket."
-msgstr[1] "Varning: hoppade över PGP-kontroller för {} paket."
+msgstr[0] "Varning: hoppade över PGP-kontroller för {0} paket från: förråd: {1}"
+msgstr[1] ""
+"Varning: hoppade över PGP-kontroller för {0} paket från flera förråd: {1}"
 
 #: common/exception.cpp:78
 msgid "System error"
