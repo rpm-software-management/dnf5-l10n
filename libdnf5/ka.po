@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-29 02:52+0000\n"
+"POT-Creation-Date: 2024-05-31 02:52+0000\n"
 "PO-Revision-Date: 2024-05-30 11:36+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -287,8 +287,8 @@ msgstr ""
 #: base/solver_problems.cpp:64
 msgid "package {0} from {1} implicitly obsoletes {2} provided by {3} from {4}"
 msgstr ""
-"პაკეტი {0} {1}-დან მოძველებულად მონიშნავს {2}-ს, რომელსაც წარმოადგენს "
-"{3}{4}-დან"
+"პაკეტი {0} {1}-დან მოძველებულად მონიშნავს {2}-ს, რომელსაც წარმოადგენს {3}{4}-"
+"დან"
 
 #: base/solver_problems.cpp:66
 msgid ""
@@ -399,79 +399,79 @@ msgstr "პრობლემა: "
 msgid "Problem {}: "
 msgstr "პრობლემა {}: "
 
-#: base/transaction.cpp:76
+#: base/transaction.cpp:77
 msgid "This transaction has been already run before."
 msgstr "ეს ტრანზაქცია ადრე უკვე იყო გაშვებული."
 
-#: base/transaction.cpp:77
+#: base/transaction.cpp:78
 msgid "Cannot run transaction with resolving problems."
 msgstr "შეუძლებელია ტრანზაქციის გაშვება პრობლემების გადაწყვეტით."
 
-#: base/transaction.cpp:78
+#: base/transaction.cpp:79
 msgid "Rpm transaction check failed."
 msgstr "Rpm-ის ტრანზაქციის შემოწმება ჩავარდა."
 
-#: base/transaction.cpp:80
+#: base/transaction.cpp:81
 msgid ""
 "Failed to obtain rpm transaction lock. Another transaction is in progress."
 msgstr ""
 "შეცდომა rpm-ის ტრანზაქციის ბლოკის მიღებისას. მიმდინარეობს სხვა ტრანზაქცია."
 
-#: base/transaction.cpp:81
+#: base/transaction.cpp:82
 msgid "Rpm transaction failed."
 msgstr "Rpm-ის ტრანზაქცია ჩავარდა."
 
-#: base/transaction.cpp:82
+#: base/transaction.cpp:83
 msgid "Signature verification failed."
 msgstr "ხელმოწერის გადამოწმება ჩავარდა."
 
-#: base/transaction.cpp:86
+#: base/transaction.cpp:87
 msgid "The repository does not have any PGP keys configured."
 msgstr "რეპოზიტორიას PGP გასაღებები მითითებული არ აქვს."
 
-#: base/transaction.cpp:87
+#: base/transaction.cpp:88
 msgid "Public key is not installed."
 msgstr "საჯარო გასაღები დაყენებული არაა."
 
-#: base/transaction.cpp:88
+#: base/transaction.cpp:89
 msgid "Canceled by the user."
 msgstr "გაუქმდა მომხმარებლის მიერ."
 
-#: base/transaction.cpp:89
+#: base/transaction.cpp:90
 msgid "Public key import failed."
 msgstr "საჯარო გასაღების შემოტანა ჩავარდა."
 
-#: base/transaction.cpp:936
+#: base/transaction.cpp:937
 msgid "Invalid tsflag: {}"
 msgstr "არასწორი tsflag: {}"
 
-#: base/transaction.cpp:1270
+#: base/transaction.cpp:1271
 msgid "Public key \"{}\" is already present, not importing."
 msgstr "საჯარო გასაღები \"{}\" უკვე არსებობს. შემოტანა არ მოხდება."
 
-#: base/transaction.cpp:1291
+#: base/transaction.cpp:1292
 msgid "An error occurred importing key \"{}\": {}"
 msgstr "შეცდომა გასაღების \"{}\" შემოტანისას: {}"
 
-#: base/transaction.cpp:1325
+#: base/transaction.cpp:1326
 msgid "PGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
 msgstr "PGP-ის შემოწმება პაკეტისთვის \"{}\" ({}) რეპოდან \"{}\" ჩავარდა: "
 
-#: base/transaction.cpp:1353
+#: base/transaction.cpp:1354
 msgid "Import of the key didn't help, wrong key?"
 msgstr "გასაღების შემოტანამ არაფერს უშველა. გასაღები არასწორია?"
 
-#: base/transaction.cpp:1372
+#: base/transaction.cpp:1373
 msgctxt "It is a joining character for repositories IDs"
 msgid ", "
 msgstr ", "
 
-#: base/transaction.cpp:1375
+#: base/transaction.cpp:1376
 msgid "Warning: skipped PGP checks for 1 package from repository: {}"
 msgstr ""
 "გაფრთხილება: PGP-ით შემოწმების გამოტოვება 1 პაკეტისთვის რეპოზიტორიიდან: {}"
 
-#: base/transaction.cpp:1377
+#: base/transaction.cpp:1378
 msgid "Warning: skipped PGP checks for {0} packages from repository: {1}"
 msgid_plural ""
 "Warning: skipped PGP checks for {0} packages from repositories: {1}"
@@ -1290,19 +1290,19 @@ msgstr "გაზიარებული ბიბლიოთეკის ფ�
 msgid "Cannot obtain address of symbol \"{}\": {}"
 msgstr "სიმბოლოსთვს (\"{}\") მისამართის პოვნის შეცდომა: {}"
 
-#: utils/locker.cpp:43
+#: utils/locker.cpp:45
 msgid "Failed to open lock file \"{}\""
 msgstr "შეცდომა დაბლოკვის ფაილის \"{}\" გახსნისას"
 
-#: utils/locker.cpp:58
+#: utils/locker.cpp:60
 msgid "Failed to obtain lock \"{}\""
 msgstr "შეცდომა ბლოკის \"{}\" მიღებისას"
 
-#: utils/locker.cpp:68
+#: utils/locker.cpp:70
 msgid "Failed to close lock file \"{}\""
 msgstr "შეცდომა დაბლოკვის ფაილის \"{}\" დახურვისას"
 
-#: utils/locker.cpp:71
+#: utils/locker.cpp:73
 msgid "Failed to delete lock file \"{}\""
 msgstr "შეცდომა დაბლოკვის ფაილის \"{}\" წაშლისას"
 
