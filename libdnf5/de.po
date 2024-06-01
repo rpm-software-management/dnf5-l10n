@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-31 02:52+0000\n"
-"PO-Revision-Date: 2024-05-31 23:30+0000\n"
+"PO-Revision-Date: 2024-06-01 10:59+0000\n"
 "Last-Translator: Dennis Koerner <dennis@bumblebeeman.dev>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/de/>\n"
@@ -86,11 +86,13 @@ msgstr "Argument '{}' passt nur für Quellpakete."
 
 #: base/log_event.cpp:171
 msgid "Argument '{}' matches only excluded packages."
-msgstr ""
+msgstr "Argument '{}' stimmt nur mit ausgeschlossenen Paketen überein."
 
 #: base/log_event.cpp:173
 msgid "Argument '{}' matches only packages excluded by versionlock."
 msgstr ""
+"Argument '{}' stimmt nur mit Paketen überein, die durch Versionlock "
+"ausgeschlossenen sind."
 
 #: base/log_event.cpp:178
 msgid "  * Maybe you meant: {}"
@@ -105,6 +107,8 @@ msgid ""
 "The lowest available version of the \"{}\" package is already installed, "
 "cannot downgrade it."
 msgstr ""
+"Die niedrigste verfügbare Version des Pakets \"{}\" ist bereits installiert. "
+"Downgrade nicht möglich."
 
 #: base/log_event.cpp:194
 msgid ""
