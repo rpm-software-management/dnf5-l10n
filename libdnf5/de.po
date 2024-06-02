@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-31 02:52+0000\n"
-"PO-Revision-Date: 2024-06-01 10:59+0000\n"
+"PO-Revision-Date: 2024-06-02 14:35+0000\n"
 "Last-Translator: Dennis Koerner <dennis@bumblebeeman.dev>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/de/>\n"
@@ -194,10 +194,8 @@ msgid "{} does not belong to a distupgrade repository"
 msgstr "{} gehört nicht zu einem distupgrade-Repository"
 
 #: base/solver_problems.cpp:42
-#, fuzzy
-#| msgid "{} has inferior architecture"
 msgid "{0} from {1} has inferior architecture"
-msgstr "{} hat eine schlechtere Architektur"
+msgstr "{0} aus {1} hat eine schlechtere Architektur"
 
 #: base/solver_problems.cpp:43
 msgid "problem with installed package"
@@ -245,10 +243,8 @@ msgid "package {0} from {1} does not have a compatible architecture"
 msgstr ""
 
 #: base/solver_problems.cpp:54
-#, fuzzy
-#| msgid "package {} does not exist"
 msgid "package {0} from {1} is not installable"
-msgstr "Paket {} existiert nicht"
+msgstr "Paket {0} aus {1} ist nicht installierbar"
 
 #: base/solver_problems.cpp:55
 msgid "package {0} from {1} is filtered out by exclude filtering"
@@ -1226,11 +1222,11 @@ msgstr ""
 #. returns localized message, problem with later translation
 #: utils/library.cpp:32
 msgid "Cannot load shared library \"{}\": {}"
-msgstr ""
+msgstr "Shared-Library kann nicht geladen werden \"{}\": {}"
 
 #: utils/library.cpp:47
 msgid "Cannot obtain address of symbol \"{}\": {}"
-msgstr ""
+msgstr "Adresse des Symbols kann nicht abgerufen werden \"{}\": {}"
 
 #: utils/locker.cpp:45
 msgid "Failed to open lock file \"{}\""
