@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-31 02:52+0000\n"
-"PO-Revision-Date: 2024-06-02 14:35+0000\n"
+"PO-Revision-Date: 2024-06-04 09:28+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/ko/>\n"
@@ -191,10 +191,8 @@ msgid "{} does not belong to a distupgrade repository"
 msgstr "{}가 distupgrade 저장소에 속하지 않습니다"
 
 #: base/solver_problems.cpp:42
-#, fuzzy
-#| msgid "{} has inferior architecture"
 msgid "{0} from {1} has inferior architecture"
-msgstr "{}는 열악한 구조를 갖고 있습니다"
+msgstr "{0}은 ({1}에서) 열악한 구조를 갖고 있습니다"
 
 #: base/solver_problems.cpp:43
 msgid "problem with installed package"
@@ -249,10 +247,8 @@ msgid "package {0} from {1} is filtered out by exclude filtering"
 msgstr ""
 
 #: base/solver_problems.cpp:56
-#, fuzzy
-#| msgid "nothing provides requested {}"
 msgid "nothing provides {0} needed by {1} from {2}"
-msgstr "요청된 {}에 어떤 것도 제공하지 않습니다"
+msgstr "{2)에서 {1}에 의해 필요한 {0}을 제공하는 것이 없습니다"
 
 #: base/solver_problems.cpp:57
 msgid "cannot install both {0} from {1} and {2} from {3}"
