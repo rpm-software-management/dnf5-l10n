@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-31 02:52+0000\n"
+"POT-Creation-Date: 2024-06-06 02:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -138,6 +138,14 @@ msgstr ""
 
 #: commands/advisory_shared.hpp:180
 msgid "CVE_ID,..."
+msgstr ""
+
+#: commands/check-upgrade/check-upgrade.cpp:54
+msgid ""
+"Reports the lowest versions of packages that fix advisories of type bugfix, "
+"enhancement, security, or newpackage. In case that any option limiting "
+"advisories is used it reports the lowest versions of packages that fix "
+"advisories matching selected advisory properties"
 msgstr ""
 
 #: commands/check/check.cpp:335
@@ -504,6 +512,14 @@ msgstr ""
 msgid "Store an upgrade transaction to be performed offline"
 msgstr ""
 
+#: commands/upgrade/upgrade.cpp:48
+msgid ""
+"Upgrade packages only to the lowest versions that fix advisories of type "
+"bugfix, enhancement, security, or newpackage. In case that any option "
+"limiting advisories is used it upgrades packages only to the lowest versions "
+"that fix advisories that matching selected advisory property"
+msgstr ""
+
 #. TODO(mblaha): add full command line
 #: commands/versionlock/utils.cpp:35
 msgid "Added by 'versionlock {}' command on {}"
@@ -567,11 +583,11 @@ msgstr ""
 msgid "The key was successfully imported."
 msgstr ""
 
-#: context.cpp:252
+#: context.cpp:256
 msgid "No matching repositories for \"{}\""
 msgstr ""
 
-#: context.cpp:406
+#: context.cpp:410
 msgid ""
 "Location \"{}\" already contains a stored transaction, it will be "
 "overwritten.\n"

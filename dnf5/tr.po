@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-31 02:52+0000\n"
+"POT-Creation-Date: 2024-06-06 02:52+0000\n"
 "PO-Revision-Date: 2024-02-26 01:35+0000\n"
 "Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -142,6 +142,14 @@ msgstr ""
 #: commands/advisory_shared.hpp:180
 msgid "CVE_ID,..."
 msgstr "CVE_KİMLİĞİ,..."
+
+#: commands/check-upgrade/check-upgrade.cpp:54
+msgid ""
+"Reports the lowest versions of packages that fix advisories of type bugfix, "
+"enhancement, security, or newpackage. In case that any option limiting "
+"advisories is used it reports the lowest versions of packages that fix "
+"advisories matching selected advisory properties"
+msgstr ""
 
 #: commands/check/check.cpp:335
 msgid "Check discovered {} problem(s) in {} package(s)"
@@ -509,6 +517,14 @@ msgstr ""
 msgid "Store an upgrade transaction to be performed offline"
 msgstr ""
 
+#: commands/upgrade/upgrade.cpp:48
+msgid ""
+"Upgrade packages only to the lowest versions that fix advisories of type "
+"bugfix, enhancement, security, or newpackage. In case that any option "
+"limiting advisories is used it upgrades packages only to the lowest versions "
+"that fix advisories that matching selected advisory property"
+msgstr ""
+
 #. TODO(mblaha): add full command line
 #: commands/versionlock/utils.cpp:35
 msgid "Added by 'versionlock {}' command on {}"
@@ -572,11 +588,11 @@ msgstr "\"{}\" paketi zaten dışlanmış."
 msgid "The key was successfully imported."
 msgstr ""
 
-#: context.cpp:252
+#: context.cpp:256
 msgid "No matching repositories for \"{}\""
 msgstr "\"{}\" için eşleşen depo yok"
 
-#: context.cpp:406
+#: context.cpp:410
 msgid ""
 "Location \"{}\" already contains a stored transaction, it will be "
 "overwritten.\n"
