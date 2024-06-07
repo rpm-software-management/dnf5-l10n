@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-07 02:52+0000\n"
-"PO-Revision-Date: 2024-06-07 02:49+0000\n"
-"Last-Translator: Joungmin Lee <leejm516@gmail.com>\n"
+"PO-Revision-Date: 2024-06-08 02:49+0000\n"
+"Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5daemon-client/ko/>\n"
 "Language: ko\n"
@@ -30,30 +30,32 @@ msgstr "권고 사항 목록"
 
 #: commands/advisory/arguments.hpp:32
 msgid "Show advisories containing any version of installed packages."
-msgstr ""
+msgstr "설치된 꾸러미의 모든 버전을 포함하는 권고를 표시합니다."
 
 #: commands/advisory/arguments.hpp:43
 msgid ""
 "Show advisories containing newer versions of installed packages. This is the "
 "default behavior."
-msgstr ""
+msgstr "설치된 꾸러미의 신규 버전을 포함하는 권고를 표시합니다. 이는 기본 동작입니다."
 
 #: commands/advisory/arguments.hpp:55
 msgid ""
 "Show advisories containing equal and older versions of installed packages."
-msgstr ""
+msgstr "설치된 꾸러미의 같거나 오래된 버전을 포함하는 권고를 표시합니다."
 
 #: commands/advisory/arguments.hpp:67
 msgid ""
 "Show advisories containing newer versions of installed packages for which a "
 "newer version is available."
-msgstr ""
+msgstr "신규 버전을 사용 할 수 있는 설치된 꾸러미의 신규 버전을 포함하는 권고를 "
+"표시합니다."
 
 #: commands/advisory/arguments.hpp:80
 msgid ""
 "Show only advisories containing packages with specified names. List option, "
 "supports globs."
-msgstr ""
+msgstr "지정된 이름을 갖는 꾸러미를 포함하는 권고만 표시합니다. 옵션을 나열하고, "
+"glob을 지원합니다."
 
 #: commands/advisory/arguments.hpp:81
 msgid "PACKAGE_NAME,..."
@@ -65,19 +67,19 @@ msgstr "권고 이름과 일치하는 유형의 목록입니다."
 
 #: commands/advisory/arguments.hpp:95
 msgid "Show only advisories referencing a bugzilla."
-msgstr "Bugzilla를 참조하는 권고 사항만을 보여줍니다."
+msgstr "버그질라를 참조하는 권고 사항만 표시합니다."
 
 #: commands/advisory/arguments.hpp:102
 msgid "Show only advisories referencing a CVE."
-msgstr ""
+msgstr "CVE를 참조하는 권고만 표시합니다."
 
 #: commands/advisory/arguments.hpp:113
 msgid "Limit to packages in advisories with specified name. List option."
-msgstr ""
+msgstr "지정된 이름인 권고에서 꾸러미로 제한합니다. 옵션 목록."
 
 #: commands/advisory/arguments.hpp:114
 msgid "ADVISORY_NAME,..."
-msgstr ""
+msgstr "권고_이름,..."
 
 #: commands/advisory/arguments.hpp:121
 msgid "Limit to packages in security advisories."
@@ -85,15 +87,15 @@ msgstr "보안 권고 사항에 해당하는 꾸러미들로 제한합니다."
 
 #: commands/advisory/arguments.hpp:128
 msgid "Limit to packages in bugfix advisories."
-msgstr ""
+msgstr "결점수정 권고의 꾸러미로 제한합니다."
 
 #: commands/advisory/arguments.hpp:135
 msgid "Limit to packages in enhancement advisories."
-msgstr ""
+msgstr "개선 권고의 꾸러미로 제한합니다."
 
 #: commands/advisory/arguments.hpp:142
 msgid "Limit to packages in newpackage advisories."
-msgstr ""
+msgstr "신규꾸러미 권고의 꾸러미로 제한합니다."
 
 #. Note for translators: "critical" etc. quoted words are
 #. literals that should not be translated.
@@ -102,30 +104,34 @@ msgid ""
 "Limit to packages in advisories with specified severity. List option. Can be "
 "\"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgstr ""
+"지정된 심각도를 갖는 권고의 꾸러미로 제한합니다. 옵션 목록. \"critical(심각)"
+"\", \"important(중요)\", \"moderate(보통)\", \"low(낮음)\", \"none(없음)\"이 "
+"될 수 있습니다."
 
 #: commands/advisory/arguments.hpp:157
 msgid "ADVISORY_SEVERITY,..."
-msgstr ""
+msgstr "권고_심각도,..."
 
 #: commands/advisory/arguments.hpp:169
 msgid ""
 "Limit to packages in advisories that fix a Bugzilla ID, Eg. 123123. List "
 "option."
-msgstr ""
+msgstr "버그질라 ID (Eg. 123123)에서 수정된 권고의 꾸러미로 제한합니다. 옵션 목록."
 
 #: commands/advisory/arguments.hpp:170
 msgid "BUGZILLA_ID,..."
-msgstr ""
+msgstr "버그질라_ID,..."
 
 #: commands/advisory/arguments.hpp:180
 msgid ""
 "Limit to packages in advisories that fix a CVE (Common Vulnerabilities and "
 "Exposures) ID, Eg. CVE-2201-0123. List option."
-msgstr ""
+msgstr "CVE(일반 취약점 및 노출) ID(예: CVE-2201-0123)로 수정된 권고의 꾸로미로 "
+"제한합니다. 옵션 목록."
 
 #: commands/advisory/arguments.hpp:182
 msgid "CVE_ID,..."
-msgstr ""
+msgstr "CVE_ID,..."
 
 #: commands/group/group_list.hpp:37
 msgid "Show only available groups."
@@ -143,11 +149,12 @@ msgstr "숨겨진 그룹도 표시합니다."
 msgid ""
 "Show only groups containing packages with specified names. List option, "
 "supports globs."
-msgstr ""
+msgstr "지정된 이름을 갖는 꾸러미가 포함된 그룹만 표시합니다. 옵션 목록, glob을 "
+"지원합니다."
 
 #: commands/repoquery/repoquery.cpp:158
 msgid "Error parsing JSON object \"{}\": {}"
-msgstr ""
+msgstr "JSON 개체를 구문 분석 중 오류 \"{}\": {}"
 
 #: exception.cpp:28
 msgid ""
@@ -160,8 +167,8 @@ msgstr ""
 #: main.cpp:155
 msgid ""
 "{}: Badly formatted argument value: Last key character cannot be '.': {}"
-msgstr ""
+msgstr "{}: 잘못된 형식의 인수 값: 마지막 키 문자는 다음과 같을 수 없습니다 '.': {}"
 
 #: main.cpp:242 main.cpp:279
 msgid ". Add \"--help\" for more information about the arguments."
-msgstr ""
+msgstr ".인수에 대한 더 많은 정보를 위해 \"--help\"를 추가합니다."
