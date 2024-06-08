@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-07 02:52+0000\n"
+"POT-Creation-Date: 2024-06-08 02:52+0000\n"
 "PO-Revision-Date: 2024-06-08 02:49+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
@@ -54,8 +54,9 @@ msgstr "저장소 구성 파일을 내려받는 데 실패했습니다 \"{}\": {
 msgid ""
 "Error in added repository configuration file. Cannot set repository option "
 "\"{}={}\": {}"
-msgstr "추가된 저장소 구성 파일에서 오류. 저장소 옵션을 설정 할 수 없습니다 \"{}={}\""
-": {}"
+msgstr ""
+"추가된 저장소 구성 파일에서 오류. 저장소 옵션을 설정 할 수 없습니다 \"{}"
+"={}\": {}"
 
 #: addrepo.cpp:387
 msgid "Bad baseurl: {}={}"
@@ -85,7 +86,8 @@ msgstr ""
 msgid ""
 "File \"{}\" already exists and configures repositories with IDs \"{}\". Add "
 "\"--overwrite\" to overwrite."
-msgstr "파일 \"{}\"은 이미 존재하고 ID \"{}\"인 저장소를 구성합니다. 덮어쓰도록 \"--"
+msgstr ""
+"파일 \"{}\"은 이미 존재하고 ID \"{}\"인 저장소를 구성합니다. 덮어쓰도록 \"--"
 "overwrite\" 추가합니다."
 
 #: addrepo.cpp:485 addrepo.cpp:511
@@ -99,7 +101,8 @@ msgstr "디렉토리에서 저장소를 읽을 수 없습니다 \"{}\": {}"
 #: setopt.cpp:91 unsetopt.cpp:72
 msgid ""
 "{}: Badly formatted argument value: Last key character cannot be '.': {}"
-msgstr "{}: 잘못된 형식의 인수 값: 마지막 키 문자는 다음과 같을 수 없습니다 '.': {}"
+msgstr ""
+"{}: 잘못된 형식의 인수 값: 마지막 키 문자는 다음과 같을 수 없습니다 '.': {}"
 
 #: setopt.cpp:100 unsetopt.cpp:81
 msgid "{}: Empty repository id is not allowed: {}"
@@ -113,7 +116,8 @@ msgstr "저장소 옵션을 설정 할 수 없습니다 \"{}\": {}"
 msgid ""
 "Sets the \"{}\" option of the repository \"{}\" again with a different "
 "value: \"{}\" != \"{}\""
-msgstr "다른 값을 갖는 저장소 \"{}\"의 옵션을 다시 설정합니다: \"{}\" != \"{}\""
+msgstr ""
+"다른 값을 갖는 저장소 \"{}\"의 옵션을 다시 설정합니다: \"{}\" != \"{}\""
 
 #: setopt.cpp:130
 msgid "Cannot set option: \"{}\": {}"
@@ -143,8 +147,9 @@ msgstr "파일에 변수를 쓸 수 없습니다 \"{}\": {}"
 msgid ""
 "The path \"{}\" exists, but it is not a directory or a symlink to a "
 "directory."
-msgstr "경로 \"{}\"가 존재하지만, 디렉토리 또는 디렉토리에 대한 심볼릭링크가 "
-"아닙니다."
+msgstr ""
+"경로 \"{}\"가 존재하지만, 디렉토리 또는 디렉토리에 대한 심볼릭링크가 아닙니"
+"다."
 
 #: shared.hpp:63
 msgid "The path \"{}\" exists, but it is a symlink to a non-existent object."
@@ -154,8 +159,9 @@ msgstr "경로 \"{}\"가 존재하지만, 존재하지-않는 개체로 심볼�
 msgid ""
 "Directory \"{}\" does not exist. Add \"--create-missing-dir\" to create "
 "missing directories."
-msgstr "디렉토리 \"{}\"가 존재하지 않습니다. \"--create-missing-dir\"를 추가하여 "
-"누락된 디렉토리를 생성합니다."
+msgstr ""
+"디렉토리 \"{}\"가 존재하지 않습니다. \"--create-missing-dir\"를 추가하여 누락"
+"된 디렉토리를 생성합니다."
 
 #: shared.hpp:80
 msgid "Variable name can contain only ASCII letters, numbers and '_': {}"
@@ -173,49 +179,56 @@ msgstr "config-manager: 미지원된 주요 옵션을 제거하도록 요청합�
 msgid ""
 "config-manager: Request to remove main option but it is not present in the "
 "config file: {}"
-msgstr "config-manager: 주요 옵션을 제거하도록 요청하지만 config 파일에서 존재하지 "
-"않습니다: {}"
+msgstr ""
+"config-manager: 주요 옵션을 제거하도록 요청하지만 config 파일에서 존재하지 않"
+"습니다: {}"
 
 #: unsetopt.cpp:152
 msgid ""
 "config-manager: Request to remove main option but config file not found: {}"
-msgstr "config-manager: 주요 옵션을 제거하도록 요청하지만 config 파일을 찾을 수 "
-"없습니다: {}"
+msgstr ""
+"config-manager: 주요 옵션을 제거하도록 요청하지만 config 파일을 찾을 수 없습"
+"니다: {}"
 
 #: unsetopt.cpp:186
 msgid ""
 "config-manager: Request to remove repository option but repoid is not "
 "present in the overrides: {}"
-msgstr "config-manager: 저장소 옵션을 제거하도록 요청하지만 repoid는 재정의에서 "
-"존재하지 않습니다: {}"
+msgstr ""
+"config-manager: 저장소 옵션을 제거하도록 요청하지만 repoid는 재정의에서 존재"
+"하지 않습니다: {}"
 
 #: unsetopt.cpp:194
 msgid ""
 "config-manager: Request to remove repository option but it is not present in "
 "the overrides: {}.{}"
-msgstr "config-manager: 저장소 옵션을 제거하려고 요청하지만 재정의에서 존재하지 "
-"않습니다: {}.{}"
+msgstr ""
+"config-manager: 저장소 옵션을 제거하려고 요청하지만 재정의에서 존재하지 않습"
+"니다: {}.{}"
 
 #: unsetopt.cpp:214
 msgid ""
 "config-manager: Request to remove repository option but file with overrides "
 "not found: {}"
-msgstr "config-manager: 저장소를 제거하려고 요청하지만 재정의를 갖는 파일을 찾을 수 "
+msgstr ""
+"config-manager: 저장소를 제거하려고 요청하지만 재정의를 갖는 파일을 찾을 수 "
 "없습니다: {}"
 
 #: unsetvar.cpp:69
 msgid ""
 "config-manager: Request to remove variable but vars directory was not found: "
 "{}"
-msgstr "config-manager: 변수를 제거하려고 요청하지만 var 디렉토리를 찾을 수 없습니다:"
-" {}"
+msgstr ""
+"config-manager: 변수를 제거하려고 요청하지만 var 디렉토리를 찾을 수 없습니"
+"다: {}"
 
 #: unsetvar.cpp:82
 msgid ""
 "config-manager: Request to remove variable but it is not present in the vars "
 "directory: {}"
-msgstr "config-manager: 변수를 제거하려고 요청하지만 var 디렉토레에서 존재하지 "
-"않습니다: {}"
+msgstr ""
+"config-manager: 변수를 제거하려고 요청하지만 var 디렉토레에서 존재하지 않습니"
+"다: {}"
 
 #: unsetvar.cpp:88
 msgid "Cannot remove variable file \"{}\": {}"
