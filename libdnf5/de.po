@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-07 02:52+0000\n"
+"POT-Creation-Date: 2024-06-08 02:52+0000\n"
 "PO-Revision-Date: 2024-06-02 14:35+0000\n"
 "Last-Translator: Dennis Koerner <dennis@bumblebeeman.dev>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf5/"
@@ -1035,6 +1035,16 @@ msgstr ""
 #. TODO(dmach): replace with a better exception class
 #: transaction/db/item.cpp:43
 msgid "Failed to insert record into table 'item' in history database"
+msgstr ""
+
+#: transaction/offline.cpp:195
+#, fuzzy
+#| msgid "error reading file"
+msgid "error reading offline state file"
+msgstr "Fehler beim Lesen der Datei"
+
+#: transaction/offline.cpp:200
+msgid "incompatible version of state data"
 msgstr ""
 
 #: transaction/transaction.cpp:96

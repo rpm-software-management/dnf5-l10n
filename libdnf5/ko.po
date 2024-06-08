@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-07 02:52+0000\n"
+"POT-Creation-Date: 2024-06-08 02:52+0000\n"
 "PO-Revision-Date: 2024-06-08 02:49+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
@@ -24,7 +24,8 @@ msgstr ""
 msgid ""
 "Bad libsolv id for advisory \"{}\", solvable name \"{}\" doesn't have "
 "advisory prefix \"{}\""
-msgstr "권고 \"{}\"용 나쁜 libsolv id, 해결 할 수 있는 \"{}\"은 권고 접두사 \"{}\"를 "
+msgstr ""
+"권고 \"{}\"용 나쁜 libsolv id, 해결 할 수 있는 \"{}\"은 권고 접두사 \"{}\"를 "
 "가지지 않습니다"
 
 #: base/goal.cpp:390
@@ -76,7 +77,8 @@ msgstr "인수 '{}'에 해당하는 꾸러미가 존재하지만 설치되어 �
 msgid ""
 "Packages for argument '{}' available, but installed for a different "
 "architecture."
-msgstr "인수 '{}'를 위한 꾸러미는 사용 할 수 있지만 다른 구조를 위해 설치되었습니다."
+msgstr ""
+"인수 '{}'를 위한 꾸러미는 사용 할 수 있지만 다른 구조를 위해 설치되었습니다."
 
 #: base/log_event.cpp:169
 msgid "Argument '{}' matches only source packages."
@@ -102,15 +104,17 @@ msgstr "다음 대안이 있습니다 '{0}': {1}"
 msgid ""
 "The lowest available version of the \"{}\" package is already installed, "
 "cannot downgrade it."
-msgstr "\"{}\" 꾸러미의 최저 사용 가능 버전이 이미 설치되었으며, 이를 하향 할 수 "
-"없습니다."
+msgstr ""
+"\"{}\" 꾸러미의 최저 사용 가능 버전이 이미 설치되었으며, 이를 하향 할 수 없습"
+"니다."
 
 #: base/log_event.cpp:194
 msgid ""
 "Packages for argument '{}' installed and available, but in a different "
 "version => cannot reinstall"
-msgstr "인수 '{}'를 위한 꾸러미가 설치 되었고 사용 가능하지만, 다른 버전으로 => "
-"재설치 할 수 없습니다"
+msgstr ""
+"인수 '{}'를 위한 꾸러미가 설치 되었고 사용 가능하지만, 다른 버전으로 => 재설"
+"치 할 수 없습니다"
 
 #: base/log_event.cpp:199
 msgid ""
@@ -468,7 +472,8 @@ msgstr "get_user_home_dir(): 사용자의 홈 디렉토리를 결정 할 수 없
 
 #: common/xdg.cpp:98
 msgid "get_user_runtime_dir(): Cannot determine the user's runtime directory"
-msgstr "get_user_runtime_dir(): 사용자의 runtime 디렉토리를 결정 할 수 없습니다"
+msgstr ""
+"get_user_runtime_dir(): 사용자의 runtime 디렉토리를 결정 할 수 없습니다"
 
 #: comps/environment/environment.cpp:307
 msgid "failed to save xml document for comps"
@@ -1021,6 +1026,16 @@ msgstr ""
 #. TODO(dmach): replace with a better exception class
 #: transaction/db/item.cpp:43
 msgid "Failed to insert record into table 'item' in history database"
+msgstr ""
+
+#: transaction/offline.cpp:195
+#, fuzzy
+#| msgid "error reading a line from file"
+msgid "error reading offline state file"
+msgstr "파일에서 행을 읽는 중 오류"
+
+#: transaction/offline.cpp:200
+msgid "incompatible version of state data"
 msgstr ""
 
 #: transaction/transaction.cpp:96

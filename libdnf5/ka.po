@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-07 02:52+0000\n"
+"POT-Creation-Date: 2024-06-08 02:52+0000\n"
 "PO-Revision-Date: 2024-05-30 11:36+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -1093,6 +1093,16 @@ msgstr "ცხრილიდან 'config' 'version' სვეტის მი
 #: transaction/db/item.cpp:43
 msgid "Failed to insert record into table 'item' in history database"
 msgstr "ისტორიის ბაზის ცხრილში 'item' ჩანაწერის ჩამატების შეცდომა"
+
+#: transaction/offline.cpp:195
+#, fuzzy
+#| msgid "error reading a line from file"
+msgid "error reading offline state file"
+msgstr "ფაილიდან ხაზის წაკითხვის შეცდომა"
+
+#: transaction/offline.cpp:200
+msgid "incompatible version of state data"
+msgstr ""
 
 #: transaction/transaction.cpp:96
 msgid "Invalid transaction state: {}"
