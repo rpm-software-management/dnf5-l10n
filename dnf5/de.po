@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-08 02:52+0000\n"
-"PO-Revision-Date: 2024-06-02 14:35+0000\n"
+"PO-Revision-Date: 2024-06-08 10:52+0000\n"
 "Last-Translator: Dennis Koerner <dennis@bumblebeeman.dev>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/de/>\n"
@@ -266,6 +266,8 @@ msgid ""
 "Invalid transaction ID range \"{}\", \"ID\" or \"ID..ID\" expected, where ID "
 "is \"NUMBER\", \"last\" or \"last-NUMBER\"."
 msgstr ""
+"Ungültiger Transaktions-ID-Bereich \"{}\". \"ID\" or \"ID..ID\" wird "
+"erwartet, wobei ID eine \"ZAHL\", \"last\" oder \"last-ZAHL\" ist."
 
 #: commands/list/list.cpp:44
 msgid "Lists packages depending on the packages' relation to the system"
@@ -405,7 +407,7 @@ msgstr ""
 
 #: commands/offline/offline.cpp:397
 msgid "Trigger file does not exist. Exiting."
-msgstr ""
+msgstr "Trigger-Datei existiert nicht. Wird beendet."
 
 #: commands/offline/offline.cpp:401
 msgid "Another offline transaction tool is running. Exiting."
@@ -435,7 +437,7 @@ msgstr "Fehler beim Lesen des Journals: {}"
 
 #: commands/offline/offline.cpp:569
 msgid "Add journal match failed: {}"
-msgstr ""
+msgstr "Hinzufügen der Journal-Übereinstimmung fehlgeschlagen: {}"
 
 #: commands/offline/offline.cpp:597
 msgid "No logs were found."
@@ -628,6 +630,8 @@ msgstr "Hinzufügen einer neuen Ausnahme zur Versionlock-Konfiguration"
 #: commands/versionlock/versionlock_exclude.cpp:43
 msgid "List of package specs to add versionlock exclude for"
 msgstr ""
+"Liste der Paket-Spezifikationen, für die Versionlock-Ausnahmen hinzugefügt "
+"werden sollen"
 
 #: commands/versionlock/versionlock_exclude.cpp:88
 #: commands/versionlock/versionlock_exclude.cpp:100
@@ -692,20 +696,26 @@ msgid ""
 "content. Suppresses messages notifying about the current state or actions of "
 "dnf5."
 msgstr ""
+"Zeigt nur den relevanten Inhalt, in Kombination mit einem nicht-interaktiven "
+"Kommando. Unterdrückt Meldungen, die über den aktuellen Zustand oder "
+"Aktionen von dnf5 informieren."
 
 #: main.cpp:164
 msgid ""
 "Run entirely from system cache, don't update the cache and use it even in "
 "case it is expired."
 msgstr ""
+"Vollständig aus dem System-Cache ausführen, auch wenn dieser abgelaufen ist. "
+"Der Cache wird nicht aktualisiert."
 
 #: main.cpp:171
 msgid "Force refreshing metadata before running the command."
-msgstr ""
+msgstr "Aktualisierung der Metadaten vor Ausführung des Kommandos erzwingen."
 
 #: main.cpp:187
 msgid "Failed to expire repository cache in path \"{0}\": {1}"
 msgstr ""
+"Außer Kraft setzen des Repository-Caches fehlgeschlagen im Pfad \"{0}\": {1}"
 
 #: main.cpp:204
 msgid "create additional repository using id and path"
@@ -760,7 +770,7 @@ msgstr "automatisch alle Fragen mit nein beantworten"
 
 #: main.cpp:311
 msgid "do not limit the transaction to the best candidate"
-msgstr ""
+msgstr "die Transaktion nicht auf den besten Kandidaten beschränken"
 
 #: main.cpp:322
 msgid ""
@@ -779,18 +789,24 @@ msgid ""
 "Enable additional repositories. List option. Supports globs, can be "
 "specified multiple times."
 msgstr ""
+"Aktiviere zusätzliche Repositories. Listenoption. Unterstützt Muster und "
+"kann mehrfach spezifiziert werden."
 
 #: main.cpp:375
 msgid ""
 "Disable repositories. List option. Supports globs, can be specified multiple "
 "times."
 msgstr ""
+"Deaktiviere zusätzliche Repositories. Listenoption. Unterstützt Muster und "
+"kann mehrfach spezifiziert werden."
 
 #: main.cpp:393
 msgid ""
 "Enable just specific repositories. List option. Supports globs, can be "
 "specified multiple times."
 msgstr ""
+"Aktiviere nur festgelegte Repositories. Listenoption. Unterstützt Muster und "
+"kann mehrfach spezifiziert werden."
 
 #: main.cpp:415
 msgid "disable gpg signature checking (if RPM policy allows)"
@@ -803,12 +819,16 @@ msgid ""
 "Enable libdnf5 plugins by name. List option. Supports globs, can be "
 "specified multiple times."
 msgstr ""
+"Aktiviere libdnf5-Plugins anhand ihres Namens. Listenoption. Unterstützt "
+"Muster und kann mehrfach spezifiziert werden."
 
 #: main.cpp:456
 msgid ""
 "Disable libdnf5 plugins by name. List option. Supports globs, can be "
 "specified multiple times."
 msgstr ""
+"Deaktiviere libdnf5-Plugins anhand ihres Namens. Listenoption. Unterstützt "
+"Muster und kann mehrfach spezifiziert werden."
 
 #: main.cpp:473
 msgid "add a comment to transaction"
@@ -831,6 +851,8 @@ msgid ""
 "use configuration, reposdir, and vars from the host system rather than the "
 "installroot"
 msgstr ""
+"Konfiguration, repo-Verzeichnis und Variablen vom Hostsystem statt von der "
+"Installationsroot verwenden"
 
 #: main.cpp:504
 msgid "override the value of $releasever in config and repo files"
@@ -842,10 +864,12 @@ msgid ""
 "Show newly installed leaf packages and packages that became leaves after a "
 "transaction."
 msgstr ""
+"Zeigt neu installierte Leaf-Pakete und Pakete, die nach einer Transaktion zu "
+"Leaves wurden."
 
 #: main.cpp:531
 msgid "Dump detailed solving results into files"
-msgstr ""
+msgstr "Detaillierte Lösungsergebnisse in Dateien schreiben"
 
 #: main.cpp:540
 msgid "Print main configuration values to stdout"
@@ -855,6 +879,8 @@ msgstr "Werte der Hauptkonfiguration auf stdout ausgeben"
 msgid ""
 "Print repository configuration values to stdout. List option. Supports globs"
 msgstr ""
+"Repository-Konfigurationswerte auf stdout ausgeben. Listenoption. "
+"Unterstützt Muster"
 
 #: main.cpp:572
 msgid "Print variable values to stdout"
@@ -916,19 +942,23 @@ msgstr "{}, um deinstallierbare Pakete zu überspringen"
 
 #: main.cpp:1044
 msgid "You can try to add to command line:"
-msgstr ""
+msgstr "Sie können versuchen, folgendes der Befehlszeile hinzuzufügen:"
 
 #: main.cpp:1062
 msgid ""
 "No matches were found for the following plugin name patterns while enabling "
 "libdnf plugins: {}"
 msgstr ""
+"Bei der Aktivierung von libdnf-Plugins wurden keine Übereinstimmungen für "
+"die folgenden Plugin-Namensmuster gefunden: {}"
 
 #: main.cpp:1063
 msgid ""
 "No matches were found for the following plugin name patterns while disabling "
 "libdnf plugins: {}"
 msgstr ""
+"Bei der Deaktivierung von libdnf-Plugins wurden keine Übereinstimmungen für "
+"die folgenden Plugin-Namensmuster gefunden: {}"
 
 #: main.cpp:1212 main.cpp:1399
 msgid ". Add \"--help\" for more information about the arguments."
@@ -942,6 +972,10 @@ msgid ""
 "user with elevated rights, or use the \"--assumeno\" or \"--downloadonly\" "
 "options to run the command without modifying the system state."
 msgstr ""
+"Die angeforderte Operation erfordert Administratorrechte. Bitte melden Sie "
+"sich als Benutzer mit entsprechenden Rechten an oder verwenden Sie die "
+"Optionen \"--assumeno\" oder \"--downloadonly\", um den Befehl auszuführen, "
+"ohne den Systemzustand zu verändern."
 
 #: shared_options.cpp:32
 msgid "Allow erasing of installed packages to resolve problems"
