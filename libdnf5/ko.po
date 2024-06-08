@@ -9,9 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-08 02:52+0000\n"
-"PO-Revision-Date: 2024-06-08 06:51+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2024-06-08 10:52+0000\n"
+"Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/ko/>\n"
 "Language: ko\n"
@@ -711,9 +710,8 @@ msgstr "파일을 내려받는 데 실패함"
 msgid ""
 "Maximum download speed is lower than minimum, please change configuration of "
 "minrate or throttle"
-msgstr ""
-"최대 내려받기 속도가 최저보다 낮습니다. 최저속도나 변환 환경구성을 변경해 주"
-"세요"
+msgstr "최대 내려받기 속도가 최저보다 낮으며, minrate 또는 throttle의 구성을 변경해 "
+"주세요"
 
 #: repo/package_downloader.cpp:147
 msgid "Cannot download the \"{0}\" package, cacheonly option is activated."
@@ -926,45 +924,45 @@ msgstr ""
 #: rpm/transaction.cpp:237
 msgid ""
 "Failed to set scriptlet output file, cannot duplicate file descriptor: {}"
-msgstr ""
+msgstr "구현 출력 파일을 설정하는 데 실패함, 파일 설명자를 복제 할 수 없습니다: {}"
 
 #: rpm/transaction.cpp:256
 msgid "Failed to set scriptlet output file, cannot open file \"{}\": {}"
-msgstr ""
+msgstr "구현 출력 파일을 설정하는 데 실패함, 파일을 열 수 없습니다 \"{}\": {}"
 
 #: rpm/transaction.cpp:277
 msgid "Failed to read package header, cannot open file \"{}\": {}"
-msgstr ""
+msgstr "꾸러미 헤더를 읽는 데 실패함, 파일을 열 수 없습니다 \"{}\": {}"
 
 #: rpm/transaction.cpp:294
 msgid "Failed to read package header from file \"{}\""
-msgstr ""
+msgstr "파일에서 꾸러미 헤더를 읽은 데 실패함 \"{}\""
 
 #: rpm/transaction.cpp:307
 msgid "Cannot init rpm database iterator"
-msgstr ""
+msgstr "rpm 데이타베이스 반복자(database iterator)를 초기화 할 수 없습니다"
 
 #: rpm/transaction.cpp:311
 msgid "Package was not found in rpm database"
-msgstr ""
+msgstr "꾸러미가 rpm 데이타베이스에서 찾을 수 없습니다"
 
 #. TODO(jrohel): Why? Librpm does not provide this information.
 #: rpm/transaction.cpp:327
 msgid "Cannot reinstall package \"{}\""
-msgstr ""
+msgstr "꾸러미를 재설치 할 수 없습니다 \"{}\""
 
 #. TODO(jrohel): Why? Librpm does not provide this information.
 #: rpm/transaction.cpp:345
 msgid "Cannot remove package \"{}\""
-msgstr ""
+msgstr "꾸러미를 제거 할 수 없습니다 \"{}\""
 
 #: rpm/transaction.cpp:364
 msgid "Cannot upgrade package \"{}\""
-msgstr ""
+msgstr "꾸러미를 향상 할 수 없습니다 \"{}\""
 
 #: rpm/transaction.cpp:368
 msgid "Cannot downgrade package \"{}\""
-msgstr ""
+msgstr "꾸러미를 하향 할 수 없습니다 \"{}\""
 
 #: rpm/transaction.cpp:372
 msgid "Cannot install package \"{}\""
@@ -972,24 +970,24 @@ msgstr "꾸러미를 설치 할 수 없습니다 \"{}\""
 
 #: rpm/versionlock_config.cpp:261 system/state.cpp:513
 msgid "{}"
-msgstr ""
+msgstr "{}"
 
 #. TODO(lukash) throw proper exception class
 #: solv/pool.cpp:174
 msgid "Failed to convert epoch \"{}\" to number"
-msgstr ""
+msgstr "epoch \"{}\"를 숫자로 변환하는 데 실패함"
 
 #: solv/solver.cpp:79
 msgid "Writing debugsolver data into \"{}\" failed: {}"
-msgstr ""
+msgstr "debugsolver 자료를 \"{}\"로 작성하는 데 실패함: {}"
 
 #: system/state.cpp:226 system/state.cpp:235
 msgid "Invalid TOML version \"{}\", \"MAJOR.MINOR\" expected"
-msgstr ""
+msgstr "잘못된 TOML 버전 \"{}\", \"MAJOR.MINOR\" 예상됨"
 
 #: system/state.cpp:243
 msgid "{} state for \"{}\" not found."
-msgstr ""
+msgstr "\"{}\"를 위한 {} 상태를 찾을 수 없습니다."
 
 #: system/state.cpp:540
 msgid "Unsupported TOML version \"{}\", maximum supported version is \"{}\""
@@ -1261,15 +1259,15 @@ msgstr "정수64 값을 SQL 문에 바인딩 하는 데 실패함: \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:35
 msgid "Binding unsigned integer32 value to SQL statement failed: \"{}\""
-msgstr ""
+msgstr "unsigned integer32 값을 SQL 문으로 바인딩을 실패함: \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:37
 msgid "Binding double value to SQL statement failed: \"{}\""
-msgstr ""
+msgstr "double 값을 SQL 문으로 바인딩을 실패함: \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:39
 msgid "Binding bool value to SQL statement failed: \"{}\""
-msgstr ""
+msgstr "부울 값을 SQL 문으로 바인딩을 실패함: \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:40
 msgid "Binding text to SQL statement failed: \"{}\""
