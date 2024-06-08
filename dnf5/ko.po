@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-07 02:52+0000\n"
+"POT-Creation-Date: 2024-06-08 02:52+0000\n"
 "PO-Revision-Date: 2024-06-08 02:49+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
@@ -57,7 +57,8 @@ msgstr "설치된 꾸러미의 모든 버전을 포함하는 권고를 표시합
 msgid ""
 "Show advisories containing newer versions of installed packages. This is the "
 "default behavior."
-msgstr "설치된 꾸러미의 신규 버전을 포함하는 권고를 표시합니다. 이는 기본 동작입니다."
+msgstr ""
+"설치된 꾸러미의 신규 버전을 포함하는 권고를 표시합니다. 이는 기본 동작입니다."
 
 #: commands/advisory/arguments.hpp:57
 msgid ""
@@ -68,15 +69,17 @@ msgstr "설치된 꾸러미의 같거나 오래된 버전을 포함하는 권고
 msgid ""
 "Show advisories containing newer versions of installed packages for which a "
 "newer version is available."
-msgstr "신규 버전을 사용 할 수 있는 설치된 꾸러미의 신규 버전을 포함하는 권고를 "
-"표시합니다."
+msgstr ""
+"신규 버전을 사용 할 수 있는 설치된 꾸러미의 신규 버전을 포함하는 권고를 표시"
+"합니다."
 
 #: commands/advisory/arguments.hpp:82
 msgid ""
 "Show only advisories containing packages with specified names. List option, "
 "supports globs."
-msgstr "지정된 이름을 갖는 꾸러미를 포함하는 권고만 표시합니다. 옵션을 나열하고, "
-"glob을 지원합니다."
+msgstr ""
+"지정된 이름을 갖는 꾸러미를 포함하는 권고만 표시합니다. 옵션을 나열하고, glob"
+"을 지원합니다."
 
 #: commands/advisory/arguments.hpp:83
 msgid "PACKAGE_NAME,..."
@@ -123,9 +126,9 @@ msgid ""
 "Limit to packages in advisories with specified severity. List option. Can be "
 "\"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgstr ""
-"지정된 심각도를 갖는 권고의 꾸러미로 제한합니다. 옵션 목록. \"critical(심각)"
-"\", \"important(중요)\", \"moderate(보통)\", \"low(낮음)\", \"none(없음)\"이 "
-"될 수 있습니다."
+"지정된 심각도를 갖는 권고의 꾸러미로 제한합니다. 옵션 목록. \"critical(심"
+"각)\", \"important(중요)\", \"moderate(보통)\", \"low(낮음)\", \"none(없"
+"음)\"이 될 수 있습니다."
 
 #: commands/advisory_shared.hpp:155
 msgid "ADVISORY_SEVERITY,..."
@@ -135,7 +138,8 @@ msgstr "권고_심각도,..."
 msgid ""
 "Limit to packages in advisories that fix a Bugzilla ID, Eg. 123123. List "
 "option."
-msgstr "버그질라 ID (Eg. 123123)에서 수정된 권고의 꾸러미로 제한합니다. 옵션 목록."
+msgstr ""
+"버그질라 ID (Eg. 123123)에서 수정된 권고의 꾸러미로 제한합니다. 옵션 목록."
 
 #: commands/advisory_shared.hpp:168
 msgid "BUGZILLA_ID,..."
@@ -145,8 +149,9 @@ msgstr "버그질라_ID,..."
 msgid ""
 "Limit to packages in advisories that fix a CVE (Common Vulnerabilities and "
 "Exposures) ID, Eg. CVE-2201-0123. List option."
-msgstr "CVE(일반 취약점 및 노출) ID(예: CVE-2201-0123)로 수정된 권고의 꾸로미로 "
-"제한합니다. 옵션 목록."
+msgstr ""
+"CVE(일반 취약점 및 노출) ID(예: CVE-2201-0123)로 수정된 권고의 꾸로미로 제한"
+"합니다. 옵션 목록."
 
 #: commands/advisory_shared.hpp:180
 msgid "CVE_ID,..."
@@ -217,8 +222,9 @@ msgstr "설치된 그룹만 표시합니다."
 msgid ""
 "Show only groups containing packages with specified names. List option, "
 "supports globs."
-msgstr "지정된 이름을 갖는 꾸러미가 포함된 그룹만 표시합니다. 옵션 목록, glob을 "
-"지원합니다."
+msgstr ""
+"지정된 이름을 갖는 꾸러미가 포함된 그룹만 표시합니다. 옵션 목록, glob을 지원"
+"합니다."
 
 #: commands/group/arguments.hpp:67
 msgid "Pattern matching group IDS."
@@ -322,144 +328,144 @@ msgstr ""
 msgid "No matches found for \"{}\"."
 msgstr ""
 
-#: commands/offline/offline.cpp:189
+#: commands/offline/offline.cpp:190
 msgid "Manage offline transactions"
 msgstr ""
 
-#: commands/offline/offline.cpp:224
+#: commands/offline/offline.cpp:221
 msgid ""
 "Error reading state: {}. Rerun the command you used to initiate the offline "
 "transaction, e.g. `dnf5 system-upgrade download [OPTIONS]`."
 msgstr ""
 
-#: commands/offline/offline.cpp:247
+#: commands/offline/offline.cpp:244
 msgid "Couldn't connect to D-Bus: {}"
 msgstr "D-Bus로 연결 할 수 없음: {}"
 
-#: commands/offline/offline.cpp:276
+#: commands/offline/offline.cpp:273
 msgid ""
 "Prepare the system to perform the offline transaction and reboot to start "
 "the transaction."
 msgstr ""
 
-#: commands/offline/offline.cpp:283
+#: commands/offline/offline.cpp:280
 msgid "Power off the system after the operation is complete"
 msgstr ""
 
-#: commands/offline/offline.cpp:294
+#: commands/offline/offline.cpp:291
 msgid "No offline transaction is stored."
 msgstr ""
 
-#: commands/offline/offline.cpp:301
+#: commands/offline/offline.cpp:299
 msgid "System is not ready for offline transaction."
 msgstr ""
 
-#: commands/offline/offline.cpp:304
+#: commands/offline/offline.cpp:302
 msgid "Data directory {} does not exist."
 msgstr ""
 
-#: commands/offline/offline.cpp:328
+#: commands/offline/offline.cpp:326
 msgid "{} is not wanted by system-update.target."
 msgstr ""
 
-#: commands/offline/offline.cpp:337
+#: commands/offline/offline.cpp:335
 msgid "The system will now reboot to upgrade to release version "
 msgstr ""
 
-#: commands/offline/offline.cpp:341
+#: commands/offline/offline.cpp:339
 msgid ""
 "The system will now reboot to perform the offline transaction initiated by "
 "the following command:"
 msgstr ""
 
-#: commands/offline/offline.cpp:372
+#: commands/offline/offline.cpp:370
 msgid ""
 "Internal use only, not intended to be run by the user. Execute the "
 "transaction in the offline environment."
 msgstr ""
 
-#: commands/offline/offline.cpp:399
+#: commands/offline/offline.cpp:397
 msgid "Trigger file does not exist. Exiting."
 msgstr ""
 
-#: commands/offline/offline.cpp:403
+#: commands/offline/offline.cpp:401
 msgid "Another offline transaction tool is running. Exiting."
 msgstr ""
 
-#: commands/offline/offline.cpp:435
+#: commands/offline/offline.cpp:436
 msgid ""
 "Warning: the `_execute` command is for internal use only and is not intended "
 "to be run directly by the user. To initiate the system upgrade/offline "
 "transaction, you should run `dnf5 offline reboot`."
 msgstr ""
 
-#: commands/offline/offline.cpp:442
+#: commands/offline/offline.cpp:443
 msgid "Use `dnf5 offline reboot` to begin the transaction."
 msgstr ""
 
-#: commands/offline/offline.cpp:493
+#: commands/offline/offline.cpp:494
 msgid "Transaction failed: "
 msgstr "연결 실패함: "
 
-#: commands/offline/offline.cpp:562
+#: commands/offline/offline.cpp:563
 msgid "Error reading journal: {}"
 msgstr ""
 
-#: commands/offline/offline.cpp:568
+#: commands/offline/offline.cpp:569
 msgid "Add journal match failed: {}"
 msgstr ""
 
-#: commands/offline/offline.cpp:596
+#: commands/offline/offline.cpp:597
 msgid "No logs were found."
 msgstr ""
 
-#: commands/offline/offline.cpp:600
+#: commands/offline/offline.cpp:601
 msgid "The following boots appear to contain offline transaction logs:"
 msgstr ""
 
-#: commands/offline/offline.cpp:617
+#: commands/offline/offline.cpp:618
 msgid "Cannot find logs with this index."
 msgstr "이와 같은 색인을 갖는 기록을 찾을 수 없습니다."
 
-#: commands/offline/offline.cpp:624
+#: commands/offline/offline.cpp:625
 msgid "Unable to match systemd journal entry."
 msgstr "systemd journal 항목과 일치 할 수 없음."
 
-#: commands/offline/offline.cpp:636
+#: commands/offline/offline.cpp:637
 msgid "Show logs from past offline transactions"
 msgstr ""
 
-#: commands/offline/offline.cpp:644
+#: commands/offline/offline.cpp:645
 msgid ""
 "Which log to show. Run without any arguments to get a list of available logs."
 msgstr ""
 
-#: commands/offline/offline.cpp:659
+#: commands/offline/offline.cpp:660
 msgid ""
 "systemd is not supported in this build of DNF 5; the `log` subcommand is "
 "unavailable."
 msgstr ""
 
-#: commands/offline/offline.cpp:664
+#: commands/offline/offline.cpp:665
 msgid "Show status of the current offline transaction"
 msgstr ""
 
-#: commands/offline/offline.cpp:680
+#: commands/offline/offline.cpp:681
 msgid "An offline transaction was initiated by the following command:"
 msgstr ""
 
-#: commands/offline/offline.cpp:682
+#: commands/offline/offline.cpp:683
 msgid ""
 "Run `dnf5 offline reboot` to reboot and perform the offline transaction."
 msgstr ""
 
-#: commands/offline/offline.cpp:684
+#: commands/offline/offline.cpp:685
 msgid ""
 "An offline transaction was started, but it did not finish. Run `dnf5 offline "
 "log` for more information. The command that initiated the transaction was:"
 msgstr ""
 
-#: commands/offline/offline.cpp:689
+#: commands/offline/offline.cpp:690
 msgid "Unknown offline transaction status: "
 msgstr ""
 
@@ -689,7 +695,8 @@ msgstr "{}: 잘못된 형식의 인수 값 \"{}\""
 #: main.cpp:242
 msgid ""
 "{}: Badly formatted argument value: Last key character cannot be '.': {}"
-msgstr "{}: 잘못된 형식의 인수 값: 마지막 키 문자는 다음과 같을 수 없습니다 '.': {}"
+msgstr ""
+"{}: 잘못된 형식의 인수 값: 마지막 키 문자는 다음과 같을 수 없습니다 '.': {}"
 
 #: main.cpp:255
 msgid "setopt: \"{0}\": {1}"
@@ -885,14 +892,6 @@ msgid ""
 "options to run the command without modifying the system state."
 msgstr ""
 
-#: offline.cpp:54
-msgid "error reading offline state file"
-msgstr "오프라인 상태 파일을 읽는 중 오류"
-
-#: offline.cpp:59
-msgid "incompatible version of state data"
-msgstr "상태 자료의 호환되지 않는 버전"
-
 #: shared_options.cpp:32
 msgid "Allow erasing of installed packages to resolve problems"
 msgstr ""
@@ -904,3 +903,9 @@ msgstr ""
 #: shared_options.cpp:54
 msgid "Allow skipping unavailable packages"
 msgstr ""
+
+#~ msgid "error reading offline state file"
+#~ msgstr "오프라인 상태 파일을 읽는 중 오류"
+
+#~ msgid "incompatible version of state data"
+#~ msgstr "상태 자료의 호환되지 않는 버전"
