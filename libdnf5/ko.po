@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-08 02:52+0000\n"
 "PO-Revision-Date: 2024-06-08 10:52+0000\n"
-"Last-Translator: 김인수 <simmon@nplob.com>\n"
+"Last-Translator: Joungmin Lee <leejm516@gmail.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/ko/>\n"
 "Language: ko\n"
@@ -188,6 +188,8 @@ msgid ""
 "Error: It is not possible to switch enabled streams of a module unless "
 "explicitly enabled via configuration option module_stream_switch."
 msgstr ""
+"오류: 환경설정 옵션 module_stream_switch를 통해 명시적으로 활성화하지 않으면 "
+"모듈의 활성화된 스트림 전환이 불가능합니다."
 
 #: base/solver_problems.cpp:41
 msgid "{} does not belong to a distupgrade repository"
@@ -235,23 +237,23 @@ msgstr "작업에 가장 적합한 후보를 설치 할 수 없습니다"
 
 #: base/solver_problems.cpp:52
 msgid "package {0} from {1} is filtered out by modular filtering"
-msgstr ""
+msgstr "{1}에서 꾸러미 {0}은 모듈식으로 걸러 제거됩니다"
 
 #: base/solver_problems.cpp:53
 msgid "package {0} from {1} does not have a compatible architecture"
-msgstr ""
+msgstr "{1}에서 꾸러미 {0}는 호환 구조가 없습니다"
 
 #: base/solver_problems.cpp:54
 msgid "package {0} from {1} is not installable"
-msgstr ""
+msgstr "{1}에서 꾸러미 {0}을 설치할 수 없습니다"
 
 #: base/solver_problems.cpp:55
 msgid "package {0} from {1} is filtered out by exclude filtering"
-msgstr ""
+msgstr "{1}에서 꾸러미 {0}는 제외 필터링으로 걸러졌습니다"
 
 #: base/solver_problems.cpp:56
 msgid "nothing provides {0} needed by {1} from {2}"
-msgstr "{2)에서 {1}에 의해 필요한 {0}을 제공하는 것이 없습니다"
+msgstr "{2}에서 {1}에 의해 필요한 {0}을 제공하는 것이 없습니다"
 
 #: base/solver_problems.cpp:57
 msgid "cannot install both {0} from {1} and {2} from {3}"
@@ -280,13 +282,13 @@ msgstr ""
 #: base/solver_problems.cpp:66
 msgid ""
 "package {1} from {2} requires {0}, but none of the providers can be installed"
-msgstr ""
+msgstr "{2}에서 꾸러미 {1}는 {0}가 필요하지만, 공급 업체가 없어 설치할 수 없습니다"
 
 #: base/solver_problems.cpp:68
 msgid ""
 "installed package {1} requires {0}, but none of the providers can be "
 "installed"
-msgstr ""
+msgstr "설치된 꾸러미 {1}에는 {0}이 필요하지만, 공급 업체가 없어 설치할 수 없습니다"
 
 #: base/solver_problems.cpp:69
 msgid "package {0} from {1} conflicts with {2} provided by itself"
@@ -1271,43 +1273,43 @@ msgstr "부울 값을 SQL 문으로 바인딩을 실패함: \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:40
 msgid "Binding text to SQL statement failed: \"{}\""
-msgstr ""
+msgstr "SQL 문에 텍스트 바인딩을 실패함: \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:41
 msgid "Binding blob to SQL statement failed: \"{}\""
-msgstr ""
+msgstr "SQL문에 blob 바인딩을 실패함: \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:42
 msgid "SQL statement evaluation failed: \"{}\""
-msgstr ""
+msgstr "SQL 문 평가에 실패함: \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:44
 msgid "Insufficient memory or result exceed maximum SQLite3 string length"
-msgstr ""
+msgstr "메모리가 부족하거나 결과가 SQLite3 문자열 최대 길이를 초과합니다"
 
 #: utils/sqlite3/sqlite3.cpp:46
 msgid "Column \"{}\" not found"
-msgstr ""
+msgstr "열 \"{}\"을 찾지 못했습니다"
 
 #: utils/sqlite3/sqlite3.cpp:48
 msgid "SQL statement execution failed: \"{}\""
-msgstr ""
+msgstr "SQL 문 실행에 실패함: \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:68
 msgid "Failed to open database \"{}\""
-msgstr ""
+msgstr "데이타베이스 \"{}\"를 여는데 실패함"
 
 #: utils/sqlite3/sqlite3.cpp:105
 msgid "Failed to close database \"{}\""
-msgstr ""
+msgstr "데이타베이스 \"{}\"를 닫는데 실패함"
 
 #: utils/sqlite3/sqlite3.cpp:117 utils/sqlite3/sqlite3.cpp:143
 msgid "Failed to open backup database \"{}\""
-msgstr ""
+msgstr "백업 데이타베이스 \"{}\"를 열지 못했습니다"
 
 #: utils/sqlite3/sqlite3.cpp:132
 msgid "Failed to backup database \"{}\" into \"{}\""
-msgstr ""
+msgstr "데이타베이스 \"{}\"를 \"{}\"로 백업에 실패했습니다"
 
 #: utils/sqlite3/sqlite3.cpp:158
 msgid "Failed to restore database \"{}\""
