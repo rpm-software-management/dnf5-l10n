@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-08 02:52+0000\n"
-"PO-Revision-Date: 2024-06-08 02:49+0000\n"
+"PO-Revision-Date: 2024-06-08 03:05+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ko/>\n"
@@ -196,15 +196,15 @@ msgstr ""
 
 #: commands/environment/arguments.hpp:33
 msgid "Show only available environments."
-msgstr ""
+msgstr "사용 가능한 환경만 표시합니다."
 
 #: commands/environment/arguments.hpp:40
 msgid "Show only installed environments."
-msgstr ""
+msgstr "설치된 환경만 표시합니다."
 
 #: commands/environment/arguments.hpp:47
 msgid "Pattern matching environment IDs."
-msgstr ""
+msgstr "유형이 일치되는 환경 IDs."
 
 #: commands/group/arguments.hpp:34
 msgid "Show only available groups."
@@ -228,7 +228,7 @@ msgstr ""
 
 #: commands/group/arguments.hpp:67
 msgid "Pattern matching group IDS."
-msgstr ""
+msgstr "유형이 일치되는 그룹 IDS."
 
 #: commands/group/arguments.hpp:76
 msgid "Include optional packages from group."
@@ -278,11 +278,11 @@ msgstr ""
 
 #: commands/list/list.cpp:65
 msgid "List installed packages."
-msgstr ""
+msgstr "설치된 꾸러미 목록."
 
 #: commands/list/list.cpp:69
 msgid "List available packages."
-msgstr ""
+msgstr "사용 할 수 있는 꾸러미 목록."
 
 #: commands/list/list.cpp:76
 msgid ""
@@ -314,23 +314,23 @@ msgstr "목록과 일치하는 꾸러미가 없습니다"
 
 #: commands/module/arguments.hpp:36
 msgid "Show enabled modules."
-msgstr ""
+msgstr "활성화된 모듈을 표시합니다."
 
 #: commands/module/arguments.hpp:43
 msgid "Show disabled modules."
-msgstr ""
+msgstr "비활성화된 모듈을 표시합니다."
 
 #: commands/module/arguments.hpp:50
 msgid "Pattern matching module NSVCAs."
-msgstr ""
+msgstr "유형이 일치되는 모듈 NSVCAs."
 
 #: commands/module/module_list.cpp:85
 msgid "No matches found for \"{}\"."
-msgstr ""
+msgstr "\"{}\"를 위해 일치되는 것을 찾을 수 없습니다."
 
 #: commands/offline/offline.cpp:190
 msgid "Manage offline transactions"
-msgstr ""
+msgstr "오프라인 연결을 관리합니다"
 
 #: commands/offline/offline.cpp:221
 msgid ""
@@ -409,19 +409,19 @@ msgstr "연결 실패함: "
 
 #: commands/offline/offline.cpp:563
 msgid "Error reading journal: {}"
-msgstr ""
+msgstr "journal을 읽기 중 오류: {}"
 
 #: commands/offline/offline.cpp:569
 msgid "Add journal match failed: {}"
-msgstr ""
+msgstr "Journal 일치 추가에 실패함: {}"
 
 #: commands/offline/offline.cpp:597
 msgid "No logs were found."
-msgstr ""
+msgstr "기록을 찾을 수 없습니다."
 
 #: commands/offline/offline.cpp:601
 msgid "The following boots appear to contain offline transaction logs:"
-msgstr ""
+msgstr "다음 부트는 오프라인 연결 기록을 포함하도록 표시됩니다:"
 
 #: commands/offline/offline.cpp:618
 msgid "Cannot find logs with this index."
@@ -433,7 +433,7 @@ msgstr "systemd journal 항목과 일치 할 수 없음."
 
 #: commands/offline/offline.cpp:637
 msgid "Show logs from past offline transactions"
-msgstr ""
+msgstr "지난 오프라인 연결에서 기록을 표시합니다"
 
 #: commands/offline/offline.cpp:645
 msgid ""
@@ -503,7 +503,7 @@ msgstr "꾸러미 설명 및 URL도 검색."
 
 #: commands/search/arguments.hpp:45
 msgid "Patterns"
-msgstr ""
+msgstr "유형"
 
 #: commands/system-upgrade/system-upgrade.cpp:54
 msgid "Prepare system for upgrade to a new release"
@@ -563,7 +563,7 @@ msgstr ""
 
 #: commands/versionlock/versionlock_add.cpp:127
 msgid "Package \"{}\" is already locked."
-msgstr "꾸러미 {} 는 이미 잠겨졌습니다"
+msgstr "꾸러미 {} 는 이미 잠겨졌습니다."
 
 #: commands/versionlock/versionlock_clear.cpp:32
 msgid "Remove all entries from versionlock configuration"
@@ -630,11 +630,11 @@ msgstr ""
 
 #: main.cpp:126
 msgid "Unclassified options:"
-msgstr ""
+msgstr "미분류된 옵션:"
 
 #: main.cpp:129
 msgid "Global options:"
-msgstr ""
+msgstr "전역 옵션:"
 
 #: main.cpp:134
 msgid "Print help"
@@ -700,11 +700,11 @@ msgstr ""
 
 #: main.cpp:255
 msgid "setopt: \"{0}\": {1}"
-msgstr ""
+msgstr "setopt: \"{0}\": {1}"
 
 #: main.cpp:281
 msgid "setvar: {}"
-msgstr ""
+msgstr "setvar: {}"
 
 #: main.cpp:290
 msgid "automatically answer yes for all questions"
@@ -902,7 +902,7 @@ msgstr ""
 
 #: shared_options.cpp:54
 msgid "Allow skipping unavailable packages"
-msgstr ""
+msgstr "사용 할 수 없는 꾸러미를 건너뛰도록 허용합니다"
 
 #~ msgid "error reading offline state file"
 #~ msgstr "오프라인 상태 파일을 읽는 중 오류"
