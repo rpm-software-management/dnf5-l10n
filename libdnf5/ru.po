@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-08 02:52+0000\n"
-"PO-Revision-Date: 2024-05-31 23:30+0000\n"
+"PO-Revision-Date: 2024-06-09 11:36+0000\n"
 "Last-Translator: Aleksey Fedorov <aleksejfedorov963@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/ru/>\n"
@@ -1092,14 +1092,12 @@ msgid "Failed to insert record into table 'item' in history database"
 msgstr "Не удалось вставить запись в таблицу 'item' в базе данных с историей"
 
 #: transaction/offline.cpp:195
-#, fuzzy
-#| msgid "error reading a line from file"
 msgid "error reading offline state file"
-msgstr "ошибка при чтении строки из файла"
+msgstr "ошибка чтения автономного файла состояния"
 
 #: transaction/offline.cpp:200
 msgid "incompatible version of state data"
-msgstr ""
+msgstr "несовместимая версия данных состояния"
 
 #: transaction/transaction.cpp:96
 msgid "Invalid transaction state: {}"
