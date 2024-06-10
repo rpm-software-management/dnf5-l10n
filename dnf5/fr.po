@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Pierre GRASSER <pierre.grasser@proton.me>, 2024.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024.
+# Léane GRASSER <pierre.grasser@proton.me>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-08 02:52+0000\n"
-"PO-Revision-Date: 2024-05-31 23:30+0000\n"
-"Last-Translator: Pierre GRASSER <pierre.grasser@proton.me>\n"
+"PO-Revision-Date: 2024-06-11 02:49+0000\n"
+"Last-Translator: Léane GRASSER <pierre.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/fr/>\n"
 "Language: fr\n"
@@ -175,6 +176,11 @@ msgid ""
 "advisories is used it reports the lowest versions of packages that fix "
 "advisories matching selected advisory properties"
 msgstr ""
+"Rapporte la version des paquets la plus basse qui résout les avertissements "
+"de type bugfix (correction de bugs), enhancement (amélioration), security "
+"(sécurité) ou newpackage (nouveau paquet). Si une option limitant les "
+"avertissements est utilisée, sont alors affichées uniquement les versions "
+"des paquets les plus basses résolvant les avertissements correspondants."
 
 #: commands/check/check.cpp:335
 msgid "Check discovered {} problem(s) in {} package(s)"
@@ -598,6 +604,12 @@ msgid ""
 "limiting advisories is used it upgrades packages only to the lowest versions "
 "that fix advisories that matching selected advisory property"
 msgstr ""
+"Mettre à jour les paquets vers la version la plus basse qui résout les "
+"avertissements de type bugfix (correction de bugs), enhancement "
+"(amélioration), security (sécurité) ou newpackage (nouveau paquet). Si une "
+"option limitant les avertissements est utilisée, seuls les avertissements "
+"correspondants sont pris en compte pour la sélection des paquets à mettre à "
+"jour."
 
 #. TODO(mblaha): add full command line
 #: commands/versionlock/utils.cpp:35
