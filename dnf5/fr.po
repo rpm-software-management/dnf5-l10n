@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-11 02:52+0000\n"
-"PO-Revision-Date: 2024-06-11 02:49+0000\n"
+"PO-Revision-Date: 2024-06-12 04:36+0000\n"
 "Last-Translator: Léane GRASSER <pierre.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/fr/>\n"
@@ -269,10 +269,16 @@ msgid ""
 "as errors. This can result in an empty transaction because among other "
 "things the option can ignore failing Remove actions."
 msgstr ""
+"Ne pas considérer comme des erreurs les différences entre les paquets "
+"installés et ceux dans les transactions stockées. Activer cette option peut "
+"résulter en une transaction vide car, entre autres, les actions Supprimer en "
+"échec pourraient être ignorées."
 
 #: commands/history/arguments.hpp:67
 msgid "Don't consider extra packages pulled into the transaction as errors."
 msgstr ""
+"Ne pas considérer les paquets supplémentaires ajoutés à la transaction comme "
+"des erreurs."
 
 #: commands/history/history_store.cpp:62
 msgid "File \"{}\" already exists, it will be overwritten.\n"
@@ -291,20 +297,12 @@ msgstr ""
 "est autorisée."
 
 #: commands/history/history_undo.cpp:56
-#, fuzzy
-#| msgid "No transactions selected for storing, exactly one required."
 msgid "No matching transaction ID found, exactly one required."
-msgstr ""
-"Aucune transaction sélectionnée pour être stockée, vous devez en "
-"sélectionner exactement une."
+msgstr "Aucun ID de transaction correspondant, 1 ID requis."
 
 #: commands/history/history_undo.cpp:60
-#, fuzzy
-#| msgid "No transactions selected for storing, exactly one required."
 msgid "Matched more than one transaction ID, exactly one required."
-msgstr ""
-"Aucune transaction sélectionnée pour être stockée, vous devez en "
-"sélectionner exactement une."
+msgstr "Plus d'un ID de transaction correspondant, un seul est requis."
 
 #: commands/history/transaction_id.cpp:32
 msgid ""
@@ -983,11 +981,8 @@ msgid "{} to skip unavailable packages"
 msgstr "{} pour passer les paquets indisponibles"
 
 #: main.cpp:983
-#, fuzzy
-#| msgid "Show logs from past offline transactions"
 msgid "{} to allow extra packages in the transaction"
-msgstr ""
-"Afficher les entrées de journal des transactions hors ligne précédentes"
+msgstr "{} pour autoriser l'ajout de paquets supplémentaires à la transaction"
 
 #: main.cpp:996
 msgid ""
@@ -995,6 +990,10 @@ msgid ""
 "This can result in an empty transaction because among other things the "
 "option can ignore failing Remove actions."
 msgstr ""
+"{} pour autoriser les différences entre les paquets installés et ceux dans "
+"la transaction stockée. Activer cette option peut résulter en une "
+"transaction vide car, entre autres, les actions Supprimer en échec "
+"pourraient être ignorées."
 
 #: main.cpp:1043
 msgid "{} to not limit the transaction to the best candidates"
