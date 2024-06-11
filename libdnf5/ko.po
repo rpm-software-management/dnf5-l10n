@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-11 02:52+0000\n"
-"PO-Revision-Date: 2024-06-09 11:36+0000\n"
+"PO-Revision-Date: 2024-06-12 04:36+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/ko/>\n"
@@ -63,7 +63,7 @@ msgstr "그룹 꾸러미와 일치하지 않습니다: {}"
 
 #: base/log_event.cpp:158
 msgid "Cannot perform {0}, no match for: {1}."
-msgstr ""
+msgstr "{0}를 수행 할 수 없고, 일치하지 않습니다: {1}."
 
 #: base/log_event.cpp:160
 msgid "No match for argument: {}"
@@ -75,7 +75,7 @@ msgstr "저장소 '{1}'에서 인수 '{0}'와 일치하지 않습니다"
 
 #: base/log_event.cpp:169
 msgid "Cannot perform {0} for {1} '{2}' becasue it is not installed."
-msgstr ""
+msgstr "설치되지 않았기 때문에 {1} '{2}'를 위해 {0}를 수행 할 수 없습니다."
 
 #: base/log_event.cpp:174
 msgid "Packages for argument '{}' available, but not installed."
@@ -89,32 +89,27 @@ msgstr ""
 "인수 '{}'를 위한 꾸러미는 사용 할 수 있지만 다른 구조를 위해 설치되었습니다."
 
 #: base/log_event.cpp:182
-#, fuzzy
-#| msgid "Argument '{}' matches only source packages."
 msgid "Cannot perform {0} because '{1}' matches only source packages."
-msgstr "인수 '{}'는 원천 꾸러미만 일치합니다."
+msgstr "'{1}'은 원천 꾸러미만 일치하기 때문에 {0}를 수행 할 수 없습니다."
 
 #: base/log_event.cpp:186
 msgid "Argument '{}' matches only source packages."
 msgstr "인수 '{}'는 원천 꾸러미만 일치합니다."
 
 #: base/log_event.cpp:190
-#, fuzzy
-#| msgid "Argument '{}' matches only excluded packages."
 msgid "Cannot perform {0} because '{1}' matches only excluded packages."
-msgstr "인수 '{}' 는 예외적인 꾸러미만 일치합니다."
+msgstr "'{1}' 는 예외적인 꾸러미만 일치하기 때문에 {0} 를 수행 할 수 없습니다."
 
 #: base/log_event.cpp:194
 msgid "Argument '{}' matches only excluded packages."
 msgstr "인수 '{}' 는 예외적인 꾸러미만 일치합니다."
 
 #: base/log_event.cpp:198
-#, fuzzy
-#| msgid "Argument '{}' matches only packages excluded by versionlock."
 msgid ""
 "Cannot perform {0} because '{1}' matches only packages excluded by "
 "versionlock."
-msgstr "인수 '{}'는 versionlock에 의해 예외적인 꾸러미만 일치합니다."
+msgstr "'{1}'는 versionlock에 의해 예외적인 꾸러미만 일치하기 때문에 {0} 를 수행 할 "
+"수 없습니다."
 
 #: base/log_event.cpp:202
 msgid "Argument '{}' matches only packages excluded by versionlock."
@@ -137,25 +132,17 @@ msgstr ""
 "니다."
 
 #: base/log_event.cpp:223
-#, fuzzy
-#| msgid ""
-#| "Packages for argument '{}' installed and available, but in a different "
-#| "version => cannot reinstall"
 msgid ""
 "Installed packages for argument '{0}' are not available in repositories in "
 "the same version, available versions: {1}, cannot reinstall."
 msgstr ""
-"인수 '{}'를 위한 꾸러미가 설치 되었고 사용 가능하지만, 다른 버전으로 => 재설"
-"치 할 수 없습니다"
+"인수 '{0}'를 위해 설치된 꾸러미는 동일한 버전의 저장소에서 사용 할 수 "
+"없으며, 사용 가능한 버전: {1}, 재설치 할 수 없습니다."
 
 #: base/log_event.cpp:229
-#, fuzzy
-#| msgid ""
-#| "Packages for argument '{}' installed and available, but in a different "
-#| "version."
 msgid ""
 "Cannot perform {0} because '{1}' is installed in a different version: '{2}'."
-msgstr "인수 '{}'를 위한 꾸러미가 설치되고 사용 할 수 있지만, 다른 버전입니다."
+msgstr "'{1}'은 다른 버전으로 설치되었기 때문에 {0} 을 수행 할 수 없습니다: '{2}'."
 
 #: base/log_event.cpp:235
 msgid ""
@@ -183,7 +170,8 @@ msgstr "\"{}\"로 작성된 디버그 자료"
 msgid ""
 "{0} upgrade cannot be reverted, however associated package actions will be. "
 "({1} id: '{2}') ."
-msgstr ""
+msgstr "{0} 향상은 되돌릴 수 없지만, 연관된 꾸러미 동작은 가능합니다 ({1} id: '{2}') "
+"."
 
 #: base/log_event.cpp:267
 msgid "{} action for argument \"{}\" is not supported."
@@ -242,7 +230,8 @@ msgstr ""
 msgid ""
 "Extra package '{0}' (with action '{1}') which is not present in the stored "
 "transaction was pulled into the transaction.\n"
-msgstr ""
+msgstr "저장된 연결에서 존재하지 않는 추가 꾸러미 '{0}' (동작 '{1}'과 함께)는 연결로 "
+"참여되었습니다.\n"
 
 #: base/solver_problems.cpp:41
 msgid "{} does not belong to a distupgrade repository"
