@@ -9,9 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-11 02:52+0000\n"
-"PO-Revision-Date: 2024-06-11 02:49+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2024-06-12 04:36+0000\n"
+"Last-Translator: Léane GRASSER <pierre.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/fr/>\n"
 "Language: fr\n"
@@ -65,7 +64,7 @@ msgstr "Aucune correspondance pour le paquet du groupe : {}"
 
 #: base/log_event.cpp:158
 msgid "Cannot perform {0}, no match for: {1}."
-msgstr ""
+msgstr "Impossible d'effectuer {0}, aucune correspondance pour : {1}."
 
 #: base/log_event.cpp:160
 msgid "No match for argument: {}"
@@ -77,7 +76,7 @@ msgstr "Aucune correspondance pour l'argument '{0}' dans les dépôts '{1}'"
 
 #: base/log_event.cpp:169
 msgid "Cannot perform {0} for {1} '{2}' becasue it is not installed."
-msgstr ""
+msgstr "Impossible d'effectuer {0} pour {1} '{2}' car il n'est pas installé."
 
 #: base/log_event.cpp:174
 msgid "Packages for argument '{}' available, but not installed."
@@ -92,33 +91,31 @@ msgstr ""
 "architecture différente."
 
 #: base/log_event.cpp:182
-#, fuzzy
-#| msgid "Argument '{}' matches only source packages."
 msgid "Cannot perform {0} because '{1}' matches only source packages."
-msgstr "Seuls des paquets sources correspondent à l'argument '{}'."
+msgstr ""
+"Impossible d'effectuer {0} car '{1}' ne correspond qu'à des paquets de code "
+"source."
 
 #: base/log_event.cpp:186
 msgid "Argument '{}' matches only source packages."
-msgstr "Seuls des paquets sources correspondent à l'argument '{}'."
+msgstr "Seuls des paquets de code source correspondent à l'argument '{}'."
 
 #: base/log_event.cpp:190
-#, fuzzy
-#| msgid "Argument '{}' matches only excluded packages."
 msgid "Cannot perform {0} because '{1}' matches only excluded packages."
-msgstr "Seuls des paquets exclus correspondent à l'argument '{}'."
+msgstr ""
+"Impossible d'effectuer {0} car '{1}' ne correspond qu'à des paquets exclus."
 
 #: base/log_event.cpp:194
 msgid "Argument '{}' matches only excluded packages."
 msgstr "Seuls des paquets exclus correspondent à l'argument '{}'."
 
 #: base/log_event.cpp:198
-#, fuzzy
-#| msgid "Argument '{}' matches only packages excluded by versionlock."
 msgid ""
 "Cannot perform {0} because '{1}' matches only packages excluded by "
 "versionlock."
 msgstr ""
-"Seuls des paquets exclus par versionlock correspondent à l'argument '{}'."
+"Impossible d'effectuer {0} car '{1}' ne correspond qu'à des paquets exclus "
+"par versionlock."
 
 #: base/log_event.cpp:202
 msgid "Argument '{}' matches only packages excluded by versionlock."
@@ -131,7 +128,7 @@ msgstr "  * Vous vouliez peut-être dire : {}"
 
 #: base/log_event.cpp:210
 msgid "There are following alternatives for '{0}': {1}"
-msgstr "Les alternatives suivantes existent pour '{0}' : {1}"
+msgstr "Il existe les alternatives à '{0}' suivantes : {1}"
 
 #: base/log_event.cpp:217
 msgid ""
@@ -142,27 +139,20 @@ msgstr ""
 "faible, impossible de rétrograder le paquet."
 
 #: base/log_event.cpp:223
-#, fuzzy
-#| msgid ""
-#| "Packages for argument '{}' installed and available, but in a different "
-#| "version => cannot reinstall"
 msgid ""
 "Installed packages for argument '{0}' are not available in repositories in "
 "the same version, available versions: {1}, cannot reinstall."
 msgstr ""
-"Les paquets correspondant à l'argument '{}' sont installés et disponibles, "
-"mais dans une version différente => impossible de les réinstaller"
+"Les paquets installés correspondant à l'argument '{0}' ne sont pas "
+"disponibles dans la même version dans les dépôts, versions disponibles : {1}"
+", réinstallation impossible."
 
 #: base/log_event.cpp:229
-#, fuzzy
-#| msgid ""
-#| "Packages for argument '{}' installed and available, but in a different "
-#| "version."
 msgid ""
 "Cannot perform {0} because '{1}' is installed in a different version: '{2}'."
 msgstr ""
-"Les paquets correspondant à l'argument '{}' sont installés et disponibles, "
-"mais dans une version différente."
+"Impossible d'effectuer {0} car '{1}' est installé dans une version "
+"différente : '{2}'."
 
 #: base/log_event.cpp:235
 msgid ""
@@ -195,6 +185,8 @@ msgid ""
 "{0} upgrade cannot be reverted, however associated package actions will be. "
 "({1} id: '{2}') ."
 msgstr ""
+"La mise à jour de {0} ne peut pas être annulée, mais les actions sur les "
+"autres paquets le seront. (ID de {1} : '{2}')"
 
 #: base/log_event.cpp:267
 msgid "{} action for argument \"{}\" is not supported."
@@ -261,6 +253,8 @@ msgid ""
 "Extra package '{0}' (with action '{1}') which is not present in the stored "
 "transaction was pulled into the transaction.\n"
 msgstr ""
+"Le paquet supplémentaire '{0}' (avec pour action '{1}') qui n'était pas "
+"présent dans la transaction stockée a été ajouté à la transaction.\n"
 
 #: base/solver_problems.cpp:41
 msgid "{} does not belong to a distupgrade repository"
@@ -292,7 +286,7 @@ msgstr "le paquet {} n'existe pas"
 
 #: base/solver_problems.cpp:48 base/solver_problems.cpp:84
 msgid "{} is provided by the system"
-msgstr "{} est fourni(e) par le système"
+msgstr "{} est fourni par le système"
 
 #: base/solver_problems.cpp:49 base/solver_problems.cpp:85
 msgid "some dependency problem"
