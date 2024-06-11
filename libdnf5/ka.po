@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-11 02:52+0000\n"
-"PO-Revision-Date: 2024-06-08 10:52+0000\n"
+"PO-Revision-Date: 2024-06-12 04:36+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/ka/>\n"
@@ -62,7 +62,7 @@ msgstr "არაფერი ემთხვევა ჯგუფის პა
 
 #: base/log_event.cpp:158
 msgid "Cannot perform {0}, no match for: {1}."
-msgstr ""
+msgstr "{0}-ის შესრულება შეუძლებელია. {1}-სთვის დამთხვევა არ არსებობს."
 
 #: base/log_event.cpp:160
 msgid "No match for argument: {}"
@@ -75,6 +75,7 @@ msgstr "არაფერ ემთხვევა არგუმენტს 
 #: base/log_event.cpp:169
 msgid "Cannot perform {0} for {1} '{2}' becasue it is not installed."
 msgstr ""
+"{0}-ის შესრულება {1}-სთვის '{2}' შეუძლებელია, რადგან ის დაყენებული არაა."
 
 #: base/log_event.cpp:174
 msgid "Packages for argument '{}' available, but not installed."
@@ -89,32 +90,32 @@ msgstr ""
 "არქიტექტურისთვის."
 
 #: base/log_event.cpp:182
-#, fuzzy
-#| msgid "Argument '{}' matches only source packages."
 msgid "Cannot perform {0} because '{1}' matches only source packages."
-msgstr "არგუმენტი '{}' მხოლოდ საწყისი კოდის პაკეტებს ემთხვევა."
+msgstr ""
+"{0}-ის შესრულება შეუძლებელია, რადგან '{1}', მხოლოდ, პროგრამული კოდის "
+"პაკეტებს ემთხვევა."
 
 #: base/log_event.cpp:186
 msgid "Argument '{}' matches only source packages."
 msgstr "არგუმენტი '{}' მხოლოდ საწყისი კოდის პაკეტებს ემთხვევა."
 
 #: base/log_event.cpp:190
-#, fuzzy
-#| msgid "Argument '{}' matches only excluded packages."
 msgid "Cannot perform {0} because '{1}' matches only excluded packages."
-msgstr "არგუმენტი '{}' მხოლოდ ამოღებულ პაკეტებს ემთხვევა."
+msgstr ""
+"{0}-ის შესრულება შეუძლებელია, რადგან '{1}', მხოლოდ, ამოღებულ პაკეტებს "
+"ემთხვევა."
 
 #: base/log_event.cpp:194
 msgid "Argument '{}' matches only excluded packages."
 msgstr "არგუმენტი '{}' მხოლოდ ამოღებულ პაკეტებს ემთხვევა."
 
 #: base/log_event.cpp:198
-#, fuzzy
-#| msgid "Argument '{}' matches only packages excluded by versionlock."
 msgid ""
 "Cannot perform {0} because '{1}' matches only packages excluded by "
 "versionlock."
-msgstr "არგუმენტი '{}' მხოლოდ versionlock-ის მიერ ამოღებულ პაკეტებს ემთხვევა."
+msgstr ""
+"{0}-ის შესრულება შეუძლებელია, რადგან '{1}', მხოლოდ, versionlock-ის მიერ "
+"ამოღებულ პაკეტებს ემთხვევა."
 
 #: base/log_event.cpp:202
 msgid "Argument '{}' matches only packages excluded by versionlock."
@@ -136,26 +137,20 @@ msgstr ""
 "პაკეტი \"{}\" უკვე ყველაზე დაბალი ვერსიისაა. ვერსიის დაწევა შეუძლებელია."
 
 #: base/log_event.cpp:223
-#, fuzzy
-#| msgid ""
-#| "Packages for argument '{}' installed and available, but in a different "
-#| "version => cannot reinstall"
 msgid ""
 "Installed packages for argument '{0}' are not available in repositories in "
 "the same version, available versions: {1}, cannot reinstall."
 msgstr ""
-"პაკეტი არგუმენტისთვის '{}' დაყენებული და ხელმისაწვდომია, მაგრამ სხვა ვერსია "
-"=> თავიდან დაყენება შეუძლებელია"
+"დაყენებული პაკეტები არგუმენტისთვის '{0}' რეპოზიტორიებში იგივე ვერსიით "
+"ხელმისაწვდომი არაა. ხელმისაწვდომი ვერსიებია: {1}. თავიდან დაყენება "
+"შეუძლებელია."
 
 #: base/log_event.cpp:229
-#, fuzzy
-#| msgid ""
-#| "Packages for argument '{}' installed and available, but in a different "
-#| "version."
 msgid ""
 "Cannot perform {0} because '{1}' is installed in a different version: '{2}'."
 msgstr ""
-"პაკეტი არგუმენტისთვის '{}' დაყენებული და ხელმისაწვდომია, მაგრამ სხვა ვერსია."
+"{0}-ის შესრულება შეუძლებელია, რადგან '{1}' დაყენებულია განსხვავებული ვერსიით:"
+" '{2}'."
 
 #: base/log_event.cpp:235
 msgid ""
@@ -185,6 +180,8 @@ msgid ""
 "{0} upgrade cannot be reverted, however associated package actions will be. "
 "({1} id: '{2}') ."
 msgstr ""
+"{0}-ის ვერსიის აწევის გაუქმება შეუძლებელია, მაგრამ ასოცირებული პაკეტის "
+"ქმედებების - კი. ({1} id: '{2}') ."
 
 #: base/log_event.cpp:267
 msgid "{} action for argument \"{}\" is not supported."
@@ -250,6 +247,8 @@ msgid ""
 "Extra package '{0}' (with action '{1}') which is not present in the stored "
 "transaction was pulled into the transaction.\n"
 msgstr ""
+"დამატებითი პაკეტი '{0}' (ქმედებით '{1}'), რომელიც დამახსოვრებულ ტრანზაქციაში "
+"არ არსებობს, ტრანზაქციაში საიდანღაც მოხვდა.\n"
 
 #: base/solver_problems.cpp:41
 msgid "{} does not belong to a distupgrade repository"
