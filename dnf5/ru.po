@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-08 02:52+0000\n"
+"POT-Creation-Date: 2024-06-11 02:52+0000\n"
 "PO-Revision-Date: 2024-06-09 11:36+0000\n"
 "Last-Translator: Aleksey Fedorov <aleksejfedorov963@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -248,13 +248,24 @@ msgstr "Включить дополнительные пакеты от груп
 msgid "Operate on groups only, no packages are changed."
 msgstr "Работать только с группами, пакеты не изменяются."
 
-#: commands/history/arguments.hpp:34
+#: commands/history/arguments.hpp:37
 msgid "Transaction ID"
 msgstr "Идентификатор транзакции"
 
-#: commands/history/arguments.hpp:41
+#: commands/history/arguments.hpp:44
 msgid "Reverse the order of transactions."
 msgstr "Изменить порядок транзакций."
+
+#: commands/history/arguments.hpp:54
+msgid ""
+"Don't consider mismatches between installed and stored transaction packages "
+"as errors. This can result in an empty transaction because among other "
+"things the option can ignore failing Remove actions."
+msgstr ""
+
+#: commands/history/arguments.hpp:67
+msgid "Don't consider extra packages pulled into the transaction as errors."
+msgstr ""
 
 #: commands/history/history_store.cpp:62
 msgid "File \"{}\" already exists, it will be overwritten.\n"
@@ -267,6 +278,18 @@ msgstr "Для хранения не выбрано ни одной транза
 #: commands/history/history_store.cpp:79
 msgid "Multiple transactions selected for storing, only one allowed."
 msgstr "Для хранения выбрано несколько транзакций, разрешена только одна."
+
+#: commands/history/history_undo.cpp:56
+#, fuzzy
+#| msgid "No transactions selected for storing, exactly one required."
+msgid "No matching transaction ID found, exactly one required."
+msgstr "Для хранения не выбрано ни одной транзакции, требуется ровно одна."
+
+#: commands/history/history_undo.cpp:60
+#, fuzzy
+#| msgid "No transactions selected for storing, exactly one required."
+msgid "Matched more than one transaction ID, exactly one required."
+msgstr "Для хранения не выбрано ни одной транзакции, требуется ровно одна."
 
 #: commands/history/transaction_id.cpp:32
 msgid ""
@@ -933,27 +956,40 @@ msgstr "======== Переменные: ========"
 msgid "{} to skip unavailable packages"
 msgstr "{}, чтобы пропускать недоступные пакеты"
 
-#: main.cpp:1016
+#: main.cpp:983
+#, fuzzy
+#| msgid "Show logs from past offline transactions"
+msgid "{} to allow extra packages in the transaction"
+msgstr "Показать журналы прошлых автономных операций"
+
+#: main.cpp:996
+msgid ""
+"{} to allow mismatches between installed and stored transaction packages. "
+"This can result in an empty transaction because among other things the "
+"option can ignore failing Remove actions."
+msgstr ""
+
+#: main.cpp:1043
 msgid "{} to not limit the transaction to the best candidates"
 msgstr "{}, чтобы не ограничивать транзакцию лучшими кандидатами"
 
-#: main.cpp:1023
+#: main.cpp:1050
 msgid "{} to allow erasing of installed packages to resolve problems"
 msgstr "{}, чтобы разрешить удаление установленных пакетов для решения проблем"
 
-#: main.cpp:1031
+#: main.cpp:1058
 msgid "{} to load additional filelists metadata"
 msgstr "{}, чтобы загрузить дополнительные метаданные списков файлов"
 
-#: main.cpp:1038
+#: main.cpp:1065
 msgid "{} to skip uninstallable packages"
 msgstr "{}, чтобы пропустить неустанавливаемые пакеты"
 
-#: main.cpp:1044
+#: main.cpp:1071
 msgid "You can try to add to command line:"
 msgstr "Можно попробовать добавить в командную строку:"
 
-#: main.cpp:1062
+#: main.cpp:1089
 msgid ""
 "No matches were found for the following plugin name patterns while enabling "
 "libdnf plugins: {}"
@@ -961,7 +997,7 @@ msgstr ""
 "При включении плагинов libdnf не было найдено совпадений для следующих "
 "шаблонов имен плагинов: {}"
 
-#: main.cpp:1063
+#: main.cpp:1090
 msgid ""
 "No matches were found for the following plugin name patterns while disabling "
 "libdnf plugins: {}"
@@ -969,12 +1005,12 @@ msgstr ""
 "При отключении плагинов libdnf не было найдено совпадений для следующих "
 "шаблонов имен плагинов: {}"
 
-#: main.cpp:1212 main.cpp:1399
+#: main.cpp:1239 main.cpp:1426
 msgid ". Add \"--help\" for more information about the arguments."
 msgstr ""
 ". Добавьте \"--help\" для получения дополнительной информации об аргументах."
 
-#: main.cpp:1321
+#: main.cpp:1348
 msgid ""
 "The requested operation requires superuser privileges. Please log in as a "
 "user with elevated rights, or use the \"--assumeno\" or \"--downloadonly\" "

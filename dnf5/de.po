@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-08 02:52+0000\n"
+"POT-Creation-Date: 2024-06-11 02:52+0000\n"
 "PO-Revision-Date: 2024-06-08 10:52+0000\n"
 "Last-Translator: Dennis Koerner <dennis@bumblebeeman.dev>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf5/"
@@ -240,13 +240,24 @@ msgstr "Optionale Pakete aus der Gruppe einschließen."
 msgid "Operate on groups only, no packages are changed."
 msgstr "Verarbeitet nur Gruppen, keine Pakete werden geändert."
 
-#: commands/history/arguments.hpp:34
+#: commands/history/arguments.hpp:37
 msgid "Transaction ID"
 msgstr "Transaktions-ID"
 
-#: commands/history/arguments.hpp:41
+#: commands/history/arguments.hpp:44
 msgid "Reverse the order of transactions."
 msgstr "Reihenfolge der Transaktionen umkehren."
+
+#: commands/history/arguments.hpp:54
+msgid ""
+"Don't consider mismatches between installed and stored transaction packages "
+"as errors. This can result in an empty transaction because among other "
+"things the option can ignore failing Remove actions."
+msgstr ""
+
+#: commands/history/arguments.hpp:67
+msgid "Don't consider extra packages pulled into the transaction as errors."
+msgstr ""
 
 #: commands/history/history_store.cpp:62
 msgid "File \"{}\" already exists, it will be overwritten.\n"
@@ -260,6 +271,20 @@ msgstr ""
 #: commands/history/history_store.cpp:79
 msgid "Multiple transactions selected for storing, only one allowed."
 msgstr "Mehrere Transaktionen zum Speichern ausgewählt, nur Eine ist erlaubt."
+
+#: commands/history/history_undo.cpp:56
+#, fuzzy
+#| msgid "No transactions selected for storing, exactly one required."
+msgid "No matching transaction ID found, exactly one required."
+msgstr ""
+"Keine Transaktionen zum Speichern ausgewählt, genau Eine ist erforderlich."
+
+#: commands/history/history_undo.cpp:60
+#, fuzzy
+#| msgid "No transactions selected for storing, exactly one required."
+msgid "Matched more than one transaction ID, exactly one required."
+msgstr ""
+"Keine Transaktionen zum Speichern ausgewählt, genau Eine ist erforderlich."
 
 #: commands/history/transaction_id.cpp:32
 msgid ""
@@ -922,29 +947,42 @@ msgstr "======== Variablen: ========"
 msgid "{} to skip unavailable packages"
 msgstr "{}, um nicht-verfügbare Pakete zu überspringen"
 
-#: main.cpp:1016
+#: main.cpp:983
+#, fuzzy
+#| msgid "Show logs from past offline transactions"
+msgid "{} to allow extra packages in the transaction"
+msgstr "Logs vergangener Offline-Transaktionen anzeigen"
+
+#: main.cpp:996
+msgid ""
+"{} to allow mismatches between installed and stored transaction packages. "
+"This can result in an empty transaction because among other things the "
+"option can ignore failing Remove actions."
+msgstr ""
+
+#: main.cpp:1043
 msgid "{} to not limit the transaction to the best candidates"
 msgstr ""
 "{}, um die Transaktionen nicht auf die besten Kandidaten zu beschränken"
 
-#: main.cpp:1023
+#: main.cpp:1050
 msgid "{} to allow erasing of installed packages to resolve problems"
 msgstr ""
 "{}, um das Entfernen installierter Pakete zur Problemlösung zu erlauben"
 
-#: main.cpp:1031
+#: main.cpp:1058
 msgid "{} to load additional filelists metadata"
 msgstr "{}, um zusätzliche Dateilisten-Metadaten zu laden"
 
-#: main.cpp:1038
+#: main.cpp:1065
 msgid "{} to skip uninstallable packages"
 msgstr "{}, um deinstallierbare Pakete zu überspringen"
 
-#: main.cpp:1044
+#: main.cpp:1071
 msgid "You can try to add to command line:"
 msgstr "Sie können versuchen, folgendes der Befehlszeile hinzuzufügen:"
 
-#: main.cpp:1062
+#: main.cpp:1089
 msgid ""
 "No matches were found for the following plugin name patterns while enabling "
 "libdnf plugins: {}"
@@ -952,7 +990,7 @@ msgstr ""
 "Bei der Aktivierung von libdnf-Plugins wurden keine Übereinstimmungen für "
 "die folgenden Plugin-Namensmuster gefunden: {}"
 
-#: main.cpp:1063
+#: main.cpp:1090
 msgid ""
 "No matches were found for the following plugin name patterns while disabling "
 "libdnf plugins: {}"
@@ -960,13 +998,13 @@ msgstr ""
 "Bei der Deaktivierung von libdnf-Plugins wurden keine Übereinstimmungen für "
 "die folgenden Plugin-Namensmuster gefunden: {}"
 
-#: main.cpp:1212 main.cpp:1399
+#: main.cpp:1239 main.cpp:1426
 msgid ". Add \"--help\" for more information about the arguments."
 msgstr ""
 ". Fügen Sie \"--help\" hinzu, um weitere Informationen zu den Argumenten zu "
 "erhalten."
 
-#: main.cpp:1321
+#: main.cpp:1348
 msgid ""
 "The requested operation requires superuser privileges. Please log in as a "
 "user with elevated rights, or use the \"--assumeno\" or \"--downloadonly\" "

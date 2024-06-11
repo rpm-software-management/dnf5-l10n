@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-08 02:52+0000\n"
+"POT-Creation-Date: 2024-06-11 02:52+0000\n"
 "PO-Revision-Date: 2024-06-08 10:52+0000\n"
 "Last-Translator: Joungmin Lee <leejm516@gmail.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
@@ -165,8 +165,8 @@ msgid ""
 "advisories matching selected advisory properties"
 msgstr ""
 "결점 수정, 개선, 보안, 또는 신규 꾸러미 유형의 권고를 수정하는 꾸러미의 최저 "
-"버전을 보고합니다. 옵션을 제한하는 권고가 사용되는 경우 선택한 권고 속성과 "
-"일치하는 권고를 수정하는 최저 버전의 꾸러미를 보고합니다"
+"버전을 보고합니다. 옵션을 제한하는 권고가 사용되는 경우 선택한 권고 속성과 일"
+"치하는 권고를 수정하는 최저 버전의 꾸러미를 보고합니다"
 
 #: commands/check/check.cpp:335
 msgid "Check discovered {} problem(s) in {} package(s)"
@@ -241,13 +241,24 @@ msgstr "그룹에서 선택적인 꾸러미를 포함합니다."
 msgid "Operate on groups only, no packages are changed."
 msgstr "그룹에서만 동작하며, 어떤 꾸러미도 변경되지 않습니다."
 
-#: commands/history/arguments.hpp:34
+#: commands/history/arguments.hpp:37
 msgid "Transaction ID"
 msgstr "연결 ID"
 
-#: commands/history/arguments.hpp:41
+#: commands/history/arguments.hpp:44
 msgid "Reverse the order of transactions."
 msgstr "연결 순서를 역순으로 변경합니다."
+
+#: commands/history/arguments.hpp:54
+msgid ""
+"Don't consider mismatches between installed and stored transaction packages "
+"as errors. This can result in an empty transaction because among other "
+"things the option can ignore failing Remove actions."
+msgstr ""
+
+#: commands/history/arguments.hpp:67
+msgid "Don't consider extra packages pulled into the transaction as errors."
+msgstr ""
 
 #: commands/history/history_store.cpp:62
 msgid "File \"{}\" already exists, it will be overwritten.\n"
@@ -260,6 +271,18 @@ msgstr "저장하기 위해 선택된 연결이 없으며, 정확히 하나가 �
 #: commands/history/history_store.cpp:79
 msgid "Multiple transactions selected for storing, only one allowed."
 msgstr "저장하기 위해 선택된 다중 연결, 하나만 허용됩니다."
+
+#: commands/history/history_undo.cpp:56
+#, fuzzy
+#| msgid "No transactions selected for storing, exactly one required."
+msgid "No matching transaction ID found, exactly one required."
+msgstr "저장하기 위해 선택된 연결이 없으며, 정확히 하나가 필요합니다."
+
+#: commands/history/history_undo.cpp:60
+#, fuzzy
+#| msgid "No transactions selected for storing, exactly one required."
+msgid "Matched more than one transaction ID, exactly one required."
+msgstr "저장하기 위해 선택된 연결이 없으며, 정확히 하나가 필요합니다."
 
 #: commands/history/transaction_id.cpp:32
 msgid ""
@@ -293,15 +316,17 @@ msgstr "사용 할 수 있는 꾸러미 목록."
 msgid ""
 "List extras, that is packages installed on the system that are not available "
 "in any known repository."
-msgstr "알려진 저장소에서 사용 할 수 없는 시스템에 설치된 꾸러미로 추가된 부분을 "
-"나열합니다."
+msgstr ""
+"알려진 저장소에서 사용 할 수 없는 시스템에 설치된 꾸러미로 추가된 부분을 나열"
+"합니다."
 
 #: commands/list/list.cpp:84
 msgid ""
 "List packages installed on the system that are obsoleted by packages in any "
 "known repository."
-msgstr "알려진 저장소에서 꾸러미에 의해 더 이상 사용하지 않는 시스템에서 설치된 "
-"꾸러미를 나열합니다."
+msgstr ""
+"알려진 저장소에서 꾸러미에 의해 더 이상 사용하지 않는 시스템에서 설치된 꾸러"
+"미를 나열합니다."
 
 #: commands/list/list.cpp:89
 msgid "List packages recently added into the repositories."
@@ -355,7 +380,8 @@ msgstr "D-Bus로 연결 할 수 없음: {}"
 msgid ""
 "Prepare the system to perform the offline transaction and reboot to start "
 "the transaction."
-msgstr "시스템을 오프라인 연결을 수행하도록 준비하고 연결을 시작하도록 재부팅합니다."
+msgstr ""
+"시스템을 오프라인 연결을 수행하도록 준비하고 연결을 시작하도록 재부팅합니다."
 
 #: commands/offline/offline.cpp:280
 msgid "Power off the system after the operation is complete"
@@ -385,15 +411,17 @@ msgstr "시스템은 현재 출시 버전으로 향상 하도록 재부팅 합�
 msgid ""
 "The system will now reboot to perform the offline transaction initiated by "
 "the following command:"
-msgstr "시스템은 현재 다음과 같은 명령에 의해 시작되도록 오프라인 연결을 수행하도록 "
+msgstr ""
+"시스템은 현재 다음과 같은 명령에 의해 시작되도록 오프라인 연결을 수행하도록 "
 "재시작 합니다:"
 
 #: commands/offline/offline.cpp:370
 msgid ""
 "Internal use only, not intended to be run by the user. Execute the "
 "transaction in the offline environment."
-msgstr "내부용으로만 사용되며, 사용자에 의해 동작하도록 하지 않습니다. 오프라인 "
-"환경에서 연결을 실행합니다."
+msgstr ""
+"내부용으로만 사용되며, 사용자에 의해 동작하도록 하지 않습니다. 오프라인 환경"
+"에서 연결을 실행합니다."
 
 #: commands/offline/offline.cpp:397
 msgid "Trigger file does not exist. Exiting."
@@ -409,9 +437,9 @@ msgid ""
 "to be run directly by the user. To initiate the system upgrade/offline "
 "transaction, you should run `dnf5 offline reboot`."
 msgstr ""
-"경고: `_execute` 명령은 내부적으로만 사용되며 사용자가 직접 실행하도록 "
-"의도하지 않았습니다. 시스템 업그레이드/오프라인 연결을 시작하려면 `dnf5 "
-"offline reboot`를 실행하십시오."
+"경고: `_execute` 명령은 내부적으로만 사용되며 사용자가 직접 실행하도록 의도하"
+"지 않았습니다. 시스템 업그레이드/오프라인 연결을 시작하려면 `dnf5 offline "
+"reboot`를 실행하십시오."
 
 #: commands/offline/offline.cpp:443
 msgid "Use `dnf5 offline reboot` to begin the transaction."
@@ -452,13 +480,15 @@ msgstr "지난 오프라인 연결에서 기록을 표시합니다"
 #: commands/offline/offline.cpp:645
 msgid ""
 "Which log to show. Run without any arguments to get a list of available logs."
-msgstr "표시 하려는 기록. 사용 가능한 기록의 목록을 가져오도록 인수 없이 실행합니다."
+msgstr ""
+"표시 하려는 기록. 사용 가능한 기록의 목록을 가져오도록 인수 없이 실행합니다."
 
 #: commands/offline/offline.cpp:660
 msgid ""
 "systemd is not supported in this build of DNF 5; the `log` subcommand is "
 "unavailable."
-msgstr "systemd는 DNF 5의 이 제작에서 지원되지 않습니다; `log` 하위명령은 사용 할 수 "
+msgstr ""
+"systemd는 DNF 5의 이 제작에서 지원되지 않습니다; `log` 하위명령은 사용 할 수 "
 "없습니다."
 
 #: commands/offline/offline.cpp:665
@@ -472,7 +502,8 @@ msgstr "다음 명령에 의해 오프라인 연결이 시작되었습니다:"
 #: commands/offline/offline.cpp:683
 msgid ""
 "Run `dnf5 offline reboot` to reboot and perform the offline transaction."
-msgstr "`dnf5 offline reboot`를 동작하여 재시작 하고 오프라인 연결을 수행합니다."
+msgstr ""
+"`dnf5 offline reboot`를 동작하여 재시작 하고 오프라인 연결을 수행합니다."
 
 #: commands/offline/offline.cpp:685
 msgid ""
@@ -538,7 +569,8 @@ msgstr "신규 출시로 향상하는 데 필요한 모든 것을 내려받습�
 msgid ""
 "Do not install packages from the new release if they are older than what is "
 "currently installed"
-msgstr "만약 현재 설치된 것보다 오래되었다면 신규 출시에서 꾸러미를 설치하지 않습니다"
+msgstr ""
+"만약 현재 설치된 것보다 오래되었다면 신규 출시에서 꾸러미를 설치하지 않습니다"
 
 #: commands/system-upgrade/system-upgrade.cpp:97
 msgid "Need a --releasever greater than the current system version."
@@ -559,10 +591,9 @@ msgid ""
 "limiting advisories is used it upgrades packages only to the lowest versions "
 "that fix advisories that matching selected advisory property"
 msgstr ""
-"결점수정, 향상, 보안, 또는 신규꾸러미 유형의 권고를 수정하도록 최저 "
-"버전으로만 꾸러미를 향상합니다. 권고를 제한하는 옵션이 사용되는 경우에 "
-"선택된 권고 속성과 일치하는 권고를 수정하도록 최소 버전으로만 꾸러미를 "
-"향상합니다"
+"결점수정, 향상, 보안, 또는 신규꾸러미 유형의 권고를 수정하도록 최저 버전으로"
+"만 꾸러미를 향상합니다. 권고를 제한하는 옵션이 사용되는 경우에 선택된 권고 속"
+"성과 일치하는 권고를 수정하도록 최소 버전으로만 꾸러미를 향상합니다"
 
 #. TODO(mblaha): add full command line
 #: commands/versionlock/utils.cpp:35
@@ -635,7 +666,8 @@ msgstr "\"{}\"를 위해 일치하는 저장소가 없습니다"
 msgid ""
 "Location \"{}\" already contains a stored transaction, it will be "
 "overwritten.\n"
-msgstr "위치 \"{}\"는 이미 저장된 연결에 포함되어 있으며, 이는 덮어쓰게 됩니다.\n"
+msgstr ""
+"위치 \"{}\"는 이미 저장된 연결에 포함되어 있으며, 이는 덮어쓰게 됩니다.\n"
 
 #: library.cpp:33
 msgid "Cannot load shared library \"{}\": {}"
@@ -675,15 +707,16 @@ msgid ""
 "content. Suppresses messages notifying about the current state or actions of "
 "dnf5."
 msgstr ""
-"비-대화형 명령을 갖는 조합에서, 단지 연관된 내용을 표시합니다. 현재 상태 "
-"또는 dnf5의 실행에 대하여 통지되는 메시지를 억제합니다."
+"비-대화형 명령을 갖는 조합에서, 단지 연관된 내용을 표시합니다. 현재 상태 또"
+"는 dnf5의 실행에 대하여 통지되는 메시지를 억제합니다."
 
 #: main.cpp:164
 msgid ""
 "Run entirely from system cache, don't update the cache and use it even in "
 "case it is expired."
-msgstr "시스템 캐쉬에서 전체를 동작하며, 캐쉬를 최신화 하지 않고 만료된 경우라도 "
-"사용합니다."
+msgstr ""
+"시스템 캐쉬에서 전체를 동작하며, 캐쉬를 최신화 하지 않고 만료된 경우라도 사용"
+"합니다."
 
 #: main.cpp:171
 msgid "Force refreshing metadata before running the command."
@@ -715,10 +748,10 @@ msgid ""
 "              they do not override it. However, specifying an empty value (e."
 "g. --setopt=tsflags=) will clear the option."
 msgstr ""
-"구성 파일에서 구성 옵션을 재정의합니다. 저장소를 위해 구성 옵션을 재정의 "
-"하려면, <option>을 위해 repoid.option를 사용합니다. \n"
-"              excludepkgs, installonlypkgs 및 tsflags와 같은 구성 옵션을 "
-"위한  값  은 원래 값으로 추가 되며,\n"
+"구성 파일에서 구성 옵션을 재정의합니다. 저장소를 위해 구성 옵션을 재정의 하려"
+"면, <option>을 위해 repoid.option를 사용합니다. \n"
+"              excludepkgs, installonlypkgs 및 tsflags와 같은 구성 옵션을 위"
+"한  값  은 원래 값으로 추가 되며,\n"
 "              이를 재정의하지 않습니다. 아무튼, 빈 값(예: --setopt=tsflags=)"
 "을 지정하면 옵션이 지워집니다."
 
@@ -756,7 +789,8 @@ msgstr "연결을 최상의 후보로 제한하지 마세요"
 msgid ""
 "Don't install files that are marked as documentation (which includes man "
 "pages and texinfo documents)"
-msgstr "문서로 표시된 파일을 설치하지 않습니다 (man 페이지 및 texinfo 문서 포함)"
+msgstr ""
+"문서로 표시된 파일을 설치하지 않습니다 (man 페이지 및 texinfo 문서 포함)"
 
 #: main.cpp:338
 msgid "exclude packages by name or glob"
@@ -782,8 +816,9 @@ msgstr ""
 msgid ""
 "Enable just specific repositories. List option. Supports globs, can be "
 "specified multiple times."
-msgstr "지정된 저장소를 활성화합니다. 옵션을 나열하고, glob을 지원합니다. 여러 번 "
-"지정할 수 있습니다."
+msgstr ""
+"지정된 저장소를 활성화합니다. 옵션을 나열하고, glob을 지원합니다. 여러 번 지"
+"정할 수 있습니다."
 
 #: main.cpp:415
 msgid "disable gpg signature checking (if RPM policy allows)"
@@ -793,14 +828,16 @@ msgstr "gpg 서명 확인을 비활성화 (RPM 정책이 허용하는 경우)"
 msgid ""
 "Enable libdnf5 plugins by name. List option. Supports globs, can be "
 "specified multiple times."
-msgstr "이름에 의해 libdnf5 플러그인을 활성화합니다. 옵션 목록. globs 지원하며, 여러 "
+msgstr ""
+"이름에 의해 libdnf5 플러그인을 활성화합니다. 옵션 목록. globs 지원하며, 여러 "
 "번 지정 될 수 있습니다."
 
 #: main.cpp:456
 msgid ""
 "Disable libdnf5 plugins by name. List option. Supports globs, can be "
 "specified multiple times."
-msgstr "이름에 의해 libdnf5 플러그인을 비활성화합니다. 옵션 목록. globs를 지원하며, "
+msgstr ""
+"이름에 의해 libdnf5 플러그인을 비활성화합니다. 옵션 목록. globs를 지원하며, "
 "여러 번 지정 될 수 있습니다."
 
 #: main.cpp:473
@@ -811,7 +848,8 @@ msgstr "연결에 의견을 추가하세요"
 msgid ""
 "Adds a comment to the action. If a transaction takes place, the comment is "
 "stored in it."
-msgstr "동작에 언급을 추가합니다. 만약 연결이 발생하면, 언급은 그 안에 저장됩니다."
+msgstr ""
+"동작에 언급을 추가합니다. 만약 연결이 발생하면, 언급은 그 안에 저장됩니다."
 
 #: main.cpp:488
 msgid "set install root"
@@ -886,53 +924,68 @@ msgstr "======== 변수: ========"
 msgid "{} to skip unavailable packages"
 msgstr "{} 에서 사용 할 수 없는 꾸러미를 건너뛰려면"
 
-#: main.cpp:1016
+#: main.cpp:983
+#, fuzzy
+#| msgid "Show logs from past offline transactions"
+msgid "{} to allow extra packages in the transaction"
+msgstr "지난 오프라인 연결에서 기록을 표시합니다"
+
+#: main.cpp:996
+msgid ""
+"{} to allow mismatches between installed and stored transaction packages. "
+"This can result in an empty transaction because among other things the "
+"option can ignore failing Remove actions."
+msgstr ""
+
+#: main.cpp:1043
 msgid "{} to not limit the transaction to the best candidates"
 msgstr "{} 연결을 최고의 후보로 제한하지 않습니다"
 
-#: main.cpp:1023
+#: main.cpp:1050
 msgid "{} to allow erasing of installed packages to resolve problems"
 msgstr "{} 문제를 해결하도록 설치된 꾸러미의 제거를 허용합니다"
 
-#: main.cpp:1031
+#: main.cpp:1058
 msgid "{} to load additional filelists metadata"
 msgstr "{} 추가된 파일목록 메타자료를 적재합니다"
 
-#: main.cpp:1038
+#: main.cpp:1065
 msgid "{} to skip uninstallable packages"
 msgstr "{} 설치 할 수 없는 꾸러미를 건너뜁니다"
 
-#: main.cpp:1044
+#: main.cpp:1071
 msgid "You can try to add to command line:"
 msgstr "당신은 명령 행에 다음을 추가 해 볼 수 있습니다:"
 
-#: main.cpp:1062
+#: main.cpp:1089
 msgid ""
 "No matches were found for the following plugin name patterns while enabling "
 "libdnf plugins: {}"
-msgstr "libdnf 플러그인을 활성화 중에 다음 플러그인 이름 유형을 위한 어떤 일치도 "
-"찾을 수 없습니다: {}"
+msgstr ""
+"libdnf 플러그인을 활성화 중에 다음 플러그인 이름 유형을 위한 어떤 일치도 찾"
+"을 수 없습니다: {}"
 
-#: main.cpp:1063
+#: main.cpp:1090
 msgid ""
 "No matches were found for the following plugin name patterns while disabling "
 "libdnf plugins: {}"
-msgstr "libdnf 플러그인을 비활성화 하는 중에 다음 플러그인 이름 유형을 위해 어떤 "
-"일치도 찾을 수 없습니다: {}"
+msgstr ""
+"libdnf 플러그인을 비활성화 하는 중에 다음 플러그인 이름 유형을 위해 어떤 일치"
+"도 찾을 수 없습니다: {}"
 
-#: main.cpp:1212 main.cpp:1399
+#: main.cpp:1239 main.cpp:1426
 msgid ". Add \"--help\" for more information about the arguments."
 msgstr ".인수에 대한 더 많은 정보를 위해 \"--help\"를 추가합니다."
 
-#: main.cpp:1321
+#: main.cpp:1348
 msgid ""
 "The requested operation requires superuser privileges. Please log in as a "
 "user with elevated rights, or use the \"--assumeno\" or \"--downloadonly\" "
 "options to run the command without modifying the system state."
 msgstr ""
-"요청된 동작은 최고사용자 권한이 필요합니다. 상승된 권한을 갖는 사용자로 "
-"로그인하고, \"--assumeno\" 또는 \"--downloadonly\" 옵션을 사용하여 시스템 "
-"상태를 수정하지 않고 명령을 실행합니다."
+"요청된 동작은 최고사용자 권한이 필요합니다. 상승된 권한을 갖는 사용자로 로그"
+"인하고, \"--assumeno\" 또는 \"--downloadonly\" 옵션을 사용하여 시스템 상태를 "
+"수정하지 않고 명령을 실행합니다."
 
 #: shared_options.cpp:32
 msgid "Allow erasing of installed packages to resolve problems"
