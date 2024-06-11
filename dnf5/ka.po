@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-11 02:52+0000\n"
-"PO-Revision-Date: 2024-06-07 02:49+0000\n"
+"PO-Revision-Date: 2024-06-12 04:36+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ka/>\n"
@@ -265,10 +265,14 @@ msgid ""
 "as errors. This can result in an empty transaction because among other "
 "things the option can ignore failing Remove actions."
 msgstr ""
+"სხვაობა დაყენებულ და დამახსოვრებული ტრანზაქციის პაკეტებს შორის სხვაობა "
+"შეცდომად აღქმული არ იქნება. ამან, შეიძლება, გამოიწვიოს ცარიელი ტრანზაქციები, "
+"რადგან სხვა ყველაფერთან ერთად ამ პარამეტრს ჩავარდნილი წაშლის ქმედებების "
+"გამოტოვება შეუძლია."
 
 #: commands/history/arguments.hpp:67
 msgid "Don't consider extra packages pulled into the transaction as errors."
-msgstr ""
+msgstr "ტრანზაქციაში შეტანილი დამატებითი პაკეტები შეცდომად აღქმული არ იქნება."
 
 #: commands/history/history_store.cpp:62
 msgid "File \"{}\" already exists, it will be overwritten.\n"
@@ -283,16 +287,12 @@ msgid "Multiple transactions selected for storing, only one allowed."
 msgstr "შესანახად მონიშნულია ერთზე მეტი ტრანზაქცია. დაშვებულია მხოლოდ ერთი."
 
 #: commands/history/history_undo.cpp:56
-#, fuzzy
-#| msgid "No transactions selected for storing, exactly one required."
 msgid "No matching transaction ID found, exactly one required."
-msgstr "შესანახად ტრანზაქცია მონიშნული არაა. აუცილებელია ზუსტად ერთი."
+msgstr "შესაბამისი ტრანზაქციის ID აღმოჩენილი არაა. საჭიროა ზუსტად ერთი."
 
 #: commands/history/history_undo.cpp:60
-#, fuzzy
-#| msgid "No transactions selected for storing, exactly one required."
 msgid "Matched more than one transaction ID, exactly one required."
-msgstr "შესანახად ტრანზაქცია მონიშნული არაა. აუცილებელია ზუსტად ერთი."
+msgstr "ემთხვევა ერთზე მეტი ტრანზაქციის ID. აუცილებელია ზუსტად ერთი."
 
 #: commands/history/transaction_id.cpp:32
 msgid ""
@@ -959,10 +959,8 @@ msgid "{} to skip unavailable packages"
 msgstr "{} ხელმიუწვდომელი პაკეტების გამოსატოვებლად"
 
 #: main.cpp:983
-#, fuzzy
-#| msgid "Show logs from past offline transactions"
 msgid "{} to allow extra packages in the transaction"
-msgstr "ჟურნალის ჩანაწერების ჩვენება ძველი ქსელგარეშე ტრანზაქციებისთვის"
+msgstr "{} ტრანზაქციაში დამატებითი პაკეტების შეტანის დასაშვებად"
 
 #: main.cpp:996
 msgid ""
@@ -970,6 +968,10 @@ msgid ""
 "This can result in an empty transaction because among other things the "
 "option can ignore failing Remove actions."
 msgstr ""
+"{} რომ დაუშვათ სხვაობა დამახსოვრებული ტრანზაქციისა და დაყენებულ პაკეტებს "
+"შორის. ამას შეუძლია, ცარიელი ტრანზაქციების გაჩენა გამოიწვის, რადგან სხვა "
+"ყველაფერთან ერთად ამ პარამეტრს ჩავარდნილი წაშლის ქმედებების გამოტოვება "
+"შეუძლია."
 
 #: main.cpp:1043
 msgid "{} to not limit the transaction to the best candidates"
