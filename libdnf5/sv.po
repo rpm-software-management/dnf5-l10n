@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-11 02:52+0000\n"
-"PO-Revision-Date: 2024-05-31 23:30+0000\n"
+"PO-Revision-Date: 2024-06-12 04:36+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/sv/>\n"
@@ -64,7 +64,7 @@ msgstr "Ingen matchning för grupppaket: {}"
 
 #: base/log_event.cpp:158
 msgid "Cannot perform {0}, no match for: {1}."
-msgstr ""
+msgstr "Kan inte utföra {0}, ingen matchning för: {1}."
 
 #: base/log_event.cpp:160
 msgid "No match for argument: {}"
@@ -76,7 +76,7 @@ msgstr "Ingen matchning för argumentet '{0}' i förråd '{1}'"
 
 #: base/log_event.cpp:169
 msgid "Cannot perform {0} for {1} '{2}' becasue it is not installed."
-msgstr ""
+msgstr "Kan inte utföra {0} för {1} '{2}' eftersom det inte är installerat."
 
 #: base/log_event.cpp:174
 msgid "Packages for argument '{}' available, but not installed."
@@ -91,32 +91,28 @@ msgstr ""
 "arkitektur."
 
 #: base/log_event.cpp:182
-#, fuzzy
-#| msgid "Argument '{}' matches only source packages."
 msgid "Cannot perform {0} because '{1}' matches only source packages."
-msgstr "Argumentet '{}' matchar endast källpaket."
+msgstr "Kan inte utföra {0} eftersom '{1}' matchar endast källkodspaket."
 
 #: base/log_event.cpp:186
 msgid "Argument '{}' matches only source packages."
 msgstr "Argumentet '{}' matchar endast källpaket."
 
 #: base/log_event.cpp:190
-#, fuzzy
-#| msgid "Argument '{}' matches only excluded packages."
 msgid "Cannot perform {0} because '{1}' matches only excluded packages."
-msgstr "Argumentet '{}' matchar endast exkluderade paket."
+msgstr "Kan inte utföra {0} eftersom '{1}' matchar endast exkluderade paket."
 
 #: base/log_event.cpp:194
 msgid "Argument '{}' matches only excluded packages."
 msgstr "Argumentet '{}' matchar endast exkluderade paket."
 
 #: base/log_event.cpp:198
-#, fuzzy
-#| msgid "Argument '{}' matches only packages excluded by versionlock."
 msgid ""
 "Cannot perform {0} because '{1}' matches only packages excluded by "
 "versionlock."
-msgstr "Argumentet '{}' matchar endast paket som exkluderas av versionslås."
+msgstr ""
+"Kan inte utföra {0} eftersom '{1}' matchar endast paket som uteslutits av "
+"versionslås."
 
 #: base/log_event.cpp:202
 msgid "Argument '{}' matches only packages excluded by versionlock."
@@ -139,26 +135,18 @@ msgstr ""
 "kan inte nedgradera det."
 
 #: base/log_event.cpp:223
-#, fuzzy
-#| msgid ""
-#| "Packages for argument '{}' installed and available, but in a different "
-#| "version => cannot reinstall"
 msgid ""
 "Installed packages for argument '{0}' are not available in repositories in "
 "the same version, available versions: {1}, cannot reinstall."
 msgstr ""
-"Paket för argument '{}' installerade och tillgängliga, men i en annan "
-"version => kan inte installera om"
+"Installerade paket för argument '{0}' är inte tillgängliga i förråd i samma "
+"version, tillgängliga versioner: {1}, kan inte installera om"
 
 #: base/log_event.cpp:229
-#, fuzzy
-#| msgid ""
-#| "Packages for argument '{}' installed and available, but in a different "
-#| "version."
 msgid ""
 "Cannot perform {0} because '{1}' is installed in a different version: '{2}'."
 msgstr ""
-"Paket för argument'{}' installerade och tillgängliga, men i en annan version."
+"Kan inte utföra {0} eftersom '{1}' är installerad i en annan version: '{2}'."
 
 #: base/log_event.cpp:235
 msgid ""
@@ -188,6 +176,8 @@ msgid ""
 "{0} upgrade cannot be reverted, however associated package actions will be. "
 "({1} id: '{2}') ."
 msgstr ""
+"{0} uppgradering kan inte återställas, men associerade paketåtgärder kommer "
+"att vara det. ({1}-id: '{2}') ."
 
 #: base/log_event.cpp:267
 msgid "{} action for argument \"{}\" is not supported."
@@ -253,6 +243,8 @@ msgid ""
 "Extra package '{0}' (with action '{1}') which is not present in the stored "
 "transaction was pulled into the transaction.\n"
 msgstr ""
+"Extra paket '{0}' (med åtgärd '{1}') som inte är närvarande i den lagrade "
+"transaktionen drogs in i transaktionen.\n"
 
 #: base/solver_problems.cpp:41
 msgid "{} does not belong to a distupgrade repository"
@@ -1136,10 +1128,8 @@ msgid "Failed to insert record into table 'item' in history database"
 msgstr "Misslyckades att infoga post i tabellen \"item\" i historikdatabasen"
 
 #: transaction/offline.cpp:195
-#, fuzzy
-#| msgid "error reading a line from file"
 msgid "error reading offline state file"
-msgstr "fel vid läsning av en rad från fil"
+msgstr "fel vid läsning av offlinetillståndsfilen"
 
 #: transaction/offline.cpp:200
 msgid "incompatible version of state data"
