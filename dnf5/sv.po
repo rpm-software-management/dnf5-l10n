@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-11 02:52+0000\n"
-"PO-Revision-Date: 2024-05-31 23:30+0000\n"
+"PO-Revision-Date: 2024-06-12 04:36+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/sv/>\n"
@@ -168,6 +168,10 @@ msgid ""
 "advisories is used it reports the lowest versions of packages that fix "
 "advisories matching selected advisory properties"
 msgstr ""
+"Rapporterar de lägsta versionerna av paket som fixar meddelanden av typen "
+"buggfix, förbättring, säkerhet eller nytt paket. Om någon "
+"alternativbegränsande rådgivning används rapporterar den de lägsta "
+"versionerna av paket som fixar råd som matchar valda rådgivande egenskaper"
 
 #: commands/check/check.cpp:335
 msgid "Check discovered {} problem(s) in {} package(s)"
@@ -256,10 +260,13 @@ msgid ""
 "as errors. This can result in an empty transaction because among other "
 "things the option can ignore failing Remove actions."
 msgstr ""
+"Se inte felmatchningar mellan installerade och lagrade transaktionspaket som "
+"fel. Detta kan resultera i en tom transaktion eftersom alternativet bland "
+"annat kan ignorera misslyckade ta bort åtgärder."
 
 #: commands/history/arguments.hpp:67
 msgid "Don't consider extra packages pulled into the transaction as errors."
-msgstr ""
+msgstr "Se inte extra paket som dras in i transaktionen som fel."
 
 #: commands/history/history_store.cpp:62
 msgid "File \"{}\" already exists, it will be overwritten.\n"
@@ -274,16 +281,12 @@ msgid "Multiple transactions selected for storing, only one allowed."
 msgstr "Multipla transaktioner valda för lagring, endast en tillåten."
 
 #: commands/history/history_undo.cpp:56
-#, fuzzy
-#| msgid "No transactions selected for storing, exactly one required."
 msgid "No matching transaction ID found, exactly one required."
-msgstr "Inga transaktioner valda för lagring, exakt en krävs."
+msgstr "Inget matchande transaktions-ID hittades, exakt ett krävs."
 
 #: commands/history/history_undo.cpp:60
-#, fuzzy
-#| msgid "No transactions selected for storing, exactly one required."
 msgid "Matched more than one transaction ID, exactly one required."
-msgstr "Inga transaktioner valda för lagring, exakt en krävs."
+msgstr "Matchade mer än ett transaktions-ID, exakt ett krävs."
 
 #: commands/history/transaction_id.cpp:32
 msgid ""
@@ -599,6 +602,10 @@ msgid ""
 "limiting advisories is used it upgrades packages only to the lowest versions "
 "that fix advisories that matching selected advisory property"
 msgstr ""
+"Uppgradera endast paket till de lägsta versionerna som fixar råd av typen "
+"buggfix, förbättring, säkerhet eller nytt paket. Om någon "
+"alternativbegränsande rådgivning används uppgraderas endast paketen till de "
+"lägsta versionerna som fixar råd som matchar vald rådgivande egenskap"
 
 #. TODO(mblaha): add full command line
 #: commands/versionlock/utils.cpp:35
@@ -944,10 +951,8 @@ msgid "{} to skip unavailable packages"
 msgstr "{} för att hoppa över otillgängliga paket"
 
 #: main.cpp:983
-#, fuzzy
-#| msgid "Show logs from past offline transactions"
 msgid "{} to allow extra packages in the transaction"
-msgstr "Visa loggar från tidigare frånkopplade transaktioner"
+msgstr "{} för att tillåta extra paket i transaktionen"
 
 #: main.cpp:996
 msgid ""
@@ -955,6 +960,9 @@ msgid ""
 "This can result in an empty transaction because among other things the "
 "option can ignore failing Remove actions."
 msgstr ""
+"{} för att tillåta missmatchningar mellan installerade och lagrade "
+"transaktionspaket. Detta kan resultera i en tom transaktion eftersom "
+"alternativet bland annat kan ignorera misslyckade ta bort åtgärder."
 
 #: main.cpp:1043
 msgid "{} to not limit the transaction to the best candidates"
