@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-11 02:52+0000\n"
+"POT-Creation-Date: 2024-06-13 02:52+0000\n"
 "PO-Revision-Date: 2024-06-12 04:36+0000\n"
 "Last-Translator: Léane GRASSER <pierre.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf5/"
@@ -36,6 +36,106 @@ msgstr "Argument non pris en charge pour l'action REMOVE : {}"
 #: base/goal.cpp:1432
 msgid "Incorrect configuration value for multilib_policy: {}"
 msgstr "Valeur de configuration pour multilib_policy incorrecte : {}"
+
+#: base/goal_elements.cpp:348
+msgid "Install"
+msgstr ""
+
+#: base/goal_elements.cpp:350
+msgid "Install via provide"
+msgstr ""
+
+#: base/goal_elements.cpp:352
+msgid "Install by group"
+msgstr ""
+
+#: base/goal_elements.cpp:354
+msgid "Upgrade"
+msgstr ""
+
+#: base/goal_elements.cpp:356
+msgid "Upgrade all"
+msgstr ""
+
+#: base/goal_elements.cpp:358
+msgid "Upgrade minimal"
+msgstr ""
+
+#: base/goal_elements.cpp:360
+msgid "Upgrade all minimal"
+msgstr ""
+
+#: base/goal_elements.cpp:362
+msgid "Downgrade"
+msgstr ""
+
+#: base/goal_elements.cpp:364
+msgid "Reinstall"
+msgstr ""
+
+#: base/goal_elements.cpp:366
+msgid "Install or reinstall"
+msgstr ""
+
+#: base/goal_elements.cpp:368
+msgid "Remove"
+msgstr ""
+
+#: base/goal_elements.cpp:370
+msgid "Distrosync"
+msgstr ""
+
+#: base/goal_elements.cpp:372
+msgid "Distrosync all"
+msgstr ""
+
+#: base/goal_elements.cpp:374
+msgid "Reason Change"
+msgstr ""
+
+#: base/goal_elements.cpp:376
+msgid "Resolve"
+msgstr ""
+
+#: base/goal_elements.cpp:378
+msgid "Enable"
+msgstr ""
+
+#: base/goal_elements.cpp:380
+msgid "Disable"
+msgstr ""
+
+#: base/goal_elements.cpp:382
+msgid "Reset"
+msgstr ""
+
+#: base/goal_elements.cpp:384
+msgid "Install action"
+msgstr ""
+
+#: base/goal_elements.cpp:386
+msgid "Remove action"
+msgstr ""
+
+#: base/goal_elements.cpp:388
+msgid "Upgrade action"
+msgstr ""
+
+#: base/goal_elements.cpp:390
+msgid "Reinstall action"
+msgstr ""
+
+#: base/goal_elements.cpp:392
+msgid "Reason change action"
+msgstr ""
+
+#: base/goal_elements.cpp:394
+msgid "Reason override"
+msgstr ""
+
+#: base/goal_elements.cpp:396
+msgid "Revert comps upgrade"
+msgstr ""
 
 #: base/log_event.cpp:141
 msgid "No packages to remove for argument: {}"
@@ -75,7 +175,9 @@ msgid "No match for argument '{0}' in repositories '{1}'"
 msgstr "Aucune correspondance pour l'argument '{0}' dans les dépôts '{1}'"
 
 #: base/log_event.cpp:169
-msgid "Cannot perform {0} for {1} '{2}' becasue it is not installed."
+#, fuzzy
+#| msgid "Cannot perform {0} for {1} '{2}' becasue it is not installed."
+msgid "Cannot perform {0} for {1} '{2}' because it is not installed."
 msgstr "Impossible d'effectuer {0} pour {1} '{2}' car il n'est pas installé."
 
 #: base/log_event.cpp:174
@@ -144,8 +246,8 @@ msgid ""
 "the same version, available versions: {1}, cannot reinstall."
 msgstr ""
 "Les paquets installés correspondant à l'argument '{0}' ne sont pas "
-"disponibles dans la même version dans les dépôts, versions disponibles : {1}"
-", réinstallation impossible."
+"disponibles dans la même version dans les dépôts, versions disponibles : "
+"{1}, réinstallation impossible."
 
 #: base/log_event.cpp:229
 msgid ""

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-11 02:52+0000\n"
+"POT-Creation-Date: 2024-06-13 02:52+0000\n"
 "PO-Revision-Date: 2024-06-12 04:36+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -35,6 +35,106 @@ msgstr "მხარდაუჭერელი არგუმენტი ქ�
 #: base/goal.cpp:1432
 msgid "Incorrect configuration value for multilib_policy: {}"
 msgstr "არასწორი კონფიგურაციის მნიშვნელობა multilib_policy-სთვის: {}"
+
+#: base/goal_elements.cpp:348
+msgid "Install"
+msgstr ""
+
+#: base/goal_elements.cpp:350
+msgid "Install via provide"
+msgstr ""
+
+#: base/goal_elements.cpp:352
+msgid "Install by group"
+msgstr ""
+
+#: base/goal_elements.cpp:354
+msgid "Upgrade"
+msgstr ""
+
+#: base/goal_elements.cpp:356
+msgid "Upgrade all"
+msgstr ""
+
+#: base/goal_elements.cpp:358
+msgid "Upgrade minimal"
+msgstr ""
+
+#: base/goal_elements.cpp:360
+msgid "Upgrade all minimal"
+msgstr ""
+
+#: base/goal_elements.cpp:362
+msgid "Downgrade"
+msgstr ""
+
+#: base/goal_elements.cpp:364
+msgid "Reinstall"
+msgstr ""
+
+#: base/goal_elements.cpp:366
+msgid "Install or reinstall"
+msgstr ""
+
+#: base/goal_elements.cpp:368
+msgid "Remove"
+msgstr ""
+
+#: base/goal_elements.cpp:370
+msgid "Distrosync"
+msgstr ""
+
+#: base/goal_elements.cpp:372
+msgid "Distrosync all"
+msgstr ""
+
+#: base/goal_elements.cpp:374
+msgid "Reason Change"
+msgstr ""
+
+#: base/goal_elements.cpp:376
+msgid "Resolve"
+msgstr ""
+
+#: base/goal_elements.cpp:378
+msgid "Enable"
+msgstr ""
+
+#: base/goal_elements.cpp:380
+msgid "Disable"
+msgstr ""
+
+#: base/goal_elements.cpp:382
+msgid "Reset"
+msgstr ""
+
+#: base/goal_elements.cpp:384
+msgid "Install action"
+msgstr ""
+
+#: base/goal_elements.cpp:386
+msgid "Remove action"
+msgstr ""
+
+#: base/goal_elements.cpp:388
+msgid "Upgrade action"
+msgstr ""
+
+#: base/goal_elements.cpp:390
+msgid "Reinstall action"
+msgstr ""
+
+#: base/goal_elements.cpp:392
+msgid "Reason change action"
+msgstr ""
+
+#: base/goal_elements.cpp:394
+msgid "Reason override"
+msgstr ""
+
+#: base/goal_elements.cpp:396
+msgid "Revert comps upgrade"
+msgstr ""
 
 #: base/log_event.cpp:141
 msgid "No packages to remove for argument: {}"
@@ -73,7 +173,9 @@ msgid "No match for argument '{0}' in repositories '{1}'"
 msgstr "არაფერ ემთხვევა არგუმენტს '{0}' რეპოზიტორიებში '{1}'"
 
 #: base/log_event.cpp:169
-msgid "Cannot perform {0} for {1} '{2}' becasue it is not installed."
+#, fuzzy
+#| msgid "Cannot perform {0} for {1} '{2}' becasue it is not installed."
+msgid "Cannot perform {0} for {1} '{2}' because it is not installed."
 msgstr ""
 "{0}-ის შესრულება {1}-სთვის '{2}' შეუძლებელია, რადგან ის დაყენებული არაა."
 
@@ -149,8 +251,8 @@ msgstr ""
 msgid ""
 "Cannot perform {0} because '{1}' is installed in a different version: '{2}'."
 msgstr ""
-"{0}-ის შესრულება შეუძლებელია, რადგან '{1}' დაყენებულია განსხვავებული ვერსიით:"
-" '{2}'."
+"{0}-ის შესრულება შეუძლებელია, რადგან '{1}' დაყენებულია განსხვავებული "
+"ვერსიით: '{2}'."
 
 #: base/log_event.cpp:235
 msgid ""
