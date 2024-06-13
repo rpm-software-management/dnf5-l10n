@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-13 02:52+0000\n"
-"PO-Revision-Date: 2024-06-09 11:36+0000\n"
+"PO-Revision-Date: 2024-06-14 03:36+0000\n"
 "Last-Translator: Aleksey Fedorov <aleksejfedorov963@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/ru/>\n"
@@ -38,103 +38,103 @@ msgstr "Неверное значение конфигурации для multil
 
 #: base/goal_elements.cpp:348
 msgid "Install"
-msgstr ""
+msgstr "Установить"
 
 #: base/goal_elements.cpp:350
 msgid "Install via provide"
-msgstr ""
+msgstr "Установить с помощью программы"
 
 #: base/goal_elements.cpp:352
 msgid "Install by group"
-msgstr ""
+msgstr "Установить по группам"
 
 #: base/goal_elements.cpp:354
 msgid "Upgrade"
-msgstr ""
+msgstr "Обновить"
 
 #: base/goal_elements.cpp:356
 msgid "Upgrade all"
-msgstr ""
+msgstr "Обновить все"
 
 #: base/goal_elements.cpp:358
 msgid "Upgrade minimal"
-msgstr ""
+msgstr "Обновить минимально"
 
 #: base/goal_elements.cpp:360
 msgid "Upgrade all minimal"
-msgstr ""
+msgstr "Обновить все минимально"
 
 #: base/goal_elements.cpp:362
 msgid "Downgrade"
-msgstr ""
+msgstr "Откатить"
 
 #: base/goal_elements.cpp:364
 msgid "Reinstall"
-msgstr ""
+msgstr "Переустановить"
 
 #: base/goal_elements.cpp:366
 msgid "Install or reinstall"
-msgstr ""
+msgstr "Установка или переустановка"
 
 #: base/goal_elements.cpp:368
 msgid "Remove"
-msgstr ""
+msgstr "Удалить"
 
 #: base/goal_elements.cpp:370
 msgid "Distrosync"
-msgstr ""
+msgstr "Дистросинхронизация"
 
 #: base/goal_elements.cpp:372
 msgid "Distrosync all"
-msgstr ""
+msgstr "Дистросинхронизация всех"
 
 #: base/goal_elements.cpp:374
 msgid "Reason Change"
-msgstr ""
+msgstr "Изменение причины"
 
 #: base/goal_elements.cpp:376
 msgid "Resolve"
-msgstr ""
+msgstr "Разрешение"
 
 #: base/goal_elements.cpp:378
 msgid "Enable"
-msgstr ""
+msgstr "Включить"
 
 #: base/goal_elements.cpp:380
 msgid "Disable"
-msgstr ""
+msgstr "Отключить"
 
 #: base/goal_elements.cpp:382
 msgid "Reset"
-msgstr ""
+msgstr "Сбросить"
 
 #: base/goal_elements.cpp:384
 msgid "Install action"
-msgstr ""
+msgstr "Действие по установке"
 
 #: base/goal_elements.cpp:386
 msgid "Remove action"
-msgstr ""
+msgstr "Действие по удалению"
 
 #: base/goal_elements.cpp:388
 msgid "Upgrade action"
-msgstr ""
+msgstr "Действие по обновлению"
 
 #: base/goal_elements.cpp:390
 msgid "Reinstall action"
-msgstr ""
+msgstr "Действие по переустановке"
 
 #: base/goal_elements.cpp:392
 msgid "Reason change action"
-msgstr ""
+msgstr "Действие по изменению причины"
 
 #: base/goal_elements.cpp:394
 msgid "Reason override"
-msgstr ""
+msgstr "Отмена причины"
 
 #: base/goal_elements.cpp:396
 msgid "Revert comps upgrade"
-msgstr ""
+msgstr "Вернуть обновление Компов"
 
 #: base/log_event.cpp:141
 msgid "No packages to remove for argument: {}"
@@ -162,7 +162,7 @@ msgstr "Нет соответствия для группового пакета
 
 #: base/log_event.cpp:158
 msgid "Cannot perform {0}, no match for: {1}."
-msgstr ""
+msgstr "Невозможно выполнить {0}, нет соответствия для: {1}."
 
 #: base/log_event.cpp:160
 msgid "No match for argument: {}"
@@ -174,7 +174,7 @@ msgstr "Нет соответствия для аргумента '{0}' в ре�
 
 #: base/log_event.cpp:169
 msgid "Cannot perform {0} for {1} '{2}' because it is not installed."
-msgstr ""
+msgstr "Невозможно выполнить {0} для {1} '{2}', так как он не установлен."
 
 #: base/log_event.cpp:174
 msgid "Packages for argument '{}' available, but not installed."
@@ -188,33 +188,32 @@ msgstr ""
 "Пакеты для аргумента '{}' доступны, но установлены для другой архитектуры."
 
 #: base/log_event.cpp:182
-#, fuzzy
-#| msgid "Argument '{}' matches only source packages."
 msgid "Cannot perform {0} because '{1}' matches only source packages."
-msgstr "Аргумент '{}' соответствует только исходным пакетам."
+msgstr ""
+"Невозможно выполнить {0}, поскольку '{1}' соответствует только исходным "
+"пакетам."
 
 #: base/log_event.cpp:186
 msgid "Argument '{}' matches only source packages."
 msgstr "Аргумент '{}' соответствует только исходным пакетам."
 
 #: base/log_event.cpp:190
-#, fuzzy
-#| msgid "Argument '{}' matches only excluded packages."
 msgid "Cannot perform {0} because '{1}' matches only excluded packages."
-msgstr "Аргумент '{}' соответствует только исключенным пакетам."
+msgstr ""
+"Невозможно выполнить {0}, поскольку '{1}' соответствует только исключенным "
+"пакетам."
 
 #: base/log_event.cpp:194
 msgid "Argument '{}' matches only excluded packages."
 msgstr "Аргумент '{}' соответствует только исключенным пакетам."
 
 #: base/log_event.cpp:198
-#, fuzzy
-#| msgid "Argument '{}' matches only packages excluded by versionlock."
 msgid ""
 "Cannot perform {0} because '{1}' matches only packages excluded by "
 "versionlock."
 msgstr ""
-"Аргумент '{}' соответствует только пакетам, исключенным блокировкой версий."
+"Невозможно выполнить {0}, поскольку '{1}' соответствует только пакетам, "
+"исключенным блокировкой версий."
 
 #: base/log_event.cpp:202
 msgid "Argument '{}' matches only packages excluded by versionlock."
@@ -238,25 +237,18 @@ msgstr ""
 "невозможно."
 
 #: base/log_event.cpp:223
-#, fuzzy
-#| msgid ""
-#| "Packages for argument '{}' installed and available, but in a different "
-#| "version => cannot reinstall"
 msgid ""
 "Installed packages for argument '{0}' are not available in repositories in "
 "the same version, available versions: {1}, cannot reinstall."
 msgstr ""
-"Пакеты для аргумента '{}' установлены и доступны, но в другой версии => "
-"невозможно переустановить"
+"Установленные пакеты для аргумента '{0}' недоступны в репозиториях той же "
+"версии, доступные версии: {1}, невозможно переустановить."
 
 #: base/log_event.cpp:229
-#, fuzzy
-#| msgid ""
-#| "Packages for argument '{}' installed and available, but in a different "
-#| "version."
 msgid ""
 "Cannot perform {0} because '{1}' is installed in a different version: '{2}'."
-msgstr "Пакеты для аргумента '{}' установлены и доступны, но в другой версии."
+msgstr ""
+"Невозможно выполнить {0}, так как '{1}' установлен в другой версии: '{2}'."
 
 #: base/log_event.cpp:235
 msgid ""
@@ -285,6 +277,8 @@ msgid ""
 "{0} upgrade cannot be reverted, however associated package actions will be. "
 "({1} id: '{2}') ."
 msgstr ""
+"Обновление {0} не может быть отменено, однако связанные с ним действия "
+"пакета будут отменены. ({1} id: '{2}') ."
 
 #: base/log_event.cpp:267
 msgid "{} action for argument \"{}\" is not supported."
@@ -353,6 +347,8 @@ msgid ""
 "Extra package '{0}' (with action '{1}') which is not present in the stored "
 "transaction was pulled into the transaction.\n"
 msgstr ""
+"В транзакцию был извлечен дополнительный пакет '{0}' (с действием '{1}'), "
+"которого нет в хранимой транзакции.\n"
 
 #: base/solver_problems.cpp:41
 msgid "{} does not belong to a distupgrade repository"
@@ -659,7 +655,7 @@ msgstr ""
 
 #: comps/environment/environment.cpp:307
 msgid "failed to save xml document for comps"
-msgstr "Не удалось сохранить xml-документ для композиций"
+msgstr "Не удалось сохранить xml-документ для Компов"
 
 #: comps/group/group.cpp:331
 msgid "Failed to save xml document for group \"{}\" to file \"{}\": {}"
@@ -943,7 +939,7 @@ msgstr ""
 
 #: repo/repo.cpp:466
 msgid "Failed to load comps \"{}\": doesn't have the \".xml\" extension"
-msgstr "Не удалось загрузить компы \"{}\": не имеет расширения \".xml\""
+msgstr "Не удалось загрузить Компы \"{}\": не имеет расширения \".xml\""
 
 #: repo/repo.cpp:473
 msgid "Failed to load xml Comps \"{}\": {}"
