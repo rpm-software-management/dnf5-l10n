@@ -10,8 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-13 02:52+0000\n"
 "PO-Revision-Date: 2024-06-14 03:36+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/ko/>\n"
 "Language: ko\n"
@@ -44,11 +43,11 @@ msgstr "설치"
 
 #: base/goal_elements.cpp:350
 msgid "Install via provide"
-msgstr ""
+msgstr "제공을 통한 설치"
 
 #: base/goal_elements.cpp:352
 msgid "Install by group"
-msgstr ""
+msgstr "그룹으로 설치"
 
 #: base/goal_elements.cpp:354
 msgid "Upgrade"
@@ -56,15 +55,15 @@ msgstr "향상"
 
 #: base/goal_elements.cpp:356
 msgid "Upgrade all"
-msgstr ""
+msgstr "모두 향상"
 
 #: base/goal_elements.cpp:358
 msgid "Upgrade minimal"
-msgstr ""
+msgstr "최소 향상"
 
 #: base/goal_elements.cpp:360
 msgid "Upgrade all minimal"
-msgstr ""
+msgstr "모두 최소로 향상"
 
 #: base/goal_elements.cpp:362
 msgid "Downgrade"
@@ -76,7 +75,7 @@ msgstr "재설치"
 
 #: base/goal_elements.cpp:366
 msgid "Install or reinstall"
-msgstr ""
+msgstr "설치 또는 재설치"
 
 #: base/goal_elements.cpp:368
 msgid "Remove"
@@ -84,19 +83,19 @@ msgstr "제거"
 
 #: base/goal_elements.cpp:370
 msgid "Distrosync"
-msgstr ""
+msgstr "배포동기화"
 
 #: base/goal_elements.cpp:372
 msgid "Distrosync all"
-msgstr ""
+msgstr "모두 배포동기화"
 
 #: base/goal_elements.cpp:374
 msgid "Reason Change"
-msgstr ""
+msgstr "변경 원인"
 
 #: base/goal_elements.cpp:376
 msgid "Resolve"
-msgstr ""
+msgstr "해결"
 
 #: base/goal_elements.cpp:378
 msgid "Enable"
@@ -112,31 +111,31 @@ msgstr "재설정"
 
 #: base/goal_elements.cpp:384
 msgid "Install action"
-msgstr ""
+msgstr "설치 동작"
 
 #: base/goal_elements.cpp:386
 msgid "Remove action"
-msgstr ""
+msgstr "제거 동작"
 
 #: base/goal_elements.cpp:388
 msgid "Upgrade action"
-msgstr ""
+msgstr "향상 동작"
 
 #: base/goal_elements.cpp:390
 msgid "Reinstall action"
-msgstr ""
+msgstr "재설치 동작"
 
 #: base/goal_elements.cpp:392
 msgid "Reason change action"
-msgstr ""
+msgstr "변경 원인에 따른 동작"
 
 #: base/goal_elements.cpp:394
 msgid "Reason override"
-msgstr ""
+msgstr "원인 재정의"
 
 #: base/goal_elements.cpp:396
 msgid "Revert comps upgrade"
-msgstr ""
+msgstr "comps 향상 복귀"
 
 #: base/log_event.cpp:141
 msgid "No packages to remove for argument: {}"
@@ -175,8 +174,6 @@ msgid "No match for argument '{0}' in repositories '{1}'"
 msgstr "저장소 '{1}'에서 인수 '{0}'와 일치하지 않습니다"
 
 #: base/log_event.cpp:169
-#, fuzzy
-#| msgid "Cannot perform {0} for {1} '{2}' becasue it is not installed."
 msgid "Cannot perform {0} for {1} '{2}' because it is not installed."
 msgstr "설치되지 않았기 때문에 {1} '{2}'를 위해 {0}를 수행 할 수 없습니다."
 
