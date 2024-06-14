@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-13 02:52+0000\n"
-"PO-Revision-Date: 2024-06-08 10:52+0000\n"
+"PO-Revision-Date: 2024-06-14 19:31+0000\n"
 "Last-Translator: Dennis Koerner <dennis@bumblebeeman.dev>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/de/>\n"
@@ -189,34 +189,30 @@ msgstr ""
 "installiert."
 
 #: base/log_event.cpp:182
-#, fuzzy
-#| msgid "Argument '{}' matches only source packages."
 msgid "Cannot perform {0} because '{1}' matches only source packages."
-msgstr "Argument '{}' passt nur für Quellpakete."
+msgstr "Kann {0} nicht durchführen, weil '{1}' nur für Quellpakete zutrifft."
 
 #: base/log_event.cpp:186
 msgid "Argument '{}' matches only source packages."
 msgstr "Argument '{}' passt nur für Quellpakete."
 
 #: base/log_event.cpp:190
-#, fuzzy
-#| msgid "Argument '{}' matches only excluded packages."
 msgid "Cannot perform {0} because '{1}' matches only excluded packages."
-msgstr "Argument '{}' stimmt nur mit ausgeschlossenen Paketen überein."
+msgstr ""
+"Kann {0} nicht durchführen, weil '{1}' nur für ausgeschlossene Pakete "
+"zutrifft."
 
 #: base/log_event.cpp:194
 msgid "Argument '{}' matches only excluded packages."
 msgstr "Argument '{}' stimmt nur mit ausgeschlossenen Paketen überein."
 
 #: base/log_event.cpp:198
-#, fuzzy
-#| msgid "Argument '{}' matches only packages excluded by versionlock."
 msgid ""
 "Cannot perform {0} because '{1}' matches only packages excluded by "
 "versionlock."
 msgstr ""
-"Argument '{}' stimmt nur mit Paketen überein, die durch Versionlock "
-"ausgeschlossenen sind."
+"Kann {0} nicht durchführen, weil '{1}' nur für Pakete zutrifft, die durch "
+"Versionlock ausgeschlossenen sind."
 
 #: base/log_event.cpp:202
 msgid "Argument '{}' matches only packages excluded by versionlock."
@@ -241,27 +237,20 @@ msgstr ""
 "Downgrade nicht möglich."
 
 #: base/log_event.cpp:223
-#, fuzzy
-#| msgid ""
-#| "Packages for argument '{}' installed and available, but in a different "
-#| "version => cannot reinstall"
 msgid ""
 "Installed packages for argument '{0}' are not available in repositories in "
 "the same version, available versions: {1}, cannot reinstall."
 msgstr ""
-"Pakete für Argument '{}' installiert und verfügbar, allerdings in einer "
-"abweichenden Version d.h. Neuinstallation nicht möglich"
+"Installierte Pakete für Argument '{0}' sind in den Repositories nicht in "
+"derselben Version verfügbar. Verfügbare Versionen: {1}, Neuinstallation "
+"nicht möglich."
 
 #: base/log_event.cpp:229
-#, fuzzy
-#| msgid ""
-#| "Packages for argument '{}' installed and available, but in a different "
-#| "version."
 msgid ""
 "Cannot perform {0} because '{1}' is installed in a different version: '{2}'."
 msgstr ""
-"Pakete für Argument '{}' installiert und verfügbar, allerdings in einer "
-"abweichenden Version."
+"Kann {0} nicht durchführen, weil '{1}' in einer anderen Version installiert "
+"ist: '{2}'."
 
 #: base/log_event.cpp:235
 msgid ""
