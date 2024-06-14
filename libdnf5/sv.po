@@ -10,9 +10,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-13 02:52+0000\n"
-"PO-Revision-Date: 2024-06-14 19:31+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2024-06-14 22:30+0000\n"
+"Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/sv/>\n"
 "Language: sv\n"
@@ -73,11 +72,11 @@ msgstr "Nedgradera"
 
 #: base/goal_elements.cpp:364
 msgid "Reinstall"
-msgstr "Ominstallation"
+msgstr "Ominstallera"
 
 #: base/goal_elements.cpp:366
 msgid "Install or reinstall"
-msgstr ""
+msgstr "Installera eller ominstallera"
 
 #: base/goal_elements.cpp:368
 msgid "Remove"
@@ -85,19 +84,19 @@ msgstr ""
 
 #: base/goal_elements.cpp:370
 msgid "Distrosync"
-msgstr ""
+msgstr "Distrosynka"
 
 #: base/goal_elements.cpp:372
 msgid "Distrosync all"
-msgstr ""
+msgstr "Distrosynka alla"
 
 #: base/goal_elements.cpp:374
 msgid "Reason Change"
-msgstr ""
+msgstr "Orsaksändring"
 
 #: base/goal_elements.cpp:376
 msgid "Resolve"
-msgstr ""
+msgstr "Lös upp"
 
 #: base/goal_elements.cpp:378
 msgid "Enable"
@@ -113,31 +112,31 @@ msgstr ""
 
 #: base/goal_elements.cpp:384
 msgid "Install action"
-msgstr ""
+msgstr "Installationsåtgärd"
 
 #: base/goal_elements.cpp:386
 msgid "Remove action"
-msgstr ""
+msgstr "Borttagningsåtgärd"
 
 #: base/goal_elements.cpp:388
 msgid "Upgrade action"
-msgstr ""
+msgstr "Uppgraderingsåtgärd"
 
 #: base/goal_elements.cpp:390
 msgid "Reinstall action"
-msgstr ""
+msgstr "Ominstallationsåtgärd"
 
 #: base/goal_elements.cpp:392
 msgid "Reason change action"
-msgstr ""
+msgstr "Ändringsorsaksåtgärd"
 
 #: base/goal_elements.cpp:394
 msgid "Reason override"
-msgstr ""
+msgstr "Orsak åsidosättande"
 
 #: base/goal_elements.cpp:396
 msgid "Revert comps upgrade"
-msgstr ""
+msgstr "Återställ comps-uppgradering"
 
 #: base/log_event.cpp:141
 msgid "No packages to remove for argument: {}"
@@ -176,10 +175,8 @@ msgid "No match for argument '{0}' in repositories '{1}'"
 msgstr "Ingen matchning för argumentet '{0}' i förråd '{1}'"
 
 #: base/log_event.cpp:169
-#, fuzzy
-#| msgid "Cannot perform {0} for {1} '{2}' becasue it is not installed."
 msgid "Cannot perform {0} for {1} '{2}' because it is not installed."
-msgstr "Kan inte utföra {0} för {1} '{2}' eftersom det inte är installerat."
+msgstr "Kan inte utföra {0} för {1} ”{2}” eftersom det inte är installerat."
 
 #: base/log_event.cpp:174
 msgid "Packages for argument '{}' available, but not installed."
