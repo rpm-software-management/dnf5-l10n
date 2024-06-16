@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-15 02:52+0000\n"
-"PO-Revision-Date: 2024-06-16 10:36+0000\n"
+"PO-Revision-Date: 2024-06-16 14:43+0000\n"
 "Last-Translator: Dennis Koerner <dennis@bumblebeeman.dev>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/de/>\n"
@@ -1149,33 +1149,33 @@ msgstr ""
 #. TODO(jrohel): Why? Librpm does not provide this information.
 #: rpm/transaction.cpp:323
 msgid "Cannot reinstall package \"{}\""
-msgstr ""
+msgstr "Kann Paket \"{}\" nicht neu installieren"
 
 #. TODO(jrohel): Why? Librpm does not provide this information.
 #: rpm/transaction.cpp:341
 msgid "Cannot remove package \"{}\""
-msgstr ""
+msgstr "Kann Paket \"{}\" nicht entfernen"
 
 #: rpm/transaction.cpp:360
 msgid "Cannot upgrade package \"{}\""
-msgstr ""
+msgstr "Kann Paket \"{}\" nicht aktualisieren"
 
 #: rpm/transaction.cpp:364
 msgid "Cannot downgrade package \"{}\""
-msgstr ""
+msgstr "Kann Paket \"{}\" nicht herabstufen"
 
 #: rpm/transaction.cpp:368
 msgid "Cannot install package \"{}\""
-msgstr ""
+msgstr "Kann Paket \"{}\" nicht installieren"
 
 #: rpm/versionlock_config.cpp:261 system/state.cpp:513
 msgid "{}"
-msgstr ""
+msgstr "{}"
 
 #. TODO(lukash) throw proper exception class
 #: solv/pool.cpp:174
 msgid "Failed to convert epoch \"{}\" to number"
-msgstr ""
+msgstr "Konvertierung von Epoche \"{}\" in eine Zahl fehlgeschlagen"
 
 #: solv/solver.cpp:79
 msgid "Writing debugsolver data into \"{}\" failed: {}"
@@ -1284,61 +1284,65 @@ msgstr "Ungültige Nebenversion \"{}\", Nummer erwartet."
 
 #: transaction/transaction_sr.cpp:91
 msgid "Missing key \"version\"."
-msgstr ""
+msgstr "Fehlender Schlüssel \"version\"."
 
 #: transaction/transaction_sr.cpp:104
 msgid "Unexpected type of \"environments\", array expected."
-msgstr ""
+msgstr "Unerwarteter Typ von \"environments\", ein Array wird erwartet."
 
 #: transaction/transaction_sr.cpp:112
 msgid "Missing object key \"id\" in an environment."
-msgstr ""
+msgstr "Fehlender Objekt-Schlüssel \"id\" in einer Umgebung."
 
 #: transaction/transaction_sr.cpp:117
 msgid "Missing object key \"action\" in an environment."
-msgstr ""
+msgstr "Fehlender Objekt-Schlüssel \"action\" in einer Umgebung."
 
 #: transaction/transaction_sr.cpp:142
 msgid "Unexpected type of \"groups\", array expected."
-msgstr ""
+msgstr "Unerwarteter Typ von \"groups\", ein Array wird erwartet."
 
 #: transaction/transaction_sr.cpp:150
 msgid "Missing object key \"id\" in a group."
-msgstr ""
+msgstr "Fehlender Objekt-Schlüssel \"id\" in einer Gruppe."
 
 #: transaction/transaction_sr.cpp:155
 msgid "Missing object key \"action\" in a group."
-msgstr ""
+msgstr "Fehlender Objekt-Schlüssel \"action\" in einer Gruppe."
 
 #: transaction/transaction_sr.cpp:160
 msgid "Missing object key \"reason\" in a group."
-msgstr ""
+msgstr "Fehlender Objekt-Schlüssel \"reason\" in einer Gruppe."
 
 #: transaction/transaction_sr.cpp:189
 msgid "Unexpected type of \"rpms\", array expected."
-msgstr ""
+msgstr "Enerwarteter Typ von \"rpms\", ein Array wird erwartet."
 
 #: transaction/transaction_sr.cpp:198
 msgid "Cannot parse NEVRA for rpm \"{}\"."
-msgstr ""
+msgstr "Kann NEVRA nicht für rpm \"{}\" parsen."
 
 #: transaction/transaction_sr.cpp:206
 msgid "Either \"nevra\" or \"package_path\" object key is required in an rpm."
 msgstr ""
+"Entweder ein \"nevra\" oder \"package_path\" Objekt-Schlüssel wird in einer "
+"rpm benötigt."
 
 #: transaction/transaction_sr.cpp:211
 msgid "Missing object key \"action\" in an rpm."
-msgstr ""
+msgstr "Fehlender Objekt-Schlüssel \"action\" in einer rpm."
 
 #: transaction/transaction_sr.cpp:216
 msgid "Missing object key \"reason\" in an rpm."
-msgstr ""
+msgstr "Fehlender Objekt-Schlüssel \"reason\" in einer rpm."
 
 #: transaction/transaction_sr.cpp:223
 msgid ""
 "Missing mandatory object key \"group_id\" in an rpm with reason \"Group\" "
 "and action \"Reason Change\"."
 msgstr ""
+"Fehlender verpflichtender Objekt-Schlüssel \"group_id\" in einer rpm mit "
+"Grund \"Group\" und Aktion \"Reason Change\"."
 
 #: utils/fs/file.cpp:86
 msgid "cannot open file"
@@ -1390,11 +1394,11 @@ msgstr "temporäre Datei kann nicht erstellt werden"
 
 #: utils/fs/temp.cpp:142
 msgid "cannot close temporary file"
-msgstr ""
+msgstr "temporäre Datei kann nicht geschlossen werden"
 
 #: utils/iniparser.cpp:126
 msgid "Missing ']' on line {}"
-msgstr ""
+msgstr "Fehlendes ']' in Zeile {}"
 
 #: utils/iniparser.cpp:129
 msgid "Empty section name on line {}"
@@ -1418,7 +1422,7 @@ msgstr ""
 
 #: utils/iniparser.cpp:163
 msgid "Missing '=' on line {}"
-msgstr ""
+msgstr "Fehlendes '=' in Zeile {}"
 
 #. returns localized message, problem with later translation
 #: utils/library.cpp:32
@@ -1495,20 +1499,20 @@ msgstr ""
 
 #: utils/sqlite3/sqlite3.cpp:68
 msgid "Failed to open database \"{}\""
-msgstr ""
+msgstr "Fehler beim Öffnen der Datenbank \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:105
 msgid "Failed to close database \"{}\""
-msgstr ""
+msgstr "Fehler beim Schließen der Datenbank \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:117 utils/sqlite3/sqlite3.cpp:143
 msgid "Failed to open backup database \"{}\""
-msgstr ""
+msgstr "Fehler beim Öffnen der Backup-Datenbank \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:132
 msgid "Failed to backup database \"{}\" into \"{}\""
-msgstr ""
+msgstr "Fehler beim Sichern der Datenbank \"{}\" in \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:158
 msgid "Failed to restore database \"{}\""
-msgstr ""
+msgstr "Fehler beim Wiederherstellen der Datenbank \"{}\""
