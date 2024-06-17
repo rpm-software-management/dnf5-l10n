@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-15 02:52+0000\n"
-"PO-Revision-Date: 2024-06-16 14:43+0000\n"
+"PO-Revision-Date: 2024-06-17 19:13+0000\n"
 "Last-Translator: Dennis Koerner <dennis@bumblebeeman.dev>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/de/>\n"
@@ -1081,19 +1081,19 @@ msgstr ""
 
 #: rpm/rpm_signature.cpp:46
 msgid "The signature is valid, but the key is not trusted."
-msgstr ""
+msgstr "Die Signatur ist gültig, aber dem Schlüssel wird nicht vertraut."
 
 #: rpm/rpm_signature.cpp:47
 msgid "The package is not signed."
-msgstr ""
+msgstr "Das Paket ist nicht signiert."
 
 #: rpm/rpm_signature.cpp:48
 msgid "Problem occurred when opening the package."
-msgstr ""
+msgstr "Beim Öffnen des Pakets ist ein Fehler aufgetreten."
 
 #: rpm/rpm_signature.cpp:64
 msgid "Failed to set rpm transaction rootDir \"{}\"."
-msgstr ""
+msgstr "Setzen des rootDir \"{}\" für die rpm-Transaktion fehlgeschlagen."
 
 #: rpm/rpm_signature.cpp:283
 msgid "\"{}\": key is not an armored public key."
@@ -1102,49 +1102,58 @@ msgstr "\"{}\": Schlüssel ist kein gesicherter öffentlicher Schlüssel."
 #: rpm/rpm_signature.cpp:288
 msgid "Failed to import public key \"{}\" to rpmdb: {}"
 msgstr ""
+"Importieren des öffentlichen Schlüssels \"{}\" in rpmdb fehlgeschlagen: {}"
 
 #. TODO(jrohel): Why? Librpm does not provide this information.
 #: rpm/transaction.cpp:112
 msgid "Cannot set root directory \"{}\""
-msgstr ""
+msgstr "Kann Wurzelverzeichnis \"{}\" nicht setzen"
 
 #: rpm/transaction.cpp:123
 #, c-format
 msgid "Error %i opening rpm database"
-msgstr ""
+msgstr "Fehler %i beim Öffnen der rpm-Datenbank"
 
 #: rpm/transaction.cpp:132
 msgid "The rpmdbCookie() function did not return cookie of rpm database."
 msgstr ""
+"Die Funktion rpmdbCookie() hat keinen Cookie einer rpm-Datenbank "
+"zurückgeliefert."
 
 #: rpm/transaction.cpp:197
 msgid "Failed to order the rpm transaction."
-msgstr ""
+msgstr "Ordnen der rpm-Transaktion fehlgeschlagen."
 
 #: rpm/transaction.cpp:233
 msgid ""
 "Failed to set scriptlet output file, cannot duplicate file descriptor: {}"
 msgstr ""
+"Fehler beim Setzen der Skript-Ausgabedatei. Der Dateideskriptor kann nicht "
+"dupliziert werden: {}"
 
 #: rpm/transaction.cpp:252
 msgid "Failed to set scriptlet output file, cannot open file \"{}\": {}"
 msgstr ""
+"Fehler beim Setzen der Skript-Ausgabedatei. Die Datei \"{}\" kann nicht "
+"geöffnet werden: {}"
 
 #: rpm/transaction.cpp:273
 msgid "Failed to read package header, cannot open file \"{}\": {}"
 msgstr ""
+"Fehler beim Lesen des Paket-Headers. Die Datei \"{}\" kann nicht geöffnet "
+"werden: {}"
 
 #: rpm/transaction.cpp:290
 msgid "Failed to read package header from file \"{}\""
-msgstr ""
+msgstr "Fehler beim Lesen des Paket-Headers aus Datei \"{}\""
 
 #: rpm/transaction.cpp:303
 msgid "Cannot init rpm database iterator"
-msgstr ""
+msgstr "Der rpm-Datenbank-Iterator kann nicht initialisiert werden"
 
 #: rpm/transaction.cpp:307
 msgid "Package was not found in rpm database"
-msgstr ""
+msgstr "Paket wurde nicht in der rpm-Datenbank gefunden"
 
 #. TODO(jrohel): Why? Librpm does not provide this information.
 #: rpm/transaction.cpp:323
@@ -1183,15 +1192,17 @@ msgstr ""
 
 #: system/state.cpp:226 system/state.cpp:235
 msgid "Invalid TOML version \"{}\", \"MAJOR.MINOR\" expected"
-msgstr ""
+msgstr "Ungültige TOML-Version \"{}\", \"HAUPTVERSION.NEBENVERSION\" erwartet"
 
 #: system/state.cpp:243
 msgid "{} state for \"{}\" not found."
-msgstr ""
+msgstr "Zustand {} für \"{}\" nicht gefunden."
 
 #: system/state.cpp:540
 msgid "Unsupported TOML version \"{}\", maximum supported version is \"{}\""
 msgstr ""
+"Nicht unterstützte TOML-Version \"{}\", die höchstmöglich unterstützte "
+"Version ist \"{}\""
 
 #: transaction/Swdb.cpp:91
 msgid "In progress"
@@ -1366,23 +1377,23 @@ msgstr "Fehler beim Schreiben in die Datei"
 
 #: utils/fs/file.cpp:189
 msgid "error flushing file"
-msgstr ""
+msgstr "Fehler beim Leeren der Datei"
 
 #: utils/fs/file.cpp:198
 msgid "error seeking in file"
-msgstr ""
+msgstr "Fehler beim Suchen in der Datei"
 
 #: utils/fs/file.cpp:209
 msgid "error retrieving file position"
-msgstr ""
+msgstr "Fehler beim Abfragen der Dateiposition"
 
 #: utils/fs/file.cpp:297
 msgid "error reading a line from file"
-msgstr ""
+msgstr "Fehler beim Lesen einer Zeile aus der Datei"
 
 #: utils/fs/file.cpp:335
 msgid "error retrieving file descriptor"
-msgstr ""
+msgstr "Fehler beim Abrufen des Dateideskriptors"
 
 #: utils/fs/temp.cpp:42
 msgid "cannot create temporary directory"
@@ -1402,23 +1413,23 @@ msgstr "Fehlendes ']' in Zeile {}"
 
 #: utils/iniparser.cpp:129
 msgid "Empty section name on line {}"
-msgstr ""
+msgstr "Leerer Abschnittsname in Zeile {}"
 
 #: utils/iniparser.cpp:137
 msgid "Text after section on line {}"
-msgstr ""
+msgstr "Text nach Abschnitt in Zeile {}"
 
 #: utils/iniparser.cpp:147
 msgid "Missing section header on line {}"
-msgstr ""
+msgstr "Fehlender Abschnittsüberschrift in Zeile {}"
 
 #: utils/iniparser.cpp:152
 msgid "Illegal continuation line on line {}"
-msgstr ""
+msgstr "Unzulässige Fortsetzung in Zeile {}"
 
 #: utils/iniparser.cpp:159
 msgid "Missing option name on line {}"
-msgstr ""
+msgstr "Fehlender Optionsname in Zeile {}"
 
 #: utils/iniparser.cpp:163
 msgid "Missing '=' on line {}"
@@ -1435,11 +1446,11 @@ msgstr "Adresse des Symbols kann nicht abgerufen werden \"{}\": {}"
 
 #: utils/locker.cpp:45
 msgid "Failed to open lock file \"{}\""
-msgstr ""
+msgstr "Öffnen der Sperrdatei fehlgeschlagen \"{}\""
 
 #: utils/locker.cpp:60
 msgid "Failed to obtain lock \"{}\""
-msgstr ""
+msgstr "Abrufen der Sperre fehlgeschlagen \"{}\""
 
 #: utils/locker.cpp:70
 msgid "Failed to close lock file \"{}\""
