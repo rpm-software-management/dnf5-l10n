@@ -4,13 +4,14 @@
 # Pierre GRASSER <pierre.grasser@proton.me>, 2024.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024.
 # Léane GRASSER <pierre.grasser@proton.me>, 2024.
+# Léane GRASSER <leane.grasser@proton.me>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-15 02:52+0000\n"
-"PO-Revision-Date: 2024-06-12 04:36+0000\n"
-"Last-Translator: Léane GRASSER <pierre.grasser@proton.me>\n"
+"PO-Revision-Date: 2024-06-17 19:13+0000\n"
+"Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/fr/>\n"
 "Language: fr\n"
@@ -39,63 +40,63 @@ msgstr "Valeur de configuration pour multilib_policy incorrecte : {}"
 
 #: base/goal_elements.cpp:348
 msgid "Install"
-msgstr ""
+msgstr "Installer"
 
 #: base/goal_elements.cpp:350
 msgid "Install via provide"
-msgstr ""
+msgstr "Installer (via fournisseur)"
 
 #: base/goal_elements.cpp:352
 msgid "Install by group"
-msgstr ""
+msgstr "Installer par groupe"
 
 #: base/goal_elements.cpp:354
 msgid "Upgrade"
-msgstr ""
+msgstr "Mettre à jour"
 
 #: base/goal_elements.cpp:356
 msgid "Upgrade all"
-msgstr ""
+msgstr "Tout mettre à jour"
 
 #: base/goal_elements.cpp:358
 msgid "Upgrade minimal"
-msgstr ""
+msgstr "Mettre à jour (version minimale)"
 
 #: base/goal_elements.cpp:360
 msgid "Upgrade all minimal"
-msgstr ""
+msgstr "Tout mettre à jour (version minimale)"
 
 #: base/goal_elements.cpp:362
 msgid "Downgrade"
-msgstr ""
+msgstr "Installer une version antérieure"
 
 #: base/goal_elements.cpp:364
 msgid "Reinstall"
-msgstr ""
+msgstr "Réinstaller"
 
 #: base/goal_elements.cpp:366
 msgid "Install or reinstall"
-msgstr ""
+msgstr "Installer ou réinstaller"
 
 #: base/goal_elements.cpp:368
 msgid "Remove"
-msgstr ""
+msgstr "Supprimer"
 
 #: base/goal_elements.cpp:370
 msgid "Distrosync"
-msgstr ""
+msgstr "Distrosync"
 
 #: base/goal_elements.cpp:372
 msgid "Distrosync all"
-msgstr ""
+msgstr "Tout distrosync"
 
 #: base/goal_elements.cpp:374
 msgid "Reason Change"
-msgstr ""
+msgstr "Changer la raison"
 
 #: base/goal_elements.cpp:376
 msgid "Resolve"
-msgstr ""
+msgstr "Résoudre"
 
 #: base/goal_elements.cpp:378
 msgid "Enable"
@@ -111,31 +112,31 @@ msgstr ""
 
 #: base/goal_elements.cpp:384
 msgid "Install action"
-msgstr ""
+msgstr "Action d'installation"
 
 #: base/goal_elements.cpp:386
 msgid "Remove action"
-msgstr ""
+msgstr "Action de suppression"
 
 #: base/goal_elements.cpp:388
 msgid "Upgrade action"
-msgstr ""
+msgstr "Action de mise à jour"
 
 #: base/goal_elements.cpp:390
 msgid "Reinstall action"
-msgstr ""
+msgstr "Action de réinstallation"
 
 #: base/goal_elements.cpp:392
 msgid "Reason change action"
-msgstr ""
+msgstr "Action de changement de la raison"
 
 #: base/goal_elements.cpp:394
 msgid "Reason override"
-msgstr ""
+msgstr "Forçage de raison"
 
 #: base/goal_elements.cpp:396
 msgid "Revert comps upgrade"
-msgstr ""
+msgstr "Annuler la mise à jour des comps"
 
 #: base/log_event.cpp:141
 msgid "No packages to remove for argument: {}"
@@ -175,8 +176,6 @@ msgid "No match for argument '{0}' in repositories '{1}'"
 msgstr "Aucune correspondance pour l'argument '{0}' dans les dépôts '{1}'"
 
 #: base/log_event.cpp:169
-#, fuzzy
-#| msgid "Cannot perform {0} for {1} '{2}' becasue it is not installed."
 msgid "Cannot perform {0} for {1} '{2}' because it is not installed."
 msgstr "Impossible d'effectuer {0} pour {1} '{2}' car il n'est pas installé."
 
