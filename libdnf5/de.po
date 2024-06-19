@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-18 02:52+0000\n"
-"PO-Revision-Date: 2024-06-19 17:36+0000\n"
+"PO-Revision-Date: 2024-06-19 19:52+0000\n"
 "Last-Translator: Dennis Koerner <dennis@bumblebeeman.dev>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/de/>\n"
@@ -42,7 +42,7 @@ msgstr "Installieren"
 
 #: base/goal_elements.cpp:350
 msgid "Install via provide"
-msgstr ""
+msgstr "Über eine Bereitstellung installieren"
 
 #: base/goal_elements.cpp:352
 msgid "Install by group"
@@ -50,19 +50,19 @@ msgstr "Installieren anhand einer Gruppe"
 
 #: base/goal_elements.cpp:354
 msgid "Upgrade"
-msgstr "Aktualisieren"
+msgstr "Upgraden"
 
 #: base/goal_elements.cpp:356
 msgid "Upgrade all"
-msgstr ""
+msgstr "alle Upgraden"
 
 #: base/goal_elements.cpp:358
 msgid "Upgrade minimal"
-msgstr ""
+msgstr "minimales Upgrade"
 
 #: base/goal_elements.cpp:360
 msgid "Upgrade all minimal"
-msgstr ""
+msgstr "alle minimal Upgraden"
 
 #: base/goal_elements.cpp:362
 msgid "Downgrade"
@@ -82,11 +82,11 @@ msgstr "Entfernen"
 
 #: base/goal_elements.cpp:370
 msgid "Distrosync"
-msgstr ""
+msgstr "Distrosync"
 
 #: base/goal_elements.cpp:372
 msgid "Distrosync all"
-msgstr ""
+msgstr "Distrosync alles"
 
 #: base/goal_elements.cpp:374
 msgid "Reason Change"
@@ -134,7 +134,7 @@ msgstr ""
 
 #: base/goal_elements.cpp:396
 msgid "Revert comps upgrade"
-msgstr ""
+msgstr "Comps-Upgrade rückgängig machen"
 
 #: base/log_event.cpp:141
 msgid "No packages to remove for argument: {}"
@@ -676,7 +676,7 @@ msgstr ""
 
 #: comps/environment/environment.cpp:307
 msgid "failed to save xml document for comps"
-msgstr ""
+msgstr "speichern eines XML-Dokuments für comps fehlgeschlagen"
 
 #: comps/group/group.cpp:331
 msgid "Failed to save xml document for group \"{}\" to file \"{}\": {}"
@@ -967,10 +967,11 @@ msgstr ""
 #: repo/repo.cpp:466
 msgid "Failed to load comps \"{}\": doesn't have the \".xml\" extension"
 msgstr ""
+"Laden von comps \"{}\" fehlgeschlagen: Es hat keine \".xml\"-Erweiterung"
 
 #: repo/repo.cpp:473
 msgid "Failed to load xml Comps \"{}\": {}"
-msgstr ""
+msgstr "Laden der XML Comps \"{}\" fehlgeschlagen: {}"
 
 #: repo/repo.cpp:490
 msgid "Failed to load RPM \"{}\": {}"
@@ -1270,6 +1271,8 @@ msgid ""
 "Failed to insert record into table 'comps_environment_group' in history "
 "database"
 msgstr ""
+"Einfügen des Datensatzes in die Tabelle 'comps_environment_group' in der "
+"History-Datenbank fehlgeschlagen"
 
 #: transaction/db/db.cpp:71
 msgid "Unable to get 'version' from table 'config'"
