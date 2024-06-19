@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-18 02:52+0000\n"
-"PO-Revision-Date: 2024-06-17 19:13+0000\n"
+"PO-Revision-Date: 2024-06-19 17:36+0000\n"
 "Last-Translator: Dennis Koerner <dennis@bumblebeeman.dev>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/de/>\n"
@@ -341,12 +341,17 @@ msgid ""
 "Error: It is not possible to switch enabled streams of a module unless "
 "explicitly enabled via configuration option module_stream_switch."
 msgstr ""
+"Fehler: Es ist nicht möglich, aktivierte Streams eines Moduls zu wechseln. "
+"Es sei denn, dies wird explizit über die Konfigurationsoption "
+"module_stream_switch aktiviert."
 
 #: base/log_event.cpp:335
 msgid ""
 "Extra package '{0}' (with action '{1}') which is not present in the stored "
 "transaction was pulled into the transaction.\n"
 msgstr ""
+"Zusatzpaket '{0}' (mit Aktion '{1}'), welches nicht in der gespeicherten "
+"Transaktion vorhanden ist, wurde zur Transaktion hinzugezogen.\n"
 
 #: base/solver_problems.cpp:41
 msgid "{} does not belong to a distupgrade repository"
@@ -676,6 +681,8 @@ msgstr ""
 #: comps/group/group.cpp:331
 msgid "Failed to save xml document for group \"{}\" to file \"{}\": {}"
 msgstr ""
+"Speichern des XML-Dokuments für Gruppe \"{}\" in Datei \"{}\" fehlgeschlagen:"
+" {}"
 
 #: comps/group/package.cpp:118 comps/group/package.cpp:121
 msgid "Invalid package type: {}"
@@ -844,15 +851,15 @@ msgstr "Auflösen der Metadaten vom Modul fehlgeschlagen: {}"
 
 #: module/module_metadata.cpp:140
 msgid "Failed to upgrade defaults: {}"
-msgstr ""
+msgstr "Upgrade der Standardwerte fehlgeschlagen: {}"
 
 #: module/module_metadata.cpp:144
 msgid "Failed to upgrade streams: {}"
-msgstr ""
+msgstr "Upgrade der Streams fehlgeschlagen: {}"
 
 #: module/module_sack.cpp:93
 msgid "Failed to load module metadata for repository \"{}\": {}"
-msgstr ""
+msgstr "Laden der Modul-Metadaten für Repository \"{}\" fehlgeschlagen: {}"
 
 #: module/module_sack.cpp:594
 msgid "Missing '='"
@@ -875,22 +882,25 @@ msgid ""
 "Unsupported plugin API combination. API version provided by plugin "
 "\"{}\" (\"{}\") is \"{}.{}\". API version in libdnf is \"{}.{}\"."
 msgstr ""
+"Nicht unterstützte Plugin/API-Kombination. Die vom Plugin \"{}\" (\"{}\") "
+"bereitgestellte API-Version ist \"{}.{}\". Die API-Version in libdnf ist \""
+"{}.{}\"."
 
 #: plugin/plugins.cpp:115
 msgid "Cannot find plugin library \"{}\""
-msgstr ""
+msgstr "Plugin-Bibliothek \"{}\" kann nicht gefunden werden"
 
 #: plugin/plugins.cpp:182
 msgid "Invalid option value: enabled={}"
-msgstr ""
+msgstr "Ungültiger Optionswert: enabled={}"
 
 #: plugin/plugins.cpp:206
 msgid "Plugins::load_plugins(): config_dir_path cannot be empty"
-msgstr ""
+msgstr "Plugins::load_plugins(): config_dir_path darf nicht leer sein"
 
 #: plugin/plugins.cpp:231
 msgid "Cannot load plugins: {}"
-msgstr ""
+msgstr "Kann Plugins nicht laden: {}"
 
 #: repo/config_repo.cpp:557
 msgid "get_unique_id(): Computation of SHA256 failed"
@@ -898,11 +908,11 @@ msgstr "get_unique_id(): Die Berechnung von SHA256 ist fehlgeschlagen"
 
 #: repo/file_downloader.cpp:143
 msgid "Cannot download files, cacheonly option is activated."
-msgstr ""
+msgstr "Kann Dateien nicht herunterladen, die Option cacheonly ist aktiviert."
 
 #: repo/file_downloader.cpp:204
 msgid "Failed to download files"
-msgstr ""
+msgstr "Herunterladen der Dateien fehlgeschlagen"
 
 #: repo/librepo.cpp:123
 msgid ""
@@ -916,36 +926,43 @@ msgstr ""
 #: repo/package_downloader.cpp:147
 msgid "Cannot download the \"{0}\" package, cacheonly option is activated."
 msgstr ""
+"Kann das Paket \"{0}\" nicht herunterladen, die Option cacheonly ist "
+"aktiviert."
 
 #: repo/package_downloader.cpp:222
 msgid "Failed to download packages"
-msgstr ""
+msgstr "Herunterladen der Pakete fehlgeschlagen"
 
 #: repo/repo.cpp:60
 msgid "Failed to load RPM \"{}\": doesn't have the \".rpm\" extension"
-msgstr ""
+msgstr "Laden der RPM \"{}\" fehlgeschlagen: sie hat keine \".rpm\"-Erweiterung"
 
 #: repo/repo.cpp:64
 msgid "Failed to access RPM \"{}\": {}"
-msgstr ""
+msgstr "Zugriff auf RPM \"{}\" fehlgeschlagen: {}"
 
 #: repo/repo.cpp:106
 msgid "Invalid repository id \"{}\": unexpected character '{}'"
-msgstr ""
+msgstr "Ungültige Repository-ID \"{}\": unerwartetes Zeichen '{}'"
 
 #: repo/repo.cpp:149
 msgid "Repository \"{}\" has no source (baseurl, mirrorlist or metalink) set."
 msgstr ""
+"Repository \"{}\" hat keine Quelle (baseurl, mirrorlist or metalink) gesetzt."
 
 #: repo/repo.cpp:160
 msgid "Repository \"{}\" has unsupported type \"{}\", skipping."
 msgstr ""
+"Repository \"{}\" hat einen nicht unterstützten Typ \"{}\". Es wird "
+"übersprungen."
 
 #: repo/repo.cpp:408
 msgid ""
 "Failed to load repository: \"primary\" data not present or in unsupported "
 "format"
 msgstr ""
+"Fehler beim Laden des Repository: \"primary\"-Daten sind nicht vorhanden "
+"oder in einem nicht unterstützten Format"
 
 #: repo/repo.cpp:466
 msgid "Failed to load comps \"{}\": doesn't have the \".xml\" extension"
@@ -957,102 +974,124 @@ msgstr ""
 
 #: repo/repo.cpp:490
 msgid "Failed to load RPM \"{}\": {}"
-msgstr ""
+msgstr "Laden von RPM \"{}\" fehlgeschlagen: {}"
 
 #: repo/repo_cache.cpp:229
 msgid "Unable to determine id of the repository in the cache."
-msgstr ""
+msgstr "Bestimmung der ID des Repositories im Cache nicht möglich."
 
 #: repo/repo_cache_private.hpp:56
 msgid "Empty path to the repository cache directory."
-msgstr ""
+msgstr "Leerer Pfad zum Repository-Cacheverzeichnis."
 
 #: repo/repo_downloader.cpp:138
 msgid "Librepo error: {}"
-msgstr ""
+msgstr "Librepo-Fehler: {}"
 
 #: repo/repo_downloader.cpp:170
 msgid "Failed to download metadata ({}: \"{}\") for repository \"{}\""
 msgstr ""
+"Herunterladen von Metadaten ({}: \"{}\") für Repository \"{}\" fehlgeschlagen"
 
 #: repo/repo_downloader.cpp:241
 msgid "Error checking if metalink \"{}\" is in sync for repository \"{}\""
 msgstr ""
+"Fehler beim Prüfen, ob metalink \"{}\" für Repository \"{}\" synchronisiert "
+"ist"
 
 #: repo/repo_downloader.cpp:271
 msgid "Error checking if repomd ({}: \"{}\") is in sync for repository \"{}\""
 msgstr ""
+"Fehler beim Überprüfen, ob repomd ({}: \"{}\") für das Repository \"{}\" "
+"synchronisiert ist"
 
 #: repo/repo_downloader.cpp:335
 msgid "Error loading local metadata for repository \"{}\""
-msgstr ""
+msgstr "Fehler beim Laden der lokalen Metadaten für Repository \"{}\""
 
 #: repo/repo_downloader.cpp:455
 msgid ""
 "No valid source (baseurl, mirrorlist or metalink) found for repository \"{}\""
 msgstr ""
+"Keine gültige Quelle (baseurl, mirrorlist or metalink) für Repository \"{}\" "
+"gefunden"
 
 #: repo/repo_pgp.cpp:60
 msgid "Failed to import pgp keys into temporary keyring: {}"
 msgstr ""
+"Importieren der PGP-Schlüssel in den temporären Schlüsselring fehlgeschlagen:"
+" {}"
 
 #: repo/repo_pgp.cpp:66 repo/repo_pgp.cpp:93
 msgid "Failed to list pgp keys: {}"
-msgstr ""
+msgstr "Auflisten der PGP-Schlüssel fehlgeschlagen: {}"
 
 #: repo/repo_pgp.cpp:140
 msgid "Failed to import pgp keys: {}"
-msgstr ""
+msgstr "Importieren der PGP-Schlüssel fehlgeschlagen: {}"
 
 #: repo/repo_sack.cpp:125
 msgid ""
 "Failed to create repo \"{}\": Id is present more than once in the "
 "configuration"
 msgstr ""
+"Erstellen von Repo \"{}\" fehlgeschlagen: ID ist mehr als einmal in der "
+"Konfiguration enthalten"
 
 #: repo/repo_sack.cpp:496
 msgid "Cache-only enabled but no cache for repository \"{}\""
-msgstr ""
+msgstr "Cache-only ist aktiviert, aber kein Cache für Repository \"{}\""
 
 #: repo/solv_repo.cpp:258
 msgid "Failed to load repomd for repo \"{}\" from \"{}\": {}."
-msgstr ""
+msgstr "Laden von repomd für Repo \"{}\" aus \"{}\" fehlgeschlagen: {}."
 
 #: repo/solv_repo.cpp:266
 msgid "Failed to load primary for repo \"{}\" from \"{}\": {}."
 msgstr ""
+"Laden des \"primary\" für Repository \"{}\" aus \"{}\" fehlgeschlagen: {}."
 
 #: repo/solv_repo.cpp:311
 msgid "Unsupported extended repodata type for the system repo: \"{}\"."
 msgstr ""
+"Nicht unterstützter erweiterter Repository-Datentyp für das System-"
+"Repository: \"{}\"."
 
 #: repo/solv_repo.cpp:377
 msgid "Failed to load {} extension for repo \"{}\" from \"{}\": {}"
 msgstr ""
+"Laden der {} Erweiterung für Repository \"{}\" aus \"{}\" fehlgeschlagen: {}"
 
 #: repo/solv_repo.cpp:412
 msgid "Failed to load system repo from root \"{}\": {}"
-msgstr ""
+msgstr "Laden des System-Repository aus der Wurzel \"{}\" fehlgeschlagen: {}"
 
 #: repo/solv_repo.cpp:511
 msgid "Failed to load {} cache for repo \"{}\" from \"{}\": {}"
-msgstr ""
+msgstr "Laden des {} Caches für Repository \"{}\" aus \"{}\" fehlgeschlagen: {}"
 
 #: repo/solv_repo.cpp:563
 msgid "Failed to write primary cache for repo \"{}\" to \"{}\": {}"
 msgstr ""
+"Schreiben des primären Caches für Repository \"{}\" aus \"{}\" "
+"fehlgeschlagen: {}"
 
 #: repo/solv_repo.cpp:580
 msgid "Failed to re-load primary cache for repo \"{}\" from \"{}\": {}"
 msgstr ""
+"Erneutes Laden des primären Caches für Repository \"{}\" aus \"{}\" "
+"fehlgeschlagen: {}"
 
 #: repo/solv_repo.cpp:644
 msgid "Failed to write {} cache for repo \"{}\" to \"{}\": {}"
 msgstr ""
+"Schreiben des {} Caches für Repository \"{}\" aus \"{}\" fehlgeschlagen: {}"
 
 #: repo/solv_repo.cpp:665
 msgid "Failed to re-load {} cache for repo \"{}\" from \"{}\": {}"
 msgstr ""
+"Erneutes Laden des {} Caches für Repository \"{}\" aus \"{}\" fehlgeschlagen:"
+" {}"
 
 #: repo/temp_files_memory.cpp:52
 msgid ""
@@ -1061,23 +1100,23 @@ msgstr ""
 
 #: rpm/nevra.cpp:82
 msgid "NEVRA string \"{}\" contains ':' multiple times"
-msgstr ""
+msgstr "NEVRA String \"{}\" enthält ':' mehrmals"
 
 #: rpm/nevra.cpp:86
 msgid "Invalid character '{}' in NEVRA string \"{}\""
-msgstr ""
+msgstr "Ungültiges Zeichen '{}' in NEVRA String \"{}\""
 
 #: rpm/package.cpp:80
 msgid "Package with rpmdbid was not found"
-msgstr ""
+msgstr "Paket mit rpmdbid wurde nicht gefunden"
 
 #: rpm/reldep.cpp:116 rpm/reldep.cpp:123
 msgid "Cannot parse a dependency string"
-msgstr ""
+msgstr "Kann Abhängigkeitsstring nicht parsen"
 
 #: rpm/rpm_signature.cpp:45
 msgid "No corresponding key was found."
-msgstr ""
+msgstr "Kein zugehöriger Schlüssel wurde gefunden."
 
 #: rpm/rpm_signature.cpp:46
 msgid "The signature is valid, but the key is not trusted."
@@ -1188,7 +1227,7 @@ msgstr "Konvertierung von Epoche \"{}\" in eine Zahl fehlgeschlagen"
 
 #: solv/solver.cpp:79
 msgid "Writing debugsolver data into \"{}\" failed: {}"
-msgstr ""
+msgstr "Schreiben der debugsolver-Daten in \"{}\" fehlgeschlagen: {}"
 
 #: system/state.cpp:226 system/state.cpp:235
 msgid "Invalid TOML version \"{}\", \"MAJOR.MINOR\" expected"
@@ -1234,12 +1273,14 @@ msgstr ""
 
 #: transaction/db/db.cpp:71
 msgid "Unable to get 'version' from table 'config'"
-msgstr ""
+msgstr "'version' kann nicht aus Tabelle 'config' abgerufen werden"
 
 #. TODO(dmach): replace with a better exception class
 #: transaction/db/item.cpp:43
 msgid "Failed to insert record into table 'item' in history database"
 msgstr ""
+"Einfügen des Datensatzes in die Tabelle 'item' in der History-Datenbank "
+"fehlgeschlagen"
 
 #: transaction/offline.cpp:195
 msgid "error reading offline state file"
@@ -1247,31 +1288,31 @@ msgstr "Fehler beim Lesen der Offline-Zustandsdatei"
 
 #: transaction/offline.cpp:200
 msgid "incompatible version of state data"
-msgstr ""
+msgstr "inkompatible Version der Zustandsdaten"
 
 #: transaction/transaction.cpp:96
 msgid "Invalid transaction state: {}"
-msgstr ""
+msgstr "Ungültiger Transaktionszustand: {}"
 
 #: transaction/transaction.cpp:282
 msgid "Transaction has already started!"
-msgstr ""
+msgstr "Transaktion wurde bereits gestartet!"
 
 #: transaction/transaction_item_action.cpp:28
 msgid "Invalid transaction item action: {}"
-msgstr ""
+msgstr "Ungültige Aktion des Transaktionselements: {}"
 
 #: transaction/transaction_item_reason.cpp:28
 msgid "Invalid transaction item reason: {}"
-msgstr ""
+msgstr "Ungültige Ursache des Transaktionselements: {}"
 
 #: transaction/transaction_item_state.cpp:28
 msgid "Invalid transaction item state: {}"
-msgstr ""
+msgstr "Ungültiger Zustand des Transaktionselements: {}"
 
 #: transaction/transaction_item_type.cpp:28
 msgid "Invalid transaction item type: {}"
-msgstr ""
+msgstr "Ungültiger Typ des Transaktionselements: {}"
 
 #: transaction/transaction_sr.cpp:56
 msgid "Transaction replay JSON serialized transaction input is empty"
@@ -1283,11 +1324,11 @@ msgstr ""
 
 #: transaction/transaction_sr.cpp:75
 msgid "Unexpected version format: \"{}\", supported version is \"{}\""
-msgstr ""
+msgstr "Unerwartetes Versionsformat: \"{}\", unterstützte Version ist \"{}\""
 
 #: transaction/transaction_sr.cpp:81
 msgid "Incompatible major version: \"{}\", supported major version is \"{}\""
-msgstr ""
+msgstr "Inkompatible Hauptversion: \"{}\", unterstützte Hauptversion ist \"{}\""
 
 #: transaction/transaction_sr.cpp:88
 msgid "Invalid minor version: \"{}\", number expected."
@@ -1446,67 +1487,72 @@ msgstr "Adresse des Symbols kann nicht abgerufen werden \"{}\": {}"
 
 #: utils/locker.cpp:45
 msgid "Failed to open lock file \"{}\""
-msgstr "Öffnen der Sperrdatei fehlgeschlagen \"{}\""
+msgstr "Öffnen der Sperrdatei \"{}\" fehlgeschlagen"
 
 #: utils/locker.cpp:60
 msgid "Failed to obtain lock \"{}\""
-msgstr "Abrufen der Sperre fehlgeschlagen \"{}\""
+msgstr "Abrufen der Sperre \"{}\" fehlgeschlagen"
 
 #: utils/locker.cpp:70
 msgid "Failed to close lock file \"{}\""
-msgstr ""
+msgstr "Schließen der Sperrdatei \"{}\" fehlgeschlagen"
 
 #: utils/locker.cpp:73
 msgid "Failed to delete lock file \"{}\""
-msgstr ""
+msgstr "Löschen der Sperrdatei \"{}\" fehlgeschlagen"
 
 #: utils/sqlite3/sqlite3.cpp:29
 msgid "SQL statement compilation failed: \"{}\""
-msgstr ""
+msgstr "Kompilierung der SQL-Anweisung ist fehlgeschlagen: {}"
 
 #: utils/sqlite3/sqlite3.cpp:31
 msgid "Binding integer value to SQL statement failed: \"{}\""
-msgstr ""
+msgstr "Binden des Integer-Wertes an die SQL-Anweisung fehlgeschlagen: \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:33
 msgid "Binding integer64 value to SQL statement failed: \"{}\""
-msgstr ""
+msgstr "Binden des integer64-Wertes an die SQL-Anweisung fehlgeschlagen: \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:35
 msgid "Binding unsigned integer32 value to SQL statement failed: \"{}\""
 msgstr ""
+"Binden des 'unsigned integer32'-Wertes an die SQL-Anweisung fehlgeschlagen: "
+"\"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:37
 msgid "Binding double value to SQL statement failed: \"{}\""
-msgstr ""
+msgstr "Binden des double-Wertes an die SQL-Anweisung fehlgeschlagen: \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:39
 msgid "Binding bool value to SQL statement failed: \"{}\""
 msgstr ""
+"Binden des booleschen Wertes an die SQL-Anweisung fehlgeschlagen: \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:40
 msgid "Binding text to SQL statement failed: \"{}\""
-msgstr ""
+msgstr "Binden von Text an die SQL-Anweisung fehlgeschlagen: \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:41
 msgid "Binding blob to SQL statement failed: \"{}\""
-msgstr ""
+msgstr "Binden des Blobs an die SQL-Anweisung fehlgeschlagen: \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:42
 msgid "SQL statement evaluation failed: \"{}\""
-msgstr ""
+msgstr "Evaluierung der SQL-Anweisung fehlgeschlagen: \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:44
 msgid "Insufficient memory or result exceed maximum SQLite3 string length"
 msgstr ""
+"Nicht ausreichender Speicher oder das Ergebnis übersteigt die maximale "
+"SQLite3 Stringlänge"
 
 #: utils/sqlite3/sqlite3.cpp:46
 msgid "Column \"{}\" not found"
-msgstr ""
+msgstr "Spalte \"{}\" nicht gefunden"
 
 #: utils/sqlite3/sqlite3.cpp:48
 msgid "SQL statement execution failed: \"{}\""
-msgstr ""
+msgstr "Ausführung der SQL-Anweisung fehlgeschlagen: \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:68
 msgid "Failed to open database \"{}\""
