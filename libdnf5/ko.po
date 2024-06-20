@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-20 02:52+0000\n"
-"PO-Revision-Date: 2024-06-14 03:36+0000\n"
+"PO-Revision-Date: 2024-06-21 03:01+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/ko/>\n"
@@ -111,7 +111,7 @@ msgstr "재설정"
 
 #: base/goal_elements.cpp:384
 msgid "Parse serialized transaction"
-msgstr ""
+msgstr "직렬화된 연결을 구문 분석합니다"
 
 #: base/goal_elements.cpp:386
 msgid "Install action"
@@ -342,10 +342,8 @@ msgstr ""
 "참여되었습니다.\n"
 
 #: base/log_event.cpp:341
-#, fuzzy
-#| msgid "Cannot parse NEVRA for rpm \"{}\"."
 msgid "Cannot parse file: '{0}': {1}.\n"
-msgstr "rpm \"{}\"을 위한 NEVRA를 구문 분석 할 수 없습니다."
+msgstr "파일을 구문 분석 할 수 없습니다: '{0}': {1}.\n"
 
 #: base/solver_problems.cpp:41
 msgid "{} does not belong to a distupgrade repository"
