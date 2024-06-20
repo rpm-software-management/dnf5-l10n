@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-18 02:52+0000\n"
+"POT-Creation-Date: 2024-06-20 02:52+0000\n"
 "PO-Revision-Date: 2024-06-14 03:36+0000\n"
 "Last-Translator: Aleksey Fedorov <aleksejfedorov963@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -32,7 +32,7 @@ msgid "Unsupported argument for REMOVE action: {}"
 msgstr "Неподдерживаемый аргумент для действия REMOVE: {}"
 
 #. TODO(lukash) throw a proper exception
-#: base/goal.cpp:1432
+#: base/goal.cpp:1447
 msgid "Incorrect configuration value for multilib_policy: {}"
 msgstr "Неверное значение конфигурации для multilib_policy: {}"
 
@@ -109,30 +109,34 @@ msgid "Reset"
 msgstr "Сбросить"
 
 #: base/goal_elements.cpp:384
+msgid "Parse serialized transaction"
+msgstr ""
+
+#: base/goal_elements.cpp:386
 msgid "Install action"
 msgstr "Действие по установке"
 
-#: base/goal_elements.cpp:386
+#: base/goal_elements.cpp:388
 msgid "Remove action"
 msgstr "Действие по удалению"
 
-#: base/goal_elements.cpp:388
+#: base/goal_elements.cpp:390
 msgid "Upgrade action"
 msgstr "Действие по обновлению"
 
-#: base/goal_elements.cpp:390
+#: base/goal_elements.cpp:392
 msgid "Reinstall action"
 msgstr "Действие по переустановке"
 
-#: base/goal_elements.cpp:392
+#: base/goal_elements.cpp:394
 msgid "Reason change action"
 msgstr "Действие по изменению причины"
 
-#: base/goal_elements.cpp:394
+#: base/goal_elements.cpp:396
 msgid "Reason override"
 msgstr "Отмена причины"
 
-#: base/goal_elements.cpp:396
+#: base/goal_elements.cpp:398
 msgid "Revert comps upgrade"
 msgstr "Вернуть обновление Компов"
 
@@ -349,6 +353,12 @@ msgid ""
 msgstr ""
 "В транзакцию был извлечен дополнительный пакет '{0}' (с действием '{1}'), "
 "которого нет в хранимой транзакции.\n"
+
+#: base/log_event.cpp:341
+#, fuzzy
+#| msgid "Cannot parse NEVRA for rpm \"{}\"."
+msgid "Cannot parse file: '{0}': {1}.\n"
+msgstr "Невозможно разобрать NEVRA для rpm \"{}\"."
 
 #: base/solver_problems.cpp:41
 msgid "{} does not belong to a distupgrade repository"
@@ -1273,83 +1283,83 @@ msgstr "Неверное состояние элемента транзакци�
 msgid "Invalid transaction item type: {}"
 msgstr "Недопустимый тип элемента транзакции: {}"
 
-#: transaction/transaction_sr.cpp:56
+#: transaction/transaction_sr.cpp:49
 msgid "Transaction replay JSON serialized transaction input is empty"
 msgstr "Сериализованный входной сигнал транзакции в формате JSON пуст"
 
-#: transaction/transaction_sr.cpp:65
+#: transaction/transaction_sr.cpp:58
 msgid "Error during transaction replay JSON parsing : {}"
 msgstr "Ошибка при разборе JSON-файла транзакции : {}"
 
-#: transaction/transaction_sr.cpp:75
+#: transaction/transaction_sr.cpp:68
 msgid "Unexpected version format: \"{}\", supported version is \"{}\""
 msgstr "Неожиданный формат версии: \"{}\", поддерживаемая версия - \"{}\""
 
-#: transaction/transaction_sr.cpp:81
+#: transaction/transaction_sr.cpp:74
 msgid "Incompatible major version: \"{}\", supported major version is \"{}\""
 msgstr ""
 "Несовместимая основная версия: \"{}\", поддерживаемая основная версия - "
 "\"{}\""
 
-#: transaction/transaction_sr.cpp:88
+#: transaction/transaction_sr.cpp:81
 msgid "Invalid minor version: \"{}\", number expected."
 msgstr "Недопустимая минорная версия: \"{}\", ожидается число."
 
-#: transaction/transaction_sr.cpp:91
+#: transaction/transaction_sr.cpp:84
 msgid "Missing key \"version\"."
 msgstr "Отсутствует ключ \"version\"."
 
-#: transaction/transaction_sr.cpp:104
+#: transaction/transaction_sr.cpp:97
 msgid "Unexpected type of \"environments\", array expected."
 msgstr "Неожиданный тип \"environments\", ожидается массив."
 
-#: transaction/transaction_sr.cpp:112
+#: transaction/transaction_sr.cpp:105
 msgid "Missing object key \"id\" in an environment."
 msgstr "Отсутствует ключ объекта \"id\" в среде."
 
-#: transaction/transaction_sr.cpp:117
+#: transaction/transaction_sr.cpp:110
 msgid "Missing object key \"action\" in an environment."
 msgstr "Отсутствует объектный ключ \"action\" в среде."
 
-#: transaction/transaction_sr.cpp:142
+#: transaction/transaction_sr.cpp:135
 msgid "Unexpected type of \"groups\", array expected."
 msgstr "Неожиданный тип \"groups\", ожидается массив."
 
-#: transaction/transaction_sr.cpp:150
+#: transaction/transaction_sr.cpp:143
 msgid "Missing object key \"id\" in a group."
 msgstr "Отсутствует объект-ключ \"id\" в группе."
 
-#: transaction/transaction_sr.cpp:155
+#: transaction/transaction_sr.cpp:148
 msgid "Missing object key \"action\" in a group."
 msgstr "Отсутствует объект-ключ \"action\" в группе."
 
-#: transaction/transaction_sr.cpp:160
+#: transaction/transaction_sr.cpp:153
 msgid "Missing object key \"reason\" in a group."
 msgstr "Отсутствует объект-ключ \"reason\" в группе."
 
-#: transaction/transaction_sr.cpp:189
+#: transaction/transaction_sr.cpp:182
 msgid "Unexpected type of \"rpms\", array expected."
 msgstr "Неожиданный тип \"rpms\", ожидается массив."
 
-#: transaction/transaction_sr.cpp:198
+#: transaction/transaction_sr.cpp:191
 msgid "Cannot parse NEVRA for rpm \"{}\"."
 msgstr "Невозможно разобрать NEVRA для rpm \"{}\"."
 
-#: transaction/transaction_sr.cpp:206
+#: transaction/transaction_sr.cpp:199
 msgid "Either \"nevra\" or \"package_path\" object key is required in an rpm."
 msgstr ""
 "В rpm требуется либо объект-ключ \"nevra\", либо объект-ключ "
 "\"package_path\"."
 
-#: transaction/transaction_sr.cpp:211
+#: transaction/transaction_sr.cpp:204
 msgid "Missing object key \"action\" in an rpm."
 msgstr "Отсутствует объект-ключ \"action\" в rpm."
 
-#: transaction/transaction_sr.cpp:216
+#: transaction/transaction_sr.cpp:209
 msgid "Missing object key \"reason\" in an rpm."
 msgstr "Отсутствует объект-ключ \"reason\" в rpm."
 
-#: transaction/transaction_sr.cpp:223
+#: transaction/transaction_sr.cpp:216
 msgid ""
 "Missing mandatory object key \"group_id\" in an rpm with reason \"Group\" "
 "and action \"Reason Change\"."

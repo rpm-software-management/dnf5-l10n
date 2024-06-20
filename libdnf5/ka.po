@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-18 02:52+0000\n"
+"POT-Creation-Date: 2024-06-20 02:52+0000\n"
 "PO-Revision-Date: 2024-06-14 03:36+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -33,7 +33,7 @@ msgid "Unsupported argument for REMOVE action: {}"
 msgstr "მხარდაუჭერელი არგუმენტი ქმედებისთვის REMOVE: {}"
 
 #. TODO(lukash) throw a proper exception
-#: base/goal.cpp:1432
+#: base/goal.cpp:1447
 msgid "Incorrect configuration value for multilib_policy: {}"
 msgstr "არასწორი კონფიგურაციის მნიშვნელობა multilib_policy-სთვის: {}"
 
@@ -110,30 +110,34 @@ msgid "Reset"
 msgstr "ჩამოყრა"
 
 #: base/goal_elements.cpp:384
+msgid "Parse serialized transaction"
+msgstr ""
+
+#: base/goal_elements.cpp:386
 msgid "Install action"
 msgstr "დაყენების ქმედება"
 
-#: base/goal_elements.cpp:386
+#: base/goal_elements.cpp:388
 msgid "Remove action"
 msgstr "წაშლის ქმედება"
 
-#: base/goal_elements.cpp:388
+#: base/goal_elements.cpp:390
 msgid "Upgrade action"
 msgstr "ვერსიის აწევის ქმედება"
 
-#: base/goal_elements.cpp:390
+#: base/goal_elements.cpp:392
 msgid "Reinstall action"
 msgstr "გადაყენების ქმედება"
 
-#: base/goal_elements.cpp:392
+#: base/goal_elements.cpp:394
 msgid "Reason change action"
 msgstr "მიზეზის ცვლილების ქმედება"
 
-#: base/goal_elements.cpp:394
+#: base/goal_elements.cpp:396
 msgid "Reason override"
 msgstr "მიზეზის გადაფარვა"
 
-#: base/goal_elements.cpp:396
+#: base/goal_elements.cpp:398
 msgid "Revert comps upgrade"
 msgstr "Comps-ის ვერსიის აწევის დაბრუნება"
 
@@ -350,6 +354,12 @@ msgid ""
 msgstr ""
 "დამატებითი პაკეტი '{0}' (ქმედებით '{1}'), რომელიც დამახსოვრებულ ტრანზაქციაში "
 "არ არსებობს, ტრანზაქციაში საიდანღაც მოხვდა.\n"
+
+#: base/log_event.cpp:341
+#, fuzzy
+#| msgid "Cannot parse NEVRA for rpm \"{}\"."
+msgid "Cannot parse file: '{0}': {1}.\n"
+msgstr "NEVRA-ის დამუშავება შეუძლებელია rpm-სთვის \"{}\"."
 
 #: base/solver_problems.cpp:41
 msgid "{} does not belong to a distupgrade repository"
@@ -1280,82 +1290,82 @@ msgstr "არასწორი ტრანზაქციის ელემ�
 msgid "Invalid transaction item type: {}"
 msgstr "არასწორი ტრანზაქციის ელემენტის ტიპი: {}"
 
-#: transaction/transaction_sr.cpp:56
+#: transaction/transaction_sr.cpp:49
 msgid "Transaction replay JSON serialized transaction input is empty"
 msgstr ""
 "ტრანზაქციის თავიდან გაშვების JSON სერიალიზებული ტრანზქციის შეყვანა ცარიელია"
 
-#: transaction/transaction_sr.cpp:65
+#: transaction/transaction_sr.cpp:58
 msgid "Error during transaction replay JSON parsing : {}"
 msgstr "შეცდომა ტრანზაქციის თავიდან გაშვების JSON-ის დამუშავებისას: {}"
 
-#: transaction/transaction_sr.cpp:75
+#: transaction/transaction_sr.cpp:68
 msgid "Unexpected version format: \"{}\", supported version is \"{}\""
 msgstr "მოულოდნელი ვერსიის ფორმატი: \"{}\". მხარდაჭერილი ვერსიაა \"{}\""
 
-#: transaction/transaction_sr.cpp:81
+#: transaction/transaction_sr.cpp:74
 msgid "Incompatible major version: \"{}\", supported major version is \"{}\""
 msgstr ""
 "მხარდაუჭერელი ძირითადი ვერსია \"{}\". მხარდაჭერილი ძირითადი ვერსიაა \"{}\""
 
-#: transaction/transaction_sr.cpp:88
+#: transaction/transaction_sr.cpp:81
 msgid "Invalid minor version: \"{}\", number expected."
 msgstr "არასწორი მცირე ვერსია: '{}\". მოველოდი რიცხვს."
 
-#: transaction/transaction_sr.cpp:91
+#: transaction/transaction_sr.cpp:84
 msgid "Missing key \"version\"."
 msgstr "ვერ ვიპოვე პარამეტრი \"version\"."
 
-#: transaction/transaction_sr.cpp:104
+#: transaction/transaction_sr.cpp:97
 msgid "Unexpected type of \"environments\", array expected."
 msgstr "\"environments\"-ის მოულოდნელი ტიპი. მოველოდი მასივს."
 
-#: transaction/transaction_sr.cpp:112
+#: transaction/transaction_sr.cpp:105
 msgid "Missing object key \"id\" in an environment."
 msgstr "გარემოში ობიექტის პარამეტრი \"id\" ვერ ვიპოვე."
 
-#: transaction/transaction_sr.cpp:117
+#: transaction/transaction_sr.cpp:110
 msgid "Missing object key \"action\" in an environment."
 msgstr "გარემოში ობიექტის პარამეტრი \"action\" ვერ ვიპოვე."
 
-#: transaction/transaction_sr.cpp:142
+#: transaction/transaction_sr.cpp:135
 msgid "Unexpected type of \"groups\", array expected."
 msgstr "\"groups\"-ის მოულოდნელი ტიპი. მოველოდი მასივს."
 
-#: transaction/transaction_sr.cpp:150
+#: transaction/transaction_sr.cpp:143
 msgid "Missing object key \"id\" in a group."
 msgstr "ჯგუფში ობიექტის პარამეტრი \"id\" ვერ ვიპოვე."
 
-#: transaction/transaction_sr.cpp:155
+#: transaction/transaction_sr.cpp:148
 msgid "Missing object key \"action\" in a group."
 msgstr "ჯგუფში ობიექტის პარამეტრი \"action\" ვერ ვიპოვე."
 
-#: transaction/transaction_sr.cpp:160
+#: transaction/transaction_sr.cpp:153
 msgid "Missing object key \"reason\" in a group."
 msgstr "ჯგუფში ობიექტის პარამეტრი \"reason\" ვერ ვიპოვე."
 
-#: transaction/transaction_sr.cpp:189
+#: transaction/transaction_sr.cpp:182
 msgid "Unexpected type of \"rpms\", array expected."
 msgstr "\"rpms\"-ის მოულოდნელი ტიპი. მოველოდი მასივს."
 
-#: transaction/transaction_sr.cpp:198
+#: transaction/transaction_sr.cpp:191
 msgid "Cannot parse NEVRA for rpm \"{}\"."
 msgstr "NEVRA-ის დამუშავება შეუძლებელია rpm-სთვის \"{}\"."
 
-#: transaction/transaction_sr.cpp:206
+#: transaction/transaction_sr.cpp:199
 msgid "Either \"nevra\" or \"package_path\" object key is required in an rpm."
 msgstr ""
 "აუცილებელია rpm-ში \"nevra\" ან \"package_path\" ობიექტის პარამეტრის ქონა."
 
-#: transaction/transaction_sr.cpp:211
+#: transaction/transaction_sr.cpp:204
 msgid "Missing object key \"action\" in an rpm."
 msgstr "'rpm'-ში ობიექტის პარამეტრი \"action\" ვერ ვიპოვე."
 
-#: transaction/transaction_sr.cpp:216
+#: transaction/transaction_sr.cpp:209
 msgid "Missing object key \"reason\" in an rpm."
 msgstr "'rpm'-ში ობიექტის პარამეტრი \"reason\" ვერ ვიპოვე."
 
-#: transaction/transaction_sr.cpp:223
+#: transaction/transaction_sr.cpp:216
 msgid ""
 "Missing mandatory object key \"group_id\" in an rpm with reason \"Group\" "
 "and action \"Reason Change\"."
