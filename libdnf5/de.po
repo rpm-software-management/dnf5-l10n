@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-20 02:52+0000\n"
-"PO-Revision-Date: 2024-06-19 19:52+0000\n"
+"PO-Revision-Date: 2024-06-22 02:48+0000\n"
 "Last-Translator: Dennis Koerner <dennis@bumblebeeman.dev>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/de/>\n"
@@ -358,10 +358,8 @@ msgstr ""
 "Transaktion vorhanden ist, wurde zur Transaktion hinzugezogen.\n"
 
 #: base/log_event.cpp:341
-#, fuzzy
-#| msgid "Cannot parse NEVRA for rpm \"{}\"."
 msgid "Cannot parse file: '{0}': {1}.\n"
-msgstr "Kann NEVRA nicht für rpm \"{}\" parsen."
+msgstr "Kann Datei nicht parsen: : '{0}': {1}.\n"
 
 #: base/solver_problems.cpp:41
 msgid "{} does not belong to a distupgrade repository"
