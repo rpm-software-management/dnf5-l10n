@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-22 02:52+0000\n"
-"PO-Revision-Date: 2024-06-22 02:48+0000\n"
+"PO-Revision-Date: 2024-06-24 12:53+0000\n"
 "Last-Translator: Dennis Koerner <dennis@bumblebeeman.dev>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/de/>\n"
@@ -90,7 +90,7 @@ msgstr "Distrosync alles"
 
 #: base/goal_elements.cpp:374
 msgid "Reason Change"
-msgstr ""
+msgstr "Ursachenänderung"
 
 #: base/goal_elements.cpp:376
 msgid "Resolve"
@@ -110,7 +110,7 @@ msgstr "Zurücksetzen"
 
 #: base/goal_elements.cpp:384
 msgid "Parse serialized transaction"
-msgstr ""
+msgstr "Serialisierte Transaktion parsen"
 
 #: base/goal_elements.cpp:386
 msgid "Install action"
@@ -130,11 +130,11 @@ msgstr "Neuinstallieren-Aktion"
 
 #: base/goal_elements.cpp:394
 msgid "Reason change action"
-msgstr ""
+msgstr "Ursachenänderungsaktion"
 
 #: base/goal_elements.cpp:396
 msgid "Reason override"
-msgstr ""
+msgstr "Ursachenüberschreitung"
 
 #: base/goal_elements.cpp:398
 msgid "Revert comps upgrade"
@@ -1108,6 +1108,8 @@ msgstr ""
 msgid ""
 "An error occurred when parsing the temporary files memory file at '{}': {}"
 msgstr ""
+"Ein Fehler ist beim Parsen der temporären Dateien im Speicher aufgetreten "
+"bei '{}': {}"
 
 #: rpm/nevra.cpp:82
 msgid "NEVRA string \"{}\" contains ':' multiple times"
@@ -1330,10 +1332,12 @@ msgstr "Ungültiger Typ des Transaktionselements: {}"
 #: transaction/transaction_sr.cpp:49
 msgid "Transaction replay JSON serialized transaction input is empty"
 msgstr ""
+"Serialisierte JSON-Transaktionseingabe für die Transaktionswiederholung ist "
+"leer"
 
 #: transaction/transaction_sr.cpp:58
 msgid "Error during transaction replay JSON parsing : {}"
-msgstr ""
+msgstr "Fehler beim Parsen der serialisierten JSON-Transaktionswiederholung: {}"
 
 #: transaction/transaction_sr.cpp:68
 msgid "Unexpected version format: \"{}\", supported version is \"{}\""
