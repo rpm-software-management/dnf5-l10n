@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-22 02:52+0000\n"
-"PO-Revision-Date: 2024-06-14 03:36+0000\n"
+"PO-Revision-Date: 2024-06-24 12:53+0000\n"
 "Last-Translator: Aleksey Fedorov <aleksejfedorov963@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/ru/>\n"
@@ -110,7 +110,7 @@ msgstr "Сбросить"
 
 #: base/goal_elements.cpp:384
 msgid "Parse serialized transaction"
-msgstr ""
+msgstr "Разбор сериализованной транзакции"
 
 #: base/goal_elements.cpp:386
 msgid "Install action"
@@ -355,10 +355,8 @@ msgstr ""
 "которого нет в хранимой транзакции.\n"
 
 #: base/log_event.cpp:341
-#, fuzzy
-#| msgid "Cannot parse NEVRA for rpm \"{}\"."
 msgid "Cannot parse file: '{0}': {1}.\n"
-msgstr "Невозможно разобрать NEVRA для rpm \"{}\"."
+msgstr "Невозможно разобрать файл: '{0}': {1}.\n"
 
 #: base/solver_problems.cpp:41
 msgid "{} does not belong to a distupgrade repository"
