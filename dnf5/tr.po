@@ -2,13 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Sabri Ünal <libreajans@gmail.com>, 2024.
+# Oğuz Ersen <oguz@ersen.moe>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-22 02:52+0000\n"
-"PO-Revision-Date: 2024-02-26 01:35+0000\n"
-"Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
+"PO-Revision-Date: 2024-06-24 12:53+0000\n"
+"Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/tr/>\n"
 "Language: tr\n"
@@ -16,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.4\n"
+"X-Generator: Weblate 5.5.5\n"
 
 #: commands/advisory/advisory_info.hpp:33
 msgid "Print details about advisories"
@@ -194,15 +195,15 @@ msgstr ""
 
 #: commands/group/arguments.hpp:34
 msgid "Show only available groups."
-msgstr ""
+msgstr "Yalnızca kullanılabilir grupları göster."
 
 #: commands/group/arguments.hpp:41
 msgid "Show also hidden groups."
-msgstr ""
+msgstr "Gizli grupları da göster."
 
 #: commands/group/arguments.hpp:48
 msgid "Show only installed groups."
-msgstr ""
+msgstr "Yalnızca kurulu grupları göster."
 
 #: commands/group/arguments.hpp:59
 msgid ""
@@ -216,7 +217,7 @@ msgstr ""
 
 #: commands/group/arguments.hpp:76
 msgid "Include optional packages from group."
-msgstr ""
+msgstr "Gruptaki isteğe bağlı paketler dahil et."
 
 #: commands/group/arguments.hpp:83
 msgid "Operate on groups only, no packages are changed."
@@ -281,11 +282,11 @@ msgstr ""
 
 #: commands/list/list.cpp:65
 msgid "List installed packages."
-msgstr ""
+msgstr "Kurulu paketleri listele."
 
 #: commands/list/list.cpp:69
 msgid "List available packages."
-msgstr ""
+msgstr "Kullanılabilir paketleri listele."
 
 #: commands/list/list.cpp:76
 msgid ""
@@ -301,19 +302,19 @@ msgstr ""
 
 #: commands/list/list.cpp:89
 msgid "List packages recently added into the repositories."
-msgstr ""
+msgstr "Depolara yeni eklenen paketleri listele."
 
 #: commands/list/list.cpp:93
 msgid "List upgrades available for the installed packages."
-msgstr ""
+msgstr "Kurulu paketler için kullanılabilir yükseltmeleri listele."
 
 #: commands/list/list.cpp:97
 msgid "List packages which will be removed by the 'dnf autoremove' command."
-msgstr ""
+msgstr "'dnf autoremove' komutu tarafından kaldırılacak paketleri listele."
 
 #: commands/list/list.cpp:257
 msgid "No matching packages to list"
-msgstr ""
+msgstr "Listelenecek eşleşen paket yok"
 
 #: commands/module/arguments.hpp:36
 msgid "Show enabled modules."
@@ -343,7 +344,7 @@ msgstr ""
 
 #: commands/offline/offline.cpp:244
 msgid "Couldn't connect to D-Bus: {}"
-msgstr ""
+msgstr "D-Bus ile bağlantı kuulamadı: {}"
 
 #: commands/offline/offline.cpp:273
 msgid ""
@@ -365,7 +366,7 @@ msgstr ""
 
 #: commands/offline/offline.cpp:302
 msgid "Data directory {} does not exist."
-msgstr ""
+msgstr "{} veri dizini yok."
 
 #: commands/offline/offline.cpp:326
 msgid "{} is not wanted by system-update.target."
@@ -407,14 +408,12 @@ msgid "Use `dnf5 offline reboot` to begin the transaction."
 msgstr ""
 
 #: commands/offline/offline.cpp:494
-#, fuzzy
-#| msgid "Transaction ID"
 msgid "Transaction failed: "
-msgstr "İşlem Kimliği"
+msgstr "İşlem başarısız: "
 
 #: commands/offline/offline.cpp:563
 msgid "Error reading journal: {}"
-msgstr ""
+msgstr "Günlük okunurken hata oluştu: {}"
 
 #: commands/offline/offline.cpp:569
 msgid "Add journal match failed: {}"
@@ -422,7 +421,7 @@ msgstr ""
 
 #: commands/offline/offline.cpp:597
 msgid "No logs were found."
-msgstr ""
+msgstr "Günlük kaydı bulunamadı."
 
 #: commands/offline/offline.cpp:601
 msgid "The following boots appear to contain offline transaction logs:"
@@ -430,11 +429,11 @@ msgstr ""
 
 #: commands/offline/offline.cpp:618
 msgid "Cannot find logs with this index."
-msgstr ""
+msgstr "Bu indekse sahip günlük kaydı bulunamıyor."
 
 #: commands/offline/offline.cpp:625
 msgid "Unable to match systemd journal entry."
-msgstr ""
+msgstr "systemd günlük girdisi eşleştirilemedi."
 
 #: commands/offline/offline.cpp:637
 msgid "Show logs from past offline transactions"
@@ -480,7 +479,7 @@ msgstr "Tüm depoları göster."
 
 #: commands/repo/arguments.hpp:42
 msgid "Show enabled repositories (default)."
-msgstr ""
+msgstr "Etkinleştirilen depoları göster (öntanımlı)."
 
 #: commands/repo/arguments.hpp:49
 msgid "Show disabled repositories."
@@ -504,7 +503,7 @@ msgstr ""
 
 #: commands/search/arguments.hpp:37
 msgid "Search also package description and URL."
-msgstr ""
+msgstr "Paket açıklamasını ve URL'sini de ara."
 
 #: commands/search/arguments.hpp:45
 msgid "Patterns"
@@ -512,21 +511,22 @@ msgstr "Desenler"
 
 #: commands/system-upgrade/system-upgrade.cpp:54
 msgid "Prepare system for upgrade to a new release"
-msgstr ""
+msgstr "Sistemi yeni bir sürüme yükseltmek için hazırla"
 
 #: commands/system-upgrade/system-upgrade.cpp:70
 msgid "Download everything needed to upgrade to a new release"
-msgstr ""
+msgstr "Yeni bir sürüme yükseltmek için gereken her şeyi indir"
 
 #: commands/system-upgrade/system-upgrade.cpp:78
 msgid ""
 "Do not install packages from the new release if they are older than what is "
 "currently installed"
 msgstr ""
+"Yeni sürümdeki paketler şu anda kurulu olanlardan daha eskiyse onları kurma"
 
 #: commands/system-upgrade/system-upgrade.cpp:97
 msgid "Need a --releasever greater than the current system version."
-msgstr ""
+msgstr "Geçerli sistem sürümünden daha büyük bir --releasever belirtilmelidir."
 
 #: commands/system-upgrade/system-upgrade.cpp:131
 msgid "Store a distro-sync transaction to be performed offline"
@@ -605,7 +605,7 @@ msgstr "\"{}\" paketi zaten dışlanmış."
 
 #: context.cpp:83
 msgid "The key was successfully imported."
-msgstr ""
+msgstr "Anahtar başarıyla içe aktarıldı."
 
 #: context.cpp:260
 msgid "No matching repositories for \"{}\""
@@ -619,35 +619,35 @@ msgstr ""
 
 #: library.cpp:33
 msgid "Cannot load shared library \"{}\": {}"
-msgstr ""
+msgstr "\"{}\" paylaşılan kütüphanesi yüklenemiyor: {}"
 
 #: library.cpp:48
 msgid "Cannot obtain address of symbol \"{}\": {}"
-msgstr ""
+msgstr "\"{}\" simgesinin adresi alınamıyor: {}"
 
 #: main.cpp:125
 msgid "Utility for packages maintaining"
-msgstr ""
+msgstr "Paket yönetimi programı"
 
 #: main.cpp:126
 msgid "DNF5 is a program for maintaining packages."
-msgstr ""
+msgstr "DNF5, paketleri yönetmek için kullanılan bir programdır."
 
 #: main.cpp:127
 msgid "Unclassified options:"
-msgstr ""
+msgstr "Sınıflandırılmayan seçenekler:"
 
 #: main.cpp:130
 msgid "Global options:"
-msgstr ""
+msgstr "Genel seçenekler:"
 
 #: main.cpp:135
 msgid "Print help"
-msgstr ""
+msgstr "Yardımı göster"
 
 #: main.cpp:142
 msgid "Configuration file location"
-msgstr ""
+msgstr "Yapılandırma dosyası konumu"
 
 #: main.cpp:150
 msgid ""
@@ -664,7 +664,7 @@ msgstr ""
 
 #: main.cpp:172
 msgid "Force refreshing metadata before running the command."
-msgstr ""
+msgstr "Komutu çalıştırmadan önce üst verileri yenilemeye zorla."
 
 #: main.cpp:188
 msgid "Failed to expire repository cache in path \"{0}\": {1}"
@@ -680,7 +680,7 @@ msgstr ""
 
 #: main.cpp:225
 msgid "set arbitrary config and repo options"
-msgstr ""
+msgstr "herhangi bir yapılandırma ve depo seçeneğini ayarla"
 
 #: main.cpp:227
 msgid ""
@@ -695,7 +695,7 @@ msgstr ""
 
 #: main.cpp:236 main.cpp:275
 msgid "{}: Badly formatted argument value \"{}\""
-msgstr ""
+msgstr "{}: Yanlış biçimlendirilen argüman değeri \"{}\""
 
 #: main.cpp:243
 msgid ""
@@ -704,23 +704,23 @@ msgstr ""
 
 #: main.cpp:256
 msgid "setopt: \"{0}\": {1}"
-msgstr ""
+msgstr "setopt: \"{0}\": {1}"
 
 #: main.cpp:282
 msgid "setvar: {}"
-msgstr ""
+msgstr "setvar: {}"
 
 #: main.cpp:291
 msgid "automatically answer yes for all questions"
-msgstr ""
+msgstr "tüm soruları kendiliğinden evet olarak yanıtla"
 
 #: main.cpp:298
 msgid "automatically answer no for all questions"
-msgstr ""
+msgstr "tüm soruları kendiliğinden hayır olarak yanıtla"
 
 #: main.cpp:312
 msgid "do not limit the transaction to the best candidate"
-msgstr ""
+msgstr "işlemi en iyi aday ile sınırlandırma"
 
 #: main.cpp:323
 msgid ""
@@ -730,45 +730,55 @@ msgstr ""
 
 #: main.cpp:339
 msgid "exclude packages by name or glob"
-msgstr ""
+msgstr "paketleri ad veya glob'a göre hariç tut"
 
 #: main.cpp:358
 msgid ""
 "Enable additional repositories. List option. Supports globs, can be "
 "specified multiple times."
 msgstr ""
+"İlave depoları etkinleştir. Liste seçeneği. Globları destekler, birden çok "
+"kez belirtilebilir."
 
 #: main.cpp:376
 msgid ""
 "Disable repositories. List option. Supports globs, can be specified multiple "
 "times."
 msgstr ""
+"Depoları devre dışı bırak. Liste seçeneği. Globları destekler, birden çok "
+"kez belirtilebilir."
 
 #: main.cpp:394
 msgid ""
 "Enable just specific repositories. List option. Supports globs, can be "
 "specified multiple times."
 msgstr ""
+"Yalnızca belirli depoları etkinleştir. Liste seçeneği. Globları destekler, "
+"birden çok kez belirtilebilir."
 
 #: main.cpp:416
 msgid "disable gpg signature checking (if RPM policy allows)"
-msgstr ""
+msgstr "gpg imza denetimini devre dışı bırak (RPM ilkesi izin veriyorsa)"
 
 #: main.cpp:442
 msgid ""
 "Enable libdnf5 plugins by name. List option. Supports globs, can be "
 "specified multiple times."
 msgstr ""
+"libdnf5 eklentilerini ada göre etkinleştir. Liste seçeneği. Globları "
+"destekler, birden çok kez belirtilebilir."
 
 #: main.cpp:457
 msgid ""
 "Disable libdnf5 plugins by name. List option. Supports globs, can be "
 "specified multiple times."
 msgstr ""
+"libdnf5 eklentilerini ada göre devre dışı bırak. Liste seçeneği. Globları "
+"destekler, birden çok kez belirtilebilir."
 
 #: main.cpp:474
 msgid "add a comment to transaction"
-msgstr ""
+msgstr "işleme bir yorum ekle"
 
 #: main.cpp:476
 msgid ""
@@ -778,7 +788,7 @@ msgstr ""
 
 #: main.cpp:489
 msgid "set install root"
-msgstr ""
+msgstr "kurulum kökünü ayarla"
 
 #: main.cpp:496
 msgid ""
@@ -789,6 +799,7 @@ msgstr ""
 #: main.cpp:505
 msgid "override the value of $releasever in config and repo files"
 msgstr ""
+"yapılandırmadaki ve depo dosyalarındaki $releasever değerinin üstüne yaz"
 
 #: main.cpp:518
 msgid ""
@@ -802,36 +813,38 @@ msgstr ""
 
 #: main.cpp:541
 msgid "Print main configuration values to stdout"
-msgstr ""
+msgstr "Ana yapılandırma değerlerini standart çıkışa yazdır"
 
 #: main.cpp:558
 msgid ""
 "Print repository configuration values to stdout. List option. Supports globs"
 msgstr ""
+"Depo yapılandırma değerlerini standart çıkışa yazdır. Liste seçeneği. "
+"Globları destekler"
 
 #: main.cpp:573
 msgid "Print variable values to stdout"
-msgstr ""
+msgstr "Değişken değerlerini standart çıkışa yazdır"
 
 #: main.cpp:587
 msgid "Show DNF5 version and exit"
-msgstr ""
+msgstr "DNF5 sürümünü göster ve çık"
 
 #: main.cpp:594
 msgid "Force the use of a different architecture."
-msgstr ""
+msgstr "Farklı bir mimari kullanmaya zorla."
 
 #: main.cpp:632
 msgid "Software Management Commands:"
-msgstr ""
+msgstr "Yazılım Yönetimi Komutları:"
 
 #: main.cpp:639
 msgid "Query Commands:"
-msgstr ""
+msgstr "Sorgu Komutları:"
 
 #: main.cpp:646
 msgid "Subcommands:"
-msgstr ""
+msgstr "Alt Komutlar:"
 
 #: main.cpp:832
 msgid "======== Main configuration: ========"
@@ -905,16 +918,16 @@ msgstr ""
 
 #: main.cpp:1449
 msgid "Complete!"
-msgstr ""
+msgstr "Tamamlandı!"
 
 #: shared_options.cpp:32
 msgid "Allow erasing of installed packages to resolve problems"
-msgstr ""
+msgstr "Sorunları çözmek için kurulu paketlerin silinmesine izin ver"
 
 #: shared_options.cpp:42
 msgid "Allow resolving of depsolve problems by skipping packages"
-msgstr ""
+msgstr "Paketleri atlayarak bağımlılık sorunlarının çözülmesine izin ver"
 
 #: shared_options.cpp:54
 msgid "Allow skipping unavailable packages"
-msgstr ""
+msgstr "Kullanılabilir olmayan paketlerin atlanmasına izin ver"
