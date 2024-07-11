@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-22 02:52+0000\n"
+"POT-Creation-Date: 2024-07-11 02:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,13 +25,13 @@ msgid ""
 "advisory prefix \"{}\""
 msgstr ""
 
-#: base/goal.cpp:401
+#: base/goal.cpp:470
 #, c++-format
 msgid "Unsupported argument for REMOVE action: {}"
 msgstr ""
 
 #. TODO(lukash) throw a proper exception
-#: base/goal.cpp:1447
+#: base/goal.cpp:1527
 #, c++-format
 msgid "Incorrect configuration value for multilib_policy: {}"
 msgstr ""
@@ -138,6 +138,14 @@ msgstr ""
 
 #: base/goal_elements.cpp:398
 msgid "Revert comps upgrade"
+msgstr ""
+
+#: base/goal_elements.cpp:400
+msgid "Install debug RPMs"
+msgstr ""
+
+#: base/goal_elements.cpp:402
+msgid "Transaction merge"
 msgstr ""
 
 #: base/log_event.cpp:141
@@ -361,6 +369,30 @@ msgstr ""
 #: base/log_event.cpp:341
 #, c++-format
 msgid "Cannot parse file: '{0}': {1}.\n"
+msgstr ""
+
+#: base/log_event.cpp:348
+#, c++-format
+msgid ""
+"Could not find debuginfo package for the following packages resolved from "
+"the argument '{0}': {1}"
+msgstr ""
+
+#: base/log_event.cpp:351 base/log_event.cpp:362
+msgctxt "String for joining NEVRAs - e.g. `foo-4-4.noarch, bar-5-5.noarch`"
+msgid ", "
+msgstr ""
+
+#: base/log_event.cpp:358
+#, c++-format
+msgid ""
+"Could not find debugsource package for the following packages resolved from "
+"the argument '{0}': {1}"
+msgstr ""
+
+#: base/log_event.cpp:365
+#, c++-format
+msgid "Transaction merge error: '{0}'"
 msgstr ""
 
 #: base/solver_problems.cpp:41
@@ -596,82 +628,82 @@ msgstr ""
 msgid "Problem {}: "
 msgstr ""
 
-#: base/transaction.cpp:77
+#: base/transaction.cpp:79
 msgid "This transaction has been already run before."
 msgstr ""
 
-#: base/transaction.cpp:78
+#: base/transaction.cpp:80
 msgid "Cannot run transaction with resolving problems."
 msgstr ""
 
-#: base/transaction.cpp:79
+#: base/transaction.cpp:81
 msgid "Rpm transaction check failed."
 msgstr ""
 
-#: base/transaction.cpp:81
+#: base/transaction.cpp:83
 msgid ""
 "Failed to obtain rpm transaction lock. Another transaction is in progress."
 msgstr ""
 
-#: base/transaction.cpp:82
+#: base/transaction.cpp:84
 msgid "Rpm transaction failed."
 msgstr ""
 
-#: base/transaction.cpp:83
+#: base/transaction.cpp:85
 msgid "Signature verification failed."
 msgstr ""
 
-#: base/transaction.cpp:87
+#: base/transaction.cpp:89
 msgid "The repository does not have any PGP keys configured."
 msgstr ""
 
-#: base/transaction.cpp:88
+#: base/transaction.cpp:90
 msgid "Public key is not installed."
 msgstr ""
 
-#: base/transaction.cpp:89
+#: base/transaction.cpp:91
 msgid "Canceled by the user."
 msgstr ""
 
-#: base/transaction.cpp:90
+#: base/transaction.cpp:92
 msgid "Public key import failed."
 msgstr ""
 
-#: base/transaction.cpp:963
+#: base/transaction.cpp:976
 #, c++-format
 msgid "Invalid tsflag: {}"
 msgstr ""
 
-#: base/transaction.cpp:1297
+#: base/transaction.cpp:1312
 #, c++-format
 msgid "Public key \"{}\" is already present, not importing."
 msgstr ""
 
-#: base/transaction.cpp:1318
+#: base/transaction.cpp:1333
 #, c++-format
 msgid "An error occurred importing key \"{}\": {}"
 msgstr ""
 
-#: base/transaction.cpp:1352
+#: base/transaction.cpp:1367
 #, c++-format
 msgid "PGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
 msgstr ""
 
-#: base/transaction.cpp:1380
+#: base/transaction.cpp:1395
 msgid "Import of the key didn't help, wrong key?"
 msgstr ""
 
-#: base/transaction.cpp:1399
+#: base/transaction.cpp:1414
 msgctxt "It is a joining character for repositories IDs"
 msgid ", "
 msgstr ""
 
-#: base/transaction.cpp:1402
+#: base/transaction.cpp:1417
 #, c++-format
 msgid "Warning: skipped PGP checks for 1 package from repository: {}"
 msgstr ""
 
-#: base/transaction.cpp:1404
+#: base/transaction.cpp:1419
 #, c++-format
 msgid "Warning: skipped PGP checks for {0} packages from repository: {1}"
 msgid_plural ""
@@ -965,7 +997,7 @@ msgstr ""
 msgid "Failed to download files"
 msgstr ""
 
-#: repo/librepo.cpp:123
+#: repo/librepo.cpp:118
 msgid ""
 "Maximum download speed is lower than minimum, please change configuration of "
 "minrate or throttle"
@@ -1080,14 +1112,14 @@ msgstr ""
 msgid "Failed to import pgp keys: {}"
 msgstr ""
 
-#: repo/repo_sack.cpp:125
+#: repo/repo_sack.cpp:128
 #, c++-format
 msgid ""
 "Failed to create repo \"{}\": Id is present more than once in the "
 "configuration"
 msgstr ""
 
-#: repo/repo_sack.cpp:496
+#: repo/repo_sack.cpp:499
 #, c++-format
 msgid "Cache-only enabled but no cache for repository \"{}\""
 msgstr ""
@@ -1272,7 +1304,7 @@ msgstr ""
 msgid "Cannot install package \"{}\""
 msgstr ""
 
-#: rpm/versionlock_config.cpp:261 system/state.cpp:513
+#: rpm/versionlock_config.cpp:261 system/state.cpp:517
 #, c++-format
 msgid "{}"
 msgstr ""
@@ -1288,17 +1320,17 @@ msgstr ""
 msgid "Writing debugsolver data into \"{}\" failed: {}"
 msgstr ""
 
-#: system/state.cpp:226 system/state.cpp:235
+#: system/state.cpp:228 system/state.cpp:237
 #, c++-format
 msgid "Invalid TOML version \"{}\", \"MAJOR.MINOR\" expected"
 msgstr ""
 
-#: system/state.cpp:243
+#: system/state.cpp:245
 #, c++-format
 msgid "{} state for \"{}\" not found."
 msgstr ""
 
-#: system/state.cpp:540
+#: system/state.cpp:546
 #, c++-format
 msgid "Unsupported TOML version \"{}\", maximum supported version is \"{}\""
 msgstr ""
@@ -1375,6 +1407,79 @@ msgstr ""
 #: transaction/transaction_item_type.cpp:28
 #, c++-format
 msgid "Invalid transaction item type: {}"
+msgstr ""
+
+#: transaction/transaction_merge.cpp:102
+#, c++-format
+msgid ""
+"Action '{0}' '{1}' cannot be merged after it was '{2}' in preceding "
+"transactions -> setting '{0}'."
+msgstr ""
+
+#: transaction/transaction_merge.cpp:116
+#, c++-format
+msgid ""
+"Action 'Upgrade' '{0}' cannot be merged because it is not present at that "
+"point -> setting 'Install'."
+msgstr ""
+
+#: transaction/transaction_merge.cpp:174 transaction/transaction_merge.cpp:231
+#, c++-format
+msgid ""
+"Action 'Reinstall' '{0}' cannot be merged because it is not present at that "
+"point -> setting 'Install'."
+msgstr ""
+
+#: transaction/transaction_merge.cpp:194
+#, c++-format
+msgid ""
+"Action '{0}' '{1}' cannot be merged after it was '{2}' in preceding "
+"transaction -> setting '{0}'."
+msgstr ""
+
+#: transaction/transaction_merge.cpp:215
+#, c++-format
+msgid "Unexpected action encountered: '{0}' during transaction merge."
+msgstr ""
+
+#: transaction/transaction_merge.cpp:224
+#, c++-format
+msgid ""
+"Action '{0}' '{1}' cannot be merged because it is not present at that point -"
+"> skipping it."
+msgstr ""
+
+#: transaction/transaction_merge.cpp:245
+#, c++-format
+msgid ""
+"Action '{0}' '{1}' cannot be merged because it is not present at that point -"
+"> setting 'INSTALL'."
+msgstr ""
+
+#: transaction/transaction_merge.cpp:266
+#, c++-format
+msgid ""
+"Action '{0}' '{1}' cannot be merged because it is not present at that point "
+"(present versions are: {2}) -> skipping it."
+msgstr ""
+
+#: transaction/transaction_merge.cpp:277
+#, c++-format
+msgid ""
+"Action '{0}' '{1}' cannot be merged because it is already present at that "
+"point -> skipping it."
+msgstr ""
+
+#: transaction/transaction_merge.cpp:294
+#, c++-format
+msgid ""
+"Action '{0}' '{1}' cannot be merged because it is already installed in "
+"version '{2}' -> keeping the action from older transaction with '{1}'."
+msgstr ""
+
+#: transaction/transaction_merge.cpp:304
+#, c++-format
+msgid "Invalid action encountered: '{0}' during transaction merge."
 msgstr ""
 
 #: transaction/transaction_sr.cpp:49
