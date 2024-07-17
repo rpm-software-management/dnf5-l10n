@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-17 02:53+0000\n"
-"PO-Revision-Date: 2024-07-12 04:38+0000\n"
+"PO-Revision-Date: 2024-07-18 02:47+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/ka/>\n"
@@ -1419,102 +1419,69 @@ msgstr ""
 "მხარდაუჭერელი ძირითადი ვერსია \"{}\". მხარდაჭერილი ძირითადი ვერსიაა \"{}\""
 
 #: transaction/transaction_sr.cpp:81
-#, fuzzy
-#| msgid "Invalid minor version: \"{}\", number expected."
 msgid "Invalid minor version: \"{}\", number expected"
-msgstr "არასწორი მცირე ვერსია: '{}\". მოველოდი რიცხვს."
+msgstr "არასწორი მცირე ვერსია: '{}\". მოველოდი რიცხვს"
 
 #: transaction/transaction_sr.cpp:84
-#, fuzzy
-#| msgid "Missing key \"version\"."
 msgid "Missing key \"version\""
-msgstr "ვერ ვიპოვე პარამეტრი \"version\"."
+msgstr "ვერ ვიპოვე პარამეტრი \"version\""
 
 #: transaction/transaction_sr.cpp:97
-#, fuzzy
-#| msgid "Unexpected type of \"environments\", array expected."
 msgid "Unexpected type of \"environments\", array expected"
-msgstr "\"environments\"-ის მოულოდნელი ტიპი. მოველოდი მასივს."
+msgstr "\"environments\"-ის მოულოდნელი ტიპი. მოველოდი მასივს"
 
 #: transaction/transaction_sr.cpp:105
-#, fuzzy
-#| msgid "Missing object key \"id\" in an environment."
 msgid "Missing object key \"id\" in an environment"
-msgstr "გარემოში ობიექტის პარამეტრი \"id\" ვერ ვიპოვე."
+msgstr "გარემოში ობიექტის პარამეტრი \"id\" ვერ ვიპოვე"
 
 #: transaction/transaction_sr.cpp:110
-#, fuzzy
-#| msgid "Missing object key \"action\" in an environment."
 msgid "Missing object key \"action\" in an environment"
-msgstr "გარემოში ობიექტის პარამეტრი \"action\" ვერ ვიპოვე."
+msgstr "გარემოში ობიექტის პარამეტრი \"action\" ვერ ვიპოვე"
 
 #: transaction/transaction_sr.cpp:137
-#, fuzzy
-#| msgid "Unexpected type of \"groups\", array expected."
 msgid "Unexpected type of \"groups\", array expected"
-msgstr "\"groups\"-ის მოულოდნელი ტიპი. მოველოდი მასივს."
+msgstr "\"groups\"-ის მოულოდნელი ტიპი. მოველოდი მასივს"
 
 #: transaction/transaction_sr.cpp:145
-#, fuzzy
-#| msgid "Missing object key \"id\" in a group."
 msgid "Missing object key \"id\" in a group"
-msgstr "ჯგუფში ობიექტის პარამეტრი \"id\" ვერ ვიპოვე."
+msgstr "ჯგუფში ობიექტის პარამეტრი \"id\" ვერ ვიპოვე"
 
 #: transaction/transaction_sr.cpp:150
-#, fuzzy
-#| msgid "Missing object key \"action\" in a group."
 msgid "Missing object key \"action\" in a group"
-msgstr "ჯგუფში ობიექტის პარამეტრი \"action\" ვერ ვიპოვე."
+msgstr "ჯგუფში ობიექტის პარამეტრი \"action\" ვერ ვიპოვე"
 
 #: transaction/transaction_sr.cpp:155
-#, fuzzy
-#| msgid "Missing object key \"reason\" in a group."
 msgid "Missing object key \"reason\" in a group"
-msgstr "ჯგუფში ობიექტის პარამეტრი \"reason\" ვერ ვიპოვე."
+msgstr "ჯგუფში ობიექტის პარამეტრი \"reason\" ვერ ვიპოვე"
 
 #: transaction/transaction_sr.cpp:193
-#, fuzzy
-#| msgid "Unexpected type of \"rpms\", array expected."
 msgid "Unexpected type of \"rpms\", array expected"
-msgstr "\"rpms\"-ის მოულოდნელი ტიპი. მოველოდი მასივს."
+msgstr "\"rpms\"-ის მოულოდნელი ტიპი. მოველოდი მასივს"
 
 #: transaction/transaction_sr.cpp:202
-#, fuzzy
-#| msgid "Cannot parse NEVRA for rpm \"{}\"."
 msgid "Cannot parse NEVRA for rpm \"{}\""
-msgstr "NEVRA-ის დამუშავება შეუძლებელია rpm-სთვის \"{}\"."
+msgstr "NEVRA-ის დამუშავება შეუძლებელია rpm-სთვის \"{}\""
 
 #: transaction/transaction_sr.cpp:210
-#, fuzzy
-#| msgid ""
-#| "Either \"nevra\" or \"package_path\" object key is required in an rpm."
 msgid "Either \"nevra\" or \"package_path\" object key is required in an rpm"
 msgstr ""
-"აუცილებელია rpm-ში \"nevra\" ან \"package_path\" ობიექტის პარამეტრის ქონა."
+"აუცილებელია rpm-ში \"nevra\" ან \"package_path\" ობიექტის პარამეტრის ქონა"
 
 #: transaction/transaction_sr.cpp:215
-#, fuzzy
-#| msgid "Missing object key \"action\" in an rpm."
 msgid "Missing object key \"action\" in an rpm"
-msgstr "'rpm'-ში ობიექტის პარამეტრი \"action\" ვერ ვიპოვე."
+msgstr "'rpm'-ში ობიექტის პარამეტრი \"action\" ვერ ვიპოვე"
 
 #: transaction/transaction_sr.cpp:220
-#, fuzzy
-#| msgid "Missing object key \"reason\" in an rpm."
 msgid "Missing object key \"reason\" in an rpm"
-msgstr "'rpm'-ში ობიექტის პარამეტრი \"reason\" ვერ ვიპოვე."
+msgstr "'rpm'-ში ობიექტის პარამეტრი \"reason\" ვერ ვიპოვე"
 
 #: transaction/transaction_sr.cpp:227
-#, fuzzy
-#| msgid ""
-#| "Missing mandatory object key \"group_id\" in an rpm with reason \"Group\" "
-#| "and action \"Reason Change\"."
 msgid ""
 "Missing mandatory object key \"group_id\" in an rpm with reason \"Group\" "
 "and action \"Reason Change\""
 msgstr ""
 "'rpm'-ში აუცილებელი ობიექტის პარამეტრი \"group_id\" ვერ ვიპოვე მიზეზით "
-"\"Group\" და ქმედებით \"Reason Change\"."
+"\"Group\" და ქმედებით \"Reason Change\""
 
 #: utils/fs/file.cpp:86
 msgid "cannot open file"
