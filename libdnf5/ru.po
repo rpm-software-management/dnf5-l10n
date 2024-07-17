@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-11 02:53+0000\n"
+"POT-Creation-Date: 2024-07-17 02:53+0000\n"
 "PO-Revision-Date: 2024-07-15 14:38+0000\n"
 "Last-Translator: Aleksey Fedorov <aleksejfedorov963@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -32,7 +32,7 @@ msgid "Unsupported argument for REMOVE action: {}"
 msgstr "Неподдерживаемый аргумент для действия REMOVE: {}"
 
 #. TODO(lukash) throw a proper exception
-#: base/goal.cpp:1527
+#: base/goal.cpp:1528
 msgid "Incorrect configuration value for multilib_policy: {}"
 msgstr "Неверное значение конфигурации для multilib_policy: {}"
 
@@ -1348,7 +1348,8 @@ msgstr ""
 
 #: transaction/transaction_merge.cpp:215
 msgid "Unexpected action encountered: '{0}' during transaction merge."
-msgstr "Во время объединения транзакций обнаружено неожиданное действие: '{0}'."
+msgstr ""
+"Во время объединения транзакций обнаружено неожиданное действие: '{0}'."
 
 #: transaction/transaction_merge.cpp:224
 msgid ""
@@ -1414,67 +1415,100 @@ msgstr ""
 "\"{}\""
 
 #: transaction/transaction_sr.cpp:81
-msgid "Invalid minor version: \"{}\", number expected."
+#, fuzzy
+#| msgid "Invalid minor version: \"{}\", number expected."
+msgid "Invalid minor version: \"{}\", number expected"
 msgstr "Недопустимая минорная версия: \"{}\", ожидается число."
 
 #: transaction/transaction_sr.cpp:84
-msgid "Missing key \"version\"."
+#, fuzzy
+#| msgid "Missing key \"version\"."
+msgid "Missing key \"version\""
 msgstr "Отсутствует ключ \"version\"."
 
 #: transaction/transaction_sr.cpp:97
-msgid "Unexpected type of \"environments\", array expected."
+#, fuzzy
+#| msgid "Unexpected type of \"environments\", array expected."
+msgid "Unexpected type of \"environments\", array expected"
 msgstr "Неожиданный тип \"environments\", ожидается массив."
 
 #: transaction/transaction_sr.cpp:105
-msgid "Missing object key \"id\" in an environment."
+#, fuzzy
+#| msgid "Missing object key \"id\" in an environment."
+msgid "Missing object key \"id\" in an environment"
 msgstr "Отсутствует ключ объекта \"id\" в среде."
 
 #: transaction/transaction_sr.cpp:110
-msgid "Missing object key \"action\" in an environment."
+#, fuzzy
+#| msgid "Missing object key \"action\" in an environment."
+msgid "Missing object key \"action\" in an environment"
 msgstr "Отсутствует объектный ключ \"action\" в среде."
 
-#: transaction/transaction_sr.cpp:135
-msgid "Unexpected type of \"groups\", array expected."
+#: transaction/transaction_sr.cpp:137
+#, fuzzy
+#| msgid "Unexpected type of \"groups\", array expected."
+msgid "Unexpected type of \"groups\", array expected"
 msgstr "Неожиданный тип \"groups\", ожидается массив."
 
-#: transaction/transaction_sr.cpp:143
-msgid "Missing object key \"id\" in a group."
+#: transaction/transaction_sr.cpp:145
+#, fuzzy
+#| msgid "Missing object key \"id\" in a group."
+msgid "Missing object key \"id\" in a group"
 msgstr "Отсутствует объект-ключ \"id\" в группе."
 
-#: transaction/transaction_sr.cpp:148
-msgid "Missing object key \"action\" in a group."
+#: transaction/transaction_sr.cpp:150
+#, fuzzy
+#| msgid "Missing object key \"action\" in a group."
+msgid "Missing object key \"action\" in a group"
 msgstr "Отсутствует объект-ключ \"action\" в группе."
 
-#: transaction/transaction_sr.cpp:153
-msgid "Missing object key \"reason\" in a group."
+#: transaction/transaction_sr.cpp:155
+#, fuzzy
+#| msgid "Missing object key \"reason\" in a group."
+msgid "Missing object key \"reason\" in a group"
 msgstr "Отсутствует объект-ключ \"reason\" в группе."
 
-#: transaction/transaction_sr.cpp:182
-msgid "Unexpected type of \"rpms\", array expected."
+#: transaction/transaction_sr.cpp:193
+#, fuzzy
+#| msgid "Unexpected type of \"rpms\", array expected."
+msgid "Unexpected type of \"rpms\", array expected"
 msgstr "Неожиданный тип \"rpms\", ожидается массив."
 
-#: transaction/transaction_sr.cpp:191
-msgid "Cannot parse NEVRA for rpm \"{}\"."
+#: transaction/transaction_sr.cpp:202
+#, fuzzy
+#| msgid "Cannot parse NEVRA for rpm \"{}\"."
+msgid "Cannot parse NEVRA for rpm \"{}\""
 msgstr "Невозможно разобрать NEVRA для rpm \"{}\"."
 
-#: transaction/transaction_sr.cpp:199
-msgid "Either \"nevra\" or \"package_path\" object key is required in an rpm."
+#: transaction/transaction_sr.cpp:210
+#, fuzzy
+#| msgid ""
+#| "Either \"nevra\" or \"package_path\" object key is required in an rpm."
+msgid "Either \"nevra\" or \"package_path\" object key is required in an rpm"
 msgstr ""
 "В rpm требуется либо объект-ключ \"nevra\", либо объект-ключ "
 "\"package_path\"."
 
-#: transaction/transaction_sr.cpp:204
-msgid "Missing object key \"action\" in an rpm."
+#: transaction/transaction_sr.cpp:215
+#, fuzzy
+#| msgid "Missing object key \"action\" in an rpm."
+msgid "Missing object key \"action\" in an rpm"
 msgstr "Отсутствует объект-ключ \"action\" в rpm."
 
-#: transaction/transaction_sr.cpp:209
-msgid "Missing object key \"reason\" in an rpm."
+#: transaction/transaction_sr.cpp:220
+#, fuzzy
+#| msgid "Missing object key \"reason\" in an rpm."
+msgid "Missing object key \"reason\" in an rpm"
 msgstr "Отсутствует объект-ключ \"reason\" в rpm."
 
-#: transaction/transaction_sr.cpp:216
+#: transaction/transaction_sr.cpp:227
+#, fuzzy
+#| msgid ""
+#| "Missing mandatory object key \"group_id\" in an rpm with reason \"Group\" "
+#| "and action \"Reason Change\"."
 msgid ""
 "Missing mandatory object key \"group_id\" in an rpm with reason \"Group\" "
-"and action \"Reason Change\"."
+"and action \"Reason Change\""
 msgstr ""
 "Отсутствует обязательный ключ-объект \"group_id\" в rpm с причиной \"Group\" "
 "и действием \"Reason Change\"."

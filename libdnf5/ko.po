@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-11 02:53+0000\n"
+"POT-Creation-Date: 2024-07-17 02:53+0000\n"
 "PO-Revision-Date: 2024-07-13 08:38+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
@@ -33,7 +33,7 @@ msgid "Unsupported argument for REMOVE action: {}"
 msgstr "제거(REMOVE) 동작을 위해 미지원된 인수: {}"
 
 #. TODO(lukash) throw a proper exception
-#: base/goal.cpp:1527
+#: base/goal.cpp:1528
 msgid "Incorrect configuration value for multilib_policy: {}"
 msgstr "multilib_policy용 잘못된 구성 값: {}"
 
@@ -357,8 +357,9 @@ msgstr "파일을 구문 분석 할 수 없습니다: '{0}': {1}.\n"
 msgid ""
 "Could not find debuginfo package for the following packages resolved from "
 "the argument '{0}': {1}"
-msgstr "인수에서 해결된 다음 꾸러미를 위한 debuginfo 꾸러미를 찾을 수 없습니다 '{0}':"
-" {1}"
+msgstr ""
+"인수에서 해결된 다음 꾸러미를 위한 debuginfo 꾸러미를 찾을 수 없습니다 "
+"'{0}': {1}"
 
 #: base/log_event.cpp:351 base/log_event.cpp:362
 msgctxt "String for joining NEVRAs - e.g. `foo-4-4.noarch, bar-5-5.noarch`"
@@ -369,7 +370,8 @@ msgstr ", "
 msgid ""
 "Could not find debugsource package for the following packages resolved from "
 "the argument '{0}': {1}"
-msgstr "인수에서 해결된 다음 꾸러미를 위한 debugsource 꾸러미를 찾을 수 없습니다 "
+msgstr ""
+"인수에서 해결된 다음 꾸러미를 위한 debugsource 꾸러미를 찾을 수 없습니다 "
 "'{0}': {1}"
 
 #: base/log_event.cpp:365
@@ -1280,29 +1282,33 @@ msgstr "잘못된 연결 항목 유형: {}"
 msgid ""
 "Action '{0}' '{1}' cannot be merged after it was '{2}' in preceding "
 "transactions -> setting '{0}'."
-msgstr "동작 '{0}' '{1}'은 이전 거래에서 '{2}' 이후에 병합 할 수 없습니다 -> '{0}' "
-"설정."
+msgstr ""
+"동작 '{0}' '{1}'은 이전 거래에서 '{2}' 이후에 병합 할 수 없습니다 -> '{0}' 설"
+"정."
 
 #: transaction/transaction_merge.cpp:116
 msgid ""
 "Action 'Upgrade' '{0}' cannot be merged because it is not present at that "
 "point -> setting 'Install'."
-msgstr "동작 '향상' '{0}'은 그 지점에서 존재하지 않기 때문에 병합 할 수 없습니다 -> "
+msgstr ""
+"동작 '향상' '{0}'은 그 지점에서 존재하지 않기 때문에 병합 할 수 없습니다 -> "
 "'설치' 설정."
 
 #: transaction/transaction_merge.cpp:174 transaction/transaction_merge.cpp:231
 msgid ""
 "Action 'Reinstall' '{0}' cannot be merged because it is not present at that "
 "point -> setting 'Install'."
-msgstr "동작 '재설치' '{0}'은 그 지점에서 존재하지 않기 때문에 병합 할 수 없습니다 -"
+msgstr ""
+"동작 '재설치' '{0}'은 그 지점에서 존재하지 않기 때문에 병합 할 수 없습니다 -"
 "> '설치' 설정."
 
 #: transaction/transaction_merge.cpp:194
 msgid ""
 "Action '{0}' '{1}' cannot be merged after it was '{2}' in preceding "
 "transaction -> setting '{0}'."
-msgstr "동작 '{0}' '{1}'은 앞선 연결에서 '{2}' 이후에 병합 할 수 없습니다 -> '{0}' "
-"설정."
+msgstr ""
+"동작 '{0}' '{1}'은 앞선 연결에서 '{2}' 이후에 병합 할 수 없습니다 -> '{0}' 설"
+"정."
 
 #: transaction/transaction_merge.cpp:215
 msgid "Unexpected action encountered: '{0}' during transaction merge."
@@ -1312,37 +1318,41 @@ msgstr "예상치 못한 동작에 빠졌습니다: 연결 병합 중에 '{0}'."
 msgid ""
 "Action '{0}' '{1}' cannot be merged because it is not present at that point -"
 "> skipping it."
-msgstr "동작 '{0}' '{1}'은 그 시점에서 존재하지 않기 때문에 병합 할 수 없습니다 -> "
-"이를 건너 뛰기."
+msgstr ""
+"동작 '{0}' '{1}'은 그 시점에서 존재하지 않기 때문에 병합 할 수 없습니다 -> 이"
+"를 건너 뛰기."
 
 #: transaction/transaction_merge.cpp:245
 msgid ""
 "Action '{0}' '{1}' cannot be merged because it is not present at that point -"
 "> setting 'INSTALL'."
-msgstr "동작 '{0}' '{1}'은 그 시점에서 존재하지 않기 때문에 병합 할 수 없습니다 -> "
+msgstr ""
+"동작 '{0}' '{1}'은 그 시점에서 존재하지 않기 때문에 병합 할 수 없습니다 -> "
 "\"설치\" 설정."
 
 #: transaction/transaction_merge.cpp:266
 msgid ""
 "Action '{0}' '{1}' cannot be merged because it is not present at that point "
 "(present versions are: {2}) -> skipping it."
-msgstr "동작 '{0}' '{1}'은 그 시점에서 존재하지 않기 때문에 병합 할 수 없습니다(존재 "
+msgstr ""
+"동작 '{0}' '{1}'은 그 시점에서 존재하지 않기 때문에 병합 할 수 없습니다(존재 "
 "버전: {2}) -> 이를 건너 뛰기."
 
 #: transaction/transaction_merge.cpp:277
 msgid ""
 "Action '{0}' '{1}' cannot be merged because it is already present at that "
 "point -> skipping it."
-msgstr "동작 '{0}' '{1}'은 그 시점에서 이미 존재하기 때문에 병합 할 수 없습니다 -> "
-"이를 건너 뛰기."
+msgstr ""
+"동작 '{0}' '{1}'은 그 시점에서 이미 존재하기 때문에 병합 할 수 없습니다 -> 이"
+"를 건너 뛰기."
 
 #: transaction/transaction_merge.cpp:294
 msgid ""
 "Action '{0}' '{1}' cannot be merged because it is already installed in "
 "version '{2}' -> keeping the action from older transaction with '{1}'."
 msgstr ""
-"동작 '{0}' '{1}'은 버전 '{2}'로 이미 설치되어 있기 때문에 병합 할 수 "
-"없습니다 -> '{1}'을 갖는 이전 연결에서 동작을 유지하기."
+"동작 '{0}' '{1}'은 버전 '{2}'로 이미 설치되어 있기 때문에 병합 할 수 없습니"
+"다 -> '{1}'을 갖는 이전 연결에서 동작을 유지하기."
 
 #: transaction/transaction_merge.cpp:304
 msgid "Invalid action encountered: '{0}' during transaction merge."
@@ -1365,65 +1375,98 @@ msgid "Incompatible major version: \"{}\", supported major version is \"{}\""
 msgstr "호환되지 않은 주요 버전: \"{}\", 지원되는 주요 버전은 \"{}\"입니다"
 
 #: transaction/transaction_sr.cpp:81
-msgid "Invalid minor version: \"{}\", number expected."
+#, fuzzy
+#| msgid "Invalid minor version: \"{}\", number expected."
+msgid "Invalid minor version: \"{}\", number expected"
 msgstr "잘못된 하위 버전: \"{}\", 번호가 예상됩니다."
 
 #: transaction/transaction_sr.cpp:84
-msgid "Missing key \"version\"."
+#, fuzzy
+#| msgid "Missing key \"version\"."
+msgid "Missing key \"version\""
 msgstr "누락된 키 \"version\"."
 
 #: transaction/transaction_sr.cpp:97
-msgid "Unexpected type of \"environments\", array expected."
+#, fuzzy
+#| msgid "Unexpected type of \"environments\", array expected."
+msgid "Unexpected type of \"environments\", array expected"
 msgstr "\"environments\"의 예상치 못한 유형, 배열이 예상됩니다."
 
 #: transaction/transaction_sr.cpp:105
-msgid "Missing object key \"id\" in an environment."
+#, fuzzy
+#| msgid "Missing object key \"id\" in an environment."
+msgid "Missing object key \"id\" in an environment"
 msgstr "환경에서 누락된 객체 키 \"id\"."
 
 #: transaction/transaction_sr.cpp:110
-msgid "Missing object key \"action\" in an environment."
+#, fuzzy
+#| msgid "Missing object key \"action\" in an environment."
+msgid "Missing object key \"action\" in an environment"
 msgstr "환경에서 누락된 객체 키 \"action\"."
 
-#: transaction/transaction_sr.cpp:135
-msgid "Unexpected type of \"groups\", array expected."
+#: transaction/transaction_sr.cpp:137
+#, fuzzy
+#| msgid "Unexpected type of \"groups\", array expected."
+msgid "Unexpected type of \"groups\", array expected"
 msgstr "\"groups\"의 예상치 못한 유형, 배열이 예상됩니다."
 
-#: transaction/transaction_sr.cpp:143
-msgid "Missing object key \"id\" in a group."
+#: transaction/transaction_sr.cpp:145
+#, fuzzy
+#| msgid "Missing object key \"id\" in a group."
+msgid "Missing object key \"id\" in a group"
 msgstr "그룹에서 누락된 객체 키 \"id\"."
 
-#: transaction/transaction_sr.cpp:148
-msgid "Missing object key \"action\" in a group."
+#: transaction/transaction_sr.cpp:150
+#, fuzzy
+#| msgid "Missing object key \"action\" in a group."
+msgid "Missing object key \"action\" in a group"
 msgstr "그룹에서 누락된 객체 키 \"action\"."
 
-#: transaction/transaction_sr.cpp:153
-msgid "Missing object key \"reason\" in a group."
+#: transaction/transaction_sr.cpp:155
+#, fuzzy
+#| msgid "Missing object key \"reason\" in a group."
+msgid "Missing object key \"reason\" in a group"
 msgstr "그룹에서 누락된 객체 키 \"reason\"."
 
-#: transaction/transaction_sr.cpp:182
-msgid "Unexpected type of \"rpms\", array expected."
+#: transaction/transaction_sr.cpp:193
+#, fuzzy
+#| msgid "Unexpected type of \"rpms\", array expected."
+msgid "Unexpected type of \"rpms\", array expected"
 msgstr "\"rpms\"의 예상치 못한 유형, 배열이 예상됩니다."
 
-#: transaction/transaction_sr.cpp:191
-msgid "Cannot parse NEVRA for rpm \"{}\"."
+#: transaction/transaction_sr.cpp:202
+#, fuzzy
+#| msgid "Cannot parse NEVRA for rpm \"{}\"."
+msgid "Cannot parse NEVRA for rpm \"{}\""
 msgstr "rpm \"{}\"을 위한 NEVRA를 구문 분석 할 수 없습니다."
 
-#: transaction/transaction_sr.cpp:199
-msgid "Either \"nevra\" or \"package_path\" object key is required in an rpm."
+#: transaction/transaction_sr.cpp:210
+#, fuzzy
+#| msgid ""
+#| "Either \"nevra\" or \"package_path\" object key is required in an rpm."
+msgid "Either \"nevra\" or \"package_path\" object key is required in an rpm"
 msgstr "\"nevra\" 또는 \"package_path\" 중에 객체 키는 rpm에서 필요합니다."
 
-#: transaction/transaction_sr.cpp:204
-msgid "Missing object key \"action\" in an rpm."
+#: transaction/transaction_sr.cpp:215
+#, fuzzy
+#| msgid "Missing object key \"action\" in an rpm."
+msgid "Missing object key \"action\" in an rpm"
 msgstr "rpm에서 누락된 객체 키 \"action\"."
 
-#: transaction/transaction_sr.cpp:209
-msgid "Missing object key \"reason\" in an rpm."
+#: transaction/transaction_sr.cpp:220
+#, fuzzy
+#| msgid "Missing object key \"reason\" in an rpm."
+msgid "Missing object key \"reason\" in an rpm"
 msgstr "rpm에서 누락된 객체 키 \"reason\"."
 
-#: transaction/transaction_sr.cpp:216
+#: transaction/transaction_sr.cpp:227
+#, fuzzy
+#| msgid ""
+#| "Missing mandatory object key \"group_id\" in an rpm with reason \"Group\" "
+#| "and action \"Reason Change\"."
 msgid ""
 "Missing mandatory object key \"group_id\" in an rpm with reason \"Group\" "
-"and action \"Reason Change\"."
+"and action \"Reason Change\""
 msgstr ""
 "원인 \"Group\" 및 동작 \"Reason Change\" 과 함께 rpm에서 누락된 필 수 객체 "
 "키 \"group_id\"."
