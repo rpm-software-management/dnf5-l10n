@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-17 02:53+0000\n"
+"POT-Creation-Date: 2024-07-18 02:52+0000\n"
 "PO-Revision-Date: 2024-06-23 04:35+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -276,7 +276,7 @@ msgid "Don't consider extra packages pulled into the transaction as errors."
 msgstr "ტრანზაქციაში შეტანილი დამატებითი პაკეტები შეცდომად აღქმული არ იქნება."
 
 #: commands/history/history_rollback.cpp:57
-#: commands/history/history_undo.cpp:56
+#: commands/history/history_store.cpp:80 commands/history/history_undo.cpp:56
 msgid "No matching transaction ID found, exactly one required."
 msgstr "შესაბამისი ტრანზაქციის ID აღმოჩენილი არაა. საჭიროა ზუსტად ერთი."
 
@@ -285,15 +285,11 @@ msgstr "შესაბამისი ტრანზაქციის ID ა�
 msgid "Matched more than one transaction ID, exactly one required."
 msgstr "ემთხვევა ერთზე მეტი ტრანზაქციის ID. აუცილებელია ზუსტად ერთი."
 
-#: commands/history/history_store.cpp:65
+#: commands/history/history_store.cpp:66
 msgid "File \"{}\" already exists, it will be overwritten.\n"
 msgstr "ფაილი \"{}\" უკვე არსებობს. მას თავზე გადავაწერ.\n"
 
-#: commands/history/history_store.cpp:79
-msgid "No transactions selected for storing, exactly one required."
-msgstr "შესანახად ტრანზაქცია მონიშნული არაა. აუცილებელია ზუსტად ერთი."
-
-#: commands/history/history_store.cpp:82
+#: commands/history/history_store.cpp:83
 msgid "Multiple transactions selected for storing, only one allowed."
 msgstr "შესანახად მონიშნულია ერთზე მეტი ტრანზაქცია. დაშვებულია მხოლოდ ერთი."
 
@@ -1043,6 +1039,9 @@ msgstr ""
 #: shared_options.cpp:54
 msgid "Allow skipping unavailable packages"
 msgstr "ხელმიუწვდომელი პაკეტების გამოტოვების დაშვება"
+
+#~ msgid "No transactions selected for storing, exactly one required."
+#~ msgstr "შესანახად ტრანზაქცია მონიშნული არაა. აუცილებელია ზუსტად ერთი."
 
 #~ msgid "error reading offline state file"
 #~ msgstr "ქსელგარეშე მდგომარეობის ფაილის წაკითხვის შეცდომა"

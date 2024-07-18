@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-17 02:53+0000\n"
+"POT-Creation-Date: 2024-07-18 02:52+0000\n"
 "PO-Revision-Date: 2024-06-24 12:53+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -282,7 +282,7 @@ msgstr ""
 "des erreurs."
 
 #: commands/history/history_rollback.cpp:57
-#: commands/history/history_undo.cpp:56
+#: commands/history/history_store.cpp:80 commands/history/history_undo.cpp:56
 msgid "No matching transaction ID found, exactly one required."
 msgstr "Aucun ID de transaction correspondant, 1 ID requis."
 
@@ -291,17 +291,11 @@ msgstr "Aucun ID de transaction correspondant, 1 ID requis."
 msgid "Matched more than one transaction ID, exactly one required."
 msgstr "Plus d'un ID de transaction correspondant, un seul est requis."
 
-#: commands/history/history_store.cpp:65
+#: commands/history/history_store.cpp:66
 msgid "File \"{}\" already exists, it will be overwritten.\n"
 msgstr "Le fichier \"{}\" existe déjà, il sera écrasé.\n"
 
-#: commands/history/history_store.cpp:79
-msgid "No transactions selected for storing, exactly one required."
-msgstr ""
-"Aucune transaction sélectionnée pour être stockée, vous devez en "
-"sélectionner exactement une."
-
-#: commands/history/history_store.cpp:82
+#: commands/history/history_store.cpp:83
 msgid "Multiple transactions selected for storing, only one allowed."
 msgstr ""
 "Plusieurs transactions sélectionnées pour être stockées alors qu'une seule "
@@ -1067,6 +1061,11 @@ msgstr "Autoriser la résolution de problèmes depsolve en ignorant des paquets"
 #: shared_options.cpp:54
 msgid "Allow skipping unavailable packages"
 msgstr "Autoriser dnf5 à ignorer les paquets indisponibles"
+
+#~ msgid "No transactions selected for storing, exactly one required."
+#~ msgstr ""
+#~ "Aucune transaction sélectionnée pour être stockée, vous devez en "
+#~ "sélectionner exactement une."
 
 #~ msgid "error reading offline state file"
 #~ msgstr "erreur lors de la lecture du fichier d'état hors ligne"

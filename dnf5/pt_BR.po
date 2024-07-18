@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-17 02:53+0000\n"
+"POT-Creation-Date: 2024-07-18 02:52+0000\n"
 "PO-Revision-Date: 2024-05-24 08:05+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -261,7 +261,7 @@ msgid "Don't consider extra packages pulled into the transaction as errors."
 msgstr ""
 
 #: commands/history/history_rollback.cpp:57
-#: commands/history/history_undo.cpp:56
+#: commands/history/history_store.cpp:80 commands/history/history_undo.cpp:56
 #, fuzzy
 #| msgid "No transactions selected for storing, exactly one required."
 msgid "No matching transaction ID found, exactly one required."
@@ -276,16 +276,11 @@ msgid "Matched more than one transaction ID, exactly one required."
 msgstr ""
 "Nenhuma transação selecionada para armazenar, exatamente uma é exigida."
 
-#: commands/history/history_store.cpp:65
+#: commands/history/history_store.cpp:66
 msgid "File \"{}\" already exists, it will be overwritten.\n"
 msgstr "O arquivo \"{}\" já existe, ele será sobrescritos.\n"
 
-#: commands/history/history_store.cpp:79
-msgid "No transactions selected for storing, exactly one required."
-msgstr ""
-"Nenhuma transação selecionada para armazenar, exatamente uma é exigida."
-
-#: commands/history/history_store.cpp:82
+#: commands/history/history_store.cpp:83
 msgid "Multiple transactions selected for storing, only one allowed."
 msgstr "Várias transações selecionadas para armazenar, apenas uma é permitida."
 
@@ -964,6 +959,10 @@ msgstr "Permite resolver problemas com dependências pulando pacotes"
 #: shared_options.cpp:54
 msgid "Allow skipping unavailable packages"
 msgstr "Permite pular pacotes indisponíveis"
+
+#~ msgid "No transactions selected for storing, exactly one required."
+#~ msgstr ""
+#~ "Nenhuma transação selecionada para armazenar, exatamente uma é exigida."
 
 #~ msgid "setvar: Badly formatted argument value \"{}\""
 #~ msgstr "setvar: Formatação inválida no valor de argumento \"{}\""
