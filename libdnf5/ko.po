@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-18 02:52+0000\n"
-"PO-Revision-Date: 2024-07-13 08:38+0000\n"
+"PO-Revision-Date: 2024-07-19 08:38+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/ko/>\n"
@@ -1375,101 +1375,68 @@ msgid "Incompatible major version: \"{}\", supported major version is \"{}\""
 msgstr "호환되지 않은 주요 버전: \"{}\", 지원되는 주요 버전은 \"{}\"입니다"
 
 #: transaction/transaction_sr.cpp:81
-#, fuzzy
-#| msgid "Invalid minor version: \"{}\", number expected."
 msgid "Invalid minor version: \"{}\", number expected"
-msgstr "잘못된 하위 버전: \"{}\", 번호가 예상됩니다."
+msgstr "잘못된 하위 버전: \"{}\", 번호가 예상됩니다"
 
 #: transaction/transaction_sr.cpp:84
-#, fuzzy
-#| msgid "Missing key \"version\"."
 msgid "Missing key \"version\""
-msgstr "누락된 키 \"version\"."
+msgstr "누락된 키 \"version\""
 
 #: transaction/transaction_sr.cpp:97
-#, fuzzy
-#| msgid "Unexpected type of \"environments\", array expected."
 msgid "Unexpected type of \"environments\", array expected"
-msgstr "\"environments\"의 예상치 못한 유형, 배열이 예상됩니다."
+msgstr "\"environments\"의 예상치 못한 유형, 배열이 예상됩니다"
 
 #: transaction/transaction_sr.cpp:105
-#, fuzzy
-#| msgid "Missing object key \"id\" in an environment."
 msgid "Missing object key \"id\" in an environment"
-msgstr "환경에서 누락된 객체 키 \"id\"."
+msgstr "환경에서 누락된 객체 키 \"id\""
 
 #: transaction/transaction_sr.cpp:110
-#, fuzzy
-#| msgid "Missing object key \"action\" in an environment."
 msgid "Missing object key \"action\" in an environment"
-msgstr "환경에서 누락된 객체 키 \"action\"."
+msgstr "환경에서 누락된 객체 키 \"action\""
 
 #: transaction/transaction_sr.cpp:137
-#, fuzzy
-#| msgid "Unexpected type of \"groups\", array expected."
 msgid "Unexpected type of \"groups\", array expected"
-msgstr "\"groups\"의 예상치 못한 유형, 배열이 예상됩니다."
+msgstr "\"groups\"의 예상치 못한 유형, 배열이 예상됩니다"
 
 #: transaction/transaction_sr.cpp:145
-#, fuzzy
-#| msgid "Missing object key \"id\" in a group."
 msgid "Missing object key \"id\" in a group"
-msgstr "그룹에서 누락된 객체 키 \"id\"."
+msgstr "그룹에서 누락된 객체 키 \"id\""
 
 #: transaction/transaction_sr.cpp:150
-#, fuzzy
-#| msgid "Missing object key \"action\" in a group."
 msgid "Missing object key \"action\" in a group"
-msgstr "그룹에서 누락된 객체 키 \"action\"."
+msgstr "그룹에서 누락된 객체 키 \"action\""
 
 #: transaction/transaction_sr.cpp:155
-#, fuzzy
-#| msgid "Missing object key \"reason\" in a group."
 msgid "Missing object key \"reason\" in a group"
-msgstr "그룹에서 누락된 객체 키 \"reason\"."
+msgstr "그룹에서 누락된 객체 키 \"reason\""
 
 #: transaction/transaction_sr.cpp:193
-#, fuzzy
-#| msgid "Unexpected type of \"rpms\", array expected."
 msgid "Unexpected type of \"rpms\", array expected"
-msgstr "\"rpms\"의 예상치 못한 유형, 배열이 예상됩니다."
+msgstr "\"rpms\"의 예상치 못한 유형, 배열이 예상됩니다"
 
 #: transaction/transaction_sr.cpp:202
-#, fuzzy
-#| msgid "Cannot parse NEVRA for rpm \"{}\"."
 msgid "Cannot parse NEVRA for rpm \"{}\""
-msgstr "rpm \"{}\"을 위한 NEVRA를 구문 분석 할 수 없습니다."
+msgstr "rpm을 위한 NEVRA를 구문 분석 할 수 없습니다 \"{}\""
 
 #: transaction/transaction_sr.cpp:210
-#, fuzzy
-#| msgid ""
-#| "Either \"nevra\" or \"package_path\" object key is required in an rpm."
 msgid "Either \"nevra\" or \"package_path\" object key is required in an rpm"
-msgstr "\"nevra\" 또는 \"package_path\" 중에 객체 키는 rpm에서 필요합니다."
+msgstr "\"nevra\" 또는 \"package_path\" 중에 객체 키는 rpm에서 필요합니다"
 
 #: transaction/transaction_sr.cpp:215
-#, fuzzy
-#| msgid "Missing object key \"action\" in an rpm."
 msgid "Missing object key \"action\" in an rpm"
-msgstr "rpm에서 누락된 객체 키 \"action\"."
+msgstr "rpm에서 누락된 객체 키 \"action\""
 
 #: transaction/transaction_sr.cpp:220
-#, fuzzy
-#| msgid "Missing object key \"reason\" in an rpm."
 msgid "Missing object key \"reason\" in an rpm"
-msgstr "rpm에서 누락된 객체 키 \"reason\"."
+msgstr "rpm에서 누락된 객체 키 \"reason\""
 
 #: transaction/transaction_sr.cpp:227
-#, fuzzy
-#| msgid ""
-#| "Missing mandatory object key \"group_id\" in an rpm with reason \"Group\" "
-#| "and action \"Reason Change\"."
 msgid ""
 "Missing mandatory object key \"group_id\" in an rpm with reason \"Group\" "
 "and action \"Reason Change\""
 msgstr ""
 "원인 \"Group\" 및 동작 \"Reason Change\" 과 함께 rpm에서 누락된 필 수 객체 "
-"키 \"group_id\"."
+"키 \"group_id\""
 
 #: utils/fs/file.cpp:86
 msgid "cannot open file"
