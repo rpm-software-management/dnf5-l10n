@@ -4,14 +4,14 @@
 # Rafael Fontenelle <rafaelff@gnome.org>, 2024.
 # Fábio Rodrigues Ribeiro <farribeiro@gmail.com>, 2024.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024.
+# "Geraldo S. Simião Kutz" <geraldo.simiao.kutz@gmail.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-18 02:52+0000\n"
-"PO-Revision-Date: 2024-05-24 08:05+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2024-07-24 16:48+0000\n"
+"Last-Translator: \"Geraldo S. Simião Kutz\" <geraldo.simiao.kutz@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf5/dnf5/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.5.5\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #: commands/advisory/advisory_info.hpp:33
 msgid "Print details about advisories"
@@ -167,6 +167,11 @@ msgid ""
 "advisories is used it reports the lowest versions of packages that fix "
 "advisories matching selected advisory properties"
 msgstr ""
+"Relata as versões mais baixas de pacotes que corrigem avisos do tipo "
+"correção de bug, aprimoramento, segurança ou novo pacote. Caso seja ativada "
+"qualquer limitação de avisos, ele relatará as versões mais baixas dos "
+"pacotes que corrigem os avisos que correspondem às propriedades de avisos "
+"selecionadas"
 
 #: commands/check/check.cpp:335
 msgid "Check discovered {} problem(s) in {} package(s)"
@@ -255,26 +260,25 @@ msgid ""
 "as errors. This can result in an empty transaction because among other "
 "things the option can ignore failing Remove actions."
 msgstr ""
+"Não considerar como erros incompatibilidades entre pacotes instalados e "
+"armazenados durante transações. Isso pode resultar em uma transação vazia "
+"porque, entre outras coisas, a opção pode ignorar ações de remoção com falha."
 
 #: commands/history/arguments.hpp:67
 msgid "Don't consider extra packages pulled into the transaction as errors."
-msgstr ""
+msgstr "Não considerar pacotes extras incluídos na transação como erros."
 
 #: commands/history/history_rollback.cpp:57
 #: commands/history/history_store.cpp:80 commands/history/history_undo.cpp:56
-#, fuzzy
-#| msgid "No transactions selected for storing, exactly one required."
 msgid "No matching transaction ID found, exactly one required."
 msgstr ""
-"Nenhuma transação selecionada para armazenar, exatamente uma é exigida."
+"Nenhum ID de transação correspondente foi encontrado. É necessário "
+"exatamente um."
 
 #: commands/history/history_rollback.cpp:61
 #: commands/history/history_undo.cpp:60
-#, fuzzy
-#| msgid "No transactions selected for storing, exactly one required."
 msgid "Matched more than one transaction ID, exactly one required."
-msgstr ""
-"Nenhuma transação selecionada para armazenar, exatamente uma é exigida."
+msgstr "Mais de um ID de transação correspondente, é necessário somente um."
 
 #: commands/history/history_store.cpp:66
 msgid "File \"{}\" already exists, it will be overwritten.\n"
@@ -392,7 +396,7 @@ msgstr "Desligue o sistema após a conclusão da operação"
 
 #: commands/offline/offline.cpp:292
 msgid "No offline transaction is stored."
-msgstr ""
+msgstr "Nenhuma armazenar nenhuma transação offline."
 
 #: commands/offline/offline.cpp:300
 msgid "System is not ready for offline transaction."
@@ -400,35 +404,40 @@ msgstr "O sistema não está pronto para transações offline."
 
 #: commands/offline/offline.cpp:303
 msgid "Data directory {} does not exist."
-msgstr ""
+msgstr "O diretório de dados {} não existe."
 
 #: commands/offline/offline.cpp:327
 msgid "{} is not wanted by system-update.target."
-msgstr ""
+msgstr "{} não é parte do system-update.target."
 
 #: commands/offline/offline.cpp:336
 msgid "The system will now reboot to upgrade to release version "
 msgstr ""
+"O sistema será reinicializado para atualizar para a versão de lançamento "
 
 #: commands/offline/offline.cpp:340
 msgid ""
 "The system will now reboot to perform the offline transaction initiated by "
 "the following command:"
 msgstr ""
+"O sistema será reinicializado para realizar a transação offline iniciada "
+"pelo seguinte comando:"
 
 #: commands/offline/offline.cpp:371
 msgid ""
 "Internal use only, not intended to be run by the user. Execute the "
 "transaction in the offline environment."
 msgstr ""
+"Apenas para uso interno, não deve ser executado pelo usuário. Execute a "
+"transação no ambiente offline."
 
 #: commands/offline/offline.cpp:398
 msgid "Trigger file does not exist. Exiting."
-msgstr ""
+msgstr "O arquivo de gatilho não existe. Saindo."
 
 #: commands/offline/offline.cpp:402
 msgid "Another offline transaction tool is running. Exiting."
-msgstr ""
+msgstr "Outra ferramenta de transação offline está em execução. Saindo."
 
 #: commands/offline/offline.cpp:437
 msgid ""
@@ -436,10 +445,13 @@ msgid ""
 "to be run directly by the user. To initiate the system upgrade/offline "
 "transaction, you should run `dnf5 offline reboot`."
 msgstr ""
+"Aviso: o comando `_execute` é apenas para uso interno e não deve ser "
+"executado diretamente pelo usuário. Para iniciar a atualização do sistema/"
+"transação offline, você deve executar `dnf5 offline reboot`."
 
 #: commands/offline/offline.cpp:444
 msgid "Use `dnf5 offline reboot` to begin the transaction."
-msgstr ""
+msgstr "Use `dnf5 offline reboot` para iniciar a transação."
 
 #: commands/offline/offline.cpp:495
 msgid "Transaction failed: "
@@ -447,37 +459,39 @@ msgstr "Transação falhou "
 
 #: commands/offline/offline.cpp:564
 msgid "Error reading journal: {}"
-msgstr ""
+msgstr "Erro ao ler os registros: {}"
 
 #: commands/offline/offline.cpp:570
 msgid "Add journal match failed: {}"
-msgstr ""
+msgstr "Falha ao adicionar correspondência aos registros: {}"
 
 #: commands/offline/offline.cpp:598
 msgid "No logs were found."
-msgstr ""
+msgstr "Nenhum registro encontrado."
 
 #: commands/offline/offline.cpp:602
 msgid "The following boots appear to contain offline transaction logs:"
 msgstr ""
+"As seguintes inicializações parecem conter registros de transações offline:"
 
 #: commands/offline/offline.cpp:619
 msgid "Cannot find logs with this index."
 msgstr "Não foi possível encontrar registros com este índice."
 
 #: commands/offline/offline.cpp:626
-#, fuzzy
 msgid "Unable to match systemd journal entry."
-msgstr "Não é possível corresponder à entrada no diário do systemd."
+msgstr "Não é possível corresponder à entrada nos registros do systemd."
 
 #: commands/offline/offline.cpp:638
 msgid "Show logs from past offline transactions"
-msgstr ""
+msgstr "Mostrar registros de transações off-line anteriores"
 
 #: commands/offline/offline.cpp:646
 msgid ""
 "Which log to show. Run without any arguments to get a list of available logs."
 msgstr ""
+"Qual registro mostrar. Execute sem argumentos para obter uma lista de "
+"registros disponíveis."
 
 #: commands/offline/offline.cpp:661
 msgid ""
