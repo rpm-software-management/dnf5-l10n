@@ -10,9 +10,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-18 02:52+0000\n"
-"PO-Revision-Date: 2024-07-24 18:32+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2024-07-25 18:38+0000\n"
+"Last-Translator: \"Geraldo S. Simião Kutz\" <geraldo.simiao.kutz@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf5/dnf5/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -24,7 +23,7 @@ msgstr ""
 
 #: commands/advisory/advisory_info.hpp:33
 msgid "Print details about advisories"
-msgstr "Imprime detalhes sobre os avisos"
+msgstr "Mostra detalhes sobre os avisos"
 
 #: commands/advisory/advisory_list.hpp:35
 msgid "List advisories"
@@ -48,7 +47,7 @@ msgstr "Disponível"
 
 #: commands/advisory/advisory_summary.hpp:33
 msgid "Print summary of advisories"
-msgstr "Imprime um resumo dos avisos"
+msgstr "Mostra um resumo dos avisos"
 
 #: commands/advisory/arguments.hpp:34
 msgid "Show advisories containing any version of installed packages."
@@ -456,7 +455,7 @@ msgstr "Use `dnf5 offline reboot` para iniciar a transação."
 
 #: commands/offline/offline.cpp:495
 msgid "Transaction failed: "
-msgstr "Transação falhou "
+msgstr "Transação falhou: "
 
 #: commands/offline/offline.cpp:564
 msgid "Error reading journal: {}"
@@ -499,29 +498,36 @@ msgid ""
 "systemd is not supported in this build of DNF 5; the `log` subcommand is "
 "unavailable."
 msgstr ""
+"systemd não é suportado nesta versão do DNF 5; o subcomando `log` não está "
+"disponível."
 
 #: commands/offline/offline.cpp:666
 msgid "Show status of the current offline transaction"
-msgstr ""
+msgstr "Mostrar o status da transação offline atual"
 
 #: commands/offline/offline.cpp:682
 msgid "An offline transaction was initiated by the following command:"
-msgstr ""
+msgstr "Uma transação offline foi iniciada pelo seguinte comando:"
 
 #: commands/offline/offline.cpp:684
 msgid ""
 "Run `dnf5 offline reboot` to reboot and perform the offline transaction."
 msgstr ""
+"Execute `dnf5 offline reboot` para reinicializar e realizar a transação "
+"offline."
 
 #: commands/offline/offline.cpp:686
 msgid ""
 "An offline transaction was started, but it did not finish. Run `dnf5 offline "
 "log` for more information. The command that initiated the transaction was:"
 msgstr ""
+"Uma transação offline foi iniciada, mas não foi concluída. Execute `dnf5 "
+"offline log` para obter mais informações. O comando que iniciou a transação "
+"foi:"
 
 #: commands/offline/offline.cpp:691
 msgid "Unknown offline transaction status: "
-msgstr ""
+msgstr "Status de transação off-line desconhecido: "
 
 #: commands/repo/arguments.hpp:35
 msgid "Show all repositories."
@@ -569,13 +575,15 @@ msgstr "Preparar o sistema para atualizar para uma nova versão"
 
 #: commands/system-upgrade/system-upgrade.cpp:70
 msgid "Download everything needed to upgrade to a new release"
-msgstr ""
+msgstr "Baixar tudo o que é necessário para atualizar para uma nova versão"
 
 #: commands/system-upgrade/system-upgrade.cpp:78
 msgid ""
 "Do not install packages from the new release if they are older than what is "
 "currently installed"
 msgstr ""
+"Não instalar pacotes da nova versão se eles forem mais antigos do que o que "
+"está instalado atualmente"
 
 #: commands/system-upgrade/system-upgrade.cpp:97
 msgid "Need a --releasever greater than the current system version."
@@ -583,11 +591,11 @@ msgstr "Necessita de um --releasever maior que o da versão do sistema atual."
 
 #: commands/system-upgrade/system-upgrade.cpp:131
 msgid "Store a distro-sync transaction to be performed offline"
-msgstr ""
+msgstr "Armazenar uma transação distro-sync para ser executada offline"
 
 #: commands/system-upgrade/system-upgrade.cpp:153
 msgid "Store an upgrade transaction to be performed offline"
-msgstr ""
+msgstr "Armazenar uma transação de atualização para ser realizada offline"
 
 #: commands/upgrade/upgrade.cpp:48
 msgid ""
@@ -596,6 +604,11 @@ msgid ""
 "limiting advisories is used it upgrades packages only to the lowest versions "
 "that fix advisories that matching selected advisory property"
 msgstr ""
+"Atualizar os pacotes apenas para as versões mais baixas que corrigem avisos "
+"do tipo bugfix, aprimoramento, segurança ou novo pacote. Caso qualquer opção "
+"de limitação de avisos seja usada, ela atualiza os pacotes apenas para as "
+"versões mais baixas que corrigem os avisos que correspondem à propriedade do "
+"aviso selecionada"
 
 #. TODO(mblaha): add full command line
 #: commands/versionlock/utils.cpp:35
@@ -681,19 +694,19 @@ msgstr "Não foi possível obter o endereço de símbolo \"{}\": {}"
 
 #: main.cpp:128
 msgid "Utility for packages maintaining"
-msgstr ""
+msgstr "Utilitário para gerenciamento de pacotes"
 
 #: main.cpp:129
 msgid "DNF5 is a program for maintaining packages."
-msgstr ""
+msgstr "DNF5 é um programa para gerenciamento de pacotes."
 
 #: main.cpp:130
 msgid "Unclassified options:"
-msgstr ""
+msgstr "Opções não classificadas:"
 
 #: main.cpp:133
 msgid "Global options:"
-msgstr ""
+msgstr "Opções globais:"
 
 #: main.cpp:138
 msgid "Print help"
@@ -701,7 +714,7 @@ msgstr "Exibir a ajuda"
 
 #: main.cpp:145
 msgid "Configuration file location"
-msgstr ""
+msgstr "Localização do arquivo de configuração"
 
 #: main.cpp:153
 msgid ""
@@ -709,16 +722,21 @@ msgid ""
 "content. Suppresses messages notifying about the current state or actions of "
 "dnf5."
 msgstr ""
+"Em combinação com um comando não interativo, mostra apenas o conteúdo "
+"relevante. Suprime mensagens notificando sobre o estado atual ou ações do "
+"dnf5."
 
 #: main.cpp:168
 msgid ""
 "Run entirely from system cache, don't update the cache and use it even in "
 "case it is expired."
 msgstr ""
+"Executar inteiramente a partir do cache do sistema, não atualiza o cache e "
+"usa-o mesmo que esteja expirado."
 
 #: main.cpp:175
 msgid "Force refreshing metadata before running the command."
-msgstr ""
+msgstr "Força a atualização dos metadados antes de executar o comando."
 
 #: main.cpp:191
 msgid "Failed to expire repository cache in path \"{0}\": {1}"
@@ -726,7 +744,7 @@ msgstr "Falha ao expirar o cache do repositório no caminho \"{0}\": {1}"
 
 #: main.cpp:208
 msgid "create additional repository using id and path"
-msgstr ""
+msgstr "criar repositório adicional usando id e caminho"
 
 #: main.cpp:216
 msgid "repofrompath: Incorrect repoid and path specification \"{}\""
@@ -746,6 +764,14 @@ msgid ""
 "              they do not override it. However, specifying an empty value (e."
 "g. --setopt=tsflags=) will clear the option."
 msgstr ""
+"Substitue uma opção de configuração do arquivo de configuração. Para "
+"substituir as opções de configuração dos repositórios, use repoid.option "
+"para os\n"
+"               <option>.  Valores   para opções de configuração como "
+"excludepkgs, includepkgs, installonlypkgs e tsflags são anexados ao valor "
+"original,\n"
+"               eles não o substituem. No entanto, especificar um valor vazio "
+"(por exemplo, --setopt=tsflags=) limpará a opção."
 
 #: main.cpp:239 main.cpp:278
 msgid "{}: Badly formatted argument value \"{}\""
@@ -772,7 +798,7 @@ msgstr "responde sim para todas as perguntas automaticamente"
 
 #: main.cpp:301
 msgid "automatically answer no for all questions"
-msgstr "responde não para todas as perguntas automaticamente"
+msgstr "responder não para todas as perguntas automaticamente"
 
 #: main.cpp:315
 msgid "do not limit the transaction to the best candidate"
@@ -783,6 +809,8 @@ msgid ""
 "Don't install files that are marked as documentation (which includes man "
 "pages and texinfo documents)"
 msgstr ""
+"Não instalar arquivos marcados como documentação (que incluem páginas de "
+"manual e documentos texinfo)"
 
 #: main.cpp:342
 msgid "exclude packages by name or glob"
@@ -809,6 +837,8 @@ msgid ""
 "Enable just specific repositories. List option. Supports globs, can be "
 "specified multiple times."
 msgstr ""
+"Habilitar apenas repositórios específicos. Opções em lista. Suporta globs, "
+"pode ser especificado várias vezes."
 
 #: main.cpp:419
 msgid "disable gpg signature checking (if RPM policy allows)"
@@ -819,12 +849,16 @@ msgid ""
 "Enable libdnf5 plugins by name. List option. Supports globs, can be "
 "specified multiple times."
 msgstr ""
+"Habilitar plug-ins libdnf5 por nome. Opções em lista. Suporta globs, pode "
+"ser especificado várias vezes."
 
 #: main.cpp:460
 msgid ""
 "Disable libdnf5 plugins by name. List option. Supports globs, can be "
 "specified multiple times."
 msgstr ""
+"Desativar os plug-ins libdnf5 por nome. Opções em lista. Suporta globs, pode "
+"ser especificado várias vezes."
 
 #: main.cpp:477
 msgid "add a comment to transaction"
@@ -835,6 +869,8 @@ msgid ""
 "Adds a comment to the action. If a transaction takes place, the comment is "
 "stored in it."
 msgstr ""
+"Adiciona um comentário à ação. Se ocorrer uma transação, o comentário será "
+"armazenado nela."
 
 #: main.cpp:492
 msgid "set install root"
@@ -844,7 +880,7 @@ msgstr "define a raiz de instalação"
 msgid ""
 "use configuration, reposdir, and vars from the host system rather than the "
 "installroot"
-msgstr ""
+msgstr "usa configuração, reposdir e vars do sistema host em vez do installroot"
 
 #: main.cpp:508
 msgid "override the value of $releasever in config and repo files"
@@ -857,19 +893,23 @@ msgid ""
 "Show newly installed leaf packages and packages that became leaves after a "
 "transaction."
 msgstr ""
+"Mostrar pacotes folha recém instalados e pacotes que se tornaram folhas após "
+"uma transação."
 
 #: main.cpp:535
 msgid "Dump detailed solving results into files"
-msgstr ""
+msgstr "Salvar em arquivos os resultados de resolução detalhados"
 
 #: main.cpp:544
 msgid "Print main configuration values to stdout"
-msgstr ""
+msgstr "Escrever os principais valores de configuração em stdout"
 
 #: main.cpp:561
 msgid ""
 "Print repository configuration values to stdout. List option. Supports globs"
 msgstr ""
+"Mostra os valores de configuração do repositório em stdout. Opções em lista. "
+"Suporta globs"
 
 #: main.cpp:576
 msgid "Print variable values to stdout"
@@ -877,23 +917,23 @@ msgstr "Exibe valores das variáveis para a saída padrão"
 
 #: main.cpp:590
 msgid "Show DNF5 version and exit"
-msgstr ""
+msgstr "Mostrar a versão do DNF5 e sair"
 
 #: main.cpp:597
 msgid "Force the use of a different architecture."
-msgstr ""
+msgstr "Força o uso de uma arquitetura diferente."
 
 #: main.cpp:635
 msgid "Software Management Commands:"
-msgstr ""
+msgstr "Comandos de gerenciamento de software:"
 
 #: main.cpp:642
 msgid "Query Commands:"
-msgstr ""
+msgstr "Comandos de consulta:"
 
 #: main.cpp:649
 msgid "Subcommands:"
-msgstr ""
+msgstr "Subcomandos:"
 
 #: main.cpp:838
 msgid "======== Main configuration: ========"
@@ -913,7 +953,7 @@ msgstr "{} para ignorar pacotes indisponíveis"
 
 #: main.cpp:991
 msgid "{} to allow extra packages in the transaction"
-msgstr ""
+msgstr "{} para permitir pacotes extras na transação"
 
 #: main.cpp:1004
 msgid ""
@@ -921,18 +961,21 @@ msgid ""
 "This can result in an empty transaction because among other things the "
 "option can ignore failing Remove actions."
 msgstr ""
+"{} para permitir incompatibilidades entre pacotes instalados e armazenados "
+"durante transações. Isso pode resultar em uma transação vazia porque, entre "
+"outras coisas, a opção pode ignorar ações de remoção com falha."
 
 #: main.cpp:1051
 msgid "{} to not limit the transaction to the best candidates"
-msgstr ""
+msgstr "{} para não limitar a transação aos melhores candidatos"
 
 #: main.cpp:1058
 msgid "{} to allow erasing of installed packages to resolve problems"
-msgstr "Permite apagar pacotes instalados para resolver problemas"
+msgstr "{} para permitir apagar pacotes instalados e resolver problemas"
 
 #: main.cpp:1066
 msgid "{} to load additional filelists metadata"
-msgstr ""
+msgstr "{} para carregar metadados de listas de arquivos adicionais"
 
 #: main.cpp:1073
 msgid "{} to skip uninstallable packages"
@@ -940,19 +983,23 @@ msgstr "{} para ignorar pacotes desinstaláveis"
 
 #: main.cpp:1079
 msgid "You can try to add to command line:"
-msgstr ""
+msgstr "Você pode tentar adicionar à linha de comando:"
 
 #: main.cpp:1097
 msgid ""
 "No matches were found for the following plugin name patterns while enabling "
 "libdnf plugins: {}"
 msgstr ""
+"Nenhum plug-in foi encontrado para os seguintes padrões de nome ao ativar "
+"plug-ins libdnf: {}"
 
 #: main.cpp:1098
 msgid ""
 "No matches were found for the following plugin name patterns while disabling "
 "libdnf plugins: {}"
 msgstr ""
+"Nenhum plug-in foi encontrado para os seguintes padrões de nome ao desativar "
+"plug-ins libdnf: {}"
 
 #: main.cpp:1247 main.cpp:1434
 msgid ". Add \"--help\" for more information about the arguments."
@@ -964,6 +1011,10 @@ msgid ""
 "user with elevated rights, or use the \"--assumeno\" or \"--downloadonly\" "
 "options to run the command without modifying the system state."
 msgstr ""
+"A operação solicitada requer privilégios de superusuário. Faça login como um "
+"usuário com direitos elevados (usando sudo ou root) ou use as opções \"--"
+"assumeno\" ou \"--downloadonly\" para executar o comando sem modificar o "
+"estado do sistema."
 
 #: main.cpp:1455
 msgid "Complete!"
