@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-18 02:52+0000\n"
-"PO-Revision-Date: 2024-07-25 18:38+0000\n"
+"PO-Revision-Date: 2024-07-25 18:52+0000\n"
 "Last-Translator: \"Geraldo S. Simião Kutz\" <geraldo.simiao.kutz@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf5/libdnf5/pt_BR/>\n"
@@ -347,10 +347,8 @@ msgid "', '"
 msgstr ""
 
 #: base/log_event.cpp:296
-#, fuzzy
-#| msgid "some dependency problem"
 msgid "Modular dependency problems:\n"
-msgstr "algum problema de dependência"
+msgstr "problemas de dependências modulares:\n"
 
 #: base/log_event.cpp:303
 msgid "Modular dependency problems with the latest modules:\n"
@@ -361,12 +359,12 @@ msgid "Modular dependency problems with the defaults:\n"
 msgstr ""
 
 #: base/log_event.cpp:325
-#, fuzzy
-#| msgid "The operation would result in removing of running kernel: {}"
 msgid ""
 "The operation would result in switching of module '{0}' stream '{1}' to "
 "stream '{2}'\n"
-msgstr "A operação resultaria na remoção do kernel em execução: {}"
+msgstr ""
+"A operação resultaria na troca do módulo '{0}' stream '{1}' para stream '{2}'"
+"\n"
 
 #: base/log_event.cpp:330
 msgid ""
@@ -381,10 +379,8 @@ msgid ""
 msgstr ""
 
 #: base/log_event.cpp:341
-#, fuzzy
-#| msgid "Cannot parse NEVRA for rpm \"{}\"."
 msgid "Cannot parse file: '{0}': {1}.\n"
-msgstr "Não foi possível analisar NEVRA para o rpm \"{}\"."
+msgstr "Não foi possível analisar o arquivo: '{0}': {1}.\n"
 
 #: base/log_event.cpp:348
 msgid ""
