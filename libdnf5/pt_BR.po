@@ -10,9 +10,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-18 02:52+0000\n"
-"PO-Revision-Date: 2024-07-25 18:52+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2024-07-25 19:59+0000\n"
+"Last-Translator: \"Geraldo S. Simião Kutz\" <geraldo.simiao.kutz@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf5/libdnf5/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -525,12 +524,12 @@ msgid ""
 msgstr "o pacote {1} requer {0}, mas nenhum dos provedores pode ser instalado"
 
 #: base/solver_problems.cpp:68
-#, fuzzy
-#| msgid "package {1} requires {0}, but none of the providers can be installed"
 msgid ""
 "installed package {1} requires {0}, but none of the providers can be "
 "installed"
-msgstr "o pacote {1} requer {0}, mas nenhum dos provedores pode ser instalado"
+msgstr ""
+"o pacote instalado {1} requer {0}, mas nenhum dos provedores pode ser "
+"instalado"
 
 #: base/solver_problems.cpp:69
 #, fuzzy
@@ -567,7 +566,7 @@ msgstr "{} tem uma arquitetura inferior"
 
 #: base/solver_problems.cpp:79
 msgid "problem with installed module {}"
-msgstr "problema com o modulo instalado {}"
+msgstr "problema com o módulo instalado {}"
 
 #: base/solver_problems.cpp:83
 #, fuzzy
@@ -1527,60 +1526,40 @@ msgid "Missing object key \"id\" in a group"
 msgstr "Faltando a chave de objeto \"id\" em um grupo."
 
 #: transaction/transaction_sr.cpp:150
-#, fuzzy
-#| msgid "Missing object key \"action\" in a group."
 msgid "Missing object key \"action\" in a group"
-msgstr "Faltando a chave de objeto \"action\" em um grupo."
+msgstr "Faltando a chave de objeto \"action\" em um grupo"
 
 #: transaction/transaction_sr.cpp:155
-#, fuzzy
-#| msgid "Missing object key \"reason\" in a group."
 msgid "Missing object key \"reason\" in a group"
-msgstr "Faltando a chave de objeto \"reason\" em um grupo."
+msgstr "Faltando a chave de objeto \"reason\" em um grupo"
 
 #: transaction/transaction_sr.cpp:193
-#, fuzzy
-#| msgid "Unexpected type of \"rpms\", array expected."
 msgid "Unexpected type of \"rpms\", array expected"
-msgstr "Tipo inesperado de \"rpms\", esperava array."
+msgstr "Tipo inesperado de \"rpms\", esperava array"
 
 #: transaction/transaction_sr.cpp:202
-#, fuzzy
-#| msgid "Cannot parse NEVRA for rpm \"{}\"."
 msgid "Cannot parse NEVRA for rpm \"{}\""
-msgstr "Não foi possível analisar NEVRA para o rpm \"{}\"."
+msgstr "Não foi possível analisar NEVRA para o rpm \"{}\""
 
 #: transaction/transaction_sr.cpp:210
-#, fuzzy
-#| msgid ""
-#| "Either \"nevra\" or \"package_path\" object key is required in an rpm."
 msgid "Either \"nevra\" or \"package_path\" object key is required in an rpm"
-msgstr ""
-"A chave do objeto \"nevra\" ou \"package_path\" é necessária em um rpm."
+msgstr "A chave de objeto \"nevra\" ou \"package_path\" é necessária em um rpm"
 
 #: transaction/transaction_sr.cpp:215
-#, fuzzy
-#| msgid "Missing object key \"action\" in an rpm."
 msgid "Missing object key \"action\" in an rpm"
-msgstr "Faltando a chave de objeto \"action\" em um rpm."
+msgstr "Faltando a chave de objeto \"action\" em um rpm"
 
 #: transaction/transaction_sr.cpp:220
-#, fuzzy
-#| msgid "Missing object key \"reason\" in an rpm."
 msgid "Missing object key \"reason\" in an rpm"
-msgstr "Faltando a chave de objeto \"reason\" em um rpm."
+msgstr "Faltando a chave de objeto \"reason\" em um rpm"
 
 #: transaction/transaction_sr.cpp:227
-#, fuzzy
-#| msgid ""
-#| "Missing mandatory object key \"group_id\" in an rpm with reason \"Group\" "
-#| "and action \"Reason Change\"."
 msgid ""
 "Missing mandatory object key \"group_id\" in an rpm with reason \"Group\" "
 "and action \"Reason Change\""
 msgstr ""
 "Faltando chave de objeto \"group_id\" obrigatória em um rpm com motivo "
-"\"Group\" e ação \"Reason Change\"."
+"\"Group\" e ação \"Reason Change\""
 
 #: utils/fs/file.cpp:86
 msgid "cannot open file"
