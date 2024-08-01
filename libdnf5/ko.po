@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-18 02:52+0000\n"
+"POT-Creation-Date: 2024-08-01 02:56+0000\n"
 "PO-Revision-Date: 2024-07-19 08:38+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
@@ -28,124 +28,124 @@ msgstr ""
 "권고 \"{}\"용 나쁜 libsolv id, 해결 할 수 있는 \"{}\"은 권고 접두사 \"{}\"를 "
 "가지지 않습니다"
 
-#: base/goal.cpp:470
+#: base/goal.cpp:472
 msgid "Unsupported argument for REMOVE action: {}"
 msgstr "제거(REMOVE) 동작을 위해 미지원된 인수: {}"
 
 #. TODO(lukash) throw a proper exception
-#: base/goal.cpp:1528
+#: base/goal.cpp:1545
 msgid "Incorrect configuration value for multilib_policy: {}"
 msgstr "multilib_policy용 잘못된 구성 값: {}"
 
-#: base/goal_elements.cpp:348
+#: base/goal_elements.cpp:352
 msgid "Install"
 msgstr "설치"
 
-#: base/goal_elements.cpp:350
+#: base/goal_elements.cpp:354
 msgid "Install via provide"
 msgstr "제공을 통한 설치"
 
-#: base/goal_elements.cpp:352
+#: base/goal_elements.cpp:356
 msgid "Install by group"
 msgstr "그룹으로 설치"
 
-#: base/goal_elements.cpp:354
+#: base/goal_elements.cpp:358
 msgid "Upgrade"
 msgstr "향상"
 
-#: base/goal_elements.cpp:356
+#: base/goal_elements.cpp:360
 msgid "Upgrade all"
 msgstr "모두 향상"
 
-#: base/goal_elements.cpp:358
+#: base/goal_elements.cpp:362
 msgid "Upgrade minimal"
 msgstr "최소 향상"
 
-#: base/goal_elements.cpp:360
+#: base/goal_elements.cpp:364
 msgid "Upgrade all minimal"
 msgstr "모두 최소로 향상"
 
-#: base/goal_elements.cpp:362
+#: base/goal_elements.cpp:366
 msgid "Downgrade"
 msgstr "하향설치"
 
-#: base/goal_elements.cpp:364
+#: base/goal_elements.cpp:368
 msgid "Reinstall"
 msgstr "재설치"
 
-#: base/goal_elements.cpp:366
+#: base/goal_elements.cpp:370
 msgid "Install or reinstall"
 msgstr "설치 또는 재설치"
 
-#: base/goal_elements.cpp:368
+#: base/goal_elements.cpp:372
 msgid "Remove"
 msgstr "제거"
 
-#: base/goal_elements.cpp:370
+#: base/goal_elements.cpp:374
 msgid "Distrosync"
 msgstr "배포동기화"
 
-#: base/goal_elements.cpp:372
+#: base/goal_elements.cpp:376
 msgid "Distrosync all"
 msgstr "모두 배포동기화"
 
-#: base/goal_elements.cpp:374
+#: base/goal_elements.cpp:378
 msgid "Reason Change"
 msgstr "변경 원인"
 
-#: base/goal_elements.cpp:376
+#: base/goal_elements.cpp:380
 msgid "Resolve"
 msgstr "해결"
 
-#: base/goal_elements.cpp:378
+#: base/goal_elements.cpp:382
 msgid "Enable"
 msgstr "활성화"
 
-#: base/goal_elements.cpp:380
+#: base/goal_elements.cpp:384
 msgid "Disable"
 msgstr "비활성화"
 
-#: base/goal_elements.cpp:382
+#: base/goal_elements.cpp:386
 msgid "Reset"
 msgstr "재설정"
 
-#: base/goal_elements.cpp:384
+#: base/goal_elements.cpp:388
 msgid "Parse serialized transaction"
 msgstr "직렬화된 연결을 구문 분석합니다"
 
-#: base/goal_elements.cpp:386
+#: base/goal_elements.cpp:390
 msgid "Install action"
 msgstr "설치 동작"
 
-#: base/goal_elements.cpp:388
+#: base/goal_elements.cpp:392
 msgid "Remove action"
 msgstr "제거 동작"
 
-#: base/goal_elements.cpp:390
+#: base/goal_elements.cpp:394
 msgid "Upgrade action"
 msgstr "향상 동작"
 
-#: base/goal_elements.cpp:392
+#: base/goal_elements.cpp:396
 msgid "Reinstall action"
 msgstr "재설치 동작"
 
-#: base/goal_elements.cpp:394
+#: base/goal_elements.cpp:398
 msgid "Reason change action"
 msgstr "변경 원인에 따른 동작"
 
-#: base/goal_elements.cpp:396
+#: base/goal_elements.cpp:400
 msgid "Reason override"
 msgstr "원인 재정의"
 
-#: base/goal_elements.cpp:398
+#: base/goal_elements.cpp:402
 msgid "Revert comps upgrade"
 msgstr "comps 향상 복귀"
 
-#: base/goal_elements.cpp:400
+#: base/goal_elements.cpp:404
 msgid "Install debug RPMs"
 msgstr "디버그 RPM 설치"
 
-#: base/goal_elements.cpp:402
+#: base/goal_elements.cpp:406
 msgid "Transaction merge"
 msgstr "연결 병합"
 
@@ -618,36 +618,36 @@ msgstr "사용자에 의해 취소되었습니다."
 msgid "Public key import failed."
 msgstr "공개 키 가져오기에 실패함."
 
-#: base/transaction.cpp:976
+#: base/transaction.cpp:977
 msgid "Invalid tsflag: {}"
 msgstr "잘못된 tsflag: {}"
 
-#: base/transaction.cpp:1312
+#: base/transaction.cpp:1313
 msgid "Public key \"{}\" is already present, not importing."
 msgstr "공개 키 \"{}\"가 이미 존재하고, 가져오지 않습니다."
 
-#: base/transaction.cpp:1333
+#: base/transaction.cpp:1334
 msgid "An error occurred importing key \"{}\": {}"
 msgstr "키를 가져오는 중에 발생하였습니다 \"{}\": {}"
 
-#: base/transaction.cpp:1367
+#: base/transaction.cpp:1368
 msgid "PGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
 msgstr "repo \"{}에서 꾸러미 \"{}\" ({})를 위한 PGP 점검이 실패했습니다: "
 
-#: base/transaction.cpp:1395
+#: base/transaction.cpp:1396
 msgid "Import of the key didn't help, wrong key?"
 msgstr "키 가져오기가 도움이 되지 않습니다, 잘못된 키입니까?"
 
-#: base/transaction.cpp:1414
+#: base/transaction.cpp:1415
 msgctxt "It is a joining character for repositories IDs"
 msgid ", "
 msgstr ", "
 
-#: base/transaction.cpp:1417
+#: base/transaction.cpp:1418
 msgid "Warning: skipped PGP checks for 1 package from repository: {}"
 msgstr "경고: 저장소에서 1 꾸러미를 위해 PGP 점검을 건너뜁니다: {}"
 
-#: base/transaction.cpp:1419
+#: base/transaction.cpp:1420
 msgid "Warning: skipped PGP checks for {0} packages from repository: {1}"
 msgid_plural ""
 "Warning: skipped PGP checks for {0} packages from repositories: {1}"
@@ -921,7 +921,7 @@ msgid "Cannot download the \"{0}\" package, cacheonly option is activated."
 msgstr ""
 "\"{0}\" 꾸러미를 내려받을 수 없으며, cacheonly 옵션이 활성화 되었습니다."
 
-#: repo/package_downloader.cpp:222
+#: repo/package_downloader.cpp:245
 msgid "Failed to download packages"
 msgstr "꾸러미를 내려받는 데 실패함"
 

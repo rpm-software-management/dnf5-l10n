@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-18 02:52+0000\n"
+"POT-Creation-Date: 2024-08-01 02:56+0000\n"
 "PO-Revision-Date: 2024-07-26 20:38+0000\n"
 "Last-Translator: \"Geraldo S. Simião Kutz\" <geraldo.simiao.kutz@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
@@ -29,124 +29,124 @@ msgstr ""
 "ID libsolv inválido para aviso \"{}\", o nome solucionável \"{}\" não tem "
 "prefixo de aviso \"{}\""
 
-#: base/goal.cpp:470
+#: base/goal.cpp:472
 msgid "Unsupported argument for REMOVE action: {}"
 msgstr "Argumento não suportado para ação REMOVE: {}"
 
 #. TODO(lukash) throw a proper exception
-#: base/goal.cpp:1528
+#: base/goal.cpp:1545
 msgid "Incorrect configuration value for multilib_policy: {}"
 msgstr "Valor de configuração incorreto para multilib_policy: {}"
 
-#: base/goal_elements.cpp:348
+#: base/goal_elements.cpp:352
 msgid "Install"
 msgstr "Instalar"
 
-#: base/goal_elements.cpp:350
+#: base/goal_elements.cpp:354
 msgid "Install via provide"
 msgstr "Instalar usando provide"
 
-#: base/goal_elements.cpp:352
+#: base/goal_elements.cpp:356
 msgid "Install by group"
 msgstr "Instalar por grupo"
 
-#: base/goal_elements.cpp:354
+#: base/goal_elements.cpp:358
 msgid "Upgrade"
 msgstr "Atualizar"
 
-#: base/goal_elements.cpp:356
+#: base/goal_elements.cpp:360
 msgid "Upgrade all"
 msgstr "Atualizar tudo"
 
-#: base/goal_elements.cpp:358
+#: base/goal_elements.cpp:362
 msgid "Upgrade minimal"
 msgstr "Atualização mínima"
 
-#: base/goal_elements.cpp:360
+#: base/goal_elements.cpp:364
 msgid "Upgrade all minimal"
 msgstr "Atualizar tudo (minimal)"
 
-#: base/goal_elements.cpp:362
+#: base/goal_elements.cpp:366
 msgid "Downgrade"
 msgstr "Desatualizar"
 
-#: base/goal_elements.cpp:364
+#: base/goal_elements.cpp:368
 msgid "Reinstall"
 msgstr "Reinstalar"
 
-#: base/goal_elements.cpp:366
+#: base/goal_elements.cpp:370
 msgid "Install or reinstall"
 msgstr "Instalar ou reinstalar"
 
-#: base/goal_elements.cpp:368
+#: base/goal_elements.cpp:372
 msgid "Remove"
 msgstr "Remover"
 
-#: base/goal_elements.cpp:370
+#: base/goal_elements.cpp:374
 msgid "Distrosync"
 msgstr "Distrosync"
 
-#: base/goal_elements.cpp:372
+#: base/goal_elements.cpp:376
 msgid "Distrosync all"
 msgstr "Distrosync em tudo"
 
-#: base/goal_elements.cpp:374
+#: base/goal_elements.cpp:378
 msgid "Reason Change"
 msgstr "Mudar o motivo"
 
-#: base/goal_elements.cpp:376
+#: base/goal_elements.cpp:380
 msgid "Resolve"
 msgstr "Resolver"
 
-#: base/goal_elements.cpp:378
+#: base/goal_elements.cpp:382
 msgid "Enable"
 msgstr "Habilitar"
 
-#: base/goal_elements.cpp:380
+#: base/goal_elements.cpp:384
 msgid "Disable"
 msgstr "Desabilitar"
 
-#: base/goal_elements.cpp:382
+#: base/goal_elements.cpp:386
 msgid "Reset"
 msgstr "Redefinir"
 
-#: base/goal_elements.cpp:384
+#: base/goal_elements.cpp:388
 msgid "Parse serialized transaction"
 msgstr "Analisar transação em série"
 
-#: base/goal_elements.cpp:386
+#: base/goal_elements.cpp:390
 msgid "Install action"
 msgstr "Ação ao instalar"
 
-#: base/goal_elements.cpp:388
+#: base/goal_elements.cpp:392
 msgid "Remove action"
 msgstr "Ação ao remover"
 
-#: base/goal_elements.cpp:390
+#: base/goal_elements.cpp:394
 msgid "Upgrade action"
 msgstr "Ação ao atualizar"
 
-#: base/goal_elements.cpp:392
+#: base/goal_elements.cpp:396
 msgid "Reinstall action"
 msgstr "Ação ao reinstalar"
 
-#: base/goal_elements.cpp:394
+#: base/goal_elements.cpp:398
 msgid "Reason change action"
 msgstr "Ação ao mudar o motivo"
 
-#: base/goal_elements.cpp:396
+#: base/goal_elements.cpp:400
 msgid "Reason override"
 msgstr "Substituir o motivo"
 
-#: base/goal_elements.cpp:398
+#: base/goal_elements.cpp:402
 msgid "Revert comps upgrade"
 msgstr "Reverter atualização de comps"
 
-#: base/goal_elements.cpp:400
+#: base/goal_elements.cpp:404
 msgid "Install debug RPMs"
 msgstr "Instalar RPMs de depuração"
 
-#: base/goal_elements.cpp:402
+#: base/goal_elements.cpp:406
 msgid "Transaction merge"
 msgstr "Mesclagem de transações"
 
@@ -347,8 +347,8 @@ msgid ""
 "The operation would result in switching of module '{0}' stream '{1}' to "
 "stream '{2}'\n"
 msgstr ""
-"A operação resultaria na troca do módulo '{0}' stream '{1}' para stream '{2}'"
-"\n"
+"A operação resultaria na troca do módulo '{0}' stream '{1}' para stream "
+"'{2}'\n"
 
 #: base/log_event.cpp:330
 msgid ""
@@ -638,37 +638,37 @@ msgstr "Cancelada pelo usuário."
 msgid "Public key import failed."
 msgstr "Falha na importação da chave pública."
 
-#: base/transaction.cpp:976
+#: base/transaction.cpp:977
 msgid "Invalid tsflag: {}"
 msgstr "tsflag inválida: {}"
 
-#: base/transaction.cpp:1312
+#: base/transaction.cpp:1313
 msgid "Public key \"{}\" is already present, not importing."
 msgstr "A chave pública \"{}\" já está presente, não será importada."
 
-#: base/transaction.cpp:1333
+#: base/transaction.cpp:1334
 msgid "An error occurred importing key \"{}\": {}"
 msgstr "Ocorreu um erro ao importar a chave \"{}\": {}"
 
-#: base/transaction.cpp:1367
+#: base/transaction.cpp:1368
 msgid "PGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
 msgstr "A verificação PGP do pacote \"{}\" ({}) do repositório \"{}\" falhou: "
 
-#: base/transaction.cpp:1395
+#: base/transaction.cpp:1396
 msgid "Import of the key didn't help, wrong key?"
 msgstr "A importação da chave não ajudou, chave errada?"
 
-#: base/transaction.cpp:1414
+#: base/transaction.cpp:1415
 msgctxt "It is a joining character for repositories IDs"
 msgid ", "
 msgstr ", "
 
-#: base/transaction.cpp:1417
+#: base/transaction.cpp:1418
 msgid "Warning: skipped PGP checks for 1 package from repository: {}"
 msgstr ""
 "Aviso: ignoradas as verificações de PGP para 1 pacote do repositório: {}"
 
-#: base/transaction.cpp:1419
+#: base/transaction.cpp:1420
 msgid "Warning: skipped PGP checks for {0} packages from repository: {1}"
 msgid_plural ""
 "Warning: skipped PGP checks for {0} packages from repositories: {1}"
@@ -953,7 +953,7 @@ msgstr ""
 "Não é possível fazer download do pacote \"{0}\", a opção cacheonly está "
 "ativada."
 
-#: repo/package_downloader.cpp:222
+#: repo/package_downloader.cpp:245
 msgid "Failed to download packages"
 msgstr "Falha ao baixar pacotes"
 

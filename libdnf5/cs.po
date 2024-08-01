@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-18 02:52+0000\n"
+"POT-Creation-Date: 2024-08-01 02:56+0000\n"
 "PO-Revision-Date: 2024-02-06 09:36+0000\n"
 "Last-Translator: Petr Ptacek <petr106@atlas.cz>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf5/"
@@ -27,124 +27,124 @@ msgstr ""
 "Chybné id libsolv pro doporučení \"{}\", řešitelný název \"{}\" nemá "
 "doporučenou předponu \"{}\""
 
-#: base/goal.cpp:470
+#: base/goal.cpp:472
 msgid "Unsupported argument for REMOVE action: {}"
 msgstr "Nepodporovaný argument pro akci REMOVE: {}"
 
 #. TODO(lukash) throw a proper exception
-#: base/goal.cpp:1528
+#: base/goal.cpp:1545
 msgid "Incorrect configuration value for multilib_policy: {}"
 msgstr "Nesprávná hodnota konfigurace pro multilib_policy: {}"
 
-#: base/goal_elements.cpp:348
+#: base/goal_elements.cpp:352
 msgid "Install"
 msgstr ""
 
-#: base/goal_elements.cpp:350
+#: base/goal_elements.cpp:354
 msgid "Install via provide"
 msgstr ""
 
-#: base/goal_elements.cpp:352
+#: base/goal_elements.cpp:356
 msgid "Install by group"
 msgstr ""
 
-#: base/goal_elements.cpp:354
+#: base/goal_elements.cpp:358
 msgid "Upgrade"
 msgstr ""
 
-#: base/goal_elements.cpp:356
+#: base/goal_elements.cpp:360
 msgid "Upgrade all"
 msgstr ""
 
-#: base/goal_elements.cpp:358
+#: base/goal_elements.cpp:362
 msgid "Upgrade minimal"
 msgstr ""
 
-#: base/goal_elements.cpp:360
+#: base/goal_elements.cpp:364
 msgid "Upgrade all minimal"
 msgstr ""
 
-#: base/goal_elements.cpp:362
+#: base/goal_elements.cpp:366
 msgid "Downgrade"
 msgstr ""
 
-#: base/goal_elements.cpp:364
+#: base/goal_elements.cpp:368
 msgid "Reinstall"
 msgstr ""
 
-#: base/goal_elements.cpp:366
+#: base/goal_elements.cpp:370
 msgid "Install or reinstall"
 msgstr ""
 
-#: base/goal_elements.cpp:368
+#: base/goal_elements.cpp:372
 msgid "Remove"
 msgstr ""
 
-#: base/goal_elements.cpp:370
+#: base/goal_elements.cpp:374
 msgid "Distrosync"
 msgstr ""
 
-#: base/goal_elements.cpp:372
+#: base/goal_elements.cpp:376
 msgid "Distrosync all"
 msgstr ""
 
-#: base/goal_elements.cpp:374
+#: base/goal_elements.cpp:378
 msgid "Reason Change"
 msgstr ""
 
-#: base/goal_elements.cpp:376
+#: base/goal_elements.cpp:380
 msgid "Resolve"
 msgstr ""
 
-#: base/goal_elements.cpp:378
+#: base/goal_elements.cpp:382
 msgid "Enable"
 msgstr ""
 
-#: base/goal_elements.cpp:380
+#: base/goal_elements.cpp:384
 msgid "Disable"
 msgstr ""
 
-#: base/goal_elements.cpp:382
+#: base/goal_elements.cpp:386
 msgid "Reset"
 msgstr ""
 
-#: base/goal_elements.cpp:384
+#: base/goal_elements.cpp:388
 msgid "Parse serialized transaction"
 msgstr ""
 
-#: base/goal_elements.cpp:386
+#: base/goal_elements.cpp:390
 msgid "Install action"
 msgstr ""
 
-#: base/goal_elements.cpp:388
+#: base/goal_elements.cpp:392
 msgid "Remove action"
 msgstr ""
 
-#: base/goal_elements.cpp:390
+#: base/goal_elements.cpp:394
 msgid "Upgrade action"
 msgstr ""
 
-#: base/goal_elements.cpp:392
+#: base/goal_elements.cpp:396
 msgid "Reinstall action"
 msgstr ""
 
-#: base/goal_elements.cpp:394
+#: base/goal_elements.cpp:398
 msgid "Reason change action"
 msgstr ""
 
-#: base/goal_elements.cpp:396
+#: base/goal_elements.cpp:400
 msgid "Reason override"
 msgstr ""
 
-#: base/goal_elements.cpp:398
+#: base/goal_elements.cpp:402
 msgid "Revert comps upgrade"
 msgstr ""
 
-#: base/goal_elements.cpp:400
+#: base/goal_elements.cpp:404
 msgid "Install debug RPMs"
 msgstr ""
 
-#: base/goal_elements.cpp:402
+#: base/goal_elements.cpp:406
 #, fuzzy
 #| msgid "No transaction in progress"
 msgid "Transaction merge"
@@ -717,39 +717,39 @@ msgstr "Zrušeno uživatelem."
 msgid "Public key import failed."
 msgstr "Import veřejného klíče se nezdařil."
 
-#: base/transaction.cpp:976
+#: base/transaction.cpp:977
 msgid "Invalid tsflag: {}"
 msgstr "Neplatný tsflag: {}"
 
-#: base/transaction.cpp:1312
+#: base/transaction.cpp:1313
 msgid "Public key \"{}\" is already present, not importing."
 msgstr "Veřejný klíč \"{}\" již existuje, neimportuje se."
 
-#: base/transaction.cpp:1333
+#: base/transaction.cpp:1334
 msgid "An error occurred importing key \"{}\": {}"
 msgstr "Při importu klíče \"{}\" došlo k chybě: {}"
 
-#: base/transaction.cpp:1367
+#: base/transaction.cpp:1368
 msgid "PGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
 msgstr ""
 "Kontrola PGP pro balíček \"{}\" ({}) z repozitáře \"{}\" se nezdařila: "
 
-#: base/transaction.cpp:1395
+#: base/transaction.cpp:1396
 msgid "Import of the key didn't help, wrong key?"
 msgstr "Import klíče nepomohl, špatný klíč?"
 
-#: base/transaction.cpp:1414
+#: base/transaction.cpp:1415
 msgctxt "It is a joining character for repositories IDs"
 msgid ", "
 msgstr ""
 
-#: base/transaction.cpp:1417
+#: base/transaction.cpp:1418
 #, fuzzy
 #| msgid "Warning: skipped PGP checks for {} package(s)."
 msgid "Warning: skipped PGP checks for 1 package from repository: {}"
 msgstr "Upozornění: vynechané PGP kontroly pro {} balík(y)."
 
-#: base/transaction.cpp:1419
+#: base/transaction.cpp:1420
 #, fuzzy
 #| msgid "Warning: skipped PGP checks for {} package(s)."
 msgid "Warning: skipped PGP checks for {0} packages from repository: {1}"
@@ -1033,7 +1033,7 @@ msgstr ""
 msgid "Cannot download the \"{0}\" package, cacheonly option is activated."
 msgstr "Nelze stáhnout balíček \"{0}\", je aktivována volba cacheonly."
 
-#: repo/package_downloader.cpp:222
+#: repo/package_downloader.cpp:245
 msgid "Failed to download packages"
 msgstr "Stažení balíčků se nezdařilo"
 

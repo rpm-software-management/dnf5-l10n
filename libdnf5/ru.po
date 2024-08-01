@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-18 02:52+0000\n"
+"POT-Creation-Date: 2024-08-01 02:56+0000\n"
 "PO-Revision-Date: 2024-07-28 18:38+0000\n"
 "Last-Translator: Aleksey Fedorov <aleksejfedorov963@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -27,124 +27,124 @@ msgstr ""
 "Плохой идентификатор libsolv для рекомендации \"{}\", имя решаемой задачи "
 "\"{}\" не имеет префикса рекомендации \"{}\""
 
-#: base/goal.cpp:470
+#: base/goal.cpp:472
 msgid "Unsupported argument for REMOVE action: {}"
 msgstr "Неподдерживаемый аргумент для действия REMOVE: {}"
 
 #. TODO(lukash) throw a proper exception
-#: base/goal.cpp:1528
+#: base/goal.cpp:1545
 msgid "Incorrect configuration value for multilib_policy: {}"
 msgstr "Неверное значение конфигурации для multilib_policy: {}"
 
-#: base/goal_elements.cpp:348
+#: base/goal_elements.cpp:352
 msgid "Install"
 msgstr "Установить"
 
-#: base/goal_elements.cpp:350
+#: base/goal_elements.cpp:354
 msgid "Install via provide"
 msgstr "Установить с помощью программы"
 
-#: base/goal_elements.cpp:352
+#: base/goal_elements.cpp:356
 msgid "Install by group"
 msgstr "Установить по группам"
 
-#: base/goal_elements.cpp:354
+#: base/goal_elements.cpp:358
 msgid "Upgrade"
 msgstr "Обновить"
 
-#: base/goal_elements.cpp:356
+#: base/goal_elements.cpp:360
 msgid "Upgrade all"
 msgstr "Обновить все"
 
-#: base/goal_elements.cpp:358
+#: base/goal_elements.cpp:362
 msgid "Upgrade minimal"
 msgstr "Обновить минимально"
 
-#: base/goal_elements.cpp:360
+#: base/goal_elements.cpp:364
 msgid "Upgrade all minimal"
 msgstr "Обновить все минимально"
 
-#: base/goal_elements.cpp:362
+#: base/goal_elements.cpp:366
 msgid "Downgrade"
 msgstr "Откатить"
 
-#: base/goal_elements.cpp:364
+#: base/goal_elements.cpp:368
 msgid "Reinstall"
 msgstr "Переустановить"
 
-#: base/goal_elements.cpp:366
+#: base/goal_elements.cpp:370
 msgid "Install or reinstall"
 msgstr "Установка или переустановка"
 
-#: base/goal_elements.cpp:368
+#: base/goal_elements.cpp:372
 msgid "Remove"
 msgstr "Удалить"
 
-#: base/goal_elements.cpp:370
+#: base/goal_elements.cpp:374
 msgid "Distrosync"
 msgstr "Дистросинхронизация"
 
-#: base/goal_elements.cpp:372
+#: base/goal_elements.cpp:376
 msgid "Distrosync all"
 msgstr "Дистросинхронизация всех"
 
-#: base/goal_elements.cpp:374
+#: base/goal_elements.cpp:378
 msgid "Reason Change"
 msgstr "Изменение причины"
 
-#: base/goal_elements.cpp:376
+#: base/goal_elements.cpp:380
 msgid "Resolve"
 msgstr "Разрешение"
 
-#: base/goal_elements.cpp:378
+#: base/goal_elements.cpp:382
 msgid "Enable"
 msgstr "Включить"
 
-#: base/goal_elements.cpp:380
+#: base/goal_elements.cpp:384
 msgid "Disable"
 msgstr "Отключить"
 
-#: base/goal_elements.cpp:382
+#: base/goal_elements.cpp:386
 msgid "Reset"
 msgstr "Сбросить"
 
-#: base/goal_elements.cpp:384
+#: base/goal_elements.cpp:388
 msgid "Parse serialized transaction"
 msgstr "Разбор сериализованной транзакции"
 
-#: base/goal_elements.cpp:386
+#: base/goal_elements.cpp:390
 msgid "Install action"
 msgstr "Действие по установке"
 
-#: base/goal_elements.cpp:388
+#: base/goal_elements.cpp:392
 msgid "Remove action"
 msgstr "Действие по удалению"
 
-#: base/goal_elements.cpp:390
+#: base/goal_elements.cpp:394
 msgid "Upgrade action"
 msgstr "Действие по обновлению"
 
-#: base/goal_elements.cpp:392
+#: base/goal_elements.cpp:396
 msgid "Reinstall action"
 msgstr "Действие по переустановке"
 
-#: base/goal_elements.cpp:394
+#: base/goal_elements.cpp:398
 msgid "Reason change action"
 msgstr "Действие по изменению причины"
 
-#: base/goal_elements.cpp:396
+#: base/goal_elements.cpp:400
 msgid "Reason override"
 msgstr "Отмена причины"
 
-#: base/goal_elements.cpp:398
+#: base/goal_elements.cpp:402
 msgid "Revert comps upgrade"
 msgstr "Вернуть обновление Компов"
 
-#: base/goal_elements.cpp:400
+#: base/goal_elements.cpp:404
 msgid "Install debug RPMs"
 msgstr "Установка отладочных RPM"
 
-#: base/goal_elements.cpp:402
+#: base/goal_elements.cpp:406
 msgid "Transaction merge"
 msgstr "Объединение транзакций"
 
@@ -631,36 +631,36 @@ msgstr "Отменено пользователем."
 msgid "Public key import failed."
 msgstr "Сбой импорта публичного ключа."
 
-#: base/transaction.cpp:976
+#: base/transaction.cpp:977
 msgid "Invalid tsflag: {}"
 msgstr "Недопустимый tsflag: {}"
 
-#: base/transaction.cpp:1312
+#: base/transaction.cpp:1313
 msgid "Public key \"{}\" is already present, not importing."
 msgstr "Публичный ключ \"{}\" уже присутствует, не импортируется."
 
-#: base/transaction.cpp:1333
+#: base/transaction.cpp:1334
 msgid "An error occurred importing key \"{}\": {}"
 msgstr "Произошла ошибка при импорте ключа \"{}\": {}"
 
-#: base/transaction.cpp:1367
+#: base/transaction.cpp:1368
 msgid "PGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
 msgstr "Сбой проверки PGP для пакета \"{}\" ({}) из репозитория \"{}\": "
 
-#: base/transaction.cpp:1395
+#: base/transaction.cpp:1396
 msgid "Import of the key didn't help, wrong key?"
 msgstr "Импорт ключа не помог, неправильный ключ?"
 
-#: base/transaction.cpp:1414
+#: base/transaction.cpp:1415
 msgctxt "It is a joining character for repositories IDs"
 msgid ", "
 msgstr ", "
 
-#: base/transaction.cpp:1417
+#: base/transaction.cpp:1418
 msgid "Warning: skipped PGP checks for 1 package from repository: {}"
 msgstr "Предупреждение: пропущены проверки PGP для 1 пакета из репозитория: {}"
 
-#: base/transaction.cpp:1419
+#: base/transaction.cpp:1420
 msgid "Warning: skipped PGP checks for {0} packages from repository: {1}"
 msgid_plural ""
 "Warning: skipped PGP checks for {0} packages from repositories: {1}"
@@ -944,7 +944,7 @@ msgstr ""
 msgid "Cannot download the \"{0}\" package, cacheonly option is activated."
 msgstr "Невозможно загрузить пакет \"{0}\", активирована опция \"cacheonly\"."
 
-#: repo/package_downloader.cpp:222
+#: repo/package_downloader.cpp:245
 msgid "Failed to download packages"
 msgstr "Не удалось загрузить пакеты"
 

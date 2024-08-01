@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-18 02:52+0000\n"
+"POT-Creation-Date: 2024-08-01 02:56+0000\n"
 "PO-Revision-Date: 2024-07-18 02:47+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -27,124 +27,124 @@ msgstr ""
 "არასწორი libsolv id რეკომენდაციისთვის \"{}\", ამოხსნად სახელს \"{}\" არ აქვს "
 "რეკომენდაციის პრეფიქსი \"{}\""
 
-#: base/goal.cpp:470
+#: base/goal.cpp:472
 msgid "Unsupported argument for REMOVE action: {}"
 msgstr "მხარდაუჭერელი არგუმენტი ქმედებისთვის REMOVE: {}"
 
 #. TODO(lukash) throw a proper exception
-#: base/goal.cpp:1528
+#: base/goal.cpp:1545
 msgid "Incorrect configuration value for multilib_policy: {}"
 msgstr "არასწორი კონფიგურაციის მნიშვნელობა multilib_policy-სთვის: {}"
 
-#: base/goal_elements.cpp:348
+#: base/goal_elements.cpp:352
 msgid "Install"
 msgstr "დაყენება"
 
-#: base/goal_elements.cpp:350
+#: base/goal_elements.cpp:354
 msgid "Install via provide"
 msgstr "დაყენება მომწოდებლით"
 
-#: base/goal_elements.cpp:352
+#: base/goal_elements.cpp:356
 msgid "Install by group"
 msgstr "დაყენება ჯგუფით"
 
-#: base/goal_elements.cpp:354
+#: base/goal_elements.cpp:358
 msgid "Upgrade"
 msgstr "ვერსიის აწევა"
 
-#: base/goal_elements.cpp:356
+#: base/goal_elements.cpp:360
 msgid "Upgrade all"
 msgstr "ყველას ვერსიის აწევა"
 
-#: base/goal_elements.cpp:358
+#: base/goal_elements.cpp:362
 msgid "Upgrade minimal"
 msgstr "მინიმალურის ვერსიის აწევა"
 
-#: base/goal_elements.cpp:360
+#: base/goal_elements.cpp:364
 msgid "Upgrade all minimal"
 msgstr "ყველა მინიმალურის ვერსიის აწევა"
 
-#: base/goal_elements.cpp:362
+#: base/goal_elements.cpp:366
 msgid "Downgrade"
 msgstr "ვერსიის ჩამოწევა"
 
-#: base/goal_elements.cpp:364
+#: base/goal_elements.cpp:368
 msgid "Reinstall"
 msgstr "გადაყენება"
 
-#: base/goal_elements.cpp:366
+#: base/goal_elements.cpp:370
 msgid "Install or reinstall"
 msgstr "დაყენება ან გადაყენება"
 
-#: base/goal_elements.cpp:368
+#: base/goal_elements.cpp:372
 msgid "Remove"
 msgstr "წაშლა"
 
-#: base/goal_elements.cpp:370
+#: base/goal_elements.cpp:374
 msgid "Distrosync"
 msgstr "დისტრიბუტივის სინქრონიზაცია"
 
-#: base/goal_elements.cpp:372
+#: base/goal_elements.cpp:376
 msgid "Distrosync all"
 msgstr "დისტრიბუტივის სინქრონიზაცია ყველასთვის"
 
-#: base/goal_elements.cpp:374
+#: base/goal_elements.cpp:378
 msgid "Reason Change"
 msgstr "მიზეზის ცვლილება"
 
-#: base/goal_elements.cpp:376
+#: base/goal_elements.cpp:380
 msgid "Resolve"
 msgstr "ამოხსნა"
 
-#: base/goal_elements.cpp:378
+#: base/goal_elements.cpp:382
 msgid "Enable"
 msgstr "ჩართვა"
 
-#: base/goal_elements.cpp:380
+#: base/goal_elements.cpp:384
 msgid "Disable"
 msgstr "გამორთვა"
 
-#: base/goal_elements.cpp:382
+#: base/goal_elements.cpp:386
 msgid "Reset"
 msgstr "ჩამოყრა"
 
-#: base/goal_elements.cpp:384
+#: base/goal_elements.cpp:388
 msgid "Parse serialized transaction"
 msgstr "სერიალიზებული ტრანზაქციის დამუშავება"
 
-#: base/goal_elements.cpp:386
+#: base/goal_elements.cpp:390
 msgid "Install action"
 msgstr "დაყენების ქმედება"
 
-#: base/goal_elements.cpp:388
+#: base/goal_elements.cpp:392
 msgid "Remove action"
 msgstr "წაშლის ქმედება"
 
-#: base/goal_elements.cpp:390
+#: base/goal_elements.cpp:394
 msgid "Upgrade action"
 msgstr "ვერსიის აწევის ქმედება"
 
-#: base/goal_elements.cpp:392
+#: base/goal_elements.cpp:396
 msgid "Reinstall action"
 msgstr "გადაყენების ქმედება"
 
-#: base/goal_elements.cpp:394
+#: base/goal_elements.cpp:398
 msgid "Reason change action"
 msgstr "მიზეზის ცვლილების ქმედება"
 
-#: base/goal_elements.cpp:396
+#: base/goal_elements.cpp:400
 msgid "Reason override"
 msgstr "მიზეზის გადაფარვა"
 
-#: base/goal_elements.cpp:398
+#: base/goal_elements.cpp:402
 msgid "Revert comps upgrade"
 msgstr "Comps-ის ვერსიის აწევის დაბრუნება"
 
-#: base/goal_elements.cpp:400
+#: base/goal_elements.cpp:404
 msgid "Install debug RPMs"
 msgstr "გამართვის RPM-ების დაყენება"
 
-#: base/goal_elements.cpp:402
+#: base/goal_elements.cpp:406
 msgid "Transaction merge"
 msgstr "ტრანზაქციის შერწყმა"
 
@@ -635,37 +635,37 @@ msgstr "გაუქმდა მომხმარებლის მიერ.
 msgid "Public key import failed."
 msgstr "საჯარო გასაღების შემოტანა ჩავარდა."
 
-#: base/transaction.cpp:976
+#: base/transaction.cpp:977
 msgid "Invalid tsflag: {}"
 msgstr "არასწორი tsflag: {}"
 
-#: base/transaction.cpp:1312
+#: base/transaction.cpp:1313
 msgid "Public key \"{}\" is already present, not importing."
 msgstr "საჯარო გასაღები \"{}\" უკვე არსებობს. შემოტანა არ მოხდება."
 
-#: base/transaction.cpp:1333
+#: base/transaction.cpp:1334
 msgid "An error occurred importing key \"{}\": {}"
 msgstr "შეცდომა გასაღების \"{}\" შემოტანისას: {}"
 
-#: base/transaction.cpp:1367
+#: base/transaction.cpp:1368
 msgid "PGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
 msgstr "PGP-ის შემოწმება პაკეტისთვის \"{}\" ({}) რეპოდან \"{}\" ჩავარდა: "
 
-#: base/transaction.cpp:1395
+#: base/transaction.cpp:1396
 msgid "Import of the key didn't help, wrong key?"
 msgstr "გასაღების შემოტანამ არაფერს უშველა. გასაღები არასწორია?"
 
-#: base/transaction.cpp:1414
+#: base/transaction.cpp:1415
 msgctxt "It is a joining character for repositories IDs"
 msgid ", "
 msgstr ", "
 
-#: base/transaction.cpp:1417
+#: base/transaction.cpp:1418
 msgid "Warning: skipped PGP checks for 1 package from repository: {}"
 msgstr ""
 "გაფრთხილება: PGP-ით შემოწმების გამოტოვება 1 პაკეტისთვის რეპოზიტორიიდან: {}"
 
-#: base/transaction.cpp:1419
+#: base/transaction.cpp:1420
 msgid "Warning: skipped PGP checks for {0} packages from repository: {1}"
 msgid_plural ""
 "Warning: skipped PGP checks for {0} packages from repositories: {1}"
@@ -950,7 +950,7 @@ msgstr ""
 msgid "Cannot download the \"{0}\" package, cacheonly option is activated."
 msgstr "პაკეტის \"{0}\" გადმოწერა შეუძლებელია. აქტიურია პარამეტრ cacheonly."
 
-#: repo/package_downloader.cpp:222
+#: repo/package_downloader.cpp:245
 msgid "Failed to download packages"
 msgstr "პაკეტების გადმოწერის შეცდომა"
 
