@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-18 02:52+0000\n"
+"POT-Creation-Date: 2024-08-01 02:56+0000\n"
 "PO-Revision-Date: 2024-07-25 18:38+0000\n"
 "Last-Translator: \"Geraldo S. Simião Kutz\" <geraldo.simiao.kutz@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
@@ -268,6 +268,7 @@ msgstr ""
 msgid "Don't consider extra packages pulled into the transaction as errors."
 msgstr "Não considerar pacotes extras incluídos na transação como erros."
 
+#: commands/history/history_redo.cpp:53
 #: commands/history/history_rollback.cpp:57
 #: commands/history/history_store.cpp:80 commands/history/history_undo.cpp:56
 msgid "No matching transaction ID found, exactly one required."
@@ -275,6 +276,7 @@ msgstr ""
 "Nenhum ID de transação correspondente foi encontrado. É necessário "
 "exatamente um."
 
+#: commands/history/history_redo.cpp:57
 #: commands/history/history_rollback.cpp:61
 #: commands/history/history_undo.cpp:60
 msgid "Matched more than one transaction ID, exactly one required."
@@ -842,7 +844,8 @@ msgstr ""
 
 #: main.cpp:419
 msgid "disable gpg signature checking (if RPM policy allows)"
-msgstr "desabilita a verificação de assinatura gpg (se a política RPM permitir)"
+msgstr ""
+"desabilita a verificação de assinatura gpg (se a política RPM permitir)"
 
 #: main.cpp:445
 msgid ""
@@ -880,7 +883,8 @@ msgstr "define a raiz de instalação"
 msgid ""
 "use configuration, reposdir, and vars from the host system rather than the "
 "installroot"
-msgstr "usa configuração, reposdir e vars do sistema host em vez do installroot"
+msgstr ""
+"usa configuração, reposdir e vars do sistema host em vez do installroot"
 
 #: main.cpp:508
 msgid "override the value of $releasever in config and repo files"

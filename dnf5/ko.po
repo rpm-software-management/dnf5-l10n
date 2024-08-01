@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-18 02:52+0000\n"
+"POT-Creation-Date: 2024-08-01 02:56+0000\n"
 "PO-Revision-Date: 2024-06-23 04:35+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -264,11 +264,13 @@ msgstr ""
 msgid "Don't consider extra packages pulled into the transaction as errors."
 msgstr "연결에 포함된 추가 꾸러미를 오류로 고려하지 마세요."
 
+#: commands/history/history_redo.cpp:53
 #: commands/history/history_rollback.cpp:57
 #: commands/history/history_store.cpp:80 commands/history/history_undo.cpp:56
 msgid "No matching transaction ID found, exactly one required."
 msgstr "일치하는 연결 ID를 찾을 수 없으며, 정확히 하나가 필요합니다."
 
+#: commands/history/history_redo.cpp:57
 #: commands/history/history_rollback.cpp:61
 #: commands/history/history_undo.cpp:60
 msgid "Matched more than one transaction ID, exactly one required."
