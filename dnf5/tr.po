@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-09 02:54+0000\n"
-"PO-Revision-Date: 2024-08-11 14:40+0000\n"
+"PO-Revision-Date: 2024-08-12 04:01+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/tr/>\n"
@@ -357,7 +357,7 @@ msgstr "Devre dışı bırakılmış modülleri göster."
 
 #: commands/module/arguments.hpp:50
 msgid "Pattern matching module NSVCAs."
-msgstr ""
+msgstr "Modül NSVCA ile eşleşen desen."
 
 #: commands/module/module_list.cpp:85
 msgid "No matches found for \"{}\"."
@@ -365,13 +365,16 @@ msgstr "\"{}\" için eşleşme bulunamadı."
 
 #: commands/offline/offline.cpp:190
 msgid "Manage offline transactions"
-msgstr ""
+msgstr "Çevrim dışı işlemleri yönet"
 
 #: commands/offline/offline.cpp:222
 msgid ""
 "Error reading state: {}. Rerun the command you used to initiate the offline "
 "transaction, e.g. `dnf5 system-upgrade download [OPTIONS]`."
 msgstr ""
+"Durum okunurken hata oluştu: {}. Çevrim dışı işlemi başlatmak için "
+"kullandığınız komutu yeniden çalıştırın, örn. `dnf5 system-upgrade download "
+"[SEÇENEKLER]`."
 
 #: commands/offline/offline.cpp:245
 msgid "Couldn't connect to D-Bus: {}"
@@ -382,18 +385,20 @@ msgid ""
 "Prepare the system to perform the offline transaction and reboot to start "
 "the transaction."
 msgstr ""
+"Sistemi çevrim dışı işlemi gerçekleştirmek için hazırla ve işlemi başlatmak "
+"için yeniden başlat."
 
 #: commands/offline/offline.cpp:281
 msgid "Power off the system after the operation is complete"
-msgstr ""
+msgstr "İşlem tamamlandıktan sonra sistemi kapat"
 
 #: commands/offline/offline.cpp:292
 msgid "No offline transaction is stored."
-msgstr ""
+msgstr "Çevrim dışı işlem kaydedilmedi."
 
 #: commands/offline/offline.cpp:300
 msgid "System is not ready for offline transaction."
-msgstr ""
+msgstr "Sistem çevrim dışı işlem için hazır değil."
 
 #: commands/offline/offline.cpp:303
 msgid "Data directory {} does not exist."
@@ -401,31 +406,35 @@ msgstr "{} veri dizini yok."
 
 #: commands/offline/offline.cpp:327
 msgid "{} is not wanted by system-update.target."
-msgstr ""
+msgstr "{} system-update.target tarafından istenmiyor."
 
 #: commands/offline/offline.cpp:336
 msgid "The system will now reboot to upgrade to release version "
-msgstr ""
+msgstr "Sistem şimdi yayın sürümüne yükseltmek için yeniden başlatılacak: "
 
 #: commands/offline/offline.cpp:340
 msgid ""
 "The system will now reboot to perform the offline transaction initiated by "
 "the following command:"
 msgstr ""
+"Sistem şimdi şu komutla başlatılan çevrim dışı işlemi gerçekleştirmek için "
+"yeniden başlatılacak:"
 
 #: commands/offline/offline.cpp:371
 msgid ""
 "Internal use only, not intended to be run by the user. Execute the "
 "transaction in the offline environment."
 msgstr ""
+"Yalnızca dahili kullanım içindir, kullanıcı tarafından çalıştırılması "
+"amaçlanmamıştır. İşlemi çevrim dışı ortamda çalıştırın."
 
 #: commands/offline/offline.cpp:398
 msgid "Trigger file does not exist. Exiting."
-msgstr ""
+msgstr "Tetikleme dosyası yok. Çıkılıyor."
 
 #: commands/offline/offline.cpp:402
 msgid "Another offline transaction tool is running. Exiting."
-msgstr ""
+msgstr "Başka bir çevrim dışı işlem aracı çalışıyor. Çıkılıyor."
 
 #: commands/offline/offline.cpp:437
 msgid ""
@@ -433,10 +442,14 @@ msgid ""
 "to be run directly by the user. To initiate the system upgrade/offline "
 "transaction, you should run `dnf5 offline reboot`."
 msgstr ""
+"Uyarı: `_execute` komutu yalnızca dahili kullanım içindir ve kullanıcı "
+"tarafından doğrudan çalıştırılması amaçlanmamıştır. Sistem yükseltmeyi/"
+"çevrim dışı işlemi başlatmak için `dnf5 offline reboot` komutunu "
+"çalıştırmalısınız."
 
 #: commands/offline/offline.cpp:444
 msgid "Use `dnf5 offline reboot` to begin the transaction."
-msgstr ""
+msgstr "İşlemi başlatmak için `dnf5 offline reboot` komutunu kullanın."
 
 #: commands/offline/offline.cpp:495
 msgid "Transaction failed: "
@@ -448,7 +461,7 @@ msgstr "Günlük okunurken hata oluştu: {}"
 
 #: commands/offline/offline.cpp:570
 msgid "Add journal match failed: {}"
-msgstr ""
+msgstr "Günlüğe eşleşme eklenemedi: {}"
 
 #: commands/offline/offline.cpp:598
 msgid "No logs were found."
@@ -456,7 +469,7 @@ msgstr "Günlük kaydı bulunamadı."
 
 #: commands/offline/offline.cpp:602
 msgid "The following boots appear to contain offline transaction logs:"
-msgstr ""
+msgstr "Şu önyüklemeler çevrim dışı işlem günlükleri içeriyor gibi görünüyor:"
 
 #: commands/offline/offline.cpp:619
 msgid "Cannot find logs with this index."
@@ -468,41 +481,49 @@ msgstr "systemd günlük girdisi eşleştirilemedi."
 
 #: commands/offline/offline.cpp:638
 msgid "Show logs from past offline transactions"
-msgstr ""
+msgstr "Geçmiş çevrim dışı işlemlerin günlüklerini göster"
 
 #: commands/offline/offline.cpp:646
 msgid ""
 "Which log to show. Run without any arguments to get a list of available logs."
 msgstr ""
+"Hangi günlüğün gösterileceği. Kullanılabilir günlüklerin bir listesini almak "
+"için herhangi bir argüman olmadan çalıştırın."
 
 #: commands/offline/offline.cpp:661
 msgid ""
 "systemd is not supported in this build of DNF 5; the `log` subcommand is "
 "unavailable."
 msgstr ""
+"systemd, bu DNF 5 derlemesinde desteklenmiyor; `log` alt komutu "
+"kullanılabilir değil."
 
 #: commands/offline/offline.cpp:666
 msgid "Show status of the current offline transaction"
-msgstr ""
+msgstr "Geçerli çevrim dışı işlemin durumunu göster"
 
 #: commands/offline/offline.cpp:682
 msgid "An offline transaction was initiated by the following command:"
-msgstr ""
+msgstr "Bir çevrim dışı işlem şu komutla başlatıldı:"
 
 #: commands/offline/offline.cpp:684
 msgid ""
 "Run `dnf5 offline reboot` to reboot and perform the offline transaction."
 msgstr ""
+"Yeniden başlatmak ve çevrim dışı işlemi gerçekleştirmek için `dnf5 offline "
+"reboot` komutunu çalıştırın."
 
 #: commands/offline/offline.cpp:686
 msgid ""
 "An offline transaction was started, but it did not finish. Run `dnf5 offline "
 "log` for more information. The command that initiated the transaction was:"
 msgstr ""
+"Çevrim dışı bir işlem başlatıldı, ancak tamamlanmadı. Daha fazla bilgi için `"
+"dnf5 offline log` komutunu çalıştırın. İşlemi başlatan komut şuydu:"
 
 #: commands/offline/offline.cpp:691
 msgid "Unknown offline transaction status: "
-msgstr ""
+msgstr "Bilinmeyen çevrim dışı işlem durumu: "
 
 #: commands/repo/arguments.hpp:35
 msgid "Show all repositories."
@@ -525,12 +546,16 @@ msgid ""
 "Option \"--exactdeps\" has to be used either with \"--whatrequires\" or \"--"
 "whatdepends\""
 msgstr ""
+"\"--exactdeps\" seçeneği \"--whatrequires\" ya da \"--whatdepends\" ile "
+"birlikte kullanılmalıdır"
 
 #: commands/repoquery/repoquery.cpp:521
 msgid ""
 "Option \"--recursive\" has to be used either with \"--whatrequires\" or \"--"
 "providers-of=requires\""
 msgstr ""
+"\"--recursive\" seçeneği \"--whatrequires\" ya da \"--providers-of=requires\""
+" ile birlikte kullanılmalıdır"
 
 #: commands/search/arguments.hpp:37
 msgid "Search also package description and URL."
@@ -561,11 +586,11 @@ msgstr "Geçerli sistem sürümünden daha büyük bir --releasever belirtilmeli
 
 #: commands/system-upgrade/system-upgrade.cpp:131
 msgid "Store a distro-sync transaction to be performed offline"
-msgstr ""
+msgstr "Dağıtım eşzamanlama işlemini çevrim dışı gerçekleştirmek için kaydet"
 
 #: commands/system-upgrade/system-upgrade.cpp:153
 msgid "Store an upgrade transaction to be performed offline"
-msgstr ""
+msgstr "Yükseltme işlemini çevrim dışı gerçekleştirmek için kaydet"
 
 #: commands/upgrade/upgrade.cpp:48
 msgid ""
@@ -574,19 +599,24 @@ msgid ""
 "limiting advisories is used it upgrades packages only to the lowest versions "
 "that fix advisories that matching selected advisory property"
 msgstr ""
+"Paketleri yalnızca hata düzeltme, iyileştirme, güvenlik veya yeni paket "
+"türündeki tavsiyeleri düzelten en düşük sürümlere yükselt. Tavsiyeleri "
+"sınırlayan herhangi bir seçeneğin kullanılması durumunda, paketleri yalnızca "
+"seçilen tavsiye özelliğiyle eşleşen tavsiyeleri düzelten en düşük sürümlere "
+"yükseltir"
 
 #. TODO(mblaha): add full command line
 #: commands/versionlock/utils.cpp:35
 msgid "Added by 'versionlock {}' command on {}"
-msgstr ""
+msgstr "'versionlock {}' komutu tarafından {} tarihinde eklendi"
 
 #: commands/versionlock/versionlock_add.cpp:37
 msgid "Add new entry to versionlock configuration"
-msgstr ""
+msgstr "Sürüm kilidi yapılandırmasına yeni girdi ekle"
 
 #: commands/versionlock/versionlock_add.cpp:43
 msgid "List of package specs to add versionlock for"
-msgstr ""
+msgstr "Sürüm kilidi eklenecek paket belirtimlerinin listesi"
 
 #: commands/versionlock/versionlock_add.cpp:106
 #: commands/versionlock/versionlock_exclude.cpp:125
@@ -595,7 +625,7 @@ msgstr "\"{}\" için paket bulunamadı."
 
 #: commands/versionlock/versionlock_add.cpp:124
 msgid "Adding versionlock on \"{0} = {1}\"."
-msgstr ""
+msgstr "\"{0} = {1}\" için sürüm kilidi ekleniyor."
 
 #: commands/versionlock/versionlock_add.cpp:127
 msgid "Package \"{}\" is already locked."
@@ -603,32 +633,32 @@ msgstr "\"{}\" paketi zaten kilitli."
 
 #: commands/versionlock/versionlock_clear.cpp:32
 msgid "Remove all entries from versionlock configuration"
-msgstr ""
+msgstr "Sürüm kilidi yapılandırmasındaki tüm girdileri kaldır"
 
 #: commands/versionlock/versionlock_delete.cpp:35
 msgid "Remove any matching versionlock configuration entries"
-msgstr ""
+msgstr "Eşleşen tüm sürüm kilidi yapılandırması girdilerini kaldır"
 
 #: commands/versionlock/versionlock_delete.cpp:41
 msgid "List of package specs to remove versionlock for"
-msgstr ""
+msgstr "Sürüm kilidi kaldırılacak paket belirtimlerinin listesi"
 
 #: commands/versionlock/versionlock_delete.cpp:55
 msgid "Deleting versionlock entry:"
-msgstr "Sürüm kilidi girişi siliniyor:"
+msgstr "Sürüm kilidi girdisi siliniyor:"
 
 #: commands/versionlock/versionlock_exclude.cpp:37
 msgid "Add new exclude entry to versionlock configuration"
-msgstr ""
+msgstr "Sürüm kilidi yapılandırmasına yeni hariç tutma girdisi ekle"
 
 #: commands/versionlock/versionlock_exclude.cpp:43
 msgid "List of package specs to add versionlock exclude for"
-msgstr ""
+msgstr "Sürüm kilidi hariç tutma eklenecek paket belirtimlerinin listesi"
 
 #: commands/versionlock/versionlock_exclude.cpp:88
 #: commands/versionlock/versionlock_exclude.cpp:100
 msgid "Adding versionlock exclude on \"{0} = {1}\"."
-msgstr ""
+msgstr "\"{0} = {1}\" için sürüm kilidi hariç tutma ekleniyor."
 
 #: commands/versionlock/versionlock_exclude.cpp:139
 msgid "Package \"{}\" is already excluded."
@@ -647,6 +677,8 @@ msgid ""
 "Location \"{}\" already contains a stored transaction, it will be "
 "overwritten.\n"
 msgstr ""
+"\"{}\" konumu zaten kayıtlı bir işlem içeriyor, bu işlemin üzerine yazılacak."
+"\n"
 
 #: library.cpp:33
 msgid "Cannot load shared library \"{}\": {}"
@@ -686,12 +718,17 @@ msgid ""
 "content. Suppresses messages notifying about the current state or actions of "
 "dnf5."
 msgstr ""
+"Etkileşimli olmayan bir komutla birlikte, yalnızca ilgili içeriği gösterir. "
+"Geçerli dnf5 durumu veya eylemleri hakkında bildirimde bulunan mesajları "
+"göstermez."
 
 #: main.cpp:168
 msgid ""
 "Run entirely from system cache, don't update the cache and use it even in "
 "case it is expired."
 msgstr ""
+"Tamamen sistem önbelleğinden çalış, önbelleği güncelleme ve süresi dolmuş "
+"olsa bile kullan."
 
 #: main.cpp:175
 msgid "Force refreshing metadata before running the command."
@@ -699,15 +736,15 @@ msgstr "Komutu çalıştırmadan önce üst verileri yenilemeye zorla."
 
 #: main.cpp:191
 msgid "Failed to expire repository cache in path \"{0}\": {1}"
-msgstr ""
+msgstr "\"{0}\" yolundaki depo önbelleğinin süresi doldurulamadı: {1}"
 
 #: main.cpp:208
 msgid "create additional repository using id and path"
-msgstr ""
+msgstr "kimlik ve yol kullanarak ek depo oluştur"
 
 #: main.cpp:216
 msgid "repofrompath: Incorrect repoid and path specification \"{}\""
-msgstr ""
+msgstr "repofrompath: Yanlış depo kimliği ve yol belirtimi \"{}\""
 
 #: main.cpp:228
 msgid "set arbitrary config and repo options"
@@ -723,6 +760,13 @@ msgid ""
 "              they do not override it. However, specifying an empty value (e."
 "g. --setopt=tsflags=) will clear the option."
 msgstr ""
+"Yapılandırma dosyasından bir yapılandırma seçeneğini geçersiz kıl. Depoların "
+"yapılandırma seçeneklerini geçersiz kılmak için <seçenek>\n"
+"              için repoid.option kullanın. excludepkgs, includepkgs, "
+"installonlypkgs ve tsflags gibi yapılandırma seçenekleri için değerler "
+"orijinal değere eklenir,\n"
+"              onu geçersiz kılmazlar. Ancak, boş bir değer belirtmek ("
+"örneğin --setopt=tsflags=) seçeneği temizleyecektir."
 
 #: main.cpp:239 main.cpp:278
 msgid "{}: Badly formatted argument value \"{}\""
@@ -760,6 +804,8 @@ msgid ""
 "Don't install files that are marked as documentation (which includes man "
 "pages and texinfo documents)"
 msgstr ""
+"Belgelendirme (kılavuz sayfaları ve texinfo belgeleri) olarak işaretlenen "
+"dosyaları kurma"
 
 #: main.cpp:342
 msgid "exclude packages by name or glob"
@@ -818,6 +864,7 @@ msgid ""
 "Adds a comment to the action. If a transaction takes place, the comment is "
 "stored in it."
 msgstr ""
+"Eyleme bir yorum ekler. Bir işlem gerçekleşirse, yorum o işlemde kaydedilir."
 
 #: main.cpp:492
 msgid "set install root"
@@ -828,6 +875,8 @@ msgid ""
 "use configuration, reposdir, and vars from the host system rather than the "
 "installroot"
 msgstr ""
+"installroot yerine ana sistemden yapılandırma, depo dizini ve değişkenleri "
+"kullan"
 
 #: main.cpp:508
 msgid "override the value of $releasever in config and repo files"
@@ -839,10 +888,12 @@ msgid ""
 "Show newly installed leaf packages and packages that became leaves after a "
 "transaction."
 msgstr ""
+"Yeni kurulan yaprak (leaf) paketleri ve bir işlemden sonra yaprak haline "
+"gelen paketleri göster."
 
 #: main.cpp:535
 msgid "Dump detailed solving results into files"
-msgstr ""
+msgstr "Ayrıntılı çözüm sonuçlarını dosyalara kaydet"
 
 #: main.cpp:544
 msgid "Print main configuration values to stdout"
@@ -893,11 +944,11 @@ msgstr "======== Değişkenler: ========"
 
 #: main.cpp:983
 msgid "{} to skip unavailable packages"
-msgstr ""
+msgstr "Kullanılabilir olmayan paketleri atlamak için {}"
 
 #: main.cpp:991
 msgid "{} to allow extra packages in the transaction"
-msgstr ""
+msgstr "İşlemde ek paketlere izin vermek için {}"
 
 #: main.cpp:1004
 msgid ""
@@ -905,38 +956,45 @@ msgid ""
 "This can result in an empty transaction because among other things the "
 "option can ignore failing Remove actions."
 msgstr ""
+"Kurulu ve kaydedilen işlem paketleri arasındaki uyumsuzluklara izin vermek "
+"için {}. Bu, boş bir işlemle sonuçlanabilir çünkü diğer şeylerin yanı sıra "
+"seçenek, başarısız olan kaldırma eylemlerini yok sayabilir."
 
 #: main.cpp:1051
 msgid "{} to not limit the transaction to the best candidates"
-msgstr ""
+msgstr "İşlemi en iyi adaylarla sınırlamamak için {}"
 
 #: main.cpp:1058
 msgid "{} to allow erasing of installed packages to resolve problems"
-msgstr ""
+msgstr "Sorunları çözmek için kurulu paketlerin silinmesine izin vermek için {}"
 
 #: main.cpp:1066
 msgid "{} to load additional filelists metadata"
-msgstr ""
+msgstr "Ek dosya listeleri üst verilerini yüklemek için {}"
 
 #: main.cpp:1073
 msgid "{} to skip uninstallable packages"
-msgstr ""
+msgstr "Kurulamayan paketleri atlamak için {}"
 
 #: main.cpp:1079
 msgid "You can try to add to command line:"
-msgstr ""
+msgstr "Komut satırına eklemeyi deneyebilirsiniz:"
 
 #: main.cpp:1097
 msgid ""
 "No matches were found for the following plugin name patterns while enabling "
 "libdnf plugins: {}"
 msgstr ""
+"libdnf eklentilerini etkinleştirirken şu eklenti adı desenleri için eşleşme "
+"bulunamadı: {}"
 
 #: main.cpp:1098
 msgid ""
 "No matches were found for the following plugin name patterns while disabling "
 "libdnf plugins: {}"
 msgstr ""
+"libdnf eklentilerini devre dışı bırakırken şu eklenti adı desenleri için "
+"eşleşme bulunamadı: {}"
 
 #: main.cpp:1247 main.cpp:1434
 msgid ". Add \"--help\" for more information about the arguments."
@@ -949,6 +1007,10 @@ msgid ""
 "user with elevated rights, or use the \"--assumeno\" or \"--downloadonly\" "
 "options to run the command without modifying the system state."
 msgstr ""
+"İstenen işlem süper kullanıcı ayrıcalıkları gerektiriyor. Lütfen yüksek "
+"haklara sahip bir kullanıcı olarak oturum açın veya sistem durumunu "
+"değiştirmeden komutu çalıştırmak için \"--assumeno\" veya \"--downloadonly\" "
+"seçeneklerini kullanın."
 
 #: main.cpp:1455
 msgid "Complete!"
