@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-09 02:54+0000\n"
+"POT-Creation-Date: 2024-08-17 02:53+0000\n"
 "PO-Revision-Date: 2024-08-11 14:40+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -77,7 +77,8 @@ msgstr "Yalnızca bir CVE'ye kaynak gösteren tavsiyeleri göster."
 
 #: commands/advisory/arguments.hpp:113
 msgid "Limit to packages in advisories with specified name. List option."
-msgstr "Belirtilen ada sahip tavsiyelerdeki paketlerle sınırla. Liste seçeneği."
+msgstr ""
+"Belirtilen ada sahip tavsiyelerdeki paketlerle sınırla. Liste seçeneği."
 
 #: commands/advisory/arguments.hpp:114
 msgid "ADVISORY_NAME,..."
@@ -131,15 +132,14 @@ msgid ""
 "Limit to packages in advisories that fix a CVE (Common Vulnerabilities and "
 "Exposures) ID, Eg. CVE-2201-0123. List option."
 msgstr ""
-"Bir CVE (Common Vulnerabilities and Exposures) kimliğini (örn. CVE-2201-0123)"
-" düzelten tavsiyelerdeki paketlerle sınırla. Liste seçeneği."
+"Bir CVE (Common Vulnerabilities and Exposures) kimliğini (örn. "
+"CVE-2201-0123) düzelten tavsiyelerdeki paketlerle sınırla. Liste seçeneği."
 
 #: commands/advisory/arguments.hpp:182
 msgid "CVE_ID,..."
 msgstr "CVE_KİMLİĞİ,..."
 
 #: commands/clean/clean.cpp:88
-#, c++-format
 msgid "Error cleaning the cache: {}"
 msgstr "Önbellek temizlenirken hata oluştu: {}"
 
@@ -164,7 +164,6 @@ msgstr ""
 "seçeneği, globları destekler."
 
 #: commands/repoquery/repoquery.cpp:158
-#, c++-format
 msgid "Error parsing JSON object \"{}\": {}"
 msgstr "\"{}\" JSON nesnesi ayrıştırılırken hata oluştu: {}"
 
@@ -177,7 +176,6 @@ msgstr ""
 "ile) çalıştırılması gerekmektedir."
 
 #: main.cpp:157
-#, c++-format
 msgid ""
 "{}: Badly formatted argument value: Last key character cannot be '.': {}"
 msgstr ""
