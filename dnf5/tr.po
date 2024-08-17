@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-09 02:54+0000\n"
+"POT-Creation-Date: 2024-08-17 02:53+0000\n"
 "PO-Revision-Date: 2024-08-12 04:01+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -518,8 +518,8 @@ msgid ""
 "An offline transaction was started, but it did not finish. Run `dnf5 offline "
 "log` for more information. The command that initiated the transaction was:"
 msgstr ""
-"Çevrim dışı bir işlem başlatıldı, ancak tamamlanmadı. Daha fazla bilgi için `"
-"dnf5 offline log` komutunu çalıştırın. İşlemi başlatan komut şuydu:"
+"Çevrim dışı bir işlem başlatıldı, ancak tamamlanmadı. Daha fazla bilgi için "
+"`dnf5 offline log` komutunu çalıştırın. İşlemi başlatan komut şuydu:"
 
 #: commands/offline/offline.cpp:691
 msgid "Unknown offline transaction status: "
@@ -554,8 +554,8 @@ msgid ""
 "Option \"--recursive\" has to be used either with \"--whatrequires\" or \"--"
 "providers-of=requires\""
 msgstr ""
-"\"--recursive\" seçeneği \"--whatrequires\" ya da \"--providers-of=requires\""
-" ile birlikte kullanılmalıdır"
+"\"--recursive\" seçeneği \"--whatrequires\" ya da \"--providers-"
+"of=requires\" ile birlikte kullanılmalıdır"
 
 #: commands/search/arguments.hpp:37
 msgid "Search also package description and URL."
@@ -677,8 +677,8 @@ msgid ""
 "Location \"{}\" already contains a stored transaction, it will be "
 "overwritten.\n"
 msgstr ""
-"\"{}\" konumu zaten kayıtlı bir işlem içeriyor, bu işlemin üzerine yazılacak."
-"\n"
+"\"{}\" konumu zaten kayıtlı bir işlem içeriyor, bu işlemin üzerine "
+"yazılacak.\n"
 
 #: library.cpp:33
 msgid "Cannot load shared library \"{}\": {}"
@@ -765,8 +765,8 @@ msgstr ""
 "              için repoid.option kullanın. excludepkgs, includepkgs, "
 "installonlypkgs ve tsflags gibi yapılandırma seçenekleri için değerler "
 "orijinal değere eklenir,\n"
-"              onu geçersiz kılmazlar. Ancak, boş bir değer belirtmek ("
-"örneğin --setopt=tsflags=) seçeneği temizleyecektir."
+"              onu geçersiz kılmazlar. Ancak, boş bir değer belirtmek "
+"(örneğin --setopt=tsflags=) seçeneği temizleyecektir."
 
 #: main.cpp:239 main.cpp:278
 msgid "{}: Badly formatted argument value \"{}\""
@@ -966,7 +966,8 @@ msgstr "İşlemi en iyi adaylarla sınırlamamak için {}"
 
 #: main.cpp:1058
 msgid "{} to allow erasing of installed packages to resolve problems"
-msgstr "Sorunları çözmek için kurulu paketlerin silinmesine izin vermek için {}"
+msgstr ""
+"Sorunları çözmek için kurulu paketlerin silinmesine izin vermek için {}"
 
 #: main.cpp:1066
 msgid "{} to load additional filelists metadata"
