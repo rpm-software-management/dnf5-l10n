@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-17 02:53+0000\n"
+"POT-Creation-Date: 2024-08-21 02:53+0000\n"
 "PO-Revision-Date: 2024-07-18 02:47+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -1224,7 +1224,7 @@ msgstr "ვერ ჩამოვწიე ვერსია პაკეტი
 msgid "Cannot install package \"{}\""
 msgstr "ვერ დავაყენე პაკეტი \"{}\""
 
-#: rpm/versionlock_config.cpp:261 system/state.cpp:517
+#: rpm/versionlock_config.cpp:284 system/state.cpp:581
 msgid "{}"
 msgstr "{}"
 
@@ -1237,15 +1237,15 @@ msgstr "ეპოქის \"{}\" რიცხვში გადაყვან
 msgid "Writing debugsolver data into \"{}\" failed: {}"
 msgstr "შეცდომა debugsolver-ის მონაცემების \"{}\"-ში ჩაწერისას: {}"
 
-#: system/state.cpp:228 system/state.cpp:237
+#: system/state.cpp:280 system/state.cpp:289
 msgid "Invalid TOML version \"{}\", \"MAJOR.MINOR\" expected"
 msgstr "არასწორი TOML-ის ვერსია \"{}\", მოველოდი \"MAJOR.MINOR\""
 
-#: system/state.cpp:245
+#: system/state.cpp:297
 msgid "{} state for \"{}\" not found."
 msgstr "{} მდგომარეობა \"{}\"-სთვის აღმოჩენილი არაა."
 
-#: system/state.cpp:546
+#: system/state.cpp:610
 msgid "Unsupported TOML version \"{}\", maximum supported version is \"{}\""
 msgstr ""
 "TOML-ის მხარდაუჭერელი ვერსია \"{}\". მაქსიმალური მხარდაჭერილი ვერსიაა \"{}\""

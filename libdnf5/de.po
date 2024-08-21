@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-17 02:53+0000\n"
+"POT-Creation-Date: 2024-08-21 02:53+0000\n"
 "PO-Revision-Date: 2024-07-26 20:38+0000\n"
 "Last-Translator: Henning <boredsquirrel@users.noreply.translate."
 "fedoraproject.org>\n"
@@ -1269,7 +1269,7 @@ msgstr "Kann Paket \"{}\" nicht herabstufen"
 msgid "Cannot install package \"{}\""
 msgstr "Kann Paket \"{}\" nicht installieren"
 
-#: rpm/versionlock_config.cpp:261 system/state.cpp:517
+#: rpm/versionlock_config.cpp:284 system/state.cpp:581
 msgid "{}"
 msgstr "{}"
 
@@ -1282,15 +1282,15 @@ msgstr "Konvertierung von Epoche \"{}\" in eine Zahl fehlgeschlagen"
 msgid "Writing debugsolver data into \"{}\" failed: {}"
 msgstr "Schreiben der debugsolver-Daten in \"{}\" fehlgeschlagen: {}"
 
-#: system/state.cpp:228 system/state.cpp:237
+#: system/state.cpp:280 system/state.cpp:289
 msgid "Invalid TOML version \"{}\", \"MAJOR.MINOR\" expected"
 msgstr "Ungültige TOML-Version \"{}\", \"HAUPTVERSION.NEBENVERSION\" erwartet"
 
-#: system/state.cpp:245
+#: system/state.cpp:297
 msgid "{} state for \"{}\" not found."
 msgstr "Zustand {} für \"{}\" nicht gefunden."
 
-#: system/state.cpp:546
+#: system/state.cpp:610
 msgid "Unsupported TOML version \"{}\", maximum supported version is \"{}\""
 msgstr ""
 "Nicht unterstützte TOML-Version \"{}\", die höchstmöglich unterstützte "

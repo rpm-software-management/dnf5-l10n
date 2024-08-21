@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-17 02:53+0000\n"
+"POT-Creation-Date: 2024-08-21 02:53+0000\n"
 "PO-Revision-Date: 2024-07-22 10:38+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -1204,7 +1204,7 @@ msgstr "Kunde inte nergradera paket \"{}\""
 msgid "Cannot install package \"{}\""
 msgstr "Kan inte installera paket \"{}\""
 
-#: rpm/versionlock_config.cpp:261 system/state.cpp:517
+#: rpm/versionlock_config.cpp:284 system/state.cpp:581
 msgid "{}"
 msgstr "{}"
 
@@ -1217,15 +1217,15 @@ msgstr "Misslyckades att konvertera epok \"{}\" till nummer"
 msgid "Writing debugsolver data into \"{}\" failed: {}"
 msgstr "Misslyckades att skriva felsökningsdata till \"{}\": {}"
 
-#: system/state.cpp:228 system/state.cpp:237
+#: system/state.cpp:280 system/state.cpp:289
 msgid "Invalid TOML version \"{}\", \"MAJOR.MINOR\" expected"
 msgstr "Ogiltig TOML version \"{}\", \"HUVUD.SMÄRRE\" förväntas"
 
-#: system/state.cpp:245
+#: system/state.cpp:297
 msgid "{} state for \"{}\" not found."
 msgstr "{} tillstånd för \"{}\" hittades inte."
 
-#: system/state.cpp:546
+#: system/state.cpp:610
 msgid "Unsupported TOML version \"{}\", maximum supported version is \"{}\""
 msgstr "Ostödd TOML-version \"{}\", maximalt stödd version är \"{}\""
 

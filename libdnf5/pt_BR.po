@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-17 02:53+0000\n"
+"POT-Creation-Date: 2024-08-21 02:53+0000\n"
 "PO-Revision-Date: 2024-07-26 20:38+0000\n"
 "Last-Translator: \"Geraldo S. Simião Kutz\" <geraldo.simiao.kutz@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
@@ -1229,7 +1229,7 @@ msgstr "Não é possível desatualizar o pacote \"{}\""
 msgid "Cannot install package \"{}\""
 msgstr "Não é possível instalar o pacote \"{}\""
 
-#: rpm/versionlock_config.cpp:261 system/state.cpp:517
+#: rpm/versionlock_config.cpp:284 system/state.cpp:581
 msgid "{}"
 msgstr "{}"
 
@@ -1242,15 +1242,15 @@ msgstr "Falha ao converter a época \"{}\" para número"
 msgid "Writing debugsolver data into \"{}\" failed: {}"
 msgstr "Falha ao gravar os dados do solucionador de depuração em \"{}\": {}"
 
-#: system/state.cpp:228 system/state.cpp:237
+#: system/state.cpp:280 system/state.cpp:289
 msgid "Invalid TOML version \"{}\", \"MAJOR.MINOR\" expected"
 msgstr "Versão TOML \"{}\" inválida, esperava-se \"MAJOR.MINOR\""
 
-#: system/state.cpp:245
+#: system/state.cpp:297
 msgid "{} state for \"{}\" not found."
 msgstr "Estado {} para \"{}\" não encontrado."
 
-#: system/state.cpp:546
+#: system/state.cpp:610
 msgid "Unsupported TOML version \"{}\", maximum supported version is \"{}\""
 msgstr "Versão TOML \"{}\" não suportada, a versão máxima suportada é \"{}\""
 
