@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-21 02:53+0000\n"
+"POT-Creation-Date: 2024-08-23 02:54+0000\n"
 "PO-Revision-Date: 2024-02-06 09:36+0000\n"
 "Last-Translator: Petr Ptacek <petr106@atlas.cz>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf5/"
@@ -1318,7 +1318,7 @@ msgstr "Nelze odstranit balíček \"{}\""
 msgid "Cannot install package \"{}\""
 msgstr "Nelze přeinstalovat balíček \"{}\""
 
-#: rpm/versionlock_config.cpp:284 system/state.cpp:581
+#: rpm/versionlock_config.cpp:284 system/state.cpp:585
 msgid "{}"
 msgstr "{}"
 
@@ -1339,7 +1339,11 @@ msgstr "Neplatná verze TOML \"{}\", očekává se \"MAJOR.MINOR\""
 msgid "{} state for \"{}\" not found."
 msgstr "Stav {} pro \"{}\" nebyl nalezen."
 
-#: system/state.cpp:610
+#: system/state.cpp:301
+msgid "Loading system state TOML file {} failed (see dnf5-system-state(7)): {}"
+msgstr ""
+
+#: system/state.cpp:614
 msgid "Unsupported TOML version \"{}\", maximum supported version is \"{}\""
 msgstr "Nepodporovaná verze TOML \"{}\", maximální podporovaná verze je \"{}\""
 

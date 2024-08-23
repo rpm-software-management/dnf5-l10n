@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-21 02:53+0000\n"
+"POT-Creation-Date: 2024-08-23 02:54+0000\n"
 "PO-Revision-Date: 2024-07-26 20:38+0000\n"
 "Last-Translator: Henning <boredsquirrel@users.noreply.translate."
 "fedoraproject.org>\n"
@@ -1269,7 +1269,7 @@ msgstr "Kann Paket \"{}\" nicht herabstufen"
 msgid "Cannot install package \"{}\""
 msgstr "Kann Paket \"{}\" nicht installieren"
 
-#: rpm/versionlock_config.cpp:284 system/state.cpp:581
+#: rpm/versionlock_config.cpp:284 system/state.cpp:585
 msgid "{}"
 msgstr "{}"
 
@@ -1290,7 +1290,11 @@ msgstr "Ungültige TOML-Version \"{}\", \"HAUPTVERSION.NEBENVERSION\" erwartet"
 msgid "{} state for \"{}\" not found."
 msgstr "Zustand {} für \"{}\" nicht gefunden."
 
-#: system/state.cpp:610
+#: system/state.cpp:301
+msgid "Loading system state TOML file {} failed (see dnf5-system-state(7)): {}"
+msgstr ""
+
+#: system/state.cpp:614
 msgid "Unsupported TOML version \"{}\", maximum supported version is \"{}\""
 msgstr ""
 "Nicht unterstützte TOML-Version \"{}\", die höchstmöglich unterstützte "

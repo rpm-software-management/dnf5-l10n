@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-21 02:53+0000\n"
+"POT-Creation-Date: 2024-08-23 02:54+0000\n"
 "PO-Revision-Date: 2024-07-26 20:38+0000\n"
 "Last-Translator: \"Geraldo S. Simião Kutz\" <geraldo.simiao.kutz@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
@@ -1229,7 +1229,7 @@ msgstr "Não é possível desatualizar o pacote \"{}\""
 msgid "Cannot install package \"{}\""
 msgstr "Não é possível instalar o pacote \"{}\""
 
-#: rpm/versionlock_config.cpp:284 system/state.cpp:581
+#: rpm/versionlock_config.cpp:284 system/state.cpp:585
 msgid "{}"
 msgstr "{}"
 
@@ -1250,7 +1250,11 @@ msgstr "Versão TOML \"{}\" inválida, esperava-se \"MAJOR.MINOR\""
 msgid "{} state for \"{}\" not found."
 msgstr "Estado {} para \"{}\" não encontrado."
 
-#: system/state.cpp:610
+#: system/state.cpp:301
+msgid "Loading system state TOML file {} failed (see dnf5-system-state(7)): {}"
+msgstr ""
+
+#: system/state.cpp:614
 msgid "Unsupported TOML version \"{}\", maximum supported version is \"{}\""
 msgstr "Versão TOML \"{}\" não suportada, a versão máxima suportada é \"{}\""
 
