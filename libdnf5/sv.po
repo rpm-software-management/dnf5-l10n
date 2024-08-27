@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-23 02:54+0000\n"
+"POT-Creation-Date: 2024-08-27 02:55+0000\n"
 "PO-Revision-Date: 2024-07-22 10:38+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -700,23 +700,23 @@ msgstr "Misslyckades att spara xml dokument för grupp \"{} till fil \"{}: {}"
 msgid "Invalid package type: {}"
 msgstr "Ogiltig paket typ: {}"
 
-#: conf/config_main.cpp:53
+#: conf/config_main.cpp:56
 msgid "Input is empty. Must contain a value."
 msgstr "Indata är tom. Måste innehålla ett värde."
 
-#: conf/config_main.cpp:59
+#: conf/config_main.cpp:62
 msgid "Input value '{}' must not be negative"
 msgstr "Indatavärdet '{}' får inte vara negativt"
 
-#: conf/config_main.cpp:64
+#: conf/config_main.cpp:67
 msgid "Could not convert '{}' to bytes"
 msgstr "Kan inte konvertera '{}' till bytes"
 
-#: conf/config_main.cpp:80
+#: conf/config_main.cpp:83
 msgid "Unknown unit '{}'"
 msgstr "Okänd enhet '{}'"
 
-#: conf/config_main.cpp:258
+#: conf/config_main.cpp:278
 msgid "The throttle value {} is outside the allowed range {} ... {}"
 msgstr "Spjällvärdet {} är utanför det tillåtna intervallet {} ... {}"
 
@@ -818,15 +818,7 @@ msgstr ""
 "Inmatningsobjektets värde \"{}\" är inte tillåtet, tillåtna värden för det "
 "här alternativet definieras av reguljärt uttryck \"{}\""
 
-#: conf/vars.cpp:63
-msgid "failed to read rpm config files"
-msgstr "misslyckades att läsa rpm konfigurationsfiler"
-
-#: conf/vars.cpp:89
-msgid "Failed to execute uname()"
-msgstr "Misslyckades med att köra uname()"
-
-#: conf/vars.cpp:370 conf/vars.cpp:410
+#: conf/vars.cpp:313 conf/vars.cpp:353
 msgid "Variable \"{}\" is read-only"
 msgstr "Variabeln \"{}\" är skrivskyddad"
 
@@ -1638,6 +1630,14 @@ msgstr "Misslyckades med att säkerhetskopiera databas \"{}\" till \"{}\""
 #: utils/sqlite3/sqlite3.cpp:158
 msgid "Failed to restore database \"{}\""
 msgstr "Misslyckades med att återställa databas \"{}\""
+
+#: utils/system.cpp:34
+msgid "failed to read rpm config files"
+msgstr "misslyckades att läsa rpm konfigurationsfiler"
+
+#: utils/system.cpp:52
+msgid "Failed to execute uname()"
+msgstr "Misslyckades med att köra uname()"
 
 #~ msgid "Cannot {} package \"{}\""
 #~ msgstr "Kan inte {} med paketet \"{}\""

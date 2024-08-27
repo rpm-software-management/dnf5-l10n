@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-23 02:54+0000\n"
+"POT-Creation-Date: 2024-08-27 02:55+0000\n"
 "PO-Revision-Date: 2024-02-06 09:36+0000\n"
 "Last-Translator: Petr Ptacek <petr106@atlas.cz>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf5/"
@@ -793,23 +793,23 @@ msgstr ""
 msgid "Invalid package type: {}"
 msgstr "Neplatný typ balíčku: {}"
 
-#: conf/config_main.cpp:53
+#: conf/config_main.cpp:56
 msgid "Input is empty. Must contain a value."
 msgstr "Vstup je prázdný. Musí obsahovat hodnotu."
 
-#: conf/config_main.cpp:59
+#: conf/config_main.cpp:62
 msgid "Input value '{}' must not be negative"
 msgstr "Vstupní hodnota '{}' nesmí být záporná"
 
-#: conf/config_main.cpp:64
+#: conf/config_main.cpp:67
 msgid "Could not convert '{}' to bytes"
 msgstr "Nelze převést '{}' na bajty"
 
-#: conf/config_main.cpp:80
+#: conf/config_main.cpp:83
 msgid "Unknown unit '{}'"
 msgstr "Neznámá jednotka '{}'"
 
-#: conf/config_main.cpp:258
+#: conf/config_main.cpp:278
 msgid "The throttle value {} is outside the allowed range {} ... {}"
 msgstr "Hodnota throttle {} je mimo povolený rozsah {} ... {}"
 
@@ -912,15 +912,7 @@ msgstr ""
 "Hodnota vstupní položky \"{}\" není povolena, povolené hodnoty pro tuto "
 "volbu jsou definovány regulárním výrazem \"{}\""
 
-#: conf/vars.cpp:63
-msgid "failed to read rpm config files"
-msgstr "nepodařilo se přečíst konfigurační rpm soubory"
-
-#: conf/vars.cpp:89
-msgid "Failed to execute uname()"
-msgstr "Nepodařilo se spustit uname()"
-
-#: conf/vars.cpp:370 conf/vars.cpp:410
+#: conf/vars.cpp:313 conf/vars.cpp:353
 msgid "Variable \"{}\" is read-only"
 msgstr "Proměnná \"{}\" je pouze pro čtení"
 
@@ -1740,6 +1732,14 @@ msgstr "Zálohování databáze \"{}\" do \"{}\" se nezdařilo"
 #: utils/sqlite3/sqlite3.cpp:158
 msgid "Failed to restore database \"{}\""
 msgstr "Obnovení databáze \"{}\" se nezdařilo"
+
+#: utils/system.cpp:34
+msgid "failed to read rpm config files"
+msgstr "nepodařilo se přečíst konfigurační rpm soubory"
+
+#: utils/system.cpp:52
+msgid "Failed to execute uname()"
+msgstr "Nepodařilo se spustit uname()"
 
 #~ msgid "Cannot {} package \"{}\""
 #~ msgstr "Nelze {} balíček \"{}\""

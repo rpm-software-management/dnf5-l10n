@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-23 02:54+0000\n"
+"POT-Creation-Date: 2024-08-27 02:55+0000\n"
 "PO-Revision-Date: 2024-07-26 20:38+0000\n"
 "Last-Translator: Henning <boredsquirrel@users.noreply.translate."
 "fedoraproject.org>\n"
@@ -736,23 +736,23 @@ msgstr ""
 msgid "Invalid package type: {}"
 msgstr "Ungültiger Pakettyp: {}"
 
-#: conf/config_main.cpp:53
+#: conf/config_main.cpp:56
 msgid "Input is empty. Must contain a value."
 msgstr "Eingabe ist leer. Sie muss einen Wert enthalten."
 
-#: conf/config_main.cpp:59
+#: conf/config_main.cpp:62
 msgid "Input value '{}' must not be negative"
 msgstr "Eingabewert '{}' darf nicht negativ sein"
 
-#: conf/config_main.cpp:64
+#: conf/config_main.cpp:67
 msgid "Could not convert '{}' to bytes"
 msgstr "Konnte {} nicht in Bytes konvertieren"
 
-#: conf/config_main.cpp:80
+#: conf/config_main.cpp:83
 msgid "Unknown unit '{}'"
 msgstr "Unbekannte Einheit '{}'"
 
-#: conf/config_main.cpp:258
+#: conf/config_main.cpp:278
 msgid "The throttle value {} is outside the allowed range {} ... {}"
 msgstr "Der Reglerwert {} liegt außerhalb des erlaubten Bereichs {} ... {}"
 
@@ -854,15 +854,7 @@ msgstr ""
 "Eingabewert \"{}\" ist für das Element nicht erlaubt. Erlaubte Werte für "
 "diese Option werden vom regulären Ausdruck \"{}\" definiert"
 
-#: conf/vars.cpp:63
-msgid "failed to read rpm config files"
-msgstr "Lesen der rpm-Konfigurationsdateien fehlgeschlagen"
-
-#: conf/vars.cpp:89
-msgid "Failed to execute uname()"
-msgstr "Ausführen von uname() fehlgeschlagen"
-
-#: conf/vars.cpp:370 conf/vars.cpp:410
+#: conf/vars.cpp:313 conf/vars.cpp:353
 msgid "Variable \"{}\" is read-only"
 msgstr "Variable \"{}\" ist nur lesbar"
 
@@ -1733,3 +1725,11 @@ msgstr "Fehler beim Sichern der Datenbank \"{}\" in \"{}\""
 #: utils/sqlite3/sqlite3.cpp:158
 msgid "Failed to restore database \"{}\""
 msgstr "Fehler beim Wiederherstellen der Datenbank \"{}\""
+
+#: utils/system.cpp:34
+msgid "failed to read rpm config files"
+msgstr "Lesen der rpm-Konfigurationsdateien fehlgeschlagen"
+
+#: utils/system.cpp:52
+msgid "Failed to execute uname()"
+msgstr "Ausführen von uname() fehlgeschlagen"

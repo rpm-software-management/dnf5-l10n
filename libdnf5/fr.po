@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-23 02:54+0000\n"
+"POT-Creation-Date: 2024-08-27 02:55+0000\n"
 "PO-Revision-Date: 2024-07-19 08:38+0000\n"
 "Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf5/"
@@ -723,23 +723,23 @@ msgstr ""
 msgid "Invalid package type: {}"
 msgstr "Type de paquet invalide : {}"
 
-#: conf/config_main.cpp:53
+#: conf/config_main.cpp:56
 msgid "Input is empty. Must contain a value."
 msgstr "L'entrée est vide. Elle doit contenir une valeur."
 
-#: conf/config_main.cpp:59
+#: conf/config_main.cpp:62
 msgid "Input value '{}' must not be negative"
 msgstr "La valeur en entrée '{}' ne doit pas être négative"
 
-#: conf/config_main.cpp:64
+#: conf/config_main.cpp:67
 msgid "Could not convert '{}' to bytes"
 msgstr "Impossible de convertir '{}' en octets"
 
-#: conf/config_main.cpp:80
+#: conf/config_main.cpp:83
 msgid "Unknown unit '{}'"
 msgstr "Unité '{}' inconnue"
 
-#: conf/config_main.cpp:258
+#: conf/config_main.cpp:278
 msgid "The throttle value {} is outside the allowed range {} ... {}"
 msgstr ""
 "La valeur limitant la vitesse de téléchargement ({}) n'est pas comprise dans "
@@ -846,15 +846,7 @@ msgstr ""
 "Élement de valeur en entrée \"{}\" non autorisé, les valeurs autorisées pour "
 "cette option sont définies par l'expression régulière \"{}\""
 
-#: conf/vars.cpp:63
-msgid "failed to read rpm config files"
-msgstr "échec de la lecture des fichiers de configuration RPM"
-
-#: conf/vars.cpp:89
-msgid "Failed to execute uname()"
-msgstr "Échec de l'exécution de uname()"
-
-#: conf/vars.cpp:370 conf/vars.cpp:410
+#: conf/vars.cpp:313 conf/vars.cpp:353
 msgid "Variable \"{}\" is read-only"
 msgstr "La variable \"{}\" est en lecture seule"
 
@@ -1710,3 +1702,11 @@ msgstr "Échec de la sauvegarde de la base de données \"{}\" dans \"{}\""
 #: utils/sqlite3/sqlite3.cpp:158
 msgid "Failed to restore database \"{}\""
 msgstr "Échec de la restauration de la base de données \"{}\""
+
+#: utils/system.cpp:34
+msgid "failed to read rpm config files"
+msgstr "échec de la lecture des fichiers de configuration RPM"
+
+#: utils/system.cpp:52
+msgid "Failed to execute uname()"
+msgstr "Échec de l'exécution de uname()"

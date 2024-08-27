@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-23 02:54+0000\n"
+"POT-Creation-Date: 2024-08-27 02:55+0000\n"
 "PO-Revision-Date: 2024-07-26 20:38+0000\n"
 "Last-Translator: \"Geraldo S. Simião Kutz\" <geraldo.simiao.kutz@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
@@ -714,23 +714,23 @@ msgstr "Falha ao salvar o documento xml do grupo \"{}\" no arquivo \"{}\": {}"
 msgid "Invalid package type: {}"
 msgstr "Tipo de pacote inválido: {}"
 
-#: conf/config_main.cpp:53
+#: conf/config_main.cpp:56
 msgid "Input is empty. Must contain a value."
 msgstr "A entrada está vazia. Deve conter um valor."
 
-#: conf/config_main.cpp:59
+#: conf/config_main.cpp:62
 msgid "Input value '{}' must not be negative"
 msgstr "O valor de entrada '{}' não deve ser negativo"
 
-#: conf/config_main.cpp:64
+#: conf/config_main.cpp:67
 msgid "Could not convert '{}' to bytes"
 msgstr "Não foi possível converter '{}' em bytes"
 
-#: conf/config_main.cpp:80
+#: conf/config_main.cpp:83
 msgid "Unknown unit '{}'"
 msgstr "Unidade desconhecida '{}'"
 
-#: conf/config_main.cpp:258
+#: conf/config_main.cpp:278
 msgid "The throttle value {} is outside the allowed range {} ... {}"
 msgstr "O valor de aceleração {} está fora do intervalo permitido {} ... {}"
 
@@ -832,15 +832,7 @@ msgstr ""
 "O valor do item de entrada \"{}\" não é permitido, os valores permitidos "
 "para esta opção são definidos pela expressão regular \"{}\""
 
-#: conf/vars.cpp:63
-msgid "failed to read rpm config files"
-msgstr "falha ao ler os arquivos de configuração rpm"
-
-#: conf/vars.cpp:89
-msgid "Failed to execute uname()"
-msgstr "Falha ao executar uname()"
-
-#: conf/vars.cpp:370 conf/vars.cpp:410
+#: conf/vars.cpp:313 conf/vars.cpp:353
 msgid "Variable \"{}\" is read-only"
 msgstr "A variável \"{}\" é somente leitura"
 
@@ -1667,6 +1659,14 @@ msgstr "Falha ao fazer backup do banco de dados \"{}\" para \"{}\""
 #: utils/sqlite3/sqlite3.cpp:158
 msgid "Failed to restore database \"{}\""
 msgstr "Falha ao restaurar o banco de dados \"{}\""
+
+#: utils/system.cpp:34
+msgid "failed to read rpm config files"
+msgstr "falha ao ler os arquivos de configuração rpm"
+
+#: utils/system.cpp:52
+msgid "Failed to execute uname()"
+msgstr "Falha ao executar uname()"
 
 #~ msgid "Cannot {} package \"{}\""
 #~ msgstr "Não é possível {} o pacote \"{}\""

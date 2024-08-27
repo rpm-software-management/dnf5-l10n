@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-23 02:54+0000\n"
+"POT-Creation-Date: 2024-08-27 02:55+0000\n"
 "PO-Revision-Date: 2024-07-19 08:38+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
@@ -686,23 +686,23 @@ msgstr "파일에 그룹 \"{}\"을 위해 xml 문서를 저장하는 데 실패�
 msgid "Invalid package type: {}"
 msgstr "잘못된 꾸러미 유형: {}"
 
-#: conf/config_main.cpp:53
+#: conf/config_main.cpp:56
 msgid "Input is empty. Must contain a value."
 msgstr "입력이 비었습니다. 값이 포함되어야 합니다."
 
-#: conf/config_main.cpp:59
+#: conf/config_main.cpp:62
 msgid "Input value '{}' must not be negative"
 msgstr "입력값 '{}'은 음수가 아니어야 합니다"
 
-#: conf/config_main.cpp:64
+#: conf/config_main.cpp:67
 msgid "Could not convert '{}' to bytes"
 msgstr "'{}'를 바이트로 변환 할 수 없습니다"
 
-#: conf/config_main.cpp:80
+#: conf/config_main.cpp:83
 msgid "Unknown unit '{}'"
 msgstr "알 수 없는 단위 '{}'"
 
-#: conf/config_main.cpp:258
+#: conf/config_main.cpp:278
 msgid "The throttle value {} is outside the allowed range {} ... {}"
 msgstr "쓰로틀 값 {}은 허용된 범위 {} 밖에 있습니다 {} ... {}"
 
@@ -801,15 +801,7 @@ msgstr ""
 "입력 항목 값 \"{}\"은 허용되지 않으며, 이와 같은 옵션을 위한 허용된 값은 정규"
 "식 \"{}\"에 의해 정의됩니다"
 
-#: conf/vars.cpp:63
-msgid "failed to read rpm config files"
-msgstr "rpm config 파일을 읽는 데 실패함"
-
-#: conf/vars.cpp:89
-msgid "Failed to execute uname()"
-msgstr "uname()을 실행하는 데 실패함"
-
-#: conf/vars.cpp:370 conf/vars.cpp:410
+#: conf/vars.cpp:313 conf/vars.cpp:353
 msgid "Variable \"{}\" is read-only"
 msgstr "변수 \"{}\" 는 읽기-전용입니다"
 
@@ -1614,6 +1606,14 @@ msgstr "데이타베이스 \"{}\"를 \"{}\"로 백업하는 데 실패함"
 #: utils/sqlite3/sqlite3.cpp:158
 msgid "Failed to restore database \"{}\""
 msgstr "데이타베이스 \"{}\"를 복구하는 데 실패함"
+
+#: utils/system.cpp:34
+msgid "failed to read rpm config files"
+msgstr "rpm config 파일을 읽는 데 실패함"
+
+#: utils/system.cpp:52
+msgid "Failed to execute uname()"
+msgstr "uname()을 실행하는 데 실패함"
 
 #~ msgid "packages"
 #~ msgstr "꾸러미"

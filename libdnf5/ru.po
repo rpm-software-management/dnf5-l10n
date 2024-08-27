@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-23 02:54+0000\n"
+"POT-Creation-Date: 2024-08-27 02:55+0000\n"
 "PO-Revision-Date: 2024-07-28 18:38+0000\n"
 "Last-Translator: Aleksey Fedorov <aleksejfedorov963@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -706,23 +706,23 @@ msgstr "Не удалось сохранить xml-документ для гр�
 msgid "Invalid package type: {}"
 msgstr "Недопустимый тип пакета: {}"
 
-#: conf/config_main.cpp:53
+#: conf/config_main.cpp:56
 msgid "Input is empty. Must contain a value."
 msgstr "Ввод пуст. Должен содержать значение."
 
-#: conf/config_main.cpp:59
+#: conf/config_main.cpp:62
 msgid "Input value '{}' must not be negative"
 msgstr "Входное значение '{}' не должно быть отрицательным"
 
-#: conf/config_main.cpp:64
+#: conf/config_main.cpp:67
 msgid "Could not convert '{}' to bytes"
 msgstr "Не удалось преобразовать '{}' в байты"
 
-#: conf/config_main.cpp:80
+#: conf/config_main.cpp:83
 msgid "Unknown unit '{}'"
 msgstr "Неизвестная единица '{}'"
 
-#: conf/config_main.cpp:258
+#: conf/config_main.cpp:278
 msgid "The throttle value {} is outside the allowed range {} ... {}"
 msgstr "Значение дросселя {} находится вне допустимого диапазона {} ... {}"
 
@@ -824,15 +824,7 @@ msgstr ""
 "Значение элемента ввода \"{}\" недопустимо, допустимые значения для этой "
 "опции определяются регулярным выражением \"{}\""
 
-#: conf/vars.cpp:63
-msgid "failed to read rpm config files"
-msgstr "Не удалось прочитать файлы конфигурации rpm"
-
-#: conf/vars.cpp:89
-msgid "Failed to execute uname()"
-msgstr "Не удалось выполнить uname()"
-
-#: conf/vars.cpp:370 conf/vars.cpp:410
+#: conf/vars.cpp:313 conf/vars.cpp:353
 msgid "Variable \"{}\" is read-only"
 msgstr "Переменная \"{}\" доступна только для чтения"
 
@@ -1656,6 +1648,14 @@ msgstr "Не удалось создать резервную копию баз�
 #: utils/sqlite3/sqlite3.cpp:158
 msgid "Failed to restore database \"{}\""
 msgstr "Не удалось восстановить базу данных \"{}\""
+
+#: utils/system.cpp:34
+msgid "failed to read rpm config files"
+msgstr "Не удалось прочитать файлы конфигурации rpm"
+
+#: utils/system.cpp:52
+msgid "Failed to execute uname()"
+msgstr "Не удалось выполнить uname()"
 
 #~ msgid "Cannot {} package \"{}\""
 #~ msgstr "Невозможно {} пакет \"{}\""

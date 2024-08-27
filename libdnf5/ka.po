@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-23 02:54+0000\n"
+"POT-Creation-Date: 2024-08-27 02:55+0000\n"
 "PO-Revision-Date: 2024-07-18 02:47+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -710,23 +710,23 @@ msgstr "ჩავარდა XML დოკუმენტისს შენა
 msgid "Invalid package type: {}"
 msgstr "არასწორი პაკეტის ტიპი: {}"
 
-#: conf/config_main.cpp:53
+#: conf/config_main.cpp:56
 msgid "Input is empty. Must contain a value."
 msgstr "არაფერი შეგიყვანიათ. ის მნიშვნელობას უნდა შეიცავდეს."
 
-#: conf/config_main.cpp:59
+#: conf/config_main.cpp:62
 msgid "Input value '{}' must not be negative"
 msgstr "შეყვანილი მნიშვნელობა '{}' არ შეიძლება, უარყოფითი იყოს"
 
-#: conf/config_main.cpp:64
+#: conf/config_main.cpp:67
 msgid "Could not convert '{}' to bytes"
 msgstr "'{}'-ის ბაიტებად გარდაქმნის შეცდომა"
 
-#: conf/config_main.cpp:80
+#: conf/config_main.cpp:83
 msgid "Unknown unit '{}'"
 msgstr "უცნობი ერთეული '{}'"
 
-#: conf/config_main.cpp:258
+#: conf/config_main.cpp:278
 msgid "The throttle value {} is outside the allowed range {} ... {}"
 msgstr "შეზღუდვის მნიშვნელობა {} დაშვებული დიაპაზონის ({} ... {}) გარეთაა"
 
@@ -829,15 +829,7 @@ msgstr ""
 "შეყვანილი მნიშვნელობა \"{}\" დაშვებული არაა. ამ პარამეტრისთვის დაშვებული "
 "მნიშვნელობა რეგულარული გამოსახულება \"{}\"-ის მიერ განისაზღვრება"
 
-#: conf/vars.cpp:63
-msgid "failed to read rpm config files"
-msgstr "rpm-ის კონფიგურაციის ფაილების წაკითხვის შეცდომა"
-
-#: conf/vars.cpp:89
-msgid "Failed to execute uname()"
-msgstr "ჩავარდა შესრულება ფუნქციისთვის uname()"
-
-#: conf/vars.cpp:370 conf/vars.cpp:410
+#: conf/vars.cpp:313 conf/vars.cpp:353
 msgid "Variable \"{}\" is read-only"
 msgstr "ცვლადი '{}' მხოლოდ-კითხვადია"
 
@@ -1662,6 +1654,14 @@ msgstr "შეცდომა ბაზის \"{}\" \"{}\"-ში დამა�
 #: utils/sqlite3/sqlite3.cpp:158
 msgid "Failed to restore database \"{}\""
 msgstr "შეცდომა ბაზის \"{}\" აღდგენისას"
+
+#: utils/system.cpp:34
+msgid "failed to read rpm config files"
+msgstr "rpm-ის კონფიგურაციის ფაილების წაკითხვის შეცდომა"
+
+#: utils/system.cpp:52
+msgid "Failed to execute uname()"
+msgstr "ჩავარდა შესრულება ფუნქციისთვის uname()"
 
 #~ msgid "Cannot {} package \"{}\""
 #~ msgstr "{}-ის შეცდომა პაკეტისთვის \"{}\""
