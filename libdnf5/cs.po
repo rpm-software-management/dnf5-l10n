@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-27 02:55+0000\n"
+"POT-Creation-Date: 2024-08-29 02:58+0000\n"
 "PO-Revision-Date: 2024-02-06 09:36+0000\n"
 "Last-Translator: Petr Ptacek <petr106@atlas.cz>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf5/"
@@ -717,39 +717,39 @@ msgstr "Zrušeno uživatelem."
 msgid "Public key import failed."
 msgstr "Import veřejného klíče se nezdařil."
 
-#: base/transaction.cpp:977
+#: base/transaction.cpp:979
 msgid "Invalid tsflag: {}"
 msgstr "Neplatný tsflag: {}"
 
-#: base/transaction.cpp:1313
+#: base/transaction.cpp:1317
 msgid "Public key \"{}\" is already present, not importing."
 msgstr "Veřejný klíč \"{}\" již existuje, neimportuje se."
 
-#: base/transaction.cpp:1334
+#: base/transaction.cpp:1338
 msgid "An error occurred importing key \"{}\": {}"
 msgstr "Při importu klíče \"{}\" došlo k chybě: {}"
 
-#: base/transaction.cpp:1368
+#: base/transaction.cpp:1372
 msgid "PGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
 msgstr ""
 "Kontrola PGP pro balíček \"{}\" ({}) z repozitáře \"{}\" se nezdařila: "
 
-#: base/transaction.cpp:1396
+#: base/transaction.cpp:1400
 msgid "Import of the key didn't help, wrong key?"
 msgstr "Import klíče nepomohl, špatný klíč?"
 
-#: base/transaction.cpp:1415
+#: base/transaction.cpp:1419
 msgctxt "It is a joining character for repositories IDs"
 msgid ", "
 msgstr ""
 
-#: base/transaction.cpp:1418
+#: base/transaction.cpp:1422
 #, fuzzy
 #| msgid "Warning: skipped PGP checks for {} package(s)."
 msgid "Warning: skipped PGP checks for 1 package from repository: {}"
 msgstr "Upozornění: vynechané PGP kontroly pro {} balík(y)."
 
-#: base/transaction.cpp:1420
+#: base/transaction.cpp:1424
 #, fuzzy
 #| msgid "Warning: skipped PGP checks for {} package(s)."
 msgid "Warning: skipped PGP checks for {0} packages from repository: {1}"
