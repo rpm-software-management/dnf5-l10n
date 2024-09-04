@@ -8,9 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-03 02:57+0000\n"
-"PO-Revision-Date: 2024-09-04 12:48+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2024-09-05 13:38+0000\n"
+"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/fi/>\n"
 "Language: fi\n"
@@ -18,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.7.1\n"
+"X-Generator: Weblate 5.7.2\n"
 
 #: commands/advisory/advisory_info.hpp:33
 msgid "Print details about advisories"
@@ -803,14 +802,16 @@ msgid ""
 "Enable additional repositories. List option. Supports globs, can be "
 "specified multiple times."
 msgstr ""
-"Ota käyttöön lisäaohjelmistolähteitä. Luetteloi vaihtoehto. Tukee "
-"villikortteja, voidaan määrittää useita kertoja."
+"Ota käyttöön lisätietovarastoja. Luettelovaihtoehto. Tukee globs, voidaan "
+"määrittää useita kertoja."
 
 #: main.cpp:376
 msgid ""
 "Disable repositories. List option. Supports globs, can be specified multiple "
 "times."
 msgstr ""
+"Poista tietovarastot käytöstä. Luettelovaihtoehto. Tukee globs, voidaan "
+"määrittää useita kertoja."
 
 #: main.cpp:394
 msgid ""
@@ -821,6 +822,7 @@ msgstr ""
 #: main.cpp:416
 msgid "disable gpg signature checking (if RPM policy allows)"
 msgstr ""
+"poista GPG-allekirjoituksen tarkistus käytöstä (jos RPM-käytäntö sallii sen)"
 
 #: main.cpp:442
 msgid ""
@@ -836,7 +838,7 @@ msgstr ""
 
 #: main.cpp:474
 msgid "add a comment to transaction"
-msgstr ""
+msgstr "lisää kommentti tapahtumaan"
 
 #: main.cpp:476
 msgid ""
@@ -856,7 +858,7 @@ msgstr ""
 
 #: main.cpp:505
 msgid "override the value of $releasever in config and repo files"
-msgstr ""
+msgstr "ohittaa $releasever arvon asetus- ja tietovarastotiedostoissa"
 
 #: main.cpp:518
 msgid ""
@@ -879,7 +881,7 @@ msgstr ""
 
 #: main.cpp:573
 msgid "Print variable values to stdout"
-msgstr ""
+msgstr "Tulosta muuttujan arvot stdoutiin"
 
 #: main.cpp:587
 msgid "Show DNF5 version and exit"
