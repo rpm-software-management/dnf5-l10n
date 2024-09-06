@@ -7,14 +7,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-06 03:00+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-09-06 09:12+0000\n"
+"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
+"Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf5/"
+"libdnf5/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.7.2\n"
 
 #: advisory/advisory.cpp:81
 #, c++-format
@@ -36,43 +38,43 @@ msgstr ""
 
 #: base/goal_elements.cpp:352
 msgid "Install"
-msgstr ""
+msgstr "Asenna"
 
 #: base/goal_elements.cpp:354
 msgid "Install via provide"
-msgstr ""
+msgstr "Asenna tarjota kautta"
 
 #: base/goal_elements.cpp:356
 msgid "Install by group"
-msgstr ""
+msgstr "Asenna ryhmäkohtaisesti"
 
 #: base/goal_elements.cpp:358
 msgid "Upgrade"
-msgstr ""
+msgstr "Päivitä"
 
 #: base/goal_elements.cpp:360
 msgid "Upgrade all"
-msgstr ""
+msgstr "Päivitä kaikki"
 
 #: base/goal_elements.cpp:362
 msgid "Upgrade minimal"
-msgstr ""
+msgstr "Päivitä minimaalisesti"
 
 #: base/goal_elements.cpp:364
 msgid "Upgrade all minimal"
-msgstr ""
+msgstr "Päivitä kaikki minimaalisesti"
 
 #: base/goal_elements.cpp:366
 msgid "Downgrade"
-msgstr ""
+msgstr "Päivitä alempaan versioon"
 
 #: base/goal_elements.cpp:368
 msgid "Reinstall"
-msgstr ""
+msgstr "Asenna uudelleen"
 
 #: base/goal_elements.cpp:370
 msgid "Install or reinstall"
-msgstr ""
+msgstr "Asenna tai asenna uudelleen"
 
 #: base/goal_elements.cpp:372
 msgid "Remove"
@@ -80,11 +82,11 @@ msgstr ""
 
 #: base/goal_elements.cpp:374
 msgid "Distrosync"
-msgstr ""
+msgstr "Jakelun synkronointi"
 
 #: base/goal_elements.cpp:376
 msgid "Distrosync all"
-msgstr ""
+msgstr "Synkronoi koko jakelun"
 
 #: base/goal_elements.cpp:378
 msgid "Reason Change"
@@ -92,7 +94,7 @@ msgstr ""
 
 #: base/goal_elements.cpp:380
 msgid "Resolve"
-msgstr ""
+msgstr "Ratkaise"
 
 #: base/goal_elements.cpp:382
 msgid "Enable"
@@ -108,68 +110,68 @@ msgstr ""
 
 #: base/goal_elements.cpp:388
 msgid "Parse serialized transaction"
-msgstr ""
+msgstr "Jäsennä sarjoitettu tapahtuma"
 
 #: base/goal_elements.cpp:390
 msgid "Install action"
-msgstr ""
+msgstr "Asenna toiminto"
 
 #: base/goal_elements.cpp:392
 msgid "Remove action"
-msgstr ""
+msgstr "Poista toiminto"
 
 #: base/goal_elements.cpp:394
 msgid "Upgrade action"
-msgstr ""
+msgstr "Päivitä toiminto"
 
 #: base/goal_elements.cpp:396
 msgid "Reinstall action"
-msgstr ""
+msgstr "Asenna uudelleen toiminto"
 
 #: base/goal_elements.cpp:398
 msgid "Reason change action"
-msgstr ""
+msgstr "Syy muuttaa toimintaa"
 
 #: base/goal_elements.cpp:400
 msgid "Reason override"
-msgstr ""
+msgstr "Syy ohittamiselle"
 
 #: base/goal_elements.cpp:402
 msgid "Revert comps upgrade"
-msgstr ""
+msgstr "Palauta komponenttien päivitys"
 
 #: base/goal_elements.cpp:404
 msgid "Install debug RPMs"
-msgstr ""
+msgstr "Asenna virheenkorjaus-RPM:t"
 
 #: base/goal_elements.cpp:406
 msgid "Transaction merge"
-msgstr ""
+msgstr "Tapahtuman yhdistäminen"
 
 #: base/log_event.cpp:141
 #, c++-format
 msgid "No packages to remove for argument: {}"
-msgstr ""
+msgstr "Ei poistettavia paketteja argumentille: {}"
 
 #: base/log_event.cpp:143
 #, c++-format
 msgid "No groups to remove for argument: {}"
-msgstr ""
+msgstr "Ei poistettavia ryhmiä argumentille: {}"
 
 #: base/log_event.cpp:146
 #, c++-format
 msgid "No environmental groups to remove for argument: {}"
-msgstr ""
+msgstr "Ei poistettavia ympäristöryhmiä argumentille: {}"
 
 #: base/log_event.cpp:148
 #, c++-format
 msgid "No modules to remove for argument: {}"
-msgstr ""
+msgstr "Ei poistettavia moduuleja argumentille: {}"
 
 #: base/log_event.cpp:152
 #, c++-format
 msgid "No match for group from environment: {}"
-msgstr ""
+msgstr "Ei vastaavuaa ryhmälle ympäristöstä: {}"
 
 #: base/log_event.cpp:154
 #, c++-format
@@ -179,7 +181,7 @@ msgstr ""
 #: base/log_event.cpp:158
 #, c++-format
 msgid "Cannot perform {0}, no match for: {1}."
-msgstr ""
+msgstr "Ei voi suorittaa {0}, ei vastaavaa tälle: {1}."
 
 #: base/log_event.cpp:160
 #, c++-format
@@ -189,17 +191,19 @@ msgstr ""
 #: base/log_event.cpp:163
 #, c++-format
 msgid "No match for argument '{0}' in repositories '{1}'"
-msgstr ""
+msgstr "Ei vastaavaa argumentille '{0}' tietovarastoissa '{1}'"
 
 #: base/log_event.cpp:169
 #, c++-format
 msgid "Cannot perform {0} for {1} '{2}' because it is not installed."
 msgstr ""
+"Toimintoa {0} ei voi suorittaa kohteelle {1} '{2}', koska sitä ei ole "
+"asennettu."
 
 #: base/log_event.cpp:174
 #, c++-format
 msgid "Packages for argument '{}' available, but not installed."
-msgstr ""
+msgstr "Paketit argumentille '{}' saatavilla, mutta ei asennettu."
 
 #: base/log_event.cpp:178
 #, c++-format
@@ -207,26 +211,29 @@ msgid ""
 "Packages for argument '{}' available, but installed for a different "
 "architecture."
 msgstr ""
+"Paketit argumentille '{}' saatavilla, mutta asennettu toiselle "
+"arkkitehtuurille."
 
 #: base/log_event.cpp:182
 #, c++-format
 msgid "Cannot perform {0} because '{1}' matches only source packages."
-msgstr ""
+msgstr "Toimintoa {0} ei voi suorittaa, koska {1} vastaa vain lähdepaketteja."
 
 #: base/log_event.cpp:186
 #, c++-format
 msgid "Argument '{}' matches only source packages."
-msgstr ""
+msgstr "Argumentti '{}' vastaa vain lähdepaketteja."
 
 #: base/log_event.cpp:190
 #, c++-format
 msgid "Cannot perform {0} because '{1}' matches only excluded packages."
 msgstr ""
+"{0}:ta ei voi suorittaa, koska {1} vastaa vain poissuljettuja paketteja."
 
 #: base/log_event.cpp:194
 #, c++-format
 msgid "Argument '{}' matches only excluded packages."
-msgstr ""
+msgstr "Argumentti {} vastaa vain poissuljettuja paketteja."
 
 #: base/log_event.cpp:198
 #, c++-format
@@ -234,11 +241,14 @@ msgid ""
 "Cannot perform {0} because '{1}' matches only packages excluded by "
 "versionlock."
 msgstr ""
+"{0}:ta ei voi suorittaa, koska '{1}' vastaa vain paketteja, joka "
+"'versionlock' on sulkenut pois."
 
 #: base/log_event.cpp:202
 #, c++-format
 msgid "Argument '{}' matches only packages excluded by versionlock."
 msgstr ""
+"Argumentti '{}' vastaa vain paketteja, joka 'versionlock' on sulkenut pois."
 
 #: base/log_event.cpp:207
 #, c++-format
