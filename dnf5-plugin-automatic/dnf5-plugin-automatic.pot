@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-06 03:00+0000\n"
+"POT-Creation-Date: 2024-09-12 02:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -43,36 +43,43 @@ msgstr ""
 msgid "Do not automatically install downloaded updates"
 msgstr ""
 
-#: automatic.cpp:344
+#: automatic.cpp:300
+#, c++-format
+msgid ""
+"Warning: Configuration file location \"{}\" for dnf automatic is deprecated. "
+"See dnf5-automatic(8) for details."
+msgstr ""
+
+#: automatic.cpp:355
 msgid "Resolved transaction:"
 msgstr ""
 
-#: automatic.cpp:373
+#: automatic.cpp:384
 msgid "Downloading packages:"
 msgstr ""
 
-#: automatic.cpp:383
+#: automatic.cpp:394
 msgid "Packages downloaded."
 msgstr ""
 
-#: automatic.cpp:386
+#: automatic.cpp:397
 msgid "Running transaction:"
 msgstr ""
 
-#: automatic.cpp:400
+#: automatic.cpp:411
 msgid "Transaction finished."
 msgstr ""
 
-#: automatic.cpp:402
+#: automatic.cpp:413
 msgid "Transaction failed: "
 msgstr ""
 
-#: automatic.cpp:431
+#: automatic.cpp:442
 #, c++-format
 msgid "Unknown report emitter for dnf5 automatic: \"{}\"."
 msgstr ""
 
-#: automatic.cpp:446
+#: automatic.cpp:457
 #, c++-format
 msgid "Error: reboot command returned nonzero exit code: {}"
 msgstr ""
