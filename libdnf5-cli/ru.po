@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-17 02:52+0000\n"
+"POT-Creation-Date: 2024-09-18 03:00+0000\n"
 "PO-Revision-Date: 2024-05-16 02:51+0000\n"
 "Last-Translator: Aleksey Fedorov <aleksejfedorov963@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -141,6 +141,79 @@ msgstr ""
 msgid "Hint: [d]efault, [e]nabled, [x]disabled, [i]nstalled"
 msgstr "Подсказка: [d]по умолчанию, [e]включено, [x]отключено, [i]установлено"
 
+#. Note for translators: This is a right-aligned column separator in
+#. a package properties table as in "Name    : bash".
+#: output/packageinfo.cpp:57
+msgid " : "
+msgstr ""
+
+#. Add package
+#: output/packageinfo.cpp:63
+msgid "Name"
+msgstr ""
+
+#: output/packageinfo.cpp:68
+msgid "Epoch"
+msgstr ""
+
+#: output/packageinfo.cpp:69 output/transaction_table.cpp:274
+msgid "Version"
+msgstr ""
+
+#: output/packageinfo.cpp:70
+msgid "Release"
+msgstr ""
+
+#: output/packageinfo.cpp:71
+msgid "Architecture"
+msgstr ""
+
+#: output/packageinfo.cpp:75
+msgid "Obsoletes"
+msgstr ""
+
+#: output/packageinfo.cpp:85
+msgid "Download size"
+msgstr ""
+
+#: output/packageinfo.cpp:89
+msgid "Installed size"
+msgstr ""
+
+#: output/packageinfo.cpp:91
+msgid "Source"
+msgstr ""
+
+#: output/packageinfo.cpp:94
+msgid "From repository"
+msgstr ""
+
+#: output/packageinfo.cpp:96 output/transaction_table.cpp:280
+msgid "Repository"
+msgstr ""
+
+#: output/packageinfo.cpp:98
+msgid "Summary"
+msgstr ""
+
+#: output/packageinfo.cpp:99
+msgid "URL"
+msgstr ""
+
+#: output/packageinfo.cpp:100
+msgid "License"
+msgstr ""
+
+#: output/packageinfo.cpp:104
+#, fuzzy
+#| msgid "Description:"
+msgid "Description"
+msgstr "Описание:"
+
+#: output/packageinfo.cpp:109
+msgid "Vendor"
+msgstr ""
+
 #: output/transaction_table.cpp:127
 msgid "Transaction Summary:\n"
 msgstr ""
@@ -207,14 +280,6 @@ msgstr ""
 
 #: output/transaction_table.cpp:268
 msgid "Arch"
-msgstr ""
-
-#: output/transaction_table.cpp:274
-msgid "Version"
-msgstr ""
-
-#: output/transaction_table.cpp:280
-msgid "Repository"
 msgstr ""
 
 #: output/transaction_table.cpp:286
