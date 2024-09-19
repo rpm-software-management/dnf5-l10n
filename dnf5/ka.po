@@ -8,9 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-18 03:00+0000\n"
-"PO-Revision-Date: 2024-09-19 22:27+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2024-09-20 02:52+0000\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ka/>\n"
 "Language: ka\n"
@@ -705,27 +704,27 @@ msgstr "პაკეტი \"{}\" უკვე ამოღებულია."
 
 #: context.cpp:73
 msgid "Importing PGP key 0x{}:\n"
-msgstr ""
+msgstr "მიმდინარეობს შემოტანა PGP გასაღებისთვის 0x{}:\n"
 
 #: context.cpp:75
 msgid " UserID     : \"{}\"\n"
-msgstr ""
+msgstr " UserID     : \"{}\"\n"
 
 #: context.cpp:78
 msgid ""
 " Fingerprint: {}\n"
 " From       : {}\n"
 msgstr ""
+" ანაბეჭდი: {}\n"
+" საიდან       : {}\n"
 
 #: context.cpp:87
 msgid "The key was successfully imported."
 msgstr "გასაღები წარმატებით იქნა შემოტანილი."
 
 #: context.cpp:262
-#, fuzzy
-#| msgid "setopt: \"{0}\": {1}"
 msgid "setopt: \"{}.{}\": {}"
-msgstr "setopt: \"{0}\": {1}"
+msgstr "setopt: \"{}.{}\": {}"
 
 #: context.cpp:269
 msgid "No matching repositories for \"{}\""
@@ -733,27 +732,23 @@ msgstr "რეპოზიტორიები, რომლებიც \"{}\"
 
 #: context.cpp:314
 msgid "Updating and loading repositories:"
-msgstr ""
+msgstr "განახლება და ჩატვირთვა რეპოზიტორიების:"
 
 #: context.cpp:324
 msgid "Repositories loaded."
-msgstr ""
+msgstr "რეპოზიტორიები ჩაიტვირთა."
 
 #: context.cpp:330
-#, fuzzy
-#| msgid "Manage offline transactions"
 msgid "Testing offline transaction"
-msgstr "ქსელის გარეშე ტრანზაქციების მართვა"
+msgstr "ქსელის გარეშე ტრანზაქციის შემოწმება"
 
 #: context.cpp:334 context.cpp:491
-#, fuzzy
-#| msgid "Transaction failed: "
 msgid "Transaction failed: {}"
-msgstr "ტრანზაქცია ჩავარდა: "
+msgstr "ტრანზაქცია ჩავარდა: {}"
 
 #: context.cpp:339 context.cpp:496
 msgid "  - {}"
-msgstr ""
+msgstr "  - {}"
 
 #: context.cpp:406
 msgid ""
@@ -764,18 +759,17 @@ msgstr ""
 "გადაეწერება."
 
 #: context.cpp:435
-#, fuzzy
-#| msgid "An offline transaction was initiated by the following command:"
 msgid ""
 "There is already an offline transaction queued, initiated by the following "
 "command:"
-msgstr "ქსელგარეშე ტრანზქცია დაიწყო შემდეგ ბრძანების მიერ:"
+msgstr "ქსელგარეშე ტრანზაქცია უკვე რიგშია. დაიწყო შემდეგ ბრძანების მიერ:"
 
 #: context.cpp:437
 msgid ""
 "Continuing will cancel the old offline transaction and replace it with this "
 "one."
 msgstr ""
+"გაგრძელება გააუქმებს ძველ ქსელგარეშე ტრანზაქციას და მას ამით ჩაანცვლებს."
 
 #: context.cpp:456
 msgid ""
@@ -783,6 +777,10 @@ msgid ""
 "reboot and run the transaction. To cancel the transaction and delete the "
 "downloaded files, use `dnf5 offline clean`."
 msgstr ""
+"დამახსოვრებული ტრანზაქციის ინტერნეტგარეშე შესრულება. გაუშვით ბრძანება 'dnf "
+"offline reboot', რომ გადატვირთოთ სისტემა და გაუშვათ ტრანზაქცია. იმისათვის, "
+"რომ გააუქმოთ ტრანზაქცია და წაშალოთ გადმოწერილი ფაილები, გაუშვით ბრძანება "
+"'dnf5 offline clean'."
 
 #: context.cpp:462
 #, fuzzy
@@ -792,47 +790,43 @@ msgstr "ქსელის გარეშე ტრანზაქციებ�
 
 #: context.cpp:770
 msgid "Upgrading {}"
-msgstr ""
+msgstr "ვანახლებ: {}"
 
 #: context.cpp:773
 msgid "Downgrading {}"
-msgstr ""
+msgstr "ვერსიის ჩამოწევა: {}"
 
 #: context.cpp:776
 msgid "Reinstalling {}"
-msgstr ""
+msgstr "თავიდან დაყენება: {}"
 
 #: context.cpp:789
 msgid "Unexpected action in TransactionPackage: {}"
-msgstr ""
+msgstr "მოულოდნელი ქმედება TransactionPackage-ში: {}"
 
 #: context.cpp:795
-#, fuzzy
-#| msgid "Installed"
 msgid "Installing {}"
-msgstr "დაყენებულია"
+msgstr "მიმდინარეობს დაყენება: {}"
 
 #: context.cpp:815
-#, fuzzy
-#| msgid "Manage offline transactions"
 msgid "Prepare transaction"
-msgstr "ქსელის გარეშე ტრანზაქციების მართვა"
+msgstr "ტრანზაქციის მომზადება"
 
 #: context.cpp:835
 msgid "Erasing {}"
-msgstr ""
+msgstr "წავშლი: {}"
 
 #: context.cpp:838
 msgid "Cleanup {}"
-msgstr ""
+msgstr "მოსუფთავება: {}"
 
 #: context.cpp:854
 msgid "Unpack error: {}"
-msgstr ""
+msgstr "პაკეტის გაშლის შეცდომა: {}"
 
 #: context.cpp:862
 msgid "Cpio error: {}"
-msgstr ""
+msgstr "Cpio-ის შეცდომა: {}"
 
 #: context.cpp:871
 msgid "Scriptlet output:"
@@ -840,23 +834,23 @@ msgstr ""
 
 #: context.cpp:886
 msgid "Error in {} scriptlet: {} return code {}"
-msgstr ""
+msgstr "შეცდომა {}-ის მინისტკრიპტში: {} ბრუნდება კოდი {}"
 
 #: context.cpp:901
 msgid "Running {} scriptlet: {}"
-msgstr ""
+msgstr "გაშვებულია {}-ის მინისკრიპტი: {}"
 
 #: context.cpp:921
 msgid "Non-critical error in {} scriptlet: {}"
-msgstr ""
+msgstr "არაკრიტიკული შეცდომა {}-ის მინისკრიპტში: {}"
 
 #: context.cpp:930
 msgid "Stop {} scriptlet: {}"
-msgstr ""
+msgstr "გაჩერდება {}-ის მინისკრიპტი: {}"
 
 #: context.cpp:950
 msgid "Verify package files"
-msgstr ""
+msgstr "პაკეტის ფაილების შემოწმება"
 
 #: library.cpp:33
 msgid "Cannot load shared library \"{}\": {}"
@@ -1112,64 +1106,69 @@ msgstr "ქვებრძანებები:"
 
 #: main.cpp:744
 msgid "{} version {}.{}.{}.{}"
-msgstr ""
+msgstr "{} ვერსია {}.{}.{}.{}"
 
 #: main.cpp:747
 msgid "{} plugin API version {}.{}"
-msgstr ""
+msgstr "{} დამატების API-ის ვერსია {}.{}"
 
 #: main.cpp:752
 msgid "libdnf5 version {}.{}.{}.{}"
-msgstr ""
+msgstr "libdnf5-ის ვერსია {}.{}.{}.{}"
 
 #: main.cpp:755
 msgid "libdnf5 plugin API version {}.{}"
-msgstr ""
+msgstr "libdnf5 დამატების API-ის ვერსია {}.{}"
 
 #: main.cpp:762
 msgid ""
 "\n"
 "Loaded {} plugins:"
 msgstr ""
+"\n"
+"ჩატვირთულია {} დამატება:"
 
 #: main.cpp:767
 msgid "  name: {}"
-msgstr ""
+msgstr "  სახელი: {}"
 
 #: main.cpp:770
 msgid "  version: {}.{}.{}"
-msgstr ""
+msgstr "  ვერსია: {}.{}.{}"
 
 #: main.cpp:772
 msgid "  API version: {}.{}"
-msgstr ""
+msgstr "  API ვერსია: {}.{}"
 
 #: main.cpp:810
 msgid ""
 "Total size of inbound packages is {:.0f} {:s}. Need to download {:.0f} {:s}."
 msgstr ""
+"შემომავალი პაკეტების ჯამური ზომაა {:.0f} {:s}. საჭიროა გადმოწერა {:.0f} {:s}."
 
 #: main.cpp:828
 msgid ""
 "After this operation, {:.0f} {:s} extra will be used (install {:.0f} {:s}, "
 "remove {:.0f} {:s})."
 msgstr ""
+"ამ ოპერაციის შემდეგ დამატებით {:.0f} {:s} იქნება გამოყენებული (დაყენება {:."
+"0f} {:s}, წაშლა {:.0f} {:s})."
 
 #: main.cpp:837
 msgid ""
 "After this operation, {:.0f} {:s} will be freed (install {:.0f} {:s}, remove "
 "{:.0f} {:s})."
 msgstr ""
+"ამ ოპერაციის შემდეგ, {:.0f} {:s} გათავისუფლდება (დაყენება {:.0f} {:s}, წაშლა "
+"{:.0f} {:s})."
 
 #: main.cpp:849
 msgid "======== Main configuration: ========"
 msgstr "======== მთავარი კონფიგურაცია: ========"
 
 #: main.cpp:886
-#, fuzzy
-#| msgid "No matching repositories for \"{}\""
 msgid "No matching repo to dump configuration: \"{}\""
-msgstr "რეპოზიტორიები, რომლებიც \"{}\"-ს ემთხვევა, აღმოჩენილი არაა"
+msgstr "არ არსებობს ასეთი რეპო კონფიგურაციის გამოსატანად: \"{}\""
 
 #: main.cpp:891
 msgid "======== \"{}\" repository configuration: ========"
@@ -1185,7 +1184,7 @@ msgstr ""
 
 #: main.cpp:953
 msgid " {}"
-msgstr ""
+msgstr " {}"
 
 #: main.cpp:994
 msgid "{} to skip unavailable packages"
@@ -1244,23 +1243,23 @@ msgstr ""
 
 #: main.cpp:1205
 msgid "--- DNF5 launched with arguments: \"{}\" ---"
-msgstr ""
+msgstr "--- DNF5 გაეშვა არგუმენტებით: \"{}\" ---"
 
 #: main.cpp:1256
 msgid "{}."
-msgstr ""
+msgstr "{}."
 
 #: main.cpp:1259 main.cpp:1442
-#, fuzzy
-#| msgid ". Add \"--help\" for more information about the arguments."
 msgid "{}. Add \"--help\" for more information about the arguments."
-msgstr "დაამატეთ \"--help\" არგუმენტების შესახებ მეტი ინფორმაციის მისაღებად."
+msgstr "{} დაამატეთ \"--help\" არგუმენტების შესახებ მეტი ინფორმაციის მისაღებად."
 
 #: main.cpp:1266
 msgid ""
 "It could be a command provided by a plugin, try: dnf5 install 'dnf5-"
 "command({})'"
 msgstr ""
+"შეიძლება იყოს ბრძანება, რომელიც მოწოდებულია დამატების მიერ. სცადეთ dnf5 "
+"install 'dnf5-command({})'"
 
 #: main.cpp:1308
 msgid "No read/execute access in current directory, moving to /"
@@ -1279,33 +1278,36 @@ msgstr ""
 
 #: main.cpp:1406
 msgid "The operation will only store the transaction in {}"
-msgstr ""
+msgstr "ეს ოპერაცია, მხოლოდ, შეინახავს ტრანზაქციას საქაღალდეში {}"
 
 #: main.cpp:1408
-#, fuzzy
-#| msgid "{} to allow extra packages in the transaction"
 msgid "The operation will only download packages for the transaction."
-msgstr "{} ტრანზაქციაში დამატებითი პაკეტების შეტანის დასაშვებად"
+msgstr "ოპერაცია, მხოლოდ, გადმოწერს პაკეტებს ტრანზაქციისთვის."
 
 #: main.cpp:1413
 msgid ""
 "Test mode enabled: Only package downloads, PGP key installations and "
 "transaction checks will be performed."
 msgstr ""
+"სატესტო რეჟიმი ჩართულია: მოხდება პაკეტების, მხოლოდ, გადმოწერა, PGP "
+"გასაღებების დაყენება და ტრანზაქციების შემოწმება."
 
 #: main.cpp:1430
 msgid ""
 "No repositories were loaded from the installroot. To use the configuration "
 "and repositories of the host system, pass --use-host-config."
 msgstr ""
+"მითითებული ძირითადი საქაღალდიდან რეპოზიტორიები არ ჩატვირთულა. კონფიგურაცის "
+"მასპინძელი სისტემის კონფიგურაციისა და რეპოზიტორიების გამოსაყენებლად გადაეცით "
+"პარამეტრი --use-host-config."
 
 #: main.cpp:1452
 msgid "Command returned error: {}"
-msgstr ""
+msgstr "ბრძანებამ დააბრუნა შეცდომა: {}"
 
 #: main.cpp:1460
 msgid "DNF5 finished"
-msgstr ""
+msgstr "DNF5 დასრულდა"
 
 #: main.cpp:1464
 msgid "Complete!"
