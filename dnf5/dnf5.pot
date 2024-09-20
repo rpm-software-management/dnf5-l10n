@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-18 03:00+0000\n"
+"POT-Creation-Date: 2024-09-20 03:02+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -155,19 +155,29 @@ msgstr ""
 msgid "Check discovered {} problem(s) in {} package(s)"
 msgstr ""
 
-#: commands/clean/clean.cpp:88
+#: commands/clean/clean.cpp:90
 #, c++-format
 msgid "List of cache types to clean up. Supported types: {0}"
 msgstr ""
 
-#: commands/clean/clean.cpp:106
+#: commands/clean/clean.cpp:108
 #, c++-format
 msgid "Unknown cache type \"{0}\". Supported types: {1}"
 msgstr ""
 
-#: commands/clean/clean.cpp:163
+#: commands/clean/clean.cpp:165
 #, c++-format
 msgid "Failed to cleanup repository cache in path \"{0}\": {1}"
+msgstr ""
+
+#: commands/clean/clean.cpp:175
+#, c++-format
+msgid "Cache directory \"{}\" does not exist. Nothing to clean."
+msgstr ""
+
+#: commands/clean/clean.cpp:180
+#, c++-format
+msgid "Cannot iterate cache directory \"{}\": {}"
 msgstr ""
 
 #: commands/download/download.cpp:112
