@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-20 03:02+0000\n"
-"PO-Revision-Date: 2024-09-18 12:40+0000\n"
+"PO-Revision-Date: 2024-09-20 08:57+0000\n"
 "Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/fr/>\n"
@@ -201,16 +201,12 @@ msgid "Failed to cleanup repository cache in path \"{0}\": {1}"
 msgstr "Échec du nettoyage du cache des dépôts ({0}) : {1}"
 
 #: commands/clean/clean.cpp:175
-#, fuzzy
-#| msgid "Data directory {} does not exist."
 msgid "Cache directory \"{}\" does not exist. Nothing to clean."
-msgstr "Le dossier des données ({}) n'existe pas."
+msgstr "Le répertoire du cache ({}) n'existe pas. Rien à nettoyer."
 
 #: commands/clean/clean.cpp:180
-#, fuzzy
-#| msgid "Cannot load shared library \"{}\": {}"
 msgid "Cannot iterate cache directory \"{}\": {}"
-msgstr "Impossible de charger la bibliothèque partagée \"{}\" : {}"
+msgstr "Impossible de parcourir le répertoire du cache ({}) : {}"
 
 #: commands/download/download.cpp:112
 msgid "Invalid urlprotocol option: {}"
