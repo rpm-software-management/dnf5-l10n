@@ -9,9 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-20 03:02+0000\n"
-"PO-Revision-Date: 2024-09-18 06:34+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2024-09-20 20:42+0000\n"
+"Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/sv/>\n"
 "Language: sv\n"
@@ -191,16 +190,12 @@ msgid "Failed to cleanup repository cache in path \"{0}\": {1}"
 msgstr "Misslyckades att rensa arkivets cache i sökväg \"{0}\": {1}"
 
 #: commands/clean/clean.cpp:175
-#, fuzzy
-#| msgid "Data directory {} does not exist."
 msgid "Cache directory \"{}\" does not exist. Nothing to clean."
-msgstr "Datakatalogen {} finns inte."
+msgstr "Cachekatalog {} finns inte. Inget att rengöra."
 
 #: commands/clean/clean.cpp:180
-#, fuzzy
-#| msgid "Cannot load shared library \"{}\": {}"
 msgid "Cannot iterate cache directory \"{}\": {}"
-msgstr "Kan inte ladda delat bibliotek \"{}\": {}"
+msgstr "Kan inte iterera cachekatalog \"{}\": {}"
 
 #: commands/download/download.cpp:112
 msgid "Invalid urlprotocol option: {}"
