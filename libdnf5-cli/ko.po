@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-21 03:00+0000\n"
-"PO-Revision-Date: 2024-09-21 07:30+0000\n"
+"PO-Revision-Date: 2024-09-21 14:54+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5-cli/ko/>\n"
@@ -134,7 +134,7 @@ msgstr "힌트 : [d] efault, [e] nabled, [x] disabled, [i] stalled"
 #. a package properties table as in "Name    : bash".
 #: output/packageinfo.cpp:57
 msgid " : "
-msgstr ""
+msgstr " : "
 
 #. Add package
 #: output/packageinfo.cpp:63
@@ -159,15 +159,15 @@ msgstr "구조"
 
 #: output/packageinfo.cpp:75
 msgid "Obsoletes"
-msgstr ""
+msgstr "더 이상 사용하지 않음"
 
 #: output/packageinfo.cpp:85
 msgid "Download size"
-msgstr ""
+msgstr "내려받는 크기"
 
 #: output/packageinfo.cpp:89
 msgid "Installed size"
-msgstr ""
+msgstr "설치된 크기"
 
 #: output/packageinfo.cpp:91
 msgid "Source"
@@ -175,7 +175,7 @@ msgstr "원천"
 
 #: output/packageinfo.cpp:94
 msgid "From repository"
-msgstr ""
+msgstr "저장소에서"
 
 #: output/packageinfo.cpp:96 output/transaction_table.cpp:280
 msgid "Repository"
@@ -203,47 +203,47 @@ msgstr "제조사"
 
 #: output/transaction_table.cpp:127
 msgid "Transaction Summary:\n"
-msgstr ""
+msgstr "연결 요약:\n"
 
 #: output/transaction_table.cpp:131
 msgid " Installing:      {:4} package\n"
 msgid_plural " Installing:      {:4} packages\n"
-msgstr[0] ""
+msgstr[0] " 설치 중:      {:4} 꾸러미\n"
 
 #: output/transaction_table.cpp:138
 msgid " Reinstalling:    {:4} package\n"
 msgid_plural " Reinstalling:    {:4} packages\n"
-msgstr[0] ""
+msgstr[0] " 재설치 중:    {:4} 꾸러미\n"
 
 #: output/transaction_table.cpp:145
 msgid " Upgrading:       {:4} package\n"
 msgid_plural " Upgrading:       {:4} packages\n"
-msgstr[0] ""
+msgstr[0] " 향상 중:       {:4} 꾸러미\n"
 
 #: output/transaction_table.cpp:152
 msgid " Replacing:       {:4} package\n"
 msgid_plural " Replacing:       {:4} package\n"
-msgstr[0] ""
+msgstr[0] " 교체 중:       {:4} 꾸러미\n"
 
 #: output/transaction_table.cpp:159
 msgid " Removing:        {:4} package\n"
 msgid_plural " Removing:        {:4} packages\n"
-msgstr[0] ""
+msgstr[0] " 제거 중:        {:4} 꾸러미\n"
 
 #: output/transaction_table.cpp:166
 msgid " Downgrading:     {:4} package\n"
 msgid_plural " Downgrading:     {:4} packages\n"
-msgstr[0] ""
+msgstr[0] " 하향 중:     {:4} 꾸러미\n"
 
 #: output/transaction_table.cpp:173
 msgid " Changing reason: {:4} package\n"
 msgid_plural " Changing reason: {:4} packages\n"
-msgstr[0] ""
+msgstr[0] " 원인 변경 중: {:4} 꾸러미\n"
 
 #: output/transaction_table.cpp:181
 msgid " Skipping:        {:4} package\n"
 msgid_plural " Skipping:        {:4} packages\n"
-msgstr[0] ""
+msgstr[0] " 건너뛰는 중:        {:4} 꾸러미\n"
 
 #: output/transaction_table.cpp:262
 msgid "Package"
@@ -259,11 +259,11 @@ msgstr "크기"
 
 #: output/transaction_table.cpp:342 output/transaction_table.cpp:436
 msgid "{} -> {}"
-msgstr ""
+msgstr "{} -> {}"
 
 #: output/transaction_table.cpp:358
 msgid "replacing {}"
-msgstr ""
+msgstr "대체 중 {}"
 
 #: output/transaction_table.cpp:394 output/transaction_table.cpp:411
 msgid " <name-unset>"
@@ -275,7 +275,7 @@ msgstr "교체 "
 
 #: output/transaction_table.cpp:455
 msgid "Skipping packages with conflicts:"
-msgstr ""
+msgstr "충돌이 있는 꾸러미 건너뛰기:"
 
 #: output/transaction_table.cpp:457
 msgid "Skipping packages with broken dependencies:"
@@ -323,11 +323,11 @@ msgstr "제거 중:"
 
 #: output/transaction_table.cpp:546
 msgid "Changing reason:"
-msgstr ""
+msgstr "변경 원인:"
 
 #: output/transaction_table.cpp:578
 msgid "Installing groups dependencies:"
-msgstr ""
+msgstr "그룹 의존성 설치 중:"
 
 #: output/transaction_table.cpp:580
 msgid "Installing groups:"
@@ -343,15 +343,15 @@ msgstr "그룹 향상 중:"
 
 #: output/transaction_table.cpp:614
 msgid "Installing environmental groups:"
-msgstr ""
+msgstr "환경 그룹 설치 중:"
 
 #: output/transaction_table.cpp:617
 msgid "Removing environmental groups:"
-msgstr ""
+msgstr "환경 그룹 제거 중:"
 
 #: output/transaction_table.cpp:620
 msgid "Upgrading environmental groups:"
-msgstr ""
+msgstr "환경 그룹 향상 중:"
 
 #: output/transaction_table.cpp:647
 msgid "Enabling module streams:"
