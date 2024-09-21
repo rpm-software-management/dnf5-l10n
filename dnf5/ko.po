@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-21 03:00+0000\n"
-"PO-Revision-Date: 2024-09-21 07:27+0000\n"
+"PO-Revision-Date: 2024-09-21 07:30+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ko/>\n"
@@ -736,10 +736,8 @@ msgid "Testing offline transaction"
 msgstr "오프라인 연결을 관리합니다"
 
 #: context.cpp:334 context.cpp:491
-#, fuzzy
-#| msgid "Transaction failed: "
 msgid "Transaction failed: {}"
-msgstr "연결 실패함: "
+msgstr "연결 실패함: {}"
 
 #: context.cpp:339 context.cpp:496
 msgid "  - {}"
@@ -774,10 +772,8 @@ msgid ""
 msgstr ""
 
 #: context.cpp:462
-#, fuzzy
-#| msgid "Manage offline transactions"
 msgid "Running transaction"
-msgstr "오프라인 연결을 관리합니다"
+msgstr "연결 실행 중"
 
 #: context.cpp:770
 msgid "Upgrading {}"
@@ -789,17 +785,15 @@ msgstr ""
 
 #: context.cpp:776
 msgid "Reinstalling {}"
-msgstr ""
+msgstr "재설치 중 {}"
 
 #: context.cpp:789
 msgid "Unexpected action in TransactionPackage: {}"
 msgstr ""
 
 #: context.cpp:795
-#, fuzzy
-#| msgid "Installed"
 msgid "Installing {}"
-msgstr "설치되었습니다"
+msgstr "설치 중 {}"
 
 #: context.cpp:815
 #, fuzzy
