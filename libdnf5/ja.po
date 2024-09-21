@@ -7,14 +7,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-21 03:00+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-09-21 07:19+0000\n"
+"Last-Translator: Gnuey56 <gnuey56@proton.me>\n"
+"Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf5/"
+"libdnf5/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.7.2\n"
 
 #: advisory/advisory.cpp:81
 #, c++-format
@@ -22,17 +24,19 @@ msgid ""
 "Bad libsolv id for advisory \"{}\", solvable name \"{}\" doesn't have "
 "advisory prefix \"{}\""
 msgstr ""
+"アドバイサリー \"{}\" の libsolv ID が不正です。解決名 \"{}\" "
+"はアドバイサリーのプレフィックス \"{}\" を持っていません"
 
 #: base/goal.cpp:472
 #, c++-format
 msgid "Unsupported argument for REMOVE action: {}"
-msgstr ""
+msgstr "REMOVE アクションで対応していない引数: {}"
 
 #. TODO(lukash) throw a proper exception
 #: base/goal.cpp:1545
 #, c++-format
 msgid "Incorrect configuration value for multilib_policy: {}"
-msgstr ""
+msgstr "multilib_policy の設定値が正しくありません: {}"
 
 #: base/goal_elements.cpp:352
 msgid "Install"
@@ -40,7 +44,7 @@ msgstr ""
 
 #: base/goal_elements.cpp:354
 msgid "Install via provide"
-msgstr ""
+msgstr "提供からインストール"
 
 #: base/goal_elements.cpp:356
 msgid "Install by group"
