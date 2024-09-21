@@ -10,9 +10,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-21 03:00+0000\n"
-"PO-Revision-Date: 2024-09-21 07:57+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2024-09-21 14:54+0000\n"
+"Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ko/>\n"
 "Language: ko\n"
@@ -186,16 +185,12 @@ msgid "Failed to cleanup repository cache in path \"{0}\": {1}"
 msgstr "경로에서 저장소 캐쉬를 정리하는 데 실패함 \"{0}\": {1}"
 
 #: commands/clean/clean.cpp:175
-#, fuzzy
-#| msgid "Data directory {} does not exist."
 msgid "Cache directory \"{}\" does not exist. Nothing to clean."
-msgstr "자료 디렉토리 {}가 존재하지 않습니다."
+msgstr "캐쉬 디렉토리 \"{}\"가 존재하지 않습니다. 정리 할 게 없습니다."
 
 #: commands/clean/clean.cpp:180
-#, fuzzy
-#| msgid "Cannot load shared library \"{}\": {}"
 msgid "Cannot iterate cache directory \"{}\": {}"
-msgstr "공유된 라이브러리를 적재 할 수 없습니다 \"{}\": {}"
+msgstr "캐쉬 디렉토리를 반복 할 수 없습니다 \"{}\": {}"
 
 #: commands/download/download.cpp:112
 msgid "Invalid urlprotocol option: {}"
@@ -696,27 +691,27 @@ msgstr "꾸러미 {} 는 이미 제외되었습니다."
 
 #: context.cpp:73
 msgid "Importing PGP key 0x{}:\n"
-msgstr ""
+msgstr "PGP 키 0x{} 가져오기:\n"
 
 #: context.cpp:75
 msgid " UserID     : \"{}\"\n"
-msgstr ""
+msgstr " 사용자ID     : \"{}\"\n"
 
 #: context.cpp:78
 msgid ""
 " Fingerprint: {}\n"
 " From       : {}\n"
 msgstr ""
+" 지문: {}\n"
+" 에서       : {}\n"
 
 #: context.cpp:87
 msgid "The key was successfully imported."
 msgstr "키를 성공적으로 가져왔습니다."
 
 #: context.cpp:262
-#, fuzzy
-#| msgid "setopt: \"{0}\": {1}"
 msgid "setopt: \"{}.{}\": {}"
-msgstr "setopt: \"{0}\": {1}"
+msgstr "setopt: \"{}.{}\": {}"
 
 #: context.cpp:269
 msgid "No matching repositories for \"{}\""
@@ -724,17 +719,15 @@ msgstr "\"{}\"를 위해 일치하는 저장소가 없습니다"
 
 #: context.cpp:314
 msgid "Updating and loading repositories:"
-msgstr ""
+msgstr "저장소 최신화 및 적재 중:"
 
 #: context.cpp:324
 msgid "Repositories loaded."
-msgstr ""
+msgstr "저장소가 적재됨."
 
 #: context.cpp:330
-#, fuzzy
-#| msgid "Manage offline transactions"
 msgid "Testing offline transaction"
-msgstr "오프라인 연결을 관리합니다"
+msgstr "오프라인 연결을 시험 중"
 
 #: context.cpp:334 context.cpp:491
 msgid "Transaction failed: {}"
@@ -742,7 +735,7 @@ msgstr "연결 실패함: {}"
 
 #: context.cpp:339 context.cpp:496
 msgid "  - {}"
-msgstr ""
+msgstr "  - {}"
 
 #: context.cpp:406
 msgid ""
@@ -1232,7 +1225,7 @@ msgstr ""
 
 #: main.cpp:1311
 msgid "No read/execute access in current directory, moving to /"
-msgstr "현재 디렉토리에서 읽기 / 실행 액세스가 없습니다. /로 이동합니다"
+msgstr "현재 디렉토리에서 읽기/실행 접근이 없으며, /로 이동합니다"
 
 #: main.cpp:1368
 msgid ""
@@ -1249,10 +1242,8 @@ msgid "The operation will only store the transaction in {}"
 msgstr ""
 
 #: main.cpp:1411
-#, fuzzy
-#| msgid "{} to allow extra packages in the transaction"
 msgid "The operation will only download packages for the transaction."
-msgstr "{} 를 연결에서 추가 꾸러미를 허용합니다"
+msgstr "동작은 연결을 위해 꾸러미만 내려받을 수 있습니다."
 
 #: main.cpp:1416
 msgid ""
