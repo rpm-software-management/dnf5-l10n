@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-20 03:02+0000\n"
+"POT-Creation-Date: 2024-09-21 03:00+0000\n"
 "PO-Revision-Date: 2024-09-04 06:38+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
@@ -1171,15 +1171,15 @@ msgstr ""
 msgid " {}"
 msgstr ""
 
-#: main.cpp:994
+#: main.cpp:997
 msgid "{} to skip unavailable packages"
 msgstr "{} 에서 사용 할 수 없는 꾸러미를 건너뛰려면"
 
-#: main.cpp:1002
+#: main.cpp:1005
 msgid "{} to allow extra packages in the transaction"
 msgstr "{} 를 연결에서 추가 꾸러미를 허용합니다"
 
-#: main.cpp:1015
+#: main.cpp:1018
 msgid ""
 "{} to allow mismatches between installed and stored transaction packages. "
 "This can result in an empty transaction because among other things the "
@@ -1189,27 +1189,27 @@ msgstr ""
 "도 이 옵션이 실패한 제거 작업을 무시 할 수 있기 때문에 빈 연결이 나타 날 수 "
 "있습니다."
 
-#: main.cpp:1062
+#: main.cpp:1065
 msgid "{} to not limit the transaction to the best candidates"
 msgstr "{} 연결을 최고의 후보로 제한하지 않습니다"
 
-#: main.cpp:1069
+#: main.cpp:1072
 msgid "{} to allow erasing of installed packages to resolve problems"
 msgstr "{} 문제를 해결하도록 설치된 꾸러미의 제거를 허용합니다"
 
-#: main.cpp:1077
+#: main.cpp:1080
 msgid "{} to load additional filelists metadata"
 msgstr "{} 추가된 파일목록 메타자료를 적재합니다"
 
-#: main.cpp:1084
+#: main.cpp:1087
 msgid "{} to skip uninstallable packages"
 msgstr "{} 설치 할 수 없는 꾸러미를 건너뜁니다"
 
-#: main.cpp:1090
+#: main.cpp:1093
 msgid "You can try to add to command line:"
 msgstr "당신은 명령 행에 다음을 추가 해 볼 수 있습니다:"
 
-#: main.cpp:1108
+#: main.cpp:1111
 msgid ""
 "No matches were found for the following plugin name patterns while enabling "
 "libdnf plugins: {}"
@@ -1217,7 +1217,7 @@ msgstr ""
 "libdnf 플러그인을 활성화 중에 다음 플러그인 이름 유형을 위한 어떤 일치도 찾"
 "을 수 없습니다: {}"
 
-#: main.cpp:1109
+#: main.cpp:1112
 msgid ""
 "No matches were found for the following plugin name patterns while disabling "
 "libdnf plugins: {}"
@@ -1225,31 +1225,31 @@ msgstr ""
 "libdnf 플러그인을 비활성화 하는 중에 다음 플러그인 이름 유형을 위해 어떤 일치"
 "도 찾을 수 없습니다: {}"
 
-#: main.cpp:1205
+#: main.cpp:1208
 msgid "--- DNF5 launched with arguments: \"{}\" ---"
 msgstr ""
 
-#: main.cpp:1256
+#: main.cpp:1259
 msgid "{}."
 msgstr ""
 
-#: main.cpp:1259 main.cpp:1442
+#: main.cpp:1262 main.cpp:1445
 #, fuzzy
 #| msgid ". Add \"--help\" for more information about the arguments."
 msgid "{}. Add \"--help\" for more information about the arguments."
 msgstr ".인수에 대한 더 많은 정보를 위해 \"--help\"를 추가합니다."
 
-#: main.cpp:1266
+#: main.cpp:1269
 msgid ""
 "It could be a command provided by a plugin, try: dnf5 install 'dnf5-"
 "command({})'"
 msgstr ""
 
-#: main.cpp:1308
+#: main.cpp:1311
 msgid "No read/execute access in current directory, moving to /"
 msgstr ""
 
-#: main.cpp:1365
+#: main.cpp:1368
 msgid ""
 "The requested operation requires superuser privileges. Please log in as a "
 "user with elevated rights, or use the \"--assumeno\" or \"--downloadonly\" "
@@ -1259,37 +1259,37 @@ msgstr ""
 "인하고, \"--assumeno\" 또는 \"--downloadonly\" 옵션을 사용하여 시스템 상태를 "
 "수정하지 않고 명령을 실행합니다."
 
-#: main.cpp:1406
+#: main.cpp:1409
 msgid "The operation will only store the transaction in {}"
 msgstr ""
 
-#: main.cpp:1408
+#: main.cpp:1411
 #, fuzzy
 #| msgid "{} to allow extra packages in the transaction"
 msgid "The operation will only download packages for the transaction."
 msgstr "{} 를 연결에서 추가 꾸러미를 허용합니다"
 
-#: main.cpp:1413
+#: main.cpp:1416
 msgid ""
 "Test mode enabled: Only package downloads, PGP key installations and "
 "transaction checks will be performed."
 msgstr ""
 
-#: main.cpp:1430
+#: main.cpp:1433
 msgid ""
 "No repositories were loaded from the installroot. To use the configuration "
 "and repositories of the host system, pass --use-host-config."
 msgstr ""
 
-#: main.cpp:1452
+#: main.cpp:1455
 msgid "Command returned error: {}"
 msgstr ""
 
-#: main.cpp:1460
+#: main.cpp:1463
 msgid "DNF5 finished"
 msgstr ""
 
-#: main.cpp:1464
+#: main.cpp:1467
 msgid "Complete!"
 msgstr "완료되었습니다!"
 

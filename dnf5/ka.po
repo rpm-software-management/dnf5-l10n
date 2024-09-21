@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-20 03:02+0000\n"
+"POT-Creation-Date: 2024-09-21 03:00+0000\n"
 "PO-Revision-Date: 2024-09-20 20:42+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -1192,15 +1192,15 @@ msgstr "ახალი ფოთლები:"
 msgid " {}"
 msgstr " {}"
 
-#: main.cpp:994
+#: main.cpp:997
 msgid "{} to skip unavailable packages"
 msgstr "{} ხელმიუწვდომელი პაკეტების გამოსატოვებლად"
 
-#: main.cpp:1002
+#: main.cpp:1005
 msgid "{} to allow extra packages in the transaction"
 msgstr "{} ტრანზაქციაში დამატებითი პაკეტების შეტანის დასაშვებად"
 
-#: main.cpp:1015
+#: main.cpp:1018
 msgid ""
 "{} to allow mismatches between installed and stored transaction packages. "
 "This can result in an empty transaction because among other things the "
@@ -1211,27 +1211,27 @@ msgstr ""
 "ყველაფერთან ერთად ამ პარამეტრს ჩავარდნილი წაშლის ქმედებების გამოტოვება "
 "შეუძლია."
 
-#: main.cpp:1062
+#: main.cpp:1065
 msgid "{} to not limit the transaction to the best candidates"
 msgstr "{} ტრანზაქციის საუკეთესო კანდიდატებზე შეზღუდვის მოსახსნელად"
 
-#: main.cpp:1069
+#: main.cpp:1072
 msgid "{} to allow erasing of installed packages to resolve problems"
 msgstr "{} პრობლემების გადასაჭრელად დაყენებული პაკეტების წაშლის დასაშვებად"
 
-#: main.cpp:1077
+#: main.cpp:1080
 msgid "{} to load additional filelists metadata"
 msgstr "{} დამატებითი ფაილების სიის მეტამონაცემების ჩასატვირთად"
 
-#: main.cpp:1084
+#: main.cpp:1087
 msgid "{} to skip uninstallable packages"
 msgstr "{} ისეთი პაკეტების გამოსატოვებლად, რომლებიც არ იშლება"
 
-#: main.cpp:1090
+#: main.cpp:1093
 msgid "You can try to add to command line:"
 msgstr "შეგიძლიათ, სცადოთ, მიამატოთ ბრძანების სტრიქონს:"
 
-#: main.cpp:1108
+#: main.cpp:1111
 msgid ""
 "No matches were found for the following plugin name patterns while enabling "
 "libdnf plugins: {}"
@@ -1239,7 +1239,7 @@ msgstr ""
 "დამთხვევები აღმოჩენილი არაა შემდეგი დამატების სახელის ნიმუშებისთვის libdnf-"
 "ის დამატებების ჩართვისას: {}"
 
-#: main.cpp:1109
+#: main.cpp:1112
 msgid ""
 "No matches were found for the following plugin name patterns while disabling "
 "libdnf plugins: {}"
@@ -1247,20 +1247,20 @@ msgstr ""
 "დამთხვევები აღმოჩენილი არაა შემდეგი დამატების სახელის ნიმუშებისთვის libdnf-"
 "ის დამატებების გათიშვისას: {}"
 
-#: main.cpp:1205
+#: main.cpp:1208
 msgid "--- DNF5 launched with arguments: \"{}\" ---"
 msgstr "--- DNF5 გაეშვა არგუმენტებით: \"{}\" ---"
 
-#: main.cpp:1256
+#: main.cpp:1259
 msgid "{}."
 msgstr "{}."
 
-#: main.cpp:1259 main.cpp:1442
+#: main.cpp:1262 main.cpp:1445
 msgid "{}. Add \"--help\" for more information about the arguments."
 msgstr ""
 "{} დაამატეთ \"--help\" არგუმენტების შესახებ მეტი ინფორმაციის მისაღებად."
 
-#: main.cpp:1266
+#: main.cpp:1269
 msgid ""
 "It could be a command provided by a plugin, try: dnf5 install 'dnf5-"
 "command({})'"
@@ -1268,12 +1268,12 @@ msgstr ""
 "შეიძლება იყოს ბრძანება, რომელიც მოწოდებულია დამატების მიერ. სცადეთ dnf5 "
 "install 'dnf5-command({})'"
 
-#: main.cpp:1308
+#: main.cpp:1311
 msgid "No read/execute access in current directory, moving to /"
 msgstr ""
 "მიმდინარე საქაღალდიდან წაკითხვა/გაშვების წვდომა არ გაგაჩნიათ. /-ზე გადატანა"
 
-#: main.cpp:1365
+#: main.cpp:1368
 msgid ""
 "The requested operation requires superuser privileges. Please log in as a "
 "user with elevated rights, or use the \"--assumeno\" or \"--downloadonly\" "
@@ -1284,15 +1284,15 @@ msgstr ""
 "assumeno\" ან \"--downloadonly\", რომ ბრძანება სისტემის მდგომარეობის "
 "ცვლილების გარეშე გაუშვათ."
 
-#: main.cpp:1406
+#: main.cpp:1409
 msgid "The operation will only store the transaction in {}"
 msgstr "ეს ოპერაცია, მხოლოდ, შეინახავს ტრანზაქციას საქაღალდეში {}"
 
-#: main.cpp:1408
+#: main.cpp:1411
 msgid "The operation will only download packages for the transaction."
 msgstr "ოპერაცია, მხოლოდ, გადმოწერს პაკეტებს ტრანზაქციისთვის."
 
-#: main.cpp:1413
+#: main.cpp:1416
 msgid ""
 "Test mode enabled: Only package downloads, PGP key installations and "
 "transaction checks will be performed."
@@ -1300,7 +1300,7 @@ msgstr ""
 "სატესტო რეჟიმი ჩართულია: მოხდება პაკეტების, მხოლოდ, გადმოწერა, PGP "
 "გასაღებების დაყენება და ტრანზაქციების შემოწმება."
 
-#: main.cpp:1430
+#: main.cpp:1433
 msgid ""
 "No repositories were loaded from the installroot. To use the configuration "
 "and repositories of the host system, pass --use-host-config."
@@ -1309,15 +1309,15 @@ msgstr ""
 "მასპინძელი სისტემის კონფიგურაციისა და რეპოზიტორიების გამოსაყენებლად გადაეცით "
 "პარამეტრი --use-host-config."
 
-#: main.cpp:1452
+#: main.cpp:1455
 msgid "Command returned error: {}"
 msgstr "ბრძანებამ დააბრუნა შეცდომა: {}"
 
-#: main.cpp:1460
+#: main.cpp:1463
 msgid "DNF5 finished"
 msgstr "DNF5 დასრულდა"
 
-#: main.cpp:1464
+#: main.cpp:1467
 msgid "Complete!"
 msgstr "დასრულებულია!"
 

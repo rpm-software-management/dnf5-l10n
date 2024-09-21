@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-20 03:02+0000\n"
+"POT-Creation-Date: 2024-09-21 03:00+0000\n"
 "PO-Revision-Date: 2024-09-03 06:38+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -1193,15 +1193,15 @@ msgstr ""
 msgid " {}"
 msgstr ""
 
-#: main.cpp:994
+#: main.cpp:997
 msgid "{} to skip unavailable packages"
 msgstr "Kullanılabilir olmayan paketleri atlamak için {}"
 
-#: main.cpp:1002
+#: main.cpp:1005
 msgid "{} to allow extra packages in the transaction"
 msgstr "İşlemde ek paketlere izin vermek için {}"
 
-#: main.cpp:1015
+#: main.cpp:1018
 msgid ""
 "{} to allow mismatches between installed and stored transaction packages. "
 "This can result in an empty transaction because among other things the "
@@ -1211,28 +1211,28 @@ msgstr ""
 "için {}. Bu, boş bir işlemle sonuçlanabilir çünkü diğer şeylerin yanı sıra "
 "seçenek, başarısız olan kaldırma eylemlerini yok sayabilir."
 
-#: main.cpp:1062
+#: main.cpp:1065
 msgid "{} to not limit the transaction to the best candidates"
 msgstr "İşlemi en iyi adaylarla sınırlamamak için {}"
 
-#: main.cpp:1069
+#: main.cpp:1072
 msgid "{} to allow erasing of installed packages to resolve problems"
 msgstr ""
 "Sorunları çözmek için kurulu paketlerin silinmesine izin vermek için {}"
 
-#: main.cpp:1077
+#: main.cpp:1080
 msgid "{} to load additional filelists metadata"
 msgstr "Ek dosya listeleri üst verilerini yüklemek için {}"
 
-#: main.cpp:1084
+#: main.cpp:1087
 msgid "{} to skip uninstallable packages"
 msgstr "Kurulamayan paketleri atlamak için {}"
 
-#: main.cpp:1090
+#: main.cpp:1093
 msgid "You can try to add to command line:"
 msgstr "Komut satırına eklemeyi deneyebilirsiniz:"
 
-#: main.cpp:1108
+#: main.cpp:1111
 msgid ""
 "No matches were found for the following plugin name patterns while enabling "
 "libdnf plugins: {}"
@@ -1240,7 +1240,7 @@ msgstr ""
 "libdnf eklentilerini etkinleştirirken şu eklenti adı desenleri için eşleşme "
 "bulunamadı: {}"
 
-#: main.cpp:1109
+#: main.cpp:1112
 msgid ""
 "No matches were found for the following plugin name patterns while disabling "
 "libdnf plugins: {}"
@@ -1248,32 +1248,32 @@ msgstr ""
 "libdnf eklentilerini devre dışı bırakırken şu eklenti adı desenleri için "
 "eşleşme bulunamadı: {}"
 
-#: main.cpp:1205
+#: main.cpp:1208
 msgid "--- DNF5 launched with arguments: \"{}\" ---"
 msgstr ""
 
-#: main.cpp:1256
+#: main.cpp:1259
 msgid "{}."
 msgstr ""
 
-#: main.cpp:1259 main.cpp:1442
+#: main.cpp:1262 main.cpp:1445
 #, fuzzy
 #| msgid ". Add \"--help\" for more information about the arguments."
 msgid "{}. Add \"--help\" for more information about the arguments."
 msgstr ""
 ". Argümanlar hakkında daha fazla bilgi için \"--help\" seçeneğini ekleyin."
 
-#: main.cpp:1266
+#: main.cpp:1269
 msgid ""
 "It could be a command provided by a plugin, try: dnf5 install 'dnf5-"
 "command({})'"
 msgstr ""
 
-#: main.cpp:1308
+#: main.cpp:1311
 msgid "No read/execute access in current directory, moving to /"
 msgstr ""
 
-#: main.cpp:1365
+#: main.cpp:1368
 msgid ""
 "The requested operation requires superuser privileges. Please log in as a "
 "user with elevated rights, or use the \"--assumeno\" or \"--downloadonly\" "
@@ -1284,37 +1284,37 @@ msgstr ""
 "değiştirmeden komutu çalıştırmak için \"--assumeno\" veya \"--downloadonly\" "
 "seçeneklerini kullanın."
 
-#: main.cpp:1406
+#: main.cpp:1409
 msgid "The operation will only store the transaction in {}"
 msgstr ""
 
-#: main.cpp:1408
+#: main.cpp:1411
 #, fuzzy
 #| msgid "{} to allow extra packages in the transaction"
 msgid "The operation will only download packages for the transaction."
 msgstr "İşlemde ek paketlere izin vermek için {}"
 
-#: main.cpp:1413
+#: main.cpp:1416
 msgid ""
 "Test mode enabled: Only package downloads, PGP key installations and "
 "transaction checks will be performed."
 msgstr ""
 
-#: main.cpp:1430
+#: main.cpp:1433
 msgid ""
 "No repositories were loaded from the installroot. To use the configuration "
 "and repositories of the host system, pass --use-host-config."
 msgstr ""
 
-#: main.cpp:1452
+#: main.cpp:1455
 msgid "Command returned error: {}"
 msgstr ""
 
-#: main.cpp:1460
+#: main.cpp:1463
 msgid "DNF5 finished"
 msgstr ""
 
-#: main.cpp:1464
+#: main.cpp:1467
 msgid "Complete!"
 msgstr "Tamamlandı!"
 
