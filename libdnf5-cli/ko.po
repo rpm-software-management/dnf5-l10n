@@ -10,8 +10,9 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-21 03:00+0000\n"
-"PO-Revision-Date: 2024-06-08 02:49+0000\n"
-"Last-Translator: 김인수 <simmon@nplob.com>\n"
+"PO-Revision-Date: 2024-09-21 07:19+0000\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5-cli/ko/>\n"
 "Language: ko\n"
@@ -19,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.5.5\n"
+"X-Generator: Weblate 5.7.2\n"
 
 #: argument_parser.cpp:62
 msgid "\"{}\" not allowed together with named argument \"{}\""
@@ -139,23 +140,23 @@ msgstr ""
 #. Add package
 #: output/packageinfo.cpp:63
 msgid "Name"
-msgstr ""
+msgstr "이름"
 
 #: output/packageinfo.cpp:68
 msgid "Epoch"
-msgstr ""
+msgstr "기간"
 
 #: output/packageinfo.cpp:69 output/transaction_table.cpp:274
 msgid "Version"
-msgstr ""
+msgstr "버전"
 
 #: output/packageinfo.cpp:70
 msgid "Release"
-msgstr ""
+msgstr "출시"
 
 #: output/packageinfo.cpp:71
 msgid "Architecture"
-msgstr ""
+msgstr "구조"
 
 #: output/packageinfo.cpp:75
 msgid "Obsoletes"
@@ -179,19 +180,19 @@ msgstr ""
 
 #: output/packageinfo.cpp:96 output/transaction_table.cpp:280
 msgid "Repository"
-msgstr ""
+msgstr "저장소"
 
 #: output/packageinfo.cpp:98
 msgid "Summary"
-msgstr ""
+msgstr "요약"
 
 #: output/packageinfo.cpp:99
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: output/packageinfo.cpp:100
 msgid "License"
-msgstr ""
+msgstr "저작권"
 
 #: output/packageinfo.cpp:104
 #, fuzzy
@@ -201,7 +202,7 @@ msgstr "설명:"
 
 #: output/packageinfo.cpp:109
 msgid "Vendor"
-msgstr ""
+msgstr "제조사"
 
 #: output/transaction_table.cpp:127
 msgid "Transaction Summary:\n"
@@ -249,15 +250,15 @@ msgstr[0] ""
 
 #: output/transaction_table.cpp:262
 msgid "Package"
-msgstr ""
+msgstr "꾸러미"
 
 #: output/transaction_table.cpp:268
 msgid "Arch"
-msgstr ""
+msgstr "구조"
 
 #: output/transaction_table.cpp:286
 msgid "Size"
-msgstr ""
+msgstr "크기"
 
 #: output/transaction_table.cpp:342 output/transaction_table.cpp:436
 msgid "{} -> {}"
@@ -269,11 +270,11 @@ msgstr ""
 
 #: output/transaction_table.cpp:394 output/transaction_table.cpp:411
 msgid " <name-unset>"
-msgstr ""
+msgstr " <name-unset>"
 
 #: output/transaction_table.cpp:442
 msgid "replacing "
-msgstr ""
+msgstr "교체 "
 
 #: output/transaction_table.cpp:455
 msgid "Skipping packages with conflicts:"
@@ -281,7 +282,7 @@ msgstr ""
 
 #: output/transaction_table.cpp:457
 msgid "Skipping packages with broken dependencies:"
-msgstr ""
+msgstr "손상된 종속성이 있는 %s 꾸러미 건너 뛰기"
 
 #: output/transaction_table.cpp:518
 msgid "Installing dependencies:"
