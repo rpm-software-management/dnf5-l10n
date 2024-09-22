@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-21 03:00+0000\n"
-"PO-Revision-Date: 2024-09-19 09:54+0000\n"
+"PO-Revision-Date: 2024-09-22 16:14+0000\n"
 "Last-Translator: Aleksey Fedorov <aleksejfedorov963@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ru/>\n"
@@ -192,16 +192,12 @@ msgid "Failed to cleanup repository cache in path \"{0}\": {1}"
 msgstr "Не удалось очистить кэш репозитория по пути \"{0}\": {1}"
 
 #: commands/clean/clean.cpp:175
-#, fuzzy
-#| msgid "Data directory {} does not exist."
 msgid "Cache directory \"{}\" does not exist. Nothing to clean."
-msgstr "Каталог данных {} не существует."
+msgstr "Каталог кэша {} не существует. Нечего очищать."
 
 #: commands/clean/clean.cpp:180
-#, fuzzy
-#| msgid "Cannot load shared library \"{}\": {}"
 msgid "Cannot iterate cache directory \"{}\": {}"
-msgstr "Невозможно загрузить общую библиотеку \"{}\": {}"
+msgstr "Невозможно выполнить итерацию каталога кэша \"{}\": {}"
 
 #: commands/download/download.cpp:112
 msgid "Invalid urlprotocol option: {}"
