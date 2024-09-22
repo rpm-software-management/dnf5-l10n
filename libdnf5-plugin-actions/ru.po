@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-21 03:00+0000\n"
-"PO-Revision-Date: 2024-02-02 13:47+0000\n"
+"PO-Revision-Date: 2024-09-22 16:14+0000\n"
 "Last-Translator: Aleksey Fedorov <aleksejfedorov963@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5-plugin-actions/ru/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.3.1\n"
+"X-Generator: Weblate 5.7.2\n"
 
 #: actions.cpp:534 actions.cpp:542 actions.cpp:550 actions.cpp:558
 msgid ""
@@ -63,10 +63,8 @@ msgstr ""
 "Ошибка в файле \"{}\" в строке {}: Неизвестное направление пакета \"{}\""
 
 #: actions.cpp:664
-#, fuzzy
-#| msgid "Error in file \"{}\" on line {}: Unknown hook \"{}\""
 msgid "Error in file \"{}\" on line {}: Unknown mode \"{}\""
-msgstr "Ошибка в файле \"{}\" в строке {}: Неизвестный хук \"{}\""
+msgstr "Ошибка в файле \"{}\" в строке {}: Неизвестный режим \"{}\""
 
 #: actions.cpp:670
 msgid "Error in file \"{}\" on line {}: Missing command"
@@ -74,4 +72,4 @@ msgstr "Ошибка в файле \"{}\" в строке {}: Отсутству
 
 #: actions.cpp:1760
 msgid "Cannot create pipe: {}"
-msgstr ""
+msgstr "Невозможно создать канал: {}"
