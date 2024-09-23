@@ -2,13 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Pierre GRASSER <pierre.grasser@proton.me>, 2024.
+# Léane GRASSER <leane.grasser@proton.me>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-21 03:00+0000\n"
-"PO-Revision-Date: 2024-05-11 02:51+0000\n"
-"Last-Translator: Pierre GRASSER <pierre.grasser@proton.me>\n"
+"PO-Revision-Date: 2024-09-23 12:56+0000\n"
+"Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5-plugin-actions/fr/>\n"
 "Language: fr\n"
@@ -16,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.5.2\n"
+"X-Generator: Weblate 5.7.2\n"
 
 #: actions.cpp:534 actions.cpp:542 actions.cpp:550 actions.cpp:558
 msgid ""
@@ -63,10 +64,8 @@ msgstr ""
 "inconnue"
 
 #: actions.cpp:664
-#, fuzzy
-#| msgid "Error in file \"{}\" on line {}: Unknown hook \"{}\""
 msgid "Error in file \"{}\" on line {}: Unknown mode \"{}\""
-msgstr "Erreur dans le fichier \"{}\" à la ligne {} : hook \"{}\" inconnu"
+msgstr "Erreur dans le fichier \"{}\" à la ligne {} : mode \"{}\" inconnu"
 
 #: actions.cpp:670
 msgid "Error in file \"{}\" on line {}: Missing command"
@@ -74,4 +73,4 @@ msgstr "Erreur dans le fichier \"{}\" à la ligne {} : commande manquante"
 
 #: actions.cpp:1760
 msgid "Cannot create pipe: {}"
-msgstr ""
+msgstr "Impossible de créer un pipe : {}"
