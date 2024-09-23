@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-21 03:00+0000\n"
-"PO-Revision-Date: 2024-09-22 16:14+0000\n"
+"PO-Revision-Date: 2024-09-23 12:56+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ko/>\n"
@@ -754,7 +754,7 @@ msgstr "오프라인 연결이 이미 대기 중이며, 다음 명령에 의해 
 msgid ""
 "Continuing will cancel the old offline transaction and replace it with this "
 "one."
-msgstr ""
+msgstr "계속하기는 기존 오프라인 연결이 취소되고 해당 연결로 대체됩니다."
 
 #: context.cpp:456
 msgid ""
@@ -762,6 +762,9 @@ msgid ""
 "reboot and run the transaction. To cancel the transaction and delete the "
 "downloaded files, use `dnf5 offline clean`."
 msgstr ""
+"연결은 오프라인에서 수행되도록 저장됩니다. `dnf5 offline reboot`를 실행하여 "
+"재시작하고 연결을 실행합니다. 연결을 취소하고 내려받은 파일을 삭제하려면, `"
+"dnf5 offline clean`을 사용하세요."
 
 #: context.cpp:462
 msgid "Running transaction"
@@ -769,11 +772,11 @@ msgstr "연결 실행 중"
 
 #: context.cpp:770
 msgid "Upgrading {}"
-msgstr ""
+msgstr "향상 중 {}"
 
 #: context.cpp:773
 msgid "Downgrading {}"
-msgstr ""
+msgstr "하향 중 {}"
 
 #: context.cpp:776
 msgid "Reinstalling {}"
@@ -781,33 +784,31 @@ msgstr "재설치 중 {}"
 
 #: context.cpp:789
 msgid "Unexpected action in TransactionPackage: {}"
-msgstr ""
+msgstr "연결꾸러미에서 예상치 못한 동작: {}"
 
 #: context.cpp:795
 msgid "Installing {}"
 msgstr "설치 중 {}"
 
 #: context.cpp:815
-#, fuzzy
-#| msgid "Manage offline transactions"
 msgid "Prepare transaction"
-msgstr "오프라인 연결을 관리합니다"
+msgstr "연결을 준비합니다"
 
 #: context.cpp:835
 msgid "Erasing {}"
-msgstr ""
+msgstr "지우는 중 {}"
 
 #: context.cpp:838
 msgid "Cleanup {}"
-msgstr ""
+msgstr "정리 {}"
 
 #: context.cpp:854
 msgid "Unpack error: {}"
-msgstr ""
+msgstr "압축해제 오류: {}"
 
 #: context.cpp:862
 msgid "Cpio error: {}"
-msgstr ""
+msgstr "Cpio 오류: {}"
 
 #: context.cpp:871
 msgid "Scriptlet output:"
@@ -815,23 +816,23 @@ msgstr "구현 출력:"
 
 #: context.cpp:886
 msgid "Error in {} scriptlet: {} return code {}"
-msgstr ""
+msgstr "{} 구현에서 오류: {} 반환 코드 {}"
 
 #: context.cpp:901
 msgid "Running {} scriptlet: {}"
-msgstr ""
+msgstr "{} 구현 실행 중: {}"
 
 #: context.cpp:921
 msgid "Non-critical error in {} scriptlet: {}"
-msgstr ""
+msgstr "{} 구현에서 심각하지 않은 오류: {}"
 
 #: context.cpp:930
 msgid "Stop {} scriptlet: {}"
-msgstr ""
+msgstr "{} 구현 중단: {}"
 
 #: context.cpp:950
 msgid "Verify package files"
-msgstr ""
+msgstr "꾸러미 파일을 확인합니다"
 
 #: library.cpp:33
 msgid "Cannot load shared library \"{}\": {}"
@@ -1074,64 +1075,67 @@ msgstr "하위명령:"
 
 #: main.cpp:744
 msgid "{} version {}.{}.{}.{}"
-msgstr ""
+msgstr "{} 버전 {}.{}.{}.{}"
 
 #: main.cpp:747
 msgid "{} plugin API version {}.{}"
-msgstr ""
+msgstr "{} 플러그인 API 버전 {}.{}"
 
 #: main.cpp:752
 msgid "libdnf5 version {}.{}.{}.{}"
-msgstr ""
+msgstr "libdnf5 버전 {}.{}.{}.{}"
 
 #: main.cpp:755
 msgid "libdnf5 plugin API version {}.{}"
-msgstr ""
+msgstr "libdnf5 플러그인 API 버전 {}.{}"
 
 #: main.cpp:762
 msgid ""
 "\n"
 "Loaded {} plugins:"
 msgstr ""
+"\n"
+"적재된 {} 플러그인:"
 
 #: main.cpp:767
 msgid "  name: {}"
-msgstr ""
+msgstr "  이름: {}"
 
 #: main.cpp:770
 msgid "  version: {}.{}.{}"
-msgstr ""
+msgstr "  버전: {}.{}.{}"
 
 #: main.cpp:772
 msgid "  API version: {}.{}"
-msgstr ""
+msgstr "  API 버전: {}.{}"
 
 #: main.cpp:810
 msgid ""
 "Total size of inbound packages is {:.0f} {:s}. Need to download {:.0f} {:s}."
-msgstr ""
+msgstr "들어온 꾸러미의 크기 합계는 is {:.0f} {:s}입니다. {:.0f} {:s} 내려받기가 "
+"필요합니다."
 
 #: main.cpp:828
 msgid ""
 "After this operation, {:.0f} {:s} extra will be used (install {:.0f} {:s}, "
 "remove {:.0f} {:s})."
-msgstr ""
+msgstr "이와 같은 동작 후에, {:.0f} {:s} 추가는 ({:.0f} {:s} 설치, {:.0f} {:s} 제거)"
+"에 사용됩니다."
 
 #: main.cpp:837
 msgid ""
 "After this operation, {:.0f} {:s} will be freed (install {:.0f} {:s}, remove "
 "{:.0f} {:s})."
-msgstr ""
+msgstr "이와 같은 동작 후에, {:.0f} {:s}는 ({:.0f} {:s} 설치, {:.0f} {:s} 제거)가 "
+"자유롭게 됩니다."
 
 #: main.cpp:849
 msgid "======== Main configuration: ========"
 msgstr "======== 주요 구성: ========"
 
 #: main.cpp:886
-#, fuzzy
-#| msgid "No matching repositories for \"{}\""
 msgid "No matching repo to dump configuration: \"{}\""
-msgstr "\"{}\"를 위해 일치하는 저장소가 없습니다"
+msgstr "덤프 구성에 일치하는 저장소가 없습니다: \"{}\""
 
 #: main.cpp:891
 msgid "======== \"{}\" repository configuration: ========"
@@ -1147,7 +1151,7 @@ msgstr "새로운 장:"
 
 #: main.cpp:953
 msgid " {}"
-msgstr ""
+msgstr " {}"
 
 #: main.cpp:997
 msgid "{} to skip unavailable packages"
@@ -1205,11 +1209,11 @@ msgstr ""
 
 #: main.cpp:1208
 msgid "--- DNF5 launched with arguments: \"{}\" ---"
-msgstr ""
+msgstr "--- DNF5는 인수로 시작됩니다: \"{}\" ---"
 
 #: main.cpp:1259
 msgid "{}."
-msgstr ""
+msgstr "{}."
 
 #: main.cpp:1262 main.cpp:1445
 msgid "{}. Add \"--help\" for more information about the arguments."
@@ -1219,7 +1223,8 @@ msgstr "{}. 인수에 대한 더 많은 정보를 위해 \"--help\"를 추가합
 msgid ""
 "It could be a command provided by a plugin, try: dnf5 install 'dnf5-"
 "command({})'"
-msgstr ""
+msgstr "플러그인에 의해 제공된 명령일 수 있으며, 다음과 같이 시도하세요: dnf5 "
+"install 'dnf5-command({})'"
 
 #: main.cpp:1311
 msgid "No read/execute access in current directory, moving to /"
@@ -1237,7 +1242,7 @@ msgstr ""
 
 #: main.cpp:1409
 msgid "The operation will only store the transaction in {}"
-msgstr ""
+msgstr "동작은 {}의 연결만 저장합니다"
 
 #: main.cpp:1411
 msgid "The operation will only download packages for the transaction."
@@ -1247,21 +1252,24 @@ msgstr "동작은 연결을 위해 꾸러미만 내려받을 수 있습니다."
 msgid ""
 "Test mode enabled: Only package downloads, PGP key installations and "
 "transaction checks will be performed."
-msgstr ""
+msgstr "시험 방식이 활성화 되었습니다: 꾸러미 내려받기, PGP 키 설치 및 연결 점검만 "
+"수행됩니다."
 
 #: main.cpp:1433
 msgid ""
 "No repositories were loaded from the installroot. To use the configuration "
 "and repositories of the host system, pass --use-host-config."
 msgstr ""
+"installroot에서 어떤 저장소도 적재되지 않았습니다. 호스트 시스템의 구성 및 "
+"저장소를 사용하려면, --use-host-conifg를 전달하세요."
 
 #: main.cpp:1455
 msgid "Command returned error: {}"
-msgstr ""
+msgstr "명령이 오류를 반환하였습니다: {}"
 
 #: main.cpp:1463
 msgid "DNF5 finished"
-msgstr ""
+msgstr "DNF5가 종료되었습니다"
 
 #: main.cpp:1467
 msgid "Complete!"
