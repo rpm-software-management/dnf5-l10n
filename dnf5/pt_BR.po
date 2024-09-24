@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-21 03:00+0000\n"
-"PO-Revision-Date: 2024-09-24 19:12+0000\n"
-"Last-Translator: Fábio Rodrigues Ribeiro <farribeiro@gmail.com>\n"
+"PO-Revision-Date: 2024-09-24 21:18+0000\n"
+"Last-Translator: Gabriel Elyas <gabrielelyas@protonmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf5/dnf5/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -714,13 +714,15 @@ msgstr "Importando chave PGP 0x{}\n"
 
 #: context.cpp:75
 msgid " UserID     : \"{}\"\n"
-msgstr ""
+msgstr " ID do usuário     : \"{}\"\n"
 
 #: context.cpp:78
 msgid ""
 " Fingerprint: {}\n"
 " From       : {}\n"
 msgstr ""
+" Impressão digital: {}\n"
+" De       : {}\n"
 
 #: context.cpp:87
 msgid "The key was successfully imported."
@@ -794,7 +796,7 @@ msgstr "Atualizando {}"
 
 #: context.cpp:773
 msgid "Downgrading {}"
-msgstr ""
+msgstr "Desatualizando {}"
 
 #: context.cpp:776
 msgid "Reinstalling {}"
@@ -834,19 +836,19 @@ msgstr "Saída do scriplet:"
 
 #: context.cpp:886
 msgid "Error in {} scriptlet: {} return code {}"
-msgstr ""
+msgstr "Erro em {} scriptlet: {} código de retorno {}"
 
 #: context.cpp:901
 msgid "Running {} scriptlet: {}"
-msgstr ""
+msgstr "Executando {} scriptlet: {}"
 
 #: context.cpp:921
 msgid "Non-critical error in {} scriptlet: {}"
-msgstr ""
+msgstr "Erro não crítico no {} scriptlet: {}"
 
 #: context.cpp:930
 msgid "Stop {} scriptlet: {}"
-msgstr ""
+msgstr "Parar {} scriptlet: {}"
 
 #: context.cpp:950
 msgid "Verify package files"
@@ -1111,21 +1113,23 @@ msgstr "{}versão {}.{}.{}.{}"
 
 #: main.cpp:747
 msgid "{} plugin API version {}.{}"
-msgstr ""
+msgstr "{} versão da API do plug-in {}.{}"
 
 #: main.cpp:752
 msgid "libdnf5 version {}.{}.{}.{}"
-msgstr ""
+msgstr "versão do libdnf5 {}.{}.{}.{}"
 
 #: main.cpp:755
 msgid "libdnf5 plugin API version {}.{}"
-msgstr ""
+msgstr "Versão da API do plug-in libdnf5 {}.{}"
 
 #: main.cpp:762
 msgid ""
 "\n"
 "Loaded {} plugins:"
 msgstr ""
+"\n"
+"{} plugins carregados:"
 
 #: main.cpp:767
 msgid "  name: {}"
@@ -1167,10 +1171,8 @@ msgid "======== Main configuration: ========"
 msgstr "====== Configuração principal: ======"
 
 #: main.cpp:886
-#, fuzzy
-#| msgid "No matching repositories for \"{}\""
 msgid "No matching repo to dump configuration: \"{}\""
-msgstr "Nenhum repositório correspondente para \"{}\""
+msgstr "Nenhum repositório correspondente para descarregar a configuração: “{}”"
 
 #: main.cpp:891
 msgid "======== \"{}\" repository configuration: ========"
@@ -1182,11 +1184,12 @@ msgstr "======== Variáveis: ========"
 
 #: main.cpp:951
 msgid "New leaves:"
-msgstr ""
+msgstr "Novas folhas:"
 
 #: main.cpp:953
+#, fuzzy
 msgid " {}"
-msgstr ""
+msgstr " {}"
 
 #: main.cpp:997
 msgid "{} to skip unavailable packages"
@@ -1247,8 +1250,9 @@ msgid "--- DNF5 launched with arguments: \"{}\" ---"
 msgstr "--- DNF5 iniciado com os argumentos: \"{}\" ---"
 
 #: main.cpp:1259
+#, fuzzy
 msgid "{}."
-msgstr ""
+msgstr "{}."
 
 #: main.cpp:1262 main.cpp:1445
 msgid "{}. Add \"--help\" for more information about the arguments."
@@ -1282,10 +1286,8 @@ msgid "The operation will only store the transaction in {}"
 msgstr "A operação apenas armazena a transação em {}"
 
 #: main.cpp:1411
-#, fuzzy
-#| msgid "{} to allow extra packages in the transaction"
 msgid "The operation will only download packages for the transaction."
-msgstr "{} para permitir pacotes extras na transação"
+msgstr "A operação só fará o download de pacotes para a transação."
 
 #: main.cpp:1416
 msgid ""
