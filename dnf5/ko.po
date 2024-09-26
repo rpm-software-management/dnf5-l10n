@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-21 03:00+0000\n"
+"POT-Creation-Date: 2024-09-26 03:11+0000\n"
 "PO-Revision-Date: 2024-09-23 12:56+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
@@ -763,8 +763,8 @@ msgid ""
 "downloaded files, use `dnf5 offline clean`."
 msgstr ""
 "연결은 오프라인에서 수행되도록 저장됩니다. `dnf5 offline reboot`를 실행하여 "
-"재시작하고 연결을 실행합니다. 연결을 취소하고 내려받은 파일을 삭제하려면, `"
-"dnf5 offline clean`을 사용하세요."
+"재시작하고 연결을 실행합니다. 연결을 취소하고 내려받은 파일을 삭제하려면, "
+"`dnf5 offline clean`을 사용하세요."
 
 #: context.cpp:462
 msgid "Running transaction"
@@ -1112,22 +1112,25 @@ msgstr "  API 버전: {}.{}"
 #: main.cpp:810
 msgid ""
 "Total size of inbound packages is {:.0f} {:s}. Need to download {:.0f} {:s}."
-msgstr "들어온 꾸러미의 크기 합계는 is {:.0f} {:s}입니다. {:.0f} {:s} 내려받기가 "
-"필요합니다."
+msgstr ""
+"들어온 꾸러미의 크기 합계는 is {:.0f} {:s}입니다. {:.0f} {:s} 내려받기가 필요"
+"합니다."
 
 #: main.cpp:828
 msgid ""
 "After this operation, {:.0f} {:s} extra will be used (install {:.0f} {:s}, "
 "remove {:.0f} {:s})."
-msgstr "이와 같은 동작 후에, {:.0f} {:s} 추가는 ({:.0f} {:s} 설치, {:.0f} {:s} 제거)"
+msgstr ""
+"이와 같은 동작 후에, {:.0f} {:s} 추가는 ({:.0f} {:s} 설치, {:.0f} {:s} 제거)"
 "에 사용됩니다."
 
 #: main.cpp:837
 msgid ""
 "After this operation, {:.0f} {:s} will be freed (install {:.0f} {:s}, remove "
 "{:.0f} {:s})."
-msgstr "이와 같은 동작 후에, {:.0f} {:s}는 ({:.0f} {:s} 설치, {:.0f} {:s} 제거)가 "
-"자유롭게 됩니다."
+msgstr ""
+"이와 같은 동작 후에, {:.0f} {:s}는 ({:.0f} {:s} 설치, {:.0f} {:s} 제거)가 자"
+"유롭게 됩니다."
 
 #: main.cpp:849
 msgid "======== Main configuration: ========"
@@ -1223,7 +1226,8 @@ msgstr "{}. 인수에 대한 더 많은 정보를 위해 \"--help\"를 추가합
 msgid ""
 "It could be a command provided by a plugin, try: dnf5 install 'dnf5-"
 "command({})'"
-msgstr "플러그인에 의해 제공된 명령일 수 있으며, 다음과 같이 시도하세요: dnf5 "
+msgstr ""
+"플러그인에 의해 제공된 명령일 수 있으며, 다음과 같이 시도하세요: dnf5 "
 "install 'dnf5-command({})'"
 
 #: main.cpp:1311
@@ -1252,16 +1256,17 @@ msgstr "동작은 연결을 위해 꾸러미만 내려받을 수 있습니다."
 msgid ""
 "Test mode enabled: Only package downloads, PGP key installations and "
 "transaction checks will be performed."
-msgstr "시험 방식이 활성화 되었습니다: 꾸러미 내려받기, PGP 키 설치 및 연결 점검만 "
-"수행됩니다."
+msgstr ""
+"시험 방식이 활성화 되었습니다: 꾸러미 내려받기, PGP 키 설치 및 연결 점검만 수"
+"행됩니다."
 
 #: main.cpp:1433
 msgid ""
 "No repositories were loaded from the installroot. To use the configuration "
 "and repositories of the host system, pass --use-host-config."
 msgstr ""
-"installroot에서 어떤 저장소도 적재되지 않았습니다. 호스트 시스템의 구성 및 "
-"저장소를 사용하려면, --use-host-conifg를 전달하세요."
+"installroot에서 어떤 저장소도 적재되지 않았습니다. 호스트 시스템의 구성 및 저"
+"장소를 사용하려면, --use-host-conifg를 전달하세요."
 
 #: main.cpp:1455
 msgid "Command returned error: {}"
