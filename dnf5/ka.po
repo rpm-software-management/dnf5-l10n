@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-26 03:11+0000\n"
+"POT-Creation-Date: 2024-09-28 03:04+0000\n"
 "PO-Revision-Date: 2024-09-20 20:42+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -819,8 +819,10 @@ msgid "Prepare transaction"
 msgstr "ტრანზაქციის მომზადება"
 
 #: context.cpp:835
-msgid "Erasing {}"
-msgstr "წავშლი: {}"
+#, fuzzy
+#| msgid "Reinstalling {}"
+msgid "Removing {}"
+msgstr "თავიდან დაყენება: {}"
 
 #: context.cpp:838
 msgid "Cleanup {}"
@@ -1216,7 +1218,9 @@ msgid "{} to not limit the transaction to the best candidates"
 msgstr "{} ტრანზაქციის საუკეთესო კანდიდატებზე შეზღუდვის მოსახსნელად"
 
 #: main.cpp:1072
-msgid "{} to allow erasing of installed packages to resolve problems"
+#, fuzzy
+#| msgid "{} to allow erasing of installed packages to resolve problems"
+msgid "{} to allow removing of installed packages to resolve problems"
 msgstr "{} პრობლემების გადასაჭრელად დაყენებული პაკეტების წაშლის დასაშვებად"
 
 #: main.cpp:1080
@@ -1322,7 +1326,9 @@ msgid "Complete!"
 msgstr "დასრულებულია!"
 
 #: shared_options.cpp:32
-msgid "Allow erasing of installed packages to resolve problems"
+#, fuzzy
+#| msgid "Allow erasing of installed packages to resolve problems"
+msgid "Allow removing of installed packages to resolve problems"
 msgstr "პრობლემების გადასაჭრელად დაუშვით დაყენებული პაკეტების წაშლის დაშვება"
 
 #: shared_options.cpp:42
@@ -1333,6 +1339,9 @@ msgstr ""
 #: shared_options.cpp:54
 msgid "Allow skipping unavailable packages"
 msgstr "ხელმიუწვდომელი პაკეტების გამოტოვების დაშვება"
+
+#~ msgid "Erasing {}"
+#~ msgstr "წავშლი: {}"
 
 #~ msgid "No transactions selected for storing, exactly one required."
 #~ msgstr "შესანახად ტრანზაქცია მონიშნული არაა. აუცილებელია ზუსტად ერთი."

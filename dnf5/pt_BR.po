@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-26 03:11+0000\n"
+"POT-Creation-Date: 2024-09-28 03:04+0000\n"
 "PO-Revision-Date: 2024-09-25 05:44+0000\n"
 "Last-Translator: Fábio Rodrigues Ribeiro <farribeiro@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
@@ -815,8 +815,10 @@ msgid "Prepare transaction"
 msgstr "Preparar transação"
 
 #: context.cpp:835
-msgid "Erasing {}"
-msgstr "Apagando {}"
+#, fuzzy
+#| msgid "Reinstalling {}"
+msgid "Removing {}"
+msgstr "Reinstalando{}"
 
 #: context.cpp:838
 msgid "Cleanup {}"
@@ -1214,7 +1216,9 @@ msgid "{} to not limit the transaction to the best candidates"
 msgstr "{} para não limitar a transação aos melhores candidatos"
 
 #: main.cpp:1072
-msgid "{} to allow erasing of installed packages to resolve problems"
+#, fuzzy
+#| msgid "{} to allow erasing of installed packages to resolve problems"
+msgid "{} to allow removing of installed packages to resolve problems"
 msgstr "{} para permitir apagar pacotes instalados e resolver problemas"
 
 #: main.cpp:1080
@@ -1317,7 +1321,9 @@ msgid "Complete!"
 msgstr "Terminado!"
 
 #: shared_options.cpp:32
-msgid "Allow erasing of installed packages to resolve problems"
+#, fuzzy
+#| msgid "Allow erasing of installed packages to resolve problems"
+msgid "Allow removing of installed packages to resolve problems"
 msgstr "Permite apagar pacotes instalados para resolver problemas"
 
 #: shared_options.cpp:42
@@ -1327,6 +1333,9 @@ msgstr "Permite resolver problemas com dependências pulando pacotes"
 #: shared_options.cpp:54
 msgid "Allow skipping unavailable packages"
 msgstr "Permite pular pacotes indisponíveis"
+
+#~ msgid "Erasing {}"
+#~ msgstr "Apagando {}"
 
 #~ msgid "No transactions selected for storing, exactly one required."
 #~ msgstr ""

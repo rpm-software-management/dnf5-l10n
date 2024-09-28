@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-26 03:11+0000\n"
+"POT-Creation-Date: 2024-09-28 03:04+0000\n"
 "PO-Revision-Date: 2024-09-20 20:42+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -813,8 +813,10 @@ msgid "Prepare transaction"
 msgstr "Förbereder transaktion"
 
 #: context.cpp:835
-msgid "Erasing {}"
-msgstr "Raderar {}"
+#, fuzzy
+#| msgid "Reinstalling {}"
+msgid "Removing {}"
+msgstr "Ominstallerar {}"
 
 #: context.cpp:838
 msgid "Cleanup {}"
@@ -1209,7 +1211,9 @@ msgid "{} to not limit the transaction to the best candidates"
 msgstr "{} för att inte begränsa transaktionen till de bästa kandidaterna"
 
 #: main.cpp:1072
-msgid "{} to allow erasing of installed packages to resolve problems"
+#, fuzzy
+#| msgid "{} to allow erasing of installed packages to resolve problems"
+msgid "{} to allow removing of installed packages to resolve problems"
 msgstr "{} för att tillåta radering av installerade paket för att lösa problem"
 
 #: main.cpp:1080
@@ -1312,7 +1316,9 @@ msgid "Complete!"
 msgstr "Färdig!"
 
 #: shared_options.cpp:32
-msgid "Allow erasing of installed packages to resolve problems"
+#, fuzzy
+#| msgid "Allow erasing of installed packages to resolve problems"
+msgid "Allow removing of installed packages to resolve problems"
 msgstr "Tillåt radering av installerade paket för att lösa problem"
 
 #: shared_options.cpp:42
@@ -1322,6 +1328,9 @@ msgstr "Tillåt lösning av depsolve problem genom att hoppa över paket"
 #: shared_options.cpp:54
 msgid "Allow skipping unavailable packages"
 msgstr "Tillåt att du hoppar över otillgängliga paket"
+
+#~ msgid "Erasing {}"
+#~ msgstr "Raderar {}"
 
 #~ msgid "No transactions selected for storing, exactly one required."
 #~ msgstr "Inga transaktioner valda för lagring, exakt en krävs."

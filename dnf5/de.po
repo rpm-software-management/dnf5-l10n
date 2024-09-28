@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-26 03:11+0000\n"
+"POT-Creation-Date: 2024-09-28 03:04+0000\n"
 "PO-Revision-Date: 2024-06-23 18:19+0000\n"
 "Last-Translator: Dennis Koerner <dennis@bumblebeeman.dev>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf5/"
@@ -842,7 +842,7 @@ msgid "Prepare transaction"
 msgstr "Offline-Transaktionen verwalten"
 
 #: context.cpp:835
-msgid "Erasing {}"
+msgid "Removing {}"
 msgstr ""
 
 #: context.cpp:838
@@ -1238,7 +1238,9 @@ msgstr ""
 "{}, um die Transaktionen nicht auf die besten Kandidaten zu beschränken"
 
 #: main.cpp:1072
-msgid "{} to allow erasing of installed packages to resolve problems"
+#, fuzzy
+#| msgid "{} to allow erasing of installed packages to resolve problems"
+msgid "{} to allow removing of installed packages to resolve problems"
 msgstr ""
 "{}, um das Entfernen installierter Pakete zur Problemlösung zu erlauben"
 
@@ -1342,7 +1344,9 @@ msgid "Complete!"
 msgstr "Abgeschlossen!"
 
 #: shared_options.cpp:32
-msgid "Allow erasing of installed packages to resolve problems"
+#, fuzzy
+#| msgid "Allow erasing of installed packages to resolve problems"
+msgid "Allow removing of installed packages to resolve problems"
 msgstr "Löschen installierter Pakete zur Problemlösung erlauben"
 
 #: shared_options.cpp:42

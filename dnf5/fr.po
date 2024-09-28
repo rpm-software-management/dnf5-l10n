@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-26 03:11+0000\n"
+"POT-Creation-Date: 2024-09-28 03:04+0000\n"
 "PO-Revision-Date: 2024-09-20 08:57+0000\n"
 "Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf5/"
@@ -848,8 +848,10 @@ msgid "Prepare transaction"
 msgstr "Préparer la transaction"
 
 #: context.cpp:835
-msgid "Erasing {}"
-msgstr "Effacement de {}"
+#, fuzzy
+#| msgid "Reinstalling {}"
+msgid "Removing {}"
+msgstr "Réinstallation de {}"
 
 #: context.cpp:838
 msgid "Cleanup {}"
@@ -1250,7 +1252,9 @@ msgid "{} to not limit the transaction to the best candidates"
 msgstr "{} pour ne pas limiter la transaction aux meilleurs candidats"
 
 #: main.cpp:1072
-msgid "{} to allow erasing of installed packages to resolve problems"
+#, fuzzy
+#| msgid "{} to allow erasing of installed packages to resolve problems"
+msgid "{} to allow removing of installed packages to resolve problems"
 msgstr ""
 "{} pour autoriser la suppression de paquets installés pour résoudre des "
 "problèmes"
@@ -1357,7 +1361,9 @@ msgid "Complete!"
 msgstr "Terminé !"
 
 #: shared_options.cpp:32
-msgid "Allow erasing of installed packages to resolve problems"
+#, fuzzy
+#| msgid "Allow erasing of installed packages to resolve problems"
+msgid "Allow removing of installed packages to resolve problems"
 msgstr ""
 "Autoriser la suppression de paquets installés pour résoudre des problèmes"
 
@@ -1368,6 +1374,9 @@ msgstr "Autoriser la résolution de problèmes depsolve en ignorant des paquets"
 #: shared_options.cpp:54
 msgid "Allow skipping unavailable packages"
 msgstr "Autoriser dnf5 à ignorer les paquets indisponibles"
+
+#~ msgid "Erasing {}"
+#~ msgstr "Effacement de {}"
 
 #~ msgid "No transactions selected for storing, exactly one required."
 #~ msgstr ""
