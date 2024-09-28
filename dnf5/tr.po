@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-28 03:04+0000\n"
-"PO-Revision-Date: 2024-09-21 14:54+0000\n"
+"PO-Revision-Date: 2024-09-28 12:49+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/tr/>\n"
@@ -809,10 +809,8 @@ msgid "Prepare transaction"
 msgstr "İşlemi hazırla"
 
 #: context.cpp:835
-#, fuzzy
-#| msgid "Reinstalling {}"
 msgid "Removing {}"
-msgstr "{} yeniden kuruluyor"
+msgstr "{} kaldırılıyor"
 
 #: context.cpp:838
 msgid "Cleanup {}"
@@ -1205,11 +1203,9 @@ msgid "{} to not limit the transaction to the best candidates"
 msgstr "İşlemi en iyi adaylarla sınırlamamak için {}"
 
 #: main.cpp:1072
-#, fuzzy
-#| msgid "{} to allow erasing of installed packages to resolve problems"
 msgid "{} to allow removing of installed packages to resolve problems"
 msgstr ""
-"Sorunları çözmek için kurulu paketlerin silinmesine izin vermek için {}"
+"Sorunları çözmek için kurulu paketlerin kaldırılmasına izin vermek için {}"
 
 #: main.cpp:1080
 msgid "{} to load additional filelists metadata"
@@ -1312,10 +1308,8 @@ msgid "Complete!"
 msgstr "Tamamlandı!"
 
 #: shared_options.cpp:32
-#, fuzzy
-#| msgid "Allow erasing of installed packages to resolve problems"
 msgid "Allow removing of installed packages to resolve problems"
-msgstr "Sorunları çözmek için kurulu paketlerin silinmesine izin ver"
+msgstr "Sorunları çözmek için kurulu paketlerin kaldırılmasına izin ver"
 
 #: shared_options.cpp:42
 msgid "Allow resolving of depsolve problems by skipping packages"
