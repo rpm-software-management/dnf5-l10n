@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-28 03:04+0000\n"
-"PO-Revision-Date: 2024-09-23 12:56+0000\n"
+"PO-Revision-Date: 2024-09-30 08:41+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ko/>\n"
@@ -795,10 +795,8 @@ msgid "Prepare transaction"
 msgstr "연결을 준비합니다"
 
 #: context.cpp:835
-#, fuzzy
-#| msgid "Reinstalling {}"
 msgid "Removing {}"
-msgstr "재설치 중 {}"
+msgstr "제거 중 {}"
 
 #: context.cpp:838
 msgid "Cleanup {}"
@@ -1181,8 +1179,6 @@ msgid "{} to not limit the transaction to the best candidates"
 msgstr "{} 연결을 최고의 후보로 제한하지 않습니다"
 
 #: main.cpp:1072
-#, fuzzy
-#| msgid "{} to allow erasing of installed packages to resolve problems"
 msgid "{} to allow removing of installed packages to resolve problems"
 msgstr "{} 문제를 해결하도록 설치된 꾸러미의 제거를 허용합니다"
 
@@ -1285,8 +1281,6 @@ msgid "Complete!"
 msgstr "완료되었습니다!"
 
 #: shared_options.cpp:32
-#, fuzzy
-#| msgid "Allow erasing of installed packages to resolve problems"
 msgid "Allow removing of installed packages to resolve problems"
 msgstr "문제를 해결하도록 설치된 꾸러미의 제거를 허용합니다"
 
