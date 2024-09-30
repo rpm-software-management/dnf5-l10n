@@ -7,21 +7,25 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-28 03:04+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-10-01 12:38+0000\n"
+"Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
+"Language-Team: Romanian <https://translate.fedoraproject.org/projects/dnf5/"
+"dnf5/ro/>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2;\n"
+"X-Generator: Weblate 5.7.2\n"
 
 #: commands/advisory/advisory_info.hpp:33
 msgid "Print details about advisories"
-msgstr ""
+msgstr "Afișează detalii despre avize"
 
 #: commands/advisory/advisory_list.hpp:35
 msgid "List advisories"
-msgstr ""
+msgstr "Listează avizele"
 
 #: commands/advisory/advisory_summary.cpp:44
 msgid "All"
@@ -45,100 +49,114 @@ msgstr ""
 
 #: commands/advisory/arguments.hpp:34
 msgid "Show advisories containing any version of installed packages."
-msgstr ""
+msgstr "Afișează avizele care conțin orice versiune a pachetelor instalate."
 
 #: commands/advisory/arguments.hpp:45
 msgid ""
 "Show advisories containing newer versions of installed packages. This is the "
 "default behavior."
 msgstr ""
+"Afișează avizele care conțin versiuni mai noi ale pachetelor instalate. "
+"Acesta este comportamentul implicit."
 
 #: commands/advisory/arguments.hpp:57
 msgid ""
 "Show advisories containing equal and older versions of installed packages."
 msgstr ""
+"Afișează avizele care conțin versiuni egale și mai vechi ale pachetelor "
+"instalate."
 
 #: commands/advisory/arguments.hpp:69
 msgid ""
 "Show advisories containing newer versions of installed packages for which a "
 "newer version is available."
 msgstr ""
+"Afișează avizele care conțin versiuni mai noi ale pachetelor instalate "
+"pentru care este disponibilă o versiune mai nouă."
 
 #: commands/advisory/arguments.hpp:82
 msgid ""
 "Show only advisories containing packages with specified names. List option, "
 "supports globs."
 msgstr ""
+"Afișează numai avizele care conțin pachete cu numele specificate. Opțiune "
+"listă, acceptă caractere joker."
 
 #: commands/advisory/arguments.hpp:83
 msgid "PACKAGE_NAME,..."
-msgstr ""
+msgstr "NUME_PACHET,..."
 
 #: commands/advisory/arguments.hpp:90
 msgid "List of patterns matched against advisory names."
-msgstr ""
+msgstr "Lista modelelor comparate cu numele avizelor."
 
 #: commands/advisory/arguments.hpp:100
 msgid "Show only advisories referencing a bugzilla."
-msgstr ""
+msgstr "Afișează doar avizele care fac referire la o eroare „bugzilla”."
 
 #: commands/advisory/arguments.hpp:107
 msgid "Show only advisories referencing a CVE."
-msgstr ""
+msgstr "Afișează numai avizele care fac referire la un CVE."
 
 #: commands/advisory_shared.hpp:113
 msgid "Limit to packages in advisories with specified name. List option."
-msgstr ""
+msgstr "Limitează la pachetele din avizele cu numele specificat. Opțiune listă."
 
 #: commands/advisory_shared.hpp:114
 msgid "ADVISORY_NAME,..."
-msgstr ""
+msgstr "NUME_AVIZ,..."
 
 #: commands/advisory_shared.hpp:121
 msgid "Limit to packages in security advisories."
-msgstr ""
+msgstr "Limitează la pachetele din avizele de securitate."
 
 #: commands/advisory_shared.hpp:128
 msgid "Limit to packages in bugfix advisories."
-msgstr ""
+msgstr "Limitează la pachetele din avizele de remediere a erorilor."
 
 #: commands/advisory_shared.hpp:135
 msgid "Limit to packages in enhancement advisories."
-msgstr ""
+msgstr "Limitează la pachetele din avizele de îmbunătățire."
 
 #: commands/advisory_shared.hpp:142
 msgid "Limit to packages in newpackage advisories."
-msgstr ""
+msgstr "Limitează la pachetele din avizele de pachete noi."
 
 #: commands/advisory_shared.hpp:153
 msgid ""
 "Limit to packages in advisories with specified severity. List option. Can be "
 "\"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgstr ""
+"Limitează la pachetele din avizele cu severitatea specificată. Opțiune "
+"listă. Poate fi „critical”, „important”, „moderate”, „low”, „none”."
 
 #: commands/advisory_shared.hpp:155
 msgid "ADVISORY_SEVERITY,..."
-msgstr ""
+msgstr "SEVERITATE_AVIZ,..."
 
 #: commands/advisory_shared.hpp:167
 msgid ""
 "Limit to packages in advisories that fix a Bugzilla ID, Eg. 123123. List "
 "option."
 msgstr ""
+"Limitează la pachetele din avizele care corectează un ID Bugzilla, de "
+"exemplu 123123. Opțiune listă."
 
 #: commands/advisory_shared.hpp:168
 msgid "BUGZILLA_ID,..."
-msgstr ""
+msgstr "ID_BUGZILLA,..."
 
 #: commands/advisory_shared.hpp:178
 msgid ""
 "Limit to packages in advisories that fix a CVE (Common Vulnerabilities and "
 "Exposures) ID, Eg. CVE-2201-0123. List option."
 msgstr ""
+"Limitează la pachetele din avizele care corectează un ID CVE (Common "
+"Vulnerabilities and Exposures), de exemplu CVE-2201-0123. Opțiune listă."
 
 #: commands/advisory_shared.hpp:180
 msgid "CVE_ID,..."
-msgstr ""
+msgstr "ID_CVE,..."
 
 #: commands/check-upgrade/check-upgrade.cpp:54
 msgid ""
@@ -207,21 +225,23 @@ msgstr ""
 
 #: commands/group/arguments.hpp:34
 msgid "Show only available groups."
-msgstr ""
+msgstr "Afișează numai grupurile disponibile."
 
 #: commands/group/arguments.hpp:41
 msgid "Show also hidden groups."
-msgstr ""
+msgstr "Afișează, de asemenea, grupurile ascunse."
 
 #: commands/group/arguments.hpp:48
 msgid "Show only installed groups."
-msgstr ""
+msgstr "Afișează numai grupurile instalate."
 
 #: commands/group/arguments.hpp:59
 msgid ""
 "Show only groups containing packages with specified names. List option, "
 "supports globs."
 msgstr ""
+"Afișează numai grupurile care conțin pachete cu numele specificate. Opțiune "
+"listă, acceptă caractere jokers."
 
 #: commands/group/arguments.hpp:67
 msgid "Pattern matching group IDS."
@@ -389,7 +409,7 @@ msgstr ""
 #: commands/offline/offline.cpp:245
 #, c++-format
 msgid "Couldn't connect to D-Bus: {}"
-msgstr ""
+msgstr "Nu s-a putut realiza conectarea la D-Bus: {}"
 
 #: commands/offline/offline.cpp:274
 msgid ""
@@ -907,6 +927,8 @@ msgstr ""
 msgid ""
 "{}: Badly formatted argument value: Last key character cannot be '.': {}"
 msgstr ""
+"{}: Valoare argument formatată greșit: ultimul caracter cheie nu poate fi "
+"„:”: {}"
 
 #: main.cpp:257
 #, c++-format
