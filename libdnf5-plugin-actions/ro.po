@@ -7,13 +7,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-28 03:04+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-10-01 12:38+0000\n"
+"Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
+"Language-Team: Romanian <https://translate.fedoraproject.org/projects/dnf5/"
+"libdnf5-plugin-actions/ro/>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2;\n"
+"X-Generator: Weblate 5.7.2\n"
 
 #: actions.cpp:534 actions.cpp:542 actions.cpp:550 actions.cpp:558
 #, c++-format
@@ -21,22 +25,26 @@ msgid ""
 "Error in file \"{}\" on line {}: \"HOOK:PKG_FILTER:DIRECTION:OPTIONS:CMD\" "
 "format expected"
 msgstr ""
+"Eroare în fișierul „{}” pe linia {}: Format așteptat "
+"„CÂRLIG:FILTRU_PACHETE:DIRECŢIE:OPȚIUNI:COMANDĂ”"
 
 #: actions.cpp:581
 #, c++-format
 msgid ""
 "Error in file \"{}\" on line {}: Unknown \"enabled\" option value \"{}\""
 msgstr ""
+"Eroare în fișierul „{}” pe linia {}: Opțiune „ activată” cu valoarea "
+"necunoscută „{}”"
 
 #: actions.cpp:590
 #, c++-format
 msgid "Error in file \"{}\" on line {}: Unknown option \"{}\""
-msgstr ""
+msgstr "Eroare în fișierul „{}” pe linia {}: Opțiune necunoscută „{}”"
 
 #: actions.cpp:616
 #, c++-format
 msgid "Error in file \"{}\" on line {}: Unknown hook \"{}\""
-msgstr ""
+msgstr "Eroare în fișierul „{}” pe linia {}: Cârlig necunoscut „{}”"
 
 #: actions.cpp:626
 #, c++-format
@@ -44,29 +52,34 @@ msgid ""
 "Error in file \"{}\" on line {}: Package filter can only be used in "
 "PRE_TRANS and POST_TRANS hooks"
 msgstr ""
+"Eroare în fișierul „{}” pe linia {}: Filtrul pachetului poate fi utilizat "
+"numai în cârligele PRE_TRANS și POST_TRANS"
 
 #: actions.cpp:636
 #, c++-format
 msgid ""
 "Error in file \"{}\" on line {}: Cannot use direction without package filter"
 msgstr ""
+"Eroare în fișierul „{}” pe linia {}: Nu se poate utiliza direcția fără "
+"filtrul pachetului"
 
 #: actions.cpp:653
 #, c++-format
 msgid "Error in file \"{}\" on line {}: Unknown package direction \"{}\""
 msgstr ""
+"Eroare în fișierul „{}” pe linia {}: Direcție necunoscută a pachetului „{}”"
 
 #: actions.cpp:664
 #, c++-format
 msgid "Error in file \"{}\" on line {}: Unknown mode \"{}\""
-msgstr ""
+msgstr "Eroare în fișierul „{}” pe linia {}: Mod necunoscut „{}”"
 
 #: actions.cpp:670
 #, c++-format
 msgid "Error in file \"{}\" on line {}: Missing command"
-msgstr ""
+msgstr "Eroare în fișierul „{}” pe linia {}: Lipsește comanda"
 
 #: actions.cpp:1760
 #, c++-format
 msgid "Cannot create pipe: {}"
-msgstr ""
+msgstr "Nu se poate crea conducta: {}"
