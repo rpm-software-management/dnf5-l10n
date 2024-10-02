@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-02 03:04+0000\n"
-"PO-Revision-Date: 2024-09-28 12:49+0000\n"
+"PO-Revision-Date: 2024-10-03 02:54+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/tr/>\n"
@@ -198,6 +198,8 @@ msgstr "\"{}\" önbellek dizini kullanılamıyor: {}"
 #: commands/download/download.cpp:105
 msgid "When running with --url, prints URLs from all available mirrors"
 msgstr ""
+"--url seçeneği ile çalıştırıldığında, kullanılabilir tüm yansıların "
+"URL'lerini yazdırır"
 
 #: commands/download/download.cpp:121
 msgid "Invalid urlprotocol option: {}"
@@ -837,20 +839,16 @@ msgid "Running {} scriptlet: {}"
 msgstr "{} betiği çalıştırılıyor: {}"
 
 #: context.cpp:922
-#, fuzzy
-#| msgid "Running {} scriptlet: {}"
 msgid "Finished {} scriptlet: {}"
-msgstr "{} betiği çalıştırılıyor: {}"
+msgstr "{} betiği tamamlandı: {}"
 
 #: context.cpp:928
 msgid "Non-critical error in {} scriptlet: {}"
 msgstr "{} betiğinde önemli olmayan hata: {}"
 
 #: context.cpp:937
-#, fuzzy
-#| msgid "Stop {} scriptlet: {}"
 msgid "Error in {} scriptlet: {}"
-msgstr "{} betiğini durdur: {}"
+msgstr "{} betiğinde hata: {}"
 
 #: context.cpp:967
 msgid "Verify package files"
