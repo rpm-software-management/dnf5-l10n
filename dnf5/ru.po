@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-02 03:04+0000\n"
-"PO-Revision-Date: 2024-09-30 08:41+0000\n"
+"PO-Revision-Date: 2024-10-03 02:54+0000\n"
 "Last-Translator: Aleksey Fedorov <aleksejfedorov963@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ru/>\n"
@@ -201,7 +201,7 @@ msgstr "Невозможно выполнить итерацию каталог�
 
 #: commands/download/download.cpp:105
 msgid "When running with --url, prints URLs from all available mirrors"
-msgstr ""
+msgstr "При выполнении с --url, выводит URL-адреса со всех доступных зеркал"
 
 #: commands/download/download.cpp:121
 msgid "Invalid urlprotocol option: {}"
@@ -847,20 +847,16 @@ msgid "Running {} scriptlet: {}"
 msgstr "Выполняется {} скриптлет: {}"
 
 #: context.cpp:922
-#, fuzzy
-#| msgid "Running {} scriptlet: {}"
 msgid "Finished {} scriptlet: {}"
-msgstr "Выполняется {} скриптлет: {}"
+msgstr "Выполнено {} скриптлет: {}"
 
 #: context.cpp:928
 msgid "Non-critical error in {} scriptlet: {}"
 msgstr "Некритическая ошибка в скриптлете {}: {}"
 
 #: context.cpp:937
-#, fuzzy
-#| msgid "Stop {} scriptlet: {}"
 msgid "Error in {} scriptlet: {}"
-msgstr "Остановить {} скриптлет: {}"
+msgstr "Сбой в {} скриптлет: {}"
 
 #: context.cpp:967
 msgid "Verify package files"
