@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-02 03:04+0000\n"
-"PO-Revision-Date: 2024-09-30 08:41+0000\n"
-"Last-Translator: 김인수 <simmon@nplob.com>\n"
+"PO-Revision-Date: 2024-10-03 02:54+0000\n"
+"Last-Translator: Byoungchan Lee <byoungchan.lee@gmx.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ko/>\n"
 "Language: ko\n"
@@ -194,7 +194,7 @@ msgstr "캐쉬 디렉토리를 반복 할 수 없습니다 \"{}\": {}"
 
 #: commands/download/download.cpp:105
 msgid "When running with --url, prints URLs from all available mirrors"
-msgstr ""
+msgstr "--url로 실행할 때, 모든 사용 가능한 미러에서 URL을 출력합니다"
 
 #: commands/download/download.cpp:121
 msgid "Invalid urlprotocol option: {}"
@@ -823,20 +823,16 @@ msgid "Running {} scriptlet: {}"
 msgstr "{} 구현 실행 중: {}"
 
 #: context.cpp:922
-#, fuzzy
-#| msgid "Running {} scriptlet: {}"
 msgid "Finished {} scriptlet: {}"
-msgstr "{} 구현 실행 중: {}"
+msgstr "{} 구현 실행 완료: {}"
 
 #: context.cpp:928
 msgid "Non-critical error in {} scriptlet: {}"
 msgstr "{} 구현에서 심각하지 않은 오류: {}"
 
 #: context.cpp:937
-#, fuzzy
-#| msgid "Stop {} scriptlet: {}"
 msgid "Error in {} scriptlet: {}"
-msgstr "{} 구현 중단: {}"
+msgstr "{} 구현에서 오류: {}"
 
 #: context.cpp:967
 msgid "Verify package files"
