@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-28 03:04+0000\n"
+"POT-Creation-Date: 2024-10-02 03:04+0000\n"
 "PO-Revision-Date: 2024-09-28 12:49+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -195,16 +195,20 @@ msgstr "\"{}\" önbellek dizini yok. Temizlenecek bir şey yok."
 msgid "Cannot iterate cache directory \"{}\": {}"
 msgstr "\"{}\" önbellek dizini kullanılamıyor: {}"
 
-#: commands/download/download.cpp:112
+#: commands/download/download.cpp:105
+msgid "When running with --url, prints URLs from all available mirrors"
+msgstr ""
+
+#: commands/download/download.cpp:121
 msgid "Invalid urlprotocol option: {}"
 msgstr "Geçersiz urlprotocol seçeneği: {}"
 
-#: commands/download/download.cpp:139 main.cpp:614
+#: commands/download/download.cpp:148 main.cpp:614
 msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
 msgstr "Desteklenmeyen mimari \"{0}\". Lütfen {1} seçeneklerinden birini seçin"
 
 #. TODO(jrohel): Add support for requiring an argument by another argument in ArgumentParser?
-#: commands/download/download.cpp:173
+#: commands/download/download.cpp:183
 msgid "Option \"--alldeps\" should be used with \"--resolve\""
 msgstr "\"--alldeps\" seçeneği \"--resolve\" ile birlikte kullanılmalıdır"
 
@@ -487,46 +491,46 @@ msgstr ""
 msgid "Use `dnf5 offline reboot` to begin the transaction."
 msgstr "İşlemi başlatmak için `dnf5 offline reboot` komutunu kullanın."
 
-#: commands/offline/offline.cpp:495
+#: commands/offline/offline.cpp:497
 msgid "Transaction failed: "
 msgstr "İşlem başarısız: "
 
-#: commands/offline/offline.cpp:564
+#: commands/offline/offline.cpp:566
 msgid "Error reading journal: {}"
 msgstr "Günlük okunurken hata oluştu: {}"
 
-#: commands/offline/offline.cpp:570
+#: commands/offline/offline.cpp:572
 msgid "Add journal match failed: {}"
 msgstr "Günlüğe eşleşme eklenemedi: {}"
 
-#: commands/offline/offline.cpp:598
+#: commands/offline/offline.cpp:600
 msgid "No logs were found."
 msgstr "Günlük kaydı bulunamadı."
 
-#: commands/offline/offline.cpp:602
+#: commands/offline/offline.cpp:604
 msgid "The following boots appear to contain offline transaction logs:"
 msgstr "Şu önyüklemeler çevrim dışı işlem günlükleri içeriyor gibi görünüyor:"
 
-#: commands/offline/offline.cpp:619
+#: commands/offline/offline.cpp:621
 msgid "Cannot find logs with this index."
 msgstr "Bu indekse sahip günlük kaydı bulunamıyor."
 
-#: commands/offline/offline.cpp:626
+#: commands/offline/offline.cpp:628
 msgid "Unable to match systemd journal entry."
 msgstr "systemd günlük girdisi eşleştirilemedi."
 
-#: commands/offline/offline.cpp:638
+#: commands/offline/offline.cpp:640
 msgid "Show logs from past offline transactions"
 msgstr "Geçmiş çevrim dışı işlemlerin günlüklerini göster"
 
-#: commands/offline/offline.cpp:646
+#: commands/offline/offline.cpp:648
 msgid ""
 "Which log to show. Run without any arguments to get a list of available logs."
 msgstr ""
 "Hangi günlüğün gösterileceği. Kullanılabilir günlüklerin bir listesini almak "
 "için herhangi bir argüman olmadan çalıştırın."
 
-#: commands/offline/offline.cpp:661
+#: commands/offline/offline.cpp:663
 msgid ""
 "systemd is not supported in this build of DNF 5; the `log` subcommand is "
 "unavailable."
@@ -534,22 +538,22 @@ msgstr ""
 "systemd, bu DNF 5 derlemesinde desteklenmiyor; `log` alt komutu "
 "kullanılabilir değil."
 
-#: commands/offline/offline.cpp:666
+#: commands/offline/offline.cpp:668
 msgid "Show status of the current offline transaction"
 msgstr "Geçerli çevrim dışı işlemin durumunu göster"
 
-#: commands/offline/offline.cpp:682
+#: commands/offline/offline.cpp:684
 msgid "An offline transaction was initiated by the following command:"
 msgstr "Bir çevrim dışı işlem şu komutla başlatıldı:"
 
-#: commands/offline/offline.cpp:684
+#: commands/offline/offline.cpp:686
 msgid ""
 "Run `dnf5 offline reboot` to reboot and perform the offline transaction."
 msgstr ""
 "Yeniden başlatmak ve çevrim dışı işlemi gerçekleştirmek için `dnf5 offline "
 "reboot` komutunu çalıştırın."
 
-#: commands/offline/offline.cpp:686
+#: commands/offline/offline.cpp:688
 msgid ""
 "An offline transaction was started, but it did not finish. Run `dnf5 offline "
 "log` for more information. The command that initiated the transaction was:"
@@ -557,7 +561,7 @@ msgstr ""
 "Çevrim dışı bir işlem başlatıldı, ancak tamamlanmadı. Daha fazla bilgi için "
 "`dnf5 offline log` komutunu çalıştırın. İşlemi başlatan komut şuydu:"
 
-#: commands/offline/offline.cpp:691
+#: commands/offline/offline.cpp:693
 msgid "Unknown offline transaction status: "
 msgstr "Bilinmeyen çevrim dışı işlem durumu: "
 
@@ -784,67 +788,71 @@ msgstr ""
 msgid "Running transaction"
 msgstr "İşlem çalıştırılıyor"
 
-#: context.cpp:770
+#: context.cpp:780
 msgid "Upgrading {}"
 msgstr "{} yükseltiliyor"
 
-#: context.cpp:773
+#: context.cpp:783
 msgid "Downgrading {}"
 msgstr "{} eski sürüme düşürülüyor"
 
-#: context.cpp:776
+#: context.cpp:786
 msgid "Reinstalling {}"
 msgstr "{} yeniden kuruluyor"
 
-#: context.cpp:789
+#: context.cpp:799
 msgid "Unexpected action in TransactionPackage: {}"
 msgstr "TransactionPackage içinde beklenmeyen eylem: {}"
 
-#: context.cpp:795
+#: context.cpp:805
 msgid "Installing {}"
 msgstr "{} kuruluyor"
 
-#: context.cpp:815
+#: context.cpp:826
 msgid "Prepare transaction"
 msgstr "İşlemi hazırla"
 
-#: context.cpp:835
+#: context.cpp:846
 msgid "Removing {}"
 msgstr "{} kaldırılıyor"
 
-#: context.cpp:838
+#: context.cpp:849
 msgid "Cleanup {}"
 msgstr "{} temizleniyor"
 
-#: context.cpp:854
+#: context.cpp:867
 msgid "Unpack error: {}"
 msgstr "Paket açma hatası: {}"
 
-#: context.cpp:862
+#: context.cpp:875
 msgid "Cpio error: {}"
 msgstr "Cpio hatası: {}"
 
-#: context.cpp:871
+#: context.cpp:885
 msgid "Scriptlet output:"
 msgstr "Betik çıktısı:"
 
-#: context.cpp:886
-msgid "Error in {} scriptlet: {} return code {}"
-msgstr "{} betiğinde hata: {} dönüş kodu {}"
-
-#: context.cpp:901
+#: context.cpp:907
 msgid "Running {} scriptlet: {}"
 msgstr "{} betiği çalıştırılıyor: {}"
 
-#: context.cpp:921
+#: context.cpp:922
+#, fuzzy
+#| msgid "Running {} scriptlet: {}"
+msgid "Finished {} scriptlet: {}"
+msgstr "{} betiği çalıştırılıyor: {}"
+
+#: context.cpp:928
 msgid "Non-critical error in {} scriptlet: {}"
 msgstr "{} betiğinde önemli olmayan hata: {}"
 
-#: context.cpp:930
-msgid "Stop {} scriptlet: {}"
+#: context.cpp:937
+#, fuzzy
+#| msgid "Stop {} scriptlet: {}"
+msgid "Error in {} scriptlet: {}"
 msgstr "{} betiğini durdur: {}"
 
-#: context.cpp:950
+#: context.cpp:967
 msgid "Verify package files"
 msgstr "Paket dosyalarını doğrula"
 
@@ -1318,6 +1326,9 @@ msgstr "Paketleri atlayarak bağımlılık sorunlarının çözülmesine izin ve
 #: shared_options.cpp:54
 msgid "Allow skipping unavailable packages"
 msgstr "Kullanılabilir olmayan paketlerin atlanmasına izin ver"
+
+#~ msgid "Error in {} scriptlet: {} return code {}"
+#~ msgstr "{} betiğinde hata: {} dönüş kodu {}"
 
 #~ msgid "Erasing {}"
 #~ msgstr "{} siliniyor"

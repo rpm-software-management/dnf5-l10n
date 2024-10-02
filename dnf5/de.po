@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-28 03:04+0000\n"
+"POT-Creation-Date: 2024-10-02 03:04+0000\n"
 "PO-Revision-Date: 2024-06-23 18:19+0000\n"
 "Last-Translator: Dennis Koerner <dennis@bumblebeeman.dev>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf5/"
@@ -200,16 +200,20 @@ msgstr "Datenverzeichnis {} existiert nicht."
 msgid "Cannot iterate cache directory \"{}\": {}"
 msgstr "Shared-Library kann nicht geladen werden \"{}\": {}"
 
-#: commands/download/download.cpp:112
+#: commands/download/download.cpp:105
+msgid "When running with --url, prints URLs from all available mirrors"
+msgstr ""
+
+#: commands/download/download.cpp:121
 msgid "Invalid urlprotocol option: {}"
 msgstr "Ungültige URL-Protokolloption: {}"
 
-#: commands/download/download.cpp:139 main.cpp:614
+#: commands/download/download.cpp:148 main.cpp:614
 msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
 msgstr "Nicht unterstützte Architektur \"{0}\". Bitte wählen Sie eine aus {1}"
 
 #. TODO(jrohel): Add support for requiring an argument by another argument in ArgumentParser?
-#: commands/download/download.cpp:173
+#: commands/download/download.cpp:183
 msgid "Option \"--alldeps\" should be used with \"--resolve\""
 msgstr "Option \"--alldeps\" sollte mit \"--resolve\" genutzt werden"
 
@@ -502,47 +506,47 @@ msgstr ""
 msgid "Use `dnf5 offline reboot` to begin the transaction."
 msgstr "Nutzen Sie `dnf5 offline reboot`, um mit der Transaktion zu beginnen."
 
-#: commands/offline/offline.cpp:495
+#: commands/offline/offline.cpp:497
 msgid "Transaction failed: "
 msgstr "Transaktion fehlgeschlagen: "
 
-#: commands/offline/offline.cpp:564
+#: commands/offline/offline.cpp:566
 msgid "Error reading journal: {}"
 msgstr "Fehler beim Lesen des Journals: {}"
 
-#: commands/offline/offline.cpp:570
+#: commands/offline/offline.cpp:572
 msgid "Add journal match failed: {}"
 msgstr "Hinzufügen der Journal-Übereinstimmung fehlgeschlagen: {}"
 
-#: commands/offline/offline.cpp:598
+#: commands/offline/offline.cpp:600
 msgid "No logs were found."
 msgstr "Es wurden keine Logs gefunden."
 
-#: commands/offline/offline.cpp:602
+#: commands/offline/offline.cpp:604
 msgid "The following boots appear to contain offline transaction logs:"
 msgstr ""
 "Folgende Bootvorgänge scheinen Offline-Transaktionsprotokolle zu enthalten:"
 
-#: commands/offline/offline.cpp:619
+#: commands/offline/offline.cpp:621
 msgid "Cannot find logs with this index."
 msgstr "Es können keine Logs mit diesem Index gefunden werden."
 
-#: commands/offline/offline.cpp:626
+#: commands/offline/offline.cpp:628
 msgid "Unable to match systemd journal entry."
 msgstr "Kein treffender Eintrag im systemd-Journal gefunden."
 
-#: commands/offline/offline.cpp:638
+#: commands/offline/offline.cpp:640
 msgid "Show logs from past offline transactions"
 msgstr "Logs vergangener Offline-Transaktionen anzeigen"
 
-#: commands/offline/offline.cpp:646
+#: commands/offline/offline.cpp:648
 msgid ""
 "Which log to show. Run without any arguments to get a list of available logs."
 msgstr ""
 "Welches Protokoll anzuzeigen. Ohne Argumente ausführen, um eine Liste der "
 "verfügbaren Protokolle zu erhalten."
 
-#: commands/offline/offline.cpp:661
+#: commands/offline/offline.cpp:663
 msgid ""
 "systemd is not supported in this build of DNF 5; the `log` subcommand is "
 "unavailable."
@@ -550,22 +554,22 @@ msgstr ""
 "systemd wird in diesem Build von DNF 5 nicht unterstützt; der Unterbefehl "
 "`log` ist nicht verfügbar."
 
-#: commands/offline/offline.cpp:666
+#: commands/offline/offline.cpp:668
 msgid "Show status of the current offline transaction"
 msgstr "Status der aktuellen Offline-Transaktion anzeigen"
 
-#: commands/offline/offline.cpp:682
+#: commands/offline/offline.cpp:684
 msgid "An offline transaction was initiated by the following command:"
 msgstr "Eine Offline-Transaktion wurde durch den folgenden Befehl initiiert:"
 
-#: commands/offline/offline.cpp:684
+#: commands/offline/offline.cpp:686
 msgid ""
 "Run `dnf5 offline reboot` to reboot and perform the offline transaction."
 msgstr ""
 "Führen Sie `dnf5 offline reboot` aus, um neu zu starten und die Offline-"
 "Transaktion auszuführen."
 
-#: commands/offline/offline.cpp:686
+#: commands/offline/offline.cpp:688
 msgid ""
 "An offline transaction was started, but it did not finish. Run `dnf5 offline "
 "log` for more information. The command that initiated the transaction was:"
@@ -574,7 +578,7 @@ msgstr ""
 "Sie `dnf5 offline log` aus, um weitere Informationen zu erhalten. Der "
 "Befehl, der die Transaktion initiierte, war:"
 
-#: commands/offline/offline.cpp:691
+#: commands/offline/offline.cpp:693
 msgid "Unknown offline transaction status: "
 msgstr "Unbekannter Zustand der Offline-Transaktion: "
 
@@ -813,71 +817,73 @@ msgstr ""
 msgid "Running transaction"
 msgstr "Offline-Transaktionen verwalten"
 
-#: context.cpp:770
+#: context.cpp:780
 msgid "Upgrading {}"
 msgstr ""
 
-#: context.cpp:773
+#: context.cpp:783
 msgid "Downgrading {}"
 msgstr ""
 
-#: context.cpp:776
+#: context.cpp:786
 msgid "Reinstalling {}"
 msgstr ""
 
-#: context.cpp:789
+#: context.cpp:799
 msgid "Unexpected action in TransactionPackage: {}"
 msgstr ""
 
-#: context.cpp:795
+#: context.cpp:805
 #, fuzzy
 #| msgid "Installed"
 msgid "Installing {}"
 msgstr "Installiert"
 
-#: context.cpp:815
+#: context.cpp:826
 #, fuzzy
 #| msgid "Manage offline transactions"
 msgid "Prepare transaction"
 msgstr "Offline-Transaktionen verwalten"
 
-#: context.cpp:835
+#: context.cpp:846
 msgid "Removing {}"
 msgstr ""
 
-#: context.cpp:838
+#: context.cpp:849
 msgid "Cleanup {}"
 msgstr ""
 
-#: context.cpp:854
+#: context.cpp:867
 msgid "Unpack error: {}"
 msgstr ""
 
-#: context.cpp:862
+#: context.cpp:875
 msgid "Cpio error: {}"
 msgstr ""
 
-#: context.cpp:871
+#: context.cpp:885
 msgid "Scriptlet output:"
 msgstr ""
 
-#: context.cpp:886
-msgid "Error in {} scriptlet: {} return code {}"
-msgstr ""
-
-#: context.cpp:901
+#: context.cpp:907
 msgid "Running {} scriptlet: {}"
 msgstr ""
 
-#: context.cpp:921
+#: context.cpp:922
+msgid "Finished {} scriptlet: {}"
+msgstr ""
+
+#: context.cpp:928
 msgid "Non-critical error in {} scriptlet: {}"
 msgstr ""
 
-#: context.cpp:930
-msgid "Stop {} scriptlet: {}"
-msgstr ""
+#: context.cpp:937
+#, fuzzy
+#| msgid "Error reading journal: {}"
+msgid "Error in {} scriptlet: {}"
+msgstr "Fehler beim Lesen des Journals: {}"
 
-#: context.cpp:950
+#: context.cpp:967
 msgid "Verify package files"
 msgstr ""
 

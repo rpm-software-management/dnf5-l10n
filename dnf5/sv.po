@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-28 03:04+0000\n"
+"POT-Creation-Date: 2024-10-02 03:04+0000\n"
 "PO-Revision-Date: 2024-09-28 18:45+0000\n"
 "Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -197,16 +197,20 @@ msgstr "Cachekatalog {} finns inte. Inget att rengöra."
 msgid "Cannot iterate cache directory \"{}\": {}"
 msgstr "Kan inte iterera cachekatalog \"{}\": {}"
 
-#: commands/download/download.cpp:112
+#: commands/download/download.cpp:105
+msgid "When running with --url, prints URLs from all available mirrors"
+msgstr ""
+
+#: commands/download/download.cpp:121
 msgid "Invalid urlprotocol option: {}"
 msgstr "Ogiltigt urlprotocol alternativ: {}"
 
-#: commands/download/download.cpp:139 main.cpp:614
+#: commands/download/download.cpp:148 main.cpp:614
 msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
 msgstr "Arkitektur \"{0}\" som inte stöds. Välj en från {1}"
 
 #. TODO(jrohel): Add support for requiring an argument by another argument in ArgumentParser?
-#: commands/download/download.cpp:173
+#: commands/download/download.cpp:183
 msgid "Option \"--alldeps\" should be used with \"--resolve\""
 msgstr "Alternativet \"--alldeps\" ska användas med \"--resolve\""
 
@@ -487,48 +491,48 @@ msgstr ""
 msgid "Use `dnf5 offline reboot` to begin the transaction."
 msgstr "Använd `dnf5 offline reboot` för att påbörja transaktionen."
 
-#: commands/offline/offline.cpp:495
+#: commands/offline/offline.cpp:497
 msgid "Transaction failed: "
 msgstr "Transaktionen misslyckades: "
 
-#: commands/offline/offline.cpp:564
+#: commands/offline/offline.cpp:566
 msgid "Error reading journal: {}"
 msgstr "Fel när journalen lästes: {}"
 
-#: commands/offline/offline.cpp:570
+#: commands/offline/offline.cpp:572
 msgid "Add journal match failed: {}"
 msgstr "Tillägg av journalmatchning misslyckades: {}"
 
-#: commands/offline/offline.cpp:598
+#: commands/offline/offline.cpp:600
 msgid "No logs were found."
 msgstr "Inga loggar fanns."
 
-#: commands/offline/offline.cpp:602
+#: commands/offline/offline.cpp:604
 msgid "The following boots appear to contain offline transaction logs:"
 msgstr ""
 "Följande uppstarter förefaller att innehålla loggar över frånkopplade "
 "transaktioner:"
 
-#: commands/offline/offline.cpp:619
+#: commands/offline/offline.cpp:621
 msgid "Cannot find logs with this index."
 msgstr "Kan inte hitta loggar med detta index."
 
-#: commands/offline/offline.cpp:626
+#: commands/offline/offline.cpp:628
 msgid "Unable to match systemd journal entry."
 msgstr "Kan inte matcha systemd:s journalpost."
 
-#: commands/offline/offline.cpp:638
+#: commands/offline/offline.cpp:640
 msgid "Show logs from past offline transactions"
 msgstr "Visa loggar från tidigare frånkopplade transaktioner"
 
-#: commands/offline/offline.cpp:646
+#: commands/offline/offline.cpp:648
 msgid ""
 "Which log to show. Run without any arguments to get a list of available logs."
 msgstr ""
 "Vilka loggar som skall visas. Kör utan några argument för att få en lista "
 "över tillgängliga loggar."
 
-#: commands/offline/offline.cpp:661
+#: commands/offline/offline.cpp:663
 msgid ""
 "systemd is not supported in this build of DNF 5; the `log` subcommand is "
 "unavailable."
@@ -536,22 +540,22 @@ msgstr ""
 "systemd stödjs inte i detta bygge av DNF 5; underkommandot `log` är "
 "otillgängligt."
 
-#: commands/offline/offline.cpp:666
+#: commands/offline/offline.cpp:668
 msgid "Show status of the current offline transaction"
 msgstr "Visa status för den aktuella frånkopplade transaktionen"
 
-#: commands/offline/offline.cpp:682
+#: commands/offline/offline.cpp:684
 msgid "An offline transaction was initiated by the following command:"
 msgstr "En frånkopplad transaktion initierades av följande kommando:"
 
-#: commands/offline/offline.cpp:684
+#: commands/offline/offline.cpp:686
 msgid ""
 "Run `dnf5 offline reboot` to reboot and perform the offline transaction."
 msgstr ""
 "Kör `dnf5 offline reboot` för att starta om och utföra den frånkopplade "
 "transaktionen."
 
-#: commands/offline/offline.cpp:686
+#: commands/offline/offline.cpp:688
 msgid ""
 "An offline transaction was started, but it did not finish. Run `dnf5 offline "
 "log` for more information. The command that initiated the transaction was:"
@@ -559,7 +563,7 @@ msgstr ""
 "En frånkopplad transaktion startades, men avslutades inte. Kör `dnf5 offline "
 "log` för mer information. Kommandot som initierade transaktionen var:"
 
-#: commands/offline/offline.cpp:691
+#: commands/offline/offline.cpp:693
 msgid "Unknown offline transaction status: "
 msgstr "Okänd status på frånkopplad transaktion: "
 
@@ -788,67 +792,71 @@ msgstr ""
 msgid "Running transaction"
 msgstr "Kör transaktionen"
 
-#: context.cpp:770
+#: context.cpp:780
 msgid "Upgrading {}"
 msgstr "Uppgraderar {}"
 
-#: context.cpp:773
+#: context.cpp:783
 msgid "Downgrading {}"
 msgstr "Nedgraderar {}"
 
-#: context.cpp:776
+#: context.cpp:786
 msgid "Reinstalling {}"
 msgstr "Ominstallerar {}"
 
-#: context.cpp:789
+#: context.cpp:799
 msgid "Unexpected action in TransactionPackage: {}"
 msgstr "Oväntad åtgärd i TransactionPackage: {}"
 
-#: context.cpp:795
+#: context.cpp:805
 msgid "Installing {}"
 msgstr "Installerar {}"
 
-#: context.cpp:815
+#: context.cpp:826
 msgid "Prepare transaction"
 msgstr "Förbereder transaktion"
 
-#: context.cpp:835
+#: context.cpp:846
 msgid "Removing {}"
 msgstr "Tar bort {}"
 
-#: context.cpp:838
+#: context.cpp:849
 msgid "Cleanup {}"
 msgstr "Rensar upp {}"
 
-#: context.cpp:854
+#: context.cpp:867
 msgid "Unpack error: {}"
 msgstr "Uppackningsfel: {}"
 
-#: context.cpp:862
+#: context.cpp:875
 msgid "Cpio error: {}"
 msgstr "Cpio fel: {}"
 
-#: context.cpp:871
+#: context.cpp:885
 msgid "Scriptlet output:"
 msgstr "Skriptutdata:"
 
-#: context.cpp:886
-msgid "Error in {} scriptlet: {} return code {}"
-msgstr "Fel i {} skriptlet: {} returkod {}"
-
-#: context.cpp:901
+#: context.cpp:907
 msgid "Running {} scriptlet: {}"
 msgstr "Kör {} skriptlet: {}"
 
-#: context.cpp:921
+#: context.cpp:922
+#, fuzzy
+#| msgid "Running {} scriptlet: {}"
+msgid "Finished {} scriptlet: {}"
+msgstr "Kör {} skriptlet: {}"
+
+#: context.cpp:928
 msgid "Non-critical error in {} scriptlet: {}"
 msgstr "Icke-kritisk fel i {} skriptlet: {}"
 
-#: context.cpp:930
-msgid "Stop {} scriptlet: {}"
+#: context.cpp:937
+#, fuzzy
+#| msgid "Stop {} scriptlet: {}"
+msgid "Error in {} scriptlet: {}"
 msgstr "Slut på {} skriptlet: {}"
 
-#: context.cpp:950
+#: context.cpp:967
 msgid "Verify package files"
 msgstr "Verifiera paketfiler"
 
@@ -1322,6 +1330,9 @@ msgstr "Tillåt lösning av depsolve problem genom att hoppa över paket"
 #: shared_options.cpp:54
 msgid "Allow skipping unavailable packages"
 msgstr "Tillåt att du hoppar över otillgängliga paket"
+
+#~ msgid "Error in {} scriptlet: {} return code {}"
+#~ msgstr "Fel i {} skriptlet: {} returkod {}"
 
 #~ msgid "Erasing {}"
 #~ msgstr "Raderar {}"
