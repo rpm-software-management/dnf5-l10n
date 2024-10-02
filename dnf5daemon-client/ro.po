@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-28 03:04+0000\n"
+"POT-Creation-Date: 2024-10-02 03:04+0000\n"
 "PO-Revision-Date: 2024-10-02 02:53+0000\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -80,7 +80,8 @@ msgstr "Afișează numai avizele care fac referire la un CVE."
 
 #: commands/advisory/arguments.hpp:113
 msgid "Limit to packages in advisories with specified name. List option."
-msgstr "Limitează la pachetele din avizele cu numele specificat. Opțiune listă."
+msgstr ""
+"Limitează la pachetele din avizele cu numele specificat. Opțiune listă."
 
 #: commands/advisory/arguments.hpp:114
 msgid "ADVISORY_NAME,..."
@@ -141,7 +142,6 @@ msgid "CVE_ID,..."
 msgstr "ID_CVE,..."
 
 #: commands/clean/clean.cpp:88
-#, c++-format
 msgid "Error cleaning the cache: {}"
 msgstr "Eroare la ștergerea cache-ului: {}"
 
@@ -166,7 +166,6 @@ msgstr ""
 "listă, acceptă caractere jokers."
 
 #: commands/repoquery/repoquery.cpp:158
-#, c++-format
 msgid "Error parsing JSON object \"{}\": {}"
 msgstr "Eroare la analizarea obiectului JSON „{}”: {}"
 
@@ -175,11 +174,10 @@ msgid ""
 "This command has to be run with superuser privileges (under the root user on "
 "most systems)."
 msgstr ""
-"Această comandă trebuie să fie executată cu privilegii de superutilizator ("
-"sub utilizatorul root pe majoritatea sistemelor)."
+"Această comandă trebuie să fie executată cu privilegii de superutilizator "
+"(sub utilizatorul root pe majoritatea sistemelor)."
 
 #: main.cpp:157
-#, c++-format
 msgid ""
 "{}: Badly formatted argument value: Last key character cannot be '.': {}"
 msgstr ""
