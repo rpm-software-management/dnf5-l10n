@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-02 03:04+0000\n"
-"PO-Revision-Date: 2024-09-30 08:41+0000\n"
+"PO-Revision-Date: 2024-10-03 02:54+0000\n"
 "Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/fr/>\n"
@@ -211,6 +211,8 @@ msgstr "Impossible de parcourir le répertoire du cache ({}) : {}"
 #: commands/download/download.cpp:105
 msgid "When running with --url, prints URLs from all available mirrors"
 msgstr ""
+"Lorsque utilisé avec --url, affiche les URL de l'ensemble des miroirs "
+"disponibles"
 
 #: commands/download/download.cpp:121
 msgid "Invalid urlprotocol option: {}"
@@ -876,20 +878,16 @@ msgid "Running {} scriptlet: {}"
 msgstr "Exécution du scriptlet {} : {}"
 
 #: context.cpp:922
-#, fuzzy
-#| msgid "Running {} scriptlet: {}"
 msgid "Finished {} scriptlet: {}"
-msgstr "Exécution du scriptlet {} : {}"
+msgstr "Scriptlet {} terminé : {}"
 
 #: context.cpp:928
 msgid "Non-critical error in {} scriptlet: {}"
 msgstr "Erreur non critique dans le scriptlet {} : {}"
 
 #: context.cpp:937
-#, fuzzy
-#| msgid "Stop {} scriptlet: {}"
 msgid "Error in {} scriptlet: {}"
-msgstr "Arrêter le scriptlet {} : {}"
+msgstr "Erreur dans le scriptlet {} : {}"
 
 #: context.cpp:967
 msgid "Verify package files"
