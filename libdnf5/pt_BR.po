@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-02 03:04+0000\n"
+"POT-Creation-Date: 2024-10-03 03:05+0000\n"
 "PO-Revision-Date: 2024-09-25 05:44+0000\n"
 "Last-Translator: Fábio Rodrigues Ribeiro <farribeiro@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
@@ -664,12 +664,25 @@ msgid ", "
 msgstr ", "
 
 #: base/transaction.cpp:1422
-msgid "Warning: skipped PGP checks for 1 package from repository: {}"
-msgstr ""
-"Aviso: ignoradas as verificações de PGP para 1 pacote do repositório: {}"
+#, fuzzy
+#| msgid "Warning: skipped PGP checks for {0} packages from repository: {1}"
+#| msgid_plural ""
+#| "Warning: skipped PGP checks for {0} packages from repositories: {1}"
+msgid "Warning: skipped PGP checks for {0} package from repository: {1}"
+msgid_plural ""
+"Warning: skipped PGP checks for {0} packages from repository: {1}"
+msgstr[0] ""
+"Aviso: ignoradas as verificações de PGP para {0} pacote do repositório:{1}"
+msgstr[1] ""
+"Aviso: ignoradas as verificações de PGP para {0} pacotes dos repositórios: "
+"{1}"
 
-#: base/transaction.cpp:1424
-msgid "Warning: skipped PGP checks for {0} packages from repository: {1}"
+#: base/transaction.cpp:1425
+#, fuzzy
+#| msgid "Warning: skipped PGP checks for {0} packages from repository: {1}"
+#| msgid_plural ""
+#| "Warning: skipped PGP checks for {0} packages from repositories: {1}"
+msgid "Warning: skipped PGP checks for {0} package from repositories: {1}"
 msgid_plural ""
 "Warning: skipped PGP checks for {0} packages from repositories: {1}"
 msgstr[0] ""
@@ -1042,7 +1055,7 @@ msgstr "Falha ao listar chaves pgp: {}"
 msgid "Failed to import pgp keys: {}"
 msgstr "Falha ao importar chaves pgp: {}"
 
-#: repo/repo_sack.cpp:128
+#: repo/repo_sack.cpp:146
 msgid ""
 "Failed to create repo \"{}\": Id is present more than once in the "
 "configuration"
@@ -1050,7 +1063,7 @@ msgstr ""
 "Falha ao criar o repositório \"{}\": o ID está presente mais de uma vez na "
 "configuração"
 
-#: repo/repo_sack.cpp:499
+#: repo/repo_sack.cpp:517
 msgid "Cache-only enabled but no cache for repository \"{}\""
 msgstr "Somente cache ativado, mas sem cache para o repositório \"{}\""
 
@@ -1669,6 +1682,10 @@ msgstr "falha ao ler os arquivos de configuração rpm"
 #: utils/system.cpp:52
 msgid "Failed to execute uname()"
 msgstr "Falha ao executar uname()"
+
+#~ msgid "Warning: skipped PGP checks for 1 package from repository: {}"
+#~ msgstr ""
+#~ "Aviso: ignoradas as verificações de PGP para 1 pacote do repositório: {}"
 
 #~ msgid "Cannot {} package \"{}\""
 #~ msgstr "Não é possível {} o pacote \"{}\""

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-02 03:04+0000\n"
+"POT-Creation-Date: 2024-10-03 03:05+0000\n"
 "PO-Revision-Date: 2024-09-09 18:38+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -656,11 +656,24 @@ msgid ", "
 msgstr ", "
 
 #: base/transaction.cpp:1422
-msgid "Warning: skipped PGP checks for 1 package from repository: {}"
-msgstr "Varning: hoppade över PGP-kontroller för 1 paket från förråd: {}"
+#, fuzzy
+#| msgid "Warning: skipped PGP checks for {0} packages from repository: {1}"
+#| msgid_plural ""
+#| "Warning: skipped PGP checks for {0} packages from repositories: {1}"
+msgid "Warning: skipped PGP checks for {0} package from repository: {1}"
+msgid_plural ""
+"Warning: skipped PGP checks for {0} packages from repository: {1}"
+msgstr[0] ""
+"Varning: hoppade över PGP-kontroller för {0} paket från: förråd: {1}"
+msgstr[1] ""
+"Varning: hoppade över PGP-kontroller för {0} paket från flera förråd: {1}"
 
-#: base/transaction.cpp:1424
-msgid "Warning: skipped PGP checks for {0} packages from repository: {1}"
+#: base/transaction.cpp:1425
+#, fuzzy
+#| msgid "Warning: skipped PGP checks for {0} packages from repository: {1}"
+#| msgid_plural ""
+#| "Warning: skipped PGP checks for {0} packages from repositories: {1}"
+msgid "Warning: skipped PGP checks for {0} package from repositories: {1}"
 msgid_plural ""
 "Warning: skipped PGP checks for {0} packages from repositories: {1}"
 msgstr[0] ""
@@ -1025,7 +1038,7 @@ msgstr "Misslyckades att lista pgp nycklar: {}"
 msgid "Failed to import pgp keys: {}"
 msgstr "Misslyckades att importera pgp nycklar: {}"
 
-#: repo/repo_sack.cpp:128
+#: repo/repo_sack.cpp:146
 msgid ""
 "Failed to create repo \"{}\": Id is present more than once in the "
 "configuration"
@@ -1033,7 +1046,7 @@ msgstr ""
 "Misslyckades att skapa förråd \"{}\": Id finns mer än en gång i "
 "konfigurationen"
 
-#: repo/repo_sack.cpp:499
+#: repo/repo_sack.cpp:517
 msgid "Cache-only enabled but no cache for repository \"{}\""
 msgstr "Endast cache aktiverat men ingen cache för förråd \"{}\""
 
@@ -1639,6 +1652,9 @@ msgstr "misslyckades att läsa rpm konfigurationsfiler"
 #: utils/system.cpp:52
 msgid "Failed to execute uname()"
 msgstr "Misslyckades med att köra uname()"
+
+#~ msgid "Warning: skipped PGP checks for 1 package from repository: {}"
+#~ msgstr "Varning: hoppade över PGP-kontroller för 1 paket från förråd: {}"
 
 #~ msgid "Cannot {} package \"{}\""
 #~ msgstr "Kan inte {} med paketet \"{}\""

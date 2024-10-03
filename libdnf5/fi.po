@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-02 03:04+0000\n"
+"POT-Creation-Date: 2024-10-03 03:05+0000\n"
 "PO-Revision-Date: 2024-09-07 09:38+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -659,13 +659,26 @@ msgid ", "
 msgstr ""
 
 #: base/transaction.cpp:1422
-msgid "Warning: skipped PGP checks for 1 package from repository: {}"
-msgstr ""
-"Varoitus: ohitettiin PGP-tarkistukset yhdelle tietotovarastosta peräisin "
-"paketille: {}"
+#, fuzzy
+#| msgid "Warning: skipped PGP checks for {0} packages from repository: {1}"
+#| msgid_plural ""
+#| "Warning: skipped PGP checks for {0} packages from repositories: {1}"
+msgid "Warning: skipped PGP checks for {0} package from repository: {1}"
+msgid_plural ""
+"Warning: skipped PGP checks for {0} packages from repository: {1}"
+msgstr[0] ""
+"Varoitus: ohitettiin PGP-tarkistukset {0}:lle tietotovarastosta peräisin "
+"paketteille: {1}"
+msgstr[1] ""
+"Varoitus: ohitettiin PGP-tarkistukset {0}:lle tietotovarastoista peräisin "
+"paketteille: {1}"
 
-#: base/transaction.cpp:1424
-msgid "Warning: skipped PGP checks for {0} packages from repository: {1}"
+#: base/transaction.cpp:1425
+#, fuzzy
+#| msgid "Warning: skipped PGP checks for {0} packages from repository: {1}"
+#| msgid_plural ""
+#| "Warning: skipped PGP checks for {0} packages from repositories: {1}"
+msgid "Warning: skipped PGP checks for {0} package from repositories: {1}"
 msgid_plural ""
 "Warning: skipped PGP checks for {0} packages from repositories: {1}"
 msgstr[0] ""
@@ -1036,13 +1049,13 @@ msgstr ""
 msgid "Failed to import pgp keys: {}"
 msgstr ""
 
-#: repo/repo_sack.cpp:128
+#: repo/repo_sack.cpp:146
 msgid ""
 "Failed to create repo \"{}\": Id is present more than once in the "
 "configuration"
 msgstr ""
 
-#: repo/repo_sack.cpp:499
+#: repo/repo_sack.cpp:517
 msgid "Cache-only enabled but no cache for repository \"{}\""
 msgstr ""
 
@@ -1618,3 +1631,8 @@ msgstr ""
 #: utils/system.cpp:52
 msgid "Failed to execute uname()"
 msgstr ""
+
+#~ msgid "Warning: skipped PGP checks for 1 package from repository: {}"
+#~ msgstr ""
+#~ "Varoitus: ohitettiin PGP-tarkistukset yhdelle tietotovarastosta peräisin "
+#~ "paketille: {}"
