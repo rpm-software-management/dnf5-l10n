@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-04 03:11+0000\n"
+"POT-Creation-Date: 2024-10-05 03:03+0000\n"
 "PO-Revision-Date: 2024-02-06 09:36+0000\n"
 "Last-Translator: Petr Ptacek <petr106@atlas.cz>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf5/dnf5/"
@@ -274,7 +274,7 @@ msgstr ""
 
 #: commands/history/history_redo.cpp:53
 #: commands/history/history_rollback.cpp:57
-#: commands/history/history_store.cpp:80 commands/history/history_undo.cpp:56
+#: commands/history/history_store.cpp:65 commands/history/history_undo.cpp:56
 #, fuzzy
 #| msgid "No transactions selected for storing, exactly one required."
 msgid "No matching transaction ID found, exactly one required."
@@ -288,13 +288,13 @@ msgstr "Nejsou vybrány žádné transakce k uložení, je vyžadována právě 
 msgid "Matched more than one transaction ID, exactly one required."
 msgstr "Nejsou vybrány žádné transakce k uložení, je vyžadována právě jedna."
 
-#: commands/history/history_store.cpp:66
-msgid "File \"{}\" already exists, it will be overwritten.\n"
-msgstr "Soubor \"{}\" již existuje, bude přepsán.\n"
-
-#: commands/history/history_store.cpp:83
+#: commands/history/history_store.cpp:68
 msgid "Multiple transactions selected for storing, only one allowed."
 msgstr "Pro uložení bylo vybráno více transakcí, povolena pouze jedna."
+
+#: commands/history/history_store.cpp:80
+msgid "File \"{}\" already exists, it will be overwritten.\n"
+msgstr "Soubor \"{}\" již existuje, bude přepsán.\n"
 
 #: commands/history/transaction_id.cpp:32
 msgid ""

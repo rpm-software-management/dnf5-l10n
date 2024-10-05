@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-04 03:11+0000\n"
+"POT-Creation-Date: 2024-10-05 03:03+0000\n"
 "PO-Revision-Date: 2024-10-05 02:52+0000\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -167,11 +167,11 @@ msgid ""
 "advisories matching selected advisory properties"
 msgstr ""
 "Raportează cele mai mici versiuni ale pachetelor care corectează avize de "
-"tip „bugfix” (corectare de erori), „enhancement” (îmbunătățire), „security” "
-"(securitate) sau „newpackage” (pachet nou). În cazul în care se utilizează "
-"orice opțiune de limitare a avertismentelor, se raportează cele mai mici "
-"versiuni ale pachetelor care soluționează avertismentele care corespund "
-"proprietăților avertismentelor selectate"
+"tip „bugfix” (corectare de erori), „enhancement” (îmbunătățire), "
+"„security” (securitate) sau „newpackage” (pachet nou). În cazul în care se "
+"utilizează orice opțiune de limitare a avertismentelor, se raportează cele "
+"mai mici versiuni ale pachetelor care soluționează avertismentele care "
+"corespund proprietăților avertismentelor selectate"
 
 #: commands/check/check.cpp:335
 msgid "Check discovered {} problem(s) in {} package(s)"
@@ -285,7 +285,7 @@ msgstr ""
 
 #: commands/history/history_redo.cpp:53
 #: commands/history/history_rollback.cpp:57
-#: commands/history/history_store.cpp:80 commands/history/history_undo.cpp:56
+#: commands/history/history_store.cpp:65 commands/history/history_undo.cpp:56
 msgid "No matching transaction ID found, exactly one required."
 msgstr ""
 "Nu a fost găsit niciun ID de tranzacție care să se potrivească, este necesar "
@@ -295,15 +295,16 @@ msgstr ""
 #: commands/history/history_rollback.cpp:61
 #: commands/history/history_undo.cpp:60
 msgid "Matched more than one transaction ID, exactly one required."
-msgstr "Se potrivește mai mult de un ID de tranzacție, este necesar exact unul."
+msgstr ""
+"Se potrivește mai mult de un ID de tranzacție, este necesar exact unul."
 
-#: commands/history/history_store.cpp:66
-msgid "File \"{}\" already exists, it will be overwritten.\n"
-msgstr "Fișierul „{}” există deja, acesta va fi suprascris.\n"
-
-#: commands/history/history_store.cpp:83
+#: commands/history/history_store.cpp:68
 msgid "Multiple transactions selected for storing, only one allowed."
 msgstr "Tranzacții multiple selectate pentru stocare, numai una este permisă."
+
+#: commands/history/history_store.cpp:80
+msgid "File \"{}\" already exists, it will be overwritten.\n"
+msgstr "Fișierul „{}” există deja, acesta va fi suprascris.\n"
 
 #: commands/history/transaction_id.cpp:32
 msgid ""
@@ -642,7 +643,8 @@ msgstr ""
 
 #: commands/system-upgrade/system-upgrade.cpp:131
 msgid "Store a distro-sync transaction to be performed offline"
-msgstr "Stochează o tranzacție distro-sync pentru a fi efectuată fără conexiune"
+msgstr ""
+"Stochează o tranzacție distro-sync pentru a fi efectuată fără conexiune"
 
 #: commands/system-upgrade/system-upgrade.cpp:153
 msgid "Store an upgrade transaction to be performed offline"
@@ -1041,8 +1043,8 @@ msgid ""
 "Enable libdnf5 plugins by name. List option. Supports globs, can be "
 "specified multiple times."
 msgstr ""
-"Activează modulele libdnf5 după nume. Opțiune listă. Acceptă modele globale ("
-"ce conțin caractere joker), poate fi specificată de mai multe ori."
+"Activează modulele libdnf5 după nume. Opțiune listă. Acceptă modele globale "
+"(ce conțin caractere joker), poate fi specificată de mai multe ori."
 
 #: main.cpp:458
 msgid ""
@@ -1285,8 +1287,8 @@ msgid ""
 "It could be a command provided by a plugin, try: dnf5 install 'dnf5-"
 "command({})'"
 msgstr ""
-"Ar putea fi o comandă furnizată de un modul, încercați: «dnf5 install "
-"'dnf5-command({})'»"
+"Ar putea fi o comandă furnizată de un modul, încercați: «dnf5 install 'dnf5-"
+"command({})'»"
 
 #: main.cpp:1311
 msgid "No read/execute access in current directory, moving to /"
@@ -1300,8 +1302,8 @@ msgid ""
 "options to run the command without modifying the system state."
 msgstr ""
 "Operația solicitată necesită privilegii de superutilizator. Vă rugăm să vă "
-"conectați ca utilizator cu drepturi sporite sau să utilizați opțiunile "
-"„--assumeno” sau „--downloadonly” pentru a executa comanda fără a modifica "
+"conectați ca utilizator cu drepturi sporite sau să utilizați opțiunile „--"
+"assumeno” sau „--downloadonly” pentru a executa comanda fără a modifica "
 "starea sistemului."
 
 #: main.cpp:1409

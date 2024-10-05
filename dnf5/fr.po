@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-04 03:11+0000\n"
+"POT-Creation-Date: 2024-10-05 03:03+0000\n"
 "PO-Revision-Date: 2024-10-03 02:54+0000\n"
 "Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf5/"
@@ -298,7 +298,7 @@ msgstr ""
 
 #: commands/history/history_redo.cpp:53
 #: commands/history/history_rollback.cpp:57
-#: commands/history/history_store.cpp:80 commands/history/history_undo.cpp:56
+#: commands/history/history_store.cpp:65 commands/history/history_undo.cpp:56
 msgid "No matching transaction ID found, exactly one required."
 msgstr "Aucun ID de transaction correspondant, 1 ID requis."
 
@@ -308,15 +308,15 @@ msgstr "Aucun ID de transaction correspondant, 1 ID requis."
 msgid "Matched more than one transaction ID, exactly one required."
 msgstr "Plus d'un ID de transaction correspondant, un seul est requis."
 
-#: commands/history/history_store.cpp:66
-msgid "File \"{}\" already exists, it will be overwritten.\n"
-msgstr "Le fichier \"{}\" existe déjà, il sera écrasé.\n"
-
-#: commands/history/history_store.cpp:83
+#: commands/history/history_store.cpp:68
 msgid "Multiple transactions selected for storing, only one allowed."
 msgstr ""
 "Plusieurs transactions sélectionnées pour être stockées alors qu'une seule "
 "est autorisée."
+
+#: commands/history/history_store.cpp:80
+msgid "File \"{}\" already exists, it will be overwritten.\n"
+msgstr "Le fichier \"{}\" existe déjà, il sera écrasé.\n"
 
 #: commands/history/transaction_id.cpp:32
 msgid ""
