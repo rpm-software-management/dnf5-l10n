@@ -4,13 +4,14 @@
 # 김인수 <simmon@nplob.com>, 2024.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024.
 # Joungmin Lee <leejm516@gmail.com>, 2024.
+# Byoungchan Lee <byoungchan.lee@gmx.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-08 03:14+0000\n"
-"PO-Revision-Date: 2024-08-04 18:39+0000\n"
-"Last-Translator: 김인수 <simmon@nplob.com>\n"
+"PO-Revision-Date: 2024-10-08 14:56+0000\n"
+"Last-Translator: Byoungchan Lee <byoungchan.lee@gmx.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5daemon-client/ko/>\n"
 "Language: ko\n"
@@ -18,13 +19,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Weblate 5.7.2\n"
 
 #: commands/advisory/advisory.cpp:35
-#, fuzzy
-#| msgid "List advisories"
 msgid "Manage advisories"
-msgstr "권고 사항 목록"
+msgstr "권고 사항 관리"
 
 #: commands/advisory/advisory_info.hpp:34
 msgid "Print details about advisories"
@@ -136,9 +135,8 @@ msgstr "버그질라_ID,..."
 msgid ""
 "Limit to packages in advisories that fix a CVE (Common Vulnerabilities and "
 "Exposures) ID, Eg. CVE-2201-0123. List option."
-msgstr ""
-"CVE(일반 취약점 및 노출) ID(예: CVE-2201-0123)로 수정된 권고의 꾸로미로 제한"
-"합니다. 옵션 목록."
+msgstr "CVE(일반 취약점 및 노출) ID(예: CVE-2201-0123)로 수정된 권고의 꾸러미로 "
+"제한합니다. 옵션 목록."
 
 #: commands/advisory/arguments.hpp:182
 msgid "CVE_ID,..."
@@ -151,7 +149,7 @@ msgstr "캐쉬 청소 중 오류: {}"
 #: commands/distro-sync/distro-sync.cpp:48
 msgid ""
 "Upgrade or downgrade installed software to the latest available versions"
-msgstr ""
+msgstr "설치된 소프트웨어를 최신 사용 가능한 버전으로 업그레이드 또는 다운그레이드"
 
 #: commands/group/group.cpp:41
 msgid "Manage comps groups"
@@ -179,7 +177,7 @@ msgstr ""
 
 #: commands/repo/repo.cpp:37
 msgid "Manage repositories"
-msgstr ""
+msgstr "저장소 관리"
 
 #: commands/repoquery/repoquery.cpp:95
 msgid "search for packages matching various criteria"
