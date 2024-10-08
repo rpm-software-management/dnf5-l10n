@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-05 03:03+0000\n"
+"POT-Creation-Date: 2024-10-08 03:14+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,6 +16,10 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: commands/advisory/advisory.cpp:36
+msgid "Manage advisories"
+msgstr ""
 
 #: commands/advisory/advisory_info.hpp:33
 msgid "Print details about advisories"
@@ -142,12 +146,24 @@ msgstr ""
 msgid "CVE_ID,..."
 msgstr ""
 
+#: commands/autoremove/autoremove.cpp:38
+msgid "Remove all unneeded packages originally installed as dependencies."
+msgstr ""
+
+#: commands/check-upgrade/check-upgrade.cpp:47
+msgid "Check for available package upgrades"
+msgstr ""
+
 #: commands/check-upgrade/check-upgrade.cpp:54
 msgid ""
 "Reports the lowest versions of packages that fix advisories of type bugfix, "
 "enhancement, security, or newpackage. In case that any option limiting "
 "advisories is used it reports the lowest versions of packages that fix "
 "advisories matching selected advisory properties"
+msgstr ""
+
+#: commands/check/check.cpp:247
+msgid "Check for problems in the packagedb"
 msgstr ""
 
 #: commands/check/check.cpp:335
@@ -180,6 +196,19 @@ msgstr ""
 msgid "Cannot iterate cache directory \"{}\": {}"
 msgstr ""
 
+#: commands/debuginfo-install/debuginfo-install.cpp:45
+msgid "Install debuginfo packages."
+msgstr ""
+
+#: commands/distro-sync/distro-sync.cpp:42
+msgid ""
+"Upgrade or downgrade installed software to the latest available versions"
+msgstr ""
+
+#: commands/downgrade/downgrade.cpp:40
+msgid "Downgrade software"
+msgstr ""
+
 #: commands/download/download.cpp:105
 msgid "When running with --url, prints URLs from all available mirrors"
 msgstr ""
@@ -209,6 +238,10 @@ msgstr ""
 
 #: commands/environment/arguments.hpp:47
 msgid "Pattern matching environment IDs."
+msgstr ""
+
+#: commands/environment/environment.cpp:35
+msgid "Manage comps environments"
 msgstr ""
 
 #: commands/group/arguments.hpp:34
@@ -260,6 +293,10 @@ msgstr ""
 msgid "Don't consider extra packages pulled into the transaction as errors."
 msgstr ""
 
+#: commands/history/history.cpp:41
+msgid "Manage transaction history"
+msgstr ""
+
 #: commands/history/history_redo.cpp:53
 #: commands/history/history_rollback.cpp:57
 #: commands/history/history_store.cpp:65 commands/history/history_undo.cpp:56
@@ -286,6 +323,15 @@ msgstr ""
 msgid ""
 "Invalid transaction ID range \"{}\", \"ID\" or \"ID..ID\" expected, where ID "
 "is \"NUMBER\", \"last\" or \"last-NUMBER\"."
+msgstr ""
+
+#: commands/install/install.cpp:41
+msgid "Install software"
+msgstr ""
+
+#: commands/leaves/leaves.cpp:42
+msgid ""
+"List groups of installed packages not required by other installed packages"
 msgstr ""
 
 #: commands/list/list.cpp:44
@@ -364,6 +410,10 @@ msgstr ""
 msgid "No matching packages to list"
 msgstr ""
 
+#: commands/mark/mark.cpp:38
+msgid "Change the reason of an installed package"
+msgstr ""
+
 #: commands/module/arguments.hpp:36
 msgid "Show enabled modules."
 msgstr ""
@@ -374,6 +424,10 @@ msgstr ""
 
 #: commands/module/arguments.hpp:50
 msgid "Pattern matching module NSVCAs."
+msgstr ""
+
+#: commands/module/module.cpp:43
+msgid "Manage modules"
 msgstr ""
 
 #: commands/module/module_list.cpp:85
@@ -528,6 +582,22 @@ msgstr ""
 msgid "Unknown offline transaction status: "
 msgstr ""
 
+#: commands/provides/provides.cpp:48
+msgid "Find what package provides the given value"
+msgstr ""
+
+#: commands/reinstall/reinstall.cpp:40
+msgid "Reinstall software"
+msgstr ""
+
+#: commands/remove/remove.cpp:40
+msgid "Remove (uninstall) software"
+msgstr ""
+
+#: commands/replay/replay.cpp:38
+msgid "Replay a transaction that was previously stored to a directory"
+msgstr ""
+
 #: commands/repo/arguments.hpp:35
 msgid "Show all repositories."
 msgstr ""
@@ -542,6 +612,14 @@ msgstr ""
 
 #: commands/repo/arguments.hpp:56
 msgid "Pattern matching repo IDs."
+msgstr ""
+
+#: commands/repo/repo.cpp:38
+msgid "Manage repositories"
+msgstr ""
+
+#: commands/repoquery/repoquery.cpp:80
+msgid "Search for packages matching various criteria"
 msgstr ""
 
 #: commands/repoquery/repoquery.cpp:516
@@ -562,6 +640,14 @@ msgstr ""
 
 #: commands/search/arguments.hpp:45
 msgid "Patterns"
+msgstr ""
+
+#: commands/search/search.cpp:44
+msgid "Search for software matching all specified strings"
+msgstr ""
+
+#: commands/swap/swap.cpp:42
+msgid "Remove software and install another in one transaction"
 msgstr ""
 
 #: commands/system-upgrade/system-upgrade.cpp:54
@@ -590,6 +676,10 @@ msgstr ""
 msgid "Store an upgrade transaction to be performed offline"
 msgstr ""
 
+#: commands/upgrade/upgrade.cpp:41
+msgid "Upgrade software"
+msgstr ""
+
 #: commands/upgrade/upgrade.cpp:48
 msgid ""
 "Upgrade packages only to the lowest versions that fix advisories of type "
@@ -602,6 +692,10 @@ msgstr ""
 #: commands/versionlock/utils.cpp:35
 #, c++-format
 msgid "Added by 'versionlock {}' command on {}"
+msgstr ""
+
+#: commands/versionlock/versionlock.cpp:40
+msgid "Manage versionlock configuration"
 msgstr ""
 
 #: commands/versionlock/versionlock_add.cpp:37
@@ -919,6 +1013,10 @@ msgstr ""
 msgid "setopt: \"{0}\": {1}"
 msgstr ""
 
+#: main.cpp:269
+msgid "set arbitrary variable"
+msgstr ""
+
 #: main.cpp:283
 #, c++-format
 msgid "setvar: {}"
@@ -930,6 +1028,10 @@ msgstr ""
 
 #: main.cpp:299
 msgid "automatically answer no for all questions"
+msgstr ""
+
+#: main.cpp:306
+msgid "try the best available package versions in transactions"
 msgstr ""
 
 #: main.cpp:313
@@ -966,6 +1068,10 @@ msgstr ""
 
 #: main.cpp:417
 msgid "disable gpg signature checking (if RPM policy allows)"
+msgstr ""
+
+#: main.cpp:433
+msgid "Disable all libdnf5 plugins"
 msgstr ""
 
 #: main.cpp:443
