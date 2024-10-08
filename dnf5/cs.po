@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-05 03:03+0000\n"
+"POT-Creation-Date: 2024-10-08 03:14+0000\n"
 "PO-Revision-Date: 2024-02-06 09:36+0000\n"
 "Last-Translator: Petr Ptacek <petr106@atlas.cz>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf5/dnf5/"
@@ -18,6 +18,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Weblate 5.3.1\n"
+
+#: commands/advisory/advisory.cpp:36
+#, fuzzy
+#| msgid "List advisories"
+msgid "Manage advisories"
+msgstr "Seznam doporučení"
 
 #: commands/advisory/advisory_info.hpp:33
 msgid "Print details about advisories"
@@ -158,6 +164,16 @@ msgstr ""
 msgid "CVE_ID,..."
 msgstr "CVE_ID,..."
 
+#: commands/autoremove/autoremove.cpp:38
+msgid "Remove all unneeded packages originally installed as dependencies."
+msgstr ""
+
+#: commands/check-upgrade/check-upgrade.cpp:47
+#, fuzzy
+#| msgid "Allow skipping unavailable packages"
+msgid "Check for available package upgrades"
+msgstr "Povolit přeskočení nedostupných balíčků"
+
 #: commands/check-upgrade/check-upgrade.cpp:54
 msgid ""
 "Reports the lowest versions of packages that fix advisories of type bugfix, "
@@ -165,6 +181,12 @@ msgid ""
 "advisories is used it reports the lowest versions of packages that fix "
 "advisories matching selected advisory properties"
 msgstr ""
+
+#: commands/check/check.cpp:247
+#, fuzzy
+#| msgid "Check discovered {} problem(s) in {} package(s)"
+msgid "Check for problems in the packagedb"
+msgstr "Zkontroluje zjištěné {} problémy v {} balíčcích"
 
 #: commands/check/check.cpp:335
 msgid "Check discovered {} problem(s) in {} package(s)"
@@ -191,6 +213,21 @@ msgstr ""
 #| msgid "Cannot load shared library \"{}\": {}"
 msgid "Cannot iterate cache directory \"{}\": {}"
 msgstr "Nelze načíst sdílenou knihovnu \"{}\": {}"
+
+#: commands/debuginfo-install/debuginfo-install.cpp:45
+#, fuzzy
+#| msgid "Allow skipping unavailable packages"
+msgid "Install debuginfo packages."
+msgstr "Povolit přeskočení nedostupných balíčků"
+
+#: commands/distro-sync/distro-sync.cpp:42
+msgid ""
+"Upgrade or downgrade installed software to the latest available versions"
+msgstr ""
+
+#: commands/downgrade/downgrade.cpp:40
+msgid "Downgrade software"
+msgstr ""
 
 #: commands/download/download.cpp:105
 msgid "When running with --url, prints URLs from all available mirrors"
@@ -220,6 +257,10 @@ msgstr "Zobrazí pouze nainstalovaná prostředí."
 #: commands/environment/arguments.hpp:47
 msgid "Pattern matching environment IDs."
 msgstr "ID prostředí odpovídající vzoru."
+
+#: commands/environment/environment.cpp:35
+msgid "Manage comps environments"
+msgstr ""
 
 #: commands/group/arguments.hpp:34
 msgid "Show only available groups."
@@ -272,6 +313,12 @@ msgstr ""
 msgid "Don't consider extra packages pulled into the transaction as errors."
 msgstr ""
 
+#: commands/history/history.cpp:41
+#, fuzzy
+#| msgid "Transaction ID"
+msgid "Manage transaction history"
+msgstr "ID transakce"
+
 #: commands/history/history_redo.cpp:53
 #: commands/history/history_rollback.cpp:57
 #: commands/history/history_store.cpp:65 commands/history/history_undo.cpp:56
@@ -303,6 +350,17 @@ msgid ""
 msgstr ""
 "Neplatný rozsah ID transakce \"{}\", očekává se \"ID\" nebo \"ID..ID\", kde "
 "ID je \"NUMBER\", \"last\" nebo \"last-NUMBER\"."
+
+#: commands/install/install.cpp:41
+#, fuzzy
+#| msgid "Installed"
+msgid "Install software"
+msgstr "Nainstalováno"
+
+#: commands/leaves/leaves.cpp:42
+msgid ""
+"List groups of installed packages not required by other installed packages"
+msgstr ""
 
 #: commands/list/list.cpp:44
 msgid "Lists packages depending on the packages' relation to the system"
@@ -390,6 +448,12 @@ msgstr ""
 msgid "No matching packages to list"
 msgstr "Žádné odpovídající balíčky k seznamu"
 
+#: commands/mark/mark.cpp:38
+#, fuzzy
+#| msgid "Show advisories containing any version of installed packages."
+msgid "Change the reason of an installed package"
+msgstr "Zobrazí doporučení obsahující jakoukoli verzi nainstalovaných balíčků."
+
 #: commands/module/arguments.hpp:36
 msgid "Show enabled modules."
 msgstr "Zobrazí povolené moduly."
@@ -401,6 +465,12 @@ msgstr "Zobrazí zakázané moduly."
 #: commands/module/arguments.hpp:50
 msgid "Pattern matching module NSVCAs."
 msgstr "Modul NSVCA odpovídající vzoru."
+
+#: commands/module/module.cpp:43
+#, fuzzy
+#| msgid "Show enabled modules."
+msgid "Manage modules"
+msgstr "Zobrazí povolené moduly."
 
 #: commands/module/module_list.cpp:85
 msgid "No matches found for \"{}\"."
@@ -551,6 +621,22 @@ msgstr ""
 msgid "Unknown offline transaction status: "
 msgstr ""
 
+#: commands/provides/provides.cpp:48
+msgid "Find what package provides the given value"
+msgstr ""
+
+#: commands/reinstall/reinstall.cpp:40
+msgid "Reinstall software"
+msgstr ""
+
+#: commands/remove/remove.cpp:40
+msgid "Remove (uninstall) software"
+msgstr ""
+
+#: commands/replay/replay.cpp:38
+msgid "Replay a transaction that was previously stored to a directory"
+msgstr ""
+
 #: commands/repo/arguments.hpp:35
 msgid "Show all repositories."
 msgstr "Zobrazí všechny repozitáře."
@@ -566,6 +652,16 @@ msgstr "Zobrazí zakázané repozitáře."
 #: commands/repo/arguments.hpp:56
 msgid "Pattern matching repo IDs."
 msgstr "ID repozitáře odpovídající vzoru."
+
+#: commands/repo/repo.cpp:38
+#, fuzzy
+#| msgid "Show all repositories."
+msgid "Manage repositories"
+msgstr "Zobrazí všechny repozitáře."
+
+#: commands/repoquery/repoquery.cpp:80
+msgid "Search for packages matching various criteria"
+msgstr ""
 
 #: commands/repoquery/repoquery.cpp:516
 msgid ""
@@ -590,6 +686,14 @@ msgstr "Prohledá také popis balíčku a URL."
 #: commands/search/arguments.hpp:45
 msgid "Patterns"
 msgstr "Vzory"
+
+#: commands/search/search.cpp:44
+msgid "Search for software matching all specified strings"
+msgstr ""
+
+#: commands/swap/swap.cpp:42
+msgid "Remove software and install another in one transaction"
+msgstr ""
 
 #: commands/system-upgrade/system-upgrade.cpp:54
 msgid "Prepare system for upgrade to a new release"
@@ -617,6 +721,10 @@ msgstr ""
 msgid "Store an upgrade transaction to be performed offline"
 msgstr ""
 
+#: commands/upgrade/upgrade.cpp:41
+msgid "Upgrade software"
+msgstr ""
+
 #: commands/upgrade/upgrade.cpp:48
 msgid ""
 "Upgrade packages only to the lowest versions that fix advisories of type "
@@ -628,6 +736,10 @@ msgstr ""
 #. TODO(mblaha): add full command line
 #: commands/versionlock/utils.cpp:35
 msgid "Added by 'versionlock {}' command on {}"
+msgstr ""
+
+#: commands/versionlock/versionlock.cpp:40
+msgid "Manage versionlock configuration"
 msgstr ""
 
 #: commands/versionlock/versionlock_add.cpp:37
@@ -931,6 +1043,10 @@ msgstr ""
 msgid "setopt: \"{0}\": {1}"
 msgstr "setopt: \"{0}\": {1}"
 
+#: main.cpp:269
+msgid "set arbitrary variable"
+msgstr ""
+
 #: main.cpp:283
 msgid "setvar: {}"
 msgstr "setvar: {}"
@@ -941,6 +1057,10 @@ msgstr ""
 
 #: main.cpp:299
 msgid "automatically answer no for all questions"
+msgstr ""
+
+#: main.cpp:306
+msgid "try the best available package versions in transactions"
 msgstr ""
 
 #: main.cpp:313
@@ -977,6 +1097,10 @@ msgstr ""
 
 #: main.cpp:417
 msgid "disable gpg signature checking (if RPM policy allows)"
+msgstr ""
+
+#: main.cpp:433
+msgid "Disable all libdnf5 plugins"
 msgstr ""
 
 #: main.cpp:443

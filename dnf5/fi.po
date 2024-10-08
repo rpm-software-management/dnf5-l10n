@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-05 03:03+0000\n"
+"POT-Creation-Date: 2024-10-08 03:14+0000\n"
 "PO-Revision-Date: 2024-09-05 13:38+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -19,6 +19,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.7.2\n"
+
+#: commands/advisory/advisory.cpp:36
+#, fuzzy
+#| msgid "List advisories"
+msgid "Manage advisories"
+msgstr "Luettele neuvot"
 
 #: commands/advisory/advisory_info.hpp:33
 msgid "Print details about advisories"
@@ -164,6 +170,16 @@ msgstr ""
 msgid "CVE_ID,..."
 msgstr "CVE-TUNNUS,..."
 
+#: commands/autoremove/autoremove.cpp:38
+msgid "Remove all unneeded packages originally installed as dependencies."
+msgstr ""
+
+#: commands/check-upgrade/check-upgrade.cpp:47
+#, fuzzy
+#| msgid "List available packages."
+msgid "Check for available package upgrades"
+msgstr "Luetteloi saatavilla olevat paketit."
+
 #: commands/check-upgrade/check-upgrade.cpp:54
 msgid ""
 "Reports the lowest versions of packages that fix advisories of type bugfix, "
@@ -175,6 +191,12 @@ msgstr ""
 "parannus-, turvallisuus- tai uusi_paketti-tyyppisiä neuvoja. Jos käytetään "
 "mitä tahansa neuvoja rajoittavaa vaihtoehtoa, se raportoi pakettien alimmat "
 "versiot, jotka korjaavat valittuja neuvo-ominaisuuksia vastaavat neuvot"
+
+#: commands/check/check.cpp:247
+#, fuzzy
+#| msgid "Check discovered {} problem(s) in {} package(s)"
+msgid "Check for problems in the packagedb"
+msgstr "Tarkista löydetyt {} ongelmat {} paketeissa"
 
 #: commands/check/check.cpp:335
 msgid "Check discovered {} problem(s) in {} package(s)"
@@ -199,6 +221,21 @@ msgstr ""
 
 #: commands/clean/clean.cpp:180
 msgid "Cannot iterate cache directory \"{}\": {}"
+msgstr ""
+
+#: commands/debuginfo-install/debuginfo-install.cpp:45
+#, fuzzy
+#| msgid "List installed packages."
+msgid "Install debuginfo packages."
+msgstr "Luetteloi asennetut paketit."
+
+#: commands/distro-sync/distro-sync.cpp:42
+msgid ""
+"Upgrade or downgrade installed software to the latest available versions"
+msgstr ""
+
+#: commands/downgrade/downgrade.cpp:40
+msgid "Downgrade software"
 msgstr ""
 
 #: commands/download/download.cpp:105
@@ -229,6 +266,10 @@ msgstr "Näytä vain asennetut ympäristöt."
 #: commands/environment/arguments.hpp:47
 msgid "Pattern matching environment IDs."
 msgstr "Lauseketta vastaavat ympäristötunnukset."
+
+#: commands/environment/environment.cpp:35
+msgid "Manage comps environments"
+msgstr ""
 
 #: commands/group/arguments.hpp:34
 msgid "Show only available groups."
@@ -284,6 +325,12 @@ msgstr ""
 msgid "Don't consider extra packages pulled into the transaction as errors."
 msgstr "Älä pidä tapahtumaan vedettyjä ylimääräisiä paketteja virheinä."
 
+#: commands/history/history.cpp:41
+#, fuzzy
+#| msgid "Transaction ID"
+msgid "Manage transaction history"
+msgstr "Tapahtumatunnus"
+
 #: commands/history/history_redo.cpp:53
 #: commands/history/history_rollback.cpp:57
 #: commands/history/history_store.cpp:65 commands/history/history_undo.cpp:56
@@ -312,6 +359,17 @@ msgid ""
 msgstr ""
 "Virheellinen tapahtumatunnusalue \"{}\", \"ID\" tai \"ID..ID\" odotettiin, "
 "jossa tunnus on \"Numero\", \"viimeinen\" tai \"viimeinen-Numero\"."
+
+#: commands/install/install.cpp:41
+#, fuzzy
+#| msgid "Installed"
+msgid "Install software"
+msgstr "Asennettu"
+
+#: commands/leaves/leaves.cpp:42
+msgid ""
+"List groups of installed packages not required by other installed packages"
+msgstr ""
 
 #: commands/list/list.cpp:44
 msgid "Lists packages depending on the packages' relation to the system"
@@ -399,6 +457,14 @@ msgstr ""
 msgid "No matching packages to list"
 msgstr "Ei yhtään vastaavaa pakettia lueteltavaksi"
 
+#: commands/mark/mark.cpp:38
+#, fuzzy
+#| msgid "Show advisories containing any version of installed packages."
+msgid "Change the reason of an installed package"
+msgstr ""
+"Näytä neuvoja, jotka sisältävät minkä tahansa version asennettuista "
+"paketeista."
+
 #: commands/module/arguments.hpp:36
 msgid "Show enabled modules."
 msgstr ""
@@ -409,6 +475,10 @@ msgstr ""
 
 #: commands/module/arguments.hpp:50
 msgid "Pattern matching module NSVCAs."
+msgstr ""
+
+#: commands/module/module.cpp:43
+msgid "Manage modules"
 msgstr ""
 
 #: commands/module/module_list.cpp:85
@@ -556,6 +626,24 @@ msgstr ""
 msgid "Unknown offline transaction status: "
 msgstr ""
 
+#: commands/provides/provides.cpp:48
+msgid "Find what package provides the given value"
+msgstr ""
+
+#: commands/reinstall/reinstall.cpp:40
+#, fuzzy
+#| msgid "set install root"
+msgid "Reinstall software"
+msgstr "aseta asennusjuuri"
+
+#: commands/remove/remove.cpp:40
+msgid "Remove (uninstall) software"
+msgstr ""
+
+#: commands/replay/replay.cpp:38
+msgid "Replay a transaction that was previously stored to a directory"
+msgstr ""
+
 #: commands/repo/arguments.hpp:35
 msgid "Show all repositories."
 msgstr ""
@@ -570,6 +658,14 @@ msgstr ""
 
 #: commands/repo/arguments.hpp:56
 msgid "Pattern matching repo IDs."
+msgstr ""
+
+#: commands/repo/repo.cpp:38
+msgid "Manage repositories"
+msgstr ""
+
+#: commands/repoquery/repoquery.cpp:80
+msgid "Search for packages matching various criteria"
 msgstr ""
 
 #: commands/repoquery/repoquery.cpp:516
@@ -590,6 +686,14 @@ msgstr "Hae myös paketin kuvausta ja URL:ta."
 
 #: commands/search/arguments.hpp:45
 msgid "Patterns"
+msgstr ""
+
+#: commands/search/search.cpp:44
+msgid "Search for software matching all specified strings"
+msgstr ""
+
+#: commands/swap/swap.cpp:42
+msgid "Remove software and install another in one transaction"
 msgstr ""
 
 #: commands/system-upgrade/system-upgrade.cpp:54
@@ -619,6 +723,10 @@ msgstr ""
 msgid "Store an upgrade transaction to be performed offline"
 msgstr ""
 
+#: commands/upgrade/upgrade.cpp:41
+msgid "Upgrade software"
+msgstr ""
+
 #: commands/upgrade/upgrade.cpp:48
 msgid ""
 "Upgrade packages only to the lowest versions that fix advisories of type "
@@ -630,6 +738,10 @@ msgstr ""
 #. TODO(mblaha): add full command line
 #: commands/versionlock/utils.cpp:35
 msgid "Added by 'versionlock {}' command on {}"
+msgstr ""
+
+#: commands/versionlock/versionlock.cpp:40
+msgid "Manage versionlock configuration"
 msgstr ""
 
 #: commands/versionlock/versionlock_add.cpp:37
@@ -922,6 +1034,10 @@ msgstr ""
 msgid "setopt: \"{0}\": {1}"
 msgstr ""
 
+#: main.cpp:269
+msgid "set arbitrary variable"
+msgstr ""
+
 #: main.cpp:283
 msgid "setvar: {}"
 msgstr ""
@@ -933,6 +1049,10 @@ msgstr "vastaa automaattisesti \"kyllä\" kaikkiin kysymyksiin"
 #: main.cpp:299
 msgid "automatically answer no for all questions"
 msgstr "vastaa automaattisesti \"ei\" kaikkiin kysymyksiin"
+
+#: main.cpp:306
+msgid "try the best available package versions in transactions"
+msgstr ""
 
 #: main.cpp:313
 msgid "do not limit the transaction to the best candidate"
@@ -974,6 +1094,10 @@ msgstr ""
 msgid "disable gpg signature checking (if RPM policy allows)"
 msgstr ""
 "poista GPG-allekirjoituksen tarkistus käytöstä (jos RPM-käytäntö sallii sen)"
+
+#: main.cpp:433
+msgid "Disable all libdnf5 plugins"
+msgstr ""
 
 #: main.cpp:443
 msgid ""

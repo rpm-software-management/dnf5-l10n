@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-05 03:03+0000\n"
+"POT-Creation-Date: 2024-10-08 03:14+0000\n"
 "PO-Revision-Date: 2024-10-05 02:52+0000\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -18,6 +18,12 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
 "X-Generator: Weblate 5.7.2\n"
+
+#: commands/advisory/advisory.cpp:36
+#, fuzzy
+#| msgid "List advisories"
+msgid "Manage advisories"
+msgstr "Listează avizele"
 
 #: commands/advisory/advisory_info.hpp:33
 msgid "Print details about advisories"
@@ -159,6 +165,16 @@ msgstr ""
 msgid "CVE_ID,..."
 msgstr "ID_CVE,..."
 
+#: commands/autoremove/autoremove.cpp:38
+msgid "Remove all unneeded packages originally installed as dependencies."
+msgstr ""
+
+#: commands/check-upgrade/check-upgrade.cpp:47
+#, fuzzy
+#| msgid "List available packages."
+msgid "Check for available package upgrades"
+msgstr "Listează pachetele disponibile."
+
 #: commands/check-upgrade/check-upgrade.cpp:54
 msgid ""
 "Reports the lowest versions of packages that fix advisories of type bugfix, "
@@ -172,6 +188,12 @@ msgstr ""
 "utilizează orice opțiune de limitare a avertismentelor, se raportează cele "
 "mai mici versiuni ale pachetelor care soluționează avertismentele care "
 "corespund proprietăților avertismentelor selectate"
+
+#: commands/check/check.cpp:247
+#, fuzzy
+#| msgid "Check discovered {} problem(s) in {} package(s)"
+msgid "Check for problems in the packagedb"
+msgstr "Verifică {} problemă(e) descoperită(e) în {} pachet(e)"
 
 #: commands/check/check.cpp:335
 msgid "Check discovered {} problem(s) in {} package(s)"
@@ -196,6 +218,21 @@ msgstr "Directorul de cache „{}” nu există. Nu este nimic de curățat."
 #: commands/clean/clean.cpp:180
 msgid "Cannot iterate cache directory \"{}\": {}"
 msgstr "Nu se poate itera directorul de cache „{}”: {}"
+
+#: commands/debuginfo-install/debuginfo-install.cpp:45
+#, fuzzy
+#| msgid "Installed packages"
+msgid "Install debuginfo packages."
+msgstr "Pachete instalate"
+
+#: commands/distro-sync/distro-sync.cpp:42
+msgid ""
+"Upgrade or downgrade installed software to the latest available versions"
+msgstr ""
+
+#: commands/downgrade/downgrade.cpp:40
+msgid "Downgrade software"
+msgstr ""
 
 #: commands/download/download.cpp:105
 msgid "When running with --url, prints URLs from all available mirrors"
@@ -227,6 +264,10 @@ msgstr "Afișează numai mediile instalate."
 #: commands/environment/arguments.hpp:47
 msgid "Pattern matching environment IDs."
 msgstr "Model de căutat în ID-urile de mediu."
+
+#: commands/environment/environment.cpp:35
+msgid "Manage comps environments"
+msgstr ""
 
 #: commands/group/arguments.hpp:34
 msgid "Show only available groups."
@@ -283,6 +324,12 @@ msgid "Don't consider extra packages pulled into the transaction as errors."
 msgstr ""
 "Nu consideră pachetele suplimentare introduse în tranzacție drept erori."
 
+#: commands/history/history.cpp:41
+#, fuzzy
+#| msgid "Manage offline transactions"
+msgid "Manage transaction history"
+msgstr "Gestionează tranzacțiile fără conexiune la rețea"
+
 #: commands/history/history_redo.cpp:53
 #: commands/history/history_rollback.cpp:57
 #: commands/history/history_store.cpp:65 commands/history/history_undo.cpp:56
@@ -313,6 +360,19 @@ msgid ""
 msgstr ""
 "Intervalul ID al tranzacției „{}” nu este valid, „ID” sau „ID..ID” așteptat, "
 "unde ID este „NUMBER”, „last” sau „last-NUMBER”."
+
+#: commands/install/install.cpp:41
+#, fuzzy
+#| msgid "Installed"
+msgid "Install software"
+msgstr "Instalate"
+
+#: commands/leaves/leaves.cpp:42
+#, fuzzy
+#| msgid "List upgrades available for the installed packages."
+msgid ""
+"List groups of installed packages not required by other installed packages"
+msgstr "Listează actualizările disponibile pentru pachetele instalate."
 
 #: commands/list/list.cpp:44
 msgid "Lists packages depending on the packages' relation to the system"
@@ -395,6 +455,12 @@ msgstr "Pachete adăugate recent"
 msgid "No matching packages to list"
 msgstr "Nu există pachete care să se potrivească de listat"
 
+#: commands/mark/mark.cpp:38
+#, fuzzy
+#| msgid "Show advisories containing any version of installed packages."
+msgid "Change the reason of an installed package"
+msgstr "Afișează avizele care conțin orice versiune a pachetelor instalate."
+
 #: commands/module/arguments.hpp:36
 msgid "Show enabled modules."
 msgstr "Afișează modulele activate."
@@ -406,6 +472,12 @@ msgstr "Afișează modulele dezactivate."
 #: commands/module/arguments.hpp:50
 msgid "Pattern matching module NSVCAs."
 msgstr "Model de căutat în modulele NSVCA."
+
+#: commands/module/module.cpp:43
+#, fuzzy
+#| msgid "Show enabled modules."
+msgid "Manage modules"
+msgstr "Afișează modulele activate."
 
 #: commands/module/module_list.cpp:85
 msgid "No matches found for \"{}\"."
@@ -578,6 +650,24 @@ msgstr ""
 msgid "Unknown offline transaction status: "
 msgstr "Stare necunoscută a tranzacției fără conexiune la rețea: "
 
+#: commands/provides/provides.cpp:48
+msgid "Find what package provides the given value"
+msgstr ""
+
+#: commands/reinstall/reinstall.cpp:40
+#, fuzzy
+#| msgid "set install root"
+msgid "Reinstall software"
+msgstr "Definește rădăcina instalării"
+
+#: commands/remove/remove.cpp:40
+msgid "Remove (uninstall) software"
+msgstr ""
+
+#: commands/replay/replay.cpp:38
+msgid "Replay a transaction that was previously stored to a directory"
+msgstr ""
+
 #: commands/repo/arguments.hpp:35
 msgid "Show all repositories."
 msgstr "Afișează toate depozitele."
@@ -593,6 +683,16 @@ msgstr "Afișează depozitele dezactivate."
 #: commands/repo/arguments.hpp:56
 msgid "Pattern matching repo IDs."
 msgstr "Model de căutat în ID-uri de depozite."
+
+#: commands/repo/repo.cpp:38
+#, fuzzy
+#| msgid "Show all repositories."
+msgid "Manage repositories"
+msgstr "Afișează toate depozitele."
+
+#: commands/repoquery/repoquery.cpp:80
+msgid "Search for packages matching various criteria"
+msgstr ""
 
 #: commands/repoquery/repoquery.cpp:516
 msgid ""
@@ -617,6 +717,14 @@ msgstr "Caută, de asemenea, descrierea pachetului și adresa URL."
 #: commands/search/arguments.hpp:45
 msgid "Patterns"
 msgstr "Modele"
+
+#: commands/search/search.cpp:44
+msgid "Search for software matching all specified strings"
+msgstr ""
+
+#: commands/swap/swap.cpp:42
+msgid "Remove software and install another in one transaction"
+msgstr ""
 
 #: commands/system-upgrade/system-upgrade.cpp:54
 msgid "Prepare system for upgrade to a new release"
@@ -651,6 +759,10 @@ msgid "Store an upgrade transaction to be performed offline"
 msgstr ""
 "Stochează o tranzacție de actualizare pentru a fi efectuată fără conexiune"
 
+#: commands/upgrade/upgrade.cpp:41
+msgid "Upgrade software"
+msgstr ""
+
 #: commands/upgrade/upgrade.cpp:48
 msgid ""
 "Upgrade packages only to the lowest versions that fix advisories of type "
@@ -669,6 +781,12 @@ msgstr ""
 #: commands/versionlock/utils.cpp:35
 msgid "Added by 'versionlock {}' command on {}"
 msgstr "Adăugat de comanda „versionlock {}” pe {}"
+
+#: commands/versionlock/versionlock.cpp:40
+#, fuzzy
+#| msgid "Add new entry to versionlock configuration"
+msgid "Manage versionlock configuration"
+msgstr "Adaugă o nouă intrare la configurația versionlock"
 
 #: commands/versionlock/versionlock_add.cpp:37
 msgid "Add new entry to versionlock configuration"
@@ -981,6 +1099,10 @@ msgstr ""
 msgid "setopt: \"{0}\": {1}"
 msgstr "setopt: \"{0}\": {1}"
 
+#: main.cpp:269
+msgid "set arbitrary variable"
+msgstr ""
+
 #: main.cpp:283
 msgid "setvar: {}"
 msgstr "setvar: {}"
@@ -992,6 +1114,12 @@ msgstr "răspunde automat afirmativ la toate întrebările"
 #: main.cpp:299
 msgid "automatically answer no for all questions"
 msgstr "răspunde automat negativ la toate întrebările"
+
+#: main.cpp:306
+#, fuzzy
+#| msgid "{} to allow extra packages in the transaction"
+msgid "try the best available package versions in transactions"
+msgstr "{} pentru a permite pachete suplimentare în tranzacție"
 
 #: main.cpp:313
 msgid "do not limit the transaction to the best candidate"
@@ -1037,6 +1165,10 @@ msgstr ""
 #: main.cpp:417
 msgid "disable gpg signature checking (if RPM policy allows)"
 msgstr "Dezactivează verificarea semnăturii gpg (dacă politica RPM o permite)"
+
+#: main.cpp:433
+msgid "Disable all libdnf5 plugins"
+msgstr ""
 
 #: main.cpp:443
 msgid ""

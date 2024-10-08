@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-05 03:03+0000\n"
+"POT-Creation-Date: 2024-10-08 03:14+0000\n"
 "PO-Revision-Date: 2024-10-03 02:54+0000\n"
 "Last-Translator: Byoungchan Lee <byoungchan.lee@gmx.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
@@ -20,6 +20,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.7.2\n"
+
+#: commands/advisory/advisory.cpp:36
+#, fuzzy
+#| msgid "List advisories"
+msgid "Manage advisories"
+msgstr "권고 사항 목록"
 
 #: commands/advisory/advisory_info.hpp:33
 msgid "Print details about advisories"
@@ -157,6 +163,16 @@ msgstr ""
 msgid "CVE_ID,..."
 msgstr "CVE_ID,..."
 
+#: commands/autoremove/autoremove.cpp:38
+msgid "Remove all unneeded packages originally installed as dependencies."
+msgstr ""
+
+#: commands/check-upgrade/check-upgrade.cpp:47
+#, fuzzy
+#| msgid "List available packages."
+msgid "Check for available package upgrades"
+msgstr "사용 할 수 있는 꾸러미 목록."
+
 #: commands/check-upgrade/check-upgrade.cpp:54
 msgid ""
 "Reports the lowest versions of packages that fix advisories of type bugfix, "
@@ -167,6 +183,12 @@ msgstr ""
 "결점 수정, 개선, 보안, 또는 신규 꾸러미 유형의 권고를 수정하는 꾸러미의 최저 "
 "버전을 보고합니다. 옵션을 제한하는 권고가 사용되는 경우 선택한 권고 속성과 일"
 "치하는 권고를 수정하는 최저 버전의 꾸러미를 보고합니다"
+
+#: commands/check/check.cpp:247
+#, fuzzy
+#| msgid "Check discovered {} problem(s) in {} package(s)"
+msgid "Check for problems in the packagedb"
+msgstr "{} 꾸러미에서 발견된 {} 문제를 점검합니다"
 
 #: commands/check/check.cpp:335
 msgid "Check discovered {} problem(s) in {} package(s)"
@@ -191,6 +213,21 @@ msgstr "캐쉬 디렉토리 \"{}\"가 존재하지 않습니다. 정리 할 게 
 #: commands/clean/clean.cpp:180
 msgid "Cannot iterate cache directory \"{}\": {}"
 msgstr "캐쉬 디렉토리를 반복 할 수 없습니다 \"{}\": {}"
+
+#: commands/debuginfo-install/debuginfo-install.cpp:45
+#, fuzzy
+#| msgid "Installed packages"
+msgid "Install debuginfo packages."
+msgstr "설치된 꾸러미"
+
+#: commands/distro-sync/distro-sync.cpp:42
+msgid ""
+"Upgrade or downgrade installed software to the latest available versions"
+msgstr ""
+
+#: commands/downgrade/downgrade.cpp:40
+msgid "Downgrade software"
+msgstr ""
 
 #: commands/download/download.cpp:105
 msgid "When running with --url, prints URLs from all available mirrors"
@@ -220,6 +257,10 @@ msgstr "설치된 환경만 표시합니다."
 #: commands/environment/arguments.hpp:47
 msgid "Pattern matching environment IDs."
 msgstr "유형이 일치되는 환경 IDs."
+
+#: commands/environment/environment.cpp:35
+msgid "Manage comps environments"
+msgstr ""
 
 #: commands/group/arguments.hpp:34
 msgid "Show only available groups."
@@ -275,6 +316,12 @@ msgstr ""
 msgid "Don't consider extra packages pulled into the transaction as errors."
 msgstr "연결에 포함된 추가 꾸러미를 오류로 고려하지 마세요."
 
+#: commands/history/history.cpp:41
+#, fuzzy
+#| msgid "Manage offline transactions"
+msgid "Manage transaction history"
+msgstr "오프라인 연결을 관리합니다"
+
 #: commands/history/history_redo.cpp:53
 #: commands/history/history_rollback.cpp:57
 #: commands/history/history_store.cpp:65 commands/history/history_undo.cpp:56
@@ -302,6 +349,19 @@ msgid ""
 msgstr ""
 "잘못된 연결 ID 범위 \"{}\", \"ID\" 또는 \"ID..ID\"가 예상되며, 여기서 ID는 "
 "\"NUMBER\", \"last\" 또는 \"last-NUMBER\"입니다."
+
+#: commands/install/install.cpp:41
+#, fuzzy
+#| msgid "Installed"
+msgid "Install software"
+msgstr "설치되었습니다"
+
+#: commands/leaves/leaves.cpp:42
+#, fuzzy
+#| msgid "List upgrades available for the installed packages."
+msgid ""
+"List groups of installed packages not required by other installed packages"
+msgstr "설치된 꾸러미를 위해 사용 가능한 향상을 나열합니다."
 
 #: commands/list/list.cpp:44
 msgid "Lists packages depending on the packages' relation to the system"
@@ -383,6 +443,12 @@ msgstr "최근에 추가된 꾸러미"
 msgid "No matching packages to list"
 msgstr "목록과 일치하는 꾸러미가 없습니다"
 
+#: commands/mark/mark.cpp:38
+#, fuzzy
+#| msgid "Show advisories containing any version of installed packages."
+msgid "Change the reason of an installed package"
+msgstr "설치된 꾸러미의 모든 버전을 포함하는 권고를 표시합니다."
+
 #: commands/module/arguments.hpp:36
 msgid "Show enabled modules."
 msgstr "활성화된 모듈을 표시합니다."
@@ -394,6 +460,12 @@ msgstr "비활성화된 모듈을 표시합니다."
 #: commands/module/arguments.hpp:50
 msgid "Pattern matching module NSVCAs."
 msgstr "유형이 일치되는 모듈 NSVCAs."
+
+#: commands/module/module.cpp:43
+#, fuzzy
+#| msgid "Show enabled modules."
+msgid "Manage modules"
+msgstr "활성화된 모듈을 표시합니다."
 
 #: commands/module/module_list.cpp:85
 msgid "No matches found for \"{}\"."
@@ -556,6 +628,24 @@ msgstr ""
 msgid "Unknown offline transaction status: "
 msgstr "알지 못하는 오프라인 연결 상태: "
 
+#: commands/provides/provides.cpp:48
+msgid "Find what package provides the given value"
+msgstr ""
+
+#: commands/reinstall/reinstall.cpp:40
+#, fuzzy
+#| msgid "set install root"
+msgid "Reinstall software"
+msgstr "설치 root 설정"
+
+#: commands/remove/remove.cpp:40
+msgid "Remove (uninstall) software"
+msgstr ""
+
+#: commands/replay/replay.cpp:38
+msgid "Replay a transaction that was previously stored to a directory"
+msgstr ""
+
 #: commands/repo/arguments.hpp:35
 msgid "Show all repositories."
 msgstr "모든 저장소를 표시합니다."
@@ -571,6 +661,16 @@ msgstr "비활성화된 저장소를 표시합니다."
 #: commands/repo/arguments.hpp:56
 msgid "Pattern matching repo IDs."
 msgstr "유형이 일치되는 저장소 IDs."
+
+#: commands/repo/repo.cpp:38
+#, fuzzy
+#| msgid "Show all repositories."
+msgid "Manage repositories"
+msgstr "모든 저장소를 표시합니다."
+
+#: commands/repoquery/repoquery.cpp:80
+msgid "Search for packages matching various criteria"
+msgstr ""
 
 #: commands/repoquery/repoquery.cpp:516
 msgid ""
@@ -595,6 +695,14 @@ msgstr "꾸러미 설명 및 URL도 검색."
 #: commands/search/arguments.hpp:45
 msgid "Patterns"
 msgstr "유형"
+
+#: commands/search/search.cpp:44
+msgid "Search for software matching all specified strings"
+msgstr ""
+
+#: commands/swap/swap.cpp:42
+msgid "Remove software and install another in one transaction"
+msgstr ""
 
 #: commands/system-upgrade/system-upgrade.cpp:54
 msgid "Prepare system for upgrade to a new release"
@@ -623,6 +731,10 @@ msgstr "distro-sync 연결을 저장하고 오프라인에서 수행됩니다"
 msgid "Store an upgrade transaction to be performed offline"
 msgstr "향상 연결을 저장하고 오프라인을 수행합니다"
 
+#: commands/upgrade/upgrade.cpp:41
+msgid "Upgrade software"
+msgstr ""
+
 #: commands/upgrade/upgrade.cpp:48
 msgid ""
 "Upgrade packages only to the lowest versions that fix advisories of type "
@@ -638,6 +750,12 @@ msgstr ""
 #: commands/versionlock/utils.cpp:35
 msgid "Added by 'versionlock {}' command on {}"
 msgstr "{}에서 'versionlock {}' 명령에 의해 추가됨"
+
+#: commands/versionlock/versionlock.cpp:40
+#, fuzzy
+#| msgid "Add new entry to versionlock configuration"
+msgid "Manage versionlock configuration"
+msgstr "신규 항목을 versionlock 구성에 추가합니다"
 
 #: commands/versionlock/versionlock_add.cpp:37
 msgid "Add new entry to versionlock configuration"
@@ -938,6 +1056,10 @@ msgstr ""
 msgid "setopt: \"{0}\": {1}"
 msgstr "setopt: \"{0}\": {1}"
 
+#: main.cpp:269
+msgid "set arbitrary variable"
+msgstr ""
+
 #: main.cpp:283
 msgid "setvar: {}"
 msgstr "setvar: {}"
@@ -949,6 +1071,12 @@ msgstr "모든 질문에 대해 예로 자동 응답합니다"
 #: main.cpp:299
 msgid "automatically answer no for all questions"
 msgstr "모든 질문에 대해 아니오로 자동 응답합니다"
+
+#: main.cpp:306
+#, fuzzy
+#| msgid "{} to allow extra packages in the transaction"
+msgid "try the best available package versions in transactions"
+msgstr "{} 를 연결에서 추가 꾸러미를 허용합니다"
 
 #: main.cpp:313
 msgid "do not limit the transaction to the best candidate"
@@ -992,6 +1120,10 @@ msgstr ""
 #: main.cpp:417
 msgid "disable gpg signature checking (if RPM policy allows)"
 msgstr "gpg 서명 확인을 비활성화 (RPM 정책이 허용하는 경우)"
+
+#: main.cpp:433
+msgid "Disable all libdnf5 plugins"
+msgstr ""
 
 #: main.cpp:443
 msgid ""
