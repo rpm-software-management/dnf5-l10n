@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-08 03:14+0000\n"
-"PO-Revision-Date: 2024-08-03 03:41+0000\n"
+"PO-Revision-Date: 2024-10-08 08:41+0000\n"
 "Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5daemon-client/fr/>\n"
@@ -17,13 +17,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Weblate 5.7.2\n"
 
 #: commands/advisory/advisory.cpp:35
-#, fuzzy
-#| msgid "List advisories"
 msgid "Manage advisories"
-msgstr "Lister les avertissements"
+msgstr "Gérer les avertissements"
 
 #: commands/advisory/advisory_info.hpp:34
 msgid "Print details about advisories"
@@ -164,10 +162,12 @@ msgstr "Erreur lors du nettoyage du cache : {}"
 msgid ""
 "Upgrade or downgrade installed software to the latest available versions"
 msgstr ""
+"Installer la dernière version disponible des logiciels installés ("
+"réinstallation de versions antérieures possible)"
 
 #: commands/group/group.cpp:41
 msgid "Manage comps groups"
-msgstr ""
+msgstr "Gérer les groupes de comps"
 
 #: commands/group/group_list.hpp:37
 msgid "Show only available groups."
@@ -191,11 +191,11 @@ msgstr ""
 
 #: commands/repo/repo.cpp:37
 msgid "Manage repositories"
-msgstr ""
+msgstr "Gérer les dépôts"
 
 #: commands/repoquery/repoquery.cpp:95
 msgid "search for packages matching various criteria"
-msgstr ""
+msgstr "rechercher les paquets correspondant à certains critères"
 
 #: commands/repoquery/repoquery.cpp:159
 msgid "Error parsing JSON object \"{}\": {}"
