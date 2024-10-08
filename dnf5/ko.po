@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-08 03:14+0000\n"
-"PO-Revision-Date: 2024-10-03 02:54+0000\n"
+"PO-Revision-Date: 2024-10-08 14:56+0000\n"
 "Last-Translator: Byoungchan Lee <byoungchan.lee@gmx.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ko/>\n"
@@ -22,10 +22,8 @@ msgstr ""
 "X-Generator: Weblate 5.7.2\n"
 
 #: commands/advisory/advisory.cpp:36
-#, fuzzy
-#| msgid "List advisories"
 msgid "Manage advisories"
-msgstr "권고 사항 목록"
+msgstr "권고 사항 관리"
 
 #: commands/advisory/advisory_info.hpp:33
 msgid "Print details about advisories"
@@ -155,9 +153,8 @@ msgstr "버그질라_ID,..."
 msgid ""
 "Limit to packages in advisories that fix a CVE (Common Vulnerabilities and "
 "Exposures) ID, Eg. CVE-2201-0123. List option."
-msgstr ""
-"CVE(일반 취약점 및 노출) ID(예: CVE-2201-0123)로 수정된 권고의 꾸로미로 제한"
-"합니다. 옵션 목록."
+msgstr "CVE(일반 취약점 및 노출) ID(예: CVE-2201-0123)로 수정된 권고의 꾸러미로 "
+"제한합니다. 옵션 목록."
 
 #: commands/advisory_shared.hpp:180
 msgid "CVE_ID,..."
@@ -165,13 +162,11 @@ msgstr "CVE_ID,..."
 
 #: commands/autoremove/autoremove.cpp:38
 msgid "Remove all unneeded packages originally installed as dependencies."
-msgstr ""
+msgstr "종속성으로 설치된 모든 불필요한 꾸러미를 제거합니다."
 
 #: commands/check-upgrade/check-upgrade.cpp:47
-#, fuzzy
-#| msgid "List available packages."
 msgid "Check for available package upgrades"
-msgstr "사용 할 수 있는 꾸러미 목록."
+msgstr "사용 가능한 꾸러미 향상을 점검합니다"
 
 #: commands/check-upgrade/check-upgrade.cpp:54
 msgid ""
@@ -185,10 +180,8 @@ msgstr ""
 "치하는 권고를 수정하는 최저 버전의 꾸러미를 보고합니다"
 
 #: commands/check/check.cpp:247
-#, fuzzy
-#| msgid "Check discovered {} problem(s) in {} package(s)"
 msgid "Check for problems in the packagedb"
-msgstr "{} 꾸러미에서 발견된 {} 문제를 점검합니다"
+msgstr "꾸러미 데이터베이스의 문제를 점검합니다"
 
 #: commands/check/check.cpp:335
 msgid "Check discovered {} problem(s) in {} package(s)"
@@ -215,19 +208,17 @@ msgid "Cannot iterate cache directory \"{}\": {}"
 msgstr "캐쉬 디렉토리를 반복 할 수 없습니다 \"{}\": {}"
 
 #: commands/debuginfo-install/debuginfo-install.cpp:45
-#, fuzzy
-#| msgid "Installed packages"
 msgid "Install debuginfo packages."
-msgstr "설치된 꾸러미"
+msgstr "디버그 정보 꾸러미를 설치합니다."
 
 #: commands/distro-sync/distro-sync.cpp:42
 msgid ""
 "Upgrade or downgrade installed software to the latest available versions"
-msgstr ""
+msgstr "설치된 소프트웨어를 최신 사용 가능한 버전으로 업그레이드 또는 다운그레이드"
 
 #: commands/downgrade/downgrade.cpp:40
 msgid "Downgrade software"
-msgstr ""
+msgstr "소프트웨어 다운그레이드"
 
 #: commands/download/download.cpp:105
 msgid "When running with --url, prints URLs from all available mirrors"
@@ -317,10 +308,8 @@ msgid "Don't consider extra packages pulled into the transaction as errors."
 msgstr "연결에 포함된 추가 꾸러미를 오류로 고려하지 마세요."
 
 #: commands/history/history.cpp:41
-#, fuzzy
-#| msgid "Manage offline transactions"
 msgid "Manage transaction history"
-msgstr "오프라인 연결을 관리합니다"
+msgstr "연결 기록 관리"
 
 #: commands/history/history_redo.cpp:53
 #: commands/history/history_rollback.cpp:57
@@ -351,17 +340,13 @@ msgstr ""
 "\"NUMBER\", \"last\" 또는 \"last-NUMBER\"입니다."
 
 #: commands/install/install.cpp:41
-#, fuzzy
-#| msgid "Installed"
 msgid "Install software"
-msgstr "설치되었습니다"
+msgstr "소프트웨어 설치"
 
 #: commands/leaves/leaves.cpp:42
-#, fuzzy
-#| msgid "List upgrades available for the installed packages."
 msgid ""
 "List groups of installed packages not required by other installed packages"
-msgstr "설치된 꾸러미를 위해 사용 가능한 향상을 나열합니다."
+msgstr "다른 설치된 꾸러미에 의해 필요하지 않은 설치된 꾸러미 그룹을 나열합니다"
 
 #: commands/list/list.cpp:44
 msgid "Lists packages depending on the packages' relation to the system"
@@ -444,10 +429,8 @@ msgid "No matching packages to list"
 msgstr "목록과 일치하는 꾸러미가 없습니다"
 
 #: commands/mark/mark.cpp:38
-#, fuzzy
-#| msgid "Show advisories containing any version of installed packages."
 msgid "Change the reason of an installed package"
-msgstr "설치된 꾸러미의 모든 버전을 포함하는 권고를 표시합니다."
+msgstr "설치된 꾸러미의 이유를 변경합니다"
 
 #: commands/module/arguments.hpp:36
 msgid "Show enabled modules."
@@ -462,10 +445,8 @@ msgid "Pattern matching module NSVCAs."
 msgstr "유형이 일치되는 모듈 NSVCAs."
 
 #: commands/module/module.cpp:43
-#, fuzzy
-#| msgid "Show enabled modules."
 msgid "Manage modules"
-msgstr "활성화된 모듈을 표시합니다."
+msgstr "모듈 관리"
 
 #: commands/module/module_list.cpp:85
 msgid "No matches found for \"{}\"."
@@ -630,21 +611,19 @@ msgstr "알지 못하는 오프라인 연결 상태: "
 
 #: commands/provides/provides.cpp:48
 msgid "Find what package provides the given value"
-msgstr ""
+msgstr "주어진 값을 제공하는 꾸러미를 찾습니다"
 
 #: commands/reinstall/reinstall.cpp:40
-#, fuzzy
-#| msgid "set install root"
 msgid "Reinstall software"
-msgstr "설치 root 설정"
+msgstr "소프트웨어 다시 설치"
 
 #: commands/remove/remove.cpp:40
 msgid "Remove (uninstall) software"
-msgstr ""
+msgstr "소프트웨어 제거"
 
 #: commands/replay/replay.cpp:38
 msgid "Replay a transaction that was previously stored to a directory"
-msgstr ""
+msgstr "이전에 디렉토리에 저장된 연결을 다시 실행합니다"
 
 #: commands/repo/arguments.hpp:35
 msgid "Show all repositories."
@@ -663,14 +642,12 @@ msgid "Pattern matching repo IDs."
 msgstr "유형이 일치되는 저장소 IDs."
 
 #: commands/repo/repo.cpp:38
-#, fuzzy
-#| msgid "Show all repositories."
 msgid "Manage repositories"
-msgstr "모든 저장소를 표시합니다."
+msgstr "저장소 관리"
 
 #: commands/repoquery/repoquery.cpp:80
 msgid "Search for packages matching various criteria"
-msgstr ""
+msgstr "다양한 기준과 일치하는 꾸러미를 검색합니다"
 
 #: commands/repoquery/repoquery.cpp:516
 msgid ""
@@ -698,11 +675,11 @@ msgstr "유형"
 
 #: commands/search/search.cpp:44
 msgid "Search for software matching all specified strings"
-msgstr ""
+msgstr "모든 지정된 문자열과 일치하는 소프트웨어를 검색합니다"
 
 #: commands/swap/swap.cpp:42
 msgid "Remove software and install another in one transaction"
-msgstr ""
+msgstr "소프트웨어를 제거하고 다른 것을 한 번에 설치합니다"
 
 #: commands/system-upgrade/system-upgrade.cpp:54
 msgid "Prepare system for upgrade to a new release"
@@ -733,7 +710,7 @@ msgstr "향상 연결을 저장하고 오프라인을 수행합니다"
 
 #: commands/upgrade/upgrade.cpp:41
 msgid "Upgrade software"
-msgstr ""
+msgstr "소프트웨어 향상"
 
 #: commands/upgrade/upgrade.cpp:48
 msgid ""
@@ -752,10 +729,8 @@ msgid "Added by 'versionlock {}' command on {}"
 msgstr "{}에서 'versionlock {}' 명령에 의해 추가됨"
 
 #: commands/versionlock/versionlock.cpp:40
-#, fuzzy
-#| msgid "Add new entry to versionlock configuration"
 msgid "Manage versionlock configuration"
-msgstr "신규 항목을 versionlock 구성에 추가합니다"
+msgstr "versionlock 구성 관리"
 
 #: commands/versionlock/versionlock_add.cpp:37
 msgid "Add new entry to versionlock configuration"
@@ -1058,7 +1033,7 @@ msgstr "setopt: \"{0}\": {1}"
 
 #: main.cpp:269
 msgid "set arbitrary variable"
-msgstr ""
+msgstr "임의의 변수를 설정합니다"
 
 #: main.cpp:283
 msgid "setvar: {}"
@@ -1073,10 +1048,8 @@ msgid "automatically answer no for all questions"
 msgstr "모든 질문에 대해 아니오로 자동 응답합니다"
 
 #: main.cpp:306
-#, fuzzy
-#| msgid "{} to allow extra packages in the transaction"
 msgid "try the best available package versions in transactions"
-msgstr "{} 를 연결에서 추가 꾸러미를 허용합니다"
+msgstr "연결에서 최상의 사용 가능한 꾸러미 버전을 시도합니다"
 
 #: main.cpp:313
 msgid "do not limit the transaction to the best candidate"
@@ -1123,7 +1096,7 @@ msgstr "gpg 서명 확인을 비활성화 (RPM 정책이 허용하는 경우)"
 
 #: main.cpp:433
 msgid "Disable all libdnf5 plugins"
-msgstr ""
+msgstr "모든 libdnf5 플러그인을 비활성화합니다"
 
 #: main.cpp:443
 msgid ""
