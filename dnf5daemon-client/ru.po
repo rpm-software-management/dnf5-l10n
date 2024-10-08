@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-05 03:03+0000\n"
+"POT-Creation-Date: 2024-10-08 03:14+0000\n"
 "PO-Revision-Date: 2024-08-03 03:41+0000\n"
 "Last-Translator: Aleksey Fedorov <aleksejfedorov963@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -19,6 +19,12 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.6.2\n"
+
+#: commands/advisory/advisory.cpp:35
+#, fuzzy
+#| msgid "List advisories"
+msgid "Manage advisories"
+msgstr "Список рекомендаций"
 
 #: commands/advisory/advisory_info.hpp:34
 msgid "Print details about advisories"
@@ -149,6 +155,15 @@ msgstr "ID_CVE,…"
 msgid "Error cleaning the cache: {}"
 msgstr "Ошибка очистки кэша: {}"
 
+#: commands/distro-sync/distro-sync.cpp:48
+msgid ""
+"Upgrade or downgrade installed software to the latest available versions"
+msgstr ""
+
+#: commands/group/group.cpp:41
+msgid "Manage comps groups"
+msgstr ""
+
 #: commands/group/group_list.hpp:37
 msgid "Show only available groups."
 msgstr "Показывать только доступные группы."
@@ -169,7 +184,15 @@ msgstr ""
 "Показывать только группы, содержащие пакеты с указанными именами. Опция "
 "списка, поддерживает шаблоны поиска."
 
-#: commands/repoquery/repoquery.cpp:158
+#: commands/repo/repo.cpp:37
+msgid "Manage repositories"
+msgstr ""
+
+#: commands/repoquery/repoquery.cpp:95
+msgid "search for packages matching various criteria"
+msgstr ""
+
+#: commands/repoquery/repoquery.cpp:159
 msgid "Error parsing JSON object \"{}\": {}"
 msgstr "Ошибка при разборе объекта JSON \"{}\": {}"
 

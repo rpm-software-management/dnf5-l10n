@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-05 03:03+0000\n"
+"POT-Creation-Date: 2024-10-08 03:14+0000\n"
 "PO-Revision-Date: 2024-08-11 14:40+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -17,6 +17,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.6.2\n"
+
+#: commands/advisory/advisory.cpp:35
+#, fuzzy
+#| msgid "List advisories"
+msgid "Manage advisories"
+msgstr "Tavsiyeleri listele"
 
 #: commands/advisory/advisory_info.hpp:34
 msgid "Print details about advisories"
@@ -143,6 +149,15 @@ msgstr "CVE_KİMLİĞİ,..."
 msgid "Error cleaning the cache: {}"
 msgstr "Önbellek temizlenirken hata oluştu: {}"
 
+#: commands/distro-sync/distro-sync.cpp:48
+msgid ""
+"Upgrade or downgrade installed software to the latest available versions"
+msgstr ""
+
+#: commands/group/group.cpp:41
+msgid "Manage comps groups"
+msgstr ""
+
 #: commands/group/group_list.hpp:37
 msgid "Show only available groups."
 msgstr "Yalnızca kullanılabilir grupları göster."
@@ -163,7 +178,15 @@ msgstr ""
 "Yalnızca belirtilen adlara sahip paketleri içeren grupları göster. Liste "
 "seçeneği, globları destekler."
 
-#: commands/repoquery/repoquery.cpp:158
+#: commands/repo/repo.cpp:37
+msgid "Manage repositories"
+msgstr ""
+
+#: commands/repoquery/repoquery.cpp:95
+msgid "search for packages matching various criteria"
+msgstr ""
+
+#: commands/repoquery/repoquery.cpp:159
 msgid "Error parsing JSON object \"{}\": {}"
 msgstr "\"{}\" JSON nesnesi ayrıştırılırken hata oluştu: {}"
 

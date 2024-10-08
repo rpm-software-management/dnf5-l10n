@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-05 03:03+0000\n"
+"POT-Creation-Date: 2024-10-08 03:14+0000\n"
 "PO-Revision-Date: 2024-08-03 03:41+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -19,6 +19,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.6.2\n"
+
+#: commands/advisory/advisory.cpp:35
+#, fuzzy
+#| msgid "List advisories"
+msgid "Manage advisories"
+msgstr "Lista rekommendationer"
 
 #: commands/advisory/advisory_info.hpp:34
 msgid "Print details about advisories"
@@ -147,6 +153,15 @@ msgstr "CVE_ID,..."
 msgid "Error cleaning the cache: {}"
 msgstr "Fel vid rensning av cache: {}"
 
+#: commands/distro-sync/distro-sync.cpp:48
+msgid ""
+"Upgrade or downgrade installed software to the latest available versions"
+msgstr ""
+
+#: commands/group/group.cpp:41
+msgid "Manage comps groups"
+msgstr ""
+
 #: commands/group/group_list.hpp:37
 msgid "Show only available groups."
 msgstr "Visa endast tillgängliga grupper."
@@ -167,7 +182,15 @@ msgstr ""
 "Visa endast grupper som innehåller paket med angivna namn. Listflagga, "
 "stödjer ”glob”:ar."
 
-#: commands/repoquery/repoquery.cpp:158
+#: commands/repo/repo.cpp:37
+msgid "Manage repositories"
+msgstr ""
+
+#: commands/repoquery/repoquery.cpp:95
+msgid "search for packages matching various criteria"
+msgstr ""
+
+#: commands/repoquery/repoquery.cpp:159
 msgid "Error parsing JSON object \"{}\": {}"
 msgstr "Fel vid analys av JSON-objekt \"{}\": {}"
 
