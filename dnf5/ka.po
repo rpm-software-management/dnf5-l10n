@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-08 03:14+0000\n"
-"PO-Revision-Date: 2024-10-03 02:54+0000\n"
+"PO-Revision-Date: 2024-10-09 04:13+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ka/>\n"
@@ -20,10 +20,8 @@ msgstr ""
 "X-Generator: Weblate 5.7.2\n"
 
 #: commands/advisory/advisory.cpp:36
-#, fuzzy
-#| msgid "List advisories"
 msgid "Manage advisories"
-msgstr "რეკომენდაციების ჩვენება"
+msgstr "რეკომენდაციების მართვა"
 
 #: commands/advisory/advisory_info.hpp:33
 msgid "Print details about advisories"
@@ -173,12 +171,12 @@ msgstr "CVE_ID,..."
 #: commands/autoremove/autoremove.cpp:38
 msgid "Remove all unneeded packages originally installed as dependencies."
 msgstr ""
+"ყველა არასაჭირო პაკეტის წაშლა, რომელიც თავიდან დამოკიდებულების სახით იქნა "
+"დაყენებული."
 
 #: commands/check-upgrade/check-upgrade.cpp:47
-#, fuzzy
-#| msgid "List available packages."
 msgid "Check for available package upgrades"
-msgstr "ხელმისაწვდომი პაკეტების ჩამონათვალი."
+msgstr "ხელმისაწვდომი პაკეტების ვერსიის აწევის შემოწმება"
 
 #: commands/check-upgrade/check-upgrade.cpp:54
 msgid ""
@@ -224,19 +222,17 @@ msgid "Cannot iterate cache directory \"{}\": {}"
 msgstr "კეშის საქაღალდის \"{}\" იტერაცია შეუძლებელია: {}"
 
 #: commands/debuginfo-install/debuginfo-install.cpp:45
-#, fuzzy
-#| msgid "Installed packages"
 msgid "Install debuginfo packages."
-msgstr "დაყენებული პაკეტები"
+msgstr "debuginfo პაკეტების დაყენება."
 
 #: commands/distro-sync/distro-sync.cpp:42
 msgid ""
 "Upgrade or downgrade installed software to the latest available versions"
-msgstr ""
+msgstr "ასწიეთ ან ჩამოსწიეთ დაყენებული პროგრამები უახლეს ხელმისაწვდომ ვერსიაზე"
 
 #: commands/downgrade/downgrade.cpp:40
 msgid "Downgrade software"
-msgstr ""
+msgstr "პროგრამის ვერსიის ჩამოწევა"
 
 #: commands/download/download.cpp:105
 msgid "When running with --url, prints URLs from all available mirrors"
@@ -272,7 +268,7 @@ msgstr "გარემოს ID-ების შესაბამისი შ
 
 #: commands/environment/environment.cpp:35
 msgid "Manage comps environments"
-msgstr ""
+msgstr "Comps გარემოების მართვა"
 
 #: commands/group/arguments.hpp:34
 msgid "Show only available groups."
@@ -330,10 +326,8 @@ msgid "Don't consider extra packages pulled into the transaction as errors."
 msgstr "ტრანზაქციაში შეტანილი დამატებითი პაკეტები შეცდომად აღქმული არ იქნება."
 
 #: commands/history/history.cpp:41
-#, fuzzy
-#| msgid "Manage offline transactions"
 msgid "Manage transaction history"
-msgstr "ქსელის გარეშე ტრანზაქციების მართვა"
+msgstr "ტრანზაქციების ისტორიის მართვა"
 
 #: commands/history/history_redo.cpp:53
 #: commands/history/history_rollback.cpp:57
@@ -364,18 +358,15 @@ msgstr ""
 "სადაც ID რიცხვია, \"last\" (ბოლო), ან \"last-რიცხვი\"."
 
 #: commands/install/install.cpp:41
-#, fuzzy
-#| msgid "Installed"
 msgid "Install software"
-msgstr "დაყენებულია"
+msgstr "პროგრამების დაყენება"
 
 #: commands/leaves/leaves.cpp:42
-#, fuzzy
-#| msgid "List upgrades available for the installed packages."
 msgid ""
 "List groups of installed packages not required by other installed packages"
 msgstr ""
-"დაყენებული პაკეტებისთვის ხელმისაწვდომი ვერსიის განახლებების ჩამონათვალი."
+"ჯგუფების ჩამოთვლა დაყენებული პაკეტებისთვის, რომლებიც არც ერთ სხვა დაყენებულ "
+"პაკეტს სჭირდება"
 
 #: commands/list/list.cpp:44
 msgid "Lists packages depending on the packages' relation to the system"
@@ -459,11 +450,8 @@ msgid "No matching packages to list"
 msgstr "არცერთი პაკეტი არ ემთხვევა"
 
 #: commands/mark/mark.cpp:38
-#, fuzzy
-#| msgid "Show advisories containing any version of installed packages."
 msgid "Change the reason of an installed package"
-msgstr ""
-"დაყენებული პაკეტების ნებისმიერი ვერსიის შემცველი რეკომენდაციების ჩვენება."
+msgstr "დაყენებული პაკეტის მიზეზის შეცვლა"
 
 #: commands/module/arguments.hpp:36
 msgid "Show enabled modules."
@@ -478,10 +466,8 @@ msgid "Pattern matching module NSVCAs."
 msgstr "ნიმუში, რომელიც მოდულის NSVCA-ებს ემთხვევა."
 
 #: commands/module/module.cpp:43
-#, fuzzy
-#| msgid "Show enabled modules."
 msgid "Manage modules"
-msgstr "ჩართული მოდულების ჩვენება."
+msgstr "მოდულების მართვა"
 
 #: commands/module/module_list.cpp:85
 msgid "No matches found for \"{}\"."
@@ -654,18 +640,16 @@ msgid "Find what package provides the given value"
 msgstr ""
 
 #: commands/reinstall/reinstall.cpp:40
-#, fuzzy
-#| msgid "set install root"
 msgid "Reinstall software"
-msgstr "მიუთითეთ დაყენების root საქაღალდე"
+msgstr "პროგრამის თავიდან დაყენება"
 
 #: commands/remove/remove.cpp:40
 msgid "Remove (uninstall) software"
-msgstr ""
+msgstr "პროგრამების წაშლა"
 
 #: commands/replay/replay.cpp:38
 msgid "Replay a transaction that was previously stored to a directory"
-msgstr ""
+msgstr "ტრანზაქციის, რომელიც საქაღალდეში იყო შენახული, თავიდან გაშვება"
 
 #: commands/repo/arguments.hpp:35
 msgid "Show all repositories."
@@ -684,14 +668,12 @@ msgid "Pattern matching repo IDs."
 msgstr "რეპოზიტორიის ID-ების შესაბამისი შაბლონი."
 
 #: commands/repo/repo.cpp:38
-#, fuzzy
-#| msgid "Show all repositories."
 msgid "Manage repositories"
-msgstr "ყველა რეპოზიტორიის ჩვენება."
+msgstr "რეპოზიტორიების მართვა"
 
 #: commands/repoquery/repoquery.cpp:80
 msgid "Search for packages matching various criteria"
-msgstr ""
+msgstr "პაკეტების ძებნა სასურველი პირობებით"
 
 #: commands/repoquery/repoquery.cpp:516
 msgid ""
@@ -719,11 +701,11 @@ msgstr "შაბლონები"
 
 #: commands/search/search.cpp:44
 msgid "Search for software matching all specified strings"
-msgstr ""
+msgstr "პროგრამების ძებნა, რომლებიც ყველა მითითებულ სტრიქონს ემთხვევა"
 
 #: commands/swap/swap.cpp:42
 msgid "Remove software and install another in one transaction"
-msgstr ""
+msgstr "პროგრამის წაშლა და სხვა პროგრამის დაყენება ერთ ტრანზაქციაში"
 
 #: commands/system-upgrade/system-upgrade.cpp:54
 msgid "Prepare system for upgrade to a new release"
@@ -756,7 +738,7 @@ msgstr "ტრანზაქციის 'upgrade' დამახსოვრ�
 
 #: commands/upgrade/upgrade.cpp:41
 msgid "Upgrade software"
-msgstr ""
+msgstr "პროგრამის ვერსიის აწევა"
 
 #: commands/upgrade/upgrade.cpp:48
 msgid ""
@@ -777,10 +759,8 @@ msgid "Added by 'versionlock {}' command on {}"
 msgstr "დამატებულია ბრძანების 'versionlock {}' მიერ {}-ზე"
 
 #: commands/versionlock/versionlock.cpp:40
-#, fuzzy
-#| msgid "Add new entry to versionlock configuration"
 msgid "Manage versionlock configuration"
-msgstr "ახალი ჩანაწერის დამატება versionlock-ის კონფიგურაციაში"
+msgstr "Versionlock-ის კონფიგურაციის მართვა"
 
 #: commands/versionlock/versionlock_add.cpp:37
 msgid "Add new entry to versionlock configuration"
@@ -1089,7 +1069,7 @@ msgstr "setopt: \"{0}\": {1}"
 
 #: main.cpp:269
 msgid "set arbitrary variable"
-msgstr ""
+msgstr "შემთხვევითი ცვლადის დაყენება"
 
 #: main.cpp:283
 msgid "setvar: {}"
@@ -1157,7 +1137,7 @@ msgstr ""
 
 #: main.cpp:433
 msgid "Disable all libdnf5 plugins"
-msgstr ""
+msgstr "ყველა libdnf5-ის დამატების მოდულის გამორთვა"
 
 #: main.cpp:443
 msgid ""
