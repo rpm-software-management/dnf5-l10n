@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-08 03:14+0000\n"
+"POT-Creation-Date: 2024-10-10 03:05+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -783,137 +783,148 @@ msgstr ""
 msgid "setopt: \"{}.{}\": {}"
 msgstr ""
 
-#: context.cpp:269
-#, c++-format
-msgid "No matching repositories for \"{}\""
+#: context.cpp:268
+msgid ", "
 msgstr ""
 
-#: context.cpp:314
+#: context.cpp:272
+#, c++-format
+msgid ""
+"No matching repositories for {}. To use repositories from a host system, "
+"pass --use-host-config option"
+msgstr ""
+
+#: context.cpp:276
+#, c++-format
+msgid "No matching repositories for {}"
+msgstr ""
+
+#: context.cpp:322
 msgid "Updating and loading repositories:"
 msgstr ""
 
-#: context.cpp:324
+#: context.cpp:332
 msgid "Repositories loaded."
 msgstr ""
 
-#: context.cpp:330
+#: context.cpp:338
 msgid "Testing offline transaction"
 msgstr ""
 
-#: context.cpp:334 context.cpp:491
+#: context.cpp:342 context.cpp:499
 #, c++-format
 msgid "Transaction failed: {}"
 msgstr ""
 
-#: context.cpp:339 context.cpp:496
+#: context.cpp:347 context.cpp:504
 #, c++-format
 msgid "  - {}"
 msgstr ""
 
-#: context.cpp:406
+#: context.cpp:414
 #, c++-format
 msgid ""
 "Location \"{}\" already contains a stored transaction, it will be "
 "overwritten."
 msgstr ""
 
-#: context.cpp:435
+#: context.cpp:443
 msgid ""
 "There is already an offline transaction queued, initiated by the following "
 "command:"
 msgstr ""
 
-#: context.cpp:437
+#: context.cpp:445
 msgid ""
 "Continuing will cancel the old offline transaction and replace it with this "
 "one."
 msgstr ""
 
-#: context.cpp:456
+#: context.cpp:464
 msgid ""
 "Transaction stored to be performed offline. Run `dnf5 offline reboot` to "
 "reboot and run the transaction. To cancel the transaction and delete the "
 "downloaded files, use `dnf5 offline clean`."
 msgstr ""
 
-#: context.cpp:462
+#: context.cpp:470
 msgid "Running transaction"
 msgstr ""
 
-#: context.cpp:780
+#: context.cpp:788
 #, c++-format
 msgid "Upgrading {}"
 msgstr ""
 
-#: context.cpp:783
+#: context.cpp:791
 #, c++-format
 msgid "Downgrading {}"
 msgstr ""
 
-#: context.cpp:786
+#: context.cpp:794
 #, c++-format
 msgid "Reinstalling {}"
 msgstr ""
 
-#: context.cpp:799
+#: context.cpp:807
 #, c++-format
 msgid "Unexpected action in TransactionPackage: {}"
 msgstr ""
 
-#: context.cpp:805
+#: context.cpp:813
 #, c++-format
 msgid "Installing {}"
 msgstr ""
 
-#: context.cpp:826
+#: context.cpp:834
 msgid "Prepare transaction"
 msgstr ""
 
-#: context.cpp:846
+#: context.cpp:854
 #, c++-format
 msgid "Removing {}"
 msgstr ""
 
-#: context.cpp:849
+#: context.cpp:857
 #, c++-format
 msgid "Cleanup {}"
 msgstr ""
 
-#: context.cpp:867
+#: context.cpp:875
 #, c++-format
 msgid "Unpack error: {}"
 msgstr ""
 
-#: context.cpp:875
+#: context.cpp:883
 #, c++-format
 msgid "Cpio error: {}"
 msgstr ""
 
-#: context.cpp:885
+#: context.cpp:893
 msgid "Scriptlet output:"
 msgstr ""
 
-#: context.cpp:907
+#: context.cpp:915
 #, c++-format
 msgid "Running {} scriptlet: {}"
 msgstr ""
 
-#: context.cpp:922
+#: context.cpp:930
 #, c++-format
 msgid "Finished {} scriptlet: {}"
 msgstr ""
 
-#: context.cpp:928
+#: context.cpp:936
 #, c++-format
 msgid "Non-critical error in {} scriptlet: {}"
 msgstr ""
 
-#: context.cpp:937
+#: context.cpp:945
 #, c++-format
 msgid "Error in {} scriptlet: {}"
 msgstr ""
 
-#: context.cpp:967
+#: context.cpp:975
 msgid "Verify package files"
 msgstr ""
 
