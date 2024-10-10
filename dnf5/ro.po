@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-10 03:05+0000\n"
-"PO-Revision-Date: 2024-10-10 02:54+0000\n"
+"PO-Revision-Date: 2024-10-11 04:38+0000\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ro/>\n"
@@ -853,25 +853,19 @@ msgstr "setopt: \"{}.{}\": {}"
 
 #: context.cpp:268
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: context.cpp:272
-#, fuzzy
-#| msgid ""
-#| "No repositories were loaded from the installroot. To use the "
-#| "configuration and repositories of the host system, pass --use-host-config."
 msgid ""
 "No matching repositories for {}. To use repositories from a host system, "
 "pass --use-host-config option"
 msgstr ""
-"Nu au fost încărcate depozite din installroot. Pentru a utiliza configurația "
-"și depozitele sistemului gazdă, introduceți „--use-host-config”."
+"Nu există depozite care să corespundă cu {}. Pentru a utiliza depozitele "
+"dintr-un sistem gazdă, utilizați opțiunea „--use-host-config”."
 
 #: context.cpp:276
-#, fuzzy
-#| msgid "No matching repositories for \"{}\""
 msgid "No matching repositories for {}"
-msgstr "Niciun depozit care să coincidă cu „{}”"
+msgstr "Niciun depozit care să coincidă cu {}"
 
 #: context.cpp:322
 msgid "Updating and loading repositories:"
