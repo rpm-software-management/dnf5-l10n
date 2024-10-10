@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-08 03:14+0000\n"
+"POT-Creation-Date: 2024-10-10 03:05+0000\n"
 "PO-Revision-Date: 2024-10-08 08:41+0000\n"
 "Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf5/"
@@ -234,8 +234,8 @@ msgstr "Installer des paquets debuginfo."
 msgid ""
 "Upgrade or downgrade installed software to the latest available versions"
 msgstr ""
-"Installer la dernière version disponible des logiciels installés ("
-"réinstallation de versions antérieures possible)"
+"Installer la dernière version disponible des logiciels installés "
+"(réinstallation de versions antérieures possible)"
 
 #: commands/downgrade/downgrade.cpp:40
 msgid "Downgrade software"
@@ -869,31 +869,50 @@ msgstr "La clé a été importée avec succès."
 msgid "setopt: \"{}.{}\": {}"
 msgstr "setopt: \"{}.{}\" : {}"
 
-#: context.cpp:269
-msgid "No matching repositories for \"{}\""
+#: context.cpp:268
+msgid ", "
+msgstr ""
+
+#: context.cpp:272
+#, fuzzy
+#| msgid ""
+#| "No repositories were loaded from the installroot. To use the "
+#| "configuration and repositories of the host system, pass --use-host-config."
+msgid ""
+"No matching repositories for {}. To use repositories from a host system, "
+"pass --use-host-config option"
+msgstr ""
+"Aucun dépôt n'a été chargé à partir de la racine d'installation. Pour "
+"utiliser la configuration et les dépôts du système hôte, passez l'argument --"
+"use-host-config."
+
+#: context.cpp:276
+#, fuzzy
+#| msgid "No matching repositories for \"{}\""
+msgid "No matching repositories for {}"
 msgstr "Aucun dépôt correspondant à \"{}\""
 
-#: context.cpp:314
+#: context.cpp:322
 msgid "Updating and loading repositories:"
 msgstr "Mise à jour et chargement des dépôts :"
 
-#: context.cpp:324
+#: context.cpp:332
 msgid "Repositories loaded."
 msgstr "Dépôts chargés."
 
-#: context.cpp:330
+#: context.cpp:338
 msgid "Testing offline transaction"
 msgstr "Test de la transaction hors ligne"
 
-#: context.cpp:334 context.cpp:491
+#: context.cpp:342 context.cpp:499
 msgid "Transaction failed: {}"
 msgstr "Transaction échouée : {}"
 
-#: context.cpp:339 context.cpp:496
+#: context.cpp:347 context.cpp:504
 msgid "  - {}"
 msgstr "  - {}"
 
-#: context.cpp:406
+#: context.cpp:414
 msgid ""
 "Location \"{}\" already contains a stored transaction, it will be "
 "overwritten."
@@ -901,7 +920,7 @@ msgstr ""
 "L'emplacement \"{}\" contient déjà une transaction stockée, elle sera "
 "écrasée."
 
-#: context.cpp:435
+#: context.cpp:443
 msgid ""
 "There is already an offline transaction queued, initiated by the following "
 "command:"
@@ -909,7 +928,7 @@ msgstr ""
 "Une transaction hors ligne est déjà en attente, elle a été amorcée par la "
 "commande suivante :"
 
-#: context.cpp:437
+#: context.cpp:445
 msgid ""
 "Continuing will cancel the old offline transaction and replace it with this "
 "one."
@@ -917,7 +936,7 @@ msgstr ""
 "En continuant, l'ancienne transaction hors ligne sera annulée et remplacée "
 "par celle-ci."
 
-#: context.cpp:456
+#: context.cpp:464
 msgid ""
 "Transaction stored to be performed offline. Run `dnf5 offline reboot` to "
 "reboot and run the transaction. To cancel the transaction and delete the "
@@ -928,71 +947,71 @@ msgstr ""
 "transaction et supprimer les fichiers téléchargés, utilisez `dnf5 offline "
 "clean`."
 
-#: context.cpp:462
+#: context.cpp:470
 msgid "Running transaction"
 msgstr "Exécution de la transaction"
 
-#: context.cpp:780
+#: context.cpp:788
 msgid "Upgrading {}"
 msgstr "Mise à jour de {}"
 
-#: context.cpp:783
+#: context.cpp:791
 msgid "Downgrading {}"
 msgstr "Installation de la version antérieure de {}"
 
-#: context.cpp:786
+#: context.cpp:794
 msgid "Reinstalling {}"
 msgstr "Réinstallation de {}"
 
-#: context.cpp:799
+#: context.cpp:807
 msgid "Unexpected action in TransactionPackage: {}"
 msgstr "Action inattendue dans le TransactionPackage : {}"
 
-#: context.cpp:805
+#: context.cpp:813
 msgid "Installing {}"
 msgstr "Installation de {}"
 
-#: context.cpp:826
+#: context.cpp:834
 msgid "Prepare transaction"
 msgstr "Préparer la transaction"
 
-#: context.cpp:846
+#: context.cpp:854
 msgid "Removing {}"
 msgstr "Suppression de {}"
 
-#: context.cpp:849
+#: context.cpp:857
 msgid "Cleanup {}"
 msgstr "Nettoyage de {}"
 
-#: context.cpp:867
+#: context.cpp:875
 msgid "Unpack error: {}"
 msgstr "Erreur lors du dépaquetage : {}"
 
-#: context.cpp:875
+#: context.cpp:883
 msgid "Cpio error: {}"
 msgstr "Erreur cpio : {}"
 
-#: context.cpp:885
+#: context.cpp:893
 msgid "Scriptlet output:"
 msgstr "Sortie du scriptlet :"
 
-#: context.cpp:907
+#: context.cpp:915
 msgid "Running {} scriptlet: {}"
 msgstr "Exécution du scriptlet {} : {}"
 
-#: context.cpp:922
+#: context.cpp:930
 msgid "Finished {} scriptlet: {}"
 msgstr "Scriptlet {} terminé : {}"
 
-#: context.cpp:928
+#: context.cpp:936
 msgid "Non-critical error in {} scriptlet: {}"
 msgstr "Erreur non critique dans le scriptlet {} : {}"
 
-#: context.cpp:937
+#: context.cpp:945
 msgid "Error in {} scriptlet: {}"
 msgstr "Erreur dans le scriptlet {} : {}"
 
-#: context.cpp:967
+#: context.cpp:975
 msgid "Verify package files"
 msgstr "Vérifier les fichiers des paquets"
 

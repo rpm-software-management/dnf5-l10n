@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-08 03:14+0000\n"
+"POT-Creation-Date: 2024-10-10 03:05+0000\n"
 "PO-Revision-Date: 2024-10-08 08:41+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -826,44 +826,62 @@ msgstr "Anahtar başarıyla içe aktarıldı."
 msgid "setopt: \"{}.{}\": {}"
 msgstr "setopt: \"{}.{}\": {}"
 
-#: context.cpp:269
-msgid "No matching repositories for \"{}\""
+#: context.cpp:268
+msgid ", "
+msgstr ""
+
+#: context.cpp:272
+#, fuzzy
+#| msgid ""
+#| "No repositories were loaded from the installroot. To use the "
+#| "configuration and repositories of the host system, pass --use-host-config."
+msgid ""
+"No matching repositories for {}. To use repositories from a host system, "
+"pass --use-host-config option"
+msgstr ""
+"Kurulum kökünden hiçbir depo yüklenmedi. Ana sistemin yapılandırmasını ve "
+"depolarını kullanmak için --use-host-config seçeneğini belirtin."
+
+#: context.cpp:276
+#, fuzzy
+#| msgid "No matching repositories for \"{}\""
+msgid "No matching repositories for {}"
 msgstr "\"{}\" için eşleşen depo yok"
 
-#: context.cpp:314
+#: context.cpp:322
 msgid "Updating and loading repositories:"
 msgstr "Depolar güncelleniyor ve yükleniyor:"
 
-#: context.cpp:324
+#: context.cpp:332
 msgid "Repositories loaded."
 msgstr "Depolar yüklendi."
 
-#: context.cpp:330
+#: context.cpp:338
 msgid "Testing offline transaction"
 msgstr "Çevrim dışı işlem test ediliyor"
 
-#: context.cpp:334 context.cpp:491
+#: context.cpp:342 context.cpp:499
 msgid "Transaction failed: {}"
 msgstr "İşlem başarısız: {}"
 
-#: context.cpp:339 context.cpp:496
+#: context.cpp:347 context.cpp:504
 msgid "  - {}"
 msgstr "  - {}"
 
-#: context.cpp:406
+#: context.cpp:414
 msgid ""
 "Location \"{}\" already contains a stored transaction, it will be "
 "overwritten."
 msgstr ""
 "\"{}\" konumu zaten kayıtlı bir işlem içeriyor, bu işlemin üzerine yazılacak."
 
-#: context.cpp:435
+#: context.cpp:443
 msgid ""
 "There is already an offline transaction queued, initiated by the following "
 "command:"
 msgstr "Şu komutla başlatılan çevrim dışı bir işlem zaten sıraya alındı:"
 
-#: context.cpp:437
+#: context.cpp:445
 msgid ""
 "Continuing will cancel the old offline transaction and replace it with this "
 "one."
@@ -871,7 +889,7 @@ msgstr ""
 "Devam edilirse eski çevrim dışı işlem iptal edilecek ve bu işlemle "
 "değiştirilecektir."
 
-#: context.cpp:456
+#: context.cpp:464
 msgid ""
 "Transaction stored to be performed offline. Run `dnf5 offline reboot` to "
 "reboot and run the transaction. To cancel the transaction and delete the "
@@ -882,71 +900,71 @@ msgstr ""
 "kullanın. İşlemi iptal etmek ve indirilen dosyaları silmek için `dnf5 "
 "offline clean` komutunu kullanın."
 
-#: context.cpp:462
+#: context.cpp:470
 msgid "Running transaction"
 msgstr "İşlem çalıştırılıyor"
 
-#: context.cpp:780
+#: context.cpp:788
 msgid "Upgrading {}"
 msgstr "{} yükseltiliyor"
 
-#: context.cpp:783
+#: context.cpp:791
 msgid "Downgrading {}"
 msgstr "{} eski sürüme düşürülüyor"
 
-#: context.cpp:786
+#: context.cpp:794
 msgid "Reinstalling {}"
 msgstr "{} yeniden kuruluyor"
 
-#: context.cpp:799
+#: context.cpp:807
 msgid "Unexpected action in TransactionPackage: {}"
 msgstr "TransactionPackage içinde beklenmeyen eylem: {}"
 
-#: context.cpp:805
+#: context.cpp:813
 msgid "Installing {}"
 msgstr "{} kuruluyor"
 
-#: context.cpp:826
+#: context.cpp:834
 msgid "Prepare transaction"
 msgstr "İşlemi hazırla"
 
-#: context.cpp:846
+#: context.cpp:854
 msgid "Removing {}"
 msgstr "{} kaldırılıyor"
 
-#: context.cpp:849
+#: context.cpp:857
 msgid "Cleanup {}"
 msgstr "{} temizleniyor"
 
-#: context.cpp:867
+#: context.cpp:875
 msgid "Unpack error: {}"
 msgstr "Paket açma hatası: {}"
 
-#: context.cpp:875
+#: context.cpp:883
 msgid "Cpio error: {}"
 msgstr "Cpio hatası: {}"
 
-#: context.cpp:885
+#: context.cpp:893
 msgid "Scriptlet output:"
 msgstr "Betik çıktısı:"
 
-#: context.cpp:907
+#: context.cpp:915
 msgid "Running {} scriptlet: {}"
 msgstr "{} betiği çalıştırılıyor: {}"
 
-#: context.cpp:922
+#: context.cpp:930
 msgid "Finished {} scriptlet: {}"
 msgstr "{} betiği tamamlandı: {}"
 
-#: context.cpp:928
+#: context.cpp:936
 msgid "Non-critical error in {} scriptlet: {}"
 msgstr "{} betiğinde önemli olmayan hata: {}"
 
-#: context.cpp:937
+#: context.cpp:945
 msgid "Error in {} scriptlet: {}"
 msgstr "{} betiğinde hata: {}"
 
-#: context.cpp:967
+#: context.cpp:975
 msgid "Verify package files"
 msgstr "Paket dosyalarını doğrula"
 
