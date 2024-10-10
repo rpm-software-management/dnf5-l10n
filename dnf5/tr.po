@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-10 03:05+0000\n"
-"PO-Revision-Date: 2024-10-08 08:41+0000\n"
+"PO-Revision-Date: 2024-10-11 04:38+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/tr/>\n"
@@ -828,25 +828,19 @@ msgstr "setopt: \"{}.{}\": {}"
 
 #: context.cpp:268
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: context.cpp:272
-#, fuzzy
-#| msgid ""
-#| "No repositories were loaded from the installroot. To use the "
-#| "configuration and repositories of the host system, pass --use-host-config."
 msgid ""
 "No matching repositories for {}. To use repositories from a host system, "
 "pass --use-host-config option"
 msgstr ""
-"Kurulum kökünden hiçbir depo yüklenmedi. Ana sistemin yapılandırmasını ve "
-"depolarını kullanmak için --use-host-config seçeneğini belirtin."
+"{} için eşleşen depo yok. Bir ana sistemdeki depoları kullanmak için --use-"
+"host-config seçeneğini belirtin"
 
 #: context.cpp:276
-#, fuzzy
-#| msgid "No matching repositories for \"{}\""
 msgid "No matching repositories for {}"
-msgstr "\"{}\" için eşleşen depo yok"
+msgstr "{} için eşleşen depo yok"
 
 #: context.cpp:322
 msgid "Updating and loading repositories:"
