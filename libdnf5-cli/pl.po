@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-10 03:05+0000\n"
-"PO-Revision-Date: 2024-10-12 16:48+0000\n"
+"PO-Revision-Date: 2024-10-12 17:10+0000\n"
 "Last-Translator: Paweł Marciniak <sunwire+fas@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5-cli/pl/>\n"
@@ -136,11 +136,11 @@ msgstr ""
 
 #: exception.cpp:30
 msgid "Operation aborted by the user."
-msgstr ""
+msgstr "Operacja przerwana przez użytkownika."
 
 #: exception.cpp:33
 msgid "Failed to resolve the transaction"
-msgstr ""
+msgstr "Nie udało się rozwiązać transakcji"
 
 #: output/moduleinfo.cpp:36
 msgid "Hint: [d]efault, [e]nabled, [x]disabled, [i]nstalled, [a]ctive"
@@ -154,7 +154,7 @@ msgstr ""
 #. a package properties table as in "Name    : bash".
 #: output/packageinfo.cpp:57
 msgid " : "
-msgstr ""
+msgstr " : "
 
 #. Add package
 #: output/packageinfo.cpp:63
@@ -179,7 +179,7 @@ msgstr "Architektura"
 
 #: output/packageinfo.cpp:75
 msgid "Obsoletes"
-msgstr ""
+msgstr "Zastępuje"
 
 #: output/packageinfo.cpp:85
 msgid "Download size"
@@ -203,7 +203,7 @@ msgstr "Repozytorium"
 
 #: output/packageinfo.cpp:98
 msgid "Summary"
-msgstr ""
+msgstr "Podsumowanie"
 
 #: output/packageinfo.cpp:99
 msgid "URL"
@@ -229,43 +229,49 @@ msgstr "Podsumowanie transakcji:\n"
 #, c++-format
 msgid " Installing:      {:4} package\n"
 msgid_plural " Installing:      {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " Instalowanie:      {:4} pakietu\n"
+msgstr[1] " Instalowanie:      {:4} pakietów\n"
+msgstr[2] " Instalowanie:      {:4} pakietów\n"
 
 #: output/transaction_table.cpp:138
 #, c++-format
 msgid " Reinstalling:    {:4} package\n"
 msgid_plural " Reinstalling:    {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " Ponowne instalowanie:      {:4} pakietu\n"
+msgstr[1] " Ponowne instalowanie:      {:4} pakietów\n"
+msgstr[2] " Ponowne instalowanie:      {:4} pakietów\n"
 
 #: output/transaction_table.cpp:145
 #, c++-format
 msgid " Upgrading:       {:4} package\n"
 msgid_plural " Upgrading:       {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " Aktualizowanie:       {:4} pakietu\n"
+msgstr[1] " Aktualizowanie:       {:4} pakietów\n"
+msgstr[2] " Aktualizowanie:       {:4} pakietów\n"
 
 #: output/transaction_table.cpp:152
 #, c++-format
 msgid " Replacing:       {:4} package\n"
 msgid_plural " Replacing:       {:4} package\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " Zastępowanie:       {:4} pakietu\n"
+msgstr[1] " Zastępowanie:       {:4} pakietów\n"
+msgstr[2] " Zastępowanie:       {:4} pakietów\n"
 
 #: output/transaction_table.cpp:159
 #, c++-format
 msgid " Removing:        {:4} package\n"
 msgid_plural " Removing:        {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " Usuwanie:        {:4} pakietu\n"
+msgstr[1] " Usuwanie:        {:4} pakietów\n"
+msgstr[2] " Usuwanie:        {:4} pakietów\n"
 
 #: output/transaction_table.cpp:166
 #, c++-format
 msgid " Downgrading:     {:4} package\n"
 msgid_plural " Downgrading:     {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " Instalowanie poprzedniej wersji:     {:4} pakiet\n"
+msgstr[1] " Instalowanie poprzedniej wersji:     {:4} pakiety\n"
+msgstr[2] " Instalowanie poprzedniej wersji:     {:4} pakietów\n"
 
 #: output/transaction_table.cpp:173
 #, c++-format
@@ -278,8 +284,9 @@ msgstr[1] ""
 #, c++-format
 msgid " Skipping:        {:4} package\n"
 msgid_plural " Skipping:        {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " Pomijanie:        {:4} pakietu\n"
+msgstr[1] " Pomijanie:        {:4} pakietów\n"
+msgstr[2] " Pomijanie:        {:4} pakietów\n"
 
 #: output/transaction_table.cpp:262
 msgid "Package"
