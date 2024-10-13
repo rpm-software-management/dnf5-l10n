@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-10 03:05+0000\n"
-"PO-Revision-Date: 2024-10-03 02:54+0000\n"
+"PO-Revision-Date: 2024-10-14 15:38+0000\n"
 "Last-Translator: Aleksey Fedorov <aleksejfedorov963@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ru/>\n"
@@ -20,10 +20,8 @@ msgstr ""
 "X-Generator: Weblate 5.7.2\n"
 
 #: commands/advisory/advisory.cpp:36
-#, fuzzy
-#| msgid "List advisories"
 msgid "Manage advisories"
-msgstr "Список рекомендаций"
+msgstr "Управление рекомендациями"
 
 #: commands/advisory/advisory_info.hpp:33
 msgid "Print details about advisories"
@@ -171,12 +169,12 @@ msgstr "ID_CVE,…"
 #: commands/autoremove/autoremove.cpp:38
 msgid "Remove all unneeded packages originally installed as dependencies."
 msgstr ""
+"Удалить все ненужные пакеты, изначально установленные в качестве "
+"зависимостей."
 
 #: commands/check-upgrade/check-upgrade.cpp:47
-#, fuzzy
-#| msgid "List available packages."
 msgid "Check for available package upgrades"
-msgstr "Список доступных пакетов."
+msgstr "Проверить наличие доступных обновлений пакета"
 
 #: commands/check-upgrade/check-upgrade.cpp:54
 msgid ""
@@ -192,10 +190,8 @@ msgstr ""
 "выбранным свойствам рекомендаций"
 
 #: commands/check/check.cpp:247
-#, fuzzy
-#| msgid "Check discovered {} problem(s) in {} package(s)"
 msgid "Check for problems in the packagedb"
-msgstr "Проверьте обнаруженную(-ые) {} проблему(-мы) в {} пакете(-ах)"
+msgstr "Проверить, имеются ли проблемы в packagedb"
 
 #: commands/check/check.cpp:335
 msgid "Check discovered {} problem(s) in {} package(s)"
@@ -222,19 +218,19 @@ msgid "Cannot iterate cache directory \"{}\": {}"
 msgstr "Невозможно выполнить итерацию каталога кэша \"{}\": {}"
 
 #: commands/debuginfo-install/debuginfo-install.cpp:45
-#, fuzzy
-#| msgid "Installed packages"
 msgid "Install debuginfo packages."
-msgstr "Установленные пакеты"
+msgstr "Установить пакеты debuginfo."
 
 #: commands/distro-sync/distro-sync.cpp:42
 msgid ""
 "Upgrade or downgrade installed software to the latest available versions"
 msgstr ""
+"Обновление или откат установленного программного обеспечения до последних "
+"доступных версий"
 
 #: commands/downgrade/downgrade.cpp:40
 msgid "Downgrade software"
-msgstr ""
+msgstr "Откат программного обеспечения"
 
 #: commands/download/download.cpp:105
 msgid "When running with --url, prints URLs from all available mirrors"
@@ -267,7 +263,7 @@ msgstr "Идентификаторы среды, соответствующие 
 
 #: commands/environment/environment.cpp:35
 msgid "Manage comps environments"
-msgstr ""
+msgstr "Управление средами comps"
 
 #: commands/group/arguments.hpp:34
 msgid "Show only available groups."
@@ -324,10 +320,8 @@ msgid "Don't consider extra packages pulled into the transaction as errors."
 msgstr "Не считать дополнительные пакеты, попавшие в транзакцию, ошибкой."
 
 #: commands/history/history.cpp:41
-#, fuzzy
-#| msgid "Manage offline transactions"
 msgid "Manage transaction history"
-msgstr "Управление автономными транзакциями"
+msgstr "Управление историей транзакций"
 
 #: commands/history/history_redo.cpp:53
 #: commands/history/history_rollback.cpp:57
@@ -360,17 +354,15 @@ msgstr ""
 "или \"ID..ID\", где ID - это \"NUMBER\", \"last\" или \"last-NUMBER\"."
 
 #: commands/install/install.cpp:41
-#, fuzzy
-#| msgid "Installed"
 msgid "Install software"
-msgstr "Установлены"
+msgstr "Установить программное обеспечение"
 
 #: commands/leaves/leaves.cpp:42
-#, fuzzy
-#| msgid "List upgrades available for the installed packages."
 msgid ""
 "List groups of installed packages not required by other installed packages"
-msgstr "Список обновлений, доступных для установленных пакетов."
+msgstr ""
+"Список групп установленных пакетов, не требуемых другими установленными "
+"пакетами"
 
 #: commands/list/list.cpp:44
 msgid "Lists packages depending on the packages' relation to the system"
@@ -453,11 +445,8 @@ msgid "No matching packages to list"
 msgstr "Нет подходящих пакетов в списке"
 
 #: commands/mark/mark.cpp:38
-#, fuzzy
-#| msgid "Show advisories containing any version of installed packages."
 msgid "Change the reason of an installed package"
-msgstr ""
-"Показывать рекомендации, содержащие любую версию установленных пакетов."
+msgstr "Изменить причину установленного пакета"
 
 #: commands/module/arguments.hpp:36
 msgid "Show enabled modules."
@@ -472,10 +461,8 @@ msgid "Pattern matching module NSVCAs."
 msgstr "Модуль сопоставления шаблонов NSVCA."
 
 #: commands/module/module.cpp:43
-#, fuzzy
-#| msgid "Show enabled modules."
 msgid "Manage modules"
-msgstr "Показать включенные модули."
+msgstr "Управление модулями"
 
 #: commands/module/module_list.cpp:85
 msgid "No matches found for \"{}\"."
@@ -645,21 +632,19 @@ msgstr "Неизвестный статус автономной транзак�
 
 #: commands/provides/provides.cpp:48
 msgid "Find what package provides the given value"
-msgstr ""
+msgstr "Найти какой пакет предоставляет заданное значение"
 
 #: commands/reinstall/reinstall.cpp:40
-#, fuzzy
-#| msgid "set install root"
 msgid "Reinstall software"
-msgstr "установить корень установки"
+msgstr "Переустановить программное обеспечение"
 
 #: commands/remove/remove.cpp:40
 msgid "Remove (uninstall) software"
-msgstr ""
+msgstr "Удалить (деинсталлировать) программное обеспечение"
 
 #: commands/replay/replay.cpp:38
 msgid "Replay a transaction that was previously stored to a directory"
-msgstr ""
+msgstr "Воспроизведение транзакции, которая ранее была сохранена в каталоге"
 
 #: commands/repo/arguments.hpp:35
 msgid "Show all repositories."
@@ -678,14 +663,12 @@ msgid "Pattern matching repo IDs."
 msgstr "Идентификаторы репозиториев, соответствующие шаблону."
 
 #: commands/repo/repo.cpp:38
-#, fuzzy
-#| msgid "Show all repositories."
 msgid "Manage repositories"
-msgstr "Показать все репозитории."
+msgstr "Управление репозиториями"
 
 #: commands/repoquery/repoquery.cpp:80
 msgid "Search for packages matching various criteria"
-msgstr ""
+msgstr "Поиск пакетов, соответствующих различным критериям"
 
 #: commands/repoquery/repoquery.cpp:516
 msgid ""
@@ -713,11 +696,12 @@ msgstr "Шаблоны"
 
 #: commands/search/search.cpp:44
 msgid "Search for software matching all specified strings"
-msgstr ""
+msgstr "Поиск программ, соответствующих всем указанным строкам"
 
 #: commands/swap/swap.cpp:42
 msgid "Remove software and install another in one transaction"
 msgstr ""
+"Удаление программного обеспечения и установка другого за одну транзакцию"
 
 #: commands/system-upgrade/system-upgrade.cpp:54
 msgid "Prepare system for upgrade to a new release"
@@ -750,7 +734,7 @@ msgstr "Сохранение транзакции обновления для в
 
 #: commands/upgrade/upgrade.cpp:41
 msgid "Upgrade software"
-msgstr ""
+msgstr "Обновить программное обеспечение"
 
 #: commands/upgrade/upgrade.cpp:48
 msgid ""
@@ -771,10 +755,8 @@ msgid "Added by 'versionlock {}' command on {}"
 msgstr "Добавлено командой 'versionlock {}' на {}"
 
 #: commands/versionlock/versionlock.cpp:40
-#, fuzzy
-#| msgid "Add new entry to versionlock configuration"
 msgid "Manage versionlock configuration"
-msgstr "Добавить новую запись в конфигурацию блокировки версий"
+msgstr "Управление конфигурацией versionlock"
 
 #: commands/versionlock/versionlock_add.cpp:37
 msgid "Add new entry to versionlock configuration"
@@ -860,26 +842,19 @@ msgstr "setopt: \"{}.{}\": {}"
 
 #: context.cpp:268
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: context.cpp:272
-#, fuzzy
-#| msgid ""
-#| "No repositories were loaded from the installroot. To use the "
-#| "configuration and repositories of the host system, pass --use-host-config."
 msgid ""
 "No matching repositories for {}. To use repositories from a host system, "
 "pass --use-host-config option"
 msgstr ""
-"Из корня installroot не было загружено ни одного репозитория. Чтобы "
-"использовать конфигурацию и репозитории хост-системы, передайте --use-host-"
-"config."
+"Нет подходящих репозиториев для {}. Чтобы использовать репозитории из хост-"
+"системы, передайте опцию --use-host-config"
 
 #: context.cpp:276
-#, fuzzy
-#| msgid "No matching repositories for \"{}\""
 msgid "No matching repositories for {}"
-msgstr "Нет подходящих репозиториев для \"{}\""
+msgstr "Нет подходящих репозиториев для {}"
 
 #: context.cpp:322
 msgid "Updating and loading repositories:"
@@ -1106,7 +1081,7 @@ msgstr "setopt: \"{0}\": {1}"
 
 #: main.cpp:269
 msgid "set arbitrary variable"
-msgstr ""
+msgstr "задать произвольную переменную"
 
 #: main.cpp:283
 msgid "setvar: {}"
@@ -1121,10 +1096,9 @@ msgid "automatically answer no for all questions"
 msgstr "автоматически отвечать \"нет\" на все вопросы"
 
 #: main.cpp:306
-#, fuzzy
-#| msgid "{} to allow extra packages in the transaction"
 msgid "try the best available package versions in transactions"
-msgstr "{}, чтобы разрешить дополнительные пакеты в транзакции"
+msgstr ""
+"попробуйте использовать наилучшие доступные версии пакетов в транзакциях"
 
 #: main.cpp:313
 msgid "do not limit the transaction to the best candidate"
@@ -1172,7 +1146,7 @@ msgstr "отключить проверку подписи gpg (если поз�
 
 #: main.cpp:433
 msgid "Disable all libdnf5 plugins"
-msgstr ""
+msgstr "Отключить все плагины libdnf5"
 
 #: main.cpp:443
 msgid ""
