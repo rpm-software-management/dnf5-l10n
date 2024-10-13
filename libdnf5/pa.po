@@ -7,14 +7,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-10 03:05+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-10-14 15:38+0000\n"
+"Last-Translator: A S Alam <aalam@users.noreply.translate.fedoraproject.org>\n"
+"Language-Team: Punjabi <https://translate.fedoraproject.org/projects/dnf5/"
+"libdnf5/pa/>\n"
 "Language: pa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.7.2\n"
 
 #: advisory/advisory.cpp:81
 #, c++-format
@@ -36,7 +38,7 @@ msgstr ""
 
 #: base/goal_elements.cpp:352
 msgid "Install"
-msgstr ""
+msgstr "ਇੰਸਟਾਲ"
 
 #: base/goal_elements.cpp:354
 msgid "Install via provide"
@@ -44,43 +46,43 @@ msgstr ""
 
 #: base/goal_elements.cpp:356
 msgid "Install by group"
-msgstr ""
+msgstr "ਗਰੁੱਪ ਰਾਹੀਂ ਇੰਸਟਾਲ"
 
 #: base/goal_elements.cpp:358
 msgid "Upgrade"
-msgstr ""
+msgstr "ਅੱਪਗਰੇਡ"
 
 #: base/goal_elements.cpp:360
 msgid "Upgrade all"
-msgstr ""
+msgstr "ਸਭ ਅੱਪਗਰੇਡ"
 
 #: base/goal_elements.cpp:362
 msgid "Upgrade minimal"
-msgstr ""
+msgstr "ਘੱਟ ਤੋਂ ਘੱਟ ਅੱਪਗਰੇਡ"
 
 #: base/goal_elements.cpp:364
 msgid "Upgrade all minimal"
-msgstr ""
+msgstr "ਸਭ ਘੱਟੋ-ਘੱਟ ਅੱਪਗਰੇਡ"
 
 #: base/goal_elements.cpp:366
 msgid "Downgrade"
-msgstr ""
+msgstr "ਡਾਊਨਗਰੇਡ"
 
 #: base/goal_elements.cpp:368
 msgid "Reinstall"
-msgstr ""
+msgstr "ਮੁੜ-ਇੰਸਟਾਲ"
 
 #: base/goal_elements.cpp:370
 msgid "Install or reinstall"
-msgstr ""
+msgstr "ਇੰਸਟਾਲ ਜਾਂ ਮੁੜ-ਇੰਸਟਾਲ"
 
 #: base/goal_elements.cpp:372
 msgid "Remove"
-msgstr ""
+msgstr "ਹਟਾਓ"
 
 #: base/goal_elements.cpp:374
 msgid "Distrosync"
-msgstr ""
+msgstr "ਡਿਸਰੋ-ਸਿੰਕ"
 
 #: base/goal_elements.cpp:376
 msgid "Distrosync all"
@@ -92,19 +94,19 @@ msgstr ""
 
 #: base/goal_elements.cpp:380
 msgid "Resolve"
-msgstr ""
+msgstr "ਹੱਲ਼"
 
 #: base/goal_elements.cpp:382
 msgid "Enable"
-msgstr ""
+msgstr "ਸਮਰੱਥ"
 
 #: base/goal_elements.cpp:384
 msgid "Disable"
-msgstr ""
+msgstr "ਅਸਮਰੱਥ"
 
 #: base/goal_elements.cpp:386
 msgid "Reset"
-msgstr ""
+msgstr "ਮੁੜ-ਸੈੱਟ"
 
 #: base/goal_elements.cpp:388
 msgid "Parse serialized transaction"
@@ -112,19 +114,19 @@ msgstr ""
 
 #: base/goal_elements.cpp:390
 msgid "Install action"
-msgstr ""
+msgstr "ਇੰਸਟਾਲ ਕਾਰਵਾਈ"
 
 #: base/goal_elements.cpp:392
 msgid "Remove action"
-msgstr ""
+msgstr "ਹਟਾਉਣ ਕਾਰਵਾਈ"
 
 #: base/goal_elements.cpp:394
 msgid "Upgrade action"
-msgstr ""
+msgstr "ਅੱਪਗਰੇਡ ਕਾਰਵਾਈ"
 
 #: base/goal_elements.cpp:396
 msgid "Reinstall action"
-msgstr ""
+msgstr "ਮੁੜ-ਇੰਸਟਾਲ ਕਾਰਵਾਈ"
 
 #: base/goal_elements.cpp:398
 msgid "Reason change action"
@@ -290,7 +292,7 @@ msgstr ""
 #: base/log_event.cpp:248
 #, c++-format
 msgid "Package \"{}\" is already installed."
-msgstr ""
+msgstr "\"{}\" ਪੈਕੇਜ ਪਹਿਲਾਂ ਹੀ ਇੰਸਟਾਲ ਹੈ।"
 
 #: base/log_event.cpp:257
 #, c++-format
@@ -330,7 +332,7 @@ msgstr[1] ""
 
 #: base/log_event.cpp:287
 msgid "', '"
-msgstr ""
+msgstr "', '"
 
 #: base/log_event.cpp:296
 msgid "Modular dependency problems:\n"
@@ -423,16 +425,16 @@ msgstr ""
 #: base/solver_problems.cpp:47
 #, c++-format
 msgid "package {} does not exist"
-msgstr ""
+msgstr "{} ਪੈਕੇਜ ਮੌਜੂਦ ਨਹੀਂ ਹੈ"
 
 #: base/solver_problems.cpp:48 base/solver_problems.cpp:84
 #, c++-format
 msgid "{} is provided by the system"
-msgstr ""
+msgstr "{} ਸਿਸਟਮ ਵਲੋਂ ਦਿੱਤਾ ਗਿਆ ਹੈ"
 
 #: base/solver_problems.cpp:49 base/solver_problems.cpp:85
 msgid "some dependency problem"
-msgstr ""
+msgstr "ਕੁਝ ਨਿਰਭਰਤਾ ਸਮੱਸਿਆ ਹੈ"
 
 #: base/solver_problems.cpp:50
 #, c++-format
@@ -550,7 +552,7 @@ msgstr ""
 #: base/solver_problems.cpp:83
 #, c++-format
 msgid "module {} does not exist"
-msgstr ""
+msgstr "{} ਮੋਡੀਊਲ ਮੌਜੂਦ ਨਹੀਂ ਹੈ"
 
 #: base/solver_problems.cpp:86
 #, c++-format
@@ -560,7 +562,7 @@ msgstr ""
 #: base/solver_problems.cpp:88 base/solver_problems.cpp:91
 #, c++-format
 msgid "module {} is disabled"
-msgstr ""
+msgstr "{} ਮੋਡੀਊਲ ਅਸਮਰੱਥ ਹੈ"
 
 #: base/solver_problems.cpp:89
 #, c++-format
@@ -619,12 +621,12 @@ msgstr ""
 
 #: base/solver_problems.cpp:290
 msgid "Problem: "
-msgstr ""
+msgstr "ਸਮੱਸਿਆ: "
 
 #: base/solver_problems.cpp:294
 #, c++-format
 msgid "Problem {}: "
-msgstr ""
+msgstr "ਸਮੱਸਿਆ {}: "
 
 #: base/transaction.cpp:79
 msgid "This transaction has been already run before."
@@ -661,7 +663,7 @@ msgstr ""
 
 #: base/transaction.cpp:91
 msgid "Canceled by the user."
-msgstr ""
+msgstr "ਵਰਤੋਂਕਾਰ ਵਲੋਂ ਰੱਦ ਕੀਤਾ ਹੈ।"
 
 #: base/transaction.cpp:92
 msgid "Public key import failed."
@@ -714,7 +716,7 @@ msgstr[1] ""
 
 #: common/exception.cpp:78
 msgid "System error"
-msgstr ""
+msgstr "ਸਿਸਟਮ ਗ਼ਲਤੀ"
 
 #: common/exception.cpp:199
 msgid "General RuntimeError exception"
@@ -988,7 +990,7 @@ msgstr ""
 
 #: repo/file_downloader.cpp:204
 msgid "Failed to download files"
-msgstr ""
+msgstr "ਫਾਇਲਾਂ ਡਾਊਨਲੋਡ ਕਰਨ ਲਈ ਅਸਫ਼ਲ"
 
 #: repo/librepo.cpp:118
 msgid ""
@@ -1003,7 +1005,7 @@ msgstr ""
 
 #: repo/package_downloader.cpp:244
 msgid "Failed to download packages"
-msgstr ""
+msgstr "ਪੈਕੇਜ ਡਾਊਨਲੋਡ ਕਰਨ ਲਈ ਅਸਫ਼ਲ"
 
 #: repo/repo.cpp:60
 #, c++-format
@@ -1268,39 +1270,39 @@ msgstr ""
 
 #: rpm/transaction.cpp:307
 msgid "Package was not found in rpm database"
-msgstr ""
+msgstr "ਪੈਕੇਜ rpm ਡਾਟਾਬੇਸ ਵਿੱਚ ਨਹੀਂ ਲੱਭਿਆ"
 
 #. TODO(jrohel): Why? Librpm does not provide this information.
 #: rpm/transaction.cpp:323
 #, c++-format
 msgid "Cannot reinstall package \"{}\""
-msgstr ""
+msgstr "\"{}\" ਪੈਕੇਜ ਮੁੜ-ਇੰਸਟਾਲ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ"
 
 #. TODO(jrohel): Why? Librpm does not provide this information.
 #: rpm/transaction.cpp:341
 #, c++-format
 msgid "Cannot remove package \"{}\""
-msgstr ""
+msgstr "\"{}\" ਪੈਕੇਜ ਹਟਾਇਆ ਨਹੀਂ ਜਾ ਸਕਦਾ"
 
 #: rpm/transaction.cpp:360
 #, c++-format
 msgid "Cannot upgrade package \"{}\""
-msgstr ""
+msgstr "\"{}\" ਪੈਕੇਜ ਅੱਪਗਰੇਡ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ"
 
 #: rpm/transaction.cpp:364
 #, c++-format
 msgid "Cannot downgrade package \"{}\""
-msgstr ""
+msgstr "\"{}\"ਪੈਕੇਜ ਡਾਊਨਗਰੇਡ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ"
 
 #: rpm/transaction.cpp:368
 #, c++-format
 msgid "Cannot install package \"{}\""
-msgstr ""
+msgstr "\"{}\" ਪੈਕੇਜ ਇੰਸਟਾਲ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ"
 
 #: rpm/versionlock_config.cpp:284 system/state.cpp:585
 #, c++-format
 msgid "{}"
-msgstr ""
+msgstr "{}"
 
 #. TODO(lukash) throw proper exception class
 #: solv/pool.cpp:174
@@ -1335,16 +1337,16 @@ msgstr ""
 
 #: transaction/Swdb.cpp:91
 msgid "In progress"
-msgstr ""
+msgstr "ਜਾਰੀ ਹੈ"
 
 #: transaction/Swdb.cpp:99 transaction/Swdb.cpp:126 transaction/Swdb.cpp:136
 #: transaction/Swdb.cpp:150 transaction/Swdb.cpp:273 transaction/Swdb.cpp:281
 msgid "Not in progress"
-msgstr ""
+msgstr "ਜਾਰੀ ਨਹੀਂ ਹੈ"
 
 #: transaction/Swdb.cpp:158
 msgid "No transaction in progress"
-msgstr ""
+msgstr "ਕੋਈ ਵੀ ਟਰਾਂਜ਼ੈਕਸ਼ਨ ਜਾਰੀ ਨਹੀਂ ਹੈ"
 
 #: transaction/Transformer.cpp:647
 msgid "Transformer: can't open history persist dir"
