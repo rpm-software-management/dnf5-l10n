@@ -8,9 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-10 03:05+0000\n"
-"PO-Revision-Date: 2024-10-15 17:15+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2024-10-16 03:02+0000\n"
+"Last-Translator: Paweł Marciniak <sunwire+fas@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/pl/>\n"
 "Language: pl\n"
@@ -86,7 +85,7 @@ msgid ""
 "supports globs."
 msgstr ""
 "Pokaż tylko ostrzeżenia zawierające pakiety o określonych nazwach. Opcja "
-"listy, obsługuje globy."
+"listy, obsługuje wzorce."
 
 #: commands/advisory/arguments.hpp:83
 msgid "PACKAGE_NAME,..."
@@ -285,7 +284,7 @@ msgid ""
 "supports globs."
 msgstr ""
 "Pokaż tylko grupy zawierające pakiety o określonych nazwach. Opcja listy, "
-"obsługuje globy."
+"obsługuje wzorce."
 
 #: commands/group/arguments.hpp:67
 msgid "Pattern matching group IDS."
@@ -1057,7 +1056,7 @@ msgstr "repofrompath: Nieprawidłowy repoid i specyfikacja ścieżki „{}”"
 
 #: main.cpp:226
 msgid "set arbitrary config and repo options"
-msgstr "ustawia bezwzględne opcje konfiguracji i repozytoriów"
+msgstr "ustaw dowolne opcje konfiguracji i repozytorium"
 
 #: main.cpp:228
 msgid ""
@@ -1069,15 +1068,24 @@ msgid ""
 "              they do not override it. However, specifying an empty value (e."
 "g. --setopt=tsflags=) will clear the option."
 msgstr ""
+"Zastąp opcję konfiguracji z pliku konfiguracji. Aby zastąpić opcje "
+"konfiguracji dla repozytoriów, użyj repoid.option dla\n"
+"              <option>. Wartości opcji konfiguracji, takich jak excludepkgs, "
+"includepkgs, installonlypkgs i tsflags, są dołączane do oryginalnej wartości,"
+"\n"
+"              nie zastępują jej. Jednak określenie pustej wartości (np. "
+"--setopt=tsflags=) wyczyści opcję."
 
 #: main.cpp:237 main.cpp:276
 msgid "{}: Badly formatted argument value \"{}\""
-msgstr ""
+msgstr "{}: Nieprawidłowo sformatowana wartość argumentu „{}”"
 
 #: main.cpp:244
 msgid ""
 "{}: Badly formatted argument value: Last key character cannot be '.': {}"
 msgstr ""
+"{}: Nieprawidłowo sformatowana wartość argumentu: Ostatni znak klucza nie "
+"może być '.': {}"
 
 #: main.cpp:257
 msgid "setopt: \"{0}\": {1}"
@@ -1085,7 +1093,7 @@ msgstr ""
 
 #: main.cpp:269
 msgid "set arbitrary variable"
-msgstr ""
+msgstr "ustaw dowolną zmienną"
 
 #: main.cpp:283
 msgid "setvar: {}"
@@ -1093,29 +1101,31 @@ msgstr ""
 
 #: main.cpp:292
 msgid "automatically answer yes for all questions"
-msgstr ""
+msgstr "automatycznie odpowiadaj „tak” na wszystkie pytania"
 
 #: main.cpp:299
 msgid "automatically answer no for all questions"
-msgstr ""
+msgstr "automatycznie odpowiadaj „nie” na wszystkie pytania"
 
 #: main.cpp:306
 msgid "try the best available package versions in transactions"
-msgstr ""
+msgstr "wypróbuj najlepsze dostępne wersje pakietów w transakcjach"
 
 #: main.cpp:313
 msgid "do not limit the transaction to the best candidate"
-msgstr ""
+msgstr "nie ograniczaj transakcji do najlepszego kandydata"
 
 #: main.cpp:324
 msgid ""
 "Don't install files that are marked as documentation (which includes man "
 "pages and texinfo documents)"
 msgstr ""
+"Nie instaluj plików oznaczonych jako dokumentacja (w tym stron podręcznika i "
+"dokumentów texinfo)"
 
 #: main.cpp:340
 msgid "exclude packages by name or glob"
-msgstr ""
+msgstr "wyklucz pakiety według nazwy lub wzorca"
 
 #: main.cpp:359
 msgid ""
