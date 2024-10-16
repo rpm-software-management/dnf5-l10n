@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-10 03:05+0000\n"
+"POT-Creation-Date: 2024-10-16 03:14+0000\n"
 "PO-Revision-Date: 2024-10-11 18:24+0000\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -670,15 +670,18 @@ msgid_plural ""
 "Warning: skipped PGP checks for {0} packages from repository: {1}"
 msgstr[0] "Atenție: verificări PGP omise pentru {0} pachet din depozitul: {1}"
 msgstr[1] "Atenție: verificări PGP omise pentru {0} pachete din depozitul: {1}"
-msgstr[2] "Atenție: verificări PGP omise pentru {0} de pachete din depozitul: {1}"
+msgstr[2] ""
+"Atenție: verificări PGP omise pentru {0} de pachete din depozitul: {1}"
 
 #: base/transaction.cpp:1425
 msgid "Warning: skipped PGP checks for {0} package from repositories: {1}"
 msgid_plural ""
 "Warning: skipped PGP checks for {0} packages from repositories: {1}"
 msgstr[0] "Atenție: verificări PGP omise pentru {0} pachet din depozitele: {1}"
-msgstr[1] "Atenție: verificări PGP omise pentru {0} pachete din depozitele: {1}"
-msgstr[2] "Atenție: verificări PGP omise pentru {0} de pachete din depozitele: {1}"
+msgstr[1] ""
+"Atenție: verificări PGP omise pentru {0} pachete din depozitele: {1}"
+msgstr[2] ""
+"Atenție: verificări PGP omise pentru {0} de pachete din depozitele: {1}"
 
 #: common/exception.cpp:78
 msgid "System error"
@@ -841,7 +844,7 @@ msgstr ""
 msgid "Variable \"{}\" is read-only"
 msgstr "Variabila „{}” este numai-pentru-citire"
 
-#: logger/rotating_file_logger.cpp:59
+#: logger/rotating_file_logger.cpp:65
 msgid "Cannot open log file"
 msgstr "Nu se poate deschide fișierul jurnal"
 
@@ -905,8 +908,8 @@ msgid ""
 "Unsupported plugin API combination. API version provided by plugin "
 "\"{}\" (\"{}\") is \"{}.{}\". API version in libdnf is \"{}.{}\"."
 msgstr ""
-"Combinație API/modul neacceptată. Versiunea API furnizată de modulul „{}” "
-"(„{}”) este „{}.{}”. Versiunea API în libdnf este „{}.{}”."
+"Combinație API/modul neacceptată. Versiunea API furnizată de modulul "
+"„{}” („{}”) este „{}.{}”. Versiunea API în libdnf este „{}.{}”."
 
 #: plugin/plugins.cpp:115
 msgid "Cannot find plugin library \"{}\""
@@ -1087,7 +1090,8 @@ msgstr ""
 
 #: repo/solv_repo.cpp:573
 msgid "Failed to write primary cache for repo \"{}\" to \"{}\": {}"
-msgstr "Scrierea cache-ului „primary” pentru depozitul „{}” în „{}” a eșuat: {}"
+msgstr ""
+"Scrierea cache-ului „primary” pentru depozitul „{}” în „{}” a eșuat: {}"
 
 #: repo/solv_repo.cpp:595
 msgid "Failed to re-load primary cache for repo \"{}\" from \"{}\": {}"
@@ -1249,8 +1253,8 @@ msgstr "Starea {} pentru „{}” nu a fost găsită."
 #: system/state.cpp:301
 msgid "Loading system state TOML file {} failed (see dnf5-system-state(7)): {}"
 msgstr ""
-"Încărcarea fișierului TOML de stare a sistemului {} a eșuat (consultați dnf5"
-"-system-state(7)): {}"
+"Încărcarea fișierului TOML de stare a sistemului {} a eșuat (consultați dnf5-"
+"system-state(7)): {}"
 
 #: system/state.cpp:614
 msgid "Unsupported TOML version \"{}\", maximum supported version is \"{}\""
