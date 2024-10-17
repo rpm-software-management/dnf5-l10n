@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-16 03:14+0000\n"
-"PO-Revision-Date: 2024-10-15 17:15+0000\n"
+"PO-Revision-Date: 2024-10-17 17:14+0000\n"
 "Last-Translator: Paweł Marciniak <sunwire+fas@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/pl/>\n"
@@ -28,16 +28,16 @@ msgstr ""
 
 #: base/goal.cpp:472
 msgid "Unsupported argument for REMOVE action: {}"
-msgstr ""
+msgstr "Nieobsługiwany argument dla akcji USUŃ: {}"
 
 #. TODO(lukash) throw a proper exception
 #: base/goal.cpp:1545
 msgid "Incorrect configuration value for multilib_policy: {}"
-msgstr ""
+msgstr "Nieprawidłowa wartość konfiguracji dla multilib_policy: {}"
 
 #: base/goal_elements.cpp:352
 msgid "Install"
-msgstr ""
+msgstr "Zainstaluj"
 
 #: base/goal_elements.cpp:354
 msgid "Install via provide"
@@ -101,7 +101,7 @@ msgstr ""
 
 #: base/goal_elements.cpp:384
 msgid "Disable"
-msgstr ""
+msgstr "Wyłącz"
 
 #: base/goal_elements.cpp:386
 msgid "Reset"
@@ -149,79 +149,85 @@ msgstr ""
 
 #: base/log_event.cpp:141
 msgid "No packages to remove for argument: {}"
-msgstr ""
+msgstr "Brak pakietów do usunięcia dla argumentu: {}"
 
 #: base/log_event.cpp:143
 msgid "No groups to remove for argument: {}"
-msgstr ""
+msgstr "Brak grup do usunięcia dla argumentu: {}"
 
 #: base/log_event.cpp:146
 msgid "No environmental groups to remove for argument: {}"
-msgstr ""
+msgstr "Brak grup środowiskowych do usunięcia z powodu argumentu: {}"
 
 #: base/log_event.cpp:148
 msgid "No modules to remove for argument: {}"
-msgstr ""
+msgstr "Brak modułów do usunięcia dla argumentu: {}"
 
 #: base/log_event.cpp:152
 msgid "No match for group from environment: {}"
-msgstr ""
+msgstr "Brak dopasowania dla grupy ze środowiska: {}"
 
 #: base/log_event.cpp:154
 msgid "No match for group package: {}"
-msgstr ""
+msgstr "Brak dopasowania do pakietu grupowego: {}"
 
 #: base/log_event.cpp:158
 msgid "Cannot perform {0}, no match for: {1}."
-msgstr ""
+msgstr "Nie można wykonać {0}, brak dopasowania dla: {1}."
 
 #: base/log_event.cpp:160
 msgid "No match for argument: {}"
-msgstr ""
+msgstr "Brak dopasowania dla argumentu: {}"
 
 #: base/log_event.cpp:163
 msgid "No match for argument '{0}' in repositories '{1}'"
-msgstr ""
+msgstr "Brak dopasowania dla argumentu '{0}' w repozytoriach '{1}'"
 
 #: base/log_event.cpp:169
 msgid "Cannot perform {0} for {1} '{2}' because it is not installed."
-msgstr ""
+msgstr "Nie można wykonać {0} dla {1} '{2}', ponieważ nie jest zainstalowany."
 
 #: base/log_event.cpp:174
 msgid "Packages for argument '{}' available, but not installed."
-msgstr ""
+msgstr "Pakiety dla argumentu '{}' są dostępne, ale nie zainstalowane."
 
 #: base/log_event.cpp:178
 msgid ""
 "Packages for argument '{}' available, but installed for a different "
 "architecture."
 msgstr ""
+"Pakiety dla argumentu '{}' są dostępne, ale zainstalowane dla innej "
+"architektury."
 
 #: base/log_event.cpp:182
 msgid "Cannot perform {0} because '{1}' matches only source packages."
 msgstr ""
+"Nie można wykonać {0}, ponieważ '{1}' pasuje tylko do pakietów źródłowych."
 
 #: base/log_event.cpp:186
 msgid "Argument '{}' matches only source packages."
-msgstr ""
+msgstr "Argument '{}' pasuje tylko do pakietów źródłowych."
 
 #: base/log_event.cpp:190
 msgid "Cannot perform {0} because '{1}' matches only excluded packages."
 msgstr ""
+"Nie można wykonać {0}, ponieważ '{1}' pasuje tylko do wykluczonych pakietów."
 
 #: base/log_event.cpp:194
 msgid "Argument '{}' matches only excluded packages."
-msgstr ""
+msgstr "Argument '{}' pasuje tylko do wykluczonych pakietów."
 
 #: base/log_event.cpp:198
 msgid ""
 "Cannot perform {0} because '{1}' matches only packages excluded by "
 "versionlock."
 msgstr ""
+"Nie można wykonać {0}, ponieważ '{1}' pasuje tylko do pakietów wykluczonych "
+"przez versionlock."
 
 #: base/log_event.cpp:202
 msgid "Argument '{}' matches only packages excluded by versionlock."
-msgstr ""
+msgstr "Argument '{}' pasuje tylko do pakietów wykluczonych przez versionlock."
 
 #: base/log_event.cpp:207
 msgid "  * Maybe you meant: {}"
@@ -229,61 +235,70 @@ msgstr ""
 
 #: base/log_event.cpp:210
 msgid "There are following alternatives for '{0}': {1}"
-msgstr ""
+msgstr "Istnieją następujące alternatywy dla '{0}': {1}"
 
 #: base/log_event.cpp:217
 msgid ""
 "The lowest available version of the \"{}\" package is already installed, "
 "cannot downgrade it."
 msgstr ""
+"Najniższa dostępna wersja pakietu „{}” jest już zainstalowana. Nie można jej "
+"obniżyć."
 
 #: base/log_event.cpp:223
 msgid ""
 "Installed packages for argument '{0}' are not available in repositories in "
 "the same version, available versions: {1}, cannot reinstall."
 msgstr ""
+"Zainstalowane pakiety dla argumentu „{0}” nie są dostępne w repozytoriach w "
+"tej samej wersji, dostępne wersje: {1}, nie można zainstalować ponownie."
 
 #: base/log_event.cpp:229
 msgid ""
 "Cannot perform {0} because '{1}' is installed in a different version: '{2}'."
 msgstr ""
+"Nie można wykonać {0}, ponieważ '{1}' jest zainstalowany w innej wersji: "
+"'{2}'."
 
 #: base/log_event.cpp:235
 msgid ""
 "Packages for argument '{}' installed and available, but in a different "
 "version."
 msgstr ""
+"Pakiety dla argumentu '{}' są zainstalowane i dostępne, ale w innej wersji."
 
 #: base/log_event.cpp:237
 msgid "Packages for argument '{}' installed, but not available."
-msgstr ""
+msgstr "Pakiety dla argumentu '{}' zostały zainstalowane, ale są niedostępne."
 
 #: base/log_event.cpp:246
 msgid "Package \"{}\" is already installed with reason \"{}\"."
-msgstr ""
+msgstr "Pakiet „{}” został już zainstalowany z powodu „{}”."
 
 #: base/log_event.cpp:248
 msgid "Package \"{}\" is already installed."
-msgstr ""
+msgstr "Pakiet „{}” jest już zainstalowany."
 
 #: base/log_event.cpp:257
 msgid "Debug data written to \"{}\""
-msgstr ""
+msgstr "Dane debugowania zapisane w „{}”"
 
 #: base/log_event.cpp:261
 msgid ""
 "{0} upgrade cannot be reverted, however associated package actions will be. "
 "({1} id: '{2}') ."
 msgstr ""
+"{0} uaktualnienia nie można cofnąć, ale powiązane z nim działania pakietu "
+"będą cofnięte. ({1} id: '{2}') ."
 
 #: base/log_event.cpp:267
 msgid "{} action for argument \"{}\" is not supported."
-msgstr ""
+msgstr "{} akcja dla argumentu \"{}\" nie jest obsługiwana."
 
 #. Format a leading line of the error message.
 #: base/log_event.cpp:276
 msgid "Unable to resolve argument '{}':"
-msgstr ""
+msgstr "Nie można rozwiązać argumentu '{}':"
 
 #: base/log_event.cpp:280
 msgid ""
@@ -295,154 +310,179 @@ msgid_plural ""
 "  - Argument '{}' matches {} streams ('{}') of module '{}', but none of the "
 "streams are enabled or default."
 msgstr[0] ""
+"\n"
+"  - Argument '{}' pasuje do {} strumienia ('{}') modułu '{}', ale strumień "
+"nie jest włączony lub domyślny."
 msgstr[1] ""
+"\n"
+"  - Argument '{}' pasuje do {} strumieni ('{}') modułu '{}', ale żaden ze "
+"strumieni nie jest włączony ani domyślny."
+msgstr[2] ""
+"\n"
+"  - Argument '{}' pasuje do {} strumieni ('{}') modułu '{}', ale żaden ze "
+"strumieni nie jest włączony ani domyślny."
 
 #: base/log_event.cpp:287
 msgid "', '"
-msgstr ""
+msgstr "', '"
 
 #: base/log_event.cpp:296
 msgid "Modular dependency problems:\n"
-msgstr ""
+msgstr "Problemy zależności modułowych:\n"
 
 #: base/log_event.cpp:303
 msgid "Modular dependency problems with the latest modules:\n"
-msgstr ""
+msgstr "Problemy zależności modułowych w najnowszych modułach:\n"
 
 #: base/log_event.cpp:310
 msgid "Modular dependency problems with the defaults:\n"
-msgstr ""
+msgstr "Problemy z zależnościami modułowymi przy ustawieniach domyślnych:\n"
 
 #: base/log_event.cpp:325
 msgid ""
 "The operation would result in switching of module '{0}' stream '{1}' to "
 "stream '{2}'\n"
 msgstr ""
+"Operacja spowoduje przełączenie strumienia modułu '{0}' '{1}' na strumień "
+"'{2}'\n"
 
 #: base/log_event.cpp:330
 msgid ""
 "Error: It is not possible to switch enabled streams of a module unless "
 "explicitly enabled via configuration option module_stream_switch."
 msgstr ""
+"Błąd: Nie można przełączać włączonych strumieni modułu, chyba że zostanie to "
+"wyraźnie włączone za pomocą opcji konfiguracji module_stream_switch."
 
 #: base/log_event.cpp:335
 msgid ""
 "Extra package '{0}' (with action '{1}') which is not present in the stored "
 "transaction was pulled into the transaction.\n"
 msgstr ""
+"Dodatkowy pakiet '{0}' (z akcją '{1}'), którego nie ma w zapisanej "
+"transakcji, został wciągnięty do transakcji.\n"
 
 #: base/log_event.cpp:341
 msgid "Cannot parse file: '{0}': {1}.\n"
-msgstr ""
+msgstr "Nie można przeanalizować pliku: '{0}': {1}.\n"
 
 #: base/log_event.cpp:348
 msgid ""
 "Could not find debuginfo package for the following packages resolved from "
 "the argument '{0}': {1}"
 msgstr ""
+"Nie można znaleźć pakietu debuginfo dla następujących pakietów rozwiązanych "
+"na podstawie argumentu '{0}': {1}"
 
 #: base/log_event.cpp:351 base/log_event.cpp:362
 msgctxt "String for joining NEVRAs - e.g. `foo-4-4.noarch, bar-5-5.noarch`"
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: base/log_event.cpp:358
 msgid ""
 "Could not find debugsource package for the following packages resolved from "
 "the argument '{0}': {1}"
 msgstr ""
+"Nie można znaleźć pakietu debugsource dla następujących pakietów "
+"rozwiązanych na podstawie argumentu '{0}': {1}"
 
 #: base/log_event.cpp:365
 msgid "Transaction merge error: '{0}'"
-msgstr ""
+msgstr "Błąd scalania transakcji: '{0}'"
 
 #: base/solver_problems.cpp:41
 msgid "{} does not belong to a distupgrade repository"
-msgstr ""
+msgstr "{} nie należy do repozytorium distupgrade"
 
 #: base/solver_problems.cpp:42
 msgid "{0} from {1} has inferior architecture"
-msgstr ""
+msgstr "{0} z {1} ma gorszą architekturę"
 
 #: base/solver_problems.cpp:43
 msgid "problem with installed package"
-msgstr ""
+msgstr "problem z zainstalowanym pakietem"
 
 #: base/solver_problems.cpp:44 base/solver_problems.cpp:80
 msgid "conflicting requests"
-msgstr ""
+msgstr "sprzeczne żądania"
 
 #: base/solver_problems.cpp:45 base/solver_problems.cpp:81
 msgid "unsupported request"
-msgstr ""
+msgstr "nieobsługiwane żądanie"
 
 #: base/solver_problems.cpp:46 base/solver_problems.cpp:82
 msgid "nothing provides requested {}"
-msgstr ""
+msgstr "nic nie dostarcza żądanego {}"
 
 #: base/solver_problems.cpp:47
 msgid "package {} does not exist"
-msgstr ""
+msgstr "pakiet {} nie istnieje"
 
 #: base/solver_problems.cpp:48 base/solver_problems.cpp:84
 msgid "{} is provided by the system"
-msgstr ""
+msgstr "{} jest dostarczany przez system"
 
 #: base/solver_problems.cpp:49 base/solver_problems.cpp:85
 msgid "some dependency problem"
-msgstr ""
+msgstr "jakiś problem z zależnością"
 
 #: base/solver_problems.cpp:50
 msgid "cannot install the best update candidate for package {}"
 msgstr ""
+"nie można zainstalować najlepszego kandydata do aktualizacji dla pakietu {}"
 
 #: base/solver_problems.cpp:51 base/solver_problems.cpp:87
 msgid "cannot install the best candidate for the job"
-msgstr ""
+msgstr "nie można zainstalować najlepszego kandydata do zadania"
 
 #: base/solver_problems.cpp:52
 msgid "package {0} from {1} is filtered out by modular filtering"
-msgstr ""
+msgstr "pakiet {0} z {1} jest filtrowany przez filtrowanie modułowe"
 
 #: base/solver_problems.cpp:53
 msgid "package {0} from {1} does not have a compatible architecture"
-msgstr ""
+msgstr "pakiet {0} z {1} nie ma zgodnej architektury"
 
 #: base/solver_problems.cpp:54
 msgid "package {0} from {1} is not installable"
-msgstr ""
+msgstr "pakiet {0} z {1} nie jest instalowalny"
 
 #: base/solver_problems.cpp:55
 msgid "package {0} from {1} is filtered out by exclude filtering"
-msgstr ""
+msgstr "pakiet {0} z {1} jest filtrowany przez filtrowanie wykluczające"
 
 #: base/solver_problems.cpp:56
 msgid "nothing provides {0} needed by {1} from {2}"
-msgstr ""
+msgstr "nic nie dostarcza {0} potrzebnego {1} od {2}"
 
 #: base/solver_problems.cpp:57
 msgid "cannot install both {0} from {1} and {2} from {3}"
-msgstr ""
+msgstr "nie można zainstalować jednocześnie {0} z {1} i {2} z {3}"
 
 #: base/solver_problems.cpp:58
 msgid "package {0} from {1} conflicts with {2} provided by {3} from {4}"
-msgstr ""
+msgstr "pakiet {0} z {1} koliduje z {2} dostarczonym przez {3} z {4}"
 
 #: base/solver_problems.cpp:60
 msgid "installed package {0} conflicts with {1} provided by {2} from {3}"
-msgstr ""
+msgstr "zainstalowany pakiet {0} koliduje z {1} dostarczonym przez {2} z {3}"
 
 #: base/solver_problems.cpp:61
 msgid "package {0} from {1} obsoletes {2} provided by {3} from {4}"
-msgstr ""
+msgstr "pakiet {0} z {1} jest nieaktualny, {2} dostarczony przez {3} z {4}"
 
 #: base/solver_problems.cpp:62
 msgid "installed package {0} obsoletes {1} provided by {2} from {3}"
 msgstr ""
+"zainstalowany pakiet {0} powoduje przestarzałość {1} dostarczonego przez {2} "
+"z {3}"
 
 #: base/solver_problems.cpp:64
 msgid "package {0} from {1} implicitly obsoletes {2} provided by {3} from {4}"
 msgstr ""
+"pakiet {0} z {1} niejawnie czyni przestarzałym {2} dostarczony przez {3} z "
+"{4}"
 
 #: base/solver_problems.cpp:66
 msgid ""
@@ -458,10 +498,11 @@ msgstr ""
 #: base/solver_problems.cpp:69
 msgid "package {0} from {1} conflicts with {2} provided by itself"
 msgstr ""
+"pakiet {0} z {1} powoduje konflikt z {2} dostarczonym przez niego samego"
 
 #: base/solver_problems.cpp:70
 msgid "both package {0} from {1} and {3} from {4} obsolete {2}"
-msgstr ""
+msgstr "oba pakiety {0} z {1} i {3} z {4} są przestarzałe {2}"
 
 #: base/solver_problems.cpp:72
 msgid ""
@@ -470,15 +511,15 @@ msgstr ""
 
 #: base/solver_problems.cpp:75
 msgid "The operation would result in removing of running kernel: {}"
-msgstr ""
+msgstr "Operacja spowoduje usunięcie działającego jądra: {}"
 
 #: base/solver_problems.cpp:77
 msgid "module {} does not belong to a distupgrade repository"
-msgstr ""
+msgstr "moduł {} nie należy do repozytorium distupgrade"
 
 #: base/solver_problems.cpp:78
 msgid "module {} has inferior architecture"
-msgstr ""
+msgstr "moduł {} ma gorszą architekturę"
 
 #: base/solver_problems.cpp:79
 msgid "problem with installed module {}"
