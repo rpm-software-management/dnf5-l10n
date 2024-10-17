@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-16 03:14+0000\n"
-"PO-Revision-Date: 2024-10-17 07:38+0000\n"
+"PO-Revision-Date: 2024-10-17 17:14+0000\n"
 "Last-Translator: Paweł Marciniak <sunwire+fas@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/pl/>\n"
@@ -26,7 +26,7 @@ msgstr "Zarządzaj ostrzeżeniami"
 
 #: commands/advisory/advisory_info.hpp:33
 msgid "Print details about advisories"
-msgstr "Pokaż szczegóły dotyczące ostrzeżeń"
+msgstr "Wydrukuj szczegóły dotyczące ostrzeżeń"
 
 #: commands/advisory/advisory_list.hpp:35
 msgid "List advisories"
@@ -76,7 +76,7 @@ msgid ""
 "Show advisories containing newer versions of installed packages for which a "
 "newer version is available."
 msgstr ""
-"Pokaż powiadomienia zawierające nowsze wersje zainstalowanych pakietów, dla "
+"Pokaż ostrzeżenia zawierające nowsze wersje zainstalowanych pakietów, dla "
 "których jest dostępna nowsza wersja."
 
 #: commands/advisory/arguments.hpp:82
@@ -84,7 +84,7 @@ msgid ""
 "Show only advisories containing packages with specified names. List option, "
 "supports globs."
 msgstr ""
-"Pokaż tylko ostrzeżenia zawierające pakiety o określonych nazwach. Opcja "
+"Pokaż tylko komunikaty zawierające pakiety o określonych nazwach. Opcja "
 "listy, obsługuje wzorce."
 
 #: commands/advisory/arguments.hpp:83
@@ -133,7 +133,7 @@ msgid ""
 "\"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgstr ""
 "Ogranicz do pakietów w ostrzeżeniach o określonej powadze. Opcja listy. Może "
-"być \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
+"być „critical\", „important\", „moderate\", „low\", „none\"."
 
 #: commands/advisory_shared.hpp:155
 msgid "ADVISORY_SEVERITY,..."
@@ -144,12 +144,12 @@ msgid ""
 "Limit to packages in advisories that fix a Bugzilla ID, Eg. 123123. List "
 "option."
 msgstr ""
-"Ogranicz do pakietów w komunikatach, które naprawiają identyfikator "
+"Ogranicz do pakietów w ostrzeżeniach, które naprawiają identyfikator "
 "Bugzilli, np. 123123. Opcja listy."
 
 #: commands/advisory_shared.hpp:168
 msgid "BUGZILLA_ID,..."
-msgstr "ID_BUGZILLI,..."
+msgstr "ID_BUGZILLI..."
 
 #: commands/advisory_shared.hpp:178
 msgid ""
@@ -271,7 +271,7 @@ msgstr "Pokaż tylko dostępne grupy."
 
 #: commands/group/arguments.hpp:41
 msgid "Show also hidden groups."
-msgstr "Pokaż również ukryte grupy."
+msgstr "Pokaż także ukryte grupy."
 
 #: commands/group/arguments.hpp:48
 msgid "Show only installed groups."
@@ -844,7 +844,7 @@ msgstr "Klucz został pomyślnie zaimportowany."
 
 #: context.cpp:262
 msgid "setopt: \"{}.{}\": {}"
-msgstr ""
+msgstr "setopt: \"{}.{}\": {}"
 
 #: context.cpp:268
 msgid ", "
@@ -1086,7 +1086,7 @@ msgstr ""
 
 #: main.cpp:257
 msgid "setopt: \"{0}\": {1}"
-msgstr ""
+msgstr "setopt: \"{0}\": {1}"
 
 #: main.cpp:269
 msgid "set arbitrary variable"
@@ -1094,7 +1094,7 @@ msgstr "ustaw dowolną zmienną"
 
 #: main.cpp:283
 msgid "setvar: {}"
-msgstr ""
+msgstr "setvar: {}"
 
 #: main.cpp:292
 msgid "automatically answer yes for all questions"
