@@ -7,14 +7,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-16 03:14+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-10-19 11:38+0000\n"
+"Last-Translator: A S Alam <aalam@users.noreply.translate.fedoraproject.org>\n"
+"Language-Team: Punjabi <https://translate.fedoraproject.org/projects/dnf5/"
+"libdnf5-cli/pa/>\n"
 "Language: pa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.7.2\n"
 
 #: argument_parser.cpp:62
 msgid "\"{}\" not allowed together with named argument \"{}\""
@@ -55,11 +57,11 @@ msgstr ""
 #. print usage
 #: argument_parser.cpp:657
 msgid "Usage:"
-msgstr ""
+msgstr "ਵਰਤੋਂ:"
 
 #: argument_parser.cpp:665
 msgid "Description:"
-msgstr ""
+msgstr "ਵਰਣਨ:"
 
 #: argument_parser.cpp:915
 msgid "Command id \"{}\" already registered for command \"{}\""
@@ -111,7 +113,7 @@ msgstr ""
 
 #: exception.cpp:30
 msgid "Operation aborted by the user."
-msgstr ""
+msgstr "ਕਾਰਵਾਈ ਵਰਤੋਂਕਾਰ ਵਲੋਂ ਅਧੂਰੀ ਛੱਡੀ ਗਈ।"
 
 #: exception.cpp:33
 msgid "Failed to resolve the transaction"
@@ -142,99 +144,99 @@ msgstr ""
 
 #: output/packageinfo.cpp:69 output/transaction_table.cpp:274
 msgid "Version"
-msgstr ""
+msgstr "ਵਰਜ਼ਨ"
 
 #: output/packageinfo.cpp:70
 msgid "Release"
-msgstr ""
+msgstr "ਰੀਲਿਜ਼"
 
 #: output/packageinfo.cpp:71
 msgid "Architecture"
-msgstr ""
+msgstr "ਢਾਂਚਾ"
 
 #: output/packageinfo.cpp:75
 msgid "Obsoletes"
-msgstr ""
+msgstr "ਬਰਤਰਫ਼"
 
 #: output/packageinfo.cpp:85
 msgid "Download size"
-msgstr ""
+msgstr "ਡਾਊਨਲੋਡ ਦਾ ਆਕਾਰ"
 
 #: output/packageinfo.cpp:89
 msgid "Installed size"
-msgstr ""
+msgstr "ਇੰਸਟਾਲ ਦਾ ਆਕਾਰ"
 
 #: output/packageinfo.cpp:91
 msgid "Source"
-msgstr ""
+msgstr "ਸਰੋਤ"
 
 #: output/packageinfo.cpp:94
 msgid "From repository"
-msgstr ""
+msgstr "ਰਿਪੋਜ਼ਟਰੀ ਤੋਂ"
 
 #: output/packageinfo.cpp:96 output/transaction_table.cpp:280
 msgid "Repository"
-msgstr ""
+msgstr "ਰਿਪੋਜ਼ਟਰੀ"
 
 #: output/packageinfo.cpp:98
 msgid "Summary"
-msgstr ""
+msgstr "ਸਾਰ"
 
 #: output/packageinfo.cpp:99
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: output/packageinfo.cpp:100
 msgid "License"
-msgstr ""
+msgstr "ਲਸੰਸ"
 
 #: output/packageinfo.cpp:104
 msgid "Description"
-msgstr ""
+msgstr "ਵਰਨਣ"
 
 #: output/packageinfo.cpp:109
 msgid "Vendor"
-msgstr ""
+msgstr "ਵੇਂਡਰ"
 
 #: output/transaction_table.cpp:127
 msgid "Transaction Summary:\n"
-msgstr ""
+msgstr "ਟਰਾਂਜ਼ੈਕਸ਼ਨ ਦਾ ਸਾਰ:\n"
 
 #: output/transaction_table.cpp:131
 msgid " Installing:      {:4} package\n"
 msgid_plural " Installing:      {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " ਇੰਸਟਾਲ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ:      {:4} ਪੈਕੇਜ\n"
+msgstr[1] " ਇੰਸਟਾਲ ਕੀਤੇ ਜਾ ਰਹੇ ਹਨ:      {:4} ਪੈਕੇਜ\n"
 
 #: output/transaction_table.cpp:138
 msgid " Reinstalling:    {:4} package\n"
 msgid_plural " Reinstalling:    {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " ਮੁੜ-ਇੰਸਟਾਲ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ:      {:4} ਪੈਕੇਜ\n"
+msgstr[1] " ਮੁੜ-ਇੰਸਟਾਲ ਕੀਤੇ ਜਾ ਰਹੇ ਹਨ:      {:4} ਪੈਕੇਜ\n"
 
 #: output/transaction_table.cpp:145
 msgid " Upgrading:       {:4} package\n"
 msgid_plural " Upgrading:       {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " ਅੱਪਗਰੇਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ:      {:4} ਪੈਕੇਜ\n"
+msgstr[1] " ਅੱਪਗਰੇਡ ਕੀਤੇ ਜਾ ਰਹੇ ਹਨ:      {:4} ਪੈਕੇਜ\n"
 
 #: output/transaction_table.cpp:152
 msgid " Replacing:       {:4} package\n"
 msgid_plural " Replacing:       {:4} package\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " ਤਬਦੀਲ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ:      {:4} ਪੈਕੇਜ\n"
+msgstr[1] " ਤਬਦੀਲ ਕੀਤੇ ਜਾ ਰਹੇ ਹਨ:      {:4} ਪੈਕੇਜ\n"
 
 #: output/transaction_table.cpp:159
 msgid " Removing:        {:4} package\n"
 msgid_plural " Removing:        {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " ਹਟਾਇਆ ਜਾ ਰਿਹਾ ਹੈ:      {:4} ਪੈਕੇਜ\n"
+msgstr[1] " ਹਟਾਏ ਜਾ ਰਹੇ ਹਨ:      {:4} ਪੈਕੇਜ\n"
 
 #: output/transaction_table.cpp:166
 msgid " Downgrading:     {:4} package\n"
 msgid_plural " Downgrading:     {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " ਡਾਊਨਗਰੇਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ:     {:4} ਪੈਕੇਜ\n"
+msgstr[1] " ਡਾਊਨਗਰੇਡ ਕੀਤੇ ਜਾ ਰਹੇ ਹਨ:      {:4} ਪੈਕੇਜ\n"
 
 #: output/transaction_table.cpp:173
 msgid " Changing reason: {:4} package\n"
@@ -250,7 +252,7 @@ msgstr[1] ""
 
 #: output/transaction_table.cpp:262
 msgid "Package"
-msgstr ""
+msgstr "ਪੈਕੇਜ"
 
 #: output/transaction_table.cpp:268
 msgid "Arch"
@@ -302,19 +304,19 @@ msgstr ""
 
 #: output/transaction_table.cpp:528
 msgid "Upgrading:"
-msgstr ""
+msgstr "ਅੱਪਗਰੇਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ:"
 
 #: output/transaction_table.cpp:531
 msgid "Downgrading:"
-msgstr ""
+msgstr "ਡਾਊਨਗਰੇਡ:"
 
 #: output/transaction_table.cpp:534
 msgid "Reinstalling:"
-msgstr ""
+msgstr "ਮੁੜ-ਇੰਸਟਾਲ:"
 
 #: output/transaction_table.cpp:538
 msgid "Removing dependent packages:"
-msgstr ""
+msgstr "ਨਿਰਭਰ ਪੈਕੇਜ ਹਟਾਏ ਜਾ ਰਹੇ ਹਨ:"
 
 #: output/transaction_table.cpp:540
 msgid "Removing unused dependencies:"
@@ -322,11 +324,11 @@ msgstr ""
 
 #: output/transaction_table.cpp:542
 msgid "Removing:"
-msgstr ""
+msgstr "ਹਟਾਏ ਜਾ ਰਹੇ ਹਨ:"
 
 #: output/transaction_table.cpp:546
 msgid "Changing reason:"
-msgstr ""
+msgstr "ਬਦਲਣ ਦਾ ਕਾਰਨ:"
 
 #: output/transaction_table.cpp:578
 msgid "Installing groups dependencies:"
@@ -334,15 +336,15 @@ msgstr ""
 
 #: output/transaction_table.cpp:580
 msgid "Installing groups:"
-msgstr ""
+msgstr "ਇੰਸਟਾਲ ਕੀਤੇ ਜਾ ਰਹੇ ਗਰੁੱਪ:"
 
 #: output/transaction_table.cpp:584
 msgid "Removing groups:"
-msgstr ""
+msgstr "ਹਟਾਏ ਜਾ ਰਹੇ ਗਰੁੱਪ:"
 
 #: output/transaction_table.cpp:587
 msgid "Upgrading groups:"
-msgstr ""
+msgstr "ਅੱਪਗਰੇਡ ਕੀਤੇ ਜਾ ਰਹੇ ਗਰੁੱਪ:"
 
 #: output/transaction_table.cpp:614
 msgid "Installing environmental groups:"
@@ -374,8 +376,8 @@ msgstr ""
 
 #: output/transaction_table.cpp:730
 msgid "Nothing to do."
-msgstr ""
+msgstr "ਕਰਨ ਲਈ ਕੁਝ ਨਹੀਂ ਹੈ।"
 
 #: session.cpp:149
 msgid "Missing command"
-msgstr ""
+msgstr "ਕਮਾਂਡ ਮੌਜੂਦ ਨਹੀਂ ਹੈ"
