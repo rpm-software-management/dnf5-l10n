@@ -8,9 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-16 03:14+0000\n"
-"PO-Revision-Date: 2024-10-18 10:44+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2024-10-19 11:38+0000\n"
+"Last-Translator: Paweł Marciniak <sunwire+fas@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/pl/>\n"
 "Language: pl\n"
@@ -26,6 +25,8 @@ msgid ""
 "Bad libsolv id for advisory \"{}\", solvable name \"{}\" doesn't have "
 "advisory prefix \"{}\""
 msgstr ""
+"Zły identyfikator libsolv dla ostrzeżenia „{}”, rozpoznawalna nazwa „{}” nie "
+"zaczyna się od przedrostka ostrzeżenia „{}”"
 
 #: base/goal.cpp:472
 msgid "Unsupported argument for REMOVE action: {}"
@@ -50,15 +51,15 @@ msgstr ""
 
 #: base/goal_elements.cpp:358
 msgid "Upgrade"
-msgstr ""
+msgstr "Zaktualizuj"
 
 #: base/goal_elements.cpp:360
 msgid "Upgrade all"
-msgstr ""
+msgstr "Zaktualizuj wszystko"
 
 #: base/goal_elements.cpp:362
 msgid "Upgrade minimal"
-msgstr ""
+msgstr "Minimalna aktualizacja"
 
 #: base/goal_elements.cpp:364
 msgid "Upgrade all minimal"
@@ -488,7 +489,7 @@ msgstr ""
 #: base/solver_problems.cpp:66
 msgid ""
 "package {1} from {2} requires {0}, but none of the providers can be installed"
-msgstr ""
+msgstr "pakiet {1} z {2} wymaga {0}, ale żaden z dostawców go nie dostarcza"
 
 #: base/solver_problems.cpp:68
 msgid ""
@@ -508,7 +509,7 @@ msgstr "oba pakiety {0} z {1} i {3} z {4} są przestarzałe {2}"
 #: base/solver_problems.cpp:72
 msgid ""
 "The operation would result in removing the following protected packages: {}"
-msgstr "Działanie spowodowałoby usunięcie tych chronionych pakietów:"
+msgstr "Operacja spowoduje usunięcie następujących chronionych pakietów: {}"
 
 #: base/solver_problems.cpp:75
 msgid "The operation would result in removing of running kernel: {}"
@@ -573,7 +574,7 @@ msgstr ""
 
 #: base/solver_problems.cpp:98
 msgid "module {1} requires {0}, but none of the providers can be installed"
-msgstr ""
+msgstr "moduł {1} wymaga {0}, ale żaden z dostawców go nie dostarcza"
 
 #: base/solver_problems.cpp:99
 msgid "module {1} conflicts with {0} provided by itself"
@@ -1261,7 +1262,7 @@ msgstr "Nieobsługiwana wersja TOML „{}”, maksymalna obsługiwana wersja to 
 
 #: transaction/Swdb.cpp:91
 msgid "In progress"
-msgstr "W toku"
+msgstr "W trakcie wykonywania"
 
 #: transaction/Swdb.cpp:99 transaction/Swdb.cpp:126 transaction/Swdb.cpp:136
 #: transaction/Swdb.cpp:150 transaction/Swdb.cpp:273 transaction/Swdb.cpp:281
@@ -1270,7 +1271,7 @@ msgstr "Nie jest w trakcie wykonywania"
 
 #: transaction/Swdb.cpp:158
 msgid "No transaction in progress"
-msgstr ""
+msgstr "Brak transakcji w toku"
 
 #: transaction/Transformer.cpp:647
 msgid "Transformer: can't open history persist dir"
@@ -1286,35 +1287,38 @@ msgid ""
 "Failed to insert record into table 'comps_environment_group' in history "
 "database"
 msgstr ""
+"Nie udało się wstawić rekordu do tabeli „comps_environment_group” w bazie "
+"danych historii"
 
 #: transaction/db/db.cpp:71
 msgid "Unable to get 'version' from table 'config'"
-msgstr ""
+msgstr "Nie można pobrać „version” z tabeli „config”"
 
 #. TODO(dmach): replace with a better exception class
 #: transaction/db/item.cpp:43
 msgid "Failed to insert record into table 'item' in history database"
 msgstr ""
+"Nie udało się wstawić rekordu do tabeli „element” w bazie danych historii"
 
 #: transaction/offline.cpp:195
 msgid "error reading offline state file"
-msgstr ""
+msgstr "błąd podczas odczytu pliku stanu offline"
 
 #: transaction/offline.cpp:200
 msgid "incompatible version of state data"
-msgstr ""
+msgstr "niekompatybilna wersja danych stanu"
 
 #: transaction/transaction.cpp:96
 msgid "Invalid transaction state: {}"
-msgstr ""
+msgstr "Nieprawidłowy stan transakcji: {}"
 
 #: transaction/transaction.cpp:279
 msgid "Transaction has already started!"
-msgstr ""
+msgstr "Transakcja już się rozpoczęła!"
 
 #: transaction/transaction_item_action.cpp:28
 msgid "Invalid transaction item action: {}"
-msgstr ""
+msgstr "Nieprawidłowa akcja elementu transakcji: {}"
 
 #: transaction/transaction_item_reason.cpp:28
 msgid "Invalid transaction item reason: {}"
@@ -1388,11 +1392,13 @@ msgstr ""
 
 #: transaction/transaction_merge.cpp:304
 msgid "Invalid action encountered: '{0}' during transaction merge."
-msgstr ""
+msgstr "Napotkano nieprawidłową akcję: '{0}' podczas scalania transakcji."
 
 #: transaction/transaction_sr.cpp:49
 msgid "Transaction replay JSON serialized transaction input is empty"
 msgstr ""
+"Powtórka transakcji. Dane wejściowe transakcji zserializowanej w formacie "
+"JSON są puste"
 
 #: transaction/transaction_sr.cpp:58
 msgid "Error during transaction replay JSON parsing : {}"
@@ -1400,67 +1406,67 @@ msgstr ""
 
 #: transaction/transaction_sr.cpp:68
 msgid "Unexpected version format: \"{}\", supported version is \"{}\""
-msgstr ""
+msgstr "Nieoczekiwany format wersji: „{}”, obsługiwana wersja to „{}”"
 
 #: transaction/transaction_sr.cpp:74
 msgid "Incompatible major version: \"{}\", supported major version is \"{}\""
-msgstr ""
+msgstr "Niezgodna wersja główna: „{}”, obsługiwana wersja główna to „{}”"
 
 #: transaction/transaction_sr.cpp:81
 msgid "Invalid minor version: \"{}\", number expected"
-msgstr ""
+msgstr "Nieprawidłowa wersja pomocnicza: „{}”, oczekiwano numeru"
 
 #: transaction/transaction_sr.cpp:84
 msgid "Missing key \"version\""
-msgstr ""
+msgstr "Brak klucza „wersja”"
 
 #: transaction/transaction_sr.cpp:97
 msgid "Unexpected type of \"environments\", array expected"
-msgstr ""
+msgstr "Nieoczekiwany typ „środowisk”, oczekiwano tablicy"
 
 #: transaction/transaction_sr.cpp:105
 msgid "Missing object key \"id\" in an environment"
-msgstr ""
+msgstr "Brak klucza obiektu „id” w środowisku"
 
 #: transaction/transaction_sr.cpp:110
 msgid "Missing object key \"action\" in an environment"
-msgstr ""
+msgstr "Brak klucza obiektu „akcja” w środowisku"
 
 #: transaction/transaction_sr.cpp:137
 msgid "Unexpected type of \"groups\", array expected"
-msgstr ""
+msgstr "Nieoczekiwany typ „grup”, oczekiwano tablicy"
 
 #: transaction/transaction_sr.cpp:145
 msgid "Missing object key \"id\" in a group"
-msgstr ""
+msgstr "Brak klucza obiektu „id” w grupie"
 
 #: transaction/transaction_sr.cpp:150
 msgid "Missing object key \"action\" in a group"
-msgstr ""
+msgstr "Brak klucza obiektu „akcja” w grupie"
 
 #: transaction/transaction_sr.cpp:155
 msgid "Missing object key \"reason\" in a group"
-msgstr ""
+msgstr "Brak klucza obiektu „powód” w grupie"
 
 #: transaction/transaction_sr.cpp:193
 msgid "Unexpected type of \"rpms\", array expected"
-msgstr ""
+msgstr "Nieoczekiwany typ „rpms”, oczekiwano tablicy"
 
 #: transaction/transaction_sr.cpp:202
 msgid "Cannot parse NEVRA for rpm \"{}\""
-msgstr ""
+msgstr "Nie można przeanalizować NEVRA pod kątem rpm „{}”"
 
 #: transaction/transaction_sr.cpp:210
 msgid "Either \"nevra\" or \"package_path\" object key is required in an rpm"
-msgstr ""
+msgstr "W pliku rpm wymagany jest klucz obiektu „nevra” lub „package_path”"
 
 #: transaction/transaction_sr.cpp:215
 msgid "Missing object key \"action\" in an rpm"
-msgstr ""
+msgstr "Brakujący obiekt kluczowy „akcja” w rpm"
 
 #: transaction/transaction_sr.cpp:220
 msgid "Missing object key \"reason\" in an rpm"
-msgstr ""
+msgstr "Brak klucza obiektu „reason” w rpm"
 
 #: transaction/transaction_sr.cpp:227
 msgid ""
@@ -1474,79 +1480,79 @@ msgstr ""
 
 #: utils/fs/file.cpp:99
 msgid "cannot open file from fd"
-msgstr ""
+msgstr "nie można otworzyć pliku z fd"
 
 #: utils/fs/file.cpp:109
 msgid "cannot close file"
-msgstr ""
+msgstr "nie można zamknąć pliku"
 
 #: utils/fs/file.cpp:139 utils/fs/file.cpp:168
 msgid "error reading file"
-msgstr ""
+msgstr "błąd odczytu pliku"
 
 #: utils/fs/file.cpp:154 utils/fs/file.cpp:180
 msgid "error writing file"
-msgstr ""
+msgstr "błąd zapisu pliku"
 
 #: utils/fs/file.cpp:189
 msgid "error flushing file"
-msgstr ""
+msgstr "błąd podczas opróżniania pliku"
 
 #: utils/fs/file.cpp:198
 msgid "error seeking in file"
-msgstr ""
+msgstr "błąd wyszukiwania w pliku"
 
 #: utils/fs/file.cpp:209
 msgid "error retrieving file position"
-msgstr ""
+msgstr "błąd podczas pobierania pozycji pliku"
 
 #: utils/fs/file.cpp:297
 msgid "error reading a line from file"
-msgstr ""
+msgstr "błąd odczytu linii z pliku"
 
 #: utils/fs/file.cpp:335
 msgid "error retrieving file descriptor"
-msgstr ""
+msgstr "błąd podczas pobierania deskryptora pliku"
 
 #: utils/fs/temp.cpp:42
 msgid "cannot create temporary directory"
-msgstr ""
+msgstr "nie można utworzyć katalogu tymczasowego"
 
 #: utils/fs/temp.cpp:89
 msgid "cannot create temporary file"
-msgstr ""
+msgstr "nie można utworzyć pliku tymczasowego"
 
 #: utils/fs/temp.cpp:142
 msgid "cannot close temporary file"
-msgstr ""
+msgstr "nie można zamknąć pliku tymczasowego"
 
 #: utils/iniparser.cpp:126
 msgid "Missing ']' on line {}"
-msgstr ""
+msgstr "Brakuje ']' w wierszu {}"
 
 #: utils/iniparser.cpp:129
 msgid "Empty section name on line {}"
-msgstr ""
+msgstr "Pusta nazwa sekcji w linii {}"
 
 #: utils/iniparser.cpp:137
 msgid "Text after section on line {}"
-msgstr ""
+msgstr "Tekst po sekcji w linii {}"
 
 #: utils/iniparser.cpp:147
 msgid "Missing section header on line {}"
-msgstr ""
+msgstr "Brak nagłówka sekcji w wierszu {}"
 
 #: utils/iniparser.cpp:152
 msgid "Illegal continuation line on line {}"
-msgstr ""
+msgstr "Nielegalna kontynuacja linii w linii {}"
 
 #: utils/iniparser.cpp:159
 msgid "Missing option name on line {}"
-msgstr ""
+msgstr "Brak nazwy opcji w linii {}"
 
 #: utils/iniparser.cpp:163
 msgid "Missing '=' on line {}"
-msgstr ""
+msgstr "Brakuje znaku „=” w wierszu {}"
 
 #. returns localized message, problem with later translation
 #: utils/library.cpp:32
@@ -1559,92 +1565,94 @@ msgstr "Nie można uzyskać adresu symbolu „{}”: {}"
 
 #: utils/locker.cpp:45
 msgid "Failed to open lock file \"{}\""
-msgstr ""
+msgstr "Nie udało się otworzyć pliku blokady \"{}\""
 
 #: utils/locker.cpp:60
 msgid "Failed to obtain lock \"{}\""
-msgstr ""
+msgstr "Nie udało się uzyskać blokady „{}”"
 
 #: utils/locker.cpp:70
 msgid "Failed to close lock file \"{}\""
-msgstr ""
+msgstr "Nie udało się zamknąć pliku blokady „{}”"
 
 #: utils/locker.cpp:73
 msgid "Failed to delete lock file \"{}\""
-msgstr ""
+msgstr "Nie udało się usunąć pliku blokady „{}”"
 
 #: utils/sqlite3/sqlite3.cpp:29
 msgid "SQL statement compilation failed: \"{}\""
-msgstr ""
+msgstr "Kompilacja instrukcji SQL nie powiodła się: „{}”"
 
 #: utils/sqlite3/sqlite3.cpp:31
 msgid "Binding integer value to SQL statement failed: \"{}\""
-msgstr ""
+msgstr "Nie udało się powiązać wartości całkowitej z poleceniem SQL: „{}”"
 
 #: utils/sqlite3/sqlite3.cpp:33
 msgid "Binding integer64 value to SQL statement failed: \"{}\""
-msgstr ""
+msgstr "Nie udało się powiązać wartości integer64 z poleceniem SQL: „{}”"
 
 #: utils/sqlite3/sqlite3.cpp:35
 msgid "Binding unsigned integer32 value to SQL statement failed: \"{}\""
 msgstr ""
+"Powiązanie wartości typu unsigned integer32 z poleceniem SQL nie powiodło "
+"się: „{}”"
 
 #: utils/sqlite3/sqlite3.cpp:37
 msgid "Binding double value to SQL statement failed: \"{}\""
-msgstr ""
+msgstr "Nie udało się powiązać wartości double z instrukcją SQL: „{}”"
 
 #: utils/sqlite3/sqlite3.cpp:39
 msgid "Binding bool value to SQL statement failed: \"{}\""
-msgstr ""
+msgstr "Nie udało się powiązać wartości logicznej z poleceniem SQL: „{}”"
 
 #: utils/sqlite3/sqlite3.cpp:40
 msgid "Binding text to SQL statement failed: \"{}\""
-msgstr ""
+msgstr "Nie udało się powiązać tekstu z instrukcją SQL: „{}”"
 
 #: utils/sqlite3/sqlite3.cpp:41
 msgid "Binding blob to SQL statement failed: \"{}\""
-msgstr ""
+msgstr "Nie udało się powiązać blobu z instrukcją SQL: „{}”"
 
 #: utils/sqlite3/sqlite3.cpp:42
 msgid "SQL statement evaluation failed: \"{}\""
-msgstr ""
+msgstr "Nie można ocenić instrukcji SQL: „{}”"
 
 #: utils/sqlite3/sqlite3.cpp:44
 msgid "Insufficient memory or result exceed maximum SQLite3 string length"
-msgstr ""
+msgstr "Za mało pamięci lub wynik przekracza maksymalną długość ciągu SQLite3"
 
 #: utils/sqlite3/sqlite3.cpp:46
 msgid "Column \"{}\" not found"
-msgstr ""
+msgstr "Kolumna „{}” nie została znaleziona"
 
 #: utils/sqlite3/sqlite3.cpp:48
 msgid "SQL statement execution failed: \"{}\""
-msgstr ""
+msgstr "Nie udało się wykonać instrukcji SQL: „{}”"
 
 #: utils/sqlite3/sqlite3.cpp:68
 msgid "Failed to open database \"{}\""
-msgstr ""
+msgstr "Nie udało się otworzyć bazy danych „{}”"
 
 #: utils/sqlite3/sqlite3.cpp:105
 msgid "Failed to close database \"{}\""
-msgstr ""
+msgstr "Nie udało się zamknąć bazy danych „{}”"
 
 #: utils/sqlite3/sqlite3.cpp:117 utils/sqlite3/sqlite3.cpp:143
 msgid "Failed to open backup database \"{}\""
-msgstr ""
+msgstr "Nie udało się otworzyć bazy danych kopii zapasowej „{}”"
 
 #: utils/sqlite3/sqlite3.cpp:132
 msgid "Failed to backup database \"{}\" into \"{}\""
-msgstr ""
+msgstr "Nie udało się utworzyć kopii zapasowej bazy danych „{}” w „{}”"
 
 #: utils/sqlite3/sqlite3.cpp:158
 msgid "Failed to restore database \"{}\""
-msgstr ""
+msgstr "Nie udało się przywrócić bazy danych „{}”"
 
 #: utils/system.cpp:34
 msgid "failed to read rpm config files"
-msgstr ""
+msgstr "nie udało się odczytać plików konfiguracyjnych rpm"
 
 #: utils/system.cpp:52
 msgid "Failed to execute uname()"
-msgstr ""
+msgstr "Nie udało się wykonać uname()"
