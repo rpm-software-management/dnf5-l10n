@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-31 03:15+0000\n"
-"PO-Revision-Date: 2024-11-01 15:11+0000\n"
+"PO-Revision-Date: 2024-11-01 19:15+0000\n"
 "Last-Translator: Inci sakura <incisakura@icloud.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ja/>\n"
@@ -79,11 +79,11 @@ msgstr "新バージョンが利用可能なインストール済みパッケー
 msgid ""
 "Show only advisories containing packages with specified names. List option, "
 "supports globs."
-msgstr "指定名前のパッケージに含む勧告を表示。一覧で、glob利用可能。"
+msgstr "指定名前のパッケージに含む勧告のみを表示。一覧で、glob 利用可能。"
 
 #: commands/advisory/arguments.hpp:83
 msgid "PACKAGE_NAME,..."
-msgstr "パッケージ名,..."
+msgstr "PACKAGE_NAME,..."
 
 #: commands/advisory/arguments.hpp:90
 msgid "List of patterns matched against advisory names."
@@ -91,11 +91,11 @@ msgstr "勧告名での一覧。"
 
 #: commands/advisory/arguments.hpp:100
 msgid "Show only advisories referencing a bugzilla."
-msgstr "bugzilla に関連する勧告を表示。"
+msgstr "bugzilla に関連する勧告のみを表示。"
 
 #: commands/advisory/arguments.hpp:107
 msgid "Show only advisories referencing a CVE."
-msgstr "CVE に関連する勧告を表示。"
+msgstr "CVE に関連する勧告のみを表示。"
 
 #: commands/advisory_shared.hpp:113
 msgid "Limit to packages in advisories with specified name. List option."
@@ -106,43 +106,38 @@ msgid "ADVISORY_NAME,..."
 msgstr "勧告名,..."
 
 #: commands/advisory_shared.hpp:121
-#, fuzzy
 msgid "Limit to packages in security advisories."
-msgstr "セキュリティ勧告ありのパッケージのみ。"
+msgstr "security 勧告のあるパッケージのみ。"
 
 #: commands/advisory_shared.hpp:128
-#, fuzzy
 msgid "Limit to packages in bugfix advisories."
-msgstr "バッグ修正勧告ありパッケージのみ。"
+msgstr "bugfix 勧告のあるパッケージのみ。"
 
 #: commands/advisory_shared.hpp:135
-#, fuzzy
 msgid "Limit to packages in enhancement advisories."
-msgstr "改善勧告ありパッケージのみ。"
+msgstr "enhancement 勧告のあるパッケージのみ。"
 
 #: commands/advisory_shared.hpp:142
-#, fuzzy
 msgid "Limit to packages in newpackage advisories."
-msgstr "新パッケージ勧告ありパッケージのみ。"
+msgstr "newpackage 勧告ありパッケージのみ。"
 
 #: commands/advisory_shared.hpp:153
-#, fuzzy
 msgid ""
 "Limit to packages in advisories with specified severity. List option. Can be "
 "\"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgstr ""
-"指定重大度の勧告ありパッケージのみ。\"critical(深刻)\", \"important(重要)\", "
-"\"moderate(一般)\", \"low(低い)\", \"none(なし)\"は指定可能。"
+"指定重大度の勧告のあるパッケージのみ。\"critical\"(深刻), \"important\"(重要)"
+", \"moderate\"(一般), \"low\"(低い), \"none\"(なし)は指定可能。"
 
 #: commands/advisory_shared.hpp:155
 msgid "ADVISORY_SEVERITY,..."
-msgstr "重大度,..."
+msgstr "ADVISORY_SEVERITY,..."
 
 #: commands/advisory_shared.hpp:167
 msgid ""
 "Limit to packages in advisories that fix a Bugzilla ID, Eg. 123123. List "
 "option."
-msgstr "指定Bugzilla ID（例：123123）を修正する勧告ありのパッケージのみ。一覧で。"
+msgstr "指定 Bugzilla ID (例: 123123) を修正する勧告のあるパッケージのみ。一覧で。"
 
 #: commands/advisory_shared.hpp:168
 msgid "BUGZILLA_ID,..."
@@ -152,8 +147,8 @@ msgstr "BUGZILLA_ID,..."
 msgid ""
 "Limit to packages in advisories that fix a CVE (Common Vulnerabilities and "
 "Exposures) ID, Eg. CVE-2201-0123. List option."
-msgstr "指定CVE（共通脆弱性識別子）ID（例：CVE-2201-0123）を修正する勧告のみ。一覧で"
-"。"
+msgstr "指定 CVE (共通脆弱性識別子) ID (例: CVE-2201-0123) "
+"を修正する勧告のみ。一覧で。"
 
 #: commands/advisory_shared.hpp:180
 msgid "CVE_ID,..."
@@ -161,48 +156,47 @@ msgstr "CVE_ID,..."
 
 #: commands/autoremove/autoremove.cpp:38
 msgid "Remove all unneeded packages originally installed as dependencies."
-msgstr "最初は依存としてインストールされた不要なパッケージ削除。"
+msgstr "最初は依存としてインストールされた不要なパッケージをすべて削除。"
 
 #: commands/check-upgrade/check-upgrade.cpp:47
 msgid "Check for available package upgrades"
 msgstr "利用可能なパッケージ更新を確認"
 
 #: commands/check-upgrade/check-upgrade.cpp:54
-#, fuzzy
 msgid ""
 "Reports the lowest versions of packages that fix advisories of type bugfix, "
 "enhancement, security, or newpackage. In case that any option limiting "
 "advisories is used it reports the lowest versions of packages that fix "
 "advisories matching selected advisory properties"
 msgstr ""
-"バグ修正、改善、セキュリティ、または新パッケージの勧告を修正するパッケージの"
-"最低バージョンを報告します。勧告を制限するオプションが使用されている場合は、"
-"選択された勧告の属性に一致する勧告を修正するパッケージの最低バージョンを報告"
-"します。"
+"bugfix、enhancement、security、または newpackage の勧告を修正するパッケージの"
+"最低バージョンを報告します。勧告を制限するオプションが使用されている場合、選"
+"択された勧告の属性に一致する助言を修正するパッケージの最低バージョンを報告し"
+"ます。"
 
 #: commands/check/check.cpp:247
 msgid "Check for problems in the packagedb"
-msgstr "packagedb の問題を確認します"
+msgstr "packagedb の問題を確認"
 
 #: commands/check/check.cpp:335
 msgid "Check discovered {} problem(s) in {} package(s)"
-msgstr "{} 個の問題を{} 個のパッケージに検出しました"
+msgstr "{} 個の問題を {} 個のパッケージに検出しました"
 
 #: commands/clean/clean.cpp:90
 msgid "List of cache types to clean up. Supported types: {0}"
-msgstr "クリーンアップするキャッシュのタイプ。サポートするタイプ：{0}"
+msgstr "クリーンアップするキャッシュのタイプの一覧。サポートするタイプ: {0}"
 
 #: commands/clean/clean.cpp:108
 msgid "Unknown cache type \"{0}\". Supported types: {1}"
-msgstr "不明なキャッシュタイプ \"{0}\"。サポートするタイプ：{1}"
+msgstr "不明なキャッシュタイプ \"{0}\"。サポートするタイプ: {1}"
 
 #: commands/clean/clean.cpp:165
 msgid "Failed to cleanup repository cache in path \"{0}\": {1}"
-msgstr "パス \"{0}\" のリポジトリ キャッシュをクリーンアップできませんでした: {1}"
+msgstr "パス \"{0}\" のリポジトリ キャッシュのクリーンアップに失敗しました: {1}"
 
 #: commands/clean/clean.cpp:175
 msgid "Cache directory \"{}\" does not exist. Nothing to clean."
-msgstr "キャッシュ ディレクトリ \"{}\" が存在しません。クリーンする対象がありません。"
+msgstr "キャッシュ ディレクトリ \"{}\" は存在しません。クリーンするものはありません。"
 
 #: commands/clean/clean.cpp:180
 msgid "Cannot iterate cache directory \"{}\": {}"
@@ -215,7 +209,8 @@ msgstr "debuginfo パッケージをインストール。"
 #: commands/distro-sync/distro-sync.cpp:42
 msgid ""
 "Upgrade or downgrade installed software to the latest available versions"
-msgstr ""
+msgstr "インストール済みソフトウェアを最新の利用可能なバージョンにアップグレードまた"
+"はダウングレード"
 
 #: commands/downgrade/downgrade.cpp:40
 msgid "Downgrade software"
@@ -223,7 +218,8 @@ msgstr "ソフトウェアをダウングレード"
 
 #: commands/download/download.cpp:105
 msgid "When running with --url, prints URLs from all available mirrors"
-msgstr "--url 付きで実行する際、すべての利用可能のミラーから URL が出力されます"
+msgstr "--url オプションを使用して実行すると、利用可能なすべてのミラーからの URL "
+"を表示します"
 
 #: commands/download/download.cpp:121
 msgid "Invalid urlprotocol option: {}"
@@ -231,24 +227,24 @@ msgstr "無効な urlprotocol オプション: {}"
 
 #: commands/download/download.cpp:148 main.cpp:614
 msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
-msgstr "サポートされていないアーキテクチャ \"{0}\"。 {1} から一つ選んでください"
+msgstr "サポートされてないアーキテクチャ \"{0}\"。 {1} から一つ選んでください"
 
 #. TODO(jrohel): Add support for requiring an argument by another argument in ArgumentParser?
 #: commands/download/download.cpp:183
 msgid "Option \"--alldeps\" should be used with \"--resolve\""
-msgstr "オプション \"--alldeps\" は \"--resolve\" と同時に利用するべき"
+msgstr "オプション \"--alldeps\" は \"--resolve\" と一緒に使用する必要があります"
 
 #: commands/environment/arguments.hpp:33
 msgid "Show only available environments."
-msgstr "利用可能な環境のみを表示する。"
+msgstr "利用可能な環境のみを表示します。"
 
 #: commands/environment/arguments.hpp:40
 msgid "Show only installed environments."
-msgstr "インストール済み環境のみを表示する。"
+msgstr "インストール済みの環境のみを表示します。"
 
 #: commands/environment/arguments.hpp:47
 msgid "Pattern matching environment IDs."
-msgstr ""
+msgstr "環境 ID での一覧。"
 
 #: commands/environment/environment.cpp:35
 msgid "Manage comps environments"
@@ -270,19 +266,19 @@ msgstr "インストール済みのグループのみを表示します。"
 msgid ""
 "Show only groups containing packages with specified names. List option, "
 "supports globs."
-msgstr ""
+msgstr "指定名前のパッケージに含むグループのみを表示。一覧で、glob 利用可能。"
 
 #: commands/group/arguments.hpp:67
 msgid "Pattern matching group IDS."
-msgstr ""
+msgstr "グループ ID での一覧。"
 
 #: commands/group/arguments.hpp:76
 msgid "Include optional packages from group."
-msgstr "グループのオプションパッケージを含めます。"
+msgstr "グループの随意パッケージを含めます。"
 
 #: commands/group/arguments.hpp:83
 msgid "Operate on groups only, no packages are changed."
-msgstr ""
+msgstr "グループのみに操作を行い、パッケージは変更されません。"
 
 #: commands/history/arguments.hpp:37
 msgid "Transaction ID"
@@ -290,7 +286,7 @@ msgstr "トランザクション ID"
 
 #: commands/history/arguments.hpp:44
 msgid "Reverse the order of transactions."
-msgstr ""
+msgstr "トランザクションの順序を反転します。"
 
 #: commands/history/arguments.hpp:54
 msgid ""
@@ -298,30 +294,34 @@ msgid ""
 "as errors. This can result in an empty transaction because among other "
 "things the option can ignore failing Remove actions."
 msgstr ""
+"インストール済みパッケージと保存済みトランザクションのパッケージ不一致をエラ"
+"ーとして扱わないようにします。これにより、失敗した削除アクションを無視するこ"
+"とがあるため、空のトランザクションになる可能性があります。"
 
 #: commands/history/arguments.hpp:67
 msgid "Don't consider extra packages pulled into the transaction as errors."
-msgstr ""
+msgstr "トランザクションに入れられた追加パッケージをエラーとして扱わないようにします"
+"。"
 
 #: commands/history/history.cpp:41
 msgid "Manage transaction history"
-msgstr ""
+msgstr "トランザクション履歴を管理"
 
 #: commands/history/history_redo.cpp:53
 #: commands/history/history_rollback.cpp:57
 #: commands/history/history_store.cpp:65 commands/history/history_undo.cpp:56
 msgid "No matching transaction ID found, exactly one required."
-msgstr ""
+msgstr "一致するトランザクション ID を見つかりませんでした。正確な一つが必要です。"
 
 #: commands/history/history_redo.cpp:57
 #: commands/history/history_rollback.cpp:61
 #: commands/history/history_undo.cpp:60
 msgid "Matched more than one transaction ID, exactly one required."
-msgstr ""
+msgstr "複数のトランザクション ID と一致しました。正確な一つが必要です。"
 
 #: commands/history/history_store.cpp:68
 msgid "Multiple transactions selected for storing, only one allowed."
-msgstr ""
+msgstr "複数のトランザクションを保存のために選択しました。許されるのは一つだけです。"
 
 #: commands/history/history_store.cpp:80
 msgid "File \"{}\" already exists, it will be overwritten.\n"
