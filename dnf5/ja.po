@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-31 03:15+0000\n"
-"PO-Revision-Date: 2024-11-01 12:57+0000\n"
+"PO-Revision-Date: 2024-11-01 15:11+0000\n"
 "Last-Translator: Inci sakura <incisakura@icloud.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ja/>\n"
@@ -21,17 +21,14 @@ msgstr ""
 "X-Generator: Weblate 5.7.2\n"
 
 #: commands/advisory/advisory.cpp:36
-#, fuzzy
 msgid "Manage advisories"
-msgstr "勧告管理"
+msgstr "勧告を管理"
 
 #: commands/advisory/advisory_info.hpp:33
-#, fuzzy
 msgid "Print details about advisories"
-msgstr "勧告の詳細を表示"
+msgstr "勧告に関する詳細を表示"
 
 #: commands/advisory/advisory_list.hpp:35
-#, fuzzy
 msgid "List advisories"
 msgstr "勧告一覧"
 
@@ -52,68 +49,59 @@ msgid "Available"
 msgstr "利用可能"
 
 #: commands/advisory/advisory_summary.hpp:33
-#, fuzzy
 msgid "Print summary of advisories"
 msgstr "勧告の要約を表示"
 
 #: commands/advisory/arguments.hpp:34
-#, fuzzy
 msgid "Show advisories containing any version of installed packages."
-msgstr "インストール済みパッケージのあらゆるバージョンの勧告を表示。"
+msgstr "インストール済みパッケージの任意バージョンに含む勧告を表示。"
 
 #: commands/advisory/arguments.hpp:45
-#, fuzzy
 msgid ""
 "Show advisories containing newer versions of installed packages. This is the "
 "default behavior."
-msgstr "インストール済みパッケージの新しいバージョンの勧告を表示。 "
-"これは既定な動作です。"
+msgstr "インストール済みパッケージの新バージョンに含む勧告を表示。 "
+"これは既定の動作です。"
 
 #: commands/advisory/arguments.hpp:57
-#, fuzzy
 msgid ""
 "Show advisories containing equal and older versions of installed packages."
-msgstr "インストール済みパッケージの同じバージョンおよび古いバージョンの勧告を表示。"
+msgstr "インストール済みパッケージの以前のバージョンに含む勧告を表示。"
 
 #: commands/advisory/arguments.hpp:69
-#, fuzzy
 msgid ""
 "Show advisories containing newer versions of installed packages for which a "
 "newer version is available."
-msgstr "最新バージョンが利用可能なインストール済みパッケージの最新バージョンの勧告を"
+msgstr "新バージョンが利用可能なインストール済みパッケージの新バージョンに含む勧告を"
 "表示。"
 
 #: commands/advisory/arguments.hpp:82
-#, fuzzy
 msgid ""
 "Show only advisories containing packages with specified names. List option, "
 "supports globs."
-msgstr "指定名前のパッケージの勧告だけを表示。一覧で、glob利用可能。"
+msgstr "指定名前のパッケージに含む勧告を表示。一覧で、glob利用可能。"
 
 #: commands/advisory/arguments.hpp:83
-#, fuzzy
 msgid "PACKAGE_NAME,..."
 msgstr "パッケージ名,..."
 
 #: commands/advisory/arguments.hpp:90
-#, fuzzy
 msgid "List of patterns matched against advisory names."
-msgstr "勧告名と一致するパターン一覧。"
+msgstr "勧告名での一覧。"
 
 #: commands/advisory/arguments.hpp:100
 msgid "Show only advisories referencing a bugzilla."
-msgstr "bugzillaに関連する勧告だけを表示。"
+msgstr "bugzilla に関連する勧告を表示。"
 
 #: commands/advisory/arguments.hpp:107
 msgid "Show only advisories referencing a CVE."
-msgstr "CVEに関連する勧告だけを表示。"
+msgstr "CVE に関連する勧告を表示。"
 
 #: commands/advisory_shared.hpp:113
 msgid "Limit to packages in advisories with specified name. List option."
 msgstr "指定名前のパッケージの勧告のみ。一覧で。"
 
 #: commands/advisory_shared.hpp:114
-#, fuzzy
 msgid "ADVISORY_NAME,..."
 msgstr "勧告名,..."
 
@@ -210,7 +198,7 @@ msgstr "不明なキャッシュタイプ \"{0}\"。サポートするタイプ�
 
 #: commands/clean/clean.cpp:165
 msgid "Failed to cleanup repository cache in path \"{0}\": {1}"
-msgstr "レポジトリキャッシュのクリーンアップに失敗しました。パス：\"{0}\"：{1}"
+msgstr "パス \"{0}\" のリポジトリ キャッシュをクリーンアップできませんでした: {1}"
 
 #: commands/clean/clean.cpp:175
 msgid "Cache directory \"{}\" does not exist. Nothing to clean."
@@ -218,11 +206,11 @@ msgstr "キャッシュ ディレクトリ \"{}\" が存在しません。クリ
 
 #: commands/clean/clean.cpp:180
 msgid "Cannot iterate cache directory \"{}\": {}"
-msgstr ""
+msgstr "キャッシュ ディレクトリ \"{}\" を反復処理できませんでした: {}"
 
 #: commands/debuginfo-install/debuginfo-install.cpp:45
 msgid "Install debuginfo packages."
-msgstr ""
+msgstr "debuginfo パッケージをインストール。"
 
 #: commands/distro-sync/distro-sync.cpp:42
 msgid ""
@@ -231,32 +219,32 @@ msgstr ""
 
 #: commands/downgrade/downgrade.cpp:40
 msgid "Downgrade software"
-msgstr ""
+msgstr "ソフトウェアをダウングレード"
 
 #: commands/download/download.cpp:105
 msgid "When running with --url, prints URLs from all available mirrors"
-msgstr ""
+msgstr "--url 付きで実行する際、すべての利用可能のミラーから URL が出力されます"
 
 #: commands/download/download.cpp:121
 msgid "Invalid urlprotocol option: {}"
-msgstr ""
+msgstr "無効な urlprotocol オプション: {}"
 
 #: commands/download/download.cpp:148 main.cpp:614
 msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
-msgstr ""
+msgstr "サポートされていないアーキテクチャ \"{0}\"。 {1} から一つ選んでください"
 
 #. TODO(jrohel): Add support for requiring an argument by another argument in ArgumentParser?
 #: commands/download/download.cpp:183
 msgid "Option \"--alldeps\" should be used with \"--resolve\""
-msgstr ""
+msgstr "オプション \"--alldeps\" は \"--resolve\" と同時に利用するべき"
 
 #: commands/environment/arguments.hpp:33
 msgid "Show only available environments."
-msgstr ""
+msgstr "利用可能な環境のみを表示する。"
 
 #: commands/environment/arguments.hpp:40
 msgid "Show only installed environments."
-msgstr ""
+msgstr "インストール済み環境のみを表示する。"
 
 #: commands/environment/arguments.hpp:47
 msgid "Pattern matching environment IDs."
@@ -264,19 +252,19 @@ msgstr ""
 
 #: commands/environment/environment.cpp:35
 msgid "Manage comps environments"
-msgstr ""
+msgstr "comps 環境管理"
 
 #: commands/group/arguments.hpp:34
 msgid "Show only available groups."
-msgstr ""
+msgstr "利用可能なグループのみを表示します。"
 
 #: commands/group/arguments.hpp:41
 msgid "Show also hidden groups."
-msgstr ""
+msgstr "非表示のグループも表示します。"
 
 #: commands/group/arguments.hpp:48
 msgid "Show only installed groups."
-msgstr ""
+msgstr "インストール済みのグループのみを表示します。"
 
 #: commands/group/arguments.hpp:59
 msgid ""
@@ -290,7 +278,7 @@ msgstr ""
 
 #: commands/group/arguments.hpp:76
 msgid "Include optional packages from group."
-msgstr ""
+msgstr "グループのオプションパッケージを含めます。"
 
 #: commands/group/arguments.hpp:83
 msgid "Operate on groups only, no packages are changed."
@@ -298,7 +286,7 @@ msgstr ""
 
 #: commands/history/arguments.hpp:37
 msgid "Transaction ID"
-msgstr ""
+msgstr "トランザクション ID"
 
 #: commands/history/arguments.hpp:44
 msgid "Reverse the order of transactions."
