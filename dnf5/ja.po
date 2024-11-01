@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-31 03:15+0000\n"
-"PO-Revision-Date: 2024-11-01 06:53+0000\n"
+"PO-Revision-Date: 2024-11-01 12:43+0000\n"
 "Last-Translator: Inci sakura <incisakura@icloud.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ja/>\n"
@@ -20,16 +20,19 @@ msgstr ""
 "X-Generator: Weblate 5.7.2\n"
 
 #: commands/advisory/advisory.cpp:36
+#, fuzzy
 msgid "Manage advisories"
-msgstr ""
+msgstr "勧告管理"
 
 #: commands/advisory/advisory_info.hpp:33
+#, fuzzy
 msgid "Print details about advisories"
-msgstr ""
+msgstr "勧告の詳細を表示"
 
 #: commands/advisory/advisory_list.hpp:35
+#, fuzzy
 msgid "List advisories"
-msgstr ""
+msgstr "勧告一覧"
 
 #: commands/advisory/advisory_summary.cpp:44
 msgid "All"
@@ -48,121 +51,145 @@ msgid "Available"
 msgstr "利用可能"
 
 #: commands/advisory/advisory_summary.hpp:33
+#, fuzzy
 msgid "Print summary of advisories"
-msgstr "勧告のサマリーを表示"
+msgstr "勧告の要約を表示"
 
 #: commands/advisory/arguments.hpp:34
+#, fuzzy
 msgid "Show advisories containing any version of installed packages."
-msgstr ""
+msgstr "インストール済みパッケージのあらゆるバージョンの勧告を表示。"
 
 #: commands/advisory/arguments.hpp:45
+#, fuzzy
 msgid ""
 "Show advisories containing newer versions of installed packages. This is the "
 "default behavior."
-msgstr ""
+msgstr "インストール済みパッケージの新しいバージョンの勧告を表示。 "
+"これは既定な動作です。"
 
 #: commands/advisory/arguments.hpp:57
+#, fuzzy
 msgid ""
 "Show advisories containing equal and older versions of installed packages."
-msgstr ""
+msgstr "インストール済みパッケージの同じバージョンおよび古いバージョンの勧告を表示。"
 
 #: commands/advisory/arguments.hpp:69
+#, fuzzy
 msgid ""
 "Show advisories containing newer versions of installed packages for which a "
 "newer version is available."
-msgstr ""
+msgstr "最新バージョンが利用可能なインストール済みパッケージの最新バージョンの勧告を"
+"表示。"
 
 #: commands/advisory/arguments.hpp:82
+#, fuzzy
 msgid ""
 "Show only advisories containing packages with specified names. List option, "
 "supports globs."
-msgstr ""
+msgstr "指定名前のパッケージの勧告だけを表示。一覧で、glob利用可能。"
 
 #: commands/advisory/arguments.hpp:83
+#, fuzzy
 msgid "PACKAGE_NAME,..."
-msgstr ""
+msgstr "パッケージ名,..."
 
 #: commands/advisory/arguments.hpp:90
+#, fuzzy
 msgid "List of patterns matched against advisory names."
-msgstr ""
+msgstr "勧告名と一致するパターン一覧。"
 
 #: commands/advisory/arguments.hpp:100
 msgid "Show only advisories referencing a bugzilla."
-msgstr ""
+msgstr "bugzillaに関連する勧告だけを表示。"
 
 #: commands/advisory/arguments.hpp:107
 msgid "Show only advisories referencing a CVE."
-msgstr ""
+msgstr "CVEに関連する勧告だけを表示。"
 
 #: commands/advisory_shared.hpp:113
 msgid "Limit to packages in advisories with specified name. List option."
-msgstr ""
+msgstr "指定名前のパッケージの勧告のみ。一覧で。"
 
 #: commands/advisory_shared.hpp:114
+#, fuzzy
 msgid "ADVISORY_NAME,..."
-msgstr ""
+msgstr "勧告名,..."
 
 #: commands/advisory_shared.hpp:121
+#, fuzzy
 msgid "Limit to packages in security advisories."
-msgstr ""
+msgstr "セキュリティ勧告ありのパッケージのみ。"
 
 #: commands/advisory_shared.hpp:128
+#, fuzzy
 msgid "Limit to packages in bugfix advisories."
-msgstr ""
+msgstr "バッグ修正勧告ありパッケージのみ。"
 
 #: commands/advisory_shared.hpp:135
+#, fuzzy
 msgid "Limit to packages in enhancement advisories."
-msgstr ""
+msgstr "改善勧告ありパッケージのみ。"
 
 #: commands/advisory_shared.hpp:142
+#, fuzzy
 msgid "Limit to packages in newpackage advisories."
-msgstr ""
+msgstr "新パッケージ勧告ありパッケージのみ。"
 
 #: commands/advisory_shared.hpp:153
+#, fuzzy
 msgid ""
 "Limit to packages in advisories with specified severity. List option. Can be "
 "\"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgstr ""
+"指定重大度の勧告ありパッケージのみ。\"critical(深刻)\", \"important(重要)\", "
+"\"moderate(一般)\", \"low(低い)\", \"none(なし)\"は指定可能。"
 
 #: commands/advisory_shared.hpp:155
 msgid "ADVISORY_SEVERITY,..."
-msgstr ""
+msgstr "重大度,..."
 
 #: commands/advisory_shared.hpp:167
 msgid ""
 "Limit to packages in advisories that fix a Bugzilla ID, Eg. 123123. List "
 "option."
-msgstr ""
+msgstr "指定Bugzilla ID（例：123123）を修正する勧告ありのパッケージのみ。一覧で。"
 
 #: commands/advisory_shared.hpp:168
 msgid "BUGZILLA_ID,..."
-msgstr ""
+msgstr "BUGZILLA_ID,..."
 
 #: commands/advisory_shared.hpp:178
 msgid ""
 "Limit to packages in advisories that fix a CVE (Common Vulnerabilities and "
 "Exposures) ID, Eg. CVE-2201-0123. List option."
-msgstr ""
+msgstr "指定CVE（共通脆弱性識別子）ID（例：CVE-2201-0123）を修正する勧告のみ。一覧で"
+"。"
 
 #: commands/advisory_shared.hpp:180
 msgid "CVE_ID,..."
-msgstr ""
+msgstr "CVE_ID,..."
 
 #: commands/autoremove/autoremove.cpp:38
 msgid "Remove all unneeded packages originally installed as dependencies."
-msgstr ""
+msgstr "最初は依存としてインストールされた不要なパッケージ削除。"
 
 #: commands/check-upgrade/check-upgrade.cpp:47
 msgid "Check for available package upgrades"
-msgstr ""
+msgstr "利用可能なパッケージ更新を確認"
 
 #: commands/check-upgrade/check-upgrade.cpp:54
+#, fuzzy
 msgid ""
 "Reports the lowest versions of packages that fix advisories of type bugfix, "
 "enhancement, security, or newpackage. In case that any option limiting "
 "advisories is used it reports the lowest versions of packages that fix "
 "advisories matching selected advisory properties"
 msgstr ""
+"バグ修正、改善、セキュリティ、または新パッケージの勧告を修正するパッケージの"
+"最低バージョンを報告します。勧告を制限するオプションが使用されている場合は、"
+"選択された勧告の属性に一致する勧告を修正するパッケージの最低バージョンを報告"
+"します。"
 
 #: commands/check/check.cpp:247
 msgid "Check for problems in the packagedb"
