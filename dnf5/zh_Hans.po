@@ -2,27 +2,26 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Red Guard <redg@disroot.org>, 2024.
+# Yang Yulin <yylteam@icloud.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-31 03:15+0000\n"
-"PO-Revision-Date: 2024-05-19 07:36+0000\n"
-"Last-Translator: Red Guard <redg@disroot.org>\n"
-"Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
-"projects/dnf5/dnf5/zh_Hans/>\n"
+"PO-Revision-Date: 2024-11-01 12:57+0000\n"
+"Last-Translator: Yang Yulin <yylteam@icloud.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://translate."
+"fedoraproject.org/projects/dnf5/dnf5/zh_Hans/>\n"
 "Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.5.5\n"
+"X-Generator: Weblate 5.7.2\n"
 
 #: commands/advisory/advisory.cpp:36
-#, fuzzy
-#| msgid "List advisories"
 msgid "Manage advisories"
-msgstr "列出意见"
+msgstr "管理意见"
 
 #: commands/advisory/advisory_info.hpp:33
 msgid "Print details about advisories"
@@ -154,10 +153,8 @@ msgid "Remove all unneeded packages originally installed as dependencies."
 msgstr ""
 
 #: commands/check-upgrade/check-upgrade.cpp:47
-#, fuzzy
-#| msgid "Available"
 msgid "Check for available package upgrades"
-msgstr "可用的"
+msgstr "检查可用的软件包更新"
 
 #: commands/check-upgrade/check-upgrade.cpp:54
 msgid ""
@@ -196,19 +193,17 @@ msgid "Cannot iterate cache directory \"{}\": {}"
 msgstr ""
 
 #: commands/debuginfo-install/debuginfo-install.cpp:45
-#, fuzzy
-#| msgid "Installed"
 msgid "Install debuginfo packages."
-msgstr "已安装"
+msgstr "安装带有调试信息的软件包。"
 
 #: commands/distro-sync/distro-sync.cpp:42
 msgid ""
 "Upgrade or downgrade installed software to the latest available versions"
-msgstr ""
+msgstr "升级或降级已安装的软件至最新可用版本"
 
 #: commands/downgrade/downgrade.cpp:40
 msgid "Downgrade software"
-msgstr ""
+msgstr "降级软件"
 
 #: commands/download/download.cpp:105
 msgid "When running with --url, prints URLs from all available mirrors"
@@ -834,7 +829,7 @@ msgstr ""
 
 #: context.cpp:470
 msgid "Running transaction"
-msgstr ""
+msgstr "执行事务"
 
 #: context.cpp:788
 msgid "Upgrading {}"
@@ -880,7 +875,7 @@ msgstr ""
 
 #: context.cpp:893
 msgid "Scriptlet output:"
-msgstr ""
+msgstr "Scriptlet 输出："
 
 #: context.cpp:915
 msgid "Running {} scriptlet: {}"
@@ -965,7 +960,7 @@ msgstr ""
 
 #: main.cpp:226
 msgid "set arbitrary config and repo options"
-msgstr ""
+msgstr "设置任意配置和仓库选项"
 
 #: main.cpp:228
 msgid ""
@@ -1001,11 +996,11 @@ msgstr ""
 
 #: main.cpp:292
 msgid "automatically answer yes for all questions"
-msgstr ""
+msgstr "全部问题自动应答为是"
 
 #: main.cpp:299
 msgid "automatically answer no for all questions"
-msgstr ""
+msgstr "全部问题自动应答为否"
 
 #: main.cpp:306
 msgid "try the best available package versions in transactions"
@@ -1013,7 +1008,7 @@ msgstr ""
 
 #: main.cpp:313
 msgid "do not limit the transaction to the best candidate"
-msgstr ""
+msgstr "不将事务限制在最佳候选"
 
 #: main.cpp:324
 msgid ""
@@ -1023,7 +1018,7 @@ msgstr ""
 
 #: main.cpp:340
 msgid "exclude packages by name or glob"
-msgstr ""
+msgstr "用全名或通配符排除软件包"
 
 #: main.cpp:359
 msgid ""
@@ -1045,7 +1040,7 @@ msgstr ""
 
 #: main.cpp:417
 msgid "disable gpg signature checking (if RPM policy allows)"
-msgstr ""
+msgstr "禁用 gpg 签名检查 (如果 RPM 策略允许)"
 
 #: main.cpp:433
 msgid "Disable all libdnf5 plugins"
@@ -1065,7 +1060,7 @@ msgstr ""
 
 #: main.cpp:475
 msgid "add a comment to transaction"
-msgstr ""
+msgstr "为事务添加一个注释"
 
 #: main.cpp:477
 msgid ""
@@ -1075,7 +1070,7 @@ msgstr ""
 
 #: main.cpp:490
 msgid "set install root"
-msgstr ""
+msgstr "设置目标根目录"
 
 #: main.cpp:497
 msgid ""
@@ -1085,7 +1080,7 @@ msgstr ""
 
 #: main.cpp:506
 msgid "override the value of $releasever in config and repo files"
-msgstr ""
+msgstr "覆盖在配置文件和仓库文件中 $releasever 的值"
 
 #: main.cpp:519
 msgid ""
@@ -1272,7 +1267,7 @@ msgstr ""
 
 #: main.cpp:1311
 msgid "No read/execute access in current directory, moving to /"
-msgstr ""
+msgstr "没有当前目录的读取/执行权限，移动至 /"
 
 #: main.cpp:1368
 msgid ""
@@ -1311,7 +1306,7 @@ msgstr ""
 
 #: main.cpp:1467
 msgid "Complete!"
-msgstr ""
+msgstr "完成！"
 
 #: shared_options.cpp:32
 msgid "Allow removing of installed packages to resolve problems"
