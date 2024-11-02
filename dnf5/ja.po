@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-02 03:04+0000\n"
-"PO-Revision-Date: 2024-11-01 19:15+0000\n"
+"PO-Revision-Date: 2024-11-02 04:58+0000\n"
 "Last-Translator: Inci sakura <incisakura@icloud.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ja/>\n"
@@ -337,102 +337,107 @@ msgstr ""
 
 #: commands/history/history_store.cpp:80
 msgid "File \"{}\" already exists, it will be overwritten.\n"
-msgstr ""
+msgstr "ファイル \"{}\" は存在していたため、上書きされます。\n"
 
 #: commands/history/transaction_id.cpp:32
 msgid ""
 "Invalid transaction ID range \"{}\", \"ID\" or \"ID..ID\" expected, where ID "
 "is \"NUMBER\", \"last\" or \"last-NUMBER\"."
 msgstr ""
+"無効なトランザクション ID 範囲 \"{}\"。\"ID\" または \"ID..ID\" が必要です。"
+"\"ID\" は \"NUMBER\"、\"last\"、または \"last-NUMBER\" です。"
 
 #: commands/install/install.cpp:41
 msgid "Install software"
-msgstr ""
+msgstr "ソフトウェアをインストール"
 
 #: commands/leaves/leaves.cpp:42
 msgid ""
 "List groups of installed packages not required by other installed packages"
-msgstr ""
+msgstr "他のインストール済みパッケージに依存しないインストール済みパッケージのグルー"
+"プを表示"
 
 #: commands/list/list.cpp:44
 msgid "Lists packages depending on the packages' relation to the system"
-msgstr ""
+msgstr "システムとの関係に基づいてパッケージを表示"
 
 #: commands/list/list.cpp:47
 msgid "List of keys to match case insensitively"
-msgstr ""
+msgstr "大文字小文字を区別せずに一致するキーのリスト"
 
 #: commands/list/list.cpp:59
 msgid "Show all versions of the packages, not only the latest ones."
-msgstr ""
+msgstr "パッケージ最新バージョンだけでなく、すべてのバージョンを表示します。"
 
 #: commands/list/list.cpp:65
 msgid "List installed packages."
-msgstr ""
+msgstr "インストール済みのパッケージを表示します。"
 
 #: commands/list/list.cpp:69
 msgid "List available packages."
-msgstr ""
+msgstr "利用可能なパッケージを表示します。"
 
 #: commands/list/list.cpp:76
 msgid ""
 "List extras, that is packages installed on the system that are not available "
 "in any known repository."
-msgstr ""
+msgstr "既知のリポジトリに存在しない、システムにインストールされている追加のパッケー"
+"ジの表示します。"
 
 #: commands/list/list.cpp:84
 msgid ""
 "List packages installed on the system that are obsoleted by packages in any "
 "known repository."
-msgstr ""
+msgstr "既知のリポジトリにあるパッケージによって廃止された、システムにインストールさ"
+"れているパッケージを表示します。"
 
 #: commands/list/list.cpp:89
 msgid "List packages recently added into the repositories."
-msgstr ""
+msgstr "最近リポジトリに追加されたパッケージを表示します。"
 
 #: commands/list/list.cpp:93
 msgid "List upgrades available for the installed packages."
-msgstr ""
+msgstr "インストール済みパッケージの利用可能な更新を表示します。"
 
 #: commands/list/list.cpp:97
 msgid "List packages which will be removed by the 'dnf autoremove' command."
-msgstr ""
+msgstr "\"dnf autoremove\" コマンドに削除されようなパッケージを表示します。"
 
 #: commands/list/list.cpp:194 commands/list/list.cpp:199
 msgid "Installed packages"
-msgstr ""
+msgstr "インストール済みパッケージ"
 
 #: commands/list/list.cpp:195 commands/list/list.cpp:208
 msgid "Available packages"
-msgstr ""
+msgstr "利用可能なパッケージ"
 
 #: commands/list/list.cpp:216
 msgid "Available upgrades"
-msgstr ""
+msgstr "利用可能な更新"
 
 #: commands/list/list.cpp:232
 msgid "Obsoleting packages"
-msgstr ""
+msgstr "廃止パッケージ"
 
 #: commands/list/list.cpp:237
 msgid "Autoremove packages"
-msgstr ""
+msgstr "Autoremove パッケージ"
 
 #: commands/list/list.cpp:241
 msgid "Extra packages"
-msgstr ""
+msgstr "追加パッケージ"
 
 #: commands/list/list.cpp:252
 msgid "Recently added packages"
-msgstr ""
+msgstr "最近追加されたパッケージ"
 
 #: commands/list/list.cpp:257
 msgid "No matching packages to list"
-msgstr ""
+msgstr "一致するパッケージはありません"
 
 #: commands/mark/mark.cpp:38
 msgid "Change the reason of an installed package"
-msgstr ""
+msgstr "パッケージがインストールされた理由を変更"
 
 #: commands/module/arguments.hpp:36
 msgid "Show enabled modules."
