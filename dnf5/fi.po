@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Ricky Tigg <ricky.tigg@gmail.com>, 2024.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024.
+# Jiri Grönroos <jiri.gronroos@iki.fi>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-02 03:04+0000\n"
-"PO-Revision-Date: 2024-09-05 13:38+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2024-11-02 17:14+0000\n"
+"Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/fi/>\n"
 "Language: fi\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.7.2\n"
+"X-Generator: Weblate 5.8.2\n"
 
 #: commands/advisory/advisory.cpp:36
 #, fuzzy
@@ -418,22 +418,16 @@ msgid "List packages which will be removed by the 'dnf autoremove' command."
 msgstr ""
 
 #: commands/list/list.cpp:194 commands/list/list.cpp:199
-#, fuzzy
-#| msgid "List installed packages."
 msgid "Installed packages"
-msgstr "Luetteloi asennetut paketit."
+msgstr "Asennetut paketit"
 
 #: commands/list/list.cpp:195 commands/list/list.cpp:208
-#, fuzzy
-#| msgid "List available packages."
 msgid "Available packages"
-msgstr "Luetteloi saatavilla olevat paketit."
+msgstr "Saatavilla olevat paketit"
 
 #: commands/list/list.cpp:216
-#, fuzzy
-#| msgid "Available"
 msgid "Available upgrades"
-msgstr "Saatavilla"
+msgstr "Saatavilla olevat päivitykset"
 
 #: commands/list/list.cpp:232
 #, fuzzy
@@ -451,7 +445,7 @@ msgstr ""
 
 #: commands/list/list.cpp:252
 msgid "Recently added packages"
-msgstr ""
+msgstr "Äskettäin lisätyt paketit"
 
 #: commands/list/list.cpp:257
 msgid "No matching packages to list"
@@ -467,11 +461,11 @@ msgstr ""
 
 #: commands/module/arguments.hpp:36
 msgid "Show enabled modules."
-msgstr ""
+msgstr "Näytä käytössä olevat moduulit."
 
 #: commands/module/arguments.hpp:43
 msgid "Show disabled modules."
-msgstr ""
+msgstr "Näytä käytöstä poistetut moduulit."
 
 #: commands/module/arguments.hpp:50
 msgid "Pattern matching module NSVCAs."
@@ -479,7 +473,7 @@ msgstr ""
 
 #: commands/module/module.cpp:43
 msgid "Manage modules"
-msgstr ""
+msgstr "Hallitse moduuleja"
 
 #: commands/module/module_list.cpp:85
 msgid "No matches found for \"{}\"."
@@ -497,7 +491,7 @@ msgstr ""
 
 #: commands/offline/offline.cpp:245
 msgid "Couldn't connect to D-Bus: {}"
-msgstr ""
+msgstr "Yhteys D-Busiin ei onnistunut: {}"
 
 #: commands/offline/offline.cpp:274
 msgid ""
@@ -507,7 +501,7 @@ msgstr ""
 
 #: commands/offline/offline.cpp:281
 msgid "Power off the system after the operation is complete"
-msgstr ""
+msgstr "Sammuta järjestelmä kun toimenpide valmistuu"
 
 #: commands/offline/offline.cpp:292
 msgid "No offline transaction is stored."
@@ -574,7 +568,7 @@ msgstr ""
 
 #: commands/offline/offline.cpp:600
 msgid "No logs were found."
-msgstr ""
+msgstr "Lokeja ei löytynyt."
 
 #: commands/offline/offline.cpp:604
 msgid "The following boots appear to contain offline transaction logs:"
@@ -631,14 +625,12 @@ msgid "Find what package provides the given value"
 msgstr ""
 
 #: commands/reinstall/reinstall.cpp:40
-#, fuzzy
-#| msgid "set install root"
 msgid "Reinstall software"
-msgstr "aseta asennusjuuri"
+msgstr "Asenna ohjelmisto uudelleen"
 
 #: commands/remove/remove.cpp:40
 msgid "Remove (uninstall) software"
-msgstr ""
+msgstr "Poista ohjelmiston asennus"
 
 #: commands/replay/replay.cpp:38
 msgid "Replay a transaction that was previously stored to a directory"
@@ -800,11 +792,11 @@ msgstr "Paketti \"{}\" on jo suljettu pois."
 
 #: context.cpp:73
 msgid "Importing PGP key 0x{}:\n"
-msgstr ""
+msgstr "Tuodaan PGP-avain 0x{}:\n"
 
 #: context.cpp:75
 msgid " UserID     : \"{}\"\n"
-msgstr ""
+msgstr " Käyttäjätunniste     : \"{}\"\n"
 
 #: context.cpp:78
 msgid ""
@@ -814,7 +806,7 @@ msgstr ""
 
 #: context.cpp:87
 msgid "The key was successfully imported."
-msgstr ""
+msgstr "Avain tuotiin onnistuneesti."
 
 #: context.cpp:262
 msgid "setopt: \"{}.{}\": {}"
@@ -899,17 +891,15 @@ msgstr ""
 
 #: context.cpp:792
 msgid "Reinstalling {}"
-msgstr ""
+msgstr "Asennetaan uudelleen {}"
 
 #: context.cpp:805
 msgid "Unexpected action in TransactionPackage: {}"
 msgstr ""
 
 #: context.cpp:811
-#, fuzzy
-#| msgid "Installed"
 msgid "Installing {}"
-msgstr "Asennettu"
+msgstr "Asennetaan {}"
 
 #: context.cpp:832
 #, fuzzy
@@ -919,7 +909,7 @@ msgstr "Tapahtumatunnus"
 
 #: context.cpp:852
 msgid "Removing {}"
-msgstr ""
+msgstr "Poistetaan {}"
 
 #: context.cpp:855
 msgid "Cleanup {}"
@@ -931,7 +921,7 @@ msgstr ""
 
 #: context.cpp:881
 msgid "Cpio error: {}"
-msgstr ""
+msgstr "Cpio-virhe: {}"
 
 #: context.cpp:891
 msgid "Scriptlet output:"
@@ -959,7 +949,7 @@ msgstr ""
 
 #: library.cpp:33
 msgid "Cannot load shared library \"{}\": {}"
-msgstr ""
+msgstr "Jaettua kirjastoa \"{}\" ei voi ladata: {}"
 
 #: library.cpp:48
 msgid "Cannot obtain address of symbol \"{}\": {}"
@@ -971,7 +961,7 @@ msgstr ""
 
 #: main.cpp:130
 msgid "DNF5 is a program for maintaining packages."
-msgstr ""
+msgstr "DNF5 on ohjelma pakettien hallintaan."
 
 #: main.cpp:131
 msgid "Unclassified options:"
@@ -987,7 +977,7 @@ msgstr "Tulosta ohje"
 
 #: main.cpp:146
 msgid "Configuration file location"
-msgstr ""
+msgstr "Asetustiedoston sijainti"
 
 #: main.cpp:154
 msgid ""
@@ -1109,7 +1099,7 @@ msgstr ""
 
 #: main.cpp:433
 msgid "Disable all libdnf5 plugins"
-msgstr ""
+msgstr "Poista käytöstä kaikki libdnf5-liitännäiset"
 
 #: main.cpp:443
 msgid ""
@@ -1172,7 +1162,7 @@ msgstr "Tulosta muuttujan arvot stdoutiin"
 
 #: main.cpp:588
 msgid "Show DNF5 version and exit"
-msgstr ""
+msgstr "Näytä DNF5:n versio ja poistu"
 
 #: main.cpp:595
 msgid "Force the use of a different architecture."
@@ -1180,49 +1170,51 @@ msgstr ""
 
 #: main.cpp:633
 msgid "Software Management Commands:"
-msgstr ""
+msgstr "Ohjelmistohallinnan komennot:"
 
 #: main.cpp:640
 msgid "Query Commands:"
-msgstr ""
+msgstr "Kyselykomennot:"
 
 #: main.cpp:647
 msgid "Subcommands:"
-msgstr ""
+msgstr "Alikomennot:"
 
 #: main.cpp:744
 msgid "{} version {}.{}.{}.{}"
-msgstr ""
+msgstr "{}:n versio {}.{}.{}.{}"
 
 #: main.cpp:747
 msgid "{} plugin API version {}.{}"
-msgstr ""
+msgstr "{}:n liitännäisrajapinnan versio {}.{}"
 
 #: main.cpp:752
 msgid "libdnf5 version {}.{}.{}.{}"
-msgstr ""
+msgstr "libdnf5:n versio {}.{}.{}.{}"
 
 #: main.cpp:755
 msgid "libdnf5 plugin API version {}.{}"
-msgstr ""
+msgstr "libdnf5:n liitännäisrajapinnan versio {}.{}"
 
 #: main.cpp:762
 msgid ""
 "\n"
 "Loaded {} plugins:"
 msgstr ""
+"\n"
+"Ladatut {}-liitännäiset:"
 
 #: main.cpp:767
 msgid "  name: {}"
-msgstr ""
+msgstr "  nimi: {}"
 
 #: main.cpp:770
 msgid "  version: {}.{}.{}"
-msgstr ""
+msgstr "  versio: {}.{}.{}"
 
 #: main.cpp:772
 msgid "  API version: {}.{}"
-msgstr ""
+msgstr "  API-versio: {}.{}"
 
 #: main.cpp:810
 msgid ""
@@ -1255,7 +1247,7 @@ msgstr ""
 
 #: main.cpp:911
 msgid "======== Variables: ========"
-msgstr ""
+msgstr "======== Muuttujat: ========"
 
 #: main.cpp:951
 msgid "New leaves:"
@@ -1314,7 +1306,7 @@ msgstr ""
 
 #: main.cpp:1208
 msgid "--- DNF5 launched with arguments: \"{}\" ---"
-msgstr ""
+msgstr "--- DNF5 käynnistetty argumenteilla: \"{}\" ---"
 
 #: main.cpp:1259
 msgid "{}."
@@ -1363,7 +1355,7 @@ msgstr ""
 
 #: main.cpp:1455
 msgid "Command returned error: {}"
-msgstr ""
+msgstr "Komento palautti virheen: {}"
 
 #: main.cpp:1463
 msgid "DNF5 finished"
