@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-02 03:04+0000\n"
-"PO-Revision-Date: 2024-11-02 06:42+0000\n"
+"PO-Revision-Date: 2024-11-02 10:54+0000\n"
 "Last-Translator: Inci sakura <incisakura@icloud.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ja/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.7.2\n"
+"X-Generator: Weblate 5.8.2\n"
 
 #: commands/advisory/advisory.cpp:36
 msgid "Manage advisories"
@@ -535,162 +535,176 @@ msgid ""
 "to be run directly by the user. To initiate the system upgrade/offline "
 "transaction, you should run `dnf5 offline reboot`."
 msgstr ""
+"警告: `_execute ` コマンドは内部用であり、ユーザーが直接実行することを考慮し"
+"ていません。システムのアップグレード/オフライン "
+"トランザクションを開始するには、`dnf5 offline reboot` を実行してください。"
 
 #: commands/offline/offline.cpp:444
 msgid "Use `dnf5 offline reboot` to begin the transaction."
-msgstr ""
+msgstr "`dnf5 offline reboot` でトランザクションを開始します。"
 
 #: commands/offline/offline.cpp:497
 msgid "Transaction failed: "
-msgstr ""
+msgstr "トランザクション失敗: "
 
 #: commands/offline/offline.cpp:566
 msgid "Error reading journal: {}"
-msgstr ""
+msgstr "ジャーナル読み取り中にエラーが発生しました: {}"
 
 #: commands/offline/offline.cpp:572
 msgid "Add journal match failed: {}"
-msgstr ""
+msgstr "ジャーナルの一致追加に失敗しました: {}"
 
 #: commands/offline/offline.cpp:600
 msgid "No logs were found."
-msgstr ""
+msgstr "ログを見つかりませんでした。"
 
 #: commands/offline/offline.cpp:604
 msgid "The following boots appear to contain offline transaction logs:"
-msgstr ""
+msgstr "下記の起動にオフライン トランザクション ログが含まれているようです:"
 
 #: commands/offline/offline.cpp:621
 msgid "Cannot find logs with this index."
-msgstr ""
+msgstr "このインデックスのログを見つかりませんでした。"
 
 #: commands/offline/offline.cpp:628
 msgid "Unable to match systemd journal entry."
-msgstr ""
+msgstr "systemd ジャーナル エントリに一致しません。"
 
 #: commands/offline/offline.cpp:640
 msgid "Show logs from past offline transactions"
-msgstr ""
+msgstr "過去のオフライン トランザクションのログを表示します"
 
 #: commands/offline/offline.cpp:648
 msgid ""
 "Which log to show. Run without any arguments to get a list of available logs."
-msgstr ""
+msgstr "表示させたいログ。引数なしで実行すると、利用可能なすべてのログが表示されます"
+"。"
 
 #: commands/offline/offline.cpp:663
 msgid ""
 "systemd is not supported in this build of DNF 5; the `log` subcommand is "
 "unavailable."
-msgstr ""
+msgstr "この dnf5 のビルドは systemd をサポートされていません。`log` "
+"サブコマンドは利用できません。"
 
 #: commands/offline/offline.cpp:668
 msgid "Show status of the current offline transaction"
-msgstr ""
+msgstr "現在のオフライン トランザクションの状態を表示します"
 
 #: commands/offline/offline.cpp:684
 msgid "An offline transaction was initiated by the following command:"
-msgstr ""
+msgstr "オフライン トランザクションは以下のコマンドによって開始されました:"
 
 #: commands/offline/offline.cpp:686
 msgid ""
 "Run `dnf5 offline reboot` to reboot and perform the offline transaction."
-msgstr ""
+msgstr "`dnf5 offline reboot` を実行してオフライン "
+"トランザクションを実行してください。"
 
 #: commands/offline/offline.cpp:688
 msgid ""
 "An offline transaction was started, but it did not finish. Run `dnf5 offline "
 "log` for more information. The command that initiated the transaction was:"
 msgstr ""
+"オフライン トランザクションが開始されましたが、完了できませんでした。`dnf5 "
+"offline log` を実行して更なる情報を確認できます。トランザクションはこちらのコ"
+"マンドによって初期化されました:"
 
 #: commands/offline/offline.cpp:693
 msgid "Unknown offline transaction status: "
-msgstr ""
+msgstr "不明なオフライン トランザクション状態: "
 
 #: commands/provides/provides.cpp:48
 msgid "Find what package provides the given value"
-msgstr ""
+msgstr "指定した値が属するパッケージを検索します"
 
 #: commands/reinstall/reinstall.cpp:40
 msgid "Reinstall software"
-msgstr ""
+msgstr "ソフトウェアを再インストール"
 
 #: commands/remove/remove.cpp:40
 msgid "Remove (uninstall) software"
-msgstr ""
+msgstr "ソフトウェアを削除 (アンインストール)"
 
 #: commands/replay/replay.cpp:38
 msgid "Replay a transaction that was previously stored to a directory"
-msgstr ""
+msgstr "保存されたトランザクションを再実行します"
 
 #: commands/repo/arguments.hpp:35
 msgid "Show all repositories."
-msgstr ""
+msgstr "すべてのリポジトリを表示します。"
 
 #: commands/repo/arguments.hpp:42
 msgid "Show enabled repositories (default)."
-msgstr ""
+msgstr "有効化したのリポジトリを表示します (既定)。"
 
 #: commands/repo/arguments.hpp:49
 msgid "Show disabled repositories."
-msgstr ""
+msgstr "無効化したリポジトリを表示します。"
 
 #: commands/repo/arguments.hpp:56
 msgid "Pattern matching repo IDs."
-msgstr ""
+msgstr "レポジトリ ID に一致するパターン。"
 
 #: commands/repo/repo.cpp:38
 msgid "Manage repositories"
-msgstr ""
+msgstr "リポジトリ管理"
 
 #: commands/repoquery/repoquery.cpp:80
 msgid "Search for packages matching various criteria"
-msgstr ""
+msgstr "さまざまな条件で一致するパッケージを検索します"
 
 #: commands/repoquery/repoquery.cpp:516
 msgid ""
 "Option \"--exactdeps\" has to be used either with \"--whatrequires\" or \"--"
 "whatdepends\""
 msgstr ""
+"オプション \"--exactdeps\" は、\"--whatrequires\" または \"--whatdepends\" "
+"のいずれかと一緒に使用する必要があります"
 
 #: commands/repoquery/repoquery.cpp:521
 msgid ""
 "Option \"--recursive\" has to be used either with \"--whatrequires\" or \"--"
 "providers-of=requires\""
 msgstr ""
+"オプション \"--recursive\" は、\"--whatrequires\" または \"--providers-of="
+"requires\" のいずれかと一緒に使用する必要があります"
 
 #: commands/search/arguments.hpp:37
 msgid "Search also package description and URL."
-msgstr ""
+msgstr "パッケージの説明やURLも検索します。"
 
 #: commands/search/arguments.hpp:45
 msgid "Patterns"
-msgstr ""
+msgstr "パターン"
 
 #: commands/search/search.cpp:44
 msgid "Search for software matching all specified strings"
-msgstr ""
+msgstr "所定な文字列に一致するソフトウェアを検索します"
 
 #: commands/swap/swap.cpp:42
 msgid "Remove software and install another in one transaction"
-msgstr ""
+msgstr "一度のトランザクションでソフトウェアの削除とインストールを行います"
 
 #: commands/system-upgrade/system-upgrade.cpp:54
 msgid "Prepare system for upgrade to a new release"
-msgstr ""
+msgstr "新しいリリースへのアップグレードのためにシステムを準備します"
 
 #: commands/system-upgrade/system-upgrade.cpp:70
 msgid "Download everything needed to upgrade to a new release"
-msgstr ""
+msgstr "新しいリリースにアップグレードするための必要なものをすべてダウンロードします"
 
 #: commands/system-upgrade/system-upgrade.cpp:78
 msgid ""
 "Do not install packages from the new release if they are older than what is "
 "currently installed"
-msgstr ""
+msgstr "新しいリリースから現在インストール済みのよりも古いパッケージをインストールし"
+"ません"
 
 #: commands/system-upgrade/system-upgrade.cpp:97
 msgid "Need a --releasever greater than the current system version."
-msgstr ""
+msgstr "現在のシステムバージョンよりも大きい --releasever が必要です。"
 
 #: commands/system-upgrade/system-upgrade.cpp:131
 msgid "Store a distro-sync transaction to be performed offline"
