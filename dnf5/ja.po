@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-02 03:04+0000\n"
-"PO-Revision-Date: 2024-11-02 17:15+0000\n"
+"PO-Revision-Date: 2024-11-02 17:38+0000\n"
 "Last-Translator: Inci sakura <incisakura@icloud.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ja/>\n"
@@ -421,7 +421,7 @@ msgstr "廃止パッケージ"
 
 #: commands/list/list.cpp:237
 msgid "Autoremove packages"
-msgstr "Autoremove パッケージ"
+msgstr "autoremove パッケージ"
 
 #: commands/list/list.cpp:241
 msgid "Extra packages"
@@ -889,75 +889,75 @@ msgstr "トランザクションを実行中"
 
 #: context.cpp:786
 msgid "Upgrading {}"
-msgstr ""
+msgstr "{} を更新中"
 
 #: context.cpp:789
 msgid "Downgrading {}"
-msgstr ""
+msgstr "{} をダウングレード中"
 
 #: context.cpp:792
 msgid "Reinstalling {}"
-msgstr ""
+msgstr "{} を再インストール中"
 
 #: context.cpp:805
 msgid "Unexpected action in TransactionPackage: {}"
-msgstr ""
+msgstr "トランザクション パッケージに予期しないアクション: {}"
 
 #: context.cpp:811
 msgid "Installing {}"
-msgstr ""
+msgstr "{} をインストール中"
 
 #: context.cpp:832
 msgid "Prepare transaction"
-msgstr ""
+msgstr "トランザクション準備"
 
 #: context.cpp:852
 msgid "Removing {}"
-msgstr ""
+msgstr "{} を削除中"
 
 #: context.cpp:855
 msgid "Cleanup {}"
-msgstr ""
+msgstr "{} をクリーンアップ"
 
 #: context.cpp:873
 msgid "Unpack error: {}"
-msgstr ""
+msgstr "解凍エラー: {}"
 
 #: context.cpp:881
 msgid "Cpio error: {}"
-msgstr ""
+msgstr "cpio エラー: {}"
 
 #: context.cpp:891
 msgid "Scriptlet output:"
-msgstr ""
+msgstr "scriptlet 出力:"
 
 #: context.cpp:913
 msgid "Running {} scriptlet: {}"
-msgstr ""
+msgstr "{} scriptlet を実行中: {}"
 
 #: context.cpp:928
 msgid "Finished {} scriptlet: {}"
-msgstr ""
+msgstr "{} scriptlet を実行完了: {}"
 
 #: context.cpp:934
 msgid "Non-critical error in {} scriptlet: {}"
-msgstr ""
+msgstr "{} scriptlet で非致命エラー: {}"
 
 #: context.cpp:943
 msgid "Error in {} scriptlet: {}"
-msgstr ""
+msgstr "{} scriptlet でエラー: {}"
 
 #: context.cpp:973
 msgid "Verify package files"
-msgstr ""
+msgstr "パッケージ ファイルを検証"
 
 #: library.cpp:33
 msgid "Cannot load shared library \"{}\": {}"
-msgstr ""
+msgstr "共有ライブラリ \"{}\" を読み込めませんでした: {}"
 
 #: library.cpp:48
 msgid "Cannot obtain address of symbol \"{}\": {}"
-msgstr ""
+msgstr "シンボル \"{}\" のアドレスを取得できませんでした: {}"
 
 #: main.cpp:129
 msgid "Utility for packages maintaining"
