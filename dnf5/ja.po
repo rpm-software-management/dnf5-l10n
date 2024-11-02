@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-02 03:04+0000\n"
-"PO-Revision-Date: 2024-11-02 10:54+0000\n"
+"PO-Revision-Date: 2024-11-02 17:15+0000\n"
 "Last-Translator: Inci sakura <incisakura@icloud.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ja/>\n"
@@ -708,15 +708,15 @@ msgstr "現在のシステムバージョンよりも大きい --releasever が�
 
 #: commands/system-upgrade/system-upgrade.cpp:131
 msgid "Store a distro-sync transaction to be performed offline"
-msgstr ""
+msgstr "オフラインで実行するための distro-sync トランザクションを保存します"
 
 #: commands/system-upgrade/system-upgrade.cpp:153
 msgid "Store an upgrade transaction to be performed offline"
-msgstr ""
+msgstr "オフラインで実行するためのアップグレード トランザクションを保存します"
 
 #: commands/upgrade/upgrade.cpp:41
 msgid "Upgrade software"
-msgstr ""
+msgstr "ソフトウェアを更新"
 
 #: commands/upgrade/upgrade.cpp:48
 msgid ""
@@ -725,143 +725,152 @@ msgid ""
 "limiting advisories is used it upgrades packages only to the lowest versions "
 "that fix advisories that matching selected advisory property"
 msgstr ""
+"bugfix、enhancement、security、newpackage の勧告を修正するための最低バージョ"
+"ンにパッケージを更新します。勧告の制限オプションが使用された場合、プロパティ"
+"に一致する勧告を修正するための最低バージョンにのみパッケージを更新します"
 
 #. TODO(mblaha): add full command line
 #: commands/versionlock/utils.cpp:35
 msgid "Added by 'versionlock {}' command on {}"
-msgstr ""
+msgstr "'versionlock {}' コマンドで {} に追加されました"
 
 #: commands/versionlock/versionlock.cpp:40
 msgid "Manage versionlock configuration"
-msgstr ""
+msgstr "versionlock 構成を管理"
 
 #: commands/versionlock/versionlock_add.cpp:37
 msgid "Add new entry to versionlock configuration"
-msgstr ""
+msgstr "versionlock 構成に新しいエントリを追加します"
 
 #: commands/versionlock/versionlock_add.cpp:43
 msgid "List of package specs to add versionlock for"
-msgstr ""
+msgstr "versionlock を追加するパッケージのリスト"
 
 #: commands/versionlock/versionlock_add.cpp:106
 #: commands/versionlock/versionlock_exclude.cpp:125
 msgid "No package found for \"{}\"."
-msgstr ""
+msgstr "パッケージ \"{}\" を見つかりませんでした。"
 
 #: commands/versionlock/versionlock_add.cpp:124
 msgid "Adding versionlock on \"{0} = {1}\"."
-msgstr ""
+msgstr "\"{0} = {1}\" で versionlock を追加しています。"
 
 #: commands/versionlock/versionlock_add.cpp:127
 msgid "Package \"{}\" is already locked."
-msgstr ""
+msgstr "パッケージ \"{}\" はすでにロックされています。"
 
 #: commands/versionlock/versionlock_clear.cpp:32
 msgid "Remove all entries from versionlock configuration"
-msgstr ""
+msgstr "すべてのエントリを versionlock 構成から削除します"
 
 #: commands/versionlock/versionlock_delete.cpp:35
 msgid "Remove any matching versionlock configuration entries"
-msgstr ""
+msgstr "一致するエントリを versionlock 構成から削除します"
 
 #: commands/versionlock/versionlock_delete.cpp:41
 msgid "List of package specs to remove versionlock for"
-msgstr ""
+msgstr "versionlock を削除するパッケージ一覧"
 
 #: commands/versionlock/versionlock_delete.cpp:55
 msgid "Deleting versionlock entry:"
-msgstr ""
+msgstr "versionlock エントリを削除中:"
 
 #: commands/versionlock/versionlock_exclude.cpp:37
 msgid "Add new exclude entry to versionlock configuration"
-msgstr ""
+msgstr "versionlock 構成に除外エントリを追加します"
 
 #: commands/versionlock/versionlock_exclude.cpp:43
 msgid "List of package specs to add versionlock exclude for"
-msgstr ""
+msgstr "versionlock 除外を追加するパッケージ一覧"
 
 #: commands/versionlock/versionlock_exclude.cpp:88
 #: commands/versionlock/versionlock_exclude.cpp:100
 msgid "Adding versionlock exclude on \"{0} = {1}\"."
-msgstr ""
+msgstr "\"{0} = {1}\" で versionlock 除外を追加しています。"
 
 #: commands/versionlock/versionlock_exclude.cpp:139
 msgid "Package \"{}\" is already excluded."
-msgstr ""
+msgstr "パッケージ \"{}\" はすでに除外されました。"
 
 #: context.cpp:73
 msgid "Importing PGP key 0x{}:\n"
-msgstr ""
+msgstr "PGP キー 0x{} をインポート中:\n"
 
 #: context.cpp:75
 msgid " UserID     : \"{}\"\n"
-msgstr ""
+msgstr " UserID: \"{}\"\n"
 
 #: context.cpp:78
 msgid ""
 " Fingerprint: {}\n"
 " From       : {}\n"
 msgstr ""
+" 識別子: {}\n"
+" 提供元: {}\n"
 
 #: context.cpp:87
 msgid "The key was successfully imported."
-msgstr ""
+msgstr "キーが正常にインポートされました。"
 
 #: context.cpp:262
 msgid "setopt: \"{}.{}\": {}"
-msgstr ""
+msgstr "setopt: \"{}.{}\": {}"
 
 #: context.cpp:268
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: context.cpp:272
 msgid ""
 "No matching repositories for {}. To use repositories from a host system, "
 "pass --use-host-config option"
 msgstr ""
+"{} に一致するリポジトリがありません。ホストシステムのリポジトリを使用するには"
+"、--use-host-config オプションを指定してください"
 
 #: context.cpp:276
 msgid "No matching repositories for {}"
-msgstr ""
+msgstr "{} に一致するリポジトリがありません"
 
 #: context.cpp:322
 msgid "Updating and loading repositories:"
-msgstr ""
+msgstr "リポジトリを更新して読み込み中:"
 
 #: context.cpp:332
 msgid "Repositories loaded."
-msgstr ""
+msgstr "リポジトリを読み込みました。"
 
 #: context.cpp:338
 msgid "Testing offline transaction"
-msgstr ""
+msgstr "オフライン トランザクションを検証中"
 
 #: context.cpp:342 context.cpp:497
 msgid "Transaction failed: {}"
-msgstr ""
+msgstr "トランザクションが失敗しました: {}"
 
 #: context.cpp:347 context.cpp:502
 msgid "  - {}"
-msgstr ""
+msgstr "  - {}"
 
 #: context.cpp:414
 msgid ""
 "Location \"{}\" already contains a stored transaction, it will be "
 "overwritten."
-msgstr ""
+msgstr "\"{}\" にはすでに保存されたトランザクションがあったため、上書きされます。"
 
 #: context.cpp:443
 msgid ""
 "There is already an offline transaction queued, initiated by the following "
 "command:"
-msgstr ""
+msgstr "すでに待機中に以下のコマンドによって開始されたオフライン "
+"トランザクションがあります:"
 
 #: context.cpp:445
 msgid ""
 "Continuing will cancel the old offline transaction and replace it with this "
 "one."
-msgstr ""
+msgstr "続行すると、古いオフライン "
+"トランザクションがキャンセルされ、これに置き換えられます。"
 
 #: context.cpp:463
 msgid ""
@@ -869,10 +878,14 @@ msgid ""
 "reboot and run the transaction. To cancel the transaction and delete the "
 "downloaded files, use `dnf5 offline clean`."
 msgstr ""
+"オフラインで実行するためにトランザクションを保存しました。トランザクションを"
+"実行するには、`dnf5 offline reboot` を実行してください。トランザクションをキ"
+"ャンセルし、ダウンロードしたファイルを削除するには、`dnf5 offline clean` "
+"を実行してください。"
 
 #: context.cpp:469
 msgid "Running transaction"
-msgstr ""
+msgstr "トランザクションを実行中"
 
 #: context.cpp:786
 msgid "Upgrading {}"
