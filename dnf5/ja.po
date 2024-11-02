@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-02 03:04+0000\n"
-"PO-Revision-Date: 2024-11-02 17:38+0000\n"
+"PO-Revision-Date: 2024-11-02 18:39+0000\n"
 "Last-Translator: Inci sakura <incisakura@icloud.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ja/>\n"
@@ -961,27 +961,27 @@ msgstr "シンボル \"{}\" のアドレスを取得できませんでした: {}
 
 #: main.cpp:129
 msgid "Utility for packages maintaining"
-msgstr ""
+msgstr "パッケージ管理のためのユーティリティ"
 
 #: main.cpp:130
 msgid "DNF5 is a program for maintaining packages."
-msgstr ""
+msgstr "DNF5 はパッケージ管理用のプログラムです。"
 
 #: main.cpp:131
 msgid "Unclassified options:"
-msgstr ""
+msgstr "未分類オプション:"
 
 #: main.cpp:134
 msgid "Global options:"
-msgstr ""
+msgstr "グローバル オプション:"
 
 #: main.cpp:139
 msgid "Print help"
-msgstr ""
+msgstr "ヘルプを表示します"
 
 #: main.cpp:146
 msgid "Configuration file location"
-msgstr ""
+msgstr "構成ファイルの場所"
 
 #: main.cpp:154
 msgid ""
@@ -989,32 +989,35 @@ msgid ""
 "content. Suppresses messages notifying about the current state or actions of "
 "dnf5."
 msgstr ""
+"関連内容のみが表示されるので、非対話型コマンドとの組み合わせ使用に適していま"
+"す。dnf5 の現在の状態やアクションに関するメッセージは抑制されます。"
 
 #: main.cpp:169
 msgid ""
 "Run entirely from system cache, don't update the cache and use it even in "
 "case it is expired."
-msgstr ""
+msgstr "期限切れであってもキャッシュを更新せず、完全にシステム "
+"キャッシュで実行します。"
 
 #: main.cpp:176
 msgid "Force refreshing metadata before running the command."
-msgstr ""
+msgstr "コマンド実行する前にメタデータを強制的に更新します。"
 
 #: main.cpp:192
 msgid "Failed to expire repository cache in path \"{0}\": {1}"
-msgstr ""
+msgstr "パス \"{0}\" のリポジトリ キャッシュの期限切れに失敗しました: {1}"
 
 #: main.cpp:206
 msgid "create additional repository using id and path"
-msgstr ""
+msgstr "指定 ID とパスで追加リポジトリを作成します"
 
 #: main.cpp:214
 msgid "repofrompath: Incorrect repoid and path specification \"{}\""
-msgstr ""
+msgstr "repofrompath: 不正な ID とパス指定 \"{}\""
 
 #: main.cpp:226
 msgid "set arbitrary config and repo options"
-msgstr ""
+msgstr "任意の設定およびリポジトリ オプションを設定します"
 
 #: main.cpp:228
 msgid ""
@@ -1026,31 +1029,37 @@ msgid ""
 "              they do not override it. However, specifying an empty value (e."
 "g. --setopt=tsflags=) will clear the option."
 msgstr ""
+"設定ファイルのオプションを上書きします。リポジトリの設定オプションを上書きす"
+"るには、repoid.option を使用してください。\n"
+"              excludepkgs、includepkgs、installonlypkgs、および tsflags "
+"のような設定オプションの値は、元の値に追加され、\n"
+"              上書きされることはありません。ただし、空の値（例: "
+"--setopt=tsflags=）を指定すると、そのオプションはクリアされます。"
 
 #: main.cpp:237 main.cpp:276
 msgid "{}: Badly formatted argument value \"{}\""
-msgstr ""
+msgstr "{}: 不正形式の引数 \"{}\""
 
 #: main.cpp:244
 msgid ""
 "{}: Badly formatted argument value: Last key character cannot be '.': {}"
-msgstr ""
+msgstr "{}: 不正形式の引数: キー最後の文字を '.' にすることはできません: {}"
 
 #: main.cpp:257
 msgid "setopt: \"{0}\": {1}"
-msgstr ""
+msgstr "setopt: \"{0}\": {1}"
 
 #: main.cpp:269
 msgid "set arbitrary variable"
-msgstr ""
+msgstr "任意の変数を設定します"
 
 #: main.cpp:283
 msgid "setvar: {}"
-msgstr ""
+msgstr "setvar: {}"
 
 #: main.cpp:292
 msgid "automatically answer yes for all questions"
-msgstr ""
+msgstr "すべての質問に自動的に「はい」と答えます"
 
 #: main.cpp:299
 msgid "automatically answer no for all questions"
