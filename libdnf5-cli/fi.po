@@ -7,14 +7,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-02 03:04+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-11-02 18:39+0000\n"
+"Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
+"Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf5/"
+"libdnf5-cli/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.8.2\n"
 
 #: argument_parser.cpp:62
 #, c++-format
@@ -64,11 +66,11 @@ msgstr ""
 #. print usage
 #: argument_parser.cpp:657
 msgid "Usage:"
-msgstr ""
+msgstr "Käyttö:"
 
 #: argument_parser.cpp:665
 msgid "Description:"
-msgstr ""
+msgstr "Kuvaus:"
 
 #: argument_parser.cpp:915
 #, c++-format
@@ -155,7 +157,7 @@ msgstr ""
 #. Add package
 #: output/packageinfo.cpp:63
 msgid "Name"
-msgstr ""
+msgstr "Nimi"
 
 #: output/packageinfo.cpp:68
 msgid "Epoch"
@@ -163,15 +165,15 @@ msgstr ""
 
 #: output/packageinfo.cpp:69 output/transaction_table.cpp:274
 msgid "Version"
-msgstr ""
+msgstr "Versio"
 
 #: output/packageinfo.cpp:70
 msgid "Release"
-msgstr ""
+msgstr "Julkaisu"
 
 #: output/packageinfo.cpp:71
 msgid "Architecture"
-msgstr ""
+msgstr "Arkkitehtuuri"
 
 #: output/packageinfo.cpp:75
 msgid "Obsoletes"
@@ -179,43 +181,43 @@ msgstr ""
 
 #: output/packageinfo.cpp:85
 msgid "Download size"
-msgstr ""
+msgstr "Latauksen koko"
 
 #: output/packageinfo.cpp:89
 msgid "Installed size"
-msgstr ""
+msgstr "Asennuksen koko"
 
 #: output/packageinfo.cpp:91
 msgid "Source"
-msgstr ""
+msgstr "Lähde"
 
 #: output/packageinfo.cpp:94
 msgid "From repository"
-msgstr ""
+msgstr "Tietovarastosta"
 
 #: output/packageinfo.cpp:96 output/transaction_table.cpp:280
 msgid "Repository"
-msgstr ""
+msgstr "Tietovarasto"
 
 #: output/packageinfo.cpp:98
 msgid "Summary"
-msgstr ""
+msgstr "Yhteenveto"
 
 #: output/packageinfo.cpp:99
 msgid "URL"
-msgstr ""
+msgstr "URL-osoite"
 
 #: output/packageinfo.cpp:100
 msgid "License"
-msgstr ""
+msgstr "Lisenssi"
 
 #: output/packageinfo.cpp:104
 msgid "Description"
-msgstr ""
+msgstr "Kuvaus"
 
 #: output/packageinfo.cpp:109
 msgid "Vendor"
-msgstr ""
+msgstr "Toimittaja"
 
 #: output/transaction_table.cpp:127
 msgid "Transaction Summary:\n"
@@ -279,20 +281,20 @@ msgstr[1] ""
 
 #: output/transaction_table.cpp:262
 msgid "Package"
-msgstr ""
+msgstr "Paketti"
 
 #: output/transaction_table.cpp:268
 msgid "Arch"
-msgstr ""
+msgstr "Arkkitehtuuri"
 
 #: output/transaction_table.cpp:286
 msgid "Size"
-msgstr ""
+msgstr "Koko"
 
 #: output/transaction_table.cpp:342 output/transaction_table.cpp:436
 #, c++-format
 msgid "{} -> {}"
-msgstr ""
+msgstr "{} -> {}"
 
 #: output/transaction_table.cpp:358
 #, c++-format
@@ -309,39 +311,39 @@ msgstr ""
 
 #: output/transaction_table.cpp:455
 msgid "Skipping packages with conflicts:"
-msgstr ""
+msgstr "Ohitetaan ristiriidassa olevat paketit:"
 
 #: output/transaction_table.cpp:457
 msgid "Skipping packages with broken dependencies:"
-msgstr ""
+msgstr "Ohitetaan rikkinäisiä riippuvuuksia omaavat paketit:"
 
 #: output/transaction_table.cpp:518
 msgid "Installing dependencies:"
-msgstr ""
+msgstr "Asennetaan riippuvuuksia:"
 
 #: output/transaction_table.cpp:520
 msgid "Installing weak dependencies:"
-msgstr ""
+msgstr "Asennetaan heikkoja riippuvuuksia:"
 
 #: output/transaction_table.cpp:522
 msgid "Installing group/module packages:"
-msgstr ""
+msgstr "Asennetaan ryhmä-/moduulipaketteja:"
 
 #: output/transaction_table.cpp:524
 msgid "Installing:"
-msgstr ""
+msgstr "Asennetaan:"
 
 #: output/transaction_table.cpp:528
 msgid "Upgrading:"
-msgstr ""
+msgstr "Päivitetään:"
 
 #: output/transaction_table.cpp:531
 msgid "Downgrading:"
-msgstr ""
+msgstr "Varhennetaan:"
 
 #: output/transaction_table.cpp:534
 msgid "Reinstalling:"
-msgstr ""
+msgstr "Asennetaan uudelleen:"
 
 #: output/transaction_table.cpp:538
 msgid "Removing dependent packages:"
@@ -353,7 +355,7 @@ msgstr ""
 
 #: output/transaction_table.cpp:542
 msgid "Removing:"
-msgstr ""
+msgstr "Poistetaan:"
 
 #: output/transaction_table.cpp:546
 msgid "Changing reason:"
@@ -361,19 +363,19 @@ msgstr ""
 
 #: output/transaction_table.cpp:578
 msgid "Installing groups dependencies:"
-msgstr ""
+msgstr "Asennetaan ryhmäriippuvuuksia:"
 
 #: output/transaction_table.cpp:580
 msgid "Installing groups:"
-msgstr ""
+msgstr "Asennetaan ryhmiä:"
 
 #: output/transaction_table.cpp:584
 msgid "Removing groups:"
-msgstr ""
+msgstr "Poistetaan ryhmiä:"
 
 #: output/transaction_table.cpp:587
 msgid "Upgrading groups:"
-msgstr ""
+msgstr "Päivitetään ryhmät:"
 
 #: output/transaction_table.cpp:614
 msgid "Installing environmental groups:"
@@ -405,8 +407,8 @@ msgstr ""
 
 #: output/transaction_table.cpp:730
 msgid "Nothing to do."
-msgstr ""
+msgstr "Ei mitään tehtävää."
 
 #: session.cpp:149
 msgid "Missing command"
-msgstr ""
+msgstr "Puuttuva komento"
