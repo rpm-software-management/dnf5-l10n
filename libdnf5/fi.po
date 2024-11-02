@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-02 03:04+0000\n"
-"PO-Revision-Date: 2024-11-02 17:15+0000\n"
+"PO-Revision-Date: 2024-11-02 17:38+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/fi/>\n"
@@ -1014,7 +1014,7 @@ msgstr ""
 
 #: repo/repo_downloader.cpp:139
 msgid "Librepo error: {}"
-msgstr ""
+msgstr "Librepo-virhe: {}"
 
 #: repo/repo_downloader.cpp:171
 msgid "Failed to download metadata ({}: \"{}\") for repository \"{}\""
@@ -1043,11 +1043,11 @@ msgstr ""
 
 #: repo/repo_pgp.cpp:66 repo/repo_pgp.cpp:93
 msgid "Failed to list pgp keys: {}"
-msgstr ""
+msgstr "PGP-avainten listaaminen epäonnistui: {}"
 
 #: repo/repo_pgp.cpp:140
 msgid "Failed to import pgp keys: {}"
-msgstr ""
+msgstr "PGP-avainten tuominen epäonnistui: {}"
 
 #: repo/repo_sack.cpp:146
 msgid ""
@@ -1126,15 +1126,15 @@ msgstr ""
 
 #: rpm/rpm_signature.cpp:46
 msgid "The signature is valid, but the key is not trusted."
-msgstr ""
+msgstr "Allekirjoitus on kelvollinen, mutta avaimeen ei luoteta."
 
 #: rpm/rpm_signature.cpp:47
 msgid "The package is not signed."
-msgstr ""
+msgstr "Pakettia ei ole allekirjoitettu."
 
 #: rpm/rpm_signature.cpp:48
 msgid "Problem occurred when opening the package."
-msgstr ""
+msgstr "Pakettia avatessa ilmeni virhe."
 
 #: rpm/rpm_signature.cpp:64
 msgid "Failed to set rpm transaction rootDir \"{}\"."
@@ -1194,24 +1194,24 @@ msgstr ""
 #. TODO(jrohel): Why? Librpm does not provide this information.
 #: rpm/transaction.cpp:323
 msgid "Cannot reinstall package \"{}\""
-msgstr ""
+msgstr "Pakettia \"{}\" ei voi asentaa uudelleen"
 
 #. TODO(jrohel): Why? Librpm does not provide this information.
 #: rpm/transaction.cpp:341
 msgid "Cannot remove package \"{}\""
-msgstr ""
+msgstr "Pakettia \"{}\" ei voi poistaa"
 
 #: rpm/transaction.cpp:360
 msgid "Cannot upgrade package \"{}\""
-msgstr ""
+msgstr "Pakettia \"{}\" ei voi päivittää"
 
 #: rpm/transaction.cpp:364
 msgid "Cannot downgrade package \"{}\""
-msgstr ""
+msgstr "Pakettia \"{}\" ei voi varhentaa"
 
 #: rpm/transaction.cpp:368
 msgid "Cannot install package \"{}\""
-msgstr ""
+msgstr "Pakettia \"{}\" ei voi asentaa"
 
 #: rpm/versionlock_config.cpp:284 system/state.cpp:585
 msgid "{}"
@@ -1465,11 +1465,11 @@ msgstr ""
 
 #: utils/fs/file.cpp:139 utils/fs/file.cpp:168
 msgid "error reading file"
-msgstr ""
+msgstr "virhe tiedostoa luettaessa"
 
 #: utils/fs/file.cpp:154 utils/fs/file.cpp:180
 msgid "error writing file"
-msgstr ""
+msgstr "virhe tiedostoa kirjoittaessa"
 
 #: utils/fs/file.cpp:189
 msgid "error flushing file"
@@ -1542,19 +1542,19 @@ msgstr ""
 
 #: utils/locker.cpp:45
 msgid "Failed to open lock file \"{}\""
-msgstr ""
+msgstr "Lukkotiedoston \"{}\" avaaminen epäonnistui"
 
 #: utils/locker.cpp:60
 msgid "Failed to obtain lock \"{}\""
-msgstr ""
+msgstr "Lukon \"{}\" varaaminen epäonnistui"
 
 #: utils/locker.cpp:70
 msgid "Failed to close lock file \"{}\""
-msgstr ""
+msgstr "Lukkotiedoston \"{}\" sulkeminen epäonnistui"
 
 #: utils/locker.cpp:73
 msgid "Failed to delete lock file \"{}\""
-msgstr ""
+msgstr "Lukkotiedoston \"{}\" poistaminen epäonnistui"
 
 #: utils/sqlite3/sqlite3.cpp:29
 msgid "SQL statement compilation failed: \"{}\""
@@ -1606,11 +1606,11 @@ msgstr ""
 
 #: utils/sqlite3/sqlite3.cpp:68
 msgid "Failed to open database \"{}\""
-msgstr ""
+msgstr "Tietokannan \"{}\" avaaminen epäonnistui"
 
 #: utils/sqlite3/sqlite3.cpp:105
 msgid "Failed to close database \"{}\""
-msgstr ""
+msgstr "Tietokannan \"{}\" sulkeminen epäonnistui"
 
 #: utils/sqlite3/sqlite3.cpp:117 utils/sqlite3/sqlite3.cpp:143
 msgid "Failed to open backup database \"{}\""
