@@ -9,9 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-02 03:04+0000\n"
-"PO-Revision-Date: 2024-11-02 18:40+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2024-11-02 23:28+0000\n"
+"Last-Translator: Inci sakura <incisakura@icloud.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ja/>\n"
 "Language: ja\n"
@@ -1060,67 +1059,68 @@ msgstr "setvar: {}"
 
 #: main.cpp:292
 msgid "automatically answer yes for all questions"
-msgstr "すべての質問に「はい」(yes) と自動的に答えます"
+msgstr "すべての質問に「はい」 と自動的に答えます"
 
 #: main.cpp:299
 msgid "automatically answer no for all questions"
-msgstr "すべての質問に「いいえ」(no) と自動的に答えます"
+msgstr "すべての質問に「いいえ」と自動的に答えます"
 
 #: main.cpp:306
 msgid "try the best available package versions in transactions"
-msgstr ""
+msgstr "トランザクションにおいて利用可能な最適なパッケージ バージョンを試します"
 
 #: main.cpp:313
 msgid "do not limit the transaction to the best candidate"
-msgstr ""
+msgstr "トランザクションを最適候補に限定しません"
 
 #: main.cpp:324
 msgid ""
 "Don't install files that are marked as documentation (which includes man "
 "pages and texinfo documents)"
-msgstr ""
+msgstr "ドキュメントとしてマークされたファイルをインストールしません (man ページや "
+"Texinfo ドキュメントを含む)"
 
 #: main.cpp:340
 msgid "exclude packages by name or glob"
-msgstr ""
+msgstr "名前または glob でパッケージを除外します"
 
 #: main.cpp:359
 msgid ""
 "Enable additional repositories. List option. Supports globs, can be "
 "specified multiple times."
-msgstr ""
+msgstr "追加リポジトリを有効にします。リストで。glob は複数回指定可能。"
 
 #: main.cpp:377
 msgid ""
 "Disable repositories. List option. Supports globs, can be specified multiple "
 "times."
-msgstr ""
+msgstr "追加リポジトリを無効にします。リストで。glob は複数回指定可能。"
 
 #: main.cpp:395
 msgid ""
 "Enable just specific repositories. List option. Supports globs, can be "
 "specified multiple times."
-msgstr ""
+msgstr "指定リポジトリを有効にします。リストで。glob は複数回指定可能。"
 
 #: main.cpp:417
 msgid "disable gpg signature checking (if RPM policy allows)"
-msgstr ""
+msgstr "GPG 署名の確認を無効にします (RPM ポリシーが許可する場合)"
 
 #: main.cpp:433
 msgid "Disable all libdnf5 plugins"
-msgstr ""
+msgstr "libdnf5 プラグインをすべて無効にします"
 
 #: main.cpp:443
 msgid ""
 "Enable libdnf5 plugins by name. List option. Supports globs, can be "
 "specified multiple times."
-msgstr ""
+msgstr "libdnf5 プラグインを有効にします。リストで。glob は複数回指定可能。"
 
 #: main.cpp:458
 msgid ""
 "Disable libdnf5 plugins by name. List option. Supports globs, can be "
 "specified multiple times."
-msgstr ""
+msgstr "libdnf5 プラグインを無効にします。リストで。glob は複数回指定可能。"
 
 #: main.cpp:475
 msgid "add a comment to transaction"
@@ -1130,98 +1130,103 @@ msgstr ""
 msgid ""
 "Adds a comment to the action. If a transaction takes place, the comment is "
 "stored in it."
-msgstr ""
+msgstr "アクションにコメントを追加します。トランザクションが実行される場合、コメント"
+"はそれに保存されます。"
 
 #: main.cpp:490
 msgid "set install root"
-msgstr ""
+msgstr "インストール root を設定します"
 
 #: main.cpp:497
 msgid ""
 "use configuration, reposdir, and vars from the host system rather than the "
 "installroot"
-msgstr ""
+msgstr "インストール root ではなく、ホスト システムからの設定、リポジトリ "
+"ディレクトリ、変数を利用します"
 
 #: main.cpp:506
 msgid "override the value of $releasever in config and repo files"
-msgstr ""
+msgstr "設定ファイルと repo ファイルの $releasever の値をオーバーライドします"
 
 #: main.cpp:519
 msgid ""
 "Show newly installed leaf packages and packages that became leaves after a "
 "transaction."
-msgstr ""
+msgstr "新しくインストールされたリーフ "
+"パッケージおよびトランザクション後にリーフになったパッケージを表示します。"
 
 #: main.cpp:533
 msgid "Dump detailed solving results into files"
-msgstr ""
+msgstr "詳細な解決結果をファイルにダンプします"
 
 #: main.cpp:542
 msgid "Print main configuration values to stdout"
-msgstr ""
+msgstr "メイン設定の値を stdout に出力します"
 
 #: main.cpp:559
 msgid ""
 "Print repository configuration values to stdout. List option. Supports globs"
-msgstr ""
+msgstr "リポジトリ設定を stdout に出力します。リストで。glob 利用可能"
 
 #: main.cpp:574
 msgid "Print variable values to stdout"
-msgstr ""
+msgstr "変数値を stdout に出力します"
 
 #: main.cpp:588
 msgid "Show DNF5 version and exit"
-msgstr ""
+msgstr "DNF5 のバージョンを表示して終了します"
 
 #: main.cpp:595
 msgid "Force the use of a different architecture."
-msgstr ""
+msgstr "強制的に別のアーキテクチャを利用します。"
 
 #: main.cpp:633
 msgid "Software Management Commands:"
-msgstr ""
+msgstr "ソフトウェア管理コマンド:"
 
 #: main.cpp:640
 msgid "Query Commands:"
-msgstr ""
+msgstr "クエリ コマンド:"
 
 #: main.cpp:647
 msgid "Subcommands:"
-msgstr ""
+msgstr "サブコマンド:"
 
 #: main.cpp:744
 msgid "{} version {}.{}.{}.{}"
-msgstr ""
+msgstr "{} バージョン {}.{}.{}.{}"
 
 #: main.cpp:747
 msgid "{} plugin API version {}.{}"
-msgstr ""
+msgstr "{} プラグイン API バージョン {}.{}"
 
 #: main.cpp:752
 msgid "libdnf5 version {}.{}.{}.{}"
-msgstr ""
+msgstr "libdnf5 バージョン {}.{}.{}.{}"
 
 #: main.cpp:755
 msgid "libdnf5 plugin API version {}.{}"
-msgstr ""
+msgstr "libdnf5 プラグイン API バージョン {}.{}"
 
 #: main.cpp:762
 msgid ""
 "\n"
 "Loaded {} plugins:"
 msgstr ""
+"\n"
+"読み込まれた {} プラグイン:"
 
 #: main.cpp:767
 msgid "  name: {}"
-msgstr ""
+msgstr "  名前: {}"
 
 #: main.cpp:770
 msgid "  version: {}.{}.{}"
-msgstr ""
+msgstr "  バージョン: {}.{}.{}"
 
 #: main.cpp:772
 msgid "  API version: {}.{}"
-msgstr ""
+msgstr "  API バージョン: {}.{}"
 
 #: main.cpp:810
 msgid ""
