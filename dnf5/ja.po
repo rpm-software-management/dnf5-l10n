@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-02 03:04+0000\n"
-"PO-Revision-Date: 2024-11-02 04:58+0000\n"
+"PO-Revision-Date: 2024-11-02 06:42+0000\n"
 "Last-Translator: Inci sakura <incisakura@icloud.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ja/>\n"
@@ -89,7 +89,7 @@ msgstr "PACKAGE_NAME,..."
 
 #: commands/advisory/arguments.hpp:90
 msgid "List of patterns matched against advisory names."
-msgstr "勧告名での一覧。"
+msgstr "勧告名に一致するパターン。"
 
 #: commands/advisory/arguments.hpp:100
 msgid "Show only advisories referencing a bugzilla."
@@ -253,7 +253,7 @@ msgstr "インストール済みの環境のみを表示します。"
 
 #: commands/environment/arguments.hpp:47
 msgid "Pattern matching environment IDs."
-msgstr "環境 ID での一覧。"
+msgstr "環境 ID に一致するパターン。"
 
 #: commands/environment/environment.cpp:35
 msgid "Manage comps environments"
@@ -279,7 +279,7 @@ msgstr "指定名前のパッケージに含むグループのみを表示。一
 
 #: commands/group/arguments.hpp:67
 msgid "Pattern matching group IDS."
-msgstr "グループ ID での一覧。"
+msgstr "グループ ID に一致するパターン。"
 
 #: commands/group/arguments.hpp:76
 msgid "Include optional packages from group."
@@ -441,87 +441,93 @@ msgstr "パッケージがインストールされた理由を変更"
 
 #: commands/module/arguments.hpp:36
 msgid "Show enabled modules."
-msgstr ""
+msgstr "有効化済みモジュールを表示します。"
 
 #: commands/module/arguments.hpp:43
 msgid "Show disabled modules."
-msgstr ""
+msgstr "無効化済みモジュールを表示します。"
 
 #: commands/module/arguments.hpp:50
 msgid "Pattern matching module NSVCAs."
-msgstr ""
+msgstr "モジュール NSVCA に一致するパターン。"
 
 #: commands/module/module.cpp:43
 msgid "Manage modules"
-msgstr ""
+msgstr "モジュールを管理"
 
 #: commands/module/module_list.cpp:85
 msgid "No matches found for \"{}\"."
-msgstr ""
+msgstr "\"{}\" に一致する結果を見つかりませんでした。"
 
 #: commands/offline/offline.cpp:190
 msgid "Manage offline transactions"
-msgstr ""
+msgstr "オフライン トランザクションを管理"
 
 #: commands/offline/offline.cpp:222
 msgid ""
 "Error reading state: {}. Rerun the command you used to initiate the offline "
 "transaction, e.g. `dnf5 system-upgrade download [OPTIONS]`."
 msgstr ""
+"状態の読み取り中にエラーが発生しました: {}。オフライン "
+"トランザクション開始に使用されたコマンドを再実行してください。例: `dnf5 "
+"system-upgrade download [OPTIONS]`。"
 
 #: commands/offline/offline.cpp:245
 msgid "Couldn't connect to D-Bus: {}"
-msgstr ""
+msgstr "D-Bus に接続できませんでした: {}"
 
 #: commands/offline/offline.cpp:274
 msgid ""
 "Prepare the system to perform the offline transaction and reboot to start "
 "the transaction."
-msgstr ""
+msgstr "オフライン トランザクションを実行するためにシステムを準備し、再起動してトラン"
+"ザクションを実行します。"
 
 #: commands/offline/offline.cpp:281
 msgid "Power off the system after the operation is complete"
-msgstr ""
+msgstr "操作完了後にシステムの電源をオフにます"
 
 #: commands/offline/offline.cpp:292
 msgid "No offline transaction is stored."
-msgstr ""
+msgstr "保存されたオフライン トランザクションがありません。"
 
 #: commands/offline/offline.cpp:300
 msgid "System is not ready for offline transaction."
-msgstr ""
+msgstr "システムはまだオフライン トランザクションの準備をできていません。"
 
 #: commands/offline/offline.cpp:303
 msgid "Data directory {} does not exist."
-msgstr ""
+msgstr "データ ディレクトリ {} が存在しません。"
 
 #: commands/offline/offline.cpp:327
 msgid "{} is not wanted by system-update.target."
-msgstr ""
+msgstr "{} は system-update.target に要求されていません。"
 
 #: commands/offline/offline.cpp:336
 msgid "The system will now reboot to upgrade to release version "
-msgstr ""
+msgstr "システムはリリース バージョンのアップグレードのため再起動します "
 
 #: commands/offline/offline.cpp:340
 msgid ""
 "The system will now reboot to perform the offline transaction initiated by "
 "the following command:"
-msgstr ""
+msgstr "システムは、以下のコマンドによって開始されたオフライン "
+"トランザクションを実行するために再起動します:"
 
 #: commands/offline/offline.cpp:371
 msgid ""
 "Internal use only, not intended to be run by the user. Execute the "
 "transaction in the offline environment."
-msgstr ""
+msgstr "内部用、ユーザーが実行することを考慮していません。オフライン環境でトランザク"
+"ションを実行します。"
 
 #: commands/offline/offline.cpp:398
 msgid "Trigger file does not exist. Exiting."
-msgstr ""
+msgstr "トリガー ファイルが存在しません。終了します。"
 
 #: commands/offline/offline.cpp:402
 msgid "Another offline transaction tool is running. Exiting."
-msgstr ""
+msgstr "別のオフライン トランザクション ツールが実行中です。終了します。"
 
 #: commands/offline/offline.cpp:437
 msgid ""
