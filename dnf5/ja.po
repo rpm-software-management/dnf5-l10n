@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-31 03:15+0000\n"
+"POT-Creation-Date: 2024-11-02 03:04+0000\n"
 "PO-Revision-Date: 2024-11-01 19:15+0000\n"
 "Last-Translator: Inci sakura <incisakura@icloud.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf5/"
@@ -60,8 +60,9 @@ msgstr "インストール済みパッケージの任意バージョンに含む
 msgid ""
 "Show advisories containing newer versions of installed packages. This is the "
 "default behavior."
-msgstr "インストール済みパッケージの新バージョンに含む勧告を表示。 "
-"これは既定の動作です。"
+msgstr ""
+"インストール済みパッケージの新バージョンに含む勧告を表示。 これは既定の動作で"
+"す。"
 
 #: commands/advisory/arguments.hpp:57
 msgid ""
@@ -72,7 +73,8 @@ msgstr "インストール済みパッケージの以前のバージョンに含
 msgid ""
 "Show advisories containing newer versions of installed packages for which a "
 "newer version is available."
-msgstr "新バージョンが利用可能なインストール済みパッケージの新バージョンに含む勧告を"
+msgstr ""
+"新バージョンが利用可能なインストール済みパッケージの新バージョンに含む勧告を"
 "表示。"
 
 #: commands/advisory/arguments.hpp:82
@@ -126,8 +128,8 @@ msgid ""
 "Limit to packages in advisories with specified severity. List option. Can be "
 "\"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgstr ""
-"指定重大度の勧告のあるパッケージのみ。\"critical\"(深刻), \"important\"(重要)"
-", \"moderate\"(一般), \"low\"(低い), \"none\"(なし)は指定可能。"
+"指定重大度の勧告のあるパッケージのみ。\"critical\"(深刻), \"important\"(重"
+"要), \"moderate\"(一般), \"low\"(低い), \"none\"(なし)は指定可能。"
 
 #: commands/advisory_shared.hpp:155
 msgid "ADVISORY_SEVERITY,..."
@@ -137,7 +139,8 @@ msgstr "ADVISORY_SEVERITY,..."
 msgid ""
 "Limit to packages in advisories that fix a Bugzilla ID, Eg. 123123. List "
 "option."
-msgstr "指定 Bugzilla ID (例: 123123) を修正する勧告のあるパッケージのみ。一覧で。"
+msgstr ""
+"指定 Bugzilla ID (例: 123123) を修正する勧告のあるパッケージのみ。一覧で。"
 
 #: commands/advisory_shared.hpp:168
 msgid "BUGZILLA_ID,..."
@@ -147,8 +150,9 @@ msgstr "BUGZILLA_ID,..."
 msgid ""
 "Limit to packages in advisories that fix a CVE (Common Vulnerabilities and "
 "Exposures) ID, Eg. CVE-2201-0123. List option."
-msgstr "指定 CVE (共通脆弱性識別子) ID (例: CVE-2201-0123) "
-"を修正する勧告のみ。一覧で。"
+msgstr ""
+"指定 CVE (共通脆弱性識別子) ID (例: CVE-2201-0123) を修正する勧告のみ。一覧"
+"で。"
 
 #: commands/advisory_shared.hpp:180
 msgid "CVE_ID,..."
@@ -192,11 +196,13 @@ msgstr "不明なキャッシュタイプ \"{0}\"。サポートするタイプ:
 
 #: commands/clean/clean.cpp:165
 msgid "Failed to cleanup repository cache in path \"{0}\": {1}"
-msgstr "パス \"{0}\" のリポジトリ キャッシュのクリーンアップに失敗しました: {1}"
+msgstr ""
+"パス \"{0}\" のリポジトリ キャッシュのクリーンアップに失敗しました: {1}"
 
 #: commands/clean/clean.cpp:175
 msgid "Cache directory \"{}\" does not exist. Nothing to clean."
-msgstr "キャッシュ ディレクトリ \"{}\" は存在しません。クリーンするものはありません。"
+msgstr ""
+"キャッシュ ディレクトリ \"{}\" は存在しません。クリーンするものはありません。"
 
 #: commands/clean/clean.cpp:180
 msgid "Cannot iterate cache directory \"{}\": {}"
@@ -209,7 +215,8 @@ msgstr "debuginfo パッケージをインストール。"
 #: commands/distro-sync/distro-sync.cpp:42
 msgid ""
 "Upgrade or downgrade installed software to the latest available versions"
-msgstr "インストール済みソフトウェアを最新の利用可能なバージョンにアップグレードまた"
+msgstr ""
+"インストール済みソフトウェアを最新の利用可能なバージョンにアップグレードまた"
 "はダウングレード"
 
 #: commands/downgrade/downgrade.cpp:40
@@ -218,8 +225,9 @@ msgstr "ソフトウェアをダウングレード"
 
 #: commands/download/download.cpp:105
 msgid "When running with --url, prints URLs from all available mirrors"
-msgstr "--url オプションを使用して実行すると、利用可能なすべてのミラーからの URL "
-"を表示します"
+msgstr ""
+"--url オプションを使用して実行すると、利用可能なすべてのミラーからの URL を表"
+"示します"
 
 #: commands/download/download.cpp:121
 msgid "Invalid urlprotocol option: {}"
@@ -232,7 +240,8 @@ msgstr "サポートされてないアーキテクチャ \"{0}\"。 {1} から�
 #. TODO(jrohel): Add support for requiring an argument by another argument in ArgumentParser?
 #: commands/download/download.cpp:183
 msgid "Option \"--alldeps\" should be used with \"--resolve\""
-msgstr "オプション \"--alldeps\" は \"--resolve\" と一緒に使用する必要があります"
+msgstr ""
+"オプション \"--alldeps\" は \"--resolve\" と一緒に使用する必要があります"
 
 #: commands/environment/arguments.hpp:33
 msgid "Show only available environments."
@@ -294,14 +303,15 @@ msgid ""
 "as errors. This can result in an empty transaction because among other "
 "things the option can ignore failing Remove actions."
 msgstr ""
-"インストール済みパッケージと保存済みトランザクションのパッケージ不一致をエラ"
-"ーとして扱わないようにします。これにより、失敗した削除アクションを無視するこ"
-"とがあるため、空のトランザクションになる可能性があります。"
+"インストール済みパッケージと保存済みトランザクションのパッケージ不一致をエ"
+"ラーとして扱わないようにします。これにより、失敗した削除アクションを無視する"
+"ことがあるため、空のトランザクションになる可能性があります。"
 
 #: commands/history/arguments.hpp:67
 msgid "Don't consider extra packages pulled into the transaction as errors."
-msgstr "トランザクションに入れられた追加パッケージをエラーとして扱わないようにします"
-"。"
+msgstr ""
+"トランザクションに入れられた追加パッケージをエラーとして扱わないようにしま"
+"す。"
 
 #: commands/history/history.cpp:41
 msgid "Manage transaction history"
@@ -311,7 +321,8 @@ msgstr "トランザクション履歴を管理"
 #: commands/history/history_rollback.cpp:57
 #: commands/history/history_store.cpp:65 commands/history/history_undo.cpp:56
 msgid "No matching transaction ID found, exactly one required."
-msgstr "一致するトランザクション ID を見つかりませんでした。正確な一つが必要です。"
+msgstr ""
+"一致するトランザクション ID を見つかりませんでした。正確な一つが必要です。"
 
 #: commands/history/history_redo.cpp:57
 #: commands/history/history_rollback.cpp:61
@@ -321,7 +332,8 @@ msgstr "複数のトランザクション ID と一致しました。正確な�
 
 #: commands/history/history_store.cpp:68
 msgid "Multiple transactions selected for storing, only one allowed."
-msgstr "複数のトランザクションを保存のために選択しました。許されるのは一つだけです。"
+msgstr ""
+"複数のトランザクションを保存のために選択しました。許されるのは一つだけです。"
 
 #: commands/history/history_store.cpp:80
 msgid "File \"{}\" already exists, it will be overwritten.\n"
@@ -800,11 +812,11 @@ msgstr ""
 msgid "Testing offline transaction"
 msgstr ""
 
-#: context.cpp:342 context.cpp:499
+#: context.cpp:342 context.cpp:497
 msgid "Transaction failed: {}"
 msgstr ""
 
-#: context.cpp:347 context.cpp:504
+#: context.cpp:347 context.cpp:502
 msgid "  - {}"
 msgstr ""
 
@@ -826,78 +838,78 @@ msgid ""
 "one."
 msgstr ""
 
-#: context.cpp:464
+#: context.cpp:463
 msgid ""
 "Transaction stored to be performed offline. Run `dnf5 offline reboot` to "
 "reboot and run the transaction. To cancel the transaction and delete the "
 "downloaded files, use `dnf5 offline clean`."
 msgstr ""
 
-#: context.cpp:470
+#: context.cpp:469
 msgid "Running transaction"
 msgstr ""
 
-#: context.cpp:788
+#: context.cpp:786
 msgid "Upgrading {}"
 msgstr ""
 
-#: context.cpp:791
+#: context.cpp:789
 msgid "Downgrading {}"
 msgstr ""
 
-#: context.cpp:794
+#: context.cpp:792
 msgid "Reinstalling {}"
 msgstr ""
 
-#: context.cpp:807
+#: context.cpp:805
 msgid "Unexpected action in TransactionPackage: {}"
 msgstr ""
 
-#: context.cpp:813
+#: context.cpp:811
 msgid "Installing {}"
 msgstr ""
 
-#: context.cpp:834
+#: context.cpp:832
 msgid "Prepare transaction"
 msgstr ""
 
-#: context.cpp:854
+#: context.cpp:852
 msgid "Removing {}"
 msgstr ""
 
-#: context.cpp:857
+#: context.cpp:855
 msgid "Cleanup {}"
 msgstr ""
 
-#: context.cpp:875
+#: context.cpp:873
 msgid "Unpack error: {}"
 msgstr ""
 
-#: context.cpp:883
+#: context.cpp:881
 msgid "Cpio error: {}"
 msgstr ""
 
-#: context.cpp:893
+#: context.cpp:891
 msgid "Scriptlet output:"
 msgstr ""
 
-#: context.cpp:915
+#: context.cpp:913
 msgid "Running {} scriptlet: {}"
 msgstr ""
 
-#: context.cpp:930
+#: context.cpp:928
 msgid "Finished {} scriptlet: {}"
 msgstr ""
 
-#: context.cpp:936
+#: context.cpp:934
 msgid "Non-critical error in {} scriptlet: {}"
 msgstr ""
 
-#: context.cpp:945
+#: context.cpp:943
 msgid "Error in {} scriptlet: {}"
 msgstr ""
 
-#: context.cpp:975
+#: context.cpp:973
 msgid "Verify package files"
 msgstr ""
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-31 03:15+0000\n"
+"POT-Creation-Date: 2024-11-02 03:04+0000\n"
 "PO-Revision-Date: 2024-10-19 11:38+0000\n"
 "Last-Translator: Paweł Marciniak <sunwire+fas@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -876,11 +876,11 @@ msgstr "Załadowano repozytoria."
 msgid "Testing offline transaction"
 msgstr "Testowanie transakcji offline"
 
-#: context.cpp:342 context.cpp:499
+#: context.cpp:342 context.cpp:497
 msgid "Transaction failed: {}"
 msgstr "Transakcja nie powiodła się: {}"
 
-#: context.cpp:347 context.cpp:504
+#: context.cpp:347 context.cpp:502
 msgid "  - {}"
 msgstr "  - {}"
 
@@ -907,7 +907,7 @@ msgstr ""
 "Kontynuowanie spowoduje anulowanie starej transakcji offline i zastąpienie "
 "jej tą."
 
-#: context.cpp:464
+#: context.cpp:463
 msgid ""
 "Transaction stored to be performed offline. Run `dnf5 offline reboot` to "
 "reboot and run the transaction. To cancel the transaction and delete the "
@@ -917,71 +917,71 @@ msgstr ""
 "reboot`, aby ponownie uruchomić i uruchomić transakcję. Aby anulować "
 "transakcję i usunąć pobrane pliki, użyj `dnf5 offline clean`."
 
-#: context.cpp:470
+#: context.cpp:469
 msgid "Running transaction"
 msgstr "Wykonywanie transakcji"
 
-#: context.cpp:788
+#: context.cpp:786
 msgid "Upgrading {}"
 msgstr "Aktualizuję {}"
 
-#: context.cpp:791
+#: context.cpp:789
 msgid "Downgrading {}"
 msgstr "Obniżanie wersji {}"
 
-#: context.cpp:794
+#: context.cpp:792
 msgid "Reinstalling {}"
 msgstr "Ponowna instalacja {}"
 
-#: context.cpp:807
+#: context.cpp:805
 msgid "Unexpected action in TransactionPackage: {}"
 msgstr "Nieoczekiwana akcja w TransactionPackage: {}"
 
-#: context.cpp:813
+#: context.cpp:811
 msgid "Installing {}"
 msgstr "Instalowanie {}"
 
-#: context.cpp:834
+#: context.cpp:832
 msgid "Prepare transaction"
 msgstr "Przygotuj transakcję"
 
-#: context.cpp:854
+#: context.cpp:852
 msgid "Removing {}"
 msgstr "Usuwanie {}"
 
-#: context.cpp:857
+#: context.cpp:855
 msgid "Cleanup {}"
 msgstr "Czyszczenie {}"
 
-#: context.cpp:875
+#: context.cpp:873
 msgid "Unpack error: {}"
 msgstr "Błąd rozpakowywania: {}"
 
-#: context.cpp:883
+#: context.cpp:881
 msgid "Cpio error: {}"
 msgstr "Błąd cpio: {}"
 
-#: context.cpp:893
+#: context.cpp:891
 msgid "Scriptlet output:"
 msgstr "Dane wyjściowe scriptletu:"
 
-#: context.cpp:915
+#: context.cpp:913
 msgid "Running {} scriptlet: {}"
 msgstr "Uruchamianie scriptletu {}: {}"
 
-#: context.cpp:930
+#: context.cpp:928
 msgid "Finished {} scriptlet: {}"
 msgstr "Zakończono {} scriptlet: {}"
 
-#: context.cpp:936
+#: context.cpp:934
 msgid "Non-critical error in {} scriptlet: {}"
 msgstr "Błąd niekrytyczny w scriptlecie {}: {}"
 
-#: context.cpp:945
+#: context.cpp:943
 msgid "Error in {} scriptlet: {}"
 msgstr "Błąd w scriptlecie {}: {}"
 
-#: context.cpp:975
+#: context.cpp:973
 msgid "Verify package files"
 msgstr "Zweryfikuj pliki pakietu"
 

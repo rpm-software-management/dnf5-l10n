@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-31 03:15+0000\n"
+"POT-Creation-Date: 2024-11-02 03:04+0000\n"
 "PO-Revision-Date: 2024-10-11 04:38+0000\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -879,11 +879,11 @@ msgstr "Depozite încărcate."
 msgid "Testing offline transaction"
 msgstr "Se testează tranzacția fără conexiune"
 
-#: context.cpp:342 context.cpp:499
+#: context.cpp:342 context.cpp:497
 msgid "Transaction failed: {}"
 msgstr "Tranzacția a eșuat: {}"
 
-#: context.cpp:347 context.cpp:504
+#: context.cpp:347 context.cpp:502
 msgid "  - {}"
 msgstr "  - {}"
 
@@ -910,7 +910,7 @@ msgstr ""
 "Continuarea va anula vechea tranzacție fără conexiune la rețea și o va "
 "înlocui cu aceasta."
 
-#: context.cpp:464
+#: context.cpp:463
 msgid ""
 "Transaction stored to be performed offline. Run `dnf5 offline reboot` to "
 "reboot and run the transaction. To cancel the transaction and delete the "
@@ -920,71 +920,71 @@ msgstr ""
 "offline reboot» pentru a reporni și a executa tranzacția. Pentru a anula "
 "tranzacția și a șterge fișierele descărcate, utilizați «dnf5 offline clean»."
 
-#: context.cpp:470
+#: context.cpp:469
 msgid "Running transaction"
 msgstr "Tranzacție în derulare"
 
-#: context.cpp:788
+#: context.cpp:786
 msgid "Upgrading {}"
 msgstr "Se actualizează {}"
 
-#: context.cpp:791
+#: context.cpp:789
 msgid "Downgrading {}"
 msgstr "Se retrogradează {}"
 
-#: context.cpp:794
+#: context.cpp:792
 msgid "Reinstalling {}"
 msgstr "Se reinstalează {}"
 
-#: context.cpp:807
+#: context.cpp:805
 msgid "Unexpected action in TransactionPackage: {}"
 msgstr "Acțiune neașteptată în TransactionPackage: {}"
 
-#: context.cpp:813
+#: context.cpp:811
 msgid "Installing {}"
 msgstr "Se instalează {}"
 
-#: context.cpp:834
+#: context.cpp:832
 msgid "Prepare transaction"
 msgstr "Pregătirea tranzacției"
 
-#: context.cpp:854
+#: context.cpp:852
 msgid "Removing {}"
 msgstr "Se elimină {}"
 
-#: context.cpp:857
+#: context.cpp:855
 msgid "Cleanup {}"
 msgstr "Curățare {}"
 
-#: context.cpp:875
+#: context.cpp:873
 msgid "Unpack error: {}"
 msgstr "Eroare la despachetare: {}"
 
-#: context.cpp:883
+#: context.cpp:881
 msgid "Cpio error: {}"
 msgstr "Eroare cpio: {}"
 
-#: context.cpp:893
+#: context.cpp:891
 msgid "Scriptlet output:"
 msgstr "Ieșire scriptlet:"
 
-#: context.cpp:915
+#: context.cpp:913
 msgid "Running {} scriptlet: {}"
 msgstr "Se execută scriptul {}: {}"
 
-#: context.cpp:930
+#: context.cpp:928
 msgid "Finished {} scriptlet: {}"
 msgstr "Scriptlet finalizat {}: {}"
 
-#: context.cpp:936
+#: context.cpp:934
 msgid "Non-critical error in {} scriptlet: {}"
 msgstr "Eroare necritică în scriptul {}: {}"
 
-#: context.cpp:945
+#: context.cpp:943
 msgid "Error in {} scriptlet: {}"
 msgstr "Eroare în scriptlet-ul {}: {}"
 
-#: context.cpp:975
+#: context.cpp:973
 msgid "Verify package files"
 msgstr "Verifică fișierele pachetului"
 
