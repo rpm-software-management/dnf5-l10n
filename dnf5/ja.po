@@ -9,9 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-02 03:04+0000\n"
-"PO-Revision-Date: 2024-11-02 23:28+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2024-11-03 12:29+0000\n"
+"Last-Translator: Inci sakura <incisakura@icloud.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ja/>\n"
 "Language: ja\n"
@@ -82,7 +81,7 @@ msgstr ""
 msgid ""
 "Show only advisories containing packages with specified names. List option, "
 "supports globs."
-msgstr "指定名前のパッケージに含む勧告のみを表示。一覧で、glob 利用可能。"
+msgstr "指定名前のパッケージに含む勧告のみを表示。リスト、glob 利用可能。"
 
 #: commands/advisory/arguments.hpp:83
 msgid "PACKAGE_NAME,..."
@@ -90,7 +89,7 @@ msgstr "PACKAGE_NAME,..."
 
 #: commands/advisory/arguments.hpp:90
 msgid "List of patterns matched against advisory names."
-msgstr "勧告名に一致するパターン。"
+msgstr "勧告名に一致するパターン リスト。"
 
 #: commands/advisory/arguments.hpp:100
 msgid "Show only advisories referencing a bugzilla."
@@ -102,7 +101,7 @@ msgstr "CVE に関連する勧告のみを表示。"
 
 #: commands/advisory_shared.hpp:113
 msgid "Limit to packages in advisories with specified name. List option."
-msgstr "指定名前のパッケージの勧告のみ。一覧で。"
+msgstr "指定名前のパッケージの勧告のみ。リスト。"
 
 #: commands/advisory_shared.hpp:114
 msgid "ADVISORY_NAME,..."
@@ -129,8 +128,8 @@ msgid ""
 "Limit to packages in advisories with specified severity. List option. Can be "
 "\"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgstr ""
-"指定重大度の勧告のあるパッケージのみ。\"critical\"(深刻), \"important\"(重"
-"要), \"moderate\"(一般), \"low\"(低い), \"none\"(なし)は指定可能。"
+"指定重大度の勧告のあるパッケージのみ。リスト。\"critical\"(深刻), \"important"
+"\"(重要), \"moderate\"(一般), \"low\"(低い), \"none\"(なし)は指定可能。"
 
 #: commands/advisory_shared.hpp:155
 msgid "ADVISORY_SEVERITY,..."
@@ -140,8 +139,7 @@ msgstr "ADVISORY_SEVERITY,..."
 msgid ""
 "Limit to packages in advisories that fix a Bugzilla ID, Eg. 123123. List "
 "option."
-msgstr ""
-"指定 Bugzilla ID (例: 123123) を修正する勧告のあるパッケージのみ。一覧で。"
+msgstr "指定 Bugzilla ID (例: 123123) を修正する勧告のあるパッケージのみ。リスト。"
 
 #: commands/advisory_shared.hpp:168
 msgid "BUGZILLA_ID,..."
@@ -151,9 +149,8 @@ msgstr "BUGZILLA_ID,..."
 msgid ""
 "Limit to packages in advisories that fix a CVE (Common Vulnerabilities and "
 "Exposures) ID, Eg. CVE-2201-0123. List option."
-msgstr ""
-"指定 CVE (共通脆弱性識別子) ID (例: CVE-2201-0123) を修正する勧告のみ。一覧"
-"で。"
+msgstr "指定 CVE (共通脆弱性識別子) ID (例: CVE-2201-0123) "
+"を修正する勧告のみ。リスト。"
 
 #: commands/advisory_shared.hpp:180
 msgid "CVE_ID,..."
@@ -176,8 +173,8 @@ msgid ""
 msgstr ""
 "bugfix、enhancement、security、または newpackage の勧告を修正するパッケージの"
 "最低バージョンを報告します。勧告を制限するオプションが使用されている場合、選"
-"択された勧告の属性に一致する助言を修正するパッケージの最低バージョンを報告し"
-"ます。"
+"択された勧告の属性に一致する勧告を修正するパッケージの最低バージョンを報告し"
+"ます"
 
 #: commands/check/check.cpp:247
 msgid "Check for problems in the packagedb"
@@ -276,7 +273,7 @@ msgstr "インストール済みのグループのみを表示します。"
 msgid ""
 "Show only groups containing packages with specified names. List option, "
 "supports globs."
-msgstr "指定名前のパッケージに含むグループのみを表示。一覧で、glob 利用可能。"
+msgstr "指定名前のパッケージに含むグループのみを表示。リスト、glob 利用可能。"
 
 #: commands/group/arguments.hpp:67
 msgid "Pattern matching group IDS."
@@ -333,8 +330,7 @@ msgstr "複数のトランザクション ID と一致しました。正確な�
 
 #: commands/history/history_store.cpp:68
 msgid "Multiple transactions selected for storing, only one allowed."
-msgstr ""
-"複数のトランザクションを保存のために選択しました。許されるのは一つだけです。"
+msgstr "複数のトランザクションが選択されましたが、保存できるのは一つだけです。"
 
 #: commands/history/history_store.cpp:80
 msgid "File \"{}\" already exists, it will be overwritten.\n"
@@ -382,8 +378,8 @@ msgstr "利用可能なパッケージを表示します。"
 msgid ""
 "List extras, that is packages installed on the system that are not available "
 "in any known repository."
-msgstr "既知のリポジトリに存在しない、システムにインストールされている追加のパッケー"
-"ジの表示します。"
+msgstr "既知のリポジトリに存在しない、システムにインストールされている追加パッケージ"
+"の表示します。"
 
 #: commands/list/list.cpp:84
 msgid ""
@@ -737,7 +733,7 @@ msgstr "'versionlock {}' コマンドで {} に追加されました"
 
 #: commands/versionlock/versionlock.cpp:40
 msgid "Manage versionlock configuration"
-msgstr "versionlock 構成を管理"
+msgstr "versionlock 設定を管理"
 
 #: commands/versionlock/versionlock_add.cpp:37
 msgid "Add new entry to versionlock configuration"
@@ -982,7 +978,7 @@ msgstr "ヘルプを表示します"
 
 #: main.cpp:146
 msgid "Configuration file location"
-msgstr "構成ファイルの場所"
+msgstr "設定ファイルの場所"
 
 #: main.cpp:154
 msgid ""
@@ -1089,23 +1085,23 @@ msgstr "名前または glob でパッケージを除外します"
 msgid ""
 "Enable additional repositories. List option. Supports globs, can be "
 "specified multiple times."
-msgstr "追加リポジトリを有効にします。リストで。glob は複数回指定可能。"
+msgstr "追加リポジトリを有効にします。リスト、glob は複数回指定可能。"
 
 #: main.cpp:377
 msgid ""
 "Disable repositories. List option. Supports globs, can be specified multiple "
 "times."
-msgstr "追加リポジトリを無効にします。リストで。glob は複数回指定可能。"
+msgstr "追加リポジトリを無効にします。リスト、glob は複数回指定可能。"
 
 #: main.cpp:395
 msgid ""
 "Enable just specific repositories. List option. Supports globs, can be "
 "specified multiple times."
-msgstr "指定リポジトリを有効にします。リストで。glob は複数回指定可能。"
+msgstr "指定リポジトリを有効にします。リスト、glob は複数回指定可能。"
 
 #: main.cpp:417
 msgid "disable gpg signature checking (if RPM policy allows)"
-msgstr "GPG 署名の確認を無効にします (RPM ポリシーが許可する場合)"
+msgstr "GPG 署名の確認を無効にします (RPM ポリシーが許容する場合)"
 
 #: main.cpp:433
 msgid "Disable all libdnf5 plugins"
@@ -1115,13 +1111,13 @@ msgstr "libdnf5 プラグインをすべて無効にします"
 msgid ""
 "Enable libdnf5 plugins by name. List option. Supports globs, can be "
 "specified multiple times."
-msgstr "libdnf5 プラグインを有効にします。リストで。glob は複数回指定可能。"
+msgstr "libdnf5 プラグインを有効にします。リスト、glob は複数回指定可能。"
 
 #: main.cpp:458
 msgid ""
 "Disable libdnf5 plugins by name. List option. Supports globs, can be "
 "specified multiple times."
-msgstr "libdnf5 プラグインを無効にします。リストで。glob は複数回指定可能。"
+msgstr "libdnf5 プラグインを無効にします。リスト、glob は複数回指定可能。"
 
 #: main.cpp:475
 msgid "add a comment to transaction"
@@ -1142,7 +1138,7 @@ msgstr "インストール root を設定します"
 msgid ""
 "use configuration, reposdir, and vars from the host system rather than the "
 "installroot"
-msgstr "インストール root ではなく、ホスト システムからの設定、リポジトリ "
+msgstr "installroot ではなく、ホスト システムからの設定、リポジトリ "
 "ディレクトリ、変数を利用します"
 
 #: main.cpp:506
@@ -1167,7 +1163,7 @@ msgstr "メイン設定の値を stdout に出力します"
 #: main.cpp:559
 msgid ""
 "Print repository configuration values to stdout. List option. Supports globs"
-msgstr "リポジトリ設定を stdout に出力します。リストで。glob 利用可能"
+msgstr "リポジトリ設定を stdout に出力します。リスト、glob 利用可能"
 
 #: main.cpp:574
 msgid "Print variable values to stdout"
@@ -1232,51 +1228,54 @@ msgstr "  API バージョン: {}.{}"
 #: main.cpp:810
 msgid ""
 "Total size of inbound packages is {:.0f} {:s}. Need to download {:.0f} {:s}."
-msgstr ""
+msgstr "受信するパッケージの合計サイズ {:.0f} {:s} 。"
+"ダウンロードする必要があるサイズ {:.0f} {:s} 。"
 
 #: main.cpp:828
 msgid ""
 "After this operation, {:.0f} {:s} extra will be used (install {:.0f} {:s}, "
 "remove {:.0f} {:s})."
-msgstr ""
+msgstr "操作完了後、{:.0f} {:s} が追加で使用されます（インストール {:.0f} {:s}、削除 "
+"{:.0f} {:s}）。"
 
 #: main.cpp:837
 msgid ""
 "After this operation, {:.0f} {:s} will be freed (install {:.0f} {:s}, remove "
 "{:.0f} {:s})."
-msgstr ""
+msgstr "操作完了後、 {:.0f} {:s} が解放されます（インストール {:.0f} {:s}、削除 {:."
+"0f} {:s}）。"
 
 #: main.cpp:849
 msgid "======== Main configuration: ========"
-msgstr ""
+msgstr "======== メイン設定: ========"
 
 #: main.cpp:886
 msgid "No matching repo to dump configuration: \"{}\""
-msgstr ""
+msgstr "設定をダンプするために一致するリポジトリがありません: \"{}\""
 
 #: main.cpp:891
 msgid "======== \"{}\" repository configuration: ========"
-msgstr ""
+msgstr "======== \"{}\" リポジトリ設定: ========"
 
 #: main.cpp:911
 msgid "======== Variables: ========"
-msgstr ""
+msgstr "======== 変数: ========"
 
 #: main.cpp:951
 msgid "New leaves:"
-msgstr ""
+msgstr "新規リーフ:"
 
 #: main.cpp:953
 msgid " {}"
-msgstr ""
+msgstr " {}"
 
 #: main.cpp:997
 msgid "{} to skip unavailable packages"
-msgstr ""
+msgstr "{} で利用できないパッケージをスキップします"
 
 #: main.cpp:1005
 msgid "{} to allow extra packages in the transaction"
-msgstr ""
+msgstr "{} でトランザクション内での追加パッケージを許可します"
 
 #: main.cpp:1018
 msgid ""
@@ -1284,60 +1283,67 @@ msgid ""
 "This can result in an empty transaction because among other things the "
 "option can ignore failing Remove actions."
 msgstr ""
+"{} でインストール済みパッケージと保存トランザクション内のパッケージの不一致を"
+"許可します。これにより、失敗した削除アクションを無視することがあるため、空の"
+"トランザクションになる可能性があります。"
 
 #: main.cpp:1065
 msgid "{} to not limit the transaction to the best candidates"
-msgstr ""
+msgstr "{} でトランザクションを最適候補に制限しないようにします"
 
 #: main.cpp:1072
 msgid "{} to allow removing of installed packages to resolve problems"
-msgstr ""
+msgstr "{} で問題解決のためにインストール済みパッケージの削除を許可します"
 
 #: main.cpp:1080
 msgid "{} to load additional filelists metadata"
-msgstr ""
+msgstr "{} で追加ファイル リスト メタデータを読み込みます"
 
 #: main.cpp:1087
 msgid "{} to skip uninstallable packages"
-msgstr ""
+msgstr "{} でアンインストールできないパッケージをスキップします"
 
 #: main.cpp:1093
 msgid "You can try to add to command line:"
-msgstr ""
+msgstr "コマンド ラインに追加してみてください:"
 
 #: main.cpp:1111
 msgid ""
 "No matches were found for the following plugin name patterns while enabling "
 "libdnf plugins: {}"
-msgstr ""
+msgstr "libdnf プラグインを有効にする際、次のプラグイン名パターンに一致するものを見つ"
+"かりませんでした: {}"
 
 #: main.cpp:1112
 msgid ""
 "No matches were found for the following plugin name patterns while disabling "
 "libdnf plugins: {}"
-msgstr ""
+msgstr "libdnf プラグインを無効にする際、次のプラグイン名パターンに一致するものを見つ"
+"かりませんでした: {}"
 
 #: main.cpp:1208
 msgid "--- DNF5 launched with arguments: \"{}\" ---"
-msgstr ""
+msgstr "--- DNF5 起動引数: \"{}\" ---"
 
 #: main.cpp:1259
 msgid "{}."
-msgstr ""
+msgstr "{}。"
 
 #: main.cpp:1262 main.cpp:1445
 msgid "{}. Add \"--help\" for more information about the arguments."
-msgstr ""
+msgstr "{}。 引数に関する詳細を表示するには \"--help\" を追加してください。"
 
 #: main.cpp:1269
 msgid ""
 "It could be a command provided by a plugin, try: dnf5 install 'dnf5-"
 "command({})'"
 msgstr ""
+"これはプラグインによって提供されるコマンドの可能性があります。次を試してくだ"
+"さい: dnf5 install 'dnf5-command({})'"
 
 #: main.cpp:1311
 msgid "No read/execute access in current directory, moving to /"
-msgstr ""
+msgstr "現在のディレクトリに読み取り/実行権限がないため、/ に移動します"
 
 #: main.cpp:1368
 msgid ""
@@ -1345,48 +1351,56 @@ msgid ""
 "user with elevated rights, or use the \"--assumeno\" or \"--downloadonly\" "
 "options to run the command without modifying the system state."
 msgstr ""
+"要求された操作にはスーパー "
+"ユーザー権限が必要です。権限のあるユーザーでログインするか、"
+"システム状態を変更せずにコマンドを実行するには \"--assumeno\" または \"--"
+"downloadonly\" オプションを使用してください。"
 
 #: main.cpp:1409
 msgid "The operation will only store the transaction in {}"
-msgstr ""
+msgstr "この操作では、トランザクションを {} への保存のみがされます"
 
 #: main.cpp:1411
 msgid "The operation will only download packages for the transaction."
-msgstr ""
+msgstr "この操作では、トランザクションのためのパッケージのダウンロードのみがされます"
+"。"
 
 #: main.cpp:1416
 msgid ""
 "Test mode enabled: Only package downloads, PGP key installations and "
 "transaction checks will be performed."
-msgstr ""
+msgstr "テスト モードが有効です: パッケージのダウンロード、PGP "
+"キーのインストール、およびトランザクションのチェックのみが行われます。"
 
 #: main.cpp:1433
 msgid ""
 "No repositories were loaded from the installroot. To use the configuration "
 "and repositories of the host system, pass --use-host-config."
 msgstr ""
+"installroot からリポジトリを読み込みませんでした。ホスト "
+"システムの設定とリポジトリを利用するには、--use-host-config "
+"を渡してください。"
 
 #: main.cpp:1455
 msgid "Command returned error: {}"
-msgstr ""
+msgstr "コマンドがエラーを返しました: {}"
 
 #: main.cpp:1463
 msgid "DNF5 finished"
-msgstr ""
+msgstr "DNF5 が終了しました"
 
 #: main.cpp:1467
 msgid "Complete!"
-msgstr ""
+msgstr "完了しました！"
 
 #: shared_options.cpp:32
 msgid "Allow removing of installed packages to resolve problems"
-msgstr ""
+msgstr "問題解決のためにインストール済みパッケージの削除を許可します"
 
 #: shared_options.cpp:42
 msgid "Allow resolving of depsolve problems by skipping packages"
-msgstr ""
+msgstr "依存問題解決のためにパッケージのスキップを許容します"
 
 #: shared_options.cpp:54
-#, fuzzy
 msgid "Allow skipping unavailable packages"
-msgstr "利用できないパッケージのスキップを許容"
+msgstr "利用できないパッケージのスキップを許容します"
