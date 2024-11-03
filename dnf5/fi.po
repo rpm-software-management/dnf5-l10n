@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-02 03:04+0000\n"
-"PO-Revision-Date: 2024-11-02 17:14+0000\n"
+"PO-Revision-Date: 2024-11-04 06:51+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/fi/>\n"
@@ -830,11 +830,11 @@ msgstr "Ei yhtään vastaavaa pakettia lueteltavaksi"
 
 #: context.cpp:322
 msgid "Updating and loading repositories:"
-msgstr ""
+msgstr "Päivitetään ja ladataan tietovarastot:"
 
 #: context.cpp:332
 msgid "Repositories loaded."
-msgstr ""
+msgstr "Tietovarastot ladattu."
 
 #: context.cpp:338
 msgid "Testing offline transaction"
@@ -876,14 +876,12 @@ msgid ""
 msgstr ""
 
 #: context.cpp:469
-#, fuzzy
-#| msgid "Transaction ID"
 msgid "Running transaction"
-msgstr "Tapahtumatunnus"
+msgstr "Suoritetaan transaktio"
 
 #: context.cpp:786
 msgid "Upgrading {}"
-msgstr ""
+msgstr "Päivitetään {}"
 
 #: context.cpp:789
 msgid "Downgrading {}"
@@ -902,10 +900,8 @@ msgid "Installing {}"
 msgstr "Asennetaan {}"
 
 #: context.cpp:832
-#, fuzzy
-#| msgid "Transaction ID"
 msgid "Prepare transaction"
-msgstr "Tapahtumatunnus"
+msgstr "Valmistele transaktio"
 
 #: context.cpp:852
 msgid "Removing {}"
@@ -945,7 +941,7 @@ msgstr ""
 
 #: context.cpp:973
 msgid "Verify package files"
-msgstr ""
+msgstr "Vahvista pakettitiedostot"
 
 #: library.cpp:33
 msgid "Cannot load shared library \"{}\": {}"
@@ -1220,18 +1216,23 @@ msgstr "  API-versio: {}.{}"
 msgid ""
 "Total size of inbound packages is {:.0f} {:s}. Need to download {:.0f} {:s}."
 msgstr ""
+"Saapuvien pakettien koko yhteensä on {:.0f} {:s}. Ladattavaa on {:.0f} {:s}."
 
 #: main.cpp:828
 msgid ""
 "After this operation, {:.0f} {:s} extra will be used (install {:.0f} {:s}, "
 "remove {:.0f} {:s})."
 msgstr ""
+"Tämän toimenpiteen jälkeen tilaa käytetään {:.0f} {:s} enemmän (asenna {:.0f}"
+" {:s}, poista {:.0f} {:s})."
 
 #: main.cpp:837
 msgid ""
 "After this operation, {:.0f} {:s} will be freed (install {:.0f} {:s}, remove "
 "{:.0f} {:s})."
 msgstr ""
+"Tämän toimenpiteen jälkeen tilaa vapautuu {:.0f} {:s} (asenna {:.0f} {:s}, "
+"poista {:.0f} {:s})."
 
 #: main.cpp:849
 msgid "======== Main configuration: ========"
