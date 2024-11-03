@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-02 03:04+0000\n"
-"PO-Revision-Date: 2024-11-02 18:39+0000\n"
+"PO-Revision-Date: 2024-11-03 14:01+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5-cli/fi/>\n"
@@ -26,7 +26,7 @@ msgstr ""
 #: argument_parser.cpp:64
 #, c++-format
 msgid "\"{}\" not allowed in command \"{}\""
-msgstr ""
+msgstr "\"{}\" ei ole sallittu komennossa \"{}\""
 
 #: argument_parser.cpp:66
 #, c++-format
@@ -115,7 +115,7 @@ msgstr ""
 #: argument_parser.cpp:1103 argument_parser.cpp:1307
 #, c++-format
 msgid "Unknown argument \"{}\" for command \"{}\""
-msgstr ""
+msgstr "Tuntematon argumentti \"{}\" komennolle \"{}\""
 
 #: argument_parser.cpp:1118 argument_parser.cpp:1322
 #, c++-format
@@ -134,7 +134,7 @@ msgstr ""
 
 #: exception.cpp:30
 msgid "Operation aborted by the user."
-msgstr ""
+msgstr "Toimenpide peruttu käyttäjän toimesta."
 
 #: exception.cpp:33
 msgid "Failed to resolve the transaction"
@@ -221,63 +221,63 @@ msgstr "Toimittaja"
 
 #: output/transaction_table.cpp:127
 msgid "Transaction Summary:\n"
-msgstr ""
+msgstr "Transaktion yhteenveto:\n"
 
 #: output/transaction_table.cpp:131
 #, c++-format
 msgid " Installing:      {:4} package\n"
 msgid_plural " Installing:      {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " Asennetaan:      {:4} paketti\n"
+msgstr[1] " Asennetaan:      {:4} pakettia\n"
 
 #: output/transaction_table.cpp:138
 #, c++-format
 msgid " Reinstalling:    {:4} package\n"
 msgid_plural " Reinstalling:    {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " Asennetaan uudelleen:    {:4} paketti\n"
+msgstr[1] " Asennetaan uudelleen:    {:4} pakettia\n"
 
 #: output/transaction_table.cpp:145
 #, c++-format
 msgid " Upgrading:       {:4} package\n"
 msgid_plural " Upgrading:       {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " Päivitetään:       {:4} paketti\n"
+msgstr[1] " Päivitetään:       {:4} pakettia\n"
 
 #: output/transaction_table.cpp:152
 #, c++-format
 msgid " Replacing:       {:4} package\n"
 msgid_plural " Replacing:       {:4} package\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " Korvataan:       {:4} paketti\n"
+msgstr[1] " Korvataan:       {:4} pakettia\n"
 
 #: output/transaction_table.cpp:159
 #, c++-format
 msgid " Removing:        {:4} package\n"
 msgid_plural " Removing:        {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " Poistetaan:        {:4} paketti\n"
+msgstr[1] " Poistetaan:        {:4} pakettia\n"
 
 #: output/transaction_table.cpp:166
 #, c++-format
 msgid " Downgrading:     {:4} package\n"
 msgid_plural " Downgrading:     {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " Varhennetaan:     {:4} paketti\n"
+msgstr[1] " Varhennetaan:     {:4} pakettia\n"
 
 #: output/transaction_table.cpp:173
 #, c++-format
 msgid " Changing reason: {:4} package\n"
 msgid_plural " Changing reason: {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " Vaihdetaan syy: {:4} paketti\n"
+msgstr[1] " Vaihdetaan syy: {:4} pakettia\n"
 
 #: output/transaction_table.cpp:181
 #, c++-format
 msgid " Skipping:        {:4} package\n"
 msgid_plural " Skipping:        {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " Ohitetaan:        {:4} paketti\n"
+msgstr[1] " Ohitetaan:        {:4} pakettia\n"
 
 #: output/transaction_table.cpp:262
 msgid "Package"
@@ -351,7 +351,7 @@ msgstr ""
 
 #: output/transaction_table.cpp:540
 msgid "Removing unused dependencies:"
-msgstr ""
+msgstr "Poistetaan käyttämättömiä riippuvuuksia:"
 
 #: output/transaction_table.cpp:542
 msgid "Removing:"
