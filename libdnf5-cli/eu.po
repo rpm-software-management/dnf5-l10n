@@ -7,14 +7,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-02 03:04+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-11-04 16:00+0000\n"
+"Last-Translator: Asier Sarasua Garmendia <asier.sarasua@gmail.com>\n"
+"Language-Team: Basque <https://translate.fedoraproject.org/projects/dnf5/"
+"libdnf5-cli/eu/>\n"
 "Language: eu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.8.2\n"
 
 #: argument_parser.cpp:62
 #, c++-format
@@ -64,11 +66,11 @@ msgstr ""
 #. print usage
 #: argument_parser.cpp:657
 msgid "Usage:"
-msgstr ""
+msgstr "Erabilera:"
 
 #: argument_parser.cpp:665
 msgid "Description:"
-msgstr ""
+msgstr "Deskribapena:"
 
 #: argument_parser.cpp:915
 #, c++-format
@@ -132,11 +134,11 @@ msgstr ""
 
 #: exception.cpp:30
 msgid "Operation aborted by the user."
-msgstr ""
+msgstr "Erabiltzaileak eragiketa abortatu du."
 
 #: exception.cpp:33
 msgid "Failed to resolve the transaction"
-msgstr ""
+msgstr "Transakzioaren ebazpenak huts egin du"
 
 #: output/moduleinfo.cpp:36
 msgid "Hint: [d]efault, [e]nabled, [x]disabled, [i]nstalled, [a]ctive"
@@ -149,13 +151,14 @@ msgstr ""
 #. Note for translators: This is a right-aligned column separator in
 #. a package properties table as in "Name    : bash".
 #: output/packageinfo.cpp:57
+#, fuzzy
 msgid " : "
-msgstr ""
+msgstr " : "
 
 #. Add package
 #: output/packageinfo.cpp:63
 msgid "Name"
-msgstr ""
+msgstr "Izena"
 
 #: output/packageinfo.cpp:68
 msgid "Epoch"
@@ -163,70 +166,70 @@ msgstr ""
 
 #: output/packageinfo.cpp:69 output/transaction_table.cpp:274
 msgid "Version"
-msgstr ""
+msgstr "Bertsioa"
 
 #: output/packageinfo.cpp:70
 msgid "Release"
-msgstr ""
+msgstr "Argitalpena"
 
 #: output/packageinfo.cpp:71
 msgid "Architecture"
-msgstr ""
+msgstr "Arkitektura"
 
 #: output/packageinfo.cpp:75
 msgid "Obsoletes"
-msgstr ""
+msgstr "Zaharkituak"
 
 #: output/packageinfo.cpp:85
 msgid "Download size"
-msgstr ""
+msgstr "Deskargaren tamaina"
 
 #: output/packageinfo.cpp:89
 msgid "Installed size"
-msgstr ""
+msgstr "Instalatutako tamaina"
 
 #: output/packageinfo.cpp:91
 msgid "Source"
-msgstr ""
+msgstr "Iturburua"
 
 #: output/packageinfo.cpp:94
 msgid "From repository"
-msgstr ""
+msgstr "Biltegitik"
 
 #: output/packageinfo.cpp:96 output/transaction_table.cpp:280
 msgid "Repository"
-msgstr ""
+msgstr "Biltegia"
 
 #: output/packageinfo.cpp:98
 msgid "Summary"
-msgstr ""
+msgstr "Laburpena"
 
 #: output/packageinfo.cpp:99
 msgid "URL"
-msgstr ""
+msgstr "URLa"
 
 #: output/packageinfo.cpp:100
 msgid "License"
-msgstr ""
+msgstr "Lizentzia"
 
 #: output/packageinfo.cpp:104
 msgid "Description"
-msgstr ""
+msgstr "Deskribapena"
 
 #: output/packageinfo.cpp:109
 msgid "Vendor"
-msgstr ""
+msgstr "Hornitzailea"
 
 #: output/transaction_table.cpp:127
 msgid "Transaction Summary:\n"
-msgstr ""
+msgstr "Transakzioaren laburpena:\n"
 
 #: output/transaction_table.cpp:131
 #, c++-format
 msgid " Installing:      {:4} package\n"
 msgid_plural " Installing:      {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " Instalatzen:      Pakete {:4}\n"
+msgstr[1] " Instalatzen:      {:4} pakete\n"
 
 #: output/transaction_table.cpp:138
 #, c++-format
@@ -279,25 +282,25 @@ msgstr[1] ""
 
 #: output/transaction_table.cpp:262
 msgid "Package"
-msgstr ""
+msgstr "Paketea"
 
 #: output/transaction_table.cpp:268
 msgid "Arch"
-msgstr ""
+msgstr "Ark."
 
 #: output/transaction_table.cpp:286
 msgid "Size"
-msgstr ""
+msgstr "Tam."
 
 #: output/transaction_table.cpp:342 output/transaction_table.cpp:436
-#, c++-format
+#, c++-format, fuzzy
 msgid "{} -> {}"
-msgstr ""
+msgstr "{} -> {}"
 
 #: output/transaction_table.cpp:358
 #, c++-format
 msgid "replacing {}"
-msgstr ""
+msgstr "{} ordezten"
 
 #: output/transaction_table.cpp:394 output/transaction_table.cpp:411
 msgid " <name-unset>"
@@ -309,104 +312,104 @@ msgstr ""
 
 #: output/transaction_table.cpp:455
 msgid "Skipping packages with conflicts:"
-msgstr ""
+msgstr "Gatazkak dituzten paketeak saltatzen:"
 
 #: output/transaction_table.cpp:457
 msgid "Skipping packages with broken dependencies:"
-msgstr ""
+msgstr "Mendekotasun hautsiak dituzten paketeak saltatzen:"
 
 #: output/transaction_table.cpp:518
 msgid "Installing dependencies:"
-msgstr ""
+msgstr "Mendekotasunak instalatzen:"
 
 #: output/transaction_table.cpp:520
 msgid "Installing weak dependencies:"
-msgstr ""
+msgstr "Mendekotasun ahulak instalatzen:"
 
 #: output/transaction_table.cpp:522
 msgid "Installing group/module packages:"
-msgstr ""
+msgstr "Talde/modulu paketeak instalatzen:"
 
 #: output/transaction_table.cpp:524
 msgid "Installing:"
-msgstr ""
+msgstr "Instalatzen:"
 
 #: output/transaction_table.cpp:528
 msgid "Upgrading:"
-msgstr ""
+msgstr "Bertsio-berritzen:"
 
 #: output/transaction_table.cpp:531
 msgid "Downgrading:"
-msgstr ""
+msgstr "Zaharragoa instalatzen:"
 
 #: output/transaction_table.cpp:534
 msgid "Reinstalling:"
-msgstr ""
+msgstr "Berrinstalatzen:"
 
 #: output/transaction_table.cpp:538
 msgid "Removing dependent packages:"
-msgstr ""
+msgstr "Mendeko paketeak kentzen:"
 
 #: output/transaction_table.cpp:540
 msgid "Removing unused dependencies:"
-msgstr ""
+msgstr "Erabili gabeko mendekotasunak kentzen:"
 
 #: output/transaction_table.cpp:542
 msgid "Removing:"
-msgstr ""
+msgstr "Kentzen:"
 
 #: output/transaction_table.cpp:546
 msgid "Changing reason:"
-msgstr ""
+msgstr "Arrazoia aldatzen:"
 
 #: output/transaction_table.cpp:578
 msgid "Installing groups dependencies:"
-msgstr ""
+msgstr "Talde-mendekotasunak instalatzen:"
 
 #: output/transaction_table.cpp:580
 msgid "Installing groups:"
-msgstr ""
+msgstr "Taldeak instalatzen:"
 
 #: output/transaction_table.cpp:584
 msgid "Removing groups:"
-msgstr ""
+msgstr "Taldeak kentzen:"
 
 #: output/transaction_table.cpp:587
 msgid "Upgrading groups:"
-msgstr ""
+msgstr "Taldeak bertsio-berritzen:"
 
 #: output/transaction_table.cpp:614
 msgid "Installing environmental groups:"
-msgstr ""
+msgstr "Ingurune-taldeak instalatzen:"
 
 #: output/transaction_table.cpp:617
 msgid "Removing environmental groups:"
-msgstr ""
+msgstr "Ingurune-taldeak kentzen:"
 
 #: output/transaction_table.cpp:620
 msgid "Upgrading environmental groups:"
-msgstr ""
+msgstr "Ingurune-taldeak bertsio-berritzen:"
 
 #: output/transaction_table.cpp:647
 msgid "Enabling module streams:"
-msgstr ""
+msgstr "Modulu-korronteak gaitzen:"
 
 #: output/transaction_table.cpp:650
 msgid "Disabling modules:"
-msgstr ""
+msgstr "Moduluak desgaitzen:"
 
 #: output/transaction_table.cpp:653
 msgid "Resetting modules:"
-msgstr ""
+msgstr "Moduluak berrezartzen:"
 
 #: output/transaction_table.cpp:656
 msgid "Switching module streams:"
-msgstr ""
+msgstr "Modulu-korronteak trukatzen:"
 
 #: output/transaction_table.cpp:730
 msgid "Nothing to do."
-msgstr ""
+msgstr "Ez dago egiteko ezer."
 
 #: session.cpp:149
 msgid "Missing command"
-msgstr ""
+msgstr "Komandoa falta da"
