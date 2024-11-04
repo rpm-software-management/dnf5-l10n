@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-02 03:04+0000\n"
-"PO-Revision-Date: 2024-11-04 15:34+0000\n"
+"PO-Revision-Date: 2024-11-04 15:50+0000\n"
 "Last-Translator: Asier Sarasua Garmendia <asier.sarasua@gmail.com>\n"
 "Language-Team: Basque <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/eu/>\n"
@@ -20,15 +20,15 @@ msgstr ""
 
 #: commands/advisory/advisory.cpp:36
 msgid "Manage advisories"
-msgstr ""
+msgstr "Kudeatu aholkuak"
 
 #: commands/advisory/advisory_info.hpp:33
 msgid "Print details about advisories"
-msgstr ""
+msgstr "Inprimatu aholkuen xehetasunak"
 
 #: commands/advisory/advisory_list.hpp:35
 msgid "List advisories"
-msgstr ""
+msgstr "Zerrendatu aholkuak"
 
 #: commands/advisory/advisory_summary.cpp:44
 msgid "All"
@@ -48,22 +48,26 @@ msgstr "Eskuragarri"
 
 #: commands/advisory/advisory_summary.hpp:33
 msgid "Print summary of advisories"
-msgstr ""
+msgstr "Inprimatu aholkuen laburpena"
 
 #: commands/advisory/arguments.hpp:34
 msgid "Show advisories containing any version of installed packages."
-msgstr ""
+msgstr "Erakutsi instalatutako paketeen edozein bersio dituzten aholkuak."
 
 #: commands/advisory/arguments.hpp:45
 msgid ""
 "Show advisories containing newer versions of installed packages. This is the "
 "default behavior."
 msgstr ""
+"Erakutsi instalatutako paketeen bertsio berriak dituzten aholkuak. Hau da "
+"portaera lehenetsia."
 
 #: commands/advisory/arguments.hpp:57
 msgid ""
 "Show advisories containing equal and older versions of installed packages."
 msgstr ""
+"Erakutsi instalatutako paketeen bertsio berdinak edo zaharragoak dituzten "
+"aholkuak."
 
 #: commands/advisory/arguments.hpp:69
 msgid ""
@@ -208,21 +212,23 @@ msgstr ""
 
 #: commands/downgrade/downgrade.cpp:40
 msgid "Downgrade software"
-msgstr ""
+msgstr "Instalatu softwarearen bertsio zaharra"
 
 #: commands/download/download.cpp:105
 msgid "When running with --url, prints URLs from all available mirrors"
 msgstr ""
+"Exekutatzen bada --url erabiliz, eskuragarri dauden ispilu guztien URLak "
+"inprimatzen ditu"
 
 #: commands/download/download.cpp:121
 #, c++-format
 msgid "Invalid urlprotocol option: {}"
-msgstr ""
+msgstr "urlprotocol aukera baliogabea: {}"
 
 #: commands/download/download.cpp:148 main.cpp:614
 #, c++-format
 msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
-msgstr ""
+msgstr "Onartzen ez den \"{0}\" arkitektura. Aukeratu bat hemen: {1}"
 
 #. TODO(jrohel): Add support for requiring an argument by another argument in ArgumentParser?
 #: commands/download/download.cpp:183
@@ -231,11 +237,11 @@ msgstr ""
 
 #: commands/environment/arguments.hpp:33
 msgid "Show only available environments."
-msgstr ""
+msgstr "Erakutsi eskuragarri dauden inguruneak soilik."
 
 #: commands/environment/arguments.hpp:40
 msgid "Show only installed environments."
-msgstr ""
+msgstr "Erakutsi instalatuta dauden inguruneak soilik."
 
 #: commands/environment/arguments.hpp:47
 msgid "Pattern matching environment IDs."
@@ -247,15 +253,15 @@ msgstr ""
 
 #: commands/group/arguments.hpp:34
 msgid "Show only available groups."
-msgstr ""
+msgstr "Erakutsi eskuragarri dauden taldeak soilik"
 
 #: commands/group/arguments.hpp:41
 msgid "Show also hidden groups."
-msgstr ""
+msgstr "Erakutsi ezkutuko taldeak ere bai."
 
 #: commands/group/arguments.hpp:48
 msgid "Show only installed groups."
-msgstr ""
+msgstr "Erakutsi instalatutako taldeak soilik."
 
 #: commands/group/arguments.hpp:59
 msgid ""
@@ -277,11 +283,11 @@ msgstr ""
 
 #: commands/history/arguments.hpp:37
 msgid "Transaction ID"
-msgstr ""
+msgstr "Transakzioaren IDa"
 
 #: commands/history/arguments.hpp:44
 msgid "Reverse the order of transactions."
-msgstr ""
+msgstr "Alderantzikatu transakzioen ordena."
 
 #: commands/history/arguments.hpp:54
 msgid ""
@@ -328,16 +334,18 @@ msgstr ""
 
 #: commands/install/install.cpp:41
 msgid "Install software"
-msgstr ""
+msgstr "Instalatu softwarea"
 
 #: commands/leaves/leaves.cpp:42
 msgid ""
 "List groups of installed packages not required by other installed packages"
 msgstr ""
+"Zerrendatu instalatutako beste pakete batzuek behar ez dituzten pakete "
+"instalatuen taldeak"
 
 #: commands/list/list.cpp:44
 msgid "Lists packages depending on the packages' relation to the system"
-msgstr ""
+msgstr "Paketeak sistemarekin duen erlazioaren arabera zerrendatzen ditu"
 
 #: commands/list/list.cpp:47
 msgid "List of keys to match case insensitively"
@@ -381,31 +389,31 @@ msgstr ""
 
 #: commands/list/list.cpp:194 commands/list/list.cpp:199
 msgid "Installed packages"
-msgstr ""
+msgstr "Instalatutako paketeak"
 
 #: commands/list/list.cpp:195 commands/list/list.cpp:208
 msgid "Available packages"
-msgstr ""
+msgstr "Eskuragarri dauden paketeak"
 
 #: commands/list/list.cpp:216
 msgid "Available upgrades"
-msgstr ""
+msgstr "Eskuragarri dauden bertsio-berritzeak"
 
 #: commands/list/list.cpp:232
 msgid "Obsoleting packages"
-msgstr ""
+msgstr "Zaharkituta dauden paketeak"
 
 #: commands/list/list.cpp:237
 msgid "Autoremove packages"
-msgstr ""
+msgstr "Kendu paketeak automatikoki"
 
 #: commands/list/list.cpp:241
 msgid "Extra packages"
-msgstr ""
+msgstr "Pakete gehigarriak"
 
 #: commands/list/list.cpp:252
 msgid "Recently added packages"
-msgstr ""
+msgstr "Berriki gehitutako paketeak"
 
 #: commands/list/list.cpp:257
 msgid "No matching packages to list"
@@ -417,11 +425,11 @@ msgstr ""
 
 #: commands/module/arguments.hpp:36
 msgid "Show enabled modules."
-msgstr ""
+msgstr "Erakutsi gaitutako moduluak."
 
 #: commands/module/arguments.hpp:43
 msgid "Show disabled modules."
-msgstr ""
+msgstr "Erakutsi desgaitutako moduluak."
 
 #: commands/module/arguments.hpp:50
 msgid "Pattern matching module NSVCAs."
@@ -517,12 +525,12 @@ msgstr ""
 
 #: commands/offline/offline.cpp:497
 msgid "Transaction failed: "
-msgstr ""
+msgstr "Transakzioak huts egin du: "
 
 #: commands/offline/offline.cpp:566
 #, c++-format
 msgid "Error reading journal: {}"
-msgstr ""
+msgstr "Errorea egunkaria irakurtzean: {}"
 
 #: commands/offline/offline.cpp:572
 #, c++-format
@@ -589,11 +597,11 @@ msgstr ""
 
 #: commands/reinstall/reinstall.cpp:40
 msgid "Reinstall software"
-msgstr ""
+msgstr "Berrinstalatu softwarea"
 
 #: commands/remove/remove.cpp:40
 msgid "Remove (uninstall) software"
-msgstr ""
+msgstr "Kendu (desinstalatu) softwarea"
 
 #: commands/replay/replay.cpp:38
 msgid "Replay a transaction that was previously stored to a directory"
@@ -601,15 +609,15 @@ msgstr ""
 
 #: commands/repo/arguments.hpp:35
 msgid "Show all repositories."
-msgstr ""
+msgstr "Erakutsi biltegi guztiak."
 
 #: commands/repo/arguments.hpp:42
 msgid "Show enabled repositories (default)."
-msgstr ""
+msgstr "Erakutsi gaitutako biltegiak (lehenetsia)."
 
 #: commands/repo/arguments.hpp:49
 msgid "Show disabled repositories."
-msgstr ""
+msgstr "Erakutsi desgaitutako biltegiak."
 
 #: commands/repo/arguments.hpp:56
 msgid "Pattern matching repo IDs."
