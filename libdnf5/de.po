@@ -10,9 +10,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-02 03:04+0000\n"
-"PO-Revision-Date: 2024-11-05 14:58+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2024-11-05 21:08+0000\n"
+"Last-Translator: Fabio D <fabio1977@arcor.de>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/de/>\n"
 "Language: de\n"
@@ -148,8 +147,6 @@ msgid "Install debug RPMs"
 msgstr "Installiere debug RPMs"
 
 #: base/goal_elements.cpp:406
-#, fuzzy
-#| msgid "No transaction in progress"
 msgid "Transaction merge"
 msgstr "Zusammenführung von Transaktionen"
 
@@ -375,12 +372,11 @@ msgid "Cannot parse file: '{0}': {1}.\n"
 msgstr "Kann Datei nicht parsen: : '{0}': {1}.\n"
 
 #: base/log_event.cpp:348
-#, fuzzy
 msgid ""
 "Could not find debuginfo package for the following packages resolved from "
 "the argument '{0}': {1}"
 msgstr ""
-"Konnte debuginfo-Paket für folgende Pakete nicht finden, ausgehend vom "
+"Konnte Debuginfo-Paket für folgende Pakete nicht finden, ausgehend vom "
 "Argument '{0}': {1}"
 
 #: base/log_event.cpp:351 base/log_event.cpp:362
@@ -389,18 +385,16 @@ msgid ", "
 msgstr ", "
 
 #: base/log_event.cpp:358
-#, fuzzy
 msgid ""
 "Could not find debugsource package for the following packages resolved from "
 "the argument '{0}': {1}"
 msgstr ""
-"Konnte debug-Quellen Paket für folgende Pakete nicht finden, ausgehend vom "
+"Konnte Debug-Quellen Paket für folgende Pakete nicht finden, ausgehend vom "
 "Argument '{0}': {1}"
 
 #: base/log_event.cpp:365
-#, fuzzy
 msgid "Transaction merge error: '{0}'"
-msgstr "Fehler bei Zusammenführung der Transaktionen: '{0}'"
+msgstr "Fehler beim Zusammenführen der Transaktionen: '{0}'"
 
 #: base/solver_problems.cpp:41
 msgid "{} does not belong to a distupgrade repository"
@@ -689,32 +683,22 @@ msgid ", "
 msgstr ", "
 
 #: base/transaction.cpp:1422
-#, fuzzy
-#| msgid "Warning: skipped PGP checks for {0} packages from repository: {1}"
-#| msgid_plural ""
-#| "Warning: skipped PGP checks for {0} packages from repositories: {1}"
 msgid "Warning: skipped PGP checks for {0} package from repository: {1}"
 msgid_plural ""
 "Warning: skipped PGP checks for {0} packages from repository: {1}"
 msgstr[0] ""
-"Warnung: Übersprungene PGP Prüfungen für {0} Paket(e) aus dem Repository: {1}"
+"Warnung: Übersprungene PGP Prüfungen für {0} Paket aus dem Repository: {1}"
 msgstr[1] ""
-"Warnung: Übersprungene PGP Prüfungen für {0} Paket(e) aus den Repositories: "
-"{1}"
+"Warnung: Übersprungene PGP Prüfungen für {0} Pakete aus dem Repository: {1}"
 
 #: base/transaction.cpp:1425
-#, fuzzy
-#| msgid "Warning: skipped PGP checks for {0} packages from repository: {1}"
-#| msgid_plural ""
-#| "Warning: skipped PGP checks for {0} packages from repositories: {1}"
 msgid "Warning: skipped PGP checks for {0} package from repositories: {1}"
 msgid_plural ""
 "Warning: skipped PGP checks for {0} packages from repositories: {1}"
 msgstr[0] ""
-"Warnung: Übersprungene PGP Prüfungen für {0} Paket(e) aus dem Repository: {1}"
+"Warnung: Übersprungene PGP Prüfungen für {0} Paket aus dem Repositories: {1}"
 msgstr[1] ""
-"Warnung: Übersprungene PGP Prüfungen für {0} Paket(e) aus den Repositories: "
-"{1}"
+"Warnung: Übersprungene PGP Prüfungen für {0} Pakete aus den Repositories: {1}"
 
 #: common/exception.cpp:78
 msgid "System error"
@@ -1383,25 +1367,22 @@ msgid "Invalid transaction item type: {}"
 msgstr "Ungültiger Typ des Transaktionselements: {}"
 
 #: transaction/transaction_merge.cpp:102
-#, fuzzy
 msgid ""
 "Action '{0}' '{1}' cannot be merged after it was '{2}' in preceding "
 "transactions -> setting '{0}'."
 msgstr ""
 "Aktion '{0}' '{1}' kann nicht zusammengeführt werden, nachdem es in vorigen "
-"Transaktionen '{2}' wurde -> Einstellung '{0}'."
+"Transaktionen '{2}' wurde -> Setting '{0}'."
 
 #: transaction/transaction_merge.cpp:116
-#, fuzzy
 msgid ""
 "Action 'Upgrade' '{0}' cannot be merged because it is not present at that "
 "point -> setting 'Install'."
 msgstr ""
-"Aktion 'Upgrade' '{0}' kann nicht zusammengeführt werden, weil es an diesem "
-"Punkt nicht präsent ist -> konfiguriere 'Install'."
+"Aktion 'Upgrade' '{0}' kann nicht zusammengeführt werden, weil sie an diesem "
+"Punkt nicht existiert -> konfiguriere 'Install'."
 
 #: transaction/transaction_merge.cpp:174 transaction/transaction_merge.cpp:231
-#, fuzzy
 msgid ""
 "Action 'Reinstall' '{0}' cannot be merged because it is not present at that "
 "point -> setting 'Install'."
@@ -1410,7 +1391,6 @@ msgstr ""
 "Punkt nicht existiert -> konfiguriere 'Install'."
 
 #: transaction/transaction_merge.cpp:194
-#, fuzzy
 msgid ""
 "Action '{0}' '{1}' cannot be merged after it was '{2}' in preceding "
 "transaction -> setting '{0}'."
@@ -1419,14 +1399,12 @@ msgstr ""
 "vorigen Transaktion '{2}' wurde -> konfiguriere '{0}'."
 
 #: transaction/transaction_merge.cpp:215
-#, fuzzy
 msgid "Unexpected action encountered: '{0}' during transaction merge."
 msgstr ""
 "Unerwartete Aktion aufgetreten: '{0}' bei der Zusammenführung der "
 "Transaktion."
 
 #: transaction/transaction_merge.cpp:224
-#, fuzzy
 msgid ""
 "Action '{0}' '{1}' cannot be merged because it is not present at that point -"
 "> skipping it."
@@ -1435,7 +1413,6 @@ msgstr ""
 "Zeitpunkt nicht existiert -> überspringe."
 
 #: transaction/transaction_merge.cpp:245
-#, fuzzy
 msgid ""
 "Action '{0}' '{1}' cannot be merged because it is not present at that point -"
 "> setting 'INSTALL'."
@@ -1444,7 +1421,6 @@ msgstr ""
 "Zeitpunkt nicht existiert -> konfiguriere 'INSTALL'."
 
 #: transaction/transaction_merge.cpp:266
-#, fuzzy
 msgid ""
 "Action '{0}' '{1}' cannot be merged because it is not present at that point "
 "(present versions are: {2}) -> skipping it."
@@ -1461,7 +1437,6 @@ msgstr ""
 "Zeitpunkt bereits existiert -> überspringe."
 
 #: transaction/transaction_merge.cpp:294
-#, fuzzy
 msgid ""
 "Action '{0}' '{1}' cannot be merged because it is already installed in "
 "version '{2}' -> keeping the action from older transaction with '{1}'."
@@ -1471,7 +1446,6 @@ msgstr ""
 "wird behalten."
 
 #: transaction/transaction_merge.cpp:304
-#, fuzzy
 msgid "Invalid action encountered: '{0}' during transaction merge."
 msgstr ""
 "Ungültige Aktion aufgetreten: '{0}' während der Zusammenführunt der "
@@ -1553,7 +1527,7 @@ msgstr "Fehlender Objekt-Schlüssel \"action\" in einer rpm"
 
 #: transaction/transaction_sr.cpp:220
 msgid "Missing object key \"reason\" in an rpm"
-msgstr "Fehlender Objekt-Schlüssel \"reason\" in einer rpm."
+msgstr "Fehlender Objekt-Schlüssel \"reason\" in einer rpm"
 
 #: transaction/transaction_sr.cpp:227
 msgid ""
