@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-02 03:04+0000\n"
-"PO-Revision-Date: 2024-11-05 14:59+0000\n"
+"PO-Revision-Date: 2024-11-05 21:08+0000\n"
 "Last-Translator: Fabio D <fabio1977@arcor.de>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/de/>\n"
@@ -21,10 +21,8 @@ msgstr ""
 "X-Generator: Weblate 5.8.2\n"
 
 #: commands/advisory/advisory.cpp:36
-#, fuzzy
-#| msgid "List advisories"
 msgid "Manage advisories"
-msgstr "Hinweise auflisten"
+msgstr "Verwalte Adversories"
 
 #: commands/advisory/advisory_info.hpp:33
 msgid "Print details about advisories"
@@ -210,28 +208,23 @@ msgid "Failed to cleanup repository cache in path \"{0}\": {1}"
 msgstr "Bereinigung des Repository-Cache fehlgeschlagen im Pfad \"{0}\": {1}"
 
 #: commands/clean/clean.cpp:175
-#, fuzzy
-#| msgid "Data directory {} does not exist."
 msgid "Cache directory \"{}\" does not exist. Nothing to clean."
-msgstr "Datenverzeichnis {} existiert nicht."
+msgstr "Cache Verzeichnis {} existiert nicht. Nichts zu bereinigen."
 
 #: commands/clean/clean.cpp:180
-#, fuzzy
-#| msgid "Cannot load shared library \"{}\": {}"
 msgid "Cannot iterate cache directory \"{}\": {}"
-msgstr "Shared-Library kann nicht geladen werden \"{}\": {}"
+msgstr "Kann das Cache Verzeichnis \"{}\": {} nicht wieder laden"
 
 #: commands/debuginfo-install/debuginfo-install.cpp:45
 msgid "Install debuginfo packages."
-msgstr "Debuginfo-Pakete installieren"
+msgstr "Debuginfo-Pakete installieren."
 
 #: commands/distro-sync/distro-sync.cpp:42
-#, fuzzy
 msgid ""
 "Upgrade or downgrade installed software to the latest available versions"
 msgstr ""
-"Upgrade oder Downgrade installierte Software auf die letzte verfügbare "
-"Version"
+"Aktualisiere oder downgrade installierte Software auf die letzten verfügbare "
+"Versionen"
 
 #: commands/downgrade/downgrade.cpp:40
 msgid "Downgrade software"
@@ -268,7 +261,7 @@ msgstr "Mustervergleich von Umgebungs-IDs."
 
 #: commands/environment/environment.cpp:35
 msgid "Manage comps environments"
-msgstr ""
+msgstr "Comp-Umgebungen verwalten"
 
 #: commands/group/arguments.hpp:34
 msgid "Show only available groups."
@@ -326,10 +319,8 @@ msgstr ""
 "Betrachten Sie in die Transaktion aufgenommene Zusatzpakete nicht als Fehler."
 
 #: commands/history/history.cpp:41
-#, fuzzy
-#| msgid "Manage offline transactions"
 msgid "Manage transaction history"
-msgstr "Offline-Transaktionen verwalten"
+msgstr "Transaktions-Historie verwalten"
 
 #: commands/history/history_redo.cpp:53
 #: commands/history/history_rollback.cpp:57
@@ -645,10 +636,8 @@ msgid "Find what package provides the given value"
 msgstr "Ein Paket suchen, das den gegebenen Wert bereitstellt"
 
 #: commands/reinstall/reinstall.cpp:40
-#, fuzzy
-#| msgid "set install root"
 msgid "Reinstall software"
-msgstr "Wurzel-Installationsverzeichnis festlegen"
+msgstr "Reinstalliere Software"
 
 #: commands/remove/remove.cpp:40
 msgid "Remove (uninstall) software"
@@ -767,10 +756,8 @@ msgid "Added by 'versionlock {}' command on {}"
 msgstr "Von 'versionlock {}' Kommando zu {} hinzugefügt"
 
 #: commands/versionlock/versionlock.cpp:40
-#, fuzzy
-#| msgid "Add new entry to versionlock configuration"
 msgid "Manage versionlock configuration"
-msgstr "Neuen Eintrag zur Versionlock-Konfiguration hinzufügen"
+msgstr "Versionlock-Konfiguration verwalten"
 
 #: commands/versionlock/versionlock_add.cpp:37
 msgid "Add new entry to versionlock configuration"
@@ -850,8 +837,6 @@ msgid "The key was successfully imported."
 msgstr "Der Schlüssel wurde erfolgreich importiert."
 
 #: context.cpp:262
-#, fuzzy
-#| msgid "setopt: \"{0}\": {1}"
 msgid "setopt: \"{}.{}\": {}"
 msgstr "setopt: \"{}.{}\": {}"
 
@@ -880,10 +865,8 @@ msgid "Repositories loaded."
 msgstr "Paketquellen geladen."
 
 #: context.cpp:338
-#, fuzzy
-#| msgid "Manage offline transactions"
 msgid "Testing offline transaction"
-msgstr "Offline-Transaktionen verwalten"
+msgstr "Offline-Transaktion testen"
 
 #: context.cpp:342 context.cpp:497
 msgid "Transaction failed: {}"
@@ -902,12 +885,12 @@ msgstr ""
 "überschreiben."
 
 #: context.cpp:443
-#, fuzzy
-#| msgid "An offline transaction was initiated by the following command:"
 msgid ""
 "There is already an offline transaction queued, initiated by the following "
 "command:"
-msgstr "Eine Offline-Transaktion wurde durch den folgenden Befehl initiiert:"
+msgstr ""
+"Eine Offline-Transaktion steht bereits an, initialisiert durch folgenden "
+"Befehl:"
 
 #: context.cpp:445
 msgid ""
@@ -953,10 +936,8 @@ msgid "Installing {}"
 msgstr "Installiere {}"
 
 #: context.cpp:832
-#, fuzzy
-#| msgid "Manage offline transactions"
 msgid "Prepare transaction"
-msgstr "Offline-Transaktionen verwalten"
+msgstr "Transaktion vorbereiten"
 
 #: context.cpp:852
 msgid "Removing {}"
@@ -991,10 +972,8 @@ msgid "Non-critical error in {} scriptlet: {}"
 msgstr "Nicht-kritischer Fehler in {} scriptlet: {}"
 
 #: context.cpp:943
-#, fuzzy
-#| msgid "Error reading journal: {}"
 msgid "Error in {} scriptlet: {}"
-msgstr "Fehler beim Lesen des Journals: {}"
+msgstr "Fehler in {} scriptlet: {}"
 
 #: context.cpp:973
 msgid "Verify package files"
@@ -1332,10 +1311,8 @@ msgid "======== Main configuration: ========"
 msgstr "======== Hauptkonfiguration: ========"
 
 #: main.cpp:886
-#, fuzzy
-#| msgid "No matching repositories for \"{}\""
 msgid "No matching repo to dump configuration: \"{}\""
-msgstr "Keine passenden Repositorys für \"{}\""
+msgstr "Kein passender Repo um Konfigurations-Speicherinhalt abzuladen \"{}\""
 
 #: main.cpp:891
 msgid "======== \"{}\" repository configuration: ========"
@@ -1377,11 +1354,8 @@ msgstr ""
 "{}, um die Transaktionen nicht auf die besten Kandidaten zu beschränken"
 
 #: main.cpp:1072
-#, fuzzy
-#| msgid "{} to allow erasing of installed packages to resolve problems"
 msgid "{} to allow removing of installed packages to resolve problems"
-msgstr ""
-"{}, um das Entfernen installierter Pakete zur Problemlösung zu erlauben"
+msgstr "{}, um das Entfernen installierter Pakete zur Problemlösung zu erlauben"
 
 #: main.cpp:1080
 msgid "{} to load additional filelists metadata"
@@ -1461,12 +1435,17 @@ msgid ""
 "Test mode enabled: Only package downloads, PGP key installations and "
 "transaction checks will be performed."
 msgstr ""
+"Test Modus aktiviert: Nur Paket-Downloads, PGP-Schlüssel Installationen und "
+"Transaktions-Überprüfung wird ausgeführt."
 
 #: main.cpp:1433
 msgid ""
 "No repositories were loaded from the installroot. To use the configuration "
 "and repositories of the host system, pass --use-host-config."
 msgstr ""
+"Keine Paketquellen wurden vom Installationsmedium geladen. Um die "
+"Konfiguration und die Paketquellen des Host-Systems zu nutzen fügen Sie "
+"--use-host-config hinzu."
 
 #: main.cpp:1455
 msgid "Command returned error: {}"
@@ -1474,15 +1453,13 @@ msgstr "Befehl hat folgenden Fehler zurückgegeben: {}"
 
 #: main.cpp:1463
 msgid "DNF5 finished"
-msgstr ""
+msgstr "DNF5 ist fertig"
 
 #: main.cpp:1467
 msgid "Complete!"
 msgstr "Abgeschlossen!"
 
 #: shared_options.cpp:32
-#, fuzzy
-#| msgid "Allow erasing of installed packages to resolve problems"
 msgid "Allow removing of installed packages to resolve problems"
 msgstr "Löschen installierter Pakete zur Problemlösung erlauben"
 
