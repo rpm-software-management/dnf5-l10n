@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-02 03:04+0000\n"
-"PO-Revision-Date: 2024-11-05 14:26+0000\n"
+"PO-Revision-Date: 2024-11-05 14:44+0000\n"
 "Last-Translator: Fabio D <fabio1977@arcor.de>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/de/>\n"
@@ -191,7 +191,7 @@ msgstr ""
 
 #: commands/check/check.cpp:247
 msgid "Check for problems in the packagedb"
-msgstr "Prüfe auf Probleme in der packagedb"
+msgstr "Überprüfe auf Probleme in der (Paketdatenbank) packagedb"
 
 #: commands/check/check.cpp:335
 msgid "Check discovered {} problem(s) in {} package(s)"
@@ -362,10 +362,8 @@ msgstr ""
 "erwartet, wobei ID eine \"ZAHL\", \"last\" oder \"last-ZAHL\" ist."
 
 #: commands/install/install.cpp:41
-#, fuzzy
-#| msgid "Installed"
 msgid "Install software"
-msgstr "Installiert"
+msgstr "Installiere Software"
 
 #: commands/leaves/leaves.cpp:42
 msgid ""
@@ -432,10 +430,8 @@ msgid "Available packages"
 msgstr "Verfügbare Pakete"
 
 #: commands/list/list.cpp:216
-#, fuzzy
-#| msgid "Available"
 msgid "Available upgrades"
-msgstr "Verfügbar"
+msgstr "Verfügbare Aktualisierungn"
 
 #: commands/list/list.cpp:232
 msgid "Obsoleting packages"
@@ -682,10 +678,8 @@ msgid "Pattern matching repo IDs."
 msgstr "Mustervergleich von Repository-IDs."
 
 #: commands/repo/repo.cpp:38
-#, fuzzy
-#| msgid "Show all repositories."
 msgid "Manage repositories"
-msgstr "Verwalte Repositories"
+msgstr "Repositories verwalten"
 
 #: commands/repoquery/repoquery.cpp:80
 msgid "Search for packages matching various criteria"
@@ -850,6 +844,8 @@ msgid ""
 " Fingerprint: {}\n"
 " From       : {}\n"
 msgstr ""
+" Fingerprint: {}\n"
+" Von       : {}\n"
 
 #: context.cpp:87
 msgid "The key was successfully imported."
@@ -874,10 +870,8 @@ msgstr ""
 "nutzen, füge die --use-host-config Option hinzu"
 
 #: context.cpp:276
-#, fuzzy
-#| msgid "No matching repositories for \"{}\""
 msgid "No matching repositories for {}"
-msgstr "Keine passenden Repositorys für \"{}\""
+msgstr "Keine passenden Paketquellen für {}"
 
 #: context.cpp:322
 msgid "Updating and loading repositories:"
