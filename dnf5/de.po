@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Dennis Koerner <dennis@bumblebeeman.dev>, 2024.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024.
+# Fabio D <fabio1977@arcor.de>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-02 03:04+0000\n"
-"PO-Revision-Date: 2024-06-23 18:19+0000\n"
-"Last-Translator: Dennis Koerner <dennis@bumblebeeman.dev>\n"
+"PO-Revision-Date: 2024-11-05 14:23+0000\n"
+"Last-Translator: Fabio D <fabio1977@arcor.de>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/de/>\n"
 "Language: de\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.5.5\n"
+"X-Generator: Weblate 5.8.2\n"
 
 #: commands/advisory/advisory.cpp:36
 #, fuzzy
@@ -168,12 +169,12 @@ msgstr "CVE_ID,..."
 #: commands/autoremove/autoremove.cpp:38
 msgid "Remove all unneeded packages originally installed as dependencies."
 msgstr ""
+"Alle unnötigen ursprünglich als Abhängigkeiten installierten Pakete werden "
+"entfernt."
 
 #: commands/check-upgrade/check-upgrade.cpp:47
-#, fuzzy
-#| msgid "List available packages."
 msgid "Check for available package upgrades"
-msgstr "Verfügbare Pakete auflisten."
+msgstr "Auf verfügbare Paket-Aktualisierungen prüfen"
 
 #: commands/check-upgrade/check-upgrade.cpp:54
 msgid ""
@@ -189,10 +190,8 @@ msgstr ""
 "den ausgewählten Hinweiseigenschaften beheben"
 
 #: commands/check/check.cpp:247
-#, fuzzy
-#| msgid "Check discovered {} problem(s) in {} package(s)"
 msgid "Check for problems in the packagedb"
-msgstr "Prüfung stellte {} Problem(e) in {} Paket(en) fest"
+msgstr "Prüfe auf Probleme in der packagedb"
 
 #: commands/check/check.cpp:335
 msgid "Check discovered {} problem(s) in {} package(s)"
@@ -229,17 +228,20 @@ msgid "Install debuginfo packages."
 msgstr "Installierte Pakete auflisten."
 
 #: commands/distro-sync/distro-sync.cpp:42
+#, fuzzy
 msgid ""
 "Upgrade or downgrade installed software to the latest available versions"
 msgstr ""
+"Upgrade oder Downgrade installierte Software auf die letzte verfügbare "
+"Version"
 
 #: commands/downgrade/downgrade.cpp:40
 msgid "Downgrade software"
-msgstr ""
+msgstr "Downgrade Software"
 
 #: commands/download/download.cpp:105
 msgid "When running with --url, prints URLs from all available mirrors"
-msgstr ""
+msgstr "Mit --url starten, um alle URLs aller verfügbarer Mirrors auszugeben"
 
 #: commands/download/download.cpp:121
 msgid "Invalid urlprotocol option: {}"
@@ -366,11 +368,11 @@ msgid "Install software"
 msgstr "Installiert"
 
 #: commands/leaves/leaves.cpp:42
-#, fuzzy
-#| msgid "List upgrades available for the installed packages."
 msgid ""
 "List groups of installed packages not required by other installed packages"
-msgstr "Verfügbare Aktualisierungen für die installierten Pakete auflisten."
+msgstr ""
+"Gruppen installierter Pakete auflisten, die nicht von anderen installierten "
+"Paketen benötigt werden"
 
 #: commands/list/list.cpp:44
 msgid "Lists packages depending on the packages' relation to the system"
@@ -422,16 +424,12 @@ msgstr ""
 "Pakete, die durch das Kommando 'dnf autoremove' entfernt werden, auflisten."
 
 #: commands/list/list.cpp:194 commands/list/list.cpp:199
-#, fuzzy
-#| msgid "List installed packages."
 msgid "Installed packages"
-msgstr "Installierte Pakete auflisten."
+msgstr "Installierte Pakete"
 
 #: commands/list/list.cpp:195 commands/list/list.cpp:208
-#, fuzzy
-#| msgid "List available packages."
 msgid "Available packages"
-msgstr "Verfügbare Pakete auflisten."
+msgstr "Verfügbare Pakete"
 
 #: commands/list/list.cpp:216
 #, fuzzy
@@ -440,10 +438,8 @@ msgid "Available upgrades"
 msgstr "Verfügbar"
 
 #: commands/list/list.cpp:232
-#, fuzzy
-#| msgid "List installed packages."
 msgid "Obsoleting packages"
-msgstr "Installierte Pakete auflisten."
+msgstr "Nicht mehr benötigte Pakete"
 
 #: commands/list/list.cpp:237
 msgid "Autoremove packages"
@@ -480,10 +476,8 @@ msgid "Pattern matching module NSVCAs."
 msgstr "Mustervergleichsmodul NSVCAs."
 
 #: commands/module/module.cpp:43
-#, fuzzy
-#| msgid "Show enabled modules."
 msgid "Manage modules"
-msgstr "Aktivierte Module anzeigen."
+msgstr "Module verwalten"
 
 #: commands/module/module_list.cpp:85
 msgid "No matches found for \"{}\"."
@@ -666,11 +660,12 @@ msgstr "Wurzel-Installationsverzeichnis festlegen"
 
 #: commands/remove/remove.cpp:40
 msgid "Remove (uninstall) software"
-msgstr ""
+msgstr "Entferne (deinstalliere) Software"
 
 #: commands/replay/replay.cpp:38
 msgid "Replay a transaction that was previously stored to a directory"
 msgstr ""
+"Wiederhole eine Transaktion die zuvor in einem Verzeichnis gespeichert wurde"
 
 #: commands/repo/arguments.hpp:35
 msgid "Show all repositories."
@@ -692,11 +687,11 @@ msgstr "Mustervergleich von Repository-IDs."
 #, fuzzy
 #| msgid "Show all repositories."
 msgid "Manage repositories"
-msgstr "Alle Repositorys anzeigen."
+msgstr "Verwalte Repositories"
 
 #: commands/repoquery/repoquery.cpp:80
 msgid "Search for packages matching various criteria"
-msgstr ""
+msgstr "Suche nach Paketen, die unterschiedliche Kriterien erfüllen"
 
 #: commands/repoquery/repoquery.cpp:516
 msgid ""
@@ -724,11 +719,11 @@ msgstr "Muster"
 
 #: commands/search/search.cpp:44
 msgid "Search for software matching all specified strings"
-msgstr ""
+msgstr "Suche nach Software die alle angegebenen Zeichenketten erfüllt"
 
 #: commands/swap/swap.cpp:42
 msgid "Remove software and install another in one transaction"
-msgstr ""
+msgstr "Entferne Software und installiere eine andere in einer Transaktion"
 
 #: commands/system-upgrade/system-upgrade.cpp:54
 msgid "Prepare system for upgrade to a new release"
@@ -761,7 +756,7 @@ msgstr "Upgrade-Transaktion zur Offline-Durchführung speichern"
 
 #: commands/upgrade/upgrade.cpp:41
 msgid "Upgrade software"
-msgstr ""
+msgstr "Aktualisiere Software"
 
 #: commands/upgrade/upgrade.cpp:48
 msgid ""
@@ -846,11 +841,11 @@ msgstr "Paket \"{}\" ist bereits ausgenommen."
 
 #: context.cpp:73
 msgid "Importing PGP key 0x{}:\n"
-msgstr ""
+msgstr "Importiere PGP Schlüssel 0x{}:\n"
 
 #: context.cpp:75
 msgid " UserID     : \"{}\"\n"
-msgstr ""
+msgstr " UserID     : \"{}\"\n"
 
 #: context.cpp:78
 msgid ""
@@ -866,17 +861,19 @@ msgstr "Der Schlüssel wurde erfolgreich importiert."
 #, fuzzy
 #| msgid "setopt: \"{0}\": {1}"
 msgid "setopt: \"{}.{}\": {}"
-msgstr "setopt: \"{0}\": {1}"
+msgstr "setopt: \"{}.{}\": {}"
 
 #: context.cpp:268
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: context.cpp:272
 msgid ""
 "No matching repositories for {}. To use repositories from a host system, "
 "pass --use-host-config option"
 msgstr ""
+"Keine passenden Paketquellen für {}. Um Paketquellen eines Host-Systems zu "
+"nutzen, füge die --use-host-config Option hinzu"
 
 #: context.cpp:276
 #, fuzzy
@@ -886,11 +883,11 @@ msgstr "Keine passenden Repositorys für \"{}\""
 
 #: context.cpp:322
 msgid "Updating and loading repositories:"
-msgstr ""
+msgstr "Aktualisiere und lade Paketquellen:"
 
 #: context.cpp:332
 msgid "Repositories loaded."
-msgstr ""
+msgstr "Paketquellen geladen."
 
 #: context.cpp:338
 #, fuzzy
@@ -899,26 +896,20 @@ msgid "Testing offline transaction"
 msgstr "Offline-Transaktionen verwalten"
 
 #: context.cpp:342 context.cpp:497
-#, fuzzy
-#| msgid "Transaction failed: "
 msgid "Transaction failed: {}"
-msgstr "Transaktion fehlgeschlagen: "
+msgstr "Transaktion fehlgeschlagen: {}"
 
 #: context.cpp:347 context.cpp:502
 msgid "  - {}"
-msgstr ""
+msgstr "  - {}"
 
 #: context.cpp:414
-#, fuzzy
-#| msgid ""
-#| "Location \"{}\" already contains a stored transaction, it will be "
-#| "overwritten.\n"
 msgid ""
 "Location \"{}\" already contains a stored transaction, it will be "
 "overwritten."
 msgstr ""
 "Stelle \"{}\" enthält bereits eine gespeicherte Transaktion, diese wird "
-"überschreiben.\n"
+"überschreiben."
 
 #: context.cpp:443
 #, fuzzy
@@ -933,6 +924,8 @@ msgid ""
 "Continuing will cancel the old offline transaction and replace it with this "
 "one."
 msgstr ""
+"Fortführung wird die vorherige offline Transaktion löschen und mit dieser "
+"ersetzen."
 
 #: context.cpp:463
 msgid ""
@@ -940,6 +933,10 @@ msgid ""
 "reboot and run the transaction. To cancel the transaction and delete the "
 "downloaded files, use `dnf5 offline clean`."
 msgstr ""
+"Transaktion wurde gespeichert, um offline ausgeführt werden zu können. "
+"Starte`dnf offline reboot` um neuzustarten und die Transaktion auszuführen "
+"und lösche die heruntergeladenen Dateien durch das ausführen von `dnf "
+"offline clean`."
 
 #: context.cpp:469
 #, fuzzy
@@ -949,25 +946,23 @@ msgstr "Offline-Transaktionen verwalten"
 
 #: context.cpp:786
 msgid "Upgrading {}"
-msgstr ""
+msgstr "Aktualisiere {}"
 
 #: context.cpp:789
 msgid "Downgrading {}"
-msgstr ""
+msgstr "Downgrade {}"
 
 #: context.cpp:792
 msgid "Reinstalling {}"
-msgstr ""
+msgstr "Reinstalliere {}"
 
 #: context.cpp:805
 msgid "Unexpected action in TransactionPackage: {}"
-msgstr ""
+msgstr "Unerwartete Aktion in TransactionPackage: {}"
 
 #: context.cpp:811
-#, fuzzy
-#| msgid "Installed"
 msgid "Installing {}"
-msgstr "Installiert"
+msgstr "Installiere {}"
 
 #: context.cpp:832
 #, fuzzy
@@ -977,35 +972,35 @@ msgstr "Offline-Transaktionen verwalten"
 
 #: context.cpp:852
 msgid "Removing {}"
-msgstr ""
+msgstr "Entferne {}"
 
 #: context.cpp:855
 msgid "Cleanup {}"
-msgstr ""
+msgstr "Räume auf {}"
 
 #: context.cpp:873
 msgid "Unpack error: {}"
-msgstr ""
+msgstr "Fehler beim Entpacken: {}"
 
 #: context.cpp:881
 msgid "Cpio error: {}"
-msgstr ""
+msgstr "Cpio Fehler: {}"
 
 #: context.cpp:891
 msgid "Scriptlet output:"
-msgstr ""
+msgstr "Scriptlet Ausgabe:"
 
 #: context.cpp:913
 msgid "Running {} scriptlet: {}"
-msgstr ""
+msgstr "Führe {} scriptlet aus: {}"
 
 #: context.cpp:928
 msgid "Finished {} scriptlet: {}"
-msgstr ""
+msgstr "Fertiggestellt {} scriptlet: {}"
 
 #: context.cpp:934
 msgid "Non-critical error in {} scriptlet: {}"
-msgstr ""
+msgstr "Nicht-kritischer Fehler in {} scriptlet: {}"
 
 #: context.cpp:943
 #, fuzzy
@@ -1015,7 +1010,7 @@ msgstr "Fehler beim Lesen des Journals: {}"
 
 #: context.cpp:973
 msgid "Verify package files"
-msgstr ""
+msgstr "Verifiziere Paket Dateien"
 
 #: library.cpp:33
 msgid "Cannot load shared library \"{}\": {}"
@@ -1125,7 +1120,7 @@ msgstr "setopt: \"{0}\": {1}"
 
 #: main.cpp:269
 msgid "set arbitrary variable"
-msgstr ""
+msgstr "setze beliebige Variable ein"
 
 #: main.cpp:283
 msgid "setvar: {}"
@@ -1140,10 +1135,8 @@ msgid "automatically answer no for all questions"
 msgstr "automatisch alle Fragen mit nein beantworten"
 
 #: main.cpp:306
-#, fuzzy
-#| msgid "{} to allow extra packages in the transaction"
 msgid "try the best available package versions in transactions"
-msgstr "{} um weitere Pakete in der Transaktion zu erlauben"
+msgstr "teste die besten erhältlichen Paket-Versionen in Transaktionen"
 
 #: main.cpp:313
 msgid "do not limit the transaction to the best candidate"
@@ -1193,7 +1186,7 @@ msgstr ""
 
 #: main.cpp:433
 msgid "Disable all libdnf5 plugins"
-msgstr ""
+msgstr "Deaktiviere alle libdnf5 Plugins"
 
 #: main.cpp:443
 msgid ""
@@ -1289,54 +1282,62 @@ msgstr "Unterbefehle:"
 
 #: main.cpp:744
 msgid "{} version {}.{}.{}.{}"
-msgstr ""
+msgstr "{} Version {}.{}.{}.{}"
 
 #: main.cpp:747
 msgid "{} plugin API version {}.{}"
-msgstr ""
+msgstr "{} Plugin API Version {}.{}"
 
 #: main.cpp:752
 msgid "libdnf5 version {}.{}.{}.{}"
-msgstr ""
+msgstr "libdnf5 Version {}.{}.{}.{}"
 
 #: main.cpp:755
 msgid "libdnf5 plugin API version {}.{}"
-msgstr ""
+msgstr "libdnf5 Plugin API Version {}.{}"
 
 #: main.cpp:762
 msgid ""
 "\n"
 "Loaded {} plugins:"
 msgstr ""
+"\n"
+"{} Plugins geladen:"
 
 #: main.cpp:767
 msgid "  name: {}"
-msgstr ""
+msgstr "  Name: {}"
 
 #: main.cpp:770
 msgid "  version: {}.{}.{}"
-msgstr ""
+msgstr "  Version: {}.{}.{}"
 
 #: main.cpp:772
 msgid "  API version: {}.{}"
-msgstr ""
+msgstr "  API Version: {}.{}"
 
 #: main.cpp:810
 msgid ""
 "Total size of inbound packages is {:.0f} {:s}. Need to download {:.0f} {:s}."
 msgstr ""
+"Die vollständige Größe eingehender Pakete ist {:.0f} {:s}. Heruntergeladen "
+"werden müssen {:.0f} {:s}."
 
 #: main.cpp:828
 msgid ""
 "After this operation, {:.0f} {:s} extra will be used (install {:.0f} {:s}, "
 "remove {:.0f} {:s})."
 msgstr ""
+"Nach dieser Operation werden {:.0f} {:s} mehr benötigt (installiere {:.0f} "
+"{:s}, entferne {:.0f} {:s})."
 
 #: main.cpp:837
 msgid ""
 "After this operation, {:.0f} {:s} will be freed (install {:.0f} {:s}, remove "
 "{:.0f} {:s})."
 msgstr ""
+"Nach dieser Operation werden {:.0f} {:s} frei (installiere {:.0f} {:s}, "
+"entferne {:.0f} {:s})."
 
 #: main.cpp:849
 msgid "======== Main configuration: ========"
@@ -1362,7 +1363,7 @@ msgstr ""
 
 #: main.cpp:953
 msgid " {}"
-msgstr ""
+msgstr " {}"
 
 #: main.cpp:997
 msgid "{} to skip unavailable packages"
@@ -1424,29 +1425,29 @@ msgstr ""
 
 #: main.cpp:1208
 msgid "--- DNF5 launched with arguments: \"{}\" ---"
-msgstr ""
+msgstr "--- DNF5 wurde mit den Argumenten gestartet: \"{}\" ---"
 
 #: main.cpp:1259
 msgid "{}."
-msgstr ""
+msgstr "{}."
 
 #: main.cpp:1262 main.cpp:1445
-#, fuzzy
-#| msgid ". Add \"--help\" for more information about the arguments."
 msgid "{}. Add \"--help\" for more information about the arguments."
 msgstr ""
-". Fügen Sie \"--help\" hinzu, um weitere Informationen zu den Argumenten zu "
-"erhalten."
+"{}. Fügen Sie \"--help\" hinzu, um weitere Informationen zu den Argumenten "
+"zu erhalten."
 
 #: main.cpp:1269
 msgid ""
 "It could be a command provided by a plugin, try: dnf5 install 'dnf5-"
 "command({})'"
 msgstr ""
+"Es könnte ein Befehl sein, dass von einem Plugin bereitgestellt wird. "
+"Versuche: dnf install 'dnf5-command({})'"
 
 #: main.cpp:1311
 msgid "No read/execute access in current directory, moving to /"
-msgstr ""
+msgstr "Kein Lese/Schreib-Zugriff im aktuellen Verzeichnis. Verschiebe nach /"
 
 #: main.cpp:1368
 msgid ""
@@ -1461,13 +1462,11 @@ msgstr ""
 
 #: main.cpp:1409
 msgid "The operation will only store the transaction in {}"
-msgstr ""
+msgstr "Die Operation wird nur gespeichert in {}"
 
 #: main.cpp:1411
-#, fuzzy
-#| msgid "{} to allow extra packages in the transaction"
 msgid "The operation will only download packages for the transaction."
-msgstr "{} um weitere Pakete in der Transaktion zu erlauben"
+msgstr "Diese Operation wird nur Pakete für diese Transaktion herunterladen."
 
 #: main.cpp:1416
 msgid ""
@@ -1483,7 +1482,7 @@ msgstr ""
 
 #: main.cpp:1455
 msgid "Command returned error: {}"
-msgstr ""
+msgstr "Befehl hat folgenden Fehler zurückgegeben: {}"
 
 #: main.cpp:1463
 msgid "DNF5 finished"
