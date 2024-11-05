@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-02 03:04+0000\n"
-"PO-Revision-Date: 2024-11-05 14:58+0000\n"
+"PO-Revision-Date: 2024-11-05 21:08+0000\n"
 "Last-Translator: Fabio D <fabio1977@arcor.de>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5-cli/de/>\n"
@@ -137,7 +137,6 @@ msgstr "Hinweis: [d]Standard, aktivi[e]rt, [x]deaktiviert, [i]nstalliert"
 #. Note for translators: This is a right-aligned column separator in
 #. a package properties table as in "Name    : bash".
 #: output/packageinfo.cpp:57
-#, fuzzy
 msgid " : "
 msgstr " : "
 
@@ -163,9 +162,8 @@ msgid "Architecture"
 msgstr "Architektur"
 
 #: output/packageinfo.cpp:75
-#, fuzzy
 msgid "Obsoletes"
-msgstr "Veraltete"
+msgstr "Nicht mehr benötigte"
 
 #: output/packageinfo.cpp:85
 msgid "Download size"
@@ -250,8 +248,8 @@ msgstr[1] " Downgrade:     {:4} Pakete\n"
 #: output/transaction_table.cpp:173
 msgid " Changing reason: {:4} package\n"
 msgid_plural " Changing reason: {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " Ändere reason: {:4} Paket\n"
+msgstr[1] " Ändere reason: {:4} Pakete\n"
 
 #: output/transaction_table.cpp:181
 msgid " Skipping:        {:4} package\n"
@@ -272,7 +270,6 @@ msgid "Size"
 msgstr "Größe"
 
 #: output/transaction_table.cpp:342 output/transaction_table.cpp:436
-#, fuzzy
 msgid "{} -> {}"
 msgstr "{} -> {}"
 
@@ -338,7 +335,7 @@ msgstr "Wird entfernt:"
 
 #: output/transaction_table.cpp:546
 msgid "Changing reason:"
-msgstr ""
+msgstr "Ändere reason:"
 
 #: output/transaction_table.cpp:578
 msgid "Installing groups dependencies:"
@@ -358,15 +355,15 @@ msgstr "Gruppen werden aktualisiert:"
 
 #: output/transaction_table.cpp:614
 msgid "Installing environmental groups:"
-msgstr ""
+msgstr "Installiere Umgebungs Gruppen:"
 
 #: output/transaction_table.cpp:617
 msgid "Removing environmental groups:"
-msgstr ""
+msgstr "Entferne Umgebungs Gruppen:"
 
 #: output/transaction_table.cpp:620
 msgid "Upgrading environmental groups:"
-msgstr ""
+msgstr "Aktualisiere Umgebungs Gruppen:"
 
 #: output/transaction_table.cpp:647
 msgid "Enabling module streams:"
@@ -382,7 +379,7 @@ msgstr "Module werden zurückgesetzt:"
 
 #: output/transaction_table.cpp:656
 msgid "Switching module streams:"
-msgstr ""
+msgstr "Schalte Modul-Streams um:"
 
 #: output/transaction_table.cpp:730
 msgid "Nothing to do."
