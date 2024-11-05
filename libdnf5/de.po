@@ -4,14 +4,14 @@
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024.
 # Dennis Koerner <dennis@bumblebeeman.dev>, 2024.
 # Henning <boredsquirrel@users.noreply.translate.fedoraproject.org>, 2024.
+# Fabio D <fabio1977@arcor.de>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-02 03:04+0000\n"
-"PO-Revision-Date: 2024-07-26 20:38+0000\n"
-"Last-Translator: Henning <boredsquirrel@users.noreply.translate."
-"fedoraproject.org>\n"
+"PO-Revision-Date: 2024-11-05 14:23+0000\n"
+"Last-Translator: Fabio D <fabio1977@arcor.de>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/de/>\n"
 "Language: de\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Weblate 5.8.2\n"
 
 #: advisory/advisory.cpp:81
 msgid ""
@@ -1299,6 +1299,8 @@ msgstr "Zustand {} für \"{}\" nicht gefunden."
 #: system/state.cpp:301
 msgid "Loading system state TOML file {} failed (see dnf5-system-state(7)): {}"
 msgstr ""
+"Laden der System Status TOML Datei {} fehlgeschlagen (siehe dnf5-system-"
+"state(7)): {}"
 
 #: system/state.cpp:614
 msgid "Unsupported TOML version \"{}\", maximum supported version is \"{}\""
@@ -1450,13 +1452,12 @@ msgstr ""
 "Zeitpunkt nicht existiert (vorhandene Versionen sind: {2}) -> überspringe."
 
 #: transaction/transaction_merge.cpp:277
-#, fuzzy
 msgid ""
 "Action '{0}' '{1}' cannot be merged because it is already present at that "
 "point -> skipping it."
 msgstr ""
 "Aktion '{0}' '{1}' kann nicht zusammengeführt werden, da sie zu diesem "
-"Zeitpunkt nicht existiert -> überspringe"
+"Zeitpunkt bereits existiert -> überspringe."
 
 #: transaction/transaction_merge.cpp:294
 #, fuzzy
