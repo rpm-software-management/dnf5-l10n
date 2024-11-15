@@ -7,25 +7,28 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-06 03:02+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-11-15 21:15+0000\n"
+"Last-Translator: Nicolas Escobar <blade.liger1313@gmail.com>\n"
+"Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf5/"
+"dnf5/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.8.2\n"
 
 #: commands/advisory/advisory.cpp:36
 msgid "Manage advisories"
-msgstr ""
+msgstr "Gestionar avisos"
 
 #: commands/advisory/advisory_info.hpp:33
 msgid "Print details about advisories"
-msgstr ""
+msgstr "Imprimir detalles sobre avisos"
 
 #: commands/advisory/advisory_list.hpp:35
 msgid "List advisories"
-msgstr ""
+msgstr "Listar avisos"
 
 #: commands/advisory/advisory_summary.cpp:44
 msgid "All"
@@ -33,7 +36,7 @@ msgstr ""
 
 #: commands/advisory/advisory_summary.cpp:48
 msgid "Installed"
-msgstr ""
+msgstr "Instalados"
 
 #: commands/advisory/advisory_summary.cpp:52
 msgid "Updates"
@@ -41,38 +44,47 @@ msgstr ""
 
 #: commands/advisory/advisory_summary.cpp:65
 msgid "Available"
-msgstr ""
+msgstr "Disponibles"
 
 #: commands/advisory/advisory_summary.hpp:33
 msgid "Print summary of advisories"
-msgstr ""
+msgstr "Imprimir resumen de avisos"
 
 #: commands/advisory/arguments.hpp:34
 msgid "Show advisories containing any version of installed packages."
-msgstr ""
+msgstr "Mostrar avisos conteniendo cualquier versión de paquetes instalados."
 
 #: commands/advisory/arguments.hpp:45
 msgid ""
 "Show advisories containing newer versions of installed packages. This is the "
 "default behavior."
 msgstr ""
+"Mostrar avisos conteniendo nuevas versiones de paquetes instalados. Este es "
+"el comportamiento por defecto."
 
 #: commands/advisory/arguments.hpp:57
 msgid ""
 "Show advisories containing equal and older versions of installed packages."
 msgstr ""
+"Mostrar avisos conteniendo versiones iguales o anteriores de paquetes "
+"instalados."
 
 #: commands/advisory/arguments.hpp:69
 msgid ""
 "Show advisories containing newer versions of installed packages for which a "
 "newer version is available."
 msgstr ""
+"Mostrar avisos conteniendo nuevas versiones de paquetes instalados para los "
+"cuales hay una versión más nueva disponible."
 
 #: commands/advisory/arguments.hpp:82
+#, fuzzy
 msgid ""
 "Show only advisories containing packages with specified names. List option, "
 "supports globs."
 msgstr ""
+"Mostrar solo avisos conteniendo paquetes con nombres especificados. Opción "
+"de lista, soporta globs."
 
 #: commands/advisory/arguments.hpp:83
 msgid "PACKAGE_NAME,..."
@@ -80,45 +92,53 @@ msgstr ""
 
 #: commands/advisory/arguments.hpp:90
 msgid "List of patterns matched against advisory names."
-msgstr ""
+msgstr "Lista de patrones comparados con nombres de avisos."
 
 #: commands/advisory/arguments.hpp:100
 msgid "Show only advisories referencing a bugzilla."
-msgstr ""
+msgstr "Mostrar solo avisos que hacen referencia a bugzilla."
 
 #: commands/advisory/arguments.hpp:107
 msgid "Show only advisories referencing a CVE."
-msgstr ""
+msgstr "Mostrar solo avisos que hacen referencia a una entrada CVE."
 
 #: commands/advisory_shared.hpp:113
 msgid "Limit to packages in advisories with specified name. List option."
 msgstr ""
+"Limitar a paquetes en avisos con el nombre especificado. Opción de lista."
 
 #: commands/advisory_shared.hpp:114
 msgid "ADVISORY_NAME,..."
 msgstr ""
 
 #: commands/advisory_shared.hpp:121
+#, fuzzy
 msgid "Limit to packages in security advisories."
-msgstr ""
+msgstr "Limitar a paquetes en avisos de security."
 
 #: commands/advisory_shared.hpp:128
+#, fuzzy
 msgid "Limit to packages in bugfix advisories."
-msgstr ""
+msgstr "Limitar a paquetes en avisos de bugfix."
 
 #: commands/advisory_shared.hpp:135
+#, fuzzy
 msgid "Limit to packages in enhancement advisories."
-msgstr ""
+msgstr "Limitar a paquetes en avisos de enhancement."
 
 #: commands/advisory_shared.hpp:142
+#, fuzzy
 msgid "Limit to packages in newpackage advisories."
-msgstr ""
+msgstr "Limitar a paquetes en avisos de paquete nuevo."
 
 #: commands/advisory_shared.hpp:153
+#, fuzzy
 msgid ""
 "Limit to packages in advisories with specified severity. List option. Can be "
 "\"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgstr ""
+"Limitar a paquetes en avisos con severidad especificada. Opción de lista. "
+"Puede ser \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 
 #: commands/advisory_shared.hpp:155
 msgid "ADVISORY_SEVERITY,..."
@@ -129,6 +149,8 @@ msgid ""
 "Limit to packages in advisories that fix a Bugzilla ID, Eg. 123123. List "
 "option."
 msgstr ""
+"Limitar a paquetes en avisos que arreglan un ID de Bugzilla, Eg. 123123. "
+"Opción de lista."
 
 #: commands/advisory_shared.hpp:168
 msgid "BUGZILLA_ID,..."
@@ -139,6 +161,8 @@ msgid ""
 "Limit to packages in advisories that fix a CVE (Common Vulnerabilities and "
 "Exposures) ID, Eg. CVE-2201-0123. List option."
 msgstr ""
+"Limitar a paquetes en avisos que arreglan un ID de CVE (Common "
+"Vulnerabilities and Exposures), Eg. CVE-2201-0123. Opción de lista."
 
 #: commands/advisory_shared.hpp:180
 msgid "CVE_ID,..."
@@ -147,10 +171,12 @@ msgstr ""
 #: commands/autoremove/autoremove.cpp:38
 msgid "Remove all unneeded packages originally installed as dependencies."
 msgstr ""
+"Quitar todos los paquetes innecesarios instalados originalmente como "
+"dependencias."
 
 #: commands/check-upgrade/check-upgrade.cpp:47
 msgid "Check for available package upgrades"
-msgstr ""
+msgstr "Comprueba si hay actualizaciones disponibles"
 
 #: commands/check-upgrade/check-upgrade.cpp:54
 msgid ""
