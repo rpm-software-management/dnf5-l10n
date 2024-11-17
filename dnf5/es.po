@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-06 03:02+0000\n"
-"PO-Revision-Date: 2024-11-17 06:22+0000\n"
+"PO-Revision-Date: 2024-11-17 07:06+0000\n"
 "Last-Translator: Nicolas Escobar <blade.liger1313@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/es/>\n"
@@ -612,131 +612,147 @@ msgstr ""
 
 #: commands/offline/offline.cpp:621
 msgid "Cannot find logs with this index."
-msgstr "No se encontraron registros con ese índice."
+msgstr "No se encontraron registros con este índice."
 
 #: commands/offline/offline.cpp:628
 msgid "Unable to match systemd journal entry."
-msgstr ""
+msgstr "No se pudo encontrar la entrada del diario systemd."
 
 #: commands/offline/offline.cpp:640
 msgid "Show logs from past offline transactions"
-msgstr ""
+msgstr "Mostrar registros de transacciones fuera de línea anteriores"
 
 #: commands/offline/offline.cpp:648
 msgid ""
 "Which log to show. Run without any arguments to get a list of available logs."
 msgstr ""
+"Cuál registro mostrar. Ejecutar sin argumentos para obtener una lista de "
+"registros disponibles."
 
 #: commands/offline/offline.cpp:663
 msgid ""
 "systemd is not supported in this build of DNF 5; the `log` subcommand is "
 "unavailable."
 msgstr ""
+"systemd no está soportado en esta compilación de DNF 5; el subcomando `log` "
+"no está disponible."
 
 #: commands/offline/offline.cpp:668
 msgid "Show status of the current offline transaction"
-msgstr ""
+msgstr "Mostrar estado de la transacción fuera de línea actual"
 
 #: commands/offline/offline.cpp:684
 msgid "An offline transaction was initiated by the following command:"
-msgstr ""
+msgstr "Una transacción fuera de línea fue iniciada por el siguiente comando:"
 
 #: commands/offline/offline.cpp:686
 msgid ""
 "Run `dnf5 offline reboot` to reboot and perform the offline transaction."
 msgstr ""
+"Ejecute `dnf5 offline reboot` para reiniciar y realizar la transacción fuera "
+"de línea."
 
 #: commands/offline/offline.cpp:688
 msgid ""
 "An offline transaction was started, but it did not finish. Run `dnf5 offline "
 "log` for more information. The command that initiated the transaction was:"
 msgstr ""
+"Una transacción fuera de línea fue iniciada, pero no terminó. Ejecute `dnf5 "
+"offline log` para más información. El comando que inició la transacción fue:"
 
 #: commands/offline/offline.cpp:693
 msgid "Unknown offline transaction status: "
-msgstr ""
+msgstr "Estado de transacción fuera de línea desconocido: "
 
 #: commands/provides/provides.cpp:48
 msgid "Find what package provides the given value"
-msgstr ""
+msgstr "Encontrar qué paquete provee el valor dado"
 
 #: commands/reinstall/reinstall.cpp:40
 msgid "Reinstall software"
-msgstr ""
+msgstr "Reinstalar software"
 
 #: commands/remove/remove.cpp:40
 msgid "Remove (uninstall) software"
-msgstr ""
+msgstr "Eliminar (desinstalar) software"
 
 #: commands/replay/replay.cpp:38
 msgid "Replay a transaction that was previously stored to a directory"
-msgstr ""
+msgstr "Repetir una transacción que fue almacenada previamente a un directorio"
 
 #: commands/repo/arguments.hpp:35
 msgid "Show all repositories."
-msgstr ""
+msgstr "Mostrar todos los repositorios."
 
 #: commands/repo/arguments.hpp:42
 msgid "Show enabled repositories (default)."
-msgstr ""
+msgstr "Mostrar repositorios habilitados (por defecto)."
 
 #: commands/repo/arguments.hpp:49
 msgid "Show disabled repositories."
-msgstr ""
+msgstr "Mostrar repositorios deshabilitados."
 
 #: commands/repo/arguments.hpp:56
+#, fuzzy
 msgid "Pattern matching repo IDs."
-msgstr ""
+msgstr "IDs de repositorios con coincidencia de patrones."
 
 #: commands/repo/repo.cpp:38
 msgid "Manage repositories"
-msgstr ""
+msgstr "Gestionar repositorios"
 
 #: commands/repoquery/repoquery.cpp:80
 msgid "Search for packages matching various criteria"
-msgstr ""
+msgstr "Buscar paquetes que coinciden bajo varios criterios"
 
 #: commands/repoquery/repoquery.cpp:516
 msgid ""
 "Option \"--exactdeps\" has to be used either with \"--whatrequires\" or \"--"
 "whatdepends\""
 msgstr ""
+"Opción \"--exactdeps\" debe ser usada con \"--whatrequires\" o \"--"
+"whatdepends\""
 
 #: commands/repoquery/repoquery.cpp:521
 msgid ""
 "Option \"--recursive\" has to be used either with \"--whatrequires\" or \"--"
 "providers-of=requires\""
 msgstr ""
+"Opción \"--recursive\" debe ser usada con \"--whatrequires\" o \"--providers-"
+"of=requires\""
 
 #: commands/search/arguments.hpp:37
 msgid "Search also package description and URL."
-msgstr ""
+msgstr "Buscar también descripción y URL de los paquetes."
 
 #: commands/search/arguments.hpp:45
 msgid "Patterns"
-msgstr ""
+msgstr "Patrones"
 
 #: commands/search/search.cpp:44
 msgid "Search for software matching all specified strings"
-msgstr ""
+msgstr "Buscar software que coincida con todas las cadenas especificadas"
 
 #: commands/swap/swap.cpp:42
 msgid "Remove software and install another in one transaction"
-msgstr ""
+msgstr "Eliminar software e instalar otro en una transacción"
 
 #: commands/system-upgrade/system-upgrade.cpp:54
 msgid "Prepare system for upgrade to a new release"
-msgstr ""
+msgstr "Preparar el sistema para actualizar a una versión de salida"
 
 #: commands/system-upgrade/system-upgrade.cpp:70
 msgid "Download everything needed to upgrade to a new release"
 msgstr ""
+"Descargar todo lo necesario para actualizar a una nueva versión de salida"
 
 #: commands/system-upgrade/system-upgrade.cpp:78
 msgid ""
 "Do not install packages from the new release if they are older than what is "
 "currently installed"
 msgstr ""
+"No instalar paquetes de una nueva versión de salida si son más antiguos que "
+"los que están actualmente instalados"
 
 #: commands/system-upgrade/system-upgrade.cpp:97
 msgid "Need a --releasever greater than the current system version."
@@ -744,15 +760,16 @@ msgstr ""
 
 #: commands/system-upgrade/system-upgrade.cpp:131
 msgid "Store a distro-sync transaction to be performed offline"
-msgstr ""
+msgstr "Almacenar una transacción distro-sync para ser realizada fuera de línea"
 
 #: commands/system-upgrade/system-upgrade.cpp:153
 msgid "Store an upgrade transaction to be performed offline"
 msgstr ""
+"Almacenar una transacción de actualización para ser realizada fuera de línea"
 
 #: commands/upgrade/upgrade.cpp:41
 msgid "Upgrade software"
-msgstr ""
+msgstr "Actualizar software"
 
 #: commands/upgrade/upgrade.cpp:48
 msgid ""
@@ -761,85 +778,94 @@ msgid ""
 "limiting advisories is used it upgrades packages only to the lowest versions "
 "that fix advisories that matching selected advisory property"
 msgstr ""
+"Actualizar paquetes solo a las versiones más bajas que arreglan avisos de "
+"tipo bugfix, enhancement, seguridad, o newpackage. En caso de que cualquier "
+"opción que limite los avisos esté en uso, actualiza paquetes solo a las "
+"versiones más bajas que arreglan avisos que coinciden con la propiedad de "
+"aviso seleccionada"
 
 #. TODO(mblaha): add full command line
 #: commands/versionlock/utils.cpp:35
 #, c++-format
 msgid "Added by 'versionlock {}' command on {}"
-msgstr ""
+msgstr "Añadido por comando 'versionlock {}' en {}"
 
 #: commands/versionlock/versionlock.cpp:40
 msgid "Manage versionlock configuration"
-msgstr ""
+msgstr "Gestionar configuración versionlock"
 
 #: commands/versionlock/versionlock_add.cpp:37
 msgid "Add new entry to versionlock configuration"
-msgstr ""
+msgstr "Añadir nueva entrada a la configuración versionlock"
 
 #: commands/versionlock/versionlock_add.cpp:43
 msgid "List of package specs to add versionlock for"
 msgstr ""
+"Lista de especificaciones de paquetes para los cuales agregar versionlock"
 
 #: commands/versionlock/versionlock_add.cpp:106
 #: commands/versionlock/versionlock_exclude.cpp:125
 #, c++-format
 msgid "No package found for \"{}\"."
-msgstr ""
+msgstr "No se encontró paquete \"{}\"."
 
 #: commands/versionlock/versionlock_add.cpp:124
 #, c++-format
 msgid "Adding versionlock on \"{0} = {1}\"."
-msgstr ""
+msgstr "Añadiendo versionlock en \"{0} = {1}\"."
 
 #: commands/versionlock/versionlock_add.cpp:127
 #, c++-format
 msgid "Package \"{}\" is already locked."
-msgstr ""
+msgstr "Paquete \"{}\" ya está bloqueado."
 
 #: commands/versionlock/versionlock_clear.cpp:32
 msgid "Remove all entries from versionlock configuration"
-msgstr ""
+msgstr "Eliminar todas las entradas con configuración versionlock"
 
 #: commands/versionlock/versionlock_delete.cpp:35
 msgid "Remove any matching versionlock configuration entries"
-msgstr ""
+msgstr "Eliminar todas las entradas coincidentes de configuración versionlock"
 
 #: commands/versionlock/versionlock_delete.cpp:41
 msgid "List of package specs to remove versionlock for"
 msgstr ""
+"Lista de especificaciones de paquetes para los cuales eliminar versionlock"
 
 #: commands/versionlock/versionlock_delete.cpp:55
 msgid "Deleting versionlock entry:"
-msgstr ""
+msgstr "Eliminando entrada versionlock:"
 
 #: commands/versionlock/versionlock_exclude.cpp:37
 msgid "Add new exclude entry to versionlock configuration"
-msgstr ""
+msgstr "Añadir nueva entrada de exclusión a la configuración versionlock"
 
 #: commands/versionlock/versionlock_exclude.cpp:43
 msgid "List of package specs to add versionlock exclude for"
 msgstr ""
+"Lista de especificaciones de paquetes para los cuales agregar una exclusión "
+"de versionlock"
 
 #: commands/versionlock/versionlock_exclude.cpp:88
 #: commands/versionlock/versionlock_exclude.cpp:100
 #, c++-format
 msgid "Adding versionlock exclude on \"{0} = {1}\"."
-msgstr ""
+msgstr "Añadiendo exclusión de versionlock en \"{0} = {1}\"."
 
 #: commands/versionlock/versionlock_exclude.cpp:139
 #, c++-format
 msgid "Package \"{}\" is already excluded."
-msgstr ""
+msgstr "Paquete \"{}\" ya está excluido."
 
 #: context.cpp:73
 #, c++-format
 msgid "Importing PGP key 0x{}:\n"
-msgstr ""
+msgstr "Importando llave PGP 0x{}:\n"
 
 #: context.cpp:75
 #, c++-format
 msgid " UserID     : \"{}\"\n"
-msgstr ""
+msgstr " IDUsuario     : \"{}\"\n"
 
 #: context.cpp:78
 #, c++-format
@@ -847,10 +873,12 @@ msgid ""
 " Fingerprint: {}\n"
 " From       : {}\n"
 msgstr ""
+" Huella dactilar: {}\n"
+" Desde                    : {}\n"
 
 #: context.cpp:87
 msgid "The key was successfully imported."
-msgstr ""
+msgstr "La llave fue importada exitosamente."
 
 #: context.cpp:262
 #, c++-format
@@ -867,28 +895,30 @@ msgid ""
 "No matching repositories for {}. To use repositories from a host system, "
 "pass --use-host-config option"
 msgstr ""
+"No hay repositorios coincidentes para {}. Para usar repositorios de un "
+"sistema anfitrión, utilice la opción --use-host-config"
 
 #: context.cpp:276
 #, c++-format
 msgid "No matching repositories for {}"
-msgstr ""
+msgstr "No hay repositorios coincidentes para {}"
 
 #: context.cpp:322
 msgid "Updating and loading repositories:"
-msgstr ""
+msgstr "Actualizando y cargando repositorios:"
 
 #: context.cpp:332
 msgid "Repositories loaded."
-msgstr ""
+msgstr "Repositorios cargados."
 
 #: context.cpp:338
 msgid "Testing offline transaction"
-msgstr ""
+msgstr "Probando transacción fuera de línea"
 
 #: context.cpp:342 context.cpp:497
 #, c++-format
 msgid "Transaction failed: {}"
-msgstr ""
+msgstr "Transacción fallida: {}"
 
 #: context.cpp:347 context.cpp:502
 #, c++-format
@@ -901,18 +931,23 @@ msgid ""
 "Location \"{}\" already contains a stored transaction, it will be "
 "overwritten."
 msgstr ""
+"Ubicación \"{}\" ya contiene una transacción almacenada, será sobrescrita."
 
 #: context.cpp:443
 msgid ""
 "There is already an offline transaction queued, initiated by the following "
 "command:"
 msgstr ""
+"Ya hay una transacción fuera de línea encolada, iniciada por el siguiente "
+"comando:"
 
 #: context.cpp:445
 msgid ""
 "Continuing will cancel the old offline transaction and replace it with this "
 "one."
 msgstr ""
+"Al continuar se cancelará la transacción fuera de línea anterior y será "
+"reemplazada por esta."
 
 #: context.cpp:463
 msgid ""
@@ -920,20 +955,23 @@ msgid ""
 "reboot and run the transaction. To cancel the transaction and delete the "
 "downloaded files, use `dnf5 offline clean`."
 msgstr ""
+"Transacción almacenada para ser realizada fuera de línea. Ejecute `dnf5 "
+"offline reboot`para reiniciar y ejecutar la transacción. Para cancelar la "
+"transacción y eliminar los archivos descargados, use `dnf5 offline clean`."
 
 #: context.cpp:469
 msgid "Running transaction"
-msgstr ""
+msgstr "Ejecutando transacción"
 
 #: context.cpp:786
 #, c++-format
 msgid "Upgrading {}"
-msgstr ""
+msgstr "Actualizando {}"
 
 #: context.cpp:789
 #, c++-format
 msgid "Downgrading {}"
-msgstr ""
+msgstr "Degradando {}"
 
 #: context.cpp:792
 #, c++-format
