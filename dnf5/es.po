@@ -9,8 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-06 03:02+0000\n"
 "PO-Revision-Date: 2024-11-17 07:17+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: Nicolas Escobar <blade.liger1313@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/es/>\n"
 "Language: es\n"
@@ -977,12 +976,12 @@ msgstr "Degradando {}"
 #: context.cpp:792
 #, c++-format
 msgid "Reinstalling {}"
-msgstr "Reinstalando"
+msgstr "Reinstalando {}"
 
 #: context.cpp:805
 #, c++-format
 msgid "Unexpected action in TransactionPackage: {}"
-msgstr ""
+msgstr "Acción inesperada en paquete de transacción: {}"
 
 #: context.cpp:811
 #, c++-format
@@ -991,77 +990,77 @@ msgstr "Instalando {}"
 
 #: context.cpp:832
 msgid "Prepare transaction"
-msgstr ""
+msgstr "Preparar transacción"
 
 #: context.cpp:852
 #, c++-format
 msgid "Removing {}"
-msgstr ""
+msgstr "Eliminando {}"
 
 #: context.cpp:855
 #, c++-format
 msgid "Cleanup {}"
-msgstr ""
+msgstr "Limpieza {}"
 
 #: context.cpp:873
 #, c++-format
 msgid "Unpack error: {}"
-msgstr ""
+msgstr "Error de desempaquetado: {}"
 
 #: context.cpp:881
 #, c++-format
 msgid "Cpio error: {}"
-msgstr ""
+msgstr "Error Cpio: {}"
 
 #: context.cpp:891
 msgid "Scriptlet output:"
-msgstr ""
+msgstr "Salida del scriptlet:"
 
 #: context.cpp:913
 #, c++-format
 msgid "Running {} scriptlet: {}"
-msgstr ""
+msgstr "Ejecutando {} scriptlet: {}"
 
 #: context.cpp:928
 #, c++-format
 msgid "Finished {} scriptlet: {}"
-msgstr ""
+msgstr "Finalizado {} scriptlet: {}"
 
 #: context.cpp:934
 #, c++-format
 msgid "Non-critical error in {} scriptlet: {}"
-msgstr ""
+msgstr "Error no crítico en {} scriptlet: {}"
 
 #: context.cpp:943
 #, c++-format
 msgid "Error in {} scriptlet: {}"
-msgstr ""
+msgstr "Error en {} scriptlet: {}"
 
 #: context.cpp:973
 msgid "Verify package files"
-msgstr ""
+msgstr "Verificar archivos de paquete"
 
 #: library.cpp:33
 #, c++-format
 msgid "Cannot load shared library \"{}\": {}"
-msgstr ""
+msgstr "No se puede cargar la librería compartida \"{}\": {}"
 
 #: library.cpp:48
 #, c++-format
 msgid "Cannot obtain address of symbol \"{}\": {}"
-msgstr ""
+msgstr "No se puede obtener la dirección del símbolo \"{}\": {}"
 
 #: main.cpp:129
 msgid "Utility for packages maintaining"
-msgstr ""
+msgstr "Utilidad para mantención de paquetes"
 
 #: main.cpp:130
 msgid "DNF5 is a program for maintaining packages."
-msgstr ""
+msgstr "DNF5 es un programa para mantención de paquetes."
 
 #: main.cpp:131
 msgid "Unclassified options:"
-msgstr ""
+msgstr "Opciones sin clasificar:"
 
 #: main.cpp:134
 msgid "Global options:"
@@ -1069,11 +1068,11 @@ msgstr "Opciones Globales"
 
 #: main.cpp:139
 msgid "Print help"
-msgstr ""
+msgstr "Imprimir ayuda"
 
 #: main.cpp:146
 msgid "Configuration file location"
-msgstr ""
+msgstr "Ubicación de archivo de configuración"
 
 #: main.cpp:154
 msgid ""
@@ -1081,36 +1080,42 @@ msgid ""
 "content. Suppresses messages notifying about the current state or actions of "
 "dnf5."
 msgstr ""
+"Al combinarse con un comando no interactivo, muestra solo el contenido "
+"relevante. Omite mensajes notificando sobre el estado actual o acciones de "
+"dnf5."
 
 #: main.cpp:169
 msgid ""
 "Run entirely from system cache, don't update the cache and use it even in "
 "case it is expired."
 msgstr ""
+"Ejecutar por completo desde la caché del sistema, no actualizar la caché y "
+"usarla incluso en caso de que haya expirado."
 
 #: main.cpp:176
 msgid "Force refreshing metadata before running the command."
-msgstr ""
+msgstr "Forzar el refresco de los metadatos antes de ejecutar el comando."
 
 #: main.cpp:192
 #, c++-format
 msgid "Failed to expire repository cache in path \"{0}\": {1}"
-msgstr ""
+msgstr "Fallo al expirar la caché del repositorio en la ruta \"{0}\":{1}"
 
 #: main.cpp:206
 msgid "create additional repository using id and path"
-msgstr ""
+msgstr "crear repositorio adicional usando id y ruta"
 
 #: main.cpp:214
 #, c++-format
 msgid "repofrompath: Incorrect repoid and path specification \"{}\""
-msgstr ""
+msgstr "repofrompath: repoid incorrecto y especificación de ruta \"{}\""
 
 #: main.cpp:226
 msgid "set arbitrary config and repo options"
 msgstr "define opciones arbitrarias de configuración y repositorios"
 
 #: main.cpp:228
+#, fuzzy
 msgid ""
 "Override a configuration option from the configuration file. To override "
 "configuration options for repositories, use repoid.option for  the\n"
@@ -1120,6 +1125,14 @@ msgid ""
 "              they do not override it. However, specifying an empty value (e."
 "g. --setopt=tsflags=) will clear the option."
 msgstr ""
+"Sobrescribir una opción de configuración desde el archivo de configuración. "
+"Para sobrescribir las opciones de configuración para repositorios, use "
+"repoid.option para  la\n"
+"                          <option>.  Valores  para las opciones de "
+"configuración como excludepkgs, includepkgs, installonlypkgs y tsflags son "
+"añadidos al valor original\n"
+"                          no lo sobrescriben. Sin embargo, especificar un "
+"valor vacío (e.g. --setopt=tsflags=) limpiará la opción."
 
 #: main.cpp:237 main.cpp:276
 #, c++-format
