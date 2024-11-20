@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-06 03:01+0000\n"
-"PO-Revision-Date: 2024-11-20 13:56+0000\n"
+"PO-Revision-Date: 2024-11-20 14:12+0000\n"
 "Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5-cli/fi/>\n"
@@ -33,27 +33,27 @@ msgstr "\"{}\" ei ole sallittu yhdessä sijaintiargumentin \"{}\" kanssa"
 
 #: argument_parser.cpp:110
 msgid "Argument id \"{}\" already registered in group \"{}\""
-msgstr ""
+msgstr "Argumenttitunnus \"{}\" on jo rekisteröity ryhmässä \"{}\""
 
 #: argument_parser.cpp:237
 msgid "Invalid character '.' in argument id \"{}\""
-msgstr ""
+msgstr "Virheellinen merkki '.' argumenttitunnuksessa \"{}\""
 
 #: argument_parser.cpp:345 argument_parser.cpp:350
 msgid "Too few values for positional argument \"{}\""
-msgstr ""
+msgstr "Liian vähän arvoja sijaintiargumentille \"{}\""
 
 #: argument_parser.cpp:511
 msgid "Missing value for named argument \"--{}\""
-msgstr ""
+msgstr "Puuttuva arvo nimetylle argumentille \"--{}\""
 
 #: argument_parser.cpp:519
 msgid "Unexpected value for named argument \"--{}\""
-msgstr ""
+msgstr "Odottamaton arvo nimetylle argumentille \"--{}\""
 
 #: argument_parser.cpp:561
 msgid "Missing value for named argument \"-{}\""
-msgstr ""
+msgstr "Puuttuva arvo nimetylle argumentille \"-{}\""
 
 #. print usage
 #: argument_parser.cpp:657
@@ -66,35 +66,35 @@ msgstr "Kuvaus:"
 
 #: argument_parser.cpp:915
 msgid "Command id \"{}\" already registered for command \"{}\""
-msgstr ""
+msgstr "Komentotunnus \"{}\" on jo rekisteröity komennolle \"{}\""
 
 #: argument_parser.cpp:926
 msgid "Named argument id \"{}\" already registered for command \"{}\""
-msgstr ""
+msgstr "Nimetty argumenttitunnus \"{}\" on jo rekisteröity komennolle \"{}\""
 
 #: argument_parser.cpp:936
 msgid "Positional argument id \"{}\" already registered for command \"{}\""
-msgstr ""
+msgstr "Sijaintiargumentin tunnus \"{}\" on jo rekisteröity komennolle \"{}\""
 
 #: argument_parser.cpp:946
 msgid "Group id \"{}\" already registered for command \"{}\""
-msgstr ""
+msgstr "Ryhmätunnus \"{}\" on jo rekisteröity komennolle \"{}\""
 
 #: argument_parser.cpp:973
 msgid "Command id \"{}\" does not contain subcommand with id \"{}\""
-msgstr ""
+msgstr "Komentotunnus \"{}\" ei sisällä alikomentoa tunnuksella \"{}\""
 
 #: argument_parser.cpp:981
 msgid "Command id \"{}\" does not contain named argument with id \"{}\""
-msgstr ""
+msgstr "Komentotunnus \"{}\" ei sisällä nimettyä argumenttia tunnuksella \"{}\""
 
 #: argument_parser.cpp:989
 msgid "Command id \"{}\" does not contain positional argument with id \"{}\""
-msgstr ""
+msgstr "Komentotunnus \"{}\" ei sisällä sijaintiargumenttia tunnuksella \"{}\""
 
 #: argument_parser.cpp:996
 msgid "Command id \"{}\" does not contain group with id \"{}\""
-msgstr ""
+msgstr "Komentotunnus \"{}\" ei sisällä ryhmää, jonka tunnus on \"{}\""
 
 #: argument_parser.cpp:1103 argument_parser.cpp:1307
 msgid "Unknown argument \"{}\" for command \"{}\""
@@ -102,15 +102,15 @@ msgstr "Tuntematon argumentti \"{}\" komennolle \"{}\""
 
 #: argument_parser.cpp:1118 argument_parser.cpp:1322
 msgid "Missing positional argument \"{}\" for command \"{}\""
-msgstr ""
+msgstr "Puuttuva sijaintiargumentti \"{}\" komennolle \"{}\""
 
 #: argument_parser.cpp:1525
 msgid "Named argument with path id \"{}\" not found"
-msgstr ""
+msgstr "Nimettyä argumenttia polkutunnuksella \"{}\" ei löydy"
 
 #: argument_parser.cpp:1535
 msgid "Positional argument with path id \"{}\" not found"
-msgstr ""
+msgstr "Sijaintiargumenttia polkutunnuksella \"{}\" ei löydy"
 
 #: exception.cpp:30
 msgid "Operation aborted by the user."
@@ -118,7 +118,7 @@ msgstr "Toimenpide peruttu käyttäjän toimesta."
 
 #: exception.cpp:33
 msgid "Failed to resolve the transaction"
-msgstr ""
+msgstr "Tapahtuman ratkaiseminen epäonnistui"
 
 #: output/moduleinfo.cpp:36
 msgid "Hint: [d]efault, [e]nabled, [x]disabled, [i]nstalled, [a]ctive"
