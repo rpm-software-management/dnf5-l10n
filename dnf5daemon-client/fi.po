@@ -4,13 +4,15 @@
 # Jiri Grönroos <jiri.gronroos@iki.fi>, 2024.
 # Ville-Pekka Vainio <vpvainio@iki.fi>, 2024.
 # Ricky Tigg <ricky.tigg@gmail.com>, 2024.
+# Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-06 03:02+0000\n"
-"PO-Revision-Date: 2024-11-20 13:17+0000\n"
-"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
+"PO-Revision-Date: 2024-11-20 13:53+0000\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5daemon-client/fi/>\n"
 "Language: fi\n"
@@ -26,90 +28,89 @@ msgstr "Hallitse päivitysilmoituksia"
 
 #: commands/advisory/advisory_info.hpp:34
 msgid "Print details about advisories"
-msgstr "Tulosta tiedot päivitysilmoituksista"
+msgstr "Tulosta tiedot neuvoista"
 
 #: commands/advisory/advisory_list.hpp:34
 msgid "List advisories"
-msgstr "Luettele päivitysilmoitukset"
+msgstr "Luettele neuvot"
 
 #: commands/advisory/arguments.hpp:32
 msgid "Show advisories containing any version of installed packages."
 msgstr ""
-"Näytä päivitysilmoitukset, jotka sisältävät minkä tahansa version "
-"asennetuista paketeista."
+"Näytä neuvoja, jotka sisältävät minkä tahansa version asennettuista "
+"paketeista."
 
 #: commands/advisory/arguments.hpp:43
 msgid ""
 "Show advisories containing newer versions of installed packages. This is the "
 "default behavior."
 msgstr ""
-"Näytä päivitysilmoitukset, jotka sisältävät asennettujen pakettien uudempia "
-"versioita. Tämä on oletustoiminto."
+"Näytä neuvoja, jotka sisältävät asennettujen pakettien uudempia versioita. "
+"Tämä on oletustoiminto."
 
 #: commands/advisory/arguments.hpp:55
 msgid ""
 "Show advisories containing equal and older versions of installed packages."
 msgstr ""
-"Näytä päivitysilmoitukset, jotka sisältävät asennettujen pakettien vastaavia "
-"ja vanhempia versioita."
+"Näytä neuvoja, jotka sisältävät asennettujen pakettien vastaavia ja "
+"vanhempia versioita."
 
 #: commands/advisory/arguments.hpp:67
 msgid ""
 "Show advisories containing newer versions of installed packages for which a "
 "newer version is available."
 msgstr ""
-"Näytä päivitysilmoitukset, jotka sisältävät asennettujen pakettien uudempia "
-"versioita, joille on saatavilla uudempi versio."
+"Näytä neuvoja, jotka sisältävät asennettujen pakettien uudempia versioita, "
+"joille on saatavilla uudempi versio."
 
 #: commands/advisory/arguments.hpp:80
 msgid ""
 "Show only advisories containing packages with specified names. List option, "
 "supports globs."
 msgstr ""
-"Näytä vain päivitysilmoituksia, jotka sisältävät paketteja tietyillä "
-"nimillä. Luettelovalitsin, tukee globeja."
+"Näytä vain neuvoja, jotka sisältävät paketteja tietyillä nimillä. "
+"Luettelovaihtoehto, tukee globeja."
 
 #: commands/advisory/arguments.hpp:81
 msgid "PACKAGE_NAME,..."
-msgstr ""
+msgstr "PAKETIN_NIMI,..."
 
 #: commands/advisory/arguments.hpp:88
 msgid "List of patterns matched against advisory names."
-msgstr "Luettelo lausekkeista, jotka vastaavat päivitysilmoitusten nimiä."
+msgstr "Luettelo lausekkeista, jotka vastaavat neuvojen nimiä."
 
 #: commands/advisory/arguments.hpp:95
 msgid "Show only advisories referencing a bugzilla."
-msgstr "Näytä vain bugzilaan viittaavat päivitysilmoitukset."
+msgstr "Näytä vain bugzilaan viittaavat neuvot."
 
 #: commands/advisory/arguments.hpp:102
 msgid "Show only advisories referencing a CVE."
-msgstr "Näytä vain CVE:hen viittaavat päivitysilmoitukset."
+msgstr "Näytä vain CVE:hen viittaavat neuvot."
 
 #: commands/advisory/arguments.hpp:113
 msgid "Limit to packages in advisories with specified name. List option."
 msgstr ""
-"Rajoita paketit tietyllä nimellä oleviin päivitysilmoituksiin. "
-"Luettelovalitsin."
+"Rajoita neuvoissa tietyllä nimellä oleviin paketteihin. Luettelovaihtoehto."
 
 #: commands/advisory/arguments.hpp:114
 msgid "ADVISORY_NAME,..."
-msgstr "PÄIVITYSILMOITUKSEN_NIMI,..."
+msgstr "NEUVON_NIMI,..."
 
 #: commands/advisory/arguments.hpp:121
 msgid "Limit to packages in security advisories."
-msgstr "Rajoita turvallisuuspäivitysilmoituksissa oleviin paketteihin."
+msgstr "Rajoita turvallisuusneuvoissa oleviin paketteihin."
 
 #: commands/advisory/arguments.hpp:128
 msgid "Limit to packages in bugfix advisories."
-msgstr "Rajoita virheenkorjauspäivitysilmoituksissa oleviin paketteihin."
+msgstr "Rajoita virheenkorjausneuvoissa oleviin paketteihin."
 
 #: commands/advisory/arguments.hpp:135
 msgid "Limit to packages in enhancement advisories."
-msgstr "Rajoita parannuspäivitysilmoituksissa oleviin paketteihin."
+msgstr "Rajoita parannusneuvoissa oleviin paketteihin."
 
 #: commands/advisory/arguments.hpp:142
 msgid "Limit to packages in newpackage advisories."
-msgstr "Rajoita uusien pakettien päivitysilmoituksissa oleviin paketteihin."
+msgstr "Rajoita uusi_paketti-neuvoissa oleviin paketteihin."
 
 #. Note for translators: "critical" etc. quoted words are
 #. literals that should not be translated.
@@ -118,38 +119,38 @@ msgid ""
 "Limit to packages in advisories with specified severity. List option. Can be "
 "\"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgstr ""
-"Rajoita paketteihin, joiden päivitysilmoituksessa on annettu vakavuusaste. "
-"Luettelovalitsin. Voi olla ”critical”, ”important”, ”moderate”, ”low”, "
-"”none”."
+"Rajoita neuvoissa määrätyllä vakavuudella oleviin paketteihin. "
+"Luettelovaihtoehto. Voi olla 'critical', 'important', 'moderate', 'low', "
+"'none'."
 
 #: commands/advisory/arguments.hpp:157
 msgid "ADVISORY_SEVERITY,..."
-msgstr "PÄIVITYSILMOITUKSEN_VAKAVUUS..."
+msgstr "NEUVON_VAKAVUUS..."
 
 #: commands/advisory/arguments.hpp:169
 msgid ""
 "Limit to packages in advisories that fix a Bugzilla ID, Eg. 123123. List "
 "option."
 msgstr ""
-"Rajoita päivitysilmoituksissa oleviin paketteihin, jotka korjaavat Bugzillan "
-"tunnuksen, esim. 123123. Luettelovalitsin."
+"Rajoita neuvoissa oleviin paketteihin, jotka korjaavat Bugzilla ID:n, esim. "
+"123123. Luettelovaihtoehto."
 
 #: commands/advisory/arguments.hpp:170
 msgid "BUGZILLA_ID,..."
-msgstr ""
+msgstr "BUGZILLAN_TUNNUS,..."
 
 #: commands/advisory/arguments.hpp:180
 msgid ""
 "Limit to packages in advisories that fix a CVE (Common Vulnerabilities and "
 "Exposures) ID, Eg. CVE-2201-0123. List option."
 msgstr ""
-"Rajoita päivitysilmoituksessa oleviin paketteihin, jotka korjaavat CVE ("
-"Common Vulnerabilities and Exposures)-tunnuksen, esim. CVE-2201-0123. "
-"Luettelovalitsin."
+"Rajoita neuvoissa oleviin paketteihin, jotka korjaavat CVE (Common "
+"Vulnerabilities and Exposures)-tunnuksen, esim. CVE-2201-0123. "
+"Luettelovaihtoehto."
 
 #: commands/advisory/arguments.hpp:182
 msgid "CVE_ID,..."
-msgstr ""
+msgstr "CVE-TUNNUS,..."
 
 #: commands/clean/clean.cpp:88
 msgid "Error cleaning the cache: {}"
@@ -183,8 +184,8 @@ msgid ""
 "Show only groups containing packages with specified names. List option, "
 "supports globs."
 msgstr ""
-"Näytä vain ryhmät, jotka sisältävät paketteja annetuilla nimillä. "
-"Luettelovalitsin, tukee globeja."
+"Näytä vain ryhmät, jotka sisältävät paketteja tietyillä nimillä. "
+"Luettelovaihtoehto, tukee globeja."
 
 #: commands/repo/repo.cpp:37
 msgid "Manage repositories"
@@ -203,6 +204,8 @@ msgid ""
 "This command has to be run with superuser privileges (under the root user on "
 "most systems)."
 msgstr ""
+"Tämä komento on suoritettava pääkäyttäjän oikeuksilla (käyttäjänä root "
+"useimmissa järjestelmissä)."
 
 #: main.cpp:157
 msgid ""
