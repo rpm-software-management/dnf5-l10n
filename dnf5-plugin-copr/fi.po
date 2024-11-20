@@ -2,13 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Jiri Grönroos <jiri.gronroos@iki.fi>, 2024.
+# Ricky Tigg <ricky.tigg@gmail.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-06 03:02+0000\n"
 "PO-Revision-Date: 2024-11-20 13:17+0000\n"
-"Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
+"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5-plugin-copr/fi/>\n"
 "Language: fi\n"
@@ -20,7 +21,7 @@ msgstr ""
 
 #: copr.cpp:48
 msgid "Copr hub (the web-UI/API server) hostname"
-msgstr ""
+msgstr "Copr-keskittimen (web-UI/API-palvelin) isäntänimi"
 
 #: copr.cpp:88
 #, c++-format
@@ -33,16 +34,26 @@ msgid ""
 "fedorainfracloud.org ) or the shortcut (e.g. fedora).  Example: 'fedora/"
 "@footeam/coolproject'."
 msgstr ""
+"Copr-projektin tunnus vastaanottajalle {}. Käytä joko muotoa OMISTAJA/"
+"PROJEKTI tai KESKITIN/OMISTAJA/PROJEKTI (jos KESKITINtä ei ole määritetty, "
+"käytetään oletusmuotoa tai `--hub <ARG>`. OMISTAJA on joko käyttäjänimi tai @"
+"ryhmän nimi. PROJEKTI voi olla yksinkertainen projektin nimi tai "
+"\"projektihakemisto\", joka sisältää kaksoispisteet, esim. "
+"'projekti:muokattu:123', KESKITIN voi olla joko Copr-käyttöliittymän nimi ("
+"esim. copr.fedorainfracloud.org ) tai pikakuvake (esim. fedora). Esimerkki: "
+"\"fedora/@foo-joukkue/hienoprojekti\"."
 
 #: copr.cpp:106
 #, c++-format
 msgid "Invalid PROJECT_SPEC format '{}'"
-msgstr ""
+msgstr "Virheellinen PROJECT_SPEC-muoto '{}'"
 
 #: copr_constants.hpp:27
 msgid ""
 "Manage Copr repositories (add-ons provided by users/community/third-party)"
 msgstr ""
+"Hallinnoi Copr-tietovarastoja (käyttäjien/yhteisön/kolmannen osapuolen "
+"toimittamat lisäosat)"
 
 #: copr_constants.hpp:29
 msgid ""
