@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-06 03:02+0000\n"
-"PO-Revision-Date: 2024-11-20 13:53+0000\n"
+"PO-Revision-Date: 2024-11-21 09:12+0000\n"
 "Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/fi/>\n"
@@ -774,11 +774,11 @@ msgstr ""
 #: commands/versionlock/versionlock_add.cpp:106
 #: commands/versionlock/versionlock_exclude.cpp:125
 msgid "No package found for \"{}\"."
-msgstr ""
+msgstr "Pakettia ei löydy \"{}\":lle."
 
 #: commands/versionlock/versionlock_add.cpp:124
 msgid "Adding versionlock on \"{0} = {1}\"."
-msgstr ""
+msgstr "Lisätään versiolukitus \"{0} = {1}\":lle."
 
 #: commands/versionlock/versionlock_add.cpp:127
 msgid "Package \"{}\" is already locked."
@@ -786,19 +786,20 @@ msgstr "Paketti ”{}” on jo lukittu."
 
 #: commands/versionlock/versionlock_clear.cpp:32
 msgid "Remove all entries from versionlock configuration"
-msgstr ""
+msgstr "Poista kaikki merkinnät versiolukituskokoonpanosta"
 
 #: commands/versionlock/versionlock_delete.cpp:35
 msgid "Remove any matching versionlock configuration entries"
-msgstr ""
+msgstr "Poista kaikki vastaavat versiolukitusmääritysmerkinnät"
 
 #: commands/versionlock/versionlock_delete.cpp:41
 msgid "List of package specs to remove versionlock for"
 msgstr ""
+"Luettelo pakettien teknisistä tiedoista, joiden versiolukitus poistetaan"
 
 #: commands/versionlock/versionlock_delete.cpp:55
 msgid "Deleting versionlock entry:"
-msgstr ""
+msgstr "Poistetaan versiolukitusmerkintää:"
 
 #: commands/versionlock/versionlock_exclude.cpp:37
 msgid "Add new exclude entry to versionlock configuration"
@@ -830,6 +831,8 @@ msgid ""
 " Fingerprint: {}\n"
 " From       : {}\n"
 msgstr ""
+" Sormenjälki: {}\n"
+" Lähde: {}\n"
 
 #: context.cpp:87
 msgid "The key was successfully imported."
@@ -848,12 +851,12 @@ msgid ""
 "No matching repositories for {}. To use repositories from a host system, "
 "pass --use-host-config option"
 msgstr ""
+"Ei vastaavia tietovarastoja {}:lle. Jos haluat käyttää tietovarastoja "
+"isäntäjärjestelmästä, syötä vaihtoehto `--use-host-config`"
 
 #: context.cpp:276
-#, fuzzy
-#| msgid "No matching packages to list"
 msgid "No matching repositories for {}"
-msgstr "Ei yhtään vastaavaa pakettia lueteltavaksi"
+msgstr "Ei vastaavia tietovarastoja {}:lle"
 
 #: context.cpp:322
 msgid "Updating and loading repositories:"
@@ -865,7 +868,7 @@ msgstr "Ohjelmistolähteet ladattu."
 
 #: context.cpp:338
 msgid "Testing offline transaction"
-msgstr ""
+msgstr "Testataan ei-verkkotapahtumaa"
 
 #: context.cpp:342 context.cpp:497
 #, fuzzy
