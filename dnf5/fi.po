@@ -10,9 +10,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-06 03:02+0000\n"
-"PO-Revision-Date: 2024-11-21 10:33+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2024-11-21 12:27+0000\n"
+"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/fi/>\n"
 "Language: fi\n"
@@ -89,7 +88,7 @@ msgid ""
 "supports globs."
 msgstr ""
 "Näytä vain neuvoja, jotka sisältävät paketteja tietyillä nimillä. "
-"Luettelovaihtoehto, tukee globeja."
+"Luettelovaihtoehto, tukee laajamittaisia."
 
 #: commands/advisory/arguments.hpp:83
 msgid "PACKAGE_NAME,..."
@@ -291,7 +290,7 @@ msgid ""
 "supports globs."
 msgstr ""
 "Näytä vain ryhmät, jotka sisältävät paketteja tietyillä nimillä. "
-"Luettelovaihtoehto, tukee globeja."
+"Luettelovaihtoehto, tukee laajamittaisia."
 
 #: commands/group/arguments.hpp:67
 msgid "Pattern matching group IDS."
@@ -804,7 +803,7 @@ msgstr "Poistetaan versiolukitusmerkintää:"
 
 #: commands/versionlock/versionlock_exclude.cpp:37
 msgid "Add new exclude entry to versionlock configuration"
-msgstr ""
+msgstr "Lisää uusi poissulkemismerkintä versiolukitusmääritykseen"
 
 #: commands/versionlock/versionlock_exclude.cpp:43
 msgid "List of package specs to add versionlock exclude for"
@@ -813,7 +812,7 @@ msgstr ""
 #: commands/versionlock/versionlock_exclude.cpp:88
 #: commands/versionlock/versionlock_exclude.cpp:100
 msgid "Adding versionlock exclude on \"{0} = {1}\"."
-msgstr ""
+msgstr "Lisätään versiolukituksen poissulkeminen \"{0} = {1}\":een."
 
 #: commands/versionlock/versionlock_exclude.cpp:139
 msgid "Package \"{}\" is already excluded."
@@ -853,7 +852,7 @@ msgid ""
 "pass --use-host-config option"
 msgstr ""
 "Ei vastaavia tietovarastoja {}:lle. Jos haluat käyttää tietovarastoja "
-"isäntäjärjestelmästä, syötä vaihtoehto `--use-host-config`"
+"isäntäjärjestelmästä, välitä vaihtoehto `--use-host-config`"
 
 #: context.cpp:276
 msgid "No matching repositories for {}"
@@ -1075,7 +1074,7 @@ msgstr ""
 
 #: main.cpp:269
 msgid "set arbitrary variable"
-msgstr ""
+msgstr "aseta mielivaltainen muuttuja"
 
 #: main.cpp:283
 msgid "setvar: {}"
@@ -1091,7 +1090,7 @@ msgstr "vastaa automaattisesti ”ei” kaikkiin kysymyksiin"
 
 #: main.cpp:306
 msgid "try the best available package versions in transactions"
-msgstr ""
+msgstr "kokeile parhaita saatavilla olevia pakettiversioita tapahtumissa"
 
 #: main.cpp:313
 msgid "do not limit the transaction to the best candidate"
@@ -1102,6 +1101,8 @@ msgid ""
 "Don't install files that are marked as documentation (which includes man "
 "pages and texinfo documents)"
 msgstr ""
+"Älä asenna tiedostoja, jotka on merkitty dokumentaatioksi (joka sisältää man-"
+"sivut ja texinfo-asiakirjat)"
 
 #: main.cpp:340
 msgid "exclude packages by name or glob"
@@ -1128,6 +1129,8 @@ msgid ""
 "Enable just specific repositories. List option. Supports globs, can be "
 "specified multiple times."
 msgstr ""
+"Ota käyttöön vain tietyt tietovarastot. Luettelovaihtoehto. Tukee "
+"laajamittaisia, voidaan määrittää useita kertoja."
 
 #: main.cpp:417
 msgid "disable gpg signature checking (if RPM policy allows)"
@@ -1143,12 +1146,16 @@ msgid ""
 "Enable libdnf5 plugins by name. List option. Supports globs, can be "
 "specified multiple times."
 msgstr ""
+"Ota libdnf5-lisäosat käyttöön nimen mukaan. Luettelovaihtoehto. Tukee "
+"laajamittaisia, voidaan määrittää useita kertoja."
 
 #: main.cpp:458
 msgid ""
 "Disable libdnf5 plugins by name. List option. Supports globs, can be "
 "specified multiple times."
 msgstr ""
+"Poista libdnf5-lisäosat käytöstä nimen mukaan. Luettelovaihtoehto. Tukee "
+"laajamittaisia, voidaan määrittää useita kertoja."
 
 #: main.cpp:475
 msgid "add a comment to transaction"
@@ -1159,6 +1166,8 @@ msgid ""
 "Adds a comment to the action. If a transaction takes place, the comment is "
 "stored in it."
 msgstr ""
+"Lisää kommentin toimenpiteeseen. Jos tapahtuma toteutuu, kommentti "
+"tallennetaan siihen."
 
 #: main.cpp:490
 msgid "set install root"
@@ -1169,6 +1178,8 @@ msgid ""
 "use configuration, reposdir, and vars from the host system rather than the "
 "installroot"
 msgstr ""
+"käytä kokoonpanoa, tietovarastohakemistoa ja muuttujia isäntäjärjestelmästä "
+"asennusjuuren sijaan"
 
 #: main.cpp:506
 msgid "override the value of $releasever in config and repo files"
@@ -1179,19 +1190,23 @@ msgid ""
 "Show newly installed leaf packages and packages that became leaves after a "
 "transaction."
 msgstr ""
+"Näytä äskettäin asennetut lehtipaketit ja paketit, joista tuli tapahtuman "
+"seurauksena lehtiä."
 
 #: main.cpp:533
 msgid "Dump detailed solving results into files"
-msgstr ""
+msgstr "Upota yksityiskohtaiset ratkaisutulokset tiedostoihin"
 
 #: main.cpp:542
 msgid "Print main configuration values to stdout"
-msgstr ""
+msgstr "Tulosta päämääritysarvot stdout:een"
 
 #: main.cpp:559
 msgid ""
 "Print repository configuration values to stdout. List option. Supports globs"
 msgstr ""
+"Tulosta tietovaraston määritysarvot stdout:een. Luettelovaihtoehto. Tukee "
+"laajamittaisia"
 
 #: main.cpp:574
 msgid "Print variable values to stdout"
@@ -1203,7 +1218,7 @@ msgstr "Näytä DNF5:n versio ja poistu"
 
 #: main.cpp:595
 msgid "Force the use of a different architecture."
-msgstr ""
+msgstr "Pakota käyttämään eri arkkitehtuurin."
 
 #: main.cpp:633
 msgid "Software Management Commands:"
@@ -1277,15 +1292,15 @@ msgstr ""
 
 #: main.cpp:849
 msgid "======== Main configuration: ========"
-msgstr ""
+msgstr "======== Pääkokoonpano: ========"
 
 #: main.cpp:886
 msgid "No matching repo to dump configuration: \"{}\""
-msgstr ""
+msgstr "Ei vastaavaa tietovarastoa, mihin upota kokoonpano: \"{}\""
 
 #: main.cpp:891
 msgid "======== \"{}\" repository configuration: ========"
-msgstr ""
+msgstr "======== Tietovaraston \"{}\" kokoonpano: ========"
 
 #: main.cpp:911
 msgid "======== Variables: ========"
@@ -1301,11 +1316,11 @@ msgstr ""
 
 #: main.cpp:997
 msgid "{} to skip unavailable packages"
-msgstr ""
+msgstr "{} ei-saatavilla olevien pakettien ohittamiseksi"
 
 #: main.cpp:1005
 msgid "{} to allow extra packages in the transaction"
-msgstr ""
+msgstr "{} ylimääräisten pakettien sallimiseksi tapahtumassa"
 
 #: main.cpp:1018
 msgid ""
@@ -1313,38 +1328,47 @@ msgid ""
 "This can result in an empty transaction because among other things the "
 "option can ignore failing Remove actions."
 msgstr ""
+"{} asennettujen ja tallennettujen tapahtumapakettien välillisten erojen "
+"sallimiseksi. Tämä voi johtaa tyhjään tapahtumaan, koska vaihtoehto voi muun "
+"muassa jättää huomiotta epäonnistuneet Poista-toiminnot."
 
 #: main.cpp:1065
 msgid "{} to not limit the transaction to the best candidates"
-msgstr ""
+msgstr "{}, jotta tapahtumaa ei rajoiteta parhaisiin ehdokkaisiin"
 
 #: main.cpp:1072
 msgid "{} to allow removing of installed packages to resolve problems"
 msgstr ""
+"{} mahdollistaakseen asennettujen pakettien poistamisen ongelmien "
+"ratkaisemiseksi"
 
 #: main.cpp:1080
 msgid "{} to load additional filelists metadata"
-msgstr ""
+msgstr "{} lisää tiedostolistan metatietojen lataamiseksi"
 
 #: main.cpp:1087
 msgid "{} to skip uninstallable packages"
-msgstr ""
+msgstr "{} ei-asennettavissa olevien pakettien ohittamiseksi"
 
 #: main.cpp:1093
 msgid "You can try to add to command line:"
-msgstr ""
+msgstr "Voit yrittää lisätä komentoriville:"
 
 #: main.cpp:1111
 msgid ""
 "No matches were found for the following plugin name patterns while enabling "
 "libdnf plugins: {}"
 msgstr ""
+"Seuraaville lisäosien nimimalleille ei löytynyt osumia, kun libdnf-lisäosat "
+"otettiin käyttöön: {}"
 
 #: main.cpp:1112
 msgid ""
 "No matches were found for the following plugin name patterns while disabling "
 "libdnf plugins: {}"
 msgstr ""
+"Seuraaville lisäosien nimimalleille ei löytynyt osumia, kun libdnf-lisäosat "
+"poistettiin käytöstä: {}"
 
 #: main.cpp:1208
 msgid "--- DNF5 launched with arguments: \"{}\" ---"
@@ -1356,18 +1380,19 @@ msgstr ""
 
 #: main.cpp:1262 main.cpp:1445
 msgid "{}. Add \"--help\" for more information about the arguments."
-msgstr ""
+msgstr "{}. Lisää `--help` lisätietojen saamiseksi argumenteista."
 
 #: main.cpp:1269
 msgid ""
 "It could be a command provided by a plugin, try: dnf5 install 'dnf5-"
 "command({})'"
 msgstr ""
+"Se voi olla lisäosan tarjoama komento; kokeile `dnf5 install "
+"'dnf5-command({})'`"
 
 #: main.cpp:1311
 msgid "No read/execute access in current directory, moving to /"
-msgstr ""
-"Ei luku-/suoritusoikeuksia nykyisessä hakemistossa, siirrytään hakemistoon /"
+msgstr "Ei luku-/suoritusoikeuksia nykyisessä hakemistossa, siirrytään tähän /"
 
 #: main.cpp:1368
 msgid ""
@@ -1375,26 +1400,33 @@ msgid ""
 "user with elevated rights, or use the \"--assumeno\" or \"--downloadonly\" "
 "options to run the command without modifying the system state."
 msgstr ""
+"Pyydetty toiminto vaatii pääkäyttäjän oikeudet. Kirjaudu sisään käyttäjänä "
+"korotetuilla oikeuksilla tai käytä vaihtoehtoja `--assumeno` tai "
+"`--downloadonly` suorittaaksesi komennon muuttamatta järjestelmän tilaa."
 
 #: main.cpp:1409
 msgid "The operation will only store the transaction in {}"
-msgstr ""
+msgstr "Toiminto tallentaa vain tapahtuman {}:een"
 
 #: main.cpp:1411
 msgid "The operation will only download packages for the transaction."
-msgstr ""
+msgstr "Toiminto lataa vain paketteja tapahtumaa varten."
 
 #: main.cpp:1416
 msgid ""
 "Test mode enabled: Only package downloads, PGP key installations and "
 "transaction checks will be performed."
 msgstr ""
+"Testitila käytössä: Vain pakettien lataukset, PGP-avainten asennukset ja "
+"tapahtumatarkistukset suoritetaan."
 
 #: main.cpp:1433
 msgid ""
 "No repositories were loaded from the installroot. To use the configuration "
 "and repositories of the host system, pass --use-host-config."
 msgstr ""
+"Asennusjuuritasolta ei ulosladattu tietovarastoja. Käyttääksesi "
+"isäntäjärjestelmän kokoonpanoa ja tietovarastoja, välitä `--use-host-config`."
 
 #: main.cpp:1455
 msgid "Command returned error: {}"
@@ -1402,7 +1434,7 @@ msgstr "Komento palautti virheen: {}"
 
 #: main.cpp:1463
 msgid "DNF5 finished"
-msgstr ""
+msgstr "DNF5 valmis"
 
 #: main.cpp:1467
 msgid "Complete!"
@@ -1410,12 +1442,12 @@ msgstr "Valmis!"
 
 #: shared_options.cpp:32
 msgid "Allow removing of installed packages to resolve problems"
-msgstr ""
+msgstr "Salli asennettujen pakettien poistaminen ongelmien ratkaisemiseksi"
 
 #: shared_options.cpp:42
 msgid "Allow resolving of depsolve problems by skipping packages"
-msgstr ""
+msgstr "Salli depsolve-ongelmien ratkaiseminen ohittamalla paketteja"
 
 #: shared_options.cpp:54
 msgid "Allow skipping unavailable packages"
-msgstr ""
+msgstr "Salli ei-saatavilla olevien pakettien ohittaminen"
