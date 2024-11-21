@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-06 03:02+0000\n"
-"PO-Revision-Date: 2024-11-18 19:16+0000\n"
+"PO-Revision-Date: 2024-11-22 11:47+0000\n"
 "Last-Translator: Joan Aymà <joan@ayma.cat>\n"
 "Language-Team: Catalan <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ca/>\n"
@@ -181,30 +181,35 @@ msgid ""
 "advisories is used it reports the lowest versions of packages that fix "
 "advisories matching selected advisory properties"
 msgstr ""
+"Informa de les versions més baixes dels paquets que arreglen avisos "
+"d'errors, millores, seguretat o de paquet nou. En el cas que s'utilitzi "
+"alguna de les opcions per limitar avisos, s'informarà de les versions més "
+"baixes dels paquets que arreglen avisos coincidents amb la sel·lecció de "
+"propietats d'avisos."
 
 #: commands/check/check.cpp:247
 msgid "Check for problems in the packagedb"
-msgstr ""
+msgstr "Comprova si hi ha problemes a la base de dades de paquets"
 
 #: commands/check/check.cpp:335
 #, c++-format
 msgid "Check discovered {} problem(s) in {} package(s)"
-msgstr ""
+msgstr "Comprova {} problema/es descobert(s) en {} paquet(s)"
 
 #: commands/clean/clean.cpp:90
 #, c++-format
 msgid "List of cache types to clean up. Supported types: {0}"
-msgstr ""
+msgstr "Llista els tipus de memòria cau a netejar. Tipus suportats: {0}"
 
 #: commands/clean/clean.cpp:108
 #, c++-format
 msgid "Unknown cache type \"{0}\". Supported types: {1}"
-msgstr ""
+msgstr "Tipus de memòria cau\"{0}\" desconegut. Tipus suportats: {1}"
 
 #: commands/clean/clean.cpp:165
 #, c++-format
 msgid "Failed to cleanup repository cache in path \"{0}\": {1}"
-msgstr ""
+msgstr "Ha fallat al netejar la memòria cau a la ruta \"{0}\": {1}"
 
 #: commands/clean/clean.cpp:175
 #, c++-format
