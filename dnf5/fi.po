@@ -10,9 +10,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-06 03:02+0000\n"
-"PO-Revision-Date: 2024-11-21 09:12+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2024-11-21 10:33+0000\n"
+"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/fi/>\n"
 "Language: fi\n"
@@ -873,7 +872,7 @@ msgstr "Testataan ei-verkkotapahtumaa"
 
 #: context.cpp:342 context.cpp:497
 msgid "Transaction failed: {}"
-msgstr "Tapahtuma epäonnistui:"
+msgstr "Tapahtuma epäonnistui: {}"
 
 #: context.cpp:347 context.cpp:502
 msgid "  - {}"
@@ -883,19 +882,20 @@ msgstr ""
 msgid ""
 "Location \"{}\" already contains a stored transaction, it will be "
 "overwritten."
-msgstr ""
+msgstr "Sijainti \"{}\" sisältää jo tallennetun tapahtuman, se korvataan."
 
 #: context.cpp:443
 msgid ""
 "There is already an offline transaction queued, initiated by the following "
 "command:"
 msgstr ""
+"Jonossa on jo ei-verkkotapahtuma, joka on aloitettu seuraavalla komennolla:"
 
 #: context.cpp:445
 msgid ""
 "Continuing will cancel the old offline transaction and replace it with this "
 "one."
-msgstr ""
+msgstr "Jatkaminen peruuttaa vanhan ei-verkkotapahtuman ja korvaa sen tällä."
 
 #: context.cpp:463
 msgid ""
@@ -903,6 +903,10 @@ msgid ""
 "reboot and run the transaction. To cancel the transaction and delete the "
 "downloaded files, use `dnf5 offline clean`."
 msgstr ""
+"Tapahtuma tallennettu suoritettavaksi ei-verkkotilassa. Suorita `dnf5 "
+"offline reboot` käynnistääksesi uudelleen ja suorittaaksesi tapahtuman. "
+"Käytä `dnf5 offline clean` peruuttaaksesi tapahtuman ja poistaaksesi ladatut "
+"tiedostot."
 
 #: context.cpp:469
 msgid "Running transaction"
@@ -914,7 +918,7 @@ msgstr "Päivitetään {}"
 
 #: context.cpp:789
 msgid "Downgrading {}"
-msgstr ""
+msgstr "Versiota alennetaan {}"
 
 #: context.cpp:792
 msgid "Reinstalling {}"
@@ -922,7 +926,7 @@ msgstr "Asennetaan uudelleen {}"
 
 #: context.cpp:805
 msgid "Unexpected action in TransactionPackage: {}"
-msgstr ""
+msgstr "Odottamaton toimenpide TransactionPackagessa: {}"
 
 #: context.cpp:811
 msgid "Installing {}"
@@ -938,11 +942,11 @@ msgstr "Poistetaan {}"
 
 #: context.cpp:855
 msgid "Cleanup {}"
-msgstr ""
+msgstr "Puhdistus {}"
 
 #: context.cpp:873
 msgid "Unpack error: {}"
-msgstr ""
+msgstr "Pakkauksen purkuvirhe: {}"
 
 #: context.cpp:881
 msgid "Cpio error: {}"
@@ -954,19 +958,19 @@ msgstr ""
 
 #: context.cpp:913
 msgid "Running {} scriptlet: {}"
-msgstr ""
+msgstr "Suoritetaan sovelmaa {}: {}"
 
 #: context.cpp:928
 msgid "Finished {} scriptlet: {}"
-msgstr ""
+msgstr "Valmis sovelma {}: {}"
 
 #: context.cpp:934
 msgid "Non-critical error in {} scriptlet: {}"
-msgstr ""
+msgstr "Ei-kriittinen virhe sovelmassa {}: {}"
 
 #: context.cpp:943
 msgid "Error in {} scriptlet: {}"
-msgstr ""
+msgstr "Virhe sovelmassa {}: {}"
 
 #: context.cpp:973
 msgid "Verify package files"
@@ -978,11 +982,11 @@ msgstr "Jaettua kirjastoa ”{}” ei voi ladata: {}"
 
 #: library.cpp:48
 msgid "Cannot obtain address of symbol \"{}\": {}"
-msgstr ""
+msgstr "Symbolin \"{}\" osoitetta ei voi saada: {}"
 
 #: main.cpp:129
 msgid "Utility for packages maintaining"
-msgstr ""
+msgstr "Apuohjelma pakettien ylläpitoon"
 
 #: main.cpp:130
 msgid "DNF5 is a program for maintaining packages."
@@ -990,11 +994,11 @@ msgstr "DNF5 on ohjelma pakettien hallintaan."
 
 #: main.cpp:131
 msgid "Unclassified options:"
-msgstr ""
+msgstr "Luokittelemattomat vaihtoehdot:"
 
 #: main.cpp:134
 msgid "Global options:"
-msgstr ""
+msgstr "Laajamittaiset vaihtoehdot:"
 
 #: main.cpp:139
 msgid "Print help"
@@ -1010,28 +1014,33 @@ msgid ""
 "content. Suppresses messages notifying about the current state or actions of "
 "dnf5."
 msgstr ""
+"Yhdessä ei-vuorovaikutteisen komennon kanssa näyttää vain asiaankuuluvan "
+"sisällön. Estää viestit, jotka ilmoittavat dnf5:n nykyisestä tilasta tai "
+"toimenpiteistä."
 
 #: main.cpp:169
 msgid ""
 "Run entirely from system cache, don't update the cache and use it even in "
 "case it is expired."
 msgstr ""
+"Suorita kokonaan järjestelmän välimuistista, älä päivitä välimuistia ja "
+"käytä sitä, vaikka se olisi vanhentunut."
 
 #: main.cpp:176
 msgid "Force refreshing metadata before running the command."
-msgstr ""
+msgstr "Pakota metatietojen päivittäminen ennen komennon suorittamista."
 
 #: main.cpp:192
 msgid "Failed to expire repository cache in path \"{0}\": {1}"
-msgstr ""
+msgstr "Tietovaraston välimuistin vanheneminen polussa \"{0}\" epäonnistui: {1}"
 
 #: main.cpp:206
 msgid "create additional repository using id and path"
-msgstr ""
+msgstr "luo lisätietovarasto tunnuksen ja polun avulla"
 
 #: main.cpp:214
 msgid "repofrompath: Incorrect repoid and path specification \"{}\""
-msgstr ""
+msgstr "repofrompath: Virheellinen tietovaraston tunnus ja polkumääritys \"{}\""
 
 #: main.cpp:226
 msgid "set arbitrary config and repo options"
