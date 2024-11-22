@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-06 03:01+0000\n"
-"PO-Revision-Date: 2024-11-22 12:05+0000\n"
+"PO-Revision-Date: 2024-11-23 12:38+0000\n"
 "Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/fi/>\n"
@@ -660,31 +660,23 @@ msgid ", "
 msgstr ""
 
 #: base/transaction.cpp:1422
-#, fuzzy
-#| msgid "Warning: skipped PGP checks for {0} packages from repository: {1}"
-#| msgid_plural ""
-#| "Warning: skipped PGP checks for {0} packages from repositories: {1}"
 msgid "Warning: skipped PGP checks for {0} package from repository: {1}"
 msgid_plural ""
 "Warning: skipped PGP checks for {0} packages from repository: {1}"
 msgstr[0] ""
 "Varoitus: ohitettiin PGP-tarkistukset {0}:lle tietotovarastosta peräisin "
-"paketteille: {1}"
+"paketille: {1}"
 msgstr[1] ""
-"Varoitus: ohitettiin PGP-tarkistukset {0}:lle tietotovarastoista peräisin "
+"Varoitus: ohitettiin PGP-tarkistukset {0}:lle tietotovarastosta peräisin "
 "paketteille: {1}"
 
 #: base/transaction.cpp:1425
-#, fuzzy
-#| msgid "Warning: skipped PGP checks for {0} packages from repository: {1}"
-#| msgid_plural ""
-#| "Warning: skipped PGP checks for {0} packages from repositories: {1}"
 msgid "Warning: skipped PGP checks for {0} package from repositories: {1}"
 msgid_plural ""
 "Warning: skipped PGP checks for {0} packages from repositories: {1}"
 msgstr[0] ""
-"Varoitus: ohitettiin PGP-tarkistukset {0}:lle tietotovarastosta peräisin "
-"paketteille: {1}"
+"Varoitus: ohitettiin PGP-tarkistukset {0}:lle tietotovarastoista peräisin "
+"paketille: {1}"
 msgstr[1] ""
 "Varoitus: ohitettiin PGP-tarkistukset {0}:lle tietotovarastoista peräisin "
 "paketteille: {1}"
@@ -712,7 +704,7 @@ msgstr ""
 
 #: comps/environment/environment.cpp:312
 msgid "failed to save xml document for comps"
-msgstr ""
+msgstr "xml-asiakirjan tallentaminen compsille epäonnistui"
 
 #: comps/group/group.cpp:343
 msgid "Failed to save xml document for group \"{}\" to file \"{}\": {}"
@@ -992,26 +984,29 @@ msgid ""
 "Failed to load repository: \"primary\" data not present or in unsupported "
 "format"
 msgstr ""
+"Tietovaraston lataaminen epäonnistui: \"ensisijaista\" dataa ei ole tai se "
+"ei ole tuetussa muodossa"
 
 #: repo/repo.cpp:466
 msgid "Failed to load comps \"{}\": doesn't have the \".xml\" extension"
 msgstr ""
+"comps:n \"{}\" lataaminen epäonnistui: sillä ei ole \".xml\" -laajennusta"
 
 #: repo/repo.cpp:473
 msgid "Failed to load xml Comps \"{}\": {}"
-msgstr ""
+msgstr "xml Comps:n \"{}\" lataaminen epäonnistui: {}"
 
 #: repo/repo.cpp:490
 msgid "Failed to load RPM \"{}\": {}"
-msgstr ""
+msgstr "RPM:n \"{}\" lataaminen epäonnistui: {}"
 
 #: repo/repo_cache.cpp:229
 msgid "Unable to determine id of the repository in the cache."
-msgstr ""
+msgstr "Välimuistissa olevan tietovaraston tunnusta ei voi määrittää."
 
 #: repo/repo_cache_private.hpp:56
 msgid "Empty path to the repository cache directory."
-msgstr ""
+msgstr "Tyhjä polku tietovaraston välimuistihakemistoon."
 
 #: repo/repo_downloader.cpp:139
 msgid "Librepo error: {}"
@@ -1019,28 +1014,34 @@ msgstr "Librepo-virhe: {}"
 
 #: repo/repo_downloader.cpp:171
 msgid "Failed to download metadata ({}: \"{}\") for repository \"{}\""
-msgstr ""
+msgstr "Tietovaraston \"{}\" metatietojen ({}: \"{}\") lataaminen epäonnistui"
 
 #: repo/repo_downloader.cpp:242
 msgid "Error checking if metalink \"{}\" is in sync for repository \"{}\""
 msgstr ""
+"Virhe tarkistettaessa, onko metalink \"{}\" synkronoitu tietovarastolle \"{}"
+"\""
 
 #: repo/repo_downloader.cpp:272
 msgid "Error checking if repomd ({}: \"{}\") is in sync for repository \"{}\""
 msgstr ""
+"Virhe tarkistettaessa, onko repomd ({}: \"{}\") synkronoitu tietovaraston \""
+"{}\" kanssa"
 
 #: repo/repo_downloader.cpp:336
 msgid "Error loading local metadata for repository \"{}\""
-msgstr ""
+msgstr "Virhe ladattaessa paikallisia metatietoja tietovarastolle \"{}\""
 
 #: repo/repo_downloader.cpp:456
 msgid ""
 "No valid source (baseurl, mirrorlist or metalink) found for repository \"{}\""
 msgstr ""
+"Tietovarastolle \"{}\" ei löytynyt kelvollista lähdettä (baseurl, "
+"peililuettelo tai metalink)"
 
 #: repo/repo_pgp.cpp:60
 msgid "Failed to import pgp keys into temporary keyring: {}"
-msgstr ""
+msgstr "PGP-avainten tuonti väliaikaiseen avainrenkaaseen epäonnistui: {}"
 
 #: repo/repo_pgp.cpp:66 repo/repo_pgp.cpp:93
 msgid "Failed to list pgp keys: {}"
@@ -1055,10 +1056,12 @@ msgid ""
 "Failed to create repo \"{}\": Id is present more than once in the "
 "configuration"
 msgstr ""
+"Tietovaraston \"{}\" luominen epäonnistui: Tunnus on useammin kuin kerran "
+"määrityksessä"
 
 #: repo/repo_sack.cpp:517
 msgid "Cache-only enabled but no cache for repository \"{}\""
-msgstr ""
+msgstr "Vain välimuisti käytössä, mutta ei välimuistia tietovarastolle \"{}\""
 
 #: repo/solv_repo.cpp:261
 msgid "Failed to load repomd for repo \"{}\" from \"{}\": {}."
@@ -1071,22 +1074,27 @@ msgstr ""
 #: repo/solv_repo.cpp:316
 msgid "Unsupported extended repodata type for the system repo: \"{}\"."
 msgstr ""
+"Ei tuettu laajennettua repodata-tyyppiä järjestelmätietovarastolle: \"{}\"."
 
 #: repo/solv_repo.cpp:382
 msgid "Failed to load {} extension for repo \"{}\" from \"{}\": {}"
 msgstr ""
+"{} laajennuksen lataaminen \"{}\":sta tietovarastolle \"{}\" epäonnistui: {}"
 
 #: repo/solv_repo.cpp:418
 msgid "Failed to load system repo from root \"{}\": {}"
-msgstr ""
+msgstr "Järjestelmätietovaraston lataaminen juurelta \"{}\" epäonnistui: {}"
 
 #: repo/solv_repo.cpp:519
 msgid "Failed to load {} cache for repo \"{}\" from \"{}\": {}"
 msgstr ""
+"Tietovaraston \"{}\" välimuistin {} lataaminen \"{}\":sta epäonnistui: {}"
 
 #: repo/solv_repo.cpp:573
 msgid "Failed to write primary cache for repo \"{}\" to \"{}\": {}"
 msgstr ""
+"Tietovaraston \"{}\" ensisijaisen välimuistin kirjoittaminen \"{}\":een "
+"epäonnistui: {}"
 
 #: repo/solv_repo.cpp:595
 msgid "Failed to re-load primary cache for repo \"{}\" from \"{}\": {}"
@@ -1104,26 +1112,28 @@ msgstr ""
 msgid ""
 "An error occurred when parsing the temporary files memory file at '{}': {}"
 msgstr ""
+"Tapahtui virhe jäsennettäessä väliaikaisten tiedostojen muistitiedostoa "
+"'{}':lla: {}"
 
 #: rpm/nevra.cpp:82
 msgid "NEVRA string \"{}\" contains ':' multiple times"
-msgstr ""
+msgstr "NEVRA-merkkijono \"{}\" sisältää \":\" useita kertoja"
 
 #: rpm/nevra.cpp:86
 msgid "Invalid character '{}' in NEVRA string \"{}\""
-msgstr ""
+msgstr "Virheellinen merkki '{}' NEVRA-merkkijonossa \"{}\""
 
 #: rpm/package.cpp:80
 msgid "Package with rpmdbid was not found"
-msgstr ""
+msgstr "Pakettia rpmdbidin kanssa ei löytynyt"
 
 #: rpm/reldep.cpp:116 rpm/reldep.cpp:123
 msgid "Cannot parse a dependency string"
-msgstr ""
+msgstr "Riippuvuusmerkkijonoa ei voi jäsentää"
 
 #: rpm/rpm_signature.cpp:45
 msgid "No corresponding key was found."
-msgstr ""
+msgstr "Vastaavaa avainta ei löytynyt."
 
 #: rpm/rpm_signature.cpp:46
 msgid "The signature is valid, but the key is not trusted."
@@ -1143,16 +1153,16 @@ msgstr ""
 
 #: rpm/rpm_signature.cpp:283
 msgid "\"{}\": key is not an armored public key."
-msgstr ""
+msgstr "\"{}\": avain ei ole panssaroitu julkinen avain."
 
 #: rpm/rpm_signature.cpp:288
 msgid "Failed to import public key \"{}\" to rpmdb: {}"
-msgstr ""
+msgstr "Julkisen avaimen \"{}\" tuonti rpmdb:hen epäonnistui: {}"
 
 #. TODO(jrohel): Why? Librpm does not provide this information.
 #: rpm/transaction.cpp:112
 msgid "Cannot set root directory \"{}\""
-msgstr ""
+msgstr "Juurihakemistoa \"{}\" ei voi asettaa"
 
 #: rpm/transaction.cpp:123
 #, c-format
@@ -1165,7 +1175,7 @@ msgstr "rpmdbCookie()-funktio ei palauttanut rpm-tietokannan evästettä."
 
 #: rpm/transaction.cpp:197
 msgid "Failed to order the rpm transaction."
-msgstr ""
+msgstr "rpm-tapahtuman tilaaminen epäonnistui."
 
 #: rpm/transaction.cpp:233
 msgid ""
@@ -1182,7 +1192,7 @@ msgstr ""
 
 #: rpm/transaction.cpp:290
 msgid "Failed to read package header from file \"{}\""
-msgstr ""
+msgstr "Paketin otsikon lukeminen tiedostosta \"{}\" epäonnistui"
 
 #: rpm/transaction.cpp:303
 msgid "Cannot init rpm database iterator"
@@ -1190,7 +1200,7 @@ msgstr ""
 
 #: rpm/transaction.cpp:307
 msgid "Package was not found in rpm database"
-msgstr ""
+msgstr "Pakettia ei löytynyt rpm-tietokannasta"
 
 #. TODO(jrohel): Why? Librpm does not provide this information.
 #: rpm/transaction.cpp:323
@@ -1282,19 +1292,19 @@ msgstr ""
 
 #: transaction/offline.cpp:195
 msgid "error reading offline state file"
-msgstr ""
+msgstr "virhe luettaessa ei-verkkotilatiedostoa"
 
 #: transaction/offline.cpp:200
 msgid "incompatible version of state data"
-msgstr ""
+msgstr "yhteensopimaton versio tilatiedoista"
 
 #: transaction/transaction.cpp:96
 msgid "Invalid transaction state: {}"
-msgstr ""
+msgstr "Virheellinen tapahtumatila: {}"
 
 #: transaction/transaction.cpp:279
 msgid "Transaction has already started!"
-msgstr ""
+msgstr "Tapahtuma on jo aloitettu!"
 
 #: transaction/transaction_item_action.cpp:28
 msgid "Invalid transaction item action: {}"
@@ -1454,7 +1464,7 @@ msgstr ""
 
 #: utils/fs/file.cpp:86
 msgid "cannot open file"
-msgstr "tiedostoa ei voida avata"
+msgstr "tiedostoa ei voi avata"
 
 #: utils/fs/file.cpp:99
 msgid "cannot open file from fd"
@@ -1631,7 +1641,7 @@ msgstr ""
 
 #: utils/system.cpp:52
 msgid "Failed to execute uname()"
-msgstr ""
+msgstr "uname():n suoritus epäonnistui"
 
 #~ msgid "Warning: skipped PGP checks for 1 package from repository: {}"
 #~ msgstr ""
