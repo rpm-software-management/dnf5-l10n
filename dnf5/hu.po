@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-06 03:02+0000\n"
-"PO-Revision-Date: 2024-11-23 23:33+0000\n"
+"PO-Revision-Date: 2024-11-23 23:53+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -429,7 +429,7 @@ msgstr "Nemrégiben hozzáadott csomagok"
 
 #: commands/list/list.cpp:257
 msgid "No matching packages to list"
-msgstr ""
+msgstr "Nem található csomag"
 
 #: commands/mark/mark.cpp:38
 msgid "Change the reason of an installed package"
@@ -673,7 +673,7 @@ msgstr ""
 
 #: commands/system-upgrade/system-upgrade.cpp:54
 msgid "Prepare system for upgrade to a new release"
-msgstr ""
+msgstr "Rendszer előkészítése az új verzióra történő frissítéshez"
 
 #: commands/system-upgrade/system-upgrade.cpp:70
 msgid "Download everything needed to upgrade to a new release"
@@ -688,6 +688,7 @@ msgstr ""
 #: commands/system-upgrade/system-upgrade.cpp:97
 msgid "Need a --releasever greater than the current system version."
 msgstr ""
+"A jelenlegi rendszer verziójánál nagyobb --releasever értéket kell megadnia."
 
 #: commands/system-upgrade/system-upgrade.cpp:131
 msgid "Store a distro-sync transaction to be performed offline"
@@ -897,7 +898,7 @@ msgstr ""
 #: context.cpp:811
 #, c++-format
 msgid "Installing {}"
-msgstr "{} telepítése"
+msgstr "A(z) {} telepítése"
 
 #: context.cpp:832
 msgid "Prepare transaction"
@@ -925,7 +926,7 @@ msgstr "Cpio hiba: {}"
 
 #: context.cpp:891
 msgid "Scriptlet output:"
-msgstr "Parancsfájl kimenete:"
+msgstr "Beállítás kimenete:"
 
 #: context.cpp:913
 #, c++-format
@@ -1018,7 +1019,7 @@ msgstr ""
 
 #: main.cpp:226
 msgid "set arbitrary config and repo options"
-msgstr ""
+msgstr "tetszőleges konfiguráció- és tárolóbeállítások"
 
 #: main.cpp:228
 msgid ""
@@ -1058,19 +1059,19 @@ msgstr ""
 
 #: main.cpp:292
 msgid "automatically answer yes for all questions"
-msgstr ""
+msgstr "automatikus igen válasz minden kérdésre"
 
 #: main.cpp:299
 msgid "automatically answer no for all questions"
-msgstr ""
+msgstr "automatikus nem válasz minden kérdésre"
 
 #: main.cpp:306
 msgid "try the best available package versions in transactions"
-msgstr ""
+msgstr "megkísérli a legjobb elérhető verziójú csomagokat a tranzakciók alatt."
 
 #: main.cpp:313
 msgid "do not limit the transaction to the best candidate"
-msgstr ""
+msgstr "ne korlátozza a tranzakciót a legjobb jelöltre"
 
 #: main.cpp:324
 msgid ""
@@ -1128,7 +1129,7 @@ msgstr ""
 
 #: main.cpp:475
 msgid "add a comment to transaction"
-msgstr ""
+msgstr "megjegyzés hozzáfűzése a tranzakcióhoz"
 
 #: main.cpp:477
 msgid ""
@@ -1138,7 +1139,7 @@ msgstr ""
 
 #: main.cpp:490
 msgid "set install root"
-msgstr ""
+msgstr "telepítési gyökérkönyvtár beállítása"
 
 #: main.cpp:497
 msgid ""
@@ -1149,6 +1150,7 @@ msgstr ""
 #: main.cpp:506
 msgid "override the value of $releasever in config and repo files"
 msgstr ""
+"felülírja a $releasever értékét a konfigurációs és tárolóleíró fájlokban"
 
 #: main.cpp:519
 msgid ""
@@ -1279,7 +1281,7 @@ msgstr "======== Változók: ========"
 
 #: main.cpp:951
 msgid "New leaves:"
-msgstr ""
+msgstr "Új levelek:"
 
 #: main.cpp:953
 #, c++-format
