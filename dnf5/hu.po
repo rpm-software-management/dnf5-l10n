@@ -7,150 +7,171 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-06 03:02+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-11-23 23:26+0000\n"
+"Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
+"Language-Team: Hungarian <https://translate.fedoraproject.org/projects/dnf5/"
+"dnf5/hu/>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.8.2\n"
 
 #: commands/advisory/advisory.cpp:36
 msgid "Manage advisories"
-msgstr ""
+msgstr "Tájékoztatók kezelése"
 
 #: commands/advisory/advisory_info.hpp:33
 msgid "Print details about advisories"
-msgstr ""
+msgstr "Részletek kiírása a tájékoztatókról"
 
 #: commands/advisory/advisory_list.hpp:35
 msgid "List advisories"
-msgstr ""
+msgstr "Tájékoztatók felsorolása"
 
 #: commands/advisory/advisory_summary.cpp:44
 msgid "All"
-msgstr ""
+msgstr "Összes"
 
 #: commands/advisory/advisory_summary.cpp:48
 msgid "Installed"
-msgstr ""
+msgstr "Telepítve"
 
 #: commands/advisory/advisory_summary.cpp:52
 msgid "Updates"
-msgstr ""
+msgstr "Frissítések"
 
 #: commands/advisory/advisory_summary.cpp:65
 msgid "Available"
-msgstr ""
+msgstr "Elérhető"
 
 #: commands/advisory/advisory_summary.hpp:33
 msgid "Print summary of advisories"
-msgstr ""
+msgstr "Tájékoztatók összefoglalójának kiírása"
 
 #: commands/advisory/arguments.hpp:34
 msgid "Show advisories containing any version of installed packages."
-msgstr ""
+msgstr "Telepített csomagverziókat tartalmazó tájékoztatók megtekintése"
 
 #: commands/advisory/arguments.hpp:45
 msgid ""
 "Show advisories containing newer versions of installed packages. This is the "
 "default behavior."
 msgstr ""
+"Frissített csomagverziókat tartalmazó tájékoztatók megjelenítése. Ez az "
+"alapértelmezett viselkedés."
 
 #: commands/advisory/arguments.hpp:57
 msgid ""
 "Show advisories containing equal and older versions of installed packages."
 msgstr ""
+"Telepített csomagokat vagy azok régebbi verzióját tartalmazó tájékoztatók "
+"megjelenítése"
 
 #: commands/advisory/arguments.hpp:69
 msgid ""
 "Show advisories containing newer versions of installed packages for which a "
 "newer version is available."
 msgstr ""
+"Telepített csomagok újabb verzióját tartalmazó tájékoztatók megjelenítése, "
+"ha az új verziók elérhetőek."
 
 #: commands/advisory/arguments.hpp:82
 msgid ""
 "Show only advisories containing packages with specified names. List option, "
 "supports globs."
 msgstr ""
+"Csak a megadott nevű csomagokat tartalmazó tájékoztatók megjelenítése. "
+"Felsorolás, támogatja a helyettesítő karaktereket."
 
 #: commands/advisory/arguments.hpp:83
 msgid "PACKAGE_NAME,..."
-msgstr ""
+msgstr "CSOMAGNÉV,…"
 
 #: commands/advisory/arguments.hpp:90
 msgid "List of patterns matched against advisory names."
-msgstr ""
+msgstr "A tájékoztatók nevének megfeleltetendő minták."
 
 #: commands/advisory/arguments.hpp:100
 msgid "Show only advisories referencing a bugzilla."
-msgstr ""
+msgstr "Csak bugzillát említő tájékoztatók megjelenítése."
 
 #: commands/advisory/arguments.hpp:107
 msgid "Show only advisories referencing a CVE."
-msgstr ""
+msgstr "Csak CVE-t említő tájékoztatók megjelenítése."
 
 #: commands/advisory_shared.hpp:113
 msgid "Limit to packages in advisories with specified name. List option."
-msgstr ""
+msgstr "Korlátozás a megadott nevű tájékoztatókra. Felsorolás."
 
 #: commands/advisory_shared.hpp:114
 msgid "ADVISORY_NAME,..."
-msgstr ""
+msgstr "TÁJÉKOZTATÓ_NEVE,…"
 
 #: commands/advisory_shared.hpp:121
 msgid "Limit to packages in security advisories."
-msgstr ""
+msgstr "Korlátozás a biztonsági tájékoztatókban szereplő csomagokra."
 
 #: commands/advisory_shared.hpp:128
 msgid "Limit to packages in bugfix advisories."
-msgstr ""
+msgstr "Korlátozás a hibajavítási tájékoztatókban szereplő csomagokra."
 
 #: commands/advisory_shared.hpp:135
 msgid "Limit to packages in enhancement advisories."
-msgstr ""
+msgstr "Korlátozás a fejlesztési tájékoztatókban szereplő csomagokra."
 
 #: commands/advisory_shared.hpp:142
 msgid "Limit to packages in newpackage advisories."
-msgstr ""
+msgstr "Korlátozás az új csomagok tájékoztatóiban szereplő csomagokra."
 
 #: commands/advisory_shared.hpp:153
 msgid ""
 "Limit to packages in advisories with specified severity. List option. Can be "
 "\"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgstr ""
+"Korlátozás a megadott súlyosságú tájékoztatókban szereplő csomagokra. "
+"Felsorolás a következőkből: „critical”, „important”, „moderate”, „low”, "
+"„none”."
 
 #: commands/advisory_shared.hpp:155
 msgid "ADVISORY_SEVERITY,..."
-msgstr ""
+msgstr "TÁJÉKOZTATÓ_SÚLYOSSÁGA,…"
 
 #: commands/advisory_shared.hpp:167
 msgid ""
 "Limit to packages in advisories that fix a Bugzilla ID, Eg. 123123. List "
 "option."
 msgstr ""
+"Korlátozás azokra a tájékoztatókban szereplő csomagokra, melyek a megadott "
+"Bugzilla azonosítókat javítják, például 123213. Felsorolás."
 
 #: commands/advisory_shared.hpp:168
 msgid "BUGZILLA_ID,..."
-msgstr ""
+msgstr "BUGZILLA_AZONOSÍTÓ,…"
 
 #: commands/advisory_shared.hpp:178
 msgid ""
 "Limit to packages in advisories that fix a CVE (Common Vulnerabilities and "
 "Exposures) ID, Eg. CVE-2201-0123. List option."
 msgstr ""
+"Korlátozás azokra a tájékoztatókban szereplő csomagokra, melyek a megadott "
+"CVE (Common Vulnerabilities and Exposures) azonosítókat javítják, például "
+"123213. Felsorolás."
 
 #: commands/advisory_shared.hpp:180
 msgid "CVE_ID,..."
-msgstr ""
+msgstr "CVE_ID,…"
 
 #: commands/autoremove/autoremove.cpp:38
 msgid "Remove all unneeded packages originally installed as dependencies."
 msgstr ""
+"Az összes szükségtelen, eredetileg függőségként telepített csomagok "
+"eltávolítása."
 
 #: commands/check-upgrade/check-upgrade.cpp:47
 msgid "Check for available package upgrades"
-msgstr ""
+msgstr "Elérhető csomagfrissítések keresése"
 
 #: commands/check-upgrade/check-upgrade.cpp:54
 msgid ""
@@ -162,32 +183,32 @@ msgstr ""
 
 #: commands/check/check.cpp:247
 msgid "Check for problems in the packagedb"
-msgstr ""
+msgstr "Problémák keresése a csomagadatbázisban"
 
 #: commands/check/check.cpp:335
 #, c++-format
 msgid "Check discovered {} problem(s) in {} package(s)"
-msgstr ""
+msgstr "{} felfedezett probléma ellenőrzése {} csomagban"
 
 #: commands/clean/clean.cpp:90
 #, c++-format
 msgid "List of cache types to clean up. Supported types: {0}"
-msgstr ""
+msgstr "Tisztítandó gyorsítótár-típusok. Támogatott típusok: {0}"
 
 #: commands/clean/clean.cpp:108
 #, c++-format
 msgid "Unknown cache type \"{0}\". Supported types: {1}"
-msgstr ""
+msgstr "Ismeretlen gyorsítótártípus: „{0}”. Támogatott típusok: {1}"
 
 #: commands/clean/clean.cpp:165
 #, c++-format
 msgid "Failed to cleanup repository cache in path \"{0}\": {1}"
-msgstr ""
+msgstr "A(z) „{0}” tároló-gyorsítótár tisztítása sikertelen: {1}"
 
 #: commands/clean/clean.cpp:175
 #, c++-format
 msgid "Cache directory \"{}\" does not exist. Nothing to clean."
-msgstr ""
+msgstr "A(z) „{}” gyorsítótármappa nem létezik. Nincs mit tisztítani."
 
 #: commands/clean/clean.cpp:180
 #, c++-format
@@ -614,7 +635,7 @@ msgstr ""
 
 #: commands/repo/repo.cpp:38
 msgid "Manage repositories"
-msgstr ""
+msgstr "Tárolók kezelése"
 
 #: commands/repoquery/repoquery.cpp:80
 msgid "Search for packages matching various criteria"
@@ -634,11 +655,11 @@ msgstr ""
 
 #: commands/search/arguments.hpp:37
 msgid "Search also package description and URL."
-msgstr ""
+msgstr "Keresés a csomagleírásokban és a webcímekben."
 
 #: commands/search/arguments.hpp:45
 msgid "Patterns"
-msgstr ""
+msgstr "Minták"
 
 #: commands/search/search.cpp:44
 msgid "Search for software matching all specified strings"
@@ -676,7 +697,7 @@ msgstr ""
 
 #: commands/upgrade/upgrade.cpp:41
 msgid "Upgrade software"
-msgstr ""
+msgstr "Szoftver frissítése"
 
 #: commands/upgrade/upgrade.cpp:48
 msgid ""
@@ -708,7 +729,7 @@ msgstr ""
 #: commands/versionlock/versionlock_exclude.cpp:125
 #, c++-format
 msgid "No package found for \"{}\"."
-msgstr ""
+msgstr "Nem található csomag a következőhöz: „{}”."
 
 #: commands/versionlock/versionlock_add.cpp:124
 #, c++-format
@@ -718,7 +739,7 @@ msgstr ""
 #: commands/versionlock/versionlock_add.cpp:127
 #, c++-format
 msgid "Package \"{}\" is already locked."
-msgstr ""
+msgstr "A(z) „{}” csomag már zárolva lett."
 
 #: commands/versionlock/versionlock_clear.cpp:32
 msgid "Remove all entries from versionlock configuration"
@@ -753,17 +774,17 @@ msgstr ""
 #: commands/versionlock/versionlock_exclude.cpp:139
 #, c++-format
 msgid "Package \"{}\" is already excluded."
-msgstr ""
+msgstr "A(z) „{}” csomag már ki lett hagyva."
 
 #: context.cpp:73
 #, c++-format
 msgid "Importing PGP key 0x{}:\n"
-msgstr ""
+msgstr "0x{} PGP-kulcs importálása:\n"
 
 #: context.cpp:75
 #, c++-format
 msgid " UserID     : \"{}\"\n"
-msgstr ""
+msgstr " Felhasználó: „{}”\n"
 
 #: context.cpp:78
 #, c++-format
@@ -771,10 +792,12 @@ msgid ""
 " Fingerprint: {}\n"
 " From       : {}\n"
 msgstr ""
+" Ujjlenyomat: {}\n"
+" Tulajdonos : {}\n"
 
 #: context.cpp:87
 msgid "The key was successfully imported."
-msgstr ""
+msgstr "A kulcs sikeresen importálva lett."
 
 #: context.cpp:262
 #, c++-format
@@ -799,25 +822,25 @@ msgstr ""
 
 #: context.cpp:322
 msgid "Updating and loading repositories:"
-msgstr ""
+msgstr "Tárolók frissítése és betöltése:"
 
 #: context.cpp:332
 msgid "Repositories loaded."
-msgstr ""
+msgstr "Tárolók betöltése."
 
 #: context.cpp:338
 msgid "Testing offline transaction"
-msgstr ""
+msgstr "Offline tranzakció ellenőrzése"
 
 #: context.cpp:342 context.cpp:497
 #, c++-format
 msgid "Transaction failed: {}"
-msgstr ""
+msgstr "A tranzakció sikertelen: {}"
 
 #: context.cpp:347 context.cpp:502
 #, c++-format
 msgid "  - {}"
-msgstr ""
+msgstr "  - {}"
 
 #: context.cpp:414
 #, c++-format
@@ -847,22 +870,22 @@ msgstr ""
 
 #: context.cpp:469
 msgid "Running transaction"
-msgstr ""
+msgstr "Tranzakció futtatása"
 
 #: context.cpp:786
 #, c++-format
 msgid "Upgrading {}"
-msgstr ""
+msgstr "{} frissítése"
 
 #: context.cpp:789
 #, c++-format
 msgid "Downgrading {}"
-msgstr ""
+msgstr "{} visszafejlesztése"
 
 #: context.cpp:792
 #, c++-format
 msgid "Reinstalling {}"
-msgstr ""
+msgstr "{} újratelepítése"
 
 #: context.cpp:805
 #, c++-format
@@ -872,93 +895,93 @@ msgstr ""
 #: context.cpp:811
 #, c++-format
 msgid "Installing {}"
-msgstr ""
+msgstr "{} telepítése"
 
 #: context.cpp:832
 msgid "Prepare transaction"
-msgstr ""
+msgstr "Tranzakció előkészítése"
 
 #: context.cpp:852
 #, c++-format
 msgid "Removing {}"
-msgstr ""
+msgstr "{} eltávolítása"
 
 #: context.cpp:855
 #, c++-format
 msgid "Cleanup {}"
-msgstr ""
+msgstr "{} tisztítása"
 
 #: context.cpp:873
 #, c++-format
 msgid "Unpack error: {}"
-msgstr ""
+msgstr "Kibontási hiba: {}"
 
 #: context.cpp:881
 #, c++-format
 msgid "Cpio error: {}"
-msgstr ""
+msgstr "Cpio hiba: {}"
 
 #: context.cpp:891
 msgid "Scriptlet output:"
-msgstr ""
+msgstr "Parancsfájl kimenete:"
 
 #: context.cpp:913
 #, c++-format
 msgid "Running {} scriptlet: {}"
-msgstr ""
+msgstr "A(z) {} parancsfájl futtatása: {}"
 
 #: context.cpp:928
 #, c++-format
 msgid "Finished {} scriptlet: {}"
-msgstr ""
+msgstr "A(z) {} parancsfájl befejeződött: {}"
 
 #: context.cpp:934
 #, c++-format
 msgid "Non-critical error in {} scriptlet: {}"
-msgstr ""
+msgstr "Nem kritikus hiba a(z) {} parancsfájlban: {}"
 
 #: context.cpp:943
 #, c++-format
 msgid "Error in {} scriptlet: {}"
-msgstr ""
+msgstr "Hiba a(z) {} parancsfájlban: {}"
 
 #: context.cpp:973
 msgid "Verify package files"
-msgstr ""
+msgstr "Csomagfájlok ellenőrzése"
 
 #: library.cpp:33
 #, c++-format
 msgid "Cannot load shared library \"{}\": {}"
-msgstr ""
+msgstr "A(z) „{}” közös programkönyvtár nem tölthető be: {}"
 
 #: library.cpp:48
 #, c++-format
 msgid "Cannot obtain address of symbol \"{}\": {}"
-msgstr ""
+msgstr "A(z) „{}” szimbólum címe nem szerezhető meg: {}"
 
 #: main.cpp:129
 msgid "Utility for packages maintaining"
-msgstr ""
+msgstr "Csomagkarbantartó segédprogram"
 
 #: main.cpp:130
 msgid "DNF5 is a program for maintaining packages."
-msgstr ""
+msgstr "A DNF5 egy csomagkarbantartó program."
 
 #: main.cpp:131
 msgid "Unclassified options:"
-msgstr ""
+msgstr "Nem osztályozott kapcsolók:"
 
 #: main.cpp:134
 msgid "Global options:"
-msgstr ""
+msgstr "Globális kapcsolók:"
 
 #: main.cpp:139
 msgid "Print help"
-msgstr ""
+msgstr "Súgó kiírása"
 
 #: main.cpp:146
 msgid "Configuration file location"
-msgstr ""
+msgstr "Konfigurációs fájl helye"
 
 #: main.cpp:154
 msgid ""
@@ -1055,33 +1078,39 @@ msgstr ""
 
 #: main.cpp:340
 msgid "exclude packages by name or glob"
-msgstr ""
+msgstr "csomagok kihagyása név vagy kifejezés alapján"
 
 #: main.cpp:359
 msgid ""
 "Enable additional repositories. List option. Supports globs, can be "
 "specified multiple times."
 msgstr ""
+"További tárolók engedélyezése. Felsorolás, támogatja a helyettesítő "
+"karaktereket, többször is megadható."
 
 #: main.cpp:377
 msgid ""
 "Disable repositories. List option. Supports globs, can be specified multiple "
 "times."
 msgstr ""
+"Tárolók letiltása. Felsorolás, támogatja a helyettesítő karaktereket, "
+"többször is megadható."
 
 #: main.cpp:395
 msgid ""
 "Enable just specific repositories. List option. Supports globs, can be "
 "specified multiple times."
 msgstr ""
+"Csak a megadott tárolók engedélyezése. Felsorolás, támogatja a helyettesítő "
+"karaktereket, többször is megadható."
 
 #: main.cpp:417
 msgid "disable gpg signature checking (if RPM policy allows)"
-msgstr ""
+msgstr "gpg aláírás-ellenőrzés letiltása (ha az RPM házirend engedélyezi)"
 
 #: main.cpp:433
 msgid "Disable all libdnf5 plugins"
-msgstr ""
+msgstr "Az összes libdnf5 bővítmény letiltása"
 
 #: main.cpp:443
 msgid ""
@@ -1127,24 +1156,26 @@ msgstr ""
 
 #: main.cpp:533
 msgid "Dump detailed solving results into files"
-msgstr ""
+msgstr "Részletes megoldási eredmények fájlokba írása"
 
 #: main.cpp:542
 msgid "Print main configuration values to stdout"
-msgstr ""
+msgstr "Fő konfigurációs értékek kiírása a szabványos kimenetre"
 
 #: main.cpp:559
 msgid ""
 "Print repository configuration values to stdout. List option. Supports globs"
 msgstr ""
+"Tárolókonfiguráció kiírása a szabványos kimenetre. Felsorolás, támogatja a "
+"helyettesítő karaktereket."
 
 #: main.cpp:574
 msgid "Print variable values to stdout"
-msgstr ""
+msgstr "Változóértékek kiírása a szabványos kimenetre"
 
 #: main.cpp:588
 msgid "Show DNF5 version and exit"
-msgstr ""
+msgstr "A DNF5 verziójának kiírása és kilépés"
 
 #: main.cpp:595
 msgid "Force the use of a different architecture."
@@ -1152,35 +1183,35 @@ msgstr ""
 
 #: main.cpp:633
 msgid "Software Management Commands:"
-msgstr ""
+msgstr "Szoftverkezelési parancsok:"
 
 #: main.cpp:640
 msgid "Query Commands:"
-msgstr ""
+msgstr "Lekérdezési parancsok:"
 
 #: main.cpp:647
 msgid "Subcommands:"
-msgstr ""
+msgstr "Alparancsok:"
 
 #: main.cpp:744
 #, c++-format
 msgid "{} version {}.{}.{}.{}"
-msgstr ""
+msgstr "{} verzió: {}.{}.{}.{}"
 
 #: main.cpp:747
 #, c++-format
 msgid "{} plugin API version {}.{}"
-msgstr ""
+msgstr "{} bővítmény API-verzió: {}.{}"
 
 #: main.cpp:752
 #, c++-format
 msgid "libdnf5 version {}.{}.{}.{}"
-msgstr ""
+msgstr "libdnf5 verzió: {}.{}.{}.{}"
 
 #: main.cpp:755
 #, c++-format
 msgid "libdnf5 plugin API version {}.{}"
-msgstr ""
+msgstr "libdnf5 bővítmény API-verzió: {}.{}"
 
 #: main.cpp:762
 #, c++-format
@@ -1188,21 +1219,23 @@ msgid ""
 "\n"
 "Loaded {} plugins:"
 msgstr ""
+"\n"
+"{} bővítmény betöltve:"
 
 #: main.cpp:767
 #, c++-format
 msgid "  name: {}"
-msgstr ""
+msgstr "  név: {}"
 
 #: main.cpp:770
 #, c++-format
 msgid "  version: {}.{}.{}"
-msgstr ""
+msgstr "  verzió: {}.{}.{}"
 
 #: main.cpp:772
 #, c++-format
 msgid "  API version: {}.{}"
-msgstr ""
+msgstr "  API-verzió: {}.{}"
 
 #: main.cpp:810
 #, c++-format
@@ -1226,7 +1259,7 @@ msgstr ""
 
 #: main.cpp:849
 msgid "======== Main configuration: ========"
-msgstr ""
+msgstr "======== Fő konfiguráció: ========"
 
 #: main.cpp:886
 #, c++-format
@@ -1236,11 +1269,11 @@ msgstr ""
 #: main.cpp:891
 #, c++-format
 msgid "======== \"{}\" repository configuration: ========"
-msgstr ""
+msgstr "======== A(z) „{}” tárolók konfigurációja: ========"
 
 #: main.cpp:911
 msgid "======== Variables: ========"
-msgstr ""
+msgstr "======== Változók: ========"
 
 #: main.cpp:951
 msgid "New leaves:"
@@ -1249,7 +1282,7 @@ msgstr ""
 #: main.cpp:953
 #, c++-format
 msgid " {}"
-msgstr ""
+msgstr " {}"
 
 #: main.cpp:997
 #, c++-format
@@ -1315,12 +1348,12 @@ msgstr ""
 #: main.cpp:1259
 #, c++-format
 msgid "{}."
-msgstr ""
+msgstr "{}."
 
 #: main.cpp:1262 main.cpp:1445
 #, c++-format
 msgid "{}. Add \"--help\" for more information about the arguments."
-msgstr ""
+msgstr "{}. A kapcsolók további információiért adja hozzá a „--help” kapcsolót."
 
 #: main.cpp:1269
 #, c++-format
@@ -1328,10 +1361,14 @@ msgid ""
 "It could be a command provided by a plugin, try: dnf5 install 'dnf5-"
 "command({})'"
 msgstr ""
+"Lehet, hogy egy bővítmény által biztosított parancs, próbálja ki ezt: dnf5 "
+"install 'dnf-command({})'"
 
 #: main.cpp:1311
 msgid "No read/execute access in current directory, moving to /"
 msgstr ""
+"Nincs olvasási/végrehajtási jogosultság a jelenlegi könyvtárban, áthelyezés "
+"ide: /"
 
 #: main.cpp:1368
 msgid ""
@@ -1364,24 +1401,26 @@ msgstr ""
 #: main.cpp:1455
 #, c++-format
 msgid "Command returned error: {}"
-msgstr ""
+msgstr "A parancs hibát adott vissza: {}"
 
 #: main.cpp:1463
 msgid "DNF5 finished"
-msgstr ""
+msgstr "A DNF5 elkészült"
 
 #: main.cpp:1467
 msgid "Complete!"
-msgstr ""
+msgstr "Kész!"
 
 #: shared_options.cpp:32
 msgid "Allow removing of installed packages to resolve problems"
-msgstr ""
+msgstr "Telepített csomagok eltávolításának engedélyezése a hibák javításához"
 
 #: shared_options.cpp:42
 msgid "Allow resolving of depsolve problems by skipping packages"
 msgstr ""
+"Csomagok kihagyásának engedélyezése a függőségfeloldási problémák "
+"megoldásához"
 
 #: shared_options.cpp:54
 msgid "Allow skipping unavailable packages"
-msgstr ""
+msgstr "Nem elérhető csomagok átugrása"
