@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-06 03:02+0000\n"
-"PO-Revision-Date: 2024-12-03 14:38+0000\n"
+"PO-Revision-Date: 2024-12-04 11:08+0000\n"
 "Last-Translator: Joan Aymà <joan@ayma.cat>\n"
 "Language-Team: Catalan <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ca/>\n"
@@ -318,20 +318,25 @@ msgid ""
 "as errors. This can result in an empty transaction because among other "
 "things the option can ignore failing Remove actions."
 msgstr ""
+"No tinguis en compte com errors les diferències entre els paquets instalats "
+"i els de la transacció desada. Això podria provocar una transacció buida "
+"perquè entre altres coses aquesta opció pot ignorar accions d'esborrar "
+"fallides."
 
 #: commands/history/arguments.hpp:67
 msgid "Don't consider extra packages pulled into the transaction as errors."
-msgstr ""
+msgstr "No consideris com errors els paquets extra inclosos a la transacció."
 
 #: commands/history/history.cpp:41
 msgid "Manage transaction history"
-msgstr ""
+msgstr "Gestiona l'historial de transaccions"
 
 #: commands/history/history_redo.cpp:53
 #: commands/history/history_rollback.cpp:57
 #: commands/history/history_store.cpp:65 commands/history/history_undo.cpp:56
 msgid "No matching transaction ID found, exactly one required."
 msgstr ""
+"No s'ha trobat cap ID de transacció coincident, se'n requereix exactament un."
 
 #: commands/history/history_redo.cpp:57
 #: commands/history/history_rollback.cpp:61
