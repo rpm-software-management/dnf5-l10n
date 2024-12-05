@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-06 03:02+0000\n"
-"PO-Revision-Date: 2024-11-25 00:38+0000\n"
+"PO-Revision-Date: 2024-12-06 08:11+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/hu/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.8.2\n"
+"X-Generator: Weblate 5.8.4\n"
 
 #: commands/advisory/advisory.cpp:36
 msgid "Manage advisories"
@@ -713,19 +713,19 @@ msgstr ""
 #: commands/versionlock/utils.cpp:35
 #, c++-format
 msgid "Added by 'versionlock {}' command on {}"
-msgstr ""
+msgstr "A „versionlock {}” parancs által hozzáadva ekkor: {}"
 
 #: commands/versionlock/versionlock.cpp:40
 msgid "Manage versionlock configuration"
-msgstr ""
+msgstr "Verziózár-konfiguráció kezelése"
 
 #: commands/versionlock/versionlock_add.cpp:37
 msgid "Add new entry to versionlock configuration"
-msgstr ""
+msgstr "Új bejegyzés hozzáadása a verziózár-konfigurációhoz"
 
 #: commands/versionlock/versionlock_add.cpp:43
 msgid "List of package specs to add versionlock for"
-msgstr ""
+msgstr "Csomagmegadások listája, melyekhez verziózár lesz adva"
 
 #: commands/versionlock/versionlock_add.cpp:106
 #: commands/versionlock/versionlock_exclude.cpp:125
@@ -736,7 +736,7 @@ msgstr "Nem található csomag a következőhöz: „{}”."
 #: commands/versionlock/versionlock_add.cpp:124
 #, c++-format
 msgid "Adding versionlock on \"{0} = {1}\"."
-msgstr ""
+msgstr "Verziózár hozzáadása: „{0} = {1}”."
 
 #: commands/versionlock/versionlock_add.cpp:127
 #, c++-format
@@ -745,33 +745,33 @@ msgstr "A(z) „{}” csomag már zárolva lett."
 
 #: commands/versionlock/versionlock_clear.cpp:32
 msgid "Remove all entries from versionlock configuration"
-msgstr ""
+msgstr "Az összes bejegyzés eltávolítása a verziózár-konfigurációból"
 
 #: commands/versionlock/versionlock_delete.cpp:35
 msgid "Remove any matching versionlock configuration entries"
-msgstr ""
+msgstr "Az összes megfelelő verziózár-konfigurációs bejegyzés eltávolítása"
 
 #: commands/versionlock/versionlock_delete.cpp:41
 msgid "List of package specs to remove versionlock for"
-msgstr ""
+msgstr "Csomagmegadások listája, melyeknél a verziózár el lesz távolítva"
 
 #: commands/versionlock/versionlock_delete.cpp:55
 msgid "Deleting versionlock entry:"
-msgstr ""
+msgstr "Verziózár-bejegyzés eltávolítása:"
 
 #: commands/versionlock/versionlock_exclude.cpp:37
 msgid "Add new exclude entry to versionlock configuration"
-msgstr ""
+msgstr "Új kizárási bejegyzés hozzáadása a verziózár-konfigurációhoz"
 
 #: commands/versionlock/versionlock_exclude.cpp:43
 msgid "List of package specs to add versionlock exclude for"
-msgstr ""
+msgstr "Csomagmegadások listája, melyekhez verziózár-kizárás lesz adva"
 
 #: commands/versionlock/versionlock_exclude.cpp:88
 #: commands/versionlock/versionlock_exclude.cpp:100
 #, c++-format
 msgid "Adding versionlock exclude on \"{0} = {1}\"."
-msgstr ""
+msgstr "Verziózár-kizárás hozzáadása: „{0} = {1}”."
 
 #: commands/versionlock/versionlock_exclude.cpp:139
 #, c++-format
@@ -804,11 +804,11 @@ msgstr "A kulcs sikeresen importálva lett."
 #: context.cpp:262
 #, c++-format
 msgid "setopt: \"{}.{}\": {}"
-msgstr ""
+msgstr "setopt: „{}.{}”: {}"
 
 #: context.cpp:268
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: context.cpp:272
 #, c++-format
@@ -816,11 +816,13 @@ msgid ""
 "No matching repositories for {}. To use repositories from a host system, "
 "pass --use-host-config option"
 msgstr ""
+"Nincs megfelelő tároló a következőhöz: {}. A gazdarendszer tárolóinak "
+"használatához adja át a --use-host-config kapcsolót"
 
 #: context.cpp:276
 #, c++-format
 msgid "No matching repositories for {}"
-msgstr ""
+msgstr "Nincs megfelelő tároló a következőhöz: {}"
 
 #: context.cpp:322
 msgid "Updating and loading repositories:"
@@ -849,19 +851,22 @@ msgstr "  - {}"
 msgid ""
 "Location \"{}\" already contains a stored transaction, it will be "
 "overwritten."
-msgstr ""
+msgstr "A(z) „{}” hely már tartalmaz egy tárolt tranzakciót, felül lesz írva."
 
 #: context.cpp:443
 msgid ""
 "There is already an offline transaction queued, initiated by the following "
 "command:"
 msgstr ""
+"Már sorba van állítva egy offline tranzakció, melyet a következő parancs "
+"kezdeményezett:"
 
 #: context.cpp:445
 msgid ""
 "Continuing will cancel the old offline transaction and replace it with this "
 "one."
 msgstr ""
+"A folytatással megszakítja a régi offline tranzakciót, és lecseréli ezzel."
 
 #: context.cpp:463
 msgid ""
@@ -869,6 +874,10 @@ msgid ""
 "reboot and run the transaction. To cancel the transaction and delete the "
 "downloaded files, use `dnf5 offline clean`."
 msgstr ""
+"Offline végrehajtáshoz tárolt tranzakció. Futtassa a `dnf5 offline reboot` "
+"parancsot az újraindításhoz, és a tranzakció futtatásához. A tranzakció "
+"megszakításához és a letöltött fájlok törléséhez használja a `dnf5 offline "
+"clean` parancsot."
 
 #: context.cpp:469
 msgid "Running transaction"
@@ -892,7 +901,7 @@ msgstr "A(z) {} újratelepítése"
 #: context.cpp:805
 #, c++-format
 msgid "Unexpected action in TransactionPackage: {}"
-msgstr ""
+msgstr "Váratlan művelet a tranzakciócsomagban: {}"
 
 #: context.cpp:811
 #, c++-format
@@ -991,30 +1000,36 @@ msgid ""
 "content. Suppresses messages notifying about the current state or actions of "
 "dnf5."
 msgstr ""
+"Nem interaktív paranccsal kombinálva csak a releváns tartalmat jeleníti meg. "
+"Elfojtja a jelenlegi állapotról vagy a dnf5 műveleteiről szóló értesítéseket."
 
 #: main.cpp:169
 msgid ""
 "Run entirely from system cache, don't update the cache and use it even in "
 "case it is expired."
 msgstr ""
+"Futtatás teljesen a rendszer gyorsítótárából, ne frissítse a gyorsítótárat, "
+"és akkor is azt használja, ha az elavult."
 
 #: main.cpp:176
 msgid "Force refreshing metadata before running the command."
-msgstr ""
+msgstr "A metaadatok kényszerített frissítése a parancs futtatása előtt."
 
 #: main.cpp:192
 #, c++-format
 msgid "Failed to expire repository cache in path \"{0}\": {1}"
 msgstr ""
+"Nem sikerült a(z) „{0}” útvonalon lévő tároló-gyorsítótár elavulttá tétele: "
+"{1}"
 
 #: main.cpp:206
 msgid "create additional repository using id and path"
-msgstr ""
+msgstr "további tárolók létrehozása azonosító és útvonal használatával"
 
 #: main.cpp:214
 #, c++-format
 msgid "repofrompath: Incorrect repoid and path specification \"{}\""
-msgstr ""
+msgstr "repofrompath: Helytelen tárolóazonosító és „{}” útvonalmegadás"
 
 #: main.cpp:226
 msgid "set arbitrary config and repo options"
@@ -1030,31 +1045,40 @@ msgid ""
 "              they do not override it. However, specifying an empty value (e."
 "g. --setopt=tsflags=) will clear the option."
 msgstr ""
+"Egy a konfigurációs fájlban szerepelő konfigurációs beállítás felülbírálása. "
+"A tárolók konfigurációs beállításainak felülbírálásához használja a "
+"tárolóazonosító.beállítás formátumot az\n"
+"              <option> címkében. Az olyan konfigurációs kulcsoknál, mint az "
+"excludepkgs, az includepkgs, az installonlypkgs és a tsflags, az eredeti "
+"értékhez lesznek fűzve,\n"
+"              azokat nem bírálják felül. Viszont az üres érték megadása ("
+"például --setopt=tsflags=) törli a beállítást."
 
 #: main.cpp:237 main.cpp:276
 #, c++-format
 msgid "{}: Badly formatted argument value \"{}\""
-msgstr ""
+msgstr "{}: Hibásan formázott „{}” argumentumérték"
 
 #: main.cpp:244
 #, c++-format
 msgid ""
 "{}: Badly formatted argument value: Last key character cannot be '.': {}"
 msgstr ""
+"{}: Hibásan formázott argumentumérték. Az utolsó karakter nem lehet „.”: {}"
 
 #: main.cpp:257
 #, c++-format
 msgid "setopt: \"{0}\": {1}"
-msgstr ""
+msgstr "setopt: „{0}”: {1}"
 
 #: main.cpp:269
 msgid "set arbitrary variable"
-msgstr ""
+msgstr "tetszőleges változó beállítása"
 
 #: main.cpp:283
 #, c++-format
 msgid "setvar: {}"
-msgstr ""
+msgstr "setvar: {}"
 
 #: main.cpp:292
 msgid "automatically answer yes for all questions"
@@ -1077,6 +1101,8 @@ msgid ""
 "Don't install files that are marked as documentation (which includes man "
 "pages and texinfo documents)"
 msgstr ""
+"Ne telepítsen dokumentációként megjelölt fájlokat (beleértve a man oldalakat "
+"és texinfo dokumentumokat)"
 
 #: main.cpp:340
 msgid "exclude packages by name or glob"
@@ -1119,12 +1145,16 @@ msgid ""
 "Enable libdnf5 plugins by name. List option. Supports globs, can be "
 "specified multiple times."
 msgstr ""
+"Egy vagy több lidbnf5 bővítmény engedélyezése név szerint. Felsorolás, "
+"támogatja a helyettesítő karaktereket, többször is megadható."
 
 #: main.cpp:458
 msgid ""
 "Disable libdnf5 plugins by name. List option. Supports globs, can be "
 "specified multiple times."
 msgstr ""
+"Egy vagy több lidbnf5 bővítmény letiltása név szerint. Felsorolás, támogatja "
+"a helyettesítő karaktereket, többször is megadható."
 
 #: main.cpp:475
 msgid "add a comment to transaction"
@@ -1135,6 +1165,8 @@ msgid ""
 "Adds a comment to the action. If a transaction takes place, the comment is "
 "stored in it."
 msgstr ""
+"Megjegyzést ad hozzá a művelethez. Ha tranzakció történik, akkor a "
+"megjegyzés abban lesz tárolva."
 
 #: main.cpp:490
 msgid "set install root"
@@ -1145,6 +1177,8 @@ msgid ""
 "use configuration, reposdir, and vars from the host system rather than the "
 "installroot"
 msgstr ""
+"a gazdarendszer konfigurációjának, tárolómappájának és változóinak "
+"használata, nem a telepítési gyökérkönyvtárénak"
 
 #: main.cpp:506
 msgid "override the value of $releasever in config and repo files"
@@ -1156,6 +1190,8 @@ msgid ""
 "Show newly installed leaf packages and packages that became leaves after a "
 "transaction."
 msgstr ""
+"Az újonnan telepített levélcsomagok, valamint a tranzakció után levéllé váló "
+"csomagok megjelenítése."
 
 #: main.cpp:533
 msgid "Dump detailed solving results into files"
@@ -1182,7 +1218,7 @@ msgstr "A DNF5 verziójának kiírása és kilépés"
 
 #: main.cpp:595
 msgid "Force the use of a different architecture."
-msgstr ""
+msgstr "Eltérő architektúra használatának kényszerítése"
 
 #: main.cpp:633
 msgid "Software Management Commands:"
@@ -1245,6 +1281,7 @@ msgstr "  API-verzió: {}.{}"
 msgid ""
 "Total size of inbound packages is {:.0f} {:s}. Need to download {:.0f} {:s}."
 msgstr ""
+"A bejövő csomagok teljes mérete {:.0f} {:s}. {:.0f} {:s}-ot kell letölteni."
 
 #: main.cpp:828
 #, c++-format
@@ -1252,6 +1289,8 @@ msgid ""
 "After this operation, {:.0f} {:s} extra will be used (install {:.0f} {:s}, "
 "remove {:.0f} {:s})."
 msgstr ""
+"A művelet után további {:.0f} {:s} lesz használva ({:.0f} {:s} telepítése, {:"
+".0f} {:s} eltávolítása)."
 
 #: main.cpp:837
 #, c++-format
@@ -1259,6 +1298,8 @@ msgid ""
 "After this operation, {:.0f} {:s} will be freed (install {:.0f} {:s}, remove "
 "{:.0f} {:s})."
 msgstr ""
+"A művelet után {:.0f} {:s} szabadul fel ({:.0f} {:s} telepítése, {:.0f} {:s} "
+"eltávolítása)."
 
 #: main.cpp:849
 msgid "======== Main configuration: ========"
@@ -1267,7 +1308,7 @@ msgstr "======== Fő konfiguráció: ========"
 #: main.cpp:886
 #, c++-format
 msgid "No matching repo to dump configuration: \"{}\""
-msgstr ""
+msgstr "Nincs egyező tároló a konfiguráció kiírásához: „{}”."
 
 #: main.cpp:891
 #, c++-format
@@ -1290,12 +1331,12 @@ msgstr " {}"
 #: main.cpp:997
 #, c++-format
 msgid "{} to skip unavailable packages"
-msgstr ""
+msgstr "{} a nem elérhető csomagok kihagyásához"
 
 #: main.cpp:1005
 #, c++-format
 msgid "{} to allow extra packages in the transaction"
-msgstr ""
+msgstr "{} az extra csomagok engedélyezéséhez a tranzakcióban"
 
 #: main.cpp:1018
 #, c++-format
@@ -1304,30 +1345,35 @@ msgid ""
 "This can result in an empty transaction because among other things the "
 "option can ignore failing Remove actions."
 msgstr ""
+"{} a telepített és a tárolt tranzakció csomagjainak eltérésének "
+"engedélyezéséhez. Ez üres tranzakciót is eredményezhet, mert többek között a "
+"kapcsoló figyelmen kívül hagyhatja a hibás eltávolítási műveleteket."
 
 #: main.cpp:1065
 #, c++-format
 msgid "{} to not limit the transaction to the best candidates"
-msgstr ""
+msgstr "{} a tranzakció nem a legjobb jelöltekre korlátozásához"
 
 #: main.cpp:1072
 #, c++-format
 msgid "{} to allow removing of installed packages to resolve problems"
 msgstr ""
+"{} a telepített csomagok eltávolításának engedélyezéséhez a problémák "
+"megoldása érdekében"
 
 #: main.cpp:1080
 #, c++-format
 msgid "{} to load additional filelists metadata"
-msgstr ""
+msgstr "{} a további fájllista-metaadatok betöltéséhez"
 
 #: main.cpp:1087
 #, c++-format
 msgid "{} to skip uninstallable packages"
-msgstr ""
+msgstr "{} a nem telepíthető csomagok átugrásához"
 
 #: main.cpp:1093
 msgid "You can try to add to command line:"
-msgstr ""
+msgstr "Megpróbálhatja hozzáadni a parancssorhoz:"
 
 #: main.cpp:1111
 #, c++-format
@@ -1335,6 +1381,8 @@ msgid ""
 "No matches were found for the following plugin name patterns while enabling "
 "libdnf plugins: {}"
 msgstr ""
+"Nincs találat a következő bővítménynév-mintára a libdnf bővítmények "
+"engedélyezése során: {}"
 
 #: main.cpp:1112
 #, c++-format
@@ -1342,11 +1390,13 @@ msgid ""
 "No matches were found for the following plugin name patterns while disabling "
 "libdnf plugins: {}"
 msgstr ""
+"Nincs találat a következő bővítménynév-mintára a libdnf bővítmények "
+"letiltása során: {}"
 
 #: main.cpp:1208
 #, c++-format
 msgid "--- DNF5 launched with arguments: \"{}\" ---"
-msgstr ""
+msgstr "--- A DNF5 elindítva a következő argumentumokkal: „{}” ---"
 
 #: main.cpp:1259
 #, c++-format
@@ -1379,27 +1429,36 @@ msgid ""
 "user with elevated rights, or use the \"--assumeno\" or \"--downloadonly\" "
 "options to run the command without modifying the system state."
 msgstr ""
+"A kért művelethez rendszergazdai jogosultság szükséges. Jelentkezzen be egy "
+"emelt jogosultságú felhasználóval, vagy használja az „--assumeno” vagy a "
+"„--downloadonly” kapcsolókat a parancs rendszerállapot-módosítás nélküli "
+"futtatásához."
 
 #: main.cpp:1409
 #, c++-format
 msgid "The operation will only store the transaction in {}"
-msgstr ""
+msgstr "A művelet csak itt fogja tárolni a tranzakciót: {}"
 
 #: main.cpp:1411
 msgid "The operation will only download packages for the transaction."
-msgstr ""
+msgstr "A művelet csak csomagokat fog letölteni a tranzakcióhoz."
 
 #: main.cpp:1416
 msgid ""
 "Test mode enabled: Only package downloads, PGP key installations and "
 "transaction checks will be performed."
 msgstr ""
+"Tesztelési mód engedélyezve: csak csomagletöltések, PGP-kulcsellenőrzések és "
+"tranzakció-ellenőrzések lesznek végezve."
 
 #: main.cpp:1433
 msgid ""
 "No repositories were loaded from the installroot. To use the configuration "
 "and repositories of the host system, pass --use-host-config."
 msgstr ""
+"Egyetlen tároló sem lett betöltve a telepítési gyökérből. A gazdarendszer "
+"beállításainak és tárolóinak használatához adja át a --use-host-config "
+"kapcsolót."
 
 #: main.cpp:1455
 #, c++-format
