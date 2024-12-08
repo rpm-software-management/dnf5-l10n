@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-06 03:02+0000\n"
-"PO-Revision-Date: 2024-12-06 08:11+0000\n"
+"PO-Revision-Date: 2024-12-09 03:25+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/hu/>\n"
@@ -214,7 +214,7 @@ msgstr "A(z) „{}” gyorsítótármappa nem létezik. Nincs mit tisztítani."
 #: commands/clean/clean.cpp:180
 #, c++-format
 msgid "Cannot iterate cache directory \"{}\": {}"
-msgstr ""
+msgstr "Nem lehet végiglépkedni a(z) „{}” gyorsítótármappán: {}"
 
 #: commands/debuginfo-install/debuginfo-install.cpp:45
 msgid "Install debuginfo packages."
@@ -224,45 +224,50 @@ msgstr "Debuginfo-csomagok telepítése."
 msgid ""
 "Upgrade or downgrade installed software to the latest available versions"
 msgstr ""
+"A telepített csomagok frissítése vagy visszaállítása a legfrissebb elérhető "
+"verziókra"
 
 #: commands/downgrade/downgrade.cpp:40
 msgid "Downgrade software"
-msgstr ""
+msgstr "Szoftver visszaállítása"
 
 #: commands/download/download.cpp:105
 msgid "When running with --url, prints URLs from all available mirrors"
 msgstr ""
+"Ha az --url kapcsolóval futtatja, megjeleníti az összes elérhető tükör "
+"webcímét"
 
 #: commands/download/download.cpp:121
 #, c++-format
 msgid "Invalid urlprotocol option: {}"
-msgstr ""
+msgstr "Érvénytelen urlprotocol kapcsoló: {}"
 
 #: commands/download/download.cpp:148 main.cpp:614
 #, c++-format
 msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
-msgstr ""
+msgstr "Nem támogatott „{0}” architektúra. Válasszon ezek közül: {1}"
 
 #. TODO(jrohel): Add support for requiring an argument by another argument in ArgumentParser?
 #: commands/download/download.cpp:183
 msgid "Option \"--alldeps\" should be used with \"--resolve\""
 msgstr ""
+"A(z) „--alldeps” kapcsolót a „--resolve” kapcsolóval együtt kell használni"
 
 #: commands/environment/arguments.hpp:33
 msgid "Show only available environments."
-msgstr ""
+msgstr "Csak az elérhető környezetek megjelenítése."
 
 #: commands/environment/arguments.hpp:40
 msgid "Show only installed environments."
-msgstr ""
+msgstr "Csak a telepített környezetek megjelenítése."
 
 #: commands/environment/arguments.hpp:47
 msgid "Pattern matching environment IDs."
-msgstr ""
+msgstr "Mintaillesztés a környezetazonosítóknál."
 
 #: commands/environment/environment.cpp:35
 msgid "Manage comps environments"
-msgstr ""
+msgstr "A comps környezetek kezelése"
 
 #: commands/group/arguments.hpp:34
 msgid "Show only available groups."
@@ -281,10 +286,12 @@ msgid ""
 "Show only groups containing packages with specified names. List option, "
 "supports globs."
 msgstr ""
+"Csak a megadott nevű csomagokat tartalmazó csoportok megjelenítése. "
+"Felsorolás, támogatja a helyettesítő karaktereket."
 
 #: commands/group/arguments.hpp:67
 msgid "Pattern matching group IDS."
-msgstr ""
+msgstr "Mintaillesztés a csoportazonosítóknál."
 
 #: commands/group/arguments.hpp:76
 msgid "Include optional packages from group."
@@ -292,7 +299,7 @@ msgstr "Választható csomagok kiválasztása a csoportból."
 
 #: commands/group/arguments.hpp:83
 msgid "Operate on groups only, no packages are changed."
-msgstr ""
+msgstr "Művelet csak a csoportokon, nem lesz csomag megváltoztatva."
 
 #: commands/history/arguments.hpp:37
 msgid "Transaction ID"
@@ -300,7 +307,7 @@ msgstr "Tranzakcióazonosító"
 
 #: commands/history/arguments.hpp:44
 msgid "Reverse the order of transactions."
-msgstr ""
+msgstr "A tranzakciók sorrendjének megfordítása."
 
 #: commands/history/arguments.hpp:54
 msgid ""
@@ -368,17 +375,19 @@ msgstr ""
 
 #: commands/list/list.cpp:65
 msgid "List installed packages."
-msgstr ""
+msgstr "Telepített csomagok felsorolása."
 
 #: commands/list/list.cpp:69
 msgid "List available packages."
-msgstr ""
+msgstr "Elérhető csomagok felsorálása."
 
 #: commands/list/list.cpp:76
 msgid ""
 "List extras, that is packages installed on the system that are not available "
 "in any known repository."
 msgstr ""
+"Extrák felsorolása, tehát azon csomagok, melyek telepítve vannak a "
+"rendszeren, de egyetlen ismert tárolóban sem érhetők el."
 
 #: commands/list/list.cpp:84
 msgid ""
@@ -1218,7 +1227,7 @@ msgstr "A DNF5 verziójának kiírása és kilépés"
 
 #: main.cpp:595
 msgid "Force the use of a different architecture."
-msgstr "Eltérő architektúra használatának kényszerítése"
+msgstr "Eltérő architektúra használatának kényszerítése."
 
 #: main.cpp:633
 msgid "Software Management Commands:"
@@ -1308,7 +1317,7 @@ msgstr "======== Fő konfiguráció: ========"
 #: main.cpp:886
 #, c++-format
 msgid "No matching repo to dump configuration: \"{}\""
-msgstr "Nincs egyező tároló a konfiguráció kiírásához: „{}”."
+msgstr "Nincs egyező tároló a konfiguráció kiírásához: „{}”"
 
 #: main.cpp:891
 #, c++-format
