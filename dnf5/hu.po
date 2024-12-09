@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-09 03:28+0000\n"
-"PO-Revision-Date: 2024-12-09 03:25+0000\n"
+"PO-Revision-Date: 2024-12-09 18:58+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/hu/>\n"
@@ -307,49 +307,56 @@ msgid ""
 "as errors. This can result in an empty transaction because among other "
 "things the option can ignore failing Remove actions."
 msgstr ""
+"Ne tekintse hibának a telepített és a tárolt tranzakciók csomagjainak "
+"eltérését. Ez üres tranzakciót eredményezhet, mert többek között a kapcsoló "
+"figyelmen kívül hagyhatja a hibás eltávolítási műveleteket."
 
 #: commands/history/arguments.hpp:67
 msgid "Don't consider extra packages pulled into the transaction as errors."
-msgstr ""
+msgstr "Ne tekintse hibának a tranzakciókba húzott extra csomagokat."
 
 #: commands/history/history.cpp:41
 msgid "Manage transaction history"
-msgstr ""
+msgstr "Tranzakcióelőzmények kezelése"
 
 #: commands/history/history_redo.cpp:53
 #: commands/history/history_rollback.cpp:57
 #: commands/history/history_store.cpp:65 commands/history/history_undo.cpp:56
 msgid "No matching transaction ID found, exactly one required."
-msgstr ""
+msgstr "Nem található egyező tranzakcióazonosító, pontosan egy szükséges."
 
 #: commands/history/history_redo.cpp:57
 #: commands/history/history_rollback.cpp:61
 #: commands/history/history_undo.cpp:60
 msgid "Matched more than one transaction ID, exactly one required."
-msgstr ""
+msgstr "Több egyező tranzakcióazonosító található, pontosan egy szükséges."
 
 #: commands/history/history_store.cpp:68
 msgid "Multiple transactions selected for storing, only one allowed."
-msgstr ""
+msgstr "Több tranzakció lett kiválasztva a tároláshoz, csak egy engedélyezett."
 
 #: commands/history/history_store.cpp:80
 msgid "File \"{}\" already exists, it will be overwritten.\n"
-msgstr ""
+msgstr "A(z) „{}” fájl már létezik, felül lesz írva.\n"
 
 #: commands/history/transaction_id.cpp:32
 msgid ""
 "Invalid transaction ID range \"{}\", \"ID\" or \"ID..ID\" expected, where ID "
 "is \"NUMBER\", \"last\" or \"last-NUMBER\"."
 msgstr ""
+"Érvénytelen tranzakcióazonosító-tartomány: „{}”, „AZONOSÍTÓ” vagy „AZONOSÍTÓ."
+".AZONOSÍTÓ” várt, ahol az azonosító „SZÁM”, „last” vagy „last-SZÁM”."
 
 #: commands/install/install.cpp:41
 msgid "Install software"
-msgstr ""
+msgstr "Szoftver telepítése"
 
 #: commands/leaves/leaves.cpp:42
 msgid ""
 "List groups of installed packages not required by other installed packages"
 msgstr ""
+"Azon telepített csomagcsoportok felsorolása, melyek nem szükségesek más "
+"telepített csomagokhoz"
 
 #: commands/list/list.cpp:44
 msgid "Lists packages depending on the packages' relation to the system"
@@ -361,7 +368,7 @@ msgstr ""
 
 #: commands/list/list.cpp:59
 msgid "Show all versions of the packages, not only the latest ones."
-msgstr ""
+msgstr "A csomagok összes verziójának megjelenítése, nem csak a legfrissebbeké."
 
 #: commands/list/list.cpp:65
 msgid "List installed packages."
@@ -765,10 +772,8 @@ msgid "Package \"{}\" is already excluded."
 msgstr "A(z) „{}” csomag már ki lett hagyva."
 
 #: context.cpp:73
-#, fuzzy
-#| msgid "Importing PGP key 0x{}:\n"
 msgid "Importing OpenPGP key 0x{}:\n"
-msgstr "0x{} PGP-kulcs importálása:\n"
+msgstr "0x{} OpenPGP-kulcs importálása:\n"
 
 #: context.cpp:75
 msgid " UserID     : \"{}\"\n"
@@ -1091,11 +1096,9 @@ msgstr ""
 "karaktereket, többször is megadható."
 
 #: main.cpp:417
-#, fuzzy
-#| msgid "disable gpg signature checking (if RPM policy allows)"
 msgid "disable OpenPGP signature checking (if RPM policy allows)"
 msgstr ""
-"GPG aláírások ellenőrzésének letiltása (ha az RPM házirend engedélyezi)"
+"OpenGPG aláírások ellenőrzésének letiltása (ha az RPM házirend engedélyezi)"
 
 #: main.cpp:433
 msgid "Disable all libdnf5 plugins"
@@ -1384,16 +1387,12 @@ msgid "The operation will only download packages for the transaction."
 msgstr "A művelet csak csomagokat fog letölteni a tranzakcióhoz."
 
 #: main.cpp:1463
-#, fuzzy
-#| msgid ""
-#| "Test mode enabled: Only package downloads, PGP key installations and "
-#| "transaction checks will be performed."
 msgid ""
 "Test mode enabled: Only package downloads, OpenPGP key installations and "
 "transaction checks will be performed."
 msgstr ""
-"Tesztelési mód engedélyezve: csak csomagletöltések, PGP-kulcsellenőrzések és "
-"tranzakció-ellenőrzések lesznek végezve."
+"Tesztelési mód engedélyezve: csak csomagletöltések, OpenPGP-"
+"kulcsellenőrzések és tranzakció-ellenőrzések lesznek végezve."
 
 #: main.cpp:1480
 msgid ""
