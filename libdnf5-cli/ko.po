@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-06 03:01+0000\n"
+"POT-Creation-Date: 2024-12-09 03:28+0000\n"
 "PO-Revision-Date: 2024-09-24 05:28+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
@@ -201,6 +201,18 @@ msgstr "설명"
 msgid "Vendor"
 msgstr "제조사"
 
+#: output/search.cpp:45
+msgid " (exact)"
+msgstr ""
+
+#: output/search.cpp:90
+msgid "No matches found."
+msgstr ""
+
+#: output/search.cpp:101
+msgid "Matched fields: "
+msgstr ""
+
 #: output/transaction_table.cpp:127
 msgid "Transaction Summary:\n"
 msgstr "연결 요약:\n"
@@ -372,6 +384,10 @@ msgstr "모듈 스트림 전환 중:"
 #: output/transaction_table.cpp:730
 msgid "Nothing to do."
 msgstr "처리가 필요하지 않습니다."
+
+#: progressbar/multi_progress_bar.cpp:36
+msgid "Total"
+msgstr ""
 
 #: session.cpp:149
 msgid "Missing command"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-06 03:01+0000\n"
+"POT-Creation-Date: 2024-12-09 03:28+0000\n"
 "PO-Revision-Date: 2024-09-19 09:54+0000\n"
 "Last-Translator: Aleksey Fedorov <aleksejfedorov963@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -212,6 +212,18 @@ msgstr "Описание"
 msgid "Vendor"
 msgstr "Поставщик"
 
+#: output/search.cpp:45
+msgid " (exact)"
+msgstr ""
+
+#: output/search.cpp:90
+msgid "No matches found."
+msgstr ""
+
+#: output/search.cpp:101
+msgid "Matched fields: "
+msgstr ""
+
 #: output/transaction_table.cpp:127
 msgid "Transaction Summary:\n"
 msgstr "Сводка транзакции:\n"
@@ -399,6 +411,10 @@ msgstr "Переключение потоков модулей:"
 #: output/transaction_table.cpp:730
 msgid "Nothing to do."
 msgstr "Нечего делать."
+
+#: progressbar/multi_progress_bar.cpp:36
+msgid "Total"
+msgstr ""
 
 #: session.cpp:149
 msgid "Missing command"
