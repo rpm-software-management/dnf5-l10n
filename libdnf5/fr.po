@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-09 03:28+0000\n"
-"PO-Revision-Date: 2024-10-15 17:15+0000\n"
+"PO-Revision-Date: 2024-12-09 18:58+0000\n"
 "Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/fr/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.7.2\n"
+"X-Generator: Weblate 5.8.4\n"
 
 #: advisory/advisory.cpp:81
 msgid ""
@@ -632,10 +632,8 @@ msgid "Signature verification failed."
 msgstr "Échec de la vérification de la signature."
 
 #: base/transaction.cpp:89
-#, fuzzy
-#| msgid "The repository does not have any PGP keys configured."
 msgid "The repository does not have any OpenPGP keys configured."
-msgstr "Le dépôt n'a aucune clé PGP configurée."
+msgstr "Aucune clé OpenPGP n'est configurée pour le dépôt."
 
 #: base/transaction.cpp:90
 msgid "Public key is not installed."
@@ -662,10 +660,9 @@ msgid "An error occurred importing key \"{}\": {}"
 msgstr "Une erreur s'est produite lors de l'importation de la clé \"{}\" : {}"
 
 #: base/transaction.cpp:1372
-#, fuzzy
-#| msgid "PGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
 msgid "OpenPGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
-msgstr "La vérification PGP du paquet \"{}\" ({}) du dépôt \"{}\" a échoué : "
+msgstr ""
+"La vérification OpenPGP du paquet \"{}\" ({}) du dépôt \"{}\" a échoué : "
 
 #: base/transaction.cpp:1400
 msgid "Import of the key didn't help, wrong key?"
@@ -677,30 +674,22 @@ msgid ", "
 msgstr ", "
 
 #: base/transaction.cpp:1422
-#, fuzzy
-#| msgid "Warning: skipped PGP checks for {0} package from repository: {1}"
-#| msgid_plural ""
-#| "Warning: skipped PGP checks for {0} packages from repository: {1}"
 msgid "Warning: skipped OpenPGP checks for {0} package from repository: {1}"
 msgid_plural ""
 "Warning: skipped OpenPGP checks for {0} packages from repository: {1}"
 msgstr[0] ""
-"Attention : vérifications PGP ignorées pour {0} paquet du dépôt : {1}"
+"Attention : vérifications OpenPGP ignorées pour {0} paquet du dépôt : {1}"
 msgstr[1] ""
-"Attention : vérifications PGP ignorées pour {0} paquets du dépôt : {1}"
+"Attention : vérifications OpenPGP ignorées pour {0} paquets du dépôt : {1}"
 
 #: base/transaction.cpp:1425
-#, fuzzy
-#| msgid "Warning: skipped PGP checks for {0} package from repositories: {1}"
-#| msgid_plural ""
-#| "Warning: skipped PGP checks for {0} packages from repositories: {1}"
 msgid "Warning: skipped OpenPGP checks for {0} package from repositories: {1}"
 msgid_plural ""
 "Warning: skipped OpenPGP checks for {0} packages from repositories: {1}"
 msgstr[0] ""
-"Attention : vérifications PGP ignorées pour {0} paquet des dépôts : {1}"
+"Attention : vérifications OpenPGP ignorées pour {0} paquet des dépôts : {1}"
 msgstr[1] ""
-"Attention : vérifications PGP ignorées pour {0} paquets des dépôts : {1}"
+"Attention : vérifications OpenPGP ignorées pour {0} paquets des dépôts : {1}"
 
 #: common/exception.cpp:78
 msgid "System error"
@@ -1066,22 +1055,17 @@ msgstr ""
 "\"{}\""
 
 #: repo/repo_pgp.cpp:60
-#, fuzzy
-#| msgid "Failed to import pgp keys into temporary keyring: {}"
 msgid "Failed to import OpenPGP keys into temporary keyring: {}"
-msgstr "Échec de l'importation des clés PGP dans le trousseau temporaire : {}"
+msgstr ""
+"Échec de l'importation des clés OpenPGP dans le trousseau temporaire : {}"
 
 #: repo/repo_pgp.cpp:66 repo/repo_pgp.cpp:93
-#, fuzzy
-#| msgid "Failed to list pgp keys: {}"
 msgid "Failed to list OpenPGP keys: {}"
-msgstr "Échec de la récupération de la liste des clés PGP : {}"
+msgstr "Échec de la récupération de la liste des clés OpenPGP : {}"
 
 #: repo/repo_pgp.cpp:141
-#, fuzzy
-#| msgid "Failed to import pgp keys: {}"
 msgid "Failed to import OpenPGP keys: {}"
-msgstr "Échec de l'importation des clés PGP : {}"
+msgstr "Échec de l'importation des clés OpenPGP : {}"
 
 #: repo/repo_sack.cpp:147
 msgid ""
@@ -1165,7 +1149,7 @@ msgstr "Impossible de trouver un paquet avec ce rpmdbid"
 
 #: rpm/package.cpp:478
 msgid "<unknown>"
-msgstr ""
+msgstr "<inconnu>"
 
 #: rpm/reldep.cpp:116 rpm/reldep.cpp:123
 msgid "Cannot parse a dependency string"
