@@ -5,13 +5,14 @@
 # Yang Yulin <yylteam@icloud.com>, 2024.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024.
 # Wenyin Root <ruojiner@hotmail.com>, 2024.
+# caffiendo c <1728778012@qq.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-09 03:28+0000\n"
-"PO-Revision-Date: 2024-11-06 09:16+0000\n"
-"Last-Translator: Wenyin Root <ruojiner@hotmail.com>\n"
+"PO-Revision-Date: 2024-12-09 18:58+0000\n"
+"Last-Translator: caffiendo c <1728778012@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://translate."
 "fedoraproject.org/projects/dnf5/dnf5/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -19,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.8.2\n"
+"X-Generator: Weblate 5.8.4\n"
 
 #: commands/advisory/advisory.cpp:36
 msgid "Manage advisories"
@@ -55,7 +56,7 @@ msgstr "打印公告摘要"
 
 #: commands/advisory/arguments.hpp:34
 msgid "Show advisories containing any version of installed packages."
-msgstr "显示包含任何版本已安装软件包的咨询。"
+msgstr "显示包含任何版本已安装软件包的公告。"
 
 #: commands/advisory/arguments.hpp:45
 msgid ""
@@ -82,11 +83,11 @@ msgstr "仅显示包含指定名称的包的建议。 列表选项，支持匹�
 
 #: commands/advisory/arguments.hpp:83
 msgid "PACKAGE_NAME,..."
-msgstr "PACKAGE_NAME,..."
+msgstr "软件包名,..."
 
 #: commands/advisory/arguments.hpp:90
 msgid "List of patterns matched against advisory names."
-msgstr "与建议名称匹配的模式列表。"
+msgstr "与建议名称匹配的列表。"
 
 #: commands/advisory/arguments.hpp:100
 msgid "Show only advisories referencing a bugzilla."
@@ -102,15 +103,15 @@ msgstr "限制为具有指定名称的公告中的软件包。 列表选项。"
 
 #: commands/advisory_shared.hpp:114
 msgid "ADVISORY_NAME,..."
-msgstr "ADVISORY_NAME,..."
+msgstr "公告名称,..."
 
 #: commands/advisory_shared.hpp:121
 msgid "Limit to packages in security advisories."
-msgstr "限制安全公告中的包。"
+msgstr "限制安全公告中的软件包。"
 
 #: commands/advisory_shared.hpp:128
 msgid "Limit to packages in bugfix advisories."
-msgstr "限制错误修复建议中的包。"
+msgstr "限制错误修复建议中的软件包。"
 
 #: commands/advisory_shared.hpp:135
 msgid "Limit to packages in enhancement advisories."
@@ -125,36 +126,36 @@ msgid ""
 "Limit to packages in advisories with specified severity. List option. Can be "
 "\"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgstr ""
-"限制为具有指定严重性的公告中的包。列表选项。可以是\"关键\", \"重要\", \"中等"
-"\", \"低\", \"无\" 。"
+"限制为具有指定严重性的公告中的包。列表选项。可以是\"critical\", \"important\""
+", \"moderate\", \"low\", \"none\" 。"
 
 #: commands/advisory_shared.hpp:155
 msgid "ADVISORY_SEVERITY,..."
-msgstr ""
+msgstr "严重警告,..."
 
 #: commands/advisory_shared.hpp:167
 msgid ""
 "Limit to packages in advisories that fix a Bugzilla ID, Eg. 123123. List "
 "option."
-msgstr ""
+msgstr "仅限于修复Bugzilla ID(例如123123)公告中的包，列表选项。"
 
 #: commands/advisory_shared.hpp:168
 msgid "BUGZILLA_ID,..."
-msgstr ""
+msgstr "BUGZILLA_ID,..."
 
 #: commands/advisory_shared.hpp:178
 msgid ""
 "Limit to packages in advisories that fix a CVE (Common Vulnerabilities and "
 "Exposures) ID, Eg. CVE-2201-0123. List option."
-msgstr ""
+msgstr "仅限于修复CVE(常见漏洞和暴露)ID(例如CVE-2201-0123)公告中的包，列表选项。"
 
 #: commands/advisory_shared.hpp:180
 msgid "CVE_ID,..."
-msgstr ""
+msgstr "CVE_ID,..."
 
 #: commands/autoremove/autoremove.cpp:38
 msgid "Remove all unneeded packages originally installed as dependencies."
-msgstr ""
+msgstr "删除最初作为依赖项安装的所有不需要的软件包。"
 
 #: commands/check-upgrade/check-upgrade.cpp:47
 msgid "Check for available package upgrades"
@@ -167,34 +168,37 @@ msgid ""
 "advisories is used it reports the lowest versions of packages that fix "
 "advisories matching selected advisory properties"
 msgstr ""
+"报告修复bugfix、enhancement、security或newpackage类型公告的软件包的最低版本。"
+"如果使用任何限制建议的选项，它会报告修复与所选建议属性匹配的建议的软件包的最"
+"低版本"
 
 #: commands/check/check.cpp:247
 msgid "Check for problems in the packagedb"
-msgstr ""
+msgstr "检查软件包数据库中的问题"
 
 #: commands/check/check.cpp:335
 msgid "Check discovered {} problem(s) in {} package(s)"
-msgstr ""
+msgstr "{}问题在软件包{}中被检查出"
 
 #: commands/clean/clean.cpp:90
 msgid "List of cache types to clean up. Supported types: {0}"
-msgstr ""
+msgstr "列出要清理的缓存类型。支持的类型有:{0}"
 
 #: commands/clean/clean.cpp:108
 msgid "Unknown cache type \"{0}\". Supported types: {1}"
-msgstr ""
+msgstr "未知的缓存类型 \"{0}\"。支持的类型有: {1}"
 
 #: commands/clean/clean.cpp:165
 msgid "Failed to cleanup repository cache in path \"{0}\": {1}"
-msgstr ""
+msgstr "在以下路径中清除仓库缓存失败 \"{0}\":{1}"
 
 #: commands/clean/clean.cpp:175
 msgid "Cache directory \"{}\" does not exist. Nothing to clean."
-msgstr ""
+msgstr "缓存目录 \"{}\" 不存在。未清除。"
 
 #: commands/clean/clean.cpp:180
 msgid "Cannot iterate cache directory \"{}\": {}"
-msgstr ""
+msgstr "无法遍历缓存目录 \"{}\": {}"
 
 #: commands/debuginfo-install/debuginfo-install.cpp:45
 msgid "Install debuginfo packages."
@@ -211,66 +215,66 @@ msgstr "降级软件"
 
 #: commands/download/download.cpp:105
 msgid "When running with --url, prints URLs from all available mirrors"
-msgstr ""
+msgstr "当加 --url 参数运行时，打印所有可用镜像源中的URL"
 
 #: commands/download/download.cpp:121
 msgid "Invalid urlprotocol option: {}"
-msgstr ""
+msgstr "无效的URL协议选项 : {}"
 
 #: commands/download/download.cpp:148 main.cpp:614
 msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
-msgstr ""
+msgstr "不支持的系统架构 \"{0}\"。请从中选择一个 {1}"
 
 #. TODO(jrohel): Add support for requiring an argument by another argument in ArgumentParser?
 #: commands/download/download.cpp:183
 msgid "Option \"--alldeps\" should be used with \"--resolve\""
-msgstr ""
+msgstr "选项 \"--alldeps\" 应该与 \"--resolve\" 一起使用"
 
 #: commands/environment/arguments.hpp:33
 msgid "Show only available environments."
-msgstr ""
+msgstr "仅显示可用的环境。"
 
 #: commands/environment/arguments.hpp:40
 msgid "Show only installed environments."
-msgstr ""
+msgstr "仅显示已安装的环境。"
 
 #: commands/environment/arguments.hpp:47
 msgid "Pattern matching environment IDs."
-msgstr ""
+msgstr "模式匹配环境ID。"
 
 #: commands/environment/environment.cpp:35
 msgid "Manage comps environments"
-msgstr ""
+msgstr "计算机环境管理"
 
 #: commands/group/arguments.hpp:34
 msgid "Show only available groups."
-msgstr ""
+msgstr "仅显示可用的软件包组。"
 
 #: commands/group/arguments.hpp:41
 msgid "Show also hidden groups."
-msgstr ""
+msgstr "同时显示已隐藏的软件包组。"
 
 #: commands/group/arguments.hpp:48
 msgid "Show only installed groups."
-msgstr ""
+msgstr "仅显示已安装的软件组。"
 
 #: commands/group/arguments.hpp:59
 msgid ""
 "Show only groups containing packages with specified names. List option, "
 "supports globs."
-msgstr ""
+msgstr "仅显示包含具有指定名称的软件包组。列表选项，支持通配符。"
 
 #: commands/group/arguments.hpp:67
 msgid "Pattern matching group IDS."
-msgstr ""
+msgstr "模式匹配软件包组ID。"
 
 #: commands/group/arguments.hpp:76
 msgid "Include optional packages from group."
-msgstr ""
+msgstr "包含软件包组中的可选软件包。"
 
 #: commands/group/arguments.hpp:83
 msgid "Operate on groups only, no packages are changed."
-msgstr ""
+msgstr "仅对软件包组进行操作，不更改任何软件包。"
 
 #: commands/history/arguments.hpp:37
 msgid "Transaction ID"
@@ -278,42 +282,43 @@ msgstr "事务 ID"
 
 #: commands/history/arguments.hpp:44
 msgid "Reverse the order of transactions."
-msgstr ""
+msgstr "对事物进行倒序操作。"
 
 #: commands/history/arguments.hpp:54
 msgid ""
 "Don't consider mismatches between installed and stored transaction packages "
 "as errors. This can result in an empty transaction because among other "
 "things the option can ignore failing Remove actions."
-msgstr ""
+msgstr "不要将已安装和存储的软件包事物的不匹配视为错误。这可能会导致空事务，因为除其"
+"他事项外，该选项可以忽略失败的删除操作。"
 
 #: commands/history/arguments.hpp:67
 msgid "Don't consider extra packages pulled into the transaction as errors."
-msgstr ""
+msgstr "不要将事务中额外引入的软件包视为错误。"
 
 #: commands/history/history.cpp:41
 msgid "Manage transaction history"
-msgstr ""
+msgstr "事物执行历史管理"
 
 #: commands/history/history_redo.cpp:53
 #: commands/history/history_rollback.cpp:57
 #: commands/history/history_store.cpp:65 commands/history/history_undo.cpp:56
 msgid "No matching transaction ID found, exactly one required."
-msgstr ""
+msgstr "未找到匹配的事物ID，要求准确且唯一。"
 
 #: commands/history/history_redo.cpp:57
 #: commands/history/history_rollback.cpp:61
 #: commands/history/history_undo.cpp:60
 msgid "Matched more than one transaction ID, exactly one required."
-msgstr ""
+msgstr "匹配到多个事物ID，要求准确且唯一。"
 
 #: commands/history/history_store.cpp:68
 msgid "Multiple transactions selected for storing, only one allowed."
-msgstr ""
+msgstr "多个事物被选择存储，仅允许一个。"
 
 #: commands/history/history_store.cpp:80
 msgid "File \"{}\" already exists, it will be overwritten.\n"
-msgstr ""
+msgstr "文件 \"{}\" 已存在，它即将被覆盖。\n"
 
 #: commands/history/transaction_id.cpp:32
 msgid ""
@@ -375,10 +380,8 @@ msgid "List packages which will be removed by the 'dnf autoremove' command."
 msgstr ""
 
 #: commands/list/list.cpp:194 commands/list/list.cpp:199
-#, fuzzy
-#| msgid "Installed"
 msgid "Installed packages"
-msgstr "已安装"
+msgstr "已安装的软件包"
 
 #: commands/list/list.cpp:195 commands/list/list.cpp:208
 #, fuzzy
@@ -394,29 +397,27 @@ msgstr "可用的"
 
 #: commands/list/list.cpp:232
 msgid "Obsoleting packages"
-msgstr ""
+msgstr "已过时的软件包"
 
 #: commands/list/list.cpp:237
 msgid "Autoremove packages"
-msgstr ""
+msgstr "自动删除软件包"
 
 #: commands/list/list.cpp:241
 msgid "Extra packages"
-msgstr ""
+msgstr "额外的软件包"
 
 #: commands/list/list.cpp:252
 msgid "Recently added packages"
-msgstr ""
+msgstr "最近添加的软件包"
 
 #: commands/list/list.cpp:257
 msgid "No matching packages to list"
-msgstr ""
+msgstr "没有匹配的软件包可以列出"
 
 #: commands/mark/mark.cpp:38
-#, fuzzy
-#| msgid "Show advisories containing any version of installed packages."
 msgid "Change the reason of an installed package"
-msgstr "显示包含任何版本已安装软件包的咨询。"
+msgstr "已安装软件包的变更原因"
 
 #: commands/module/arguments.hpp:36
 msgid "Show enabled modules."
@@ -515,7 +516,7 @@ msgstr ""
 
 #: commands/offline/offline.cpp:497
 msgid "Transaction failed: "
-msgstr ""
+msgstr "事务失败: "
 
 #: commands/offline/offline.cpp:566
 msgid "Error reading journal: {}"
@@ -581,7 +582,7 @@ msgstr ""
 
 #: commands/provides/provides.cpp:48
 msgid "Find what package provides the given value"
-msgstr ""
+msgstr "查找提供指定内容的软件包"
 
 #: commands/reinstall/reinstall.cpp:40
 msgid "Reinstall software"
@@ -633,7 +634,7 @@ msgstr ""
 
 #: commands/search/arguments.hpp:37
 msgid "Search also package description and URL."
-msgstr ""
+msgstr "同时搜索软件包描述和 URL。"
 
 #: commands/search/arguments.hpp:45
 msgid "Patterns"
@@ -798,7 +799,7 @@ msgstr ""
 
 #: context.cpp:342 context.cpp:497
 msgid "Transaction failed: {}"
-msgstr ""
+msgstr "事务失败:{}"
 
 #: context.cpp:347 context.cpp:502
 msgid "  - {}"
@@ -843,17 +844,15 @@ msgstr ""
 
 #: context.cpp:792
 msgid "Reinstalling {}"
-msgstr ""
+msgstr "重新安装 {}"
 
 #: context.cpp:805
 msgid "Unexpected action in TransactionPackage: {}"
 msgstr ""
 
 #: context.cpp:811
-#, fuzzy
-#| msgid "Installed"
 msgid "Installing {}"
-msgstr "已安装"
+msgstr "安装{}"
 
 #: context.cpp:832
 msgid "Prepare transaction"
@@ -1006,7 +1005,7 @@ msgstr "全部问题自动应答为否"
 
 #: main.cpp:306
 msgid "try the best available package versions in transactions"
-msgstr ""
+msgstr "在事务中尝试最佳软件包版本"
 
 #: main.cpp:313
 msgid "do not limit the transaction to the best candidate"
@@ -1041,10 +1040,8 @@ msgid ""
 msgstr ""
 
 #: main.cpp:417
-#, fuzzy
-#| msgid "disable gpg signature checking (if RPM policy allows)"
 msgid "disable OpenPGP signature checking (if RPM policy allows)"
-msgstr "禁用 gpg 签名检查 (如果 RPM 策略允许)"
+msgstr "禁用OpenPGP签名检查(如果 RPM 策略允许)"
 
 #: main.cpp:433
 msgid "Disable all libdnf5 plugins"
