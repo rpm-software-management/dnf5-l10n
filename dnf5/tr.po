@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-06 03:02+0000\n"
+"POT-Creation-Date: 2024-12-09 03:28+0000\n"
 "PO-Revision-Date: 2024-10-11 04:38+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -803,7 +803,9 @@ msgid "Package \"{}\" is already excluded."
 msgstr "\"{}\" paketi zaten dışlanmış."
 
 #: context.cpp:73
-msgid "Importing PGP key 0x{}:\n"
+#, fuzzy
+#| msgid "Importing PGP key 0x{}:\n"
+msgid "Importing OpenPGP key 0x{}:\n"
 msgstr "0x{} PGP anahtarı içe aktarılıyor:\n"
 
 #: context.cpp:75
@@ -826,7 +828,7 @@ msgstr "Anahtar başarıyla içe aktarıldı."
 msgid "setopt: \"{}.{}\": {}"
 msgstr "setopt: \"{}.{}\": {}"
 
-#: context.cpp:268
+#: context.cpp:268 main.cpp:1316
 msgid ", "
 msgstr ", "
 
@@ -1126,7 +1128,9 @@ msgstr ""
 "birden çok kez belirtilebilir."
 
 #: main.cpp:417
-msgid "disable gpg signature checking (if RPM policy allows)"
+#, fuzzy
+#| msgid "disable gpg signature checking (if RPM policy allows)"
+msgid "disable OpenPGP signature checking (if RPM policy allows)"
 msgstr "gpg imza denetimini devre dışı bırak (RPM ilkesi izin veriyorsa)"
 
 #: main.cpp:433
@@ -1333,19 +1337,19 @@ msgid "{} to allow removing of installed packages to resolve problems"
 msgstr ""
 "Sorunları çözmek için kurulu paketlerin kaldırılmasına izin vermek için {}"
 
-#: main.cpp:1080
+#: main.cpp:1081
 msgid "{} to load additional filelists metadata"
 msgstr "Ek dosya listeleri üst verilerini yüklemek için {}"
 
-#: main.cpp:1087
+#: main.cpp:1088
 msgid "{} to skip uninstallable packages"
 msgstr "Kurulamayan paketleri atlamak için {}"
 
-#: main.cpp:1093
+#: main.cpp:1094
 msgid "You can try to add to command line:"
 msgstr "Komut satırına eklemeyi deneyebilirsiniz:"
 
-#: main.cpp:1111
+#: main.cpp:1112
 msgid ""
 "No matches were found for the following plugin name patterns while enabling "
 "libdnf plugins: {}"
@@ -1353,7 +1357,7 @@ msgstr ""
 "libdnf eklentilerini etkinleştirirken şu eklenti adı desenleri için eşleşme "
 "bulunamadı: {}"
 
-#: main.cpp:1112
+#: main.cpp:1113
 msgid ""
 "No matches were found for the following plugin name patterns while disabling "
 "libdnf plugins: {}"
@@ -1361,20 +1365,20 @@ msgstr ""
 "libdnf eklentilerini devre dışı bırakırken şu eklenti adı desenleri için "
 "eşleşme bulunamadı: {}"
 
-#: main.cpp:1208
+#: main.cpp:1209
 msgid "--- DNF5 launched with arguments: \"{}\" ---"
 msgstr "--- DNF5 şu argümanlarla başlatıldı: \"{}\" ---"
 
-#: main.cpp:1259
+#: main.cpp:1260
 msgid "{}."
 msgstr "{}."
 
-#: main.cpp:1262 main.cpp:1445
+#: main.cpp:1263 main.cpp:1492
 msgid "{}. Add \"--help\" for more information about the arguments."
 msgstr ""
 "{}. Argümanlar hakkında daha fazla bilgi için \"--help\" seçeneğini ekleyin."
 
-#: main.cpp:1269
+#: main.cpp:1272
 msgid ""
 "It could be a command provided by a plugin, try: dnf5 install 'dnf5-"
 "command({})'"
@@ -1382,11 +1386,17 @@ msgstr ""
 "Bir eklenti tarafından sağlanan bir komut olabilir, şunu deneyin: dnf5 "
 "install 'dnf5-command({})'"
 
-#: main.cpp:1311
+#: main.cpp:1314
+msgid ""
+"The argument is available for commands: {}. (It has to be placed after the "
+"command.)"
+msgstr ""
+
+#: main.cpp:1358
 msgid "No read/execute access in current directory, moving to /"
 msgstr "Geçerli dizinde okuma/çalıştırma izni yok, /'a taşınıyor"
 
-#: main.cpp:1368
+#: main.cpp:1415
 msgid ""
 "The requested operation requires superuser privileges. Please log in as a "
 "user with elevated rights, or use the \"--assumeno\" or \"--downloadonly\" "
@@ -1397,23 +1407,27 @@ msgstr ""
 "değiştirmeden komutu çalıştırmak için \"--assumeno\" veya \"--downloadonly\" "
 "seçeneklerini kullanın."
 
-#: main.cpp:1409
+#: main.cpp:1456
 msgid "The operation will only store the transaction in {}"
 msgstr "İşlem yalnızca {} içine kaydedilecektir"
 
-#: main.cpp:1411
+#: main.cpp:1458
 msgid "The operation will only download packages for the transaction."
 msgstr "Yalnızca işlem için gerekli paketler indirilecektir."
 
-#: main.cpp:1416
+#: main.cpp:1463
+#, fuzzy
+#| msgid ""
+#| "Test mode enabled: Only package downloads, PGP key installations and "
+#| "transaction checks will be performed."
 msgid ""
-"Test mode enabled: Only package downloads, PGP key installations and "
+"Test mode enabled: Only package downloads, OpenPGP key installations and "
 "transaction checks will be performed."
 msgstr ""
 "Test kipi etkinleştirildi: Yalnızca paket indirmeleri, PGP anahtar "
 "kurulumları ve işlem denetimleri gerçekleştirilecektir."
 
-#: main.cpp:1433
+#: main.cpp:1480
 msgid ""
 "No repositories were loaded from the installroot. To use the configuration "
 "and repositories of the host system, pass --use-host-config."
@@ -1421,15 +1435,15 @@ msgstr ""
 "Kurulum kökünden hiçbir depo yüklenmedi. Ana sistemin yapılandırmasını ve "
 "depolarını kullanmak için --use-host-config seçeneğini belirtin."
 
-#: main.cpp:1455
+#: main.cpp:1502
 msgid "Command returned error: {}"
 msgstr "Komut hata döndürdü: {}"
 
-#: main.cpp:1463
+#: main.cpp:1510
 msgid "DNF5 finished"
 msgstr "DNF5 tamamlandı"
 
-#: main.cpp:1467
+#: main.cpp:1514
 msgid "Complete!"
 msgstr "Tamamlandı!"
 

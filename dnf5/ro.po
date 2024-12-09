@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-06 03:02+0000\n"
+"POT-Creation-Date: 2024-12-09 03:28+0000\n"
 "PO-Revision-Date: 2024-10-11 04:38+0000\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -828,7 +828,9 @@ msgid "Package \"{}\" is already excluded."
 msgstr "Pachetul „{}” este deja exclus."
 
 #: context.cpp:73
-msgid "Importing PGP key 0x{}:\n"
+#, fuzzy
+#| msgid "Importing PGP key 0x{}:\n"
+msgid "Importing OpenPGP key 0x{}:\n"
 msgstr "Se importă cheia PGP 0x{}:\n"
 
 #: context.cpp:75
@@ -851,7 +853,7 @@ msgstr "Cheia a fost importată cu succes."
 msgid "setopt: \"{}.{}\": {}"
 msgstr "setopt: \"{}.{}\": {}"
 
-#: context.cpp:268
+#: context.cpp:268 main.cpp:1316
 msgid ", "
 msgstr ", "
 
@@ -1153,7 +1155,9 @@ msgstr ""
 "poate fi specificată de mai multe ori."
 
 #: main.cpp:417
-msgid "disable gpg signature checking (if RPM policy allows)"
+#, fuzzy
+#| msgid "disable gpg signature checking (if RPM policy allows)"
+msgid "disable OpenPGP signature checking (if RPM policy allows)"
 msgstr "Dezactivează verificarea semnăturii gpg (dacă politica RPM o permite)"
 
 #: main.cpp:433
@@ -1364,19 +1368,19 @@ msgstr ""
 "{} pentru a permite eliminarea pachetelor instalate pentru a rezolva "
 "problemele"
 
-#: main.cpp:1080
+#: main.cpp:1081
 msgid "{} to load additional filelists metadata"
 msgstr "{} pentru a încărca metadatele suplimentare ale listelor de fișiere"
 
-#: main.cpp:1087
+#: main.cpp:1088
 msgid "{} to skip uninstallable packages"
 msgstr "{} pentru a omite pachetele ce pot fi dezinstalate"
 
-#: main.cpp:1093
+#: main.cpp:1094
 msgid "You can try to add to command line:"
 msgstr "Puteți încerca să adăugați la linia de comandă:"
 
-#: main.cpp:1111
+#: main.cpp:1112
 msgid ""
 "No matches were found for the following plugin name patterns while enabling "
 "libdnf plugins: {}"
@@ -1384,7 +1388,7 @@ msgstr ""
 "Nu au fost găsite potriviri pentru următoarele modele de nume de module în "
 "timpul activării modulelor libdnf: {}"
 
-#: main.cpp:1112
+#: main.cpp:1113
 msgid ""
 "No matches were found for the following plugin name patterns while disabling "
 "libdnf plugins: {}"
@@ -1392,19 +1396,19 @@ msgstr ""
 "Nu au fost găsite potriviri pentru următoarele modele de nume de module în "
 "timpul dezactivării modulelor libdnf: {}"
 
-#: main.cpp:1208
+#: main.cpp:1209
 msgid "--- DNF5 launched with arguments: \"{}\" ---"
 msgstr "--- «dnf5» lansat cu argumentele: „{}” ---"
 
-#: main.cpp:1259
+#: main.cpp:1260
 msgid "{}."
 msgstr "{}."
 
-#: main.cpp:1262 main.cpp:1445
+#: main.cpp:1263 main.cpp:1492
 msgid "{}. Add \"--help\" for more information about the arguments."
 msgstr "{}. Adăugați „--help” pentru mai multe informații despre argumente."
 
-#: main.cpp:1269
+#: main.cpp:1272
 msgid ""
 "It could be a command provided by a plugin, try: dnf5 install 'dnf5-"
 "command({})'"
@@ -1412,12 +1416,18 @@ msgstr ""
 "Ar putea fi o comandă furnizată de un modul, încercați: «dnf5 install 'dnf5-"
 "command({})'»"
 
-#: main.cpp:1311
+#: main.cpp:1314
+msgid ""
+"The argument is available for commands: {}. (It has to be placed after the "
+"command.)"
+msgstr ""
+
+#: main.cpp:1358
 msgid "No read/execute access in current directory, moving to /"
 msgstr ""
 "Nu există acces de citire/executare în directorul curent, se deplasează la /"
 
-#: main.cpp:1368
+#: main.cpp:1415
 msgid ""
 "The requested operation requires superuser privileges. Please log in as a "
 "user with elevated rights, or use the \"--assumeno\" or \"--downloadonly\" "
@@ -1428,23 +1438,27 @@ msgstr ""
 "assumeno” sau „--downloadonly” pentru a executa comanda fără a modifica "
 "starea sistemului."
 
-#: main.cpp:1409
+#: main.cpp:1456
 msgid "The operation will only store the transaction in {}"
 msgstr "Operația va stoca tranzacția doar în {}"
 
-#: main.cpp:1411
+#: main.cpp:1458
 msgid "The operation will only download packages for the transaction."
 msgstr "Operația va descărca doar pachetele pentru tranzacție."
 
-#: main.cpp:1416
+#: main.cpp:1463
+#, fuzzy
+#| msgid ""
+#| "Test mode enabled: Only package downloads, PGP key installations and "
+#| "transaction checks will be performed."
 msgid ""
-"Test mode enabled: Only package downloads, PGP key installations and "
+"Test mode enabled: Only package downloads, OpenPGP key installations and "
 "transaction checks will be performed."
 msgstr ""
 "Modul de testare activat: Vor fi efectuate numai descărcări de pachete, "
 "instalări de chei PGP și verificări ale tranzacțiilor."
 
-#: main.cpp:1433
+#: main.cpp:1480
 msgid ""
 "No repositories were loaded from the installroot. To use the configuration "
 "and repositories of the host system, pass --use-host-config."
@@ -1452,15 +1466,15 @@ msgstr ""
 "Nu au fost încărcate depozite din installroot. Pentru a utiliza configurația "
 "și depozitele sistemului gazdă, introduceți „--use-host-config”."
 
-#: main.cpp:1455
+#: main.cpp:1502
 msgid "Command returned error: {}"
 msgstr "Comanda a returnat o eroare: {}"
 
-#: main.cpp:1463
+#: main.cpp:1510
 msgid "DNF5 finished"
 msgstr "«dnf5» a terminat"
 
-#: main.cpp:1467
+#: main.cpp:1514
 msgid "Complete!"
 msgstr "Gata!"
 

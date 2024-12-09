@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-06 03:02+0000\n"
+"POT-Creation-Date: 2024-12-09 03:28+0000\n"
 "PO-Revision-Date: 2024-12-05 11:38+0000\n"
 "Last-Translator: Joan Aymà <joan@ayma.cat>\n"
 "Language-Team: Catalan <https://translate.fedoraproject.org/projects/dnf5/"
@@ -192,34 +192,30 @@ msgid "Check for problems in the packagedb"
 msgstr "Comprova si hi ha problemes a la base de dades de paquets"
 
 #: commands/check/check.cpp:335
-#, c++-format
 msgid "Check discovered {} problem(s) in {} package(s)"
 msgstr "Comprova {} problema/es descobert(s) en {} paquet(s)"
 
 #: commands/clean/clean.cpp:90
-#, c++-format
 msgid "List of cache types to clean up. Supported types: {0}"
 msgstr "Llista els tipus de memòria cau a netejar. Tipus suportats: {0}"
 
 #: commands/clean/clean.cpp:108
-#, c++-format
 msgid "Unknown cache type \"{0}\". Supported types: {1}"
 msgstr "Tipus de memòria cau\"{0}\" desconegut. Tipus suportats: {1}"
 
 #: commands/clean/clean.cpp:165
-#, c++-format
 msgid "Failed to cleanup repository cache in path \"{0}\": {1}"
 msgstr "Ha fallat al netejar la memòria cau a la ruta \"{0}\": {1}"
 
 #: commands/clean/clean.cpp:175
-#, c++-format
 msgid "Cache directory \"{}\" does not exist. Nothing to clean."
-msgstr "El directori de memòria cau \"{}\" no existeix. No hi ha res a netejar."
+msgstr ""
+"El directori de memòria cau \"{}\" no existeix. No hi ha res a netejar."
 
 #: commands/clean/clean.cpp:180
-#, c++-format
 msgid "Cannot iterate cache directory \"{}\": {}"
-msgstr "No ha estat possible iterar dins el directori de memòria cau \"{}\": {}"
+msgstr ""
+"No ha estat possible iterar dins el directori de memòria cau \"{}\": {}"
 
 #: commands/debuginfo-install/debuginfo-install.cpp:45
 msgid "Install debuginfo packages."
@@ -242,12 +238,10 @@ msgstr ""
 "Quan s'executa amb --url, informa les URLs de tots els miralls disponibles"
 
 #: commands/download/download.cpp:121
-#, c++-format
 msgid "Invalid urlprotocol option: {}"
 msgstr "Opció de protocol url invàlida: {}"
 
 #: commands/download/download.cpp:148 main.cpp:614
-#, c++-format
 msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
 msgstr "Arquitectura \"{0}\" no suporta. Sisplau escull una de \"{1}\""
 
@@ -353,12 +347,10 @@ msgstr ""
 "una."
 
 #: commands/history/history_store.cpp:80
-#, c++-format
 msgid "File \"{}\" already exists, it will be overwritten.\n"
 msgstr "El fitxer \"{}\" ja existeix, es sobreescriurà.\n"
 
 #: commands/history/transaction_id.cpp:32
-#, c++-format
 msgid ""
 "Invalid transaction ID range \"{}\", \"ID\" or \"ID..ID\" expected, where ID "
 "is \"NUMBER\", \"last\" or \"last-NUMBER\"."
@@ -424,7 +416,8 @@ msgstr "Llista les actualitzacions disponibles dels paquets instal·lats."
 
 #: commands/list/list.cpp:97
 msgid "List packages which will be removed by the 'dnf autoremove' command."
-msgstr "Llista els paquets que seran esborrats per la comanda 'dnf autoremove'."
+msgstr ""
+"Llista els paquets que seran esborrats per la comanda 'dnf autoremove'."
 
 #: commands/list/list.cpp:194 commands/list/list.cpp:199
 msgid "Installed packages"
@@ -479,7 +472,6 @@ msgid "Manage modules"
 msgstr "Gestiona els mòduls"
 
 #: commands/module/module_list.cpp:85
-#, c++-format
 msgid "No matches found for \"{}\"."
 msgstr "Cap coincidència amb \"{}\"."
 
@@ -488,14 +480,12 @@ msgid "Manage offline transactions"
 msgstr "Gestiona les transaccions fora de línia"
 
 #: commands/offline/offline.cpp:222
-#, c++-format
 msgid ""
 "Error reading state: {}. Rerun the command you used to initiate the offline "
 "transaction, e.g. `dnf5 system-upgrade download [OPTIONS]`."
 msgstr ""
 
 #: commands/offline/offline.cpp:245
-#, c++-format
 msgid "Couldn't connect to D-Bus: {}"
 msgstr ""
 
@@ -518,12 +508,10 @@ msgid "System is not ready for offline transaction."
 msgstr ""
 
 #: commands/offline/offline.cpp:303
-#, c++-format
 msgid "Data directory {} does not exist."
 msgstr ""
 
 #: commands/offline/offline.cpp:327
-#, c++-format
 msgid "{} is not wanted by system-update.target."
 msgstr ""
 
@@ -567,12 +555,10 @@ msgid "Transaction failed: "
 msgstr ""
 
 #: commands/offline/offline.cpp:566
-#, c++-format
 msgid "Error reading journal: {}"
 msgstr ""
 
 #: commands/offline/offline.cpp:572
-#, c++-format
 msgid "Add journal match failed: {}"
 msgstr ""
 
@@ -738,7 +724,6 @@ msgstr ""
 
 #. TODO(mblaha): add full command line
 #: commands/versionlock/utils.cpp:35
-#, c++-format
 msgid "Added by 'versionlock {}' command on {}"
 msgstr ""
 
@@ -756,17 +741,14 @@ msgstr ""
 
 #: commands/versionlock/versionlock_add.cpp:106
 #: commands/versionlock/versionlock_exclude.cpp:125
-#, c++-format
 msgid "No package found for \"{}\"."
 msgstr ""
 
 #: commands/versionlock/versionlock_add.cpp:124
-#, c++-format
 msgid "Adding versionlock on \"{0} = {1}\"."
 msgstr ""
 
 #: commands/versionlock/versionlock_add.cpp:127
-#, c++-format
 msgid "Package \"{}\" is already locked."
 msgstr ""
 
@@ -796,27 +778,22 @@ msgstr ""
 
 #: commands/versionlock/versionlock_exclude.cpp:88
 #: commands/versionlock/versionlock_exclude.cpp:100
-#, c++-format
 msgid "Adding versionlock exclude on \"{0} = {1}\"."
 msgstr ""
 
 #: commands/versionlock/versionlock_exclude.cpp:139
-#, c++-format
 msgid "Package \"{}\" is already excluded."
 msgstr ""
 
 #: context.cpp:73
-#, c++-format
-msgid "Importing PGP key 0x{}:\n"
+msgid "Importing OpenPGP key 0x{}:\n"
 msgstr ""
 
 #: context.cpp:75
-#, c++-format
 msgid " UserID     : \"{}\"\n"
 msgstr ""
 
 #: context.cpp:78
-#, c++-format
 msgid ""
 " Fingerprint: {}\n"
 " From       : {}\n"
@@ -827,23 +804,20 @@ msgid "The key was successfully imported."
 msgstr ""
 
 #: context.cpp:262
-#, c++-format
 msgid "setopt: \"{}.{}\": {}"
 msgstr ""
 
-#: context.cpp:268
+#: context.cpp:268 main.cpp:1316
 msgid ", "
 msgstr ""
 
 #: context.cpp:272
-#, c++-format
 msgid ""
 "No matching repositories for {}. To use repositories from a host system, "
 "pass --use-host-config option"
 msgstr ""
 
 #: context.cpp:276
-#, c++-format
 msgid "No matching repositories for {}"
 msgstr ""
 
@@ -860,17 +834,14 @@ msgid "Testing offline transaction"
 msgstr ""
 
 #: context.cpp:342 context.cpp:497
-#, c++-format
 msgid "Transaction failed: {}"
 msgstr ""
 
 #: context.cpp:347 context.cpp:502
-#, c++-format
 msgid "  - {}"
 msgstr ""
 
 #: context.cpp:414
-#, c++-format
 msgid ""
 "Location \"{}\" already contains a stored transaction, it will be "
 "overwritten."
@@ -900,27 +871,22 @@ msgid "Running transaction"
 msgstr ""
 
 #: context.cpp:786
-#, c++-format
 msgid "Upgrading {}"
 msgstr ""
 
 #: context.cpp:789
-#, c++-format
 msgid "Downgrading {}"
 msgstr ""
 
 #: context.cpp:792
-#, c++-format
 msgid "Reinstalling {}"
 msgstr ""
 
 #: context.cpp:805
-#, c++-format
 msgid "Unexpected action in TransactionPackage: {}"
 msgstr ""
 
 #: context.cpp:811
-#, c++-format
 msgid "Installing {}"
 msgstr ""
 
@@ -929,22 +895,18 @@ msgid "Prepare transaction"
 msgstr ""
 
 #: context.cpp:852
-#, c++-format
 msgid "Removing {}"
 msgstr ""
 
 #: context.cpp:855
-#, c++-format
 msgid "Cleanup {}"
 msgstr ""
 
 #: context.cpp:873
-#, c++-format
 msgid "Unpack error: {}"
 msgstr ""
 
 #: context.cpp:881
-#, c++-format
 msgid "Cpio error: {}"
 msgstr ""
 
@@ -953,22 +915,18 @@ msgid "Scriptlet output:"
 msgstr ""
 
 #: context.cpp:913
-#, c++-format
 msgid "Running {} scriptlet: {}"
 msgstr ""
 
 #: context.cpp:928
-#, c++-format
 msgid "Finished {} scriptlet: {}"
 msgstr ""
 
 #: context.cpp:934
-#, c++-format
 msgid "Non-critical error in {} scriptlet: {}"
 msgstr ""
 
 #: context.cpp:943
-#, c++-format
 msgid "Error in {} scriptlet: {}"
 msgstr ""
 
@@ -977,12 +935,10 @@ msgid "Verify package files"
 msgstr ""
 
 #: library.cpp:33
-#, c++-format
 msgid "Cannot load shared library \"{}\": {}"
 msgstr ""
 
 #: library.cpp:48
-#, c++-format
 msgid "Cannot obtain address of symbol \"{}\": {}"
 msgstr ""
 
@@ -1028,7 +984,6 @@ msgid "Force refreshing metadata before running the command."
 msgstr ""
 
 #: main.cpp:192
-#, c++-format
 msgid "Failed to expire repository cache in path \"{0}\": {1}"
 msgstr ""
 
@@ -1037,7 +992,6 @@ msgid "create additional repository using id and path"
 msgstr ""
 
 #: main.cpp:214
-#, c++-format
 msgid "repofrompath: Incorrect repoid and path specification \"{}\""
 msgstr ""
 
@@ -1057,18 +1011,15 @@ msgid ""
 msgstr ""
 
 #: main.cpp:237 main.cpp:276
-#, c++-format
 msgid "{}: Badly formatted argument value \"{}\""
 msgstr ""
 
 #: main.cpp:244
-#, c++-format
 msgid ""
 "{}: Badly formatted argument value: Last key character cannot be '.': {}"
 msgstr ""
 
 #: main.cpp:257
-#, c++-format
 msgid "setopt: \"{0}\": {1}"
 msgstr ""
 
@@ -1077,7 +1028,6 @@ msgid "set arbitrary variable"
 msgstr ""
 
 #: main.cpp:283
-#, c++-format
 msgid "setvar: {}"
 msgstr ""
 
@@ -1126,7 +1076,7 @@ msgid ""
 msgstr ""
 
 #: main.cpp:417
-msgid "disable gpg signature checking (if RPM policy allows)"
+msgid "disable OpenPGP signature checking (if RPM policy allows)"
 msgstr ""
 
 #: main.cpp:433
@@ -1213,62 +1163,51 @@ msgid "Subcommands:"
 msgstr ""
 
 #: main.cpp:744
-#, c++-format
 msgid "{} version {}.{}.{}.{}"
 msgstr ""
 
 #: main.cpp:747
-#, c++-format
 msgid "{} plugin API version {}.{}"
 msgstr ""
 
 #: main.cpp:752
-#, c++-format
 msgid "libdnf5 version {}.{}.{}.{}"
 msgstr ""
 
 #: main.cpp:755
-#, c++-format
 msgid "libdnf5 plugin API version {}.{}"
 msgstr ""
 
 #: main.cpp:762
-#, c++-format
 msgid ""
 "\n"
 "Loaded {} plugins:"
 msgstr ""
 
 #: main.cpp:767
-#, c++-format
 msgid "  name: {}"
 msgstr ""
 
 #: main.cpp:770
-#, c++-format
 msgid "  version: {}.{}.{}"
 msgstr ""
 
 #: main.cpp:772
-#, c++-format
 msgid "  API version: {}.{}"
 msgstr ""
 
 #: main.cpp:810
-#, c++-format
 msgid ""
 "Total size of inbound packages is {:.0f} {:s}. Need to download {:.0f} {:s}."
 msgstr ""
 
 #: main.cpp:828
-#, c++-format
 msgid ""
 "After this operation, {:.0f} {:s} extra will be used (install {:.0f} {:s}, "
 "remove {:.0f} {:s})."
 msgstr ""
 
 #: main.cpp:837
-#, c++-format
 msgid ""
 "After this operation, {:.0f} {:s} will be freed (install {:.0f} {:s}, remove "
 "{:.0f} {:s})."
@@ -1279,12 +1218,10 @@ msgid "======== Main configuration: ========"
 msgstr ""
 
 #: main.cpp:886
-#, c++-format
 msgid "No matching repo to dump configuration: \"{}\""
 msgstr ""
 
 #: main.cpp:891
-#, c++-format
 msgid "======== \"{}\" repository configuration: ========"
 msgstr ""
 
@@ -1297,22 +1234,18 @@ msgid "New leaves:"
 msgstr ""
 
 #: main.cpp:953
-#, c++-format
 msgid " {}"
 msgstr ""
 
 #: main.cpp:997
-#, c++-format
 msgid "{} to skip unavailable packages"
 msgstr ""
 
 #: main.cpp:1005
-#, c++-format
 msgid "{} to allow extra packages in the transaction"
 msgstr ""
 
 #: main.cpp:1018
-#, c++-format
 msgid ""
 "{} to allow mismatches between installed and stored transaction packages. "
 "This can result in an empty transaction because among other things the "
@@ -1320,107 +1253,101 @@ msgid ""
 msgstr ""
 
 #: main.cpp:1065
-#, c++-format
 msgid "{} to not limit the transaction to the best candidates"
 msgstr ""
 
 #: main.cpp:1072
-#, c++-format
 msgid "{} to allow removing of installed packages to resolve problems"
 msgstr ""
 
-#: main.cpp:1080
-#, c++-format
+#: main.cpp:1081
 msgid "{} to load additional filelists metadata"
 msgstr ""
 
-#: main.cpp:1087
-#, c++-format
+#: main.cpp:1088
 msgid "{} to skip uninstallable packages"
 msgstr ""
 
-#: main.cpp:1093
+#: main.cpp:1094
 msgid "You can try to add to command line:"
 msgstr ""
 
-#: main.cpp:1111
-#, c++-format
+#: main.cpp:1112
 msgid ""
 "No matches were found for the following plugin name patterns while enabling "
 "libdnf plugins: {}"
 msgstr ""
 
-#: main.cpp:1112
-#, c++-format
+#: main.cpp:1113
 msgid ""
 "No matches were found for the following plugin name patterns while disabling "
 "libdnf plugins: {}"
 msgstr ""
 
-#: main.cpp:1208
-#, c++-format
+#: main.cpp:1209
 msgid "--- DNF5 launched with arguments: \"{}\" ---"
 msgstr ""
 
-#: main.cpp:1259
-#, c++-format
+#: main.cpp:1260
 msgid "{}."
 msgstr ""
 
-#: main.cpp:1262 main.cpp:1445
-#, c++-format
+#: main.cpp:1263 main.cpp:1492
 msgid "{}. Add \"--help\" for more information about the arguments."
 msgstr ""
 
-#: main.cpp:1269
-#, c++-format
+#: main.cpp:1272
 msgid ""
 "It could be a command provided by a plugin, try: dnf5 install 'dnf5-"
 "command({})'"
 msgstr ""
 
-#: main.cpp:1311
+#: main.cpp:1314
+msgid ""
+"The argument is available for commands: {}. (It has to be placed after the "
+"command.)"
+msgstr ""
+
+#: main.cpp:1358
 msgid "No read/execute access in current directory, moving to /"
 msgstr ""
 
-#: main.cpp:1368
+#: main.cpp:1415
 msgid ""
 "The requested operation requires superuser privileges. Please log in as a "
 "user with elevated rights, or use the \"--assumeno\" or \"--downloadonly\" "
 "options to run the command without modifying the system state."
 msgstr ""
 
-#: main.cpp:1409
-#, c++-format
+#: main.cpp:1456
 msgid "The operation will only store the transaction in {}"
 msgstr ""
 
-#: main.cpp:1411
+#: main.cpp:1458
 msgid "The operation will only download packages for the transaction."
 msgstr ""
 
-#: main.cpp:1416
+#: main.cpp:1463
 msgid ""
-"Test mode enabled: Only package downloads, PGP key installations and "
+"Test mode enabled: Only package downloads, OpenPGP key installations and "
 "transaction checks will be performed."
 msgstr ""
 
-#: main.cpp:1433
+#: main.cpp:1480
 msgid ""
 "No repositories were loaded from the installroot. To use the configuration "
 "and repositories of the host system, pass --use-host-config."
 msgstr ""
 
-#: main.cpp:1455
-#, c++-format
+#: main.cpp:1502
 msgid "Command returned error: {}"
 msgstr ""
 
-#: main.cpp:1463
+#: main.cpp:1510
 msgid "DNF5 finished"
 msgstr ""
 
-#: main.cpp:1467
+#: main.cpp:1514
 msgid "Complete!"
 msgstr ""
 

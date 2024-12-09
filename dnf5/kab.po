@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-06 03:02+0000\n"
+"POT-Creation-Date: 2024-12-09 03:28+0000\n"
 "PO-Revision-Date: 2024-11-21 09:12+0000\n"
 "Last-Translator: ButterflyOfFire <butterflyoffire@users.noreply.translate."
 "fedoraproject.org>\n"
@@ -741,7 +741,7 @@ msgid "Package \"{}\" is already excluded."
 msgstr ""
 
 #: context.cpp:73
-msgid "Importing PGP key 0x{}:\n"
+msgid "Importing OpenPGP key 0x{}:\n"
 msgstr ""
 
 #: context.cpp:75
@@ -762,7 +762,7 @@ msgstr ""
 msgid "setopt: \"{}.{}\": {}"
 msgstr "setopt: \"{}.{}\": {}"
 
-#: context.cpp:268
+#: context.cpp:268 main.cpp:1316
 msgid ", "
 msgstr ""
 
@@ -1031,7 +1031,7 @@ msgid ""
 msgstr ""
 
 #: main.cpp:417
-msgid "disable gpg signature checking (if RPM policy allows)"
+msgid "disable OpenPGP signature checking (if RPM policy allows)"
 msgstr ""
 
 #: main.cpp:433
@@ -1163,8 +1163,8 @@ msgid ""
 "After this operation, {:.0f} {:s} extra will be used (install {:.0f} {:s}, "
 "remove {:.0f} {:s})."
 msgstr ""
-"Seld tamhelt-a, ad ttwasqedcen {:.0f} {:s} nniḍen (sbedd {:.0f} {:s}, kkes {:"
-".0f} {:s})."
+"Seld tamhelt-a, ad ttwasqedcen {:.0f} {:s} nniḍen (sbedd {:.0f} {:s}, kkes "
+"{:.0f} {:s})."
 
 #: main.cpp:837
 msgid ""
@@ -1219,88 +1219,94 @@ msgstr ""
 msgid "{} to allow removing of installed packages to resolve problems"
 msgstr ""
 
-#: main.cpp:1080
+#: main.cpp:1081
 msgid "{} to load additional filelists metadata"
 msgstr ""
 
-#: main.cpp:1087
+#: main.cpp:1088
 msgid "{} to skip uninstallable packages"
 msgstr ""
 
-#: main.cpp:1093
+#: main.cpp:1094
 msgid "You can try to add to command line:"
 msgstr ""
 
-#: main.cpp:1111
+#: main.cpp:1112
 msgid ""
 "No matches were found for the following plugin name patterns while enabling "
 "libdnf plugins: {}"
 msgstr ""
 
-#: main.cpp:1112
+#: main.cpp:1113
 msgid ""
 "No matches were found for the following plugin name patterns while disabling "
 "libdnf plugins: {}"
 msgstr ""
 
-#: main.cpp:1208
+#: main.cpp:1209
 msgid "--- DNF5 launched with arguments: \"{}\" ---"
 msgstr ""
 
-#: main.cpp:1259
+#: main.cpp:1260
 msgid "{}."
 msgstr ""
 
-#: main.cpp:1262 main.cpp:1445
+#: main.cpp:1263 main.cpp:1492
 msgid "{}. Add \"--help\" for more information about the arguments."
 msgstr ""
 
-#: main.cpp:1269
+#: main.cpp:1272
 msgid ""
 "It could be a command provided by a plugin, try: dnf5 install 'dnf5-"
 "command({})'"
 msgstr ""
 
-#: main.cpp:1311
+#: main.cpp:1314
+msgid ""
+"The argument is available for commands: {}. (It has to be placed after the "
+"command.)"
+msgstr ""
+
+#: main.cpp:1358
 msgid "No read/execute access in current directory, moving to /"
 msgstr ""
 
-#: main.cpp:1368
+#: main.cpp:1415
 msgid ""
 "The requested operation requires superuser privileges. Please log in as a "
 "user with elevated rights, or use the \"--assumeno\" or \"--downloadonly\" "
 "options to run the command without modifying the system state."
 msgstr ""
 
-#: main.cpp:1409
+#: main.cpp:1456
 msgid "The operation will only store the transaction in {}"
 msgstr ""
 
-#: main.cpp:1411
+#: main.cpp:1458
 msgid "The operation will only download packages for the transaction."
 msgstr ""
 
-#: main.cpp:1416
+#: main.cpp:1463
 msgid ""
-"Test mode enabled: Only package downloads, PGP key installations and "
+"Test mode enabled: Only package downloads, OpenPGP key installations and "
 "transaction checks will be performed."
 msgstr ""
 
-#: main.cpp:1433
+#: main.cpp:1480
 msgid ""
 "No repositories were loaded from the installroot. To use the configuration "
 "and repositories of the host system, pass --use-host-config."
 msgstr ""
 
-#: main.cpp:1455
+#: main.cpp:1502
 msgid "Command returned error: {}"
 msgstr ""
 
-#: main.cpp:1463
+#: main.cpp:1510
 msgid "DNF5 finished"
 msgstr ""
 
-#: main.cpp:1467
+#: main.cpp:1514
 msgid "Complete!"
 msgstr ""
 
