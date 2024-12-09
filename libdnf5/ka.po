@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-06 03:01+0000\n"
+"POT-Creation-Date: 2024-12-09 03:28+0000\n"
 "PO-Revision-Date: 2024-10-04 03:00+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -620,7 +620,9 @@ msgid "Signature verification failed."
 msgstr "ხელმოწერის გადამოწმება ჩავარდა."
 
 #: base/transaction.cpp:89
-msgid "The repository does not have any PGP keys configured."
+#, fuzzy
+#| msgid "The repository does not have any PGP keys configured."
+msgid "The repository does not have any OpenPGP keys configured."
 msgstr "რეპოზიტორიას PGP გასაღებები მითითებული არ აქვს."
 
 #: base/transaction.cpp:90
@@ -648,7 +650,9 @@ msgid "An error occurred importing key \"{}\": {}"
 msgstr "შეცდომა გასაღების \"{}\" შემოტანისას: {}"
 
 #: base/transaction.cpp:1372
-msgid "PGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
+#, fuzzy
+#| msgid "PGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
+msgid "OpenPGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
 msgstr "PGP-ის შემოწმება პაკეტისთვის \"{}\" ({}) რეპოდან \"{}\" ჩავარდა: "
 
 #: base/transaction.cpp:1400
@@ -661,9 +665,13 @@ msgid ", "
 msgstr ", "
 
 #: base/transaction.cpp:1422
-msgid "Warning: skipped PGP checks for {0} package from repository: {1}"
+#, fuzzy
+#| msgid "Warning: skipped PGP checks for {0} package from repository: {1}"
+#| msgid_plural ""
+#| "Warning: skipped PGP checks for {0} packages from repository: {1}"
+msgid "Warning: skipped OpenPGP checks for {0} package from repository: {1}"
 msgid_plural ""
-"Warning: skipped PGP checks for {0} packages from repository: {1}"
+"Warning: skipped OpenPGP checks for {0} packages from repository: {1}"
 msgstr[0] ""
 "გაფრთხილება: PGP-ით შემოწმების გამოტოვება {0} პაკეტისთვის რეპოზიტორიიდან: {1}"
 msgstr[1] ""
@@ -671,9 +679,13 @@ msgstr[1] ""
 "{1}"
 
 #: base/transaction.cpp:1425
-msgid "Warning: skipped PGP checks for {0} package from repositories: {1}"
+#, fuzzy
+#| msgid "Warning: skipped PGP checks for {0} package from repositories: {1}"
+#| msgid_plural ""
+#| "Warning: skipped PGP checks for {0} packages from repositories: {1}"
+msgid "Warning: skipped OpenPGP checks for {0} package from repositories: {1}"
 msgid_plural ""
-"Warning: skipped PGP checks for {0} packages from repositories: {1}"
+"Warning: skipped OpenPGP checks for {0} packages from repositories: {1}"
 msgstr[0] ""
 "გაფრთხილება: PGP-ით შემოწმების გამოტოვება {0} პაკეტისთვის რეპოზიტორიიდან: {1}"
 msgstr[1] ""
@@ -981,70 +993,76 @@ msgstr ""
 "რეპოზიტორიის ჩატვირთვის შეცდომა; \"ძირითადი\" მონაცემები არ არსებობს ან მისი "
 "ფორმატი მხარდაჭერილი არაა"
 
-#: repo/repo.cpp:466
+#: repo/repo.cpp:467
 msgid "Failed to load comps \"{}\": doesn't have the \".xml\" extension"
 msgstr "ჩავარდა წაკითხვა comps ფაილისთვის \"{}\": არ აქვს გაფართოება \".xml\""
 
-#: repo/repo.cpp:473
+#: repo/repo.cpp:474
 msgid "Failed to load xml Comps \"{}\": {}"
 msgstr "ჩავარდა ჩატვირთვა XML Comps ფაილისთვის \"{}\": {}"
 
-#: repo/repo.cpp:490
+#: repo/repo.cpp:491
 msgid "Failed to load RPM \"{}\": {}"
 msgstr "RPM-ის \"{}\" ჩატვირთვის შეცდომა: {}"
 
-#: repo/repo_cache.cpp:229
+#: repo/repo_cache.cpp:227
 msgid "Unable to determine id of the repository in the cache."
 msgstr "ამ კეშის რეპოზიტორიის ID-ის განსაზღვრა შეუძლებელია."
 
-#: repo/repo_cache_private.hpp:56
+#: repo/repo_cache_private.hpp:58
 msgid "Empty path to the repository cache directory."
 msgstr "რეპოზიტორიის კეშის საქაღალდის ბილიკი ცარიელია."
 
-#: repo/repo_downloader.cpp:139
+#: repo/repo_downloader.cpp:138
 msgid "Librepo error: {}"
 msgstr "Librepo-ის შეცდომა: {}"
 
-#: repo/repo_downloader.cpp:171
+#: repo/repo_downloader.cpp:170
 msgid "Failed to download metadata ({}: \"{}\") for repository \"{}\""
 msgstr ""
 "მეტამონაცემების ({}: \"{}\") გადმოწერის შეცდომა რეპოზიტორიისთვის \"{}\""
 
-#: repo/repo_downloader.cpp:242
+#: repo/repo_downloader.cpp:241
 msgid "Error checking if metalink \"{}\" is in sync for repository \"{}\""
 msgstr ""
 "შეცდომა შემოწმებისას, არის თუ არა metalink \"{}\" სინქრონიზებული, "
 "რეპოზიტორიისთვის \"{}\""
 
-#: repo/repo_downloader.cpp:272
+#: repo/repo_downloader.cpp:271
 msgid "Error checking if repomd ({}: \"{}\") is in sync for repository \"{}\""
 msgstr ""
 "შეცდომა შემოწმებისას, არის თუ არა repomd ({}: \"{}\") სინქრონიზებული, "
 "რეპოზიტორიისთვის \"{}\""
 
-#: repo/repo_downloader.cpp:336
+#: repo/repo_downloader.cpp:335
 msgid "Error loading local metadata for repository \"{}\""
 msgstr "ლოკალური მეტამონაცემების წაკითხვის შეცდომა რეპოზიტორიისთვის \"{}\""
 
-#: repo/repo_downloader.cpp:456
+#: repo/repo_downloader.cpp:455
 msgid ""
 "No valid source (baseurl, mirrorlist or metalink) found for repository \"{}\""
 msgstr ""
 "რეპოზიტორიას \"{}\" წყარო (baseurl, mirrorlist ან metalink)მითითებული არ აქვს"
 
 #: repo/repo_pgp.cpp:60
-msgid "Failed to import pgp keys into temporary keyring: {}"
+#, fuzzy
+#| msgid "Failed to import pgp keys into temporary keyring: {}"
+msgid "Failed to import OpenPGP keys into temporary keyring: {}"
 msgstr "ჩავარდა PGP გასაღებების შემოტანა დროებით ბრელოკში: {}"
 
 #: repo/repo_pgp.cpp:66 repo/repo_pgp.cpp:93
-msgid "Failed to list pgp keys: {}"
+#, fuzzy
+#| msgid "Failed to list pgp keys: {}"
+msgid "Failed to list OpenPGP keys: {}"
 msgstr "PGP გასაღების ჩამოთვლა ჩავარდა: {}"
 
-#: repo/repo_pgp.cpp:140
-msgid "Failed to import pgp keys: {}"
+#: repo/repo_pgp.cpp:141
+#, fuzzy
+#| msgid "Failed to import pgp keys: {}"
+msgid "Failed to import OpenPGP keys: {}"
 msgstr "ჩავარდა შემოტანა PGP გასაღებებისთვის: {}"
 
-#: repo/repo_sack.cpp:146
+#: repo/repo_sack.cpp:147
 msgid ""
 "Failed to create repo \"{}\": Id is present more than once in the "
 "configuration"
@@ -1052,7 +1070,7 @@ msgstr ""
 "რეპოს \"{}\" შექმნა ჩავარდა: კონფიგურაციაში, ეს ID-ები, ერთზე მეტჯერაა "
 "ნახსენები"
 
-#: repo/repo_sack.cpp:517
+#: repo/repo_sack.cpp:518
 msgid "Cache-only enabled but no cache for repository \"{}\""
 msgstr "მხოლოდ-კეში ჩართულია, მაგრამ რეპოზიტორიას \"{}\" კეში არ გააჩნია"
 
@@ -1116,9 +1134,13 @@ msgstr "NEVRA სტრიქონი \"{}\" სიმბოლოს ':'-ს �
 msgid "Invalid character '{}' in NEVRA string \"{}\""
 msgstr "არასწორი სიმბოლო '{}' NEVRA-ის სტრიქონში \"{}\""
 
-#: rpm/package.cpp:80
+#: rpm/package.cpp:81
 msgid "Package with rpmdbid was not found"
 msgstr "პაკეტი, რომელიც rpmbdbid_ს შეიცავს, აღმოჩენილი არაა"
+
+#: rpm/package.cpp:478
+msgid "<unknown>"
+msgstr ""
 
 #: rpm/reldep.cpp:116 rpm/reldep.cpp:123
 msgid "Cannot parse a dependency string"
@@ -1144,11 +1166,11 @@ msgstr "პრობლემა პაკეტის გახსნისა�
 msgid "Failed to set rpm transaction rootDir \"{}\"."
 msgstr "'rpm'-ის ტრანზაქციის rootDir-ის \"{}\"-ზე დაყენების შეცდომა."
 
-#: rpm/rpm_signature.cpp:283
+#: rpm/rpm_signature.cpp:287
 msgid "\"{}\": key is not an armored public key."
 msgstr "\"{}\": გასაღები შეჯავშნული საჯარო გასაღები არაა."
 
-#: rpm/rpm_signature.cpp:288
+#: rpm/rpm_signature.cpp:292
 msgid "Failed to import public key \"{}\" to rpmdb: {}"
 msgstr "შეცდომა საჯარო გასაღების \"{}\" rpmdb-ში შეტანისას: {}"
 
