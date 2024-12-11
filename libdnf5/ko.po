@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-09 03:28+0000\n"
-"PO-Revision-Date: 2024-10-05 02:52+0000\n"
+"PO-Revision-Date: 2024-12-12 03:38+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/ko/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.7.2\n"
+"X-Generator: Weblate 5.8.4\n"
 
 #: advisory/advisory.cpp:81
 msgid ""
@@ -603,10 +603,8 @@ msgid "Signature verification failed."
 msgstr "서명 검증이 실패함."
 
 #: base/transaction.cpp:89
-#, fuzzy
-#| msgid "The repository does not have any PGP keys configured."
 msgid "The repository does not have any OpenPGP keys configured."
-msgstr "저장소는 구성된 어떤 PGP 키를 갖고 있지 않습니다."
+msgstr "저장소는 구성된 어떤 OpenPGP 키를 갖고 있지 않습니다."
 
 #: base/transaction.cpp:90
 msgid "Public key is not installed."
@@ -633,10 +631,8 @@ msgid "An error occurred importing key \"{}\": {}"
 msgstr "키를 가져오는 중에 발생하였습니다 \"{}\": {}"
 
 #: base/transaction.cpp:1372
-#, fuzzy
-#| msgid "PGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
 msgid "OpenPGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
-msgstr "repo \"{}에서 꾸러미 \"{}\" ({})를 위한 PGP 점검이 실패했습니다: "
+msgstr "Openrepo \"{}에서 꾸러미 \"{}\" ({})를 위한 PGP 점검이 실패했습니다: "
 
 #: base/transaction.cpp:1400
 msgid "Import of the key didn't help, wrong key?"
@@ -648,24 +644,16 @@ msgid ", "
 msgstr ", "
 
 #: base/transaction.cpp:1422
-#, fuzzy
-#| msgid "Warning: skipped PGP checks for {0} package from repository: {1}"
-#| msgid_plural ""
-#| "Warning: skipped PGP checks for {0} packages from repository: {1}"
 msgid "Warning: skipped OpenPGP checks for {0} package from repository: {1}"
 msgid_plural ""
 "Warning: skipped OpenPGP checks for {0} packages from repository: {1}"
-msgstr[0] "경고: 저장소에서 {0} 꾸러미를 위해 PGP 점검을 건너뜀: {1}"
+msgstr[0] "경고: 저장소에서 {0} 꾸러미를 위해 OpenPGP 점검을 건너뜀: {1}"
 
 #: base/transaction.cpp:1425
-#, fuzzy
-#| msgid "Warning: skipped PGP checks for {0} package from repositories: {1}"
-#| msgid_plural ""
-#| "Warning: skipped PGP checks for {0} packages from repositories: {1}"
 msgid "Warning: skipped OpenPGP checks for {0} package from repositories: {1}"
 msgid_plural ""
 "Warning: skipped OpenPGP checks for {0} packages from repositories: {1}"
-msgstr[0] "경고: 저장소에서 {0} 꾸러미를 위해 PGP 점검을 건너뜀: {1}"
+msgstr[0] "경고: 저장소에서 {0} 꾸러미를 위해 OpenPGP 점검을 건너뜀: {1}"
 
 #: common/exception.cpp:78
 msgid "System error"
@@ -1011,22 +999,16 @@ msgstr ""
 "수 없습니다"
 
 #: repo/repo_pgp.cpp:60
-#, fuzzy
-#| msgid "Failed to import pgp keys into temporary keyring: {}"
 msgid "Failed to import OpenPGP keys into temporary keyring: {}"
-msgstr "pgp 키를 임시 키링에 가져오는 데 실패함: {}"
+msgstr "Openpgp 키를 임시 키링에 가져오는 데 실패함: {}"
 
 #: repo/repo_pgp.cpp:66 repo/repo_pgp.cpp:93
-#, fuzzy
-#| msgid "Failed to list pgp keys: {}"
 msgid "Failed to list OpenPGP keys: {}"
-msgstr "pgp 키를 나열하는 데 실패함: {}"
+msgstr "Openpgp 키를 나열하는 데 실패함: {}"
 
 #: repo/repo_pgp.cpp:141
-#, fuzzy
-#| msgid "Failed to import pgp keys: {}"
 msgid "Failed to import OpenPGP keys: {}"
-msgstr "pgp 키를 가져오는 데 실패함: {}"
+msgstr "Openpgp 키를 가져오는 데 실패함: {}"
 
 #: repo/repo_sack.cpp:147
 msgid ""
@@ -1097,7 +1079,7 @@ msgstr "rpmdbid를 갖는 꾸러미는 찾을 수 없습니다"
 
 #: rpm/package.cpp:478
 msgid "<unknown>"
-msgstr ""
+msgstr "<알 수 없음>"
 
 #: rpm/reldep.cpp:116 rpm/reldep.cpp:123
 msgid "Cannot parse a dependency string"
