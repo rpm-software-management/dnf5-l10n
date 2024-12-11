@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-09 03:28+0000\n"
-"PO-Revision-Date: 2024-10-11 04:38+0000\n"
+"PO-Revision-Date: 2024-12-12 03:38+0000\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ro/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
-"X-Generator: Weblate 5.7.2\n"
+"X-Generator: Weblate 5.8.4\n"
 
 #: commands/advisory/advisory.cpp:36
 msgid "Manage advisories"
@@ -828,10 +828,8 @@ msgid "Package \"{}\" is already excluded."
 msgstr "Pachetul „{}” este deja exclus."
 
 #: context.cpp:73
-#, fuzzy
-#| msgid "Importing PGP key 0x{}:\n"
 msgid "Importing OpenPGP key 0x{}:\n"
-msgstr "Se importă cheia PGP 0x{}:\n"
+msgstr "Se importă cheia OpenPGP 0x{}:\n"
 
 #: context.cpp:75
 msgid " UserID     : \"{}\"\n"
@@ -1155,10 +1153,9 @@ msgstr ""
 "poate fi specificată de mai multe ori."
 
 #: main.cpp:417
-#, fuzzy
-#| msgid "disable gpg signature checking (if RPM policy allows)"
 msgid "disable OpenPGP signature checking (if RPM policy allows)"
-msgstr "Dezactivează verificarea semnăturii gpg (dacă politica RPM o permite)"
+msgstr ""
+"Dezactivează verificarea semnăturii OpenPGP (dacă politica RPM o permite)"
 
 #: main.cpp:433
 msgid "Disable all libdnf5 plugins"
@@ -1421,6 +1418,8 @@ msgid ""
 "The argument is available for commands: {}. (It has to be placed after the "
 "command.)"
 msgstr ""
+"Argumentul este disponibil pentru comenzile: {}; (trebuie să fie plasat după "
+"comandă)."
 
 #: main.cpp:1358
 msgid "No read/execute access in current directory, moving to /"
@@ -1447,16 +1446,12 @@ msgid "The operation will only download packages for the transaction."
 msgstr "Operația va descărca doar pachetele pentru tranzacție."
 
 #: main.cpp:1463
-#, fuzzy
-#| msgid ""
-#| "Test mode enabled: Only package downloads, PGP key installations and "
-#| "transaction checks will be performed."
 msgid ""
 "Test mode enabled: Only package downloads, OpenPGP key installations and "
 "transaction checks will be performed."
 msgstr ""
 "Modul de testare activat: Vor fi efectuate numai descărcări de pachete, "
-"instalări de chei PGP și verificări ale tranzacțiilor."
+"instalări de chei OpenPGP și verificări ale tranzacțiilor."
 
 #: main.cpp:1480
 msgid ""
