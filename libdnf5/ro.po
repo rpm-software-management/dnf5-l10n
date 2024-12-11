@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-09 03:28+0000\n"
-"PO-Revision-Date: 2024-10-11 18:24+0000\n"
+"PO-Revision-Date: 2024-12-12 03:38+0000\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/ro/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
-"X-Generator: Weblate 5.7.2\n"
+"X-Generator: Weblate 5.8.4\n"
 
 #: advisory/advisory.cpp:81
 msgid ""
@@ -624,10 +624,8 @@ msgid "Signature verification failed."
 msgstr "Verificarea semnăturii a eșuat."
 
 #: base/transaction.cpp:89
-#, fuzzy
-#| msgid "The repository does not have any PGP keys configured."
 msgid "The repository does not have any OpenPGP keys configured."
-msgstr "Depozitul nu are nicio cheie PGP configurată."
+msgstr "Depozitul nu are nicio cheie OpenPGP configurată."
 
 #: base/transaction.cpp:90
 msgid "Public key is not installed."
@@ -654,10 +652,9 @@ msgid "An error occurred importing key \"{}\": {}"
 msgstr "A apărut o eroare la importarea cheii „{}”: {}"
 
 #: base/transaction.cpp:1372
-#, fuzzy
-#| msgid "PGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
 msgid "OpenPGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
-msgstr "Verificarea PGP pentru pachetul „{}” ({}) din depozitul „{}” a eșuat: "
+msgstr ""
+"Verificarea OpenPGP pentru pachetul „{}” ({}) din depozitul „{}” a eșuat: "
 
 #: base/transaction.cpp:1400
 msgid "Import of the key didn't help, wrong key?"
@@ -669,31 +666,23 @@ msgid ", "
 msgstr ", "
 
 #: base/transaction.cpp:1422
-#, fuzzy
-#| msgid "Warning: skipped PGP checks for {0} package from repository: {1}"
-#| msgid_plural ""
-#| "Warning: skipped PGP checks for {0} packages from repository: {1}"
 msgid "Warning: skipped OpenPGP checks for {0} package from repository: {1}"
 msgid_plural ""
 "Warning: skipped OpenPGP checks for {0} packages from repository: {1}"
-msgstr[0] "Atenție: verificări PGP omise pentru {0} pachet din depozitul: {1}"
-msgstr[1] "Atenție: verificări PGP omise pentru {0} pachete din depozitul: {1}"
+msgstr[0] "Atenție: verificări OpenPGP omise pentru {0} pachet din depozitul: {1}"
+msgstr[1] "Atenție: verificări OpenPGP omise pentru {0} pachete din depozitul: {1}"
 msgstr[2] ""
-"Atenție: verificări PGP omise pentru {0} de pachete din depozitul: {1}"
+"Atenție: verificări OpenPGP omise pentru {0} de pachete din depozitul: {1}"
 
 #: base/transaction.cpp:1425
-#, fuzzy
-#| msgid "Warning: skipped PGP checks for {0} package from repositories: {1}"
-#| msgid_plural ""
-#| "Warning: skipped PGP checks for {0} packages from repositories: {1}"
 msgid "Warning: skipped OpenPGP checks for {0} package from repositories: {1}"
 msgid_plural ""
 "Warning: skipped OpenPGP checks for {0} packages from repositories: {1}"
-msgstr[0] "Atenție: verificări PGP omise pentru {0} pachet din depozitele: {1}"
+msgstr[0] "Atenție: verificări OpenPGP omise pentru {0} pachet din depozitele: {1}"
 msgstr[1] ""
-"Atenție: verificări PGP omise pentru {0} pachete din depozitele: {1}"
+"Atenție: verificări OpenPGP omise pentru {0} pachete din depozitele: {1}"
 msgstr[2] ""
-"Atenție: verificări PGP omise pentru {0} de pachete din depozitele: {1}"
+"Atenție: verificări OpenPGP omise pentru {0} de pachete din depozitele: {1}"
 
 #: common/exception.cpp:78
 msgid "System error"
@@ -1050,22 +1039,16 @@ msgstr ""
 "depozitul „{}”"
 
 #: repo/repo_pgp.cpp:60
-#, fuzzy
-#| msgid "Failed to import pgp keys into temporary keyring: {}"
 msgid "Failed to import OpenPGP keys into temporary keyring: {}"
-msgstr "Importare eșuată a cheilor pgp în inelul de chei temporar: {}"
+msgstr "Importare eșuată a cheilor OpenPGP în inelul de chei temporar: {}"
 
 #: repo/repo_pgp.cpp:66 repo/repo_pgp.cpp:93
-#, fuzzy
-#| msgid "Failed to list pgp keys: {}"
 msgid "Failed to list OpenPGP keys: {}"
-msgstr "Eșec la listarea cheilor pgp: {}"
+msgstr "Eșec la listarea cheilor OpenPGP: {}"
 
 #: repo/repo_pgp.cpp:141
-#, fuzzy
-#| msgid "Failed to import pgp keys: {}"
 msgid "Failed to import OpenPGP keys: {}"
-msgstr "Importare eșuată a cheilor pgp: {}"
+msgstr "Importare eșuată a cheilor OpenPGP: {}"
 
 #: repo/repo_sack.cpp:147
 msgid ""
@@ -1146,7 +1129,7 @@ msgstr "Pachetul cu rpmdbid nu a fost găsit"
 
 #: rpm/package.cpp:478
 msgid "<unknown>"
-msgstr ""
+msgstr "<necunoscut>"
 
 #: rpm/reldep.cpp:116 rpm/reldep.cpp:123
 msgid "Cannot parse a dependency string"
