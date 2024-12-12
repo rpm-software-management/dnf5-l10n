@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-09 03:28+0000\n"
-"PO-Revision-Date: 2024-11-22 11:47+0000\n"
-"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
+"PO-Revision-Date: 2024-12-13 03:23+0000\n"
+"Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/fi/>\n"
 "Language: fi\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.8.2\n"
+"X-Generator: Weblate 5.8.4\n"
 
 #: commands/advisory/advisory.cpp:36
 msgid "Manage advisories"
@@ -819,10 +819,8 @@ msgid "Package \"{}\" is already excluded."
 msgstr "Paketti ”{}” on jo suljettu pois."
 
 #: context.cpp:73
-#, fuzzy
-#| msgid "Importing PGP key 0x{}:\n"
 msgid "Importing OpenPGP key 0x{}:\n"
-msgstr "Tuodaan PGP-avain 0x{}:\n"
+msgstr "Tuodaan OpenPGP-avain 0x{}:\n"
 
 #: context.cpp:75
 msgid " UserID     : \"{}\"\n"
@@ -1137,11 +1135,10 @@ msgstr ""
 "laajamittaisia, voidaan määrittää useita kertoja."
 
 #: main.cpp:417
-#, fuzzy
-#| msgid "disable gpg signature checking (if RPM policy allows)"
 msgid "disable OpenPGP signature checking (if RPM policy allows)"
 msgstr ""
-"poista GPG-allekirjoituksen tarkistus käytöstä (jos RPM-käytäntö sallii sen)"
+"poista OpenPGP-allekirjoituksen tarkistus käytöstä (jos RPM-käytäntö sallii "
+"sen)"
 
 #: main.cpp:433
 msgid "Disable all libdnf5 plugins"
