@@ -10,9 +10,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-09 03:28+0000\n"
-"PO-Revision-Date: 2024-11-23 12:38+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2024-12-13 03:23+0000\n"
+"Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/fi/>\n"
 "Language: fi\n"
@@ -20,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.8.2\n"
+"X-Generator: Weblate 5.8.4\n"
 
 #: advisory/advisory.cpp:81
 msgid ""
@@ -618,10 +617,8 @@ msgid "Signature verification failed."
 msgstr "Allekirjoituksen vahvistus epäonnistui."
 
 #: base/transaction.cpp:89
-#, fuzzy
-#| msgid "The repository does not have any PGP keys configured."
 msgid "The repository does not have any OpenPGP keys configured."
-msgstr "Tietovarastolla ei ole määritetty PGP-avaimia."
+msgstr "Tietovarasto ei ole määrittänyt yhtäkään OpenPGP-avainta."
 
 #: base/transaction.cpp:90
 msgid "Public key is not installed."
@@ -648,12 +645,10 @@ msgid "An error occurred importing key \"{}\": {}"
 msgstr "Avaimen \"{}\" tuonnissa tapahtui virhe: {}"
 
 #: base/transaction.cpp:1372
-#, fuzzy
-#| msgid "PGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
 msgid "OpenPGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
 msgstr ""
-"PGP-tarkistus tietovarastosta \"{}\" ({}) peräisin paketille \"{}\" "
-"epäonnistui: "
+"OpenPGP-tarkistus tietovarastosta \"{}\" ({}) peräisin olevalle paketille \""
+"{}\" epäonnistui: "
 
 #: base/transaction.cpp:1400
 msgid "Import of the key didn't help, wrong key?"
@@ -1053,22 +1048,16 @@ msgstr ""
 "peililuettelo tai metalink)"
 
 #: repo/repo_pgp.cpp:60
-#, fuzzy
-#| msgid "Failed to import pgp keys into temporary keyring: {}"
 msgid "Failed to import OpenPGP keys into temporary keyring: {}"
-msgstr "PGP-avainten tuonti väliaikaiseen avainrenkaaseen epäonnistui: {}"
+msgstr "OpenPGP-avainten tuonti väliaikaiseen avainrenkaaseen epäonnistui: {}"
 
 #: repo/repo_pgp.cpp:66 repo/repo_pgp.cpp:93
-#, fuzzy
-#| msgid "Failed to list pgp keys: {}"
 msgid "Failed to list OpenPGP keys: {}"
-msgstr "PGP-avainten listaaminen epäonnistui: {}"
+msgstr "OpenPGP-avainten listaaminen epäonnistui: {}"
 
 #: repo/repo_pgp.cpp:141
-#, fuzzy
-#| msgid "Failed to import pgp keys: {}"
 msgid "Failed to import OpenPGP keys: {}"
-msgstr "PGP-avainten tuominen epäonnistui: {}"
+msgstr "OpenPGP-avainten tuominen epäonnistui: {}"
 
 #: repo/repo_sack.cpp:147
 msgid ""
@@ -1148,7 +1137,7 @@ msgstr "Pakettia rpmdbidin kanssa ei löytynyt"
 
 #: rpm/package.cpp:478
 msgid "<unknown>"
-msgstr ""
+msgstr "<tuntematon>"
 
 #: rpm/reldep.cpp:116 rpm/reldep.cpp:123
 msgid "Cannot parse a dependency string"
@@ -1262,7 +1251,7 @@ msgstr ""
 
 #: system/state.cpp:280 system/state.cpp:289
 msgid "Invalid TOML version \"{}\", \"MAJOR.MINOR\" expected"
-msgstr ""
+msgstr "Virheellinen TOML-versio \"{}\", odotettiin muotoa \"MAJOR.MINOR\""
 
 #: system/state.cpp:297
 msgid "{} state for \"{}\" not found."
@@ -1539,7 +1528,7 @@ msgstr ""
 
 #: utils/iniparser.cpp:126
 msgid "Missing ']' on line {}"
-msgstr ""
+msgstr "Puuttuva ']' rivillä {}"
 
 #: utils/iniparser.cpp:129
 msgid "Empty section name on line {}"
@@ -1563,7 +1552,7 @@ msgstr ""
 
 #: utils/iniparser.cpp:163
 msgid "Missing '=' on line {}"
-msgstr ""
+msgstr "Puuttuva '=' rivillä {}"
 
 #. returns localized message, problem with later translation
 #: utils/library.cpp:32
@@ -1632,7 +1621,7 @@ msgstr ""
 
 #: utils/sqlite3/sqlite3.cpp:46
 msgid "Column \"{}\" not found"
-msgstr ""
+msgstr "Saraketta \"{}\" ei löydy"
 
 #: utils/sqlite3/sqlite3.cpp:48
 msgid "SQL statement execution failed: \"{}\""
@@ -1656,7 +1645,7 @@ msgstr ""
 
 #: utils/sqlite3/sqlite3.cpp:158
 msgid "Failed to restore database \"{}\""
-msgstr ""
+msgstr "Tietokannan \"{}\" palauttaminen epäonnistui"
 
 #: utils/system.cpp:34
 msgid "failed to read rpm config files"
