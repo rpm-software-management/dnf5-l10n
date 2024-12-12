@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-09 03:28+0000\n"
-"PO-Revision-Date: 2024-12-05 11:38+0000\n"
+"PO-Revision-Date: 2024-12-13 03:23+0000\n"
 "Last-Translator: \"Geraldo S. Simião Kutz\" <geraldo.simiao.kutz@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf5/dnf5/pt_BR/>\n"
@@ -816,10 +816,8 @@ msgid "Package \"{}\" is already excluded."
 msgstr "O pacote \"{}\" já foi excluído."
 
 #: context.cpp:73
-#, fuzzy
-#| msgid "Importing PGP key 0x{}:\n"
 msgid "Importing OpenPGP key 0x{}:\n"
-msgstr "Importando chave PGP 0x{}\n"
+msgstr "Importando chave OpenPGP 0x{}\n"
 
 #: context.cpp:75
 msgid " UserID     : \"{}\"\n"
@@ -1140,11 +1138,9 @@ msgstr ""
 "pode ser especificado várias vezes."
 
 #: main.cpp:417
-#, fuzzy
-#| msgid "disable gpg signature checking (if RPM policy allows)"
 msgid "disable OpenPGP signature checking (if RPM policy allows)"
 msgstr ""
-"desabilita a verificação de assinatura gpg (se a política RPM permitir)"
+"desabilita a verificação de assinatura OpenPGP (se a política RPM permitir)"
 
 #: main.cpp:433
 msgid "Disable all libdnf5 plugins"
@@ -1290,8 +1286,8 @@ msgid ""
 "After this operation, {:.0f} {:s} extra will be used (install {:.0f} {:s}, "
 "remove {:.0f} {:s})."
 msgstr ""
-"Após esta operação, {:.0f} {:s} extra será utilizado (instalar {:.0f} {:s}, "
-"remover {:.0f} {:s})."
+"Após esta operação, {:.0f} {:s} adicionais serão utilizados (instalar {:.0f} "
+"{:s}, remover {:.0f} {:s})."
 
 #: main.cpp:837
 msgid ""
@@ -1406,6 +1402,8 @@ msgid ""
 "The argument is available for commands: {}. (It has to be placed after the "
 "command.)"
 msgstr ""
+"O argumento está disponível para comandos: {}. (Ele deve ser colocado depois "
+"do comando.)"
 
 #: main.cpp:1358
 msgid "No read/execute access in current directory, moving to /"
@@ -1431,16 +1429,12 @@ msgid "The operation will only download packages for the transaction."
 msgstr "A operação só fará o download de pacotes para a transação."
 
 #: main.cpp:1463
-#, fuzzy
-#| msgid ""
-#| "Test mode enabled: Only package downloads, PGP key installations and "
-#| "transaction checks will be performed."
 msgid ""
 "Test mode enabled: Only package downloads, OpenPGP key installations and "
 "transaction checks will be performed."
 msgstr ""
 "Modo de teste ativado: Apenas serão efetuados downloads de pacotes, "
-"instalações de chaves PGP e verificações de transações."
+"instalações de chaves OpenPGP e verificações de transações."
 
 #: main.cpp:1480
 msgid ""
