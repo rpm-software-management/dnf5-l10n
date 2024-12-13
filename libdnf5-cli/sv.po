@@ -7,9 +7,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-13 03:26+0000\n"
-"PO-Revision-Date: 2024-12-09 18:58+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2024-12-13 16:30+0000\n"
+"Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5-cli/sv/>\n"
 "Language: sv\n"
@@ -236,13 +235,10 @@ msgstr[0] " Uppgraderar:      {:4} paket\n"
 msgstr[1] " Uppgraderar:      {:4} paket\n"
 
 #: output/transaction_table.cpp:152
-#, fuzzy
-#| msgid " Replacing:       {:4} package\n"
-#| msgid_plural " Replacing:       {:4} package\n"
 msgid " Replacing:       {:4} package\n"
 msgid_plural " Replacing:       {:4} packages\n"
 msgstr[0] " Ersätter:         {:4} paket\n"
-msgstr[1] " Ersätter:         {:4} paket\n"
+msgstr[1] " Ersätter:         flera {:4} paket\n"
 
 #: output/transaction_table.cpp:159
 msgid " Removing:        {:4} package\n"
