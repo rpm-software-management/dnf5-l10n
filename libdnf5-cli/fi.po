@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-09 03:28+0000\n"
+"POT-Creation-Date: 2024-12-13 03:26+0000\n"
 "PO-Revision-Date: 2024-12-13 03:23+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -237,8 +237,11 @@ msgstr[0] " Päivitetään:       {:4} paketti\n"
 msgstr[1] " Päivitetään:       {:4} pakettia\n"
 
 #: output/transaction_table.cpp:152
+#, fuzzy
+#| msgid " Replacing:       {:4} package\n"
+#| msgid_plural " Replacing:       {:4} package\n"
 msgid " Replacing:       {:4} package\n"
-msgid_plural " Replacing:       {:4} package\n"
+msgid_plural " Replacing:       {:4} packages\n"
 msgstr[0] " Korvataan:       {:4} paketti\n"
 msgstr[1] " Korvataan:       {:4} pakettia\n"
 
