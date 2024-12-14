@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-13 03:26+0000\n"
-"PO-Revision-Date: 2024-12-13 03:23+0000\n"
+"PO-Revision-Date: 2024-12-14 18:20+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/fi/>\n"
@@ -405,7 +405,7 @@ msgid ""
 "known repository."
 msgstr ""
 "Listaa järjestelmään asennetut paketit, jotka ovat vanhentuneet minkä "
-"tahansa tunnetun tietovaraston pakettien takia."
+"tahansa tunnetun ohjelmistolähteen pakettien takia."
 
 #: commands/list/list.cpp:89
 msgid "List packages recently added into the repositories."
@@ -1033,11 +1033,11 @@ msgstr "Pakota metatietojen päivittäminen ennen komennon suorittamista."
 #: main.cpp:192
 msgid "Failed to expire repository cache in path \"{0}\": {1}"
 msgstr ""
-"Tietovaraston välimuistin vanheneminen polussa \"{0}\" epäonnistui: {1}"
+"Ohjelmistolähteen välimuistin vanheneminen polussa \"{0}\" epäonnistui: {1}"
 
 #: main.cpp:206
 msgid "create additional repository using id and path"
-msgstr "luo lisätietovarasto tunnuksen ja polun avulla"
+msgstr "luo lisäohjelmistolähde tunnuksen ja polun avulla"
 
 #: main.cpp:214
 msgid "repofrompath: Incorrect repoid and path specification \"{}\""
@@ -1208,8 +1208,8 @@ msgstr "Tulosta päämääritysarvot stdout:een"
 msgid ""
 "Print repository configuration values to stdout. List option. Supports globs"
 msgstr ""
-"Tulosta tietovaraston määritysarvot stdout:een. Luettelovaihtoehto. Tukee "
-"laajamittaisia"
+"Tulosta ohjelmistolähteen määritysarvot stdout:een. Luettelovaihtoehto. "
+"Tukee laajamittaisia"
 
 #: main.cpp:574
 msgid "Print variable values to stdout"
@@ -1303,7 +1303,7 @@ msgstr "Ei vastaavaa tietovarastoa, mihin upota kokoonpano: \"{}\""
 
 #: main.cpp:891
 msgid "======== \"{}\" repository configuration: ========"
-msgstr "======== Tietovaraston \"{}\" kokoonpano: ========"
+msgstr "======== Ohjelmistolähteen \"{}\" kokoonpano: ========"
 
 #: main.cpp:911
 msgid "======== Variables: ========"
