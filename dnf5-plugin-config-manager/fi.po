@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-13 03:26+0000\n"
-"PO-Revision-Date: 2024-11-20 13:17+0000\n"
-"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
+"PO-Revision-Date: 2024-12-14 18:20+0000\n"
+"Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5-plugin-config-manager/fi/>\n"
 "Language: fi\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.8.2\n"
+"X-Generator: Weblate 5.8.4\n"
 
 #: addrepo.cpp:153
 msgid "from-repofile: \"{}\" file does not exist"
@@ -33,7 +33,7 @@ msgstr "{}: Virheellisesti muotoiltu argumentin arvo \"{}\""
 
 #: addrepo.cpp:196
 msgid "Cannot set repository option \"{}={}\": {}"
-msgstr "Tietovaraston vaihtoehtoa \"{}={}\" ei voi asettaa: {}"
+msgstr "Ohjelmistolähteen vaihtoehtoa \"{}={}\" ei voi asettaa: {}"
 
 #: addrepo.cpp:204 setopt.cpp:138
 msgid "Sets the \"{}\" option again with a different value: \"{}\" != \"{}\""
@@ -41,23 +41,23 @@ msgstr "Asettaa vaihtoehdon \"{}\" uudelleen eri arvolla: \"{}\" != \"{}\""
 
 #: addrepo.cpp:270
 msgid "Missing path to repository configuration directory"
-msgstr "Tietovaraston määrityshakemiston polku puuttuu"
+msgstr "Ohjelmistolähteen määrityshakemiston polku puuttuu"
 
 #: addrepo.cpp:320
 msgid "Failed to copy repository configuration file \"{}\": {}"
-msgstr "Tietovaraston määritystiedoston \"{}\" kopioiminen epäonnistui: {}"
+msgstr "Ohjelmistolähteen määritystiedoston \"{}\" kopioiminen epäonnistui: {}"
 
 #: addrepo.cpp:331
 msgid "Failed to download repository configuration file \"{}\": {}"
-msgstr "Tietovaraston määritystiedoston \"{}\" lataaminen epäonnistui: {}"
+msgstr "Ohjelmistolähteen määritystiedoston \"{}\" lataaminen epäonnistui: {}"
 
 #: addrepo.cpp:359
 msgid ""
 "Error in added repository configuration file. Cannot set repository option "
 "\"{}={}\": {}"
 msgstr ""
-"Virhe lisätyssä tietovaraston määritystiedostossa. Tietovaraston vaihtoehtoa "
-"\"{}={}\" ei voi asettaa: {}"
+"Virhe lisätyssä ohjelmistolähteen määritystiedostossa. Ohjelmistolähteen "
+"vaihtoehtoa \"{}={}\" ei voi asettaa: {}"
 
 #: addrepo.cpp:393
 msgid "Bad baseurl: {}={}"
@@ -73,7 +73,8 @@ msgstr ""
 
 #: addrepo.cpp:446
 msgid "Failed to save repository configuration file \"{}\": {}"
-msgstr "Tietovaraston määritystiedoston \"{}\" tallentaminen epäonnistui: {}"
+msgstr ""
+"Ohjelmistolähteen määritystiedoston \"{}\" tallentaminen epäonnistui: {}"
 
 #: addrepo.cpp:468
 msgid ""
@@ -93,7 +94,8 @@ msgstr ""
 
 #: addrepo.cpp:491 addrepo.cpp:517
 msgid "A repository with id \"{}\" already configured in file: {}"
-msgstr "Tietovarasto, jonka tunnus on \"{}\", on jo määritetty tiedostossa: {}"
+msgstr ""
+"Ohjelmistolähde, jonka tunnus on \"{}\", on jo määritetty tiedostossa: {}"
 
 #: addrepo.cpp:503 setopt.cpp:263
 msgid "Cannot read repositories from directory \"{}\": {}"
@@ -112,19 +114,20 @@ msgstr ""
 
 #: setopt.cpp:100 unsetopt.cpp:81
 msgid "{}: Empty repository id is not allowed: {}"
-msgstr "{}: Tietovaraston tunnuksen jättäminen tyhjäksi ei ole sallittua: {}"
+msgstr ""
+"{}: Ohjelmistolähteen tunnuksen jättäminen tyhjäksi ei ole sallittua: {}"
 
 #: setopt.cpp:109
 msgid "Cannot set repository option \"{}\": {}"
-msgstr "Tietovaraston vaihtoehtoa \"{}\" ei voi asettaa: {}"
+msgstr "Ohjelmistolähteen vaihtoehtoa \"{}\" ei voi asettaa: {}"
 
 #: setopt.cpp:116 setopt.cpp:179
 msgid ""
 "Sets the \"{}\" option of the repository \"{}\" again with a different "
 "value: \"{}\" != \"{}\""
 msgstr ""
-"Asettaa tietovaraston \"{}\" vaihtoehdon \"{}\" uudelleen eri arvolla: "
-"\"{}\" != \"{}\""
+"Asettaa ohjelmistolähteen \"{}\" vaihtoehdon \"{}\" uudelleen eri arvolla: \""
+"{}\" != \"{}\""
 
 #: setopt.cpp:130
 msgid "Cannot set option: \"{}\": {}"
@@ -132,7 +135,7 @@ msgstr "Vaihtoehtoa ei voi asettaa: \"{}\": {}"
 
 #: setopt.cpp:170
 msgid "No matching repository to modify: {}"
-msgstr "Ei vastaavaa muokattavaa tietovarastoa: {}"
+msgstr "Ei vastaavaa muokattavaa ohjelmistolähdettä: {}"
 
 #: setvar.cpp:60
 msgid "Cannot set \"{}\": Variable \"{}\" is read-only"
@@ -174,7 +177,7 @@ msgstr "Muuttujan nimi voi sisältää vain ASCII-kirjaimia, numeroita ja '_': {
 
 #: unsetopt.cpp:93
 msgid "config-manager: Request to remove unsupported repository option: {}"
-msgstr "config-manager: Pyyntö poistaa ei-tuettu tietovarastoasetus: {}"
+msgstr "config-manager: Pyyntö poistaa ei-tuettu ohjelmistolähdeasetus: {}"
 
 #: unsetopt.cpp:105
 msgid "config-manager: Request to remove unsupported main option: {}"
