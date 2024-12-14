@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-13 03:26+0000\n"
-"PO-Revision-Date: 2024-12-13 03:23+0000\n"
+"PO-Revision-Date: 2024-12-14 18:20+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/fi/>\n"
@@ -382,7 +382,7 @@ msgstr "Tapahtuman yhdistämisvirhe: '{0}'"
 
 #: base/solver_problems.cpp:41
 msgid "{} does not belong to a distupgrade repository"
-msgstr "{} ei kuulu jakelupäivitystietovarastoon"
+msgstr "{} ei kuulu jakelupäivitysohjelmistolähteeseen"
 
 #: base/solver_problems.cpp:42
 msgid "{0} from {1} has inferior architecture"
@@ -515,7 +515,7 @@ msgstr "Toiminto johtaisi käynnissä olevan ytimen poistamiseen: {}"
 
 #: base/solver_problems.cpp:77
 msgid "module {} does not belong to a distupgrade repository"
-msgstr "moduuli {} ei kuulu jakelupäivitystietovarastoon"
+msgstr "moduuli {} ei kuulu jakelupäivitysohjelmistolähteeseen"
 
 #: base/solver_problems.cpp:78
 msgid "module {} has inferior architecture"
@@ -618,7 +618,7 @@ msgstr "Allekirjoituksen vahvistus epäonnistui."
 
 #: base/transaction.cpp:89
 msgid "The repository does not have any OpenPGP keys configured."
-msgstr "Tietovarasto ei ole määrittänyt yhtäkään OpenPGP-avainta."
+msgstr "Ohjelmistolähde ei ole määrittänyt yhtäkään OpenPGP-avainta."
 
 #: base/transaction.cpp:90
 msgid "Public key is not installed."
@@ -660,19 +660,13 @@ msgid ", "
 msgstr ""
 
 #: base/transaction.cpp:1422
-#, fuzzy
-#| msgid "Warning: skipped PGP checks for {0} package from repository: {1}"
-#| msgid_plural ""
-#| "Warning: skipped PGP checks for {0} packages from repository: {1}"
 msgid "Warning: skipped OpenPGP checks for {0} package from repository: {1}"
 msgid_plural ""
 "Warning: skipped OpenPGP checks for {0} packages from repository: {1}"
 msgstr[0] ""
-"Varoitus: ohitettiin PGP-tarkistukset {0}:lle tietotovarastosta peräisin "
-"paketille: {1}"
+"Varoitus: ohitettiin PGP-tarkistukset {0} paketille ohjelmistolähteestä: {1}"
 msgstr[1] ""
-"Varoitus: ohitettiin PGP-tarkistukset {0}:lle tietotovarastosta peräisin "
-"paketteille: {1}"
+"Varoitus: ohitettiin PGP-tarkistukset {0} paketille ohjelmistolähteestä: {1}"
 
 #: base/transaction.cpp:1425
 #, fuzzy
@@ -888,7 +882,7 @@ msgstr "Virtojen päivittäminen epäonnistui: {}"
 #: module/module_sack.cpp:93
 msgid "Failed to load module metadata for repository \"{}\": {}"
 msgstr ""
-"Moduulin metatietojen lataaminen tietovarastolle \"{}\" epäonnistui: {}"
+"Moduulin metatietojen lataaminen ohjelmistolähteelle \"{}\" epäonnistui: {}"
 
 #: module/module_sack.cpp:594
 msgid "Missing '='"
@@ -975,25 +969,25 @@ msgstr "RPM-\"{}\":n käyttö epäonnistui: {}"
 
 #: repo/repo.cpp:106
 msgid "Invalid repository id \"{}\": unexpected character '{}'"
-msgstr "Virheellinen tietovaraston tunnus \"{}\": odottamaton merkki \"{}\""
+msgstr "Virheellinen ohjelmistolähteen tunnus \"{}\": odottamaton merkki \"{}\""
 
 #: repo/repo.cpp:149
 msgid "Repository \"{}\" has no source (baseurl, mirrorlist or metalink) set."
 msgstr ""
-"Tietovarastolla \"{}\" ei ole asetettuna lähdettä (perus-URL baseurl, "
+"Ohjelmistolähteellä \"{}\" ei ole asetettuna lähdettä (perus-URL, "
 "peililuettelo tai metalinkki)."
 
 #: repo/repo.cpp:160
 msgid "Repository \"{}\" has unsupported type \"{}\", skipping."
-msgstr "Tietovaraston \"{}\" tyyppiä \"{}\" ei tueta. ohitetaan."
+msgstr "Ohjelmistolähteen \"{}\" tyyppiä \"{}\" ei tueta, ohitetaan."
 
 #: repo/repo.cpp:408
 msgid ""
 "Failed to load repository: \"primary\" data not present or in unsupported "
 "format"
 msgstr ""
-"Tietovaraston lataaminen epäonnistui: \"ensisijaista\" dataa ei ole tai se "
-"ei ole tuetussa muodossa"
+"Ohjelmistolähteen lataaminen epäonnistui: \"ensisijaista\" dataa ei ole tai "
+"se ei ole tuetussa muodossa"
 
 #: repo/repo.cpp:467
 msgid "Failed to load comps \"{}\": doesn't have the \".xml\" extension"
@@ -1010,11 +1004,11 @@ msgstr "RPM:n \"{}\" lataaminen epäonnistui: {}"
 
 #: repo/repo_cache.cpp:227
 msgid "Unable to determine id of the repository in the cache."
-msgstr "Välimuistissa olevan tietovaraston tunnusta ei voi määrittää."
+msgstr "Välimuistissa olevan ohjelmistolähteen tunnusta ei voi määrittää."
 
 #: repo/repo_cache_private.hpp:58
 msgid "Empty path to the repository cache directory."
-msgstr "Tyhjä polku tietovaraston välimuistihakemistoon."
+msgstr "Tyhjä polku ohjelmistolähteen välimuistihakemistoon."
 
 #: repo/repo_downloader.cpp:138
 msgid "Librepo error: {}"
@@ -1022,29 +1016,30 @@ msgstr "Librepo-virhe: {}"
 
 #: repo/repo_downloader.cpp:170
 msgid "Failed to download metadata ({}: \"{}\") for repository \"{}\""
-msgstr "Tietovaraston \"{}\" metatietojen ({}: \"{}\") lataaminen epäonnistui"
+msgstr ""
+"Ohjelmistolähteen \"{}\" metatietojen ({}: \"{}\") lataaminen epäonnistui"
 
 #: repo/repo_downloader.cpp:241
 msgid "Error checking if metalink \"{}\" is in sync for repository \"{}\""
 msgstr ""
-"Virhe tarkistettaessa, onko metalink \"{}\" synkronoitu tietovarastolle "
-"\"{}\""
+"Virhe tarkistettaessa, onko metalinkki \"{}\" synkronoitu "
+"ohjelmistolähteeseen \"{}\""
 
 #: repo/repo_downloader.cpp:271
 msgid "Error checking if repomd ({}: \"{}\") is in sync for repository \"{}\""
 msgstr ""
-"Virhe tarkistettaessa, onko repomd ({}: \"{}\") synkronoitu tietovaraston "
-"\"{}\" kanssa"
+"Virhe tarkistettaessa, onko repomd ({}: \"{}\") synkronoitu "
+"ohjelmistolähteen \"{}\" kanssa"
 
 #: repo/repo_downloader.cpp:335
 msgid "Error loading local metadata for repository \"{}\""
-msgstr "Virhe ladattaessa paikallisia metatietoja tietovarastolle \"{}\""
+msgstr "Virhe ladattaessa paikallisia metatietoja ohjelmistolähteelle \"{}\""
 
 #: repo/repo_downloader.cpp:455
 msgid ""
 "No valid source (baseurl, mirrorlist or metalink) found for repository \"{}\""
 msgstr ""
-"Tietovarastolle \"{}\" ei löytynyt kelvollista lähdettä (baseurl, "
+"Ohjelmistolähteelle \"{}\" ei löytynyt kelvollista lähdettä (baseurl, "
 "peililuettelo tai metalink)"
 
 #: repo/repo_pgp.cpp:60
@@ -1069,7 +1064,8 @@ msgstr ""
 
 #: repo/repo_sack.cpp:518
 msgid "Cache-only enabled but no cache for repository \"{}\""
-msgstr "Vain välimuisti käytössä, mutta ei välimuistia tietovarastolle \"{}\""
+msgstr ""
+"Vain välimuisti käytössä, mutta ei välimuistia ohjelmistolähteelle \"{}\""
 
 #: repo/solv_repo.cpp:261
 msgid "Failed to load repomd for repo \"{}\" from \"{}\": {}."
