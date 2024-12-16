@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-13 03:26+0000\n"
-"PO-Revision-Date: 2024-10-30 12:08+0000\n"
+"PO-Revision-Date: 2024-12-16 20:42+0000\n"
 "Last-Translator: \"Geraldo S. Simião Kutz\" <geraldo.simiao.kutz@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf5/libdnf5/pt_BR/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.7.2\n"
+"X-Generator: Weblate 5.8.4\n"
 
 #: advisory/advisory.cpp:81
 msgid ""
@@ -623,10 +623,8 @@ msgid "Signature verification failed."
 msgstr "A verificação da assinatura falhou."
 
 #: base/transaction.cpp:89
-#, fuzzy
-#| msgid "The repository does not have any PGP keys configured."
 msgid "The repository does not have any OpenPGP keys configured."
-msgstr "O repositório não possui nenhuma chave PGP configurada."
+msgstr "O repositório não possui nenhuma chave OpenPGP configurada."
 
 #: base/transaction.cpp:90
 msgid "Public key is not installed."
@@ -653,10 +651,9 @@ msgid "An error occurred importing key \"{}\": {}"
 msgstr "Ocorreu um erro ao importar a chave \"{}\": {}"
 
 #: base/transaction.cpp:1372
-#, fuzzy
-#| msgid "PGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
 msgid "OpenPGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
-msgstr "A verificação PGP do pacote \"{}\" ({}) do repositório \"{}\" falhou: "
+msgstr ""
+"A verificação OpenPGP do pacote \"{}\" ({}) do repositório \"{}\" falhou: "
 
 #: base/transaction.cpp:1400
 msgid "Import of the key didn't help, wrong key?"
@@ -668,32 +665,26 @@ msgid ", "
 msgstr ", "
 
 #: base/transaction.cpp:1422
-#, fuzzy
-#| msgid "Warning: skipped PGP checks for {0} package from repository: {1}"
-#| msgid_plural ""
-#| "Warning: skipped PGP checks for {0} packages from repository: {1}"
 msgid "Warning: skipped OpenPGP checks for {0} package from repository: {1}"
 msgid_plural ""
 "Warning: skipped OpenPGP checks for {0} packages from repository: {1}"
 msgstr[0] ""
-"Aviso: ignoradas as verificações de PGP para {0} pacote do repositório: {1}"
-msgstr[1] ""
-"Aviso: ignoradas as verificações de PGP para {0} pacotes dos repositórios: "
+"Aviso: ignoradas as verificações de OpenPGP para {0} pacote do repositório: "
 "{1}"
+msgstr[1] ""
+"Aviso: ignoradas as verificações de OpenPGP para {0} pacotes dos "
+"repositórios: {1}"
 
 #: base/transaction.cpp:1425
-#, fuzzy
-#| msgid "Warning: skipped PGP checks for {0} package from repositories: {1}"
-#| msgid_plural ""
-#| "Warning: skipped PGP checks for {0} packages from repositories: {1}"
 msgid "Warning: skipped OpenPGP checks for {0} package from repositories: {1}"
 msgid_plural ""
 "Warning: skipped OpenPGP checks for {0} packages from repositories: {1}"
 msgstr[0] ""
-"Aviso: ignoradas as verificações de PGP para {0} pacote do repositório: {1}"
-msgstr[1] ""
-"Aviso: ignoradas as verificações de PGP para {0} pacotes dos repositórios: "
+"Aviso: ignoradas as verificações de OpenPGP para {0} pacote do repositório: "
 "{1}"
+msgstr[1] ""
+"Aviso: ignoradas as verificações de OpenPGP para {0} pacotes dos "
+"repositórios: {1}"
 
 #: common/exception.cpp:78
 msgid "System error"
@@ -1048,22 +1039,16 @@ msgstr ""
 "repositório \"{}\""
 
 #: repo/repo_pgp.cpp:60
-#, fuzzy
-#| msgid "Failed to import pgp keys into temporary keyring: {}"
 msgid "Failed to import OpenPGP keys into temporary keyring: {}"
-msgstr "Falha ao importar chaves pgp para um chaveiro temporário: {}"
+msgstr "Falha ao importar chaves OpenPGP para um chaveiro temporário: {}"
 
 #: repo/repo_pgp.cpp:66 repo/repo_pgp.cpp:93
-#, fuzzy
-#| msgid "Failed to list pgp keys: {}"
 msgid "Failed to list OpenPGP keys: {}"
-msgstr "Falha ao listar chaves pgp: {}"
+msgstr "Falha ao listar chaves OpenPGP: {}"
 
 #: repo/repo_pgp.cpp:141
-#, fuzzy
-#| msgid "Failed to import pgp keys: {}"
 msgid "Failed to import OpenPGP keys: {}"
-msgstr "Falha ao importar chaves pgp: {}"
+msgstr "Falha ao importar chaves OpenPGP: {}"
 
 #: repo/repo_sack.cpp:147
 msgid ""
@@ -1144,7 +1129,7 @@ msgstr "Pacote com rpmdbid não foi encontrado"
 
 #: rpm/package.cpp:478
 msgid "<unknown>"
-msgstr ""
+msgstr "<desconhecido>"
 
 #: rpm/reldep.cpp:116 rpm/reldep.cpp:123
 msgid "Cannot parse a dependency string"
