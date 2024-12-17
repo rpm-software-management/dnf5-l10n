@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-13 03:26+0000\n"
+"POT-Creation-Date: 2024-12-17 03:24+0000\n"
 "PO-Revision-Date: 2024-12-09 18:58+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -797,7 +797,7 @@ msgstr "A kulcs sikeresen importálva lett."
 msgid "setopt: \"{}.{}\": {}"
 msgstr "setopt: „{}.{}”: {}"
 
-#: context.cpp:268 main.cpp:1316
+#: context.cpp:268 main.cpp:1317
 msgid ", "
 msgstr ", "
 
@@ -1240,7 +1240,7 @@ msgid ""
 msgstr ""
 "A bejövő csomagok teljes mérete {:.0f} {:s}. {:.0f} {:s}-ot kell letölteni."
 
-#: main.cpp:828
+#: main.cpp:827
 msgid ""
 "After this operation, {:.0f} {:s} extra will be used (install {:.0f} {:s}, "
 "remove {:.0f} {:s})."
@@ -1248,7 +1248,7 @@ msgstr ""
 "A művelet után további {:.0f} {:s} lesz használva ({:.0f} {:s} telepítése, "
 "{:.0f} {:s} eltávolítása)."
 
-#: main.cpp:837
+#: main.cpp:838
 msgid ""
 "After this operation, {:.0f} {:s} will be freed (install {:.0f} {:s}, remove "
 "{:.0f} {:s})."
@@ -1256,39 +1256,39 @@ msgstr ""
 "A művelet után {:.0f} {:s} szabadul fel ({:.0f} {:s} telepítése, {:.0f} {:s} "
 "eltávolítása)."
 
-#: main.cpp:849
+#: main.cpp:850
 msgid "======== Main configuration: ========"
 msgstr "======== Fő konfiguráció: ========"
 
-#: main.cpp:886
+#: main.cpp:887
 msgid "No matching repo to dump configuration: \"{}\""
 msgstr "Nincs egyező tároló a konfiguráció kiírásához: „{}”"
 
-#: main.cpp:891
+#: main.cpp:892
 msgid "======== \"{}\" repository configuration: ========"
 msgstr "======== A(z) „{}” tárolók konfigurációja: ========"
 
-#: main.cpp:911
+#: main.cpp:912
 msgid "======== Variables: ========"
 msgstr "======== Változók: ========"
 
-#: main.cpp:951
+#: main.cpp:952
 msgid "New leaves:"
 msgstr "Új levelek:"
 
-#: main.cpp:953
+#: main.cpp:954
 msgid " {}"
 msgstr " {}"
 
-#: main.cpp:997
+#: main.cpp:998
 msgid "{} to skip unavailable packages"
 msgstr "{} a nem elérhető csomagok kihagyásához"
 
-#: main.cpp:1005
+#: main.cpp:1006
 msgid "{} to allow extra packages in the transaction"
 msgstr "{} az extra csomagok engedélyezéséhez a tranzakcióban"
 
-#: main.cpp:1018
+#: main.cpp:1019
 msgid ""
 "{} to allow mismatches between installed and stored transaction packages. "
 "This can result in an empty transaction because among other things the "
@@ -1298,29 +1298,29 @@ msgstr ""
 "engedélyezéséhez. Ez üres tranzakciót is eredményezhet, mert többek között a "
 "kapcsoló figyelmen kívül hagyhatja a hibás eltávolítási műveleteket."
 
-#: main.cpp:1065
+#: main.cpp:1066
 msgid "{} to not limit the transaction to the best candidates"
 msgstr "{} a tranzakció nem a legjobb jelöltekre korlátozásához"
 
-#: main.cpp:1072
+#: main.cpp:1073
 msgid "{} to allow removing of installed packages to resolve problems"
 msgstr ""
 "{} a telepített csomagok eltávolításának engedélyezéséhez a problémák "
 "megoldása érdekében"
 
-#: main.cpp:1081
+#: main.cpp:1082
 msgid "{} to load additional filelists metadata"
 msgstr "{} a további fájllista-metaadatok betöltéséhez"
 
-#: main.cpp:1088
+#: main.cpp:1089
 msgid "{} to skip uninstallable packages"
 msgstr "{} a nem telepíthető csomagok átugrásához"
 
-#: main.cpp:1094
+#: main.cpp:1095
 msgid "You can try to add to command line:"
 msgstr "Megpróbálhatja hozzáadni a parancssorhoz:"
 
-#: main.cpp:1112
+#: main.cpp:1113
 msgid ""
 "No matches were found for the following plugin name patterns while enabling "
 "libdnf plugins: {}"
@@ -1328,7 +1328,7 @@ msgstr ""
 "Nincs találat a következő bővítménynév-mintára a libdnf bővítmények "
 "engedélyezése során: {}"
 
-#: main.cpp:1113
+#: main.cpp:1114
 msgid ""
 "No matches were found for the following plugin name patterns while disabling "
 "libdnf plugins: {}"
@@ -1336,20 +1336,20 @@ msgstr ""
 "Nincs találat a következő bővítménynév-mintára a libdnf bővítmények "
 "letiltása során: {}"
 
-#: main.cpp:1209
+#: main.cpp:1210
 msgid "--- DNF5 launched with arguments: \"{}\" ---"
 msgstr "--- A DNF5 elindítva a következő argumentumokkal: „{}” ---"
 
-#: main.cpp:1260
+#: main.cpp:1261
 msgid "{}."
 msgstr "{}."
 
-#: main.cpp:1263 main.cpp:1492
+#: main.cpp:1264 main.cpp:1493
 msgid "{}. Add \"--help\" for more information about the arguments."
 msgstr ""
 "{}. A kapcsolók további információiért adja hozzá a „--help” kapcsolót."
 
-#: main.cpp:1272
+#: main.cpp:1273
 msgid ""
 "It could be a command provided by a plugin, try: dnf5 install 'dnf5-"
 "command({})'"
@@ -1357,19 +1357,19 @@ msgstr ""
 "Lehet, hogy egy bővítmény által biztosított parancs, próbálja ki ezt: dnf5 "
 "install 'dnf-command({})'"
 
-#: main.cpp:1314
+#: main.cpp:1315
 msgid ""
 "The argument is available for commands: {}. (It has to be placed after the "
 "command.)"
 msgstr ""
 
-#: main.cpp:1358
+#: main.cpp:1359
 msgid "No read/execute access in current directory, moving to /"
 msgstr ""
 "Nincs olvasási/végrehajtási jogosultság a jelenlegi könyvtárban, áthelyezés "
 "ide: /"
 
-#: main.cpp:1415
+#: main.cpp:1416
 msgid ""
 "The requested operation requires superuser privileges. Please log in as a "
 "user with elevated rights, or use the \"--assumeno\" or \"--downloadonly\" "
@@ -1380,15 +1380,15 @@ msgstr ""
 "downloadonly” kapcsolókat a parancs rendszerállapot-módosítás nélküli "
 "futtatásához."
 
-#: main.cpp:1456
+#: main.cpp:1457
 msgid "The operation will only store the transaction in {}"
 msgstr "A művelet csak itt fogja tárolni a tranzakciót: {}"
 
-#: main.cpp:1458
+#: main.cpp:1459
 msgid "The operation will only download packages for the transaction."
 msgstr "A művelet csak csomagokat fog letölteni a tranzakcióhoz."
 
-#: main.cpp:1463
+#: main.cpp:1464
 msgid ""
 "Test mode enabled: Only package downloads, OpenPGP key installations and "
 "transaction checks will be performed."
@@ -1396,7 +1396,7 @@ msgstr ""
 "Tesztelési mód engedélyezve: csak csomagletöltések, OpenPGP-"
 "kulcsellenőrzések és tranzakció-ellenőrzések lesznek végezve."
 
-#: main.cpp:1480
+#: main.cpp:1481
 msgid ""
 "No repositories were loaded from the installroot. To use the configuration "
 "and repositories of the host system, pass --use-host-config."
@@ -1405,15 +1405,15 @@ msgstr ""
 "beállításainak és tárolóinak használatához adja át a --use-host-config "
 "kapcsolót."
 
-#: main.cpp:1502
+#: main.cpp:1503
 msgid "Command returned error: {}"
 msgstr "A parancs hibát adott vissza: {}"
 
-#: main.cpp:1510
+#: main.cpp:1511
 msgid "DNF5 finished"
 msgstr "A DNF5 elkészült"
 
-#: main.cpp:1514
+#: main.cpp:1515
 msgid "Complete!"
 msgstr "Kész!"
 

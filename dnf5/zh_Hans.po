@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-13 03:26+0000\n"
+"POT-Creation-Date: 2024-12-17 03:24+0000\n"
 "PO-Revision-Date: 2024-12-14 18:23+0000\n"
 "Last-Translator: caffiendo c <1728778012@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://translate."
@@ -786,7 +786,7 @@ msgstr "该密钥成功导入。"
 msgid "setopt: \"{}.{}\": {}"
 msgstr "设置选项: \"{}.{}\": {}"
 
-#: context.cpp:268 main.cpp:1316
+#: context.cpp:268 main.cpp:1317
 msgid ", "
 msgstr ", "
 
@@ -1190,7 +1190,7 @@ msgid ""
 "Total size of inbound packages is {:.0f} {:s}. Need to download {:.0f} {:s}."
 msgstr "本次要处理的软件包总大小为 {:.0f} {:s}. 还需下载 {:.0f} {:s}。"
 
-#: main.cpp:828
+#: main.cpp:827
 msgid ""
 "After this operation, {:.0f} {:s} extra will be used (install {:.0f} {:s}, "
 "remove {:.0f} {:s})."
@@ -1198,7 +1198,7 @@ msgstr ""
 "此次操作完成之后，{:.0f} {:s} 额外的空间被使用 (安装 {:.0f} {:s}, 删除 "
 "{:.0f} {:s})。"
 
-#: main.cpp:837
+#: main.cpp:838
 msgid ""
 "After this operation, {:.0f} {:s} will be freed (install {:.0f} {:s}, remove "
 "{:.0f} {:s})."
@@ -1206,39 +1206,39 @@ msgstr ""
 "此次操作完成之后，{:.0f} {:s} 空间被释放 (安装 {:.0f} {:s}, 删除 {:.0f} {:"
 "s})。"
 
-#: main.cpp:849
+#: main.cpp:850
 msgid "======== Main configuration: ========"
 msgstr "======== 主要配置: ========"
 
-#: main.cpp:886
+#: main.cpp:887
 msgid "No matching repo to dump configuration: \"{}\""
 msgstr "无匹配到的仓库写入到配置中: \"{}\""
 
-#: main.cpp:891
+#: main.cpp:892
 msgid "======== \"{}\" repository configuration: ========"
 msgstr "======== \"{}\" 仓库配置: ========"
 
-#: main.cpp:911
+#: main.cpp:912
 msgid "======== Variables: ========"
 msgstr "======== 变量: ========"
 
-#: main.cpp:951
+#: main.cpp:952
 msgid "New leaves:"
 msgstr "新子软件包:"
 
-#: main.cpp:953
+#: main.cpp:954
 msgid " {}"
 msgstr " {}"
 
-#: main.cpp:997
+#: main.cpp:998
 msgid "{} to skip unavailable packages"
 msgstr "{} 跳过不可用软件包"
 
-#: main.cpp:1005
+#: main.cpp:1006
 msgid "{} to allow extra packages in the transaction"
 msgstr "{} 在本次事务中允许额外的软件包"
 
-#: main.cpp:1018
+#: main.cpp:1019
 msgid ""
 "{} to allow mismatches between installed and stored transaction packages. "
 "This can result in an empty transaction because among other things the "
@@ -1247,67 +1247,67 @@ msgstr ""
 "{} 允许已安装和已存储的软件包事务之间不匹配。这可能会导致空事务，因为除其他事"
 "项外，该选项可以忽略失败的删除操作。"
 
-#: main.cpp:1065
+#: main.cpp:1066
 msgid "{} to not limit the transaction to the best candidates"
 msgstr "{} 不将事务限制在最佳候选中"
 
-#: main.cpp:1072
+#: main.cpp:1073
 msgid "{} to allow removing of installed packages to resolve problems"
 msgstr "{} 允许删除和安装软件包来解决问题"
 
-#: main.cpp:1081
+#: main.cpp:1082
 msgid "{} to load additional filelists metadata"
 msgstr "{} 加载额外的文件列表元数据"
 
-#: main.cpp:1088
+#: main.cpp:1089
 msgid "{} to skip uninstallable packages"
 msgstr "{} 跳过不可删除的软件包"
 
-#: main.cpp:1094
+#: main.cpp:1095
 msgid "You can try to add to command line:"
 msgstr "你可以尝试添加到命令行中:"
 
-#: main.cpp:1112
+#: main.cpp:1113
 msgid ""
 "No matches were found for the following plugin name patterns while enabling "
 "libdnf plugins: {}"
 msgstr "启用libdnf插件时，未匹配到以下插件的名称: {}"
 
-#: main.cpp:1113
+#: main.cpp:1114
 msgid ""
 "No matches were found for the following plugin name patterns while disabling "
 "libdnf plugins: {}"
 msgstr "禁用libdnf插件时，未匹配到以下插件的名称: {}"
 
-#: main.cpp:1209
+#: main.cpp:1210
 msgid "--- DNF5 launched with arguments: \"{}\" ---"
 msgstr "--- DNF5 启动参数: \"{}\" ---"
 
-#: main.cpp:1260
+#: main.cpp:1261
 msgid "{}."
 msgstr "{}."
 
-#: main.cpp:1263 main.cpp:1492
+#: main.cpp:1264 main.cpp:1493
 msgid "{}. Add \"--help\" for more information about the arguments."
 msgstr "{}。添加 \"--help\" 参数来获取更多的参数信息。"
 
-#: main.cpp:1272
+#: main.cpp:1273
 msgid ""
 "It could be a command provided by a plugin, try: dnf5 install 'dnf5-"
 "command({})'"
 msgstr "它可能是插件提供的命令，尝试用: dnf5 install 'dnf5-command({})'"
 
-#: main.cpp:1314
+#: main.cpp:1315
 msgid ""
 "The argument is available for commands: {}. (It has to be placed after the "
 "command.)"
 msgstr "该参数可用于如下命令: {}。(参数必须放在命令的后面)"
 
-#: main.cpp:1358
+#: main.cpp:1359
 msgid "No read/execute access in current directory, moving to /"
 msgstr "没有当前目录的读取/执行权限，移动至 /"
 
-#: main.cpp:1415
+#: main.cpp:1416
 msgid ""
 "The requested operation requires superuser privileges. Please log in as a "
 "user with elevated rights, or use the \"--assumeno\" or \"--downloadonly\" "
@@ -1316,21 +1316,21 @@ msgstr ""
 "请求的操作需要超级用户权限。请使用有权限的用户来操作。或者使用 \"--"
 "assumeno\" 或 \"--downloadonly\" 参数运行该命令不修改当前系统状态。"
 
-#: main.cpp:1456
+#: main.cpp:1457
 msgid "The operation will only store the transaction in {}"
 msgstr "此操作仅将事务保存到: {}"
 
-#: main.cpp:1458
+#: main.cpp:1459
 msgid "The operation will only download packages for the transaction."
 msgstr "该操作将仅下载这个事务的软件包。"
 
-#: main.cpp:1463
+#: main.cpp:1464
 msgid ""
 "Test mode enabled: Only package downloads, OpenPGP key installations and "
 "transaction checks will be performed."
 msgstr "测试模式已启用: 仅执行软件包下载、OpenPGP密钥安装和事务检查。"
 
-#: main.cpp:1480
+#: main.cpp:1481
 msgid ""
 "No repositories were loaded from the installroot. To use the configuration "
 "and repositories of the host system, pass --use-host-config."
@@ -1338,15 +1338,15 @@ msgstr ""
 "未从installroot加载任何仓库。要使用系统的配置和仓库 ，请加 --use-host-config "
 "参数。"
 
-#: main.cpp:1502
+#: main.cpp:1503
 msgid "Command returned error: {}"
 msgstr "命令返回错误: {}"
 
-#: main.cpp:1510
+#: main.cpp:1511
 msgid "DNF5 finished"
 msgstr "DNF5 执行完毕"
 
-#: main.cpp:1514
+#: main.cpp:1515
 msgid "Complete!"
 msgstr "完成！"
 
