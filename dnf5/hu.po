@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-17 03:24+0000\n"
-"PO-Revision-Date: 2024-12-09 18:58+0000\n"
+"PO-Revision-Date: 2024-12-18 01:19+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/hu/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.8.4\n"
+"X-Generator: Weblate 5.9.1\n"
 
 #: commands/advisory/advisory.cpp:36
 msgid "Manage advisories"
@@ -393,18 +393,20 @@ msgid ""
 "List packages installed on the system that are obsoleted by packages in any "
 "known repository."
 msgstr ""
+"Azoknak a rendszerre telepített csomagoknak a felsorolása, melyeket ismert "
+"tárolóban lévő csomagok tesznek elavulttá."
 
 #: commands/list/list.cpp:89
 msgid "List packages recently added into the repositories."
-msgstr ""
+msgstr "A nemrég tárolókhoz adott csomagok felsorolása."
 
 #: commands/list/list.cpp:93
 msgid "List upgrades available for the installed packages."
-msgstr ""
+msgstr "A telepített csomagokhoz elérhető frissítések felsorolása."
 
 #: commands/list/list.cpp:97
 msgid "List packages which will be removed by the 'dnf autoremove' command."
-msgstr ""
+msgstr "A „dnf autoremove” paranccsal eltávolítandó csomagok felsorolása."
 
 #: commands/list/list.cpp:194 commands/list/list.cpp:199
 msgid "Installed packages"
@@ -440,15 +442,15 @@ msgstr "Nem található csomag"
 
 #: commands/mark/mark.cpp:38
 msgid "Change the reason of an installed package"
-msgstr ""
+msgstr "Egy telepített csomag okának módosítása"
 
 #: commands/module/arguments.hpp:36
 msgid "Show enabled modules."
-msgstr ""
+msgstr "Engedélyezett modulok megjelenítése."
 
 #: commands/module/arguments.hpp:43
 msgid "Show disabled modules."
-msgstr ""
+msgstr "Letiltott modulok megjelenítése."
 
 #: commands/module/arguments.hpp:50
 msgid "Pattern matching module NSVCAs."
@@ -456,15 +458,15 @@ msgstr ""
 
 #: commands/module/module.cpp:43
 msgid "Manage modules"
-msgstr ""
+msgstr "Modulok kezelése"
 
 #: commands/module/module_list.cpp:85
 msgid "No matches found for \"{}\"."
-msgstr ""
+msgstr "Nincs találat erre: „{}”."
 
 #: commands/offline/offline.cpp:190
 msgid "Manage offline transactions"
-msgstr ""
+msgstr "Offline tranzakciók kezelése"
 
 #: commands/offline/offline.cpp:222
 msgid ""
@@ -474,57 +476,64 @@ msgstr ""
 
 #: commands/offline/offline.cpp:245
 msgid "Couldn't connect to D-Bus: {}"
-msgstr ""
+msgstr "Nem sikerült kapcsolódni a D-Bushoz: {}"
 
 #: commands/offline/offline.cpp:274
 msgid ""
 "Prepare the system to perform the offline transaction and reboot to start "
 "the transaction."
 msgstr ""
+"A rendszer előkészítése az offline tranzakció elvégzésére, és újraindítás az "
+"elkezdéséhez."
 
 #: commands/offline/offline.cpp:281
 msgid "Power off the system after the operation is complete"
-msgstr ""
+msgstr "A rendszer kikapcsolása a művelete befejezése után"
 
 #: commands/offline/offline.cpp:292
 msgid "No offline transaction is stored."
-msgstr ""
+msgstr "Nincs offline tranzakció tárolva."
 
 #: commands/offline/offline.cpp:300
 msgid "System is not ready for offline transaction."
-msgstr ""
+msgstr "A rendszer nem áll készen az offline tranzakcióra."
 
 #: commands/offline/offline.cpp:303
 msgid "Data directory {} does not exist."
-msgstr ""
+msgstr "A(z) {} adatkönyvtár nem létezik."
 
 #: commands/offline/offline.cpp:327
 msgid "{} is not wanted by system-update.target."
-msgstr ""
+msgstr "A {} egységet nem kéri a system-update.target."
 
 #: commands/offline/offline.cpp:336
 msgid "The system will now reboot to upgrade to release version "
 msgstr ""
+"A rendszer most újraindul, hogy a legfrissebb kiadási verzióra frissítsen "
 
 #: commands/offline/offline.cpp:340
 msgid ""
 "The system will now reboot to perform the offline transaction initiated by "
 "the following command:"
 msgstr ""
+"A rendszer most újraindul, hogy elvégezze a következő parancs által indított "
+"offline tranzakciót:"
 
 #: commands/offline/offline.cpp:371
 msgid ""
 "Internal use only, not intended to be run by the user. Execute the "
 "transaction in the offline environment."
 msgstr ""
+"Csak belső használatra, nem felhasználó általi használatra lett szánva. "
+"Offline környezetben hajtsa végre a tranzakciót."
 
 #: commands/offline/offline.cpp:398
 msgid "Trigger file does not exist. Exiting."
-msgstr ""
+msgstr "Az aktiválófájl nem létezik. Kilépés."
 
 #: commands/offline/offline.cpp:402
 msgid "Another offline transaction tool is running. Exiting."
-msgstr ""
+msgstr "Még egy offline tranzakciós eszköz fut. Kilépés."
 
 #: commands/offline/offline.cpp:437
 msgid ""
@@ -532,10 +541,14 @@ msgid ""
 "to be run directly by the user. To initiate the system upgrade/offline "
 "transaction, you should run `dnf5 offline reboot`."
 msgstr ""
+"Figyelmeztetés: az `_execute` parancs csak belső használatra való, nem "
+"közvetlen felhasználó általi használatra lett szánva. A rendszerfrissítés "
+"vagy offline tranzakció elindításához futtassa a `dnf5 offline reboot` "
+"parancsot."
 
 #: commands/offline/offline.cpp:444
 msgid "Use `dnf5 offline reboot` to begin the transaction."
-msgstr ""
+msgstr "Használja a `dnf5 offline reboot` parancsot a tranzakció elkezdéséhez."
 
 #: commands/offline/offline.cpp:497
 msgid "Transaction failed: "
@@ -543,7 +556,7 @@ msgstr "A tranzakció sikertelen: "
 
 #: commands/offline/offline.cpp:566
 msgid "Error reading journal: {}"
-msgstr ""
+msgstr "Hiba a napló olvasása során: {}"
 
 #: commands/offline/offline.cpp:572
 msgid "Add journal match failed: {}"
@@ -551,11 +564,13 @@ msgstr ""
 
 #: commands/offline/offline.cpp:600
 msgid "No logs were found."
-msgstr ""
+msgstr "Nem találhatók naplófájlok."
 
 #: commands/offline/offline.cpp:604
 msgid "The following boots appear to contain offline transaction logs:"
 msgstr ""
+"Úgy tűnik, hogy a következő indítások tartalmazzák az offline tranzakció "
+"naplóit:"
 
 #: commands/offline/offline.cpp:621
 msgid "Cannot find logs with this index."
@@ -567,7 +582,7 @@ msgstr "Nincs találat a systemd naplóbejegyzésre."
 
 #: commands/offline/offline.cpp:640
 msgid "Show logs from past offline transactions"
-msgstr ""
+msgstr "Naplók megjelenítése a múltbeli offline tranzakciókból"
 
 #: commands/offline/offline.cpp:648
 msgid ""
