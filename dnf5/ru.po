@@ -2,13 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Aleksey Fedorov <aleksejfedorov963@gmail.com>, 2024.
+# Dmitry Kiryanov <kagaminep@yandex.ru>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-17 03:24+0000\n"
-"PO-Revision-Date: 2024-10-14 15:38+0000\n"
-"Last-Translator: Aleksey Fedorov <aleksejfedorov963@gmail.com>\n"
+"PO-Revision-Date: 2024-12-19 03:44+0000\n"
+"Last-Translator: Dmitry Kiryanov <kagaminep@yandex.ru>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ru/>\n"
 "Language: ru\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.7.2\n"
+"X-Generator: Weblate 5.9.1\n"
 
 #: commands/advisory/advisory.cpp:36
 msgid "Manage advisories"
@@ -817,10 +818,8 @@ msgid "Package \"{}\" is already excluded."
 msgstr "Пакет \"{}\" уже исключен."
 
 #: context.cpp:73
-#, fuzzy
-#| msgid "Importing PGP key 0x{}:\n"
 msgid "Importing OpenPGP key 0x{}:\n"
-msgstr "Импорт PGP-ключа 0x{}:\n"
+msgstr "Импортирование ключа OpenPGP 0x{}:\n"
 
 #: context.cpp:75
 msgid " UserID     : \"{}\"\n"
@@ -1143,10 +1142,8 @@ msgstr ""
 "поиска, может быть указана несколько раз."
 
 #: main.cpp:417
-#, fuzzy
-#| msgid "disable gpg signature checking (if RPM policy allows)"
 msgid "disable OpenPGP signature checking (if RPM policy allows)"
-msgstr "отключить проверку подписи gpg (если позволяет политика RPM)"
+msgstr "отключить проверку подписи OpenPGP (если позволяет политика RPM)"
 
 #: main.cpp:433
 msgid "Disable all libdnf5 plugins"
@@ -1407,6 +1404,7 @@ msgid ""
 "The argument is available for commands: {}. (It has to be placed after the "
 "command.)"
 msgstr ""
+"Аргумент доступен для команд: {}. (Он должен быть помещен после команды)"
 
 #: main.cpp:1359
 msgid "No read/execute access in current directory, moving to /"
@@ -1432,16 +1430,12 @@ msgid "The operation will only download packages for the transaction."
 msgstr "Операция будет загружать пакеты только для данной транзакции."
 
 #: main.cpp:1464
-#, fuzzy
-#| msgid ""
-#| "Test mode enabled: Only package downloads, PGP key installations and "
-#| "transaction checks will be performed."
 msgid ""
 "Test mode enabled: Only package downloads, OpenPGP key installations and "
 "transaction checks will be performed."
 msgstr ""
 "Включен тестовый режим: Будут выполняться только загрузка пакетов, установка "
-"ключей PGP и проверка транзакций."
+"ключей OpenPGP и проверка транзакций."
 
 #: main.cpp:1481
 msgid ""
