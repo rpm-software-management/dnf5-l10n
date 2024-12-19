@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-17 03:24+0000\n"
-"PO-Revision-Date: 2024-12-14 18:20+0000\n"
-"Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
+"PO-Revision-Date: 2024-12-20 02:09+0000\n"
+"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/fi/>\n"
 "Language: fi\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.8.4\n"
+"X-Generator: Weblate 5.9.1\n"
 
 #: advisory/advisory.cpp:81
 msgid ""
@@ -426,7 +426,7 @@ msgstr "ei voi asentaa parasta ehdokasta työlle"
 
 #: base/solver_problems.cpp:52
 msgid "package {0} from {1} is filtered out by modular filtering"
-msgstr ""
+msgstr "paketti {0} {1}:sta suodatetaan pois modulaarisella suodatuksella"
 
 #: base/solver_problems.cpp:53
 msgid "package {0} from {1} does not have a compatible architecture"
@@ -669,19 +669,15 @@ msgstr[1] ""
 "Varoitus: ohitettiin PGP-tarkistukset {0} paketille ohjelmistolähteestä: {1}"
 
 #: base/transaction.cpp:1425
-#, fuzzy
-#| msgid "Warning: skipped PGP checks for {0} package from repositories: {1}"
-#| msgid_plural ""
-#| "Warning: skipped PGP checks for {0} packages from repositories: {1}"
 msgid "Warning: skipped OpenPGP checks for {0} package from repositories: {1}"
 msgid_plural ""
 "Warning: skipped OpenPGP checks for {0} packages from repositories: {1}"
 msgstr[0] ""
-"Varoitus: ohitettiin PGP-tarkistukset {0}:lle tietotovarastoista peräisin "
-"paketille: {1}"
+"Varoitus: ohitettiin OpenPGP-tarkistukset {0}:lle tietotovarastoista "
+"peräisin paketille: {1}"
 msgstr[1] ""
-"Varoitus: ohitettiin PGP-tarkistukset {0}:lle tietotovarastoista peräisin "
-"paketteille: {1}"
+"Varoitus: ohitettiin OpenPGP-tarkistukset {0}:lle tietotovarastoista "
+"peräisin paketteille: {1}"
 
 #: common/exception.cpp:78
 msgid "System error"
