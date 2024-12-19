@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-17 03:24+0000\n"
-"PO-Revision-Date: 2024-12-14 18:20+0000\n"
-"Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
+"PO-Revision-Date: 2024-12-20 02:09+0000\n"
+"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5-cli/fi/>\n"
 "Language: fi\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.8.4\n"
+"X-Generator: Weblate 5.9.1\n"
 
 #: argument_parser.cpp:62
 msgid "\"{}\" not allowed together with named argument \"{}\""
@@ -237,9 +237,6 @@ msgstr[0] " Päivitetään:       {:4} paketti\n"
 msgstr[1] " Päivitetään:       {:4} pakettia\n"
 
 #: output/transaction_table.cpp:152
-#, fuzzy
-#| msgid " Replacing:       {:4} package\n"
-#| msgid_plural " Replacing:       {:4} package\n"
 msgid " Replacing:       {:4} package\n"
 msgid_plural " Replacing:       {:4} packages\n"
 msgstr[0] " Korvataan:       {:4} paketti\n"
@@ -327,7 +324,7 @@ msgstr "Päivitetään:"
 
 #: output/transaction_table.cpp:531
 msgid "Downgrading:"
-msgstr "Varhennetaan:"
+msgstr "Vanhennetaan:"
 
 #: output/transaction_table.cpp:534
 msgid "Reinstalling:"
