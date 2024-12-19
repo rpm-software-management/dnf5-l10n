@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-17 03:24+0000\n"
-"PO-Revision-Date: 2024-12-14 18:20+0000\n"
-"Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
+"PO-Revision-Date: 2024-12-20 02:09+0000\n"
+"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5-plugin-copr/fi/>\n"
 "Language: fi\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.8.4\n"
+"X-Generator: Weblate 5.9.1\n"
 
 #: copr.cpp:48
 msgid "Copr hub (the web-UI/API server) hostname"
@@ -152,35 +152,35 @@ msgstr ""
 
 #: copr_repo.cpp:88
 msgid "Directory '{}' not found in '{}' Copr project."
-msgstr ""
+msgstr "Hakemistoa {} ei löydy Copr-projektista {}."
 
 #: copr_repo.cpp:94
 msgid "You can use one of these available directories:"
-msgstr ""
+msgstr "Voit käyttää jotakin seuraavista käytettävissä olevista hakemistoista:"
 
 #: copr_repo.cpp:110
 msgid "Chroot not found in the given Copr project"
-msgstr ""
+msgstr "Chroot ei löytynyt annetusta Copr-projektista"
 
 #: copr_repo.cpp:112
 msgid "Unable to detect chroot, specify it explicitly."
-msgstr ""
+msgstr "Chrootia ei voi havaita, määritä se nimenomaisesti."
 
 #: copr_repo.cpp:118
 msgid "We tried to find these repos without a success:"
-msgstr ""
+msgstr "Yritimme löytää nämä tietovarastot menestyksettä:"
 
 #: copr_repo.cpp:123
 msgid "You can choose one of the available chroots explicitly:"
-msgstr ""
+msgstr "Voit valita yhden saatavilla olevista chrooteista nimenomaisesti:"
 
 #: copr_repo.cpp:197
 msgid "Can't parse Copr repo spec: "
-msgstr ""
+msgstr "Copr-tietovaraston määrityksiä ei voi jäsentää: "
 
 #: copr_repo.cpp:341
 msgid "Can't remove the {} repo file"
-msgstr ""
+msgstr "Tietovarastotiedostoa {} ei voi poistaa"
 
 #: copr_repo.cpp:344
 msgid "Repo file {} successfully removed"
@@ -188,7 +188,7 @@ msgstr "Tietovarastotiedosto {} poistettu onnistuneesti"
 
 #: copr_repo.cpp:390
 msgid "Can't find item {} in {}"
-msgstr ""
+msgstr "Kohdetta {} ei löydy {}:sta"
 
 #: copr_repo.cpp:446
 msgid "Removing old config file '{}'"
@@ -206,7 +206,7 @@ msgstr ""
 
 #: copr_repo.cpp:557
 msgid "Repo id '{}' in '{}' is suspicious"
-msgstr ""
+msgstr "Tietovaraston tunnus '{}' '{}':ssa on epäilyttävä"
 
 #: copr_repo.cpp:564
 msgid "Repo id '{}' doesn't belong to '{}' repofile"
