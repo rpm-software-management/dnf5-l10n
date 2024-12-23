@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-20 03:05+0000\n"
-"PO-Revision-Date: 2024-12-05 11:38+0000\n"
+"PO-Revision-Date: 2024-12-24 01:47+0000\n"
 "Last-Translator: Joan Aymà <joan@ayma.cat>\n"
 "Language-Team: Catalan <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ca/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.8.4\n"
+"X-Generator: Weblate 5.9.1\n"
 
 #: commands/advisory/advisory.cpp:36
 msgid "Manage advisories"
@@ -484,40 +484,44 @@ msgid ""
 "Error reading state: {}. Rerun the command you used to initiate the offline "
 "transaction, e.g. `dnf5 system-upgrade download [OPTIONS]`."
 msgstr ""
+"Error llegint l'estat: {}. Torna a executar l'ordre que has just per iniciar "
+"la transacció fora de línia, p.e. `dnf5 system-upgrade download [OPCIONS]`."
 
 #: commands/offline/offline.cpp:245
 msgid "Couldn't connect to D-Bus: {}"
-msgstr ""
+msgstr "No s'ha pogut connectar al D-Bus: {}"
 
 #: commands/offline/offline.cpp:274
 msgid ""
 "Prepare the system to perform the offline transaction and reboot to start "
 "the transaction."
 msgstr ""
+"Prepara el sistema per realitzar la transacció fora de línia i reinicia per "
+"començar la transacció."
 
 #: commands/offline/offline.cpp:281
 msgid "Power off the system after the operation is complete"
-msgstr ""
+msgstr "Apaga el sistema després que l'operació hagi completat"
 
 #: commands/offline/offline.cpp:292
 msgid "No offline transaction is stored."
-msgstr ""
+msgstr "No hi ha cap transacció desada."
 
 #: commands/offline/offline.cpp:300
 msgid "System is not ready for offline transaction."
-msgstr ""
+msgstr "El sistema no està preparat per una transacció fora de línia."
 
 #: commands/offline/offline.cpp:303
 msgid "Data directory {} does not exist."
-msgstr ""
+msgstr "El directori de dades {} no existeix."
 
 #: commands/offline/offline.cpp:327
 msgid "{} is not wanted by system-update.target."
-msgstr ""
+msgstr "{} no és requerit per system-update.target."
 
 #: commands/offline/offline.cpp:336
 msgid "The system will now reboot to upgrade to release version "
-msgstr ""
+msgstr "El sistema es reiniciarà ara per actualitzar a la versió de llançament "
 
 #: commands/offline/offline.cpp:340
 msgid ""
