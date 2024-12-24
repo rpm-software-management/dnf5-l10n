@@ -10,9 +10,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-20 03:05+0000\n"
-"PO-Revision-Date: 2024-12-24 01:47+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2024-12-24 09:17+0000\n"
+"Last-Translator: Ruben Roland Fonti <ruben.roland.fonti@ikmail.com>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/it/>\n"
 "Language: it\n"
@@ -133,14 +132,12 @@ msgid "Limit to packages in newpackage advisories."
 msgstr "Limite ai pacchetti negli avvisi sui nuovi pacchetti."
 
 #: commands/advisory_shared.hpp:153
-#, fuzzy
 msgid ""
 "Limit to packages in advisories with specified severity. List option. Can be "
 "\"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgstr ""
 "Limite ai pacchetti negli avvisi con gravità specificata. Opzioni elencate. "
-"Possono essere \"critiche\", \"importanti\", \"moderati\", \"bassi\", \"nulla"
-"\"."
+"Possono essere \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 
 #: commands/advisory_shared.hpp:155
 #, fuzzy
@@ -186,12 +183,18 @@ msgid "Check for available package upgrades"
 msgstr "Controlla gli aggiornamenti disponibili dei pacchetti"
 
 #: commands/check-upgrade/check-upgrade.cpp:54
+#, fuzzy
 msgid ""
 "Reports the lowest versions of packages that fix advisories of type bugfix, "
 "enhancement, security, or newpackage. In case that any option limiting "
 "advisories is used it reports the lowest versions of packages that fix "
 "advisories matching selected advisory properties"
 msgstr ""
+"Segnala le versioni minori dei pacchetti che risolvono avvisi di tipo "
+"bugfix, miglioramento, sicurezza o nuovo pacchetto. Nel caso in cui venga "
+"utilizzata qualsiasi opzione che limita gli avvisi, segnala le versioni "
+"minori dei pacchetti che risolvono gli avvisi che corrispondono alle "
+"proprietà degli avvisi selezionati"
 
 #: commands/check/check.cpp:247
 msgid "Check for problems in the packagedb"
@@ -202,7 +205,6 @@ msgid "Check discovered {} problem(s) in {} package(s)"
 msgstr "Controllo dei problemi scoperti {} nei pacchetti {}"
 
 #: commands/clean/clean.cpp:90
-#, fuzzy
 msgid "List of cache types to clean up. Supported types: {0}"
 msgstr "Lista dei tipi di cache da pulire. Tipi supportati: {0}"
 
@@ -211,12 +213,10 @@ msgid "Unknown cache type \"{0}\". Supported types: {1}"
 msgstr "Il tipo di cache \"{0}\" è sconosciuto. Tipi supportati: {1}"
 
 #: commands/clean/clean.cpp:165
-#, fuzzy
 msgid "Failed to cleanup repository cache in path \"{0}\": {1}"
 msgstr "Pulizia della cache del repository fallita nella path \"{0}\":{1}"
 
 #: commands/clean/clean.cpp:175
-#, fuzzy
 msgid "Cache directory \"{}\" does not exist. Nothing to clean."
 msgstr "La cartella \"{}\" non esiste. Niente da pulire."
 
@@ -226,9 +226,8 @@ msgid "Cannot iterate cache directory \"{}\": {}"
 msgstr "Impossibile ripetere la directory della cache \"{}\": {}"
 
 #: commands/debuginfo-install/debuginfo-install.cpp:45
-#, fuzzy
 msgid "Install debuginfo packages."
-msgstr "Installa pacchetti debuginfo"
+msgstr "Installa pacchetti debuginfo."
 
 #: commands/distro-sync/distro-sync.cpp:42
 msgid ""
@@ -302,7 +301,7 @@ msgstr ""
 
 #: commands/group/arguments.hpp:76
 msgid "Include optional packages from group."
-msgstr "comprende pacchetti opzionali dal gruppo"
+msgstr "comprende pacchetti opzionali dal gruppo."
 
 #: commands/group/arguments.hpp:83
 msgid "Operate on groups only, no packages are changed."
@@ -317,11 +316,15 @@ msgid "Reverse the order of transactions."
 msgstr "Inverte l'ordine delle transazioni."
 
 #: commands/history/arguments.hpp:54
+#, fuzzy
 msgid ""
 "Don't consider mismatches between installed and stored transaction packages "
 "as errors. This can result in an empty transaction because among other "
 "things the option can ignore failing Remove actions."
 msgstr ""
+"Non considera come errori le discrepanze tra i pacchetti di transazioni "
+"installati e archiviati. Ciò può comportare una transazione vuota perché, "
+"tra le altre cose, l'opzione può ignorare le azioni Rimuovi non riuscite."
 
 #: commands/history/arguments.hpp:67
 #, fuzzy
@@ -330,33 +333,40 @@ msgstr "Non considera pacchetti extra spinti dentro le transazioni come errori."
 
 #: commands/history/history.cpp:41
 msgid "Manage transaction history"
-msgstr ""
+msgstr "Gestisce la cronologia delle transazioni"
 
 #: commands/history/history_redo.cpp:53
 #: commands/history/history_rollback.cpp:57
 #: commands/history/history_store.cpp:65 commands/history/history_undo.cpp:56
 msgid "No matching transaction ID found, exactly one required."
 msgstr ""
+"Nessun ID transazione corrispondente trovato, ne è richiesto esattamente uno."
 
 #: commands/history/history_redo.cpp:57
 #: commands/history/history_rollback.cpp:61
 #: commands/history/history_undo.cpp:60
+#, fuzzy
 msgid "Matched more than one transaction ID, exactly one required."
 msgstr ""
+"Più di un ID transazione corrispondente, ne è richiesto esattamente uno."
 
 #: commands/history/history_store.cpp:68
 msgid "Multiple transactions selected for storing, only one allowed."
 msgstr ""
+"Più transazioni selezionate per la memorizzazione, solo una è consentita."
 
 #: commands/history/history_store.cpp:80
 msgid "File \"{}\" already exists, it will be overwritten.\n"
-msgstr ""
+msgstr "Il file \"{}\" esiste già, verra sovrascritto.\n"
 
 #: commands/history/transaction_id.cpp:32
+#, fuzzy
 msgid ""
 "Invalid transaction ID range \"{}\", \"ID\" or \"ID..ID\" expected, where ID "
 "is \"NUMBER\", \"last\" or \"last-NUMBER\"."
 msgstr ""
+"Intervallo ID transazione \"{}\" non valido, \"ID\" o \"ID..ID\" previsto, "
+"dove l'ID è \"NUMBER\", \"last\" o \"last-NUMBER\"."
 
 #: commands/install/install.cpp:41
 msgid "Install software"
