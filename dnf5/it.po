@@ -10,9 +10,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-20 03:05+0000\n"
-"PO-Revision-Date: 2024-12-24 09:49+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2024-12-24 12:09+0000\n"
+"Last-Translator: Ruben Roland Fonti <ruben.roland.fonti@ikmail.com>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/it/>\n"
 "Language: it\n"
@@ -583,23 +582,23 @@ msgstr "Usa `dnf5 offline reboot` per iniziare la transazione."
 
 #: commands/offline/offline.cpp:497
 msgid "Transaction failed: "
-msgstr "Transazione non riuscita "
+msgstr "Transazione fallita: "
 
 #: commands/offline/offline.cpp:566
 msgid "Error reading journal: {}"
-msgstr ""
+msgstr "Errore durante la lettura del journal: {}"
 
 #: commands/offline/offline.cpp:572
 msgid "Add journal match failed: {}"
-msgstr ""
+msgstr "Aggiunta del journal fallita: {}"
 
 #: commands/offline/offline.cpp:600
 msgid "No logs were found."
-msgstr ""
+msgstr "Nessun log è stato trovato."
 
 #: commands/offline/offline.cpp:604
 msgid "The following boots appear to contain offline transaction logs:"
-msgstr ""
+msgstr "I seguenti boots sembrano contenere log delle transazioni offline:"
 
 #: commands/offline/offline.cpp:621
 msgid "Cannot find logs with this index."
@@ -607,113 +606,131 @@ msgstr ""
 
 #: commands/offline/offline.cpp:628
 msgid "Unable to match systemd journal entry."
-msgstr ""
+msgstr "Impossibile far corrispondere la voce del journal systemd."
 
 #: commands/offline/offline.cpp:640
+#, fuzzy
 msgid "Show logs from past offline transactions"
-msgstr ""
+msgstr "Mostra i log dalle transazioni offline passate"
 
 #: commands/offline/offline.cpp:648
+#, fuzzy
 msgid ""
 "Which log to show. Run without any arguments to get a list of available logs."
 msgstr ""
+"Quale registro mostrare. Esegui senza argomenti per ottenere un elenco di "
+"log disponibili."
 
 #: commands/offline/offline.cpp:663
 msgid ""
 "systemd is not supported in this build of DNF 5; the `log` subcommand is "
 "unavailable."
 msgstr ""
+"systemd non è supportato in questa build di DNF 5; il subcomando `log` non è "
+"disponibile."
 
 #: commands/offline/offline.cpp:668
 msgid "Show status of the current offline transaction"
-msgstr ""
+msgstr "Mostra lo stato delle transazioni offline correnti"
 
 #: commands/offline/offline.cpp:684
 msgid "An offline transaction was initiated by the following command:"
-msgstr ""
+msgstr "Una transazione offline è stata avviata dall comando seguente:"
 
 #: commands/offline/offline.cpp:686
 msgid ""
 "Run `dnf5 offline reboot` to reboot and perform the offline transaction."
 msgstr ""
+"Esegui `dnf5 offline reboot` per riavviare ed eseguire la transazione "
+"offline."
 
 #: commands/offline/offline.cpp:688
 msgid ""
 "An offline transaction was started, but it did not finish. Run `dnf5 offline "
 "log` for more information. The command that initiated the transaction was:"
 msgstr ""
+"Una transazione offline è stata avviata, ma non è stata finita. Esegui `dnf5 "
+"offline log` per ulteriori informazioni. Il comando che ha avviato la "
+"transazione era:"
 
 #: commands/offline/offline.cpp:693
 msgid "Unknown offline transaction status: "
-msgstr ""
+msgstr "Stato della transazione offline sconosciuto: "
 
 #: commands/provides/provides.cpp:48
 msgid "Find what package provides the given value"
-msgstr ""
+msgstr "Determina quale pacchetto fornisce il valore dato"
 
 #: commands/reinstall/reinstall.cpp:40
 msgid "Reinstall software"
-msgstr ""
+msgstr "Reinstalla il software"
 
 #: commands/remove/remove.cpp:40
 msgid "Remove (uninstall) software"
-msgstr ""
+msgstr "Rimuove (disinstalla) il software"
 
 #: commands/replay/replay.cpp:38
 msgid "Replay a transaction that was previously stored to a directory"
 msgstr ""
+"Riavvia una transazione che è stata precedentemente memorizzata in una "
+"cartella"
 
 #: commands/repo/arguments.hpp:35
 msgid "Show all repositories."
-msgstr ""
+msgstr "Mostra tutti i repository."
 
 #: commands/repo/arguments.hpp:42
 msgid "Show enabled repositories (default)."
-msgstr ""
+msgstr "Mostra i repository abilitati (predefinito)."
 
 #: commands/repo/arguments.hpp:49
 msgid "Show disabled repositories."
-msgstr ""
+msgstr "Mostra i repository disabilitati."
 
 #: commands/repo/arguments.hpp:56
+#, fuzzy
 msgid "Pattern matching repo IDs."
-msgstr ""
+msgstr "ID repository corrispondenti al modello."
 
 #: commands/repo/repo.cpp:38
 msgid "Manage repositories"
-msgstr ""
+msgstr "Gestisce i repository"
 
 #: commands/repoquery/repoquery.cpp:80
 msgid "Search for packages matching various criteria"
-msgstr ""
+msgstr "Cerca pacchetti che corrispondono a vari criteri"
 
 #: commands/repoquery/repoquery.cpp:516
 msgid ""
 "Option \"--exactdeps\" has to be used either with \"--whatrequires\" or \"--"
 "whatdepends\""
 msgstr ""
+"L'opzione \"--exactdeps\" deve essere usata con \"--whatrequires\" o \"--"
+"whatdepends\""
 
 #: commands/repoquery/repoquery.cpp:521
 msgid ""
 "Option \"--recursive\" has to be used either with \"--whatrequires\" or \"--"
 "providers-of=requires\""
 msgstr ""
+"L'opzione \"--recursive\" deve essere usata con \"--whatrequires\" o \""
+"--providers-of=requires\""
 
 #: commands/search/arguments.hpp:37
 msgid "Search also package description and URL."
-msgstr ""
+msgstr "Cerca anche la descrizione dei pacchetti e gli URL."
 
 #: commands/search/arguments.hpp:45
 msgid "Patterns"
-msgstr ""
+msgstr "Modelli"
 
 #: commands/search/search.cpp:44
 msgid "Search for software matching all specified strings"
-msgstr ""
+msgstr "Cerca il software corrispondente a tutte le stringhe specificate"
 
 #: commands/swap/swap.cpp:42
 msgid "Remove software and install another in one transaction"
-msgstr ""
+msgstr "Rimuove il software e ne installa un altro in una transazione"
 
 #: commands/system-upgrade/system-upgrade.cpp:54
 msgid "Prepare system for upgrade to a new release"
@@ -721,29 +738,32 @@ msgstr ""
 
 #: commands/system-upgrade/system-upgrade.cpp:70
 msgid "Download everything needed to upgrade to a new release"
-msgstr ""
+msgstr "Scarica tutto il necessario per l'aggiornamento a una nuova release"
 
 #: commands/system-upgrade/system-upgrade.cpp:78
 msgid ""
 "Do not install packages from the new release if they are older than what is "
 "currently installed"
 msgstr ""
+"Non installa pacchetti dalla nuova release se sono più vecchi di quelli già "
+"installati"
 
 #: commands/system-upgrade/system-upgrade.cpp:97
 msgid "Need a --releasever greater than the current system version."
 msgstr ""
+"È necessario un --releasever maggiore della versione del sistema corrente."
 
 #: commands/system-upgrade/system-upgrade.cpp:131
 msgid "Store a distro-sync transaction to be performed offline"
-msgstr ""
+msgstr "Memorizza una transazione distro-sync per essere eseguita offline"
 
 #: commands/system-upgrade/system-upgrade.cpp:153
 msgid "Store an upgrade transaction to be performed offline"
-msgstr ""
+msgstr "Memorizza una transazione di aggiornamento per essere eseguita offline"
 
 #: commands/upgrade/upgrade.cpp:41
 msgid "Upgrade software"
-msgstr ""
+msgstr "Aggiornamento software"
 
 #: commands/upgrade/upgrade.cpp:48
 msgid ""
@@ -752,52 +772,60 @@ msgid ""
 "limiting advisories is used it upgrades packages only to the lowest versions "
 "that fix advisories that matching selected advisory property"
 msgstr ""
+"Aggiorna i pacchetti solo alle versioni minori che risolvono avvisi di tipo "
+"bugfix, miglioramento, sicurezza o nuovo pacchetto. Nel caso in cui venga "
+"utilizzata un'opzione che limita gli avvisi, aggiorna i pacchetti solo alle "
+"versioni minori che risolvono gli avvisi che corrispondono alla proprietà di "
+"avviso selezionata"
 
 #. TODO(mblaha): add full command line
 #: commands/versionlock/utils.cpp:35
 msgid "Added by 'versionlock {}' command on {}"
-msgstr ""
+msgstr "Aggiunto dal comando 'versionlock {}' su {}"
 
 #: commands/versionlock/versionlock.cpp:40
 msgid "Manage versionlock configuration"
-msgstr ""
+msgstr "Gestisce la configurazione versionlock"
 
 #: commands/versionlock/versionlock_add.cpp:37
 msgid "Add new entry to versionlock configuration"
-msgstr ""
+msgstr "Aggunge una nuova entry alla configurazione di versionlock"
 
 #: commands/versionlock/versionlock_add.cpp:43
+#, fuzzy
 msgid "List of package specs to add versionlock for"
 msgstr ""
+"Elenco delle specifiche del pacchetto per cui aggiungere il blocco versione"
 
 #: commands/versionlock/versionlock_add.cpp:106
 #: commands/versionlock/versionlock_exclude.cpp:125
 msgid "No package found for \"{}\"."
-msgstr ""
+msgstr "Nessun pacchetto trovato per \"{}\"."
 
 #: commands/versionlock/versionlock_add.cpp:124
 msgid "Adding versionlock on \"{0} = {1}\"."
-msgstr ""
+msgstr "Aggiunta del blocco versione su \"{0} = {1}\"."
 
 #: commands/versionlock/versionlock_add.cpp:127
 msgid "Package \"{}\" is already locked."
-msgstr ""
+msgstr "Il pacchetto \"{}\" e già bloccato."
 
 #: commands/versionlock/versionlock_clear.cpp:32
 msgid "Remove all entries from versionlock configuration"
-msgstr ""
+msgstr "Rimuove tutte le voci dalla configurazione di versionlock"
 
 #: commands/versionlock/versionlock_delete.cpp:35
 msgid "Remove any matching versionlock configuration entries"
-msgstr ""
+msgstr "Rimuove eventuali voci di configurazione versionlock corrispondenti"
 
 #: commands/versionlock/versionlock_delete.cpp:41
+#, fuzzy
 msgid "List of package specs to remove versionlock for"
-msgstr ""
+msgstr "Elenco delle specifiche del pacchetto per cui rimuovere il versionlock"
 
 #: commands/versionlock/versionlock_delete.cpp:55
 msgid "Deleting versionlock entry:"
-msgstr ""
+msgstr "Eliminazione della voce versionlock:"
 
 #: commands/versionlock/versionlock_exclude.cpp:37
 msgid "Add new exclude entry to versionlock configuration"
