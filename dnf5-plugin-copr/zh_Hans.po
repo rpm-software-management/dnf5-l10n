@@ -2,13 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # caffiendo c <1728778012@qq.com>, 2024.
+# ashton su <suguyu45@gmail.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-20 03:05+0000\n"
-"PO-Revision-Date: 2024-12-10 09:38+0000\n"
-"Last-Translator: caffiendo c <1728778012@qq.com>\n"
+"PO-Revision-Date: 2024-12-24 09:17+0000\n"
+"Last-Translator: ashton su <suguyu45@gmail.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://translate."
 "fedoraproject.org/projects/dnf5/dnf5-plugin-copr/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -16,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.8.4\n"
+"X-Generator: Weblate 5.9.1\n"
 
 #: copr.cpp:48
 msgid "Copr hub (the web-UI/API server) hostname"
@@ -32,15 +33,21 @@ msgid ""
 "fedorainfracloud.org ) or the shortcut (e.g. fedora).  Example: 'fedora/"
 "@footeam/coolproject'."
 msgstr ""
+"Copr 项目 ID 格式为 {}。  可以使用格式 OWNER/PROJECT 或 HUB/OWNER/PROJECT（"
+"如果未指定 HUB，则使用默认的 HUB，或使用 --hub <ARG>）。OWNER 可以是用户名，"
+"也可以是 @groupname。  PROJECT "
+"可以仅是项目名称，也可以是包含冒号的“项目目录”，例如 'project:custom:123'。"
+"HUB 可以是 Copr 前端主机名（例如 copr.fedorainfracloud.org）或简写（例如 "
+"fedora）。示例：'fedora/@footeam/coolproject'。"
 
 #: copr.cpp:106
 msgid "Invalid PROJECT_SPEC format '{}'"
-msgstr ""
+msgstr "无效的 PROJECT_SPEC 格式 '{}'"
 
 #: copr_constants.hpp:27
 msgid ""
 "Manage Copr repositories (add-ons provided by users/community/third-party)"
-msgstr ""
+msgstr "管理 Copr 仓库（由用户/社区/第三方提供的附加组件）"
 
 #: copr_constants.hpp:29
 msgid ""
@@ -56,6 +63,17 @@ msgid ""
 "Please do not file bug reports about these packages in Fedora\n"
 "Bugzilla. In case of problems, contact the owner of this repository.\n"
 msgstr ""
+"启用 Copr 仓库。请注意，这个仓库不是\n"
+"主发行版的一部分，质量可能有所不同。\n"
+"\n"
+"Fedora 项目不会在 Copr 常见问题解答中所列规则之外\n"
+"对该仓库的内容行使任何权力，\n"
+"（请参阅 <https://docs.pagure.org/copr.copr/user_documentation.html#what-i"
+"-can-build-in-copr>）,\n"
+"这些软件包不受任何质量或安全级别的保障。\n"
+"\n"
+"请不要在 Fedora Bugzilla 中提交有关这些软件包的 bug 报告。\n"
+"如果遇到问题，请联系该仓库的所有者。\n"
 
 #: copr_constants.hpp:41
 msgid ""
@@ -72,6 +90,17 @@ msgid ""
 "These repositories are being enabled together with the main\n"
 "repository.\n"
 msgstr ""
+"启用的 Copr 仓库的维护者决定\n"
+"将其依赖于其他仓库。这些仓库通常是\n"
+"成功安装来自 Copr 仓库\n"
+"的 RPM 包所必需的（它们提供运行时依赖）。\n"
+"\n"
+"请注意，上述关于质量和 bug 报告的说明\n"
+"同样适用于此，Fedora 项目不控制\n"
+"这些内容。请查看以下列表：\n"
+"\n"
+"{}\n"
+"这些仓库将与主仓库一起启用。\n"
 
 #: copr_debug.cpp:30
 msgid "print useful info about the system, useful for debugging"
