@@ -5,13 +5,14 @@
 # Dennis Koerner <dennis@bumblebeeman.dev>, 2024.
 # Henning <boredsquirrel@users.noreply.translate.fedoraproject.org>, 2024.
 # Fabio D <fabio1977@arcor.de>, 2024.
+# Ettore Atalan <atalanttore@googlemail.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-20 03:05+0000\n"
-"PO-Revision-Date: 2024-11-05 21:08+0000\n"
-"Last-Translator: Fabio D <fabio1977@arcor.de>\n"
+"PO-Revision-Date: 2024-12-30 23:38+0000\n"
+"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/de/>\n"
 "Language: de\n"
@@ -19,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.8.2\n"
+"X-Generator: Weblate 5.9.2\n"
 
 #: advisory/advisory.cpp:81
 msgid ""
@@ -642,7 +643,7 @@ msgstr "Verifizierung der Signatur fehlgeschlagen."
 #, fuzzy
 #| msgid "The repository does not have any PGP keys configured."
 msgid "The repository does not have any OpenPGP keys configured."
-msgstr "Das Repository hat keine PGP-Schlüssel konfiguriert."
+msgstr "Das Repository hat keine OpenPGP-Schlüssel konfiguriert."
 
 #: base/transaction.cpp:90
 msgid "Public key is not installed."
@@ -675,7 +676,7 @@ msgstr "Beim Importieren des Schlüssels \"{}\" ist ein Fehler aufgetreten: {}"
 #| msgid "PGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
 msgid "OpenPGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
 msgstr ""
-"PGP Prüfung für Paket \"{}\" ({}) aus Repository \"{}\" ist fehlgeschlagen: "
+"OpenPGP-Prüfung für Paket „{}“ ({}) aus Repository „{}“ ist fehlgeschlagen: "
 
 #: base/transaction.cpp:1400
 msgid "Import of the key didn't help, wrong key?"
@@ -1070,24 +1071,18 @@ msgstr ""
 "gefunden"
 
 #: repo/repo_pgp.cpp:60
-#, fuzzy
-#| msgid "Failed to import pgp keys into temporary keyring: {}"
 msgid "Failed to import OpenPGP keys into temporary keyring: {}"
 msgstr ""
-"Importieren der PGP-Schlüssel in den temporären Schlüsselring "
+"Importieren der OpenPGP-Schlüssel in den temporären Schlüsselring ist "
 "fehlgeschlagen: {}"
 
 #: repo/repo_pgp.cpp:66 repo/repo_pgp.cpp:93
-#, fuzzy
-#| msgid "Failed to list pgp keys: {}"
 msgid "Failed to list OpenPGP keys: {}"
-msgstr "Auflisten der PGP-Schlüssel fehlgeschlagen: {}"
+msgstr "Auflisten der OpenPGP-Schlüssel ist fehlgeschlagen: {}"
 
 #: repo/repo_pgp.cpp:141
-#, fuzzy
-#| msgid "Failed to import pgp keys: {}"
 msgid "Failed to import OpenPGP keys: {}"
-msgstr "Importieren der PGP-Schlüssel fehlgeschlagen: {}"
+msgstr "Importieren der OpenPGP-Schlüssel ist fehlgeschlagen: {}"
 
 #: repo/repo_sack.cpp:147
 msgid ""
@@ -1174,7 +1169,7 @@ msgstr "Paket mit rpmdbid wurde nicht gefunden"
 
 #: rpm/package.cpp:478
 msgid "<unknown>"
-msgstr ""
+msgstr "<unbekannt>"
 
 #: rpm/reldep.cpp:116 rpm/reldep.cpp:123
 msgid "Cannot parse a dependency string"
