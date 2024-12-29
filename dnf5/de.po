@@ -4,13 +4,14 @@
 # Dennis Koerner <dennis@bumblebeeman.dev>, 2024.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024.
 # Fabio D <fabio1977@arcor.de>, 2024.
+# Ettore Atalan <atalanttore@googlemail.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-20 03:05+0000\n"
-"PO-Revision-Date: 2024-11-05 21:08+0000\n"
-"Last-Translator: Fabio D <fabio1977@arcor.de>\n"
+"PO-Revision-Date: 2024-12-30 23:38+0000\n"
+"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/de/>\n"
 "Language: de\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.8.2\n"
+"X-Generator: Weblate 5.9.2\n"
 
 #: commands/advisory/advisory.cpp:36
 msgid "Manage advisories"
@@ -817,10 +818,8 @@ msgid "Package \"{}\" is already excluded."
 msgstr "Paket \"{}\" ist bereits ausgenommen."
 
 #: context.cpp:73
-#, fuzzy
-#| msgid "Importing PGP key 0x{}:\n"
 msgid "Importing OpenPGP key 0x{}:\n"
-msgstr "Importiere PGP Schlüssel 0x{}:\n"
+msgstr "OpenPGP-Schlüssel 0x{} wird importiert:\n"
 
 #: context.cpp:75
 msgid " UserID     : \"{}\"\n"
@@ -1148,11 +1147,9 @@ msgstr ""
 "kann mehrfach spezifiziert werden."
 
 #: main.cpp:417
-#, fuzzy
-#| msgid "disable gpg signature checking (if RPM policy allows)"
 msgid "disable OpenPGP signature checking (if RPM policy allows)"
 msgstr ""
-"deaktiviere die GPG-Signaturüberprüfung (falls die RPM-Richtlinie dies "
+"OpenPGP-Signaturüberprüfung deaktivieren (falls die RPM-Richtlinie dies "
 "zulässt)"
 
 #: main.cpp:433
@@ -1417,6 +1414,8 @@ msgid ""
 "The argument is available for commands: {}. (It has to be placed after the "
 "command.)"
 msgstr ""
+"Das Argument ist für Befehle verfügbar:{}. (Es muss nach dem Befehl "
+"platziert werden.)"
 
 #: main.cpp:1359
 msgid "No read/execute access in current directory, moving to /"
@@ -1442,16 +1441,12 @@ msgid "The operation will only download packages for the transaction."
 msgstr "Diese Operation wird nur Pakete für diese Transaktion herunterladen."
 
 #: main.cpp:1464
-#, fuzzy
-#| msgid ""
-#| "Test mode enabled: Only package downloads, PGP key installations and "
-#| "transaction checks will be performed."
 msgid ""
 "Test mode enabled: Only package downloads, OpenPGP key installations and "
 "transaction checks will be performed."
 msgstr ""
-"Test Modus aktiviert: Nur Paket-Downloads, PGP-Schlüssel Installationen und "
-"Transaktions-Überprüfung wird ausgeführt."
+"Testmodus aktiviert: Es werden nur Paket-Downloads, OpenPGP-"
+"Schlüsselinstallationen und Transaktionsprüfungen durchgeführt."
 
 #: main.cpp:1481
 msgid ""
