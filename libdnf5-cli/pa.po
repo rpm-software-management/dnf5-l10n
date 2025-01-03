@@ -1,13 +1,13 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# A S Alam <aalam@users.noreply.translate.fedoraproject.org>, 2024.
+# A S Alam <aalam@users.noreply.translate.fedoraproject.org>, 2024, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-03 03:04+0000\n"
-"PO-Revision-Date: 2024-11-19 09:15+0000\n"
+"PO-Revision-Date: 2025-01-04 12:49+0000\n"
 "Last-Translator: A S Alam <aalam@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Punjabi <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5-cli/pa/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.8.2\n"
+"X-Generator: Weblate 5.9.1\n"
 
 #: argument_parser.cpp:62
 msgid "\"{}\" not allowed together with named argument \"{}\""
@@ -24,7 +24,7 @@ msgstr ""
 
 #: argument_parser.cpp:64
 msgid "\"{}\" not allowed in command \"{}\""
-msgstr ""
+msgstr "\"{}\" ਦੀ \"{}\" ਕਮਾਂਡ ਵਿੱਚ ਮਨਜ਼ੂਰੀ ਨਹੀਂ ਹੈ"
 
 #: argument_parser.cpp:66
 msgid "\"{}\" not allowed together with positional argument \"{}\""
@@ -117,15 +117,15 @@ msgstr "ਕਾਰਵਾਈ ਵਰਤੋਂਕਾਰ ਵਲੋਂ ਅਧੂਰੀ
 
 #: exception.cpp:33
 msgid "Failed to resolve the transaction"
-msgstr ""
+msgstr "ਟਰਾਂਜ਼ੈਕਸ਼ਨ ਹੱਲ਼ ਕਰਨ ਲਈ ਅਸਫ਼ਲ ਹੈ"
 
 #: output/moduleinfo.cpp:36
 msgid "Hint: [d]efault, [e]nabled, [x]disabled, [i]nstalled, [a]ctive"
-msgstr ""
+msgstr "ਇਸ਼ਾਰਾ: [d] ਮੂਲ, [e] ਸਮਰ਼ਥ ਹੈ, [x] ਅਸਮਰੱਥ ਹੈ, [i] ਇੰਸਟਾਲ ਹੈ, [a] ਸਰਗਰਮ"
 
 #: output/modulelist.cpp:39
 msgid "Hint: [d]efault, [e]nabled, [x]disabled, [i]nstalled"
-msgstr ""
+msgstr "ਇਸ਼ਾਰਾ: [d] ਮੂਲ, [e] ਸਮਰ਼ਥ ਹੈ, [x] ਅਸਮਰੱਥ ਹੈ, [i] ਇੰਸਟਾਲ ਹੈ"
 
 #. Note for translators: This is a right-aligned column separator in
 #. a package properties table as in "Name    : bash".
@@ -204,11 +204,11 @@ msgstr ""
 
 #: output/search.cpp:90
 msgid "No matches found."
-msgstr ""
+msgstr "ਕੋਈ ਮੇਲ ਨਹੀਂ ਲੱਭਿਆ ਹੈ।"
 
 #: output/search.cpp:101
 msgid "Matched fields: "
-msgstr ""
+msgstr "ਮਿਲਦੇ ਖੇਤਰ: "
 
 #: output/transaction_table.cpp:127
 msgid "Transaction Summary:\n"
@@ -233,9 +233,6 @@ msgstr[0] " ਅੱਪਗਰੇਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ:      
 msgstr[1] " ਅੱਪਗਰੇਡ ਕੀਤੇ ਜਾ ਰਹੇ ਹਨ:      {:4} ਪੈਕੇਜ\n"
 
 #: output/transaction_table.cpp:152
-#, fuzzy
-#| msgid " Replacing:       {:4} package\n"
-#| msgid_plural " Replacing:       {:4} package\n"
 msgid " Replacing:       {:4} package\n"
 msgid_plural " Replacing:       {:4} packages\n"
 msgstr[0] " ਤਬਦੀਲ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ:      {:4} ਪੈਕੇਜ\n"
@@ -291,15 +288,15 @@ msgstr ""
 
 #: output/transaction_table.cpp:442
 msgid "replacing "
-msgstr "ਬਦਲਿਆ ਜਾ ਰਿਹਾ ਹੈ "
+msgstr "ਨੂੰ ਬਦਲਿਆ ਜਾ ਰਿਹਾ ਹੈ "
 
 #: output/transaction_table.cpp:455
 msgid "Skipping packages with conflicts:"
-msgstr ""
+msgstr "ਟਕਰਾ ਵਾਲੇ ਪੈਕੇਜ ਛੱਡੇ ਜਾ ਰਹੇ ਹਨ:"
 
 #: output/transaction_table.cpp:457
 msgid "Skipping packages with broken dependencies:"
-msgstr ""
+msgstr "ਨਾ ਹੱਲ਼ ਹੋਈ ਨਿਰਭਰਤਾ ਵਾਲੇ ਪੈਕੇਜ ਛੱਡੇ ਜਾ ਰਹੇ ਹਨ:"
 
 #: output/transaction_table.cpp:518
 msgid "Installing dependencies:"
@@ -307,7 +304,7 @@ msgstr "ਨਿਰਭਰਤਾਵਾਂ ਨੂੰ ਇੰਸਟਾਲ ਕੀਤਾ
 
 #: output/transaction_table.cpp:520
 msgid "Installing weak dependencies:"
-msgstr ""
+msgstr "ਕਮਜ਼ੋਰ ਨਿਰਭਰਤਾਵਾਂ ਨੂੰ ਇੰਸਟਾਲ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ:"
 
 #: output/transaction_table.cpp:522
 msgid "Installing group/module packages:"
@@ -315,11 +312,11 @@ msgstr "ਗਰੁੱਪ/ਮੋਡੀਊਲ ਪੈਕੇਜ ਇੰਸਟਾਲ �
 
 #: output/transaction_table.cpp:524
 msgid "Installing:"
-msgstr "ਇੰਸਟਾਲ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ:"
+msgstr "ਇੰਸਟਾਲ:"
 
 #: output/transaction_table.cpp:528
 msgid "Upgrading:"
-msgstr "ਅੱਪਗਰੇਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ:"
+msgstr "ਅੱਪਗਰੇਡ:"
 
 #: output/transaction_table.cpp:531
 msgid "Downgrading:"
@@ -375,7 +372,7 @@ msgstr "ਇਨਵਾਇਰਨਮੈਂਟ ਗਰੁੱਪਾਂ ਨੂੰ ਅੱ
 
 #: output/transaction_table.cpp:647
 msgid "Enabling module streams:"
-msgstr ""
+msgstr "ਮੋਡੀਊਲ ਸਟਰੀਮਾਂ ਨੂੰ ਸਮਰੱਥ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ:"
 
 #: output/transaction_table.cpp:650
 msgid "Disabling modules:"
@@ -395,7 +392,7 @@ msgstr "ਕਰਨ ਲਈ ਕੁਝ ਨਹੀਂ ਹੈ।"
 
 #: progressbar/multi_progress_bar.cpp:36
 msgid "Total"
-msgstr ""
+msgstr "ਕੁੱਲ"
 
 #: session.cpp:149
 msgid "Missing command"
