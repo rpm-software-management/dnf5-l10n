@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Paweł Marciniak <sunwire+fas@gmail.com>, 2024.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024.
+# Petr Pisar <ppisar@redhat.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-03 03:04+0000\n"
-"PO-Revision-Date: 2024-12-14 18:20+0000\n"
-"Last-Translator: Paweł Marciniak <sunwire+fas@gmail.com>\n"
+"PO-Revision-Date: 2025-01-09 22:48+0000\n"
+"Last-Translator: Petr Pisar <ppisar@redhat.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5-cli/pl/>\n"
 "Language: pl\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.8.4\n"
+"X-Generator: Weblate 5.9.2\n"
 
 #: argument_parser.cpp:62
 msgid "\"{}\" not allowed together with named argument \"{}\""
@@ -232,58 +233,58 @@ msgstr "Podsumowanie transakcji:\n"
 #: output/transaction_table.cpp:131
 msgid " Installing:      {:4} package\n"
 msgid_plural " Installing:      {:4} packages\n"
-msgstr[0] " Instalowanie:      {:4} pakietu\n"
-msgstr[1] " Instalowanie:      {:4} pakietów\n"
-msgstr[2] " Instalowanie:      {:4} pakietów\n"
+msgstr[0] " Instalowanie:                       {:4} pakietu\n"
+msgstr[1] " Instalowanie:                       {:4} pakietów\n"
+msgstr[2] " Instalowanie:                       {:4} pakietów\n"
 
 #: output/transaction_table.cpp:138
 msgid " Reinstalling:    {:4} package\n"
 msgid_plural " Reinstalling:    {:4} packages\n"
-msgstr[0] " Ponowne instalowanie:      {:4} pakietu\n"
-msgstr[1] " Ponowne instalowanie:      {:4} pakietów\n"
-msgstr[2] " Ponowne instalowanie:      {:4} pakietów\n"
+msgstr[0] " Ponowne instalowanie:               {:4} pakietu\n"
+msgstr[1] " Ponowne instalowanie:               {:4} pakietów\n"
+msgstr[2] " Ponowne instalowanie:               {:4} pakietów\n"
 
 #: output/transaction_table.cpp:145
 msgid " Upgrading:       {:4} package\n"
 msgid_plural " Upgrading:       {:4} packages\n"
-msgstr[0] " Aktualizowanie:       {:4} pakietu\n"
-msgstr[1] " Aktualizowanie:       {:4} pakietów\n"
-msgstr[2] " Aktualizowanie:       {:4} pakietów\n"
+msgstr[0] " Aktualizowanie:                     {:4} pakietu\n"
+msgstr[1] " Aktualizowanie:                     {:4} pakietów\n"
+msgstr[2] " Aktualizowanie:                     {:4} pakietów\n"
 
 #: output/transaction_table.cpp:152
 msgid " Replacing:       {:4} package\n"
 msgid_plural " Replacing:       {:4} packages\n"
-msgstr[0] " Zastępowanie:       {:4} pakietu\n"
-msgstr[1] " Zastępowanie:       {:4} pakietów\n"
-msgstr[2] " Zastępowanie:       {:4} pakietów\n"
+msgstr[0] " Zastępowanie:                       {:4} pakietu\n"
+msgstr[1] " Zastępowanie:                       {:4} pakietów\n"
+msgstr[2] " Zastępowanie:                       {:4} pakietów\n"
 
 #: output/transaction_table.cpp:159
 msgid " Removing:        {:4} package\n"
 msgid_plural " Removing:        {:4} packages\n"
-msgstr[0] " Usuwanie:        {:4} pakietu\n"
-msgstr[1] " Usuwanie:        {:4} pakietów\n"
-msgstr[2] " Usuwanie:        {:4} pakietów\n"
+msgstr[0] " Usuwanie:                           {:4} pakietu\n"
+msgstr[1] " Usuwanie:                           {:4} pakietów\n"
+msgstr[2] " Usuwanie:                           {:4} pakietów\n"
 
 #: output/transaction_table.cpp:166
 msgid " Downgrading:     {:4} package\n"
 msgid_plural " Downgrading:     {:4} packages\n"
-msgstr[0] " Instalowanie poprzedniej wersji:     {:4} pakiet\n"
-msgstr[1] " Instalowanie poprzedniej wersji:     {:4} pakiety\n"
-msgstr[2] " Instalowanie poprzedniej wersji:     {:4} pakietów\n"
+msgstr[0] " Instalowanie poprzedniej wersji:    {:4} pakiet\n"
+msgstr[1] " Instalowanie poprzedniej wersji:    {:4} pakiety\n"
+msgstr[2] " Instalowanie poprzedniej wersji:    {:4} pakietów\n"
 
 #: output/transaction_table.cpp:173
 msgid " Changing reason: {:4} package\n"
 msgid_plural " Changing reason: {:4} packages\n"
-msgstr[0] " Przyczyna zmiany: {:4} pakietu\n"
-msgstr[1] " Przyczyna zmiany: {:4} pakietów\n"
-msgstr[2] " Przyczyna zmiany: {:4} pakietów\n"
+msgstr[0] " Przyczyna zmiany:                   {:4} pakietu\n"
+msgstr[1] " Przyczyna zmiany:                   {:4} pakietów\n"
+msgstr[2] " Przyczyna zmiany:                   {:4} pakietów\n"
 
 #: output/transaction_table.cpp:181
 msgid " Skipping:        {:4} package\n"
 msgid_plural " Skipping:        {:4} packages\n"
-msgstr[0] " Pomijanie:        {:4} pakietu\n"
-msgstr[1] " Pomijanie:        {:4} pakietów\n"
-msgstr[2] " Pomijanie:        {:4} pakietów\n"
+msgstr[0] " Pomijanie:                          {:4} pakietu\n"
+msgstr[1] " Pomijanie:                          {:4} pakietów\n"
+msgstr[2] " Pomijanie:                          {:4} pakietów\n"
 
 #: output/transaction_table.cpp:262
 msgid "Package"
