@@ -7,309 +7,320 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-10 03:14+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-01-11 03:00+0000\n"
+"Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
+"Language-Team: Hungarian <https://translate.fedoraproject.org/projects/dnf5/"
+"libdnf5-cli/hu/>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9.2\n"
 
 #: argument_parser.cpp:62
 #, c++-format
 msgid "\"{}\" not allowed together with named argument \"{}\""
-msgstr ""
+msgstr "A(z) „{}” nem engedélyezett a(z) „{}” nevesített argumentummal együtt"
 
 #: argument_parser.cpp:64
 #, c++-format
 msgid "\"{}\" not allowed in command \"{}\""
-msgstr ""
+msgstr "A(z) „{}” nem engedélyezett a(z) „{}” parancsban"
 
 #: argument_parser.cpp:66
 #, c++-format
 msgid "\"{}\" not allowed together with positional argument \"{}\""
-msgstr ""
+msgstr "A(z) „{}” nem engedélyezett a(z) „{}” pozicionális argumentummal"
 
 #: argument_parser.cpp:110
 #, c++-format
 msgid "Argument id \"{}\" already registered in group \"{}\""
-msgstr ""
+msgstr "A(z) „{}” argumentumazonosító már regisztrálva van a(z) „{}” csoportban"
 
 #: argument_parser.cpp:237
 #, c++-format
 msgid "Invalid character '.' in argument id \"{}\""
-msgstr ""
+msgstr "Érvénytelen „.” karakter a(z) „{}” argumentumazonosítóban"
 
 #: argument_parser.cpp:345 argument_parser.cpp:350
 #, c++-format
 msgid "Too few values for positional argument \"{}\""
-msgstr ""
+msgstr "Túl kevés érték a(z) „{}” pozicionális argumentumhoz"
 
 #: argument_parser.cpp:511
 #, c++-format
 msgid "Missing value for named argument \"--{}\""
-msgstr ""
+msgstr "Hiányzó érték a(z) „--{}” nevesített argumentumhoz"
 
 #: argument_parser.cpp:519
 #, c++-format
 msgid "Unexpected value for named argument \"--{}\""
-msgstr ""
+msgstr "Váratlan érték a(z) „--{}” nevesített argumentumhoz"
 
 #: argument_parser.cpp:561
 #, c++-format
 msgid "Missing value for named argument \"-{}\""
-msgstr ""
+msgstr "Hiányzó érték a(z) „-{}” nevesített argumentumhoz"
 
 #. print usage
 #: argument_parser.cpp:657
 msgid "Usage:"
-msgstr ""
+msgstr "Használat:"
 
 #: argument_parser.cpp:665
 msgid "Description:"
-msgstr ""
+msgstr "Leírás:"
 
 #: argument_parser.cpp:915
 #, c++-format
 msgid "Command id \"{}\" already registered for command \"{}\""
-msgstr ""
+msgstr "A(z) „{}” parancsazonosító már regisztrálva van a(z) „{}” parancshoz"
 
 #: argument_parser.cpp:926
 #, c++-format
 msgid "Named argument id \"{}\" already registered for command \"{}\""
 msgstr ""
+"A(z) „{}” nevesített argumentumazonosító már regisztrálva van a(z) „{}” "
+"parancshoz"
 
 #: argument_parser.cpp:936
 #, c++-format
 msgid "Positional argument id \"{}\" already registered for command \"{}\""
 msgstr ""
+"A(z) „{}” pozicionális azonosító már regisztrálva van a(z) „{}” parancshoz"
 
 #: argument_parser.cpp:946
 #, c++-format
 msgid "Group id \"{}\" already registered for command \"{}\""
-msgstr ""
+msgstr "A(z) „{}” csoportazonosító már regisztrálva van a(z) „{}” parancshoz"
 
 #: argument_parser.cpp:973
 #, c++-format
 msgid "Command id \"{}\" does not contain subcommand with id \"{}\""
-msgstr ""
+msgstr "A(z) „{}” parancsazonosító nem tartalmaz „{}” azonosítójú alparancsot"
 
 #: argument_parser.cpp:981
 #, c++-format
 msgid "Command id \"{}\" does not contain named argument with id \"{}\""
 msgstr ""
+"A(z) „{}” parancsazonosító nem tartalmaz „{}” azonosítójú nevesített "
+"argumentumot"
 
 #: argument_parser.cpp:989
 #, c++-format
 msgid "Command id \"{}\" does not contain positional argument with id \"{}\""
 msgstr ""
+"A(z) „{}” parancsazonosító nem tartalmaz „{}” azonosítójú pozicionális "
+"argumentumot"
 
 #: argument_parser.cpp:996
 #, c++-format
 msgid "Command id \"{}\" does not contain group with id \"{}\""
-msgstr ""
+msgstr "A(z) „{}” parancsazonosító nem tartalmaz „{}” azonosítójú csoportot"
 
 #: argument_parser.cpp:1103 argument_parser.cpp:1307
 #, c++-format
 msgid "Unknown argument \"{}\" for command \"{}\""
-msgstr ""
+msgstr "Ismeretlen „{}” argumentum a(z) „{}” parancshoz"
 
 #: argument_parser.cpp:1118 argument_parser.cpp:1322
 #, c++-format
 msgid "Missing positional argument \"{}\" for command \"{}\""
-msgstr ""
+msgstr "Hiányzó „{}” pozicionális argumentum a(z) „{}” parancshoz"
 
 #: argument_parser.cpp:1525
 #, c++-format
 msgid "Named argument with path id \"{}\" not found"
-msgstr ""
+msgstr "Nem található „{}” útvonal-azonosítójú nevesített argumentum"
 
 #: argument_parser.cpp:1535
 #, c++-format
 msgid "Positional argument with path id \"{}\" not found"
-msgstr ""
+msgstr "Nem található „{}” útvonal-azonosítójú pozicionális argumentum"
 
 #: exception.cpp:30
 msgid "Operation aborted by the user."
-msgstr ""
+msgstr "A műveletet megszakította a felhasználó."
 
 #: exception.cpp:33
 msgid "Failed to resolve the transaction"
-msgstr ""
+msgstr "A tranzakció feloldása sikertelen"
 
 #: output/moduleinfo.cpp:36
 msgid "Hint: [d]efault, [e]nabled, [x]disabled, [i]nstalled, [a]ctive"
 msgstr ""
+"Tipp: [d]alapértelmezett, [e]engedélyezve, [x]letiltva, [i]telepítve, [a]"
+"aktív"
 
 #: output/modulelist.cpp:39
 msgid "Hint: [d]efault, [e]nabled, [x]disabled, [i]nstalled"
-msgstr ""
+msgstr "Tipp: [d]alapértelmezett, [e]engedélyezve, [x]letiltva, [i]telepítve"
 
 #. Note for translators: This is a right-aligned column separator in
 #. a package properties table as in "Name    : bash".
 #: output/packageinfo.cpp:57
 msgid " : "
-msgstr ""
+msgstr " : "
 
 #. Add package
 #: output/packageinfo.cpp:63
 msgid "Name"
-msgstr ""
+msgstr "Név"
 
 #: output/packageinfo.cpp:68
 msgid "Epoch"
-msgstr ""
+msgstr "Epocha"
 
 #: output/packageinfo.cpp:69 output/transaction_table.cpp:274
 msgid "Version"
-msgstr ""
+msgstr "Verzió"
 
 #: output/packageinfo.cpp:70
 msgid "Release"
-msgstr ""
+msgstr "Kiadás"
 
 #: output/packageinfo.cpp:71
 msgid "Architecture"
-msgstr ""
+msgstr "Architektúra"
 
 #: output/packageinfo.cpp:75
 msgid "Obsoletes"
-msgstr ""
+msgstr "Elavulttá teszi:"
 
 #: output/packageinfo.cpp:85
 msgid "Download size"
-msgstr ""
+msgstr "Letöltési méret"
 
 #: output/packageinfo.cpp:89
 msgid "Installed size"
-msgstr ""
+msgstr "Telepítési méret"
 
 #: output/packageinfo.cpp:91
 msgid "Source"
-msgstr ""
+msgstr "Forrás"
 
 #: output/packageinfo.cpp:94
 msgid "From repository"
-msgstr ""
+msgstr "Forrástároló"
 
 #: output/packageinfo.cpp:96 output/transaction_table.cpp:280
 msgid "Repository"
-msgstr ""
+msgstr "Tároló"
 
 #: output/packageinfo.cpp:98
 msgid "Summary"
-msgstr ""
+msgstr "Összegzés"
 
 #: output/packageinfo.cpp:99
 msgid "URL"
-msgstr ""
+msgstr "Webcím"
 
 #: output/packageinfo.cpp:100
 msgid "License"
-msgstr ""
+msgstr "Licenc"
 
 #: output/packageinfo.cpp:104
 msgid "Description"
-msgstr ""
+msgstr "Leírás"
 
 #: output/packageinfo.cpp:109
 msgid "Vendor"
-msgstr ""
+msgstr "Gyártó"
 
 #: output/search.cpp:45
 msgid " (exact)"
-msgstr ""
+msgstr " (pontos)"
 
 #: output/search.cpp:90
 msgid "No matches found."
-msgstr ""
+msgstr "Nincs találat."
 
 #: output/search.cpp:101
 msgid "Matched fields: "
-msgstr ""
+msgstr "Megfelelő mezők: "
 
 #: output/transaction_table.cpp:127
 msgid "Transaction Summary:\n"
-msgstr ""
+msgstr "Tranzakció összegzése:\n"
 
 #: output/transaction_table.cpp:131
 #, c++-format
 msgid " Installing:      {:4} package\n"
 msgid_plural " Installing:      {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " Telepítés:         {:4} csomag\n"
+msgstr[1] " Telepítés:         {:4} csomag\n"
 
 #: output/transaction_table.cpp:138
 #, c++-format
 msgid " Reinstalling:    {:4} package\n"
 msgid_plural " Reinstalling:    {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " Újratelepítés:     {:4} csomag\n"
+msgstr[1] " Újratelepítés:     {:4} csomag\n"
 
 #: output/transaction_table.cpp:145
 #, c++-format
 msgid " Upgrading:       {:4} package\n"
 msgid_plural " Upgrading:       {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " Frissítés:         {:4} csomag\n"
+msgstr[1] " Frissítés:         {:4} csomag\n"
 
 #: output/transaction_table.cpp:152
 #, c++-format
 msgid " Replacing:       {:4} package\n"
 msgid_plural " Replacing:       {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " Csere:             {:4} csomag\n"
+msgstr[1] " Csere:             {:4} csomag\n"
 
 #: output/transaction_table.cpp:159
 #, c++-format
 msgid " Removing:        {:4} package\n"
 msgid_plural " Removing:        {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " Eltávolítás:       {:4} csomag\n"
+msgstr[1] " Eltávolítás:       {:4} csomag\n"
 
 #: output/transaction_table.cpp:166
 #, c++-format
 msgid " Downgrading:     {:4} package\n"
 msgid_plural " Downgrading:     {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " Visszafejlesztés:  {:4} csomag\n"
+msgstr[1] " Visszafejlesztés:  {:4} csomag\n"
 
 #: output/transaction_table.cpp:173
 #, c++-format
 msgid " Changing reason: {:4} package\n"
 msgid_plural " Changing reason: {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " Ok módosítása:     {:4} csomag\n"
+msgstr[1] " Ok módosítása:     {:4} csomag\n"
 
 #: output/transaction_table.cpp:181
 #, c++-format
 msgid " Skipping:        {:4} package\n"
 msgid_plural " Skipping:        {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " Kihagyás:          {:4} csomag\n"
+msgstr[1] " Kihagyás:          {:4} csomag\n"
 
 #: output/transaction_table.cpp:262
 msgid "Package"
-msgstr ""
+msgstr "Csomag"
 
 #: output/transaction_table.cpp:268
 msgid "Arch"
-msgstr ""
+msgstr "Arch."
 
 #: output/transaction_table.cpp:286
 msgid "Size"
-msgstr ""
+msgstr "Méret"
 
 #: output/transaction_table.cpp:342 output/transaction_table.cpp:436
 #, c++-format
 msgid "{} -> {}"
-msgstr ""
+msgstr "{} -> {}"
 
 #: output/transaction_table.cpp:358
 #, c++-format
 msgid "replacing {}"
-msgstr ""
+msgstr "lecseréli: {}"
 
 #: output/transaction_table.cpp:394 output/transaction_table.cpp:411
 msgid " <name-unset>"
@@ -317,112 +328,112 @@ msgstr ""
 
 #: output/transaction_table.cpp:442
 msgid "replacing "
-msgstr ""
+msgstr "lecseréli: "
 
 #: output/transaction_table.cpp:455
 msgid "Skipping packages with conflicts:"
-msgstr ""
+msgstr "Ütköző csomagok kihagyása:"
 
 #: output/transaction_table.cpp:457
 msgid "Skipping packages with broken dependencies:"
-msgstr ""
+msgstr "Hibás függőségekkel rendelkező csomag kihagyása:"
 
 #: output/transaction_table.cpp:518
 msgid "Installing dependencies:"
-msgstr ""
+msgstr "Függőségek telepítése:"
 
 #: output/transaction_table.cpp:520
 msgid "Installing weak dependencies:"
-msgstr ""
+msgstr "Gyenge függőségek telepítése:"
 
 #: output/transaction_table.cpp:522
 msgid "Installing group/module packages:"
-msgstr ""
+msgstr "Csoport- és modulcsomagok telepítése:"
 
 #: output/transaction_table.cpp:524
 msgid "Installing:"
-msgstr ""
+msgstr "Telepítés:"
 
 #: output/transaction_table.cpp:528
 msgid "Upgrading:"
-msgstr ""
+msgstr "Frissítés:"
 
 #: output/transaction_table.cpp:531
 msgid "Downgrading:"
-msgstr ""
+msgstr "Visszafejlesztés:"
 
 #: output/transaction_table.cpp:534
 msgid "Reinstalling:"
-msgstr ""
+msgstr "Újratelepítés:"
 
 #: output/transaction_table.cpp:538
 msgid "Removing dependent packages:"
-msgstr ""
+msgstr "Függő csomagok eltávolítása:"
 
 #: output/transaction_table.cpp:540
 msgid "Removing unused dependencies:"
-msgstr ""
+msgstr "Nem használt függőségek eltávolítása:"
 
 #: output/transaction_table.cpp:542
 msgid "Removing:"
-msgstr ""
+msgstr "Eltávolítás:"
 
 #: output/transaction_table.cpp:546
 msgid "Changing reason:"
-msgstr ""
+msgstr "Ok módosítása:"
 
 #: output/transaction_table.cpp:578
 msgid "Installing groups dependencies:"
-msgstr ""
+msgstr "Csoportfüggőségek telepítése:"
 
 #: output/transaction_table.cpp:580
 msgid "Installing groups:"
-msgstr ""
+msgstr "Csoportok telepítése:"
 
 #: output/transaction_table.cpp:584
 msgid "Removing groups:"
-msgstr ""
+msgstr "Csoportok eltávolítása:"
 
 #: output/transaction_table.cpp:587
 msgid "Upgrading groups:"
-msgstr ""
+msgstr "Csoportok frissítése:"
 
 #: output/transaction_table.cpp:614
 msgid "Installing environmental groups:"
-msgstr ""
+msgstr "Környezeti csoportok telepítése:"
 
 #: output/transaction_table.cpp:617
 msgid "Removing environmental groups:"
-msgstr ""
+msgstr "Környezeti csoportok eltávolítása:"
 
 #: output/transaction_table.cpp:620
 msgid "Upgrading environmental groups:"
-msgstr ""
+msgstr "Környezeti csoportok frissítése:"
 
 #: output/transaction_table.cpp:647
 msgid "Enabling module streams:"
-msgstr ""
+msgstr "Modulforrások engedélyezése:"
 
 #: output/transaction_table.cpp:650
 msgid "Disabling modules:"
-msgstr ""
+msgstr "Modulok letiltása:"
 
 #: output/transaction_table.cpp:653
 msgid "Resetting modules:"
-msgstr ""
+msgstr "Modulok visszaállítása:"
 
 #: output/transaction_table.cpp:656
 msgid "Switching module streams:"
-msgstr ""
+msgstr "Modulforrások váltása:"
 
 #: output/transaction_table.cpp:730
 msgid "Nothing to do."
-msgstr ""
+msgstr "Nincs teendő."
 
 #: progressbar/multi_progress_bar.cpp:36
 msgid "Total"
-msgstr ""
+msgstr "Összesen"
 
 #: session.cpp:149
 msgid "Missing command"
-msgstr ""
+msgstr "Hiányzó parancs"
