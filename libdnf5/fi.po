@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Ricky Tigg <ricky.tigg@gmail.com>, 2024.
+# Ricky Tigg <ricky.tigg@gmail.com>, 2024, 2025.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024.
 # Jiri Grönroos <jiri.gronroos@iki.fi>, 2024.
 # Ville-Pekka Vainio <vpvainio@iki.fi>, 2024.
@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-10 03:14+0000\n"
-"PO-Revision-Date: 2024-12-20 02:09+0000\n"
+"PO-Revision-Date: 2025-01-10 17:01+0000\n"
 "Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/fi/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.9.1\n"
+"X-Generator: Weblate 5.9.2\n"
 
 #: advisory/advisory.cpp:81
 msgid ""
@@ -390,7 +390,7 @@ msgstr "{1}:sta peräisin {0} on arkkitehtuuriltaan huonompi"
 
 #: base/solver_problems.cpp:43
 msgid "problem with installed package"
-msgstr "ongelma tämän asennetun paketin kanssa:"
+msgstr "ongelma asennetun paketin kanssa"
 
 #: base/solver_problems.cpp:44 base/solver_problems.cpp:80
 msgid "conflicting requests"
@@ -971,8 +971,8 @@ msgstr ""
 #: repo/repo.cpp:148
 msgid "Repository \"{}\" has no source (baseurl, mirrorlist or metalink) set."
 msgstr ""
-"Ohjelmistolähteellä \"{}\" ei ole asetettuna lähdettä (perus-URL, "
-"peililuettelo tai metalinkki)."
+"Tiertovarastolla \"{}\" ei ole asetettuna lähdettä (baseurl, peililuettelo "
+"tai metalinkki)."
 
 #: repo/repo.cpp:159
 msgid "Repository \"{}\" has unsupported type \"{}\", skipping."
@@ -1407,7 +1407,7 @@ msgstr ""
 
 #: transaction/transaction_sr.cpp:81
 msgid "Invalid minor version: \"{}\", number expected"
-msgstr "Virheellinen sivuversio: \"{}\", odotettiin numeroa."
+msgstr "Virheellinen sivuversio: \"{}\", odotettiin numeroa"
 
 #: transaction/transaction_sr.cpp:84
 msgid "Missing key \"version\""
