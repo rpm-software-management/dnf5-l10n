@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-03 03:04+0000\n"
+"POT-Creation-Date: 2025-01-10 03:14+0000\n"
 "PO-Revision-Date: 2024-12-30 23:38+0000\n"
 "Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf5/"
@@ -985,31 +985,31 @@ msgstr ""
 msgid "Failed to download packages"
 msgstr "Herunterladen der Pakete fehlgeschlagen"
 
-#: repo/repo.cpp:60
+#: repo/repo.cpp:59
 msgid "Failed to load RPM \"{}\": doesn't have the \".rpm\" extension"
 msgstr ""
 "Laden der RPM \"{}\" fehlgeschlagen: sie hat keine \".rpm\"-Erweiterung"
 
-#: repo/repo.cpp:64
+#: repo/repo.cpp:63
 msgid "Failed to access RPM \"{}\": {}"
 msgstr "Zugriff auf RPM \"{}\" fehlgeschlagen: {}"
 
-#: repo/repo.cpp:106
+#: repo/repo.cpp:105
 msgid "Invalid repository id \"{}\": unexpected character '{}'"
 msgstr "Ungültige Repository-ID \"{}\": unerwartetes Zeichen '{}'"
 
-#: repo/repo.cpp:149
+#: repo/repo.cpp:148
 msgid "Repository \"{}\" has no source (baseurl, mirrorlist or metalink) set."
 msgstr ""
 "Repository \"{}\" hat keine Quelle (baseurl, mirrorlist or metalink) gesetzt."
 
-#: repo/repo.cpp:160
+#: repo/repo.cpp:159
 msgid "Repository \"{}\" has unsupported type \"{}\", skipping."
 msgstr ""
 "Repository \"{}\" hat einen nicht unterstützten Typ \"{}\". Es wird "
 "übersprungen."
 
-#: repo/repo.cpp:408
+#: repo/repo.cpp:410
 msgid ""
 "Failed to load repository: \"primary\" data not present or in unsupported "
 "format"
@@ -1017,16 +1017,16 @@ msgstr ""
 "Fehler beim Laden des Repository: \"primary\"-Daten sind nicht vorhanden "
 "oder in einem nicht unterstützten Format"
 
-#: repo/repo.cpp:467
+#: repo/repo.cpp:476
 msgid "Failed to load comps \"{}\": doesn't have the \".xml\" extension"
 msgstr ""
 "Laden von comps \"{}\" fehlgeschlagen: Es hat keine \".xml\"-Erweiterung"
 
-#: repo/repo.cpp:474
+#: repo/repo.cpp:483
 msgid "Failed to load xml Comps \"{}\": {}"
 msgstr "Laden der XML Comps \"{}\" fehlgeschlagen: {}"
 
-#: repo/repo.cpp:491
+#: repo/repo.cpp:500
 msgid "Failed to load RPM \"{}\": {}"
 msgstr "Laden von RPM \"{}\" fehlgeschlagen: {}"
 
@@ -1063,7 +1063,7 @@ msgstr ""
 msgid "Error loading local metadata for repository \"{}\""
 msgstr "Fehler beim Laden der lokalen Metadaten für Repository \"{}\""
 
-#: repo/repo_downloader.cpp:455
+#: repo/repo_downloader.cpp:474
 msgid ""
 "No valid source (baseurl, mirrorlist or metalink) found for repository \"{}\""
 msgstr ""
@@ -1096,53 +1096,53 @@ msgstr ""
 msgid "Cache-only enabled but no cache for repository \"{}\""
 msgstr "Cache-only ist aktiviert, aber kein Cache für Repository \"{}\""
 
-#: repo/solv_repo.cpp:261
+#: repo/solv_repo.cpp:266
 msgid "Failed to load repomd for repo \"{}\" from \"{}\": {}."
 msgstr "Laden von repomd für Repo \"{}\" aus \"{}\" fehlgeschlagen: {}."
 
-#: repo/solv_repo.cpp:269
+#: repo/solv_repo.cpp:274
 msgid "Failed to load primary for repo \"{}\" from \"{}\": {}."
 msgstr ""
 "Laden des \"primary\" für Repository \"{}\" aus \"{}\" fehlgeschlagen: {}."
 
-#: repo/solv_repo.cpp:316
+#: repo/solv_repo.cpp:322
 msgid "Unsupported extended repodata type for the system repo: \"{}\"."
 msgstr ""
 "Nicht unterstützter erweiterter Repository-Datentyp für das System-"
 "Repository: \"{}\"."
 
-#: repo/solv_repo.cpp:382
+#: repo/solv_repo.cpp:394
 msgid "Failed to load {} extension for repo \"{}\" from \"{}\": {}"
 msgstr ""
 "Laden der {} Erweiterung für Repository \"{}\" aus \"{}\" fehlgeschlagen: {}"
 
-#: repo/solv_repo.cpp:418
+#: repo/solv_repo.cpp:430
 msgid "Failed to load system repo from root \"{}\": {}"
 msgstr "Laden des System-Repository aus der Wurzel \"{}\" fehlgeschlagen: {}"
 
-#: repo/solv_repo.cpp:519
+#: repo/solv_repo.cpp:531
 msgid "Failed to load {} cache for repo \"{}\" from \"{}\": {}"
 msgstr ""
 "Laden des {} Caches für Repository \"{}\" aus \"{}\" fehlgeschlagen: {}"
 
-#: repo/solv_repo.cpp:573
+#: repo/solv_repo.cpp:585
 msgid "Failed to write primary cache for repo \"{}\" to \"{}\": {}"
 msgstr ""
 "Schreiben des primären Caches für Repository \"{}\" aus \"{}\" "
 "fehlgeschlagen: {}"
 
-#: repo/solv_repo.cpp:595
+#: repo/solv_repo.cpp:607
 msgid "Failed to re-load primary cache for repo \"{}\" from \"{}\": {}"
 msgstr ""
 "Erneutes Laden des primären Caches für Repository \"{}\" aus \"{}\" "
 "fehlgeschlagen: {}"
 
-#: repo/solv_repo.cpp:661
+#: repo/solv_repo.cpp:672
 msgid "Failed to write {} cache for repo \"{}\" to \"{}\": {}"
 msgstr ""
 "Schreiben des {} Caches für Repository \"{}\" aus \"{}\" fehlgeschlagen: {}"
 
-#: repo/solv_repo.cpp:682
+#: repo/solv_repo.cpp:693
 msgid "Failed to re-load {} cache for repo \"{}\" from \"{}\": {}"
 msgstr ""
 "Erneutes Laden des {} Caches für Repository \"{}\" aus \"{}\" "
@@ -1635,11 +1635,11 @@ msgid "Missing '=' on line {}"
 msgstr "Fehlendes '=' in Zeile {}"
 
 #. returns localized message, problem with later translation
-#: utils/library.cpp:32
+#: utils/library.cpp:34
 msgid "Cannot load shared library \"{}\": {}"
 msgstr "Shared-Library kann nicht geladen werden \"{}\": {}"
 
-#: utils/library.cpp:47
+#: utils/library.cpp:49
 msgid "Cannot obtain address of symbol \"{}\": {}"
 msgstr "Adresse des Symbols kann nicht abgerufen werden \"{}\": {}"
 

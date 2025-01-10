@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-03 03:04+0000\n"
+"POT-Creation-Date: 2025-01-10 03:14+0000\n"
 "PO-Revision-Date: 2024-09-19 09:54+0000\n"
 "Last-Translator: Aleksey Fedorov <aleksejfedorov963@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -959,29 +959,29 @@ msgstr "Невозможно загрузить пакет \"{0}\", активи
 msgid "Failed to download packages"
 msgstr "Не удалось загрузить пакеты"
 
-#: repo/repo.cpp:60
+#: repo/repo.cpp:59
 msgid "Failed to load RPM \"{}\": doesn't have the \".rpm\" extension"
 msgstr "Не удалось загрузить RPM \"{}\": не имеет расширения \".rpm\""
 
-#: repo/repo.cpp:64
+#: repo/repo.cpp:63
 msgid "Failed to access RPM \"{}\": {}"
 msgstr "Не удалось получить доступ к RPM \"{}\": {}"
 
-#: repo/repo.cpp:106
+#: repo/repo.cpp:105
 msgid "Invalid repository id \"{}\": unexpected character '{}'"
 msgstr "Недопустимый идентификатор репозитория \"{}\": неожиданный символ '{}'"
 
-#: repo/repo.cpp:149
+#: repo/repo.cpp:148
 msgid "Repository \"{}\" has no source (baseurl, mirrorlist or metalink) set."
 msgstr ""
 "У репозитория \"{}\" не установлен источник (baseurl, mirrorlist или "
 "metalink)."
 
-#: repo/repo.cpp:160
+#: repo/repo.cpp:159
 msgid "Repository \"{}\" has unsupported type \"{}\", skipping."
 msgstr "Репозиторий \"{}\" имеет неподдерживаемый тип \"{}\", пропуск."
 
-#: repo/repo.cpp:408
+#: repo/repo.cpp:410
 msgid ""
 "Failed to load repository: \"primary\" data not present or in unsupported "
 "format"
@@ -989,15 +989,15 @@ msgstr ""
 "Не удалось загрузить репозиторий: \"первичные\" данные отсутствуют или имеют "
 "неподдерживаемый формат"
 
-#: repo/repo.cpp:467
+#: repo/repo.cpp:476
 msgid "Failed to load comps \"{}\": doesn't have the \".xml\" extension"
 msgstr "Не удалось загрузить Компы \"{}\": не имеет расширения \".xml\""
 
-#: repo/repo.cpp:474
+#: repo/repo.cpp:483
 msgid "Failed to load xml Comps \"{}\": {}"
 msgstr "Не удалось загрузить xml-компы \"{}\": {}"
 
-#: repo/repo.cpp:491
+#: repo/repo.cpp:500
 msgid "Failed to load RPM \"{}\": {}"
 msgstr "Не удалось загрузить RPM \"{}\": {}"
 
@@ -1031,7 +1031,7 @@ msgstr ""
 msgid "Error loading local metadata for repository \"{}\""
 msgstr "Ошибка при загрузке локальных метаданных для репозитория \"{}\""
 
-#: repo/repo_downloader.cpp:455
+#: repo/repo_downloader.cpp:474
 msgid ""
 "No valid source (baseurl, mirrorlist or metalink) found for repository \"{}\""
 msgstr ""
@@ -1068,48 +1068,48 @@ msgstr ""
 msgid "Cache-only enabled but no cache for repository \"{}\""
 msgstr "Включено только кэширование, но нет кэша для репозитория \"{}\""
 
-#: repo/solv_repo.cpp:261
+#: repo/solv_repo.cpp:266
 msgid "Failed to load repomd for repo \"{}\" from \"{}\": {}."
 msgstr "Не удалось загрузить repomd для репозитория \"{}\" из \"{}\": {}."
 
-#: repo/solv_repo.cpp:269
+#: repo/solv_repo.cpp:274
 msgid "Failed to load primary for repo \"{}\" from \"{}\": {}."
 msgstr ""
 "Не удалось загрузить первичные данные для репозитория \"{}\" из \"{}\": {}."
 
-#: repo/solv_repo.cpp:316
+#: repo/solv_repo.cpp:322
 msgid "Unsupported extended repodata type for the system repo: \"{}\"."
 msgstr ""
 "Неподдерживаемый расширенный тип репо-данных для системного репозитория: "
 "\"{}\"."
 
-#: repo/solv_repo.cpp:382
+#: repo/solv_repo.cpp:394
 msgid "Failed to load {} extension for repo \"{}\" from \"{}\": {}"
 msgstr ""
 "Не удалось загрузить расширение {} для репозитория \"{}\" из \"{}\": {}"
 
-#: repo/solv_repo.cpp:418
+#: repo/solv_repo.cpp:430
 msgid "Failed to load system repo from root \"{}\": {}"
 msgstr "Не удалось загрузить системный репозиторий из корня \"{}\": {}"
 
-#: repo/solv_repo.cpp:519
+#: repo/solv_repo.cpp:531
 msgid "Failed to load {} cache for repo \"{}\" from \"{}\": {}"
 msgstr "Не удалось загрузить кеш {} для репозитория \"{}\" из \"{}\": {}"
 
-#: repo/solv_repo.cpp:573
+#: repo/solv_repo.cpp:585
 msgid "Failed to write primary cache for repo \"{}\" to \"{}\": {}"
 msgstr "Не удалось записать первичный кэш для репозитория \"{}\" в \"{}\": {}"
 
-#: repo/solv_repo.cpp:595
+#: repo/solv_repo.cpp:607
 msgid "Failed to re-load primary cache for repo \"{}\" from \"{}\": {}"
 msgstr ""
 "Не удалось перезагрузить первичный кэш для репозитория \"{}\" из \"{}\": {}"
 
-#: repo/solv_repo.cpp:661
+#: repo/solv_repo.cpp:672
 msgid "Failed to write {} cache for repo \"{}\" to \"{}\": {}"
 msgstr "Не удалось записать кеш {} для репозитория \"{}\" в \"{}\": {}"
 
-#: repo/solv_repo.cpp:682
+#: repo/solv_repo.cpp:693
 msgid "Failed to re-load {} cache for repo \"{}\" from \"{}\": {}"
 msgstr "Не удалось перезагрузить кеш {} для репозитория \"{}\" из \"{}\": {}"
 
@@ -1587,11 +1587,11 @@ msgid "Missing '=' on line {}"
 msgstr "Отсутствует '=' в строке {}"
 
 #. returns localized message, problem with later translation
-#: utils/library.cpp:32
+#: utils/library.cpp:34
 msgid "Cannot load shared library \"{}\": {}"
 msgstr "Невозможно загрузить общую библиотеку \"{}\": {}"
 
-#: utils/library.cpp:47
+#: utils/library.cpp:49
 msgid "Cannot obtain address of symbol \"{}\": {}"
 msgstr "Невозможно получить адрес символа \"{}\": {}"
 
