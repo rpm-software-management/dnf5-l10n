@@ -5,14 +5,14 @@
 # Davide Dallara <ddave090@gmail.com>, 2024.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024.
 # Ruben Roland Fonti <ruben.roland.fonti@ikmail.com>, 2024.
+# Salvatore Cocuzza <info@salvatorecocuzza.it>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-11 03:05+0000\n"
-"PO-Revision-Date: 2024-12-24 12:09+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2025-01-14 02:38+0000\n"
+"Last-Translator: Salvatore Cocuzza <info@salvatorecocuzza.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/it/>\n"
 "Language: it\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.9.1\n"
+"X-Generator: Weblate 5.9.2\n"
 
 #: commands/advisory/advisory.cpp:36
 msgid "Manage advisories"
@@ -146,13 +146,12 @@ msgid "ADVISORY_SEVERITY,..."
 msgstr "GRAVITÁ_AVVISO,..."
 
 #: commands/advisory_shared.hpp:167
-#, fuzzy
 msgid ""
 "Limit to packages in advisories that fix a Bugzilla ID, Eg. 123123. List "
 "option."
 msgstr ""
-"Limita ai pacchetti negli avvisi che hanno un fix in Bugzilla ID, Es. "
-"123123. Opzioni elencate."
+"Limita ai pacchetti negli avvisi che correggono un ID Bugzilla, ad es. "
+"123123. Opzione elenco."
 
 #: commands/advisory_shared.hpp:168
 #, fuzzy
@@ -160,13 +159,12 @@ msgid "BUGZILLA_ID,..."
 msgstr "ID_BUGZILLA,..."
 
 #: commands/advisory_shared.hpp:178
-#, fuzzy
 msgid ""
 "Limit to packages in advisories that fix a CVE (Common Vulnerabilities and "
 "Exposures) ID, Eg. CVE-2201-0123. List option."
 msgstr ""
-"Limita ai pacchetti negli avvisi che riparano un ID CVE (Common "
-"Vulnerabilities and Exposures), Es. CVE-2201-0123. Opzioni elencate."
+"Limite ai pacchetti negli avvisi che fissano un ID CVE (Common "
+"Vulnerabilities and Exposures), ad es. CVE-2201-0123. Opzione elenco."
 
 #: commands/advisory_shared.hpp:180
 #, fuzzy
@@ -184,17 +182,16 @@ msgid "Check for available package upgrades"
 msgstr "Controlla la disponibilità di aggiornamenti per i pacchetti"
 
 #: commands/check-upgrade/check-upgrade.cpp:54
-#, fuzzy
 msgid ""
 "Reports the lowest versions of packages that fix advisories of type bugfix, "
 "enhancement, security, or newpackage. In case that any option limiting "
 "advisories is used it reports the lowest versions of packages that fix "
 "advisories matching selected advisory properties"
 msgstr ""
-"Segnala le versioni minori dei pacchetti che risolvono avvisi di tipo "
+"Segnala le versioni più basse dei pacchetti che risolvono avvisi di tipo "
 "bugfix, miglioramento, sicurezza o nuovo pacchetto. Nel caso in cui venga "
-"utilizzata qualsiasi opzione che limita gli avvisi, segnala le versioni "
-"minori dei pacchetti che risolvono gli avvisi che corrispondono alle "
+"utilizzata qualsiasi opzione che limita gli avvisi, segnala le versioni più "
+"basse dei pacchetti che risolvono gli avvisi che corrispondono alle "
 "proprietà degli avvisi selezionati"
 
 #: commands/check/check.cpp:247
@@ -222,7 +219,6 @@ msgid "Cache directory \"{}\" does not exist. Nothing to clean."
 msgstr "La cartella \"{}\" non esiste. Niente da pulire."
 
 #: commands/clean/clean.cpp:180
-#, fuzzy
 msgid "Cannot iterate cache directory \"{}\": {}"
 msgstr "Impossibile ripetere la directory della cache \"{}\": {}"
 
@@ -242,7 +238,6 @@ msgid "Downgrade software"
 msgstr "Downgrade del software"
 
 #: commands/download/download.cpp:105
-#, fuzzy
 msgid "When running with --url, prints URLs from all available mirrors"
 msgstr ""
 "Quando si esegue con --url, scrive gli URL da tutti i mirror disponibili"
@@ -270,12 +265,10 @@ msgid "Show only installed environments."
 msgstr "Mostra solo gli ambienti installati."
 
 #: commands/environment/arguments.hpp:47
-#, fuzzy
 msgid "Pattern matching environment IDs."
 msgstr "ID dell'ambiente di corrispondenza del modello."
 
 #: commands/environment/environment.cpp:35
-#, fuzzy
 msgid "Manage comps environments"
 msgstr "Gestisce gli ambienti delle composizioni"
 
@@ -292,7 +285,6 @@ msgid "Show only installed groups."
 msgstr "Mostra solo i gruppi installati."
 
 #: commands/group/arguments.hpp:59
-#, fuzzy
 msgid ""
 "Show only groups containing packages with specified names. List option, "
 "supports globs."
@@ -301,7 +293,6 @@ msgstr ""
 "Opzioni elencate, supporta i globs."
 
 #: commands/group/arguments.hpp:67
-#, fuzzy
 msgid "Pattern matching group IDS."
 msgstr "IDS del gruppo di corrispondenza dei modelli."
 
@@ -322,7 +313,6 @@ msgid "Reverse the order of transactions."
 msgstr "Inverte l'ordine delle transazioni."
 
 #: commands/history/arguments.hpp:54
-#, fuzzy
 msgid ""
 "Don't consider mismatches between installed and stored transaction packages "
 "as errors. This can result in an empty transaction because among other "
@@ -333,10 +323,8 @@ msgstr ""
 "tra le altre cose, l'opzione può ignorare le azioni Rimuovi non riuscite."
 
 #: commands/history/arguments.hpp:67
-#, fuzzy
 msgid "Don't consider extra packages pulled into the transaction as errors."
-msgstr ""
-"Non considera pacchetti extra spinti dentro le transazioni come errori."
+msgstr "Non considera pacchetti extra spinti dentro le transazioni come errori."
 
 #: commands/history/history.cpp:41
 msgid "Manage transaction history"
@@ -352,7 +340,6 @@ msgstr ""
 #: commands/history/history_redo.cpp:57
 #: commands/history/history_rollback.cpp:61
 #: commands/history/history_undo.cpp:60
-#, fuzzy
 msgid "Matched more than one transaction ID, exactly one required."
 msgstr ""
 "Più di un ID transazione corrispondente, ne è richiesto esattamente uno."
@@ -367,7 +354,6 @@ msgid "File \"{}\" already exists, it will be overwritten.\n"
 msgstr "Il file \"{}\" esiste già, verra sovrascritto.\n"
 
 #: commands/history/transaction_id.cpp:32
-#, fuzzy
 msgid ""
 "Invalid transaction ID range \"{}\", \"ID\" or \"ID..ID\" expected, where ID "
 "is \"NUMBER\", \"last\" or \"last-NUMBER\"."
@@ -387,7 +373,6 @@ msgstr ""
 "installati"
 
 #: commands/list/list.cpp:44
-#, fuzzy
 msgid "Lists packages depending on the packages' relation to the system"
 msgstr "Elenca i pacchetti in base alla relazione dei pacchetti con il sistema"
 
@@ -418,7 +403,6 @@ msgstr ""
 "disponibili in nessun repository conosciuto."
 
 #: commands/list/list.cpp:84
-#, fuzzy
 msgid ""
 "List packages installed on the system that are obsoleted by packages in any "
 "known repository."
@@ -484,7 +468,6 @@ msgid "Show disabled modules."
 msgstr "Mostra i modili disabilitati."
 
 #: commands/module/arguments.hpp:50
-#, fuzzy
 msgid "Pattern matching module NSVCAs."
 msgstr "NSVCA del modulo di corrispondenza dei modelli."
 
@@ -613,12 +596,10 @@ msgid "Unable to match systemd journal entry."
 msgstr "Impossibile far corrispondere la voce del journal systemd."
 
 #: commands/offline/offline.cpp:640
-#, fuzzy
 msgid "Show logs from past offline transactions"
 msgstr "Mostra i log dalle transazioni offline passate"
 
 #: commands/offline/offline.cpp:648
-#, fuzzy
 msgid ""
 "Which log to show. Run without any arguments to get a list of available logs."
 msgstr ""
@@ -692,7 +673,6 @@ msgid "Show disabled repositories."
 msgstr "Mostra i repository disabilitati."
 
 #: commands/repo/arguments.hpp:56
-#, fuzzy
 msgid "Pattern matching repo IDs."
 msgstr "ID repository corrispondenti al modello."
 
@@ -796,7 +776,6 @@ msgid "Add new entry to versionlock configuration"
 msgstr "Aggunge una nuova entry alla configurazione di versionlock"
 
 #: commands/versionlock/versionlock_add.cpp:43
-#, fuzzy
 msgid "List of package specs to add versionlock for"
 msgstr ""
 "Elenco delle specifiche del pacchetto per cui aggiungere il blocco versione"
@@ -823,7 +802,6 @@ msgid "Remove any matching versionlock configuration entries"
 msgstr "Rimuove eventuali voci di configurazione versionlock corrispondenti"
 
 #: commands/versionlock/versionlock_delete.cpp:41
-#, fuzzy
 msgid "List of package specs to remove versionlock for"
 msgstr "Elenco delle specifiche del pacchetto per cui rimuovere il versionlock"
 
@@ -834,23 +812,26 @@ msgstr "Eliminazione della voce versionlock:"
 #: commands/versionlock/versionlock_exclude.cpp:37
 msgid "Add new exclude entry to versionlock configuration"
 msgstr ""
+"Aggiungi una nuova voce di esclusione alla configurazione del blocco versione"
 
 #: commands/versionlock/versionlock_exclude.cpp:43
 msgid "List of package specs to add versionlock exclude for"
 msgstr ""
+"Elenco delle specifiche del pacchetto per cui aggiungere l'esclusione del "
+"blocco versione"
 
 #: commands/versionlock/versionlock_exclude.cpp:88
 #: commands/versionlock/versionlock_exclude.cpp:100
 msgid "Adding versionlock exclude on \"{0} = {1}\"."
-msgstr ""
+msgstr "Aggiunta dell'esclusione del blocco versione su \"{0} = {1}\"."
 
 #: commands/versionlock/versionlock_exclude.cpp:139
 msgid "Package \"{}\" is already excluded."
-msgstr ""
+msgstr "Il pacchetto \"{}\" è già escluso."
 
 #: context.cpp:73
 msgid "Importing OpenPGP key 0x{}:\n"
-msgstr ""
+msgstr "Importazione della chiave OpenPGP 0x{}:\n"
 
 #: context.cpp:75
 msgid " UserID     : \"{}\"\n"
@@ -861,66 +842,75 @@ msgid ""
 " Fingerprint: {}\n"
 " From       : {}\n"
 msgstr ""
+" Impronta digitale: {}\n"
+" Da       : {}\n"
 
 #: context.cpp:87
 msgid "The key was successfully imported."
-msgstr ""
+msgstr "La chiave è stata importata con successo."
 
 #: context.cpp:262
 msgid "setopt: \"{}.{}\": {}"
-msgstr ""
+msgstr "setopt: \"{}.{}\": {}"
 
 #: context.cpp:268 main.cpp:1317
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: context.cpp:272
 msgid ""
 "No matching repositories for {}. To use repositories from a host system, "
 "pass --use-host-config option"
 msgstr ""
+"Nessun repository corrispondente per {}. Per utilizzare i repository da un "
+"sistema host, passa l'opzione --use-host-config"
 
 #: context.cpp:276
 msgid "No matching repositories for {}"
-msgstr ""
+msgstr "Nessun repository corrispondente per {}"
 
 #: context.cpp:322
 msgid "Updating and loading repositories:"
-msgstr ""
+msgstr "Aggiornamento e caricamento dei repository:"
 
 #: context.cpp:332
 msgid "Repositories loaded."
-msgstr ""
+msgstr "Repository caricati."
 
 #: context.cpp:338
 msgid "Testing offline transaction"
-msgstr ""
+msgstr "Test della transazione offline"
 
 #: context.cpp:342 context.cpp:497
 msgid "Transaction failed: {}"
-msgstr ""
+msgstr "Transazione non riuscita: {}"
 
 #: context.cpp:347 context.cpp:502
 msgid "  - {}"
-msgstr ""
+msgstr "  - {}"
 
 #: context.cpp:414
 msgid ""
 "Location \"{}\" already contains a stored transaction, it will be "
 "overwritten."
 msgstr ""
+"La posizione \"{}\" contiene già una transazione memorizzata, verrà "
+"sovrascritta."
 
 #: context.cpp:443
 msgid ""
 "There is already an offline transaction queued, initiated by the following "
 "command:"
 msgstr ""
+"È già presente una transazione offline in coda, avviata dal seguente comando:"
 
 #: context.cpp:445
 msgid ""
 "Continuing will cancel the old offline transaction and replace it with this "
 "one."
 msgstr ""
+"Continuando si cancellerà la vecchia transazione offline e la si sostituirà "
+"con questa."
 
 #: context.cpp:463
 msgid ""
@@ -928,46 +918,49 @@ msgid ""
 "reboot and run the transaction. To cancel the transaction and delete the "
 "downloaded files, use `dnf5 offline clean`."
 msgstr ""
+"Transazione archiviata per essere eseguita offline. Esegui `dnf5 offline "
+"reboot` per riavviare ed eseguire la transazione. Per annullare la "
+"transazione ed eliminare i file scaricati, utilizzare `dnf5 offline clean`."
 
 #: context.cpp:469
 msgid "Running transaction"
-msgstr ""
+msgstr "Transazione in corso"
 
 #: context.cpp:786
 msgid "Upgrading {}"
-msgstr ""
+msgstr "Aggiornamento di {}"
 
 #: context.cpp:789
 msgid "Downgrading {}"
-msgstr ""
+msgstr "Downgrade di {}"
 
 #: context.cpp:792
 msgid "Reinstalling {}"
-msgstr ""
+msgstr "Reinstallazione di {}"
 
 #: context.cpp:805
 msgid "Unexpected action in TransactionPackage: {}"
-msgstr ""
+msgstr "Azione imprevista in TransactionPackage: {}"
 
 #: context.cpp:811
 msgid "Installing {}"
-msgstr ""
+msgstr "Installazione di {}"
 
 #: context.cpp:832
 msgid "Prepare transaction"
-msgstr ""
+msgstr "Preparare la transazione"
 
 #: context.cpp:852
 msgid "Removing {}"
-msgstr ""
+msgstr "Rimozione di {}"
 
 #: context.cpp:855
 msgid "Cleanup {}"
-msgstr ""
+msgstr "Pulizia {}"
 
 #: context.cpp:873
 msgid "Unpack error: {}"
-msgstr ""
+msgstr "Errore di decompressione: {}"
 
 #: context.cpp:881
 msgid "Cpio error: {}"
@@ -979,55 +972,55 @@ msgstr ""
 
 #: context.cpp:913
 msgid "Running {} scriptlet: {}"
-msgstr ""
+msgstr "Esecuzione di {} scriptlet: {}"
 
 #: context.cpp:928
 msgid "Finished {} scriptlet: {}"
-msgstr ""
+msgstr "Scriptlet {} terminato: {}"
 
 #: context.cpp:934
 msgid "Non-critical error in {} scriptlet: {}"
-msgstr ""
+msgstr "Errore non critico nello scriptlet {}: {}"
 
 #: context.cpp:943
 msgid "Error in {} scriptlet: {}"
-msgstr ""
+msgstr "Errore nello scriptlet {}: {}"
 
 #: context.cpp:973
 msgid "Verify package files"
-msgstr ""
+msgstr "Verificare i file del pacchetto"
 
 #: library.cpp:33
 msgid "Cannot load shared library \"{}\": {}"
-msgstr ""
+msgstr "Impossibile caricare la libreria condivisa \"{}\": {}"
 
 #: library.cpp:48
 msgid "Cannot obtain address of symbol \"{}\": {}"
-msgstr ""
+msgstr "Impossibile ottenere l'indirizzo del simbolo \"{}\": {}"
 
 #: main.cpp:129
 msgid "Utility for packages maintaining"
-msgstr ""
+msgstr "Utilità per la manutenzione dei pacchetti"
 
 #: main.cpp:130
 msgid "DNF5 is a program for maintaining packages."
-msgstr ""
+msgstr "DNF5 è un programma per la manutenzione dei pacchetti."
 
 #: main.cpp:131
 msgid "Unclassified options:"
-msgstr ""
+msgstr "Opzioni non classificate:"
 
 #: main.cpp:134
 msgid "Global options:"
-msgstr ""
+msgstr "Opzioni globali:"
 
 #: main.cpp:139
 msgid "Print help"
-msgstr ""
+msgstr "Stampa aiuto"
 
 #: main.cpp:146
 msgid "Configuration file location"
-msgstr ""
+msgstr "Posizione del file di configurazione"
 
 #: main.cpp:154
 msgid ""
@@ -1035,12 +1028,17 @@ msgid ""
 "content. Suppresses messages notifying about the current state or actions of "
 "dnf5."
 msgstr ""
+"In combinazione con un comando non interattivo, mostra solo il contenuto "
+"rilevante. Sopprime i messaggi di notifica sullo stato corrente o sulle "
+"azioni di dnf5."
 
 #: main.cpp:169
 msgid ""
 "Run entirely from system cache, don't update the cache and use it even in "
 "case it is expired."
 msgstr ""
+"Esegui interamente dalla cache di sistema, non aggiornare la cache e "
+"utilizzala anche nel caso sia scaduta."
 
 #: main.cpp:176
 msgid "Force refreshing metadata before running the command."
