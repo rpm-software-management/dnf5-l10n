@@ -2,13 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Joan Aymà <joan@ayma.cat>, 2024.
+# David Medina <dmedinacpnl@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-15 03:00+0000\n"
-"PO-Revision-Date: 2024-12-24 01:47+0000\n"
-"Last-Translator: Joan Aymà <joan@ayma.cat>\n"
+"PO-Revision-Date: 2025-01-20 09:00+0000\n"
+"Last-Translator: David Medina <dmedinacpnl@gmail.com>\n"
 "Language-Team: Catalan <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ca/>\n"
 "Language: ca\n"
@@ -16,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.9.1\n"
+"X-Generator: Weblate 5.9.2\n"
 
 #: commands/advisory/advisory.cpp:36
 msgid "Manage advisories"
@@ -529,20 +530,24 @@ msgid ""
 "The system will now reboot to perform the offline transaction initiated by "
 "the following command:"
 msgstr ""
+"Ara el sistema es reiniciarà per fer la transacció fora de línia iniciada "
+"per l'ordre següent:"
 
 #: commands/offline/offline.cpp:371
 msgid ""
 "Internal use only, not intended to be run by the user. Execute the "
 "transaction in the offline environment."
 msgstr ""
+"Només per a ús intern, no destinat a ser executat per l'usuari. Executeu la "
+"transacció a l'entorn fora de línia."
 
 #: commands/offline/offline.cpp:398
 msgid "Trigger file does not exist. Exiting."
-msgstr ""
+msgstr "El fitxer activador no existeix. Se'n surt."
 
 #: commands/offline/offline.cpp:402
 msgid "Another offline transaction tool is running. Exiting."
-msgstr ""
+msgstr "S'executa una altra eina de transaccions fora de línia. Se'n surt."
 
 #: commands/offline/offline.cpp:437
 msgid ""
@@ -550,10 +555,13 @@ msgid ""
 "to be run directly by the user. To initiate the system upgrade/offline "
 "transaction, you should run `dnf5 offline reboot`."
 msgstr ""
+"Avís: l'ordre '_execute' només és per a ús intern i no està pensada per ser "
+"executada directament per l'usuari. Per iniciar l'actualització del sistema "
+"o la transacció fora de línia, hauríeu d'executar 'dnf5 offline reboot'."
 
 #: commands/offline/offline.cpp:444
 msgid "Use `dnf5 offline reboot` to begin the transaction."
-msgstr ""
+msgstr "Useu 'dnf5 offline reboot' per començar la transacció."
 
 #: commands/offline/offline.cpp:497
 msgid "Transaction failed: "
