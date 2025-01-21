@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-21 03:00+0000\n"
-"PO-Revision-Date: 2025-01-21 00:50+0000\n"
+"PO-Revision-Date: 2025-01-22 02:50+0000\n"
 "Last-Translator: David Medina <dmedinacpnl@gmail.com>\n"
 "Language-Team: Catalan <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ca/>\n"
@@ -570,93 +570,105 @@ msgstr "Ha fallat la transacció: "
 
 #: commands/offline/offline.cpp:566
 msgid "Error reading journal: {}"
-msgstr ""
+msgstr "Error en llegir el diari: {}"
 
 #: commands/offline/offline.cpp:572
 msgid "Add journal match failed: {}"
-msgstr ""
+msgstr "Ha fallat afegir la coincidència del diari: {}"
 
 #: commands/offline/offline.cpp:600
 msgid "No logs were found."
-msgstr ""
+msgstr "No s'ha trobat cap registre."
 
 #: commands/offline/offline.cpp:604
 msgid "The following boots appear to contain offline transaction logs:"
 msgstr ""
+"Les arrencades següents semblen contenir registres de transaccions fora de "
+"línia:"
 
 #: commands/offline/offline.cpp:621
 msgid "Cannot find logs with this index."
-msgstr ""
+msgstr "No es poden trobar registres amb aquest índex."
 
 #: commands/offline/offline.cpp:628
 msgid "Unable to match systemd journal entry."
-msgstr ""
+msgstr "No es pot fer coincidir l'entrada de diari del sistema."
 
 #: commands/offline/offline.cpp:640
 msgid "Show logs from past offline transactions"
-msgstr ""
+msgstr "Mostra els registres de transaccions fora de línia anteriors"
 
 #: commands/offline/offline.cpp:648
 msgid ""
 "Which log to show. Run without any arguments to get a list of available logs."
 msgstr ""
+"Quin registre mostrar. Executeu-ho sense cap argument per obtenir una llista "
+"dels registres disponibles."
 
 #: commands/offline/offline.cpp:663
 msgid ""
 "systemd is not supported in this build of DNF 5; the `log` subcommand is "
 "unavailable."
 msgstr ""
+"systemd no és compatible amb aquesta compilació de DNF 5; la subordre 'log' "
+"no està disponible."
 
 #: commands/offline/offline.cpp:668
 msgid "Show status of the current offline transaction"
-msgstr ""
+msgstr "Mostra l'estat de la transacció fora de línia actual"
 
 #: commands/offline/offline.cpp:684
 msgid "An offline transaction was initiated by the following command:"
-msgstr ""
+msgstr "S'ha iniciat una transacció fora de línia amb l'ordre següent:"
 
 #: commands/offline/offline.cpp:686
 msgid ""
 "Run `dnf5 offline reboot` to reboot and perform the offline transaction."
 msgstr ""
+"Executeu 'dnf5 offline reboot' per reiniciar i fer la transacció fora de "
+"línia."
 
 #: commands/offline/offline.cpp:688
 msgid ""
 "An offline transaction was started, but it did not finish. Run `dnf5 offline "
 "log` for more information. The command that initiated the transaction was:"
 msgstr ""
+"S'ha iniciat una transacció fora de línia, però no s'ha acabat. Executeu "
+"'dnf5 offline log' per obtenir més informació. L'ordre que ha iniciat la "
+"transacció:"
 
 #: commands/offline/offline.cpp:693
 msgid "Unknown offline transaction status: "
-msgstr ""
+msgstr "Estat desconegut de la transacció fora de línia: "
 
 #: commands/provides/provides.cpp:48
 msgid "Find what package provides the given value"
-msgstr ""
+msgstr "Troba quin paquet proporciona el valor donat"
 
 #: commands/reinstall/reinstall.cpp:40
 msgid "Reinstall software"
-msgstr ""
+msgstr "Reinstal·la programari"
 
 #: commands/remove/remove.cpp:40
 msgid "Remove (uninstall) software"
-msgstr ""
+msgstr "Suprimeix (desinstal·la) programari"
 
 #: commands/replay/replay.cpp:38
 msgid "Replay a transaction that was previously stored to a directory"
 msgstr ""
+"Reprodueix una transacció que s'ha emmagatzemat anteriorment en un directori"
 
 #: commands/repo/arguments.hpp:35
 msgid "Show all repositories."
-msgstr ""
+msgstr "Mostra tots els dipòsits."
 
 #: commands/repo/arguments.hpp:42
 msgid "Show enabled repositories (default)."
-msgstr ""
+msgstr "Mostra els dipòsits activats (per defecte)."
 
 #: commands/repo/arguments.hpp:49
 msgid "Show disabled repositories."
-msgstr ""
+msgstr "Mostra els dipòsits desactivats."
 
 #: commands/repo/arguments.hpp:56
 msgid "Pattern matching repo IDs."
