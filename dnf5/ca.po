@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-22 03:02+0000\n"
-"PO-Revision-Date: 2025-01-22 02:50+0000\n"
+"PO-Revision-Date: 2025-01-22 23:48+0000\n"
 "Last-Translator: David Medina <dmedinacpnl@gmail.com>\n"
 "Language-Team: Catalan <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ca/>\n"
@@ -672,73 +672,80 @@ msgstr "Mostra els dipòsits desactivats."
 
 #: commands/repo/arguments.hpp:56
 msgid "Pattern matching repo IDs."
-msgstr ""
+msgstr "Identificadors de repositoris que coincideixen amb el patró."
 
 #: commands/repo/repo.cpp:38
 msgid "Manage repositories"
-msgstr ""
+msgstr "Gestioneu els dipòsits"
 
 #: commands/repoquery/repoquery.cpp:80
 msgid "Search for packages matching various criteria"
-msgstr ""
+msgstr "Cerca paquets que coincideixen amb diversos criteris"
 
 #: commands/repoquery/repoquery.cpp:516
 msgid ""
 "Option \"--exactdeps\" has to be used either with \"--whatrequires\" or \"--"
 "whatdepends\""
 msgstr ""
+"L'opció \"--exactdeps\" s'ha d'usar amb \"--whatrequires\" o "
+"\"--whatdepends\""
 
 #: commands/repoquery/repoquery.cpp:521
 msgid ""
 "Option \"--recursive\" has to be used either with \"--whatrequires\" or \"--"
 "providers-of=requires\""
 msgstr ""
+"L'opció \"--recursive\" s'ha d'usar amb \"--whatrequires\" o "
+"\"--providers-of=requires\""
 
 #: commands/search/arguments.hpp:37
 msgid "Search also package description and URL."
-msgstr ""
+msgstr "Cerca també la descripció del paquet i l'URL."
 
 #: commands/search/arguments.hpp:45
 msgid "Patterns"
-msgstr ""
+msgstr "Patrons"
 
 #: commands/search/search.cpp:44
 msgid "Search for software matching all specified strings"
-msgstr ""
+msgstr "Cerca programari que coincideixi amb totes les cadenes especificades"
 
 #: commands/swap/swap.cpp:42
 msgid "Remove software and install another in one transaction"
-msgstr ""
+msgstr "Suprimeix programari i n'instal·la un altre en una transacció"
 
 #: commands/system-upgrade/system-upgrade.cpp:54
 msgid "Prepare system for upgrade to a new release"
-msgstr ""
+msgstr "Es prepara el sistema per actualitzar-lo a una versió nova"
 
 #: commands/system-upgrade/system-upgrade.cpp:70
 msgid "Download everything needed to upgrade to a new release"
-msgstr ""
+msgstr "Es baixa tot el necessari per actualitzar a una versió nova"
 
 #: commands/system-upgrade/system-upgrade.cpp:78
 msgid ""
 "Do not install packages from the new release if they are older than what is "
 "currently installed"
 msgstr ""
+"No s'instal·len paquets de la nova versió si són més antics que el que està "
+"instal·lat actualment"
 
 #: commands/system-upgrade/system-upgrade.cpp:97
 msgid "Need a --releasever greater than the current system version."
-msgstr ""
+msgstr "Cal un --releasever superior a la versió actual del sistema."
 
 #: commands/system-upgrade/system-upgrade.cpp:131
 msgid "Store a distro-sync transaction to be performed offline"
 msgstr ""
+"Desa una transacció de sincronització de distribució per fer-la fora de línia"
 
 #: commands/system-upgrade/system-upgrade.cpp:153
 msgid "Store an upgrade transaction to be performed offline"
-msgstr ""
+msgstr "Desa una transacció d'actualització per fer-la fora de línia"
 
 #: commands/upgrade/upgrade.cpp:41
 msgid "Upgrade software"
-msgstr ""
+msgstr "Actualitza el programari"
 
 #: commands/upgrade/upgrade.cpp:48
 msgid ""
@@ -747,143 +754,162 @@ msgid ""
 "limiting advisories is used it upgrades packages only to the lowest versions "
 "that fix advisories that matching selected advisory property"
 msgstr ""
+"Actualitza els paquets només a les versions més baixes que corregeixen "
+"avisos d'errors, que tenen a veure amb millores, seguretat o paquets nous. "
+"En cas que s'usi qualsevol opció que limiti els avisos, actualitza els "
+"paquets només a les versions més baixes que solucionen els avisos que "
+"coincideixen amb la propietat d'assessorament seleccionada"
 
 #. TODO(mblaha): add full command line
 #: commands/versionlock/utils.cpp:35
 msgid "Added by 'versionlock {}' command on {}"
-msgstr ""
+msgstr "Afegit per l'ordre versionlock {} a {}"
 
 #: commands/versionlock/versionlock.cpp:40
 msgid "Manage versionlock configuration"
-msgstr ""
+msgstr "Gestioneu la configuració de blocatge de versions"
 
 #: commands/versionlock/versionlock_add.cpp:37
 msgid "Add new entry to versionlock configuration"
-msgstr ""
+msgstr "Afegeix una entrada nova a la configuració de blocatge de versions"
 
 #: commands/versionlock/versionlock_add.cpp:43
 msgid "List of package specs to add versionlock for"
-msgstr ""
+msgstr "Llista d'especificacions del paquet per afegir al blocatge de versions"
 
 #: commands/versionlock/versionlock_add.cpp:106
 #: commands/versionlock/versionlock_exclude.cpp:125
 msgid "No package found for \"{}\"."
-msgstr ""
+msgstr "No s'ha trobat cap paquet per a \"{}\"."
 
 #: commands/versionlock/versionlock_add.cpp:133
 msgid "Adding versionlock on \"{0} = {1}\"."
-msgstr ""
+msgstr "S'afegeix el blocatge de versió a \"{0} = {1}\"."
 
 #: commands/versionlock/versionlock_add.cpp:136
 msgid "Package \"{}\" is already locked."
-msgstr ""
+msgstr "El paquet {} ja està blocat."
 
 #: commands/versionlock/versionlock_clear.cpp:32
 msgid "Remove all entries from versionlock configuration"
 msgstr ""
+"Suprimeix totes les entrades de la configuració del blocatge de versions"
 
 #: commands/versionlock/versionlock_delete.cpp:35
 msgid "Remove any matching versionlock configuration entries"
 msgstr ""
+"Suprimeix les entrades de configuració coincidents del blocatge de versions"
 
 #: commands/versionlock/versionlock_delete.cpp:41
 msgid "List of package specs to remove versionlock for"
 msgstr ""
+"Llista d'especificacions del paquet per suprimir del blocatge de versions"
 
 #: commands/versionlock/versionlock_delete.cpp:55
 msgid "Deleting versionlock entry:"
-msgstr ""
+msgstr "Se suprimeix l'entrada del blocatge de versions:"
 
 #: commands/versionlock/versionlock_exclude.cpp:37
 msgid "Add new exclude entry to versionlock configuration"
 msgstr ""
+"Afegeix una nova entrada d'exclusió a la configuració del blocatge de "
+"versions"
 
 #: commands/versionlock/versionlock_exclude.cpp:43
 msgid "List of package specs to add versionlock exclude for"
 msgstr ""
+"Llista d'especificacions del paquet per a afegir a l'exclusió de blocatge de "
+"versions"
 
 #: commands/versionlock/versionlock_exclude.cpp:88
 #: commands/versionlock/versionlock_exclude.cpp:100
 msgid "Adding versionlock exclude on \"{0} = {1}\"."
-msgstr ""
+msgstr "S'afegeix l'exclusió de blocatge de versions a {0} = {1}."
 
 #: commands/versionlock/versionlock_exclude.cpp:139
 msgid "Package \"{}\" is already excluded."
-msgstr ""
+msgstr "El paquet {} ja està exclòs."
 
 #: context.cpp:73
 msgid "Importing OpenPGP key 0x{}:\n"
-msgstr ""
+msgstr "S'importa la clau OpenPGP 0x{}:\n"
 
 #: context.cpp:75
 msgid " UserID     : \"{}\"\n"
-msgstr ""
+msgstr " ID d'usuari     : {}\n"
 
 #: context.cpp:78
 msgid ""
 " Fingerprint: {}\n"
 " From       : {}\n"
 msgstr ""
+" Empremta: {}\n"
+" De       : {}\n"
 
 #: context.cpp:87
 msgid "The key was successfully imported."
-msgstr ""
+msgstr "La clau s'ha importat correctament."
 
 #: context.cpp:262
 msgid "setopt: \"{}.{}\": {}"
-msgstr ""
+msgstr "setopt: \"{}.{}\": {}"
 
 #: context.cpp:268 main.cpp:1317
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: context.cpp:272
 msgid ""
 "No matching repositories for {}. To use repositories from a host system, "
 "pass --use-host-config option"
 msgstr ""
+"No hi ha dipòsits coincidents per a {}. Per usar dipòsits d'un sistema "
+"amfitrió, apliqueu l'opció --use-host-config"
 
 #: context.cpp:276
 msgid "No matching repositories for {}"
-msgstr ""
+msgstr "No hi ha dipòsits coincidents per a {}"
 
 #: context.cpp:322
 msgid "Updating and loading repositories:"
-msgstr ""
+msgstr "Actualització i càrrega de dipòsits:"
 
 #: context.cpp:332
 msgid "Repositories loaded."
-msgstr ""
+msgstr "Dipòsits carregats."
 
 #: context.cpp:338
 msgid "Testing offline transaction"
-msgstr ""
+msgstr "Es prova la transacció fora de línia"
 
 #: context.cpp:342 context.cpp:497
 msgid "Transaction failed: {}"
-msgstr ""
+msgstr "Ha fallat la transacció: {}"
 
 #: context.cpp:347 context.cpp:502
 msgid "  - {}"
-msgstr ""
+msgstr "  - {}"
 
 #: context.cpp:414
 msgid ""
 "Location \"{}\" already contains a stored transaction, it will be "
 "overwritten."
-msgstr ""
+msgstr "La ubicació {} ja conté una transacció desada. Se sobreescriurà."
 
 #: context.cpp:443
 msgid ""
 "There is already an offline transaction queued, initiated by the following "
 "command:"
 msgstr ""
+"Ja hi ha una transacció fora de línia a la cua, iniciada per l'ordre següent:"
 
 #: context.cpp:445
 msgid ""
 "Continuing will cancel the old offline transaction and replace it with this "
 "one."
 msgstr ""
+"Si continueu, es cancel·larà transacció anterior fora de línia i la "
+"substituirà per aquesta."
 
 #: context.cpp:463
 msgid ""
@@ -891,106 +917,109 @@ msgid ""
 "reboot and run the transaction. To cancel the transaction and delete the "
 "downloaded files, use `dnf5 offline clean`."
 msgstr ""
+"Transacció desada per fer-la fora de línia. Executeu 'dnf5 offline reboot' "
+"per reiniciar i executar la transacció. Per cancel·lar la transacció i "
+"suprimir els fitxers baixats, useu 'dnf5 offline clean'."
 
 #: context.cpp:469
 msgid "Running transaction"
-msgstr ""
+msgstr "S'executa la transacció"
 
 #: context.cpp:786
 msgid "Upgrading {}"
-msgstr ""
+msgstr "S'actualitza {}"
 
 #: context.cpp:789
 msgid "Downgrading {}"
-msgstr ""
+msgstr "Es degrada {}"
 
 #: context.cpp:792
 msgid "Reinstalling {}"
-msgstr ""
+msgstr "Es reinstal·la {}"
 
 #: context.cpp:805
 msgid "Unexpected action in TransactionPackage: {}"
-msgstr ""
+msgstr "Acció inesperada a TransactionPackage: {}"
 
 #: context.cpp:811
 msgid "Installing {}"
-msgstr ""
+msgstr "S'instal·la {}"
 
 #: context.cpp:832
 msgid "Prepare transaction"
-msgstr ""
+msgstr "Es prepara la transacció"
 
 #: context.cpp:852
 msgid "Removing {}"
-msgstr ""
+msgstr "Se suprimeix {}"
 
 #: context.cpp:855
 msgid "Cleanup {}"
-msgstr ""
+msgstr "Es neteja {}"
 
 #: context.cpp:873
 msgid "Unpack error: {}"
-msgstr ""
+msgstr "Error de desempaquetat: {}"
 
 #: context.cpp:881
 msgid "Cpio error: {}"
-msgstr ""
+msgstr "Error de Cpio: {}"
 
 #: context.cpp:891
 msgid "Scriptlet output:"
-msgstr ""
+msgstr "Sortida de l'scriptlet:"
 
 #: context.cpp:913
 msgid "Running {} scriptlet: {}"
-msgstr ""
+msgstr "S'executa l'scriptlet de {}: {}"
 
 #: context.cpp:928
 msgid "Finished {} scriptlet: {}"
-msgstr ""
+msgstr "S'ha acabat l'scriptlet de {} : {}"
 
 #: context.cpp:934
 msgid "Non-critical error in {} scriptlet: {}"
-msgstr ""
+msgstr "Error no crític a l'scriptlet de {} : {}"
 
 #: context.cpp:943
 msgid "Error in {} scriptlet: {}"
-msgstr ""
+msgstr "Error a l'scriptlet de {}: {}"
 
 #: context.cpp:973
 msgid "Verify package files"
-msgstr ""
+msgstr "Verificació dels fitxers dels paquets"
 
 #: library.cpp:33
 msgid "Cannot load shared library \"{}\": {}"
-msgstr ""
+msgstr "No es pot carregar la biblioteca compartida {}: {}"
 
 #: library.cpp:48
 msgid "Cannot obtain address of symbol \"{}\": {}"
-msgstr ""
+msgstr "No es pot obtenir l'adreça del símbol {}: {}"
 
 #: main.cpp:129
 msgid "Utility for packages maintaining"
-msgstr ""
+msgstr "Utilitat per al manteniment de paquets"
 
 #: main.cpp:130
 msgid "DNF5 is a program for maintaining packages."
-msgstr ""
+msgstr "DNF5 és un programa per a mantenir paquets."
 
 #: main.cpp:131
 msgid "Unclassified options:"
-msgstr ""
+msgstr "Opcions no classificades:"
 
 #: main.cpp:134
 msgid "Global options:"
-msgstr ""
+msgstr "Opcions globals:"
 
 #: main.cpp:139
 msgid "Print help"
-msgstr ""
+msgstr "Imprimeix l'ajuda"
 
 #: main.cpp:146
 msgid "Configuration file location"
-msgstr ""
+msgstr "Ubicació del fitxer de configuració"
 
 #: main.cpp:154
 msgid ""
@@ -998,6 +1027,9 @@ msgid ""
 "content. Suppresses messages notifying about the current state or actions of "
 "dnf5."
 msgstr ""
+"En combinació amb una ordre no interactiva, només mostra el contingut "
+"rellevant. Suprimeix els missatges que notifiquin sobre l'estat actual o les "
+"accions del dnf5."
 
 #: main.cpp:169
 msgid ""
@@ -1009,15 +1041,15 @@ msgstr ""
 
 #: main.cpp:176
 msgid "Force refreshing metadata before running the command."
-msgstr ""
+msgstr "Força l'actualització de metadades abans d'executar l'ordre."
 
 #: main.cpp:192
 msgid "Failed to expire repository cache in path \"{0}\": {1}"
-msgstr ""
+msgstr "No s'ha pogut fer caducar la memòria cau del dipòsit al camí {0}: {1}"
 
 #: main.cpp:206
 msgid "create additional repository using id and path"
-msgstr ""
+msgstr "crea un repositori addicional amb id i camí"
 
 #: main.cpp:214
 msgid "repofrompath: Incorrect repoid and path specification \"{}\""
