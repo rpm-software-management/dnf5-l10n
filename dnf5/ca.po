@@ -9,9 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-23 03:00+0000\n"
-"PO-Revision-Date: 2025-01-23 08:17+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2025-01-23 10:41+0000\n"
+"Last-Translator: David Medina <dmedinacpnl@gmail.com>\n"
 "Language-Team: Catalan <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ca/>\n"
 "Language: ca\n"
@@ -1075,7 +1074,7 @@ msgstr "reporompath: repoid i especificació del camí incorrectes: {}"
 
 #: main.cpp:226
 msgid "set arbitrary config and repo options"
-msgstr "estableix opcions arbitràries «config» i «repo»"
+msgstr "estableix les opcions arbitràries «config» i «repo»"
 
 #: main.cpp:228
 msgid ""
@@ -1087,79 +1086,97 @@ msgid ""
 "              they do not override it. However, specifying an empty value (e."
 "g. --setopt=tsflags=) will clear the option."
 msgstr ""
+"Substitueix una opció de configuració del fitxer de configuració. Per anul·"
+"lar les opcions de configuració dels dipòsits, useu repoid.option:\n"
+"              <opció>.  Els valors d'opcions de configuració com ara "
+"excludepkgs, includepkgs, installonlypkgs i tsflags s'afegeixen al valor "
+"original.\n"
+"              no l'anul·len. Tanmateix, si s'especifica un valor buit (per "
+"exemple, --setopt=tsflags=) s'esborrarà l'opció."
 
 #: main.cpp:237 main.cpp:276
 msgid "{}: Badly formatted argument value \"{}\""
-msgstr ""
+msgstr "{}: valor de l'argument '{}' mal format"
 
 #: main.cpp:244
 msgid ""
 "{}: Badly formatted argument value: Last key character cannot be '.': {}"
 msgstr ""
+"{}: valor de l'argument mal format: l'últim caràcter clau no pot ser '.': {}"
 
 #: main.cpp:257
 msgid "setopt: \"{0}\": {1}"
-msgstr ""
+msgstr "setopt: '{0}': {1}"
 
 #: main.cpp:269
 msgid "set arbitrary variable"
-msgstr ""
+msgstr "estableix una variable arbitrària"
 
 #: main.cpp:283
 msgid "setvar: {}"
-msgstr ""
+msgstr "setvar: {}"
 
 #: main.cpp:292
 msgid "automatically answer yes for all questions"
-msgstr ""
+msgstr "respon automàticament SÍ a totes les preguntes"
 
 #: main.cpp:299
 msgid "automatically answer no for all questions"
-msgstr ""
+msgstr "respon automàticament NO a totes les preguntes"
 
 #: main.cpp:306
 msgid "try the best available package versions in transactions"
-msgstr ""
+msgstr "prova les millors versions dels paquets disponibles a les transaccions"
 
 #: main.cpp:313
 msgid "do not limit the transaction to the best candidate"
-msgstr ""
+msgstr "no limitis la transacció al millor candidat"
 
 #: main.cpp:324
 msgid ""
 "Don't install files that are marked as documentation (which includes man "
 "pages and texinfo documents)"
 msgstr ""
+"No instal·lis fitxers marcats com a documentació (que inclou pàgines man i "
+"documents texinfo)"
 
 #: main.cpp:340
 msgid "exclude packages by name or glob"
-msgstr ""
+msgstr "exclou paquets per nom o glob"
 
 #: main.cpp:359
 msgid ""
 "Enable additional repositories. List option. Supports globs, can be "
 "specified multiple times."
 msgstr ""
+"Habilita dipòsits addicionals. Té opció de llista. Admet globs, es pot "
+"especificar diverses vegades."
 
 #: main.cpp:377
 msgid ""
 "Disable repositories. List option. Supports globs, can be specified multiple "
 "times."
 msgstr ""
+"Inhabilita dipòsits addicionals. Té opció de llista. Admet globs, es pot "
+"especificar diverses vegades."
 
 #: main.cpp:395
 msgid ""
 "Enable just specific repositories. List option. Supports globs, can be "
 "specified multiple times."
 msgstr ""
+"Habilita només dipòsits específics. Té opció de llista. Admet globs, es pot "
+"especificar diverses vegades."
 
 #: main.cpp:417
 msgid "disable OpenPGP signature checking (if RPM policy allows)"
 msgstr ""
+"inhabilita la comprovació de signatura OpenPGP (si la política d'RPM ho "
+"permet)"
 
 #: main.cpp:433
 msgid "Disable all libdnf5 plugins"
-msgstr ""
+msgstr "Inhabilita tots els connectors de libdnf5"
 
 #: main.cpp:443
 msgid ""
@@ -1261,51 +1278,59 @@ msgid ""
 "\n"
 "Loaded {} plugins:"
 msgstr ""
+"\n"
+"S'han carregat {} connectors:"
 
 #: main.cpp:767
 msgid "  name: {}"
-msgstr ""
+msgstr "  nom: {}"
 
 #: main.cpp:770
 msgid "  version: {}.{}.{}"
-msgstr ""
+msgstr "  versió: {}.{}.{}"
 
 #: main.cpp:772
 msgid "  API version: {}.{}"
-msgstr ""
+msgstr "  Versió de l'API: {}.{}"
 
 #: main.cpp:810
 msgid ""
 "Total size of inbound packages is {:.0f} {:s}. Need to download {:.0f} {:s}."
 msgstr ""
+"La mida total dels paquets entrants és {:.0f} {:s}. Cal baixar {:.0f} {:s}."
 
 #: main.cpp:827
 msgid ""
 "After this operation, {:.0f} {:s} extra will be used (install {:.0f} {:s}, "
 "remove {:.0f} {:s})."
 msgstr ""
+"Després d'aquesta operació, s'usaran {:.0f} {:s} addicionals ({:.0f} "
+"d'instal·lació {:s}, {:.0f} {:s} de supressió)."
 
 #: main.cpp:838
 msgid ""
 "After this operation, {:.0f} {:s} will be freed (install {:.0f} {:s}, remove "
 "{:.0f} {:s})."
 msgstr ""
+"Després d'aquesta operació, s'alliberaran {:.0f} {:s} ({:.0f} d'instal·lació "
+"{:s}, {:.0f} {:s} de supressió)."
 
 #: main.cpp:850
 msgid "======== Main configuration: ========"
-msgstr ""
+msgstr "======== Configuració principal: ========"
 
 #: main.cpp:887
 msgid "No matching repo to dump configuration: \"{}\""
 msgstr ""
+"No hi ha cap dipòsit que coincideixi amb la configuració d'abocament: {}"
 
 #: main.cpp:892
 msgid "======== \"{}\" repository configuration: ========"
-msgstr ""
+msgstr "======== Configuració del dipòsit {}: ========"
 
 #: main.cpp:912
 msgid "======== Variables: ========"
-msgstr ""
+msgstr "======== Variables: ========"
 
 #: main.cpp:952
 msgid "New leaves:"
