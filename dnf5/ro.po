@@ -1,13 +1,13 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>, 2024.
+# Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>, 2024, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-23 03:00+0000\n"
-"PO-Revision-Date: 2024-12-12 03:38+0000\n"
+"PO-Revision-Date: 2025-01-24 15:06+0000\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ro/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
-"X-Generator: Weblate 5.8.4\n"
+"X-Generator: Weblate 5.9.2\n"
 
 #: commands/advisory/advisory.cpp:36
 msgid "Manage advisories"
@@ -281,7 +281,7 @@ msgid ""
 "supports globs."
 msgstr ""
 "Afișează numai grupurile care conțin pachete cu numele specificate. Opțiune "
-"listă, acceptă caractere jokers."
+"listă, acceptă caractere joker."
 
 #: commands/group/arguments.hpp:67
 msgid "Pattern matching group IDS."
@@ -319,16 +319,12 @@ msgstr ""
 "Nu consideră pachetele suplimentare introduse în tranzacție drept erori."
 
 #: commands/history/arguments.hpp:80
-#, fuzzy
-#| msgid ""
-#| "Show only groups containing packages with specified names. List option, "
-#| "supports globs."
 msgid ""
 "Show only transactions containing packages with specified names. List "
 "option, supports globs."
 msgstr ""
-"Afișează numai grupurile care conțin pachete cu numele specificate. Opțiune "
-"listă, acceptă caractere jokers."
+"Afișează numai tranzacțiile care conțin pachete cu numele "
+"specificate.Opțiune listă, acceptă caractere joker."
 
 #: commands/history/history.cpp:41
 msgid "Manage transaction history"
@@ -339,6 +335,9 @@ msgid ""
 "No match found, history info defaults to considering only the last "
 "transaction, specify \"1..last\" range to search all transactions."
 msgstr ""
+"Nu s-a găsit nicio potrivire, în mod implicit, informațiile despre istoric "
+"iau în considerare doar ultima tranzacție, specificați intervalul „1..last” "
+"pentru a căuta toate tranzacțiile."
 
 #: commands/history/history_redo.cpp:53
 #: commands/history/history_rollback.cpp:57
