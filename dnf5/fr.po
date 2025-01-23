@@ -5,13 +5,13 @@
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024.
 # Léane GRASSER <pierre.grasser@proton.me>, 2024.
 # Antoine BACK <antoine.back@hotmail.fr>, 2024.
-# Léane GRASSER <leane.grasser@proton.me>, 2024.
+# Léane GRASSER <leane.grasser@proton.me>, 2024, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-23 03:00+0000\n"
-"PO-Revision-Date: 2024-12-09 18:58+0000\n"
+"PO-Revision-Date: 2025-01-23 10:41+0000\n"
 "Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/fr/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.8.4\n"
+"X-Generator: Weblate 5.9.2\n"
 
 #: commands/advisory/advisory.cpp:36
 msgid "Manage advisories"
@@ -334,16 +334,12 @@ msgstr ""
 "des erreurs."
 
 #: commands/history/arguments.hpp:80
-#, fuzzy
-#| msgid ""
-#| "Show only groups containing packages with specified names. List option, "
-#| "supports globs."
 msgid ""
 "Show only transactions containing packages with specified names. List "
 "option, supports globs."
 msgstr ""
-"Afficher uniquement les groupes qui contiennent les paquets correspondant "
-"aux noms spécifiés. Option liste, prend en charge les globs."
+"Afficher uniquement les transactions qui contiennent les paquets "
+"correspondant aux noms spécifiés. Option liste, prend en charge les globs."
 
 #: commands/history/history.cpp:41
 msgid "Manage transaction history"
@@ -354,6 +350,9 @@ msgid ""
 "No match found, history info defaults to considering only the last "
 "transaction, specify \"1..last\" range to search all transactions."
 msgstr ""
+"Aucun résultat. Par défaut, history info recherche uniquement dans la "
+"dernière transaction ; spécifiez un intervalle au format \"1..fin\" pour "
+"rechercher dans toutes les transactions."
 
 #: commands/history/history_redo.cpp:53
 #: commands/history/history_rollback.cpp:57
