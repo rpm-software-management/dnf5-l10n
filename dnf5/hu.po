@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-22 03:02+0000\n"
+"POT-Creation-Date: 2025-01-23 03:00+0000\n"
 "PO-Revision-Date: 2024-12-18 01:19+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -86,7 +86,7 @@ msgstr ""
 "Csak a megadott nevű csomagokat tartalmazó tájékoztatók megjelenítése. "
 "Felsorolás, támogatja a helyettesítő karaktereket."
 
-#: commands/advisory/arguments.hpp:83
+#: commands/advisory/arguments.hpp:83 commands/history/arguments.hpp:81
 msgid "PACKAGE_NAME,..."
 msgstr "CSOMAGNÉV,…"
 
@@ -315,9 +315,27 @@ msgstr ""
 msgid "Don't consider extra packages pulled into the transaction as errors."
 msgstr "Ne tekintse hibának a tranzakciókba húzott extra csomagokat."
 
+#: commands/history/arguments.hpp:80
+#, fuzzy
+#| msgid ""
+#| "Show only groups containing packages with specified names. List option, "
+#| "supports globs."
+msgid ""
+"Show only transactions containing packages with specified names. List "
+"option, supports globs."
+msgstr ""
+"Csak a megadott nevű csomagokat tartalmazó csoportok megjelenítése. "
+"Felsorolás, támogatja a helyettesítő karaktereket."
+
 #: commands/history/history.cpp:41
 msgid "Manage transaction history"
 msgstr "Tranzakcióelőzmények kezelése"
+
+#: commands/history/history_info.cpp:70
+msgid ""
+"No match found, history info defaults to considering only the last "
+"transaction, specify \"1..last\" range to search all transactions."
+msgstr ""
 
 #: commands/history/history_redo.cpp:53
 #: commands/history/history_rollback.cpp:57

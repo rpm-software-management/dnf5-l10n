@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-22 03:02+0000\n"
+"POT-Creation-Date: 2025-01-23 03:00+0000\n"
 "PO-Revision-Date: 2024-12-20 02:09+0000\n"
 "Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -90,7 +90,7 @@ msgstr ""
 "Näytä vain neuvoja, jotka sisältävät paketteja tietyillä nimillä. "
 "Luettelovaihtoehto, tukee laajamittaisia."
 
-#: commands/advisory/arguments.hpp:83
+#: commands/advisory/arguments.hpp:83 commands/history/arguments.hpp:81
 msgid "PACKAGE_NAME,..."
 msgstr "PAKETIN_NIMI,..."
 
@@ -326,9 +326,27 @@ msgstr ""
 msgid "Don't consider extra packages pulled into the transaction as errors."
 msgstr "Älä pidä transaktioon vedettyjä ylimääräisiä paketteja virheinä."
 
+#: commands/history/arguments.hpp:80
+#, fuzzy
+#| msgid ""
+#| "Show only groups containing packages with specified names. List option, "
+#| "supports globs."
+msgid ""
+"Show only transactions containing packages with specified names. List "
+"option, supports globs."
+msgstr ""
+"Näytä vain ryhmät, jotka sisältävät paketteja tietyillä nimillä. "
+"Luettelovaihtoehto, tukee laajamittaisia."
+
 #: commands/history/history.cpp:41
 msgid "Manage transaction history"
 msgstr "Hallitse transaktiohistoriaa"
+
+#: commands/history/history_info.cpp:70
+msgid ""
+"No match found, history info defaults to considering only the last "
+"transaction, specify \"1..last\" range to search all transactions."
+msgstr ""
 
 #: commands/history/history_redo.cpp:53
 #: commands/history/history_rollback.cpp:57

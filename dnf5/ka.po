@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-22 03:02+0000\n"
+"POT-Creation-Date: 2025-01-23 03:00+0000\n"
 "PO-Revision-Date: 2024-12-09 22:53+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -87,7 +87,7 @@ msgstr ""
 "მხოლოდ იმ რეკომენდაციების ჩვენება, რომლებიც შეიცავენ პაკეტებს, რომლებსაც "
 "აქვთ შესაბამისის სახელები. სიის პარამეტრი. აქვს გლობების მხარდაჭერა."
 
-#: commands/advisory/arguments.hpp:83
+#: commands/advisory/arguments.hpp:83 commands/history/arguments.hpp:81
 msgid "PACKAGE_NAME,..."
 msgstr "პაკეტის_სახელი,..."
 
@@ -323,9 +323,27 @@ msgstr ""
 msgid "Don't consider extra packages pulled into the transaction as errors."
 msgstr "ტრანზაქციაში შეტანილი დამატებითი პაკეტები შეცდომად აღქმული არ იქნება."
 
+#: commands/history/arguments.hpp:80
+#, fuzzy
+#| msgid ""
+#| "Show only groups containing packages with specified names. List option, "
+#| "supports globs."
+msgid ""
+"Show only transactions containing packages with specified names. List "
+"option, supports globs."
+msgstr ""
+"მხოლოდ იმ ჯგუფების ჩვენება, რომლებიც შეიცავენ პაკეტებს, რომლებსაც აქვთ "
+"შესაბამისის სახელები. სიის პარამეტრი. აქვს გლობების მხარდაჭერა."
+
 #: commands/history/history.cpp:41
 msgid "Manage transaction history"
 msgstr "ტრანზაქციების ისტორიის მართვა"
+
+#: commands/history/history_info.cpp:70
+msgid ""
+"No match found, history info defaults to considering only the last "
+"transaction, specify \"1..last\" range to search all transactions."
+msgstr ""
 
 #: commands/history/history_redo.cpp:53
 #: commands/history/history_rollback.cpp:57

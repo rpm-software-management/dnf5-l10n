@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-22 03:02+0000\n"
+"POT-Creation-Date: 2025-01-23 03:00+0000\n"
 "PO-Revision-Date: 2025-01-22 23:48+0000\n"
 "Last-Translator: David Medina <dmedinacpnl@gmail.com>\n"
 "Language-Team: Catalan <https://translate.fedoraproject.org/projects/dnf5/"
@@ -88,7 +88,7 @@ msgstr ""
 "Mostra solament els avisos que inclouen paquets amb noms específics. Opció "
 "de tipus llista, que suporta expressions globals."
 
-#: commands/advisory/arguments.hpp:83
+#: commands/advisory/arguments.hpp:83 commands/history/arguments.hpp:81
 msgid "PACKAGE_NAME,..."
 msgstr "NOM_DE_PAQUET,..."
 
@@ -323,9 +323,27 @@ msgstr ""
 msgid "Don't consider extra packages pulled into the transaction as errors."
 msgstr "No consideris com errors els paquets extra inclosos a la transacció."
 
+#: commands/history/arguments.hpp:80
+#, fuzzy
+#| msgid ""
+#| "Show only groups containing packages with specified names. List option, "
+#| "supports globs."
+msgid ""
+"Show only transactions containing packages with specified names. List "
+"option, supports globs."
+msgstr ""
+"Mostra sols els grups que contenen paquets amb els noms especificats. Opció "
+"tipus llista, suporta globs."
+
 #: commands/history/history.cpp:41
 msgid "Manage transaction history"
 msgstr "Gestiona l'historial de transaccions"
+
+#: commands/history/history_info.cpp:70
+msgid ""
+"No match found, history info defaults to considering only the last "
+"transaction, specify \"1..last\" range to search all transactions."
+msgstr ""
 
 #: commands/history/history_redo.cpp:53
 #: commands/history/history_rollback.cpp:57
@@ -687,16 +705,16 @@ msgid ""
 "Option \"--exactdeps\" has to be used either with \"--whatrequires\" or \"--"
 "whatdepends\""
 msgstr ""
-"L'opció \"--exactdeps\" s'ha d'usar amb \"--whatrequires\" o "
-"\"--whatdepends\""
+"L'opció \"--exactdeps\" s'ha d'usar amb \"--whatrequires\" o \"--"
+"whatdepends\""
 
 #: commands/repoquery/repoquery.cpp:521
 msgid ""
 "Option \"--recursive\" has to be used either with \"--whatrequires\" or \"--"
 "providers-of=requires\""
 msgstr ""
-"L'opció \"--recursive\" s'ha d'usar amb \"--whatrequires\" o "
-"\"--providers-of=requires\""
+"L'opció \"--recursive\" s'ha d'usar amb \"--whatrequires\" o \"--providers-"
+"of=requires\""
 
 #: commands/search/arguments.hpp:37
 msgid "Search also package description and URL."
