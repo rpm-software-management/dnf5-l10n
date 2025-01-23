@@ -2,14 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Sabri Ünal <libreajans@gmail.com>, 2024.
-# Oğuz Ersen <oguz@ersen.moe>, 2024.
+# Oğuz Ersen <oguz@ersen.moe>, 2024, 2025.
 # Ali Azbay <aliyapkod@gmail.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-23 03:00+0000\n"
-"PO-Revision-Date: 2024-12-09 18:58+0000\n"
+"PO-Revision-Date: 2025-01-23 08:17+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/tr/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.8.4\n"
+"X-Generator: Weblate 5.9.2\n"
 
 #: commands/advisory/advisory.cpp:36
 msgid "Manage advisories"
@@ -314,15 +314,11 @@ msgid "Don't consider extra packages pulled into the transaction as errors."
 msgstr "İşleme dahil edilen ek paketleri hata olarak değerlendirme."
 
 #: commands/history/arguments.hpp:80
-#, fuzzy
-#| msgid ""
-#| "Show only groups containing packages with specified names. List option, "
-#| "supports globs."
 msgid ""
 "Show only transactions containing packages with specified names. List "
 "option, supports globs."
 msgstr ""
-"Yalnızca belirtilen adlara sahip paketleri içeren grupları göster. Liste "
+"Yalnızca belirtilen adlara sahip paketleri içeren işlemleri göster. Liste "
 "seçeneği, globları destekler."
 
 #: commands/history/history.cpp:41
@@ -334,6 +330,8 @@ msgid ""
 "No match found, history info defaults to considering only the last "
 "transaction, specify \"1..last\" range to search all transactions."
 msgstr ""
+"Eşleşme bulunamadı, geçmiş bilgisi öntanımlı olarak yalnızca son işlemi "
+"dikkate alır, tüm işlemleri aramak için \"1..last\" aralığını belirtin."
 
 #: commands/history/history_redo.cpp:53
 #: commands/history/history_rollback.cpp:57
