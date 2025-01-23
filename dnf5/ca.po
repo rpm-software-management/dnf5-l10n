@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-23 03:00+0000\n"
-"PO-Revision-Date: 2025-01-22 23:48+0000\n"
+"PO-Revision-Date: 2025-01-23 08:17+0000\n"
 "Last-Translator: David Medina <dmedinacpnl@gmail.com>\n"
 "Language-Team: Catalan <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ca/>\n"
@@ -324,16 +324,12 @@ msgid "Don't consider extra packages pulled into the transaction as errors."
 msgstr "No consideris com errors els paquets extra inclosos a la transacció."
 
 #: commands/history/arguments.hpp:80
-#, fuzzy
-#| msgid ""
-#| "Show only groups containing packages with specified names. List option, "
-#| "supports globs."
 msgid ""
 "Show only transactions containing packages with specified names. List "
 "option, supports globs."
 msgstr ""
-"Mostra sols els grups que contenen paquets amb els noms especificats. Opció "
-"tipus llista, suporta globs."
+"Mostra només les transaccions que contenen paquets amb noms especificats. Té "
+"opció de llista, admet globs."
 
 #: commands/history/history.cpp:41
 msgid "Manage transaction history"
@@ -344,6 +340,9 @@ msgid ""
 "No match found, history info defaults to considering only the last "
 "transaction, specify \"1..last\" range to search all transactions."
 msgstr ""
+"No s'ha trobat cap coincidència, la informació de l'historial només té en "
+"compte l'última transacció, especifiqueu l'interval \"1..últim\" per cercar "
+"totes les transaccions."
 
 #: commands/history/history_redo.cpp:53
 #: commands/history/history_rollback.cpp:57
@@ -1071,7 +1070,7 @@ msgstr "crea un repositori addicional amb id i camí"
 
 #: main.cpp:214
 msgid "repofrompath: Incorrect repoid and path specification \"{}\""
-msgstr ""
+msgstr "reporompath: repoid i especificació del camí incorrectes: {}"
 
 #: main.cpp:226
 msgid "set arbitrary config and repo options"
