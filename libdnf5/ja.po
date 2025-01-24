@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Gnuey56 <gnuey56@proton.me>, 2024.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024.
-# Inci sakura <incisakura@icloud.com>, 2024.
+# Inci sakura <incisakura@icloud.com>, 2024, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-23 03:00+0000\n"
-"PO-Revision-Date: 2024-11-05 08:02+0000\n"
+"PO-Revision-Date: 2025-01-25 03:44+0000\n"
 "Last-Translator: Inci sakura <incisakura@icloud.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/ja/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.8.2\n"
+"X-Generator: Weblate 5.9.2\n"
 
 #: advisory/advisory.cpp:81
 msgid ""
@@ -42,9 +42,8 @@ msgid "Install"
 msgstr "インストール"
 
 #: base/goal_elements.cpp:354
-#, fuzzy
 msgid "Install via provide"
-msgstr "提供からインストール"
+msgstr "提供元よりインストール"
 
 #: base/goal_elements.cpp:356
 msgid "Install by group"
@@ -59,13 +58,12 @@ msgid "Upgrade all"
 msgstr "すべてをアップグレード"
 
 #: base/goal_elements.cpp:362
-#, fuzzy
 msgid "Upgrade minimal"
-msgstr "最小限をアップグレード"
+msgstr "最小限にアップグレード"
 
 #: base/goal_elements.cpp:364
 msgid "Upgrade all minimal"
-msgstr ""
+msgstr "全てを最小限にアップデート"
 
 #: base/goal_elements.cpp:366
 msgid "Downgrade"
@@ -141,31 +139,31 @@ msgstr "理由を上書き"
 
 #: base/goal_elements.cpp:402
 msgid "Revert comps upgrade"
-msgstr ""
+msgstr "comps 更新を切り戻す"
 
 #: base/goal_elements.cpp:404
 msgid "Install debug RPMs"
-msgstr ""
+msgstr "デバッグ RPM をインストール"
 
 #: base/goal_elements.cpp:406
 msgid "Transaction merge"
-msgstr ""
+msgstr "トランザクション マージ"
 
 #: base/log_event.cpp:141
 msgid "No packages to remove for argument: {}"
-msgstr ""
+msgstr "引数に該当して削除するパッケージはありません: {}"
 
 #: base/log_event.cpp:143
 msgid "No groups to remove for argument: {}"
-msgstr ""
+msgstr "引数に該当して削除するグループはありません: {}"
 
 #: base/log_event.cpp:146
 msgid "No environmental groups to remove for argument: {}"
-msgstr ""
+msgstr "引数に該当して削除する環境グループはありません: {}"
 
 #: base/log_event.cpp:148
 msgid "No modules to remove for argument: {}"
-msgstr ""
+msgstr "引数に該当して削除するモジュールはありません: {}"
 
 #: base/log_event.cpp:152
 msgid "No match for group from environment: {}"
