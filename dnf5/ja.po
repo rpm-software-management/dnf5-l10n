@@ -2,7 +2,7 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Gnuey56 <gnuey56@proton.me>, 2024.
-# Inci sakura <incisakura@icloud.com>, 2024.
+# Inci sakura <incisakura@icloud.com>, 2024, 2025.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024.
 # caffiendo c <1728778012@qq.com>, 2024.
 msgid ""
@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-23 03:00+0000\n"
-"PO-Revision-Date: 2024-12-09 22:53+0000\n"
-"Last-Translator: caffiendo c <1728778012@qq.com>\n"
+"PO-Revision-Date: 2025-01-25 03:44+0000\n"
+"Last-Translator: Inci sakura <incisakura@icloud.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ja/>\n"
 "Language: ja\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.8.4\n"
+"X-Generator: Weblate 5.9.2\n"
 
 #: commands/advisory/advisory.cpp:36
 msgid "Manage advisories"
@@ -316,14 +316,10 @@ msgstr ""
 "す。"
 
 #: commands/history/arguments.hpp:80
-#, fuzzy
-#| msgid ""
-#| "Show only groups containing packages with specified names. List option, "
-#| "supports globs."
 msgid ""
 "Show only transactions containing packages with specified names. List "
 "option, supports globs."
-msgstr "指定名前のパッケージに含むグループのみを表示。リスト、glob 利用可能。"
+msgstr "指定名前のパッケージに含むトランザクションを表示。リスト、glob 利用可能。"
 
 #: commands/history/history.cpp:41
 msgid "Manage transaction history"
@@ -334,6 +330,8 @@ msgid ""
 "No match found, history info defaults to considering only the last "
 "transaction, specify \"1..last\" range to search all transactions."
 msgstr ""
+"結果を見つかりませんでした。履歴情報はデフォルトで最後のトランザクションのみ"
+"を検索します。すべでを検索には、\"1..last\"を指定してください。"
 
 #: commands/history/history_redo.cpp:53
 #: commands/history/history_rollback.cpp:57
@@ -821,10 +819,8 @@ msgid "Package \"{}\" is already excluded."
 msgstr "パッケージ \"{}\" はすでに除外されました。"
 
 #: context.cpp:73
-#, fuzzy
-#| msgid "Importing PGP key 0x{}:\n"
 msgid "Importing OpenPGP key 0x{}:\n"
-msgstr "PGP キー 0x{} をインポート中:\n"
+msgstr "OpenPGP キー 0x{} をインポート中:\n"
 
 #: context.cpp:75
 msgid " UserID     : \"{}\"\n"
@@ -1139,10 +1135,8 @@ msgid ""
 msgstr "指定リポジトリを有効にします。リスト、glob は複数回指定可能。"
 
 #: main.cpp:417
-#, fuzzy
-#| msgid "disable gpg signature checking (if RPM policy allows)"
 msgid "disable OpenPGP signature checking (if RPM policy allows)"
-msgstr "GPG 署名の確認を無効にします (RPM ポリシーが許容する場合)"
+msgstr "OpenPGP 署名の確認を無効にします (RPM ポリシーが許容する限り)"
 
 #: main.cpp:433
 msgid "Disable all libdnf5 plugins"
@@ -1392,7 +1386,7 @@ msgstr ""
 msgid ""
 "The argument is available for commands: {}. (It has to be placed after the "
 "command.)"
-msgstr ""
+msgstr "引数は以下のコマンドで利用可能: {}. (コマンドの後で指定する必要があります)"
 
 #: main.cpp:1359
 msgid "No read/execute access in current directory, moving to /"
@@ -1419,16 +1413,11 @@ msgstr ""
 "す。"
 
 #: main.cpp:1464
-#, fuzzy
-#| msgid ""
-#| "Test mode enabled: Only package downloads, PGP key installations and "
-#| "transaction checks will be performed."
 msgid ""
 "Test mode enabled: Only package downloads, OpenPGP key installations and "
 "transaction checks will be performed."
-msgstr ""
-"テスト モードが有効です: パッケージのダウンロード、PGP キーのインストール、お"
-"よびトランザクションのチェックのみが行われます。"
+msgstr "テスト モードが有効です: パッケージのダウンロード、OpenPGP "
+"キーのインストール、およびトランザクションのチェックのみが行われます。"
 
 #: main.cpp:1481
 msgid ""
