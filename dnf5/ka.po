@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-06 03:02+0000\n"
-"PO-Revision-Date: 2025-01-23 08:17+0000\n"
+"PO-Revision-Date: 2025-02-07 02:57+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ka/>\n"
@@ -853,46 +853,38 @@ msgstr "გასაღები წარმატებით იქნა შ
 
 #: context.cpp:96
 msgid "The following PGP key (0x{}) is about to be removed:"
-msgstr ""
+msgstr "წაიშლება შემდეგი PGP გასაღებები (0x{}):"
 
 #: context.cpp:98
-#, fuzzy
-#| msgid " UserID     : \"{}\"\n"
 msgid " Reason     : {}\n"
-msgstr " UserID     : \"{}\"\n"
+msgstr " მიზეზი     : {}\n"
 
 #: context.cpp:102
-#, fuzzy
-#| msgid ""
-#| " Fingerprint: {}\n"
-#| " From       : {}\n"
 msgid " From       : {}\n"
-msgstr ""
-" ანაბეჭდი: {}\n"
-" საიდან       : {}\n"
+msgstr " საიდან       : {}\n"
 
 #: context.cpp:104
 msgid "As a result, installing packages signed with this key will fail."
-msgstr ""
+msgstr "შედეგად ამ გასაღებით ხელმოწერილი პაკეტების დაყენება შეუძლებელი იქნება."
 
 #: context.cpp:105
 msgid "It is recommended to remove the expired key to allow importing"
-msgstr ""
+msgstr "რეკომენდებულია, წაშალოთ ვადაგასული გასაღები, რომ დაუშვათ შემოტანა"
 
 #: context.cpp:106
 msgid ""
 "an updated key. This might leave already installed packages unverifiable."
 msgstr ""
+"განახლებული გასაღები. ამან, შეიძლება, უკვე დაყენებული პაკეტების შემოწმება "
+"შეუძლებელი გახადოს."
 
 #: context.cpp:109
 msgid "The system will now proceed with removing the key."
-msgstr ""
+msgstr "სისტემა ახლა წაშლის გასაღებს."
 
 #: context.cpp:115
-#, fuzzy
-#| msgid "The key was successfully imported."
 msgid "The key was successfully removed."
-msgstr "გასაღები წარმატებით იქნა შემოტანილი."
+msgstr "გასაღები წარმატებით წაიშალა."
 
 #: context.cpp:290
 msgid "setopt: \"{}.{}\": {}"
