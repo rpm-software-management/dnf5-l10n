@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-06 03:02+0000\n"
-"PO-Revision-Date: 2025-01-23 10:41+0000\n"
+"PO-Revision-Date: 2025-02-07 02:57+0000\n"
 "Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/fr/>\n"
@@ -884,46 +884,40 @@ msgstr "La clé a été importée avec succès."
 
 #: context.cpp:96
 msgid "The following PGP key (0x{}) is about to be removed:"
-msgstr ""
+msgstr "La clé PGP suivante (0x{}) est sur le point d'être retirée :"
 
 #: context.cpp:98
-#, fuzzy
-#| msgid " UserID     : \"{}\"\n"
 msgid " Reason     : {}\n"
-msgstr " UserID     : \"{}\"\n"
+msgstr " Motif      : {}\n"
 
 #: context.cpp:102
-#, fuzzy
-#| msgid ""
-#| " Fingerprint: {}\n"
-#| " From       : {}\n"
 msgid " From       : {}\n"
-msgstr ""
-" Empreinte  : {}\n"
-" De         : {}\n"
+msgstr " De         : {}\n"
 
 #: context.cpp:104
 msgid "As a result, installing packages signed with this key will fail."
 msgstr ""
+"Par conséquent, l'installation des paquets signés avec cette clé échouera."
 
 #: context.cpp:105
 msgid "It is recommended to remove the expired key to allow importing"
 msgstr ""
+"Il est recommandé de retirer la clé expirée pour permettre l'importation"
 
 #: context.cpp:106
 msgid ""
 "an updated key. This might leave already installed packages unverifiable."
 msgstr ""
+"d'une clé mise à jour. Cela pourrait rendre invérifiables les paquets déjà "
+"installés."
 
 #: context.cpp:109
 msgid "The system will now proceed with removing the key."
-msgstr ""
+msgstr "Le système va maintenant retirer la clé."
 
 #: context.cpp:115
-#, fuzzy
-#| msgid "The key was successfully imported."
 msgid "The key was successfully removed."
-msgstr "La clé a été importée avec succès."
+msgstr "La clé a été retirée avec succès."
 
 #: context.cpp:290
 msgid "setopt: \"{}.{}\": {}"
