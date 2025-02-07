@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-07 03:03+0000\n"
-"PO-Revision-Date: 2025-01-23 10:41+0000\n"
+"PO-Revision-Date: 2025-02-08 03:38+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ko/>\n"
@@ -827,46 +827,36 @@ msgstr "키를 성공적으로 가져왔습니다."
 
 #: context.cpp:96
 msgid "The following PGP key (0x{}) is about to be removed:"
-msgstr ""
+msgstr "다음 PGB 키 (0x{})가 다음과 같이 제거되려고 합니다:"
 
 #: context.cpp:98
-#, fuzzy
-#| msgid " UserID     : \"{}\"\n"
 msgid " Reason     : {}\n"
-msgstr " 사용자ID     : \"{}\"\n"
+msgstr " 원인     : {}\n"
 
 #: context.cpp:102
-#, fuzzy
-#| msgid ""
-#| " Fingerprint: {}\n"
-#| " From       : {}\n"
 msgid " From       : {}\n"
-msgstr ""
-" 지문: {}\n"
-" 에서       : {}\n"
+msgstr " 출처       : {}\n"
 
 #: context.cpp:104
 msgid "As a result, installing packages signed with this key will fail."
-msgstr ""
+msgstr "결과적으로, 이 키와 함께 서명된 꾸러미를 설치하면 실패합니다."
 
 #: context.cpp:105
 msgid "It is recommended to remove the expired key to allow importing"
-msgstr ""
+msgstr "가져오기를 허용하려면 만료된 키를 제거하는 것이 좋습니다"
 
 #: context.cpp:106
 msgid ""
 "an updated key. This might leave already installed packages unverifiable."
-msgstr ""
+msgstr "최신화된 키. 이는 이미 설치된 꾸러미를 검증 할 수 없게 됩니다."
 
 #: context.cpp:109
 msgid "The system will now proceed with removing the key."
-msgstr ""
+msgstr "시스템은 이제 키 제거가 진행됩니다."
 
 #: context.cpp:115
-#, fuzzy
-#| msgid "The key was successfully imported."
 msgid "The key was successfully removed."
-msgstr "키를 성공적으로 가져왔습니다."
+msgstr "키가 성공적으로 제거되었습니다."
 
 #: context.cpp:290
 msgid "setopt: \"{}.{}\": {}"
@@ -1399,7 +1389,7 @@ msgstr "--- DNF5는 인수로 시작됩니다: \"{}\" ---"
 
 #: main.cpp:1246
 msgid "Invalid \"index\" in \"--complete=<index>[,...]\": {}"
-msgstr ""
+msgstr "\"--complete=<index>[,...]\": {}에서 잘못된 \"index\""
 
 #: main.cpp:1285
 msgid "{}."
