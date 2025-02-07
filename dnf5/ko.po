@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-06 03:02+0000\n"
+"POT-Creation-Date: 2025-02-07 03:03+0000\n"
 "PO-Revision-Date: 2025-01-23 10:41+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
@@ -471,11 +471,11 @@ msgstr "모듈 관리"
 msgid "No matches found for \"{}\"."
 msgstr "\"{}\"를 위해 일치되는 것을 찾을 수 없습니다."
 
-#: commands/offline/offline.cpp:190
+#: commands/offline/offline.cpp:191
 msgid "Manage offline transactions"
 msgstr "오프라인 연결을 관리합니다"
 
-#: commands/offline/offline.cpp:222
+#: commands/offline/offline.cpp:223
 msgid ""
 "Error reading state: {}. Rerun the command you used to initiate the offline "
 "transaction, e.g. `dnf5 system-upgrade download [OPTIONS]`."
@@ -483,42 +483,42 @@ msgstr ""
 "읽는 중에 상태 오류: {}. 오프라인 연결(예: `dnf5 system-upgrade download "
 "[OPTIONS]`)을 시작하는 데 사용되는 명령을 재실행합니다."
 
-#: commands/offline/offline.cpp:245
+#: commands/offline/offline.cpp:246
 msgid "Couldn't connect to D-Bus: {}"
 msgstr "D-Bus로 연결 할 수 없음: {}"
 
-#: commands/offline/offline.cpp:274
+#: commands/offline/offline.cpp:275
 msgid ""
 "Prepare the system to perform the offline transaction and reboot to start "
 "the transaction."
 msgstr ""
 "시스템을 오프라인 연결을 수행하도록 준비하고 연결을 시작하도록 재부팅합니다."
 
-#: commands/offline/offline.cpp:281
+#: commands/offline/offline.cpp:282
 msgid "Power off the system after the operation is complete"
 msgstr "동작이 완료된 후에 시스템을 종료합니다"
 
-#: commands/offline/offline.cpp:292
+#: commands/offline/offline.cpp:293
 msgid "No offline transaction is stored."
 msgstr "오프라인 연결은 저장되지 않습니다."
 
-#: commands/offline/offline.cpp:300
+#: commands/offline/offline.cpp:301
 msgid "System is not ready for offline transaction."
 msgstr "시스템은 오프라인 연결을 위해 준비되어 있지 않습니다."
 
-#: commands/offline/offline.cpp:303
+#: commands/offline/offline.cpp:304
 msgid "Data directory {} does not exist."
 msgstr "자료 디렉토리 {}가 존재하지 않습니다."
 
-#: commands/offline/offline.cpp:327
+#: commands/offline/offline.cpp:329
 msgid "{} is not wanted by system-update.target."
 msgstr "{}는 system-update.target에 의해 원하지 않습니다."
 
-#: commands/offline/offline.cpp:336
+#: commands/offline/offline.cpp:338
 msgid "The system will now reboot to upgrade to release version "
 msgstr "시스템은 현재 출시 버전으로 향상 하도록 재부팅 합니다 "
 
-#: commands/offline/offline.cpp:340
+#: commands/offline/offline.cpp:342
 msgid ""
 "The system will now reboot to perform the offline transaction initiated by "
 "the following command:"
@@ -526,7 +526,7 @@ msgstr ""
 "시스템은 현재 다음과 같은 명령에 의해 시작되도록 오프라인 연결을 수행하도록 "
 "재시작 합니다:"
 
-#: commands/offline/offline.cpp:371
+#: commands/offline/offline.cpp:373
 msgid ""
 "Internal use only, not intended to be run by the user. Execute the "
 "transaction in the offline environment."
@@ -534,15 +534,15 @@ msgstr ""
 "내부용으로만 사용되며, 사용자에 의해 동작하도록 하지 않습니다. 오프라인 환경"
 "에서 연결을 실행합니다."
 
-#: commands/offline/offline.cpp:398
+#: commands/offline/offline.cpp:400
 msgid "Trigger file does not exist. Exiting."
 msgstr "트리거 파일이 존재하지 않습니다. 나가는 중."
 
-#: commands/offline/offline.cpp:402
+#: commands/offline/offline.cpp:404
 msgid "Another offline transaction tool is running. Exiting."
 msgstr "다른 오프라인 연결 도구가 동작 중입니다. 나가는 중."
 
-#: commands/offline/offline.cpp:437
+#: commands/offline/offline.cpp:439
 msgid ""
 "Warning: the `_execute` command is for internal use only and is not intended "
 "to be run directly by the user. To initiate the system upgrade/offline "
@@ -552,49 +552,49 @@ msgstr ""
 "지 않았습니다. 시스템 향상/오프라인 연결을 시작하려면, `dnf5 offline reboot`"
 "를 실행하세요."
 
-#: commands/offline/offline.cpp:444
+#: commands/offline/offline.cpp:446
 msgid "Use `dnf5 offline reboot` to begin the transaction."
 msgstr "`dnf5 offline reboot`을 사용하여 연결을 시작합니다."
 
-#: commands/offline/offline.cpp:497
+#: commands/offline/offline.cpp:499
 msgid "Transaction failed: "
 msgstr "연결 실패함: "
 
-#: commands/offline/offline.cpp:566
+#: commands/offline/offline.cpp:568
 msgid "Error reading journal: {}"
 msgstr "journal을 읽기 중 오류: {}"
 
-#: commands/offline/offline.cpp:572
+#: commands/offline/offline.cpp:574
 msgid "Add journal match failed: {}"
 msgstr "Journal 일치 추가에 실패함: {}"
 
-#: commands/offline/offline.cpp:600
+#: commands/offline/offline.cpp:602
 msgid "No logs were found."
 msgstr "기록을 찾을 수 없습니다."
 
-#: commands/offline/offline.cpp:604
+#: commands/offline/offline.cpp:606
 msgid "The following boots appear to contain offline transaction logs:"
 msgstr "다음 부트는 오프라인 연결 기록을 포함하도록 표시됩니다:"
 
-#: commands/offline/offline.cpp:621
+#: commands/offline/offline.cpp:623
 msgid "Cannot find logs with this index."
 msgstr "이와 같은 색인을 갖는 기록을 찾을 수 없습니다."
 
-#: commands/offline/offline.cpp:628
+#: commands/offline/offline.cpp:630
 msgid "Unable to match systemd journal entry."
 msgstr "systemd journal 항목과 일치 할 수 없음."
 
-#: commands/offline/offline.cpp:640
+#: commands/offline/offline.cpp:642
 msgid "Show logs from past offline transactions"
 msgstr "지난 오프라인 연결에서 기록을 표시합니다"
 
-#: commands/offline/offline.cpp:648
+#: commands/offline/offline.cpp:650
 msgid ""
 "Which log to show. Run without any arguments to get a list of available logs."
 msgstr ""
 "표시 하려는 기록. 사용 가능한 기록의 목록을 가져오도록 인수 없이 실행합니다."
 
-#: commands/offline/offline.cpp:663
+#: commands/offline/offline.cpp:665
 msgid ""
 "systemd is not supported in this build of DNF 5; the `log` subcommand is "
 "unavailable."
@@ -602,21 +602,21 @@ msgstr ""
 "systemd는 DNF 5의 이 제작에서 지원되지 않습니다; `log` 하위명령은 사용 할 수 "
 "없습니다."
 
-#: commands/offline/offline.cpp:668
+#: commands/offline/offline.cpp:670
 msgid "Show status of the current offline transaction"
 msgstr "현재 오프라인 연결 상태를 표시합니다"
 
-#: commands/offline/offline.cpp:684
+#: commands/offline/offline.cpp:686
 msgid "An offline transaction was initiated by the following command:"
 msgstr "다음 명령에 의해 오프라인 연결이 시작되었습니다:"
 
-#: commands/offline/offline.cpp:686
+#: commands/offline/offline.cpp:688
 msgid ""
 "Run `dnf5 offline reboot` to reboot and perform the offline transaction."
 msgstr ""
 "`dnf5 offline reboot`를 동작하여 재시작 하고 오프라인 연결을 수행합니다."
 
-#: commands/offline/offline.cpp:688
+#: commands/offline/offline.cpp:690
 msgid ""
 "An offline transaction was started, but it did not finish. Run `dnf5 offline "
 "log` for more information. The command that initiated the transaction was:"
@@ -624,7 +624,7 @@ msgstr ""
 "오프라인 연결이 시작되었지만, 종료되지 못했습니다. 더 많은 정보를 위해 `dnf5 "
 "offline log`를 수행해요. 연결이 시작된 명령은 다음과 같습니다:"
 
-#: commands/offline/offline.cpp:693
+#: commands/offline/offline.cpp:695
 msgid "Unknown offline transaction status: "
 msgstr "알지 못하는 오프라인 연결 상태: "
 
@@ -872,7 +872,7 @@ msgstr "키를 성공적으로 가져왔습니다."
 msgid "setopt: \"{}.{}\": {}"
 msgstr "setopt: \"{}.{}\": {}"
 
-#: context.cpp:296 main.cpp:1317
+#: context.cpp:296 main.cpp:1341
 msgid ", "
 msgstr ", "
 
@@ -1397,15 +1397,19 @@ msgstr ""
 msgid "--- DNF5 launched with arguments: \"{}\" ---"
 msgstr "--- DNF5는 인수로 시작됩니다: \"{}\" ---"
 
-#: main.cpp:1261
+#: main.cpp:1246
+msgid "Invalid \"index\" in \"--complete=<index>[,...]\": {}"
+msgstr ""
+
+#: main.cpp:1285
 msgid "{}."
 msgstr "{}."
 
-#: main.cpp:1264 main.cpp:1493
+#: main.cpp:1288 main.cpp:1517
 msgid "{}. Add \"--help\" for more information about the arguments."
 msgstr "{}. 인수에 대한 더 많은 정보를 위해 \"--help\"를 추가합니다."
 
-#: main.cpp:1273
+#: main.cpp:1297
 msgid ""
 "It could be a command provided by a plugin, try: dnf5 install 'dnf5-"
 "command({})'"
@@ -1413,18 +1417,18 @@ msgstr ""
 "플러그인에 의해 제공된 명령일 수 있으며, 다음과 같이 시도하세요: dnf5 "
 "install 'dnf5-command({})'"
 
-#: main.cpp:1315
+#: main.cpp:1339
 msgid ""
 "The argument is available for commands: {}. (It has to be placed after the "
 "command.)"
 msgstr ""
 "인수는 명령을 위해 사용 할 수 있습니다: {}. (명령 뒤에 배치되어야 합니다.)"
 
-#: main.cpp:1359
+#: main.cpp:1383
 msgid "No read/execute access in current directory, moving to /"
 msgstr "현재 디렉토리에서 읽기/실행 접근이 없으며, /로 이동합니다"
 
-#: main.cpp:1416
+#: main.cpp:1440
 msgid ""
 "The requested operation requires superuser privileges. Please log in as a "
 "user with elevated rights, or use the \"--assumeno\" or \"--downloadonly\" "
@@ -1434,15 +1438,15 @@ msgstr ""
 "인하고, \"--assumeno\" 또는 \"--downloadonly\" 옵션을 사용하여 시스템 상태를 "
 "수정하지 않고 명령을 실행합니다."
 
-#: main.cpp:1457
+#: main.cpp:1481
 msgid "The operation will only store the transaction in {}"
 msgstr "동작은 {}의 연결만 저장합니다"
 
-#: main.cpp:1459
+#: main.cpp:1483
 msgid "The operation will only download packages for the transaction."
 msgstr "동작은 연결을 위해 꾸러미만 내려받을 수 있습니다."
 
-#: main.cpp:1464
+#: main.cpp:1488
 msgid ""
 "Test mode enabled: Only package downloads, OpenPGP key installations and "
 "transaction checks will be performed."
@@ -1450,7 +1454,7 @@ msgstr ""
 "시험 방식이 활성화 되었습니다: 꾸러미 내려받기, OpenPGP 키 설치 및 연결 점검"
 "만 수행됩니다."
 
-#: main.cpp:1481
+#: main.cpp:1505
 msgid ""
 "No repositories were loaded from the installroot. To use the configuration "
 "and repositories of the host system, pass --use-host-config."
@@ -1458,15 +1462,15 @@ msgstr ""
 "installroot에서 어떤 저장소도 적재되지 않았습니다. 호스트 시스템의 구성 및 저"
 "장소를 사용하려면, --use-host-conifg를 전달하세요."
 
-#: main.cpp:1503
+#: main.cpp:1527
 msgid "Command returned error: {}"
 msgstr "명령이 오류를 반환하였습니다: {}"
 
-#: main.cpp:1511
+#: main.cpp:1535
 msgid "DNF5 finished"
 msgstr "DNF5가 종료되었습니다"
 
-#: main.cpp:1515
+#: main.cpp:1539
 msgid "Complete!"
 msgstr "완료되었습니다!"
 
