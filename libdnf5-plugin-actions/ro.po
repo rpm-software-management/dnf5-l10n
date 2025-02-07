@@ -1,13 +1,13 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>, 2024.
+# Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>, 2024, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-07 03:03+0000\n"
-"PO-Revision-Date: 2024-10-01 12:38+0000\n"
+"PO-Revision-Date: 2025-02-08 03:38+0000\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5-plugin-actions/ro/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
-"X-Generator: Weblate 5.7.2\n"
+"X-Generator: Weblate 5.9.2\n"
 
 #: actions.cpp:542 actions.cpp:550 actions.cpp:558 actions.cpp:566
 msgid ""
@@ -43,16 +43,12 @@ msgid "Error in file \"{}\" on line {}: Unknown hook \"{}\""
 msgstr "Eroare în fișierul „{}” pe linia {}: Cârlig necunoscut „{}”"
 
 #: actions.cpp:636
-#, fuzzy
-#| msgid ""
-#| "Error in file \"{}\" on line {}: Package filter can only be used in "
-#| "PRE_TRANS and POST_TRANS hooks"
 msgid ""
 "Error in file \"{}\" on line {}: Package filter can only be used in "
 "GOAL_RESOLVED, PRE_TRANS and POST_TRANS hooks"
 msgstr ""
 "Eroare în fișierul „{}” pe linia {}: Filtrul pachetului poate fi utilizat "
-"numai în cârligele PRE_TRANS și POST_TRANS"
+"numai în cârligele GOAL_RESOLVED, PRE_TRANS și POST_TRANS"
 
 #: actions.cpp:646
 msgid ""
