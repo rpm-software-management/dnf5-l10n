@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-07 03:03+0000\n"
-"PO-Revision-Date: 2025-01-29 20:13+0000\n"
+"PO-Revision-Date: 2025-02-08 03:38+0000\n"
 "Last-Translator: Paweł Marciniak <sunwire+fas@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/pl/>\n"
@@ -867,43 +867,37 @@ msgid "The following PGP key (0x{}) is about to be removed:"
 msgstr ""
 
 #: context.cpp:98
-#, fuzzy
-#| msgid " UserID     : \"{}\"\n"
 msgid " Reason     : {}\n"
-msgstr " Identyfikator użytkownika: \"{}\"\n"
+msgstr " Powód     : {}\n"
 
 #: context.cpp:102
-#, fuzzy
-#| msgid ""
-#| " Fingerprint: {}\n"
-#| " From       : {}\n"
 msgid " From       : {}\n"
-msgstr ""
-" Odcisk palca: {}\n"
-" Od       : {}\n"
+msgstr " Z       : {}\n"
 
 #: context.cpp:104
 msgid "As a result, installing packages signed with this key will fail."
 msgstr ""
+"W rezultacie instalacja pakietów podpisanych tym kluczem zakończy się "
+"niepowodzeniem."
 
 #: context.cpp:105
 msgid "It is recommended to remove the expired key to allow importing"
-msgstr ""
+msgstr "Zaleca się usunięcie wygasłego klucza, aby umożliwić importowanie"
 
 #: context.cpp:106
 msgid ""
 "an updated key. This might leave already installed packages unverifiable."
 msgstr ""
+"zaktualizowany klucz. To może sprawić, że zainstalowane pakiety staną się "
+"niemożliwe do zweryfikowania."
 
 #: context.cpp:109
 msgid "The system will now proceed with removing the key."
-msgstr ""
+msgstr "System przystąpi teraz do usuwania klucza."
 
 #: context.cpp:115
-#, fuzzy
-#| msgid "The key was successfully imported."
 msgid "The key was successfully removed."
-msgstr "Klucz został pomyślnie zaimportowany."
+msgstr "Klucz został pomyślnie usunięty."
 
 #: context.cpp:290
 msgid "setopt: \"{}.{}\": {}"
