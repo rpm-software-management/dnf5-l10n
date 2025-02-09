@@ -4,13 +4,13 @@
 # Dennis Koerner <dennis@bumblebeeman.dev>, 2024.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024.
 # Fabio D <fabio1977@arcor.de>, 2024.
-# Ettore Atalan <atalanttore@googlemail.com>, 2024.
+# Ettore Atalan <atalanttore@googlemail.com>, 2024, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-07 03:03+0000\n"
-"PO-Revision-Date: 2024-12-30 23:38+0000\n"
+"PO-Revision-Date: 2025-02-10 13:38+0000\n"
 "Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/de/>\n"
@@ -320,15 +320,11 @@ msgstr ""
 "Betrachten Sie in die Transaktion aufgenommene Zusatzpakete nicht als Fehler."
 
 #: commands/history/arguments.hpp:80
-#, fuzzy
-#| msgid ""
-#| "Show only groups containing packages with specified names. List option, "
-#| "supports globs."
 msgid ""
 "Show only transactions containing packages with specified names. List "
 "option, supports globs."
 msgstr ""
-"Nur Gruppen anzeigen, die Pakete mit den angegebenen Namen enthalten. "
+"Nur Transaktionen anzeigen, die Pakete mit den angegebenen Namen enthalten. "
 "Listenoption, unterstützt Platzhalter."
 
 #: commands/history/history.cpp:41
@@ -857,27 +853,21 @@ msgstr "Der Schlüssel wurde erfolgreich importiert."
 
 #: context.cpp:96
 msgid "The following PGP key (0x{}) is about to be removed:"
-msgstr ""
+msgstr "Der folgende PGP-Schlüssel (0x{}) wird demnächst entfernt:"
 
 #: context.cpp:98
-#, fuzzy
-#| msgid " UserID     : \"{}\"\n"
 msgid " Reason     : {}\n"
-msgstr " UserID     : \"{}\"\n"
+msgstr " Grund     : {}\n"
 
 #: context.cpp:102
-#, fuzzy
-#| msgid ""
-#| " Fingerprint: {}\n"
-#| " From       : {}\n"
 msgid " From       : {}\n"
-msgstr ""
-" Fingerprint: {}\n"
-" Von       : {}\n"
+msgstr " Von       : {}\n"
 
 #: context.cpp:104
 msgid "As a result, installing packages signed with this key will fail."
 msgstr ""
+"Daher schlägt die Installation von Paketen, die mit diesem Schlüssel "
+"signiert sind, fehl."
 
 #: context.cpp:105
 msgid "It is recommended to remove the expired key to allow importing"
@@ -890,13 +880,11 @@ msgstr ""
 
 #: context.cpp:109
 msgid "The system will now proceed with removing the key."
-msgstr ""
+msgstr "Das System fährt nun mit dem Entfernen des Schlüssels fort."
 
 #: context.cpp:115
-#, fuzzy
-#| msgid "The key was successfully imported."
 msgid "The key was successfully removed."
-msgstr "Der Schlüssel wurde erfolgreich importiert."
+msgstr "Der Schlüssel wurde erfolgreich entfernt."
 
 #: context.cpp:290
 msgid "setopt: \"{}.{}\": {}"
@@ -1454,7 +1442,7 @@ msgstr "--- DNF5 wurde mit den Argumenten gestartet: \"{}\" ---"
 
 #: main.cpp:1246
 msgid "Invalid \"index\" in \"--complete=<index>[,...]\": {}"
-msgstr ""
+msgstr "Ungültiger \"index\" in \"--complete=<index>[,...]\": {}"
 
 #: main.cpp:1285
 msgid "{}."
