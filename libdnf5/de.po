@@ -5,13 +5,13 @@
 # Dennis Koerner <dennis@bumblebeeman.dev>, 2024.
 # Henning <boredsquirrel@users.noreply.translate.fedoraproject.org>, 2024.
 # Fabio D <fabio1977@arcor.de>, 2024.
-# Ettore Atalan <atalanttore@googlemail.com>, 2024.
+# Ettore Atalan <atalanttore@googlemail.com>, 2024, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-07 03:03+0000\n"
-"PO-Revision-Date: 2024-12-30 23:38+0000\n"
+"PO-Revision-Date: 2025-02-10 13:38+0000\n"
 "Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/de/>\n"
@@ -640,8 +640,6 @@ msgid "Signature verification failed."
 msgstr "Verifizierung der Signatur fehlgeschlagen."
 
 #: base/transaction.cpp:89
-#, fuzzy
-#| msgid "The repository does not have any PGP keys configured."
 msgid "The repository does not have any OpenPGP keys configured."
 msgstr "Das Repository hat keine OpenPGP-Schlüssel konfiguriert."
 
@@ -672,8 +670,6 @@ msgid "An error occurred importing key \"{}\": {}"
 msgstr "Beim Importieren des Schlüssels \"{}\" ist ein Fehler aufgetreten: {}"
 
 #: base/transaction.cpp:1372
-#, fuzzy
-#| msgid "PGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
 msgid "OpenPGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
 msgstr ""
 "OpenPGP-Prüfung für Paket „{}“ ({}) aus Repository „{}“ ist fehlgeschlagen: "
@@ -688,30 +684,26 @@ msgid ", "
 msgstr ", "
 
 #: base/transaction.cpp:1422
-#, fuzzy
-#| msgid "Warning: skipped PGP checks for {0} package from repository: {1}"
-#| msgid_plural ""
-#| "Warning: skipped PGP checks for {0} packages from repository: {1}"
 msgid "Warning: skipped OpenPGP checks for {0} package from repository: {1}"
 msgid_plural ""
 "Warning: skipped OpenPGP checks for {0} packages from repository: {1}"
 msgstr[0] ""
-"Warnung: Übersprungene PGP Prüfungen für {0} Paket aus dem Repository: {1}"
+"Warnung: Übersprungene OpenPGP-Prüfungen für {0} Paket aus dem Repository: "
+"{1}"
 msgstr[1] ""
-"Warnung: Übersprungene PGP Prüfungen für {0} Pakete aus dem Repository: {1}"
+"Warnung: Übersprungene OpenPGP-Prüfungen für {0} Pakete aus dem Repository: "
+"{1}"
 
 #: base/transaction.cpp:1425
-#, fuzzy
-#| msgid "Warning: skipped PGP checks for {0} package from repositories: {1}"
-#| msgid_plural ""
-#| "Warning: skipped PGP checks for {0} packages from repositories: {1}"
 msgid "Warning: skipped OpenPGP checks for {0} package from repositories: {1}"
 msgid_plural ""
 "Warning: skipped OpenPGP checks for {0} packages from repositories: {1}"
 msgstr[0] ""
-"Warnung: Übersprungene PGP Prüfungen für {0} Paket aus dem Repositories: {1}"
+"Warnung: Übersprungene OpenPGP-Prüfungen für {0} Paket aus dem Repositories: "
+"{1}"
 msgstr[1] ""
-"Warnung: Übersprungene PGP Prüfungen für {0} Pakete aus den Repositories: {1}"
+"Warnung: Übersprungene OpenPGP-Prüfungen für {0} Pakete aus den Repositories:"
+" {1}"
 
 #: common/exception.cpp:78
 msgid "System error"
@@ -1644,10 +1636,8 @@ msgid "Cannot obtain address of symbol \"{}\": {}"
 msgstr "Adresse des Symbols kann nicht abgerufen werden \"{}\": {}"
 
 #: utils/locale.cpp:57
-#, fuzzy
-#| msgid "Cannot load shared library \"{}\": {}"
 msgid "Cannot set the locale \"{}\": {}"
-msgstr "Shared-Library kann nicht geladen werden \"{}\": {}"
+msgstr "Sprachumgebung „{}“ kann nicht festgelegt werden: {}"
 
 #: utils/locker.cpp:45
 msgid "Failed to open lock file \"{}\""
