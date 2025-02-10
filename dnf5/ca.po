@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-07 03:03+0000\n"
-"PO-Revision-Date: 2025-01-23 15:06+0000\n"
+"PO-Revision-Date: 2025-02-11 02:56+0000\n"
 "Last-Translator: David Medina <dmedinacpnl@gmail.com>\n"
 "Language-Team: Catalan <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ca/>\n"
@@ -869,46 +869,39 @@ msgstr "La clau s'ha importat correctament."
 
 #: context.cpp:96
 msgid "The following PGP key (0x{}) is about to be removed:"
-msgstr ""
+msgstr "La següent clau PGP (0x{}) està a punt de suprimir-se:"
 
 #: context.cpp:98
-#, fuzzy
-#| msgid " UserID     : \"{}\"\n"
 msgid " Reason     : {}\n"
-msgstr " ID d'usuari     : {}\n"
+msgstr " Raó     : {}\n"
 
 #: context.cpp:102
-#, fuzzy
-#| msgid ""
-#| " Fingerprint: {}\n"
-#| " From       : {}\n"
 msgid " From       : {}\n"
-msgstr ""
-" Empremta: {}\n"
-" De       : {}\n"
+msgstr " De       : {}\n"
 
 #: context.cpp:104
 msgid "As a result, installing packages signed with this key will fail."
 msgstr ""
+"Com a resultat, la instal·lació de paquets signats amb aquesta clau fallarà."
 
 #: context.cpp:105
 msgid "It is recommended to remove the expired key to allow importing"
-msgstr ""
+msgstr "Es recomana suprimir la clau caducada per permetre la importació"
 
 #: context.cpp:106
 msgid ""
 "an updated key. This might leave already installed packages unverifiable."
 msgstr ""
+"d'una clau actualitzada. Això pot deixar els paquets ja instal·lats com a no "
+"verificables."
 
 #: context.cpp:109
 msgid "The system will now proceed with removing the key."
-msgstr ""
+msgstr "Ara el sistema procedirà a suprimir la clau."
 
 #: context.cpp:115
-#, fuzzy
-#| msgid "The key was successfully imported."
 msgid "The key was successfully removed."
-msgstr "La clau s'ha importat correctament."
+msgstr "La clau s'ha suprimit correctament."
 
 #: context.cpp:290
 msgid "setopt: \"{}.{}\": {}"
@@ -1456,7 +1449,7 @@ msgstr "--- DNF5 llançat amb arguments: {} ---"
 
 #: main.cpp:1246
 msgid "Invalid \"index\" in \"--complete=<index>[,...]\": {}"
-msgstr ""
+msgstr "Índex no vàlid a \"--complete=<index>[,...]\": {}"
 
 #: main.cpp:1285
 msgid "{}."
