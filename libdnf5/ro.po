@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-07 03:03+0000\n"
+"POT-Creation-Date: 2025-02-11 03:03+0000\n"
 "PO-Revision-Date: 2025-02-08 03:38+0000\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -915,20 +915,24 @@ msgstr ""
 "Combinație API/modul neacceptată. Versiunea API furnizată de modulul "
 "„{}” („{}”) este „{}.{}”. Versiunea API în libdnf este „{}.{}”."
 
-#: plugin/plugins.cpp:114
+#: plugin/plugins.cpp:80
+msgid "Failed to create a libdnf plugin instance"
+msgstr ""
+
+#: plugin/plugins.cpp:117
 msgid "Cannot find plugin library \"{}\""
 msgstr "Nu se poate găsi biblioteca modulului „{}”"
 
-#: plugin/plugins.cpp:181
+#: plugin/plugins.cpp:184
 msgid "Invalid option value: enabled={}"
 msgstr "Valoare nevalidă a opțiunii: enabled={}"
 
-#: plugin/plugins.cpp:205
+#: plugin/plugins.cpp:208
 msgid "Plugins::load_plugins(): config_dir_path cannot be empty"
 msgstr ""
 "Plugins::load_plugins(): valoarea opțiunii config_dir_path nu poate fi goală"
 
-#: plugin/plugins.cpp:230
+#: plugin/plugins.cpp:233
 msgid "Cannot load plugins: {}"
 msgstr "Nu se pot încărca modulele: {}"
 
@@ -952,12 +956,18 @@ msgstr ""
 "Viteza maximă de descărcare este mai mică decât cea minimă, vă rugăm să "
 "modificați valoarea configurată a opțiunii „minrate” sau „throttle”"
 
-#: repo/package_downloader.cpp:153
+#: repo/package_downloader.cpp:154
 msgid "Cannot download the \"{0}\" package, cacheonly option is activated."
 msgstr ""
 "Nu se poate descărca pachetul „{0}”, opțiunea „cacheonly” este activată."
 
-#: repo/package_downloader.cpp:266
+#: repo/package_downloader.cpp:219
+#, fuzzy
+#| msgid "Failed to download files"
+msgid "Already downloaded"
+msgstr "Descărcarea fișierelor a eșuat"
+
+#: repo/package_downloader.cpp:267
 msgid "Failed to download packages"
 msgstr "Descărcarea pachetelor a eșuat"
 
@@ -1237,7 +1247,7 @@ msgstr "Nu se poate retrograda pachetul „{}”"
 msgid "Cannot install package \"{}\""
 msgstr "Nu se poate instala pachetul „{}”"
 
-#: rpm/versionlock_config.cpp:284 system/state.cpp:585
+#: rpm/versionlock_config.cpp:284 system/state.cpp:573
 msgid "{}"
 msgstr "{}"
 
@@ -1264,7 +1274,7 @@ msgstr ""
 "Încărcarea fișierului TOML de stare a sistemului {} a eșuat (consultați dnf5-"
 "system-state(7)): {}"
 
-#: system/state.cpp:614
+#: system/state.cpp:602
 msgid "Unsupported TOML version \"{}\", maximum supported version is \"{}\""
 msgstr "Versiune TOML neacceptată „{}”, versiunea maximă acceptată este „{}”"
 
@@ -1588,7 +1598,7 @@ msgstr "Lipsește „=” în linia {}"
 msgid "Cannot load shared library \"{}\": {}"
 msgstr "Nu se poate încărca biblioteca partajată „{}”: {}"
 
-#: utils/library.cpp:49
+#: utils/library.cpp:48
 msgid "Cannot obtain address of symbol \"{}\": {}"
 msgstr "Nu se poate obține adresa simbolului „{}”: {}"
 

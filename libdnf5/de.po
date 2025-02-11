@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-07 03:03+0000\n"
+"POT-Creation-Date: 2025-02-11 03:03+0000\n"
 "PO-Revision-Date: 2025-02-10 13:38+0000\n"
 "Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf5/"
@@ -702,8 +702,8 @@ msgstr[0] ""
 "Warnung: Übersprungene OpenPGP-Prüfungen für {0} Paket aus dem Repositories: "
 "{1}"
 msgstr[1] ""
-"Warnung: Übersprungene OpenPGP-Prüfungen für {0} Pakete aus den Repositories:"
-" {1}"
+"Warnung: Übersprungene OpenPGP-Prüfungen für {0} Pakete aus den "
+"Repositories: {1}"
 
 #: common/exception.cpp:78
 msgid "System error"
@@ -930,19 +930,23 @@ msgstr ""
 "bereitgestellte API-Version ist \"{}.{}\". Die API-Version in libdnf ist "
 "\"{}.{}\"."
 
-#: plugin/plugins.cpp:114
+#: plugin/plugins.cpp:80
+msgid "Failed to create a libdnf plugin instance"
+msgstr ""
+
+#: plugin/plugins.cpp:117
 msgid "Cannot find plugin library \"{}\""
 msgstr "Plugin-Bibliothek \"{}\" kann nicht gefunden werden"
 
-#: plugin/plugins.cpp:181
+#: plugin/plugins.cpp:184
 msgid "Invalid option value: enabled={}"
 msgstr "Ungültiger Optionswert: enabled={}"
 
-#: plugin/plugins.cpp:205
+#: plugin/plugins.cpp:208
 msgid "Plugins::load_plugins(): config_dir_path cannot be empty"
 msgstr "Plugins::load_plugins(): config_dir_path darf nicht leer sein"
 
-#: plugin/plugins.cpp:230
+#: plugin/plugins.cpp:233
 msgid "Cannot load plugins: {}"
 msgstr "Kann Plugins nicht laden: {}"
 
@@ -967,13 +971,19 @@ msgstr ""
 "Downloadgeschwindigkeit. Bitte passen Sie die Einstellung von minrate oder "
 "throttle an"
 
-#: repo/package_downloader.cpp:153
+#: repo/package_downloader.cpp:154
 msgid "Cannot download the \"{0}\" package, cacheonly option is activated."
 msgstr ""
 "Kann das Paket \"{0}\" nicht herunterladen, die Option cacheonly ist "
 "aktiviert."
 
-#: repo/package_downloader.cpp:266
+#: repo/package_downloader.cpp:219
+#, fuzzy
+#| msgid "Failed to download files"
+msgid "Already downloaded"
+msgstr "Herunterladen der Dateien fehlgeschlagen"
+
+#: repo/package_downloader.cpp:267
 msgid "Failed to download packages"
 msgstr "Herunterladen der Pakete fehlgeschlagen"
 
@@ -1269,7 +1279,7 @@ msgstr "Kann Paket \"{}\" nicht herabstufen"
 msgid "Cannot install package \"{}\""
 msgstr "Kann Paket \"{}\" nicht installieren"
 
-#: rpm/versionlock_config.cpp:284 system/state.cpp:585
+#: rpm/versionlock_config.cpp:284 system/state.cpp:573
 msgid "{}"
 msgstr "{}"
 
@@ -1296,7 +1306,7 @@ msgstr ""
 "Laden der System Status TOML Datei {} fehlgeschlagen (siehe dnf5-system-"
 "state(7)): {}"
 
-#: system/state.cpp:614
+#: system/state.cpp:602
 msgid "Unsupported TOML version \"{}\", maximum supported version is \"{}\""
 msgstr ""
 "Nicht unterstützte TOML-Version \"{}\", die höchstmöglich unterstützte "
@@ -1631,7 +1641,7 @@ msgstr "Fehlendes '=' in Zeile {}"
 msgid "Cannot load shared library \"{}\": {}"
 msgstr "Shared-Library kann nicht geladen werden \"{}\": {}"
 
-#: utils/library.cpp:49
+#: utils/library.cpp:48
 msgid "Cannot obtain address of symbol \"{}\": {}"
 msgstr "Adresse des Symbols kann nicht abgerufen werden \"{}\": {}"
 

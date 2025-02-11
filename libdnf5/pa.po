@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-07 03:03+0000\n"
+"POT-Creation-Date: 2025-02-11 03:03+0000\n"
 "PO-Revision-Date: 2024-11-19 09:15+0000\n"
 "Last-Translator: A S Alam <aalam@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Punjabi <https://translate.fedoraproject.org/projects/dnf5/"
@@ -839,19 +839,23 @@ msgid ""
 "\"{}\" (\"{}\") is \"{}.{}\". API version in libdnf is \"{}.{}\"."
 msgstr ""
 
-#: plugin/plugins.cpp:114
+#: plugin/plugins.cpp:80
+msgid "Failed to create a libdnf plugin instance"
+msgstr ""
+
+#: plugin/plugins.cpp:117
 msgid "Cannot find plugin library \"{}\""
 msgstr ""
 
-#: plugin/plugins.cpp:181
+#: plugin/plugins.cpp:184
 msgid "Invalid option value: enabled={}"
 msgstr ""
 
-#: plugin/plugins.cpp:205
+#: plugin/plugins.cpp:208
 msgid "Plugins::load_plugins(): config_dir_path cannot be empty"
 msgstr ""
 
-#: plugin/plugins.cpp:230
+#: plugin/plugins.cpp:233
 msgid "Cannot load plugins: {}"
 msgstr ""
 
@@ -873,11 +877,17 @@ msgid ""
 "minrate or throttle"
 msgstr ""
 
-#: repo/package_downloader.cpp:153
+#: repo/package_downloader.cpp:154
 msgid "Cannot download the \"{0}\" package, cacheonly option is activated."
 msgstr ""
 
-#: repo/package_downloader.cpp:266
+#: repo/package_downloader.cpp:219
+#, fuzzy
+#| msgid "Failed to download files"
+msgid "Already downloaded"
+msgstr "ਫਾਇਲਾਂ ਡਾਊਨਲੋਡ ਕਰਨ ਲਈ ਅਸਫ਼ਲ"
+
+#: repo/package_downloader.cpp:267
 msgid "Failed to download packages"
 msgstr "ਪੈਕੇਜ ਡਾਊਨਲੋਡ ਕਰਨ ਲਈ ਅਸਫ਼ਲ"
 
@@ -1132,7 +1142,7 @@ msgstr "\"{}\"ਪੈਕੇਜ ਡਾਊਨਗਰੇਡ ਨਹੀਂ ਕੀਤਾ
 msgid "Cannot install package \"{}\""
 msgstr "\"{}\" ਪੈਕੇਜ ਇੰਸਟਾਲ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ"
 
-#: rpm/versionlock_config.cpp:284 system/state.cpp:585
+#: rpm/versionlock_config.cpp:284 system/state.cpp:573
 msgid "{}"
 msgstr "{}"
 
@@ -1157,7 +1167,7 @@ msgstr ""
 msgid "Loading system state TOML file {} failed (see dnf5-system-state(7)): {}"
 msgstr ""
 
-#: system/state.cpp:614
+#: system/state.cpp:602
 msgid "Unsupported TOML version \"{}\", maximum supported version is \"{}\""
 msgstr ""
 
@@ -1455,7 +1465,7 @@ msgstr ""
 msgid "Cannot load shared library \"{}\": {}"
 msgstr ""
 
-#: utils/library.cpp:49
+#: utils/library.cpp:48
 msgid "Cannot obtain address of symbol \"{}\": {}"
 msgstr ""
 

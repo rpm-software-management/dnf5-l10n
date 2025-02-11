@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-07 03:03+0000\n"
+"POT-Creation-Date: 2025-02-11 03:03+0000\n"
 "PO-Revision-Date: 2025-01-10 17:01+0000\n"
 "Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -904,21 +904,25 @@ msgstr ""
 "Ei tuettu laajennuksen API-yhdistelmä. Liitännäisen \"{}\" (\"{}\") tarjoama "
 "API-versio on \"{}.{}\". API-versio libdnf:ssä on \"{}.{}\"."
 
-#: plugin/plugins.cpp:114
+#: plugin/plugins.cpp:80
+msgid "Failed to create a libdnf plugin instance"
+msgstr ""
+
+#: plugin/plugins.cpp:117
 msgid "Cannot find plugin library \"{}\""
 msgstr "Laajennuskirjastoa \"{}\" ei löydy"
 
-#: plugin/plugins.cpp:181
+#: plugin/plugins.cpp:184
 msgid "Invalid option value: enabled={}"
 msgstr "Virheellinen vaihtoehdon arvo: enabled={}"
 
-#: plugin/plugins.cpp:205
+#: plugin/plugins.cpp:208
 msgid "Plugins::load_plugins(): config_dir_path cannot be empty"
 msgstr ""
 "Plugins::load_plugins(): määrityksen hakemiston polku config_dir_path ei saa "
 "olla tyhjä"
 
-#: plugin/plugins.cpp:230
+#: plugin/plugins.cpp:233
 msgid "Cannot load plugins: {}"
 msgstr "Laajennuksia ei voi ladata: {}"
 
@@ -944,13 +948,19 @@ msgstr ""
 "Enimmäislatausnopeus on pienempi kuin vähimmäislataussnopeus. Muuta minrate-"
 "vähimmäisnopeuden tai throttle-askelten asetuksia"
 
-#: repo/package_downloader.cpp:153
+#: repo/package_downloader.cpp:154
 msgid "Cannot download the \"{0}\" package, cacheonly option is activated."
 msgstr ""
 "Pakettia \"{0}\" ei voi ladata, vain välimuisti -vaihtoehto cacheonly on "
 "aktivoitu."
 
-#: repo/package_downloader.cpp:266
+#: repo/package_downloader.cpp:219
+#, fuzzy
+#| msgid "Failed to download files"
+msgid "Already downloaded"
+msgstr "Tiedostojen lataaminen epäonnistui"
+
+#: repo/package_downloader.cpp:267
 msgid "Failed to download packages"
 msgstr "Pakettien lataaminen epäonnistui"
 
@@ -1229,7 +1239,7 @@ msgstr "Pakettia \"{}\" ei voi varhentaa"
 msgid "Cannot install package \"{}\""
 msgstr "Pakettia \"{}\" ei voi asentaa"
 
-#: rpm/versionlock_config.cpp:284 system/state.cpp:585
+#: rpm/versionlock_config.cpp:284 system/state.cpp:573
 msgid "{}"
 msgstr ""
 
@@ -1254,7 +1264,7 @@ msgstr ""
 msgid "Loading system state TOML file {} failed (see dnf5-system-state(7)): {}"
 msgstr ""
 
-#: system/state.cpp:614
+#: system/state.cpp:602
 msgid "Unsupported TOML version \"{}\", maximum supported version is \"{}\""
 msgstr ""
 
@@ -1552,7 +1562,7 @@ msgstr "Puuttuva '=' rivillä {}"
 msgid "Cannot load shared library \"{}\": {}"
 msgstr "Jaettua kirjastoa ”{}” ei voi ladata: {}"
 
-#: utils/library.cpp:49
+#: utils/library.cpp:48
 msgid "Cannot obtain address of symbol \"{}\": {}"
 msgstr "Symbolin \"{}\" osoitetta ei voi saada: {}"
 
