@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-11 03:03+0000\n"
-"PO-Revision-Date: 2025-02-08 03:38+0000\n"
+"PO-Revision-Date: 2025-02-11 23:05+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/ko/>\n"
@@ -876,7 +876,7 @@ msgstr ""
 
 #: plugin/plugins.cpp:80
 msgid "Failed to create a libdnf plugin instance"
-msgstr ""
+msgstr "libdnf 플러그인 예시를 생성하는 데 실패함"
 
 #: plugin/plugins.cpp:117
 msgid "Cannot find plugin library \"{}\""
@@ -920,10 +920,8 @@ msgstr ""
 "\"{0}\" 꾸러미를 내려받을 수 없으며, cacheonly 옵션이 활성화 되었습니다."
 
 #: repo/package_downloader.cpp:219
-#, fuzzy
-#| msgid "Failed to download files"
 msgid "Already downloaded"
-msgstr "파일을 내려받는 데 실패함"
+msgstr "이미 내려받음"
 
 #: repo/package_downloader.cpp:267
 msgid "Failed to download packages"
