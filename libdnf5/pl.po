@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-12 03:02+0000\n"
-"PO-Revision-Date: 2025-02-08 03:38+0000\n"
+"PO-Revision-Date: 2025-02-12 16:02+0000\n"
 "Last-Translator: Paweł Marciniak <sunwire+fas@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/pl/>\n"
@@ -911,7 +911,7 @@ msgstr ""
 
 #: plugin/plugins.cpp:80
 msgid "Failed to create a libdnf plugin instance"
-msgstr ""
+msgstr "Nie udało się utworzyć instancji wtyczki libdnf"
 
 #: plugin/plugins.cpp:117
 msgid "Cannot find plugin library \"{}\""
@@ -954,10 +954,8 @@ msgid "Cannot download the \"{0}\" package, cacheonly option is activated."
 msgstr "Nie można pobrać pakietu „{0}”, opcja cacheonly jest aktywna."
 
 #: repo/package_downloader.cpp:219
-#, fuzzy
-#| msgid "Failed to download files"
 msgid "Already downloaded"
-msgstr "Nie udało się pobrać plików"
+msgstr "Już pobrano"
 
 #: repo/package_downloader.cpp:267
 msgid "Failed to download packages"
