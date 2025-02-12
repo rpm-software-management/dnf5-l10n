@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-12 03:02+0000\n"
-"PO-Revision-Date: 2025-02-08 03:38+0000\n"
+"PO-Revision-Date: 2025-02-12 16:02+0000\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/ro/>\n"
@@ -917,7 +917,7 @@ msgstr ""
 
 #: plugin/plugins.cpp:80
 msgid "Failed to create a libdnf plugin instance"
-msgstr ""
+msgstr "Crearea unei instanțe de modul libdnf a eșuat"
 
 #: plugin/plugins.cpp:117
 msgid "Cannot find plugin library \"{}\""
@@ -962,10 +962,8 @@ msgstr ""
 "Nu se poate descărca pachetul „{0}”, opțiunea „cacheonly” este activată."
 
 #: repo/package_downloader.cpp:219
-#, fuzzy
-#| msgid "Failed to download files"
 msgid "Already downloaded"
-msgstr "Descărcarea fișierelor a eșuat"
+msgstr "Deja descărcat(e)"
 
 #: repo/package_downloader.cpp:267
 msgid "Failed to download packages"
