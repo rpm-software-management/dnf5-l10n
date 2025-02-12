@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-12 03:02+0000\n"
-"PO-Revision-Date: 2025-01-14 02:38+0000\n"
+"PO-Revision-Date: 2025-02-12 21:44+0000\n"
 "Last-Translator: Salvatore Cocuzza <info@salvatorecocuzza.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/it/>\n"
@@ -123,12 +123,10 @@ msgid "Limit to packages in bugfix advisories."
 msgstr "Limitare ai pacchetti negli avvisi di correzione dei bug."
 
 #: commands/advisory_shared.hpp:135
-#, fuzzy
 msgid "Limit to packages in enhancement advisories."
 msgstr "Limite ai pacchetti negli avvisi di miglioramento."
 
 #: commands/advisory_shared.hpp:142
-#, fuzzy
 msgid "Limit to packages in newpackage advisories."
 msgstr "Limite ai pacchetti negli avvisi sui nuovi pacchetti."
 
@@ -141,9 +139,8 @@ msgstr ""
 "Possono essere \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 
 #: commands/advisory_shared.hpp:155
-#, fuzzy
 msgid "ADVISORY_SEVERITY,..."
-msgstr "GRAVITÁ_AVVISO,..."
+msgstr ""
 
 #: commands/advisory_shared.hpp:167
 msgid ""
@@ -154,7 +151,6 @@ msgstr ""
 "123123. Opzione elenco."
 
 #: commands/advisory_shared.hpp:168
-#, fuzzy
 msgid "BUGZILLA_ID,..."
 msgstr "ID_BUGZILLA,..."
 
@@ -167,7 +163,6 @@ msgstr ""
 "Vulnerabilities and Exposures), ad es. CVE-2201-0123. Opzione elenco."
 
 #: commands/advisory_shared.hpp:180
-#, fuzzy
 msgid "CVE_ID,..."
 msgstr "ID_CVE,..."
 
@@ -328,16 +323,12 @@ msgstr ""
 "Non considera pacchetti extra spinti dentro le transazioni come errori."
 
 #: commands/history/arguments.hpp:80
-#, fuzzy
-#| msgid ""
-#| "Show only groups containing packages with specified names. List option, "
-#| "supports globs."
 msgid ""
 "Show only transactions containing packages with specified names. List "
 "option, supports globs."
 msgstr ""
-"Mostra solo i gruppi che contengono i pacchetti con i nomi specificati. "
-"Opzioni elencate, supporta i globs."
+"Mostra solo le transazioni contenenti pacchetti con nomi specificati. "
+"Opzione elenco, supporta i glob."
 
 #: commands/history/history.cpp:41
 msgid "Manage transaction history"
@@ -348,6 +339,9 @@ msgid ""
 "No match found, history info defaults to considering only the last "
 "transaction, specify \"1..last\" range to search all transactions."
 msgstr ""
+"Nessuna corrispondenza trovata, le informazioni sulla cronologia considerano "
+"per impostazione predefinita solo l'ultima transazione, specifica "
+"l'intervallo \"1..last\" per cercare tutte le transazioni."
 
 #: commands/history/history_redo.cpp:53
 #: commands/history/history_rollback.cpp:57
