@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-12 03:02+0000\n"
+"POT-Creation-Date: 2025-02-13 03:03+0000\n"
 "PO-Revision-Date: 2025-02-12 16:02+0000\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -907,7 +907,7 @@ msgstr "Lipsește „:” din valoare"
 msgid "Invalid module status: {}"
 msgstr "Stare nevalidă a modulului: {}"
 
-#: plugin/plugins.cpp:65
+#: plugin/plugins.cpp:67
 msgid ""
 "Unsupported plugin API combination. API version provided by plugin "
 "\"{}\" (\"{}\") is \"{}.{}\". API version in libdnf is \"{}.{}\"."
@@ -915,24 +915,24 @@ msgstr ""
 "Combinație API/modul neacceptată. Versiunea API furnizată de modulul "
 "„{}” („{}”) este „{}.{}”. Versiunea API în libdnf este „{}.{}”."
 
-#: plugin/plugins.cpp:80
+#: plugin/plugins.cpp:92
 msgid "Failed to create a libdnf plugin instance"
 msgstr "Crearea unei instanțe de modul libdnf a eșuat"
 
-#: plugin/plugins.cpp:117
+#: plugin/plugins.cpp:146
 msgid "Cannot find plugin library \"{}\""
 msgstr "Nu se poate găsi biblioteca modulului „{}”"
 
-#: plugin/plugins.cpp:184
+#: plugin/plugins.cpp:213
 msgid "Invalid option value: enabled={}"
 msgstr "Valoare nevalidă a opțiunii: enabled={}"
 
-#: plugin/plugins.cpp:208
+#: plugin/plugins.cpp:237
 msgid "Plugins::load_plugins(): config_dir_path cannot be empty"
 msgstr ""
 "Plugins::load_plugins(): valoarea opțiunii config_dir_path nu poate fi goală"
 
-#: plugin/plugins.cpp:233
+#: plugin/plugins.cpp:262
 msgid "Cannot load plugins: {}"
 msgstr "Nu se pot încărca modulele: {}"
 

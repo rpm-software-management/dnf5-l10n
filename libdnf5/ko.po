@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-12 03:02+0000\n"
+"POT-Creation-Date: 2025-02-13 03:03+0000\n"
 "PO-Revision-Date: 2025-02-11 23:05+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
@@ -866,7 +866,7 @@ msgstr "값에서 누락된 ':'"
 msgid "Invalid module status: {}"
 msgstr "잘못된 모듈 상태: {}"
 
-#: plugin/plugins.cpp:65
+#: plugin/plugins.cpp:67
 msgid ""
 "Unsupported plugin API combination. API version provided by plugin "
 "\"{}\" (\"{}\") is \"{}.{}\". API version in libdnf is \"{}.{}\"."
@@ -874,23 +874,23 @@ msgstr ""
 "미지원 플러그인 API 조합. 플러그인에 의해 제공되는 API 버전은 \"{}.{}\"입니"
 "다. libdnf에서 API 버전은 \"{}.{}\"입니다."
 
-#: plugin/plugins.cpp:80
+#: plugin/plugins.cpp:92
 msgid "Failed to create a libdnf plugin instance"
 msgstr "libdnf 플러그인 예시를 생성하는 데 실패함"
 
-#: plugin/plugins.cpp:117
+#: plugin/plugins.cpp:146
 msgid "Cannot find plugin library \"{}\""
 msgstr "플러그인 라이브러리 \"{}\"를 찾을 수 없습니다"
 
-#: plugin/plugins.cpp:184
+#: plugin/plugins.cpp:213
 msgid "Invalid option value: enabled={}"
 msgstr "잘못된 옵션 값: enabled={}"
 
-#: plugin/plugins.cpp:208
+#: plugin/plugins.cpp:237
 msgid "Plugins::load_plugins(): config_dir_path cannot be empty"
 msgstr "Plugins::load_plugins(): config_dir_path는 비워 둘 수 없습니다"
 
-#: plugin/plugins.cpp:233
+#: plugin/plugins.cpp:262
 msgid "Cannot load plugins: {}"
 msgstr "플러그인을 적재 할 수 없습니다: {}"
 

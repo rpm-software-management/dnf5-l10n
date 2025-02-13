@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-12 03:02+0000\n"
+"POT-Creation-Date: 2025-02-13 03:03+0000\n"
 "PO-Revision-Date: 2025-01-10 17:01+0000\n"
 "Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -896,7 +896,7 @@ msgstr "Arvossa puuttuva ':'"
 msgid "Invalid module status: {}"
 msgstr "Virheellinen moduulin tila: {}"
 
-#: plugin/plugins.cpp:65
+#: plugin/plugins.cpp:67
 msgid ""
 "Unsupported plugin API combination. API version provided by plugin "
 "\"{}\" (\"{}\") is \"{}.{}\". API version in libdnf is \"{}.{}\"."
@@ -904,25 +904,25 @@ msgstr ""
 "Ei tuettu laajennuksen API-yhdistelmä. Liitännäisen \"{}\" (\"{}\") tarjoama "
 "API-versio on \"{}.{}\". API-versio libdnf:ssä on \"{}.{}\"."
 
-#: plugin/plugins.cpp:80
+#: plugin/plugins.cpp:92
 msgid "Failed to create a libdnf plugin instance"
 msgstr ""
 
-#: plugin/plugins.cpp:117
+#: plugin/plugins.cpp:146
 msgid "Cannot find plugin library \"{}\""
 msgstr "Laajennuskirjastoa \"{}\" ei löydy"
 
-#: plugin/plugins.cpp:184
+#: plugin/plugins.cpp:213
 msgid "Invalid option value: enabled={}"
 msgstr "Virheellinen vaihtoehdon arvo: enabled={}"
 
-#: plugin/plugins.cpp:208
+#: plugin/plugins.cpp:237
 msgid "Plugins::load_plugins(): config_dir_path cannot be empty"
 msgstr ""
 "Plugins::load_plugins(): määrityksen hakemiston polku config_dir_path ei saa "
 "olla tyhjä"
 
-#: plugin/plugins.cpp:233
+#: plugin/plugins.cpp:262
 msgid "Cannot load plugins: {}"
 msgstr "Laajennuksia ei voi ladata: {}"
 
