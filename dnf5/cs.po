@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Petr Ptacek <petr106@atlas.cz>, 2024.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024.
+# Petr Stourac <stouracp@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-13 03:03+0000\n"
-"PO-Revision-Date: 2024-02-06 09:36+0000\n"
-"Last-Translator: Petr Ptacek <petr106@atlas.cz>\n"
+"PO-Revision-Date: 2025-02-14 02:56+0000\n"
+"Last-Translator: Petr Stourac <stouracp@gmail.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf5/dnf5/"
 "cs/>\n"
 "Language: cs\n"
@@ -17,13 +18,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 5.3.1\n"
+"X-Generator: Weblate 5.9.2\n"
 
 #: commands/advisory/advisory.cpp:36
-#, fuzzy
-#| msgid "List advisories"
 msgid "Manage advisories"
-msgstr "Seznam doporučení"
+msgstr "Správa doporučení"
 
 #: commands/advisory/advisory_info.hpp:35
 msgid "Print details about advisories"
@@ -58,12 +57,12 @@ msgid "Show advisories containing any version of installed packages."
 msgstr "Zobrazí doporučení obsahující jakoukoli verzi nainstalovaných balíčků."
 
 #: commands/advisory/arguments.hpp:45
-#, fuzzy
-#| msgid "Show advisories containing newer versions of installed packages."
 msgid ""
 "Show advisories containing newer versions of installed packages. This is the "
 "default behavior."
-msgstr "Zobrazí doporučení obsahující novější verze nainstalovaných balíčků."
+msgstr ""
+"Zobrazí doporučení obsahující novější verze nainstalovaných balíčků. Toto je "
+"běžné chování."
 
 #: commands/advisory/arguments.hpp:57
 msgid ""
@@ -166,7 +165,7 @@ msgstr "CVE_ID,..."
 
 #: commands/autoremove/autoremove.cpp:38
 msgid "Remove all unneeded packages originally installed as dependencies."
-msgstr ""
+msgstr "Odebrat všechny nepotřebné balíčky instalované jako závislosti."
 
 #: commands/check-upgrade/check-upgrade.cpp:47
 #, fuzzy
@@ -215,10 +214,8 @@ msgid "Cannot iterate cache directory \"{}\": {}"
 msgstr "Nelze načíst sdílenou knihovnu \"{}\": {}"
 
 #: commands/debuginfo-install/debuginfo-install.cpp:45
-#, fuzzy
-#| msgid "Allow skipping unavailable packages"
 msgid "Install debuginfo packages."
-msgstr "Povolit přeskočení nedostupných balíčků"
+msgstr "nainstalovat debuginfo balíčky"
 
 #: commands/distro-sync/distro-sync.cpp:42
 msgid ""
