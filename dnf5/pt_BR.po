@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-13 03:03+0000\n"
-"PO-Revision-Date: 2025-01-28 02:25+0000\n"
+"PO-Revision-Date: 2025-02-14 02:56+0000\n"
 "Last-Translator: Ciro Mota <ciro.mota@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf5/dnf5/pt_BR/>\n"
@@ -282,8 +282,8 @@ msgid ""
 "Show only groups containing packages with specified names. List option, "
 "supports globs."
 msgstr ""
-"Mostra apenas grupos contendo pacotes com nomes especificados. Opção de "
-"lista, suporta caracteres curinga."
+"Mostrar apenas grupos contendo pacotes com nomes especificados. Opção de "
+"lista, suporta globs."
 
 #: commands/group/arguments.hpp:67
 msgid "Pattern matching group IDS."
@@ -854,46 +854,39 @@ msgstr "A chave foi importada com sucesso."
 
 #: context.cpp:96
 msgid "The following PGP key (0x{}) is about to be removed:"
-msgstr ""
+msgstr "A seguinte chave PGP (0x{}) está prestes a ser removida:"
 
 #: context.cpp:98
-#, fuzzy
-#| msgid " UserID     : \"{}\"\n"
 msgid " Reason     : {}\n"
-msgstr " ID do usuário     : \"{}\"\n"
+msgstr " Razão     : {}\n"
 
 #: context.cpp:102
-#, fuzzy
-#| msgid ""
-#| " Fingerprint: {}\n"
-#| " From       : {}\n"
 msgid " From       : {}\n"
-msgstr ""
-" Impressão digital: {}\n"
-" De       : {}\n"
+msgstr " De       : {}\n"
 
 #: context.cpp:104
 msgid "As a result, installing packages signed with this key will fail."
 msgstr ""
+"Como resultado, a instalação de pacotes assinados com esta chave falhará."
 
 #: context.cpp:105
 msgid "It is recommended to remove the expired key to allow importing"
-msgstr ""
+msgstr "É recomendável remover a chave expirada para permitir a importação"
 
 #: context.cpp:106
 msgid ""
 "an updated key. This might leave already installed packages unverifiable."
 msgstr ""
+"uma chave atualizada. Isso pode deixar pacotes já instalados não "
+"verificáveis."
 
 #: context.cpp:109
 msgid "The system will now proceed with removing the key."
-msgstr ""
+msgstr "O sistema agora prosseguirá com a remoção da chave."
 
 #: context.cpp:115
-#, fuzzy
-#| msgid "The key was successfully imported."
 msgid "The key was successfully removed."
-msgstr "A chave foi importada com sucesso."
+msgstr "A chave foi removida com sucesso."
 
 #: context.cpp:290
 msgid "setopt: \"{}.{}\": {}"
@@ -1443,7 +1436,7 @@ msgstr "--- DNF5 iniciado com os argumentos: \"{}\" ---"
 
 #: main.cpp:1246
 msgid "Invalid \"index\" in \"--complete=<index>[,...]\": {}"
-msgstr ""
+msgstr "Inválido \"index\" em \"--complete=<index>[,...]\": {}"
 
 #: main.cpp:1285
 msgid "{}."
