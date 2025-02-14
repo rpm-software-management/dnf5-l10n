@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-13 03:03+0000\n"
+"POT-Creation-Date: 2025-02-14 03:02+0000\n"
 "PO-Revision-Date: 2025-02-10 13:38+0000\n"
 "Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf5/"
@@ -946,8 +946,10 @@ msgstr "Ungültiger Optionswert: enabled={}"
 msgid "Plugins::load_plugins(): config_dir_path cannot be empty"
 msgstr "Plugins::load_plugins(): config_dir_path darf nicht leer sein"
 
-#: plugin/plugins.cpp:262
-msgid "Cannot load plugins: {}"
+#: plugin/plugins.cpp:253
+#, fuzzy
+#| msgid "Cannot load plugins: {}"
+msgid "Cannot load libdnf plugin enabled from: {}"
 msgstr "Kann Plugins nicht laden: {}"
 
 #: repo/config_repo.cpp:566

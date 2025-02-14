@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-13 03:03+0000\n"
+"POT-Creation-Date: 2025-02-14 03:02+0000\n"
 "PO-Revision-Date: 2025-01-10 17:01+0000\n"
 "Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -922,8 +922,10 @@ msgstr ""
 "Plugins::load_plugins(): määrityksen hakemiston polku config_dir_path ei saa "
 "olla tyhjä"
 
-#: plugin/plugins.cpp:262
-msgid "Cannot load plugins: {}"
+#: plugin/plugins.cpp:253
+#, fuzzy
+#| msgid "Cannot load plugins: {}"
+msgid "Cannot load libdnf plugin enabled from: {}"
 msgstr "Laajennuksia ei voi ladata: {}"
 
 #: repo/config_repo.cpp:566
