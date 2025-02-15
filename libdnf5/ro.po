@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-14 03:02+0000\n"
-"PO-Revision-Date: 2025-02-12 16:02+0000\n"
+"PO-Revision-Date: 2025-02-16 03:38+0000\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/ro/>\n"
@@ -933,10 +933,8 @@ msgstr ""
 "Plugins::load_plugins(): valoarea opțiunii config_dir_path nu poate fi goală"
 
 #: plugin/plugins.cpp:253
-#, fuzzy
-#| msgid "Cannot load plugins: {}"
 msgid "Cannot load libdnf plugin enabled from: {}"
-msgstr "Nu se pot încărca modulele: {}"
+msgstr "Nu se poate încărca modulul libdnf activat de la: {}"
 
 #: repo/config_repo.cpp:566
 msgid "get_unique_id(): Computation of SHA256 failed"
