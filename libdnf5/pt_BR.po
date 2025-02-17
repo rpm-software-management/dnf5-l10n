@@ -5,13 +5,14 @@
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024.
 # "Geraldo S. Simião Kutz" <geraldo.simiao.kutz@gmail.com>, 2024.
 # Fábio Rodrigues Ribeiro <farribeiro@gmail.com>, 2024.
+# Ciro Mota <ciro.mota@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-14 03:02+0000\n"
-"PO-Revision-Date: 2024-12-16 20:42+0000\n"
-"Last-Translator: \"Geraldo S. Simião Kutz\" <geraldo.simiao.kutz@gmail.com>\n"
+"PO-Revision-Date: 2025-02-18 02:55+0000\n"
+"Last-Translator: Ciro Mota <ciro.mota@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf5/libdnf5/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -19,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.8.4\n"
+"X-Generator: Weblate 5.9.2\n"
 
 #: advisory/advisory.cpp:81
 msgid ""
@@ -913,7 +914,7 @@ msgstr ""
 
 #: plugin/plugins.cpp:92
 msgid "Failed to create a libdnf plugin instance"
-msgstr ""
+msgstr "Falha ao criar uma instância do plugin libdnf"
 
 #: plugin/plugins.cpp:146
 msgid "Cannot find plugin library \"{}\""
@@ -928,10 +929,8 @@ msgid "Plugins::load_plugins(): config_dir_path cannot be empty"
 msgstr "Plugins::load_plugins(): config_dir_path não pode estar vazio"
 
 #: plugin/plugins.cpp:253
-#, fuzzy
-#| msgid "Cannot load plugins: {}"
 msgid "Cannot load libdnf plugin enabled from: {}"
-msgstr "Não é possível carregar plugins: {}"
+msgstr "Não é possível carregar o plugin libdnf habilitado de: {}"
 
 #: repo/config_repo.cpp:566
 msgid "get_unique_id(): Computation of SHA256 failed"
@@ -960,10 +959,8 @@ msgstr ""
 "ativada."
 
 #: repo/package_downloader.cpp:219
-#, fuzzy
-#| msgid "Failed to download files"
 msgid "Already downloaded"
-msgstr "Falha ao baixar arquivos"
+msgstr "Já baixado"
 
 #: repo/package_downloader.cpp:267
 msgid "Failed to download packages"
