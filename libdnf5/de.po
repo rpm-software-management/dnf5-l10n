@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-14 03:02+0000\n"
+"POT-Creation-Date: 2025-02-18 03:02+0000\n"
 "PO-Revision-Date: 2025-02-10 13:38+0000\n"
 "Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf5/"
@@ -740,23 +740,23 @@ msgstr ""
 msgid "Invalid package type: {}"
 msgstr "Ungültiger Pakettyp: {}"
 
-#: conf/config_main.cpp:56
+#: conf/config_main.cpp:57
 msgid "Input is empty. Must contain a value."
 msgstr "Eingabe ist leer. Sie muss einen Wert enthalten."
 
-#: conf/config_main.cpp:62
+#: conf/config_main.cpp:63
 msgid "Input value '{}' must not be negative"
 msgstr "Eingabewert '{}' darf nicht negativ sein"
 
-#: conf/config_main.cpp:67
+#: conf/config_main.cpp:68
 msgid "Could not convert '{}' to bytes"
 msgstr "Konnte {} nicht in Bytes konvertieren"
 
-#: conf/config_main.cpp:83
+#: conf/config_main.cpp:84
 msgid "Unknown unit '{}'"
 msgstr "Unbekannte Einheit '{}'"
 
-#: conf/config_main.cpp:278
+#: conf/config_main.cpp:279
 msgid "The throttle value {} is outside the allowed range {} ... {}"
 msgstr "Der Reglerwert {} liegt außerhalb des erlaubten Bereichs {} ... {}"
 
@@ -952,7 +952,7 @@ msgstr "Plugins::load_plugins(): config_dir_path darf nicht leer sein"
 msgid "Cannot load libdnf plugin enabled from: {}"
 msgstr "Kann Plugins nicht laden: {}"
 
-#: repo/config_repo.cpp:566
+#: repo/config_repo.cpp:569
 msgid "get_unique_id(): Computation of SHA256 failed"
 msgstr "get_unique_id(): Die Berechnung von SHA256 ist fehlgeschlagen"
 
@@ -1088,7 +1088,7 @@ msgstr "Auflisten der OpenPGP-Schlüssel ist fehlgeschlagen: {}"
 msgid "Failed to import OpenPGP keys: {}"
 msgstr "Importieren der OpenPGP-Schlüssel ist fehlgeschlagen: {}"
 
-#: repo/repo_sack.cpp:148
+#: repo/repo_sack.cpp:149
 msgid ""
 "Failed to create repo \"{}\": Id is present more than once in the "
 "configuration"
@@ -1096,7 +1096,7 @@ msgstr ""
 "Erstellen von Repo \"{}\" fehlgeschlagen: ID ist mehr als einmal in der "
 "Konfiguration enthalten"
 
-#: repo/repo_sack.cpp:530
+#: repo/repo_sack.cpp:531
 msgid "Cache-only enabled but no cache for repository \"{}\""
 msgstr "Cache-only ist aktiviert, aber kein Cache für Repository \"{}\""
 

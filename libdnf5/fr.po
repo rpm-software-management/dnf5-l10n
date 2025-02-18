@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-14 03:02+0000\n"
+"POT-Creation-Date: 2025-02-18 03:02+0000\n"
 "PO-Revision-Date: 2025-02-14 13:12+0000\n"
 "Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf5/"
@@ -729,23 +729,23 @@ msgstr ""
 msgid "Invalid package type: {}"
 msgstr "Type de paquet invalide : {}"
 
-#: conf/config_main.cpp:56
+#: conf/config_main.cpp:57
 msgid "Input is empty. Must contain a value."
 msgstr "L'entrée est vide. Elle doit contenir une valeur."
 
-#: conf/config_main.cpp:62
+#: conf/config_main.cpp:63
 msgid "Input value '{}' must not be negative"
 msgstr "La valeur en entrée '{}' ne doit pas être négative"
 
-#: conf/config_main.cpp:67
+#: conf/config_main.cpp:68
 msgid "Could not convert '{}' to bytes"
 msgstr "Impossible de convertir '{}' en octets"
 
-#: conf/config_main.cpp:83
+#: conf/config_main.cpp:84
 msgid "Unknown unit '{}'"
 msgstr "Unité '{}' inconnue"
 
-#: conf/config_main.cpp:278
+#: conf/config_main.cpp:279
 msgid "The throttle value {} is outside the allowed range {} ... {}"
 msgstr ""
 "La valeur limitant la vitesse de téléchargement ({}) n'est pas comprise dans "
@@ -945,7 +945,7 @@ msgstr "Plugins::load_plugins(): config_dir_path ne peut pas être vide"
 msgid "Cannot load libdnf plugin enabled from: {}"
 msgstr "Impossible de charger le plugin libdnf activé à partir de : {}"
 
-#: repo/config_repo.cpp:566
+#: repo/config_repo.cpp:569
 msgid "get_unique_id(): Computation of SHA256 failed"
 msgstr "get_unique_id(): Échec du calcul du SHA256"
 
@@ -1075,7 +1075,7 @@ msgstr "Échec de la récupération de la liste des clés OpenPGP : {}"
 msgid "Failed to import OpenPGP keys: {}"
 msgstr "Échec de l'importation des clés OpenPGP : {}"
 
-#: repo/repo_sack.cpp:148
+#: repo/repo_sack.cpp:149
 msgid ""
 "Failed to create repo \"{}\": Id is present more than once in the "
 "configuration"
@@ -1083,7 +1083,7 @@ msgstr ""
 "Échec de la création du dépôt \"{}\" : l'ID est présent plus d'une fois dans "
 "la configuration"
 
-#: repo/repo_sack.cpp:530
+#: repo/repo_sack.cpp:531
 msgid "Cache-only enabled but no cache for repository \"{}\""
 msgstr "L'option cacheonly est activée mais le dépôt \"{}\" n'est pas en cache"
 

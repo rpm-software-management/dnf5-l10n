@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-14 03:02+0000\n"
+"POT-Creation-Date: 2025-02-18 03:02+0000\n"
 "PO-Revision-Date: 2025-02-14 07:04+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
@@ -688,23 +688,23 @@ msgstr "파일에 그룹 \"{}\"을 위해 xml 문서를 저장하는 데 실패�
 msgid "Invalid package type: {}"
 msgstr "잘못된 꾸러미 유형: {}"
 
-#: conf/config_main.cpp:56
+#: conf/config_main.cpp:57
 msgid "Input is empty. Must contain a value."
 msgstr "입력이 비었습니다. 값이 포함되어야 합니다."
 
-#: conf/config_main.cpp:62
+#: conf/config_main.cpp:63
 msgid "Input value '{}' must not be negative"
 msgstr "입력값 '{}'은 음수가 아니어야 합니다"
 
-#: conf/config_main.cpp:67
+#: conf/config_main.cpp:68
 msgid "Could not convert '{}' to bytes"
 msgstr "'{}'를 바이트로 변환 할 수 없습니다"
 
-#: conf/config_main.cpp:83
+#: conf/config_main.cpp:84
 msgid "Unknown unit '{}'"
 msgstr "알 수 없는 단위 '{}'"
 
-#: conf/config_main.cpp:278
+#: conf/config_main.cpp:279
 msgid "The throttle value {} is outside the allowed range {} ... {}"
 msgstr "쓰로틀 값 {}은 허용된 범위 {} 밖에 있습니다 {} ... {}"
 
@@ -894,7 +894,7 @@ msgstr "Plugins::load_plugins(): config_dir_path는 비워 둘 수 없습니다"
 msgid "Cannot load libdnf plugin enabled from: {}"
 msgstr "다음에서 활성화된 libdnf 플러그인을 적재 할 수 없습니다: {}"
 
-#: repo/config_repo.cpp:566
+#: repo/config_repo.cpp:569
 msgid "get_unique_id(): Computation of SHA256 failed"
 msgstr "get_unique_id(): SHA256 연산이 실패함"
 
@@ -1018,13 +1018,13 @@ msgstr "Openpgp 키를 나열하는 데 실패함: {}"
 msgid "Failed to import OpenPGP keys: {}"
 msgstr "Openpgp 키를 가져오는 데 실패함: {}"
 
-#: repo/repo_sack.cpp:148
+#: repo/repo_sack.cpp:149
 msgid ""
 "Failed to create repo \"{}\": Id is present more than once in the "
 "configuration"
 msgstr "repo \"{}\"를 생성하는 데 실패함: Id는 구성에서 두 번 이상 존재합니다"
 
-#: repo/repo_sack.cpp:530
+#: repo/repo_sack.cpp:531
 msgid "Cache-only enabled but no cache for repository \"{}\""
 msgstr "캐쉬-전용이 활성화되었으나 저장소를 위한 캐쉬가 없습니다 \"{}\""
 

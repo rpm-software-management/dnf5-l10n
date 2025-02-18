@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-14 03:02+0000\n"
+"POT-Creation-Date: 2025-02-18 03:02+0000\n"
 "PO-Revision-Date: 2025-02-16 03:38+0000\n"
 "Last-Translator: Paweł Marciniak <sunwire+fas@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -721,23 +721,23 @@ msgstr "Nie udało się zapisać dokumentu XML dla grupy „{}” do pliku „{}
 msgid "Invalid package type: {}"
 msgstr "Nieprawidłowy typ pakietu: {}"
 
-#: conf/config_main.cpp:56
+#: conf/config_main.cpp:57
 msgid "Input is empty. Must contain a value."
 msgstr "Dane wejściowe są puste. Muszą zawierać wartość."
 
-#: conf/config_main.cpp:62
+#: conf/config_main.cpp:63
 msgid "Input value '{}' must not be negative"
 msgstr "Wartość wejściowa '{}' nie może być ujemna"
 
-#: conf/config_main.cpp:67
+#: conf/config_main.cpp:68
 msgid "Could not convert '{}' to bytes"
 msgstr "Nie można przekonwertować '{}' na bajty"
 
-#: conf/config_main.cpp:83
+#: conf/config_main.cpp:84
 msgid "Unknown unit '{}'"
 msgstr "Nieznana jednostka '{}'"
 
-#: conf/config_main.cpp:278
+#: conf/config_main.cpp:279
 msgid "The throttle value {} is outside the allowed range {} ... {}"
 msgstr ""
 
@@ -929,7 +929,7 @@ msgstr "Plugins::load_plugins(): config_dir_path nie może być pusty"
 msgid "Cannot load libdnf plugin enabled from: {}"
 msgstr "Nie można załadować wtyczki libdnf włączonej z: {}"
 
-#: repo/config_repo.cpp:566
+#: repo/config_repo.cpp:569
 msgid "get_unique_id(): Computation of SHA256 failed"
 msgstr "get_unique_id(): Obliczenie SHA256 nie powiodło się"
 
@@ -1055,7 +1055,7 @@ msgstr "Nie udało się wyświetlić kluczy OpenPGP: {}"
 msgid "Failed to import OpenPGP keys: {}"
 msgstr "Nie udało się zaimportować kluczy OpenPGP: {}"
 
-#: repo/repo_sack.cpp:148
+#: repo/repo_sack.cpp:149
 msgid ""
 "Failed to create repo \"{}\": Id is present more than once in the "
 "configuration"
@@ -1063,7 +1063,7 @@ msgstr ""
 "Nie udało się utworzyć repozytorium „{}”: Identyfikator występuje więcej niż "
 "raz w konfiguracji"
 
-#: repo/repo_sack.cpp:530
+#: repo/repo_sack.cpp:531
 msgid "Cache-only enabled but no cache for repository \"{}\""
 msgstr ""
 "Włączono tylko pamięć podręczną, ale brak pamięci podręcznej dla "

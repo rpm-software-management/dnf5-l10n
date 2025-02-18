@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-14 03:02+0000\n"
+"POT-Creation-Date: 2025-02-18 03:02+0000\n"
 "PO-Revision-Date: 2024-09-19 09:54+0000\n"
 "Last-Translator: Aleksey Fedorov <aleksejfedorov963@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -725,23 +725,23 @@ msgstr "Не удалось сохранить xml-документ для гр�
 msgid "Invalid package type: {}"
 msgstr "Недопустимый тип пакета: {}"
 
-#: conf/config_main.cpp:56
+#: conf/config_main.cpp:57
 msgid "Input is empty. Must contain a value."
 msgstr "Ввод пуст. Должен содержать значение."
 
-#: conf/config_main.cpp:62
+#: conf/config_main.cpp:63
 msgid "Input value '{}' must not be negative"
 msgstr "Входное значение '{}' не должно быть отрицательным"
 
-#: conf/config_main.cpp:67
+#: conf/config_main.cpp:68
 msgid "Could not convert '{}' to bytes"
 msgstr "Не удалось преобразовать '{}' в байты"
 
-#: conf/config_main.cpp:83
+#: conf/config_main.cpp:84
 msgid "Unknown unit '{}'"
 msgstr "Неизвестная единица '{}'"
 
-#: conf/config_main.cpp:278
+#: conf/config_main.cpp:279
 msgid "The throttle value {} is outside the allowed range {} ... {}"
 msgstr "Значение дросселя {} находится вне допустимого диапазона {} ... {}"
 
@@ -937,7 +937,7 @@ msgstr "Plugins::load_plugins(): config_dir_path не может быть пус
 msgid "Cannot load libdnf plugin enabled from: {}"
 msgstr "Невозможно загрузить плагины: {}"
 
-#: repo/config_repo.cpp:566
+#: repo/config_repo.cpp:569
 msgid "get_unique_id(): Computation of SHA256 failed"
 msgstr "get_unique_id(): Сбой вычисления SHA256"
 
@@ -1068,7 +1068,7 @@ msgstr "Не удалось перечислить pgp-ключи: {}"
 msgid "Failed to import OpenPGP keys: {}"
 msgstr "Не удалось импортировать pgp-ключи: {}"
 
-#: repo/repo_sack.cpp:148
+#: repo/repo_sack.cpp:149
 msgid ""
 "Failed to create repo \"{}\": Id is present more than once in the "
 "configuration"
@@ -1076,7 +1076,7 @@ msgstr ""
 "Не удалось создать репозиторий \"{}\": Идентификатор присутствует в "
 "конфигурации более одного раза"
 
-#: repo/repo_sack.cpp:530
+#: repo/repo_sack.cpp:531
 msgid "Cache-only enabled but no cache for repository \"{}\""
 msgstr "Включено только кэширование, но нет кэша для репозитория \"{}\""
 

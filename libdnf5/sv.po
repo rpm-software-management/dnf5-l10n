@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-14 03:02+0000\n"
+"POT-Creation-Date: 2025-02-18 03:02+0000\n"
 "PO-Revision-Date: 2025-02-14 13:12+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -705,23 +705,23 @@ msgstr "Misslyckades att spara xml dokument för grupp \"{} till fil \"{}: {}"
 msgid "Invalid package type: {}"
 msgstr "Ogiltig paket typ: {}"
 
-#: conf/config_main.cpp:56
+#: conf/config_main.cpp:57
 msgid "Input is empty. Must contain a value."
 msgstr "Indata är tom. Måste innehålla ett värde."
 
-#: conf/config_main.cpp:62
+#: conf/config_main.cpp:63
 msgid "Input value '{}' must not be negative"
 msgstr "Indatavärdet '{}' får inte vara negativt"
 
-#: conf/config_main.cpp:67
+#: conf/config_main.cpp:68
 msgid "Could not convert '{}' to bytes"
 msgstr "Kan inte konvertera '{}' till bytes"
 
-#: conf/config_main.cpp:83
+#: conf/config_main.cpp:84
 msgid "Unknown unit '{}'"
 msgstr "Okänd enhet '{}'"
 
-#: conf/config_main.cpp:278
+#: conf/config_main.cpp:279
 msgid "The throttle value {} is outside the allowed range {} ... {}"
 msgstr "Spjällvärdet {} är utanför det tillåtna intervallet {} ... {}"
 
@@ -914,7 +914,7 @@ msgstr "Plugins::load_plugins(): config_dir_path kan inte vara tom"
 msgid "Cannot load libdnf plugin enabled from: {}"
 msgstr "Kan inte ladda libdnf plugin aktiverat från: {}"
 
-#: repo/config_repo.cpp:566
+#: repo/config_repo.cpp:569
 msgid "get_unique_id(): Computation of SHA256 failed"
 msgstr "get_unique_id(): Beräkning av SHA256 misslyckades"
 
@@ -1039,7 +1039,7 @@ msgstr "Misslyckades att lista OpenPGP nycklar: {}"
 msgid "Failed to import OpenPGP keys: {}"
 msgstr "Misslyckades att importera OpenPGP nycklar: {}"
 
-#: repo/repo_sack.cpp:148
+#: repo/repo_sack.cpp:149
 msgid ""
 "Failed to create repo \"{}\": Id is present more than once in the "
 "configuration"
@@ -1047,7 +1047,7 @@ msgstr ""
 "Misslyckades att skapa förråd \"{}\": Id finns mer än en gång i "
 "konfigurationen"
 
-#: repo/repo_sack.cpp:530
+#: repo/repo_sack.cpp:531
 msgid "Cache-only enabled but no cache for repository \"{}\""
 msgstr "Endast cache aktiverat men ingen cache för förråd \"{}\""
 
