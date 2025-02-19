@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Balázs Meskó <meskobalazs@mailbox.org>, 2024.
+# Balázs Meskó <meskobalazs@mailbox.org>, 2024, 2025.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-19 03:03+0000\n"
-"PO-Revision-Date: 2024-12-18 01:19+0000\n"
+"PO-Revision-Date: 2025-02-19 11:30+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/hu/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.9.1\n"
+"X-Generator: Weblate 5.10\n"
 
 #: commands/advisory/advisory.cpp:36
 msgid "Manage advisories"
@@ -316,15 +316,11 @@ msgid "Don't consider extra packages pulled into the transaction as errors."
 msgstr "Ne tekintse hibának a tranzakciókba húzott extra csomagokat."
 
 #: commands/history/arguments.hpp:80
-#, fuzzy
-#| msgid ""
-#| "Show only groups containing packages with specified names. List option, "
-#| "supports globs."
 msgid ""
 "Show only transactions containing packages with specified names. List "
 "option, supports globs."
 msgstr ""
-"Csak a megadott nevű csomagokat tartalmazó csoportok megjelenítése. "
+"Csak a megadott nevű csomagokat tartalmazó tranzakciók megjelenítése. "
 "Felsorolás, támogatja a helyettesítő karaktereket."
 
 #: commands/history/history.cpp:41
@@ -336,6 +332,9 @@ msgid ""
 "No match found, history info defaults to considering only the last "
 "transaction, specify \"1..last\" range to search all transactions."
 msgstr ""
+"Nincs találat, alapértelmezés szerint az előzményinformációk csak a "
+"legutolsó tranzakciót veszik figyelembe, az összes tranzakcióban való "
+"kereséshez adja meg az „1..last” tartományt."
 
 #: commands/history/history_redo.cpp:53
 #: commands/history/history_rollback.cpp:57
@@ -379,11 +378,13 @@ msgstr ""
 
 #: commands/list/list.cpp:44
 msgid "Lists packages depending on the packages' relation to the system"
-msgstr ""
+msgstr "Aszerint sorolja fel a csomagokat, hogy mi a kapcsolatuk a rendszerrel"
 
 #: commands/list/list.cpp:47
 msgid "List of keys to match case insensitively"
 msgstr ""
+"Kulcsok felsorolása a kis- és nagybetűket egyezőnek tekintő "
+"összehasonlításhoz"
 
 #: commands/list/list.cpp:59
 msgid "Show all versions of the packages, not only the latest ones."
