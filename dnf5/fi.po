@@ -3,15 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Ricky Tigg <ricky.tigg@gmail.com>, 2024.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024.
-# Jiri Grönroos <jiri.gronroos@iki.fi>, 2024.
+# Jiri Grönroos <jiri.gronroos@iki.fi>, 2024, 2025.
 # Ville-Pekka Vainio <vpvainio@iki.fi>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-21 03:12+0000\n"
-"PO-Revision-Date: 2024-12-20 02:09+0000\n"
-"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
+"PO-Revision-Date: 2025-02-21 19:55+0000\n"
+"Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/fi/>\n"
 "Language: fi\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.9.1\n"
+"X-Generator: Weblate 5.10\n"
 
 #: commands/advisory/advisory.cpp:36
 msgid "Manage advisories"
@@ -858,27 +858,21 @@ msgstr "Avain tuotiin onnistuneesti."
 
 #: context.cpp:96
 msgid "The following PGP key (0x{}) is about to be removed:"
-msgstr ""
+msgstr "Seuraava PGP-avain (0x{}) on asetettu poistettavaksi:"
 
 #: context.cpp:98
-#, fuzzy
-#| msgid " UserID     : \"{}\"\n"
 msgid " Reason     : {}\n"
-msgstr " Käyttäjätunniste     : ”{}”\n"
+msgstr " Syy     : {}\n"
 
 #: context.cpp:102
-#, fuzzy
-#| msgid ""
-#| " Fingerprint: {}\n"
-#| " From       : {}\n"
 msgid " From       : {}\n"
-msgstr ""
-" Sormenjälki: {}\n"
-" Lähde: {}\n"
+msgstr " Lähde       : {}\n"
 
 #: context.cpp:104
 msgid "As a result, installing packages signed with this key will fail."
 msgstr ""
+"Sen seurauksena tällä avaimella allekirjoitettujen pakettien asentaminen "
+"epäonnistuu."
 
 #: context.cpp:105
 msgid "It is recommended to remove the expired key to allow importing"
@@ -894,10 +888,8 @@ msgid "The system will now proceed with removing the key."
 msgstr ""
 
 #: context.cpp:115
-#, fuzzy
-#| msgid "The key was successfully imported."
 msgid "The key was successfully removed."
-msgstr "Avain tuotiin onnistuneesti."
+msgstr "Avain poistettiin onnistuneesti."
 
 #: context.cpp:290
 msgid "setopt: \"{}.{}\": {}"
