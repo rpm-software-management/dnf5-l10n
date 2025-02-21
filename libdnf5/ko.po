@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-19 03:03+0000\n"
+"POT-Creation-Date: 2025-02-21 03:12+0000\n"
 "PO-Revision-Date: 2025-02-14 07:04+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
@@ -577,79 +577,79 @@ msgstr "문제: "
 msgid "Problem {}: "
 msgstr "문제 {}: "
 
-#: base/transaction.cpp:79
+#: base/transaction.cpp:80
 msgid "This transaction has been already run before."
 msgstr "이와 같은 연결은 전에 이미 실행되었습니다."
 
-#: base/transaction.cpp:80
+#: base/transaction.cpp:81
 msgid "Cannot run transaction with resolving problems."
 msgstr "문제를 해결하면서 연결을 실행 할 수 없습니다."
 
-#: base/transaction.cpp:81
+#: base/transaction.cpp:82
 msgid "Rpm transaction check failed."
 msgstr "rpm 연결 점검이 실패했습니다."
 
-#: base/transaction.cpp:83
+#: base/transaction.cpp:84
 msgid ""
 "Failed to obtain rpm transaction lock. Another transaction is in progress."
 msgstr "rpm 연결 잠금을 획득하는 데 실패함. 다른 연결이 진행 중에 있습니다."
 
-#: base/transaction.cpp:84
+#: base/transaction.cpp:85
 msgid "Rpm transaction failed."
 msgstr "rpm 연결이 실패함."
 
-#: base/transaction.cpp:85
+#: base/transaction.cpp:86
 msgid "Signature verification failed."
 msgstr "서명 검증이 실패함."
 
-#: base/transaction.cpp:89
+#: base/transaction.cpp:90
 msgid "The repository does not have any OpenPGP keys configured."
 msgstr "저장소는 구성된 어떤 OpenPGP 키를 갖고 있지 않습니다."
 
-#: base/transaction.cpp:90
+#: base/transaction.cpp:91
 msgid "Public key is not installed."
 msgstr "공개 키가 설치되어 있지 않습니다."
 
-#: base/transaction.cpp:91
+#: base/transaction.cpp:92
 msgid "Canceled by the user."
 msgstr "사용자에 의해 취소되었습니다."
 
-#: base/transaction.cpp:92
+#: base/transaction.cpp:93
 msgid "Public key import failed."
 msgstr "공개 키 가져오기에 실패함."
 
-#: base/transaction.cpp:979
+#: base/transaction.cpp:980
 msgid "Invalid tsflag: {}"
 msgstr "잘못된 tsflag: {}"
 
-#: base/transaction.cpp:1317
+#: base/transaction.cpp:1318
 msgid "Public key \"{}\" is already present, not importing."
 msgstr "공개 키 \"{}\"가 이미 존재하고, 가져오지 않습니다."
 
-#: base/transaction.cpp:1338
+#: base/transaction.cpp:1339
 msgid "An error occurred importing key \"{}\": {}"
 msgstr "키를 가져오는 중에 발생하였습니다 \"{}\": {}"
 
-#: base/transaction.cpp:1372
+#: base/transaction.cpp:1373
 msgid "OpenPGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
 msgstr "Openrepo \"{}에서 꾸러미 \"{}\" ({})를 위한 PGP 점검이 실패했습니다: "
 
-#: base/transaction.cpp:1400
+#: base/transaction.cpp:1401
 msgid "Import of the key didn't help, wrong key?"
 msgstr "키 가져오기가 도움이 되지 않습니다, 잘못된 키입니까?"
 
-#: base/transaction.cpp:1419
+#: base/transaction.cpp:1420
 msgctxt "It is a joining character for repositories IDs"
 msgid ", "
 msgstr ", "
 
-#: base/transaction.cpp:1422
+#: base/transaction.cpp:1423
 msgid "Warning: skipped OpenPGP checks for {0} package from repository: {1}"
 msgid_plural ""
 "Warning: skipped OpenPGP checks for {0} packages from repository: {1}"
 msgstr[0] "경고: 저장소에서 {0} 꾸러미를 위해 OpenPGP 점검을 건너뜀: {1}"
 
-#: base/transaction.cpp:1425
+#: base/transaction.cpp:1426
 msgid "Warning: skipped OpenPGP checks for {0} package from repositories: {1}"
 msgid_plural ""
 "Warning: skipped OpenPGP checks for {0} packages from repositories: {1}"

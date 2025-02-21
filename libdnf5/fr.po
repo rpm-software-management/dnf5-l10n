@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-19 03:03+0000\n"
+"POT-Creation-Date: 2025-02-21 03:12+0000\n"
 "PO-Revision-Date: 2025-02-14 13:12+0000\n"
 "Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf5/"
@@ -603,77 +603,77 @@ msgstr "Problème : "
 msgid "Problem {}: "
 msgstr "Problème {} : "
 
-#: base/transaction.cpp:79
+#: base/transaction.cpp:80
 msgid "This transaction has been already run before."
 msgstr "Cette transaction a déjà été exécutée par le passé."
 
-#: base/transaction.cpp:80
+#: base/transaction.cpp:81
 msgid "Cannot run transaction with resolving problems."
 msgstr ""
 "Impossible d'exécuter une transaction avec des problèmes de résolution."
 
-#: base/transaction.cpp:81
+#: base/transaction.cpp:82
 msgid "Rpm transaction check failed."
 msgstr "Vérification de la transaction RPM échouée."
 
-#: base/transaction.cpp:83
+#: base/transaction.cpp:84
 msgid ""
 "Failed to obtain rpm transaction lock. Another transaction is in progress."
 msgstr ""
 "Impossible d'obtenir le verrou de transaction RPM. Une autre transaction est "
 "en cours."
 
-#: base/transaction.cpp:84
+#: base/transaction.cpp:85
 msgid "Rpm transaction failed."
 msgstr "Transaction RPM échouée."
 
-#: base/transaction.cpp:85
+#: base/transaction.cpp:86
 msgid "Signature verification failed."
 msgstr "Échec de la vérification de la signature."
 
-#: base/transaction.cpp:89
+#: base/transaction.cpp:90
 msgid "The repository does not have any OpenPGP keys configured."
 msgstr "Aucune clé OpenPGP n'est configurée pour le dépôt."
 
-#: base/transaction.cpp:90
+#: base/transaction.cpp:91
 msgid "Public key is not installed."
 msgstr "La clé publique n'est pas installée."
 
-#: base/transaction.cpp:91
+#: base/transaction.cpp:92
 msgid "Canceled by the user."
 msgstr "Annulé par l'utilisateur."
 
-#: base/transaction.cpp:92
+#: base/transaction.cpp:93
 msgid "Public key import failed."
 msgstr "Échec de l'importation de la clé publique."
 
-#: base/transaction.cpp:979
+#: base/transaction.cpp:980
 msgid "Invalid tsflag: {}"
 msgstr "tsflag invalide : {}"
 
-#: base/transaction.cpp:1317
+#: base/transaction.cpp:1318
 msgid "Public key \"{}\" is already present, not importing."
 msgstr "La clé publique \"{}\" est déjà présente, elle ne sera pas importée."
 
-#: base/transaction.cpp:1338
+#: base/transaction.cpp:1339
 msgid "An error occurred importing key \"{}\": {}"
 msgstr "Une erreur s'est produite lors de l'importation de la clé \"{}\" : {}"
 
-#: base/transaction.cpp:1372
+#: base/transaction.cpp:1373
 msgid "OpenPGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
 msgstr ""
 "La vérification OpenPGP du paquet \"{}\" ({}) du dépôt \"{}\" a échoué : "
 
-#: base/transaction.cpp:1400
+#: base/transaction.cpp:1401
 msgid "Import of the key didn't help, wrong key?"
 msgstr "L'importation de la clé n'a pas aidé, s'agissait-il de la bonne clé ?"
 
-#: base/transaction.cpp:1419
+#: base/transaction.cpp:1420
 msgctxt "It is a joining character for repositories IDs"
 msgid ", "
 msgstr ", "
 
-#: base/transaction.cpp:1422
+#: base/transaction.cpp:1423
 msgid "Warning: skipped OpenPGP checks for {0} package from repository: {1}"
 msgid_plural ""
 "Warning: skipped OpenPGP checks for {0} packages from repository: {1}"
@@ -682,7 +682,7 @@ msgstr[0] ""
 msgstr[1] ""
 "Attention : vérifications OpenPGP ignorées pour {0} paquets du dépôt : {1}"
 
-#: base/transaction.cpp:1425
+#: base/transaction.cpp:1426
 msgid "Warning: skipped OpenPGP checks for {0} package from repositories: {1}"
 msgid_plural ""
 "Warning: skipped OpenPGP checks for {0} packages from repositories: {1}"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-19 03:03+0000\n"
+"POT-Creation-Date: 2025-02-21 03:12+0000\n"
 "PO-Revision-Date: 2025-02-16 03:38+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -593,74 +593,74 @@ msgstr "პრობლემა: "
 msgid "Problem {}: "
 msgstr "პრობლემა {}: "
 
-#: base/transaction.cpp:79
+#: base/transaction.cpp:80
 msgid "This transaction has been already run before."
 msgstr "ეს ტრანზაქცია ადრე უკვე იყო გაშვებული."
 
-#: base/transaction.cpp:80
+#: base/transaction.cpp:81
 msgid "Cannot run transaction with resolving problems."
 msgstr "შეუძლებელია ტრანზაქციის გაშვება პრობლემების გადაწყვეტით."
 
-#: base/transaction.cpp:81
+#: base/transaction.cpp:82
 msgid "Rpm transaction check failed."
 msgstr "Rpm-ის ტრანზაქციის შემოწმება ჩავარდა."
 
-#: base/transaction.cpp:83
+#: base/transaction.cpp:84
 msgid ""
 "Failed to obtain rpm transaction lock. Another transaction is in progress."
 msgstr ""
 "შეცდომა rpm-ის ტრანზაქციის ბლოკის მიღებისას. მიმდინარეობს სხვა ტრანზაქცია."
 
-#: base/transaction.cpp:84
+#: base/transaction.cpp:85
 msgid "Rpm transaction failed."
 msgstr "Rpm-ის ტრანზაქცია ჩავარდა."
 
-#: base/transaction.cpp:85
+#: base/transaction.cpp:86
 msgid "Signature verification failed."
 msgstr "ხელმოწერის გადამოწმება ჩავარდა."
 
-#: base/transaction.cpp:89
+#: base/transaction.cpp:90
 msgid "The repository does not have any OpenPGP keys configured."
 msgstr "რეპოზიტორიას OpenPGP გასაღებები მითითებული არ აქვს."
 
-#: base/transaction.cpp:90
+#: base/transaction.cpp:91
 msgid "Public key is not installed."
 msgstr "საჯარო გასაღები დაყენებული არაა."
 
-#: base/transaction.cpp:91
+#: base/transaction.cpp:92
 msgid "Canceled by the user."
 msgstr "გაუქმდა მომხმარებლის მიერ."
 
-#: base/transaction.cpp:92
+#: base/transaction.cpp:93
 msgid "Public key import failed."
 msgstr "საჯარო გასაღების შემოტანა ჩავარდა."
 
-#: base/transaction.cpp:979
+#: base/transaction.cpp:980
 msgid "Invalid tsflag: {}"
 msgstr "არასწორი tsflag: {}"
 
-#: base/transaction.cpp:1317
+#: base/transaction.cpp:1318
 msgid "Public key \"{}\" is already present, not importing."
 msgstr "საჯარო გასაღები \"{}\" უკვე არსებობს. შემოტანა არ მოხდება."
 
-#: base/transaction.cpp:1338
+#: base/transaction.cpp:1339
 msgid "An error occurred importing key \"{}\": {}"
 msgstr "შეცდომა გასაღების \"{}\" შემოტანისას: {}"
 
-#: base/transaction.cpp:1372
+#: base/transaction.cpp:1373
 msgid "OpenPGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
 msgstr "OpenPGP-ის შემოწმება პაკეტისთვის \"{}\" ({}) რეპოდან \"{}\" ჩავარდა: "
 
-#: base/transaction.cpp:1400
+#: base/transaction.cpp:1401
 msgid "Import of the key didn't help, wrong key?"
 msgstr "გასაღების შემოტანამ არაფერს უშველა. გასაღები არასწორია?"
 
-#: base/transaction.cpp:1419
+#: base/transaction.cpp:1420
 msgctxt "It is a joining character for repositories IDs"
 msgid ", "
 msgstr ", "
 
-#: base/transaction.cpp:1422
+#: base/transaction.cpp:1423
 msgid "Warning: skipped OpenPGP checks for {0} package from repository: {1}"
 msgid_plural ""
 "Warning: skipped OpenPGP checks for {0} packages from repository: {1}"
@@ -671,7 +671,7 @@ msgstr[1] ""
 "გაფრთხილება: OpenPGP-ით შემოწმების გამოტოვება {0} პაკეტისთვის "
 "რეპოზიტორიებიდან: {1}"
 
-#: base/transaction.cpp:1425
+#: base/transaction.cpp:1426
 msgid "Warning: skipped OpenPGP checks for {0} package from repositories: {1}"
 msgid_plural ""
 "Warning: skipped OpenPGP checks for {0} packages from repositories: {1}"
