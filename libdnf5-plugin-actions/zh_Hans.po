@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-19 03:03+0000\n"
+"POT-Creation-Date: 2025-02-21 03:12+0000\n"
 "PO-Revision-Date: 2025-02-20 14:19+0000\n"
 "Last-Translator: caffiendo c <1728778012@qq.com>\n"
-"Language-Team: Chinese (Simplified Han script) <https://"
-"translate.fedoraproject.org/projects/dnf5/libdnf5-plugin-actions/zh_Hans/>\n"
+"Language-Team: Chinese (Simplified Han script) <https://translate."
+"fedoraproject.org/projects/dnf5/libdnf5-plugin-actions/zh_Hans/>\n"
 "Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,7 +20,6 @@ msgstr ""
 "X-Generator: Weblate 5.10\n"
 
 #: actions.cpp:237
-#, c++-format
 msgid "File \"{}\" on line {}: {}"
 msgstr "文件\"{}\"在第{}行的： {}"
 
@@ -29,17 +28,14 @@ msgid "\"HOOK:PKG_FILTER:DIRECTION:OPTIONS:CMD\" format expected"
 msgstr "预期格式 \"HOOK:PKG_FILTER:DIRECTION:OPTIONS:CMD\""
 
 #: actions.cpp:676
-#, c++-format
 msgid "Unknown \"enabled\" option value \"{}\""
 msgstr "未知的 \"已启用\" 选项值 \"{}\""
 
 #: actions.cpp:683
-#, c++-format
 msgid "Unknown option \"{}\""
 msgstr "未知选项 \"{}\""
 
 #: actions.cpp:711
-#, c++-format
 msgid "Unknown hook \"{}\""
 msgstr "未知钩子 \"{}\""
 
@@ -54,17 +50,14 @@ msgid "Cannot use direction without package filter"
 msgstr "在没有包过滤器的情况下无法使用方向"
 
 #: actions.cpp:740
-#, c++-format
 msgid "Unknown package direction \"{}\""
 msgstr "未知软件包方向 \"{}\""
 
 #: actions.cpp:747
-#, c++-format
 msgid "Unknown mode \"{}\""
 msgstr "未知模式 \"{}\""
 
 #: actions.cpp:755
-#, c++-format
 msgid "Unsupported value of the \"raise_error\" option: {}"
 msgstr "不支持的 \"raise_error\" 选项的值： {}"
 
@@ -73,32 +66,26 @@ msgid "Missing command"
 msgstr "缺少命令"
 
 #: actions.cpp:953
-#, c++-format
 msgid "Synax error: Missing equal sign (=) in action output line: {}"
 msgstr "语法错误：操作输出行中缺少等号（=）：{}"
 
 #: actions.cpp:964
-#, c++-format
 msgid "Cannot set option: Action output line: {}"
 msgstr "无法设置选项： 操作输出行： {}"
 
 #: actions.cpp:982
-#, c++-format
 msgid "Action sent the wrong log level: {}"
 msgstr "操作发送了错误的日志级别： {}"
 
 #: actions.cpp:987 actions.cpp:1794
-#, c++-format
 msgid "Action calls for stop: {}"
 msgstr "操作要求停止： {}"
 
 #: actions.cpp:990 actions.cpp:1801
-#, c++-format
 msgid "Action sent error message: {}"
 msgstr "操作发送了错误信息： {}"
 
 #: actions.cpp:995
-#, c++-format
 msgid ""
 "Syntax error: Action output line must start with \"tmp.\" or \"conf.\" or "
 "\"var.\" or \"stop=\" or \"error=\": {}"
@@ -111,7 +98,6 @@ msgid "Error reading from action (from pipe)"
 msgstr "从操作（管道）读取数据时出错"
 
 #: actions.cpp:1038
-#, c++-format
 msgid "Syntax error in json request from action: Missing starting '{{' char"
 msgstr "操作的 json 请求中出现语法错误： 缺少起始字符 '{{'"
 
@@ -120,7 +106,6 @@ msgid "Error during processing of a request from action."
 msgstr "处理操作的请求时出错。"
 
 #: actions.cpp:1071
-#, c++-format
 msgid "Syntax error in json request from action: {}"
 msgstr "操作的 json 请求中出现语法错误： {}"
 
@@ -149,7 +134,6 @@ msgid "Actions plugin: Cannot bind command stdout"
 msgstr "Actions插件：无法绑定命令stdout"
 
 #: actions.cpp:1988
-#, c++-format
 msgid "Cannot execute action, command \"{}\" arguments \"{}\""
 msgstr "无法执行操作，命令 \"{}\" 参数 \"{}\""
 
@@ -158,11 +142,9 @@ msgid "Error during preparation child process"
 msgstr "准备子进程时出错"
 
 #: actions.cpp:2015
-#, c++-format
 msgid "Exit code: {}"
 msgstr "退出码: {}"
 
 #: actions.cpp:2019
-#, c++-format
 msgid "Terminated by signal: {}"
 msgstr "终止信号: {}"
