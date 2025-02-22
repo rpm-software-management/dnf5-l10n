@@ -6,13 +6,14 @@
 # Henning <boredsquirrel@users.noreply.translate.fedoraproject.org>, 2024.
 # Fabio D <fabio1977@arcor.de>, 2024.
 # Ettore Atalan <atalanttore@googlemail.com>, 2024, 2025.
+# J C <valsu@vivaldi.net>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-22 03:01+0000\n"
-"PO-Revision-Date: 2025-02-10 13:38+0000\n"
-"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
+"PO-Revision-Date: 2025-02-23 02:57+0000\n"
+"Last-Translator: J C <valsu@vivaldi.net>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/de/>\n"
 "Language: de\n"
@@ -20,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.9.2\n"
+"X-Generator: Weblate 5.10\n"
 
 #: advisory/advisory.cpp:81
 msgid ""
@@ -932,7 +933,7 @@ msgstr ""
 
 #: plugin/plugins.cpp:92
 msgid "Failed to create a libdnf plugin instance"
-msgstr ""
+msgstr "Erstellung einer libdnf Plugininstanz fehlgeschlagen"
 
 #: plugin/plugins.cpp:146
 msgid "Cannot find plugin library \"{}\""
@@ -947,10 +948,8 @@ msgid "Plugins::load_plugins(): config_dir_path cannot be empty"
 msgstr "Plugins::load_plugins(): config_dir_path darf nicht leer sein"
 
 #: plugin/plugins.cpp:253
-#, fuzzy
-#| msgid "Cannot load plugins: {}"
 msgid "Cannot load libdnf plugin enabled from: {}"
-msgstr "Kann Plugins nicht laden: {}"
+msgstr "Kann libdnf Plugin nicht laden von: {}"
 
 #: repo/config_repo.cpp:569
 msgid "get_unique_id(): Computation of SHA256 failed"
@@ -980,10 +979,8 @@ msgstr ""
 "aktiviert."
 
 #: repo/package_downloader.cpp:219
-#, fuzzy
-#| msgid "Failed to download files"
 msgid "Already downloaded"
-msgstr "Herunterladen der Dateien fehlgeschlagen"
+msgstr "Bereits heruntergeladen"
 
 #: repo/package_downloader.cpp:267
 msgid "Failed to download packages"
