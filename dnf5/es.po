@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-21 03:12+0000\n"
+"POT-Creation-Date: 2025-02-22 03:01+0000\n"
 "PO-Revision-Date: 2024-11-17 09:51+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -1045,23 +1045,31 @@ msgstr "Error Cpio: {}"
 msgid "Scriptlet output:"
 msgstr "Salida del scriptlet:"
 
+#. Scripts could potentially be the first thing in a transaction if the verification stage
+#. is skipped, so create a progress bar for the scripts to use if one doesn't already exist.
 #: context.cpp:941
+#, fuzzy
+#| msgid "Running {} scriptlet: {}"
+msgid "Running scriptlets"
+msgstr "Ejecutando {} scriptlet: {}"
+
+#: context.cpp:946
 msgid "Running {} scriptlet: {}"
 msgstr "Ejecutando {} scriptlet: {}"
 
-#: context.cpp:956
+#: context.cpp:961
 msgid "Finished {} scriptlet: {}"
 msgstr "Finalizado {} scriptlet: {}"
 
-#: context.cpp:962
+#: context.cpp:967
 msgid "Non-critical error in {} scriptlet: {}"
 msgstr "Error no crítico en {} scriptlet: {}"
 
-#: context.cpp:971
+#: context.cpp:976
 msgid "Error in {} scriptlet: {}"
 msgstr "Error en {} scriptlet: {}"
 
-#: context.cpp:1001
+#: context.cpp:1006
 msgid "Verify package files"
 msgstr "Verificar archivos de paquete"
 

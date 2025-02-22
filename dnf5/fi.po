@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-21 03:12+0000\n"
+"POT-Creation-Date: 2025-02-22 03:01+0000\n"
 "PO-Revision-Date: 2025-02-21 19:55+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -1009,23 +1009,31 @@ msgstr "Cpio-virhe: {}"
 msgid "Scriptlet output:"
 msgstr "Sovelman tuloste:"
 
+#. Scripts could potentially be the first thing in a transaction if the verification stage
+#. is skipped, so create a progress bar for the scripts to use if one doesn't already exist.
 #: context.cpp:941
+#, fuzzy
+#| msgid "Running {} scriptlet: {}"
+msgid "Running scriptlets"
+msgstr "Suoritetaan sovelmaa {}: {}"
+
+#: context.cpp:946
 msgid "Running {} scriptlet: {}"
 msgstr "Suoritetaan sovelmaa {}: {}"
 
-#: context.cpp:956
+#: context.cpp:961
 msgid "Finished {} scriptlet: {}"
 msgstr "Valmis sovelma {}: {}"
 
-#: context.cpp:962
+#: context.cpp:967
 msgid "Non-critical error in {} scriptlet: {}"
 msgstr "Ei-kriittinen virhe sovelmassa {}: {}"
 
-#: context.cpp:971
+#: context.cpp:976
 msgid "Error in {} scriptlet: {}"
 msgstr "Virhe sovelmassa {}: {}"
 
-#: context.cpp:1001
+#: context.cpp:1006
 msgid "Verify package files"
 msgstr "Vahvista pakettitiedostot"
 
