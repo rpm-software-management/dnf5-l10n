@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-22 03:01+0000\n"
+"POT-Creation-Date: 2025-02-25 03:14+0000\n"
 "PO-Revision-Date: 2025-02-25 00:33+0000\n"
 "Last-Translator: caffiendo c <1728778012@qq.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
@@ -534,63 +534,63 @@ msgstr ""
 msgid "Use `dnf5 offline reboot` to begin the transaction."
 msgstr "使用 \"dnf5 offline reboot\" 命令开始这个事务。"
 
-#: commands/offline/offline.cpp:499
+#: commands/offline/offline.cpp:492
 msgid "Transaction failed: "
 msgstr "失败的事务: "
 
-#: commands/offline/offline.cpp:568
+#: commands/offline/offline.cpp:561
 msgid "Error reading journal: {}"
 msgstr "读取日志错误: {}"
 
-#: commands/offline/offline.cpp:574
+#: commands/offline/offline.cpp:567
 msgid "Add journal match failed: {}"
 msgstr "添加日志匹配错误: {}"
 
-#: commands/offline/offline.cpp:602
+#: commands/offline/offline.cpp:595
 msgid "No logs were found."
 msgstr "未找到任何日志。"
 
-#: commands/offline/offline.cpp:606
+#: commands/offline/offline.cpp:599
 msgid "The following boots appear to contain offline transaction logs:"
 msgstr "本次启动似乎包含离线事务日志:"
 
-#: commands/offline/offline.cpp:623
+#: commands/offline/offline.cpp:616
 msgid "Cannot find logs with this index."
 msgstr "该索引不能找到日志。"
 
-#: commands/offline/offline.cpp:630
+#: commands/offline/offline.cpp:623
 msgid "Unable to match systemd journal entry."
 msgstr "无法匹配systemd日志条目。"
 
-#: commands/offline/offline.cpp:642
+#: commands/offline/offline.cpp:635
 msgid "Show logs from past offline transactions"
 msgstr "显示之前的离线事务日志"
 
-#: commands/offline/offline.cpp:650
+#: commands/offline/offline.cpp:643
 msgid ""
 "Which log to show. Run without any arguments to get a list of available logs."
 msgstr "要显示哪个日志。不带任何参数运行以获取可用日志列表。"
 
-#: commands/offline/offline.cpp:665
+#: commands/offline/offline.cpp:658
 msgid ""
 "systemd is not supported in this build of DNF 5; the `log` subcommand is "
 "unavailable."
 msgstr "systemd 不支持这个版本的DNF5，\"log\" 子命令不可用。"
 
-#: commands/offline/offline.cpp:670
+#: commands/offline/offline.cpp:663
 msgid "Show status of the current offline transaction"
 msgstr "显示当前离线事务的状态"
 
-#: commands/offline/offline.cpp:686
+#: commands/offline/offline.cpp:679
 msgid "An offline transaction was initiated by the following command:"
 msgstr "一个离线事务将在以下命令之后执行:"
 
-#: commands/offline/offline.cpp:688
+#: commands/offline/offline.cpp:681
 msgid ""
 "Run `dnf5 offline reboot` to reboot and perform the offline transaction."
 msgstr "运行 \"dnf5 offline reboot\" 以重启和执行离线事务。"
 
-#: commands/offline/offline.cpp:690
+#: commands/offline/offline.cpp:683
 msgid ""
 "An offline transaction was started, but it did not finish. Run `dnf5 offline "
 "log` for more information. The command that initiated the transaction was:"
@@ -598,7 +598,7 @@ msgstr ""
 "一个离线事务已经开始，但是并未结束。运行 \"dnf5 offline log\" 以获得更多信"
 "息。启动事务的命令是:"
 
-#: commands/offline/offline.cpp:695
+#: commands/offline/offline.cpp:688
 msgid "Unknown offline transaction status: "
 msgstr "未知的离线事务状态: "
 
@@ -861,11 +861,11 @@ msgstr "仓库加载完成。"
 msgid "Testing offline transaction"
 msgstr "离线事务测试中"
 
-#: context.cpp:370 context.cpp:525
+#: context.cpp:370 context.cpp:518
 msgid "Transaction failed: {}"
 msgstr "失败的事务:{}"
 
-#: context.cpp:375 context.cpp:530
+#: context.cpp:375 context.cpp:523
 msgid "  - {}"
 msgstr "  - {}"
 
@@ -900,73 +900,71 @@ msgstr ""
 msgid "Running transaction"
 msgstr "执行事务"
 
-#: context.cpp:814
+#: context.cpp:807
 msgid "Upgrading {}"
 msgstr "升级 {}"
 
-#: context.cpp:817
+#: context.cpp:810
 msgid "Downgrading {}"
 msgstr "降级 {}"
 
-#: context.cpp:820
+#: context.cpp:813
 msgid "Reinstalling {}"
 msgstr "重新安装 {}"
 
-#: context.cpp:833
+#: context.cpp:826
 msgid "Unexpected action in TransactionPackage: {}"
 msgstr "软件包事务中出现意外操作: {}"
 
-#: context.cpp:839
+#: context.cpp:832
 msgid "Installing {}"
 msgstr "安装{}"
 
-#: context.cpp:860
+#: context.cpp:853
 msgid "Prepare transaction"
 msgstr "准备事务"
 
-#: context.cpp:880
+#: context.cpp:873
 msgid "Removing {}"
 msgstr "删除 {}"
 
-#: context.cpp:883
+#: context.cpp:876
 msgid "Cleanup {}"
 msgstr "清理 {}"
 
-#: context.cpp:901
+#: context.cpp:894
 msgid "Unpack error: {}"
 msgstr "解压错误: {}"
 
-#: context.cpp:909
+#: context.cpp:902
 msgid "Cpio error: {}"
 msgstr "Cpio 错误: {}"
 
-#: context.cpp:919
+#: context.cpp:912
 msgid "Scriptlet output:"
 msgstr "Scriptlet 输出："
 
-#. Scripts could potentially be the first thing in a transaction if the verification stage
-#. is skipped, so create a progress bar for the scripts to use if one doesn't already exist.
-#: context.cpp:941
+#: context.cpp:935
 msgid "Running scriptlets"
 msgstr "运行脚本"
 
-#: context.cpp:946
+#: context.cpp:940
 msgid "Running {} scriptlet: {}"
 msgstr "运行 {}，脚本片段: {}"
 
-#: context.cpp:961
+#: context.cpp:955
 msgid "Finished {} scriptlet: {}"
 msgstr "{} 运行完成，脚本片段: {}"
 
-#: context.cpp:967
+#: context.cpp:961
 msgid "Non-critical error in {} scriptlet: {}"
 msgstr "非致命性错误: {} ，脚本片段: {}"
 
-#: context.cpp:976
+#: context.cpp:970
 msgid "Error in {} scriptlet: {}"
 msgstr "{} 中出现错误，脚本片段: {}"
 
-#: context.cpp:1006
+#: context.cpp:1005
 msgid "Verify package files"
 msgstr "验证软件包文件"
 

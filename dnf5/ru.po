@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-22 03:01+0000\n"
+"POT-Creation-Date: 2025-02-25 03:14+0000\n"
 "PO-Revision-Date: 2024-12-19 03:44+0000\n"
 "Last-Translator: Dmitry Kiryanov <kagaminep@yandex.ru>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -575,68 +575,68 @@ msgstr ""
 msgid "Use `dnf5 offline reboot` to begin the transaction."
 msgstr "Используйте `dnf5 offline reboot`, чтобы начать транзакцию."
 
-#: commands/offline/offline.cpp:499
+#: commands/offline/offline.cpp:492
 msgid "Transaction failed: "
 msgstr "Сбой транзакции: "
 
-#: commands/offline/offline.cpp:568
+#: commands/offline/offline.cpp:561
 msgid "Error reading journal: {}"
 msgstr "Ошибка при чтении журнала: {}"
 
-#: commands/offline/offline.cpp:574
+#: commands/offline/offline.cpp:567
 msgid "Add journal match failed: {}"
 msgstr "Сбой добавления журнала: {}"
 
-#: commands/offline/offline.cpp:602
+#: commands/offline/offline.cpp:595
 msgid "No logs were found."
 msgstr "Журналы не найдены."
 
-#: commands/offline/offline.cpp:606
+#: commands/offline/offline.cpp:599
 msgid "The following boots appear to contain offline transaction logs:"
 msgstr "Следующие boots, похоже, содержат автономные журналы транзакций:"
 
-#: commands/offline/offline.cpp:623
+#: commands/offline/offline.cpp:616
 msgid "Cannot find logs with this index."
 msgstr "Невозможно найти журналы с таким индексом."
 
-#: commands/offline/offline.cpp:630
+#: commands/offline/offline.cpp:623
 msgid "Unable to match systemd journal entry."
 msgstr "Невозможно сопоставить запись в журнале systemd."
 
-#: commands/offline/offline.cpp:642
+#: commands/offline/offline.cpp:635
 msgid "Show logs from past offline transactions"
 msgstr "Показать журналы прошлых автономных операций"
 
-#: commands/offline/offline.cpp:650
+#: commands/offline/offline.cpp:643
 msgid ""
 "Which log to show. Run without any arguments to get a list of available logs."
 msgstr ""
 "Какой журнал показывать. Выполните без аргументов, чтобы получить список "
 "доступных журналов."
 
-#: commands/offline/offline.cpp:665
+#: commands/offline/offline.cpp:658
 msgid ""
 "systemd is not supported in this build of DNF 5; the `log` subcommand is "
 "unavailable."
 msgstr ""
 "systemd не поддерживается в этой сборке DNF 5; подкоманда `log` недоступна."
 
-#: commands/offline/offline.cpp:670
+#: commands/offline/offline.cpp:663
 msgid "Show status of the current offline transaction"
 msgstr "Показать статус текущей автономной транзакции"
 
-#: commands/offline/offline.cpp:686
+#: commands/offline/offline.cpp:679
 msgid "An offline transaction was initiated by the following command:"
 msgstr "Автономная транзакция была инициирована следующей командой:"
 
-#: commands/offline/offline.cpp:688
+#: commands/offline/offline.cpp:681
 msgid ""
 "Run `dnf5 offline reboot` to reboot and perform the offline transaction."
 msgstr ""
 "Выполните команду `dnf5 offline reboot`, чтобы перезагрузиться и выполнить "
 "автономную транзакцию."
 
-#: commands/offline/offline.cpp:690
+#: commands/offline/offline.cpp:683
 msgid ""
 "An offline transaction was started, but it did not finish. Run `dnf5 offline "
 "log` for more information. The command that initiated the transaction was:"
@@ -645,7 +645,7 @@ msgstr ""
 "дополнительной информации выполните команду `dnf5 offline log`. Команда, "
 "инициировавшая транзакцию, была:"
 
-#: commands/offline/offline.cpp:695
+#: commands/offline/offline.cpp:688
 msgid "Unknown offline transaction status: "
 msgstr "Неизвестный статус автономной транзакции: "
 
@@ -930,11 +930,11 @@ msgstr "Репозитории загружены."
 msgid "Testing offline transaction"
 msgstr "Тестирование автономной транзакции"
 
-#: context.cpp:370 context.cpp:525
+#: context.cpp:370 context.cpp:518
 msgid "Transaction failed: {}"
 msgstr "Сбой транзакции: {}"
 
-#: context.cpp:375 context.cpp:530
+#: context.cpp:375 context.cpp:523
 msgid "  - {}"
 msgstr "  - {}"
 
@@ -973,75 +973,73 @@ msgstr ""
 msgid "Running transaction"
 msgstr "Выполнение транзакции"
 
-#: context.cpp:814
+#: context.cpp:807
 msgid "Upgrading {}"
 msgstr "Обновление {}"
 
-#: context.cpp:817
+#: context.cpp:810
 msgid "Downgrading {}"
 msgstr "Откат {}"
 
-#: context.cpp:820
+#: context.cpp:813
 msgid "Reinstalling {}"
 msgstr "Переустановка {}"
 
-#: context.cpp:833
+#: context.cpp:826
 msgid "Unexpected action in TransactionPackage: {}"
 msgstr "Неожиданное действие в TransactionPackage: {}"
 
-#: context.cpp:839
+#: context.cpp:832
 msgid "Installing {}"
 msgstr "Установка {}"
 
-#: context.cpp:860
+#: context.cpp:853
 msgid "Prepare transaction"
 msgstr "Подготовить транзакцию"
 
-#: context.cpp:880
+#: context.cpp:873
 msgid "Removing {}"
 msgstr "Удаление {}"
 
-#: context.cpp:883
+#: context.cpp:876
 msgid "Cleanup {}"
 msgstr "Очистка {}"
 
-#: context.cpp:901
+#: context.cpp:894
 msgid "Unpack error: {}"
 msgstr "Сбой распаковки: {}"
 
-#: context.cpp:909
+#: context.cpp:902
 msgid "Cpio error: {}"
 msgstr "Сбой Cpio: {}"
 
-#: context.cpp:919
+#: context.cpp:912
 msgid "Scriptlet output:"
 msgstr "Вывод скриплета:"
 
-#. Scripts could potentially be the first thing in a transaction if the verification stage
-#. is skipped, so create a progress bar for the scripts to use if one doesn't already exist.
-#: context.cpp:941
+#: context.cpp:935
 #, fuzzy
 #| msgid "Running {} scriptlet: {}"
 msgid "Running scriptlets"
 msgstr "Выполняется {} скриптлет: {}"
 
-#: context.cpp:946
+#: context.cpp:940
 msgid "Running {} scriptlet: {}"
 msgstr "Выполняется {} скриптлет: {}"
 
-#: context.cpp:961
+#: context.cpp:955
 msgid "Finished {} scriptlet: {}"
 msgstr "Выполнено {} скриптлет: {}"
 
-#: context.cpp:967
+#: context.cpp:961
 msgid "Non-critical error in {} scriptlet: {}"
 msgstr "Некритическая ошибка в скриптлете {}: {}"
 
-#: context.cpp:976
+#: context.cpp:970
 msgid "Error in {} scriptlet: {}"
 msgstr "Сбой в {} скриптлет: {}"
 
-#: context.cpp:1006
+#: context.cpp:1005
 msgid "Verify package files"
 msgstr "Проверить файлы пакета"
 

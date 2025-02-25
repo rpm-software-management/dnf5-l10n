@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-22 03:01+0000\n"
+"POT-Creation-Date: 2025-02-25 03:14+0000\n"
 "PO-Revision-Date: 2025-02-24 10:12+0000\n"
 "Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf5/"
@@ -593,49 +593,49 @@ msgstr ""
 msgid "Use `dnf5 offline reboot` to begin the transaction."
 msgstr "Utilisez `dnf5 offline reboot` pour débuter la transaction."
 
-#: commands/offline/offline.cpp:499
+#: commands/offline/offline.cpp:492
 msgid "Transaction failed: "
 msgstr "Échec de la transaction : "
 
-#: commands/offline/offline.cpp:568
+#: commands/offline/offline.cpp:561
 msgid "Error reading journal: {}"
 msgstr "Erreur lors de la lecture du journal : {}"
 
-#: commands/offline/offline.cpp:574
+#: commands/offline/offline.cpp:567
 msgid "Add journal match failed: {}"
 msgstr "Échec de l'ajout d'un filtre du journal : {}"
 
-#: commands/offline/offline.cpp:602
+#: commands/offline/offline.cpp:595
 msgid "No logs were found."
 msgstr "Aucun journal n'a été trouvé."
 
-#: commands/offline/offline.cpp:606
+#: commands/offline/offline.cpp:599
 msgid "The following boots appear to contain offline transaction logs:"
 msgstr ""
 "Les journaux de ces démarrages semblent contenir des entrées liées à une "
 "transaction hors ligne :"
 
-#: commands/offline/offline.cpp:623
+#: commands/offline/offline.cpp:616
 msgid "Cannot find logs with this index."
 msgstr "Impossible de trouver un journal avec cet indice."
 
-#: commands/offline/offline.cpp:630
+#: commands/offline/offline.cpp:623
 msgid "Unable to match systemd journal entry."
 msgstr "Impossible de trouver une entrée du journal systemd correspondante."
 
-#: commands/offline/offline.cpp:642
+#: commands/offline/offline.cpp:635
 msgid "Show logs from past offline transactions"
 msgstr ""
 "Afficher les entrées de journal des transactions hors ligne précédentes"
 
-#: commands/offline/offline.cpp:650
+#: commands/offline/offline.cpp:643
 msgid ""
 "Which log to show. Run without any arguments to get a list of available logs."
 msgstr ""
 "Le journal à afficher. Exécutez la commande sans aucun argument pour obtenir "
 "une liste des journaux disponibles."
 
-#: commands/offline/offline.cpp:665
+#: commands/offline/offline.cpp:658
 msgid ""
 "systemd is not supported in this build of DNF 5; the `log` subcommand is "
 "unavailable."
@@ -643,22 +643,22 @@ msgstr ""
 "systemd n'est pas pris en charge dans cette version de DNF 5 ; la sous-"
 "commande `log` est indisponible."
 
-#: commands/offline/offline.cpp:670
+#: commands/offline/offline.cpp:663
 msgid "Show status of the current offline transaction"
 msgstr "Afficher l'état de la transaction hors ligne actuelle"
 
-#: commands/offline/offline.cpp:686
+#: commands/offline/offline.cpp:679
 msgid "An offline transaction was initiated by the following command:"
 msgstr "Une transaction hors ligne a été amorcée par la commande suivante :"
 
-#: commands/offline/offline.cpp:688
+#: commands/offline/offline.cpp:681
 msgid ""
 "Run `dnf5 offline reboot` to reboot and perform the offline transaction."
 msgstr ""
 "Exécutez `dnf5 offline reboot` pour redémarrer et effectuer la transaction "
 "hors ligne."
 
-#: commands/offline/offline.cpp:690
+#: commands/offline/offline.cpp:683
 msgid ""
 "An offline transaction was started, but it did not finish. Run `dnf5 offline "
 "log` for more information. The command that initiated the transaction was:"
@@ -667,7 +667,7 @@ msgstr ""
 "`dnf5 offline log` pour plus d'informations. Commande ayant amorcé la "
 "transaction :"
 
-#: commands/offline/offline.cpp:695
+#: commands/offline/offline.cpp:688
 msgid "Unknown offline transaction status: "
 msgstr "État de transaction hors ligne inconnu : "
 
@@ -951,11 +951,11 @@ msgstr "Dépôts chargés."
 msgid "Testing offline transaction"
 msgstr "Test de la transaction hors ligne"
 
-#: context.cpp:370 context.cpp:525
+#: context.cpp:370 context.cpp:518
 msgid "Transaction failed: {}"
 msgstr "Transaction échouée : {}"
 
-#: context.cpp:375 context.cpp:530
+#: context.cpp:375 context.cpp:523
 msgid "  - {}"
 msgstr "  - {}"
 
@@ -998,73 +998,71 @@ msgstr ""
 msgid "Running transaction"
 msgstr "Exécution de la transaction"
 
-#: context.cpp:814
+#: context.cpp:807
 msgid "Upgrading {}"
 msgstr "Mise à jour de {}"
 
-#: context.cpp:817
+#: context.cpp:810
 msgid "Downgrading {}"
 msgstr "Installation de la version antérieure de {}"
 
-#: context.cpp:820
+#: context.cpp:813
 msgid "Reinstalling {}"
 msgstr "Réinstallation de {}"
 
-#: context.cpp:833
+#: context.cpp:826
 msgid "Unexpected action in TransactionPackage: {}"
 msgstr "Action inattendue dans le TransactionPackage : {}"
 
-#: context.cpp:839
+#: context.cpp:832
 msgid "Installing {}"
 msgstr "Installation de {}"
 
-#: context.cpp:860
+#: context.cpp:853
 msgid "Prepare transaction"
 msgstr "Préparer la transaction"
 
-#: context.cpp:880
+#: context.cpp:873
 msgid "Removing {}"
 msgstr "Suppression de {}"
 
-#: context.cpp:883
+#: context.cpp:876
 msgid "Cleanup {}"
 msgstr "Nettoyage de {}"
 
-#: context.cpp:901
+#: context.cpp:894
 msgid "Unpack error: {}"
 msgstr "Erreur lors du dépaquetage : {}"
 
-#: context.cpp:909
+#: context.cpp:902
 msgid "Cpio error: {}"
 msgstr "Erreur cpio : {}"
 
-#: context.cpp:919
+#: context.cpp:912
 msgid "Scriptlet output:"
 msgstr "Sortie du scriptlet :"
 
-#. Scripts could potentially be the first thing in a transaction if the verification stage
-#. is skipped, so create a progress bar for the scripts to use if one doesn't already exist.
-#: context.cpp:941
+#: context.cpp:935
 msgid "Running scriptlets"
 msgstr "Exécution des scriptlets"
 
-#: context.cpp:946
+#: context.cpp:940
 msgid "Running {} scriptlet: {}"
 msgstr "Exécution du scriptlet {} : {}"
 
-#: context.cpp:961
+#: context.cpp:955
 msgid "Finished {} scriptlet: {}"
 msgstr "Scriptlet {} terminé : {}"
 
-#: context.cpp:967
+#: context.cpp:961
 msgid "Non-critical error in {} scriptlet: {}"
 msgstr "Erreur non critique dans le scriptlet {} : {}"
 
-#: context.cpp:976
+#: context.cpp:970
 msgid "Error in {} scriptlet: {}"
 msgstr "Erreur dans le scriptlet {} : {}"
 
-#: context.cpp:1006
+#: context.cpp:1005
 msgid "Verify package files"
 msgstr "Vérifier les fichiers des paquets"
 

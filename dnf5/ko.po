@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-22 03:01+0000\n"
+"POT-Creation-Date: 2025-02-25 03:14+0000\n"
 "PO-Revision-Date: 2025-02-22 09:22+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
@@ -556,45 +556,45 @@ msgstr ""
 msgid "Use `dnf5 offline reboot` to begin the transaction."
 msgstr "`dnf5 offline reboot`을 사용하여 연결을 시작합니다."
 
-#: commands/offline/offline.cpp:499
+#: commands/offline/offline.cpp:492
 msgid "Transaction failed: "
 msgstr "연결 실패함: "
 
-#: commands/offline/offline.cpp:568
+#: commands/offline/offline.cpp:561
 msgid "Error reading journal: {}"
 msgstr "journal을 읽기 중 오류: {}"
 
-#: commands/offline/offline.cpp:574
+#: commands/offline/offline.cpp:567
 msgid "Add journal match failed: {}"
 msgstr "Journal 일치 추가에 실패함: {}"
 
-#: commands/offline/offline.cpp:602
+#: commands/offline/offline.cpp:595
 msgid "No logs were found."
 msgstr "기록을 찾을 수 없습니다."
 
-#: commands/offline/offline.cpp:606
+#: commands/offline/offline.cpp:599
 msgid "The following boots appear to contain offline transaction logs:"
 msgstr "다음 부트는 오프라인 연결 기록을 포함하도록 표시됩니다:"
 
-#: commands/offline/offline.cpp:623
+#: commands/offline/offline.cpp:616
 msgid "Cannot find logs with this index."
 msgstr "이와 같은 색인을 갖는 기록을 찾을 수 없습니다."
 
-#: commands/offline/offline.cpp:630
+#: commands/offline/offline.cpp:623
 msgid "Unable to match systemd journal entry."
 msgstr "systemd journal 항목과 일치 할 수 없음."
 
-#: commands/offline/offline.cpp:642
+#: commands/offline/offline.cpp:635
 msgid "Show logs from past offline transactions"
 msgstr "지난 오프라인 연결에서 기록을 표시합니다"
 
-#: commands/offline/offline.cpp:650
+#: commands/offline/offline.cpp:643
 msgid ""
 "Which log to show. Run without any arguments to get a list of available logs."
 msgstr ""
 "표시 하려는 기록. 사용 가능한 기록의 목록을 가져오도록 인수 없이 실행합니다."
 
-#: commands/offline/offline.cpp:665
+#: commands/offline/offline.cpp:658
 msgid ""
 "systemd is not supported in this build of DNF 5; the `log` subcommand is "
 "unavailable."
@@ -602,21 +602,21 @@ msgstr ""
 "systemd는 DNF 5의 이 제작에서 지원되지 않습니다; `log` 하위명령은 사용 할 수 "
 "없습니다."
 
-#: commands/offline/offline.cpp:670
+#: commands/offline/offline.cpp:663
 msgid "Show status of the current offline transaction"
 msgstr "현재 오프라인 연결 상태를 표시합니다"
 
-#: commands/offline/offline.cpp:686
+#: commands/offline/offline.cpp:679
 msgid "An offline transaction was initiated by the following command:"
 msgstr "다음 명령에 의해 오프라인 연결이 시작되었습니다:"
 
-#: commands/offline/offline.cpp:688
+#: commands/offline/offline.cpp:681
 msgid ""
 "Run `dnf5 offline reboot` to reboot and perform the offline transaction."
 msgstr ""
 "`dnf5 offline reboot`를 동작하여 재시작 하고 오프라인 연결을 수행합니다."
 
-#: commands/offline/offline.cpp:690
+#: commands/offline/offline.cpp:683
 msgid ""
 "An offline transaction was started, but it did not finish. Run `dnf5 offline "
 "log` for more information. The command that initiated the transaction was:"
@@ -624,7 +624,7 @@ msgstr ""
 "오프라인 연결이 시작되었지만, 종료되지 못했습니다. 더 많은 정보를 위해 `dnf5 "
 "offline log`를 수행해요. 연결이 시작된 명령은 다음과 같습니다:"
 
-#: commands/offline/offline.cpp:695
+#: commands/offline/offline.cpp:688
 msgid "Unknown offline transaction status: "
 msgstr "알지 못하는 오프라인 연결 상태: "
 
@@ -890,11 +890,11 @@ msgstr "저장소가 적재됨."
 msgid "Testing offline transaction"
 msgstr "오프라인 연결을 시험 중"
 
-#: context.cpp:370 context.cpp:525
+#: context.cpp:370 context.cpp:518
 msgid "Transaction failed: {}"
 msgstr "연결 실패함: {}"
 
-#: context.cpp:375 context.cpp:530
+#: context.cpp:375 context.cpp:523
 msgid "  - {}"
 msgstr "  - {}"
 
@@ -931,73 +931,71 @@ msgstr ""
 msgid "Running transaction"
 msgstr "연결 실행 중"
 
-#: context.cpp:814
+#: context.cpp:807
 msgid "Upgrading {}"
 msgstr "향상 중 {}"
 
-#: context.cpp:817
+#: context.cpp:810
 msgid "Downgrading {}"
 msgstr "하향 중 {}"
 
-#: context.cpp:820
+#: context.cpp:813
 msgid "Reinstalling {}"
 msgstr "재설치 중 {}"
 
-#: context.cpp:833
+#: context.cpp:826
 msgid "Unexpected action in TransactionPackage: {}"
 msgstr "연결꾸러미에서 예상치 못한 동작: {}"
 
-#: context.cpp:839
+#: context.cpp:832
 msgid "Installing {}"
 msgstr "설치 중 {}"
 
-#: context.cpp:860
+#: context.cpp:853
 msgid "Prepare transaction"
 msgstr "연결을 준비합니다"
 
-#: context.cpp:880
+#: context.cpp:873
 msgid "Removing {}"
 msgstr "제거 중 {}"
 
-#: context.cpp:883
+#: context.cpp:876
 msgid "Cleanup {}"
 msgstr "정리 {}"
 
-#: context.cpp:901
+#: context.cpp:894
 msgid "Unpack error: {}"
 msgstr "압축해제 오류: {}"
 
-#: context.cpp:909
+#: context.cpp:902
 msgid "Cpio error: {}"
 msgstr "Cpio 오류: {}"
 
-#: context.cpp:919
+#: context.cpp:912
 msgid "Scriptlet output:"
 msgstr "구현 출력:"
 
-#. Scripts could potentially be the first thing in a transaction if the verification stage
-#. is skipped, so create a progress bar for the scripts to use if one doesn't already exist.
-#: context.cpp:941
+#: context.cpp:935
 msgid "Running scriptlets"
 msgstr "구현 실행 중"
 
-#: context.cpp:946
+#: context.cpp:940
 msgid "Running {} scriptlet: {}"
 msgstr "{} 구현 실행 중: {}"
 
-#: context.cpp:961
+#: context.cpp:955
 msgid "Finished {} scriptlet: {}"
 msgstr "{} 구현 실행 완료: {}"
 
-#: context.cpp:967
+#: context.cpp:961
 msgid "Non-critical error in {} scriptlet: {}"
 msgstr "{} 구현에서 심각하지 않은 오류: {}"
 
-#: context.cpp:976
+#: context.cpp:970
 msgid "Error in {} scriptlet: {}"
 msgstr "{} 구현에서 오류: {}"
 
-#: context.cpp:1006
+#: context.cpp:1005
 msgid "Verify package files"
 msgstr "꾸러미 파일을 확인합니다"
 
