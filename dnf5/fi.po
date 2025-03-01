@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-25 03:14+0000\n"
+"POT-Creation-Date: 2025-03-01 03:20+0000\n"
 "PO-Revision-Date: 2025-02-21 19:55+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -509,7 +509,7 @@ msgstr ""
 msgid "Couldn't connect to D-Bus: {}"
 msgstr "Yhteys D-Busiin ei onnistunut: {}"
 
-#: commands/offline/offline.cpp:275
+#: commands/offline/offline.cpp:277
 msgid ""
 "Prepare the system to perform the offline transaction and reboot to start "
 "the transaction."
@@ -517,31 +517,31 @@ msgstr ""
 "Valmistele järjestelmä suorittamaan ei-verkkotapahtuma ja käynnistä se "
 "uudelleen käynnistääksesi tapahtuman."
 
-#: commands/offline/offline.cpp:282
+#: commands/offline/offline.cpp:284
 msgid "Power off the system after the operation is complete"
 msgstr "Sammuta järjestelmä kun toimenpide valmistuu"
 
-#: commands/offline/offline.cpp:293
+#: commands/offline/offline.cpp:295
 msgid "No offline transaction is stored."
 msgstr "Ei-verkkotapahtumaa ei ole tallennettu."
 
-#: commands/offline/offline.cpp:301
+#: commands/offline/offline.cpp:303
 msgid "System is not ready for offline transaction."
 msgstr "Järjestelmä ei ole valmis ei-verkkotapahtumaan."
 
-#: commands/offline/offline.cpp:304
+#: commands/offline/offline.cpp:306
 msgid "Data directory {} does not exist."
 msgstr "Tietohakemistoa {} ei ole olemassa."
 
-#: commands/offline/offline.cpp:329
+#: commands/offline/offline.cpp:331
 msgid "{} is not wanted by system-update.target."
 msgstr "System-update.target ei sitä {} halua."
 
-#: commands/offline/offline.cpp:338
+#: commands/offline/offline.cpp:340
 msgid "The system will now reboot to upgrade to release version "
 msgstr "Järjestelmä käynnistyy nyt uudelleen päivittääkseen julkaisuversioon "
 
-#: commands/offline/offline.cpp:342
+#: commands/offline/offline.cpp:344
 msgid ""
 "The system will now reboot to perform the offline transaction initiated by "
 "the following command:"
@@ -549,7 +549,7 @@ msgstr ""
 "Järjestelmä käynnistyy nyt uudelleen suorittaakseen ei-verkkotapahtuman, "
 "joka on aloitettu seuraavalla komennolla:"
 
-#: commands/offline/offline.cpp:373
+#: commands/offline/offline.cpp:375
 msgid ""
 "Internal use only, not intended to be run by the user. Execute the "
 "transaction in the offline environment."
@@ -557,15 +557,15 @@ msgstr ""
 "Vain sisäiseen käyttöön, ei ole tarkoitettu käyttäjän käytettäväksi. Suorita "
 "tapahtuma ei-verkkoympäristössä."
 
-#: commands/offline/offline.cpp:400
+#: commands/offline/offline.cpp:402
 msgid "Trigger file does not exist. Exiting."
 msgstr "Laukaisutiedostoa ei ole olemassa. Poistutaan."
 
-#: commands/offline/offline.cpp:404
+#: commands/offline/offline.cpp:406
 msgid "Another offline transaction tool is running. Exiting."
 msgstr "Toinen ei-verkkotapahtumatyökalu on käynnissä. Poistutaan."
 
-#: commands/offline/offline.cpp:439
+#: commands/offline/offline.cpp:441
 msgid ""
 "Warning: the `_execute` command is for internal use only and is not intended "
 "to be run directly by the user. To initiate the system upgrade/offline "
@@ -575,50 +575,50 @@ msgstr ""
 "sitä ole tarkoitettu käyttäjän suoritettavaksi suoraan. Aloita järjestelmän "
 "päivitys/ei-verkkotapahtuma suorittamalla `dnf5 offline reboot`."
 
-#: commands/offline/offline.cpp:446
+#: commands/offline/offline.cpp:448
 msgid "Use `dnf5 offline reboot` to begin the transaction."
 msgstr "Suorita `dnf5 offline reboot` aloittaaksesi tapahtuman."
 
-#: commands/offline/offline.cpp:492
+#: commands/offline/offline.cpp:494
 msgid "Transaction failed: "
 msgstr "Transaktio epäonnistui: "
 
-#: commands/offline/offline.cpp:561
+#: commands/offline/offline.cpp:563
 msgid "Error reading journal: {}"
 msgstr "Virhe päiväkirjan lukemisessa: {}"
 
-#: commands/offline/offline.cpp:567
+#: commands/offline/offline.cpp:569
 msgid "Add journal match failed: {}"
 msgstr "Lisää päiväkirjaosuma epäonnistui: {}"
 
-#: commands/offline/offline.cpp:595
+#: commands/offline/offline.cpp:597
 msgid "No logs were found."
 msgstr "Lokeja ei löytynyt."
 
-#: commands/offline/offline.cpp:599
+#: commands/offline/offline.cpp:601
 msgid "The following boots appear to contain offline transaction logs:"
 msgstr "Seuraavat käynnistykset näyttävät sisältävän ei-verkkotapahtumalokeja:"
 
-#: commands/offline/offline.cpp:616
+#: commands/offline/offline.cpp:618
 msgid "Cannot find logs with this index."
 msgstr "Lokeja ei löydy tällä indeksillä."
 
-#: commands/offline/offline.cpp:623
+#: commands/offline/offline.cpp:625
 msgid "Unable to match systemd journal entry."
 msgstr "Ei voida täsmäyttää systemd-lokitietuetta."
 
-#: commands/offline/offline.cpp:635
+#: commands/offline/offline.cpp:637
 msgid "Show logs from past offline transactions"
 msgstr "Näytä lokit aiemmista ei-verkkotapahtumista"
 
-#: commands/offline/offline.cpp:643
+#: commands/offline/offline.cpp:645
 msgid ""
 "Which log to show. Run without any arguments to get a list of available logs."
 msgstr ""
 "Mikä loki näytetään. Suorita ilman argumentteja saadaksesi luettelon "
 "käytettävissä olevista lokeista."
 
-#: commands/offline/offline.cpp:658
+#: commands/offline/offline.cpp:660
 msgid ""
 "systemd is not supported in this build of DNF 5; the `log` subcommand is "
 "unavailable."
@@ -626,22 +626,22 @@ msgstr ""
 "systemd:tä ei tueta tässä DNF 5:n koontiversiossa; alikomento `log` ei ole "
 "käytettävissä."
 
-#: commands/offline/offline.cpp:663
+#: commands/offline/offline.cpp:665
 msgid "Show status of the current offline transaction"
 msgstr "Näytä nykyisen ei-verkkotapahtuman tila"
 
-#: commands/offline/offline.cpp:679
+#: commands/offline/offline.cpp:681
 msgid "An offline transaction was initiated by the following command:"
 msgstr "Ei-verkkotapahtuma aloitettiin seuraavalla komennolla:"
 
-#: commands/offline/offline.cpp:681
+#: commands/offline/offline.cpp:683
 msgid ""
 "Run `dnf5 offline reboot` to reboot and perform the offline transaction."
 msgstr ""
 "Suorita `dnf5 offline reboot` käynnistääksesi uudelleen ja suorittaaksesi ei-"
 "verkkotapahtuman."
 
-#: commands/offline/offline.cpp:683
+#: commands/offline/offline.cpp:685
 msgid ""
 "An offline transaction was started, but it did not finish. Run `dnf5 offline "
 "log` for more information. The command that initiated the transaction was:"
@@ -649,7 +649,7 @@ msgstr ""
 "Ei-verkkotapahtuma aloitettiin, mutta se ei päättynyt. Suorita `dnf5 offline "
 "log` saadaksesi lisätietoja. Komento, joka aloitti tapahtuman, oli:"
 
-#: commands/offline/offline.cpp:688
+#: commands/offline/offline.cpp:690
 msgid "Unknown offline transaction status: "
 msgstr "Tuntematon ei-verkkotapahtuman tila: "
 
