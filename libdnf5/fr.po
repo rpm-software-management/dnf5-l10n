@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-05 03:16+0000\n"
+"POT-Creation-Date: 2025-03-06 03:17+0000\n"
 "PO-Revision-Date: 2025-02-14 13:12+0000\n"
 "Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf5/"
@@ -34,7 +34,7 @@ msgid "Unsupported argument for REMOVE action: {}"
 msgstr "Argument non pris en charge pour l'action REMOVE : {}"
 
 #. TODO(lukash) throw a proper exception
-#: base/goal.cpp:1585
+#: base/goal.cpp:1587
 msgid "Incorrect configuration value for multilib_policy: {}"
 msgstr "Valeur de configuration pour multilib_policy incorrecte : {}"
 
@@ -1018,7 +1018,7 @@ msgstr "Échec du chargement des comps \"{}\" : extension \".xml\" manquante"
 msgid "Failed to load xml Comps \"{}\": {}"
 msgstr "Échec du chargement des comps XML \"{}\" : {}"
 
-#: repo/repo.cpp:500
+#: repo/repo.cpp:501
 msgid "Failed to load RPM \"{}\": {}"
 msgstr "Échec du chargement du RPM \"{}\" : {}"
 
@@ -1075,7 +1075,7 @@ msgstr "Échec de la récupération de la liste des clés OpenPGP : {}"
 msgid "Failed to import OpenPGP keys: {}"
 msgstr "Échec de l'importation des clés OpenPGP : {}"
 
-#: repo/repo_sack.cpp:149
+#: repo/repo_sack.cpp:148
 msgid ""
 "Failed to create repo \"{}\": Id is present more than once in the "
 "configuration"
@@ -1083,7 +1083,7 @@ msgstr ""
 "Échec de la création du dépôt \"{}\" : l'ID est présent plus d'une fois dans "
 "la configuration"
 
-#: repo/repo_sack.cpp:531
+#: repo/repo_sack.cpp:565
 msgid "Cache-only enabled but no cache for repository \"{}\""
 msgstr "L'option cacheonly est activée mais le dépôt \"{}\" n'est pas en cache"
 

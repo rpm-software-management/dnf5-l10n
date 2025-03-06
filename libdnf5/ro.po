@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-05 03:16+0000\n"
+"POT-Creation-Date: 2025-03-06 03:17+0000\n"
 "PO-Revision-Date: 2025-02-19 11:30+0000\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -32,7 +32,7 @@ msgid "Unsupported argument for REMOVE action: {}"
 msgstr "Argument neacceptat pentru acțiunea REMOVE: {} „{}”"
 
 #. TODO(lukash) throw a proper exception
-#: base/goal.cpp:1585
+#: base/goal.cpp:1587
 msgid "Incorrect configuration value for multilib_policy: {}"
 msgstr "Valoare de configurare incorectă pentru multilib_policy: {}"
 
@@ -1006,7 +1006,7 @@ msgstr "Încărcarea comps „{}” a eșuat: nu are extensia „.xml”"
 msgid "Failed to load xml Comps \"{}\": {}"
 msgstr "Încărcarea comps xml a eșuat „{}”: {}"
 
-#: repo/repo.cpp:500
+#: repo/repo.cpp:501
 msgid "Failed to load RPM \"{}\": {}"
 msgstr "Încărcarea RPM „{}” a eșuat: {}"
 
@@ -1061,7 +1061,7 @@ msgstr "Eșec la listarea cheilor OpenPGP: {}"
 msgid "Failed to import OpenPGP keys: {}"
 msgstr "Importare eșuată a cheilor OpenPGP: {}"
 
-#: repo/repo_sack.cpp:149
+#: repo/repo_sack.cpp:148
 msgid ""
 "Failed to create repo \"{}\": Id is present more than once in the "
 "configuration"
@@ -1069,7 +1069,7 @@ msgstr ""
 "Nu s-a reușit crearea depozitului „{}”: Id-ul este prezent de mai multe ori "
 "în configurație"
 
-#: repo/repo_sack.cpp:531
+#: repo/repo_sack.cpp:565
 msgid "Cache-only enabled but no cache for repository \"{}\""
 msgstr ""
 "Opțiunea cache-only este activată, dar nu există cache pentru depozitul „{}”"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-05 03:16+0000\n"
+"POT-Creation-Date: 2025-03-06 03:17+0000\n"
 "PO-Revision-Date: 2025-02-14 07:04+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
@@ -33,7 +33,7 @@ msgid "Unsupported argument for REMOVE action: {}"
 msgstr "제거(REMOVE) 동작을 위해 미지원된 인수: {}"
 
 #. TODO(lukash) throw a proper exception
-#: base/goal.cpp:1585
+#: base/goal.cpp:1587
 msgid "Incorrect configuration value for multilib_policy: {}"
 msgstr "multilib_policy용 잘못된 구성 값: {}"
 
@@ -965,7 +965,7 @@ msgstr "comps를 적재하는 데 실패함 \"{}: \".xml\" 확장을 가지고 �
 msgid "Failed to load xml Comps \"{}\": {}"
 msgstr "xml Comps를 적재하는 데 실패함 \"{}\": {}"
 
-#: repo/repo.cpp:500
+#: repo/repo.cpp:501
 msgid "Failed to load RPM \"{}\": {}"
 msgstr "적재하는 데 실패함 RPM \"{}\": {}"
 
@@ -1018,13 +1018,13 @@ msgstr "Openpgp 키를 나열하는 데 실패함: {}"
 msgid "Failed to import OpenPGP keys: {}"
 msgstr "Openpgp 키를 가져오는 데 실패함: {}"
 
-#: repo/repo_sack.cpp:149
+#: repo/repo_sack.cpp:148
 msgid ""
 "Failed to create repo \"{}\": Id is present more than once in the "
 "configuration"
 msgstr "repo \"{}\"를 생성하는 데 실패함: Id는 구성에서 두 번 이상 존재합니다"
 
-#: repo/repo_sack.cpp:531
+#: repo/repo_sack.cpp:565
 msgid "Cache-only enabled but no cache for repository \"{}\""
 msgstr "캐쉬-전용이 활성화되었으나 저장소를 위한 캐쉬가 없습니다 \"{}\""
 

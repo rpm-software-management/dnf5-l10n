@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-05 03:16+0000\n"
+"POT-Creation-Date: 2025-03-06 03:17+0000\n"
 "PO-Revision-Date: 2024-02-06 09:36+0000\n"
 "Last-Translator: Petr Ptacek <petr106@atlas.cz>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf5/"
@@ -32,7 +32,7 @@ msgid "Unsupported argument for REMOVE action: {}"
 msgstr "Nepodporovaný argument pro akci REMOVE: {}"
 
 #. TODO(lukash) throw a proper exception
-#: base/goal.cpp:1585
+#: base/goal.cpp:1587
 msgid "Incorrect configuration value for multilib_policy: {}"
 msgstr "Nesprávná hodnota konfigurace pro multilib_policy: {}"
 
@@ -1091,7 +1091,7 @@ msgstr "Nelze načíst RPM \"{}\": nemá příponu \".rpm\""
 msgid "Failed to load xml Comps \"{}\": {}"
 msgstr "Nepodařilo se načíst RPM \"{}\": {}"
 
-#: repo/repo.cpp:500
+#: repo/repo.cpp:501
 msgid "Failed to load RPM \"{}\": {}"
 msgstr "Nepodařilo se načíst RPM \"{}\": {}"
 
@@ -1151,7 +1151,7 @@ msgstr "Nepodařilo se vypsat pgp klíče: {}"
 msgid "Failed to import OpenPGP keys: {}"
 msgstr "Nepodařilo se importovat pgp klíče: {}"
 
-#: repo/repo_sack.cpp:149
+#: repo/repo_sack.cpp:148
 msgid ""
 "Failed to create repo \"{}\": Id is present more than once in the "
 "configuration"
@@ -1159,7 +1159,7 @@ msgstr ""
 "Nepodařilo se vytvořit repozitář \"{}\": ID je v konfiguraci přítomno více "
 "než jednou"
 
-#: repo/repo_sack.cpp:531
+#: repo/repo_sack.cpp:565
 msgid "Cache-only enabled but no cache for repository \"{}\""
 msgstr "Povolena pouze mezipaměť, ale žádná mezipaměť pro repozitář \"{}\""
 
