@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-05 03:16+0000\n"
+"POT-Creation-Date: 2025-03-06 03:17+0000\n"
 "PO-Revision-Date: 2025-01-03 15:05+0000\n"
 "Last-Translator: A S Alam <aalam@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Punjabi <https://translate.fedoraproject.org/projects/dnf5/"
@@ -493,88 +493,88 @@ msgid ""
 "transaction in the offline environment."
 msgstr ""
 
-#: commands/offline/offline.cpp:402
+#: commands/offline/offline.cpp:409
 msgid "Trigger file does not exist. Exiting."
 msgstr ""
 
-#: commands/offline/offline.cpp:406
+#: commands/offline/offline.cpp:413
 msgid "Another offline transaction tool is running. Exiting."
 msgstr "ਹੋਰ ਆਫ਼ਲਾਈਨ ਟਰਾਂਜ਼ੈਕਸ਼ਨ ਟੂਲ ਚੱਲ ਰਿਹਾ ਹੈ। ਬੰਦ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ।"
 
-#: commands/offline/offline.cpp:441
+#: commands/offline/offline.cpp:448
 msgid ""
 "Warning: the `_execute` command is for internal use only and is not intended "
 "to be run directly by the user. To initiate the system upgrade/offline "
 "transaction, you should run `dnf5 offline reboot`."
 msgstr ""
 
-#: commands/offline/offline.cpp:448
+#: commands/offline/offline.cpp:455
 msgid "Use `dnf5 offline reboot` to begin the transaction."
 msgstr "ਟਰਾਂਜ਼ੈਕਸ਼ਨ ਸ਼ੁਰੂ ਕਰਨ ਲਈ `dnf5 offline reboot` ਨੂੰ ਵਰਤੋਂ।"
 
-#: commands/offline/offline.cpp:494
+#: commands/offline/offline.cpp:501
 msgid "Transaction failed: "
 msgstr "ਟਰਾਂਜ਼ੈਕਸ਼ਨ ਅਸਫ਼ਲ ਹੈ: "
 
-#: commands/offline/offline.cpp:563
+#: commands/offline/offline.cpp:570
 msgid "Error reading journal: {}"
 msgstr "ਜਰਨਲ ਪੜ੍ਹਨ ਦੌਰਾਨ ਗਲਤੀ: {}"
 
-#: commands/offline/offline.cpp:569
+#: commands/offline/offline.cpp:576
 msgid "Add journal match failed: {}"
 msgstr ""
 
-#: commands/offline/offline.cpp:597
+#: commands/offline/offline.cpp:604
 msgid "No logs were found."
 msgstr "ਕੋਈ ਲਾਗ ਨਹੀਂ ਲੱਭਿਆ।"
 
-#: commands/offline/offline.cpp:601
+#: commands/offline/offline.cpp:608
 msgid "The following boots appear to contain offline transaction logs:"
 msgstr ""
 
-#: commands/offline/offline.cpp:618
+#: commands/offline/offline.cpp:625
 msgid "Cannot find logs with this index."
 msgstr "ਇਸ ਇੰਡੈਕਸ ਨਾਲ ਲਾਗ ਨਹੀਂ ਲੱਭੇ ਜਾ ਸਕਦੇ ਹਨ।"
 
-#: commands/offline/offline.cpp:625
+#: commands/offline/offline.cpp:632
 msgid "Unable to match systemd journal entry."
 msgstr ""
 
-#: commands/offline/offline.cpp:637
+#: commands/offline/offline.cpp:644
 msgid "Show logs from past offline transactions"
 msgstr "ਪਿਛਲੀਆਂ ਆਫ਼ਲਾਈਨ ਟਰਾਂਜ਼ੈਕਸ਼ਨਾਂ ਤੋਂ ਲਾਗ ਨੂੰ ਵੇਖਾਓ"
 
-#: commands/offline/offline.cpp:645
+#: commands/offline/offline.cpp:652
 msgid ""
 "Which log to show. Run without any arguments to get a list of available logs."
 msgstr ""
 
-#: commands/offline/offline.cpp:660
+#: commands/offline/offline.cpp:667
 msgid ""
 "systemd is not supported in this build of DNF 5; the `log` subcommand is "
 "unavailable."
 msgstr ""
 
-#: commands/offline/offline.cpp:665
+#: commands/offline/offline.cpp:672
 msgid "Show status of the current offline transaction"
 msgstr "ਮੌਜੂਦਾ ਆਫ਼ਲਾਈਨ ਟਰਾਂਜ਼ੈਕਸ਼ਨ ਦੀ ਸਥਿਤੀ ਨੂੰ ਵੇਖਾਓ"
 
-#: commands/offline/offline.cpp:681
+#: commands/offline/offline.cpp:688
 msgid "An offline transaction was initiated by the following command:"
 msgstr "ਇੱਕ ਆਫ਼ਲਾਈਨ ਟਰਾਂਜ਼ੈਕਸ਼ਨ ਨੂੰ ਅੱਗੇ ਦਿੱਤੀ ਕਮਾਂਡ ਵਲੋਂ ਸ਼ੁਰੂ ਕੀਤਾ ਗਿਆ ਹੈ:"
 
-#: commands/offline/offline.cpp:683
+#: commands/offline/offline.cpp:690
 msgid ""
 "Run `dnf5 offline reboot` to reboot and perform the offline transaction."
 msgstr "ਮੁੜ ਚਾਲੂ ਕਰਨ ਅਤੇ ਆਫ਼ਲਾਈਨ ਟਰਾਂਜ਼ੈਕਸ਼ਨ ਕਰਨ ਲਈ `dnf5 offline reboot` ਨੂੰ ਚਲਾਓ।"
 
-#: commands/offline/offline.cpp:685
+#: commands/offline/offline.cpp:692
 msgid ""
 "An offline transaction was started, but it did not finish. Run `dnf5 offline "
 "log` for more information. The command that initiated the transaction was:"
 msgstr ""
 
-#: commands/offline/offline.cpp:690
+#: commands/offline/offline.cpp:697
 msgid "Unknown offline transaction status: "
 msgstr "ਅਣਪਛਾਤੀ ਆਫ਼ਲਾਈਨ ਟਰਾਂਜ਼ੈਕਸ਼ਨ ਸਥਿਤੀ: "
 
@@ -660,15 +660,15 @@ msgid ""
 "currently installed"
 msgstr ""
 
-#: commands/system-upgrade/system-upgrade.cpp:99
+#: commands/system-upgrade/system-upgrade.cpp:101
 msgid "Need a --releasever greater than the current system version."
 msgstr ""
 
-#: commands/system-upgrade/system-upgrade.cpp:147
+#: commands/system-upgrade/system-upgrade.cpp:150
 msgid "Store a distro-sync transaction to be performed offline"
 msgstr "ਇੱਕ ਡਿਸਟਰੋ-ਸਿੰਕ ਟਰਾਂਜ਼ੈਕਸ਼ਨ ਨੂੰ ਆਫ਼ਲਾਈਨ ਕਰਨ ਲਈ ਸੰਭਾਲੋ"
 
-#: commands/system-upgrade/system-upgrade.cpp:169
+#: commands/system-upgrade/system-upgrade.cpp:172
 msgid "Store an upgrade transaction to be performed offline"
 msgstr "ਇੱਕ ਅੱਪਗਰੇਡ ਟਰਾਂਜ਼ੈਕਸ਼ਨ ਨੂੰ ਆਫ਼ਲਾਈਨ ਕਰਨ ਲਈ ਸੰਭਾਲੋ"
 
@@ -810,64 +810,64 @@ msgstr ""
 msgid "The key was successfully removed."
 msgstr "ਕੁੰਜੀ ਨੂੰ ਕਾਮਯਾਬੀ ਨਾਲ ਇੰਪੋਰਟ ਕੀਤਾ ਗਿਆ।"
 
-#: context.cpp:290
+#: context.cpp:294
 msgid "setopt: \"{}.{}\": {}"
 msgstr ""
 
-#: context.cpp:296 main.cpp:1341
+#: context.cpp:300 main.cpp:1341
 msgid ", "
 msgstr ", "
 
-#: context.cpp:300
+#: context.cpp:304
 msgid ""
 "No matching repositories for {}. To use repositories from a host system, "
 "pass --use-host-config option"
 msgstr ""
 
-#: context.cpp:304
+#: context.cpp:308
 msgid "No matching repositories for {}"
 msgstr "{} ਲਈ ਕੋਈ ਵੀ ਮਿਲਦੀਆਂ ਰਿਪੋਜ਼ਟਰੀਆਂ ਨਹੀਂ ਹਨ"
 
-#: context.cpp:350
+#: context.cpp:354
 msgid "Updating and loading repositories:"
 msgstr "ਰਿਪੋਜ਼ਟਰੀਆਂ ਨੂੰ ਅੱਪਡੇਟ ਤੇ ਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ:"
 
-#: context.cpp:360
+#: context.cpp:364
 msgid "Repositories loaded."
 msgstr "ਰਿਪੋਜ਼ਟਰੀਆਂ ਨੂੰ ਲੋਡ ਕੀਤਾ।"
 
-#: context.cpp:366
+#: context.cpp:370
 msgid "Testing offline transaction"
 msgstr "ਆਫ਼ਲਾਈਨ ਟਰਾਂਜ਼ੈਕਸ਼ਨ ਨੂੰ ਟੈਸਟ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"
 
-#: context.cpp:370 context.cpp:518
+#: context.cpp:374 context.cpp:522
 msgid "Transaction failed: {}"
 msgstr "ਟਰਾਂਜ਼ੈਕਸ਼ਨ ਫੇਲ੍ਹ ਹੈ: {}"
 
-#: context.cpp:375 context.cpp:523
+#: context.cpp:379 context.cpp:527
 msgid "  - {}"
 msgstr "  - {}"
 
-#: context.cpp:442
+#: context.cpp:446
 msgid ""
 "Location \"{}\" already contains a stored transaction, it will be "
 "overwritten."
 msgstr "\"{}\" ਟਿਕਾਣੇ ਵਿੱਚ ਪਹਿਲਾਂ ਹੀ ਸੰਭਾਲੀ ਹੋਈ ਟਰਾਂਜ਼ੈਕਸ਼ਨ ਹੈ, ਜਿਸ ਉੱਤੇ ਲਿਖਿਆ ਜਾਵੇਗਾ।"
 
-#: context.cpp:471
+#: context.cpp:475
 msgid ""
 "There is already an offline transaction queued, initiated by the following "
 "command:"
 msgstr "ਅੱਗੇ ਦਿੱਤੀ ਕਮਾਂਡ ਵਲੋਂ ਸ਼ੁਰੂ ਕੀਤੀ ਗਈ ਆਫ਼ਲਾਈਨ ਟਰਾਂਜ਼ੈਕਸ਼ਨ ਪਹਿਲਾਂ ਹੀ ਲਾਈਨ ਵਿੱਚ ਹੈ:"
 
-#: context.cpp:473
+#: context.cpp:477
 msgid ""
 "Continuing will cancel the old offline transaction and replace it with this "
 "one."
 msgstr ""
 "ਜਾਰੀ ਰੱਖਣ ਨਾਲ ਪੁਰਾਣੀ ਆਫ਼ਲਾਈਨ ਟਰਾਂਜ਼ੈਕਸ਼ਨ ਨੂੰ ਰੱਦ ਕੀਤਾ ਜਾਵੇਗਾ ਅਤੇ ਇਸ ਨਾਲ ਬਦਲਿਆ ਜਾਵੇਗਾ।"
 
-#: context.cpp:491
+#: context.cpp:495
 msgid ""
 "Transaction stored to be performed offline. Run `dnf5 offline reboot` to "
 "reboot and run the transaction. To cancel the transaction and delete the "
@@ -877,77 +877,77 @@ msgstr ""
 "offline reboot` ਨੂੰ ਚਲਾਓ। ਟਰਾਂਜ਼ੈਕਸ਼ਨ ਨੂੰ ਰੱਦ ਕਰਨ ਅਤੇ ਡਾਊਨਲੋਡ ਕੀਤੀਆਂ ਫ਼ਾਈਲਾਂ ਨੂੰ ਹਟਾਉਣ ਵਾਸਤੇ "
 "`dnf5 offline clean` ਨੂੰ ਵਰਤੋਂ।"
 
-#: context.cpp:497
+#: context.cpp:501
 msgid "Running transaction"
 msgstr "ਟਰਾਂਜ਼ੈਕਸ਼ਨ ਚੱਲ ਰਹੀ ਹੈ"
 
-#: context.cpp:807
+#: context.cpp:819
 msgid "Upgrading {}"
 msgstr "{} ਨੂੰ ਅੱਪਗਰੇਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"
 
-#: context.cpp:810
+#: context.cpp:822
 msgid "Downgrading {}"
 msgstr "{} ਨੂੰ ਡਾਊਨਗਰੇਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"
 
-#: context.cpp:813
+#: context.cpp:825
 msgid "Reinstalling {}"
 msgstr "{} ਨੂੰ ਮੁੜ-ਇੰਸਟਾਲ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"
 
-#: context.cpp:826
+#: context.cpp:838
 msgid "Unexpected action in TransactionPackage: {}"
 msgstr ""
 
-#: context.cpp:832
+#: context.cpp:844
 msgid "Installing {}"
 msgstr "{} ਨੂੰ ਇੰਸਟਾਲ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"
 
-#: context.cpp:853
+#: context.cpp:865
 msgid "Prepare transaction"
 msgstr "ਟਰਾਂਜ਼ੈਕਸ਼ਨ ਨੂੰ ਤਿਆਰ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"
 
-#: context.cpp:873
+#: context.cpp:885
 msgid "Removing {}"
 msgstr "{} ਨੂੰ ਹਟਾਇਆ ਜਾ ਰਿਹਾ ਹੈ"
 
-#: context.cpp:876
+#: context.cpp:888
 msgid "Cleanup {}"
 msgstr "{} ਦੀ ਸਫ਼ਾਈ"
 
-#: context.cpp:894
+#: context.cpp:906
 msgid "Unpack error: {}"
 msgstr "ਅਣ-ਪੈਕ ਗਲਤੀ: {}"
 
-#: context.cpp:902
+#: context.cpp:914
 msgid "Cpio error: {}"
 msgstr "Cpio ਗ਼ਲਤੀ: {}"
 
-#: context.cpp:912
+#: context.cpp:924
 msgid "Scriptlet output:"
 msgstr "ਸਕ੍ਰਿਪਟਲਿਟ ਆਉਟਪੁੱਟ:"
 
-#: context.cpp:935
+#: context.cpp:947
 #, fuzzy
 #| msgid "Running {} scriptlet: {}"
 msgid "Running scriptlets"
 msgstr "ਸਕ੍ਰਿਪਟਲਿਟ {} ਚੱਲ ਰਿਹਾ ਹੈ: {}"
 
-#: context.cpp:940
+#: context.cpp:952
 msgid "Running {} scriptlet: {}"
 msgstr "ਸਕ੍ਰਿਪਟਲਿਟ {} ਚੱਲ ਰਿਹਾ ਹੈ: {}"
 
-#: context.cpp:955
+#: context.cpp:967
 msgid "Finished {} scriptlet: {}"
 msgstr "ਸਕ੍ਰਿਪਟਲਿਟ {} ਮੁਕੰਮਲ ਹੋਇਆ: {}"
 
-#: context.cpp:961
+#: context.cpp:973
 msgid "Non-critical error in {} scriptlet: {}"
 msgstr ""
 
-#: context.cpp:970
+#: context.cpp:982
 msgid "Error in {} scriptlet: {}"
 msgstr ""
 
-#: context.cpp:1005
+#: context.cpp:1017
 msgid "Verify package files"
 msgstr "ਪੈਕੇਜ ਫਾਇਲਾਂ ਦੀ ਜਾਂਚ"
 
@@ -1324,7 +1324,7 @@ msgstr ""
 msgid "{}."
 msgstr "{}."
 
-#: main.cpp:1288 main.cpp:1517
+#: main.cpp:1288 main.cpp:1521
 msgid "{}. Add \"--help\" for more information about the arguments."
 msgstr ""
 
@@ -1344,42 +1344,42 @@ msgstr ""
 msgid "No read/execute access in current directory, moving to /"
 msgstr ""
 
-#: main.cpp:1440
+#: main.cpp:1444
 msgid ""
 "The requested operation requires superuser privileges. Please log in as a "
 "user with elevated rights, or use the \"--assumeno\" or \"--downloadonly\" "
 "options to run the command without modifying the system state."
 msgstr ""
 
-#: main.cpp:1481
+#: main.cpp:1485
 msgid "The operation will only store the transaction in {}"
 msgstr "ਕਾਰਵਾਈ {} ਵਿੱਚ ਸਿਰਫ਼ ਟਰਾਂਜ਼ੈਕਸ਼ਨ ਨੂੰ ਸੰਭਾਲੇਗੀ"
 
-#: main.cpp:1483
+#: main.cpp:1487
 msgid "The operation will only download packages for the transaction."
 msgstr "ਕਾਰਵਾਈ ਟਰਾਂਜ਼ੈਕਸ਼ਨ ਲਈ ਸਿਰਫ਼ ਪੈਕੇਜਾਂ ਨੂੰ ਡਾਊਨਲੋਡ ਹੀ ਕਰੇਗੀ।"
 
-#: main.cpp:1488
+#: main.cpp:1492
 msgid ""
 "Test mode enabled: Only package downloads, OpenPGP key installations and "
 "transaction checks will be performed."
 msgstr ""
 
-#: main.cpp:1505
+#: main.cpp:1509
 msgid ""
 "No repositories were loaded from the installroot. To use the configuration "
 "and repositories of the host system, pass --use-host-config."
 msgstr ""
 
-#: main.cpp:1527
+#: main.cpp:1531
 msgid "Command returned error: {}"
 msgstr "ਕਮਾਂਡ ਨੇ ਗ਼ਲਤੀ ਵਾਪਸ ਕੀਤੀ: {}"
 
-#: main.cpp:1535
+#: main.cpp:1539
 msgid "DNF5 finished"
 msgstr "DNF5 ਮੁਕੰਮਲ"
 
-#: main.cpp:1539
+#: main.cpp:1543
 msgid "Complete!"
 msgstr "ਮੁਕੰਮਲ!"
 

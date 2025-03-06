@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-05 03:16+0000\n"
+"POT-Creation-Date: 2025-03-06 03:17+0000\n"
 "PO-Revision-Date: 2025-02-21 19:55+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -557,15 +557,15 @@ msgstr ""
 "Vain sisäiseen käyttöön, ei ole tarkoitettu käyttäjän käytettäväksi. Suorita "
 "tapahtuma ei-verkkoympäristössä."
 
-#: commands/offline/offline.cpp:402
+#: commands/offline/offline.cpp:409
 msgid "Trigger file does not exist. Exiting."
 msgstr "Laukaisutiedostoa ei ole olemassa. Poistutaan."
 
-#: commands/offline/offline.cpp:406
+#: commands/offline/offline.cpp:413
 msgid "Another offline transaction tool is running. Exiting."
 msgstr "Toinen ei-verkkotapahtumatyökalu on käynnissä. Poistutaan."
 
-#: commands/offline/offline.cpp:441
+#: commands/offline/offline.cpp:448
 msgid ""
 "Warning: the `_execute` command is for internal use only and is not intended "
 "to be run directly by the user. To initiate the system upgrade/offline "
@@ -575,50 +575,50 @@ msgstr ""
 "sitä ole tarkoitettu käyttäjän suoritettavaksi suoraan. Aloita järjestelmän "
 "päivitys/ei-verkkotapahtuma suorittamalla `dnf5 offline reboot`."
 
-#: commands/offline/offline.cpp:448
+#: commands/offline/offline.cpp:455
 msgid "Use `dnf5 offline reboot` to begin the transaction."
 msgstr "Suorita `dnf5 offline reboot` aloittaaksesi tapahtuman."
 
-#: commands/offline/offline.cpp:494
+#: commands/offline/offline.cpp:501
 msgid "Transaction failed: "
 msgstr "Transaktio epäonnistui: "
 
-#: commands/offline/offline.cpp:563
+#: commands/offline/offline.cpp:570
 msgid "Error reading journal: {}"
 msgstr "Virhe päiväkirjan lukemisessa: {}"
 
-#: commands/offline/offline.cpp:569
+#: commands/offline/offline.cpp:576
 msgid "Add journal match failed: {}"
 msgstr "Lisää päiväkirjaosuma epäonnistui: {}"
 
-#: commands/offline/offline.cpp:597
+#: commands/offline/offline.cpp:604
 msgid "No logs were found."
 msgstr "Lokeja ei löytynyt."
 
-#: commands/offline/offline.cpp:601
+#: commands/offline/offline.cpp:608
 msgid "The following boots appear to contain offline transaction logs:"
 msgstr "Seuraavat käynnistykset näyttävät sisältävän ei-verkkotapahtumalokeja:"
 
-#: commands/offline/offline.cpp:618
+#: commands/offline/offline.cpp:625
 msgid "Cannot find logs with this index."
 msgstr "Lokeja ei löydy tällä indeksillä."
 
-#: commands/offline/offline.cpp:625
+#: commands/offline/offline.cpp:632
 msgid "Unable to match systemd journal entry."
 msgstr "Ei voida täsmäyttää systemd-lokitietuetta."
 
-#: commands/offline/offline.cpp:637
+#: commands/offline/offline.cpp:644
 msgid "Show logs from past offline transactions"
 msgstr "Näytä lokit aiemmista ei-verkkotapahtumista"
 
-#: commands/offline/offline.cpp:645
+#: commands/offline/offline.cpp:652
 msgid ""
 "Which log to show. Run without any arguments to get a list of available logs."
 msgstr ""
 "Mikä loki näytetään. Suorita ilman argumentteja saadaksesi luettelon "
 "käytettävissä olevista lokeista."
 
-#: commands/offline/offline.cpp:660
+#: commands/offline/offline.cpp:667
 msgid ""
 "systemd is not supported in this build of DNF 5; the `log` subcommand is "
 "unavailable."
@@ -626,22 +626,22 @@ msgstr ""
 "systemd:tä ei tueta tässä DNF 5:n koontiversiossa; alikomento `log` ei ole "
 "käytettävissä."
 
-#: commands/offline/offline.cpp:665
+#: commands/offline/offline.cpp:672
 msgid "Show status of the current offline transaction"
 msgstr "Näytä nykyisen ei-verkkotapahtuman tila"
 
-#: commands/offline/offline.cpp:681
+#: commands/offline/offline.cpp:688
 msgid "An offline transaction was initiated by the following command:"
 msgstr "Ei-verkkotapahtuma aloitettiin seuraavalla komennolla:"
 
-#: commands/offline/offline.cpp:683
+#: commands/offline/offline.cpp:690
 msgid ""
 "Run `dnf5 offline reboot` to reboot and perform the offline transaction."
 msgstr ""
 "Suorita `dnf5 offline reboot` käynnistääksesi uudelleen ja suorittaaksesi ei-"
 "verkkotapahtuman."
 
-#: commands/offline/offline.cpp:685
+#: commands/offline/offline.cpp:692
 msgid ""
 "An offline transaction was started, but it did not finish. Run `dnf5 offline "
 "log` for more information. The command that initiated the transaction was:"
@@ -649,7 +649,7 @@ msgstr ""
 "Ei-verkkotapahtuma aloitettiin, mutta se ei päättynyt. Suorita `dnf5 offline "
 "log` saadaksesi lisätietoja. Komento, joka aloitti tapahtuman, oli:"
 
-#: commands/offline/offline.cpp:690
+#: commands/offline/offline.cpp:697
 msgid "Unknown offline transaction status: "
 msgstr "Tuntematon ei-verkkotapahtuman tila: "
 
@@ -741,17 +741,17 @@ msgstr ""
 "Älä asenna paketteja uudesta julkaisusta, jos ne ovat vanhempia kuin tällä "
 "hetkellä asennettuina"
 
-#: commands/system-upgrade/system-upgrade.cpp:99
+#: commands/system-upgrade/system-upgrade.cpp:101
 msgid "Need a --releasever greater than the current system version."
 msgstr ""
 "Tarvitaan ”--releasever”, joka on suurempi kuin nykyinen järjestelmäversio."
 
-#: commands/system-upgrade/system-upgrade.cpp:147
+#: commands/system-upgrade/system-upgrade.cpp:150
 msgid "Store a distro-sync transaction to be performed offline"
 msgstr ""
 "Tallenna jakelusynkronointitapahtuma ei-verkkotilassa suoritettavaa varten"
 
-#: commands/system-upgrade/system-upgrade.cpp:169
+#: commands/system-upgrade/system-upgrade.cpp:172
 msgid "Store an upgrade transaction to be performed offline"
 msgstr "Tallenna päivitystapahtuma ei-verkkotilassa suoritettavaa varten"
 
@@ -891,15 +891,15 @@ msgstr ""
 msgid "The key was successfully removed."
 msgstr "Avain poistettiin onnistuneesti."
 
-#: context.cpp:290
+#: context.cpp:294
 msgid "setopt: \"{}.{}\": {}"
 msgstr ""
 
-#: context.cpp:296 main.cpp:1341
+#: context.cpp:300 main.cpp:1341
 msgid ", "
 msgstr ""
 
-#: context.cpp:300
+#: context.cpp:304
 msgid ""
 "No matching repositories for {}. To use repositories from a host system, "
 "pass --use-host-config option"
@@ -907,50 +907,50 @@ msgstr ""
 "Ei vastaavia tietovarastoja {}:lle. Jos haluat käyttää tietovarastoja "
 "isäntäjärjestelmästä, välitä vaihtoehto `--use-host-config`"
 
-#: context.cpp:304
+#: context.cpp:308
 msgid "No matching repositories for {}"
 msgstr "Ei vastaavia tietovarastoja {}:lle"
 
-#: context.cpp:350
+#: context.cpp:354
 msgid "Updating and loading repositories:"
 msgstr "Päivitetään ja ladataan ohjelmistolähteet:"
 
-#: context.cpp:360
+#: context.cpp:364
 msgid "Repositories loaded."
 msgstr "Ohjelmistolähteet ladattu."
 
-#: context.cpp:366
+#: context.cpp:370
 msgid "Testing offline transaction"
 msgstr "Testataan ei-verkkotapahtumaa"
 
-#: context.cpp:370 context.cpp:518
+#: context.cpp:374 context.cpp:522
 msgid "Transaction failed: {}"
 msgstr "Tapahtuma epäonnistui: {}"
 
-#: context.cpp:375 context.cpp:523
+#: context.cpp:379 context.cpp:527
 msgid "  - {}"
 msgstr ""
 
-#: context.cpp:442
+#: context.cpp:446
 msgid ""
 "Location \"{}\" already contains a stored transaction, it will be "
 "overwritten."
 msgstr "Sijainti \"{}\" sisältää jo tallennetun tapahtuman, se korvataan."
 
-#: context.cpp:471
+#: context.cpp:475
 msgid ""
 "There is already an offline transaction queued, initiated by the following "
 "command:"
 msgstr ""
 "Jonossa on jo ei-verkkotapahtuma, joka on aloitettu seuraavalla komennolla:"
 
-#: context.cpp:473
+#: context.cpp:477
 msgid ""
 "Continuing will cancel the old offline transaction and replace it with this "
 "one."
 msgstr "Jatkaminen peruuttaa vanhan ei-verkkotapahtuman ja korvaa sen tällä."
 
-#: context.cpp:491
+#: context.cpp:495
 msgid ""
 "Transaction stored to be performed offline. Run `dnf5 offline reboot` to "
 "reboot and run the transaction. To cancel the transaction and delete the "
@@ -961,77 +961,77 @@ msgstr ""
 "Käytä `dnf5 offline clean` peruuttaaksesi tapahtuman ja poistaaksesi ladatut "
 "tiedostot."
 
-#: context.cpp:497
+#: context.cpp:501
 msgid "Running transaction"
 msgstr "Suoritetaan transaktio"
 
-#: context.cpp:807
+#: context.cpp:819
 msgid "Upgrading {}"
 msgstr "Päivitetään {}"
 
-#: context.cpp:810
+#: context.cpp:822
 msgid "Downgrading {}"
 msgstr "Versiota alennetaan {}"
 
-#: context.cpp:813
+#: context.cpp:825
 msgid "Reinstalling {}"
 msgstr "Asennetaan uudelleen {}"
 
-#: context.cpp:826
+#: context.cpp:838
 msgid "Unexpected action in TransactionPackage: {}"
 msgstr "Odottamaton toimenpide TransactionPackagessa: {}"
 
-#: context.cpp:832
+#: context.cpp:844
 msgid "Installing {}"
 msgstr "Asennetaan {}"
 
-#: context.cpp:853
+#: context.cpp:865
 msgid "Prepare transaction"
 msgstr "Valmistellaan transaktiota"
 
-#: context.cpp:873
+#: context.cpp:885
 msgid "Removing {}"
 msgstr "Poistetaan {}"
 
-#: context.cpp:876
+#: context.cpp:888
 msgid "Cleanup {}"
 msgstr "Puhdistus {}"
 
-#: context.cpp:894
+#: context.cpp:906
 msgid "Unpack error: {}"
 msgstr "Pakkauksen purkuvirhe: {}"
 
-#: context.cpp:902
+#: context.cpp:914
 msgid "Cpio error: {}"
 msgstr "Cpio-virhe: {}"
 
-#: context.cpp:912
+#: context.cpp:924
 msgid "Scriptlet output:"
 msgstr "Sovelman tuloste:"
 
-#: context.cpp:935
+#: context.cpp:947
 #, fuzzy
 #| msgid "Running {} scriptlet: {}"
 msgid "Running scriptlets"
 msgstr "Suoritetaan sovelmaa {}: {}"
 
-#: context.cpp:940
+#: context.cpp:952
 msgid "Running {} scriptlet: {}"
 msgstr "Suoritetaan sovelmaa {}: {}"
 
-#: context.cpp:955
+#: context.cpp:967
 msgid "Finished {} scriptlet: {}"
 msgstr "Valmis sovelma {}: {}"
 
-#: context.cpp:961
+#: context.cpp:973
 msgid "Non-critical error in {} scriptlet: {}"
 msgstr "Ei-kriittinen virhe sovelmassa {}: {}"
 
-#: context.cpp:970
+#: context.cpp:982
 msgid "Error in {} scriptlet: {}"
 msgstr "Virhe sovelmassa {}: {}"
 
-#: context.cpp:1005
+#: context.cpp:1017
 msgid "Verify package files"
 msgstr "Vahvista pakettitiedostot"
 
@@ -1444,7 +1444,7 @@ msgstr ""
 msgid "{}."
 msgstr ""
 
-#: main.cpp:1288 main.cpp:1517
+#: main.cpp:1288 main.cpp:1521
 msgid "{}. Add \"--help\" for more information about the arguments."
 msgstr "{}. Lisää `--help` lisätietojen saamiseksi argumenteista."
 
@@ -1466,7 +1466,7 @@ msgstr ""
 msgid "No read/execute access in current directory, moving to /"
 msgstr "Ei luku-/suoritusoikeuksia nykyisessä hakemistossa, siirrytään tähän /"
 
-#: main.cpp:1440
+#: main.cpp:1444
 msgid ""
 "The requested operation requires superuser privileges. Please log in as a "
 "user with elevated rights, or use the \"--assumeno\" or \"--downloadonly\" "
@@ -1476,15 +1476,15 @@ msgstr ""
 "korotetuilla oikeuksilla tai käytä vaihtoehtoja `--assumeno` tai `--"
 "downloadonly` suorittaaksesi komennon muuttamatta järjestelmän tilaa."
 
-#: main.cpp:1481
+#: main.cpp:1485
 msgid "The operation will only store the transaction in {}"
 msgstr "Toiminto tallentaa vain tapahtuman {}:een"
 
-#: main.cpp:1483
+#: main.cpp:1487
 msgid "The operation will only download packages for the transaction."
 msgstr "Toiminto lataa vain paketteja tapahtumaa varten."
 
-#: main.cpp:1488
+#: main.cpp:1492
 msgid ""
 "Test mode enabled: Only package downloads, OpenPGP key installations and "
 "transaction checks will be performed."
@@ -1492,7 +1492,7 @@ msgstr ""
 "Testitila käytössä: Vain pakettien lataukset, OpenPGP-avainten asennukset ja "
 "tapahtumatarkistukset suoritetaan."
 
-#: main.cpp:1505
+#: main.cpp:1509
 msgid ""
 "No repositories were loaded from the installroot. To use the configuration "
 "and repositories of the host system, pass --use-host-config."
@@ -1500,15 +1500,15 @@ msgstr ""
 "Asennusjuuritasolta ei ulosladattu tietovarastoja. Käyttääksesi "
 "isäntäjärjestelmän kokoonpanoa ja tietovarastoja, välitä `--use-host-config`."
 
-#: main.cpp:1527
+#: main.cpp:1531
 msgid "Command returned error: {}"
 msgstr "Komento palautti virheen: {}"
 
-#: main.cpp:1535
+#: main.cpp:1539
 msgid "DNF5 finished"
 msgstr "DNF5 valmis"
 
-#: main.cpp:1539
+#: main.cpp:1543
 msgid "Complete!"
 msgstr "Valmis!"
 
