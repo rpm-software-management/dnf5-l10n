@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-07 03:17+0000\n"
+"POT-Creation-Date: 2025-03-08 02:52+0000\n"
 "PO-Revision-Date: 2025-02-23 16:58+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -488,11 +488,11 @@ msgstr "მოდულების მართვა"
 msgid "No matches found for \"{}\"."
 msgstr "\"{}\"-სთვის დამთხვევა აღმოჩენილი არაა."
 
-#: commands/offline/offline.cpp:191
+#: commands/offline/offline.cpp:211
 msgid "Manage offline transactions"
 msgstr "ქსელის გარეშე ტრანზაქციების მართვა"
 
-#: commands/offline/offline.cpp:223
+#: commands/offline/offline.cpp:243
 msgid ""
 "Error reading state: {}. Rerun the command you used to initiate the offline "
 "transaction, e.g. `dnf5 system-upgrade download [OPTIONS]`."
@@ -501,11 +501,11 @@ msgstr ""
 "ტრანზაციის გასაშვებად გამოიყენეთ, თავიდან. მაგ: 'dnf5 system-upgrade "
 "download [პარამეტრები]'."
 
-#: commands/offline/offline.cpp:246
+#: commands/offline/offline.cpp:266
 msgid "Couldn't connect to D-Bus: {}"
 msgstr "D-Bus-თან მიერთება შეუძლებელია: {}"
 
-#: commands/offline/offline.cpp:277
+#: commands/offline/offline.cpp:297
 msgid ""
 "Prepare the system to perform the offline transaction and reboot to start "
 "the transaction."
@@ -513,31 +513,31 @@ msgstr ""
 "სისტემის მომზადება ქსელგარეშე ტრანზაქციისთვის და გადატვირთვა ტრანზაქციის "
 "დასაწყებად."
 
-#: commands/offline/offline.cpp:284
+#: commands/offline/offline.cpp:304
 msgid "Power off the system after the operation is complete"
 msgstr "სისტემის გამორთვა ოპერაციის დასრულების შემდეგ"
 
-#: commands/offline/offline.cpp:295
+#: commands/offline/offline.cpp:315
 msgid "No offline transaction is stored."
 msgstr "ქსელგარეშე ტრანზაქციები დამახსოვრებული არაა."
 
-#: commands/offline/offline.cpp:303
+#: commands/offline/offline.cpp:323
 msgid "System is not ready for offline transaction."
 msgstr "სისტემა ქსელგარეშე ტრანზაქციისთვის მზად არაა."
 
-#: commands/offline/offline.cpp:306
+#: commands/offline/offline.cpp:326
 msgid "Data directory {} does not exist."
 msgstr "მონაცემების საქაღალდე {} არა რსებობს."
 
-#: commands/offline/offline.cpp:331
+#: commands/offline/offline.cpp:351
 msgid "{} is not wanted by system-update.target."
 msgstr "{} system-update.target-ს არ სჭირდება."
 
-#: commands/offline/offline.cpp:340
+#: commands/offline/offline.cpp:360
 msgid "The system will now reboot to upgrade to release version "
 msgstr "სისტემა ახლა გადაიტვირთოს, რომ განახლდეს რელიზის ვერსიამდე "
 
-#: commands/offline/offline.cpp:344
+#: commands/offline/offline.cpp:364
 msgid ""
 "The system will now reboot to perform the offline transaction initiated by "
 "the following command:"
@@ -545,7 +545,7 @@ msgstr ""
 "სისტემა ახლა გადაიტვირთება, რომ მოხდეს ქსელგარეშე ტრანზაქცია, რომელიც გაუშვა "
 "შემდეგმა ბრძანებამ:"
 
-#: commands/offline/offline.cpp:375
+#: commands/offline/offline.cpp:395
 msgid ""
 "Internal use only, not intended to be run by the user. Execute the "
 "transaction in the offline environment."
@@ -553,15 +553,25 @@ msgstr ""
 "მხოლოდ შიდა მოხმარებისთვის. არაა განკუთვნილი, რომ მომხმარებელმა გამოიყენოთ. "
 "ტრანზაქციის შესრულება ქსელგარეშე გარემოში."
 
-#: commands/offline/offline.cpp:409
+#: commands/offline/offline.cpp:429
 msgid "Trigger file does not exist. Exiting."
 msgstr "ტრიგერი ფაილი არ არსებობს. გასვლა."
 
-#: commands/offline/offline.cpp:413
+#: commands/offline/offline.cpp:433
 msgid "Another offline transaction tool is running. Exiting."
 msgstr "გაშვებულია სხვა ქსელგარეშე ტრანზაქციის პროგრამა. გასვლა."
 
-#: commands/offline/offline.cpp:448
+#: commands/offline/offline.cpp:460
+#, fuzzy
+#| msgid "No offline transaction is stored."
+msgid "Starting offline transaction. This will take a while."
+msgstr "ქსელგარეშე ტრანზაქციები დამახსოვრებული არაა."
+
+#: commands/offline/offline.cpp:464
+msgid "Starting system upgrade. This will take a while."
+msgstr ""
+
+#: commands/offline/offline.cpp:474
 msgid ""
 "Warning: the `_execute` command is for internal use only and is not intended "
 "to be run directly by the user. To initiate the system upgrade/offline "
@@ -571,51 +581,51 @@ msgstr ""
 "რომ მომხმარებელმა გაუშვას. სისტემის ვერსიის აწევის/ქსელგარეშე ტრანზაქციის "
 "გასაშვებად გამოიყენეთ ბრძანება 'dnf5 offline reboot'."
 
-#: commands/offline/offline.cpp:455
+#: commands/offline/offline.cpp:481
 msgid "Use `dnf5 offline reboot` to begin the transaction."
 msgstr "ტრანზაქციის გასაშვებად გამოიყენეთ 'dnf5 offline reboot'."
 
-#: commands/offline/offline.cpp:501
+#: commands/offline/offline.cpp:532
 msgid "Transaction failed: "
 msgstr "ტრანზაქცია ჩავარდა: "
 
-#: commands/offline/offline.cpp:570
+#: commands/offline/offline.cpp:602
 msgid "Error reading journal: {}"
 msgstr "შეცდომა ჟურნალის კითხვისას: {}"
 
-#: commands/offline/offline.cpp:576
+#: commands/offline/offline.cpp:608
 msgid "Add journal match failed: {}"
 msgstr "ჟურნალის დამთხვევის დამატება ჩავარდა: {}"
 
-#: commands/offline/offline.cpp:604
+#: commands/offline/offline.cpp:636
 msgid "No logs were found."
 msgstr "ჟურნალი ვერ ვიპოვე."
 
-#: commands/offline/offline.cpp:608
+#: commands/offline/offline.cpp:640
 msgid "The following boots appear to contain offline transaction logs:"
 msgstr ""
 "შემდეგი ჩატვირთვები, როგორც ჩანს, ქსელგარეშე ტრანზქციის ჟურნალს შეიცავენ:"
 
-#: commands/offline/offline.cpp:625
+#: commands/offline/offline.cpp:657
 msgid "Cannot find logs with this index."
 msgstr "ამ ინდექსით ჟურნალი ვერ ვიპოვე."
 
-#: commands/offline/offline.cpp:632
+#: commands/offline/offline.cpp:664
 msgid "Unable to match systemd journal entry."
 msgstr "ვერ ვიპოვე შესაბამისი systemd ჟურნალის ჩანაწერი."
 
-#: commands/offline/offline.cpp:644
+#: commands/offline/offline.cpp:676
 msgid "Show logs from past offline transactions"
 msgstr "ჟურნალის ჩანაწერების ჩვენება ძველი ქსელგარეშე ტრანზაქციებისთვის"
 
-#: commands/offline/offline.cpp:652
+#: commands/offline/offline.cpp:684
 msgid ""
 "Which log to show. Run without any arguments to get a list of available logs."
 msgstr ""
 "რომელი ჟურნალის გაჩვენოთ. გაუშვით არგუმენტების გარეშე ხელმისაწვდომი "
 "ჟურნალების სიის მისაღებად."
 
-#: commands/offline/offline.cpp:667
+#: commands/offline/offline.cpp:699
 msgid ""
 "systemd is not supported in this build of DNF 5; the `log` subcommand is "
 "unavailable."
@@ -623,22 +633,22 @@ msgstr ""
 "systemd მხარდაჭერილი არაა DNF 5-ის ამ ვარიანტში. ქვებრძანება 'log' "
 "ხელმისაწვდომი არაა."
 
-#: commands/offline/offline.cpp:672
+#: commands/offline/offline.cpp:704
 msgid "Show status of the current offline transaction"
 msgstr "მიმდინარე ქსელგარეშე ტრანზაქციის სტატუსის მიღება"
 
-#: commands/offline/offline.cpp:688
+#: commands/offline/offline.cpp:720
 msgid "An offline transaction was initiated by the following command:"
 msgstr "ქსელგარეშე ტრანზქცია დაიწყო შემდეგ ბრძანების მიერ:"
 
-#: commands/offline/offline.cpp:690
+#: commands/offline/offline.cpp:722
 msgid ""
 "Run `dnf5 offline reboot` to reboot and perform the offline transaction."
 msgstr ""
 "გაუშვით 'dnf5 offline reboot' გადასატვირთად და ქსელგარეშე ტრანზაქციის "
 "შესასრულებლად."
 
-#: commands/offline/offline.cpp:692
+#: commands/offline/offline.cpp:724
 msgid ""
 "An offline transaction was started, but it did not finish. Run `dnf5 offline "
 "log` for more information. The command that initiated the transaction was:"
@@ -646,7 +656,7 @@ msgstr ""
 "ქსელგარეშე ტრანზაქცია გაეშვა, მაგრამ არ დასრულდა. მეტი ინფორმაციის მისაღებად "
 "გაუშვით 'dnf5 offline log'. ბრძანება, რომელმაც ტრანზაქცია გაუშვა, იყო:"
 
-#: commands/offline/offline.cpp:697
+#: commands/offline/offline.cpp:729
 msgid "Unknown offline transaction status: "
 msgstr "უცნობი ქსელგარეშე ტრანზაქციის სტატუსი: "
 

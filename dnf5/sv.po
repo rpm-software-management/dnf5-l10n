@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-07 03:17+0000\n"
+"POT-Creation-Date: 2025-03-08 02:52+0000\n"
 "PO-Revision-Date: 2025-02-22 09:22+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -480,11 +480,11 @@ msgstr "Hantera moduler"
 msgid "No matches found for \"{}\"."
 msgstr "Inga matchningar hittades för \"{}\"."
 
-#: commands/offline/offline.cpp:191
+#: commands/offline/offline.cpp:211
 msgid "Manage offline transactions"
 msgstr "Hantera frånkopplade transaktioner"
 
-#: commands/offline/offline.cpp:223
+#: commands/offline/offline.cpp:243
 msgid ""
 "Error reading state: {}. Rerun the command you used to initiate the offline "
 "transaction, e.g. `dnf5 system-upgrade download [OPTIONS]`."
@@ -493,11 +493,11 @@ msgstr ""
 "initiera den frånkopplade transaktionen, t.ex. `dnf5 system-upgrade download "
 "[FLAGGOR]`."
 
-#: commands/offline/offline.cpp:246
+#: commands/offline/offline.cpp:266
 msgid "Couldn't connect to D-Bus: {}"
 msgstr "Kunde inte ansluta till D-Bus: {}"
 
-#: commands/offline/offline.cpp:277
+#: commands/offline/offline.cpp:297
 msgid ""
 "Prepare the system to perform the offline transaction and reboot to start "
 "the transaction."
@@ -505,31 +505,31 @@ msgstr ""
 "Förbered systemet för att utföra den frånkopplade transaktionen och starta "
 "om för att påbörja transaktionen."
 
-#: commands/offline/offline.cpp:284
+#: commands/offline/offline.cpp:304
 msgid "Power off the system after the operation is complete"
 msgstr "Stäng av systemet efter att åtgärden är färdig"
 
-#: commands/offline/offline.cpp:295
+#: commands/offline/offline.cpp:315
 msgid "No offline transaction is stored."
 msgstr "Ingen frånkopplad transaktion är lagrad."
 
-#: commands/offline/offline.cpp:303
+#: commands/offline/offline.cpp:323
 msgid "System is not ready for offline transaction."
 msgstr "Systemet är inte redo för en frånkopplad transaktion."
 
-#: commands/offline/offline.cpp:306
+#: commands/offline/offline.cpp:326
 msgid "Data directory {} does not exist."
 msgstr "Datakatalogen {} finns inte."
 
-#: commands/offline/offline.cpp:331
+#: commands/offline/offline.cpp:351
 msgid "{} is not wanted by system-update.target."
 msgstr "{} är inte önskat av system-update.target."
 
-#: commands/offline/offline.cpp:340
+#: commands/offline/offline.cpp:360
 msgid "The system will now reboot to upgrade to release version "
 msgstr "Systemet kommer nu starta om för att uppgradera till utgåveversion "
 
-#: commands/offline/offline.cpp:344
+#: commands/offline/offline.cpp:364
 msgid ""
 "The system will now reboot to perform the offline transaction initiated by "
 "the following command:"
@@ -537,7 +537,7 @@ msgstr ""
 "Systemet kommer nu starta om för att utföra den frånkopplade transaktionen "
 "som initierades av följande kommando:"
 
-#: commands/offline/offline.cpp:375
+#: commands/offline/offline.cpp:395
 msgid ""
 "Internal use only, not intended to be run by the user. Execute the "
 "transaction in the offline environment."
@@ -545,15 +545,25 @@ msgstr ""
 "Endast intern användning, inte avsett att köras av användaren. Kör "
 "transaktionen i den frånkopplade miljön."
 
-#: commands/offline/offline.cpp:409
+#: commands/offline/offline.cpp:429
 msgid "Trigger file does not exist. Exiting."
 msgstr "Utlösarfilen finns inte. Avslutar."
 
-#: commands/offline/offline.cpp:413
+#: commands/offline/offline.cpp:433
 msgid "Another offline transaction tool is running. Exiting."
 msgstr "En annan frånkopplad transaktion kör. Avslutar."
 
-#: commands/offline/offline.cpp:448
+#: commands/offline/offline.cpp:460
+#, fuzzy
+#| msgid "No offline transaction is stored."
+msgid "Starting offline transaction. This will take a while."
+msgstr "Ingen frånkopplad transaktion är lagrad."
+
+#: commands/offline/offline.cpp:464
+msgid "Starting system upgrade. This will take a while."
+msgstr ""
+
+#: commands/offline/offline.cpp:474
 msgid ""
 "Warning: the `_execute` command is for internal use only and is not intended "
 "to be run directly by the user. To initiate the system upgrade/offline "
@@ -563,52 +573,52 @@ msgstr ""
 "avsett att köras direkt av användaren. För att initiera systemuppgraderingen/"
 "den frånkopplade transaktionen skall man köra ? dnf5 offline reboot`."
 
-#: commands/offline/offline.cpp:455
+#: commands/offline/offline.cpp:481
 msgid "Use `dnf5 offline reboot` to begin the transaction."
 msgstr "Använd `dnf5 offline reboot` för att påbörja transaktionen."
 
-#: commands/offline/offline.cpp:501
+#: commands/offline/offline.cpp:532
 msgid "Transaction failed: "
 msgstr "Transaktionen misslyckades: "
 
-#: commands/offline/offline.cpp:570
+#: commands/offline/offline.cpp:602
 msgid "Error reading journal: {}"
 msgstr "Fel när journalen lästes: {}"
 
-#: commands/offline/offline.cpp:576
+#: commands/offline/offline.cpp:608
 msgid "Add journal match failed: {}"
 msgstr "Tillägg av journalmatchning misslyckades: {}"
 
-#: commands/offline/offline.cpp:604
+#: commands/offline/offline.cpp:636
 msgid "No logs were found."
 msgstr "Inga loggar fanns."
 
-#: commands/offline/offline.cpp:608
+#: commands/offline/offline.cpp:640
 msgid "The following boots appear to contain offline transaction logs:"
 msgstr ""
 "Följande uppstarter förefaller att innehålla loggar över frånkopplade "
 "transaktioner:"
 
-#: commands/offline/offline.cpp:625
+#: commands/offline/offline.cpp:657
 msgid "Cannot find logs with this index."
 msgstr "Kan inte hitta loggar med detta index."
 
-#: commands/offline/offline.cpp:632
+#: commands/offline/offline.cpp:664
 msgid "Unable to match systemd journal entry."
 msgstr "Kan inte matcha systemd:s journalpost."
 
-#: commands/offline/offline.cpp:644
+#: commands/offline/offline.cpp:676
 msgid "Show logs from past offline transactions"
 msgstr "Visa loggar från tidigare frånkopplade transaktioner"
 
-#: commands/offline/offline.cpp:652
+#: commands/offline/offline.cpp:684
 msgid ""
 "Which log to show. Run without any arguments to get a list of available logs."
 msgstr ""
 "Vilka loggar som skall visas. Kör utan några argument för att få en lista "
 "över tillgängliga loggar."
 
-#: commands/offline/offline.cpp:667
+#: commands/offline/offline.cpp:699
 msgid ""
 "systemd is not supported in this build of DNF 5; the `log` subcommand is "
 "unavailable."
@@ -616,22 +626,22 @@ msgstr ""
 "systemd stödjs inte i detta bygge av DNF 5; underkommandot `log` är "
 "otillgängligt."
 
-#: commands/offline/offline.cpp:672
+#: commands/offline/offline.cpp:704
 msgid "Show status of the current offline transaction"
 msgstr "Visa status för den aktuella frånkopplade transaktionen"
 
-#: commands/offline/offline.cpp:688
+#: commands/offline/offline.cpp:720
 msgid "An offline transaction was initiated by the following command:"
 msgstr "En frånkopplad transaktion initierades av följande kommando:"
 
-#: commands/offline/offline.cpp:690
+#: commands/offline/offline.cpp:722
 msgid ""
 "Run `dnf5 offline reboot` to reboot and perform the offline transaction."
 msgstr ""
 "Kör `dnf5 offline reboot` för att starta om och utföra den frånkopplade "
 "transaktionen."
 
-#: commands/offline/offline.cpp:692
+#: commands/offline/offline.cpp:724
 msgid ""
 "An offline transaction was started, but it did not finish. Run `dnf5 offline "
 "log` for more information. The command that initiated the transaction was:"
@@ -639,7 +649,7 @@ msgstr ""
 "En frånkopplad transaktion startades, men avslutades inte. Kör `dnf5 offline "
 "log` för mer information. Kommandot som initierade transaktionen var:"
 
-#: commands/offline/offline.cpp:697
+#: commands/offline/offline.cpp:729
 msgid "Unknown offline transaction status: "
 msgstr "Okänd status på frånkopplad transaktion: "
 
