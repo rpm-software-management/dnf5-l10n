@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-08 02:52+0000\n"
+"POT-Creation-Date: 2025-03-12 03:17+0000\n"
 "PO-Revision-Date: 2025-03-09 03:55+0000\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -569,62 +569,51 @@ msgstr "Se inițiază tranzacția fără conexiune. Aceasta va dura ceva timp."
 msgid "Starting system upgrade. This will take a while."
 msgstr "Se inițiază actualizarea sistemului. Aceasta va dura ceva timp."
 
-#: commands/offline/offline.cpp:474
-msgid ""
-"Warning: the `_execute` command is for internal use only and is not intended "
-"to be run directly by the user. To initiate the system upgrade/offline "
-"transaction, you should run `dnf5 offline reboot`."
-msgstr ""
-"Avertisment: comanda „_execute” este destinată exclusiv utilizării interne "
-"și nu este destinată a fi executată direct de către utilizator. Pentru a "
-"iniția actualizarea/tranzacția fără conexiune a sistemului, trebuie să "
-"executați «dnf5 offline reboot»."
-
-#: commands/offline/offline.cpp:481
+#: commands/offline/offline.cpp:476
 msgid "Use `dnf5 offline reboot` to begin the transaction."
 msgstr "Utilizați comanda «dnf5 offline reboot» pentru a începe tranzacția."
 
-#: commands/offline/offline.cpp:532
+#: commands/offline/offline.cpp:527
 msgid "Transaction failed: "
 msgstr "Tranzacția a eșuat: "
 
-#: commands/offline/offline.cpp:602
+#: commands/offline/offline.cpp:597
 msgid "Error reading journal: {}"
 msgstr "Eroare la citirea fișierului de jurnal: {}"
 
-#: commands/offline/offline.cpp:608
+#: commands/offline/offline.cpp:603
 msgid "Add journal match failed: {}"
 msgstr "Adăugarea potrivirii în jurnal a eșuat: {}"
 
-#: commands/offline/offline.cpp:636
+#: commands/offline/offline.cpp:631
 msgid "No logs were found."
 msgstr "Nu a fost găsit niciun jurnal."
 
-#: commands/offline/offline.cpp:640
+#: commands/offline/offline.cpp:635
 msgid "The following boots appear to contain offline transaction logs:"
 msgstr ""
 "Următoarele porniri par să conțină jurnale de tranzacții fără conexiune:"
 
-#: commands/offline/offline.cpp:657
+#: commands/offline/offline.cpp:652
 msgid "Cannot find logs with this index."
 msgstr "Nu se poate găsi niciun jurnal cu acest index."
 
-#: commands/offline/offline.cpp:664
+#: commands/offline/offline.cpp:659
 msgid "Unable to match systemd journal entry."
 msgstr "Nu s-a găsit nicio intrare care să corespundă în jurnalul systemd."
 
-#: commands/offline/offline.cpp:676
+#: commands/offline/offline.cpp:671
 msgid "Show logs from past offline transactions"
 msgstr "Afișează jurnalele din tranzacțiile efectuate fără conexiune în trecut"
 
-#: commands/offline/offline.cpp:684
+#: commands/offline/offline.cpp:679
 msgid ""
 "Which log to show. Run without any arguments to get a list of available logs."
 msgstr ""
 "Ce jurnal să fie afișat. Executați-o fără niciun argument pentru a obține o "
 "listă a jurnalelor disponibile."
 
-#: commands/offline/offline.cpp:699
+#: commands/offline/offline.cpp:694
 msgid ""
 "systemd is not supported in this build of DNF 5; the `log` subcommand is "
 "unavailable."
@@ -632,23 +621,23 @@ msgstr ""
 "systemd nu este acceptat în această versiune a DNF 5; subcomanda „log” nu "
 "este disponibilă."
 
-#: commands/offline/offline.cpp:704
+#: commands/offline/offline.cpp:699
 msgid "Show status of the current offline transaction"
 msgstr "Afișează starea tranzacției efectuate fără conexiune, curente"
 
-#: commands/offline/offline.cpp:720
+#: commands/offline/offline.cpp:715
 msgid "An offline transaction was initiated by the following command:"
 msgstr ""
 "O tranzacție fără conexiune la rețea a fost inițiată prin următoarea comandă:"
 
-#: commands/offline/offline.cpp:722
+#: commands/offline/offline.cpp:717
 msgid ""
 "Run `dnf5 offline reboot` to reboot and perform the offline transaction."
 msgstr ""
 "Rulați «dnf5 offline reboot» pentru a reporni și a efectua tranzacția fără "
 "conexiune la rețea."
 
-#: commands/offline/offline.cpp:724
+#: commands/offline/offline.cpp:719
 msgid ""
 "An offline transaction was started, but it did not finish. Run `dnf5 offline "
 "log` for more information. The command that initiated the transaction was:"
@@ -657,7 +646,7 @@ msgstr ""
 "finalizată. Rulați «dnf5 offline log» pentru mai multe informații. Comanda "
 "care a inițiat tranzacția a fost:"
 
-#: commands/offline/offline.cpp:729
+#: commands/offline/offline.cpp:724
 msgid "Unknown offline transaction status: "
 msgstr "Stare necunoscută a tranzacției fără conexiune la rețea: "
 
@@ -1552,3 +1541,13 @@ msgstr "Permite rezolvarea problemelor depsolve prin omiterea pachetelor"
 #: shared_options.cpp:54
 msgid "Allow skipping unavailable packages"
 msgstr "Permiteți omiterea pachetelor indisponibile"
+
+#~ msgid ""
+#~ "Warning: the `_execute` command is for internal use only and is not "
+#~ "intended to be run directly by the user. To initiate the system upgrade/"
+#~ "offline transaction, you should run `dnf5 offline reboot`."
+#~ msgstr ""
+#~ "Avertisment: comanda „_execute” este destinată exclusiv utilizării "
+#~ "interne și nu este destinată a fi executată direct de către utilizator. "
+#~ "Pentru a iniția actualizarea/tranzacția fără conexiune a sistemului, "
+#~ "trebuie să executați «dnf5 offline reboot»."

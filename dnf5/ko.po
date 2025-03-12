@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-08 02:52+0000\n"
+"POT-Creation-Date: 2025-03-12 03:17+0000\n"
 "PO-Revision-Date: 2025-03-08 20:17+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
@@ -550,59 +550,49 @@ msgstr "오프라인 연결 시작. 시간이 좀 걸립니다."
 msgid "Starting system upgrade. This will take a while."
 msgstr "시스템 향상 시작. 시간이 좀 걸립니다."
 
-#: commands/offline/offline.cpp:474
-msgid ""
-"Warning: the `_execute` command is for internal use only and is not intended "
-"to be run directly by the user. To initiate the system upgrade/offline "
-"transaction, you should run `dnf5 offline reboot`."
-msgstr ""
-"경고: `_execute` 명령은 내부적으로만 사용되며 사용자가 직접 실행하도록 의도하"
-"지 않았습니다. 시스템 향상/오프라인 연결을 시작하려면, `dnf5 offline reboot`"
-"를 실행하세요."
-
-#: commands/offline/offline.cpp:481
+#: commands/offline/offline.cpp:476
 msgid "Use `dnf5 offline reboot` to begin the transaction."
 msgstr "`dnf5 offline reboot`을 사용하여 연결을 시작합니다."
 
-#: commands/offline/offline.cpp:532
+#: commands/offline/offline.cpp:527
 msgid "Transaction failed: "
 msgstr "연결 실패함: "
 
-#: commands/offline/offline.cpp:602
+#: commands/offline/offline.cpp:597
 msgid "Error reading journal: {}"
 msgstr "journal을 읽기 중 오류: {}"
 
-#: commands/offline/offline.cpp:608
+#: commands/offline/offline.cpp:603
 msgid "Add journal match failed: {}"
 msgstr "Journal 일치 추가에 실패함: {}"
 
-#: commands/offline/offline.cpp:636
+#: commands/offline/offline.cpp:631
 msgid "No logs were found."
 msgstr "기록을 찾을 수 없습니다."
 
-#: commands/offline/offline.cpp:640
+#: commands/offline/offline.cpp:635
 msgid "The following boots appear to contain offline transaction logs:"
 msgstr "다음 부트는 오프라인 연결 기록을 포함하도록 표시됩니다:"
 
-#: commands/offline/offline.cpp:657
+#: commands/offline/offline.cpp:652
 msgid "Cannot find logs with this index."
 msgstr "이와 같은 색인을 갖는 기록을 찾을 수 없습니다."
 
-#: commands/offline/offline.cpp:664
+#: commands/offline/offline.cpp:659
 msgid "Unable to match systemd journal entry."
 msgstr "systemd journal 항목과 일치 할 수 없음."
 
-#: commands/offline/offline.cpp:676
+#: commands/offline/offline.cpp:671
 msgid "Show logs from past offline transactions"
 msgstr "지난 오프라인 연결에서 기록을 표시합니다"
 
-#: commands/offline/offline.cpp:684
+#: commands/offline/offline.cpp:679
 msgid ""
 "Which log to show. Run without any arguments to get a list of available logs."
 msgstr ""
 "표시 하려는 기록. 사용 가능한 기록의 목록을 가져오도록 인수 없이 실행합니다."
 
-#: commands/offline/offline.cpp:699
+#: commands/offline/offline.cpp:694
 msgid ""
 "systemd is not supported in this build of DNF 5; the `log` subcommand is "
 "unavailable."
@@ -610,21 +600,21 @@ msgstr ""
 "systemd는 DNF 5의 이 제작에서 지원되지 않습니다; `log` 하위명령은 사용 할 수 "
 "없습니다."
 
-#: commands/offline/offline.cpp:704
+#: commands/offline/offline.cpp:699
 msgid "Show status of the current offline transaction"
 msgstr "현재 오프라인 연결 상태를 표시합니다"
 
-#: commands/offline/offline.cpp:720
+#: commands/offline/offline.cpp:715
 msgid "An offline transaction was initiated by the following command:"
 msgstr "다음 명령에 의해 오프라인 연결이 시작되었습니다:"
 
-#: commands/offline/offline.cpp:722
+#: commands/offline/offline.cpp:717
 msgid ""
 "Run `dnf5 offline reboot` to reboot and perform the offline transaction."
 msgstr ""
 "`dnf5 offline reboot`를 동작하여 재시작 하고 오프라인 연결을 수행합니다."
 
-#: commands/offline/offline.cpp:724
+#: commands/offline/offline.cpp:719
 msgid ""
 "An offline transaction was started, but it did not finish. Run `dnf5 offline "
 "log` for more information. The command that initiated the transaction was:"
@@ -632,7 +622,7 @@ msgstr ""
 "오프라인 연결이 시작되었지만, 종료되지 못했습니다. 더 많은 정보를 위해 `dnf5 "
 "offline log`를 수행해요. 연결이 시작된 명령은 다음과 같습니다:"
 
-#: commands/offline/offline.cpp:729
+#: commands/offline/offline.cpp:724
 msgid "Unknown offline transaction status: "
 msgstr "알지 못하는 오프라인 연결 상태: "
 
@@ -1487,6 +1477,15 @@ msgstr "꾸러미 건너뛰기에 의해 depsolve 문제의 해결을 허용합�
 #: shared_options.cpp:54
 msgid "Allow skipping unavailable packages"
 msgstr "사용 할 수 없는 꾸러미를 건너뛰도록 허용합니다"
+
+#~ msgid ""
+#~ "Warning: the `_execute` command is for internal use only and is not "
+#~ "intended to be run directly by the user. To initiate the system upgrade/"
+#~ "offline transaction, you should run `dnf5 offline reboot`."
+#~ msgstr ""
+#~ "경고: `_execute` 명령은 내부적으로만 사용되며 사용자가 직접 실행하도록 의"
+#~ "도하지 않았습니다. 시스템 향상/오프라인 연결을 시작하려면, `dnf5 offline "
+#~ "reboot`를 실행하세요."
 
 #~ msgid "Error in {} scriptlet: {} return code {}"
 #~ msgstr "{} 구현에서 오류: {} 반환 코드 {}"

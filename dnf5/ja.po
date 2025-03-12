@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-08 02:52+0000\n"
+"POT-Creation-Date: 2025-03-12 03:17+0000\n"
 "PO-Revision-Date: 2025-01-25 03:44+0000\n"
 "Last-Translator: Inci sakura <incisakura@icloud.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf5/"
@@ -561,60 +561,50 @@ msgstr "保存されたオフライン トランザクションがありませ�
 msgid "Starting system upgrade. This will take a while."
 msgstr ""
 
-#: commands/offline/offline.cpp:474
-msgid ""
-"Warning: the `_execute` command is for internal use only and is not intended "
-"to be run directly by the user. To initiate the system upgrade/offline "
-"transaction, you should run `dnf5 offline reboot`."
-msgstr ""
-"警告: `_execute ` コマンドは内部用であり、ユーザーが直接実行することを考慮し"
-"ていません。システムのアップグレード/オフライン トランザクションを開始するに"
-"は、`dnf5 offline reboot` を実行してください。"
-
-#: commands/offline/offline.cpp:481
+#: commands/offline/offline.cpp:476
 msgid "Use `dnf5 offline reboot` to begin the transaction."
 msgstr "`dnf5 offline reboot` でトランザクションを開始します。"
 
-#: commands/offline/offline.cpp:532
+#: commands/offline/offline.cpp:527
 msgid "Transaction failed: "
 msgstr "トランザクション失敗: "
 
-#: commands/offline/offline.cpp:602
+#: commands/offline/offline.cpp:597
 msgid "Error reading journal: {}"
 msgstr "ジャーナル読み取り中にエラーが発生しました: {}"
 
-#: commands/offline/offline.cpp:608
+#: commands/offline/offline.cpp:603
 msgid "Add journal match failed: {}"
 msgstr "ジャーナルの一致追加に失敗しました: {}"
 
-#: commands/offline/offline.cpp:636
+#: commands/offline/offline.cpp:631
 msgid "No logs were found."
 msgstr "ログを見つかりませんでした。"
 
-#: commands/offline/offline.cpp:640
+#: commands/offline/offline.cpp:635
 msgid "The following boots appear to contain offline transaction logs:"
 msgstr "下記の起動にオフライン トランザクション ログが含まれているようです:"
 
-#: commands/offline/offline.cpp:657
+#: commands/offline/offline.cpp:652
 msgid "Cannot find logs with this index."
 msgstr "このインデックスのログを見つかりませんでした。"
 
-#: commands/offline/offline.cpp:664
+#: commands/offline/offline.cpp:659
 msgid "Unable to match systemd journal entry."
 msgstr "systemd ジャーナル エントリに一致しません。"
 
-#: commands/offline/offline.cpp:676
+#: commands/offline/offline.cpp:671
 msgid "Show logs from past offline transactions"
 msgstr "過去のオフライン トランザクションのログを表示します"
 
-#: commands/offline/offline.cpp:684
+#: commands/offline/offline.cpp:679
 msgid ""
 "Which log to show. Run without any arguments to get a list of available logs."
 msgstr ""
 "表示させたいログ。引数なしで実行すると、利用可能なすべてのログが表示されま"
 "す。"
 
-#: commands/offline/offline.cpp:699
+#: commands/offline/offline.cpp:694
 msgid ""
 "systemd is not supported in this build of DNF 5; the `log` subcommand is "
 "unavailable."
@@ -622,22 +612,22 @@ msgstr ""
 "この dnf5 のビルドは systemd をサポートされていません。`log` サブコマンドは利"
 "用できません。"
 
-#: commands/offline/offline.cpp:704
+#: commands/offline/offline.cpp:699
 msgid "Show status of the current offline transaction"
 msgstr "現在のオフライン トランザクションの状態を表示します"
 
-#: commands/offline/offline.cpp:720
+#: commands/offline/offline.cpp:715
 msgid "An offline transaction was initiated by the following command:"
 msgstr "オフライン トランザクションは以下のコマンドによって開始されました:"
 
-#: commands/offline/offline.cpp:722
+#: commands/offline/offline.cpp:717
 msgid ""
 "Run `dnf5 offline reboot` to reboot and perform the offline transaction."
 msgstr ""
 "`dnf5 offline reboot` を実行してオフライン トランザクションを実行してくださ"
 "い。"
 
-#: commands/offline/offline.cpp:724
+#: commands/offline/offline.cpp:719
 msgid ""
 "An offline transaction was started, but it did not finish. Run `dnf5 offline "
 "log` for more information. The command that initiated the transaction was:"
@@ -646,7 +636,7 @@ msgstr ""
 "offline log` を実行して更なる情報を確認できます。トランザクションはこちらのコ"
 "マンドによって初期化されました:"
 
-#: commands/offline/offline.cpp:729
+#: commands/offline/offline.cpp:724
 msgid "Unknown offline transaction status: "
 msgstr "不明なオフライン トランザクション状態: "
 
@@ -1516,3 +1506,12 @@ msgstr "依存問題解決のためにパッケージのスキップを許容し
 #: shared_options.cpp:54
 msgid "Allow skipping unavailable packages"
 msgstr "利用できないパッケージのスキップを許容します"
+
+#~ msgid ""
+#~ "Warning: the `_execute` command is for internal use only and is not "
+#~ "intended to be run directly by the user. To initiate the system upgrade/"
+#~ "offline transaction, you should run `dnf5 offline reboot`."
+#~ msgstr ""
+#~ "警告: `_execute ` コマンドは内部用であり、ユーザーが直接実行することを考慮"
+#~ "していません。システムのアップグレード/オフライン トランザクションを開始す"
+#~ "るには、`dnf5 offline reboot` を実行してください。"

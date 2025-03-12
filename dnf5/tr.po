@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-08 02:52+0000\n"
+"POT-Creation-Date: 2025-03-12 03:17+0000\n"
 "PO-Revision-Date: 2025-01-23 08:17+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -560,61 +560,50 @@ msgstr "Çevrim dışı işlem kaydedilmedi."
 msgid "Starting system upgrade. This will take a while."
 msgstr ""
 
-#: commands/offline/offline.cpp:474
-msgid ""
-"Warning: the `_execute` command is for internal use only and is not intended "
-"to be run directly by the user. To initiate the system upgrade/offline "
-"transaction, you should run `dnf5 offline reboot`."
-msgstr ""
-"Uyarı: `_execute` komutu yalnızca dahili kullanım içindir ve kullanıcı "
-"tarafından doğrudan çalıştırılması amaçlanmamıştır. Sistem yükseltmeyi/"
-"çevrim dışı işlemi başlatmak için `dnf5 offline reboot` komutunu "
-"çalıştırmalısınız."
-
-#: commands/offline/offline.cpp:481
+#: commands/offline/offline.cpp:476
 msgid "Use `dnf5 offline reboot` to begin the transaction."
 msgstr "İşlemi başlatmak için `dnf5 offline reboot` komutunu kullanın."
 
-#: commands/offline/offline.cpp:532
+#: commands/offline/offline.cpp:527
 msgid "Transaction failed: "
 msgstr "İşlem başarısız: "
 
-#: commands/offline/offline.cpp:602
+#: commands/offline/offline.cpp:597
 msgid "Error reading journal: {}"
 msgstr "Günlük okunurken hata oluştu: {}"
 
-#: commands/offline/offline.cpp:608
+#: commands/offline/offline.cpp:603
 msgid "Add journal match failed: {}"
 msgstr "Günlüğe eşleşme eklenemedi: {}"
 
-#: commands/offline/offline.cpp:636
+#: commands/offline/offline.cpp:631
 msgid "No logs were found."
 msgstr "Günlük kaydı bulunamadı."
 
-#: commands/offline/offline.cpp:640
+#: commands/offline/offline.cpp:635
 msgid "The following boots appear to contain offline transaction logs:"
 msgstr "Şu önyüklemeler çevrim dışı işlem günlükleri içeriyor gibi görünüyor:"
 
-#: commands/offline/offline.cpp:657
+#: commands/offline/offline.cpp:652
 msgid "Cannot find logs with this index."
 msgstr "Bu indekse sahip günlük kaydı bulunamıyor."
 
-#: commands/offline/offline.cpp:664
+#: commands/offline/offline.cpp:659
 msgid "Unable to match systemd journal entry."
 msgstr "systemd günlük girdisi eşleştirilemedi."
 
-#: commands/offline/offline.cpp:676
+#: commands/offline/offline.cpp:671
 msgid "Show logs from past offline transactions"
 msgstr "Geçmiş çevrim dışı işlemlerin günlüklerini göster"
 
-#: commands/offline/offline.cpp:684
+#: commands/offline/offline.cpp:679
 msgid ""
 "Which log to show. Run without any arguments to get a list of available logs."
 msgstr ""
 "Hangi günlüğün gösterileceği. Kullanılabilir günlüklerin bir listesini almak "
 "için herhangi bir argüman olmadan çalıştırın."
 
-#: commands/offline/offline.cpp:699
+#: commands/offline/offline.cpp:694
 msgid ""
 "systemd is not supported in this build of DNF 5; the `log` subcommand is "
 "unavailable."
@@ -622,22 +611,22 @@ msgstr ""
 "systemd, bu DNF 5 derlemesinde desteklenmiyor; `log` alt komutu "
 "kullanılabilir değil."
 
-#: commands/offline/offline.cpp:704
+#: commands/offline/offline.cpp:699
 msgid "Show status of the current offline transaction"
 msgstr "Geçerli çevrim dışı işlemin durumunu göster"
 
-#: commands/offline/offline.cpp:720
+#: commands/offline/offline.cpp:715
 msgid "An offline transaction was initiated by the following command:"
 msgstr "Bir çevrim dışı işlem şu komutla başlatıldı:"
 
-#: commands/offline/offline.cpp:722
+#: commands/offline/offline.cpp:717
 msgid ""
 "Run `dnf5 offline reboot` to reboot and perform the offline transaction."
 msgstr ""
 "Yeniden başlatmak ve çevrim dışı işlemi gerçekleştirmek için `dnf5 offline "
 "reboot` komutunu çalıştırın."
 
-#: commands/offline/offline.cpp:724
+#: commands/offline/offline.cpp:719
 msgid ""
 "An offline transaction was started, but it did not finish. Run `dnf5 offline "
 "log` for more information. The command that initiated the transaction was:"
@@ -645,7 +634,7 @@ msgstr ""
 "Çevrim dışı bir işlem başlatıldı, ancak tamamlanmadı. Daha fazla bilgi için "
 "`dnf5 offline log` komutunu çalıştırın. İşlemi başlatan komut şuydu:"
 
-#: commands/offline/offline.cpp:729
+#: commands/offline/offline.cpp:724
 msgid "Unknown offline transaction status: "
 msgstr "Bilinmeyen çevrim dışı işlem durumu: "
 
@@ -1530,6 +1519,16 @@ msgstr "Paketleri atlayarak bağımlılık sorunlarının çözülmesine izin ve
 #: shared_options.cpp:54
 msgid "Allow skipping unavailable packages"
 msgstr "Kullanılabilir olmayan paketlerin atlanmasına izin ver"
+
+#~ msgid ""
+#~ "Warning: the `_execute` command is for internal use only and is not "
+#~ "intended to be run directly by the user. To initiate the system upgrade/"
+#~ "offline transaction, you should run `dnf5 offline reboot`."
+#~ msgstr ""
+#~ "Uyarı: `_execute` komutu yalnızca dahili kullanım içindir ve kullanıcı "
+#~ "tarafından doğrudan çalıştırılması amaçlanmamıştır. Sistem yükseltmeyi/"
+#~ "çevrim dışı işlemi başlatmak için `dnf5 offline reboot` komutunu "
+#~ "çalıştırmalısınız."
 
 #~ msgid "Error in {} scriptlet: {} return code {}"
 #~ msgstr "{} betiğinde hata: {} dönüş kodu {}"
