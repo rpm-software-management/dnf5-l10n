@@ -2,13 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Joan Aymà <joan@ayma.cat>, 2025.
+# David Medina <dmedinacpnl@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-12 03:17+0000\n"
-"PO-Revision-Date: 2025-02-24 22:17+0000\n"
-"Last-Translator: Joan Aymà <joan@ayma.cat>\n"
+"PO-Revision-Date: 2025-03-13 03:10+0000\n"
+"Last-Translator: David Medina <dmedinacpnl@gmail.com>\n"
 "Language-Team: Catalan <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5-plugin-config-manager/ca/>\n"
 "Language: ca\n"
@@ -16,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10\n"
+"X-Generator: Weblate 5.10.2\n"
 
 #: addrepo.cpp:136
 msgid "from-repofile: \"{}\" file does not exist"
@@ -24,80 +25,90 @@ msgstr "from-repofile: El fitxer \"{}\" no existeix"
 
 #: addrepo.cpp:139
 msgid "from-repofile: {}"
-msgstr ""
+msgstr "from-repofile: {}"
 
 #: addrepo.cpp:169 setopt.cpp:83 setvar.cpp:49
 msgid "{}: Badly formatted argument value \"{}\""
-msgstr ""
+msgstr "{}: format incorrecte del valor de l'argument \"{}\""
 
 #: addrepo.cpp:179
 msgid "Cannot set repository option \"{}={}\": {}"
-msgstr ""
+msgstr "No es pot establir l'opció de repositori \"{}={}\": {}"
 
 #: addrepo.cpp:187 setopt.cpp:138
 msgid "Sets the \"{}\" option again with a different value: \"{}\" != \"{}\""
 msgstr ""
+"Estableix un altre cop l'opció {} amb un valor diferent: \"{}\" != \"{}\""
 
 #: addrepo.cpp:253
 msgid "Missing path to repository configuration directory"
-msgstr ""
+msgstr "Falta el camí al directori de configuració del dipòsit"
 
 #: addrepo.cpp:303
 msgid "Failed to copy repository configuration file \"{}\": {}"
-msgstr ""
+msgstr "No s'ha pogut copiar el fitxer de configuració del dipòsit {}: {}"
 
 #: addrepo.cpp:314
 msgid "Failed to download repository configuration file \"{}\": {}"
-msgstr ""
+msgstr "No s'ha pogut baixar el fitxer de configuració del dipòsit {}: {}"
 
 #: addrepo.cpp:342
 msgid ""
 "Error in added repository configuration file. Cannot set repository option "
 "\"{}={}\": {}"
 msgstr ""
+"Error al fitxer de configuració del dipòsit afegit. No es pot establir "
+"l'opció de repositori \"{}={}\": {}"
 
 #: addrepo.cpp:376
 msgid "Bad baseurl: {}={}"
-msgstr ""
+msgstr "Baseurl incorrecte: {}={}"
 
 #: addrepo.cpp:384
 msgid ""
 "One of --from-repofile=<URL>, --set=baseurl=<URL>, --set=mirrorlist=<URL>, --"
 "set=metalink=<URL> must be set to a non-empty URL"
 msgstr ""
+"Una opció de --from-repofile=<URL>, --set=baseurl=<URL>, --"
+"set=mirrorlist=<URL>, --set=metalink=<URL> s'ha d'establir en un URL no buit"
 
 #: addrepo.cpp:429
 msgid "Failed to save repository configuration file \"{}\": {}"
-msgstr ""
+msgstr "No s'ha pogut desar el fitxer de configuració del dipòsit {}: {}"
 
 #: addrepo.cpp:451
 msgid ""
 "File \"{}\" already exists and configures repositories with IDs \"{}\". Add "
 "\"--add-or-replace\" or \"--overwrite\"."
 msgstr ""
+"El fitxer {} ja existeix i configura els repositoris amb els ID {}. Afegiu-"
+"hi \"--add-or-replace\" o \"--overwrite\"."
 
 #: addrepo.cpp:454
 msgid ""
 "File \"{}\" already exists and configures repositories with IDs \"{}\". Add "
 "\"--overwrite\" to overwrite."
 msgstr ""
+"El fitxer {} ja existeix i configura els repositoris amb els ID {}. Afegiu-"
+"hi \"--overwrite\" per sobreescriure'l."
 
 #: addrepo.cpp:474 addrepo.cpp:500
 msgid "A repository with id \"{}\" already configured in file: {}"
-msgstr ""
+msgstr "Un dipòsit amb l'identificador {} ja està configurat al fitxer: {}"
 
 #: addrepo.cpp:486 setopt.cpp:263
 msgid "Cannot read repositories from directory \"{}\": {}"
-msgstr ""
+msgstr "No es poden llegir els repositoris del directori {}: {}"
 
 #: config-manager.cpp:43
 msgid "Manage configuration"
-msgstr ""
+msgstr "Gestiona la configuració"
 
 #: setopt.cpp:91 unsetopt.cpp:72
 msgid ""
 "{}: Badly formatted argument value: Last key character cannot be '.': {}"
 msgstr ""
+"{}: valor de l'argument incorrecte: l'últim caràcter clau no pot ser '.': {}"
 
 #: setopt.cpp:100 unsetopt.cpp:81
 msgid "{}: Empty repository id is not allowed: {}"
