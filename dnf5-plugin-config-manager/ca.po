@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-13 03:18+0000\n"
-"PO-Revision-Date: 2025-03-13 03:10+0000\n"
+"PO-Revision-Date: 2025-03-14 03:08+0000\n"
 "Last-Translator: David Medina <dmedinacpnl@gmail.com>\n"
 "Language-Team: Catalan <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5-plugin-config-manager/ca/>\n"
@@ -112,111 +112,138 @@ msgstr ""
 
 #: setopt.cpp:100 unsetopt.cpp:81
 msgid "{}: Empty repository id is not allowed: {}"
-msgstr ""
+msgstr "{}: un identificador de repositori buit no està permès: {}"
 
 #: setopt.cpp:109
 msgid "Cannot set repository option \"{}\": {}"
-msgstr ""
+msgstr "No es pot establir l'opció de repositori {}: {}"
 
 #: setopt.cpp:116 setopt.cpp:179
 msgid ""
 "Sets the \"{}\" option of the repository \"{}\" again with a different "
 "value: \"{}\" != \"{}\""
 msgstr ""
+"Estableix l'opció \"{}\" del repositori {} un altre cop amb un valor "
+"diferent: \"{}\" != \"{}\""
 
 #: setopt.cpp:130
 msgid "Cannot set option: \"{}\": {}"
-msgstr ""
+msgstr "No es pot establir l'opció: \"{}\": {}"
 
 #: setopt.cpp:170
 msgid "No matching repository to modify: {}"
-msgstr ""
+msgstr "No hi ha cap repositori coincident per modificar: {}"
 
 #: setvar.cpp:60
 msgid "Cannot set \"{}\": Variable \"{}\" is read-only"
-msgstr ""
+msgstr "No es pot establir {}: la variable \"{}\" és només de lectura"
 
 #: setvar.cpp:68
 msgid "Sets the \"{}\" variable again with a different value: \"{}\" != \"{}\""
 msgstr ""
+"Estableix un altre cop la variable \"{}\" amb un valor diferent: \"{}\" != "
+"\"{}\""
 
 #: setvar.cpp:97 unsetvar.cpp:63
 msgid "Missing path to vars directory"
-msgstr ""
+msgstr "Falta el camí al directori vars"
 
 #: setvar.cpp:110
 msgid "Cannot write variable to file \"{}\": {}"
-msgstr ""
+msgstr "No es pot escriure la variable al fitxer {}: {}"
 
 #: shared.hpp:58
 msgid ""
 "The path \"{}\" exists, but it is not a directory or a symlink to a "
 "directory."
 msgstr ""
+"El camí {} existeix, però no és un directori ni un enllaç simbòlic a un "
+"directori."
 
 #: shared.hpp:63
 msgid "The path \"{}\" exists, but it is a symlink to a non-existent object."
 msgstr ""
+"El camí {} existeix, però és un enllaç simbòlic a un objecte inexistent."
 
 #: shared.hpp:69
 msgid ""
 "Directory \"{}\" does not exist. Add \"--create-missing-dir\" to create "
 "missing directories."
 msgstr ""
+"El directori {} no existeix. Afegiu \"--create-missing-dir\" per crear els "
+"directoris que falten."
 
 #: shared.hpp:80
 msgid "Variable name can contain only ASCII letters, numbers and '_': {}"
 msgstr ""
+"El nom de la variable només pot contenir lletres ASCII, números i '_': {}"
 
 #: unsetopt.cpp:93
 msgid "config-manager: Request to remove unsupported repository option: {}"
 msgstr ""
+"config-manager: sol·licitud per suprimir l'opció de repositori no compatible:"
+" {}"
 
 #: unsetopt.cpp:105
 msgid "config-manager: Request to remove unsupported main option: {}"
 msgstr ""
+"config-manager: sol·licitud per suprimir l'opció principal no compatible: {}"
 
 #: unsetopt.cpp:140
 msgid ""
 "config-manager: Request to remove main option but it is not present in the "
 "config file: {}"
 msgstr ""
+"config-manager: sol·licitud per suprimir l'opció principal, però no és "
+"present al fitxer de configuració: {}"
 
 #: unsetopt.cpp:152
 msgid ""
 "config-manager: Request to remove main option but config file not found: {}"
 msgstr ""
+"config-manager: sol·licitud per suprimir l'opció principal, però no s'ha "
+"trobat el fitxer de configuració: {}"
 
 #: unsetopt.cpp:186
 msgid ""
 "config-manager: Request to remove repository option but repoid is not "
 "present in the overrides: {}"
 msgstr ""
+"config-manager: sol·licitud per suprimir l'opció del repositori, però repoid "
+"no és present a les sobreescriptures: {}"
 
 #: unsetopt.cpp:194
 msgid ""
 "config-manager: Request to remove repository option but it is not present in "
 "the overrides: {}.{}"
 msgstr ""
+"config-manager: sol·licita suprimir l'opció del repositori, però no és "
+"present a les sobreescriptures: {}.{}"
 
 #: unsetopt.cpp:214
 msgid ""
 "config-manager: Request to remove repository option but file with overrides "
 "not found: {}"
 msgstr ""
+"config-manager: sol·licitud per suprimir l'opció del repositori, però no "
+"s'ha trobat el fitxer amb sobreescriptures: {}"
 
 #: unsetvar.cpp:69
 msgid ""
 "config-manager: Request to remove variable but vars directory was not found: "
 "{}"
 msgstr ""
+"config-manager: sol·licitud per suprimir la variable però no s'ha trobat el "
+"directori vars: {}"
 
 #: unsetvar.cpp:82
 msgid ""
 "config-manager: Request to remove variable but it is not present in the vars "
 "directory: {}"
 msgstr ""
+"config-manager: sol·licitud per suprimir la variable però no és present al "
+"directori vars: {}"
 
 #: unsetvar.cpp:88
 msgid "Cannot remove variable file \"{}\": {}"
-msgstr ""
+msgstr "No es pot suprimir el fitxer variable {}: {}"
