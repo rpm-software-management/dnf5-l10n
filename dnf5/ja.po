@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-15 03:14+0000\n"
-"PO-Revision-Date: 2025-01-25 03:44+0000\n"
+"PO-Revision-Date: 2025-03-16 13:57+0000\n"
 "Last-Translator: Inci sakura <incisakura@icloud.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ja/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.9.2\n"
+"X-Generator: Weblate 5.10.2\n"
 
 #: commands/advisory/advisory.cpp:36
 msgid "Manage advisories"
@@ -552,14 +552,12 @@ msgid "Another offline transaction tool is running. Exiting."
 msgstr "別のオフライン トランザクション ツールが実行中です。終了します。"
 
 #: commands/offline/offline.cpp:462
-#, fuzzy
-#| msgid "No offline transaction is stored."
 msgid "Starting offline transaction. This will take a while."
-msgstr "保存されたオフライン トランザクションがありません。"
+msgstr "オフライントランザクションを開始します。しばらくお待ちください。"
 
 #: commands/offline/offline.cpp:466
 msgid "Starting system upgrade. This will take a while."
-msgstr ""
+msgstr "システム更新中、しばらくお待ちください。"
 
 #: commands/offline/offline.cpp:478
 msgid "Use `dnf5 offline reboot` to begin the transaction."
@@ -841,46 +839,36 @@ msgstr "キーが正常にインポートされました。"
 
 #: context.cpp:96
 msgid "The following PGP key (0x{}) is about to be removed:"
-msgstr ""
+msgstr "以下の PGP キー (0x{}) は削除されます:"
 
 #: context.cpp:98
-#, fuzzy
-#| msgid " UserID     : \"{}\"\n"
 msgid " Reason     : {}\n"
-msgstr " UserID: \"{}\"\n"
+msgstr " 理由: \"{}\"\n"
 
 #: context.cpp:102
-#, fuzzy
-#| msgid ""
-#| " Fingerprint: {}\n"
-#| " From       : {}\n"
 msgid " From       : {}\n"
-msgstr ""
-" 識別子: {}\n"
-" 提供元: {}\n"
+msgstr " 提供元: {}\n"
 
 #: context.cpp:104
 msgid "As a result, installing packages signed with this key will fail."
-msgstr ""
+msgstr "結果として、そのキーで署名したパッケージをインストールできません。"
 
 #: context.cpp:105
 msgid "It is recommended to remove the expired key to allow importing"
-msgstr ""
+msgstr "更新したキーをインポートするため、期限切れのキーの削除をお勧めしますが、"
 
 #: context.cpp:106
 msgid ""
 "an updated key. This might leave already installed packages unverifiable."
-msgstr ""
+msgstr "既にインストールしたパッケージが未認証の状態になる可能性があります。"
 
 #: context.cpp:109
 msgid "The system will now proceed with removing the key."
-msgstr ""
+msgstr "キーの削除を開始します。"
 
 #: context.cpp:115
-#, fuzzy
-#| msgid "The key was successfully imported."
 msgid "The key was successfully removed."
-msgstr "キーが正常にインポートされました。"
+msgstr "キーが正常に削除されました。"
 
 #: context.cpp:294
 msgid "setopt: \"{}.{}\": {}"
@@ -1005,10 +993,8 @@ msgid "Scriptlet output:"
 msgstr "scriptlet 出力:"
 
 #: context.cpp:947
-#, fuzzy
-#| msgid "Running {} scriptlet: {}"
 msgid "Running scriptlets"
-msgstr "{} scriptlet を実行中: {}"
+msgstr "scriptlet を実行中"
 
 #: context.cpp:952
 msgid "Running {} scriptlet: {}"
@@ -1418,7 +1404,7 @@ msgstr "--- DNF5 起動引数: \"{}\" ---"
 
 #: main.cpp:1247
 msgid "Invalid \"index\" in \"--complete=<index>[,...]\": {}"
-msgstr ""
+msgstr "無効なインデックス \"--complete=<index>[,...]\": {}"
 
 #: main.cpp:1286
 msgid "{}."
@@ -1479,7 +1465,8 @@ msgstr ""
 msgid ""
 "Error: this bootc system is configured to be read-only. For more "
 "information, run `bootc --help`."
-msgstr ""
+msgstr "エラー: bootc システムが読み込み専用です。詳しくは、`bootc --help` "
+"を実行してください。"
 
 #: main.cpp:1518
 msgid ""
