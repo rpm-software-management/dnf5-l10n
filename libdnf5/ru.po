@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-18 03:20+0000\n"
+"POT-Creation-Date: 2025-03-19 03:20+0000\n"
 "PO-Revision-Date: 2024-09-19 09:54+0000\n"
 "Last-Translator: Aleksey Fedorov <aleksejfedorov963@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -757,11 +757,11 @@ msgstr "Раздел \"{}\" не содержит опцию \"{}\""
 msgid "Configuration file \"{}\" not found"
 msgstr "Файл конфигурации \"{}\" не найден"
 
-#: conf/config_parser.cpp:98
+#: conf/config_parser.cpp:99
 msgid "Unable to access configuration file \"{}\""
 msgstr "Невозможно получить доступ к файлу конфигурации \"{}\""
 
-#: conf/config_parser.cpp:101
+#: conf/config_parser.cpp:102
 msgid "Error in configuration file \"{}\""
 msgstr "Ошибка в файле конфигурации \"{}\""
 
@@ -1039,11 +1039,11 @@ msgid "Error checking if repomd ({}: \"{}\") is in sync for repository \"{}\""
 msgstr ""
 "Ошибка при проверке синхронизации repomd ({}: \"{}\") для репозитория \"{}\""
 
-#: repo/repo_downloader.cpp:335
+#: repo/repo_downloader.cpp:336
 msgid "Error loading local metadata for repository \"{}\""
 msgstr "Ошибка при загрузке локальных метаданных для репозитория \"{}\""
 
-#: repo/repo_downloader.cpp:474
+#: repo/repo_downloader.cpp:475
 msgid ""
 "No valid source (baseurl, mirrorlist or metalink) found for repository \"{}\""
 msgstr ""
@@ -1076,7 +1076,7 @@ msgstr ""
 "Не удалось создать репозиторий \"{}\": Идентификатор присутствует в "
 "конфигурации более одного раза"
 
-#: repo/repo_sack.cpp:565
+#: repo/repo_sack.cpp:575
 msgid "Cache-only enabled but no cache for repository \"{}\""
 msgstr "Включено только кэширование, но нет кэша для репозитория \"{}\""
 
