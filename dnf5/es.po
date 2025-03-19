@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-18 03:20+0000\n"
+"POT-Creation-Date: 2025-03-19 03:20+0000\n"
 "PO-Revision-Date: 2024-11-17 09:51+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -882,7 +882,7 @@ msgid "The key was successfully imported."
 msgstr "La llave fue importada exitosamente."
 
 #: context.cpp:96
-msgid "The following PGP key (0x{}) is about to be removed:"
+msgid "The following OpenPGP key (0x{}) is about to be removed:"
 msgstr ""
 
 #: context.cpp:98
@@ -896,7 +896,7 @@ msgstr " IDUsuario     : \"{}\"\n"
 #| msgid ""
 #| " Fingerprint: {}\n"
 #| " From       : {}\n"
-msgid " From       : {}\n"
+msgid " Fingerprint: {}\n"
 msgstr ""
 " Huella dactilar: {}\n"
 " Desde                    : {}\n"
@@ -921,18 +921,18 @@ msgstr ""
 #: context.cpp:115
 #, fuzzy
 #| msgid "The key was successfully imported."
-msgid "The key was successfully removed."
+msgid "Key 0x{} was successfully removed."
 msgstr "La llave fue importada exitosamente."
 
-#: context.cpp:294
+#: context.cpp:295
 msgid "setopt: \"{}.{}\": {}"
 msgstr ""
 
-#: context.cpp:300 main.cpp:1342
+#: context.cpp:301 main.cpp:1342
 msgid ", "
 msgstr ""
 
-#: context.cpp:304
+#: context.cpp:305
 msgid ""
 "No matching repositories for {}. To use repositories from a host system, "
 "pass --use-host-config option"
@@ -940,38 +940,38 @@ msgstr ""
 "No hay repositorios coincidentes para {}. Para usar repositorios de un "
 "sistema anfitrión, utilice la opción --use-host-config"
 
-#: context.cpp:308
+#: context.cpp:309
 msgid "No matching repositories for {}"
 msgstr "No hay repositorios coincidentes para {}"
 
-#: context.cpp:354
+#: context.cpp:355
 msgid "Updating and loading repositories:"
 msgstr "Actualizando y cargando repositorios:"
 
-#: context.cpp:364
+#: context.cpp:365
 msgid "Repositories loaded."
 msgstr "Repositorios cargados."
 
-#: context.cpp:370
+#: context.cpp:371
 msgid "Testing offline transaction"
 msgstr "Probando transacción fuera de línea"
 
-#: context.cpp:374 context.cpp:522
+#: context.cpp:375 context.cpp:523
 msgid "Transaction failed: {}"
 msgstr "Transacción fallida: {}"
 
-#: context.cpp:379 context.cpp:527
+#: context.cpp:380 context.cpp:528
 msgid "  - {}"
 msgstr ""
 
-#: context.cpp:446
+#: context.cpp:447
 msgid ""
 "Location \"{}\" already contains a stored transaction, it will be "
 "overwritten."
 msgstr ""
 "Ubicación \"{}\" ya contiene una transacción almacenada, será sobrescrita."
 
-#: context.cpp:475
+#: context.cpp:476
 msgid ""
 "There is already an offline transaction queued, initiated by the following "
 "command:"
@@ -979,7 +979,7 @@ msgstr ""
 "Ya hay una transacción fuera de línea encolada, iniciada por el siguiente "
 "comando:"
 
-#: context.cpp:477
+#: context.cpp:478
 msgid ""
 "Continuing will cancel the old offline transaction and replace it with this "
 "one."
@@ -987,7 +987,7 @@ msgstr ""
 "Al continuar se cancelará la transacción fuera de línea anterior y será "
 "reemplazada por esta."
 
-#: context.cpp:495
+#: context.cpp:496
 msgid ""
 "Transaction stored to be performed offline. Run `dnf5 offline reboot` to "
 "reboot and run the transaction. To cancel the transaction and delete the "
@@ -997,77 +997,77 @@ msgstr ""
 "offline reboot`para reiniciar y ejecutar la transacción. Para cancelar la "
 "transacción y eliminar los archivos descargados, use `dnf5 offline clean`."
 
-#: context.cpp:501
+#: context.cpp:502
 msgid "Running transaction"
 msgstr "Ejecutando transacción"
 
-#: context.cpp:819
+#: context.cpp:820
 msgid "Upgrading {}"
 msgstr "Actualizando {}"
 
-#: context.cpp:822
+#: context.cpp:823
 msgid "Downgrading {}"
 msgstr "Degradando {}"
 
-#: context.cpp:825
+#: context.cpp:826
 msgid "Reinstalling {}"
 msgstr "Reinstalando {}"
 
-#: context.cpp:838
+#: context.cpp:839
 msgid "Unexpected action in TransactionPackage: {}"
 msgstr "Acción inesperada en paquete de transacción: {}"
 
-#: context.cpp:844
+#: context.cpp:845
 msgid "Installing {}"
 msgstr "Instalando {}"
 
-#: context.cpp:865
+#: context.cpp:866
 msgid "Prepare transaction"
 msgstr "Preparar transacción"
 
-#: context.cpp:885
+#: context.cpp:886
 msgid "Removing {}"
 msgstr "Eliminando {}"
 
-#: context.cpp:888
+#: context.cpp:889
 msgid "Cleanup {}"
 msgstr "Limpieza {}"
 
-#: context.cpp:906
+#: context.cpp:907
 msgid "Unpack error: {}"
 msgstr "Error de desempaquetado: {}"
 
-#: context.cpp:914
+#: context.cpp:915
 msgid "Cpio error: {}"
 msgstr "Error Cpio: {}"
 
-#: context.cpp:924
+#: context.cpp:925
 msgid "Scriptlet output:"
 msgstr "Salida del scriptlet:"
 
-#: context.cpp:947
+#: context.cpp:948
 #, fuzzy
 #| msgid "Running {} scriptlet: {}"
 msgid "Running scriptlets"
 msgstr "Ejecutando {} scriptlet: {}"
 
-#: context.cpp:952
+#: context.cpp:953
 msgid "Running {} scriptlet: {}"
 msgstr "Ejecutando {} scriptlet: {}"
 
-#: context.cpp:967
+#: context.cpp:968
 msgid "Finished {} scriptlet: {}"
 msgstr "Finalizado {} scriptlet: {}"
 
-#: context.cpp:973
+#: context.cpp:974
 msgid "Non-critical error in {} scriptlet: {}"
 msgstr "Error no crítico en {} scriptlet: {}"
 
-#: context.cpp:982
+#: context.cpp:983
 msgid "Error in {} scriptlet: {}"
 msgstr "Error en {} scriptlet: {}"
 
-#: context.cpp:1017
+#: context.cpp:1018
 msgid "Verify package files"
 msgstr "Verificar archivos de paquete"
 
@@ -1584,6 +1584,15 @@ msgstr "Permitir la resolución de problemas depsolve omitiendo paquetes"
 #: shared_options.cpp:54
 msgid "Allow skipping unavailable packages"
 msgstr "Permitir la omisión de paquetes no disponibles"
+
+#, fuzzy
+#~| msgid ""
+#~| " Fingerprint: {}\n"
+#~| " From       : {}\n"
+#~ msgid " From       : {}\n"
+#~ msgstr ""
+#~ " Huella dactilar: {}\n"
+#~ " Desde                    : {}\n"
 
 #~ msgid ""
 #~ "Warning: the `_execute` command is for internal use only and is not "

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-18 03:20+0000\n"
+"POT-Creation-Date: 2025-03-19 03:20+0000\n"
 "PO-Revision-Date: 2024-12-19 03:44+0000\n"
 "Last-Translator: Dmitry Kiryanov <kagaminep@yandex.ru>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -855,7 +855,7 @@ msgid "The key was successfully imported."
 msgstr "Ключ был успешно импортирован."
 
 #: context.cpp:96
-msgid "The following PGP key (0x{}) is about to be removed:"
+msgid "The following OpenPGP key (0x{}) is about to be removed:"
 msgstr ""
 
 #: context.cpp:98
@@ -869,7 +869,7 @@ msgstr " UserID     : \"{}\"\n"
 #| msgid ""
 #| " Fingerprint: {}\n"
 #| " From       : {}\n"
-msgid " From       : {}\n"
+msgid " Fingerprint: {}\n"
 msgstr ""
 " Отпечаток: {}\n"
 " Из       : {}\n"
@@ -894,18 +894,18 @@ msgstr ""
 #: context.cpp:115
 #, fuzzy
 #| msgid "The key was successfully imported."
-msgid "The key was successfully removed."
+msgid "Key 0x{} was successfully removed."
 msgstr "Ключ был успешно импортирован."
 
-#: context.cpp:294
+#: context.cpp:295
 msgid "setopt: \"{}.{}\": {}"
 msgstr "setopt: \"{}.{}\": {}"
 
-#: context.cpp:300 main.cpp:1342
+#: context.cpp:301 main.cpp:1342
 msgid ", "
 msgstr ", "
 
-#: context.cpp:304
+#: context.cpp:305
 msgid ""
 "No matching repositories for {}. To use repositories from a host system, "
 "pass --use-host-config option"
@@ -913,38 +913,38 @@ msgstr ""
 "Нет подходящих репозиториев для {}. Чтобы использовать репозитории из хост-"
 "системы, передайте опцию --use-host-config"
 
-#: context.cpp:308
+#: context.cpp:309
 msgid "No matching repositories for {}"
 msgstr "Нет подходящих репозиториев для {}"
 
-#: context.cpp:354
+#: context.cpp:355
 msgid "Updating and loading repositories:"
 msgstr "Обновление и загрузка репозиториев:"
 
-#: context.cpp:364
+#: context.cpp:365
 msgid "Repositories loaded."
 msgstr "Репозитории загружены."
 
-#: context.cpp:370
+#: context.cpp:371
 msgid "Testing offline transaction"
 msgstr "Тестирование автономной транзакции"
 
-#: context.cpp:374 context.cpp:522
+#: context.cpp:375 context.cpp:523
 msgid "Transaction failed: {}"
 msgstr "Сбой транзакции: {}"
 
-#: context.cpp:379 context.cpp:527
+#: context.cpp:380 context.cpp:528
 msgid "  - {}"
 msgstr "  - {}"
 
-#: context.cpp:446
+#: context.cpp:447
 msgid ""
 "Location \"{}\" already contains a stored transaction, it will be "
 "overwritten."
 msgstr ""
 "Место \"{}\" уже содержит сохраненную транзакцию, она будет перезаписана."
 
-#: context.cpp:475
+#: context.cpp:476
 msgid ""
 "There is already an offline transaction queued, initiated by the following "
 "command:"
@@ -952,13 +952,13 @@ msgstr ""
 "В очереди уже находится автономная транзакция, инициированная следующей "
 "командой:"
 
-#: context.cpp:477
+#: context.cpp:478
 msgid ""
 "Continuing will cancel the old offline transaction and replace it with this "
 "one."
 msgstr "Продолжение отменит старую автономную транзакцию и заменит её этой."
 
-#: context.cpp:495
+#: context.cpp:496
 msgid ""
 "Transaction stored to be performed offline. Run `dnf5 offline reboot` to "
 "reboot and run the transaction. To cancel the transaction and delete the "
@@ -968,77 +968,77 @@ msgstr ""
 "offline reboot`, чтобы перезагрузить и запустить транзакцию. Чтобы отменить "
 "транзакцию и удалить загруженные файлы, используйте `dnf5 offline clean`."
 
-#: context.cpp:501
+#: context.cpp:502
 msgid "Running transaction"
 msgstr "Выполнение транзакции"
 
-#: context.cpp:819
+#: context.cpp:820
 msgid "Upgrading {}"
 msgstr "Обновление {}"
 
-#: context.cpp:822
+#: context.cpp:823
 msgid "Downgrading {}"
 msgstr "Откат {}"
 
-#: context.cpp:825
+#: context.cpp:826
 msgid "Reinstalling {}"
 msgstr "Переустановка {}"
 
-#: context.cpp:838
+#: context.cpp:839
 msgid "Unexpected action in TransactionPackage: {}"
 msgstr "Неожиданное действие в TransactionPackage: {}"
 
-#: context.cpp:844
+#: context.cpp:845
 msgid "Installing {}"
 msgstr "Установка {}"
 
-#: context.cpp:865
+#: context.cpp:866
 msgid "Prepare transaction"
 msgstr "Подготовить транзакцию"
 
-#: context.cpp:885
+#: context.cpp:886
 msgid "Removing {}"
 msgstr "Удаление {}"
 
-#: context.cpp:888
+#: context.cpp:889
 msgid "Cleanup {}"
 msgstr "Очистка {}"
 
-#: context.cpp:906
+#: context.cpp:907
 msgid "Unpack error: {}"
 msgstr "Сбой распаковки: {}"
 
-#: context.cpp:914
+#: context.cpp:915
 msgid "Cpio error: {}"
 msgstr "Сбой Cpio: {}"
 
-#: context.cpp:924
+#: context.cpp:925
 msgid "Scriptlet output:"
 msgstr "Вывод скриплета:"
 
-#: context.cpp:947
+#: context.cpp:948
 #, fuzzy
 #| msgid "Running {} scriptlet: {}"
 msgid "Running scriptlets"
 msgstr "Выполняется {} скриптлет: {}"
 
-#: context.cpp:952
+#: context.cpp:953
 msgid "Running {} scriptlet: {}"
 msgstr "Выполняется {} скриптлет: {}"
 
-#: context.cpp:967
+#: context.cpp:968
 msgid "Finished {} scriptlet: {}"
 msgstr "Выполнено {} скриптлет: {}"
 
-#: context.cpp:973
+#: context.cpp:974
 msgid "Non-critical error in {} scriptlet: {}"
 msgstr "Некритическая ошибка в скриптлете {}: {}"
 
-#: context.cpp:982
+#: context.cpp:983
 msgid "Error in {} scriptlet: {}"
 msgstr "Сбой в {} скриптлет: {}"
 
-#: context.cpp:1017
+#: context.cpp:1018
 msgid "Verify package files"
 msgstr "Проверить файлы пакета"
 
@@ -1545,6 +1545,15 @@ msgstr "Позволять решать проблемы с depsolve, пропу
 #: shared_options.cpp:54
 msgid "Allow skipping unavailable packages"
 msgstr "Позволять пропускать недоступные пакеты"
+
+#, fuzzy
+#~| msgid ""
+#~| " Fingerprint: {}\n"
+#~| " From       : {}\n"
+#~ msgid " From       : {}\n"
+#~ msgstr ""
+#~ " Отпечаток: {}\n"
+#~ " Из       : {}\n"
 
 #~ msgid ""
 #~ "Warning: the `_execute` command is for internal use only and is not "
