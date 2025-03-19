@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-19 03:20+0000\n"
-"PO-Revision-Date: 2025-03-16 13:57+0000\n"
+"PO-Revision-Date: 2025-03-20 01:34+0000\n"
 "Last-Translator: Inci sakura <incisakura@icloud.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ja/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.10.2\n"
+"X-Generator: Weblate 5.10.4\n"
 
 #: commands/advisory/advisory.cpp:36
 msgid "Manage advisories"
@@ -838,24 +838,16 @@ msgid "The key was successfully imported."
 msgstr "キーが正常にインポートされました。"
 
 #: context.cpp:96
-#, fuzzy
-#| msgid "The following PGP key (0x{}) is about to be removed:"
 msgid "The following OpenPGP key (0x{}) is about to be removed:"
-msgstr "以下の PGP キー (0x{}) は削除されます:"
+msgstr "以下の OpenPGP キー (0x{}) は削除されます:"
 
 #: context.cpp:98
 msgid " Reason     : {}\n"
 msgstr " 理由: \"{}\"\n"
 
 #: context.cpp:102
-#, fuzzy
-#| msgid ""
-#| " Fingerprint: {}\n"
-#| " From       : {}\n"
 msgid " Fingerprint: {}\n"
-msgstr ""
-" 識別子: {}\n"
-" 提供元: {}\n"
+msgstr " 識別子: {}\n"
 
 #: context.cpp:104
 msgid "As a result, installing packages signed with this key will fail."
@@ -876,10 +868,8 @@ msgid "The system will now proceed with removing the key."
 msgstr "キーの削除を開始します。"
 
 #: context.cpp:115
-#, fuzzy
-#| msgid "The key was successfully removed."
 msgid "Key 0x{} was successfully removed."
-msgstr "キーが正常に削除されました。"
+msgstr "キー 0x{} が正常に削除されました。"
 
 #: context.cpp:295
 msgid "setopt: \"{}.{}\": {}"
