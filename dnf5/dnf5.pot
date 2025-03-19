@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-18 03:20+0000\n"
+"POT-Creation-Date: 2025-03-19 03:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -793,7 +793,7 @@ msgstr ""
 
 #: context.cpp:96
 #, c++-format
-msgid "The following PGP key (0x{}) is about to be removed:"
+msgid "The following OpenPGP key (0x{}) is about to be removed:"
 msgstr ""
 
 #: context.cpp:98
@@ -803,7 +803,7 @@ msgstr ""
 
 #: context.cpp:102
 #, c++-format
-msgid " From       : {}\n"
+msgid " Fingerprint: {}\n"
 msgstr ""
 
 #: context.cpp:104
@@ -824,160 +824,161 @@ msgid "The system will now proceed with removing the key."
 msgstr ""
 
 #: context.cpp:115
-msgid "The key was successfully removed."
+#, c++-format
+msgid "Key 0x{} was successfully removed."
 msgstr ""
 
-#: context.cpp:294
+#: context.cpp:295
 #, c++-format
 msgid "setopt: \"{}.{}\": {}"
 msgstr ""
 
-#: context.cpp:300 main.cpp:1342
+#: context.cpp:301 main.cpp:1342
 msgid ", "
 msgstr ""
 
-#: context.cpp:304
+#: context.cpp:305
 #, c++-format
 msgid ""
 "No matching repositories for {}. To use repositories from a host system, "
 "pass --use-host-config option"
 msgstr ""
 
-#: context.cpp:308
+#: context.cpp:309
 #, c++-format
 msgid "No matching repositories for {}"
 msgstr ""
 
-#: context.cpp:354
+#: context.cpp:355
 msgid "Updating and loading repositories:"
 msgstr ""
 
-#: context.cpp:364
+#: context.cpp:365
 msgid "Repositories loaded."
 msgstr ""
 
-#: context.cpp:370
+#: context.cpp:371
 msgid "Testing offline transaction"
 msgstr ""
 
-#: context.cpp:374 context.cpp:522
+#: context.cpp:375 context.cpp:523
 #, c++-format
 msgid "Transaction failed: {}"
 msgstr ""
 
-#: context.cpp:379 context.cpp:527
+#: context.cpp:380 context.cpp:528
 #, c++-format
 msgid "  - {}"
 msgstr ""
 
-#: context.cpp:446
+#: context.cpp:447
 #, c++-format
 msgid ""
 "Location \"{}\" already contains a stored transaction, it will be "
 "overwritten."
 msgstr ""
 
-#: context.cpp:475
+#: context.cpp:476
 msgid ""
 "There is already an offline transaction queued, initiated by the following "
 "command:"
 msgstr ""
 
-#: context.cpp:477
+#: context.cpp:478
 msgid ""
 "Continuing will cancel the old offline transaction and replace it with this "
 "one."
 msgstr ""
 
-#: context.cpp:495
+#: context.cpp:496
 msgid ""
 "Transaction stored to be performed offline. Run `dnf5 offline reboot` to "
 "reboot and run the transaction. To cancel the transaction and delete the "
 "downloaded files, use `dnf5 offline clean`."
 msgstr ""
 
-#: context.cpp:501
+#: context.cpp:502
 msgid "Running transaction"
 msgstr ""
 
-#: context.cpp:819
+#: context.cpp:820
 #, c++-format
 msgid "Upgrading {}"
 msgstr ""
 
-#: context.cpp:822
+#: context.cpp:823
 #, c++-format
 msgid "Downgrading {}"
 msgstr ""
 
-#: context.cpp:825
+#: context.cpp:826
 #, c++-format
 msgid "Reinstalling {}"
 msgstr ""
 
-#: context.cpp:838
+#: context.cpp:839
 #, c++-format
 msgid "Unexpected action in TransactionPackage: {}"
 msgstr ""
 
-#: context.cpp:844
+#: context.cpp:845
 #, c++-format
 msgid "Installing {}"
 msgstr ""
 
-#: context.cpp:865
+#: context.cpp:866
 msgid "Prepare transaction"
 msgstr ""
 
-#: context.cpp:885
+#: context.cpp:886
 #, c++-format
 msgid "Removing {}"
 msgstr ""
 
-#: context.cpp:888
+#: context.cpp:889
 #, c++-format
 msgid "Cleanup {}"
 msgstr ""
 
-#: context.cpp:906
+#: context.cpp:907
 #, c++-format
 msgid "Unpack error: {}"
 msgstr ""
 
-#: context.cpp:914
+#: context.cpp:915
 #, c++-format
 msgid "Cpio error: {}"
 msgstr ""
 
-#: context.cpp:924
+#: context.cpp:925
 msgid "Scriptlet output:"
 msgstr ""
 
-#: context.cpp:947
+#: context.cpp:948
 msgid "Running scriptlets"
 msgstr ""
 
-#: context.cpp:952
+#: context.cpp:953
 #, c++-format
 msgid "Running {} scriptlet: {}"
 msgstr ""
 
-#: context.cpp:967
+#: context.cpp:968
 #, c++-format
 msgid "Finished {} scriptlet: {}"
 msgstr ""
 
-#: context.cpp:973
+#: context.cpp:974
 #, c++-format
 msgid "Non-critical error in {} scriptlet: {}"
 msgstr ""
 
-#: context.cpp:982
+#: context.cpp:983
 #, c++-format
 msgid "Error in {} scriptlet: {}"
 msgstr ""
 
-#: context.cpp:1017
+#: context.cpp:1018
 msgid "Verify package files"
 msgstr ""
 
