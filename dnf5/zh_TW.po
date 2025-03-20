@@ -9,9 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-19 03:20+0000\n"
-"PO-Revision-Date: 2025-03-20 01:36+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2025-03-20 02:08+0000\n"
+"Last-Translator: hsu zangmen <chzang55@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
 "projects/dnf5/dnf5/zh_TW/>\n"
 "Language: zh_TW\n"
@@ -279,64 +278,68 @@ msgstr "僅對群組執行操作，不變更套件。"
 
 #: commands/history/arguments.hpp:37
 msgid "Transaction ID"
-msgstr "處理事項ID："
+msgstr "處理事項ID"
 
 #: commands/history/arguments.hpp:44
 msgid "Reverse the order of transactions."
-msgstr ""
+msgstr "反轉處理事項順序。"
 
 #: commands/history/arguments.hpp:54
 msgid ""
 "Don't consider mismatches between installed and stored transaction packages "
 "as errors. This can result in an empty transaction because among other "
 "things the option can ignore failing Remove actions."
-msgstr ""
+msgstr "不要將安裝的交易套件與儲存的處理事項套件不匹配視為錯誤。 "
+"這可能會導致一個空的處理事項，因為除其他事項外，該選項可以忽略失敗的移除動作"
+"。"
 
 #: commands/history/arguments.hpp:67
 msgid "Don't consider extra packages pulled into the transaction as errors."
-msgstr ""
+msgstr "不要將拉入處理事項的額外套件視為錯誤。"
 
 #: commands/history/arguments.hpp:80
 msgid ""
 "Show only transactions containing packages with specified names. List "
 "option, supports globs."
-msgstr ""
+msgstr "只顯示包含指定名稱套件的處理事項。 清單選項，支援 globs。"
 
 #: commands/history/history.cpp:41
 msgid "Manage transaction history"
-msgstr ""
+msgstr "管理處理事項的歷史記錄"
 
 #: commands/history/history_info.cpp:70
 msgid ""
 "No match found, history info defaults to considering only the last "
 "transaction, specify \"1..last\" range to search all transactions."
-msgstr ""
+msgstr "未找到匹配，歷史資訊預設為只考慮最後一次處理事項，指定「1...last」範圍可搜尋"
+"所有處理事項。"
 
 #: commands/history/history_redo.cpp:53
 #: commands/history/history_rollback.cpp:57
 #: commands/history/history_store.cpp:65 commands/history/history_undo.cpp:56
 msgid "No matching transaction ID found, exactly one required."
-msgstr ""
+msgstr "未找到匹配的處理事項 ID，正好需要一個。"
 
 #: commands/history/history_redo.cpp:57
 #: commands/history/history_rollback.cpp:61
 #: commands/history/history_undo.cpp:60
 msgid "Matched more than one transaction ID, exactly one required."
-msgstr ""
+msgstr "匹配一個以上的處理事項 ID，正好需要一個。"
 
 #: commands/history/history_store.cpp:68
 msgid "Multiple transactions selected for storing, only one allowed."
-msgstr ""
+msgstr "選擇儲存多筆處理事項，只允許存一筆。"
 
 #: commands/history/history_store.cpp:80
 msgid "File \"{}\" already exists, it will be overwritten.\n"
-msgstr ""
+msgstr "檔案\"{}\"已經存在，將被覆寫。\n"
 
 #: commands/history/transaction_id.cpp:32
 msgid ""
 "Invalid transaction ID range \"{}\", \"ID\" or \"ID..ID\" expected, where ID "
 "is \"NUMBER\", \"last\" or \"last-NUMBER\"."
-msgstr ""
+msgstr "預期處理事項 ID 範圍「{}」、「ID」或「ID...ID」無效，其中 ID "
+"為「NUMBER」、「last」或「last-NUMBER」。"
 
 #: commands/install/install.cpp:41
 msgid "Install software"
@@ -345,51 +348,52 @@ msgstr ""
 #: commands/leaves/leaves.cpp:42
 msgid ""
 "List groups of installed packages not required by other installed packages"
-msgstr ""
+msgstr "列出其他已安裝套件不需要的已安裝套件群組"
 
 #: commands/list/list.cpp:44
 msgid "Lists packages depending on the packages' relation to the system"
-msgstr ""
+msgstr "依據套件與系統的關係列出套件"
 
 #: commands/list/list.cpp:47
 msgid "List of keys to match case insensitively"
-msgstr ""
+msgstr "不考慮大小寫的匹配鍵清單"
 
 #: commands/list/list.cpp:59
 msgid "Show all versions of the packages, not only the latest ones."
-msgstr ""
+msgstr "顯示套件的所有版本，而不只是最新版本。"
 
 #: commands/list/list.cpp:65
 msgid "List installed packages."
-msgstr ""
+msgstr "列出已安裝的套件。"
 
 #: commands/list/list.cpp:69
 msgid "List available packages."
-msgstr ""
+msgstr "列出可用的套件。"
 
 #: commands/list/list.cpp:76
 msgid ""
 "List extras, that is packages installed on the system that are not available "
 "in any known repository."
-msgstr ""
+msgstr "列出額外套件，也就是系統上安裝的套件，這些套件在任何已知的套件庫中都無法找到"
+"。"
 
 #: commands/list/list.cpp:84
 msgid ""
 "List packages installed on the system that are obsoleted by packages in any "
 "known repository."
-msgstr ""
+msgstr "列出安裝在系統上，但已被任何已知套件庫中的套件淘汰的套件。"
 
 #: commands/list/list.cpp:89
 msgid "List packages recently added into the repositories."
-msgstr ""
+msgstr "列出最近加入套件庫的套件。"
 
 #: commands/list/list.cpp:93
 msgid "List upgrades available for the installed packages."
-msgstr ""
+msgstr "列出已安裝套件的可用升級。"
 
 #: commands/list/list.cpp:97
 msgid "List packages which will be removed by the 'dnf autoremove' command."
-msgstr ""
+msgstr "列出將被 'dnf autoremove' 指令移除的套件。"
 
 #: commands/list/list.cpp:194 commands/list/list.cpp:199
 msgid "Installed packages"
@@ -405,7 +409,7 @@ msgstr ""
 
 #: commands/list/list.cpp:232
 msgid "Obsoleting packages"
-msgstr ""
+msgstr "棄用軟體包"
 
 #: commands/list/list.cpp:237
 msgid "Autoremove packages"
@@ -425,95 +429,97 @@ msgstr ""
 
 #: commands/mark/mark.cpp:38
 msgid "Change the reason of an installed package"
-msgstr ""
+msgstr "變更已安裝套件的原因"
 
 #: commands/module/arguments.hpp:36
 msgid "Show enabled modules."
-msgstr ""
+msgstr "顯示已啟用的模組。"
 
 #: commands/module/arguments.hpp:43
 msgid "Show disabled modules."
-msgstr ""
+msgstr "顯示停用的模組。"
 
 #: commands/module/arguments.hpp:50
 msgid "Pattern matching module NSVCAs."
-msgstr ""
+msgstr "模式匹配模組 NSVCAs。"
 
 #: commands/module/module.cpp:43
 msgid "Manage modules"
-msgstr ""
+msgstr "管理模組"
 
 #: commands/module/module_list.cpp:85
 msgid "No matches found for \"{}\"."
-msgstr ""
+msgstr "沒有找到匹配的 \"{}\"。"
 
 #: commands/offline/offline.cpp:213
 msgid "Manage offline transactions"
-msgstr ""
+msgstr "管理離線處理事項"
 
 #: commands/offline/offline.cpp:245
 msgid ""
 "Error reading state: {}. Rerun the command you used to initiate the offline "
 "transaction, e.g. `dnf5 system-upgrade download [OPTIONS]`."
 msgstr ""
+"讀取狀態出錯： {}. 重新執行您用來啟動離線處理事項的指令，例如 `dnf5 system-"
+"upgrade download [OPTIONS]`。"
 
 #: commands/offline/offline.cpp:268
 msgid "Couldn't connect to D-Bus: {}"
-msgstr ""
+msgstr "無法連線至 D-Bus： {}"
 
 #: commands/offline/offline.cpp:299
 msgid ""
 "Prepare the system to perform the offline transaction and reboot to start "
 "the transaction."
-msgstr ""
+msgstr "準備系統以執行離線處理事項，並重新開機以啟動處理事項。"
 
 #: commands/offline/offline.cpp:306
 msgid "Power off the system after the operation is complete"
-msgstr ""
+msgstr "操作完成後關閉系統電源"
 
 #: commands/offline/offline.cpp:317
 msgid "No offline transaction is stored."
-msgstr ""
+msgstr "不會儲存離線處理事項。"
 
 #: commands/offline/offline.cpp:325
 msgid "System is not ready for offline transaction."
-msgstr ""
+msgstr "系統尚未準備好進行離線處理事項。"
 
 #: commands/offline/offline.cpp:328
 msgid "Data directory {} does not exist."
-msgstr ""
+msgstr "資料目錄 {} 不存在。"
 
 #: commands/offline/offline.cpp:353
 msgid "{} is not wanted by system-update.target."
-msgstr ""
+msgstr "{} 不是 system-update.target 想要的。"
 
 #: commands/offline/offline.cpp:362
 msgid "The system will now reboot to upgrade to release version "
-msgstr ""
+msgstr "系統現在會重新開機，升級至釋出版本 "
 
 #: commands/offline/offline.cpp:366
 msgid ""
 "The system will now reboot to perform the offline transaction initiated by "
 "the following command:"
-msgstr ""
+msgstr "系統現在會重新啟動，以執行由下列指令啟動的離線處理事項："
 
 #: commands/offline/offline.cpp:397
 msgid ""
 "Internal use only, not intended to be run by the user. Execute the "
 "transaction in the offline environment."
-msgstr ""
+msgstr "僅供內部使用，使用者不得執行。 在離線環境中執行處理事項。"
 
 #: commands/offline/offline.cpp:431
 msgid "Trigger file does not exist. Exiting."
-msgstr ""
+msgstr "觸發檔案不存在。 退出。"
 
 #: commands/offline/offline.cpp:435
 msgid "Another offline transaction tool is running. Exiting."
-msgstr ""
+msgstr "另一個離線處理事項工具正在執行。 退出。"
 
 #: commands/offline/offline.cpp:462
 msgid "Starting offline transaction. This will take a while."
-msgstr ""
+msgstr "開始離線處理事項。 這將需要一段時間。"
 
 #: commands/offline/offline.cpp:466
 msgid "Starting system upgrade. This will take a while."
@@ -521,7 +527,7 @@ msgstr ""
 
 #: commands/offline/offline.cpp:478
 msgid "Use `dnf5 offline reboot` to begin the transaction."
-msgstr ""
+msgstr "使用 `dnf5 offline reboot` 開始處理事項。"
 
 #: commands/offline/offline.cpp:529
 msgid "Transaction failed: "
@@ -529,19 +535,19 @@ msgstr ""
 
 #: commands/offline/offline.cpp:599
 msgid "Error reading journal: {}"
-msgstr ""
+msgstr "閱讀日誌時出錯： {}"
 
 #: commands/offline/offline.cpp:605
 msgid "Add journal match failed: {}"
-msgstr ""
+msgstr "新增日誌匹配失敗： {}"
 
 #: commands/offline/offline.cpp:633
 msgid "No logs were found."
-msgstr ""
+msgstr "未找到日誌。"
 
 #: commands/offline/offline.cpp:637
 msgid "The following boots appear to contain offline transaction logs:"
-msgstr ""
+msgstr "下列靴子似乎包含離線處理事項記錄："
 
 #: commands/offline/offline.cpp:654
 msgid "Cannot find logs with this index."
@@ -553,41 +559,42 @@ msgstr ""
 
 #: commands/offline/offline.cpp:673
 msgid "Show logs from past offline transactions"
-msgstr ""
+msgstr "顯示過去離線處理事項的日誌"
 
 #: commands/offline/offline.cpp:681
 msgid ""
 "Which log to show. Run without any arguments to get a list of available logs."
-msgstr ""
+msgstr "要顯示的日誌。 在沒有任何參數的情況下執行，以取得可用日誌清單。"
 
 #: commands/offline/offline.cpp:696
 msgid ""
 "systemd is not supported in this build of DNF 5; the `log` subcommand is "
 "unavailable."
-msgstr ""
+msgstr "DNF 5 的此版本不支援 systemd；`log` 子指令不可用。"
 
 #: commands/offline/offline.cpp:701
 msgid "Show status of the current offline transaction"
-msgstr ""
+msgstr "顯示目前離線處理事項的狀態"
 
 #: commands/offline/offline.cpp:717
 msgid "An offline transaction was initiated by the following command:"
-msgstr ""
+msgstr "離線處理事項由下列指令啟動："
 
 #: commands/offline/offline.cpp:719
 msgid ""
 "Run `dnf5 offline reboot` to reboot and perform the offline transaction."
-msgstr ""
+msgstr "執行 `dnf5 offline reboot` 以重新啟動並執行離線處理事項。"
 
 #: commands/offline/offline.cpp:721
 msgid ""
 "An offline transaction was started, but it did not finish. Run `dnf5 offline "
 "log` for more information. The command that initiated the transaction was:"
-msgstr ""
+msgstr "已啟動離線處理事項，但未完成。 執行 `dnf5 offline log` 取得更多資訊。 "
+"啟動處理事項的指令是："
 
 #: commands/offline/offline.cpp:726
 msgid "Unknown offline transaction status: "
-msgstr ""
+msgstr "未知離線處理事項狀態： "
 
 #: commands/provides/provides.cpp:48
 msgid "Find what package provides the given value"
@@ -595,31 +602,31 @@ msgstr ""
 
 #: commands/reinstall/reinstall.cpp:40
 msgid "Reinstall software"
-msgstr ""
+msgstr "重新安裝軟體"
 
 #: commands/remove/remove.cpp:40
 msgid "Remove (uninstall) software"
-msgstr ""
+msgstr "移除（卸載）軟體"
 
 #: commands/replay/replay.cpp:38
 msgid "Replay a transaction that was previously stored to a directory"
-msgstr ""
+msgstr "重播先前儲存至目錄的處理事項"
 
 #: commands/repo/arguments.hpp:35
 msgid "Show all repositories."
-msgstr ""
+msgstr "顯示所有套件庫。"
 
 #: commands/repo/arguments.hpp:42
 msgid "Show enabled repositories (default)."
-msgstr ""
+msgstr "顯示已啟用的套件庫 (預設值)。"
 
 #: commands/repo/arguments.hpp:49
 msgid "Show disabled repositories."
-msgstr ""
+msgstr "顯示停用的儲存庫。"
 
 #: commands/repo/arguments.hpp:56
 msgid "Pattern matching repo IDs."
-msgstr ""
+msgstr "模式匹配的 報告 ID。"
 
 #: commands/repo/repo.cpp:38
 msgid "Manage repositories"
@@ -627,19 +634,22 @@ msgstr ""
 
 #: commands/repoquery/repoquery.cpp:80
 msgid "Search for packages matching various criteria"
-msgstr ""
+msgstr "搜尋符合各種條件的套件"
 
 #: commands/repoquery/repoquery.cpp:516
 msgid ""
 "Option \"--exactdeps\" has to be used either with \"--whatrequires\" or \"--"
 "whatdepends\""
-msgstr ""
+msgstr "選項 \"--exactdeps\" 必須與 \"--whatrequires\" 或 \"--whatdepends\" "
+"一起使用。"
 
 #: commands/repoquery/repoquery.cpp:521
 msgid ""
 "Option \"--recursive\" has to be used either with \"--whatrequires\" or \"--"
 "providers-of=requires\""
 msgstr ""
+"選項 \"--recursive\" 必須與 \"--whatrequires\" 或 \"--providers-of=requires\""
+" 一起使用"
 
 #: commands/search/arguments.hpp:37
 msgid "Search also package description and URL."
@@ -647,15 +657,15 @@ msgstr ""
 
 #: commands/search/arguments.hpp:45
 msgid "Patterns"
-msgstr ""
+msgstr "模式"
 
 #: commands/search/search.cpp:44
 msgid "Search for software matching all specified strings"
-msgstr ""
+msgstr "搜尋符合所有指定字串的軟體"
 
 #: commands/swap/swap.cpp:42
 msgid "Remove software and install another in one transaction"
-msgstr ""
+msgstr "一次處理事項即可移除軟體並安裝其他軟體"
 
 #: commands/system-upgrade/system-upgrade.cpp:56
 msgid "Prepare system for upgrade to a new release"
@@ -663,13 +673,13 @@ msgstr ""
 
 #: commands/system-upgrade/system-upgrade.cpp:72
 msgid "Download everything needed to upgrade to a new release"
-msgstr ""
+msgstr "下載升級至新版本所需的所有內容"
 
 #: commands/system-upgrade/system-upgrade.cpp:80
 msgid ""
 "Do not install packages from the new release if they are older than what is "
 "currently installed"
-msgstr ""
+msgstr "如果新版本中的套件比目前安裝的套件舊，請勿安裝這些套件"
 
 #: commands/system-upgrade/system-upgrade.cpp:101
 msgid "Need a --releasever greater than the current system version."
