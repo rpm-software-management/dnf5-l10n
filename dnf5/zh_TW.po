@@ -10,7 +10,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-19 03:20+0000\n"
 "PO-Revision-Date: 2025-03-20 02:08+0000\n"
-"Last-Translator: hsu zangmen <chzang55@gmail.com>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
 "projects/dnf5/dnf5/zh_TW/>\n"
 "Language: zh_TW\n"
@@ -343,7 +344,7 @@ msgstr "預期處理事項 ID 範圍「{}」、「ID」或「ID...ID」無效，
 
 #: commands/install/install.cpp:41
 msgid "Install software"
-msgstr ""
+msgstr "安裝軟體"
 
 #: commands/leaves/leaves.cpp:42
 msgid ""
@@ -397,15 +398,15 @@ msgstr "列出將被 'dnf autoremove' 指令移除的套件。"
 
 #: commands/list/list.cpp:194 commands/list/list.cpp:199
 msgid "Installed packages"
-msgstr ""
+msgstr "已安裝軟體包"
 
 #: commands/list/list.cpp:195 commands/list/list.cpp:208
 msgid "Available packages"
-msgstr ""
+msgstr "可用的軟體包"
 
 #: commands/list/list.cpp:216
 msgid "Available upgrades"
-msgstr ""
+msgstr "可用的升級"
 
 #: commands/list/list.cpp:232
 msgid "Obsoleting packages"
@@ -413,19 +414,19 @@ msgstr "棄用軟體包"
 
 #: commands/list/list.cpp:237
 msgid "Autoremove packages"
-msgstr ""
+msgstr "自動移除軟體包"
 
 #: commands/list/list.cpp:241
 msgid "Extra packages"
-msgstr ""
+msgstr "額外的軟體包"
 
 #: commands/list/list.cpp:252
 msgid "Recently added packages"
-msgstr ""
+msgstr "最近加入的軟體包"
 
 #: commands/list/list.cpp:257
 msgid "No matching packages to list"
-msgstr ""
+msgstr "沒有符合的軟體包可列出"
 
 #: commands/mark/mark.cpp:38
 msgid "Change the reason of an installed package"
@@ -523,7 +524,7 @@ msgstr "開始離線處理事項。 這將需要一段時間。"
 
 #: commands/offline/offline.cpp:466
 msgid "Starting system upgrade. This will take a while."
-msgstr ""
+msgstr "開始系統升級。這需要一段時間。"
 
 #: commands/offline/offline.cpp:478
 msgid "Use `dnf5 offline reboot` to begin the transaction."
@@ -531,7 +532,7 @@ msgstr "使用 `dnf5 offline reboot` 開始處理事項。"
 
 #: commands/offline/offline.cpp:529
 msgid "Transaction failed: "
-msgstr ""
+msgstr "處理事項失敗 "
 
 #: commands/offline/offline.cpp:599
 msgid "Error reading journal: {}"
@@ -551,11 +552,11 @@ msgstr "下列靴子似乎包含離線處理事項記錄："
 
 #: commands/offline/offline.cpp:654
 msgid "Cannot find logs with this index."
-msgstr ""
+msgstr "無法透過這個索引找到記錄檔案"
 
 #: commands/offline/offline.cpp:661
 msgid "Unable to match systemd journal entry."
-msgstr ""
+msgstr "無法符合 systemd 的記錄檔項目"
 
 #: commands/offline/offline.cpp:673
 msgid "Show logs from past offline transactions"
@@ -598,7 +599,7 @@ msgstr "未知離線處理事項狀態： "
 
 #: commands/provides/provides.cpp:48
 msgid "Find what package provides the given value"
-msgstr ""
+msgstr "尋找哪個軟體包提供了所提供的值"
 
 #: commands/reinstall/reinstall.cpp:40
 msgid "Reinstall software"
@@ -630,7 +631,7 @@ msgstr "模式匹配的 報告 ID。"
 
 #: commands/repo/repo.cpp:38
 msgid "Manage repositories"
-msgstr ""
+msgstr "管理軟體庫"
 
 #: commands/repoquery/repoquery.cpp:80
 msgid "Search for packages matching various criteria"
@@ -653,7 +654,7 @@ msgstr ""
 
 #: commands/search/arguments.hpp:37
 msgid "Search also package description and URL."
-msgstr ""
+msgstr "也搜尋軟體包描述說明和URL"
 
 #: commands/search/arguments.hpp:45
 msgid "Patterns"
@@ -669,7 +670,7 @@ msgstr "一次處理事項即可移除軟體並安裝其他軟體"
 
 #: commands/system-upgrade/system-upgrade.cpp:56
 msgid "Prepare system for upgrade to a new release"
-msgstr ""
+msgstr "準備系統以升級至新的發行版本"
 
 #: commands/system-upgrade/system-upgrade.cpp:72
 msgid "Download everything needed to upgrade to a new release"
@@ -683,7 +684,7 @@ msgstr "如果新版本中的套件比目前安裝的套件舊，請勿安裝這
 
 #: commands/system-upgrade/system-upgrade.cpp:101
 msgid "Need a --releasever greater than the current system version."
-msgstr ""
+msgstr "需要比 --releasever 更新的目前系統版本"
 
 #: commands/system-upgrade/system-upgrade.cpp:150
 msgid "Store a distro-sync transaction to be performed offline"
