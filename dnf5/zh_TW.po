@@ -2,38 +2,42 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Shihfu Juan <baby20030720@gmail.com>, 2025.
+# hsu zangmen <chzang55@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-19 03:20+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-03-20 01:34+0000\n"
+"Last-Translator: hsu zangmen <chzang55@gmail.com>\n"
+"Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
+"projects/dnf5/dnf5/zh_TW/>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.10.4\n"
 
 #: commands/advisory/advisory.cpp:36
 msgid "Manage advisories"
-msgstr ""
+msgstr "管理建議"
 
 #: commands/advisory/advisory_info.hpp:35
 msgid "Print details about advisories"
-msgstr ""
+msgstr "列出有關建議的詳細資訊"
 
 #: commands/advisory/advisory_list.hpp:35
 msgid "List advisories"
-msgstr ""
+msgstr "清單建議"
 
 #: commands/advisory/advisory_summary.cpp:44
 msgid "All"
-msgstr ""
+msgstr "全部"
 
 #: commands/advisory/advisory_summary.cpp:48
 msgid "Installed"
-msgstr ""
+msgstr "己安裝"
 
 #: commands/advisory/advisory_summary.cpp:52
 msgid "Updates"
@@ -45,108 +49,112 @@ msgstr ""
 
 #: commands/advisory/advisory_summary.hpp:33
 msgid "Print summary of advisories"
-msgstr ""
+msgstr "列出建議摘要"
 
 #: commands/advisory/arguments.hpp:34
 msgid "Show advisories containing any version of installed packages."
-msgstr ""
+msgstr "顯示包含任何已安裝套件版本的公告。"
 
 #: commands/advisory/arguments.hpp:45
 msgid ""
 "Show advisories containing newer versions of installed packages. This is the "
 "default behavior."
-msgstr ""
+msgstr "顯示包含已安裝套件更新版本的公告。 這是預設行為。"
 
 #: commands/advisory/arguments.hpp:57
 msgid ""
 "Show advisories containing equal and older versions of installed packages."
-msgstr ""
+msgstr "顯示包含已安裝套件的相同及較舊版本的公告。"
 
 #: commands/advisory/arguments.hpp:69
 msgid ""
 "Show advisories containing newer versions of installed packages for which a "
 "newer version is available."
-msgstr ""
+msgstr "顯示包含已安裝套件的更新版本的公告。"
 
 #: commands/advisory/arguments.hpp:82
 msgid ""
 "Show only advisories containing packages with specified names. List option, "
 "supports globs."
-msgstr ""
+msgstr "只顯示包含指定名稱套件的公告。 清單選項，支援 globs。"
 
 #: commands/advisory/arguments.hpp:83 commands/history/arguments.hpp:81
 msgid "PACKAGE_NAME,..."
-msgstr ""
+msgstr "PACKAGE_NAME,..."
 
 #: commands/advisory/arguments.hpp:90
 msgid "List of patterns matched against advisory names."
-msgstr ""
+msgstr "與諮詢名稱匹配的模式清單。"
 
 #: commands/advisory/arguments.hpp:100
 msgid "Show only advisories referencing a bugzilla."
-msgstr ""
+msgstr "只顯示參考 bugzilla 的建議。"
 
 #: commands/advisory/arguments.hpp:107
 msgid "Show only advisories referencing a CVE."
-msgstr ""
+msgstr "只顯示引用 CVE 的警告。"
 
 #: commands/advisory_shared.hpp:113
 msgid "Limit to packages in advisories with specified name. List option."
-msgstr ""
+msgstr "限制到具有指定名稱的 advisories 中的套件。 清單選項。"
 
 #: commands/advisory_shared.hpp:114
 msgid "ADVISORY_NAME,..."
-msgstr ""
+msgstr "ADVISORY_NAME,..."
 
 #: commands/advisory_shared.hpp:121
 msgid "Limit to packages in security advisories."
-msgstr ""
+msgstr "限制至安全公告中的套件。"
 
 #: commands/advisory_shared.hpp:128
 msgid "Limit to packages in bugfix advisories."
-msgstr ""
+msgstr "限制至 Bug 修補公告中的套件。"
 
 #: commands/advisory_shared.hpp:135
 msgid "Limit to packages in enhancement advisories."
-msgstr ""
+msgstr "限制為增強建議中的套件。"
 
 #: commands/advisory_shared.hpp:142
 msgid "Limit to packages in newpackage advisories."
-msgstr ""
+msgstr "限制為新套件公告中的套件。"
 
 #: commands/advisory_shared.hpp:153
 msgid ""
 "Limit to packages in advisories with specified severity. List option. Can be "
 "\"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgstr ""
+"限制到具有指定嚴重性的公告中的套件。 清單選項可以是\"critical\", \""
+"important\", \"moderate\", \"low\", \"none\"。"
 
 #: commands/advisory_shared.hpp:155
 msgid "ADVISORY_SEVERITY,..."
-msgstr ""
+msgstr "ADVISORY_SEVERITY,..."
 
 #: commands/advisory_shared.hpp:167
 msgid ""
 "Limit to packages in advisories that fix a Bugzilla ID, Eg. 123123. List "
 "option."
-msgstr ""
+msgstr "限制修復 Bugzilla ID 的公告中的軟體包，Eg. 123123. 列表選項。"
 
 #: commands/advisory_shared.hpp:168
 msgid "BUGZILLA_ID,..."
-msgstr ""
+msgstr "BUGZILLA_ID,..."
 
 #: commands/advisory_shared.hpp:178
 msgid ""
 "Limit to packages in advisories that fix a CVE (Common Vulnerabilities and "
 "Exposures) ID, Eg. CVE-2201-0123. List option."
 msgstr ""
+"限制於修補 CVE (Common Vulnerabilities and Exposures) ID 的公告中的套件，"
+"例如 CVE-2201-0123。 清單選項。"
 
 #: commands/advisory_shared.hpp:180
 msgid "CVE_ID,..."
-msgstr ""
+msgstr "CVE_ID,..."
 
 #: commands/autoremove/autoremove.cpp:38
 msgid "Remove all unneeded packages originally installed as dependencies."
-msgstr ""
+msgstr "移除所有原本作為相依套件安裝的不需要套件。"
 
 #: commands/check-upgrade/check-upgrade.cpp:47
 msgid "Check for available package upgrades"
@@ -159,34 +167,37 @@ msgid ""
 "advisories is used it reports the lowest versions of packages that fix "
 "advisories matching selected advisory properties"
 msgstr ""
+"回報修復了錯誤修正、增強、安全或新套件類型警告的套件的最低版本。 "
+"如果使用了任何限制公告的選項，則會回報己修復了符合所選公告屬性的公告的最低版"
+"本的套件"
 
 #: commands/check/check.cpp:247
 msgid "Check for problems in the packagedb"
-msgstr ""
+msgstr "檢查packagedb中的問題"
 
 #: commands/check/check.cpp:335
 msgid "Check discovered {} problem(s) in {} package(s)"
-msgstr ""
+msgstr "檢查在 {} 套件中發現的 {} 問題"
 
 #: commands/clean/clean.cpp:90
 msgid "List of cache types to clean up. Supported types: {0}"
-msgstr ""
+msgstr "要清理的快取清單。 支援的類型： {0}"
 
 #: commands/clean/clean.cpp:108
 msgid "Unknown cache type \"{0}\". Supported types: {1}"
-msgstr ""
+msgstr "未知快取類型 \"{0}\"。 支援的類型： {1}"
 
 #: commands/clean/clean.cpp:165
 msgid "Failed to cleanup repository cache in path \"{0}\": {1}"
-msgstr ""
+msgstr "清理路徑 \"{0}\" 的儲存庫快取失敗： {1}"
 
 #: commands/clean/clean.cpp:175
 msgid "Cache directory \"{}\" does not exist. Nothing to clean."
-msgstr ""
+msgstr "快取目錄 \"{}\" 不存在。 沒有東西要清理。"
 
 #: commands/clean/clean.cpp:180
 msgid "Cannot iterate cache directory \"{}\": {}"
-msgstr ""
+msgstr "無法遍歷快取目錄 \"{}\"： {}"
 
 #: commands/debuginfo-install/debuginfo-install.cpp:45
 msgid "Install debuginfo packages."
@@ -195,44 +206,44 @@ msgstr ""
 #: commands/distro-sync/distro-sync.cpp:42
 msgid ""
 "Upgrade or downgrade installed software to the latest available versions"
-msgstr ""
+msgstr "升級或降級已安裝的軟體至最新可用版本"
 
 #: commands/downgrade/downgrade.cpp:40
 msgid "Downgrade software"
-msgstr ""
+msgstr "軟體降級"
 
 #: commands/download/download.cpp:105
 msgid "When running with --url, prints URLs from all available mirrors"
-msgstr ""
+msgstr "當使用 --url 執行時，會列印所有可用鏡像的 URL"
 
 #: commands/download/download.cpp:121
 msgid "Invalid urlprotocol option: {}"
-msgstr ""
+msgstr "無效的 urlprotocol 選項： {}"
 
 #: commands/download/download.cpp:148 main.cpp:615
 msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
-msgstr ""
+msgstr "不支援架構 \"{0}\"。 請從 {1} 中選擇一個"
 
 #. TODO(jrohel): Add support for requiring an argument by another argument in ArgumentParser?
 #: commands/download/download.cpp:183
 msgid "Option \"--alldeps\" should be used with \"--resolve\""
-msgstr ""
+msgstr "選項 \"--alldeps\" 應與 \"--resolve\" 搭配使用"
 
 #: commands/environment/arguments.hpp:33
 msgid "Show only available environments."
-msgstr ""
+msgstr "只顯示可用的環境。"
 
 #: commands/environment/arguments.hpp:40
 msgid "Show only installed environments."
-msgstr ""
+msgstr "只顯示已安裝的環境。"
 
 #: commands/environment/arguments.hpp:47
 msgid "Pattern matching environment IDs."
-msgstr ""
+msgstr "模式匹配環境 ID。"
 
 #: commands/environment/environment.cpp:35
 msgid "Manage comps environments"
-msgstr ""
+msgstr "管理比較環境"
 
 #: commands/group/arguments.hpp:34
 msgid "Show only available groups."
