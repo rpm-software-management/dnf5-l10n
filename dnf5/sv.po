@@ -9,9 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-19 03:20+0000\n"
-"PO-Revision-Date: 2025-03-08 20:17+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2025-03-21 02:53+0000\n"
+"Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/sv/>\n"
 "Language: sv\n"
@@ -19,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10.2\n"
+"X-Generator: Weblate 5.10.4\n"
 
 #: commands/advisory/advisory.cpp:36
 msgid "Manage advisories"
@@ -843,24 +842,16 @@ msgid "The key was successfully imported."
 msgstr "Nyckeln importerades framgångsrikt."
 
 #: context.cpp:96
-#, fuzzy
-#| msgid "The following PGP key (0x{}) is about to be removed:"
 msgid "The following OpenPGP key (0x{}) is about to be removed:"
-msgstr "Följande PGP-nyckel (0x{}) håller på att tas bort:"
+msgstr "Följande OpenPGP-nyckel (0x{}) håller på att tas bort:"
 
 #: context.cpp:98
 msgid " Reason     : {}\n"
 msgstr " Anledning     : {}\n"
 
 #: context.cpp:102
-#, fuzzy
-#| msgid ""
-#| " Fingerprint: {}\n"
-#| " From       : {}\n"
 msgid " Fingerprint: {}\n"
-msgstr ""
-" Fingeravtryck: {}\n"
-" Från       : {}\n"
+msgstr " Fingeravtryck: {}\n"
 
 #: context.cpp:104
 msgid "As a result, installing packages signed with this key will fail."
@@ -885,10 +876,8 @@ msgid "The system will now proceed with removing the key."
 msgstr "Systemet fortsätter nu med att ta bort nyckeln."
 
 #: context.cpp:115
-#, fuzzy
-#| msgid "The key was successfully removed."
 msgid "Key 0x{} was successfully removed."
-msgstr "Nyckeln togs bort framgångsrikt."
+msgstr "Nyckel 0x{} togs bort framgångsrikt."
 
 #: context.cpp:295
 msgid "setopt: \"{}.{}\": {}"
@@ -1503,6 +1492,8 @@ msgid ""
 "Error: this bootc system is configured to be read-only. For more "
 "information, run `bootc --help`."
 msgstr ""
+"Fel: detta bootc-system är konfigurerat att vara skrivskyddat. För mer "
+"information, kör `bootc --help`."
 
 #: main.cpp:1518
 msgid ""
