@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-19 03:20+0000\n"
-"PO-Revision-Date: 2025-03-14 03:08+0000\n"
+"PO-Revision-Date: 2025-03-21 02:53+0000\n"
 "Last-Translator: David Medina <dmedinacpnl@gmail.com>\n"
 "Language-Team: Catalan <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ca/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10.2\n"
+"X-Generator: Weblate 5.10.4\n"
 
 #: commands/advisory/advisory.cpp:36
 msgid "Manage advisories"
@@ -867,24 +867,16 @@ msgid "The key was successfully imported."
 msgstr "La clau s'ha importat correctament."
 
 #: context.cpp:96
-#, fuzzy
-#| msgid "The following PGP key (0x{}) is about to be removed:"
 msgid "The following OpenPGP key (0x{}) is about to be removed:"
-msgstr "La següent clau PGP (0x{}) està a punt de suprimir-se:"
+msgstr "La següent clau OpenPGP (0x{}) està a punt de suprimir-se:"
 
 #: context.cpp:98
 msgid " Reason     : {}\n"
 msgstr " Raó     : {}\n"
 
 #: context.cpp:102
-#, fuzzy
-#| msgid ""
-#| " Fingerprint: {}\n"
-#| " From       : {}\n"
 msgid " Fingerprint: {}\n"
-msgstr ""
-" Empremta: {}\n"
-" De       : {}\n"
+msgstr " Empremta: {}\n"
 
 #: context.cpp:104
 msgid "As a result, installing packages signed with this key will fail."
@@ -907,10 +899,8 @@ msgid "The system will now proceed with removing the key."
 msgstr "Ara el sistema procedirà a suprimir la clau."
 
 #: context.cpp:115
-#, fuzzy
-#| msgid "The key was successfully removed."
 msgid "Key 0x{} was successfully removed."
-msgstr "La clau s'ha suprimit correctament."
+msgstr "La clau 0x{} s'ha suprimit correctament."
 
 #: context.cpp:295
 msgid "setopt: \"{}.{}\": {}"
@@ -1523,6 +1513,8 @@ msgid ""
 "Error: this bootc system is configured to be read-only. For more "
 "information, run `bootc --help`."
 msgstr ""
+"Error: aquest sistema de bootc està configurat per ser només de lectura. Per "
+"obtenir-ne més informació, executeu bootc --help."
 
 #: main.cpp:1518
 msgid ""
