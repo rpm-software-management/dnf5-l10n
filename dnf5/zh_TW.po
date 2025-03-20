@@ -9,9 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-19 03:20+0000\n"
-"PO-Revision-Date: 2025-03-20 02:08+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2025-03-20 02:13+0000\n"
+"Last-Translator: hsu zangmen <chzang55@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
 "projects/dnf5/dnf5/zh_TW/>\n"
 "Language: zh_TW\n"
@@ -654,7 +653,7 @@ msgstr ""
 
 #: commands/search/arguments.hpp:37
 msgid "Search also package description and URL."
-msgstr "也搜尋軟體包描述說明和URL"
+msgstr "也搜尋軟體包描述說明和URL。"
 
 #: commands/search/arguments.hpp:45
 msgid "Patterns"
@@ -684,19 +683,19 @@ msgstr "如果新版本中的套件比目前安裝的套件舊，請勿安裝這
 
 #: commands/system-upgrade/system-upgrade.cpp:101
 msgid "Need a --releasever greater than the current system version."
-msgstr "需要比 --releasever 更新的目前系統版本"
+msgstr "需要比 --releasever 更新的目前系統版本。"
 
 #: commands/system-upgrade/system-upgrade.cpp:150
 msgid "Store a distro-sync transaction to be performed offline"
-msgstr ""
+msgstr "儲存要離線執行的 distro-sync 處理事項"
 
 #: commands/system-upgrade/system-upgrade.cpp:172
 msgid "Store an upgrade transaction to be performed offline"
-msgstr ""
+msgstr "儲存要離線執行的升級處理事項"
 
 #: commands/upgrade/upgrade.cpp:41
 msgid "Upgrade software"
-msgstr ""
+msgstr "升級軟體"
 
 #: commands/upgrade/upgrade.cpp:48
 msgid ""
@@ -705,32 +704,35 @@ msgid ""
 "limiting advisories is used it upgrades packages only to the lowest versions "
 "that fix advisories that matching selected advisory property"
 msgstr ""
+"只將套件升級至修正錯誤修正、增強、安全或新套件類型的最低版本。 "
+"如果使用了任何限制公告的選項，則只會將套件升級到修復符合所選公告屬性的公告的"
+"最低版本。"
 
 #. TODO(mblaha): add full command line
 #: commands/versionlock/utils.cpp:35
 msgid "Added by 'versionlock {}' command on {}"
-msgstr ""
+msgstr "由 {} 上的 'versionlock {}' 指令新增"
 
 #: commands/versionlock/versionlock.cpp:40
 msgid "Manage versionlock configuration"
-msgstr ""
+msgstr "管理版本鎖組態"
 
 #: commands/versionlock/versionlock_add.cpp:37
 msgid "Add new entry to versionlock configuration"
-msgstr ""
+msgstr "在版本鎖組態中加入新項目"
 
 #: commands/versionlock/versionlock_add.cpp:43
 msgid "List of package specs to add versionlock for"
-msgstr ""
+msgstr "要新增版本鎖的套件規格清單"
 
 #: commands/versionlock/versionlock_add.cpp:106
 #: commands/versionlock/versionlock_exclude.cpp:125
 msgid "No package found for \"{}\"."
-msgstr ""
+msgstr "未找到 \"{}\" 的套件。"
 
 #: commands/versionlock/versionlock_add.cpp:133
 msgid "Adding versionlock on \"{0} = {1}\"."
-msgstr ""
+msgstr "在 \"{0} = {1}\"上加入版本鎖。"
 
 #: commands/versionlock/versionlock_add.cpp:136
 msgid "Package \"{}\" is already locked."
@@ -738,7 +740,7 @@ msgstr ""
 
 #: commands/versionlock/versionlock_clear.cpp:32
 msgid "Remove all entries from versionlock configuration"
-msgstr ""
+msgstr "移除版本鎖設定中的所有項目"
 
 #: commands/versionlock/versionlock_delete.cpp:35
 msgid "Remove any matching versionlock configuration entries"
