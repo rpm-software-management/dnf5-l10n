@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Ricky Tigg <ricky.tigg@gmail.com>, 2024.
+# Ricky Tigg <ricky.tigg@gmail.com>, 2024, 2025.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024.
 # Jiri Grönroos <jiri.gronroos@iki.fi>, 2024, 2025.
 # Ville-Pekka Vainio <vpvainio@iki.fi>, 2024.
@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-19 03:20+0000\n"
-"PO-Revision-Date: 2025-03-19 03:11+0000\n"
-"Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
+"PO-Revision-Date: 2025-03-21 02:53+0000\n"
+"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/fi/>\n"
 "Language: fi\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10.3\n"
+"X-Generator: Weblate 5.10.4\n"
 
 #: commands/advisory/advisory.cpp:36
 msgid "Manage advisories"
@@ -327,15 +327,11 @@ msgid "Don't consider extra packages pulled into the transaction as errors."
 msgstr "Älä pidä transaktioon vedettyjä ylimääräisiä paketteja virheinä."
 
 #: commands/history/arguments.hpp:80
-#, fuzzy
-#| msgid ""
-#| "Show only groups containing packages with specified names. List option, "
-#| "supports globs."
 msgid ""
 "Show only transactions containing packages with specified names. List "
 "option, supports globs."
 msgstr ""
-"Näytä vain ryhmät, jotka sisältävät paketteja tietyillä nimillä. "
+"Näytä vain tapahtumat, jotka sisältävät paketteja tietyillä nimillä. "
 "Luettelovaihtoehto, tukee laajamittaisia."
 
 #: commands/history/history.cpp:41
@@ -347,6 +343,8 @@ msgid ""
 "No match found, history info defaults to considering only the last "
 "transaction, specify \"1..last\" range to search all transactions."
 msgstr ""
+"Vastaavaa ei löytynyt, historiatietojen oletusarvo on vain viimeinen "
+"tapahtuma, määritä alue \"1..last\" etsiäksesi kaikki tapahtumat."
 
 #: commands/history/history_redo.cpp:53
 #: commands/history/history_rollback.cpp:57
@@ -566,10 +564,9 @@ msgid "Another offline transaction tool is running. Exiting."
 msgstr "Toinen ei-verkkotapahtumatyökalu on käynnissä. Poistutaan."
 
 #: commands/offline/offline.cpp:462
-#, fuzzy
-#| msgid "No offline transaction is stored."
 msgid "Starting offline transaction. This will take a while."
-msgstr "Ei-verkkotapahtumaa ei ole tallennettu."
+msgstr ""
+"Käynnistetään ei-verkkotilassa oleva tapahtuma. Tämä kestää jonkin aikaa."
 
 #: commands/offline/offline.cpp:466
 msgid "Starting system upgrade. This will take a while."
@@ -775,7 +772,7 @@ msgstr ""
 #. TODO(mblaha): add full command line
 #: commands/versionlock/utils.cpp:35
 msgid "Added by 'versionlock {}' command on {}"
-msgstr ""
+msgstr "Lisätty komennolla 'versionlock {}' {}:lla"
 
 #: commands/versionlock/versionlock.cpp:40
 msgid "Manage versionlock configuration"
@@ -787,7 +784,7 @@ msgstr "Lisää uusi merkintä versiolukituskokoonpanoon"
 
 #: commands/versionlock/versionlock_add.cpp:43
 msgid "List of package specs to add versionlock for"
-msgstr ""
+msgstr "Luettelo paketin teknisistä tiedoista, joihin versionlock lisätään"
 
 #: commands/versionlock/versionlock_add.cpp:106
 #: commands/versionlock/versionlock_exclude.cpp:125
@@ -826,6 +823,8 @@ msgstr "Lisää uusi poissulkemismerkintä versiolukitusmääritykseen"
 #: commands/versionlock/versionlock_exclude.cpp:43
 msgid "List of package specs to add versionlock exclude for"
 msgstr ""
+"Luettelo paketin teknisistä tiedoista, joihin versionlockista poissuljettava "
+"on lisättävä"
 
 #: commands/versionlock/versionlock_exclude.cpp:88
 #: commands/versionlock/versionlock_exclude.cpp:100
@@ -857,24 +856,16 @@ msgid "The key was successfully imported."
 msgstr "Avain tuotiin onnistuneesti."
 
 #: context.cpp:96
-#, fuzzy
-#| msgid "The following PGP key (0x{}) is about to be removed:"
 msgid "The following OpenPGP key (0x{}) is about to be removed:"
-msgstr "Seuraava PGP-avain (0x{}) on asetettu poistettavaksi:"
+msgstr "Seuraava OpenPGP-avain (0x{}) ollaan poistamassa:"
 
 #: context.cpp:98
 msgid " Reason     : {}\n"
 msgstr " Syy     : {}\n"
 
 #: context.cpp:102
-#, fuzzy
-#| msgid ""
-#| " Fingerprint: {}\n"
-#| " From       : {}\n"
 msgid " Fingerprint: {}\n"
-msgstr ""
-" Sormenjälki: {}\n"
-" Lähde: {}\n"
+msgstr " Sormenjälki: {}\n"
 
 #: context.cpp:104
 msgid "As a result, installing packages signed with this key will fail."
@@ -884,30 +875,30 @@ msgstr ""
 
 #: context.cpp:105
 msgid "It is recommended to remove the expired key to allow importing"
-msgstr ""
+msgstr "On suositeltavaa poistaa vanhentunut avain tuonnin mahdollistamiseksi"
 
 #: context.cpp:106
 msgid ""
 "an updated key. This might leave already installed packages unverifiable."
 msgstr ""
+"päivitetty avain. Tämä saattaa jättää jo asennettuja paketteja "
+"vahvistamattomiksi."
 
 #: context.cpp:109
 msgid "The system will now proceed with removing the key."
-msgstr ""
+msgstr "Järjestelmä jatkaa nyt avaimen poistamista."
 
 #: context.cpp:115
-#, fuzzy
-#| msgid "The key was successfully removed."
 msgid "Key 0x{} was successfully removed."
-msgstr "Avain poistettiin onnistuneesti."
+msgstr "Avain 0x{} poistettiin onnistuneesti."
 
 #: context.cpp:295
 msgid "setopt: \"{}.{}\": {}"
-msgstr ""
+msgstr "setopt: \"{}.{}\": {}"
 
 #: context.cpp:301 main.cpp:1342
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: context.cpp:305
 msgid ""
@@ -939,7 +930,7 @@ msgstr "Tapahtuma epäonnistui: {}"
 
 #: context.cpp:380 context.cpp:528
 msgid "  - {}"
-msgstr ""
+msgstr "  - {}"
 
 #: context.cpp:447
 msgid ""
@@ -1020,10 +1011,8 @@ msgid "Scriptlet output:"
 msgstr "Sovelman tuloste:"
 
 #: context.cpp:948
-#, fuzzy
-#| msgid "Running {} scriptlet: {}"
 msgid "Running scriptlets"
-msgstr "Suoritetaan sovelmaa {}: {}"
+msgstr "Suoritetaan sovelmia"
 
 #: context.cpp:953
 msgid "Running {} scriptlet: {}"
@@ -1127,6 +1116,13 @@ msgid ""
 "              they do not override it. However, specifying an empty value (e."
 "g. --setopt=tsflags=) will clear the option."
 msgstr ""
+"Ohita kokoonpanoasetus määritystiedostosta. Voit ohittaa tietovarastojen "
+"määritysasetukset käyttämällä repoid.option:a\n"
+"              <option>:lle. Määritysvaihtoehtojen, kuten excludepkgs, "
+"includepkgs, installonlypkgs ja tsflags, arvot liitetään alkuperäiseen "
+"arvoon, ne eivät ohita sitä.\n"
+"              Tyhjän arvon määrittäminen (esim. '--setopt=tsflags=') "
+"kuitenkin tyhjentää vaihtoehdon."
 
 #: main.cpp:238 main.cpp:277
 msgid "{}: Badly formatted argument value \"{}\""
@@ -1141,7 +1137,7 @@ msgstr ""
 
 #: main.cpp:258
 msgid "setopt: \"{0}\": {1}"
-msgstr ""
+msgstr "setopt: \"{0}\": {1}"
 
 #: main.cpp:270
 msgid "set arbitrary variable"
@@ -1149,7 +1145,7 @@ msgstr "aseta mielivaltainen muuttuja"
 
 #: main.cpp:284
 msgid "setvar: {}"
-msgstr ""
+msgstr "setvar: {}"
 
 #: main.cpp:293
 msgid "automatically answer yes for all questions"
@@ -1384,7 +1380,7 @@ msgstr "Uudet lehdet:"
 
 #: main.cpp:955
 msgid " {}"
-msgstr ""
+msgstr " {}"
 
 #: main.cpp:999
 msgid "{} to skip unavailable packages"
@@ -1448,11 +1444,11 @@ msgstr "--- DNF5 käynnistetty argumenteilla: ”{}” ---"
 
 #: main.cpp:1247
 msgid "Invalid \"index\" in \"--complete=<index>[,...]\": {}"
-msgstr ""
+msgstr "Epäkelvollinen \"index\" kohdassa '--complete=<index>[,...]': {}"
 
 #: main.cpp:1286
 msgid "{}."
-msgstr ""
+msgstr "{}."
 
 #: main.cpp:1289 main.cpp:1530
 msgid "{}. Add \"--help\" for more information about the arguments."
@@ -1471,6 +1467,8 @@ msgid ""
 "The argument is available for commands: {}. (It has to be placed after the "
 "command.)"
 msgstr ""
+"Argumentti on käytettävissä komennoille: {} (Se on sijoitettava komennon "
+"jälkeen.)"
 
 #: main.cpp:1384
 msgid "No read/execute access in current directory, moving to /"
@@ -1507,6 +1505,8 @@ msgid ""
 "Error: this bootc system is configured to be read-only. For more "
 "information, run `bootc --help`."
 msgstr ""
+"Virhe: Tämä bootc-järjestelmä on määritetty vain luku -tilaan. Saat "
+"lisätietoja suorittamalla `bootc --help`."
 
 #: main.cpp:1518
 msgid ""
