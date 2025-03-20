@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-19 03:20+0000\n"
-"PO-Revision-Date: 2025-03-18 02:06+0000\n"
+"PO-Revision-Date: 2025-03-21 02:53+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ko/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.10.2\n"
+"X-Generator: Weblate 5.10.4\n"
 
 #: commands/advisory/advisory.cpp:36
 msgid "Manage advisories"
@@ -824,24 +824,16 @@ msgid "The key was successfully imported."
 msgstr "키를 성공적으로 가져왔습니다."
 
 #: context.cpp:96
-#, fuzzy
-#| msgid "The following PGP key (0x{}) is about to be removed:"
 msgid "The following OpenPGP key (0x{}) is about to be removed:"
-msgstr "다음 PGB 키 (0x{})가 다음과 같이 제거되려고 합니다:"
+msgstr "다음 OpenPGB 키 (0x{})가 다음과 같이 제거되려고 합니다:"
 
 #: context.cpp:98
 msgid " Reason     : {}\n"
 msgstr " 원인     : {}\n"
 
 #: context.cpp:102
-#, fuzzy
-#| msgid ""
-#| " Fingerprint: {}\n"
-#| " From       : {}\n"
 msgid " Fingerprint: {}\n"
-msgstr ""
-" 지문       : {}\n"
-" 출처       : {}\n"
+msgstr " 지문: {}\n"
 
 #: context.cpp:104
 msgid "As a result, installing packages signed with this key will fail."
@@ -861,10 +853,8 @@ msgid "The system will now proceed with removing the key."
 msgstr "시스템은 이제 키 제거가 진행됩니다."
 
 #: context.cpp:115
-#, fuzzy
-#| msgid "The key was successfully removed."
 msgid "Key 0x{} was successfully removed."
-msgstr "키가 성공적으로 제거되었습니다."
+msgstr "키 0x{} 가 성공적으로 제거되었습니다."
 
 #: context.cpp:295
 msgid "setopt: \"{}.{}\": {}"
