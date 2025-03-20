@@ -11,9 +11,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-19 03:20+0000\n"
-"PO-Revision-Date: 2025-02-28 22:06+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2025-03-21 02:53+0000\n"
+"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/fi/>\n"
 "Language: fi\n"
@@ -21,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10.2\n"
+"X-Generator: Weblate 5.10.4\n"
 
 #: advisory/advisory.cpp:81
 msgid ""
@@ -316,7 +315,7 @@ msgstr[1] ""
 
 #: base/log_event.cpp:287
 msgid "', '"
-msgstr ""
+msgstr "', '"
 
 #: base/log_event.cpp:296
 msgid "Modular dependency problems:\n"
@@ -368,7 +367,7 @@ msgstr ""
 #: base/log_event.cpp:351 base/log_event.cpp:362
 msgctxt "String for joining NEVRAs - e.g. `foo-4-4.noarch, bar-5-5.noarch`"
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: base/log_event.cpp:358
 msgid ""
@@ -598,7 +597,7 @@ msgstr "Tämä tapahtuma on jo suoritettu aiemmin."
 
 #: base/transaction.cpp:81
 msgid "Cannot run transaction with resolving problems."
-msgstr ""
+msgstr "Tapahtumaa ei voi suorittaa ratkaistavana olevien ongelmien kanssa."
 
 #: base/transaction.cpp:82
 msgid "Rpm transaction check failed."
@@ -659,7 +658,7 @@ msgstr "Avaimen tuonti ei auttanut; väärä avain?"
 #: base/transaction.cpp:1420
 msgctxt "It is a joining character for repositories IDs"
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: base/transaction.cpp:1423
 msgid "Warning: skipped OpenPGP checks for {0} package from repository: {1}"
@@ -908,7 +907,7 @@ msgstr ""
 
 #: plugin/plugins.cpp:92
 msgid "Failed to create a libdnf plugin instance"
-msgstr ""
+msgstr "Libdnf-liitännäisesiintymän luominen epäonnistui"
 
 #: plugin/plugins.cpp:146
 msgid "Cannot find plugin library \"{}\""
@@ -1076,11 +1075,12 @@ msgstr ""
 
 #: repo/solv_repo.cpp:266
 msgid "Failed to load repomd for repo \"{}\" from \"{}\": {}."
-msgstr ""
+msgstr "repomdin lataaminen tietovarastolle \"{}\" \"{}\":sta epäonnistui: {}."
 
 #: repo/solv_repo.cpp:274
 msgid "Failed to load primary for repo \"{}\" from \"{}\": {}."
 msgstr ""
+"ensisijaisen lataaminen tietovarastolle \"{}\" \"{}\":sta epäonnistui: {}."
 
 #: repo/solv_repo.cpp:322
 msgid "Unsupported extended repodata type for the system repo: \"{}\"."
@@ -1110,10 +1110,14 @@ msgstr ""
 #: repo/solv_repo.cpp:607
 msgid "Failed to re-load primary cache for repo \"{}\" from \"{}\": {}"
 msgstr ""
+"Ensisijaisen välimuistin uudelleenlataaminen tietovarastolle \"{}\" \"{}\":"
+"sta epäonnistui: {}"
 
 #: repo/solv_repo.cpp:672
 msgid "Failed to write {} cache for repo \"{}\" to \"{}\": {}"
 msgstr ""
+"Välimuistin {} kirjoittaminen tietovarastolle \"{}\" \"{}\":sta epäonnistui: "
+"{}"
 
 #: repo/solv_repo.cpp:693
 msgid "Failed to re-load {} cache for repo \"{}\" from \"{}\": {}"
@@ -1165,7 +1169,7 @@ msgstr "Pakettia avatessa ilmeni virhe."
 
 #: rpm/rpm_signature.cpp:64
 msgid "Failed to set rpm transaction rootDir \"{}\"."
-msgstr ""
+msgstr "rpm-tapahtuman rootDir \"{}\":n asettaminen epäonnistui."
 
 #: rpm/rpm_signature.cpp:290
 msgid "\"{}\": key is not an armored public key."
@@ -1242,16 +1246,16 @@ msgstr "Pakettia \"{}\" ei voi asentaa"
 
 #: rpm/versionlock_config.cpp:284 system/state.cpp:573
 msgid "{}"
-msgstr ""
+msgstr "{}"
 
 #. TODO(lukash) throw proper exception class
 #: solv/pool.cpp:174
 msgid "Failed to convert epoch \"{}\" to number"
-msgstr ""
+msgstr "epochin \"{}\" muuntaminen numeroksi epäonnistui"
 
 #: solv/solver.cpp:79
 msgid "Writing debugsolver data into \"{}\" failed: {}"
-msgstr ""
+msgstr "debugsolverin tietojen kirjoittaminen \"{}\":iin epäonnistui: {}"
 
 #: system/state.cpp:280 system/state.cpp:289
 msgid "Invalid TOML version \"{}\", \"MAJOR.MINOR\" expected"
@@ -1657,7 +1661,7 @@ msgstr "Tietokannan \"{}\" palauttaminen epäonnistui"
 
 #: utils/system.cpp:34
 msgid "failed to read rpm config files"
-msgstr ""
+msgstr "rpm-asetustiedostojen lukeminen epäonnistui"
 
 #: utils/system.cpp:52
 msgid "Failed to execute uname()"
