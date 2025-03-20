@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-19 03:20+0000\n"
-"PO-Revision-Date: 2025-03-16 13:57+0000\n"
+"PO-Revision-Date: 2025-03-21 02:53+0000\n"
 "Last-Translator: Paweł Marciniak <sunwire+fas@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/pl/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.10.2\n"
+"X-Generator: Weblate 5.10.4\n"
 
 #: commands/advisory/advisory.cpp:36
 msgid "Manage advisories"
@@ -860,24 +860,16 @@ msgid "The key was successfully imported."
 msgstr "Klucz został pomyślnie zaimportowany."
 
 #: context.cpp:96
-#, fuzzy
-#| msgid "The following PGP key (0x{}) is about to be removed:"
 msgid "The following OpenPGP key (0x{}) is about to be removed:"
-msgstr "Następujący klucz PGP (0x{}) zostanie wkrótce usunięty:"
+msgstr "Następujący klucz OpenPGP (0x{}) zostanie usunięty:"
 
 #: context.cpp:98
 msgid " Reason     : {}\n"
 msgstr " Powód     : {}\n"
 
 #: context.cpp:102
-#, fuzzy
-#| msgid ""
-#| " Fingerprint: {}\n"
-#| " From       : {}\n"
 msgid " Fingerprint: {}\n"
-msgstr ""
-" Odcisk palca: {}\n"
-" Od       : {}\n"
+msgstr " Odcisk palca: {}\n"
 
 #: context.cpp:104
 msgid "As a result, installing packages signed with this key will fail."
@@ -901,10 +893,8 @@ msgid "The system will now proceed with removing the key."
 msgstr "System przystąpi teraz do usuwania klucza."
 
 #: context.cpp:115
-#, fuzzy
-#| msgid "The key was successfully removed."
 msgid "Key 0x{} was successfully removed."
-msgstr "Klucz został pomyślnie usunięty."
+msgstr "Klucz 0x{} został pomyślnie usunięty."
 
 #: context.cpp:295
 msgid "setopt: \"{}.{}\": {}"
