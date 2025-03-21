@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-19 03:20+0000\n"
+"POT-Creation-Date: 2025-03-21 03:20+0000\n"
 "PO-Revision-Date: 2025-03-20 02:29+0000\n"
 "Last-Translator: hsu zangmen <chzang55@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
@@ -105,8 +105,8 @@ msgid ""
 "Limit to packages in advisories with specified severity. List option. Can be "
 "\"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgstr ""
-"限制到具有指定嚴重性的公告中的套件。 清單選項可以是\"critical\", \""
-"important\", \"moderate\", \"low\", \"none\"。"
+"限制到具有指定嚴重性的公告中的套件。 清單選項可以是\"critical\", "
+"\"important\", \"moderate\", \"low\", \"none\"。"
 
 #: commands/advisory/arguments.hpp:157
 msgid "ADVISORY_SEVERITY,..."
@@ -127,15 +127,14 @@ msgid ""
 "Limit to packages in advisories that fix a CVE (Common Vulnerabilities and "
 "Exposures) ID, Eg. CVE-2201-0123. List option."
 msgstr ""
-"限制於修補 CVE (Common Vulnerabilities and Exposures) ID 的公告中的套件，"
-"例如 CVE-2201-0123。 清單選項。"
+"限制於修補 CVE (Common Vulnerabilities and Exposures) ID 的公告中的套件，例"
+"如 CVE-2201-0123。 清單選項。"
 
 #: commands/advisory/arguments.hpp:182
 msgid "CVE_ID,..."
 msgstr "CVE_ID,..."
 
 #: commands/clean/clean.cpp:88
-#, c++-format
 msgid "Error cleaning the cache: {}"
 msgstr "清除快取出錯： {}"
 
@@ -175,7 +174,6 @@ msgid "search for packages matching various criteria"
 msgstr "搜尋符合各種條件的套件"
 
 #: commands/repoquery/repoquery.cpp:159
-#, c++-format
 msgid "Error parsing JSON object \"{}\": {}"
 msgstr "解析 JSON 物件 \"{}\" 時出錯： {}"
 
@@ -186,7 +184,6 @@ msgid ""
 msgstr "此命令需要以超級使用者權限執行（大部分系統是在 root 使用者下）。"
 
 #: main.cpp:158
-#, c++-format
 msgid ""
 "{}: Badly formatted argument value: Last key character cannot be '.': {}"
 msgstr "{}: 格式錯誤的參數值： 最後一個關鍵字不能是 '： {}"
