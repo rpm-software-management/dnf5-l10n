@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-19 03:20+0000\n"
+"POT-Creation-Date: 2025-03-21 03:20+0000\n"
 "PO-Revision-Date: 2025-02-19 11:30+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -235,7 +235,7 @@ msgstr ""
 msgid "Invalid urlprotocol option: {}"
 msgstr "Érvénytelen urlprotocol kapcsoló: {}"
 
-#: commands/download/download.cpp:148 main.cpp:615
+#: commands/download/download.cpp:148 main.cpp:624
 msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
 msgstr "Nem támogatott „{0}” architektúra. Válasszon ezek közül: {1}"
 
@@ -873,7 +873,7 @@ msgstr "A kulcs sikeresen importálva lett."
 msgid "setopt: \"{}.{}\": {}"
 msgstr "setopt: „{}.{}”: {}"
 
-#: context.cpp:301 main.cpp:1342
+#: context.cpp:301 main.cpp:1351
 msgid ", "
 msgstr ", "
 
@@ -1023,31 +1023,31 @@ msgstr "A(z) „{}” közös programkönyvtár nem tölthető be: {}"
 msgid "Cannot obtain address of symbol \"{}\": {}"
 msgstr "A(z) „{}” szimbólum címe nem szerezhető meg: {}"
 
-#: main.cpp:130
+#: main.cpp:131
 msgid "Utility for packages maintaining"
 msgstr "Csomagkarbantartó segédprogram"
 
-#: main.cpp:131
+#: main.cpp:132
 msgid "DNF5 is a program for maintaining packages."
 msgstr "A DNF5 egy csomagkarbantartó program."
 
-#: main.cpp:132
+#: main.cpp:133
 msgid "Unclassified options:"
 msgstr "Nem osztályozott kapcsolók:"
 
-#: main.cpp:135
+#: main.cpp:136
 msgid "Global options:"
 msgstr "Globális kapcsolók:"
 
-#: main.cpp:140
+#: main.cpp:141
 msgid "Print help"
 msgstr "Súgó kiírása"
 
-#: main.cpp:147
+#: main.cpp:148
 msgid "Configuration file location"
 msgstr "Konfigurációs fájl helye"
 
-#: main.cpp:155
+#: main.cpp:156
 msgid ""
 "In combination with a non-interactive command, shows just the relevant "
 "content. Suppresses messages notifying about the current state or actions of "
@@ -1056,7 +1056,7 @@ msgstr ""
 "Nem interaktív paranccsal kombinálva csak a releváns tartalmat jeleníti meg. "
 "Elfojtja a jelenlegi állapotról vagy a dnf5 műveleteiről szóló értesítéseket."
 
-#: main.cpp:170
+#: main.cpp:171
 msgid ""
 "Run entirely from system cache, don't update the cache and use it even in "
 "case it is expired."
@@ -1064,29 +1064,33 @@ msgstr ""
 "Futtatás teljesen a rendszer gyorsítótárából, ne frissítse a gyorsítótárat, "
 "és akkor is azt használja, ha az elavult."
 
-#: main.cpp:177
+#: main.cpp:180
+msgid "Control whether color is used."
+msgstr ""
+
+#: main.cpp:186
 msgid "Force refreshing metadata before running the command."
 msgstr "A metaadatok kényszerített frissítése a parancs futtatása előtt."
 
-#: main.cpp:193
+#: main.cpp:202
 msgid "Failed to expire repository cache in path \"{0}\": {1}"
 msgstr ""
 "Nem sikerült a(z) „{0}” útvonalon lévő tároló-gyorsítótár elavulttá tétele: "
 "{1}"
 
-#: main.cpp:207
+#: main.cpp:216
 msgid "create additional repository using id and path"
 msgstr "további tárolók létrehozása azonosító és útvonal használatával"
 
-#: main.cpp:215
+#: main.cpp:224
 msgid "repofrompath: Incorrect repoid and path specification \"{}\""
 msgstr "repofrompath: Helytelen tárolóazonosító és „{}” útvonalmegadás"
 
-#: main.cpp:227
+#: main.cpp:236
 msgid "set arbitrary config and repo options"
 msgstr "tetszőleges konfiguráció- és tárolóbeállítások"
 
-#: main.cpp:229
+#: main.cpp:238
 msgid ""
 "Override a configuration option from the configuration file. To override "
 "configuration options for repositories, use repoid.option for  the\n"
@@ -1105,45 +1109,45 @@ msgstr ""
 "              azokat nem bírálják felül. Viszont az üres érték megadása "
 "(például --setopt=tsflags=) törli a beállítást."
 
-#: main.cpp:238 main.cpp:277
+#: main.cpp:247 main.cpp:286
 msgid "{}: Badly formatted argument value \"{}\""
 msgstr "{}: Hibásan formázott „{}” argumentumérték"
 
-#: main.cpp:245
+#: main.cpp:254
 msgid ""
 "{}: Badly formatted argument value: Last key character cannot be '.': {}"
 msgstr ""
 "{}: Hibásan formázott argumentumérték. Az utolsó karakter nem lehet „.”: {}"
 
-#: main.cpp:258
+#: main.cpp:267
 msgid "setopt: \"{0}\": {1}"
 msgstr "setopt: „{0}”: {1}"
 
-#: main.cpp:270
+#: main.cpp:279
 msgid "set arbitrary variable"
 msgstr "tetszőleges változó beállítása"
 
-#: main.cpp:284
+#: main.cpp:293
 msgid "setvar: {}"
 msgstr "setvar: {}"
 
-#: main.cpp:293
+#: main.cpp:302
 msgid "automatically answer yes for all questions"
 msgstr "automatikus igen válasz minden kérdésre"
 
-#: main.cpp:300
+#: main.cpp:309
 msgid "automatically answer no for all questions"
 msgstr "automatikus nem válasz minden kérdésre"
 
-#: main.cpp:307
+#: main.cpp:316
 msgid "try the best available package versions in transactions"
 msgstr "a legjobb elérhető verziójú csomagok megpróbálása a tranzakciókban"
 
-#: main.cpp:314
+#: main.cpp:323
 msgid "do not limit the transaction to the best candidate"
 msgstr "ne korlátozza a tranzakciót a legjobb jelöltre"
 
-#: main.cpp:325
+#: main.cpp:334
 msgid ""
 "Don't install files that are marked as documentation (which includes man "
 "pages and texinfo documents)"
@@ -1151,11 +1155,11 @@ msgstr ""
 "Ne telepítsen dokumentációként megjelölt fájlokat (beleértve a man oldalakat "
 "és texinfo dokumentumokat)"
 
-#: main.cpp:341
+#: main.cpp:350
 msgid "exclude packages by name or glob"
 msgstr "csomagok kihagyása név vagy kifejezés alapján"
 
-#: main.cpp:360
+#: main.cpp:369
 msgid ""
 "Enable additional repositories. List option. Supports globs, can be "
 "specified multiple times."
@@ -1163,7 +1167,7 @@ msgstr ""
 "További tárolók engedélyezése. Felsorolás, támogatja a helyettesítő "
 "karaktereket, többször is megadható."
 
-#: main.cpp:378
+#: main.cpp:387
 msgid ""
 "Disable repositories. List option. Supports globs, can be specified multiple "
 "times."
@@ -1171,7 +1175,7 @@ msgstr ""
 "Tárolók letiltása. Felsorolás, támogatja a helyettesítő karaktereket, "
 "többször is megadható."
 
-#: main.cpp:396
+#: main.cpp:405
 msgid ""
 "Enable just specific repositories. List option. Supports globs, can be "
 "specified multiple times."
@@ -1179,16 +1183,16 @@ msgstr ""
 "Csak a megadott tárolók engedélyezése. Felsorolás, támogatja a helyettesítő "
 "karaktereket, többször is megadható."
 
-#: main.cpp:418
+#: main.cpp:427
 msgid "disable OpenPGP signature checking (if RPM policy allows)"
 msgstr ""
 "OpenGPG aláírások ellenőrzésének letiltása (ha az RPM házirend engedélyezi)"
 
-#: main.cpp:434
+#: main.cpp:443
 msgid "Disable all libdnf5 plugins"
 msgstr "Az összes libdnf5 bővítmény letiltása"
 
-#: main.cpp:444
+#: main.cpp:453
 msgid ""
 "Enable libdnf5 plugins by name. List option. Supports globs, can be "
 "specified multiple times."
@@ -1196,7 +1200,7 @@ msgstr ""
 "Egy vagy több lidbnf5 bővítmény engedélyezése név szerint. Felsorolás, "
 "támogatja a helyettesítő karaktereket, többször is megadható."
 
-#: main.cpp:459
+#: main.cpp:468
 msgid ""
 "Disable libdnf5 plugins by name. List option. Supports globs, can be "
 "specified multiple times."
@@ -1204,11 +1208,11 @@ msgstr ""
 "Egy vagy több lidbnf5 bővítmény letiltása név szerint. Felsorolás, támogatja "
 "a helyettesítő karaktereket, többször is megadható."
 
-#: main.cpp:476
+#: main.cpp:485
 msgid "add a comment to transaction"
 msgstr "megjegyzés hozzáfűzése a tranzakcióhoz"
 
-#: main.cpp:478
+#: main.cpp:487
 msgid ""
 "Adds a comment to the action. If a transaction takes place, the comment is "
 "stored in it."
@@ -1216,11 +1220,11 @@ msgstr ""
 "Megjegyzést ad hozzá a művelethez. Ha tranzakció történik, akkor a "
 "megjegyzés abban lesz tárolva."
 
-#: main.cpp:491
+#: main.cpp:500
 msgid "set install root"
 msgstr "telepítési gyökérkönyvtár beállítása"
 
-#: main.cpp:498
+#: main.cpp:507
 msgid ""
 "use configuration, reposdir, and vars from the host system rather than the "
 "installroot"
@@ -1228,12 +1232,12 @@ msgstr ""
 "a gazdarendszer konfigurációjának, tárolómappájának és változóinak "
 "használata, nem a telepítési gyökérkönyvtárénak"
 
-#: main.cpp:507
+#: main.cpp:516
 msgid "override the value of $releasever in config and repo files"
 msgstr ""
 "felülírja a $releasever értékét a konfigurációs és tárolóleíró fájlokban"
 
-#: main.cpp:520
+#: main.cpp:529
 msgid ""
 "Show newly installed leaf packages and packages that became leaves after a "
 "transaction."
@@ -1241,62 +1245,62 @@ msgstr ""
 "Az újonnan telepített levélcsomagok, valamint a tranzakció után levéllé váló "
 "csomagok megjelenítése."
 
-#: main.cpp:534
+#: main.cpp:543
 msgid "Dump detailed solving results into files"
 msgstr "Részletes megoldási eredmények fájlokba írása"
 
-#: main.cpp:543
+#: main.cpp:552
 msgid "Print main configuration values to stdout"
 msgstr "Fő konfigurációs értékek kiírása a szabványos kimenetre"
 
-#: main.cpp:560
+#: main.cpp:569
 msgid ""
 "Print repository configuration values to stdout. List option. Supports globs"
 msgstr ""
 "Tárolókonfiguráció kiírása a szabványos kimenetre. Felsorolás, támogatja a "
 "helyettesítő karaktereket."
 
-#: main.cpp:575
+#: main.cpp:584
 msgid "Print variable values to stdout"
 msgstr "Változóértékek kiírása a szabványos kimenetre"
 
-#: main.cpp:589
+#: main.cpp:598
 msgid "Show DNF5 version and exit"
 msgstr "A DNF5 verziójának kiírása és kilépés"
 
-#: main.cpp:596
+#: main.cpp:605
 msgid "Force the use of a different architecture."
 msgstr "Eltérő architektúra használatának kényszerítése."
 
-#: main.cpp:634
+#: main.cpp:643
 msgid "Software Management Commands:"
 msgstr "Szoftverkezelési parancsok:"
 
-#: main.cpp:641
+#: main.cpp:650
 msgid "Query Commands:"
 msgstr "Lekérdezési parancsok:"
 
-#: main.cpp:648
+#: main.cpp:657
 msgid "Subcommands:"
 msgstr "Alparancsok:"
 
-#: main.cpp:745
+#: main.cpp:754
 msgid "{} version {}.{}.{}.{}"
 msgstr "{} verzió: {}.{}.{}.{}"
 
-#: main.cpp:748
+#: main.cpp:757
 msgid "{} plugin API version {}.{}"
 msgstr "{} bővítmény API-verzió: {}.{}"
 
-#: main.cpp:753
+#: main.cpp:762
 msgid "libdnf5 version {}.{}.{}.{}"
 msgstr "libdnf5 verzió: {}.{}.{}.{}"
 
-#: main.cpp:756
+#: main.cpp:765
 msgid "libdnf5 plugin API version {}.{}"
 msgstr "libdnf5 bővítmény API-verzió: {}.{}"
 
-#: main.cpp:763
+#: main.cpp:772
 msgid ""
 "\n"
 "Loaded {} plugins:"
@@ -1304,25 +1308,25 @@ msgstr ""
 "\n"
 "{} bővítmény betöltve:"
 
-#: main.cpp:768
+#: main.cpp:777
 msgid "  name: {}"
 msgstr "  név: {}"
 
-#: main.cpp:771
+#: main.cpp:780
 msgid "  version: {}.{}.{}"
 msgstr "  verzió: {}.{}.{}"
 
-#: main.cpp:773
+#: main.cpp:782
 msgid "  API version: {}.{}"
 msgstr "  API-verzió: {}.{}"
 
-#: main.cpp:811
+#: main.cpp:820
 msgid ""
 "Total size of inbound packages is {:.0f} {:s}. Need to download {:.0f} {:s}."
 msgstr ""
 "A bejövő csomagok teljes mérete {:.0f} {:s}. {:.0f} {:s}-ot kell letölteni."
 
-#: main.cpp:828
+#: main.cpp:837
 msgid ""
 "After this operation, {:.0f} {:s} extra will be used (install {:.0f} {:s}, "
 "remove {:.0f} {:s})."
@@ -1330,7 +1334,7 @@ msgstr ""
 "A művelet után további {:.0f} {:s} lesz használva ({:.0f} {:s} telepítése, "
 "{:.0f} {:s} eltávolítása)."
 
-#: main.cpp:839
+#: main.cpp:848
 msgid ""
 "After this operation, {:.0f} {:s} will be freed (install {:.0f} {:s}, remove "
 "{:.0f} {:s})."
@@ -1338,39 +1342,39 @@ msgstr ""
 "A művelet után {:.0f} {:s} szabadul fel ({:.0f} {:s} telepítése, {:.0f} {:s} "
 "eltávolítása)."
 
-#: main.cpp:851
+#: main.cpp:860
 msgid "======== Main configuration: ========"
 msgstr "======== Fő konfiguráció: ========"
 
-#: main.cpp:888
+#: main.cpp:897
 msgid "No matching repo to dump configuration: \"{}\""
 msgstr "Nincs egyező tároló a konfiguráció kiírásához: „{}”"
 
-#: main.cpp:893
+#: main.cpp:902
 msgid "======== \"{}\" repository configuration: ========"
 msgstr "======== A(z) „{}” tárolók konfigurációja: ========"
 
-#: main.cpp:913
+#: main.cpp:922
 msgid "======== Variables: ========"
 msgstr "======== Változók: ========"
 
-#: main.cpp:953
+#: main.cpp:962
 msgid "New leaves:"
 msgstr "Új levelek:"
 
-#: main.cpp:955
+#: main.cpp:964
 msgid " {}"
 msgstr " {}"
 
-#: main.cpp:999
+#: main.cpp:1008
 msgid "{} to skip unavailable packages"
 msgstr "{} a nem elérhető csomagok kihagyásához"
 
-#: main.cpp:1007
+#: main.cpp:1016
 msgid "{} to allow extra packages in the transaction"
 msgstr "{} az extra csomagok engedélyezéséhez a tranzakcióban"
 
-#: main.cpp:1020
+#: main.cpp:1029
 msgid ""
 "{} to allow mismatches between installed and stored transaction packages. "
 "This can result in an empty transaction because among other things the "
@@ -1380,29 +1384,29 @@ msgstr ""
 "engedélyezéséhez. Ez üres tranzakciót is eredményezhet, mert többek között a "
 "kapcsoló figyelmen kívül hagyhatja a hibás eltávolítási műveleteket."
 
-#: main.cpp:1067
+#: main.cpp:1076
 msgid "{} to not limit the transaction to the best candidates"
 msgstr "{} a tranzakció nem a legjobb jelöltekre korlátozásához"
 
-#: main.cpp:1074
+#: main.cpp:1083
 msgid "{} to allow removing of installed packages to resolve problems"
 msgstr ""
 "{} a telepített csomagok eltávolításának engedélyezéséhez a problémák "
 "megoldása érdekében"
 
-#: main.cpp:1083
+#: main.cpp:1092
 msgid "{} to load additional filelists metadata"
 msgstr "{} a további fájllista-metaadatok betöltéséhez"
 
-#: main.cpp:1090
+#: main.cpp:1099
 msgid "{} to skip uninstallable packages"
 msgstr "{} a nem telepíthető csomagok átugrásához"
 
-#: main.cpp:1096
+#: main.cpp:1105
 msgid "You can try to add to command line:"
 msgstr "Megpróbálhatja hozzáadni a parancssorhoz:"
 
-#: main.cpp:1114
+#: main.cpp:1123
 msgid ""
 "No matches were found for the following plugin name patterns while enabling "
 "libdnf plugins: {}"
@@ -1410,7 +1414,7 @@ msgstr ""
 "Nincs találat a következő bővítménynév-mintára a libdnf bővítmények "
 "engedélyezése során: {}"
 
-#: main.cpp:1115
+#: main.cpp:1124
 msgid ""
 "No matches were found for the following plugin name patterns while disabling "
 "libdnf plugins: {}"
@@ -1418,24 +1422,24 @@ msgstr ""
 "Nincs találat a következő bővítménynév-mintára a libdnf bővítmények "
 "letiltása során: {}"
 
-#: main.cpp:1211
+#: main.cpp:1220
 msgid "--- DNF5 launched with arguments: \"{}\" ---"
 msgstr "--- A DNF5 elindítva a következő argumentumokkal: „{}” ---"
 
-#: main.cpp:1247
+#: main.cpp:1256
 msgid "Invalid \"index\" in \"--complete=<index>[,...]\": {}"
 msgstr ""
 
-#: main.cpp:1286
+#: main.cpp:1295
 msgid "{}."
 msgstr "{}."
 
-#: main.cpp:1289 main.cpp:1530
+#: main.cpp:1298 main.cpp:1550
 msgid "{}. Add \"--help\" for more information about the arguments."
 msgstr ""
 "{}. A kapcsolók további információiért adja hozzá a „--help” kapcsolót."
 
-#: main.cpp:1298
+#: main.cpp:1307
 msgid ""
 "It could be a command provided by a plugin, try: dnf5 install 'dnf5-"
 "command({})'"
@@ -1443,19 +1447,19 @@ msgstr ""
 "Lehet, hogy egy bővítmény által biztosított parancs, próbálja ki ezt: dnf5 "
 "install 'dnf-command({})'"
 
-#: main.cpp:1340
+#: main.cpp:1349
 msgid ""
 "The argument is available for commands: {}. (It has to be placed after the "
 "command.)"
 msgstr ""
 
-#: main.cpp:1384
+#: main.cpp:1393
 msgid "No read/execute access in current directory, moving to /"
 msgstr ""
 "Nincs olvasási/végrehajtási jogosultság a jelenlegi könyvtárban, áthelyezés "
 "ide: /"
 
-#: main.cpp:1445
+#: main.cpp:1465
 msgid ""
 "The requested operation requires superuser privileges. Please log in as a "
 "user with elevated rights, or use the \"--assumeno\" or \"--downloadonly\" "
@@ -1466,15 +1470,15 @@ msgstr ""
 "downloadonly” kapcsolókat a parancs rendszerállapot-módosítás nélküli "
 "futtatásához."
 
-#: main.cpp:1486
+#: main.cpp:1506
 msgid "The operation will only store the transaction in {}"
 msgstr "A művelet csak itt fogja tárolni a tranzakciót: {}"
 
-#: main.cpp:1488
+#: main.cpp:1508
 msgid "The operation will only download packages for the transaction."
 msgstr "A művelet csak csomagokat fog letölteni a tranzakcióhoz."
 
-#: main.cpp:1493
+#: main.cpp:1513
 msgid ""
 "Test mode enabled: Only package downloads, OpenPGP key installations and "
 "transaction checks will be performed."
@@ -1482,13 +1486,13 @@ msgstr ""
 "Tesztelési mód engedélyezve: csak csomagletöltések, OpenPGP-"
 "kulcsellenőrzések és tranzakció-ellenőrzések lesznek végezve."
 
-#: main.cpp:1501
+#: main.cpp:1521
 msgid ""
 "Error: this bootc system is configured to be read-only. For more "
 "information, run `bootc --help`."
 msgstr ""
 
-#: main.cpp:1518
+#: main.cpp:1538
 msgid ""
 "No repositories were loaded from the installroot. To use the configuration "
 "and repositories of the host system, pass --use-host-config."
@@ -1497,15 +1501,15 @@ msgstr ""
 "beállításainak és tárolóinak használatához adja át a --use-host-config "
 "kapcsolót."
 
-#: main.cpp:1540
+#: main.cpp:1560
 msgid "Command returned error: {}"
 msgstr "A parancs hibát adott vissza: {}"
 
-#: main.cpp:1548
+#: main.cpp:1568
 msgid "DNF5 finished"
 msgstr "A DNF5 elkészült"
 
-#: main.cpp:1552
+#: main.cpp:1572
 msgid "Complete!"
 msgstr "Kész!"
 
