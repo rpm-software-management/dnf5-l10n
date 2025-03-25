@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-22 03:19+0000\n"
-"PO-Revision-Date: 2025-03-17 19:56+0000\n"
+"PO-Revision-Date: 2025-03-26 12:53+0000\n"
 "Last-Translator: Ciro Mota <ciro.mota@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf5/dnf5/pt_BR/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.10.2\n"
+"X-Generator: Weblate 5.10.4\n"
 
 #: commands/advisory/advisory.cpp:36
 msgid "Manage advisories"
@@ -852,24 +852,16 @@ msgid "The key was successfully imported."
 msgstr "A chave foi importada com sucesso."
 
 #: context.cpp:96
-#, fuzzy
-#| msgid "The following PGP key (0x{}) is about to be removed:"
 msgid "The following OpenPGP key (0x{}) is about to be removed:"
-msgstr "A seguinte chave PGP (0x{}) está prestes a ser removida:"
+msgstr "A seguinte chave OpenPGP (0x{}) está prestes a ser removida:"
 
 #: context.cpp:98
 msgid " Reason     : {}\n"
 msgstr " Razão     : {}\n"
 
 #: context.cpp:102
-#, fuzzy
-#| msgid ""
-#| " Fingerprint: {}\n"
-#| " From       : {}\n"
 msgid " Fingerprint: {}\n"
-msgstr ""
-" Impressão digital: {}\n"
-" De       : {}\n"
+msgstr " Impressão digital: {}\n"
 
 #: context.cpp:104
 msgid "As a result, installing packages signed with this key will fail."
@@ -892,10 +884,8 @@ msgid "The system will now proceed with removing the key."
 msgstr "O sistema agora prosseguirá com a remoção da chave."
 
 #: context.cpp:115
-#, fuzzy
-#| msgid "The key was successfully removed."
 msgid "Key 0x{} was successfully removed."
-msgstr "A chave foi removida com sucesso."
+msgstr "A chave 0x{} foi removida com sucesso."
 
 #: context.cpp:295
 msgid "setopt: \"{}.{}\": {}"
@@ -1091,7 +1081,7 @@ msgstr ""
 
 #: main.cpp:180
 msgid "Control whether color is used."
-msgstr ""
+msgstr "Controle se a cor é usada."
 
 #: main.cpp:186
 msgid "Force refreshing metadata before running the command."
