@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-28 03:23+0000\n"
-"PO-Revision-Date: 2025-03-20 02:29+0000\n"
+"PO-Revision-Date: 2025-04-01 22:46+0000\n"
 "Last-Translator: hsu zangmen <chzang55@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
 "projects/dnf5/libdnf5/zh_TW/>\n"
@@ -28,12 +28,12 @@ msgstr ""
 
 #: base/goal.cpp:472
 msgid "Unsupported argument for REMOVE action: {}"
-msgstr ""
+msgstr "REMOVE 動作己不支援的參數： {}"
 
 #. TODO(lukash) throw a proper exception
 #: base/goal.cpp:1593
 msgid "Incorrect configuration value for multilib_policy: {}"
-msgstr ""
+msgstr "multilib_policy 的組態設定值不正確： {}"
 
 #: base/goal_elements.cpp:352
 msgid "Install"
@@ -61,7 +61,7 @@ msgstr "升級最小化"
 
 #: base/goal_elements.cpp:364
 msgid "Upgrade all minimal"
-msgstr ""
+msgstr "升級所有最小化"
 
 #: base/goal_elements.cpp:366
 msgid "Downgrade"
@@ -81,15 +81,15 @@ msgstr "移除"
 
 #: base/goal_elements.cpp:374
 msgid "Distrosync"
-msgstr ""
+msgstr "分散式同步"
 
 #: base/goal_elements.cpp:376
 msgid "Distrosync all"
-msgstr ""
+msgstr "全部分散式同步"
 
 #: base/goal_elements.cpp:378
 msgid "Reason Change"
-msgstr ""
+msgstr "變更動機"
 
 #: base/goal_elements.cpp:380
 msgid "Resolve"
@@ -177,7 +177,7 @@ msgstr ""
 
 #: base/log_event.cpp:160
 msgid "No match for argument: {}"
-msgstr ""
+msgstr "沒有符合引數的項目: {}"
 
 #: base/log_event.cpp:163
 msgid "No match for argument '{0}' in repositories '{1}'"
@@ -283,7 +283,7 @@ msgstr ""
 #. Format a leading line of the error message.
 #: base/log_event.cpp:276
 msgid "Unable to resolve argument '{}':"
-msgstr ""
+msgstr "無法解析 '{}' 引數:"
 
 #: base/log_event.cpp:280
 msgid ""
@@ -1466,11 +1466,11 @@ msgstr ""
 #. returns localized message, problem with later translation
 #: utils/library.cpp:34
 msgid "Cannot load shared library \"{}\": {}"
-msgstr ""
+msgstr "無法載入共享函式庫 \"{}\"： {}"
 
 #: utils/library.cpp:48
 msgid "Cannot obtain address of symbol \"{}\": {}"
-msgstr ""
+msgstr "無法取得符號 \"{}\" 的位址： {}"
 
 #: utils/locale.cpp:57
 msgid "Cannot set the locale \"{}\": {}"
