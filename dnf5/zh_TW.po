@@ -10,8 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-28 03:23+0000\n"
 "PO-Revision-Date: 2025-04-01 22:46+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: hsu zangmen <chzang55@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
 "projects/dnf5/dnf5/zh_TW/>\n"
 "Language: zh_TW\n"
@@ -174,7 +173,7 @@ msgstr ""
 
 #: commands/check/check.cpp:247
 msgid "Check for problems in the packagedb"
-msgstr "檢查packagedb中的問題"
+msgstr "檢查 packagedb 中是否有問題"
 
 #: commands/check/check.cpp:335
 msgid "Check discovered {} problem(s) in {} package(s)"
@@ -644,9 +643,7 @@ msgstr "搜尋符合各種條件的套件"
 msgid ""
 "Option \"--exactdeps\" has to be used either with \"--whatrequires\" or \"--"
 "whatdepends\""
-msgstr ""
-"選項 \"--exactdeps\" 必須與 \"--whatrequires\" 或 \"--whatdepends\" 一起使"
-"用。"
+msgstr "選項 \"--exactdeps\" 必須與 \"--whatrequires\" 或 \"--whatdepends\" 一起使用"
 
 #: commands/repoquery/repoquery.cpp:522
 msgid ""
@@ -709,8 +706,9 @@ msgid ""
 "limiting advisories is used it upgrades packages only to the lowest versions "
 "that fix advisories that matching selected advisory property"
 msgstr ""
-"只將套件升級至修正錯誤修正、增強、安全或新套件類型的最低版本。 如果使用了任何"
-"限制公告的選項，則只會將套件升級到修復符合所選公告屬性的公告的最低版本。"
+"只將套件升級至修正錯誤修正、增強、安全或新套件類型的最低版本。 "
+"如果使用了任何限制公告的選項，則只會將套件升級到修復符合所選公告屬性的公告的"
+"最低版本"
 
 #. TODO(mblaha): add full command line
 #: commands/versionlock/utils.cpp:35
@@ -773,7 +771,7 @@ msgstr "在 \"{0} = {1}\"上加入排除版本鎖。"
 
 #: commands/versionlock/versionlock_exclude.cpp:139
 msgid "Package \"{}\" is already excluded."
-msgstr "已排除 {} 軟體包."
+msgstr "已排除 \" {}\" 軟體包."
 
 #: context.cpp:73
 msgid "Importing OpenPGP key 0x{}:\n"
@@ -788,47 +786,49 @@ msgid ""
 " Fingerprint: {}\n"
 " From       : {}\n"
 msgstr ""
+" 指紋: {}\n"
+" 來自       : {}\n"
 
 #: context.cpp:87
 msgid "The key was successfully imported."
-msgstr ""
+msgstr "該金鑰已成功匯入。"
 
 #: context.cpp:96
 msgid "The following OpenPGP key (0x{}) is about to be removed:"
-msgstr ""
+msgstr "下列 OpenPGP 金鑰 (0x{}) 即將被移除："
 
 #: context.cpp:98
 msgid " Reason     : {}\n"
-msgstr ""
+msgstr " 動機     : {}\n"
 
 #: context.cpp:102
 msgid " Fingerprint: {}\n"
-msgstr ""
+msgstr " 指紋: {}\n"
 
 #: context.cpp:104
 msgid "As a result, installing packages signed with this key will fail."
-msgstr ""
+msgstr "因此，安裝使用此金鑰簽署的套件包將會安裝失敗。"
 
 #: context.cpp:105
 msgid "It is recommended to remove the expired key to allow importing"
-msgstr ""
+msgstr "建議移除過期的金鑰，以允許匯入"
 
 #: context.cpp:106
 msgid ""
 "an updated key. This might leave already installed packages unverifiable."
-msgstr ""
+msgstr "使用己更新的金鑰。 這可能會導致已安裝的套件無法驗證。"
 
 #: context.cpp:109
 msgid "The system will now proceed with removing the key."
-msgstr ""
+msgstr "系統現在會繼續移除金鑰。"
 
 #: context.cpp:115
 msgid "Key 0x{} was successfully removed."
-msgstr ""
+msgstr "金鑰 0x{} 已成功移除。"
 
 #: context.cpp:295
 msgid "setopt: \"{}.{}\": {}"
-msgstr ""
+msgstr "setopt: \"{}.{}\": {}"
 
 #: context.cpp:301 main.cpp:1351
 msgid ", "
@@ -868,19 +868,20 @@ msgstr "  - {}"
 msgid ""
 "Location \"{}\" already contains a stored transaction, it will be "
 "overwritten."
-msgstr ""
+msgstr "位置\"{}\"已包含儲存的處理事項，這將被覆寫。"
 
 #: context.cpp:476
 msgid ""
 "There is already an offline transaction queued, initiated by the following "
 "command:"
-msgstr ""
+msgstr "已經有一個離線處理事項排在隊列中，由下列指令啟動："
 
 #: context.cpp:478
+#, fuzzy
 msgid ""
 "Continuing will cancel the old offline transaction and replace it with this "
 "one."
-msgstr ""
+msgstr "不間斷的 會取消舊的離線處理事項，並以此處理事項取代。"
 
 #: context.cpp:496
 msgid ""
@@ -888,6 +889,9 @@ msgid ""
 "reboot and run the transaction. To cancel the transaction and delete the "
 "downloaded files, use `dnf5 offline clean`."
 msgstr ""
+"儲存的處理事項要離線執行。 請執行 `dnf5 offline reboot` "
+"以重新啟動並執行處理事項。 若要取消處理事項並刪除下載的檔案，請使用 `dnf5 "
+"offline clean`。"
 
 #: context.cpp:502
 msgid "Running transaction"
@@ -936,55 +940,55 @@ msgstr "Cpio 錯誤： {}"
 
 #: context.cpp:925
 msgid "Scriptlet output:"
-msgstr "小令稿輸出："
+msgstr "指令稿輸出："
 
 #: context.cpp:948
 msgid "Running scriptlets"
-msgstr "執行腳本程式"
+msgstr "執行指令稿"
 
 #: context.cpp:953
 msgid "Running {} scriptlet: {}"
-msgstr ""
+msgstr "執行 {} 指令稿: {}"
 
 #: context.cpp:968
 msgid "Finished {} scriptlet: {}"
-msgstr ""
+msgstr "完成 {} 指令稿: {}"
 
 #: context.cpp:974
 msgid "Non-critical error in {} scriptlet: {}"
-msgstr ""
+msgstr "{} 指令稿中的非關鍵性錯誤： {}"
 
 #: context.cpp:983
 msgid "Error in {} scriptlet: {}"
-msgstr ""
+msgstr "在 {} 指令稿中出錯: {}"
 
 #: context.cpp:1018
 msgid "Verify package files"
-msgstr ""
+msgstr "驗證套件檔案"
 
 #: library.cpp:33
 msgid "Cannot load shared library \"{}\": {}"
-msgstr ""
+msgstr "無法載入共享函式庫 \"{}\"： {}"
 
 #: library.cpp:47
 msgid "Cannot obtain address of symbol \"{}\": {}"
-msgstr ""
+msgstr "無法取得符號 \"{}\" 的位址： {}"
 
 #: main.cpp:131
 msgid "Utility for packages maintaining"
-msgstr ""
+msgstr "用於套件維護的公用程式"
 
 #: main.cpp:132
 msgid "DNF5 is a program for maintaining packages."
-msgstr ""
+msgstr "DNF5 是用來維護套件管理的程式。"
 
 #: main.cpp:133
 msgid "Unclassified options:"
-msgstr ""
+msgstr "未分類的選項："
 
 #: main.cpp:136
 msgid "Global options:"
-msgstr ""
+msgstr "全域選項："
 
 #: main.cpp:141
 msgid "Print help"
@@ -992,20 +996,20 @@ msgstr "列印求助訊息"
 
 #: main.cpp:148
 msgid "Configuration file location"
-msgstr ""
+msgstr "設定檔案位置"
 
 #: main.cpp:156
 msgid ""
 "In combination with a non-interactive command, shows just the relevant "
 "content. Suppresses messages notifying about the current state or actions of "
 "dnf5."
-msgstr ""
+msgstr "結合非互動指令，只顯示相關內容。 隱藏通知 dnf5 目前狀態或動作的訊息。"
 
 #: main.cpp:171
 msgid ""
 "Run entirely from system cache, don't update the cache and use it even in "
 "case it is expired."
-msgstr ""
+msgstr "完全從系統快取執行，不更新快取，即使快取已過期也使用。"
 
 #: main.cpp:180
 msgid "Control whether color is used."
@@ -1013,25 +1017,26 @@ msgstr "控制使用什麼顏色"
 
 #: main.cpp:186
 msgid "Force refreshing metadata before running the command."
-msgstr ""
+msgstr "執行指令前強制重新整理中繼資料。"
 
 #: main.cpp:202
 msgid "Failed to expire repository cache in path \"{0}\": {1}"
-msgstr ""
+msgstr "路徑 \"{0}\" 中的套件庫快取過期失敗： {1}"
 
 #: main.cpp:216
 msgid "create additional repository using id and path"
-msgstr ""
+msgstr "使用 id 和路徑建立其他套件庫"
 
 #: main.cpp:224
 msgid "repofrompath: Incorrect repoid and path specification \"{}\""
-msgstr ""
+msgstr "repofrompath： 不正確的 repofoid 和路徑規格 \"{}\""
 
 #: main.cpp:236
 msgid "set arbitrary config and repo options"
 msgstr "設定隨意組態與軟體庫選項"
 
 #: main.cpp:238
+#, fuzzy
 msgid ""
 "Override a configuration option from the configuration file. To override "
 "configuration options for repositories, use repoid.option for  the\n"
@@ -1041,6 +1046,11 @@ msgid ""
 "              they do not override it. However, specifying an empty value (e."
 "g. --setopt=tsflags=) will clear the option."
 msgstr ""
+"覆寫設定檔中的設定選項。 若要覆寫套件庫的設定選項，請使用 repoid.option "
+"來設定 <option>。\n"
+"  配置選項的值，例如 excludepkgs、includepkgs、installonlypkgs 和 "
+"tsflags，會附加到原始值，不會覆寫原始值。 不過，指定一個空值 (例如 "
+"--setopt=tsflags=) 會清除該選項。"
 
 #: main.cpp:247 main.cpp:286
 msgid "{}: Badly formatted argument value \"{}\""
