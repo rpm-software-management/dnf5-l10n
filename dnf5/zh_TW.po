@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-28 03:23+0000\n"
-"PO-Revision-Date: 2025-03-20 02:29+0000\n"
+"PO-Revision-Date: 2025-04-01 05:29+0000\n"
 "Last-Translator: hsu zangmen <chzang55@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
 "projects/dnf5/dnf5/zh_TW/>\n"
@@ -553,11 +553,11 @@ msgstr "下列靴子似乎包含離線處理事項記錄："
 
 #: commands/offline/offline.cpp:654
 msgid "Cannot find logs with this index."
-msgstr "無法透過這個索引找到記錄檔案"
+msgstr "無法透過這個索引找到記錄檔."
 
 #: commands/offline/offline.cpp:661
 msgid "Unable to match systemd journal entry."
-msgstr "無法符合 systemd 的記錄檔項目"
+msgstr "無法符合 systemd 的記錄檔項目."
 
 #: commands/offline/offline.cpp:673
 msgid "Show logs from past offline transactions"
@@ -763,24 +763,24 @@ msgstr "在版本鎖的組態設定中新增排除項目"
 
 #: commands/versionlock/versionlock_exclude.cpp:43
 msgid "List of package specs to add versionlock exclude for"
-msgstr ""
+msgstr "要新增版本鎖排除的套件規格清單"
 
 #: commands/versionlock/versionlock_exclude.cpp:88
 #: commands/versionlock/versionlock_exclude.cpp:100
 msgid "Adding versionlock exclude on \"{0} = {1}\"."
-msgstr ""
+msgstr "在 \"{0} = {1}\"上加入排除版本鎖。"
 
 #: commands/versionlock/versionlock_exclude.cpp:139
 msgid "Package \"{}\" is already excluded."
-msgstr ""
+msgstr "已排除 {} 軟體包."
 
 #: context.cpp:73
 msgid "Importing OpenPGP key 0x{}:\n"
-msgstr ""
+msgstr "匯入 OpenPGP 金鑰 0x{}:\n"
 
 #: context.cpp:75 context.cpp:100
 msgid " UserID     : \"{}\"\n"
-msgstr ""
+msgstr " 使用者ID     : \"{}\"\n"
 
 #: context.cpp:78
 msgid ""
@@ -831,37 +831,37 @@ msgstr ""
 
 #: context.cpp:301 main.cpp:1351
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: context.cpp:305
 msgid ""
 "No matching repositories for {}. To use repositories from a host system, "
 "pass --use-host-config option"
-msgstr ""
+msgstr "{} 沒有匹配的套件庫。 若要使用主機系統的套件庫，請使用 --use-host-config 選項"
 
 #: context.cpp:309
 msgid "No matching repositories for {}"
-msgstr ""
+msgstr "沒有匹配的 {} 套件庫"
 
 #: context.cpp:355
 msgid "Updating and loading repositories:"
-msgstr ""
+msgstr "更新和載入套件庫："
 
 #: context.cpp:365
 msgid "Repositories loaded."
-msgstr ""
+msgstr "已載入儲存庫。"
 
 #: context.cpp:371
 msgid "Testing offline transaction"
-msgstr ""
+msgstr "測試離線處理事項"
 
 #: context.cpp:375 context.cpp:523
 msgid "Transaction failed: {}"
-msgstr ""
+msgstr "處理事項失敗: {}"
 
 #: context.cpp:380 context.cpp:528
 msgid "  - {}"
-msgstr ""
+msgstr "  - {}"
 
 #: context.cpp:447
 msgid ""
@@ -890,47 +890,48 @@ msgstr ""
 
 #: context.cpp:502
 msgid "Running transaction"
-msgstr ""
+msgstr "執行處理事項"
 
 #: context.cpp:820
 msgid "Upgrading {}"
-msgstr ""
+msgstr "升級 {}"
 
 #: context.cpp:823
 msgid "Downgrading {}"
-msgstr ""
+msgstr "降級 {}"
 
 #: context.cpp:826
 msgid "Reinstalling {}"
-msgstr ""
+msgstr "重新安裝 {}"
 
 #: context.cpp:839
+#, fuzzy
 msgid "Unexpected action in TransactionPackage: {}"
-msgstr ""
+msgstr "TransactionPackage 中的非預期動作： {}"
 
 #: context.cpp:845
 msgid "Installing {}"
-msgstr ""
+msgstr "正在安裝 {}"
 
 #: context.cpp:866
 msgid "Prepare transaction"
-msgstr ""
+msgstr "準備處理事項"
 
 #: context.cpp:886
 msgid "Removing {}"
-msgstr ""
+msgstr "移除 {}"
 
 #: context.cpp:889
 msgid "Cleanup {}"
-msgstr ""
+msgstr "清除 {}"
 
 #: context.cpp:907
 msgid "Unpack error: {}"
-msgstr ""
+msgstr "解壓縮錯誤： {}"
 
 #: context.cpp:915
 msgid "Cpio error: {}"
-msgstr ""
+msgstr "Cpio 錯誤： {}"
 
 #: context.cpp:925
 msgid "Scriptlet output:"
@@ -938,7 +939,7 @@ msgstr ""
 
 #: context.cpp:948
 msgid "Running scriptlets"
-msgstr ""
+msgstr "執行腳本程式"
 
 #: context.cpp:953
 msgid "Running {} scriptlet: {}"
