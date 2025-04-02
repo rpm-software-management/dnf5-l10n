@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Nicolas Escobar <blade.liger1313@gmail.com>, 2024.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024.
+# Javier Francisco <fserrador@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-28 03:23+0000\n"
-"PO-Revision-Date: 2024-11-17 09:51+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2025-04-03 03:23+0000\n"
+"Last-Translator: Javier Francisco <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/es/>\n"
 "Language: es\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.8.2\n"
+"X-Generator: Weblate 5.10.4\n"
 
 #: commands/advisory/advisory.cpp:36
 msgid "Manage advisories"
@@ -90,7 +90,7 @@ msgstr ""
 
 #: commands/advisory/arguments.hpp:83 commands/history/arguments.hpp:81
 msgid "PACKAGE_NAME,..."
-msgstr ""
+msgstr "PACKAGE_NAME,..."
 
 #: commands/advisory/arguments.hpp:90
 msgid "List of patterns matched against advisory names."
@@ -111,15 +111,13 @@ msgstr ""
 
 #: commands/advisory_shared.hpp:114
 msgid "ADVISORY_NAME,..."
-msgstr ""
+msgstr "ADVISORY_NAME,..."
 
 #: commands/advisory_shared.hpp:121
-#, fuzzy
 msgid "Limit to packages in security advisories."
-msgstr "Limitar a paquetes en avisos de security."
+msgstr "Limitar a paquetes en avisos de seguridad."
 
 #: commands/advisory_shared.hpp:128
-#, fuzzy
 msgid "Limit to packages in bugfix advisories."
 msgstr "Limitar a paquetes en avisos de bugfix."
 
@@ -129,12 +127,10 @@ msgid "Limit to packages in enhancement advisories."
 msgstr "Limitar a paquetes en avisos de enhancement."
 
 #: commands/advisory_shared.hpp:142
-#, fuzzy
 msgid "Limit to packages in newpackage advisories."
 msgstr "Limitar a paquetes en avisos de paquete nuevo."
 
 #: commands/advisory_shared.hpp:153
-#, fuzzy
 msgid ""
 "Limit to packages in advisories with specified severity. List option. Can be "
 "\"critical\", \"important\", \"moderate\", \"low\", \"none\"."
@@ -144,7 +140,7 @@ msgstr ""
 
 #: commands/advisory_shared.hpp:155
 msgid "ADVISORY_SEVERITY,..."
-msgstr ""
+msgstr "ADVISORY_SEVERITY,..."
 
 #: commands/advisory_shared.hpp:167
 msgid ""
@@ -156,7 +152,7 @@ msgstr ""
 
 #: commands/advisory_shared.hpp:168
 msgid "BUGZILLA_ID,..."
-msgstr ""
+msgstr "BUGZILLA_ID,..."
 
 #: commands/advisory_shared.hpp:178
 msgid ""
@@ -237,9 +233,8 @@ msgid "Downgrade software"
 msgstr "Degradar software"
 
 #: commands/download/download.cpp:105
-#, fuzzy
 msgid "When running with --url, prints URLs from all available mirrors"
-msgstr "Al correr con --url, imprime URLs de todos los mirrors disponibles"
+msgstr "Al ejecutar con --url, imprime las URL de todos los espejos disponibles"
 
 #: commands/download/download.cpp:121
 msgid "Invalid urlprotocol option: {}"
@@ -267,9 +262,8 @@ msgid "Pattern matching environment IDs."
 msgstr "IDs de entorno de coincidencia de patrones."
 
 #: commands/environment/environment.cpp:35
-#, fuzzy
 msgid "Manage comps environments"
-msgstr "Manejar entornos comps"
+msgstr "Gestiona entornos comps"
 
 #: commands/group/arguments.hpp:34
 msgid "Show only available groups."
@@ -346,6 +340,9 @@ msgid ""
 "No match found, history info defaults to considering only the last "
 "transaction, specify \"1..last\" range to search all transactions."
 msgstr ""
+"Ninguna coincidencia encontrada, historial de informe por defecto para "
+"considerar solo la transacción última, especifique el intervalo \"1..última\""
+" para buscar todas las transacciones."
 
 #: commands/history/history_redo.cpp:54
 #: commands/history/history_rollback.cpp:58
@@ -372,13 +369,12 @@ msgid "File \"{}\" already exists, it will be overwritten.\n"
 msgstr "Ya existe el archivo \"{}\", será sobrescrito.\n"
 
 #: commands/history/transaction_id.cpp:32
-#, fuzzy
 msgid ""
 "Invalid transaction ID range \"{}\", \"ID\" or \"ID..ID\" expected, where ID "
 "is \"NUMBER\", \"last\" or \"last-NUMBER\"."
 msgstr ""
-"Rango de ID de transacción inválido \"{}\", se esperaba \"ID\" o \"ID..ID\", "
-"donde ID es \"NUMBER\", \"last\" o \"last-NUMBER\"."
+"Intervalo de ID de transacción no válido \"{}\", se esperaba \"ID\" o "
+"\"ID..ID\", donde ID es \"NUMBER\", \"last\" o \"last-NUMBER\"."
 
 #: commands/install/install.cpp:41
 msgid "Install software"
@@ -392,7 +388,6 @@ msgstr ""
 "instalados"
 
 #: commands/list/list.cpp:44
-#, fuzzy
 msgid "Lists packages depending on the packages' relation to the system"
 msgstr ""
 "Lista paquetes que dependen de la relación de dichos paquetes con el sistema"
@@ -462,11 +457,11 @@ msgstr "Reemplazando paquetes"
 
 #: commands/list/list.cpp:237
 msgid "Autoremove packages"
-msgstr "Eliminar paquetes automáticamente"
+msgstr "Auto-eliminar paquetes"
 
 #: commands/list/list.cpp:241
 msgid "Extra packages"
-msgstr "Paquetes extra"
+msgstr "Paquetes adicionales"
 
 #: commands/list/list.cpp:252
 msgid "Recently added packages"
@@ -489,9 +484,8 @@ msgid "Show disabled modules."
 msgstr "Mostrar módulos deshabilitados."
 
 #: commands/module/arguments.hpp:50
-#, fuzzy
 msgid "Pattern matching module NSVCAs."
-msgstr "Módulo de coincidencia de patrones NSVCAs."
+msgstr "Módulo de coincidencia de patrones NSVCA."
 
 #: commands/module/module.cpp:43
 msgid "Manage modules"
@@ -515,7 +509,6 @@ msgstr ""
 "[OPTIONS]`."
 
 #: commands/offline/offline.cpp:268
-#, fuzzy
 msgid "Couldn't connect to D-Bus: {}"
 msgstr "No se pudo conectar al D-Bus: {}"
 
@@ -544,13 +537,13 @@ msgid "Data directory {} does not exist."
 msgstr "Directorio de datos {} no existe."
 
 #: commands/offline/offline.cpp:353
-#, fuzzy
 msgid "{} is not wanted by system-update.target."
 msgstr "{} no es deseado por system-update.target."
 
 #: commands/offline/offline.cpp:362
 msgid "The system will now reboot to upgrade to release version "
-msgstr "El sistema se reiniciará ahora para actualizar a la versión de salida "
+msgstr ""
+"El sistema se reiniciará ahora para modernizar a la versión de publicación "
 
 #: commands/offline/offline.cpp:366
 msgid ""
@@ -586,55 +579,52 @@ msgstr "No hay una transacción fuera de línea almacenada."
 
 #: commands/offline/offline.cpp:466
 msgid "Starting system upgrade. This will take a while."
-msgstr ""
+msgstr "Inicializando modernización del sistema. Esto tomará un rato."
 
 #: commands/offline/offline.cpp:478
 msgid "Use `dnf5 offline reboot` to begin the transaction."
-msgstr "Use `dnf5 offline reboot` para iniciar la transacción."
+msgstr "Emplee `dnf5 offline reboot` para comenzar la transacción."
 
 #: commands/offline/offline.cpp:529
 msgid "Transaction failed: "
-msgstr "Transacción fallida: "
+msgstr "Transacción incorrecta: "
 
 #: commands/offline/offline.cpp:599
-#, fuzzy
 msgid "Error reading journal: {}"
-msgstr "Error al leer el journal: {}"
+msgstr "Error al leer el diario: {}"
 
 #: commands/offline/offline.cpp:605
-#, fuzzy
 msgid "Add journal match failed: {}"
-msgstr "Fallo al añadir coincidencia de journal: {}"
+msgstr "Añadir coincidencia del diario incorrecta: {}"
 
 #: commands/offline/offline.cpp:633
 msgid "No logs were found."
-msgstr "No se encontraron registros."
+msgstr "No se ha encontrado ningún boletín."
 
 #: commands/offline/offline.cpp:637
-#, fuzzy
 msgid "The following boots appear to contain offline transaction logs:"
 msgstr ""
-"Las siguientes botas parecen contener registros de transacciones fuera de "
-"línea:"
+"Los siguientes arranques parecen contener boletines de transacción sin "
+"conexión:"
 
 #: commands/offline/offline.cpp:654
 msgid "Cannot find logs with this index."
-msgstr "No se encontraron registros con este índice."
+msgstr "No se encontraron boletines con este índice."
 
 #: commands/offline/offline.cpp:661
 msgid "Unable to match systemd journal entry."
-msgstr "No se pudo encontrar la entrada del diario systemd."
+msgstr "No se pudo encontrar el apunte del diario systemd."
 
 #: commands/offline/offline.cpp:673
 msgid "Show logs from past offline transactions"
-msgstr "Mostrar registros de transacciones fuera de línea anteriores"
+msgstr "Mostrar boletines desde transacciones fuera de línea anteriores"
 
 #: commands/offline/offline.cpp:681
 msgid ""
 "Which log to show. Run without any arguments to get a list of available logs."
 msgstr ""
-"Cuál registro mostrar. Ejecutar sin argumentos para obtener una lista de "
-"registros disponibles."
+"Cuál boletín a mostrar. Ejecutar sin argumentos para obtener un listado de "
+"boletines disponibles."
 
 #: commands/offline/offline.cpp:696
 msgid ""
