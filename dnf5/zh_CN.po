@@ -7,13 +7,14 @@
 # Wenyin Root <ruojiner@hotmail.com>, 2024.
 # caffiendo c <1728778012@qq.com>, 2024, 2025.
 # hg wd <cut-punisher-stays@duck.com>, 2025.
+# z z <3397542367@qq.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-28 03:23+0000\n"
-"PO-Revision-Date: 2025-02-25 00:33+0000\n"
-"Last-Translator: caffiendo c <1728778012@qq.com>\n"
+"PO-Revision-Date: 2025-04-02 12:19+0000\n"
+"Last-Translator: z z <3397542367@qq.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/dnf5/dnf5/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -21,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.10\n"
+"X-Generator: Weblate 5.10.4\n"
 
 #: commands/advisory/advisory.cpp:36
 msgid "Manage advisories"
@@ -522,14 +523,12 @@ msgid "Another offline transaction tool is running. Exiting."
 msgstr "另一个离线事务工具运行中。退出。"
 
 #: commands/offline/offline.cpp:462
-#, fuzzy
-#| msgid "No offline transaction is stored."
 msgid "Starting offline transaction. This will take a while."
-msgstr "没有已存储的离线事务。"
+msgstr "开始离线事务。这将需要一段时间。"
 
 #: commands/offline/offline.cpp:466
 msgid "Starting system upgrade. This will take a while."
-msgstr ""
+msgstr "开始系统升级。这将需要一段时间。"
 
 #: commands/offline/offline.cpp:478
 msgid "Use `dnf5 offline reboot` to begin the transaction."
@@ -799,24 +798,16 @@ msgid "The key was successfully imported."
 msgstr "该密钥成功导入。"
 
 #: context.cpp:96
-#, fuzzy
-#| msgid "The following PGP key (0x{}) is about to be removed:"
 msgid "The following OpenPGP key (0x{}) is about to be removed:"
-msgstr "以下PGP密钥 (0x{}) 即将被移除："
+msgstr "以下 OpenPGP 密钥 (0x{}) 即将被删除："
 
 #: context.cpp:98
 msgid " Reason     : {}\n"
 msgstr " 原因     : \"{}\"\n"
 
 #: context.cpp:102
-#, fuzzy
-#| msgid ""
-#| " Fingerprint: {}\n"
-#| " From       : {}\n"
 msgid " Fingerprint: {}\n"
-msgstr ""
-" 指纹 : {}\n"
-" 来源 : {}\n"
+msgstr " 指纹 : {}\n"
 
 #: context.cpp:104
 msgid "As a result, installing packages signed with this key will fail."
@@ -836,10 +827,8 @@ msgid "The system will now proceed with removing the key."
 msgstr "系统现在将继续移除该钥匙。"
 
 #: context.cpp:115
-#, fuzzy
-#| msgid "The key was successfully removed."
 msgid "Key 0x{} was successfully removed."
-msgstr "该密钥成功被移除。"
+msgstr "密钥 0x{} 已成功删除。"
 
 #: context.cpp:295
 msgid "setopt: \"{}.{}\": {}"
@@ -1026,7 +1015,7 @@ msgstr "完全从系统缓存运行，即使缓存已过期，也不要更新缓
 
 #: main.cpp:180
 msgid "Control whether color is used."
-msgstr ""
+msgstr "控制是否使用颜色。"
 
 #: main.cpp:186
 msgid "Force refreshing metadata before running the command."
@@ -1405,7 +1394,7 @@ msgstr "测试模式已启用: 仅执行软件包下载、OpenPGP密钥安装和
 msgid ""
 "Error: this bootc system is configured to be read-only. For more "
 "information, run `bootc --help`."
-msgstr ""
+msgstr "错误：此 bootc 系统配置为只读。有关更多信息，请运行“bootc --help”。"
 
 #: main.cpp:1538
 msgid ""
