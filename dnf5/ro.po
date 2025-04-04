@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-03 03:23+0000\n"
+"POT-Creation-Date: 2025-04-04 03:22+0000\n"
 "PO-Revision-Date: 2025-03-23 04:53+0000\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -193,23 +193,23 @@ msgstr "Verifică dacă există probleme în packagedb"
 msgid "Check discovered {} problem(s) in {} package(s)"
 msgstr "Verifică {} problemă(e) descoperită(e) în {} pachet(e)"
 
-#: commands/clean/clean.cpp:90
+#: commands/clean/clean.cpp:91
 msgid "List of cache types to clean up. Supported types: {0}"
 msgstr "Lista tipurilor de cache de curățat. Tipuri acceptate: {0}"
 
-#: commands/clean/clean.cpp:108
+#: commands/clean/clean.cpp:109
 msgid "Unknown cache type \"{0}\". Supported types: {1}"
 msgstr "Tip de cache necunoscut „{0}”. Tipuri acceptate: {1}"
 
-#: commands/clean/clean.cpp:165
+#: commands/clean/clean.cpp:166
 msgid "Failed to cleanup repository cache in path \"{0}\": {1}"
 msgstr "Curățarea cache-ului depozitului din ruta „{0}” a eșuat: {1}"
 
-#: commands/clean/clean.cpp:175
+#: commands/clean/clean.cpp:176
 msgid "Cache directory \"{}\" does not exist. Nothing to clean."
 msgstr "Directorul de cache „{}” nu există. Nu este nimic de curățat."
 
-#: commands/clean/clean.cpp:180
+#: commands/clean/clean.cpp:181
 msgid "Cannot iterate cache directory \"{}\": {}"
 msgstr "Nu se poate itera directorul de cache „{}”: {}"
 
@@ -243,9 +243,14 @@ msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
 msgstr "Arhitectură neacceptată „{0}”. Vă rugăm să alegeți una dintre {1}"
 
 #. TODO(jrohel): Add support for requiring an argument by another argument in ArgumentParser?
-#: commands/download/download.cpp:183
+#: commands/download/download.cpp:184
 msgid "Option \"--alldeps\" should be used with \"--resolve\""
 msgstr "Opțiunea „--alldeps” trebuie utilizată cu opțiunea „--resolve”"
+
+#: commands/download/download.cpp:220
+msgid ""
+"No package \"{}\" available; You might want to use --skip-unavailable option."
+msgstr ""
 
 #: commands/environment/arguments.hpp:33
 msgid "Show only available environments."

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-03 03:23+0000\n"
+"POT-Creation-Date: 2025-04-04 03:22+0000\n"
 "PO-Revision-Date: 2025-03-20 01:34+0000\n"
 "Last-Translator: Inci sakura <incisakura@icloud.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf5/"
@@ -188,25 +188,25 @@ msgstr "packagedb の問題を確認"
 msgid "Check discovered {} problem(s) in {} package(s)"
 msgstr "{} 個の問題を {} 個のパッケージに検出しました"
 
-#: commands/clean/clean.cpp:90
+#: commands/clean/clean.cpp:91
 msgid "List of cache types to clean up. Supported types: {0}"
 msgstr "クリーンアップするキャッシュのタイプの一覧。サポートするタイプ: {0}"
 
-#: commands/clean/clean.cpp:108
+#: commands/clean/clean.cpp:109
 msgid "Unknown cache type \"{0}\". Supported types: {1}"
 msgstr "不明なキャッシュタイプ \"{0}\"。サポートするタイプ: {1}"
 
-#: commands/clean/clean.cpp:165
+#: commands/clean/clean.cpp:166
 msgid "Failed to cleanup repository cache in path \"{0}\": {1}"
 msgstr ""
 "パス \"{0}\" のリポジトリ キャッシュのクリーンアップに失敗しました: {1}"
 
-#: commands/clean/clean.cpp:175
+#: commands/clean/clean.cpp:176
 msgid "Cache directory \"{}\" does not exist. Nothing to clean."
 msgstr ""
 "キャッシュ ディレクトリ \"{}\" は存在しません。クリーンするものはありません。"
 
-#: commands/clean/clean.cpp:180
+#: commands/clean/clean.cpp:181
 msgid "Cannot iterate cache directory \"{}\": {}"
 msgstr "キャッシュ ディレクトリ \"{}\" を反復処理できませんでした: {}"
 
@@ -240,10 +240,15 @@ msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
 msgstr "サポートされてないアーキテクチャ \"{0}\"。 {1} から一つ選んでください"
 
 #. TODO(jrohel): Add support for requiring an argument by another argument in ArgumentParser?
-#: commands/download/download.cpp:183
+#: commands/download/download.cpp:184
 msgid "Option \"--alldeps\" should be used with \"--resolve\""
 msgstr ""
 "オプション \"--alldeps\" は \"--resolve\" と一緒に使用する必要があります"
+
+#: commands/download/download.cpp:220
+msgid ""
+"No package \"{}\" available; You might want to use --skip-unavailable option."
+msgstr ""
 
 #: commands/environment/arguments.hpp:33
 msgid "Show only available environments."

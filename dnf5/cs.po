@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-03 03:23+0000\n"
+"POT-Creation-Date: 2025-04-04 03:22+0000\n"
 "PO-Revision-Date: 2025-02-20 12:27+0000\n"
 "Last-Translator: Petr Stourac <stouracp@gmail.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf5/dnf5/"
@@ -187,23 +187,23 @@ msgstr "Zkontroluje zjištěné  problémy v  databázi balíčků"
 msgid "Check discovered {} problem(s) in {} package(s)"
 msgstr "Zkontroluje zjištěné {} problémy v {} balíčcích"
 
-#: commands/clean/clean.cpp:90
+#: commands/clean/clean.cpp:91
 msgid "List of cache types to clean up. Supported types: {0}"
 msgstr "Seznam typů mezipaměti k vyčištění. Podporované typy: {0}"
 
-#: commands/clean/clean.cpp:108
+#: commands/clean/clean.cpp:109
 msgid "Unknown cache type \"{0}\". Supported types: {1}"
 msgstr "Neznámý typ mezipaměti \"{0}\". Podporované typy: {1}"
 
-#: commands/clean/clean.cpp:165
+#: commands/clean/clean.cpp:166
 msgid "Failed to cleanup repository cache in path \"{0}\": {1}"
 msgstr "Nepodařilo se vyčistit mezipaměť repozitory na cestě \"{0}\": {1}"
 
-#: commands/clean/clean.cpp:175
+#: commands/clean/clean.cpp:176
 msgid "Cache directory \"{}\" does not exist. Nothing to clean."
 msgstr ""
 
-#: commands/clean/clean.cpp:180
+#: commands/clean/clean.cpp:181
 #, fuzzy
 #| msgid "Cannot load shared library \"{}\": {}"
 msgid "Cannot iterate cache directory \"{}\": {}"
@@ -235,9 +235,14 @@ msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
 msgstr "Nepodporovaná architektura \"{0}\". Vyberte prosím jednu z {1}"
 
 #. TODO(jrohel): Add support for requiring an argument by another argument in ArgumentParser?
-#: commands/download/download.cpp:183
+#: commands/download/download.cpp:184
 msgid "Option \"--alldeps\" should be used with \"--resolve\""
 msgstr "Volba \"--alldeps\" by měla být použita s \"--resolve\""
+
+#: commands/download/download.cpp:220
+msgid ""
+"No package \"{}\" available; You might want to use --skip-unavailable option."
+msgstr ""
 
 #: commands/environment/arguments.hpp:33
 msgid "Show only available environments."

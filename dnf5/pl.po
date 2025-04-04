@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-03 03:23+0000\n"
+"POT-Creation-Date: 2025-04-04 03:22+0000\n"
 "PO-Revision-Date: 2025-03-23 04:53+0000\n"
 "Last-Translator: Paweł Marciniak <sunwire+fas@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -194,25 +194,25 @@ msgstr "Sprawdź, czy nie ma problemów w packagedb"
 msgid "Check discovered {} problem(s) in {} package(s)"
 msgstr "Sprawdź odkryte {} problemy w {} pakietach"
 
-#: commands/clean/clean.cpp:90
+#: commands/clean/clean.cpp:91
 msgid "List of cache types to clean up. Supported types: {0}"
 msgstr "Lista typów pamięci podręcznej do wyczyszczenia. Obsługiwane typy: {0}"
 
-#: commands/clean/clean.cpp:108
+#: commands/clean/clean.cpp:109
 msgid "Unknown cache type \"{0}\". Supported types: {1}"
 msgstr "Nieznany typ pamięci podręcznej „{0}”. Obsługiwane typy: {1}"
 
-#: commands/clean/clean.cpp:165
+#: commands/clean/clean.cpp:166
 msgid "Failed to cleanup repository cache in path \"{0}\": {1}"
 msgstr ""
 "Nie udało się wyczyścić pamięci podręcznej repozytorium w ścieżce „{0}”: {1}"
 
-#: commands/clean/clean.cpp:175
+#: commands/clean/clean.cpp:176
 msgid "Cache directory \"{}\" does not exist. Nothing to clean."
 msgstr ""
 "Katalog pamięci podręcznej „{}” nie istnieje. Nie ma nic do czyszczenia."
 
-#: commands/clean/clean.cpp:180
+#: commands/clean/clean.cpp:181
 msgid "Cannot iterate cache directory \"{}\": {}"
 msgstr "Nie można iterować katalogu pamięci podręcznej „{}”: {}"
 
@@ -246,9 +246,14 @@ msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
 msgstr "Nieobsługiwana architektura „{0}”. Wybierz jedną z {1}"
 
 #. TODO(jrohel): Add support for requiring an argument by another argument in ArgumentParser?
-#: commands/download/download.cpp:183
+#: commands/download/download.cpp:184
 msgid "Option \"--alldeps\" should be used with \"--resolve\""
 msgstr "Opcja „--alldeps” powinna być używana z opcją „--resolve”"
+
+#: commands/download/download.cpp:220
+msgid ""
+"No package \"{}\" available; You might want to use --skip-unavailable option."
+msgstr ""
 
 #: commands/environment/arguments.hpp:33
 msgid "Show only available environments."
