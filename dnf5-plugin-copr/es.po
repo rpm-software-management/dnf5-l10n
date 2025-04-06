@@ -8,9 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-04 03:22+0000\n"
-"PO-Revision-Date: 2025-04-06 09:26+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2025-04-06 20:01+0000\n"
+"Last-Translator: Javier Francisco <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5-plugin-copr/es/>\n"
 "Language: es\n"
@@ -22,7 +21,7 @@ msgstr ""
 
 #: copr.cpp:48
 msgid "Copr hub (the web-UI/API server) hostname"
-msgstr ""
+msgstr "Hub Copr (la web-IU/servidor API) nombre-hospedaje"
 
 #: copr.cpp:88
 #, c++-format
@@ -94,7 +93,7 @@ msgstr ""
 
 #: copr_debug.cpp:30
 msgid "print useful info about the system, useful for debugging"
-msgstr ""
+msgstr "declara info útil sobre el sistema, útil para depurar"
 
 #: copr_disable.cpp:35
 #, c++-format
@@ -102,6 +101,8 @@ msgid ""
 "disable specified Copr repository (if exists), keep {}/*.repo file - just "
 "mark enabled=0"
 msgstr ""
+"desactiva repositorio Copr especificado (si existe), conserva archivo "
+"{}/*.repo; tan solo marca enabled=0"
 
 #: copr_enable.cpp:38
 #, c++-format
@@ -109,22 +110,29 @@ msgid ""
 "download the repository info from a Copr server and install it as a {}/*."
 "repo file"
 msgstr ""
+"descarga la info del repositorio desde un servidor Copr e instálelo como un "
+"archivo {}/*.repo"
 
 #: copr_enable.cpp:46
 msgid ""
 "Chroot specified in the NAME-RELEASE-ARCH format, e.g. 'fedora-rawhide-"
 "ppc64le'.  When not specified, the 'dnf copr' command attempts to detect it."
 msgstr ""
+"Chroot especificado en el formato NOMBRE-PUBLICACIÓN-ARQ, p.ej., 'fedora-"
+"rawhide-ppc64le'.  Cuando no especificado, la instrucción 'dnf copr' intenta "
+"detectarlo."
 
 #: copr_list.cpp:51
 msgid "list Copr repositories"
-msgstr ""
+msgstr "list Copr repositorios"
 
 #: copr_remove.cpp:35
 #, c++-format
 msgid ""
 "remove specified Copr repository from the system (removes the {}/*.repo file)"
 msgstr ""
+"retira repositorio Copr especificado desde el sistema (retira el archivo "
+"{}/*.repo)"
 
 #: copr_repo.cpp:91
 #, c++-format
