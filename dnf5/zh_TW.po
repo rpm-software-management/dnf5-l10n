@@ -10,8 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-04 03:22+0000\n"
 "PO-Revision-Date: 2025-04-06 23:51+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: hsu zangmen <chzang55@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
 "projects/dnf5/dnf5/zh_TW/>\n"
 "Language: zh_TW\n"
@@ -777,7 +776,7 @@ msgstr "在 \"{0} = {1}\"上加入排除版本鎖。"
 
 #: commands/versionlock/versionlock_exclude.cpp:139
 msgid "Package \"{}\" is already excluded."
-msgstr "已排除 \" {}\" 軟體包."
+msgstr "軟體包 \" {}\" 已排除."
 
 #: context.cpp:73
 msgid "Importing OpenPGP key 0x{}:\n"
@@ -913,7 +912,7 @@ msgstr "降級 {}"
 
 #: context.cpp:826
 msgid "Reinstalling {}"
-msgstr "重新安裝 {}"
+msgstr "正在重新安裝 {}"
 
 #: context.cpp:839
 #, fuzzy
@@ -1019,7 +1018,7 @@ msgstr "完全從系統快取執行，不更新快取，即使快取已過期也
 
 #: main.cpp:180
 msgid "Control whether color is used."
-msgstr "控制使用什麼顏色"
+msgstr "控制使用什麼顏色."
 
 #: main.cpp:186
 msgid "Force refreshing metadata before running the command."
@@ -1042,7 +1041,6 @@ msgid "set arbitrary config and repo options"
 msgstr "設定隨意組態與軟體庫選項"
 
 #: main.cpp:238
-#, fuzzy
 msgid ""
 "Override a configuration option from the configuration file. To override "
 "configuration options for repositories, use repoid.option for  the\n"
@@ -1052,11 +1050,11 @@ msgid ""
 "              they do not override it. However, specifying an empty value (e."
 "g. --setopt=tsflags=) will clear the option."
 msgstr ""
-"覆寫設定檔中的設定選項。 若要覆寫套件庫的設定選項，請使用 repoid.option 來設"
-"定 <option>。\n"
-"  配置選項的值，例如 excludepkgs、includepkgs、installonlypkgs 和 tsflags，會"
-"附加到原始值，不會覆寫原始值。 不過，指定一個空值 (例如 --setopt=tsflags=) 會"
-"清除該選項。"
+"覆寫設定檔中的設定選項。 若要覆寫套件庫的設定選項，請使用 repoid.option "
+"來設定 <option>。\n"
+"  配置選項的值，例如 excludepkgs、includepkgs、installonlypkgs 和 "
+"tsflags，會附加到原始值，不會覆寫原始值。 \n"
+"不過，指定一個空值 (例如 --setopt=tsflags=) 會清除該選項。"
 
 #: main.cpp:247 main.cpp:286
 msgid "{}: Badly formatted argument value \"{}\""
@@ -1346,7 +1344,7 @@ msgstr ""
 
 #: main.cpp:1298 main.cpp:1550
 msgid "{}. Add \"--help\" for more information about the arguments."
-msgstr ""
+msgstr "{}. 加入\"--help\" 以取得更多關於參數的資訊。"
 
 #: main.cpp:1307
 msgid ""
