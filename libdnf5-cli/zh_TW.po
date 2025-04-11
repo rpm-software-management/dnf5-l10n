@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-04 03:22+0000\n"
+"POT-Creation-Date: 2025-04-11 03:24+0000\n"
 "PO-Revision-Date: 2025-04-08 00:38+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -21,47 +21,38 @@ msgstr ""
 "X-Generator: Weblate 5.10.4\n"
 
 #: argument_parser.cpp:62
-#, c++-format
 msgid "\"{}\" not allowed together with named argument \"{}\""
 msgstr "\"{}\" 不可與已命名的參數 \"{}\" 一起使用"
 
 #: argument_parser.cpp:64
-#, c++-format
 msgid "\"{}\" not allowed in command \"{}\""
 msgstr "指令 \"{}\" 中不允許使用 \"{}\""
 
 #: argument_parser.cpp:66
-#, c++-format
 msgid "\"{}\" not allowed together with positional argument \"{}\""
 msgstr "\"{}\" 不可與位置參數 \"{}\" 一起使用"
 
 #: argument_parser.cpp:111
-#, c++-format
 msgid "Argument id \"{}\" already registered in group \"{}\""
 msgstr "參數 ID \"{}\" 已在群組 \"{}\" 中註冊"
 
 #: argument_parser.cpp:238
-#, c++-format
 msgid "Invalid character '.' in argument id \"{}\""
 msgstr "參數 id \"{}\" 中的無效字符 '.'"
 
 #: argument_parser.cpp:346 argument_parser.cpp:351
-#, c++-format
 msgid "Too few values for positional argument \"{}\""
 msgstr "位置參數 \"{}\" 的值太少"
 
 #: argument_parser.cpp:512
-#, c++-format
 msgid "Missing value for named argument \"--{}\""
 msgstr "己命名參數 \"--{}\" 的值有缺少"
 
 #: argument_parser.cpp:520
-#, c++-format
 msgid "Unexpected value for named argument \"--{}\""
 msgstr "已命名參數 \"--{}\" 的非預期值"
 
 #: argument_parser.cpp:562
-#, c++-format
 msgid "Missing value for named argument \"-{}\""
 msgstr "命名參數 \"-{}\" 的值有缺少"
 
@@ -75,62 +66,50 @@ msgid "Description:"
 msgstr "描述："
 
 #: argument_parser.cpp:943
-#, c++-format
 msgid "Command id \"{}\" already registered for command \"{}\""
 msgstr "指令 ID \"{}\" 已註冊為指令 \"{}\""
 
 #: argument_parser.cpp:954
-#, c++-format
 msgid "Named argument id \"{}\" already registered for command \"{}\""
 msgstr "已為指令 \"{}\" 註冊命名的參數 ID \"{}\""
 
 #: argument_parser.cpp:964
-#, c++-format
 msgid "Positional argument id \"{}\" already registered for command \"{}\""
 msgstr "位置參數 id \"{}\" 已為指令 \"{}\" 進行註冊"
 
 #: argument_parser.cpp:974
-#, c++-format
 msgid "Group id \"{}\" already registered for command \"{}\""
 msgstr "群組 ID\"{}\" 已為指令 \"{}\" 進行註冊"
 
 #: argument_parser.cpp:1001
-#, c++-format
 msgid "Command id \"{}\" does not contain subcommand with id \"{}\""
 msgstr "指令 ID \"{}\" 不包含 ID 為 \"{}\" 的子指令"
 
 #: argument_parser.cpp:1009
-#, c++-format
 msgid "Command id \"{}\" does not contain named argument with id \"{}\""
 msgstr "指令 id \"{}\" 不包含 id 為 \"{}\" 的命名參數"
 
 #: argument_parser.cpp:1017
-#, c++-format
 msgid "Command id \"{}\" does not contain positional argument with id \"{}\""
 msgstr "指令 id \"{}\" 不包含位置參數 id \"{}\""
 
 #: argument_parser.cpp:1024
-#, c++-format
 msgid "Command id \"{}\" does not contain group with id \"{}\""
 msgstr "指令 ID \"{}\" 不包含 ID 為 \"{}\" 的群組"
 
 #: argument_parser.cpp:1141 argument_parser.cpp:1345
-#, c++-format
 msgid "Unknown argument \"{}\" for command \"{}\""
 msgstr "指令 \"{}\" 的未知參數 \"{}\""
 
 #: argument_parser.cpp:1156 argument_parser.cpp:1360
-#, c++-format
 msgid "Missing positional argument \"{}\" for command \"{}\""
 msgstr "命令 \"{}\" 缺少位置參數 \"{}\""
 
 #: argument_parser.cpp:1563
-#, c++-format
 msgid "Named argument with path id \"{}\" not found"
 msgstr "未找到路徑 ID 為 \"{}\" 的已命名參數"
 
 #: argument_parser.cpp:1573
-#, c++-format
 msgid "Positional argument with path id \"{}\" not found"
 msgstr "未找到路徑 ID 為 \"{}\" 的位置參數"
 
@@ -239,56 +218,48 @@ msgstr "處理事項摘要：\n"
 
 #. Keep the replaceble number aligned across all messages.
 #: output/transaction_table.cpp:132
-#, c++-format
 msgid " Installing:      {:4} package\n"
 msgid_plural " Installing:      {:4} packages\n"
 msgstr[0] " 正在安裝：      {:4} 軟體包\n"
 
 #. Keep the replaceble number aligned across all messages.
 #: output/transaction_table.cpp:141
-#, c++-format
 msgid " Reinstalling:    {:4} package\n"
 msgid_plural " Reinstalling:    {:4} packages\n"
 msgstr[0] " 正在重新安裝：    {:4} 軟體包\n"
 
 #. Keep the replaceble number aligned across all messages.
 #: output/transaction_table.cpp:150
-#, c++-format
 msgid " Upgrading:       {:4} package\n"
 msgid_plural " Upgrading:       {:4} packages\n"
 msgstr[0] " 正在升級：       {:4} 軟體包\n"
 
 #. Keep the replaceble number aligned across all messages.
 #: output/transaction_table.cpp:159
-#, c++-format
 msgid " Replacing:       {:4} package\n"
 msgid_plural " Replacing:       {:4} packages\n"
 msgstr[0] " 正在取代：       {:4} 軟體包\n"
 
 #. Keep the replaceble number aligned across all messages.
 #: output/transaction_table.cpp:168
-#, c++-format
 msgid " Removing:        {:4} package\n"
 msgid_plural " Removing:        {:4} packages\n"
 msgstr[0] " 正在移除：        {:4} 軟體包\n"
 
 #. Keep the replaceble number aligned across all messages.
 #: output/transaction_table.cpp:177
-#, c++-format
 msgid " Downgrading:     {:4} package\n"
 msgid_plural " Downgrading:     {:4} packages\n"
 msgstr[0] " 正在降級：     {:4} 軟體包\n"
 
 #. Keep the replaceble number aligned across all messages.
 #: output/transaction_table.cpp:186
-#, c++-format
 msgid " Changing reason: {:4} package\n"
 msgid_plural " Changing reason: {:4} packages\n"
 msgstr[0] " 正在變更原因：{:4} 軟體包\n"
 
 #. Keep the replaceble number aligned across all messages.
 #: output/transaction_table.cpp:195
-#, c++-format
 msgid " Skipping:        {:4} package\n"
 msgid_plural " Skipping:        {:4} packages\n"
 msgstr[0] " 正在略過：        {:4} 軟體包\n"
@@ -306,12 +277,10 @@ msgid "Size"
 msgstr "大小"
 
 #: output/transaction_table.cpp:357 output/transaction_table.cpp:451
-#, c++-format
 msgid "{} -> {}"
 msgstr "{} -> {}"
 
 #: output/transaction_table.cpp:373
-#, c++-format
 msgid "replacing {}"
 msgstr "正在取代 {}"
 
