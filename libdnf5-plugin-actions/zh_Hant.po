@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-04 03:22+0000\n"
+"POT-Creation-Date: 2025-04-11 03:24+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -16,7 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: actions.cpp:237
-#, c++-format
 msgid "File \"{}\" on line {}: {}"
 msgstr ""
 
@@ -25,17 +24,14 @@ msgid "\"HOOK:PKG_FILTER:DIRECTION:OPTIONS:CMD\" format expected"
 msgstr ""
 
 #: actions.cpp:676
-#, c++-format
 msgid "Unknown \"enabled\" option value \"{}\""
 msgstr ""
 
 #: actions.cpp:683
-#, c++-format
 msgid "Unknown option \"{}\""
 msgstr ""
 
 #: actions.cpp:711
-#, c++-format
 msgid "Unknown hook \"{}\""
 msgstr ""
 
@@ -50,17 +46,14 @@ msgid "Cannot use direction without package filter"
 msgstr ""
 
 #: actions.cpp:740
-#, c++-format
 msgid "Unknown package direction \"{}\""
 msgstr ""
 
 #: actions.cpp:747
-#, c++-format
 msgid "Unknown mode \"{}\""
 msgstr ""
 
 #: actions.cpp:755
-#, c++-format
 msgid "Unsupported value of the \"raise_error\" option: {}"
 msgstr ""
 
@@ -69,32 +62,26 @@ msgid "Missing command"
 msgstr ""
 
 #: actions.cpp:953
-#, c++-format
 msgid "Synax error: Missing equal sign (=) in action output line: {}"
 msgstr ""
 
 #: actions.cpp:964
-#, c++-format
 msgid "Cannot set option: Action output line: {}"
 msgstr ""
 
 #: actions.cpp:982
-#, c++-format
 msgid "Action sent the wrong log level: {}"
 msgstr ""
 
 #: actions.cpp:987 actions.cpp:1794
-#, c++-format
 msgid "Action calls for stop: {}"
 msgstr ""
 
 #: actions.cpp:990 actions.cpp:1801
-#, c++-format
 msgid "Action sent error message: {}"
 msgstr ""
 
 #: actions.cpp:995
-#, c++-format
 msgid ""
 "Syntax error: Action output line must start with \"tmp.\" or \"conf.\" or "
 "\"var.\" or \"stop=\" or \"error=\": {}"
@@ -105,7 +92,6 @@ msgid "Error reading from action (from pipe)"
 msgstr ""
 
 #: actions.cpp:1038
-#, c++-format
 msgid "Syntax error in json request from action: Missing starting '{{' char"
 msgstr ""
 
@@ -114,7 +100,6 @@ msgid "Error during processing of a request from action."
 msgstr ""
 
 #: actions.cpp:1071
-#, c++-format
 msgid "Syntax error in json request from action: {}"
 msgstr ""
 
@@ -143,7 +128,6 @@ msgid "Actions plugin: Cannot bind command stdout"
 msgstr ""
 
 #: actions.cpp:1988
-#, c++-format
 msgid "Cannot execute action, command \"{}\" arguments \"{}\""
 msgstr ""
 
@@ -152,11 +136,9 @@ msgid "Error during preparation child process"
 msgstr ""
 
 #: actions.cpp:2015
-#, c++-format
 msgid "Exit code: {}"
 msgstr ""
 
 #: actions.cpp:2019
-#, c++-format
 msgid "Terminated by signal: {}"
 msgstr ""
