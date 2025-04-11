@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-04 03:22+0000\n"
+"POT-Creation-Date: 2025-04-11 03:24+0000\n"
 "PO-Revision-Date: 2025-04-10 07:53+0000\n"
 "Last-Translator: Javier Francisco <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -24,7 +24,6 @@ msgid "Copr hub (the web-UI/API server) hostname"
 msgstr "Hub Copr (la web-IU/servidor API) nombre-hospedaje"
 
 #: copr.cpp:88
-#, c++-format
 msgid ""
 "Copr project ID to {}.  Use either a format OWNER/PROJECT or HUB/OWNER/"
 "PROJECT (if HUB is not specified, the default one, or --hub <ARG>, is used.  "
@@ -36,7 +35,6 @@ msgid ""
 msgstr ""
 
 #: copr.cpp:106
-#, c++-format
 msgid "Invalid PROJECT_SPEC format '{}'"
 msgstr "Formato PROJECT_SPEC no válido '{}'"
 
@@ -75,7 +73,6 @@ msgstr ""
 "repositorio.\n"
 
 #: copr_constants.hpp:41
-#, c++-format
 msgid ""
 "Maintainer of the enabled Copr repository decided to make\n"
 "it dependent on other repositories. Such repositories are\n"
@@ -96,16 +93,14 @@ msgid "print useful info about the system, useful for debugging"
 msgstr "declara info útil sobre el sistema, útil para depurar"
 
 #: copr_disable.cpp:35
-#, c++-format
 msgid ""
 "disable specified Copr repository (if exists), keep {}/*.repo file - just "
 "mark enabled=0"
 msgstr ""
-"desactiva repositorio Copr especificado (si existe), conserva archivo "
-"{}/*.repo; tan solo marca enabled=0"
+"desactiva repositorio Copr especificado (si existe), conserva archivo {}/*."
+"repo; tan solo marca enabled=0"
 
 #: copr_enable.cpp:38
-#, c++-format
 msgid ""
 "download the repository info from a Copr server and install it as a {}/*."
 "repo file"
@@ -127,15 +122,13 @@ msgid "list Copr repositories"
 msgstr "list Copr repositorios"
 
 #: copr_remove.cpp:35
-#, c++-format
 msgid ""
 "remove specified Copr repository from the system (removes the {}/*.repo file)"
 msgstr ""
-"retira repositorio Copr especificado desde el sistema (retira el archivo "
-"{}/*.repo)"
+"retira repositorio Copr especificado desde el sistema (retira el archivo {}/"
+"*.repo)"
 
 #: copr_repo.cpp:91
-#, c++-format
 msgid "Directory '{}' not found in '{}' Copr project."
 msgstr "Directorio '{}' no encontrado en '{}' proyecto Copr."
 
@@ -164,22 +157,18 @@ msgid "Can't parse Copr repo spec: "
 msgstr "No puedo interpretar espec de repo Copr: "
 
 #: copr_repo.cpp:344
-#, c++-format
 msgid "Can't remove the {} repo file"
 msgstr "No puedo quitar el archivo {} del repo"
 
 #: copr_repo.cpp:347
-#, c++-format
 msgid "Repo file {} successfully removed"
 msgstr "Archivo {} del repo quitado correctamente"
 
 #: copr_repo.cpp:393
-#, c++-format
 msgid "Can't find item {} in {}"
 msgstr "No puedo encontrar el ítem {} en {}"
 
 #: copr_repo.cpp:449
-#, c++-format
 msgid "Removing old config file '{}'"
 msgstr "Quitando el archivo de config '{}' antiguo"
 
@@ -188,7 +177,6 @@ msgid "Can't remove"
 msgstr "No puedo quitar"
 
 #: copr_repo.cpp:526
-#, c++-format
 msgid ""
 "Copr repofile '{}' has an old format, fix by re-enabling it $ {} copr enable "
 "{}"
@@ -197,21 +185,17 @@ msgstr ""
 "copr activa {}"
 
 #: copr_repo.cpp:560
-#, c++-format
 msgid "Repo id '{}' in '{}' is suspicious"
 msgstr "Id de repo '{}' en '{}' es sospechoso"
 
 #: copr_repo.cpp:567
-#, c++-format
 msgid "Repo id '{}' doesn't belong to '{}' repofile"
 msgstr "Id de repo '{}' no pertenece a '{}' de repofile"
 
 #: copr_repo.cpp:618
-#, c++-format
 msgid "Copr repository '{}' in '{}' disabled."
 msgstr "Copr de repositorio '{}' en '{}' deshabilitado."
 
 #: copr_repo.cpp:632 copr_repo.cpp:657
-#, c++-format
 msgid "Repository '{}' not found on this system"
 msgstr "Repositorio '{}' no encontrado en este sistema"
