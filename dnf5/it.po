@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-25 03:27+0000\n"
-"PO-Revision-Date: 2025-04-25 13:15+0000\n"
+"PO-Revision-Date: 2025-04-25 17:47+0000\n"
 "Last-Translator: Salvatore Cocuzza <info@salvatorecocuzza.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/it/>\n"
@@ -24,7 +24,7 @@ msgstr ""
 
 #: commands/advisory/advisory.cpp:36
 msgid "Manage advisories"
-msgstr "Gestire gli avvisi"
+msgstr "Gestisce gli avvisi"
 
 #: commands/advisory/advisory_info.hpp:35
 msgid "Print details about advisories"
@@ -32,7 +32,7 @@ msgstr "Stampa i dettagli sugli avvisi"
 
 #: commands/advisory/advisory_list.hpp:35
 msgid "List advisories"
-msgstr "Elenco avvisi"
+msgstr "Elenca gli avvisi"
 
 #: commands/advisory/advisory_summary.cpp:44
 msgid "All"
@@ -56,21 +56,22 @@ msgstr "Stampa il riepilogo degli avvisi"
 
 #: commands/advisory/arguments.hpp:34
 msgid "Show advisories containing any version of installed packages."
-msgstr "Mostra avvisi contenenti qualsiasi versione dei pacchetti installati."
+msgstr ""
+"Mostra gli avvisi contenenti qualsiasi versione dei pacchetti installati."
 
 #: commands/advisory/arguments.hpp:45
 msgid ""
 "Show advisories containing newer versions of installed packages. This is the "
 "default behavior."
 msgstr ""
-"Mostra avvisi contenenti le versioni più recenti dei pacchetti installati. "
+"Mostra gli avvisi contenenti versioni più recenti dei pacchetti installati. "
 "Questo è il comportamento predefinito."
 
 #: commands/advisory/arguments.hpp:57
 msgid ""
 "Show advisories containing equal and older versions of installed packages."
 msgstr ""
-"Mostra avvisi contenenti versioni uguali e precedenti dei pacchetti "
+"Mostra gli avvisi contenenti versioni uguali e precedenti dei pacchetti "
 "installati."
 
 #: commands/advisory/arguments.hpp:69
@@ -78,8 +79,8 @@ msgid ""
 "Show advisories containing newer versions of installed packages for which a "
 "newer version is available."
 msgstr ""
-"Mostra avvisi contenenti versioni più recenti dei pacchetti installati per i "
-"quali è disponibile una versione più recente."
+"Mostra gli avvisi contenenti versioni più recenti dei pacchetti installati "
+"per i quali è disponibile una versione più recente."
 
 #: commands/advisory/arguments.hpp:82
 msgid ""
@@ -95,7 +96,7 @@ msgstr "NOME_PACCHETTO,..."
 
 #: commands/advisory/arguments.hpp:90
 msgid "List of patterns matched against advisory names."
-msgstr "Elenco di modelli confrontati con nomi di avvisi."
+msgstr "Elenco di modelli confrontati con i nomi degli avvisi."
 
 #: commands/advisory/arguments.hpp:100
 msgid "Show only advisories referencing a bugzilla."
@@ -116,39 +117,39 @@ msgstr "NOME_AVVISO,..."
 
 #: commands/advisory_shared.hpp:121
 msgid "Limit to packages in security advisories."
-msgstr "Limitare ai pacchetti negli avvisi di sicurezza."
+msgstr "Limita ai pacchetti negli avvisi di sicurezza."
 
 #: commands/advisory_shared.hpp:128
 msgid "Limit to packages in bugfix advisories."
-msgstr "Limitare ai pacchetti negli avvisi di correzione dei bug."
+msgstr "Limita ai pacchetti negli avvisi di correzione dei bug."
 
 #: commands/advisory_shared.hpp:135
 msgid "Limit to packages in enhancement advisories."
-msgstr "Limite ai pacchetti negli avvisi di miglioramento."
+msgstr "Limita ai pacchetti negli avvisi di miglioramento."
 
 #: commands/advisory_shared.hpp:142
 msgid "Limit to packages in newpackage advisories."
-msgstr "Limite ai pacchetti negli avvisi sui nuovi pacchetti."
+msgstr "Limita ai pacchetti negli avvisi di nuovi pacchetti."
 
 #: commands/advisory_shared.hpp:153
 msgid ""
 "Limit to packages in advisories with specified severity. List option. Can be "
 "\"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgstr ""
-"Limite ai pacchetti negli avvisi con gravità specificata. Opzioni elencate. "
-"Possono essere \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
+"Limita ai pacchetti negli avvisi con la gravità specificata. Opzione elenco. "
+"Può essere \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 
 #: commands/advisory_shared.hpp:155
 msgid "ADVISORY_SEVERITY,..."
-msgstr "ADVISORY_SEVERITY,..."
+msgstr "GRAVITÀ_AVVISO,..."
 
 #: commands/advisory_shared.hpp:167
 msgid ""
 "Limit to packages in advisories that fix a Bugzilla ID, Eg. 123123. List "
 "option."
 msgstr ""
-"Limita ai pacchetti negli avvisi che correggono un ID Bugzilla, ad es. "
-"123123. Opzione elenco."
+"Limita ai pacchetti negli avvisi che correggono un ID Bugzilla, es. 123123. "
+"Opzione elenco."
 
 #: commands/advisory_shared.hpp:168
 msgid "BUGZILLA_ID,..."
@@ -159,8 +160,8 @@ msgid ""
 "Limit to packages in advisories that fix a CVE (Common Vulnerabilities and "
 "Exposures) ID, Eg. CVE-2201-0123. List option."
 msgstr ""
-"Limite ai pacchetti negli avvisi che fissano un ID CVE (Common "
-"Vulnerabilities and Exposures), ad es. CVE-2201-0123. Opzione elenco."
+"Limita ai pacchetti negli avvisi che correggono un ID CVE (Common "
+"Vulnerabilities and Exposures), es. CVE-2201-0123. Opzione elenco."
 
 #: commands/advisory_shared.hpp:180
 msgid "CVE_ID,..."
@@ -225,8 +226,7 @@ msgstr "Installa pacchetti debuginfo."
 msgid ""
 "Upgrade or downgrade installed software to the latest available versions"
 msgstr ""
-"Aggiorna o fa il downgrade del software installato all'ultima versione "
-"disponibile"
+"Aggiorna o declassa il software installato alle ultime versioni disponibili"
 
 #: commands/downgrade/downgrade.cpp:40
 msgid "Downgrade software"
@@ -291,8 +291,8 @@ msgid ""
 "Show only groups containing packages with specified names. List option, "
 "supports globs."
 msgstr ""
-"Mostra solo i gruppi che contengono i pacchetti con i nomi specificati. "
-"Opzioni elencate, supporta i globs."
+"Mostra solo i gruppi contenenti pacchetti con i nomi specificati. Opzione "
+"elenco, supporta i glob."
 
 #: commands/group/arguments.hpp:67
 msgid "Pattern matching group IDS."
@@ -1152,8 +1152,8 @@ msgstr "{}: Valore dell'argomento \"{}\" formattato male"
 msgid ""
 "{}: Badly formatted argument value: Last key character cannot be '.': {}"
 msgstr ""
-"{}: Valore dell'argomento formattato male: l'ultimo carattere della chiave "
-"non può essere '.': {}"
+"{}: Valore argomento formattato in modo errato: l'ultimo carattere della "
+"chiave non può essere '.': {}"
 
 #: main.cpp:267
 msgid "setopt: \"{0}\": {1}"
