@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-25 03:27+0000\n"
+"POT-Creation-Date: 2025-04-30 03:28+0000\n"
 "PO-Revision-Date: 2025-04-07 00:19+0000\n"
 "Last-Translator: hsu zangmen <chzang55@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
@@ -96,7 +96,10 @@ msgid "Show only advisories referencing a CVE."
 msgstr "只顯示引用 CVE 的警告。"
 
 #: commands/advisory_shared.hpp:113
-msgid "Limit to packages in advisories with specified name. List option."
+#, fuzzy
+#| msgid "Limit to packages in advisories with specified name. List option."
+msgid ""
+"Include content contained in advisories with specified name. List option."
 msgstr "限制到具有指定名稱的 advisories 中的套件。 清單選項。"
 
 #: commands/advisory_shared.hpp:114
@@ -104,25 +107,37 @@ msgid "ADVISORY_NAME,..."
 msgstr "ADVISORY_NAME,..."
 
 #: commands/advisory_shared.hpp:121
-msgid "Limit to packages in security advisories."
+#, fuzzy
+#| msgid "Limit to packages in security advisories."
+msgid "Include content contained in security advisories."
 msgstr "限制至安全公告中的套件。"
 
 #: commands/advisory_shared.hpp:128
-msgid "Limit to packages in bugfix advisories."
+#, fuzzy
+#| msgid "Limit to packages in bugfix advisories."
+msgid "Include content contained in bugfix advisories."
 msgstr "限制至 Bug 修補公告中的套件。"
 
 #: commands/advisory_shared.hpp:135
-msgid "Limit to packages in enhancement advisories."
+#, fuzzy
+#| msgid "Limit to packages in enhancement advisories."
+msgid "Include content contained in enhancement advisories."
 msgstr "限制為增強建議中的套件。"
 
 #: commands/advisory_shared.hpp:142
-msgid "Limit to packages in newpackage advisories."
+#, fuzzy
+#| msgid "Limit to packages in newpackage advisories."
+msgid "Include content contained in newpackage advisories."
 msgstr "限制為新套件公告中的套件。"
 
 #: commands/advisory_shared.hpp:153
+#, fuzzy
+#| msgid ""
+#| "Limit to packages in advisories with specified severity. List option. Can "
+#| "be \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgid ""
-"Limit to packages in advisories with specified severity. List option. Can be "
-"\"critical\", \"important\", \"moderate\", \"low\", \"none\"."
+"Include content contained in advisories with specified severity. List "
+"option. Can be \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgstr ""
 "限制到具有指定嚴重性的公告中的套件。 清單選項可以是\"critical\", "
 "\"important\", \"moderate\", \"low\", \"none\"。"
@@ -132,9 +147,13 @@ msgid "ADVISORY_SEVERITY,..."
 msgstr "ADVISORY_SEVERITY,..."
 
 #: commands/advisory_shared.hpp:167
+#, fuzzy
+#| msgid ""
+#| "Limit to packages in advisories that fix a Bugzilla ID, Eg. 123123. List "
+#| "option."
 msgid ""
-"Limit to packages in advisories that fix a Bugzilla ID, Eg. 123123. List "
-"option."
+"Include content contained in advisories that fix a Bugzilla ID, Eg. 123123. "
+"List option."
 msgstr "限制修復 Bugzilla ID 的公告中的軟體包，Eg. 123123. 列表選項。"
 
 #: commands/advisory_shared.hpp:168
@@ -142,9 +161,13 @@ msgid "BUGZILLA_ID,..."
 msgstr "BUGZILLA_ID,..."
 
 #: commands/advisory_shared.hpp:178
+#, fuzzy
+#| msgid ""
+#| "Limit to packages in advisories that fix a CVE (Common Vulnerabilities "
+#| "and Exposures) ID, Eg. CVE-2201-0123. List option."
 msgid ""
-"Limit to packages in advisories that fix a CVE (Common Vulnerabilities and "
-"Exposures) ID, Eg. CVE-2201-0123. List option."
+"Include content contained in advisories that fix a CVE (Common "
+"Vulnerabilities and Exposures) ID, Eg. CVE-2201-0123. List option."
 msgstr ""
 "限制於修補 CVE (Common Vulnerabilities and Exposures) ID 的公告中的套件，例"
 "如 CVE-2201-0123。 清單選項。"

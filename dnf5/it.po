@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-25 03:27+0000\n"
+"POT-Creation-Date: 2025-04-30 03:28+0000\n"
 "PO-Revision-Date: 2025-04-25 17:47+0000\n"
 "Last-Translator: Salvatore Cocuzza <info@salvatorecocuzza.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -107,7 +107,10 @@ msgid "Show only advisories referencing a CVE."
 msgstr "Mostra solo gli avvisi che fanno riferimento a un CVE."
 
 #: commands/advisory_shared.hpp:113
-msgid "Limit to packages in advisories with specified name. List option."
+#, fuzzy
+#| msgid "Limit to packages in advisories with specified name. List option."
+msgid ""
+"Include content contained in advisories with specified name. List option."
 msgstr ""
 "Limita ai pacchetti negli avvisi con il nome specificato. Opzione elenco."
 
@@ -116,25 +119,37 @@ msgid "ADVISORY_NAME,..."
 msgstr "NOME_AVVISO,..."
 
 #: commands/advisory_shared.hpp:121
-msgid "Limit to packages in security advisories."
+#, fuzzy
+#| msgid "Limit to packages in security advisories."
+msgid "Include content contained in security advisories."
 msgstr "Limita ai pacchetti negli avvisi di sicurezza."
 
 #: commands/advisory_shared.hpp:128
-msgid "Limit to packages in bugfix advisories."
+#, fuzzy
+#| msgid "Limit to packages in bugfix advisories."
+msgid "Include content contained in bugfix advisories."
 msgstr "Limita ai pacchetti negli avvisi di correzione dei bug."
 
 #: commands/advisory_shared.hpp:135
-msgid "Limit to packages in enhancement advisories."
+#, fuzzy
+#| msgid "Limit to packages in enhancement advisories."
+msgid "Include content contained in enhancement advisories."
 msgstr "Limita ai pacchetti negli avvisi di miglioramento."
 
 #: commands/advisory_shared.hpp:142
-msgid "Limit to packages in newpackage advisories."
+#, fuzzy
+#| msgid "Limit to packages in newpackage advisories."
+msgid "Include content contained in newpackage advisories."
 msgstr "Limita ai pacchetti negli avvisi di nuovi pacchetti."
 
 #: commands/advisory_shared.hpp:153
+#, fuzzy
+#| msgid ""
+#| "Limit to packages in advisories with specified severity. List option. Can "
+#| "be \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgid ""
-"Limit to packages in advisories with specified severity. List option. Can be "
-"\"critical\", \"important\", \"moderate\", \"low\", \"none\"."
+"Include content contained in advisories with specified severity. List "
+"option. Can be \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgstr ""
 "Limita ai pacchetti negli avvisi con la gravità specificata. Opzione elenco. "
 "Può essere \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
@@ -144,9 +159,13 @@ msgid "ADVISORY_SEVERITY,..."
 msgstr "GRAVITÀ_AVVISO,..."
 
 #: commands/advisory_shared.hpp:167
+#, fuzzy
+#| msgid ""
+#| "Limit to packages in advisories that fix a Bugzilla ID, Eg. 123123. List "
+#| "option."
 msgid ""
-"Limit to packages in advisories that fix a Bugzilla ID, Eg. 123123. List "
-"option."
+"Include content contained in advisories that fix a Bugzilla ID, Eg. 123123. "
+"List option."
 msgstr ""
 "Limita ai pacchetti negli avvisi che correggono un ID Bugzilla, es. 123123. "
 "Opzione elenco."
@@ -156,9 +175,13 @@ msgid "BUGZILLA_ID,..."
 msgstr "ID_BUGZILLA,..."
 
 #: commands/advisory_shared.hpp:178
+#, fuzzy
+#| msgid ""
+#| "Limit to packages in advisories that fix a CVE (Common Vulnerabilities "
+#| "and Exposures) ID, Eg. CVE-2201-0123. List option."
 msgid ""
-"Limit to packages in advisories that fix a CVE (Common Vulnerabilities and "
-"Exposures) ID, Eg. CVE-2201-0123. List option."
+"Include content contained in advisories that fix a CVE (Common "
+"Vulnerabilities and Exposures) ID, Eg. CVE-2201-0123. List option."
 msgstr ""
 "Limita ai pacchetti negli avvisi che correggono un ID CVE (Common "
 "Vulnerabilities and Exposures), es. CVE-2201-0123. Opzione elenco."
@@ -1136,8 +1159,8 @@ msgid ""
 "g. --setopt=tsflags=) will clear the option."
 msgstr ""
 "Sovrascrive un'opzione di configurazione dal file di configurazione. Per "
-"sovrascrivere le opzioni di configurazione per i repository, usa "
-"repoid.opzione per l'<opzione>.\n"
+"sovrascrivere le opzioni di configurazione per i repository, usa repoid."
+"opzione per l'<opzione>.\n"
 "I valori per le opzioni di configurazione come excludepkgs, includepkgs, "
 "installonlypkgs e tsflags vengono aggiunti al valore originale, non lo "
 "sovrascrivono.\n"
@@ -1482,8 +1505,8 @@ msgid ""
 "It could be a command provided by a plugin, try: dnf5 install 'dnf5-"
 "command({})'"
 msgstr ""
-"Potrebbe essere un comando fornito da un plugin, prova: dnf5 install "
-"'dnf5-command({})'"
+"Potrebbe essere un comando fornito da un plugin, prova: dnf5 install 'dnf5-"
+"command({})'"
 
 #: main.cpp:1349
 msgid ""
@@ -1506,9 +1529,8 @@ msgid ""
 "options to run the command without modifying the system state."
 msgstr ""
 "L'operazione richiesta richiede privilegi di superutente. Accedere come "
-"utente con diritti elevati, oppure usare le opzioni \"--assumeno\" o "
-"\"--downloadonly\" per eseguire il comando senza modificare lo stato del "
-"sistema."
+"utente con diritti elevati, oppure usare le opzioni \"--assumeno\" o \"--"
+"downloadonly\" per eseguire il comando senza modificare lo stato del sistema."
 
 #: main.cpp:1506
 msgid "The operation will only store the transaction in {}"

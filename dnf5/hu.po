@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-25 03:27+0000\n"
+"POT-Creation-Date: 2025-04-30 03:28+0000\n"
 "PO-Revision-Date: 2025-02-19 11:30+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -103,7 +103,10 @@ msgid "Show only advisories referencing a CVE."
 msgstr "Csak CVE-t említő tájékoztatók megjelenítése."
 
 #: commands/advisory_shared.hpp:113
-msgid "Limit to packages in advisories with specified name. List option."
+#, fuzzy
+#| msgid "Limit to packages in advisories with specified name. List option."
+msgid ""
+"Include content contained in advisories with specified name. List option."
 msgstr "Korlátozás a megadott nevű tájékoztatókra. Felsorolás."
 
 #: commands/advisory_shared.hpp:114
@@ -111,25 +114,37 @@ msgid "ADVISORY_NAME,..."
 msgstr "TÁJÉKOZTATÓ_NEVE,…"
 
 #: commands/advisory_shared.hpp:121
-msgid "Limit to packages in security advisories."
+#, fuzzy
+#| msgid "Limit to packages in security advisories."
+msgid "Include content contained in security advisories."
 msgstr "Korlátozás a biztonsági tájékoztatókban szereplő csomagokra."
 
 #: commands/advisory_shared.hpp:128
-msgid "Limit to packages in bugfix advisories."
+#, fuzzy
+#| msgid "Limit to packages in bugfix advisories."
+msgid "Include content contained in bugfix advisories."
 msgstr "Korlátozás a hibajavítási tájékoztatókban szereplő csomagokra."
 
 #: commands/advisory_shared.hpp:135
-msgid "Limit to packages in enhancement advisories."
+#, fuzzy
+#| msgid "Limit to packages in enhancement advisories."
+msgid "Include content contained in enhancement advisories."
 msgstr "Korlátozás a fejlesztési tájékoztatókban szereplő csomagokra."
 
 #: commands/advisory_shared.hpp:142
-msgid "Limit to packages in newpackage advisories."
+#, fuzzy
+#| msgid "Limit to packages in newpackage advisories."
+msgid "Include content contained in newpackage advisories."
 msgstr "Korlátozás az új csomagok tájékoztatóiban szereplő csomagokra."
 
 #: commands/advisory_shared.hpp:153
+#, fuzzy
+#| msgid ""
+#| "Limit to packages in advisories with specified severity. List option. Can "
+#| "be \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgid ""
-"Limit to packages in advisories with specified severity. List option. Can be "
-"\"critical\", \"important\", \"moderate\", \"low\", \"none\"."
+"Include content contained in advisories with specified severity. List "
+"option. Can be \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgstr ""
 "Korlátozás a megadott súlyosságú tájékoztatókban szereplő csomagokra. "
 "Felsorolás a következőkből: „critical”, „important”, „moderate”, „low”, "
@@ -140,9 +155,13 @@ msgid "ADVISORY_SEVERITY,..."
 msgstr "TÁJÉKOZTATÓ_SÚLYOSSÁGA,…"
 
 #: commands/advisory_shared.hpp:167
+#, fuzzy
+#| msgid ""
+#| "Limit to packages in advisories that fix a Bugzilla ID, Eg. 123123. List "
+#| "option."
 msgid ""
-"Limit to packages in advisories that fix a Bugzilla ID, Eg. 123123. List "
-"option."
+"Include content contained in advisories that fix a Bugzilla ID, Eg. 123123. "
+"List option."
 msgstr ""
 "Korlátozás azokra a tájékoztatókban szereplő csomagokra, melyek a megadott "
 "Bugzilla azonosítókat javítják, például 123213. Felsorolás."
@@ -152,9 +171,13 @@ msgid "BUGZILLA_ID,..."
 msgstr "BUGZILLA_AZONOSÍTÓ,…"
 
 #: commands/advisory_shared.hpp:178
+#, fuzzy
+#| msgid ""
+#| "Limit to packages in advisories that fix a CVE (Common Vulnerabilities "
+#| "and Exposures) ID, Eg. CVE-2201-0123. List option."
 msgid ""
-"Limit to packages in advisories that fix a CVE (Common Vulnerabilities and "
-"Exposures) ID, Eg. CVE-2201-0123. List option."
+"Include content contained in advisories that fix a CVE (Common "
+"Vulnerabilities and Exposures) ID, Eg. CVE-2201-0123. List option."
 msgstr ""
 "Korlátozás azokra a tájékoztatókban szereplő csomagokra, melyek a megadott "
 "CVE (Common Vulnerabilities and Exposures) azonosítókat javítják, például "
