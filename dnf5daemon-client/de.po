@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-25 03:27+0000\n"
+"POT-Creation-Date: 2025-04-30 03:28+0000\n"
 "PO-Revision-Date: 2024-11-05 21:08+0000\n"
 "Last-Translator: Fabio D <fabio1977@arcor.de>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf5/"
@@ -83,7 +83,10 @@ msgid "Show only advisories referencing a CVE."
 msgstr "Nur Hinweise mit einer CVE-Referenz anzeigen."
 
 #: commands/advisory/arguments.hpp:113
-msgid "Limit to packages in advisories with specified name. List option."
+#, fuzzy
+#| msgid "Limit to packages in advisories with specified name. List option."
+msgid ""
+"Include content contained in advisories with specified name. List option."
 msgstr ""
 "Auf Pakete in Hinweisen mit angegebenem Namen beschränkt. Listenoption."
 
@@ -92,27 +95,39 @@ msgid "ADVISORY_NAME,..."
 msgstr "HINWEIS_NAME,..."
 
 #: commands/advisory/arguments.hpp:121
-msgid "Limit to packages in security advisories."
+#, fuzzy
+#| msgid "Limit to packages in security advisories."
+msgid "Include content contained in security advisories."
 msgstr "Auf Pakete mit Sicherheitshinweisen beschränken."
 
 #: commands/advisory/arguments.hpp:128
-msgid "Limit to packages in bugfix advisories."
+#, fuzzy
+#| msgid "Limit to packages in bugfix advisories."
+msgid "Include content contained in bugfix advisories."
 msgstr "Auf Pakete mit Hinweisen zu Fehlerkorrekturen beschränken."
 
 #: commands/advisory/arguments.hpp:135
-msgid "Limit to packages in enhancement advisories."
+#, fuzzy
+#| msgid "Limit to packages in enhancement advisories."
+msgid "Include content contained in enhancement advisories."
 msgstr "Auf Pakete mit Hinweisen zu Verbesserungen beschränken."
 
 #: commands/advisory/arguments.hpp:142
-msgid "Limit to packages in newpackage advisories."
+#, fuzzy
+#| msgid "Limit to packages in newpackage advisories."
+msgid "Include content contained in newpackage advisories."
 msgstr "Auf Pakete mit Hinweisen in neuen Paketen beschränken."
 
 #. Note for translators: "critical" etc. quoted words are
 #. literals that should not be translated.
 #: commands/advisory/arguments.hpp:155
+#, fuzzy
+#| msgid ""
+#| "Limit to packages in advisories with specified severity. List option. Can "
+#| "be \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgid ""
-"Limit to packages in advisories with specified severity. List option. Can be "
-"\"critical\", \"important\", \"moderate\", \"low\", \"none\"."
+"Include content contained in advisories with specified severity. List "
+"option. Can be \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgstr ""
 "Auf Pakete in Hinweisen mit angegebenem Schweregrad beschränken. "
 "Listenoption. Mögliche Werte \"critical\", \"important\", \"moderate\", "
@@ -123,9 +138,13 @@ msgid "ADVISORY_SEVERITY,..."
 msgstr "HINWEIS_SCHWEREGRAD,..."
 
 #: commands/advisory/arguments.hpp:169
+#, fuzzy
+#| msgid ""
+#| "Limit to packages in advisories that fix a Bugzilla ID, Eg. 123123. List "
+#| "option."
 msgid ""
-"Limit to packages in advisories that fix a Bugzilla ID, Eg. 123123. List "
-"option."
+"Include content contained in advisories that fix a Bugzilla ID, Eg. 123123. "
+"List option."
 msgstr ""
 "Auf Pakete mit Hinweisen beschränken, die eine Bugzilla-ID beheben, z.B. "
 "123123. Listenoption."
@@ -135,9 +154,13 @@ msgid "BUGZILLA_ID,..."
 msgstr "BUGZILLA_ID,..."
 
 #: commands/advisory/arguments.hpp:180
+#, fuzzy
+#| msgid ""
+#| "Limit to packages in advisories that fix a CVE (Common Vulnerabilities "
+#| "and Exposures) ID, Eg. CVE-2201-0123. List option."
 msgid ""
-"Limit to packages in advisories that fix a CVE (Common Vulnerabilities and "
-"Exposures) ID, Eg. CVE-2201-0123. List option."
+"Include content contained in advisories that fix a CVE (Common "
+"Vulnerabilities and Exposures) ID, Eg. CVE-2201-0123. List option."
 msgstr ""
 "Auf Pakete mit Hinweisen beschränken, die eine CVE-ID (Common "
 "Vulnerabilities and Exposures) beheben, z.B. CVE-2201-0123. Listenoption."

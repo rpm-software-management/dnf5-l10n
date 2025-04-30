@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-25 03:27+0000\n"
+"POT-Creation-Date: 2025-04-30 03:28+0000\n"
 "PO-Revision-Date: 2025-04-25 17:47+0000\n"
 "Last-Translator: Salvatore Cocuzza <info@salvatorecocuzza.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -83,7 +83,10 @@ msgid "Show only advisories referencing a CVE."
 msgstr "Mostra solo gli avvisi che fanno riferimento a un CVE."
 
 #: commands/advisory/arguments.hpp:113
-msgid "Limit to packages in advisories with specified name. List option."
+#, fuzzy
+#| msgid "Limit to packages in advisories with specified name. List option."
+msgid ""
+"Include content contained in advisories with specified name. List option."
 msgstr ""
 "Limita ai pacchetti negli avvisi con il nome specificato. Opzione elenco."
 
@@ -92,27 +95,39 @@ msgid "ADVISORY_NAME,..."
 msgstr "NOME_AVVISO,..."
 
 #: commands/advisory/arguments.hpp:121
-msgid "Limit to packages in security advisories."
+#, fuzzy
+#| msgid "Limit to packages in security advisories."
+msgid "Include content contained in security advisories."
 msgstr "Limita ai pacchetti negli avvisi di sicurezza."
 
 #: commands/advisory/arguments.hpp:128
-msgid "Limit to packages in bugfix advisories."
+#, fuzzy
+#| msgid "Limit to packages in bugfix advisories."
+msgid "Include content contained in bugfix advisories."
 msgstr "Limita ai pacchetti negli avvisi di correzione dei bug."
 
 #: commands/advisory/arguments.hpp:135
-msgid "Limit to packages in enhancement advisories."
+#, fuzzy
+#| msgid "Limit to packages in enhancement advisories."
+msgid "Include content contained in enhancement advisories."
 msgstr "Limita ai pacchetti negli avvisi di miglioramento."
 
 #: commands/advisory/arguments.hpp:142
-msgid "Limit to packages in newpackage advisories."
+#, fuzzy
+#| msgid "Limit to packages in newpackage advisories."
+msgid "Include content contained in newpackage advisories."
 msgstr "Limita ai pacchetti negli avvisi di nuovi pacchetti."
 
 #. Note for translators: "critical" etc. quoted words are
 #. literals that should not be translated.
 #: commands/advisory/arguments.hpp:155
+#, fuzzy
+#| msgid ""
+#| "Limit to packages in advisories with specified severity. List option. Can "
+#| "be \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgid ""
-"Limit to packages in advisories with specified severity. List option. Can be "
-"\"critical\", \"important\", \"moderate\", \"low\", \"none\"."
+"Include content contained in advisories with specified severity. List "
+"option. Can be \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgstr ""
 "Limita ai pacchetti negli avvisi con la gravità specificata. Opzione elenco. "
 "Può essere \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
@@ -122,9 +137,13 @@ msgid "ADVISORY_SEVERITY,..."
 msgstr "GRAVITÀ_AVVISO,..."
 
 #: commands/advisory/arguments.hpp:169
+#, fuzzy
+#| msgid ""
+#| "Limit to packages in advisories that fix a Bugzilla ID, Eg. 123123. List "
+#| "option."
 msgid ""
-"Limit to packages in advisories that fix a Bugzilla ID, Eg. 123123. List "
-"option."
+"Include content contained in advisories that fix a Bugzilla ID, Eg. 123123. "
+"List option."
 msgstr ""
 "Limita ai pacchetti negli avvisi che correggono un ID Bugzilla, es. 123123. "
 "Opzione elenco."
@@ -134,9 +153,13 @@ msgid "BUGZILLA_ID,..."
 msgstr "ID_BUGZILLA,..."
 
 #: commands/advisory/arguments.hpp:180
+#, fuzzy
+#| msgid ""
+#| "Limit to packages in advisories that fix a CVE (Common Vulnerabilities "
+#| "and Exposures) ID, Eg. CVE-2201-0123. List option."
 msgid ""
-"Limit to packages in advisories that fix a CVE (Common Vulnerabilities and "
-"Exposures) ID, Eg. CVE-2201-0123. List option."
+"Include content contained in advisories that fix a CVE (Common "
+"Vulnerabilities and Exposures) ID, Eg. CVE-2201-0123. List option."
 msgstr ""
 "Limita ai pacchetti negli avvisi che correggono un ID CVE (Common "
 "Vulnerabilities and Exposures), es. CVE-2201-0123. Opzione elenco."
@@ -146,7 +169,6 @@ msgid "CVE_ID,..."
 msgstr "ID_CVE,..."
 
 #: commands/clean/clean.cpp:88
-#, c++-format
 msgid "Error cleaning the cache: {}"
 msgstr "Errore durante la pulizia della cache: {}"
 
@@ -189,7 +211,6 @@ msgid "search for packages matching various criteria"
 msgstr "cerca pacchetti che corrispondono a vari criteri"
 
 #: commands/repoquery/repoquery.cpp:159
-#, c++-format
 msgid "Error parsing JSON object \"{}\": {}"
 msgstr "Errore durante l'analisi dell'oggetto JSON \"{}\": {}"
 
@@ -202,7 +223,6 @@ msgstr ""
 "utente root sulla maggior parte dei sistemi)."
 
 #: main.cpp:158
-#, c++-format
 msgid ""
 "{}: Badly formatted argument value: Last key character cannot be '.': {}"
 msgstr ""
