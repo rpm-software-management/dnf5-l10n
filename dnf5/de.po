@@ -5,13 +5,14 @@
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024.
 # Fabio D <fabio1977@arcor.de>, 2024.
 # Ettore Atalan <atalanttore@googlemail.com>, 2024, 2025.
+# Mario Blättermann <mario.blaettermann@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-30 03:28+0000\n"
-"PO-Revision-Date: 2025-02-10 13:38+0000\n"
-"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
+"PO-Revision-Date: 2025-05-01 13:57+0000\n"
+"Last-Translator: Mario Blättermann <mario.blaettermann@gmail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/de/>\n"
 "Language: de\n"
@@ -19,11 +20,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.9.2\n"
+"X-Generator: Weblate 5.11.1\n"
 
 #: commands/advisory/advisory.cpp:36
 msgid "Manage advisories"
-msgstr "Verwalte Adversories"
+msgstr "Hinweise verwalten"
 
 #: commands/advisory/advisory_info.hpp:35
 msgid "Print details about advisories"
@@ -93,7 +94,7 @@ msgstr "PAKET_NAME,..."
 
 #: commands/advisory/arguments.hpp:90
 msgid "List of patterns matched against advisory names."
-msgstr "Liste der Muster die mit den Hinweisnamen übereinstimmen."
+msgstr "Liste der Muster, die mit den Hinweisnamen übereinstimmen."
 
 #: commands/advisory/arguments.hpp:100
 msgid "Show only advisories referencing a bugzilla."
@@ -104,85 +105,61 @@ msgid "Show only advisories referencing a CVE."
 msgstr "Nur Hinweise mit einer CVE-Referenz anzeigen."
 
 #: commands/advisory_shared.hpp:113
-#, fuzzy
-#| msgid "Limit to packages in advisories with specified name. List option."
 msgid ""
 "Include content contained in advisories with specified name. List option."
-msgstr ""
-"Auf Pakete in Hinweisen mit angegebenem Namen beschränkt. Listenoption."
+msgstr "Inhalte in Hinweisen mit angegebenem Namen einbeziehen. Listenoption."
 
 #: commands/advisory_shared.hpp:114
 msgid "ADVISORY_NAME,..."
 msgstr "HINWEIS_NAME,..."
 
 #: commands/advisory_shared.hpp:121
-#, fuzzy
-#| msgid "Limit to packages in security advisories."
 msgid "Include content contained in security advisories."
-msgstr "Auf Pakete mit Sicherheitshinweisen beschränken."
+msgstr "Inhalte in Sicherheitshinweisen einbeziehen."
 
 #: commands/advisory_shared.hpp:128
-#, fuzzy
-#| msgid "Limit to packages in bugfix advisories."
 msgid "Include content contained in bugfix advisories."
-msgstr "Auf Pakete mit Hinweisen zu Fehlerkorrekturen beschränken."
+msgstr "Inhalte in Hinweisen zu Fehlerkorrekturen einbeziehen."
 
 #: commands/advisory_shared.hpp:135
-#, fuzzy
-#| msgid "Limit to packages in enhancement advisories."
 msgid "Include content contained in enhancement advisories."
-msgstr "Auf Pakete mit Hinweisen zu Verbesserungen beschränken."
+msgstr "Inhalte in Hinweisen zu Verbesserungen einbeziehen."
 
 #: commands/advisory_shared.hpp:142
-#, fuzzy
-#| msgid "Limit to packages in newpackage advisories."
 msgid "Include content contained in newpackage advisories."
-msgstr "Auf Pakete mit Hinweisen in neuen Paketen beschränken."
+msgstr "Inhalte in Hinweisen in neuen Paketen einbeziehen."
 
 #: commands/advisory_shared.hpp:153
-#, fuzzy
-#| msgid ""
-#| "Limit to packages in advisories with specified severity. List option. Can "
-#| "be \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgid ""
 "Include content contained in advisories with specified severity. List "
 "option. Can be \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgstr ""
-"Auf Pakete in Hinweisen mit angegebenem Schweregrad beschränken. "
-"Listenoption. Mögliche Werte \"critical\", \"important\", \"moderate\", "
-"\"low\", \"none\"."
+"Inhalte in Hinweisen mit angegebenem Schweregrad einbeziehen. Listenoption. "
+"Mögliche Werte \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 
 #: commands/advisory_shared.hpp:155
 msgid "ADVISORY_SEVERITY,..."
 msgstr "HINWEIS_SCHWEREGRAD,..."
 
 #: commands/advisory_shared.hpp:167
-#, fuzzy
-#| msgid ""
-#| "Limit to packages in advisories that fix a Bugzilla ID, Eg. 123123. List "
-#| "option."
 msgid ""
 "Include content contained in advisories that fix a Bugzilla ID, Eg. 123123. "
 "List option."
 msgstr ""
-"Auf Pakete mit Hinweisen beschränken, die eine Bugzilla-ID beheben, z.B. "
-"123123. Listenoption."
+"Inhalte in Hinweisen einbeziehen, die eine Bugzilla-ID beheben, z.B. 123123. "
+"Listenoption."
 
 #: commands/advisory_shared.hpp:168
 msgid "BUGZILLA_ID,..."
 msgstr "BUGZILLA_ID,..."
 
 #: commands/advisory_shared.hpp:178
-#, fuzzy
-#| msgid ""
-#| "Limit to packages in advisories that fix a CVE (Common Vulnerabilities "
-#| "and Exposures) ID, Eg. CVE-2201-0123. List option."
 msgid ""
 "Include content contained in advisories that fix a CVE (Common "
 "Vulnerabilities and Exposures) ID, Eg. CVE-2201-0123. List option."
 msgstr ""
-"Auf Pakete mit Hinweisen beschränken, die eine CVE-ID (Common "
-"Vulnerabilities and Exposures) beheben, z.B. CVE-2201-0123. Listenoption."
+"Inhalte in Hinweisen einbeziehen, die eine CVE-ID (Common Vulnerabilities "
+"and Exposures) beheben, z.B. CVE-2201-0123. Listenoption."
 
 #: commands/advisory_shared.hpp:180
 msgid "CVE_ID,..."
@@ -247,8 +224,8 @@ msgstr "Debuginfo-Pakete installieren."
 msgid ""
 "Upgrade or downgrade installed software to the latest available versions"
 msgstr ""
-"Aktualisiere oder downgrade installierte Software auf die letzten verfügbare "
-"Versionen"
+"Installierte Software auf die letzten verfügbare Versionen aktualisieren "
+"oder herunterstufen"
 
 #: commands/downgrade/downgrade.cpp:40
 msgid "Downgrade software"
@@ -1176,8 +1153,8 @@ msgstr "{}: Schlecht formatierter Argumentwert \"{}\""
 msgid ""
 "{}: Badly formatted argument value: Last key character cannot be '.': {}"
 msgstr ""
-"{}: Schlecht formatierter Argumentwert: Letzter Schlüsselwert kann nicht '.' "
-"sein: {}"
+"{}: Fehlerhaft formatierter Argumentwert: Letzter Schlüsselwert kann nicht "
+"».« sein: {}"
 
 #: main.cpp:267
 msgid "setopt: \"{0}\": {1}"
