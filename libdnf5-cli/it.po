@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-25 03:27+0000\n"
+"POT-Creation-Date: 2025-04-30 03:28+0000\n"
 "PO-Revision-Date: 2025-04-25 12:11+0000\n"
 "Last-Translator: Salvatore Cocuzza <info@salvatorecocuzza.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -19,47 +19,38 @@ msgstr ""
 "X-Generator: Weblate 5.11\n"
 
 #: argument_parser.cpp:62
-#, c++-format
 msgid "\"{}\" not allowed together with named argument \"{}\""
 msgstr "\"{}\" non consentito insieme all'argomento con nome \"{}\""
 
 #: argument_parser.cpp:64
-#, c++-format
 msgid "\"{}\" not allowed in command \"{}\""
 msgstr "\"{}\" non consentito nel comando \"{}\""
 
 #: argument_parser.cpp:66
-#, c++-format
 msgid "\"{}\" not allowed together with positional argument \"{}\""
 msgstr "\"{}\" non consentito insieme all'argomento posizionale \"{}\""
 
 #: argument_parser.cpp:111
-#, c++-format
 msgid "Argument id \"{}\" already registered in group \"{}\""
 msgstr "ID argomento \"{}\" già registrato nel gruppo \"{}\""
 
 #: argument_parser.cpp:238
-#, c++-format
 msgid "Invalid character '.' in argument id \"{}\""
 msgstr "Carattere non valido '.' nell'ID argomento \"{}\""
 
 #: argument_parser.cpp:346 argument_parser.cpp:351
-#, c++-format
 msgid "Too few values for positional argument \"{}\""
 msgstr "Valori insufficienti per l'argomento posizionale \"{}\""
 
 #: argument_parser.cpp:512
-#, c++-format
 msgid "Missing value for named argument \"--{}\""
 msgstr "Valore mancante per l'argomento con nome \"--{}\""
 
 #: argument_parser.cpp:520
-#, c++-format
 msgid "Unexpected value for named argument \"--{}\""
 msgstr "Valore inatteso per l'argomento con nome \"--{}\""
 
 #: argument_parser.cpp:562
-#, c++-format
 msgid "Missing value for named argument \"-{}\""
 msgstr "Valore mancante per l'argomento con nome \"-{}\""
 
@@ -73,64 +64,52 @@ msgid "Description:"
 msgstr "Descrizione:"
 
 #: argument_parser.cpp:943
-#, c++-format
 msgid "Command id \"{}\" already registered for command \"{}\""
 msgstr "ID comando \"{}\" già registrato per il comando \"{}\""
 
 #: argument_parser.cpp:954
-#, c++-format
 msgid "Named argument id \"{}\" already registered for command \"{}\""
 msgstr "ID argomento con nome \"{}\" già registrato per il comando \"{}\""
 
 #: argument_parser.cpp:964
-#, c++-format
 msgid "Positional argument id \"{}\" already registered for command \"{}\""
 msgstr "ID argomento posizionale \"{}\" già registrato per il comando \"{}\""
 
 #: argument_parser.cpp:974
-#, c++-format
 msgid "Group id \"{}\" already registered for command \"{}\""
 msgstr "ID gruppo \"{}\" già registrato per il comando \"{}\""
 
 #: argument_parser.cpp:1001
-#, c++-format
 msgid "Command id \"{}\" does not contain subcommand with id \"{}\""
 msgstr "Il comando con ID \"{}\" non contiene un sottocomando con ID \"{}\""
 
 #: argument_parser.cpp:1009
-#, c++-format
 msgid "Command id \"{}\" does not contain named argument with id \"{}\""
 msgstr ""
 "Il comando con ID \"{}\" non contiene un argomento con nome con ID \"{}\""
 
 #: argument_parser.cpp:1017
-#, c++-format
 msgid "Command id \"{}\" does not contain positional argument with id \"{}\""
 msgstr ""
 "Il comando con ID \"{}\" non contiene un argomento posizionale con ID \"{}\""
 
 #: argument_parser.cpp:1024
-#, c++-format
 msgid "Command id \"{}\" does not contain group with id \"{}\""
 msgstr "Il comando con ID \"{}\" non contiene un gruppo con ID \"{}\""
 
 #: argument_parser.cpp:1141 argument_parser.cpp:1345
-#, c++-format
 msgid "Unknown argument \"{}\" for command \"{}\""
 msgstr "Argomento sconosciuto \"{}\" per il comando \"{}\""
 
 #: argument_parser.cpp:1156 argument_parser.cpp:1360
-#, c++-format
 msgid "Missing positional argument \"{}\" for command \"{}\""
 msgstr "Argomento posizionale mancante \"{}\" per il comando \"{}\""
 
 #: argument_parser.cpp:1563
-#, c++-format
 msgid "Named argument with path id \"{}\" not found"
 msgstr "Argomento con nome con ID percorso \"{}\" non trovato"
 
 #: argument_parser.cpp:1573
-#, c++-format
 msgid "Positional argument with path id \"{}\" not found"
 msgstr "Argomento posizionale con ID percorso \"{}\" non trovato"
 
@@ -242,7 +221,6 @@ msgstr "Riepilogo transazione:\n"
 
 #. Keep the replaceble number aligned across all messages.
 #: output/transaction_table.cpp:132
-#, c++-format
 msgid " Installing:      {:4} package\n"
 msgid_plural " Installing:      {:4} packages\n"
 msgstr[0] " Installazione:    {:4} pacchetto\n"
@@ -250,7 +228,6 @@ msgstr[1] " Installazione:    {:4} pacchetti\n"
 
 #. Keep the replaceble number aligned across all messages.
 #: output/transaction_table.cpp:141
-#, c++-format
 msgid " Reinstalling:    {:4} package\n"
 msgid_plural " Reinstalling:    {:4} packages\n"
 msgstr[0] " Reinstallazione:  {:4} pacchetto\n"
@@ -258,7 +235,6 @@ msgstr[1] " Reinstallazione:  {:4} pacchetti\n"
 
 #. Keep the replaceble number aligned across all messages.
 #: output/transaction_table.cpp:150
-#, c++-format
 msgid " Upgrading:       {:4} package\n"
 msgid_plural " Upgrading:       {:4} packages\n"
 msgstr[0] " Aggiornamento:   {:4} pacchetto\n"
@@ -266,7 +242,6 @@ msgstr[1] " Aggiornamento:   {:4} pacchetti\n"
 
 #. Keep the replaceble number aligned across all messages.
 #: output/transaction_table.cpp:159
-#, c++-format
 msgid " Replacing:       {:4} package\n"
 msgid_plural " Replacing:       {:4} packages\n"
 msgstr[0] " Sostituzione:    {:4} pacchetto\n"
@@ -274,7 +249,6 @@ msgstr[1] " Sostituzione:    {:4} pacchetti\n"
 
 #. Keep the replaceble number aligned across all messages.
 #: output/transaction_table.cpp:168
-#, c++-format
 msgid " Removing:        {:4} package\n"
 msgid_plural " Removing:        {:4} packages\n"
 msgstr[0] " Rimozione:       {:4} pacchetto\n"
@@ -282,7 +256,6 @@ msgstr[1] " Rimozione:       {:4} pacchetti\n"
 
 #. Keep the replaceble number aligned across all messages.
 #: output/transaction_table.cpp:177
-#, c++-format
 msgid " Downgrading:     {:4} package\n"
 msgid_plural " Downgrading:     {:4} packages\n"
 msgstr[0] " Retrocessione:   {:4} pacchetto\n"
@@ -290,7 +263,6 @@ msgstr[1] " Retrocessione:   {:4} pacchetti\n"
 
 #. Keep the replaceble number aligned across all messages.
 #: output/transaction_table.cpp:186
-#, c++-format
 msgid " Changing reason: {:4} package\n"
 msgid_plural " Changing reason: {:4} packages\n"
 msgstr[0] " Cambio motivo: {:4} pacchetto\n"
@@ -298,7 +270,6 @@ msgstr[1] " Cambio motivo: {:4} pacchetti\n"
 
 #. Keep the replaceble number aligned across all messages.
 #: output/transaction_table.cpp:195
-#, c++-format
 msgid " Skipping:        {:4} package\n"
 msgid_plural " Skipping:        {:4} packages\n"
 msgstr[0] " Ignorati:        {:4} pacchetto\n"
@@ -317,12 +288,10 @@ msgid "Size"
 msgstr "Dimensione"
 
 #: output/transaction_table.cpp:357 output/transaction_table.cpp:451
-#, c++-format
 msgid "{} -> {}"
 msgstr "{} -> {}"
 
 #: output/transaction_table.cpp:373
-#, c++-format
 msgid "replacing {}"
 msgstr "sostituisce {}"
 
