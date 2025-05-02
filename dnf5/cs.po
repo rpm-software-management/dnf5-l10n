@@ -4,13 +4,14 @@
 # Petr Ptacek <petr106@atlas.cz>, 2024.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024, 2025.
 # Petr Stourac <stouracp@gmail.com>, 2025.
+# Petr Pisar <ppisar@redhat.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-30 03:28+0000\n"
-"PO-Revision-Date: 2025-02-20 12:27+0000\n"
-"Last-Translator: Petr Stourac <stouracp@gmail.com>\n"
+"PO-Revision-Date: 2025-05-02 15:33+0000\n"
+"Last-Translator: Petr Pisar <ppisar@redhat.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf5/dnf5/"
 "cs/>\n"
 "Language: cs\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 5.10\n"
+"X-Generator: Weblate 5.11.1\n"
 
 #: commands/advisory/advisory.cpp:36
 msgid "Manage advisories"
@@ -83,12 +84,12 @@ msgid ""
 "Show only advisories containing packages with specified names. List option, "
 "supports globs."
 msgstr ""
-"Zobrazit pouze doporučení obsahující balíčky se zadanými názvy. Seznam "
+"Zobrazí pouze doporučení obsahující balíčky se zadanými názvy. Seznam "
 "možností, podporuje globs."
 
 #: commands/advisory/arguments.hpp:83 commands/history/arguments.hpp:81
 msgid "PACKAGE_NAME,..."
-msgstr "PACKAGE_NAME,..."
+msgstr "NÁZEV_BALÍČKU,…"
 
 #: commands/advisory/arguments.hpp:90
 msgid "List of patterns matched against advisory names."
@@ -103,88 +104,67 @@ msgid "Show only advisories referencing a CVE."
 msgstr "Zobrazí pouze doporučení odkazující na CVE."
 
 #: commands/advisory_shared.hpp:113
-#, fuzzy
-#| msgid "Limit to packages in advisories with specified name. List option."
 msgid ""
 "Include content contained in advisories with specified name. List option."
-msgstr "Omezí se na balíčky v doporučeních se zadaným názvem. Seznam možností."
+msgstr ""
+"Zahrne obsah obsažený v doporučeních se zadaným názvem. Seznam možností."
 
 #: commands/advisory_shared.hpp:114
 msgid "ADVISORY_NAME,..."
-msgstr "ADVISORY_NAME,..."
+msgstr "NÁZEV_DOPORUČENÍ,…"
 
 #: commands/advisory_shared.hpp:121
-#, fuzzy
-#| msgid "Limit to packages in security advisories."
 msgid "Include content contained in security advisories."
-msgstr "Omezí se na balíčky v bezpečnostních doporučeních."
+msgstr "Zahrne obsah obsažený v bezpečnostních doporučeních."
 
 #: commands/advisory_shared.hpp:128
-#, fuzzy
-#| msgid "Limit to packages in bugfix advisories."
 msgid "Include content contained in bugfix advisories."
-msgstr "Omezí se na balíčky v doporučeních na opravu chyb."
+msgstr "Zahrne obsah obsažený v doporučeních na opravu chyb."
 
 #: commands/advisory_shared.hpp:135
-#, fuzzy
-#| msgid "Limit to packages in enhancement advisories."
 msgid "Include content contained in enhancement advisories."
-msgstr "Omezí se na balíčky v doporučeních pro vylepšení."
+msgstr "Zahrne obsah obsažený v doporučeních pro vylepšení."
 
 #: commands/advisory_shared.hpp:142
-#, fuzzy
-#| msgid "Limit to packages in newpackage advisories."
 msgid "Include content contained in newpackage advisories."
-msgstr "Omezí se na balíčky v doporučeních na nové balíčky."
+msgstr "Zahrne obsah obsažený v doporučeních na nové balíčky."
 
 #: commands/advisory_shared.hpp:153
-#, fuzzy
-#| msgid ""
-#| "Limit to packages in advisories with specified severity. List option. Can "
-#| "be \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgid ""
 "Include content contained in advisories with specified severity. List "
 "option. Can be \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgstr ""
-"Omezí se na balíčky v doporučeních se specifikovanou závažností. Seznamu "
-"možností. Může být \"critical\", \"important\", \"moderate\", \"low\", "
-"\"none\"."
+"Zahrne obsah obsažený v doporučeních se zadanou závažností. Seznamu "
+"možností. Může být „critical“ (kritická), „important“ (důležitá), „moderate“ "
+"(střední), „low“ (nízká), „none“ (žádná)."
 
 #: commands/advisory_shared.hpp:155
 msgid "ADVISORY_SEVERITY,..."
-msgstr "ADVISORY_SEVERITY,..."
+msgstr "ZÁVAŽNOST_DOPORUČENÍ,…"
 
 #: commands/advisory_shared.hpp:167
-#, fuzzy
-#| msgid ""
-#| "Limit to packages in advisories that fix a Bugzilla ID, Eg. 123123. List "
-#| "option."
 msgid ""
 "Include content contained in advisories that fix a Bugzilla ID, Eg. 123123. "
 "List option."
 msgstr ""
-"Omezí se na balíčky v doporučeních, které opravují Bugzilla ID, např. "
+"Zahrne obsah obsažený v doporučeních, které opravují Bugzilla ID, např. "
 "123123. Seznamu možností."
 
 #: commands/advisory_shared.hpp:168
 msgid "BUGZILLA_ID,..."
-msgstr "BUGZILLA_ID,..."
+msgstr "BUGZILLA_ID,…"
 
 #: commands/advisory_shared.hpp:178
-#, fuzzy
-#| msgid ""
-#| "Limit to packages in advisories that fix a CVE (Common Vulnerabilities "
-#| "and Exposures) ID, Eg. CVE-2201-0123. List option."
 msgid ""
 "Include content contained in advisories that fix a CVE (Common "
 "Vulnerabilities and Exposures) ID, Eg. CVE-2201-0123. List option."
 msgstr ""
-"Omezí se na balíčky v doporučeních, které opravují ID CVE (Common "
+"Zahrne obsah obsažený v doporučeních, které opravují ID CVE (Common "
 "Vulnerabilities and Exposures), např. CVE-2201-0123. Seznam možností."
 
 #: commands/advisory_shared.hpp:180
 msgid "CVE_ID,..."
-msgstr "CVE_ID,..."
+msgstr "CVE_ID,…"
 
 #: commands/autoremove/autoremove.cpp:38
 msgid "Remove all unneeded packages originally installed as dependencies."
@@ -227,10 +207,8 @@ msgid "Cache directory \"{}\" does not exist. Nothing to clean."
 msgstr ""
 
 #: commands/clean/clean.cpp:181
-#, fuzzy
-#| msgid "Cannot load shared library \"{}\": {}"
 msgid "Cannot iterate cache directory \"{}\": {}"
-msgstr "Nelze načíst sdílenou knihovnu \"{}\": {}"
+msgstr "Adresář s mezipamětí „{}“ nelze procházet: {}"
 
 #: commands/debuginfo-install/debuginfo-install.cpp:45
 msgid "Install debuginfo packages."
@@ -335,44 +313,40 @@ msgid "Don't consider extra packages pulled into the transaction as errors."
 msgstr ""
 
 #: commands/history/arguments.hpp:80
-#, fuzzy
-#| msgid ""
-#| "Show only groups containing packages with specified names. List option, "
-#| "supports globs."
 msgid ""
 "Show only transactions containing packages with specified names. List "
 "option, supports globs."
 msgstr ""
-"Zobrazí pouze skupiny obsahující balíčky se zadanými názvy. Seznam možností, "
-"podporuje globs."
+"Zobrazí pouze transakce obsahující balíčky se zadanými názvy. Seznam "
+"možností, podporuje globy."
 
 #: commands/history/history.cpp:41
-#, fuzzy
-#| msgid "Transaction ID"
 msgid "Manage transaction history"
-msgstr "ID transakce"
+msgstr "Spravuje historii transakcí"
 
 #: commands/history/history_info.cpp:70
 msgid ""
 "No match found, history info defaults to considering only the last "
 "transaction, specify \"1..last\" range to search all transactions."
 msgstr ""
+"Žádná shoda nenalezena. Ve výchozím nastavení příkaz history uvažuje pouze "
+"poslední transakci. Pro prohledání všech transakcí zadejte „1..last“."
 
 #: commands/history/history_redo.cpp:54
 #: commands/history/history_rollback.cpp:58
 #: commands/history/history_store.cpp:65 commands/history/history_undo.cpp:57
-#, fuzzy
-#| msgid "No transactions selected for storing, exactly one required."
 msgid "No matching transaction ID found, exactly one required."
-msgstr "Nejsou vybrány žádné transakce k uložení, je vyžadována právě jedna."
+msgstr ""
+"Žádné odpovídající identifikátory transakcí nenalezeny, ale vyžadována je "
+"právě jedna."
 
 #: commands/history/history_redo.cpp:58
 #: commands/history/history_rollback.cpp:62
 #: commands/history/history_undo.cpp:61
-#, fuzzy
-#| msgid "No transactions selected for storing, exactly one required."
 msgid "Matched more than one transaction ID, exactly one required."
-msgstr "Nejsou vybrány žádné transakce k uložení, je vyžadována právě jedna."
+msgstr ""
+"Odpovídá více než jeden identifikátor transakce, ale vyžadována je právě "
+"jedna."
 
 #: commands/history/history_store.cpp:68
 msgid "Multiple transactions selected for storing, only one allowed."
@@ -391,107 +365,99 @@ msgstr ""
 "ID je \"NUMBER\", \"last\" nebo \"last-NUMBER\"."
 
 #: commands/install/install.cpp:41
-#, fuzzy
-#| msgid "Installed"
 msgid "Install software"
-msgstr "Nainstalováno"
+msgstr "Instaluje software"
 
 #: commands/leaves/leaves.cpp:42
 msgid ""
 "List groups of installed packages not required by other installed packages"
 msgstr ""
+"Vypíše skupiny nainstalovaných balíčků, které nejsou vyžadovány jinými "
+"nainstalovanými balíčky"
 
 #: commands/list/list.cpp:44
 msgid "Lists packages depending on the packages' relation to the system"
-msgstr ""
+msgstr "Vypíše balíčky podle jejich vztahu k systému"
 
 #: commands/list/list.cpp:47
 msgid "List of keys to match case insensitively"
-msgstr ""
+msgstr "Seznam klíčů, které se mají shodovat bez ohledu na velikost písmen"
 
 #: commands/list/list.cpp:59
 msgid "Show all versions of the packages, not only the latest ones."
-msgstr ""
+msgstr "Zobrazí všechny verze balíčků, nejen poslední z nich."
 
 #: commands/list/list.cpp:65
 msgid "List installed packages."
-msgstr ""
+msgstr "Vypíše nainstalované balíčky."
 
 #: commands/list/list.cpp:69
-#, fuzzy
-#| msgid "Allow skipping unavailable packages"
 msgid "List available packages."
-msgstr "Povolit přeskočení nedostupných balíčků"
+msgstr "Vypíše dostupné balíčky."
 
 #: commands/list/list.cpp:76
 msgid ""
 "List extras, that is packages installed on the system that are not available "
 "in any known repository."
 msgstr ""
+"Vypíše cizí balíčky, tj. takové které jsou nainstalované v systému, ale "
+"které nejsou dostupné v žádném známém repozitáři."
 
 #: commands/list/list.cpp:84
 msgid ""
 "List packages installed on the system that are obsoleted by packages in any "
 "known repository."
 msgstr ""
+"Vypíše balíčky, které jsou nainstalované v systému, ale které by měly být "
+"nahrazeny balíčky ze známých repozitářů."
 
 #: commands/list/list.cpp:89
-#, fuzzy
-#| msgid "Limit to packages in enhancement advisories."
 msgid "List packages recently added into the repositories."
-msgstr "Omezí se na balíčky v doporučeních pro vylepšení."
+msgstr "Vypíše balíčky, které byly nedávno přidány do repozitářů."
 
 #: commands/list/list.cpp:93
 msgid "List upgrades available for the installed packages."
-msgstr ""
+msgstr "Vypíše aktualizace dostupné pro nainstalované balíčky."
 
 #: commands/list/list.cpp:97
 msgid "List packages which will be removed by the 'dnf autoremove' command."
-msgstr ""
+msgstr "Vypíše balíčky, které by byly odstraněny příkazem „dnf autoremove“."
 
 #: commands/list/list.cpp:194 commands/list/list.cpp:199
-#, fuzzy
-#| msgid "Allow skipping unavailable packages"
 msgid "Installed packages"
-msgstr "Povolit přeskočení nedostupných balíčků"
+msgstr "Nainstalované balíčky"
 
 #: commands/list/list.cpp:195 commands/list/list.cpp:208
-#, fuzzy
-#| msgid "Allow skipping unavailable packages"
 msgid "Available packages"
-msgstr "Povolit přeskočení nedostupných balíčků"
+msgstr "Dostupné balíčky"
 
 #: commands/list/list.cpp:216
-#, fuzzy
-#| msgid "Available"
 msgid "Available upgrades"
-msgstr "Dostupné"
+msgstr "Dostupné aktualizace"
 
 #: commands/list/list.cpp:232
 msgid "Obsoleting packages"
-msgstr ""
+msgstr "Nahrazující balíčky"
 
 #: commands/list/list.cpp:237
 msgid "Autoremove packages"
-msgstr ""
+msgstr "Automaticky odstranitelné balíčky"
 
 #: commands/list/list.cpp:241
 msgid "Extra packages"
-msgstr ""
+msgstr "Cizí balíčky"
 
 #: commands/list/list.cpp:252
 msgid "Recently added packages"
-msgstr ""
+msgstr "Nedávno přidané balíčky"
 
 #: commands/list/list.cpp:257
 msgid "No matching packages to list"
 msgstr "Žádné odpovídající balíčky k seznamu"
 
 #: commands/mark/mark.cpp:38
-#, fuzzy
-#| msgid "Show advisories containing any version of installed packages."
 msgid "Change the reason of an installed package"
-msgstr "Zobrazí doporučení obsahující jakoukoli verzi nainstalovaných balíčků."
+msgstr "Změní důvod nainstalování balíčku"
 
 #: commands/module/arguments.hpp:36
 msgid "Show enabled modules."
@@ -506,162 +472,172 @@ msgid "Pattern matching module NSVCAs."
 msgstr "Modul NSVCA odpovídající vzoru."
 
 #: commands/module/module.cpp:43
-#, fuzzy
-#| msgid "Show enabled modules."
 msgid "Manage modules"
-msgstr "Zobrazí povolené moduly."
+msgstr "Spravuje moduly"
 
 #: commands/module/module_list.cpp:85
 msgid "No matches found for \"{}\"."
-msgstr "Nebyly nalezeny žádné shody pro \"{}\"."
+msgstr "Nebyly nalezeny žádné shody pro „{}“."
 
 #: commands/offline/offline.cpp:213
 msgid "Manage offline transactions"
-msgstr ""
+msgstr "Spravuje transakce při neběžícím systému"
 
 #: commands/offline/offline.cpp:245
 msgid ""
 "Error reading state: {}. Rerun the command you used to initiate the offline "
 "transaction, e.g. `dnf5 system-upgrade download [OPTIONS]`."
 msgstr ""
+"Chyba při čtení stavu: {}. Znovu spusťte příkaz, který jste použili pro "
+"zadání offline transakce. Např. „dnf5 system-upgrade download [PŘEPÍNAČE]“."
 
 #: commands/offline/offline.cpp:268
 msgid "Couldn't connect to D-Bus: {}"
-msgstr ""
+msgstr "Ke sběrnici D-Bus se nebylo možné připojit: {}"
 
 #: commands/offline/offline.cpp:299
 msgid ""
 "Prepare the system to perform the offline transaction and reboot to start "
 "the transaction."
 msgstr ""
+"Připraví počítač k provedení transakce mimo běžící systém a pak jej "
+"restartuje, aby se transakce provedla."
 
 #: commands/offline/offline.cpp:306
 msgid "Power off the system after the operation is complete"
-msgstr ""
+msgstr "Po dokončení operace počítač vypne"
 
 #: commands/offline/offline.cpp:317
 msgid "No offline transaction is stored."
-msgstr ""
+msgstr "Žádná transakce pro provedení mimo běžící systém není uložena."
 
 #: commands/offline/offline.cpp:325
-#, fuzzy
-#| msgid "Reverse the order of transactions."
 msgid "System is not ready for offline transaction."
-msgstr "Obrací pořadí transakcí."
+msgstr "Počítač není připraven na transakci mimo běžící systém."
 
 #: commands/offline/offline.cpp:328
 msgid "Data directory {} does not exist."
-msgstr ""
+msgstr "Adresář s daty {} neexistuje."
 
 #: commands/offline/offline.cpp:353
 msgid "{} is not wanted by system-update.target."
-msgstr ""
+msgstr "{} není chtěný cílem system-update.target."
 
 #: commands/offline/offline.cpp:362
 msgid "The system will now reboot to upgrade to release version "
-msgstr ""
+msgstr "Počítač se nyní restartuje, aby byl aktualizován na vydání verze "
 
 #: commands/offline/offline.cpp:366
 msgid ""
 "The system will now reboot to perform the offline transaction initiated by "
 "the following command:"
 msgstr ""
+"Počítač se nyní restartuje, aby vykonal transakci mimo běžící systém, která "
+"byla zadána tímto příkazem:"
 
 #: commands/offline/offline.cpp:397
 msgid ""
 "Internal use only, not intended to be run by the user. Execute the "
 "transaction in the offline environment."
 msgstr ""
+"Jen pro neveřejné použití. Není určeno běžnému uživateli. Vykoná transakci "
+"mimo běžící systém."
 
 #: commands/offline/offline.cpp:431
 msgid "Trigger file does not exist. Exiting."
-msgstr ""
+msgstr "Spouštěcí soubor neexistuje. Končí se."
 
 #: commands/offline/offline.cpp:435
 msgid "Another offline transaction tool is running. Exiting."
-msgstr ""
+msgstr "Již běží jiný nástroj pro transakce mimo běžící systém. Končí se."
 
 #: commands/offline/offline.cpp:462
-#, fuzzy
-#| msgid "Reverse the order of transactions."
 msgid "Starting offline transaction. This will take a while."
-msgstr "Obrací pořadí transakcí."
+msgstr ""
+"Zahajuje sa transakce mimo běžící systém. Transakce bude nějakou dobu trvat."
 
 #: commands/offline/offline.cpp:466
 msgid "Starting system upgrade. This will take a while."
-msgstr ""
+msgstr "Zahajuje se aktualizace systému. Aktualizace bude nějakou dobu trvat."
 
 #: commands/offline/offline.cpp:478
 msgid "Use `dnf5 offline reboot` to begin the transaction."
-msgstr ""
+msgstr "Transakci zahájíte příkazem „dnf5 offline reboot“."
 
 #: commands/offline/offline.cpp:529
-#, fuzzy
-#| msgid "Transaction ID"
 msgid "Transaction failed: "
-msgstr "ID transakce"
+msgstr "Transakce selhala: "
 
 #: commands/offline/offline.cpp:599
 msgid "Error reading journal: {}"
-msgstr ""
+msgstr "Chyba při čtení žurnálu: {}"
 
 #: commands/offline/offline.cpp:605
 msgid "Add journal match failed: {}"
-msgstr ""
+msgstr "Přidání vyhledávacích kritérií do žurnálu selhalo: {}"
 
 #: commands/offline/offline.cpp:633
 msgid "No logs were found."
-msgstr ""
+msgstr "Žádné protokoly nebyly nalezeny."
 
 #: commands/offline/offline.cpp:637
 msgid "The following boots appear to contain offline transaction logs:"
 msgstr ""
+"Zdá se, že následující spuštění počítače obsahují protokol z transakce mimo "
+"běh systému:"
 
 #: commands/offline/offline.cpp:654
 msgid "Cannot find logs with this index."
-msgstr ""
+msgstr "Protokoly s tímto pořadovým číslem nelze najít."
 
 #: commands/offline/offline.cpp:661
 msgid "Unable to match systemd journal entry."
-msgstr ""
+msgstr "Záznam v žurnálu systemd nelze dohledat."
 
 #: commands/offline/offline.cpp:673
 msgid "Show logs from past offline transactions"
-msgstr ""
+msgstr "Zobrazí protokol z minulých transakcí mimo běh systému"
 
 #: commands/offline/offline.cpp:681
 msgid ""
 "Which log to show. Run without any arguments to get a list of available logs."
 msgstr ""
+"Který protokol zobrazit. Seznam dostupných protokolů získáte tímto příkazem "
+"bez argumentů."
 
 #: commands/offline/offline.cpp:696
 msgid ""
 "systemd is not supported in this build of DNF 5; the `log` subcommand is "
 "unavailable."
 msgstr ""
+"Toto sestavení DNF 5 nepodporuje systemd. Podpříkaz „log“ není dostupný."
 
 #: commands/offline/offline.cpp:701
 msgid "Show status of the current offline transaction"
-msgstr ""
+msgstr "Zobrazí stav současné transakce mimo běh systému"
 
 #: commands/offline/offline.cpp:717
 msgid "An offline transaction was initiated by the following command:"
-msgstr ""
+msgstr "Transakce mimo běh systému byla zadána tímto příkazem:"
 
 #: commands/offline/offline.cpp:719
 msgid ""
 "Run `dnf5 offline reboot` to reboot and perform the offline transaction."
 msgstr ""
+"Pro restart a vykonání transakce mimo běh systému spusťte příkaz „dnf5 "
+"offline reboot“."
 
 #: commands/offline/offline.cpp:721
 msgid ""
 "An offline transaction was started, but it did not finish. Run `dnf5 offline "
 "log` for more information. The command that initiated the transaction was:"
 msgstr ""
+"Transakce byla spuštěna by běh systému, ale neskončila. Podrobnosti získáte "
+"příkazem „dnf5 offline log“. Příkaz, který zadal transakci byl:"
 
 #: commands/offline/offline.cpp:726
 msgid "Unknown offline transaction status: "
-msgstr ""
+msgstr "Neznámý stav transakce mimo běh systému: "
 
 #: commands/provides/provides.cpp:48
 msgid "Find what package provides the given value"
