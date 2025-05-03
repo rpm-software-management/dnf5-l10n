@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-30 03:28+0000\n"
-"PO-Revision-Date: 2025-04-25 17:47+0000\n"
+"PO-Revision-Date: 2025-05-03 16:58+0000\n"
 "Last-Translator: Salvatore Cocuzza <info@salvatorecocuzza.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/it/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.11\n"
+"X-Generator: Weblate 5.11.3\n"
 
 #: commands/advisory/advisory.cpp:36
 msgid "Manage advisories"
@@ -107,84 +107,65 @@ msgid "Show only advisories referencing a CVE."
 msgstr "Mostra solo gli avvisi che fanno riferimento a un CVE."
 
 #: commands/advisory_shared.hpp:113
-#, fuzzy
-#| msgid "Limit to packages in advisories with specified name. List option."
 msgid ""
 "Include content contained in advisories with specified name. List option."
 msgstr ""
-"Limita ai pacchetti negli avvisi con il nome specificato. Opzione elenco."
+"Includi i contenuti presenti negli avvisi con il nome specificato. Opzione "
+"elenco."
 
 #: commands/advisory_shared.hpp:114
 msgid "ADVISORY_NAME,..."
 msgstr "NOME_AVVISO,..."
 
 #: commands/advisory_shared.hpp:121
-#, fuzzy
-#| msgid "Limit to packages in security advisories."
 msgid "Include content contained in security advisories."
-msgstr "Limita ai pacchetti negli avvisi di sicurezza."
+msgstr "Includere i contenuti presenti negli avvisi di sicurezza."
 
 #: commands/advisory_shared.hpp:128
-#, fuzzy
-#| msgid "Limit to packages in bugfix advisories."
 msgid "Include content contained in bugfix advisories."
-msgstr "Limita ai pacchetti negli avvisi di correzione dei bug."
+msgstr "Includere i contenuti presenti negli avvisi di correzione dei bug."
 
 #: commands/advisory_shared.hpp:135
-#, fuzzy
-#| msgid "Limit to packages in enhancement advisories."
 msgid "Include content contained in enhancement advisories."
-msgstr "Limita ai pacchetti negli avvisi di miglioramento."
+msgstr "Includere i contenuti presenti negli avvisi di miglioramento."
 
 #: commands/advisory_shared.hpp:142
-#, fuzzy
-#| msgid "Limit to packages in newpackage advisories."
 msgid "Include content contained in newpackage advisories."
-msgstr "Limita ai pacchetti negli avvisi di nuovi pacchetti."
+msgstr "Includere il contenuto presente negli avvisi sui nuovi pacchetti."
 
 #: commands/advisory_shared.hpp:153
-#, fuzzy
-#| msgid ""
-#| "Limit to packages in advisories with specified severity. List option. Can "
-#| "be \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgid ""
 "Include content contained in advisories with specified severity. List "
 "option. Can be \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgstr ""
-"Limita ai pacchetti negli avvisi con la gravità specificata. Opzione elenco. "
-"Può essere \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
+"Includere i contenuti presenti negli avvisi con gravità specificata. Opzione "
+"elenco. Può essere \"critico\", \"importante\", \"moderato\", \"basso\", "
+"\"nessuno\"."
 
 #: commands/advisory_shared.hpp:155
 msgid "ADVISORY_SEVERITY,..."
 msgstr "GRAVITÀ_AVVISO,..."
 
 #: commands/advisory_shared.hpp:167
-#, fuzzy
-#| msgid ""
-#| "Limit to packages in advisories that fix a Bugzilla ID, Eg. 123123. List "
-#| "option."
 msgid ""
 "Include content contained in advisories that fix a Bugzilla ID, Eg. 123123. "
 "List option."
 msgstr ""
-"Limita ai pacchetti negli avvisi che correggono un ID Bugzilla, es. 123123. "
-"Opzione elenco."
+"Includere il contenuto presente negli avvisi che correggono un ID Bugzilla, "
+"ad esempio 123123. Opzione elenco."
 
 #: commands/advisory_shared.hpp:168
 msgid "BUGZILLA_ID,..."
 msgstr "ID_BUGZILLA,..."
 
 #: commands/advisory_shared.hpp:178
-#, fuzzy
-#| msgid ""
-#| "Limit to packages in advisories that fix a CVE (Common Vulnerabilities "
-#| "and Exposures) ID, Eg. CVE-2201-0123. List option."
 msgid ""
 "Include content contained in advisories that fix a CVE (Common "
 "Vulnerabilities and Exposures) ID, Eg. CVE-2201-0123. List option."
 msgstr ""
-"Limita ai pacchetti negli avvisi che correggono un ID CVE (Common "
-"Vulnerabilities and Exposures), es. CVE-2201-0123. Opzione elenco."
+"Includere il contenuto presente negli avvisi che correggono un ID CVE ("
+"vulnerabilità ed esposizioni comuni), ad esempio CVE-2201-0123. Opzione "
+"elenco."
 
 #: commands/advisory_shared.hpp:180
 msgid "CVE_ID,..."
