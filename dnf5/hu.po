@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-30 03:28+0000\n"
-"PO-Revision-Date: 2025-02-19 11:30+0000\n"
+"PO-Revision-Date: 2025-05-05 18:04+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/hu/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10\n"
+"X-Generator: Weblate 5.11.3\n"
 
 #: commands/advisory/advisory.cpp:36
 msgid "Manage advisories"
@@ -520,6 +520,9 @@ msgid ""
 "Error reading state: {}. Rerun the command you used to initiate the offline "
 "transaction, e.g. `dnf5 system-upgrade download [OPTIONS]`."
 msgstr ""
+"Hiba az állapot olvasása során: {}. Futtassa újra az offline tranzakció "
+"indításához használt parancsot, például: `dnf5 system-upgrade download "
+"[KAPCSOLÓK]`."
 
 #: commands/offline/offline.cpp:268
 msgid "Couldn't connect to D-Bus: {}"
@@ -634,35 +637,44 @@ msgstr "Naplók megjelenítése a múltbeli offline tranzakciókból"
 msgid ""
 "Which log to show. Run without any arguments to get a list of available logs."
 msgstr ""
+"Megjelenítendő naplók. Az elérhető naplók felsorolásához futtassa "
+"argumentumok nélkül."
 
 #: commands/offline/offline.cpp:696
 msgid ""
 "systemd is not supported in this build of DNF 5; the `log` subcommand is "
 "unavailable."
 msgstr ""
+"A systemd nem támogatott a DNF 5 ezen összeállításában; a `log` alparancs "
+"nem érhető el."
 
 #: commands/offline/offline.cpp:701
 msgid "Show status of the current offline transaction"
-msgstr ""
+msgstr "A jelenlegi offline tranzakció állapotának megjelenítése"
 
 #: commands/offline/offline.cpp:717
 msgid "An offline transaction was initiated by the following command:"
-msgstr ""
+msgstr "Egy offline tranzakció lett kezdeményezve a következő paranccsal:"
 
 #: commands/offline/offline.cpp:719
 msgid ""
 "Run `dnf5 offline reboot` to reboot and perform the offline transaction."
 msgstr ""
+"Az újraindításhoz és az offline tranzakció elvégzéséhez futtassa a `dnf5 "
+"offline reboot` parancsot."
 
 #: commands/offline/offline.cpp:721
 msgid ""
 "An offline transaction was started, but it did not finish. Run `dnf5 offline "
 "log` for more information. The command that initiated the transaction was:"
 msgstr ""
+"Egy offline tranzakció elindult, de nem fejeződött be. További "
+"információkért futtassa a „dnf offline log” parancsot. A tranzakciót "
+"kezdeményező parancs ez volt:"
 
 #: commands/offline/offline.cpp:726
 msgid "Unknown offline transaction status: "
-msgstr ""
+msgstr "Ismeretlen offline tranzakció állapota: "
 
 #: commands/provides/provides.cpp:48
 msgid "Find what package provides the given value"
@@ -670,31 +682,31 @@ msgstr "A megadott értéket szolgáltató csomag keresése"
 
 #: commands/reinstall/reinstall.cpp:40
 msgid "Reinstall software"
-msgstr ""
+msgstr "Szoftverek újratelepítése"
 
 #: commands/remove/remove.cpp:40
 msgid "Remove (uninstall) software"
-msgstr ""
+msgstr "Szoftverek eltávolítása"
 
 #: commands/replay/replay.cpp:38
 msgid "Replay a transaction that was previously stored to a directory"
-msgstr ""
+msgstr "Egy korábban könyvtárba mentett tranzakció visszajátszása"
 
 #: commands/repo/arguments.hpp:35
 msgid "Show all repositories."
-msgstr ""
+msgstr "Összes tároló megjelenítése."
 
 #: commands/repo/arguments.hpp:42
 msgid "Show enabled repositories (default)."
-msgstr ""
+msgstr "Engedélyezett tárolók megjelenítése (alapértelmezett)."
 
 #: commands/repo/arguments.hpp:49
 msgid "Show disabled repositories."
-msgstr ""
+msgstr "Letiltott tárolók megjelenítése."
 
 #: commands/repo/arguments.hpp:56
 msgid "Pattern matching repo IDs."
-msgstr ""
+msgstr "Mintaillesztés a tárolóazonosítókra."
 
 #: commands/repo/repo.cpp:38
 msgid "Manage repositories"
@@ -702,19 +714,23 @@ msgstr "Tárolók kezelése"
 
 #: commands/repoquery/repoquery.cpp:80
 msgid "Search for packages matching various criteria"
-msgstr ""
+msgstr "Különböző feltételeknek megfelelő csomagok keresése"
 
 #: commands/repoquery/repoquery.cpp:517
 msgid ""
 "Option \"--exactdeps\" has to be used either with \"--whatrequires\" or \"--"
 "whatdepends\""
 msgstr ""
+"Az „--exactdeps” kapcsolót a „--whatrequires” vagy a „--whatdepends” "
+"kapcsolók egyikével kell használni"
 
 #: commands/repoquery/repoquery.cpp:522
 msgid ""
 "Option \"--recursive\" has to be used either with \"--whatrequires\" or \"--"
 "providers-of=requires\""
 msgstr ""
+"A „--recursive” kapcsolót a „--whatrequires” vagy a „--providers-of=requires”"
+" kapcsolók egyikével kell használni"
 
 #: commands/search/arguments.hpp:37
 msgid "Search also package description and URL."
@@ -726,11 +742,11 @@ msgstr "Minták"
 
 #: commands/search/search.cpp:44
 msgid "Search for software matching all specified strings"
-msgstr ""
+msgstr "Az összes megadott szövegre illeszkedő szoftverek keresése"
 
 #: commands/swap/swap.cpp:42
 msgid "Remove software and install another in one transaction"
-msgstr ""
+msgstr "Szoftver eltávolítása, és egy másik telepítése egy tranzakcióban"
 
 #: commands/system-upgrade/system-upgrade.cpp:56
 msgid "Prepare system for upgrade to a new release"
@@ -738,13 +754,15 @@ msgstr "Rendszer előkészítése az új verzióra történő frissítéshez"
 
 #: commands/system-upgrade/system-upgrade.cpp:72
 msgid "Download everything needed to upgrade to a new release"
-msgstr ""
+msgstr "Az új kiadásra való frissítéshez szükséges összes adat letöltése"
 
 #: commands/system-upgrade/system-upgrade.cpp:80
 msgid ""
 "Do not install packages from the new release if they are older than what is "
 "currently installed"
 msgstr ""
+"Ne telepítse azokat az új kiadásból származó csomagokat, melyek régebbiek, "
+"mint a jelenleg telepítettek"
 
 #: commands/system-upgrade/system-upgrade.cpp:101
 msgid "Need a --releasever greater than the current system version."
@@ -754,10 +772,11 @@ msgstr ""
 #: commands/system-upgrade/system-upgrade.cpp:150
 msgid "Store a distro-sync transaction to be performed offline"
 msgstr ""
+"Egy disztribúciószinkronizálási tranzakció tárolása az offline végrehajtáshoz"
 
 #: commands/system-upgrade/system-upgrade.cpp:172
 msgid "Store an upgrade transaction to be performed offline"
-msgstr ""
+msgstr "Egy frissítési tranzakció tárolása az offline végrehajtáshoz"
 
 #: commands/upgrade/upgrade.cpp:41
 msgid "Upgrade software"
@@ -1480,6 +1499,8 @@ msgid ""
 "The argument is available for commands: {}. (It has to be placed after the "
 "command.)"
 msgstr ""
+"Az argumentum ezekhez a parancsokhoz érhető el: {}. (A parancs után kell "
+"helyezni.)"
 
 #: main.cpp:1393
 msgid "No read/execute access in current directory, moving to /"
