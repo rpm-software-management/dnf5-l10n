@@ -8,9 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-30 03:28+0000\n"
-"PO-Revision-Date: 2025-05-05 18:04+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2025-05-06 02:23+0000\n"
+"Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/hu/>\n"
 "Language: hu\n"
@@ -104,50 +103,36 @@ msgid "Show only advisories referencing a CVE."
 msgstr "Csak CVE-t említő tájékoztatók megjelenítése."
 
 #: commands/advisory_shared.hpp:113
-#, fuzzy
-#| msgid "Limit to packages in advisories with specified name. List option."
 msgid ""
 "Include content contained in advisories with specified name. List option."
-msgstr "Korlátozás a megadott nevű tájékoztatókra. Felsorolás."
+msgstr "A megadott nevű tájékoztatók tartalmának belevétele. Felsorolás."
 
 #: commands/advisory_shared.hpp:114
 msgid "ADVISORY_NAME,..."
 msgstr "TÁJÉKOZTATÓ_NEVE,…"
 
 #: commands/advisory_shared.hpp:121
-#, fuzzy
-#| msgid "Limit to packages in security advisories."
 msgid "Include content contained in security advisories."
-msgstr "Korlátozás a biztonsági tájékoztatókban szereplő csomagokra."
+msgstr "A biztonsági tájékoztatókban található tartalom belevétele."
 
 #: commands/advisory_shared.hpp:128
-#, fuzzy
-#| msgid "Limit to packages in bugfix advisories."
 msgid "Include content contained in bugfix advisories."
-msgstr "Korlátozás a hibajavítási tájékoztatókban szereplő csomagokra."
+msgstr "A hibajavítási tájékoztatókban található tartalom belevétele."
 
 #: commands/advisory_shared.hpp:135
-#, fuzzy
-#| msgid "Limit to packages in enhancement advisories."
 msgid "Include content contained in enhancement advisories."
-msgstr "Korlátozás a fejlesztési tájékoztatókban szereplő csomagokra."
+msgstr "A fejlesztési tájékoztatókban található tartalom belevétele."
 
 #: commands/advisory_shared.hpp:142
-#, fuzzy
-#| msgid "Limit to packages in newpackage advisories."
 msgid "Include content contained in newpackage advisories."
-msgstr "Korlátozás az új csomagok tájékoztatóiban szereplő csomagokra."
+msgstr "Az új csomagok tájékoztatóiban található tartalom belevétele."
 
 #: commands/advisory_shared.hpp:153
-#, fuzzy
-#| msgid ""
-#| "Limit to packages in advisories with specified severity. List option. Can "
-#| "be \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgid ""
 "Include content contained in advisories with specified severity. List "
 "option. Can be \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgstr ""
-"Korlátozás a megadott súlyosságú tájékoztatókban szereplő csomagokra. "
+"A megadott súlyosságú tájékoztatókban található tartalom belevétele. "
 "Felsorolás a következőkből: „critical”, „important”, „moderate”, „low”, "
 "„none”."
 
@@ -156,33 +141,25 @@ msgid "ADVISORY_SEVERITY,..."
 msgstr "TÁJÉKOZTATÓ_SÚLYOSSÁGA,…"
 
 #: commands/advisory_shared.hpp:167
-#, fuzzy
-#| msgid ""
-#| "Limit to packages in advisories that fix a Bugzilla ID, Eg. 123123. List "
-#| "option."
 msgid ""
 "Include content contained in advisories that fix a Bugzilla ID, Eg. 123123. "
 "List option."
 msgstr ""
-"Korlátozás azokra a tájékoztatókban szereplő csomagokra, melyek a megadott "
-"Bugzilla azonosítókat javítják, például 123213. Felsorolás."
+"Azon tájékoztatókban található tartalom belevétele, mely a megadott Bugzilla "
+"azonosítókat javítja, például 123213. Felsorolás."
 
 #: commands/advisory_shared.hpp:168
 msgid "BUGZILLA_ID,..."
 msgstr "BUGZILLA_AZONOSÍTÓ,…"
 
 #: commands/advisory_shared.hpp:178
-#, fuzzy
-#| msgid ""
-#| "Limit to packages in advisories that fix a CVE (Common Vulnerabilities "
-#| "and Exposures) ID, Eg. CVE-2201-0123. List option."
 msgid ""
 "Include content contained in advisories that fix a CVE (Common "
 "Vulnerabilities and Exposures) ID, Eg. CVE-2201-0123. List option."
 msgstr ""
-"Korlátozás azokra a tájékoztatókban szereplő csomagokra, melyek a megadott "
-"CVE (Common Vulnerabilities and Exposures) azonosítókat javítják, például "
-"123213. Felsorolás."
+"Azon tájékoztatókban található tartalom belevétele, mely a megadott CVE ("
+"Common Vulnerabilities and Exposures) azonosítókat javítja, például 123213. "
+"Felsorolás."
 
 #: commands/advisory_shared.hpp:180
 msgid "CVE_ID,..."
@@ -205,6 +182,10 @@ msgid ""
 "advisories is used it reports the lowest versions of packages that fix "
 "advisories matching selected advisory properties"
 msgstr ""
+"A legalacsonyabb olyan verziókat jelenti, melyek javítják a hibajavítási, "
+"fejlesztési, biztonsági és új csomagokra vonatkozó tájékoztatókat. Abban az "
+"esetben, ha bármilyen kapcsoló korlátozza a használt tájékoztatókat, akkor "
+"csak a megfelelő tájékoztatókhoz tartozókat jelenti."
 
 #: commands/check/check.cpp:247
 msgid "Check for problems in the packagedb"
@@ -273,6 +254,8 @@ msgstr ""
 msgid ""
 "No package \"{}\" available; You might want to use --skip-unavailable option."
 msgstr ""
+"Nem érhető el „{}” csomag; Lehet, hogy a --skip-unavailable kapcsolót akarja "
+"használni."
 
 #: commands/environment/arguments.hpp:33
 msgid "Show only available environments."
@@ -503,6 +486,8 @@ msgstr "Letiltott modulok megjelenítése."
 #: commands/module/arguments.hpp:50
 msgid "Pattern matching module NSVCAs."
 msgstr ""
+"Mintaillesztés a modulok NSVCA azonosítóira (név:forrás:verzió:környezet:"
+"arch/profil)."
 
 #: commands/module/module.cpp:43
 msgid "Manage modules"
@@ -587,10 +572,8 @@ msgid "Another offline transaction tool is running. Exiting."
 msgstr "Még egy offline tranzakciós eszköz fut. Kilépés."
 
 #: commands/offline/offline.cpp:462
-#, fuzzy
-#| msgid "No offline transaction is stored."
 msgid "Starting offline transaction. This will take a while."
-msgstr "Nincs offline tranzakció tárolva."
+msgstr "Offline tranzakció elindítása. Ez eltart egy ideig."
 
 #: commands/offline/offline.cpp:466
 msgid "Starting system upgrade. This will take a while."
@@ -610,7 +593,7 @@ msgstr "Hiba a napló olvasása során: {}"
 
 #: commands/offline/offline.cpp:605
 msgid "Add journal match failed: {}"
-msgstr ""
+msgstr "A naplótalálat hozzáadása sikertelen: {}"
 
 #: commands/offline/offline.cpp:633
 msgid "No logs were found."
@@ -790,6 +773,11 @@ msgid ""
 "limiting advisories is used it upgrades packages only to the lowest versions "
 "that fix advisories that matching selected advisory property"
 msgstr ""
+"A csomagok frissítése a legalacsonyabb olyan verziókra, melyek javítják a "
+"hibajavítási, fejlesztési, biztonsági és új csomagokra vonatkozó "
+"tájékoztatókat. Abban az esetben, ha bármilyen kapcsoló korlátozza a "
+"használt tájékoztatókat, akkor csak a megfelelő tájékoztatókat fogja "
+"javítani."
 
 #. TODO(mblaha): add full command line
 #: commands/versionlock/utils.cpp:35
@@ -876,46 +864,40 @@ msgstr "A kulcs sikeresen importálva lett."
 
 #: context.cpp:96
 msgid "The following OpenPGP key (0x{}) is about to be removed:"
-msgstr ""
+msgstr "A következő OpenGPG-kulcs (0x{}) el lesz távolítva:"
 
 #: context.cpp:98
-#, fuzzy
-#| msgid " UserID     : \"{}\"\n"
 msgid " Reason     : {}\n"
-msgstr " Felhasználó: „{}”\n"
+msgstr " Ok         : {}\n"
 
 #: context.cpp:102
-#, fuzzy
-#| msgid ""
-#| " Fingerprint: {}\n"
-#| " From       : {}\n"
 msgid " Fingerprint: {}\n"
-msgstr ""
-" Ujjlenyomat: {}\n"
-" Tulajdonos : {}\n"
+msgstr " Ujjlenyomat: {}\n"
 
 #: context.cpp:104
 msgid "As a result, installing packages signed with this key will fail."
 msgstr ""
+"Ennek eredményeképpen az ezzel a kulccsal aláírt csomagok telepítése hibára "
+"fog futni."
 
 #: context.cpp:105
 msgid "It is recommended to remove the expired key to allow importing"
-msgstr ""
+msgstr "Javasolt a lejárt kulcs eltávolítása, hogy lehetővé tegye"
 
 #: context.cpp:106
 msgid ""
 "an updated key. This might leave already installed packages unverifiable."
 msgstr ""
+"egy frissített kulcs importálását. Ez nem ellenőrizhető állapotban hagyhatja "
+"a már telepített csomagokat."
 
 #: context.cpp:109
 msgid "The system will now proceed with removing the key."
-msgstr ""
+msgstr "A rendszer most folytatja a kulcs eltávolításával."
 
 #: context.cpp:115
-#, fuzzy
-#| msgid "The key was successfully imported."
 msgid "Key 0x{} was successfully removed."
-msgstr "A kulcs sikeresen importálva lett."
+msgstr "A 0x{} kulcs sikeresen importálva lett."
 
 #: context.cpp:295
 msgid "setopt: \"{}.{}\": {}"
@@ -1038,10 +1020,8 @@ msgid "Scriptlet output:"
 msgstr "Beállítás kimenete:"
 
 #: context.cpp:948
-#, fuzzy
-#| msgid "Running {} scriptlet: {}"
 msgid "Running scriptlets"
-msgstr "A(z) {} parancsfájl futtatása: {}"
+msgstr "Parancsfájlok futtatása"
 
 #: context.cpp:953
 msgid "Running {} scriptlet: {}"
@@ -1114,7 +1094,7 @@ msgstr ""
 
 #: main.cpp:180
 msgid "Control whether color is used."
-msgstr "színek használatának beállítása"
+msgstr "Beállítja a színek használatát."
 
 #: main.cpp:186
 msgid "Force refreshing metadata before running the command."
@@ -1476,7 +1456,7 @@ msgstr "--- A DNF5 elindítva a következő argumentumokkal: „{}” ---"
 
 #: main.cpp:1256
 msgid "Invalid \"index\" in \"--complete=<index>[,...]\": {}"
-msgstr ""
+msgstr "Érvénytelen „index” itt: „--complete=<inde>[,...]”: {}"
 
 #: main.cpp:1295
 msgid "{}."
@@ -1541,6 +1521,8 @@ msgid ""
 "Error: this bootc system is configured to be read-only. For more "
 "information, run `bootc --help`."
 msgstr ""
+"Hiba: ez a bootc rendszer írásvédettnek van beállítva. További "
+"információkért futtassa a `bootc --help` parancsot."
 
 #: main.cpp:1538
 msgid ""
