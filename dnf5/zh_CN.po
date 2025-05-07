@@ -13,9 +13,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-07 03:32+0000\n"
-"PO-Revision-Date: 2025-05-07 17:34+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2025-05-07 18:49+0000\n"
+"Last-Translator: caffiendo c <1728778012@qq.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/dnf5/dnf5/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -522,7 +521,7 @@ msgstr "{} 在 system-update.target 中不被需要。"
 
 #: commands/offline/offline.cpp:364
 msgid "The system will now reboot to upgrade to release version {}."
-msgstr "系统将会重启到升级后的版本。"
+msgstr "系统将会重启到升级后的版本({})。"
 
 #: commands/offline/offline.cpp:368
 msgid ""
@@ -972,19 +971,19 @@ msgstr "运行脚本"
 
 #: context.cpp:953
 msgid "Running {} scriptlet: {}"
-msgstr "运行 {}，脚本片段: {}"
+msgstr "运行 {}，包: {}"
 
 #: context.cpp:968
 msgid "Finished {} scriptlet: {}"
-msgstr "{} 运行完成，脚本片段: {}"
+msgstr "{} 运行完成，包: {}"
 
 #: context.cpp:974
 msgid "Non-critical error in {} scriptlet: {}"
-msgstr "非致命性错误: {} ，脚本片段: {}"
+msgstr "非致命性错误: {} ，包: {}"
 
 #: context.cpp:983
 msgid "Error in {} scriptlet: {}"
-msgstr "{} 中出现错误，脚本片段: {}"
+msgstr "{} 中出现错误，包: {}"
 
 #: context.cpp:1018
 msgid "Verify package files"
