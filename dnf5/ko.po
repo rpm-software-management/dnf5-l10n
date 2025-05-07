@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-06 03:30+0000\n"
+"POT-Creation-Date: 2025-05-07 03:32+0000\n"
 "PO-Revision-Date: 2025-05-06 18:28+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
@@ -101,32 +101,48 @@ msgstr "버그질라를 참조하는 권고 사항만 표시합니다."
 msgid "Show only advisories referencing a CVE."
 msgstr "CVE를 참조하는 권고만 표시합니다."
 
-#: commands/advisory_shared.hpp:113
+#: commands/advisory_shared.hpp:76
+msgid "No advisory found matching the requested name: \"{}\""
+msgstr ""
+
+#: commands/advisory_shared.hpp:109
+msgid "No advisory found fixing the Bugzilla ID: \"{}\""
+msgstr ""
+
+#: commands/advisory_shared.hpp:128
+msgid "No advisory found fixing the CVE ID: \"{}\""
+msgstr ""
+
+#: commands/advisory_shared.hpp:143
+msgid "No advisory found matching the specified filters."
+msgstr ""
+
+#: commands/advisory_shared.hpp:158
 msgid ""
 "Include content contained in advisories with specified name. List option."
 msgstr "지정된 이름인 권고에서 담긴 내용을 포함합니다. 옵션 목록."
 
-#: commands/advisory_shared.hpp:114
+#: commands/advisory_shared.hpp:159
 msgid "ADVISORY_NAME,..."
 msgstr "권고_이름,..."
 
-#: commands/advisory_shared.hpp:121
+#: commands/advisory_shared.hpp:166
 msgid "Include content contained in security advisories."
 msgstr "보안 권고 사항에 담긴 내용을 포함합니다."
 
-#: commands/advisory_shared.hpp:128
+#: commands/advisory_shared.hpp:173
 msgid "Include content contained in bugfix advisories."
 msgstr "결점수정 권고에 담긴 내용을 포함합니다."
 
-#: commands/advisory_shared.hpp:135
+#: commands/advisory_shared.hpp:180
 msgid "Include content contained in enhancement advisories."
 msgstr "개선 권고에 담긴 내용을 포함합니다."
 
-#: commands/advisory_shared.hpp:142
+#: commands/advisory_shared.hpp:187
 msgid "Include content contained in newpackage advisories."
 msgstr "신규꾸러미 권고에 담긴 내용을 포함합니다."
 
-#: commands/advisory_shared.hpp:153
+#: commands/advisory_shared.hpp:198
 msgid ""
 "Include content contained in advisories with specified severity. List "
 "option. Can be \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
@@ -134,22 +150,22 @@ msgstr ""
 "지정된 심각도를 갖는 권고에 담긴 내용을 포함합니다. 옵션 목록. \"심각\", \"중"
 "요\", \"보통\", \"낮음\", \"없음\"이 될 수 있습니다."
 
-#: commands/advisory_shared.hpp:155
+#: commands/advisory_shared.hpp:200
 msgid "ADVISORY_SEVERITY,..."
 msgstr "권고_심각도,..."
 
-#: commands/advisory_shared.hpp:167
+#: commands/advisory_shared.hpp:212
 msgid ""
 "Include content contained in advisories that fix a Bugzilla ID, Eg. 123123. "
 "List option."
 msgstr ""
 "버그질라 ID (Eg. 123123)에서 수정된 권고에 담긴 내용을 포함합니다. 옵션 목록."
 
-#: commands/advisory_shared.hpp:168
+#: commands/advisory_shared.hpp:213
 msgid "BUGZILLA_ID,..."
 msgstr "버그질라_ID,..."
 
-#: commands/advisory_shared.hpp:178
+#: commands/advisory_shared.hpp:223
 msgid ""
 "Include content contained in advisories that fix a CVE (Common "
 "Vulnerabilities and Exposures) ID, Eg. CVE-2201-0123. List option."
@@ -157,7 +173,7 @@ msgstr ""
 "CVE(일반 취약점 및 노출) ID(예: CVE-2201-0123)로 수정된 권고에 담긴 내용을 포"
 "함합니다. 옵션 목록."
 
-#: commands/advisory_shared.hpp:180
+#: commands/advisory_shared.hpp:225
 msgid "CVE_ID,..."
 msgstr "CVE_ID,..."
 

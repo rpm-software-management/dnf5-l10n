@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-06 03:30+0000\n"
+"POT-Creation-Date: 2025-05-07 03:32+0000\n"
 "PO-Revision-Date: 2025-04-05 08:01+0000\n"
 "Last-Translator: Inci sakura <incisakura@icloud.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf5/"
@@ -100,42 +100,58 @@ msgstr "bugzilla に関連する勧告のみを表示。"
 msgid "Show only advisories referencing a CVE."
 msgstr "CVE に関連する勧告のみを表示。"
 
-#: commands/advisory_shared.hpp:113
+#: commands/advisory_shared.hpp:76
+msgid "No advisory found matching the requested name: \"{}\""
+msgstr ""
+
+#: commands/advisory_shared.hpp:109
+msgid "No advisory found fixing the Bugzilla ID: \"{}\""
+msgstr ""
+
+#: commands/advisory_shared.hpp:128
+msgid "No advisory found fixing the CVE ID: \"{}\""
+msgstr ""
+
+#: commands/advisory_shared.hpp:143
+msgid "No advisory found matching the specified filters."
+msgstr ""
+
+#: commands/advisory_shared.hpp:158
 #, fuzzy
 #| msgid "Limit to packages in advisories with specified name. List option."
 msgid ""
 "Include content contained in advisories with specified name. List option."
 msgstr "指定名前のパッケージの勧告のみ。リスト。"
 
-#: commands/advisory_shared.hpp:114
+#: commands/advisory_shared.hpp:159
 msgid "ADVISORY_NAME,..."
 msgstr "勧告名,..."
 
-#: commands/advisory_shared.hpp:121
+#: commands/advisory_shared.hpp:166
 #, fuzzy
 #| msgid "Limit to packages in security advisories."
 msgid "Include content contained in security advisories."
 msgstr "security 勧告のあるパッケージのみ。"
 
-#: commands/advisory_shared.hpp:128
+#: commands/advisory_shared.hpp:173
 #, fuzzy
 #| msgid "Limit to packages in bugfix advisories."
 msgid "Include content contained in bugfix advisories."
 msgstr "bugfix 勧告のあるパッケージのみ。"
 
-#: commands/advisory_shared.hpp:135
+#: commands/advisory_shared.hpp:180
 #, fuzzy
 #| msgid "Limit to packages in enhancement advisories."
 msgid "Include content contained in enhancement advisories."
 msgstr "enhancement 勧告のあるパッケージのみ。"
 
-#: commands/advisory_shared.hpp:142
+#: commands/advisory_shared.hpp:187
 #, fuzzy
 #| msgid "Limit to packages in newpackage advisories."
 msgid "Include content contained in newpackage advisories."
 msgstr "newpackage 勧告ありパッケージのみ。"
 
-#: commands/advisory_shared.hpp:153
+#: commands/advisory_shared.hpp:198
 #, fuzzy
 #| msgid ""
 #| "Limit to packages in advisories with specified severity. List option. Can "
@@ -148,11 +164,11 @@ msgstr ""
 "\"important\"(重要), \"moderate\"(一般), \"low\"(低い), \"none\"(なし)は指定"
 "可能。"
 
-#: commands/advisory_shared.hpp:155
+#: commands/advisory_shared.hpp:200
 msgid "ADVISORY_SEVERITY,..."
 msgstr "ADVISORY_SEVERITY,..."
 
-#: commands/advisory_shared.hpp:167
+#: commands/advisory_shared.hpp:212
 #, fuzzy
 #| msgid ""
 #| "Limit to packages in advisories that fix a Bugzilla ID, Eg. 123123. List "
@@ -163,11 +179,11 @@ msgid ""
 msgstr ""
 "指定 Bugzilla ID (例: 123123) を修正する勧告のあるパッケージのみ。リスト。"
 
-#: commands/advisory_shared.hpp:168
+#: commands/advisory_shared.hpp:213
 msgid "BUGZILLA_ID,..."
 msgstr "BUGZILLA_ID,..."
 
-#: commands/advisory_shared.hpp:178
+#: commands/advisory_shared.hpp:223
 #, fuzzy
 #| msgid ""
 #| "Limit to packages in advisories that fix a CVE (Common Vulnerabilities "
@@ -179,7 +195,7 @@ msgstr ""
 "指定 CVE (共通脆弱性識別子) ID (例: CVE-2201-0123) を修正する勧告のみ。リス"
 "ト。"
 
-#: commands/advisory_shared.hpp:180
+#: commands/advisory_shared.hpp:225
 msgid "CVE_ID,..."
 msgstr "CVE_ID,..."
 

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-06 03:30+0000\n"
+"POT-Creation-Date: 2025-05-07 03:32+0000\n"
 "PO-Revision-Date: 2025-05-05 18:04+0000\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
@@ -96,40 +96,56 @@ msgstr "只顯示參考 bugzilla 的建議。"
 msgid "Show only advisories referencing a CVE."
 msgstr "只顯示引用 CVE 的警告。"
 
-#: commands/advisory_shared.hpp:113
+#: commands/advisory_shared.hpp:76
+msgid "No advisory found matching the requested name: \"{}\""
+msgstr ""
+
+#: commands/advisory_shared.hpp:109
+msgid "No advisory found fixing the Bugzilla ID: \"{}\""
+msgstr ""
+
+#: commands/advisory_shared.hpp:128
+msgid "No advisory found fixing the CVE ID: \"{}\""
+msgstr ""
+
+#: commands/advisory_shared.hpp:143
+msgid "No advisory found matching the specified filters."
+msgstr ""
+
+#: commands/advisory_shared.hpp:158
 #, fuzzy
 #| msgid "Limit to packages in advisories with specified name. List option."
 msgid ""
 "Include content contained in advisories with specified name. List option."
 msgstr "限制到具有指定名稱的 advisories 中的軟體包。 清單選項。"
 
-#: commands/advisory_shared.hpp:114
+#: commands/advisory_shared.hpp:159
 msgid "ADVISORY_NAME,..."
 msgstr "ADVISORY_NAME,..."
 
-#: commands/advisory_shared.hpp:121
+#: commands/advisory_shared.hpp:166
 #, fuzzy
 #| msgid "Limit to packages in security advisories."
 msgid "Include content contained in security advisories."
 msgstr "限制至安全公告中的軟體包。"
 
-#: commands/advisory_shared.hpp:128
+#: commands/advisory_shared.hpp:173
 msgid "Include content contained in bugfix advisories."
 msgstr "包含臭蟲修正建議中所含的內容。"
 
-#: commands/advisory_shared.hpp:135
+#: commands/advisory_shared.hpp:180
 #, fuzzy
 #| msgid "Limit to packages in enhancement advisories."
 msgid "Include content contained in enhancement advisories."
 msgstr "限制為增強建議中的軟體包。"
 
-#: commands/advisory_shared.hpp:142
+#: commands/advisory_shared.hpp:187
 #, fuzzy
 #| msgid "Limit to packages in newpackage advisories."
 msgid "Include content contained in newpackage advisories."
 msgstr "限制為新軟體包公告中的軟體包。"
 
-#: commands/advisory_shared.hpp:153
+#: commands/advisory_shared.hpp:198
 #, fuzzy
 #| msgid ""
 #| "Limit to packages in advisories with specified severity. List option. Can "
@@ -141,11 +157,11 @@ msgstr ""
 "限制到具有指定嚴重性的公告中的軟體包。 清單選項可以是\"critical\", "
 "\"important\", \"moderate\", \"low\", \"none\"。"
 
-#: commands/advisory_shared.hpp:155
+#: commands/advisory_shared.hpp:200
 msgid "ADVISORY_SEVERITY,..."
 msgstr "ADVISORY_SEVERITY,..."
 
-#: commands/advisory_shared.hpp:167
+#: commands/advisory_shared.hpp:212
 #, fuzzy
 #| msgid ""
 #| "Limit to packages in advisories that fix a Bugzilla ID, Eg. 123123. List "
@@ -155,11 +171,11 @@ msgid ""
 "List option."
 msgstr "限制修復 Bugzilla ID 的公告中的軟體包，Eg. 123123. 列表選項。"
 
-#: commands/advisory_shared.hpp:168
+#: commands/advisory_shared.hpp:213
 msgid "BUGZILLA_ID,..."
 msgstr "BUGZILLA_ID,..."
 
-#: commands/advisory_shared.hpp:178
+#: commands/advisory_shared.hpp:223
 #, fuzzy
 #| msgid ""
 #| "Limit to packages in advisories that fix a CVE (Common Vulnerabilities "
@@ -171,7 +187,7 @@ msgstr ""
 "限制於修補 CVE (Common Vulnerabilities and Exposures) ID 的公告中的軟體包，例"
 "如 CVE-2201-0123。 清單選項。"
 
-#: commands/advisory_shared.hpp:180
+#: commands/advisory_shared.hpp:225
 msgid "CVE_ID,..."
 msgstr "CVE_ID,..."
 

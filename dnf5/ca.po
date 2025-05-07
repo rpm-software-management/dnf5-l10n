@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-06 03:30+0000\n"
+"POT-Creation-Date: 2025-05-07 03:32+0000\n"
 "PO-Revision-Date: 2025-04-10 07:53+0000\n"
 "Last-Translator: David Medina <dmedinacpnl@gmail.com>\n"
 "Language-Team: Catalan <https://translate.fedoraproject.org/projects/dnf5/"
@@ -104,7 +104,23 @@ msgstr "Mostra solament els avisos amb referències a un bugzilla."
 msgid "Show only advisories referencing a CVE."
 msgstr "Mostra solament els avisos amb referències a un CVE."
 
-#: commands/advisory_shared.hpp:113
+#: commands/advisory_shared.hpp:76
+msgid "No advisory found matching the requested name: \"{}\""
+msgstr ""
+
+#: commands/advisory_shared.hpp:109
+msgid "No advisory found fixing the Bugzilla ID: \"{}\""
+msgstr ""
+
+#: commands/advisory_shared.hpp:128
+msgid "No advisory found fixing the CVE ID: \"{}\""
+msgstr ""
+
+#: commands/advisory_shared.hpp:143
+msgid "No advisory found matching the specified filters."
+msgstr ""
+
+#: commands/advisory_shared.hpp:158
 #, fuzzy
 #| msgid "Limit to packages in advisories with specified name. List option."
 msgid ""
@@ -113,35 +129,35 @@ msgstr ""
 "Limita a paquets amb avisos coincidents amb els noms especificats. Opció "
 "tipus llista."
 
-#: commands/advisory_shared.hpp:114
+#: commands/advisory_shared.hpp:159
 msgid "ADVISORY_NAME,..."
 msgstr "NOM_DE_L'AVÍS,..."
 
-#: commands/advisory_shared.hpp:121
+#: commands/advisory_shared.hpp:166
 #, fuzzy
 #| msgid "Limit to packages in security advisories."
 msgid "Include content contained in security advisories."
 msgstr "Limita solament a paquets amb avisos de seguretat. Opció tipus llista."
 
-#: commands/advisory_shared.hpp:128
+#: commands/advisory_shared.hpp:173
 #, fuzzy
 #| msgid "Limit to packages in bugfix advisories."
 msgid "Include content contained in bugfix advisories."
 msgstr "Limita solament a paquets amb avisos de correccions d'errors."
 
-#: commands/advisory_shared.hpp:135
+#: commands/advisory_shared.hpp:180
 #, fuzzy
 #| msgid "Limit to packages in enhancement advisories."
 msgid "Include content contained in enhancement advisories."
 msgstr "Limita a paquets amb avisos de millores."
 
-#: commands/advisory_shared.hpp:142
+#: commands/advisory_shared.hpp:187
 #, fuzzy
 #| msgid "Limit to packages in newpackage advisories."
 msgid "Include content contained in newpackage advisories."
 msgstr "Limita a paquets amb avisos de nou paquet."
 
-#: commands/advisory_shared.hpp:153
+#: commands/advisory_shared.hpp:198
 #, fuzzy
 #| msgid ""
 #| "Limit to packages in advisories with specified severity. List option. Can "
@@ -153,11 +169,11 @@ msgstr ""
 "Limita a paquets amb avisos de la severitat específica. Opció tipus llista. "
 "Pot ser \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 
-#: commands/advisory_shared.hpp:155
+#: commands/advisory_shared.hpp:200
 msgid "ADVISORY_SEVERITY,..."
 msgstr "SEVERITAT_DE_L'AVÍS,..."
 
-#: commands/advisory_shared.hpp:167
+#: commands/advisory_shared.hpp:212
 #, fuzzy
 #| msgid ""
 #| "Limit to packages in advisories that fix a Bugzilla ID, Eg. 123123. List "
@@ -169,11 +185,11 @@ msgstr ""
 "Limita a paquets amb avisos que arreglen algun ID d'error de Bugzilla, per "
 "exemple 123123. Opció tipus llista."
 
-#: commands/advisory_shared.hpp:168
+#: commands/advisory_shared.hpp:213
 msgid "BUGZILLA_ID,..."
 msgstr "ID_DE_BUGZILLA,..."
 
-#: commands/advisory_shared.hpp:178
+#: commands/advisory_shared.hpp:223
 #, fuzzy
 #| msgid ""
 #| "Limit to packages in advisories that fix a CVE (Common Vulnerabilities "
@@ -185,7 +201,7 @@ msgstr ""
 "Limita a paquets que inclouen avisos que arreglen un CVE (Vulnerabilitats i "
 "Exposicions Comunes), per exemple CVE-2201-0123. Opció tipus llista."
 
-#: commands/advisory_shared.hpp:180
+#: commands/advisory_shared.hpp:225
 msgid "CVE_ID,..."
 msgstr "CVE_ID,..."
 

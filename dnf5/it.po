@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-06 03:30+0000\n"
+"POT-Creation-Date: 2025-05-07 03:32+0000\n"
 "PO-Revision-Date: 2025-05-03 16:58+0000\n"
 "Last-Translator: Salvatore Cocuzza <info@salvatorecocuzza.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -106,34 +106,50 @@ msgstr "Mostra solo gli avvisi che fanno riferimento a un bugzilla."
 msgid "Show only advisories referencing a CVE."
 msgstr "Mostra solo gli avvisi che fanno riferimento a un CVE."
 
-#: commands/advisory_shared.hpp:113
+#: commands/advisory_shared.hpp:76
+msgid "No advisory found matching the requested name: \"{}\""
+msgstr ""
+
+#: commands/advisory_shared.hpp:109
+msgid "No advisory found fixing the Bugzilla ID: \"{}\""
+msgstr ""
+
+#: commands/advisory_shared.hpp:128
+msgid "No advisory found fixing the CVE ID: \"{}\""
+msgstr ""
+
+#: commands/advisory_shared.hpp:143
+msgid "No advisory found matching the specified filters."
+msgstr ""
+
+#: commands/advisory_shared.hpp:158
 msgid ""
 "Include content contained in advisories with specified name. List option."
 msgstr ""
 "Includi i contenuti presenti negli avvisi con il nome specificato. Opzione "
 "elenco."
 
-#: commands/advisory_shared.hpp:114
+#: commands/advisory_shared.hpp:159
 msgid "ADVISORY_NAME,..."
 msgstr "NOME_AVVISO,..."
 
-#: commands/advisory_shared.hpp:121
+#: commands/advisory_shared.hpp:166
 msgid "Include content contained in security advisories."
 msgstr "Includere i contenuti presenti negli avvisi di sicurezza."
 
-#: commands/advisory_shared.hpp:128
+#: commands/advisory_shared.hpp:173
 msgid "Include content contained in bugfix advisories."
 msgstr "Includere i contenuti presenti negli avvisi di correzione dei bug."
 
-#: commands/advisory_shared.hpp:135
+#: commands/advisory_shared.hpp:180
 msgid "Include content contained in enhancement advisories."
 msgstr "Includere i contenuti presenti negli avvisi di miglioramento."
 
-#: commands/advisory_shared.hpp:142
+#: commands/advisory_shared.hpp:187
 msgid "Include content contained in newpackage advisories."
 msgstr "Includere il contenuto presente negli avvisi sui nuovi pacchetti."
 
-#: commands/advisory_shared.hpp:153
+#: commands/advisory_shared.hpp:198
 msgid ""
 "Include content contained in advisories with specified severity. List "
 "option. Can be \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
@@ -142,11 +158,11 @@ msgstr ""
 "elenco. Può essere \"critico\", \"importante\", \"moderato\", \"basso\", "
 "\"nessuno\"."
 
-#: commands/advisory_shared.hpp:155
+#: commands/advisory_shared.hpp:200
 msgid "ADVISORY_SEVERITY,..."
 msgstr "GRAVITÀ_AVVISO,..."
 
-#: commands/advisory_shared.hpp:167
+#: commands/advisory_shared.hpp:212
 msgid ""
 "Include content contained in advisories that fix a Bugzilla ID, Eg. 123123. "
 "List option."
@@ -154,11 +170,11 @@ msgstr ""
 "Includere il contenuto presente negli avvisi che correggono un ID Bugzilla, "
 "ad esempio 123123. Opzione elenco."
 
-#: commands/advisory_shared.hpp:168
+#: commands/advisory_shared.hpp:213
 msgid "BUGZILLA_ID,..."
 msgstr "ID_BUGZILLA,..."
 
-#: commands/advisory_shared.hpp:178
+#: commands/advisory_shared.hpp:223
 msgid ""
 "Include content contained in advisories that fix a CVE (Common "
 "Vulnerabilities and Exposures) ID, Eg. CVE-2201-0123. List option."
@@ -167,7 +183,7 @@ msgstr ""
 "(vulnerabilità ed esposizioni comuni), ad esempio CVE-2201-0123. Opzione "
 "elenco."
 
-#: commands/advisory_shared.hpp:180
+#: commands/advisory_shared.hpp:225
 msgid "CVE_ID,..."
 msgstr "ID_CVE,..."
 

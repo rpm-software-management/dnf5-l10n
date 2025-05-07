@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-06 03:30+0000\n"
+"POT-Creation-Date: 2025-05-07 03:32+0000\n"
 "PO-Revision-Date: 2025-05-06 12:55+0000\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -102,33 +102,49 @@ msgstr "Afișează doar avizele care fac referire la o eroare „bugzilla”."
 msgid "Show only advisories referencing a CVE."
 msgstr "Afișează numai avizele care fac referire la un CVE."
 
-#: commands/advisory_shared.hpp:113
+#: commands/advisory_shared.hpp:76
+msgid "No advisory found matching the requested name: \"{}\""
+msgstr ""
+
+#: commands/advisory_shared.hpp:109
+msgid "No advisory found fixing the Bugzilla ID: \"{}\""
+msgstr ""
+
+#: commands/advisory_shared.hpp:128
+msgid "No advisory found fixing the CVE ID: \"{}\""
+msgstr ""
+
+#: commands/advisory_shared.hpp:143
+msgid "No advisory found matching the specified filters."
+msgstr ""
+
+#: commands/advisory_shared.hpp:158
 msgid ""
 "Include content contained in advisories with specified name. List option."
 msgstr ""
 "Include conținutul conținut în avizele cu numele specificat. Opțiune listă."
 
-#: commands/advisory_shared.hpp:114
+#: commands/advisory_shared.hpp:159
 msgid "ADVISORY_NAME,..."
 msgstr "NUME_AVIZ,..."
 
-#: commands/advisory_shared.hpp:121
+#: commands/advisory_shared.hpp:166
 msgid "Include content contained in security advisories."
 msgstr "Include conținutul conținut în avizele de securitate."
 
-#: commands/advisory_shared.hpp:128
+#: commands/advisory_shared.hpp:173
 msgid "Include content contained in bugfix advisories."
 msgstr "Include conținutul conținut în avizele de remediere a erorilor."
 
-#: commands/advisory_shared.hpp:135
+#: commands/advisory_shared.hpp:180
 msgid "Include content contained in enhancement advisories."
 msgstr "Include conținutul conținut în avizele de îmbunătățire."
 
-#: commands/advisory_shared.hpp:142
+#: commands/advisory_shared.hpp:187
 msgid "Include content contained in newpackage advisories."
 msgstr "Include conținutul conținut în avizele de pachete noi."
 
-#: commands/advisory_shared.hpp:153
+#: commands/advisory_shared.hpp:198
 msgid ""
 "Include content contained in advisories with specified severity. List "
 "option. Can be \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
@@ -136,11 +152,11 @@ msgstr ""
 "Include conținutul conținut în avizele cu severitatea specificată. Opțiune "
 "listă. Poate fi „critical”, „important”, „moderate”, „low”, „none”."
 
-#: commands/advisory_shared.hpp:155
+#: commands/advisory_shared.hpp:200
 msgid "ADVISORY_SEVERITY,..."
 msgstr "SEVERITATE_AVIZ,..."
 
-#: commands/advisory_shared.hpp:167
+#: commands/advisory_shared.hpp:212
 msgid ""
 "Include content contained in advisories that fix a Bugzilla ID, Eg. 123123. "
 "List option."
@@ -148,11 +164,11 @@ msgstr ""
 "Include conținutul conținut în avizele care corectează un ID Bugzilla, de "
 "exemplu 123123. Opțiune listă."
 
-#: commands/advisory_shared.hpp:168
+#: commands/advisory_shared.hpp:213
 msgid "BUGZILLA_ID,..."
 msgstr "ID_BUGZILLA,..."
 
-#: commands/advisory_shared.hpp:178
+#: commands/advisory_shared.hpp:223
 msgid ""
 "Include content contained in advisories that fix a CVE (Common "
 "Vulnerabilities and Exposures) ID, Eg. CVE-2201-0123. List option."
@@ -160,7 +176,7 @@ msgstr ""
 "Include conținutul conținut în avizele care corectează un ID CVE (Common "
 "Vulnerabilities and Exposures), de exemplu CVE-2201-0123. Opțiune listă."
 
-#: commands/advisory_shared.hpp:180
+#: commands/advisory_shared.hpp:225
 msgid "CVE_ID,..."
 msgstr "ID_CVE,..."
 
