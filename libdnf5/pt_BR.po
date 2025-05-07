@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-06 03:30+0000\n"
+"POT-Creation-Date: 2025-05-07 03:32+0000\n"
 "PO-Revision-Date: 2025-04-01 03:07+0000\n"
 "Last-Translator: Ciro Mota <ciro.mota@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
@@ -35,7 +35,7 @@ msgid "Unsupported argument for REMOVE action: {}"
 msgstr "Argumento não suportado para ação REMOVE: {}"
 
 #. TODO(lukash) throw a proper exception
-#: base/goal.cpp:1593
+#: base/goal.cpp:1641
 msgid "Incorrect configuration value for multilib_policy: {}"
 msgstr "Valor de configuração incorreto para multilib_policy: {}"
 
@@ -184,18 +184,28 @@ msgid "No match for argument: {}"
 msgstr "Nenhuma correspondência para o argumento: {}"
 
 #: base/log_event.cpp:163
+#, fuzzy
+#| msgid "No match for argument '{0}' in repositories '{1}'"
+msgid "No match for argument '{0}' in selected advisories"
+msgstr "Nenhuma correspondência para o argumento '{0}' nos repositórios '{1}'"
+
+#: base/log_event.cpp:165
+msgid "No match in selected advisories"
+msgstr ""
+
+#: base/log_event.cpp:169
 msgid "No match for argument '{0}' in repositories '{1}'"
 msgstr "Nenhuma correspondência para o argumento '{0}' nos repositórios '{1}'"
 
-#: base/log_event.cpp:169
+#: base/log_event.cpp:175
 msgid "Cannot perform {0} for {1} '{2}' because it is not installed."
 msgstr "Não é possível executar {0} para {1} '{2}' porque não está instalado."
 
-#: base/log_event.cpp:174
+#: base/log_event.cpp:180
 msgid "Packages for argument '{}' available, but not installed."
 msgstr "Pacotes para o argumento '{}' disponíveis, mas não instalados."
 
-#: base/log_event.cpp:178
+#: base/log_event.cpp:184
 msgid ""
 "Packages for argument '{}' available, but installed for a different "
 "architecture."
@@ -203,27 +213,27 @@ msgstr ""
 "Pacotes para o argumento '{}' disponíveis, mas instalados para uma "
 "arquitetura diferente."
 
-#: base/log_event.cpp:182
+#: base/log_event.cpp:188
 msgid "Cannot perform {0} because '{1}' matches only source packages."
 msgstr ""
 "Não é possível executar {0} porque '{1}' corresponde apenas aos pacotes do "
 "código fonte."
 
-#: base/log_event.cpp:186
+#: base/log_event.cpp:192
 msgid "Argument '{}' matches only source packages."
 msgstr "O argumento '{}' corresponde apenas aos pacotes fonte."
 
-#: base/log_event.cpp:190
+#: base/log_event.cpp:196
 msgid "Cannot perform {0} because '{1}' matches only excluded packages."
 msgstr ""
 "Não é possível executar {0} porque '{1}' corresponde apenas a pacotes "
 "excluídos."
 
-#: base/log_event.cpp:194
+#: base/log_event.cpp:200
 msgid "Argument '{}' matches only excluded packages."
 msgstr "O argumento '{}' corresponde apenas a pacotes excluídos."
 
-#: base/log_event.cpp:198
+#: base/log_event.cpp:204
 msgid ""
 "Cannot perform {0} because '{1}' matches only packages excluded by "
 "versionlock."
@@ -231,20 +241,20 @@ msgstr ""
 "Não é possível executar {0} porque '{1}' corresponde apenas a pacotes "
 "excluídos por versionlock."
 
-#: base/log_event.cpp:202
+#: base/log_event.cpp:208
 msgid "Argument '{}' matches only packages excluded by versionlock."
 msgstr ""
 "O argumento '{}' corresponde apenas a pacotes excluídos pelo versionlock."
 
-#: base/log_event.cpp:207
+#: base/log_event.cpp:213
 msgid "  * Maybe you meant: {}"
 msgstr "  *Talvez você quisesse dizer: {}"
 
-#: base/log_event.cpp:210
+#: base/log_event.cpp:216
 msgid "There are following alternatives for '{0}': {1}"
 msgstr "Existem as seguintes alternativas para '{0}': {1}"
 
-#: base/log_event.cpp:217
+#: base/log_event.cpp:223
 msgid ""
 "The lowest available version of the \"{}\" package is already installed, "
 "cannot downgrade it."
@@ -252,7 +262,7 @@ msgstr ""
 "A versão mais recente disponível do pacote \"{}\" já está instalada e não é "
 "possível fazer downgrade dela."
 
-#: base/log_event.cpp:223
+#: base/log_event.cpp:229
 msgid ""
 "Installed packages for argument '{0}' are not available in repositories in "
 "the same version, available versions: {1}, cannot reinstall."
@@ -261,14 +271,14 @@ msgstr ""
 "repositórios na mesma versão, versões disponíveis: {1}, não podem ser "
 "reinstalados."
 
-#: base/log_event.cpp:229
+#: base/log_event.cpp:235
 msgid ""
 "Cannot perform {0} because '{1}' is installed in a different version: '{2}'."
 msgstr ""
 "Não é possível executar {0} porque '{1}' está instalado em uma versão "
 "diferente: '{2}'."
 
-#: base/log_event.cpp:235
+#: base/log_event.cpp:241
 msgid ""
 "Packages for argument '{}' installed and available, but in a different "
 "version."
@@ -276,23 +286,23 @@ msgstr ""
 "Pacotes para o argumento '{}' instalados e disponíveis, mas em uma versão "
 "diferente."
 
-#: base/log_event.cpp:237
+#: base/log_event.cpp:243
 msgid "Packages for argument '{}' installed, but not available."
 msgstr "Pacotes para o argumento '{}' instalados, mas não disponíveis."
 
-#: base/log_event.cpp:246
+#: base/log_event.cpp:252
 msgid "Package \"{}\" is already installed with reason \"{}\"."
 msgstr "O pacote \"{}\" já está instalado com o motivo \"{}\"."
 
-#: base/log_event.cpp:248
+#: base/log_event.cpp:254
 msgid "Package \"{}\" is already installed."
 msgstr "O pacote \"{}\" já está instalado."
 
-#: base/log_event.cpp:257
+#: base/log_event.cpp:263
 msgid "Debug data written to \"{}\""
 msgstr "Dados de depuração gravados em \"{}\""
 
-#: base/log_event.cpp:261
+#: base/log_event.cpp:267
 msgid ""
 "{0} upgrade cannot be reverted, however associated package actions will be. "
 "({1} id: '{2}') ."
@@ -300,16 +310,16 @@ msgstr ""
 "{0} a atualização não pode ser revertida, no entanto as ações sobre pacotes "
 "associados poderão ser. ({1} id: '{2}') ."
 
-#: base/log_event.cpp:267
+#: base/log_event.cpp:273
 msgid "{} action for argument \"{}\" is not supported."
 msgstr "A ação {} para o argumento \"{}\" não é compatível."
 
 #. Format a leading line of the error message.
-#: base/log_event.cpp:276
+#: base/log_event.cpp:282
 msgid "Unable to resolve argument '{}':"
 msgstr "Não foi possível resolver o argumento '{}':"
 
-#: base/log_event.cpp:280
+#: base/log_event.cpp:286
 msgid ""
 "\n"
 "  - Argument '{}' matches {} stream ('{}') of module '{}', but the stream is "
@@ -327,23 +337,23 @@ msgstr[1] ""
 "  - O argumento '{}' corresponde a {} fluxos ('{}') do módulo '{}', mas "
 "nenhum dos fluxos está ativado ou é padrão."
 
-#: base/log_event.cpp:287
+#: base/log_event.cpp:293
 msgid "', '"
 msgstr "', '"
 
-#: base/log_event.cpp:296
+#: base/log_event.cpp:302
 msgid "Modular dependency problems:\n"
 msgstr "problemas de dependências modulares:\n"
 
-#: base/log_event.cpp:303
+#: base/log_event.cpp:309
 msgid "Modular dependency problems with the latest modules:\n"
 msgstr "Problemas de dependência modular com os módulos mais recentes:\n"
 
-#: base/log_event.cpp:310
+#: base/log_event.cpp:316
 msgid "Modular dependency problems with the defaults:\n"
 msgstr "Problemas de dependência modular com os padrões:\n"
 
-#: base/log_event.cpp:325
+#: base/log_event.cpp:331
 msgid ""
 "The operation would result in switching of module '{0}' stream '{1}' to "
 "stream '{2}'\n"
@@ -351,7 +361,7 @@ msgstr ""
 "A operação resultaria na troca do módulo '{0}' stream '{1}' para stream "
 "'{2}'\n"
 
-#: base/log_event.cpp:330
+#: base/log_event.cpp:336
 msgid ""
 "Error: It is not possible to switch enabled streams of a module unless "
 "explicitly enabled via configuration option module_stream_switch."
@@ -360,7 +370,7 @@ msgstr ""
 "explicitamente habilitado por meio da opção de configuração "
 "module_stream_switch."
 
-#: base/log_event.cpp:335
+#: base/log_event.cpp:341
 msgid ""
 "Extra package '{0}' (with action '{1}') which is not present in the stored "
 "transaction was pulled into the transaction.\n"
@@ -368,11 +378,11 @@ msgstr ""
 "O pacote extra '{0}' (com ação '{1}') que não está presente na transação "
 "armazenada foi puxado para a transação.\n"
 
-#: base/log_event.cpp:341
+#: base/log_event.cpp:347
 msgid "Cannot parse file: '{0}': {1}.\n"
 msgstr "Não foi possível analisar o arquivo: '{0}': {1}.\n"
 
-#: base/log_event.cpp:348
+#: base/log_event.cpp:354
 msgid ""
 "Could not find debuginfo package for the following packages resolved from "
 "the argument '{0}': {1}"
@@ -380,12 +390,12 @@ msgstr ""
 "Não foi possível encontrar o pacote debuginfo para os seguintes pacotes "
 "resolvidos pelo argumento '{0}': {1}"
 
-#: base/log_event.cpp:351 base/log_event.cpp:362
+#: base/log_event.cpp:357 base/log_event.cpp:368
 msgctxt "String for joining NEVRAs - e.g. `foo-4-4.noarch, bar-5-5.noarch`"
 msgid ", "
 msgstr ", "
 
-#: base/log_event.cpp:358
+#: base/log_event.cpp:364
 msgid ""
 "Could not find debugsource package for the following packages resolved from "
 "the argument '{0}': {1}"
@@ -393,7 +403,7 @@ msgstr ""
 "Não foi possível encontrar o pacote debugsource para os seguintes pacotes "
 "resolvidos pelo argumento '{0}': {1}"
 
-#: base/log_event.cpp:365
+#: base/log_event.cpp:371
 msgid "Transaction merge error: '{0}'"
 msgstr "Erro de mesclagem da transação: '{0}'"
 
