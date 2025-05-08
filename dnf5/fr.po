@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-07 03:32+0000\n"
-"PO-Revision-Date: 2025-04-30 10:45+0000\n"
+"PO-Revision-Date: 2025-05-08 23:28+0000\n"
 "Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/fr/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.11.1\n"
+"X-Generator: Weblate 5.11.3\n"
 
 #: commands/advisory/advisory.cpp:36
 msgid "Manage advisories"
@@ -110,19 +110,22 @@ msgstr "Afficher uniquement les avertissements faisant référence à une CVE."
 
 #: commands/advisory_shared.hpp:76
 msgid "No advisory found matching the requested name: \"{}\""
-msgstr ""
+msgstr "Aucun avertissement portant le nom demandé ({}) n'a été trouvé."
 
 #: commands/advisory_shared.hpp:109
 msgid "No advisory found fixing the Bugzilla ID: \"{}\""
 msgstr ""
+"Aucun avertissement de correction à propos de l'ID Bugzilla \"{}\" n'a été "
+"trouvé."
 
 #: commands/advisory_shared.hpp:128
 msgid "No advisory found fixing the CVE ID: \"{}\""
 msgstr ""
+"Aucun avertissement de correction à propos de la CVE \"{}\" n'a été trouvé."
 
 #: commands/advisory_shared.hpp:143
 msgid "No advisory found matching the specified filters."
-msgstr ""
+msgstr "Aucun avertissement correspondant aux filtres spécifiés n'a été trouvé."
 
 #: commands/advisory_shared.hpp:158
 msgid ""
@@ -569,12 +572,10 @@ msgstr ""
 "update.target."
 
 #: commands/offline/offline.cpp:364
-#, fuzzy
-#| msgid "The system will now reboot to upgrade to release version "
 msgid "The system will now reboot to upgrade to release version {}."
 msgstr ""
 "Le système va maintenant redémarrer pour effectuer la mise à jour vers la "
-"version "
+"version {}."
 
 #: commands/offline/offline.cpp:368
 msgid ""
