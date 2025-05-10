@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-07 03:32+0000\n"
-"PO-Revision-Date: 2025-05-10 13:14+0000\n"
+"PO-Revision-Date: 2025-05-10 13:58+0000\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
 "projects/dnf5/dnf5/zh_TW/>\n"
@@ -23,15 +23,15 @@ msgstr ""
 
 #: commands/advisory/advisory.cpp:36
 msgid "Manage advisories"
-msgstr "管理建議"
+msgstr "管理通報"
 
 #: commands/advisory/advisory_info.hpp:35
 msgid "Print details about advisories"
-msgstr "列出有關建議的詳細資訊"
+msgstr "列出通報相關的詳細資訊"
 
 #: commands/advisory/advisory_list.hpp:35
 msgid "List advisories"
-msgstr "清單建議"
+msgstr "列出通報"
 
 #: commands/advisory/advisory_summary.cpp:44
 msgid "All"
@@ -51,34 +51,34 @@ msgstr "可用"
 
 #: commands/advisory/advisory_summary.hpp:33
 msgid "Print summary of advisories"
-msgstr "列出建議摘要"
+msgstr "列出通報的摘要"
 
 #: commands/advisory/arguments.hpp:34
 msgid "Show advisories containing any version of installed packages."
-msgstr "顯示包含任何已安裝軟體包版本的公告。"
+msgstr "顯示已安裝軟體包的任何版本的通報。"
 
 #: commands/advisory/arguments.hpp:45
 msgid ""
 "Show advisories containing newer versions of installed packages. This is the "
 "default behavior."
-msgstr "顯示包含已安裝軟體包更新版本的公告。 這是預設行為。"
+msgstr "顯示已安裝軟體包有新版本的通報。這是預設行為。"
 
 #: commands/advisory/arguments.hpp:57
 msgid ""
 "Show advisories containing equal and older versions of installed packages."
-msgstr "顯示包含已安裝軟體包的相同及較舊版本的公告。"
+msgstr "顯示已安裝軟體包是相同與較舊版本的通報。"
 
 #: commands/advisory/arguments.hpp:69
 msgid ""
 "Show advisories containing newer versions of installed packages for which a "
 "newer version is available."
-msgstr "顯示包含已安裝軟體包的更新版本的公告。"
+msgstr "顯示已安裝軟體包有新版本可用的新版本通報。"
 
 #: commands/advisory/arguments.hpp:82
 msgid ""
 "Show only advisories containing packages with specified names. List option, "
 "supports globs."
-msgstr "只顯示包含指定名稱軟體包的公告。 清單選項，支援 globs。"
+msgstr "只顯示指定名稱軟體包的通報。列表選項，支援 globs。"
 
 #: commands/advisory/arguments.hpp:83 commands/history/arguments.hpp:81
 msgid "PACKAGE_NAME,..."
@@ -86,106 +86,85 @@ msgstr "PACKAGE_NAME,..."
 
 #: commands/advisory/arguments.hpp:90
 msgid "List of patterns matched against advisory names."
-msgstr "與諮詢名稱匹配的模式清單。"
+msgstr "根據通報名稱作比對的樣式清單。"
 
 #: commands/advisory/arguments.hpp:100
 msgid "Show only advisories referencing a bugzilla."
-msgstr "只顯示參考 bugzilla 的建議。"
+msgstr "只顯示有引用 bugzilla 的通報。"
 
 #: commands/advisory/arguments.hpp:107
 msgid "Show only advisories referencing a CVE."
-msgstr "只顯示引用 CVE 的警告。"
+msgstr "只顯示有引用 CVE 的通報。"
 
 #: commands/advisory_shared.hpp:76
 msgid "No advisory found matching the requested name: \"{}\""
-msgstr ""
+msgstr "找不到符合請求名稱的通報：「{}」"
 
 #: commands/advisory_shared.hpp:109
 msgid "No advisory found fixing the Bugzilla ID: \"{}\""
-msgstr ""
+msgstr "找不到修正 Bugzilla ID 的通報：「{}」"
 
 #: commands/advisory_shared.hpp:128
 msgid "No advisory found fixing the CVE ID: \"{}\""
-msgstr ""
+msgstr "找不到修正 CVE ID 的通報：「{}」"
 
 #: commands/advisory_shared.hpp:143
 msgid "No advisory found matching the specified filters."
-msgstr ""
+msgstr "找不到符合指定篩選條件的通報。"
 
 #: commands/advisory_shared.hpp:158
-#, fuzzy
-#| msgid "Limit to packages in advisories with specified name. List option."
 msgid ""
 "Include content contained in advisories with specified name. List option."
-msgstr "限制到具有指定名稱的 advisories 中的軟體包。 清單選項。"
+msgstr "以特定名稱納入通報中所含內容的軟體包。列表選項。"
 
 #: commands/advisory_shared.hpp:159
 msgid "ADVISORY_NAME,..."
 msgstr "ADVISORY_NAME,..."
 
 #: commands/advisory_shared.hpp:166
-#, fuzzy
-#| msgid "Limit to packages in security advisories."
 msgid "Include content contained in security advisories."
-msgstr "限制至安全公告中的軟體包。"
+msgstr "納入安全性通報中所含的內容。"
 
 #: commands/advisory_shared.hpp:173
 msgid "Include content contained in bugfix advisories."
-msgstr "包含臭蟲修正建議中所含的內容。"
+msgstr "納入臭蟲修正通報中所含的內容。"
 
 #: commands/advisory_shared.hpp:180
-#, fuzzy
-#| msgid "Limit to packages in enhancement advisories."
 msgid "Include content contained in enhancement advisories."
-msgstr "限制為增強建議中的軟體包。"
+msgstr "納入功能增強通報中所含的內容。"
 
 #: commands/advisory_shared.hpp:187
-#, fuzzy
-#| msgid "Limit to packages in newpackage advisories."
 msgid "Include content contained in newpackage advisories."
-msgstr "限制為新軟體包公告中的軟體包。"
+msgstr "納入新軟體包通告中所含的內容。"
 
 #: commands/advisory_shared.hpp:198
-#, fuzzy
-#| msgid ""
-#| "Limit to packages in advisories with specified severity. List option. Can "
-#| "be \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgid ""
 "Include content contained in advisories with specified severity. List "
 "option. Can be \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgstr ""
-"限制到具有指定嚴重性的公告中的軟體包。 清單選項可以是\"critical\", "
-"\"important\", \"moderate\", \"low\", \"none\"。"
+"納入特定嚴重程度的通報所含的內容。列表選項。可以是 \"critical\"、"
+"\"important\"、\"moderate\"、\"low\"、\"none\"。"
 
 #: commands/advisory_shared.hpp:200
 msgid "ADVISORY_SEVERITY,..."
 msgstr "ADVISORY_SEVERITY,..."
 
 #: commands/advisory_shared.hpp:212
-#, fuzzy
-#| msgid ""
-#| "Limit to packages in advisories that fix a Bugzilla ID, Eg. 123123. List "
-#| "option."
 msgid ""
 "Include content contained in advisories that fix a Bugzilla ID, Eg. 123123. "
 "List option."
-msgstr "限制修復 Bugzilla ID 的公告中的軟體包，Eg. 123123. 列表選項。"
+msgstr "納入修復 Bugzilla ID，如 123123，這類通報所含的內容。列表選項。"
 
 #: commands/advisory_shared.hpp:213
 msgid "BUGZILLA_ID,..."
 msgstr "BUGZILLA_ID,..."
 
 #: commands/advisory_shared.hpp:223
-#, fuzzy
-#| msgid ""
-#| "Limit to packages in advisories that fix a CVE (Common Vulnerabilities "
-#| "and Exposures) ID, Eg. CVE-2201-0123. List option."
 msgid ""
 "Include content contained in advisories that fix a CVE (Common "
 "Vulnerabilities and Exposures) ID, Eg. CVE-2201-0123. List option."
-msgstr ""
-"限制於修補 CVE (Common Vulnerabilities and Exposures) ID 的公告中的軟體包，例"
-"如 CVE-2201-0123。 清單選項。"
+msgstr "納入可修正 CVE（常見漏洞與暴露）ID，如 "
+"CVE-2201-0123，這類通報所含的內容。列表選項。"
 
 #: commands/advisory_shared.hpp:225
 msgid "CVE_ID,..."
@@ -206,8 +185,9 @@ msgid ""
 "advisories is used it reports the lowest versions of packages that fix "
 "advisories matching selected advisory properties"
 msgstr ""
-"回報修復了臭蟲修正、增強、安全或新軟體包類型警告的軟體包最低版本。 如果使用了"
-"任何限制公告的選項，則會回報己修復了符合所選公告屬性的公告的最低版本的軟體包"
+"回報可修復臭蟲修正、功能增強、安全性、新軟體包等修正通報類型的軟體包最低版本"
+"。如果使用了任何限定通報的選項，則會回報可修復符合所選通報屬性的修正通報軟體"
+"包最低版本"
 
 #: commands/check/check.cpp:247
 msgid "Check for problems in the packagedb"
@@ -219,11 +199,11 @@ msgstr "檢查在 {} 軟體包中發現的 {} 問題"
 
 #: commands/clean/clean.cpp:91
 msgid "List of cache types to clean up. Supported types: {0}"
-msgstr "要清理的快取清單。 支援的類型： {0}"
+msgstr "要清理的快取清單。支援的類型： {0}"
 
 #: commands/clean/clean.cpp:109
 msgid "Unknown cache type \"{0}\". Supported types: {1}"
-msgstr "未知快取類型 \"{0}\"。 支援的類型： {1}"
+msgstr "未知快取類型 \"{0}\"。支援的類型： {1}"
 
 #: commands/clean/clean.cpp:166
 msgid "Failed to cleanup repository cache in path \"{0}\": {1}"
@@ -231,7 +211,7 @@ msgstr "清理路徑「{0}」的軟體庫快取失敗： {1}"
 
 #: commands/clean/clean.cpp:176
 msgid "Cache directory \"{}\" does not exist. Nothing to clean."
-msgstr "快取目錄 \"{}\" 不存在。 沒有東西要清理。"
+msgstr "快取目錄 \"{}\" 不存在。沒有東西要清理。"
 
 #: commands/clean/clean.cpp:181
 msgid "Cannot iterate cache directory \"{}\": {}"
@@ -260,7 +240,7 @@ msgstr "無效的 urlprotocol 選項： {}"
 
 #: commands/download/download.cpp:148 main.cpp:625
 msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
-msgstr "不支援架構 \"{0}\"。 請從 {1} 中選擇一個"
+msgstr "不支援架構 \"{0}\"。請從 {1} 中選擇一個"
 
 #. TODO(jrohel): Add support for requiring an argument by another argument in ArgumentParser?
 #: commands/download/download.cpp:184
@@ -304,7 +284,7 @@ msgstr "僅顯示已安裝的群組。"
 msgid ""
 "Show only groups containing packages with specified names. List option, "
 "supports globs."
-msgstr "只顯示包含指定名稱軟體包的群組。 清單選項，支援 globs。"
+msgstr "只顯示包含指定名稱軟體包的群組。清單選項，支援 globs。"
 
 #: commands/group/arguments.hpp:67
 msgid "Pattern matching group IDS."
@@ -331,8 +311,7 @@ msgid ""
 "Don't consider mismatches between installed and stored transaction packages "
 "as errors. This can result in an empty transaction because among other "
 "things the option can ignore failing Remove actions."
-msgstr ""
-"不要將安裝的交易軟體包與儲存的處理事項軟體包不匹配視為錯誤。 這可能會導致一個"
+msgstr "不要將安裝的交易軟體包與儲存的處理事項軟體包不匹配視為錯誤。這可能會導致一個"
 "空的處理事項，因為除其他事項外，該選項可以忽略失敗的移除動作。"
 
 #: commands/history/arguments.hpp:67
@@ -343,7 +322,7 @@ msgstr "不要將拉入處理事項的額外軟體包視為錯誤。"
 msgid ""
 "Show only transactions containing packages with specified names. List "
 "option, supports globs."
-msgstr "只顯示包含指定名稱軟體包的處理事項。 清單選項，支援 globs。"
+msgstr "只顯示包含指定名稱軟體包的處理事項。清單選項，支援 globs。"
 
 #: commands/history/history.cpp:41
 msgid "Manage transaction history"
@@ -554,19 +533,19 @@ msgstr "系統現在會重新啟動，以執行由下列命令啟動的離線處
 msgid ""
 "Internal use only, not intended to be run by the user. Execute the "
 "transaction in the offline environment."
-msgstr "僅供內部使用，使用者不得執行。 在離線環境中執行處理事項。"
+msgstr "僅供內部使用，使用者不得執行。在離線環境中執行處理事項。"
 
 #: commands/offline/offline.cpp:433
 msgid "Trigger file does not exist. Exiting."
-msgstr "觸發檔案不存在。 退出。"
+msgstr "觸發檔案不存在。退出。"
 
 #: commands/offline/offline.cpp:437
 msgid "Another offline transaction tool is running. Exiting."
-msgstr "另一個離線處理事項工具正在執行。 退出。"
+msgstr "另一個離線處理事項工具正在執行。退出。"
 
 #: commands/offline/offline.cpp:464
 msgid "Starting offline transaction. This will take a while."
-msgstr "開始離線處理事項。 這將需要一段時間。"
+msgstr "開始離線處理事項。這將需要一段時間。"
 
 #: commands/offline/offline.cpp:468
 msgid "Starting system upgrade. This will take a while."
@@ -611,7 +590,7 @@ msgstr "顯示過去離線處理事項的日誌"
 #: commands/offline/offline.cpp:683
 msgid ""
 "Which log to show. Run without any arguments to get a list of available logs."
-msgstr "要顯示的日誌。 在沒有任何參數的情況下執行，以取得可用日誌清單。"
+msgstr "要顯示的日誌。在沒有任何參數的情況下執行，以取得可用日誌清單。"
 
 #: commands/offline/offline.cpp:698
 msgid ""
@@ -636,9 +615,8 @@ msgstr "執行 `dnf5 offline reboot` 以重新啟動並執行離線處理事項�
 msgid ""
 "An offline transaction was started, but it did not finish. Run `dnf5 offline "
 "log` for more information. The command that initiated the transaction was:"
-msgstr ""
-"已啟動離線處理事項，但未完成。 執行 `dnf5 offline log` 取得更多資訊。 啟動處"
-"理事項的命令是："
+msgstr "已啟動離線處理事項，但未完成。執行 `dnf5 offline log` "
+"取得更多資訊。啟動處理事項的命令是："
 
 #: commands/offline/offline.cpp:728
 msgid "Unknown offline transaction status: "
@@ -752,8 +730,9 @@ msgid ""
 "limiting advisories is used it upgrades packages only to the lowest versions "
 "that fix advisories that matching selected advisory property"
 msgstr ""
-"只將軟體包升級至修正臭蟲修正、增強、安全或新軟體包類型的最低版本。 如果使用了"
-"任何限制公告的選項，則只會將軟體包升級到修復符合所選公告屬性的公告的最低版本"
+"只將軟體包升級至可修復臭蟲修正、功能增強、安全性、新軟體包等修正通報類型的最"
+"低版本。如果有使用任何限定通報的選項，則只會將軟體包升級到可修復符合所選公告"
+"屬性的修正通報最低版本"
 
 #. TODO(mblaha): add full command line
 #: commands/versionlock/utils.cpp:35
@@ -861,7 +840,7 @@ msgstr "建議移除過期的金鑰，以允許匯入"
 #: context.cpp:106
 msgid ""
 "an updated key. This might leave already installed packages unverifiable."
-msgstr "使用己更新的金鑰。 這可能會導致已安裝的軟體包無法驗證。"
+msgstr "使用己更新的金鑰。這可能會導致已安裝的軟體包無法驗證。"
 
 #: context.cpp:109
 msgid "The system will now proceed with removing the key."
@@ -883,8 +862,7 @@ msgstr ", "
 msgid ""
 "No matching repositories for {}. To use repositories from a host system, "
 "pass --use-host-config option"
-msgstr ""
-"{} 沒有匹配的軟體庫。 若要使用主機系統的軟體庫，請使用 --use-host-config 選項"
+msgstr "{} 沒有匹配的軟體庫。若要使用主機系統的軟體庫，請使用 --use-host-config 選項"
 
 #: context.cpp:309
 msgid "No matching repositories for {}"
@@ -934,8 +912,9 @@ msgid ""
 "reboot and run the transaction. To cancel the transaction and delete the "
 "downloaded files, use `dnf5 offline clean`."
 msgstr ""
-"儲存的處理事項要離線執行。 請執行 `dnf5 offline reboot` 以重新啟動並執行處理"
-"事項。 若要取消處理事項並刪除下載的檔案，請使用 `dnf5 offline clean`。"
+"儲存的處理事項要離線執行。請執行 `dnf5 offline reboot` "
+"以重新啟動並執行處理事項。若要取消處理事項並刪除下載的檔案，請使用 `dnf5 "
+"offline clean`。"
 
 #: context.cpp:502
 msgid "Running transaction"
@@ -1046,7 +1025,7 @@ msgid ""
 "In combination with a non-interactive command, shows just the relevant "
 "content. Suppresses messages notifying about the current state or actions of "
 "dnf5."
-msgstr "結合非互動命令，只顯示相關內容。 隱藏通知 dnf5 目前狀態或動作的訊息。"
+msgstr "結合非互動命令，只顯示相關內容。隱藏通知 dnf5 目前狀態或動作的訊息。"
 
 #: main.cpp:171
 msgid ""
@@ -1088,10 +1067,10 @@ msgid ""
 "              they do not override it. However, specifying an empty value (e."
 "g. --setopt=tsflags=) will clear the option."
 msgstr ""
-"覆寫設定檔中的設定選項。 若要覆寫軟體庫的設定選項，請使用 repoid.option 來設"
-"定 <option>。\n"
-"  配置選項的值，例如 excludepkgs、includepkgs、installonlypkgs 和 tsflags，會"
-"附加到原始值，不會覆寫原始值。 \n"
+"覆寫設定檔中的設定選項。若要覆寫軟體庫的設定選項，請使用 repoid.option "
+"來設定 <option>。\n"
+"  配置選項的值，例如 excludepkgs、includepkgs、installonlypkgs 和 "
+"tsflags，會附加到原始值，不會覆寫原始值。\n"
 "不過，指定一個空值 (例如 --setopt=tsflags=) 會清除該選項。"
 
 #: main.cpp:247 main.cpp:286
@@ -1157,7 +1136,7 @@ msgstr "停用軟體庫。列出選項。支援 Glob，可多次指定。"
 msgid ""
 "Enable just specific repositories. List option. Supports globs, can be "
 "specified multiple times."
-msgstr "只啟用特定軟體庫。 清單選項。 支援 globs，可指定多次。"
+msgstr "只啟用特定軟體庫。清單選項。支援 globs，可指定多次。"
 
 #: main.cpp:427
 msgid "disable OpenPGP signature checking (if RPM policy allows)"
@@ -1171,13 +1150,13 @@ msgstr "停用所有 libdnf5 外掛元件"
 msgid ""
 "Enable libdnf5 plugins by name. List option. Supports globs, can be "
 "specified multiple times."
-msgstr "依名稱啟用 libdnf5 外掛元件。 清單選項。 支援 globs，可指定多次。"
+msgstr "依名稱啟用 libdnf5 外掛元件。清單選項。支援 globs，可指定多次。"
 
 #: main.cpp:469
 msgid ""
 "Disable libdnf5 plugins by name. List option. Supports globs, can be "
 "specified multiple times."
-msgstr "依名稱停用 libdnf5 外掛元件。 清單選項。 支援 globs，可指定多次。"
+msgstr "依名稱停用 libdnf5 外掛元件。清單選項。支援 globs，可指定多次。"
 
 #: main.cpp:486
 msgid "add a comment to transaction"
@@ -1187,7 +1166,7 @@ msgstr "增加處理事項的備註"
 msgid ""
 "Adds a comment to the action. If a transaction takes place, the comment is "
 "stored in it."
-msgstr "在動作中加入註解。 如果有處理事項發生，註解會儲存在處理事項中。"
+msgstr "在動作中加入註解。如果有處理事項發生，註解會儲存在處理事項中。"
 
 #: main.cpp:501
 msgid "set install root"
@@ -1220,7 +1199,7 @@ msgstr "將主要設定值列出到標準輸出"
 #: main.cpp:570
 msgid ""
 "Print repository configuration values to stdout. List option. Supports globs"
-msgstr "列出軟體庫設定值到標準輸出。 清單選項。 支援 globs"
+msgstr "列出軟體庫設定值到標準輸出。清單選項。支援 globs"
 
 #: main.cpp:585
 msgid "Print variable values to stdout"
@@ -1337,9 +1316,9 @@ msgid ""
 "{} to allow mismatches between installed and stored transaction packages. "
 "This can result in an empty transaction because among other things the "
 "option can ignore failing Remove actions."
-msgstr ""
-"{} 以允許安裝的處理事項軟體包和儲存的處理事項軟體包不符合。 這可能會導致一個"
-"空的處理事項，因為除其他事項外，該選項可以忽略失敗的移除動作。"
+msgstr "{} "
+"以允許安裝的處理事項軟體包和儲存的處理事項軟體包不符合。這可能會導致一個空的"
+"處理事項，因為除其他事項外，該選項可以忽略失敗的移除動作。"
 
 #: main.cpp:1077
 msgid "{} to not limit the transaction to the best candidates"
@@ -1411,8 +1390,8 @@ msgid ""
 "user with elevated rights, or use the \"--assumeno\" or \"--downloadonly\" "
 "options to run the command without modifying the system state."
 msgstr ""
-"請求的操作需要有超級使用者特權。 請以具有特定權限的使用者登入，或使用「--"
-"assumeno」或「--downloadonly」選項執行命令，而不修改系統狀態。"
+"請求的操作需要有超級使用者特權。請以具有特定權限的使用者登入，或使用「--assum"
+"eno」或「--downloadonly」選項執行命令，而不修改系統狀態。"
 
 #: main.cpp:1507
 msgid "The operation will only store the transaction in {}"
@@ -1432,15 +1411,14 @@ msgstr "測試模式已啟用： 只執行軟體包下載、OpenPGP 金鑰安裝
 msgid ""
 "Error: this bootc system is configured to be read-only. For more "
 "information, run `bootc --help`."
-msgstr "錯誤：此 bootc 系統設定為唯讀。 如需更多資訊，請執行 `bootc --help`。"
+msgstr "錯誤：此 bootc 系統設定為唯讀。如需更多資訊，請執行 `bootc --help`。"
 
 #: main.cpp:1539
 msgid ""
 "No repositories were loaded from the installroot. To use the configuration "
 "and repositories of the host system, pass --use-host-config."
-msgstr ""
-"沒有從安裝根目錄中載入軟體庫。 若要使用主機系統的組態設定和軟體庫，請傳入 --"
-"use-host-config 。"
+msgstr "沒有從安裝根目錄中載入軟體庫。若要使用主機系統的組態設定和軟體庫，請傳入 "
+"--use-host-config 。"
 
 #: main.cpp:1561
 msgid "Command returned error: {}"
