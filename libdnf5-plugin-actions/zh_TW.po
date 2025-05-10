@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-07 03:32+0000\n"
-"PO-Revision-Date: 2025-05-05 18:04+0000\n"
+"PO-Revision-Date: 2025-05-10 15:59+0000\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
 "projects/dnf5/libdnf5-plugin-actions/zh_TW/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: actions.cpp:237
 msgid "File \"{}\" on line {}: {}"
-msgstr "檔案 \"{}\" 在 {} 行： {}"
+msgstr "檔案 「{}」 在 {} 行： {}"
 
 #: actions.cpp:636 actions.cpp:642 actions.cpp:648 actions.cpp:654
 msgid "\"HOOK:PKG_FILTER:DIRECTION:OPTIONS:CMD\" format expected"
@@ -30,21 +30,21 @@ msgstr "\"HOOK:PKG_FILTER:DIRECTION:OPTIONS:CMD\" 預期格式"
 
 #: actions.cpp:676
 msgid "Unknown \"enabled\" option value \"{}\""
-msgstr "未知 \"enabled\" 選項值 \"{}\""
+msgstr "未知 \"enabled\" 選項值 「{}」"
 
 #: actions.cpp:683
 msgid "Unknown option \"{}\""
-msgstr "未知選項 \"{}\""
+msgstr "未知選項 「{}」"
 
 #: actions.cpp:711
 msgid "Unknown hook \"{}\""
-msgstr "未知鉤子 \"{}\""
+msgstr "未知掛鉤「{}」"
 
 #: actions.cpp:720
 msgid ""
 "Package filter can only be used in GOAL_RESOLVED, PRE_TRANS and POST_TRANS "
 "hooks"
-msgstr "套件過濾器只能用在 GOAL_RESOLVED、PRE_TRANS 和 POST_TRANS 鈎結中"
+msgstr "套件過濾器只能用在 GOAL_RESOLVED、PRE_TRANS 和 POST_TRANS 掛鉤上"
 
 #: actions.cpp:726
 msgid "Cannot use direction without package filter"
@@ -52,11 +52,11 @@ msgstr "無法在沒有封裝過濾器的情況下使用方向"
 
 #: actions.cpp:740
 msgid "Unknown package direction \"{}\""
-msgstr "未知套件方向 \"{}\""
+msgstr "未知套件方向 「{}」"
 
 #: actions.cpp:747
 msgid "Unknown mode \"{}\""
-msgstr "未知模式 \"{}\""
+msgstr "未知模式 「{}」"
 
 #: actions.cpp:755
 msgid "Unsupported value of the \"raise_error\" option: {}"
@@ -136,7 +136,7 @@ msgstr "動作外掛元件： 無法綁定標準輸出指令"
 
 #: actions.cpp:1988
 msgid "Cannot execute action, command \"{}\" arguments \"{}\""
-msgstr "無法執行動作，命令 \"{}\" 參數 \"{}\""
+msgstr "無法執行動作，命令 「{}」 參數 「{}」"
 
 #: actions.cpp:1996
 msgid "Error during preparation child process"
