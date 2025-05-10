@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-07 03:32+0000\n"
-"PO-Revision-Date: 2025-05-10 13:58+0000\n"
+"PO-Revision-Date: 2025-05-10 14:10+0000\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
 "projects/dnf5/dnf5/zh_TW/>\n"
@@ -203,19 +203,19 @@ msgstr "要清理的快取清單。支援的類型： {0}"
 
 #: commands/clean/clean.cpp:109
 msgid "Unknown cache type \"{0}\". Supported types: {1}"
-msgstr "未知快取類型 \"{0}\"。支援的類型： {1}"
+msgstr "未知快取類型「{0}」。支援的類型： {1}"
 
 #: commands/clean/clean.cpp:166
 msgid "Failed to cleanup repository cache in path \"{0}\": {1}"
-msgstr "清理路徑「{0}」的軟體庫快取失敗： {1}"
+msgstr "清理路徑「{0}」中的軟體庫快取失敗： {1}"
 
 #: commands/clean/clean.cpp:176
 msgid "Cache directory \"{}\" does not exist. Nothing to clean."
-msgstr "快取目錄 \"{}\" 不存在。沒有東西要清理。"
+msgstr "快取目錄「{}」不存在。沒有東西要清理。"
 
 #: commands/clean/clean.cpp:181
 msgid "Cannot iterate cache directory \"{}\": {}"
-msgstr "無法遍歷快取目錄 \"{}\"： {}"
+msgstr "無法遍歷快取目錄「{}」： {}"
 
 #: commands/debuginfo-install/debuginfo-install.cpp:45
 msgid "Install debuginfo packages."
@@ -240,7 +240,7 @@ msgstr "無效的 urlprotocol 選項： {}"
 
 #: commands/download/download.cpp:148 main.cpp:625
 msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
-msgstr "不支援架構 \"{0}\"。請從 {1} 中選擇一個"
+msgstr "不支援架構「{0}」。請從 {1} 中選擇一個"
 
 #. TODO(jrohel): Add support for requiring an argument by another argument in ArgumentParser?
 #: commands/download/download.cpp:184
@@ -250,7 +250,7 @@ msgstr "選項 \"--alldeps\" 應與 \"--resolve\" 搭配使用"
 #: commands/download/download.cpp:220
 msgid ""
 "No package \"{}\" available; You might want to use --skip-unavailable option."
-msgstr "沒有軟體包 \"{}\" 可用；您可能需要使用 --skip-unavailable 選項。"
+msgstr "沒有軟體包「{}」可用；您可能要使用 --skip-unavailable 選項。"
 
 #: commands/environment/arguments.hpp:33
 msgid "Show only available environments."
@@ -354,7 +354,7 @@ msgstr "選擇儲存多筆處理事項，只允許存一筆。"
 
 #: commands/history/history_store.cpp:80
 msgid "File \"{}\" already exists, it will be overwritten.\n"
-msgstr "檔案\"{}\"已經存在，將被覆寫。\n"
+msgstr "檔案「{}」已經存在，將會覆蓋。\n"
 
 #: commands/history/transaction_id.cpp:32
 msgid ""
@@ -473,7 +473,7 @@ msgstr "管理模組"
 
 #: commands/module/module_list.cpp:85
 msgid "No matches found for \"{}\"."
-msgstr "沒有找到匹配的 \"{}\"。"
+msgstr "沒有找到符合的「{}」。"
 
 #: commands/offline/offline.cpp:214
 msgid "Manage offline transactions"
@@ -754,15 +754,15 @@ msgstr "要新增版本鎖的軟體包規格清單"
 #: commands/versionlock/versionlock_add.cpp:106
 #: commands/versionlock/versionlock_exclude.cpp:125
 msgid "No package found for \"{}\"."
-msgstr "未找到 \"{}\" 的軟體包。"
+msgstr "找不到「{}」的軟體包。"
 
 #: commands/versionlock/versionlock_add.cpp:133
 msgid "Adding versionlock on \"{0} = {1}\"."
-msgstr "在 \"{0} = {1}\"上加入版本鎖。"
+msgstr "以「{0} = {1}」加入版本鎖定。"
 
 #: commands/versionlock/versionlock_add.cpp:136
 msgid "Package \"{}\" is already locked."
-msgstr "已鎖定 {} 軟體包。"
+msgstr "已鎖定「{}」軟體包。"
 
 #: commands/versionlock/versionlock_clear.cpp:32
 msgid "Remove all entries from versionlock configuration"
@@ -791,11 +791,11 @@ msgstr "要新增版本鎖排除的軟體包規格清單"
 #: commands/versionlock/versionlock_exclude.cpp:88
 #: commands/versionlock/versionlock_exclude.cpp:100
 msgid "Adding versionlock exclude on \"{0} = {1}\"."
-msgstr "在 \"{0} = {1}\"上加入排除版本鎖。"
+msgstr "加入「{0} = {1}」的版本排除鎖定。"
 
 #: commands/versionlock/versionlock_exclude.cpp:139
 msgid "Package \"{}\" is already excluded."
-msgstr "軟體包 \" {}\" 已排除."
+msgstr "軟體包「 {}」已排除。"
 
 #: context.cpp:73
 msgid "Importing OpenPGP key 0x{}:\n"
@@ -803,7 +803,7 @@ msgstr "匯入 OpenPGP 金鑰 0x{}:\n"
 
 #: context.cpp:75 context.cpp:100
 msgid " UserID     : \"{}\"\n"
-msgstr " 使用者ID     : \"{}\"\n"
+msgstr " 使用者ID     ：「{}」\n"
 
 #: context.cpp:78
 msgid ""
@@ -852,7 +852,7 @@ msgstr "金鑰 0x{} 已成功移除。"
 
 #: context.cpp:295
 msgid "setopt: \"{}.{}\": {}"
-msgstr "setopt: \"{}.{}\": {}"
+msgstr "setopt：「{}.{}」: {}"
 
 #: context.cpp:301 main.cpp:1352
 msgid ", "
@@ -892,7 +892,7 @@ msgstr "  - {}"
 msgid ""
 "Location \"{}\" already contains a stored transaction, it will be "
 "overwritten."
-msgstr "位置\"{}\"已包含儲存的處理事項，這將被覆寫。"
+msgstr "位置「{}」已經有儲存的處理事項，這會被覆蓋。"
 
 #: context.cpp:476
 msgid ""
@@ -990,11 +990,11 @@ msgstr "驗證軟體包檔案"
 
 #: library.cpp:33
 msgid "Cannot load shared library \"{}\": {}"
-msgstr "無法載入共享函式庫 \"{}\"： {}"
+msgstr "無法載入共享的函式庫「{}」： {}"
 
 #: library.cpp:47
 msgid "Cannot obtain address of symbol \"{}\": {}"
-msgstr "無法取得符號 \"{}\" 的位址： {}"
+msgstr "無法取得符號「{}」的位址： {}"
 
 #: main.cpp:131
 msgid "Utility for packages maintaining"
@@ -1043,7 +1043,7 @@ msgstr "執行命令前強制重新整理中繼資料。"
 
 #: main.cpp:202
 msgid "Failed to expire repository cache in path \"{0}\": {1}"
-msgstr "路徑 \"{0}\" 中的軟體庫快取過期失敗： {1}"
+msgstr "路徑「{0}」中的軟體庫快取過期失敗： {1}"
 
 #: main.cpp:216
 msgid "create additional repository using id and path"
@@ -1051,7 +1051,7 @@ msgstr "使用 id 和路徑建立其他軟體庫"
 
 #: main.cpp:224
 msgid "repofrompath: Incorrect repoid and path specification \"{}\""
-msgstr "repofrompath： 不正確的 repofoid 和路徑規格 \"{}\""
+msgstr "repofrompath：不正確的 repofoid 和路徑規格「{}」"
 
 #: main.cpp:236
 msgid "set arbitrary config and repo options"
@@ -1075,7 +1075,7 @@ msgstr ""
 
 #: main.cpp:247 main.cpp:286
 msgid "{}: Badly formatted argument value \"{}\""
-msgstr "{}: 格式錯誤的參數值 \"{}\""
+msgstr "{}：格式錯誤的引數值「{}」"
 
 #: main.cpp:254
 msgid ""
@@ -1084,7 +1084,7 @@ msgstr "{}: 格式錯誤的參數值： 最後一個關鍵字不能是 '： {}"
 
 #: main.cpp:267
 msgid "setopt: \"{0}\": {1}"
-msgstr "setopt: \"{0}\": {1}"
+msgstr "setopt：「{0}」: {1}"
 
 #: main.cpp:279
 msgid "set arbitrary variable"
@@ -1354,7 +1354,7 @@ msgstr "停用 libdnf 外掛元件時，未發現符合下列外掛元件名稱�
 
 #: main.cpp:1221
 msgid "--- DNF5 launched with arguments: \"{}\" ---"
-msgstr "--- DNF5 已啟動，帶有參數： \"{}\" ---"
+msgstr "--- DNF5 啟動，配合引數：「{}」---"
 
 #: main.cpp:1257
 msgid "Invalid \"index\" in \"--complete=<index>[,...]\": {}"
