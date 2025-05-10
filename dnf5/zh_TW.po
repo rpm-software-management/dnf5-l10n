@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-07 03:32+0000\n"
-"PO-Revision-Date: 2025-05-10 14:23+0000\n"
+"PO-Revision-Date: 2025-05-10 15:59+0000\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
 "projects/dnf5/dnf5/zh_TW/>\n"
@@ -311,9 +311,8 @@ msgid ""
 "Don't consider mismatches between installed and stored transaction packages "
 "as errors. This can result in an empty transaction because among other "
 "things the option can ignore failing Remove actions."
-msgstr ""
-"不要將已安裝軟體包與儲存的處理事項軟體包之間的不相符視為錯誤。這可能會導致有"
-"空白的處理事項，因為除其他選項外，該選項可以忽略失敗的「移除」動作。"
+msgstr "不要將已安裝軟體包與儲存的處理事項軟體包之間的不相符視為錯誤。這可能導致空白"
+"的處理事項，因為除其他作用外，該選項可以忽略失敗的「移除」動作。"
 
 #: commands/history/arguments.hpp:67
 msgid "Don't consider extra packages pulled into the transaction as errors."
@@ -333,7 +332,7 @@ msgstr "管理處理事項的歷史記錄"
 msgid ""
 "No match found, history info defaults to considering only the last "
 "transaction, specify \"1..last\" range to search all transactions."
-msgstr "未找到和服項目，歷史資訊預設為只考慮最後一次處理事項，指定「1...last」範圍可"
+msgstr "未找到符合項目，歷史資訊預設為只考慮最後一次處理事項，指定「1...last」範圍可"
 "搜尋所有處理事項。"
 
 #: commands/history/history_redo.cpp:54
@@ -484,7 +483,7 @@ msgid ""
 "Error reading state: {}. Rerun the command you used to initiate the offline "
 "transaction, e.g. `dnf5 system-upgrade download [OPTIONS]`."
 msgstr ""
-"讀取狀態有錯： {}. 重新執行您用來啟動離線處理事項的命令，例如 `dnf5 system-"
+"讀取狀態有錯： {}。 重新執行您用來啟動離線處理事項的命令，例如 `dnf5 system-"
 "upgrade download [OPTIONS]`。"
 
 #: commands/offline/offline.cpp:269
@@ -518,10 +517,8 @@ msgid "{} is not wanted by system-update.target."
 msgstr "{} 不是 system-update.target 想要的。"
 
 #: commands/offline/offline.cpp:364
-#, fuzzy
-#| msgid "The system will now reboot to upgrade to release version "
 msgid "The system will now reboot to upgrade to release version {}."
-msgstr "系統現在會重新開機，升級至釋出版本 "
+msgstr "系統現在會重新開機，升級至發行版本 {}。"
 
 #: commands/offline/offline.cpp:368
 msgid ""
@@ -577,11 +574,11 @@ msgstr "下列靴子似乎包含離線處理事項記錄："
 
 #: commands/offline/offline.cpp:656
 msgid "Cannot find logs with this index."
-msgstr "無法透過這個索引找到記錄檔."
+msgstr "無法透過這個索引找到記錄檔。"
 
 #: commands/offline/offline.cpp:663
 msgid "Unable to match systemd journal entry."
-msgstr "無法符合 systemd 的記錄檔項目."
+msgstr "無法符合 systemd 的記錄檔項目。"
 
 #: commands/offline/offline.cpp:675
 msgid "Show logs from past offline transactions"
@@ -810,8 +807,8 @@ msgid ""
 " Fingerprint: {}\n"
 " From       : {}\n"
 msgstr ""
-" 指紋: {}\n"
-" 來自       : {}\n"
+" 指紋：{}\n"
+" 來自       ：{}\n"
 
 #: context.cpp:87
 msgid "The key was successfully imported."
@@ -823,11 +820,11 @@ msgstr "下列 OpenPGP 金鑰 (0x{}) 即將被移除："
 
 #: context.cpp:98
 msgid " Reason     : {}\n"
-msgstr " 動機     : {}\n"
+msgstr " 動機     ：{}\n"
 
 #: context.cpp:102
 msgid " Fingerprint: {}\n"
-msgstr " 指紋: {}\n"
+msgstr " 指紋：{}\n"
 
 #: context.cpp:104
 msgid "As a result, installing packages signed with this key will fail."
@@ -852,7 +849,7 @@ msgstr "金鑰 0x{} 已成功移除。"
 
 #: context.cpp:295
 msgid "setopt: \"{}.{}\": {}"
-msgstr "setopt：「{}.{}」: {}"
+msgstr "setopt：「{}.{}」：{}"
 
 #: context.cpp:301 main.cpp:1352
 msgid ", "
@@ -950,7 +947,7 @@ msgstr "移除 {}"
 
 #: context.cpp:889
 msgid "Cleanup {}"
-msgstr "清除 {}"
+msgstr "清理 {}"
 
 #: context.cpp:907
 msgid "Unpack error: {}"
@@ -1035,7 +1032,7 @@ msgstr "完全從系統快取執行，不更新快取，即使快取已過期也
 
 #: main.cpp:180
 msgid "Control whether color is used."
-msgstr "控制使用什麼顏色."
+msgstr "控制使用什麼顏色。"
 
 #: main.cpp:186
 msgid "Force refreshing metadata before running the command."
@@ -1067,11 +1064,11 @@ msgid ""
 "              they do not override it. However, specifying an empty value (e."
 "g. --setopt=tsflags=) will clear the option."
 msgstr ""
-"覆寫設定檔中的設定選項。若要覆寫軟體庫的設定選項，請使用 repoid.option "
-"來設定 <option>。\n"
-"  配置選項的值，例如 excludepkgs、includepkgs、installonlypkgs 和 "
-"tsflags，會附加到原始值，不會覆寫原始值。\n"
-"不過，指定一個空值 (例如 --setopt=tsflags=) 會清除該選項。"
+"凌駕組態設定檔中的組態選項。若要凌駕軟體庫的組態設定選項，請使用 "
+"repoid.option 來設定 <option>。\n"
+"  組態設定選項的值，例如 excludepkgs、includepkgs、installonlypkgs 和 "
+"tsflags，會附加到原始值，而不會凌駕原始值。\n"
+"不過，指定一個空值（例如 --setopt=tsflags=）會清除該選項。"
 
 #: main.cpp:247 main.cpp:286
 msgid "{}: Badly formatted argument value \"{}\""
@@ -1080,11 +1077,11 @@ msgstr "{}：格式錯誤的引數值「{}」"
 #: main.cpp:254
 msgid ""
 "{}: Badly formatted argument value: Last key character cannot be '.': {}"
-msgstr "{}: 格式錯誤的引數值： 最後一個關鍵字不能是 '： {}"
+msgstr "{}：格式錯誤的引數值： 最後一個關鍵字不能是 '： {}"
 
 #: main.cpp:267
 msgid "setopt: \"{0}\": {1}"
-msgstr "setopt：「{0}」: {1}"
+msgstr "setopt：「{0}」：{1}"
 
 #: main.cpp:279
 msgid "set arbitrary variable"
@@ -1092,7 +1089,7 @@ msgstr "設定任意變數"
 
 #: main.cpp:293
 msgid "setvar: {}"
-msgstr "setvar: {}"
+msgstr "setvar：{}"
 
 #: main.cpp:302
 msgid "automatically answer yes for all questions"
@@ -1317,8 +1314,8 @@ msgid ""
 "This can result in an empty transaction because among other things the "
 "option can ignore failing Remove actions."
 msgstr "{} "
-"以允許安裝的處理事項軟體包和儲存的處理事項軟體包不符合。這可能會導致一個空的"
-"處理事項，因為除其他事項外，該選項可以忽略失敗的移除動作。"
+"允許安裝的軟體包與儲存的處理事項軟體包不相符。這可能會導致空白的處理事項，因"
+"為除其他作用外，該選項可以忽略失敗的「移除」動作。"
 
 #: main.cpp:1077
 msgid "{} to not limit the transaction to the best candidates"
@@ -1362,7 +1359,7 @@ msgstr "\"--complete=<index>[,...]\" 中的 \"index \" 無效： {}"
 
 #: main.cpp:1296
 msgid "{}."
-msgstr "{}."
+msgstr "{}。"
 
 #: main.cpp:1299 main.cpp:1551
 msgid "{}. Add \"--help\" for more information about the arguments."
@@ -1438,7 +1435,7 @@ msgstr "允許移除已安裝的軟體包以解決問題"
 
 #: shared_options.cpp:42
 msgid "Allow resolving of depsolve problems by skipping packages"
-msgstr "允許跳過軟體包解決相依性問題"
+msgstr "允許跳過軟體包解決依賴關係問題"
 
 #: shared_options.cpp:54
 msgid "Allow skipping unavailable packages"
