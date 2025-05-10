@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-07 03:32+0000\n"
-"PO-Revision-Date: 2025-05-10 14:12+0000\n"
+"PO-Revision-Date: 2025-05-10 14:20+0000\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
 "projects/dnf5/dnf5/zh_TW/>\n"
@@ -262,7 +262,7 @@ msgstr "只顯示已安裝的環境。"
 
 #: commands/environment/arguments.hpp:47
 msgid "Pattern matching environment IDs."
-msgstr "模式匹配環境 ID。"
+msgstr "以樣式比對環境 ID。"
 
 #: commands/environment/environment.cpp:35
 msgid "Manage comps environments"
@@ -288,7 +288,7 @@ msgstr "只顯示包含指定名稱軟體包的群組。清單選項，支援 gl
 
 #: commands/group/arguments.hpp:67
 msgid "Pattern matching group IDS."
-msgstr "模式匹配群組 IDS。"
+msgstr "以樣式比對群組 ID。"
 
 #: commands/group/arguments.hpp:76
 msgid "Include optional packages from group."
@@ -311,8 +311,9 @@ msgid ""
 "Don't consider mismatches between installed and stored transaction packages "
 "as errors. This can result in an empty transaction because among other "
 "things the option can ignore failing Remove actions."
-msgstr "不要將安裝的交易軟體包與儲存的處理事項軟體包不匹配視為錯誤。這可能會導致一個"
-"空的處理事項，因為除其他事項外，該選項可以忽略失敗的移除動作。"
+msgstr ""
+"不要將已安裝軟體包與儲存的處理事項軟體包之間的不相符視為錯誤。這可能會導致有"
+"空白的處理事項，因為除其他選項外，該選項可以忽略失敗的「移除」動作。"
 
 #: commands/history/arguments.hpp:67
 msgid "Don't consider extra packages pulled into the transaction as errors."
@@ -332,21 +333,20 @@ msgstr "管理處理事項的歷史記錄"
 msgid ""
 "No match found, history info defaults to considering only the last "
 "transaction, specify \"1..last\" range to search all transactions."
-msgstr ""
-"未找到匹配，歷史資訊預設為只考慮最後一次處理事項，指定「1...last」範圍可搜尋"
-"所有處理事項。"
+msgstr "未找到和服項目，歷史資訊預設為只考慮最後一次處理事項，指定「1...last」範圍可"
+"搜尋所有處理事項。"
 
 #: commands/history/history_redo.cpp:54
 #: commands/history/history_rollback.cpp:58
 #: commands/history/history_store.cpp:65 commands/history/history_undo.cpp:57
 msgid "No matching transaction ID found, exactly one required."
-msgstr "未找到匹配的處理事項 ID，正好需要一個。"
+msgstr "未找到符合的處理事項 ID，要求剛好一項。"
 
 #: commands/history/history_redo.cpp:58
 #: commands/history/history_rollback.cpp:62
 #: commands/history/history_undo.cpp:61
 msgid "Matched more than one transaction ID, exactly one required."
-msgstr "匹配一個以上的處理事項 ID，正好需要一個。"
+msgstr "已比對到一個以上的處理事項 ID，要求剛好一項。"
 
 #: commands/history/history_store.cpp:68
 msgid "Multiple transactions selected for storing, only one allowed."
@@ -379,7 +379,7 @@ msgstr "依據軟體包與系統的關係列出軟體包"
 
 #: commands/list/list.cpp:47
 msgid "List of keys to match case insensitively"
-msgstr "不考慮大小寫的匹配鍵清單"
+msgstr "不考慮大小寫的比對鍵清單"
 
 #: commands/list/list.cpp:59
 msgid "Show all versions of the packages, not only the latest ones."
@@ -465,7 +465,7 @@ msgstr "顯示停用的模組。"
 
 #: commands/module/arguments.hpp:50
 msgid "Pattern matching module NSVCAs."
-msgstr "模式匹配模組 NSVCAs。"
+msgstr "樣式比對模組 NSVCA。"
 
 #: commands/module/module.cpp:43
 msgid "Manage modules"
@@ -565,7 +565,7 @@ msgstr "讀取日誌時出錯： {}"
 
 #: commands/offline/offline.cpp:607
 msgid "Add journal match failed: {}"
-msgstr "新增日誌匹配失敗： {}"
+msgstr "新增日誌對失敗：{}"
 
 #: commands/offline/offline.cpp:635
 msgid "No logs were found."
@@ -652,7 +652,7 @@ msgstr "顯示停用的軟體庫。"
 
 #: commands/repo/arguments.hpp:56
 msgid "Pattern matching repo IDs."
-msgstr "模式匹配的 報告 ID。"
+msgstr "以樣式比對 repo ID。"
 
 #: commands/repo/repo.cpp:38
 msgid "Manage repositories"
@@ -770,7 +770,7 @@ msgstr "移除版本鎖設定中的所有項目"
 
 #: commands/versionlock/versionlock_delete.cpp:35
 msgid "Remove any matching versionlock configuration entries"
-msgstr "移除任何匹配的版本鎖組態設定項目"
+msgstr "移除任何符合的版本鎖定組態設定項目"
 
 #: commands/versionlock/versionlock_delete.cpp:41
 msgid "List of package specs to remove versionlock for"
@@ -862,11 +862,11 @@ msgstr ", "
 msgid ""
 "No matching repositories for {}. To use repositories from a host system, "
 "pass --use-host-config option"
-msgstr "{} 沒有匹配的軟體庫。若要使用主機系統的軟體庫，請使用 --use-host-config 選項"
+msgstr "{} 沒有符合的軟體庫。若要使用主機系統的軟體庫，請使用 --use-host-config 選項"
 
 #: context.cpp:309
 msgid "No matching repositories for {}"
-msgstr "沒有匹配的 {} 軟體庫"
+msgstr "沒有符合的 {} 軟體庫"
 
 #: context.cpp:355
 msgid "Updating and loading repositories:"
