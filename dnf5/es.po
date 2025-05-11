@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-07 03:32+0000\n"
-"PO-Revision-Date: 2025-05-11 03:53+0000\n"
+"PO-Revision-Date: 2025-05-11 05:07+0000\n"
 "Last-Translator: gossypium "
 "<gossypium@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -107,99 +107,80 @@ msgstr "Mostrar solo avisos que hacen referencia a una entrada CVE."
 
 #: commands/advisory_shared.hpp:76
 msgid "No advisory found matching the requested name: \"{}\""
-msgstr ""
+msgstr "Ningún aviso encontrado que coincida con el nombre solicitado: «{}»"
 
 #: commands/advisory_shared.hpp:109
 msgid "No advisory found fixing the Bugzilla ID: \"{}\""
-msgstr ""
+msgstr "Ningún aviso encontrado al corregir la ID de Bugzilla: «{}»"
 
 #: commands/advisory_shared.hpp:128
 msgid "No advisory found fixing the CVE ID: \"{}\""
-msgstr ""
+msgstr "Ningún aviso encontrado al corregir la ID de CVE: «{}»"
 
 #: commands/advisory_shared.hpp:143
 msgid "No advisory found matching the specified filters."
-msgstr ""
+msgstr "Ningún aviso encontrado que coincida con los filtros especificados."
 
 #: commands/advisory_shared.hpp:158
-#, fuzzy
-#| msgid "Limit to packages in advisories with specified name. List option."
 msgid ""
 "Include content contained in advisories with specified name. List option."
 msgstr ""
-"Limitar a paquetes en avisos con el nombre especificado. Opción de lista."
+"Incluir el contenido presente en los avisos con el nombre especificado. "
+"Opción de lista."
 
 #: commands/advisory_shared.hpp:159
 msgid "ADVISORY_NAME,..."
 msgstr "ADVISORY_NAME,…"
 
 #: commands/advisory_shared.hpp:166
-#, fuzzy
-#| msgid "Limit to packages in security advisories."
 msgid "Include content contained in security advisories."
-msgstr "Limitar a paquetes en avisos de seguridad."
+msgstr "Incluir el contenido presente en los avisos de seguridad."
 
 #: commands/advisory_shared.hpp:173
-#, fuzzy
-#| msgid "Limit to packages in bugfix advisories."
 msgid "Include content contained in bugfix advisories."
-msgstr "Limitar a paquetes en avisos de bugfix."
+msgstr "Incluir el contenido presente en los avisos de correcciones de errores."
 
 #: commands/advisory_shared.hpp:180
-#, fuzzy
-#| msgid "Limit to packages in enhancement advisories."
 msgid "Include content contained in enhancement advisories."
-msgstr "Limitar a paquetes en avisos de mejora."
+msgstr "Incluir el contenido presente en los avisos de mejoras."
 
 #: commands/advisory_shared.hpp:187
-#, fuzzy
-#| msgid "Limit to packages in newpackage advisories."
 msgid "Include content contained in newpackage advisories."
-msgstr "Limitar a paquetes en avisos de paquete nuevo."
+msgstr "Incluir el contenido presente en los avisos de paquetes nuevos."
 
 #: commands/advisory_shared.hpp:198
-#, fuzzy
-#| msgid ""
-#| "Limit to packages in advisories with specified severity. List option. Can "
-#| "be \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgid ""
 "Include content contained in advisories with specified severity. List "
 "option. Can be \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgstr ""
-"Limitar a paquetes en avisos con severidad especificada. Opción de lista. "
-"Puede ser \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
+"Incluir el contenido presente en los avisos con severidad especificada. "
+"Opción de lista. Puede ser «critical», «important», «moderate», «low» o "
+"«none»."
 
 #: commands/advisory_shared.hpp:200
 msgid "ADVISORY_SEVERITY,..."
 msgstr "ADVISORY_SEVERITY,…"
 
 #: commands/advisory_shared.hpp:212
-#, fuzzy
-#| msgid ""
-#| "Limit to packages in advisories that fix a Bugzilla ID, Eg. 123123. List "
-#| "option."
 msgid ""
 "Include content contained in advisories that fix a Bugzilla ID, Eg. 123123. "
 "List option."
 msgstr ""
-"Limitar a paquetes en avisos que arreglan un ID de Bugzilla, Eg. 123123. "
-"Opción de lista."
+"Incluir el contenido presente en los avisos que corrigen una ID de Bugzilla, "
+"p. ej. 123123. Opción de lista."
 
 #: commands/advisory_shared.hpp:213
 msgid "BUGZILLA_ID,..."
 msgstr "BUGZILLA_ID,…"
 
 #: commands/advisory_shared.hpp:223
-#, fuzzy
-#| msgid ""
-#| "Limit to packages in advisories that fix a CVE (Common Vulnerabilities "
-#| "and Exposures) ID, Eg. CVE-2201-0123. List option."
 msgid ""
 "Include content contained in advisories that fix a CVE (Common "
 "Vulnerabilities and Exposures) ID, Eg. CVE-2201-0123. List option."
 msgstr ""
-"Limitar a paquetes en avisos que arreglan un ID de CVE (Common "
-"Vulnerabilities and Exposures), Eg. CVE-2201-0123. Opción de lista."
+"Incluir el contenido presente en los avisos que corrigen una ID de CVE («"
+"vulnerabilidades y exposiciones comunes»), p. ej. CVE-2201-0123. Opción de "
+"lista."
 
 #: commands/advisory_shared.hpp:225
 msgid "CVE_ID,..."
@@ -585,11 +566,9 @@ msgid "{} is not wanted by system-update.target."
 msgstr "{} no es deseado por system-update.target."
 
 #: commands/offline/offline.cpp:364
-#, fuzzy
-#| msgid "The system will now reboot to upgrade to release version "
 msgid "The system will now reboot to upgrade to release version {}."
 msgstr ""
-"El sistema se reiniciará ahora para modernizar a la versión de publicación "
+"El sistema será reiniciado para actualizar a la versión de lanzamiento {}."
 
 #: commands/offline/offline.cpp:368
 msgid ""
