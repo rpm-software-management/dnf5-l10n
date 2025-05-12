@@ -2,13 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # joo es <johndevand@tutanota.com>, 2025.
+# عمّار عبدالله <ammar-dmour19@proton.me>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-07 03:32+0000\n"
-"PO-Revision-Date: 2025-02-08 20:31+0000\n"
-"Last-Translator: joo es <johndevand@tutanota.com>\n"
+"PO-Revision-Date: 2025-05-13 01:22+0000\n"
+"Last-Translator: عمّار عبدالله <ammar-dmour19@proton.me>\n"
 "Language-Team: Arabic <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ar/>\n"
 "Language: ar\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 5.9.2\n"
+"X-Generator: Weblate 5.11.3\n"
 
 #: commands/advisory/advisory.cpp:36
 msgid "Manage advisories"
@@ -49,38 +50,44 @@ msgstr "المتوفر"
 
 #: commands/advisory/advisory_summary.hpp:33
 msgid "Print summary of advisories"
-msgstr ""
+msgstr "طباعة ملخص الإرشادات"
 
 #: commands/advisory/arguments.hpp:34
 msgid "Show advisories containing any version of installed packages."
-msgstr ""
+msgstr "إظهار الإرشادات التي تحتوي على أي إصدار من الحزم المثبتة."
 
 #: commands/advisory/arguments.hpp:45
 msgid ""
 "Show advisories containing newer versions of installed packages. This is the "
 "default behavior."
 msgstr ""
+"إظهار الإرشادات التي تحتوي على إصدارات أحدث من الحزم المثبتة. هذا هو السلوك "
+"الافتراضي."
 
 #: commands/advisory/arguments.hpp:57
 msgid ""
 "Show advisories containing equal and older versions of installed packages."
-msgstr ""
+msgstr "إظهار الإرشادات التي تحتوي على إصدارات متطابقة وأقدم من الحزم المثبتة."
 
 #: commands/advisory/arguments.hpp:69
 msgid ""
 "Show advisories containing newer versions of installed packages for which a "
 "newer version is available."
 msgstr ""
+"إظهار الإرشادات التي تحتوي على إصدارات أحدث من الحزم المثبتة التي يتوفر لها "
+"إصدار أحدث."
 
 #: commands/advisory/arguments.hpp:82
 msgid ""
 "Show only advisories containing packages with specified names. List option, "
 "supports globs."
 msgstr ""
+"إظهار الإرشادات التي تحتوي على حزم بأسماء محددة فقط. خيار القائمة، الدعم "
+"العام."
 
 #: commands/advisory/arguments.hpp:83 commands/history/arguments.hpp:81
 msgid "PACKAGE_NAME,..."
-msgstr ""
+msgstr "اسم_الخزمة ،.."
 
 #: commands/advisory/arguments.hpp:90
 msgid "List of patterns matched against advisory names."
