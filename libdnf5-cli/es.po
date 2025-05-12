@@ -8,9 +8,9 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-07 03:32+0000\n"
-"PO-Revision-Date: 2025-05-12 03:11+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2025-05-12 04:10+0000\n"
+"Last-Translator: gossypium "
+"<gossypium@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5-cli/es/>\n"
 "Language: es\n"
@@ -146,18 +146,20 @@ msgstr "Error al resolver la transacción"
 #: output/moduleinfo.cpp:36
 msgid "Hint: [d]efault, [e]nabled, [x]disabled, [i]nstalled, [a]ctive"
 msgstr ""
-"Leyenda: [d] predeterminado, [e] habilitado, [x] inhabilitado, [i]nstalado, "
-"[a]ctivo"
+"Leyenda: [d]predeterminado, [e]habilitado, [x]deshabilitado, [i]nstalado, [a]"
+"ctivo"
 
 #: output/modulelist.cpp:39
 msgid "Hint: [d]efault, [e]nabled, [x]disabled, [i]nstalled"
-msgstr "Leyenda: [d] predeterminado, [e] activo, [x] inactivo, [i] instalado"
+msgstr ""
+"Leyenda: [d]predeterminado, [e]habilitado, [x]deshabilitado, [i]nstalado"
 
 #. Note for translators: This is a right-aligned column separator in
 #. a package properties table as in "Name    : bash".
 #: output/packageinfo.cpp:57
+#, fuzzy
 msgid " : "
-msgstr ""
+msgstr " : "
 
 #. Add package
 #: output/packageinfo.cpp:63
@@ -166,39 +168,39 @@ msgstr ""
 
 #: output/packageinfo.cpp:68
 msgid "Epoch"
-msgstr ""
+msgstr "Época"
 
 #: output/packageinfo.cpp:69 output/transaction_table.cpp:289
 msgid "Version"
-msgstr ""
+msgstr "Versión"
 
 #: output/packageinfo.cpp:70
 msgid "Release"
-msgstr ""
+msgstr "Lanzamiento"
 
 #: output/packageinfo.cpp:71
 msgid "Architecture"
-msgstr ""
+msgstr "Arquitectura"
 
 #: output/packageinfo.cpp:75
 msgid "Obsoletes"
-msgstr ""
+msgstr "Obsoletos"
 
 #: output/packageinfo.cpp:85
 msgid "Download size"
-msgstr ""
+msgstr "Tamaño de la descarga"
 
 #: output/packageinfo.cpp:89
 msgid "Installed size"
-msgstr ""
+msgstr "Tamaño instalado"
 
 #: output/packageinfo.cpp:91
 msgid "Source"
-msgstr ""
+msgstr "Fuente"
 
 #: output/packageinfo.cpp:94
 msgid "From repository"
-msgstr ""
+msgstr "Del repositorio"
 
 #: output/packageinfo.cpp:96 output/transaction_table.cpp:295
 msgid "Repository"
@@ -226,7 +228,7 @@ msgstr ""
 
 #: output/search.cpp:45
 msgid " (exact)"
-msgstr ""
+msgstr " (exacta)"
 
 #: output/search.cpp:90
 msgid "No matches found."
@@ -234,67 +236,67 @@ msgstr ""
 
 #: output/search.cpp:101
 msgid "Matched fields: "
-msgstr ""
+msgstr "Campos coincidentes: "
 
 #: output/transaction_table.cpp:127
 msgid "Transaction Summary:\n"
-msgstr ""
+msgstr "Sumario de la transacción:\n"
 
 #. Keep the replaceble number aligned across all messages.
 #: output/transaction_table.cpp:132
 #, c++-format
 msgid " Installing:      {:4} package\n"
 msgid_plural " Installing:      {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " Instalando:       {:4} paquete\n"
+msgstr[1] " Instalando:       {:4} paquetes\n"
 
 #. Keep the replaceble number aligned across all messages.
 #: output/transaction_table.cpp:141
 #, c++-format
 msgid " Reinstalling:    {:4} package\n"
 msgid_plural " Reinstalling:    {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " Reinstalando:     {:4} paquete\n"
+msgstr[1] " Reinstalando:     {:4} paquetes\n"
 
 #. Keep the replaceble number aligned across all messages.
 #: output/transaction_table.cpp:150
 #, c++-format
 msgid " Upgrading:       {:4} package\n"
 msgid_plural " Upgrading:       {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " Actualizando:     {:4} paquete\n"
+msgstr[1] " Actualizando:     {:4} paquetes\n"
 
 #. Keep the replaceble number aligned across all messages.
 #: output/transaction_table.cpp:159
 #, c++-format
 msgid " Replacing:       {:4} package\n"
 msgid_plural " Replacing:       {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " Reemplazando:     {:4} paquete\n"
+msgstr[1] " Reemplazando:     {:4} paquetes\n"
 
 #. Keep the replaceble number aligned across all messages.
 #: output/transaction_table.cpp:168
 #, c++-format
 msgid " Removing:        {:4} package\n"
 msgid_plural " Removing:        {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " Eliminando:       {:4} paquete\n"
+msgstr[1] " Eliminando:       {:4} paquetes\n"
 
 #. Keep the replaceble number aligned across all messages.
 #: output/transaction_table.cpp:177
 #, c++-format
 msgid " Downgrading:     {:4} package\n"
 msgid_plural " Downgrading:     {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " Downgradeando:    {:4} paquete\n"
+msgstr[1] " Downgradeando:    {:4} paquetes\n"
 
 #. Keep the replaceble number aligned across all messages.
 #: output/transaction_table.cpp:186
 #, c++-format
 msgid " Changing reason: {:4} package\n"
 msgid_plural " Changing reason: {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " Cambiando motivo: {:4} paquete\n"
+msgstr[1] " Cambiando motivo: {:4} paquetes\n"
 
 #. Keep the replaceble number aligned across all messages.
 #: output/transaction_table.cpp:195
