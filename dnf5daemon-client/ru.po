@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Aleksey Fedorov <aleksejfedorov963@gmail.com>, 2024.
+# Aleksey Fedorov <aleksejfedorov963@gmail.com>, 2024, 2025.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-07 03:32+0000\n"
-"PO-Revision-Date: 2024-10-14 15:38+0000\n"
+"PO-Revision-Date: 2025-05-13 21:14+0000\n"
 "Last-Translator: Aleksey Fedorov <aleksejfedorov963@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5daemon-client/ru/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.7.2\n"
+"X-Generator: Weblate 5.11.3\n"
 
 #: commands/advisory/advisory.cpp:35
 msgid "Manage advisories"
@@ -85,54 +85,39 @@ msgid "Show only advisories referencing a CVE."
 msgstr "Показать только рекомендации, относящиеся к CVE."
 
 #: commands/advisory/arguments.hpp:113
-#, fuzzy
-#| msgid "Limit to packages in advisories with specified name. List option."
 msgid ""
 "Include content contained in advisories with specified name. List option."
-msgstr ""
-"Ограничение на пакеты в рекомендациях с указанным именем. Опция списка."
+msgstr "Включить содержимое в рекомендациях с указанным именем. Опция списка."
 
 #: commands/advisory/arguments.hpp:114
 msgid "ADVISORY_NAME,..."
 msgstr "ИМЯ_РЕКОМЕНДАЦИИ,..."
 
 #: commands/advisory/arguments.hpp:121
-#, fuzzy
-#| msgid "Limit to packages in security advisories."
 msgid "Include content contained in security advisories."
-msgstr "Ограничение на пакеты в рекомендациях по безопасности."
+msgstr "Включить содержимое в рекомендациях по безопасности."
 
 #: commands/advisory/arguments.hpp:128
-#, fuzzy
-#| msgid "Limit to packages in bugfix advisories."
 msgid "Include content contained in bugfix advisories."
-msgstr "Ограничение на пакеты в рекомендациях по исправлению ошибок."
+msgstr "Включить содержимое в рекомендациях по исправлению ошибок."
 
 #: commands/advisory/arguments.hpp:135
-#, fuzzy
-#| msgid "Limit to packages in enhancement advisories."
 msgid "Include content contained in enhancement advisories."
-msgstr "Ограничение на пакеты в рекомендациях по улучшению."
+msgstr "Включить содержимое в рекомендациях по улучшению."
 
 #: commands/advisory/arguments.hpp:142
-#, fuzzy
-#| msgid "Limit to packages in newpackage advisories."
 msgid "Include content contained in newpackage advisories."
-msgstr "Ограничение на пакеты в рекомендациях newpackage."
+msgstr "Включить содержимое в рекомендациях по новым пакетам."
 
 #. Note for translators: "critical" etc. quoted words are
 #. literals that should not be translated.
 #: commands/advisory/arguments.hpp:155
-#, fuzzy
-#| msgid ""
-#| "Limit to packages in advisories with specified severity. List option. Can "
-#| "be \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgid ""
 "Include content contained in advisories with specified severity. List "
 "option. Can be \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgstr ""
-"Ограничение на пакеты в рекомендациях с указанной степенью серьезности. "
-"Опция списка. Может быть \"critical\", \"important\", \"moderate\", \"low\", "
+"Включить содержимое в рекомендациях с указанной степенью серьезности. Опция "
+"списка. Может быть \"critical\", \"important\", \"moderate\", \"low\", "
 "\"none\"."
 
 #: commands/advisory/arguments.hpp:157
@@ -140,15 +125,11 @@ msgid "ADVISORY_SEVERITY,..."
 msgstr "СЕРЬЕЗНОСТЬ_РЕКОМЕНДАЦИЙ,…"
 
 #: commands/advisory/arguments.hpp:169
-#, fuzzy
-#| msgid ""
-#| "Limit to packages in advisories that fix a Bugzilla ID, Eg. 123123. List "
-#| "option."
 msgid ""
 "Include content contained in advisories that fix a Bugzilla ID, Eg. 123123. "
 "List option."
 msgstr ""
-"Ограничение на пакеты в рекомендациях, которые исправляют идентификатор "
+"Включить содержимое в рекомендациях, которые исправляют идентификатор "
 "Bugzilla, например 123123. Опция списка."
 
 #: commands/advisory/arguments.hpp:170
@@ -156,17 +137,12 @@ msgid "BUGZILLA_ID,..."
 msgstr "ID_BUGZILLA,…"
 
 #: commands/advisory/arguments.hpp:180
-#, fuzzy
-#| msgid ""
-#| "Limit to packages in advisories that fix a CVE (Common Vulnerabilities "
-#| "and Exposures) ID, Eg. CVE-2201-0123. List option."
 msgid ""
 "Include content contained in advisories that fix a CVE (Common "
 "Vulnerabilities and Exposures) ID, Eg. CVE-2201-0123. List option."
 msgstr ""
-"Ограничение на пакеты в рекомендациях, которые исправляют идентификатор CVE "
-"(Common Vulnerabilities and Exposures), например, CVE-2201-0123. Опция "
-"списка."
+"Включить содержимое в рекомендациях, которые исправляют идентификатор CVE ("
+"Common Vulnerabilities and Exposures), например, CVE-2201-0123. Опция списка."
 
 #: commands/advisory/arguments.hpp:182
 msgid "CVE_ID,..."
