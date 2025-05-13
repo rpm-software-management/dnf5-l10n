@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-07 03:32+0000\n"
-"PO-Revision-Date: 2025-05-10 13:14+0000\n"
+"PO-Revision-Date: 2025-05-13 21:14+0000\n"
 "Last-Translator: Aleksey Fedorov <aleksejfedorov963@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ru/>\n"
@@ -105,71 +105,55 @@ msgid "Show only advisories referencing a CVE."
 msgstr "Показать только рекомендации, относящиеся к CVE."
 
 #: commands/advisory_shared.hpp:76
-#, fuzzy
 msgid "No advisory found matching the requested name: \"{}\""
 msgstr ""
-"Не найдено ни одного совета, соответствующего запрашиваемому имени: «{}»"
+"Не найдено ни одной рекомендации, соответствующей запрашиваемому имени: «{}»"
 
 #: commands/advisory_shared.hpp:109
-#, fuzzy
 msgid "No advisory found fixing the Bugzilla ID: \"{}\""
-msgstr "Не найдено ни одного совета, исправляющего идентификатор Bugzilla: «{}»"
+msgstr ""
+"Не найдено ни одной рекомендации, исправляющей идентификатор Bugzilla: «{}»"
 
 #: commands/advisory_shared.hpp:128
 msgid "No advisory found fixing the CVE ID: \"{}\""
-msgstr ""
+msgstr "Не найдено ни одной рекомендации, исправляющей идентификатор CVE: «{}»"
 
 #: commands/advisory_shared.hpp:143
 msgid "No advisory found matching the specified filters."
-msgstr ""
+msgstr "Не найдено ни одной рекомендации, соответствующей указанным фильтрам."
 
 #: commands/advisory_shared.hpp:158
-#, fuzzy
-#| msgid "Limit to packages in advisories with specified name. List option."
 msgid ""
 "Include content contained in advisories with specified name. List option."
-msgstr ""
-"Ограничение на пакеты в рекомендациях с указанным именем. Опция списка."
+msgstr "Включить содержимое в рекомендациях с указанным именем. Опция списка."
 
 #: commands/advisory_shared.hpp:159
 msgid "ADVISORY_NAME,..."
 msgstr "ИМЯ_РЕКОМЕНДАЦИИ,..."
 
 #: commands/advisory_shared.hpp:166
-#, fuzzy
-#| msgid "Limit to packages in security advisories."
 msgid "Include content contained in security advisories."
-msgstr "Ограничение на пакеты в рекомендациях по безопасности."
+msgstr "Включить содержимое в рекомендациях по безопасности."
 
 #: commands/advisory_shared.hpp:173
-#, fuzzy
-#| msgid "Limit to packages in bugfix advisories."
 msgid "Include content contained in bugfix advisories."
-msgstr "Ограничение на пакеты в рекомендациях по исправлению ошибок."
+msgstr "Включить содержимое в рекомендациях по исправлению ошибок."
 
 #: commands/advisory_shared.hpp:180
-#, fuzzy
-#| msgid "Limit to packages in enhancement advisories."
 msgid "Include content contained in enhancement advisories."
-msgstr "Ограничение на пакеты в рекомендациях по улучшению."
+msgstr "Включить содержимое в рекомендациях по улучшению."
 
 #: commands/advisory_shared.hpp:187
-#, fuzzy
-#| msgid "Limit to packages in newpackage advisories."
 msgid "Include content contained in newpackage advisories."
-msgstr "Ограничение на пакеты в рекомендациях newpackage."
+msgstr "Включить содержимое в рекомендациях по новым пакетам."
 
 #: commands/advisory_shared.hpp:198
-#, fuzzy
-#| msgid ""
-#| "Limit to packages in advisories with specified severity. List option. Can "
-#| "be \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgid ""
 "Include content contained in advisories with specified severity. List "
 "option. Can be \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgstr ""
-"Ограничение на пакеты в рекомендациях с указанной степенью серьезности. "
-"Опция списка. Может быть \"critical\", \"important\", \"moderate\", \"low\", "
+"Включить содержимое в рекомендациях с указанной степенью серьезности. Опция "
+"списка. Может быть \"critical\", \"important\", \"moderate\", \"low\", "
 "\"none\"."
 
 #: commands/advisory_shared.hpp:200
@@ -177,15 +161,11 @@ msgid "ADVISORY_SEVERITY,..."
 msgstr "СЕРЬЕЗНОСТЬ_РЕКОМЕНДАЦИЙ,…"
 
 #: commands/advisory_shared.hpp:212
-#, fuzzy
-#| msgid ""
-#| "Limit to packages in advisories that fix a Bugzilla ID, Eg. 123123. List "
-#| "option."
 msgid ""
 "Include content contained in advisories that fix a Bugzilla ID, Eg. 123123. "
 "List option."
 msgstr ""
-"Ограничение на пакеты в рекомендациях, которые исправляют идентификатор "
+"Включить содержимое в рекомендациях, которые исправляют идентификатор "
 "Bugzilla, например 123123. Опция списка."
 
 #: commands/advisory_shared.hpp:213
@@ -193,17 +173,12 @@ msgid "BUGZILLA_ID,..."
 msgstr "ID_BUGZILLA,…"
 
 #: commands/advisory_shared.hpp:223
-#, fuzzy
-#| msgid ""
-#| "Limit to packages in advisories that fix a CVE (Common Vulnerabilities "
-#| "and Exposures) ID, Eg. CVE-2201-0123. List option."
 msgid ""
 "Include content contained in advisories that fix a CVE (Common "
 "Vulnerabilities and Exposures) ID, Eg. CVE-2201-0123. List option."
 msgstr ""
-"Ограничение на пакеты в рекомендациях, которые исправляют идентификатор CVE "
-"(Common Vulnerabilities and Exposures), например, CVE-2201-0123. Опция "
-"списка."
+"Включить содержимое в рекомендациях, которые исправляют идентификатор CVE ("
+"Common Vulnerabilities and Exposures), например, CVE-2201-0123. Опция списка."
 
 #: commands/advisory_shared.hpp:225
 msgid "CVE_ID,..."
@@ -296,6 +271,8 @@ msgstr "Опция \"--alldeps\" должна использоваться вм�
 msgid ""
 "No package \"{}\" available; You might want to use --skip-unavailable option."
 msgstr ""
+"Пакет «{}» не доступен; Возможно, вам следует использовать опцию --skip-"
+"unavailable."
 
 #: commands/environment/arguments.hpp:33
 msgid "Show only available environments."
@@ -384,6 +361,9 @@ msgid ""
 "No match found, history info defaults to considering only the last "
 "transaction, specify \"1..last\" range to search all transactions."
 msgstr ""
+"Не найдено ни одного совпадения, информация об истории по умолчанию "
+"учитывает только последнюю транзакцию, укажите диапазон «1..last» для поиска "
+"всех транзакций."
 
 #: commands/history/history_redo.cpp:54
 #: commands/history/history_rollback.cpp:58
@@ -576,10 +556,8 @@ msgid "{} is not wanted by system-update.target."
 msgstr "{} не требуется для system-update.target."
 
 #: commands/offline/offline.cpp:364
-#, fuzzy
-#| msgid "The system will now reboot to upgrade to release version "
 msgid "The system will now reboot to upgrade to release version {}."
-msgstr "Теперь система перезагрузится для обновления до версии выпуска "
+msgstr "Теперь система перезагрузится для обновления до версии выпуска {}."
 
 #: commands/offline/offline.cpp:368
 msgid ""
@@ -606,14 +584,12 @@ msgid "Another offline transaction tool is running. Exiting."
 msgstr "Запущен еще один инструмент для автономных транзакций. Выход."
 
 #: commands/offline/offline.cpp:464
-#, fuzzy
-#| msgid "No offline transaction is stored."
 msgid "Starting offline transaction. This will take a while."
-msgstr "Нет сохраненных автономных транзакций."
+msgstr "Начинаем автономную транзакцию. Это займет некоторое время."
 
 #: commands/offline/offline.cpp:468
 msgid "Starting system upgrade. This will take a while."
-msgstr ""
+msgstr "Начинаем обновление системы. Это займет некоторое время."
 
 #: commands/offline/offline.cpp:480
 msgid "Use `dnf5 offline reboot` to begin the transaction."
@@ -901,46 +877,39 @@ msgstr "Ключ был успешно импортирован."
 
 #: context.cpp:96
 msgid "The following OpenPGP key (0x{}) is about to be removed:"
-msgstr ""
+msgstr "Следующий ключ OpenPGP (0x{}) будет удален:"
 
 #: context.cpp:98
-#, fuzzy
-#| msgid " UserID     : \"{}\"\n"
 msgid " Reason     : {}\n"
-msgstr " UserID     : \"{}\"\n"
+msgstr " Причина     : {}\n"
 
 #: context.cpp:102
-#, fuzzy
-#| msgid ""
-#| " Fingerprint: {}\n"
-#| " From       : {}\n"
 msgid " Fingerprint: {}\n"
-msgstr ""
-" Отпечаток: {}\n"
-" Из       : {}\n"
+msgstr " Отпечаток: {}\n"
 
 #: context.cpp:104
 msgid "As a result, installing packages signed with this key will fail."
 msgstr ""
+"В результате установка пакетов, подписанных этим ключом, будет неудачной."
 
 #: context.cpp:105
 msgid "It is recommended to remove the expired key to allow importing"
-msgstr ""
+msgstr "Рекомендуется удалить истекший ключ, чтобы разрешить импорт"
 
 #: context.cpp:106
 msgid ""
 "an updated key. This might leave already installed packages unverifiable."
 msgstr ""
+"обновленный ключ. Это может привести к тому, что уже установленные пакеты "
+"окажутся непроверяемыми."
 
 #: context.cpp:109
 msgid "The system will now proceed with removing the key."
-msgstr ""
+msgstr "Теперь система приступит к извлечению ключа."
 
 #: context.cpp:115
-#, fuzzy
-#| msgid "The key was successfully imported."
 msgid "Key 0x{} was successfully removed."
-msgstr "Ключ был успешно импортирован."
+msgstr "Ключ 0x{} успешно удален."
 
 #: context.cpp:295
 msgid "setopt: \"{}.{}\": {}"
@@ -1062,10 +1031,8 @@ msgid "Scriptlet output:"
 msgstr "Вывод скриплета:"
 
 #: context.cpp:948
-#, fuzzy
-#| msgid "Running {} scriptlet: {}"
 msgid "Running scriptlets"
-msgstr "Выполняется {} скриптлет: {}"
+msgstr "Выполнение скриптлетов"
 
 #: context.cpp:953
 msgid "Running {} scriptlet: {}"
@@ -1139,7 +1106,7 @@ msgstr ""
 
 #: main.cpp:180
 msgid "Control whether color is used."
-msgstr ""
+msgstr "Контролируйте, используется ли цвет."
 
 #: main.cpp:186
 msgid "Force refreshing metadata before running the command."
@@ -1498,7 +1465,7 @@ msgstr "--- DNF5 запущен с аргументами: \"{}\" ---"
 
 #: main.cpp:1257
 msgid "Invalid \"index\" in \"--complete=<index>[,...]\": {}"
-msgstr ""
+msgstr "Недопустимый «индекс» в «--complete=<индекс>[,...]»: {}"
 
 #: main.cpp:1296
 msgid "{}."
@@ -1561,6 +1528,8 @@ msgid ""
 "Error: this bootc system is configured to be read-only. For more "
 "information, run `bootc --help`."
 msgstr ""
+"Ошибка: эта система bootc настроена только на чтение. Для получения "
+"дополнительной информации выполните команду `bootc --help`."
 
 #: main.cpp:1539
 msgid ""
