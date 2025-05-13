@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-07 03:32+0000\n"
-"PO-Revision-Date: 2025-04-10 07:53+0000\n"
+"PO-Revision-Date: 2025-05-13 11:25+0000\n"
 "Last-Translator: David Medina <dmedinacpnl@gmail.com>\n"
 "Language-Team: Catalan <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ca/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10.4\n"
+"X-Generator: Weblate 5.11.3\n"
 
 #: commands/advisory/advisory.cpp:36
 msgid "Manage advisories"
@@ -106,100 +106,78 @@ msgstr "Mostra solament els avisos amb referències a un CVE."
 
 #: commands/advisory_shared.hpp:76
 msgid "No advisory found matching the requested name: \"{}\""
-msgstr ""
+msgstr "No s'ha trobat cap avís que coincideixi amb el nom sol·licitat: {}"
 
 #: commands/advisory_shared.hpp:109
 msgid "No advisory found fixing the Bugzilla ID: \"{}\""
-msgstr ""
+msgstr "No s'ha trobat cap avís de solució per l'identificador de Bugzilla: {}"
 
 #: commands/advisory_shared.hpp:128
 msgid "No advisory found fixing the CVE ID: \"{}\""
-msgstr ""
+msgstr "No s'ha trobat cap avís de solució per l'ID CVE: {}"
 
 #: commands/advisory_shared.hpp:143
 msgid "No advisory found matching the specified filters."
-msgstr ""
+msgstr "No s'ha trobat cap avís que coincideixi amb els filtres especificats."
 
 #: commands/advisory_shared.hpp:158
-#, fuzzy
-#| msgid "Limit to packages in advisories with specified name. List option."
 msgid ""
 "Include content contained in advisories with specified name. List option."
 msgstr ""
-"Limita a paquets amb avisos coincidents amb els noms especificats. Opció "
-"tipus llista."
+"Inclou el contingut dels avisos amb el nom especificat. Opció de llista."
 
 #: commands/advisory_shared.hpp:159
 msgid "ADVISORY_NAME,..."
 msgstr "NOM_DE_L'AVÍS,..."
 
 #: commands/advisory_shared.hpp:166
-#, fuzzy
-#| msgid "Limit to packages in security advisories."
 msgid "Include content contained in security advisories."
-msgstr "Limita solament a paquets amb avisos de seguretat. Opció tipus llista."
+msgstr "Inclou el contingut dels avisos de seguretat."
 
 #: commands/advisory_shared.hpp:173
-#, fuzzy
-#| msgid "Limit to packages in bugfix advisories."
 msgid "Include content contained in bugfix advisories."
-msgstr "Limita solament a paquets amb avisos de correccions d'errors."
+msgstr "Inclou el contingut dels avisos de correcció d'errors."
 
 #: commands/advisory_shared.hpp:180
-#, fuzzy
-#| msgid "Limit to packages in enhancement advisories."
 msgid "Include content contained in enhancement advisories."
-msgstr "Limita a paquets amb avisos de millores."
+msgstr "Inclou el contingut dels avisos de millora."
 
 #: commands/advisory_shared.hpp:187
-#, fuzzy
-#| msgid "Limit to packages in newpackage advisories."
 msgid "Include content contained in newpackage advisories."
-msgstr "Limita a paquets amb avisos de nou paquet."
+msgstr "Inclou el contingut dels avisos de paquets nous."
 
 #: commands/advisory_shared.hpp:198
-#, fuzzy
-#| msgid ""
-#| "Limit to packages in advisories with specified severity. List option. Can "
-#| "be \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgid ""
 "Include content contained in advisories with specified severity. List "
 "option. Can be \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgstr ""
-"Limita a paquets amb avisos de la severitat específica. Opció tipus llista. "
-"Pot ser \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
+"Inclou el contingut dels avisos amb una gravetat especificada. Opció de "
+"llista. Pot ser crític, important, moderat, baix o cap."
 
 #: commands/advisory_shared.hpp:200
 msgid "ADVISORY_SEVERITY,..."
 msgstr "SEVERITAT_DE_L'AVÍS,..."
 
 #: commands/advisory_shared.hpp:212
-#, fuzzy
-#| msgid ""
-#| "Limit to packages in advisories that fix a Bugzilla ID, Eg. 123123. List "
-#| "option."
 msgid ""
 "Include content contained in advisories that fix a Bugzilla ID, Eg. 123123. "
 "List option."
 msgstr ""
-"Limita a paquets amb avisos que arreglen algun ID d'error de Bugzilla, per "
-"exemple 123123. Opció tipus llista."
+"Inclou el contingut dels avisos que arreglen un identificador de Bugzilla, "
+"p. ex. 123123. Opció llista."
 
 #: commands/advisory_shared.hpp:213
 msgid "BUGZILLA_ID,..."
 msgstr "ID_DE_BUGZILLA,..."
 
 #: commands/advisory_shared.hpp:223
-#, fuzzy
-#| msgid ""
-#| "Limit to packages in advisories that fix a CVE (Common Vulnerabilities "
-#| "and Exposures) ID, Eg. CVE-2201-0123. List option."
 msgid ""
 "Include content contained in advisories that fix a CVE (Common "
 "Vulnerabilities and Exposures) ID, Eg. CVE-2201-0123. List option."
 msgstr ""
-"Limita a paquets que inclouen avisos que arreglen un CVE (Vulnerabilitats i "
-"Exposicions Comunes), per exemple CVE-2201-0123. Opció tipus llista."
+"Inclou el contingut dels avisos que solucionen un cas de CVE ("
+"Vulnerabilitats i exposicions comunes), p. ex. CVE-2201-0123. Opció de "
+"llista."
 
 #: commands/advisory_shared.hpp:225
 msgid "CVE_ID,..."
@@ -585,11 +563,8 @@ msgid "{} is not wanted by system-update.target."
 msgstr "{} no és requerit per system-update.target."
 
 #: commands/offline/offline.cpp:364
-#, fuzzy
-#| msgid "The system will now reboot to upgrade to release version "
 msgid "The system will now reboot to upgrade to release version {}."
-msgstr ""
-"El sistema es reiniciarà ara per actualitzar a la versió de llançament "
+msgstr "Ara el sistema es reiniciarà per actualitzar a la versió {}."
 
 #: commands/offline/offline.cpp:368
 msgid ""
@@ -1023,11 +998,11 @@ msgstr ""
 
 #: context.cpp:502
 msgid "Running transaction"
-msgstr "Executant la transacció"
+msgstr "S'executa la transacció"
 
 #: context.cpp:820
 msgid "Upgrading {}"
-msgstr "Actualitzant {}"
+msgstr "S'actualitza {}"
 
 #: context.cpp:823
 msgid "Downgrading {}"
@@ -1051,7 +1026,7 @@ msgstr "Es prepara la transacció"
 
 #: context.cpp:886
 msgid "Removing {}"
-msgstr "Suprimint {}"
+msgstr "Se suprimeix {}"
 
 #: context.cpp:889
 msgid "Cleanup {}"
