@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-07 03:32+0000\n"
+"POT-Creation-Date: 2025-05-16 03:34+0000\n"
 "PO-Revision-Date: 2025-05-08 00:58+0000\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -981,28 +981,34 @@ msgstr "Deja descărcat(e)"
 msgid "Failed to download packages"
 msgstr "Descărcarea pachetelor a eșuat"
 
-#: repo/repo.cpp:59
+#: repo/repo.cpp:61
 msgid "Failed to load RPM \"{}\": doesn't have the \".rpm\" extension"
 msgstr "Încărcarea RPM „{}” a eșuat: nu are extensia „.rpm”"
 
-#: repo/repo.cpp:63
+#: repo/repo.cpp:65
 msgid "Failed to access RPM \"{}\": {}"
 msgstr "Accesul la RPM „{}” a eșuat: {}"
 
-#: repo/repo.cpp:105
+#: repo/repo.cpp:107
 msgid "Invalid repository id \"{}\": unexpected character '{}'"
 msgstr "Id de depozit nevalid „{}”: caracter neașteptat „{}”"
 
-#: repo/repo.cpp:148
+#: repo/repo.cpp:150
 msgid "Repository \"{}\" has no source (baseurl, mirrorlist or metalink) set."
 msgstr ""
 "Depozitul „{}” nu are configurată sursa (baseurl, mirrorlist sau metalink)."
 
-#: repo/repo.cpp:159
+#: repo/repo.cpp:161
 msgid "Repository \"{}\" has unsupported type \"{}\", skipping."
 msgstr "Depozitul „{}” are tipul neacceptat „{}”, se omite."
 
-#: repo/repo.cpp:410
+#: repo/repo.cpp:228 repo/repo_sack.cpp:648
+#, fuzzy
+#| msgid "Failed to download metadata ({}: \"{}\") for repository \"{}\""
+msgid "Failed to download metadata ({}: \"{}\") for repository \"{}\": {}"
+msgstr "Descărcarea metadatelor ({}: „{}”) pentru depozitul „{}” a eșuat"
+
+#: repo/repo.cpp:426
 msgid ""
 "Failed to load repository: \"primary\" data not present or in unsupported "
 "format"
@@ -1010,15 +1016,15 @@ msgstr ""
 "Încărcarea depozitului a eșuat: Datele „primary” nu sunt prezente sau sunt "
 "într-un format neacceptat"
 
-#: repo/repo.cpp:476
+#: repo/repo.cpp:492
 msgid "Failed to load comps \"{}\": doesn't have the \".xml\" extension"
 msgstr "Încărcarea comps „{}” a eșuat: nu are extensia „.xml”"
 
-#: repo/repo.cpp:483
+#: repo/repo.cpp:499
 msgid "Failed to load xml Comps \"{}\": {}"
 msgstr "Încărcarea comps xml a eșuat „{}”: {}"
 
-#: repo/repo.cpp:501
+#: repo/repo.cpp:517
 msgid "Failed to load RPM \"{}\": {}"
 msgstr "Încărcarea RPM „{}” a eșuat: {}"
 
@@ -1030,31 +1036,33 @@ msgstr "Nu s-a putut determina id-ul depozitului din cache."
 msgid "Empty path to the repository cache directory."
 msgstr "Rută goală către directorul cache al depozitului."
 
-#: repo/repo_downloader.cpp:138
+#: repo/repo_downloader.cpp:181
 msgid "Librepo error: {}"
 msgstr "Eroare librepo: {}"
 
-#: repo/repo_downloader.cpp:170
-msgid "Failed to download metadata ({}: \"{}\") for repository \"{}\""
-msgstr "Descărcarea metadatelor ({}: „{}”) pentru depozitul „{}” a eșuat"
+#: repo/repo_downloader.cpp:265
+#, fuzzy
+#| msgid "Failed to download files"
+msgid "Failed to download metadata"
+msgstr "Descărcarea fișierelor a eșuat"
 
-#: repo/repo_downloader.cpp:241
+#: repo/repo_downloader.cpp:340
 msgid "Error checking if metalink \"{}\" is in sync for repository \"{}\""
 msgstr ""
 "Eroare la verificarea dacă metalink „{}” este sincronizat pentru depozitul "
 "„{}”"
 
-#: repo/repo_downloader.cpp:271
+#: repo/repo_downloader.cpp:373
 msgid "Error checking if repomd ({}: \"{}\") is in sync for repository \"{}\""
 msgstr ""
 "Eroare la verificarea dacă repomd ({}: „{}”) este sincronizat pentru "
 "depozitul „{}”"
 
-#: repo/repo_downloader.cpp:336
+#: repo/repo_downloader.cpp:438
 msgid "Error loading local metadata for repository \"{}\""
 msgstr "Eroare la încărcarea metadatelor locale pentru depozitul „{}”"
 
-#: repo/repo_downloader.cpp:475
+#: repo/repo_downloader.cpp:520
 msgid ""
 "No valid source (baseurl, mirrorlist or metalink) found for repository \"{}\""
 msgstr ""
@@ -1073,7 +1081,7 @@ msgstr "Eșec la listarea cheilor OpenPGP: {}"
 msgid "Failed to import OpenPGP keys: {}"
 msgstr "Importare eșuată a cheilor OpenPGP: {}"
 
-#: repo/repo_sack.cpp:148
+#: repo/repo_sack.cpp:150
 msgid ""
 "Failed to create repo \"{}\": Id is present more than once in the "
 "configuration"
@@ -1081,52 +1089,52 @@ msgstr ""
 "Nu s-a reușit crearea depozitului „{}”: Id-ul este prezent de mai multe ori "
 "în configurație"
 
-#: repo/repo_sack.cpp:575
+#: repo/repo_sack.cpp:593
 msgid "Cache-only enabled but no cache for repository \"{}\""
 msgstr ""
 "Opțiunea cache-only este activată, dar nu există cache pentru depozitul „{}”"
 
-#: repo/solv_repo.cpp:266
+#: repo/solv_repo.cpp:267
 msgid "Failed to load repomd for repo \"{}\" from \"{}\": {}."
 msgstr "Încărcarea repomd pentru repo „{}” de la „{}” a eșuat: {}."
 
-#: repo/solv_repo.cpp:274
+#: repo/solv_repo.cpp:275
 msgid "Failed to load primary for repo \"{}\" from \"{}\": {}."
 msgstr "Încărcarea „primary” pentru repo „{}” de la „{}” a eșuat: {}."
 
-#: repo/solv_repo.cpp:322
+#: repo/solv_repo.cpp:323
 msgid "Unsupported extended repodata type for the system repo: \"{}\"."
 msgstr "Tip repodata extins neacceptat pentru depozitul sistemului: „{}”."
 
-#: repo/solv_repo.cpp:394
+#: repo/solv_repo.cpp:395
 msgid "Failed to load {} extension for repo \"{}\" from \"{}\": {}"
 msgstr ""
 "Nu s-a reușit încărcarea extensiei {} pentru depozitul „{}” de la „{}”: {}"
 
-#: repo/solv_repo.cpp:430
+#: repo/solv_repo.cpp:431
 msgid "Failed to load system repo from root \"{}\": {}"
 msgstr "Încărcarea depozitului de sistem de la rădăcina „{}” a eșuat: {}"
 
-#: repo/solv_repo.cpp:531
+#: repo/solv_repo.cpp:532
 msgid "Failed to load {} cache for repo \"{}\" from \"{}\": {}"
 msgstr ""
 "Nu s-a putut încărca cache-ul {} pentru depozitul repo „{}” din „{}”: {}"
 
-#: repo/solv_repo.cpp:585
+#: repo/solv_repo.cpp:586
 msgid "Failed to write primary cache for repo \"{}\" to \"{}\": {}"
 msgstr ""
 "Scrierea cache-ului „primary” pentru depozitul „{}” în „{}” a eșuat: {}"
 
-#: repo/solv_repo.cpp:607
+#: repo/solv_repo.cpp:608
 msgid "Failed to re-load primary cache for repo \"{}\" from \"{}\": {}"
 msgstr ""
 "A eșuat reîncărcarea cache-ului „primary” pentru depozitul „{}” din „{}”: {}"
 
-#: repo/solv_repo.cpp:672
+#: repo/solv_repo.cpp:673
 msgid "Failed to write {} cache for repo \"{}\" to \"{}\": {}"
 msgstr "Scrierea cache-ului primar pentru depozitul „{}” din „{}” a eșuat: {}"
 
-#: repo/solv_repo.cpp:693
+#: repo/solv_repo.cpp:694
 msgid "Failed to re-load {} cache for repo \"{}\" from \"{}\": {}"
 msgstr ""
 "A eșuat reîncărcarea cache-ului {} pentru depozitul repo „{}” din „{}”: {}"

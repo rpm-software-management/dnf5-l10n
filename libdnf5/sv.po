@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-07 03:32+0000\n"
+"POT-Creation-Date: 2025-05-16 03:34+0000\n"
 "PO-Revision-Date: 2025-05-07 15:58+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -959,28 +959,34 @@ msgstr "Redan hämtat"
 msgid "Failed to download packages"
 msgstr "Misslyckades med att ladda ner paket"
 
-#: repo/repo.cpp:59
+#: repo/repo.cpp:61
 msgid "Failed to load RPM \"{}\": doesn't have the \".rpm\" extension"
 msgstr "Misslyckades med att ladda RPM \"{}\": har inte tillägget \".rpm\""
 
-#: repo/repo.cpp:63
+#: repo/repo.cpp:65
 msgid "Failed to access RPM \"{}\": {}"
 msgstr "Misslyckades att få tillgång till RPM \"{}\": {}"
 
-#: repo/repo.cpp:105
+#: repo/repo.cpp:107
 msgid "Invalid repository id \"{}\": unexpected character '{}'"
 msgstr "Ogiltigt förråds-id \"{}\": oväntat tecken '{}'"
 
-#: repo/repo.cpp:148
+#: repo/repo.cpp:150
 msgid "Repository \"{}\" has no source (baseurl, mirrorlist or metalink) set."
 msgstr ""
 "Förrådet \"{}\" har ingen källa (baseurl, mirrorlist eller metalink) satt."
 
-#: repo/repo.cpp:159
+#: repo/repo.cpp:161
 msgid "Repository \"{}\" has unsupported type \"{}\", skipping."
 msgstr "Förråd \"{}\" har ostödd typ \"{}\", hoppar över."
 
-#: repo/repo.cpp:410
+#: repo/repo.cpp:228 repo/repo_sack.cpp:648
+#, fuzzy
+#| msgid "Failed to download metadata ({}: \"{}\") for repository \"{}\""
+msgid "Failed to download metadata ({}: \"{}\") for repository \"{}\": {}"
+msgstr "Misslyckades att ladda ner metadata ({}: \"{}\") för förråd \"{}\""
+
+#: repo/repo.cpp:426
 msgid ""
 "Failed to load repository: \"primary\" data not present or in unsupported "
 "format"
@@ -988,15 +994,15 @@ msgstr ""
 "Misslyckades att ladda förrådet : \"primär\" data finns inte eller i format "
 "som inte stöds"
 
-#: repo/repo.cpp:476
+#: repo/repo.cpp:492
 msgid "Failed to load comps \"{}\": doesn't have the \".xml\" extension"
 msgstr "Misslyckades med att ladda compose \"{}\": har inte \".xml\" tillägget"
 
-#: repo/repo.cpp:483
+#: repo/repo.cpp:499
 msgid "Failed to load xml Comps \"{}\": {}"
 msgstr "Misslyckades att ladda xml compose \"{}\": {}"
 
-#: repo/repo.cpp:501
+#: repo/repo.cpp:517
 msgid "Failed to load RPM \"{}\": {}"
 msgstr "Misslyckades att ladda RPM \"{}\": {}"
 
@@ -1008,30 +1014,32 @@ msgstr "Det går inte att bestämma id för förråd i cache."
 msgid "Empty path to the repository cache directory."
 msgstr "Tom sökväg till förrådets cachekatalog."
 
-#: repo/repo_downloader.cpp:138
+#: repo/repo_downloader.cpp:181
 msgid "Librepo error: {}"
 msgstr "Librepo fel: {}"
 
-#: repo/repo_downloader.cpp:170
-msgid "Failed to download metadata ({}: \"{}\") for repository \"{}\""
-msgstr "Misslyckades att ladda ner metadata ({}: \"{}\") för förråd \"{}\""
+#: repo/repo_downloader.cpp:265
+#, fuzzy
+#| msgid "Failed to download files"
+msgid "Failed to download metadata"
+msgstr "Misslyckades med att ladda ner filer"
 
-#: repo/repo_downloader.cpp:241
+#: repo/repo_downloader.cpp:340
 msgid "Error checking if metalink \"{}\" is in sync for repository \"{}\""
 msgstr ""
 "Fel vid kontroll av om metalink \"{}\" är synkroniserat för förrådet \"{}\""
 
-#: repo/repo_downloader.cpp:271
+#: repo/repo_downloader.cpp:373
 msgid "Error checking if repomd ({}: \"{}\") is in sync for repository \"{}\""
 msgstr ""
 "Fel vid kontroll av om repomd ({}: \"{}\") är synkroniserat för förrådet "
 "\"{}\""
 
-#: repo/repo_downloader.cpp:336
+#: repo/repo_downloader.cpp:438
 msgid "Error loading local metadata for repository \"{}\""
 msgstr "Fel vid laddning av lokal metadata för förråd \"{}\""
 
-#: repo/repo_downloader.cpp:475
+#: repo/repo_downloader.cpp:520
 msgid ""
 "No valid source (baseurl, mirrorlist or metalink) found for repository \"{}\""
 msgstr ""
@@ -1051,7 +1059,7 @@ msgstr "Misslyckades att lista OpenPGP nycklar: {}"
 msgid "Failed to import OpenPGP keys: {}"
 msgstr "Misslyckades att importera OpenPGP nycklar: {}"
 
-#: repo/repo_sack.cpp:148
+#: repo/repo_sack.cpp:150
 msgid ""
 "Failed to create repo \"{}\": Id is present more than once in the "
 "configuration"
@@ -1059,48 +1067,48 @@ msgstr ""
 "Misslyckades att skapa förråd \"{}\": Id finns mer än en gång i "
 "konfigurationen"
 
-#: repo/repo_sack.cpp:575
+#: repo/repo_sack.cpp:593
 msgid "Cache-only enabled but no cache for repository \"{}\""
 msgstr "Endast cache aktiverat men ingen cache för förråd \"{}\""
 
-#: repo/solv_repo.cpp:266
+#: repo/solv_repo.cpp:267
 msgid "Failed to load repomd for repo \"{}\" from \"{}\": {}."
 msgstr "Misslyckades att ladda repomd för förråd \"{}\" från \"{}\": {}."
 
-#: repo/solv_repo.cpp:274
+#: repo/solv_repo.cpp:275
 msgid "Failed to load primary for repo \"{}\" from \"{}\": {}."
 msgstr "Misslyckades att ladda primärt för förråd \"{}\" från \"{}\": {}."
 
-#: repo/solv_repo.cpp:322
+#: repo/solv_repo.cpp:323
 msgid "Unsupported extended repodata type for the system repo: \"{}\"."
 msgstr "Utvidgad repodatatyp som inte stöds för systemförråd: \"{}\"."
 
-#: repo/solv_repo.cpp:394
+#: repo/solv_repo.cpp:395
 msgid "Failed to load {} extension for repo \"{}\" from \"{}\": {}"
 msgstr "Misslyckades att ladda {} utökning för förråd \"{}\" från \"{}\": {}"
 
-#: repo/solv_repo.cpp:430
+#: repo/solv_repo.cpp:431
 msgid "Failed to load system repo from root \"{}\": {}"
 msgstr "Misslyckades att ladda systemförråd från root \"{}\": {}"
 
-#: repo/solv_repo.cpp:531
+#: repo/solv_repo.cpp:532
 msgid "Failed to load {} cache for repo \"{}\" from \"{}\": {}"
 msgstr "Misslyckades att ladda {} cache för förråd \"{}\" från \"{}\": {}"
 
-#: repo/solv_repo.cpp:585
+#: repo/solv_repo.cpp:586
 msgid "Failed to write primary cache for repo \"{}\" to \"{}\": {}"
 msgstr "Misslyckades att skriva primärcache för förråd \"{}\" till \"{}\": {}"
 
-#: repo/solv_repo.cpp:607
+#: repo/solv_repo.cpp:608
 msgid "Failed to re-load primary cache for repo \"{}\" from \"{}\": {}"
 msgstr ""
 "Misslyckades att ladda om primär cache för förråd \"{}\" från \"{}\": {}"
 
-#: repo/solv_repo.cpp:672
+#: repo/solv_repo.cpp:673
 msgid "Failed to write {} cache for repo \"{}\" to \"{}\": {}"
 msgstr "Misslyckades att skriva {} cache för förråd \"{}\" till \"{}\": {}"
 
-#: repo/solv_repo.cpp:693
+#: repo/solv_repo.cpp:694
 msgid "Failed to re-load {} cache for repo \"{}\" from \"{}\": {}"
 msgstr "Misslyckades att ladda om {} cache för förråd \"{}\" från \"{}\": {}"
 

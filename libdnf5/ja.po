@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-07 03:32+0000\n"
+"POT-Creation-Date: 2025-05-16 03:34+0000\n"
 "PO-Revision-Date: 2025-01-25 03:44+0000\n"
 "Last-Translator: Inci sakura <incisakura@icloud.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf5/"
@@ -902,41 +902,45 @@ msgstr ""
 msgid "Failed to download packages"
 msgstr ""
 
-#: repo/repo.cpp:59
+#: repo/repo.cpp:61
 msgid "Failed to load RPM \"{}\": doesn't have the \".rpm\" extension"
 msgstr ""
 
-#: repo/repo.cpp:63
+#: repo/repo.cpp:65
 msgid "Failed to access RPM \"{}\": {}"
 msgstr ""
 
-#: repo/repo.cpp:105
+#: repo/repo.cpp:107
 msgid "Invalid repository id \"{}\": unexpected character '{}'"
 msgstr ""
 
-#: repo/repo.cpp:148
+#: repo/repo.cpp:150
 msgid "Repository \"{}\" has no source (baseurl, mirrorlist or metalink) set."
 msgstr ""
 
-#: repo/repo.cpp:159
+#: repo/repo.cpp:161
 msgid "Repository \"{}\" has unsupported type \"{}\", skipping."
 msgstr ""
 
-#: repo/repo.cpp:410
+#: repo/repo.cpp:228 repo/repo_sack.cpp:648
+msgid "Failed to download metadata ({}: \"{}\") for repository \"{}\": {}"
+msgstr ""
+
+#: repo/repo.cpp:426
 msgid ""
 "Failed to load repository: \"primary\" data not present or in unsupported "
 "format"
 msgstr ""
 
-#: repo/repo.cpp:476
+#: repo/repo.cpp:492
 msgid "Failed to load comps \"{}\": doesn't have the \".xml\" extension"
 msgstr ""
 
-#: repo/repo.cpp:483
+#: repo/repo.cpp:499
 msgid "Failed to load xml Comps \"{}\": {}"
 msgstr ""
 
-#: repo/repo.cpp:501
+#: repo/repo.cpp:517
 msgid "Failed to load RPM \"{}\": {}"
 msgstr ""
 
@@ -948,27 +952,27 @@ msgstr ""
 msgid "Empty path to the repository cache directory."
 msgstr ""
 
-#: repo/repo_downloader.cpp:138
+#: repo/repo_downloader.cpp:181
 msgid "Librepo error: {}"
 msgstr ""
 
-#: repo/repo_downloader.cpp:170
-msgid "Failed to download metadata ({}: \"{}\") for repository \"{}\""
+#: repo/repo_downloader.cpp:265
+msgid "Failed to download metadata"
 msgstr ""
 
-#: repo/repo_downloader.cpp:241
+#: repo/repo_downloader.cpp:340
 msgid "Error checking if metalink \"{}\" is in sync for repository \"{}\""
 msgstr ""
 
-#: repo/repo_downloader.cpp:271
+#: repo/repo_downloader.cpp:373
 msgid "Error checking if repomd ({}: \"{}\") is in sync for repository \"{}\""
 msgstr ""
 
-#: repo/repo_downloader.cpp:336
+#: repo/repo_downloader.cpp:438
 msgid "Error loading local metadata for repository \"{}\""
 msgstr ""
 
-#: repo/repo_downloader.cpp:475
+#: repo/repo_downloader.cpp:520
 msgid ""
 "No valid source (baseurl, mirrorlist or metalink) found for repository \"{}\""
 msgstr ""
@@ -985,53 +989,53 @@ msgstr ""
 msgid "Failed to import OpenPGP keys: {}"
 msgstr ""
 
-#: repo/repo_sack.cpp:148
+#: repo/repo_sack.cpp:150
 msgid ""
 "Failed to create repo \"{}\": Id is present more than once in the "
 "configuration"
 msgstr ""
 
-#: repo/repo_sack.cpp:575
+#: repo/repo_sack.cpp:593
 msgid "Cache-only enabled but no cache for repository \"{}\""
 msgstr ""
 
-#: repo/solv_repo.cpp:266
+#: repo/solv_repo.cpp:267
 msgid "Failed to load repomd for repo \"{}\" from \"{}\": {}."
 msgstr ""
 
-#: repo/solv_repo.cpp:274
+#: repo/solv_repo.cpp:275
 msgid "Failed to load primary for repo \"{}\" from \"{}\": {}."
 msgstr ""
 
-#: repo/solv_repo.cpp:322
+#: repo/solv_repo.cpp:323
 msgid "Unsupported extended repodata type for the system repo: \"{}\"."
 msgstr ""
 
-#: repo/solv_repo.cpp:394
+#: repo/solv_repo.cpp:395
 msgid "Failed to load {} extension for repo \"{}\" from \"{}\": {}"
 msgstr ""
 
-#: repo/solv_repo.cpp:430
+#: repo/solv_repo.cpp:431
 msgid "Failed to load system repo from root \"{}\": {}"
 msgstr ""
 
-#: repo/solv_repo.cpp:531
+#: repo/solv_repo.cpp:532
 msgid "Failed to load {} cache for repo \"{}\" from \"{}\": {}"
 msgstr ""
 
-#: repo/solv_repo.cpp:585
+#: repo/solv_repo.cpp:586
 msgid "Failed to write primary cache for repo \"{}\" to \"{}\": {}"
 msgstr ""
 
-#: repo/solv_repo.cpp:607
+#: repo/solv_repo.cpp:608
 msgid "Failed to re-load primary cache for repo \"{}\" from \"{}\": {}"
 msgstr ""
 
-#: repo/solv_repo.cpp:672
+#: repo/solv_repo.cpp:673
 msgid "Failed to write {} cache for repo \"{}\" to \"{}\": {}"
 msgstr ""
 
-#: repo/solv_repo.cpp:693
+#: repo/solv_repo.cpp:694
 msgid "Failed to re-load {} cache for repo \"{}\" from \"{}\": {}"
 msgstr ""
 

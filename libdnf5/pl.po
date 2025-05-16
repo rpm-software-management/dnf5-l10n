@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-07 03:32+0000\n"
+"POT-Creation-Date: 2025-05-16 03:34+0000\n"
 "PO-Revision-Date: 2025-05-08 07:44+0000\n"
 "Last-Translator: Paweł Marciniak <sunwire+fas@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -973,29 +973,35 @@ msgstr "Już pobrano"
 msgid "Failed to download packages"
 msgstr "Nie udało się pobrać pakietów"
 
-#: repo/repo.cpp:59
+#: repo/repo.cpp:61
 msgid "Failed to load RPM \"{}\": doesn't have the \".rpm\" extension"
 msgstr "Nie udało się załadować RPM „{}”: nie ma rozszerzenia „.rpm”"
 
-#: repo/repo.cpp:63
+#: repo/repo.cpp:65
 msgid "Failed to access RPM \"{}\": {}"
 msgstr "Nie udało się uzyskać dostępu do RPM „{}”: {}"
 
-#: repo/repo.cpp:105
+#: repo/repo.cpp:107
 msgid "Invalid repository id \"{}\": unexpected character '{}'"
 msgstr "Nieprawidłowy identyfikator repozytorium „{}”: nieoczekiwany znak „{}”"
 
-#: repo/repo.cpp:148
+#: repo/repo.cpp:150
 msgid "Repository \"{}\" has no source (baseurl, mirrorlist or metalink) set."
 msgstr ""
 "Repozytorium „{}” nie ma ustawionego źródła (baseurl, mirrorlist lub "
 "metalink)."
 
-#: repo/repo.cpp:159
+#: repo/repo.cpp:161
 msgid "Repository \"{}\" has unsupported type \"{}\", skipping."
 msgstr "Repozytorium „{}” ma nieobsługiwany typ „{}”, pomijanie."
 
-#: repo/repo.cpp:410
+#: repo/repo.cpp:228 repo/repo_sack.cpp:648
+#, fuzzy
+#| msgid "Failed to download metadata ({}: \"{}\") for repository \"{}\""
+msgid "Failed to download metadata ({}: \"{}\") for repository \"{}\": {}"
+msgstr "Nie udało się pobrać metadanych ({}: \"{}\") dla repozytorium \"{}\""
+
+#: repo/repo.cpp:426
 msgid ""
 "Failed to load repository: \"primary\" data not present or in unsupported "
 "format"
@@ -1003,15 +1009,15 @@ msgstr ""
 "Nie udało się załadować repozytorium: dane „podstawowe” nie są obecne lub są "
 "w nieobsługiwanym formacie"
 
-#: repo/repo.cpp:476
+#: repo/repo.cpp:492
 msgid "Failed to load comps \"{}\": doesn't have the \".xml\" extension"
 msgstr "Nie udało się załadować kompozycji „{}”: nie ma rozszerzenia „.xml”"
 
-#: repo/repo.cpp:483
+#: repo/repo.cpp:499
 msgid "Failed to load xml Comps \"{}\": {}"
 msgstr "Nie udało się załadować kompozycji xml \"{}\": {}"
 
-#: repo/repo.cpp:501
+#: repo/repo.cpp:517
 msgid "Failed to load RPM \"{}\": {}"
 msgstr "Nie udało się załadować RPM „{}”: {}"
 
@@ -1023,31 +1029,33 @@ msgstr "Nie można ustalić identyfikatora repozytorium w pamięci podręcznej."
 msgid "Empty path to the repository cache directory."
 msgstr "Pusta ścieżka do katalogu pamięci podręcznej repozytorium."
 
-#: repo/repo_downloader.cpp:138
+#: repo/repo_downloader.cpp:181
 msgid "Librepo error: {}"
 msgstr "Błąd librepo: {}"
 
-#: repo/repo_downloader.cpp:170
-msgid "Failed to download metadata ({}: \"{}\") for repository \"{}\""
-msgstr "Nie udało się pobrać metadanych ({}: \"{}\") dla repozytorium \"{}\""
+#: repo/repo_downloader.cpp:265
+#, fuzzy
+#| msgid "Failed to download files"
+msgid "Failed to download metadata"
+msgstr "Nie udało się pobrać plików"
 
-#: repo/repo_downloader.cpp:241
+#: repo/repo_downloader.cpp:340
 msgid "Error checking if metalink \"{}\" is in sync for repository \"{}\""
 msgstr ""
 "Wystąpił błąd podczas sprawdzania, czy metalink „{}” jest zsynchronizowany z "
 "repozytorium „{}”"
 
-#: repo/repo_downloader.cpp:271
+#: repo/repo_downloader.cpp:373
 msgid "Error checking if repomd ({}: \"{}\") is in sync for repository \"{}\""
 msgstr ""
 "Wystąpił błąd podczas sprawdzania, czy repomd ({}: \"{}\") jest "
 "zsynchronizowany z repozytorium \"{}\""
 
-#: repo/repo_downloader.cpp:336
+#: repo/repo_downloader.cpp:438
 msgid "Error loading local metadata for repository \"{}\""
 msgstr "Błąd podczas ładowania lokalnych metadanych dla repozytorium „{}”"
 
-#: repo/repo_downloader.cpp:475
+#: repo/repo_downloader.cpp:520
 msgid ""
 "No valid source (baseurl, mirrorlist or metalink) found for repository \"{}\""
 msgstr ""
@@ -1067,7 +1075,7 @@ msgstr "Nie udało się wyświetlić kluczy OpenPGP: {}"
 msgid "Failed to import OpenPGP keys: {}"
 msgstr "Nie udało się zaimportować kluczy OpenPGP: {}"
 
-#: repo/repo_sack.cpp:148
+#: repo/repo_sack.cpp:150
 msgid ""
 "Failed to create repo \"{}\": Id is present more than once in the "
 "configuration"
@@ -1075,60 +1083,60 @@ msgstr ""
 "Nie udało się utworzyć repozytorium „{}”: Identyfikator występuje więcej niż "
 "raz w konfiguracji"
 
-#: repo/repo_sack.cpp:575
+#: repo/repo_sack.cpp:593
 msgid "Cache-only enabled but no cache for repository \"{}\""
 msgstr ""
 "Włączono tylko pamięć podręczną, ale brak pamięci podręcznej dla "
 "repozytorium „{}”"
 
-#: repo/solv_repo.cpp:266
+#: repo/solv_repo.cpp:267
 msgid "Failed to load repomd for repo \"{}\" from \"{}\": {}."
 msgstr "Nie udało się załadować repomd dla repozytorium „{}” z „{}”: {}."
 
-#: repo/solv_repo.cpp:274
+#: repo/solv_repo.cpp:275
 msgid "Failed to load primary for repo \"{}\" from \"{}\": {}."
 msgstr ""
 "Nie udało się załadować „podstawowych” danych repozytorium „{}” z „{}”: {}."
 
-#: repo/solv_repo.cpp:322
+#: repo/solv_repo.cpp:323
 msgid "Unsupported extended repodata type for the system repo: \"{}\"."
 msgstr ""
 "Nieobsługiwany rozszerzony typ repozytorium danych dla repozytorium "
 "systemowego: „{}”."
 
-#: repo/solv_repo.cpp:394
+#: repo/solv_repo.cpp:395
 msgid "Failed to load {} extension for repo \"{}\" from \"{}\": {}"
 msgstr ""
 "Nie udało się załadować rozszerzenia {} dla repozytorium „{}” z „{}”: {}"
 
-#: repo/solv_repo.cpp:430
+#: repo/solv_repo.cpp:431
 msgid "Failed to load system repo from root \"{}\": {}"
 msgstr ""
 
-#: repo/solv_repo.cpp:531
+#: repo/solv_repo.cpp:532
 msgid "Failed to load {} cache for repo \"{}\" from \"{}\": {}"
 msgstr ""
 "Nie udało się załadować pamięci podręcznej {} dla repozytorium „{}” z „{}”: "
 "{}"
 
-#: repo/solv_repo.cpp:585
+#: repo/solv_repo.cpp:586
 msgid "Failed to write primary cache for repo \"{}\" to \"{}\": {}"
 msgstr ""
 "Nie udało się zapisać podstawowej pamięci podręcznej głównej dla "
 "repozytorium „{}” do „{}”: {}"
 
-#: repo/solv_repo.cpp:607
+#: repo/solv_repo.cpp:608
 msgid "Failed to re-load primary cache for repo \"{}\" from \"{}\": {}"
 msgstr ""
 "Nie udało się ponownie załadować podstawowej pamięci podręcznej dla "
 "repozytorium „{}” z „{}”: {}"
 
-#: repo/solv_repo.cpp:672
+#: repo/solv_repo.cpp:673
 msgid "Failed to write {} cache for repo \"{}\" to \"{}\": {}"
 msgstr ""
 "Nie udało się zapisać pamięci podręcznej {} dla repozytorium „{}” do „{}”: {}"
 
-#: repo/solv_repo.cpp:693
+#: repo/solv_repo.cpp:694
 msgid "Failed to re-load {} cache for repo \"{}\" from \"{}\": {}"
 msgstr ""
 "Nie udało się ponownie załadować pamięci podręcznej {} dla repozytorium „{}” "
