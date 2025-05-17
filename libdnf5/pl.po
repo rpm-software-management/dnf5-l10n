@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-16 03:34+0000\n"
-"PO-Revision-Date: 2025-05-08 07:44+0000\n"
+"PO-Revision-Date: 2025-05-17 06:45+0000\n"
 "Last-Translator: Paweł Marciniak <sunwire+fas@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/pl/>\n"
@@ -996,10 +996,9 @@ msgid "Repository \"{}\" has unsupported type \"{}\", skipping."
 msgstr "Repozytorium „{}” ma nieobsługiwany typ „{}”, pomijanie."
 
 #: repo/repo.cpp:228 repo/repo_sack.cpp:648
-#, fuzzy
-#| msgid "Failed to download metadata ({}: \"{}\") for repository \"{}\""
 msgid "Failed to download metadata ({}: \"{}\") for repository \"{}\": {}"
-msgstr "Nie udało się pobrać metadanych ({}: \"{}\") dla repozytorium \"{}\""
+msgstr ""
+"Nie udało się pobrać metadanych ({}: \"{}\") dla repozytorium \"{}\": {}"
 
 #: repo/repo.cpp:426
 msgid ""
@@ -1034,10 +1033,8 @@ msgid "Librepo error: {}"
 msgstr "Błąd librepo: {}"
 
 #: repo/repo_downloader.cpp:265
-#, fuzzy
-#| msgid "Failed to download files"
 msgid "Failed to download metadata"
-msgstr "Nie udało się pobrać plików"
+msgstr "Nie udało się pobrać metadanych"
 
 #: repo/repo_downloader.cpp:340
 msgid "Error checking if metalink \"{}\" is in sync for repository \"{}\""
