@@ -9,8 +9,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-16 03:34+0000\n"
 "PO-Revision-Date: 2025-05-18 01:11+0000\n"
-"Last-Translator: gossypium "
-"<gossypium@users.noreply.translate.fedoraproject.org>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5daemon-client/es/>\n"
 "Language: es\n"
@@ -87,6 +87,8 @@ msgstr "Mostrar solo avisos que hacen referencia a un CVE."
 msgid ""
 "Include content contained in advisories with specified name. List option."
 msgstr ""
+"Incluir el contenido presente en los avisos con el nombre especificado. "
+"Opción de lista."
 
 #: commands/advisory/arguments.hpp:114
 msgid "ADVISORY_NAME,..."
@@ -94,19 +96,19 @@ msgstr "NOMBRE_DEL_AVISO,..."
 
 #: commands/advisory/arguments.hpp:121
 msgid "Include content contained in security advisories."
-msgstr ""
+msgstr "Incluir el contenido presente en los avisos de seguridad."
 
 #: commands/advisory/arguments.hpp:128
 msgid "Include content contained in bugfix advisories."
-msgstr ""
+msgstr "Incluir el contenido presente en los avisos de correcciones de errores."
 
 #: commands/advisory/arguments.hpp:135
 msgid "Include content contained in enhancement advisories."
-msgstr ""
+msgstr "Incluir el contenido presente en los avisos de mejoras."
 
 #: commands/advisory/arguments.hpp:142
 msgid "Include content contained in newpackage advisories."
-msgstr ""
+msgstr "Incluir el contenido de los avisos de paquetes nuevos."
 
 #. Note for translators: "critical" etc. quoted words are
 #. literals that should not be translated.
@@ -115,6 +117,9 @@ msgid ""
 "Include content contained in advisories with specified severity. List "
 "option. Can be \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgstr ""
+"Incluir el contenido presente en los avisos con severidad especificada. "
+"Opción de lista. Puede ser «critical», «important», «moderate», «low» o "
+"«none»."
 
 #: commands/advisory/arguments.hpp:157
 msgid "ADVISORY_SEVERITY,..."
@@ -125,6 +130,8 @@ msgid ""
 "Include content contained in advisories that fix a Bugzilla ID, Eg. 123123. "
 "List option."
 msgstr ""
+"Incluir el contenido presente en los avisos que corrigen una ID de Bugzilla, "
+"p. ej. 123123. Opción de lista."
 
 #: commands/advisory/arguments.hpp:170
 msgid "BUGZILLA_ID,..."
@@ -135,6 +142,9 @@ msgid ""
 "Include content contained in advisories that fix a CVE (Common "
 "Vulnerabilities and Exposures) ID, Eg. CVE-2201-0123. List option."
 msgstr ""
+"Incluir el contenido presente en los avisos que corrigen una ID de CVE («"
+"vulnerabilidades y exposiciones comunes»), p. ej. CVE-2201-0123. Opción de "
+"lista."
 
 #: commands/advisory/arguments.hpp:182
 msgid "CVE_ID,..."
@@ -149,6 +159,8 @@ msgstr "Error al limpiar la caché: {}"
 msgid ""
 "Upgrade or downgrade installed software to the latest available versions"
 msgstr ""
+"Actualizar o degradar software instalado a las versiones más recientes "
+"disponibles"
 
 #: commands/group/group.cpp:41
 msgid "Manage comps groups"
@@ -156,7 +168,7 @@ msgstr "Gestionar grupos de comps"
 
 #: commands/group/group_list.hpp:37
 msgid "Show only available groups."
-msgstr ""
+msgstr "Mostrar solo los grupos disponibles."
 
 #: commands/group/group_list.hpp:43
 msgid "Show only installed groups."
