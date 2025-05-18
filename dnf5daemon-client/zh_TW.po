@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-16 03:34+0000\n"
-"PO-Revision-Date: 2025-05-10 15:59+0000\n"
+"PO-Revision-Date: 2025-05-18 10:16+0000\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
 "projects/dnf5/dnf5daemon-client/zh_TW/>\n"
@@ -26,7 +26,7 @@ msgstr "管理通報"
 
 #: commands/advisory/advisory_info.hpp:34
 msgid "Print details about advisories"
-msgstr "列出通報相關的詳細資訊"
+msgstr "列出通報的相關詳細資訊"
 
 #: commands/advisory/advisory_list.hpp:34
 msgid "List advisories"
@@ -45,7 +45,7 @@ msgstr "顯示已安裝軟體包有新版本的通報。這是預設行為。"
 #: commands/advisory/arguments.hpp:55
 msgid ""
 "Show advisories containing equal and older versions of installed packages."
-msgstr "顯示已安裝軟體包是相同與較舊版本的通報。"
+msgstr "顯示已安裝軟體包的相同版本與舊版的通報。"
 
 #: commands/advisory/arguments.hpp:67
 msgid ""
@@ -65,7 +65,7 @@ msgstr "PACKAGE_NAME,..."
 
 #: commands/advisory/arguments.hpp:88
 msgid "List of patterns matched against advisory names."
-msgstr "根據通報名稱作比對的樣式清單。"
+msgstr "根據通報名稱比對的樣式清單。"
 
 #: commands/advisory/arguments.hpp:95
 msgid "Show only advisories referencing a bugzilla."
@@ -78,7 +78,7 @@ msgstr "只顯示有引用 CVE 的通報。"
 #: commands/advisory/arguments.hpp:113
 msgid ""
 "Include content contained in advisories with specified name. List option."
-msgstr "以特定名稱納入通報中所含內容的軟體包。列表選項。"
+msgstr "納入指定名稱通報中所含的內容。列表選項。"
 
 #: commands/advisory/arguments.hpp:114
 msgid "ADVISORY_NAME,..."
@@ -107,8 +107,8 @@ msgid ""
 "Include content contained in advisories with specified severity. List "
 "option. Can be \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgstr ""
-"納入特定嚴重程度的通報所含的內容。列表選項。可以是 "
-"\"critical\"、\"important\"、\"moderate\"、\"low\"、\"none\"。"
+"納入指定嚴重程度的通報所含的內容。列表選項。可以是 \"critical\"、"
+"\"important\"、\"moderate\"、\"low\"、\"none\"。"
 
 #: commands/advisory/arguments.hpp:157
 msgid "ADVISORY_SEVERITY,..."
@@ -155,7 +155,7 @@ msgstr "僅顯示可用的群組。"
 
 #: commands/group/group_list.hpp:43
 msgid "Show only installed groups."
-msgstr "僅顯示已安裝的群組。"
+msgstr "只顯示已安裝的群組。"
 
 #: commands/group/group_list.hpp:49
 msgid "Show also hidden groups."
@@ -188,7 +188,7 @@ msgstr "此命令需要以超級使用者權限執行（大部分系統是在 ro
 #: main.cpp:158
 msgid ""
 "{}: Badly formatted argument value: Last key character cannot be '.': {}"
-msgstr "{}：格式錯誤的引數值： 最後一個關鍵字不能是 '： {}"
+msgstr "{}：格式錯誤的引數值：最後一個鍵的字元不能是「.」：{}"
 
 #: main.cpp:258 main.cpp:308
 msgid ". Add \"--help\" for more information about the arguments."
