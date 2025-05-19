@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-16 03:34+0000\n"
-"PO-Revision-Date: 2025-05-10 21:25+0000\n"
-"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
+"PO-Revision-Date: 2025-05-19 18:29+0000\n"
+"Last-Translator: Ciro Mota <ciro.mota@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf5/libdnf5/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -1000,10 +1000,8 @@ msgid "Repository \"{}\" has unsupported type \"{}\", skipping."
 msgstr "O repositório \"{}\" tem tipo \"{}\" não suportado, ignorando."
 
 #: repo/repo.cpp:228 repo/repo_sack.cpp:648
-#, fuzzy
-#| msgid "Failed to download metadata ({}: \"{}\") for repository \"{}\""
 msgid "Failed to download metadata ({}: \"{}\") for repository \"{}\": {}"
-msgstr "Falha ao baixar metadados ({}: \"{}\") para o repositório \"{}\""
+msgstr "Falha ao baixar metadados ({}: \"{}\") para o repositório \"{}\": {}"
 
 #: repo/repo.cpp:426
 msgid ""
@@ -1038,10 +1036,8 @@ msgid "Librepo error: {}"
 msgstr "Erro no librepo: {}"
 
 #: repo/repo_downloader.cpp:265
-#, fuzzy
-#| msgid "Failed to download files"
 msgid "Failed to download metadata"
-msgstr "Falha ao baixar arquivos"
+msgstr "Falha ao baixar metadados"
 
 #: repo/repo_downloader.cpp:340
 msgid "Error checking if metalink \"{}\" is in sync for repository \"{}\""
