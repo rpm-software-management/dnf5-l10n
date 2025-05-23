@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-23 03:33+0000\n"
-"PO-Revision-Date: 2025-05-08 00:58+0000\n"
+"PO-Revision-Date: 2025-05-23 19:51+0000\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ro/>\n"
@@ -242,62 +242,61 @@ msgstr ""
 "versiuni disponibile"
 
 #: commands/do/do.cpp:42
-#, fuzzy
-#| msgid "Running transaction"
 msgid "Do transaction"
-msgstr "Tranzacție în derulare"
+msgstr "Efectuează tranzacția"
 
 #: commands/do/do.cpp:47
 msgid "Action to be done on the following items."
-msgstr ""
+msgstr "Se vor lua măsuri cu privire la următoarele elemente."
 
 #: commands/do/do.cpp:61
 msgid "Unsupported action \"{}\""
-msgstr ""
+msgstr "Acțiune neacceptată „{}”"
 
 #: commands/do/do.cpp:71
 msgid "Type of the following items."
-msgstr ""
+msgstr "Tipul următoarelor elemente."
 
 #: commands/do/do.cpp:84
 msgid "Unsupported item type \"{}\""
-msgstr ""
+msgstr "Tip de element neadmis „{}”"
 
 #: commands/do/do.cpp:95
 msgid ""
 "The following items can be selected only from the specified repositories. "
 "All enabled repositories will still be used to satisfy dependencies."
 msgstr ""
+"Următoarele elemente pot fi selectate numai din depozitele specificate. "
+"Toate depozitele activate vor fi utilizate în continuare pentru a satisface "
+"dependențele."
 
 #: commands/do/do.cpp:110
 msgid "List of items to take action on"
-msgstr ""
+msgstr "Lista elementelor asupra cărora trebuie luate măsuri"
 
 #: commands/do/do.cpp:141 commands/do/do.cpp:145
 msgid "Only package downgrade is supported."
-msgstr ""
+msgstr "Este acceptată doar retrogradarea pachetelor."
 
 #: commands/do/do.cpp:152 commands/do/do.cpp:156
 msgid "Only package reinstall is supported."
-msgstr ""
+msgstr "Este acceptată doar reinstalarea pachetelor."
 
 #: commands/do/do.cpp:162
 msgid "Action was not defined"
-msgstr ""
+msgstr "Acțiunea nu a fost definită"
 
 #: commands/do/do.cpp:240
-#, fuzzy
-#| msgid "Invalid urlprotocol option: {}"
 msgid "Invalid Environmet/Group specification: {}"
-msgstr "Opțiune urlprotocol nevalidă: {}"
+msgstr "Specificație de mediu/grup nevalidă: {}"
 
 #: commands/do/do.cpp:324
 msgid "Downgrading environments and groups is not supported."
-msgstr ""
+msgstr "Retrogradarea mediilor și grupurilor nu este acceptată."
 
 #: commands/do/do.cpp:340
 msgid "Reinstaling environments and groups is not supported."
-msgstr ""
+msgstr "Reinstalarea mediilor și grupurilor nu este acceptată."
 
 #: commands/downgrade/downgrade.cpp:40
 msgid "Downgrade software"
