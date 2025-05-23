@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-23 03:33+0000\n"
-"PO-Revision-Date: 2025-05-08 23:28+0000\n"
+"PO-Revision-Date: 2025-05-23 19:51+0000\n"
 "Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/fr/>\n"
@@ -256,62 +256,65 @@ msgstr ""
 "(réinstallation de versions antérieures possible)"
 
 #: commands/do/do.cpp:42
-#, fuzzy
-#| msgid "Running transaction"
 msgid "Do transaction"
-msgstr "Exécution de la transaction"
+msgstr "Faire une transaction"
 
 #: commands/do/do.cpp:47
 msgid "Action to be done on the following items."
-msgstr ""
+msgstr "Action à faire sur les éléments suivants."
 
 #: commands/do/do.cpp:61
 msgid "Unsupported action \"{}\""
-msgstr ""
+msgstr "Action \"{}\" non prise en charge"
 
 #: commands/do/do.cpp:71
 msgid "Type of the following items."
-msgstr ""
+msgstr "Type des éléments suivants."
 
 #: commands/do/do.cpp:84
 msgid "Unsupported item type \"{}\""
-msgstr ""
+msgstr "Type d'élément \"{}\" non pris en charge"
 
 #: commands/do/do.cpp:95
 msgid ""
 "The following items can be selected only from the specified repositories. "
 "All enabled repositories will still be used to satisfy dependencies."
 msgstr ""
+"Les éléments suivants ne peuvent être sélectionnés qu'à partir des dépôts "
+"spécifiés. Les dépendances seront quand même satisfaites en utilisant tous "
+"les dépôts activés."
 
 #: commands/do/do.cpp:110
 msgid "List of items to take action on"
-msgstr ""
+msgstr "Liste des éléments sur lesquels agir"
 
 #: commands/do/do.cpp:141 commands/do/do.cpp:145
 msgid "Only package downgrade is supported."
 msgstr ""
+"Seule l'installation de versions antérieures de paquets est prise en charge."
 
 #: commands/do/do.cpp:152 commands/do/do.cpp:156
 msgid "Only package reinstall is supported."
-msgstr ""
+msgstr "Seule la réinstallation de paquets est prise en charge."
 
 #: commands/do/do.cpp:162
 msgid "Action was not defined"
-msgstr ""
+msgstr "L'action n'était pas définie"
 
 #: commands/do/do.cpp:240
-#, fuzzy
-#| msgid "Invalid urlprotocol option: {}"
 msgid "Invalid Environmet/Group specification: {}"
-msgstr "Option urlprotocol invalide : {}"
+msgstr "Spécification d'environnement ou de groupe invalide : {}"
 
 #: commands/do/do.cpp:324
 msgid "Downgrading environments and groups is not supported."
 msgstr ""
+"L'installation de versions antérieures d'environnements ou de groupes n'est "
+"pas prise en charge."
 
 #: commands/do/do.cpp:340
 msgid "Reinstaling environments and groups is not supported."
 msgstr ""
+"La réinstallation d'environnements ou de groupes n'est pas prise en charge."
 
 #: commands/downgrade/downgrade.cpp:40
 msgid "Downgrade software"
