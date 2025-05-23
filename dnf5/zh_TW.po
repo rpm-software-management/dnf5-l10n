@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-16 03:34+0000\n"
+"POT-Creation-Date: 2025-05-23 03:33+0000\n"
 "PO-Revision-Date: 2025-05-18 10:16+0000\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
@@ -142,8 +142,8 @@ msgid ""
 "Include content contained in advisories with specified severity. List "
 "option. Can be \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgstr ""
-"納入指定嚴重程度的通報所含的內容。列表選項。可以是 \"critical\"、"
-"\"important\"、\"moderate\"、\"low\"、\"none\"。"
+"納入指定嚴重程度的通報所含的內容。列表選項。可以是 "
+"\"critical\"、\"important\"、\"moderate\"、\"low\"、\"none\"。"
 
 #: commands/advisory_shared.hpp:200
 msgid "ADVISORY_SEVERITY,..."
@@ -186,9 +186,9 @@ msgid ""
 "advisories is used it reports the lowest versions of packages that fix "
 "advisories matching selected advisory properties"
 msgstr ""
-"回報可修復臭蟲修正、功能增強、安全性、新軟體包等修正通報類型的軟體包最低版本"
-"。如果使用了任何限定通報的選項，則回報可修復符合所選通報屬性的修正通報軟體包"
-"最低版本"
+"回報可修復臭蟲修正、功能增強、安全性、新軟體包等修正通報類型的軟體包最低版"
+"本。如果使用了任何限定通報的選項，則回報可修復符合所選通報屬性的修正通報軟體"
+"包最低版本"
 
 #: commands/check/check.cpp:247
 msgid "Check for problems in the packagedb"
@@ -227,6 +227,64 @@ msgid ""
 "Upgrade or downgrade installed software to the latest available versions"
 msgstr "升級或降級已安裝的軟體至最新可用版本"
 
+#: commands/do/do.cpp:42
+#, fuzzy
+#| msgid "Running transaction"
+msgid "Do transaction"
+msgstr "執行處理事項"
+
+#: commands/do/do.cpp:47
+msgid "Action to be done on the following items."
+msgstr ""
+
+#: commands/do/do.cpp:61
+msgid "Unsupported action \"{}\""
+msgstr ""
+
+#: commands/do/do.cpp:71
+msgid "Type of the following items."
+msgstr ""
+
+#: commands/do/do.cpp:84
+msgid "Unsupported item type \"{}\""
+msgstr ""
+
+#: commands/do/do.cpp:95
+msgid ""
+"The following items can be selected only from the specified repositories. "
+"All enabled repositories will still be used to satisfy dependencies."
+msgstr ""
+
+#: commands/do/do.cpp:110
+msgid "List of items to take action on"
+msgstr ""
+
+#: commands/do/do.cpp:141 commands/do/do.cpp:145
+msgid "Only package downgrade is supported."
+msgstr ""
+
+#: commands/do/do.cpp:152 commands/do/do.cpp:156
+msgid "Only package reinstall is supported."
+msgstr ""
+
+#: commands/do/do.cpp:162
+msgid "Action was not defined"
+msgstr ""
+
+#: commands/do/do.cpp:240
+#, fuzzy
+#| msgid "Invalid urlprotocol option: {}"
+msgid "Invalid Environmet/Group specification: {}"
+msgstr "無效的 urlprotocol 選項：{}"
+
+#: commands/do/do.cpp:324
+msgid "Downgrading environments and groups is not supported."
+msgstr ""
+
+#: commands/do/do.cpp:340
+msgid "Reinstaling environments and groups is not supported."
+msgstr ""
+
 #: commands/downgrade/downgrade.cpp:40
 msgid "Downgrade software"
 msgstr "降級軟體"
@@ -239,7 +297,7 @@ msgstr "當搭配 --url 執行時，會印出所有可用鏡像的 URL"
 msgid "Invalid urlprotocol option: {}"
 msgstr "無效的 urlprotocol 選項：{}"
 
-#: commands/download/download.cpp:148 main.cpp:625
+#: commands/download/download.cpp:148 main.cpp:626
 msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
 msgstr "不支援架構「{0}」。請從 {1} 中選擇一個"
 
@@ -334,7 +392,8 @@ msgstr "管理處理事項的歷史記錄"
 msgid ""
 "No match found, history info defaults to considering only the last "
 "transaction, specify \"1..last\" range to search all transactions."
-msgstr "找不到符合項目，歷史資訊預設為只考慮最後一次處理事項，指定「1...last」範圍可"
+msgstr ""
+"找不到符合項目，歷史資訊預設為只考慮最後一次處理事項，指定「1...last」範圍可"
 "搜尋所有處理事項。"
 
 #: commands/history/history_redo.cpp:54
@@ -362,8 +421,8 @@ msgid ""
 "Invalid transaction ID range \"{}\", \"ID\" or \"ID..ID\" expected, where ID "
 "is \"NUMBER\", \"last\" or \"last-NUMBER\"."
 msgstr ""
-"無效的處理事項 ID 範圍「{}」，預期「ID」或「ID...ID」，其中 ID "
-"應為「NUMBER」、「last」或「last-NUMBER」。"
+"無效的處理事項 ID 範圍「{}」，預期「ID」或「ID...ID」，其中 ID 應為"
+"「NUMBER」、「last」或「last-NUMBER」。"
 
 #: commands/install/install.cpp:41
 msgid "Install software"
@@ -852,7 +911,7 @@ msgstr "金鑰 0x{} 已成功移除。"
 msgid "setopt: \"{}.{}\": {}"
 msgstr "setopt：「{}.{}」：{}"
 
-#: context.cpp:301 main.cpp:1352
+#: context.cpp:301 main.cpp:1354
 msgid ", "
 msgstr ", "
 
@@ -860,7 +919,8 @@ msgstr ", "
 msgid ""
 "No matching repositories for {}. To use repositories from a host system, "
 "pass --use-host-config option"
-msgstr "沒有符合 {} 的軟體庫。若要使用主機系統的軟體庫，請使用 --use-host-config 選項"
+msgstr ""
+"沒有符合 {} 的軟體庫。若要使用主機系統的軟體庫，請使用 --use-host-config 選項"
 
 #: context.cpp:309
 msgid "No matching repositories for {}"
@@ -910,9 +970,8 @@ msgid ""
 "reboot and run the transaction. To cancel the transaction and delete the "
 "downloaded files, use `dnf5 offline clean`."
 msgstr ""
-"儲存處理事項以供離線執行。請執行 `dnf5 offline reboot` "
-"以重新啟動並執行處理事項。若要取消處理事項並刪除下載的檔案，請使用 `dnf5 "
-"offline clean`。"
+"儲存處理事項以供離線執行。請執行 `dnf5 offline reboot` 以重新啟動並執行處理事"
+"項。若要取消處理事項並刪除下載的檔案，請使用 `dnf5 offline clean`。"
 
 #: context.cpp:502
 msgid "Running transaction"
@@ -994,68 +1053,69 @@ msgstr "無法載入共享的函式庫「{}」：{}"
 msgid "Cannot obtain address of symbol \"{}\": {}"
 msgstr "無法取得符號「{}」的位址：{}"
 
-#: main.cpp:131
+#: main.cpp:132
 msgid "Utility for packages maintaining"
 msgstr "用於維護軟體包的公用程式"
 
-#: main.cpp:132
+#: main.cpp:133
 msgid "DNF5 is a program for maintaining packages."
 msgstr "DNF5 是用來維護軟體包的程式。"
 
-#: main.cpp:133
+#: main.cpp:134
 msgid "Unclassified options:"
 msgstr "未分類的選項："
 
-#: main.cpp:136
+#: main.cpp:137
 msgid "Global options:"
 msgstr "全域選項："
 
-#: main.cpp:141
+#: main.cpp:142
 msgid "Print help"
 msgstr "列印求助訊息"
 
-#: main.cpp:148
+#: main.cpp:149
 msgid "Configuration file location"
 msgstr "設定組態檔位置"
 
-#: main.cpp:156
+#: main.cpp:157
 msgid ""
 "In combination with a non-interactive command, shows just the relevant "
 "content. Suppresses messages notifying about the current state or actions of "
 "dnf5."
-msgstr "結合非互動命令使用，只顯示相關內容。隱藏通知 dnf5 目前狀態或動作的訊息。"
+msgstr ""
+"結合非互動命令使用，只顯示相關內容。隱藏通知 dnf5 目前狀態或動作的訊息。"
 
-#: main.cpp:171
+#: main.cpp:172
 msgid ""
 "Run entirely from system cache, don't update the cache and use it even in "
 "case it is expired."
 msgstr "完全從系統快取執行，不更新快取，即使快取已過期也使用。"
 
-#: main.cpp:180
+#: main.cpp:181
 msgid "Control whether color is used."
 msgstr "控制使用什麼顏色。"
 
-#: main.cpp:186
+#: main.cpp:187
 msgid "Force refreshing metadata before running the command."
 msgstr "執行命令前強制重新整理中介資料。"
 
-#: main.cpp:202
+#: main.cpp:203
 msgid "Failed to expire repository cache in path \"{0}\": {1}"
 msgstr "路徑「{0}」中的軟體庫快取過期失敗：{1}"
 
-#: main.cpp:216
+#: main.cpp:217
 msgid "create additional repository using id and path"
 msgstr "使用 id 和路徑建立其他軟體庫"
 
-#: main.cpp:224
+#: main.cpp:225
 msgid "repofrompath: Incorrect repoid and path specification \"{}\""
 msgstr "repofrompath：不正確的 repofoid 和路徑規格「{}」"
 
-#: main.cpp:236
+#: main.cpp:237
 msgid "set arbitrary config and repo options"
 msgstr "設定任意組態與軟體庫選項"
 
-#: main.cpp:238
+#: main.cpp:239
 msgid ""
 "Override a configuration option from the configuration file. To override "
 "configuration options for repositories, use repoid.option for  the\n"
@@ -1071,175 +1131,175 @@ msgstr ""
 "tsflags，會附加到原始值，而不會凌駕原始值。\n"
 "不過，指定一個空值（例如 --setopt=tsflags=）會清除該選項。"
 
-#: main.cpp:247 main.cpp:286
+#: main.cpp:248 main.cpp:287
 msgid "{}: Badly formatted argument value \"{}\""
 msgstr "{}：格式錯誤的引數值「{}」"
 
-#: main.cpp:254
+#: main.cpp:255
 msgid ""
 "{}: Badly formatted argument value: Last key character cannot be '.': {}"
 msgstr "{}：格式錯誤的引數值：最後一個鍵的字元不能是「.」：{}"
 
-#: main.cpp:267
+#: main.cpp:268
 msgid "setopt: \"{0}\": {1}"
 msgstr "setopt：「{0}」：{1}"
 
-#: main.cpp:279
+#: main.cpp:280
 msgid "set arbitrary variable"
 msgstr "設定任意變數"
 
-#: main.cpp:293
+#: main.cpp:294
 msgid "setvar: {}"
 msgstr "setvar：{}"
 
-#: main.cpp:302
+#: main.cpp:303
 msgid "automatically answer yes for all questions"
 msgstr "自動同意所有問題"
 
-#: main.cpp:309
+#: main.cpp:310
 msgid "automatically answer no for all questions"
 msgstr "自動拒絕所有問題"
 
-#: main.cpp:316
+#: main.cpp:317
 msgid "try the best available package versions in transactions"
 msgstr "在處理事項中嘗試最佳的可用軟體包版本"
 
-#: main.cpp:323
+#: main.cpp:324
 msgid "do not limit the transaction to the best candidate"
 msgstr "不要將處理事項限制在最佳候選"
 
-#: main.cpp:334
+#: main.cpp:335
 msgid ""
 "Don't install files that are marked as documentation (which includes man "
 "pages and texinfo documents)"
 msgstr "不要安裝標示為文件的檔案（包括 man page 和 texinfo 文件）"
 
-#: main.cpp:350
+#: main.cpp:351
 msgid "exclude packages by name or glob"
 msgstr "透過名稱或 glob 排除軟體包"
 
-#: main.cpp:369
+#: main.cpp:370
 msgid ""
 "Enable additional repositories. List option. Supports globs, can be "
 "specified multiple times."
 msgstr "啟用額外軟體庫。列出選項。支援 glob，可多次指定。"
 
-#: main.cpp:387
+#: main.cpp:388
 msgid ""
 "Disable repositories. List option. Supports globs, can be specified multiple "
 "times."
 msgstr "停用軟體庫。列出選項。支援 glob，可多次指定。"
 
-#: main.cpp:405
+#: main.cpp:406
 msgid ""
 "Enable just specific repositories. List option. Supports globs, can be "
 "specified multiple times."
 msgstr "只啟用特定軟體庫。清單選項。支援 globs，可指定多次。"
 
-#: main.cpp:427
+#: main.cpp:428
 msgid "disable OpenPGP signature checking (if RPM policy allows)"
 msgstr "停用 OpenPGP 簽章檢查（如果 RPM 政策允許）"
 
-#: main.cpp:444
+#: main.cpp:445
 msgid "Disable all libdnf5 plugins"
 msgstr "停用所有 libdnf5 外掛元件"
 
-#: main.cpp:454
+#: main.cpp:455
 msgid ""
 "Enable libdnf5 plugins by name. List option. Supports globs, can be "
 "specified multiple times."
 msgstr "依名稱啟用 libdnf5 外掛元件。清單選項。支援 globs，可指定多次。"
 
-#: main.cpp:469
+#: main.cpp:470
 msgid ""
 "Disable libdnf5 plugins by name. List option. Supports globs, can be "
 "specified multiple times."
 msgstr "依名稱停用 libdnf5 外掛元件。清單選項。支援 globs，可指定多次。"
 
-#: main.cpp:486
+#: main.cpp:487
 msgid "add a comment to transaction"
 msgstr "加入處理事項註解"
 
-#: main.cpp:488
+#: main.cpp:489
 msgid ""
 "Adds a comment to the action. If a transaction takes place, the comment is "
 "stored in it."
 msgstr "在動作中加入註解。如果有處理事項發生，註解會儲存在處理事項中。"
 
-#: main.cpp:501
+#: main.cpp:502
 msgid "set install root"
 msgstr "顯示安裝根目錄"
 
-#: main.cpp:508
+#: main.cpp:509
 msgid ""
 "use configuration, reposdir, and vars from the host system rather than the "
 "installroot"
 msgstr "使用主機系統的組態設定、reposdir 和 vars，而不由 installroot 提供"
 
-#: main.cpp:517
+#: main.cpp:518
 msgid "override the value of $releasever in config and repo files"
 msgstr "覆蓋在組態檔與 repo 檔案中 $releasever 的值"
 
-#: main.cpp:530
+#: main.cpp:531
 msgid ""
 "Show newly installed leaf packages and packages that became leaves after a "
 "transaction."
 msgstr "顯示新安裝的遺留軟體包，以及在事項處理完成後成為遺留的軟體包。"
 
-#: main.cpp:544
+#: main.cpp:545
 msgid "Dump detailed solving results into files"
 msgstr "將詳細解算結果傾印到檔案"
 
-#: main.cpp:553
+#: main.cpp:554
 msgid "Print main configuration values to stdout"
 msgstr "將主要組態設定值列印到 stdout"
 
-#: main.cpp:570
+#: main.cpp:571
 msgid ""
 "Print repository configuration values to stdout. List option. Supports globs"
 msgstr "列出軟體庫組態設定值到 stdout。清單選項。支援 globs"
 
-#: main.cpp:585
+#: main.cpp:586
 msgid "Print variable values to stdout"
 msgstr "列印變數值到 stdout"
 
-#: main.cpp:599
+#: main.cpp:600
 msgid "Show DNF5 version and exit"
 msgstr "顯示 DNF5 版本並離開"
 
-#: main.cpp:606
+#: main.cpp:607
 msgid "Force the use of a different architecture."
 msgstr "強制使用不同的架構。"
 
-#: main.cpp:644
+#: main.cpp:645
 msgid "Software Management Commands:"
 msgstr "軟體管理命令："
 
-#: main.cpp:651
+#: main.cpp:652
 msgid "Query Commands:"
 msgstr "查詢命令："
 
-#: main.cpp:658
+#: main.cpp:659
 msgid "Subcommands:"
 msgstr "子命令："
 
-#: main.cpp:755
+#: main.cpp:757
 msgid "{} version {}.{}.{}.{}"
 msgstr "{} 版本 {}.{}.{}.{}"
 
-#: main.cpp:758
+#: main.cpp:760
 msgid "{} plugin API version {}.{}"
 msgstr "{} 外掛元件 API 版本 {}.{}"
 
-#: main.cpp:763
+#: main.cpp:765
 msgid "libdnf5 version {}.{}.{}.{}"
 msgstr "libdnf5 版本 {}.{}.{}.{}"
 
-#: main.cpp:766
+#: main.cpp:768
 msgid "libdnf5 plugin API version {}.{}"
 msgstr "libdnf5 外掛元件 API 版本 {}.{}"
 
-#: main.cpp:773
+#: main.cpp:775
 msgid ""
 "\n"
 "Loaded {} plugins:"
@@ -1247,68 +1307,69 @@ msgstr ""
 "\n"
 "已載入 {} 外掛元件："
 
-#: main.cpp:778
+#: main.cpp:780
 msgid "  name: {}"
 msgstr "  名稱：{}"
 
-#: main.cpp:781
+#: main.cpp:783
 msgid "  version: {}.{}.{}"
 msgstr "  版本：{}.{}.{}"
 
-#: main.cpp:783
+#: main.cpp:785
 msgid "  API version: {}.{}"
 msgstr "  API 版本：{}.{}"
 
-#: main.cpp:821
+#: main.cpp:823
 msgid ""
 "Total size of inbound packages is {:.0f} {:s}. Need to download {:.0f} {:s}."
 msgstr "傳入的軟體包總大小為 {:.0f} {:s}。需要下載 {:.0f} {:s}。"
 
-#: main.cpp:838
+#: main.cpp:840
 msgid ""
 "After this operation, {:.0f} {:s} extra will be used (install {:.0f} {:s}, "
 "remove {:.0f} {:s})."
-msgstr "此操作之後，extra 會使用 {:.0f} {:s}（安裝 {:.0f} {:s}，移除 {:.0f} {:s}）。"
+msgstr ""
+"此操作之後，extra 會使用 {:.0f} {:s}（安裝 {:.0f} {:s}，移除 {:.0f} {:s}）。"
 
-#: main.cpp:849
+#: main.cpp:851
 msgid ""
 "After this operation, {:.0f} {:s} will be freed (install {:.0f} {:s}, remove "
 "{:.0f} {:s})."
 msgstr "此操作之後，將釋放 {:.0f} {:s}（安裝 {:.0f} {:s}，移除 {:.0f} {:s}）。"
 
-#: main.cpp:861
+#: main.cpp:863
 msgid "======== Main configuration: ========"
 msgstr "======== 主要組態設定：========"
 
-#: main.cpp:898
+#: main.cpp:900
 msgid "No matching repo to dump configuration: \"{}\""
 msgstr "沒有符合的 repo 來轉儲組態設定：「{}」"
 
-#: main.cpp:903
+#: main.cpp:905
 msgid "======== \"{}\" repository configuration: ========"
 msgstr "========「{}」軟體庫組態設定：========"
 
-#: main.cpp:923
+#: main.cpp:925
 msgid "======== Variables: ========"
 msgstr "======== 變數：========"
 
-#: main.cpp:963
+#: main.cpp:965
 msgid "New leaves:"
 msgstr "新的遺留軟體包："
 
-#: main.cpp:965
+#: main.cpp:967
 msgid " {}"
 msgstr " {}"
 
-#: main.cpp:1009
+#: main.cpp:1011
 msgid "{} to skip unavailable packages"
 msgstr "{} 跳過無法使用的軟體包"
 
-#: main.cpp:1017
+#: main.cpp:1019
 msgid "{} to allow extra packages in the transaction"
 msgstr "{} 允許在處理事項中使用額外的軟體包"
 
-#: main.cpp:1030
+#: main.cpp:1032
 msgid ""
 "{} to allow mismatches between installed and stored transaction packages. "
 "This can result in an empty transaction because among other things the "
@@ -1317,71 +1378,71 @@ msgstr ""
 "{} 允許安裝的軟體包與儲存的處理事項軟體包不相符。這可能會導致空白的處理事項，"
 "因為除其他作用外，該選項可以忽略失敗的「移除」動作。"
 
-#: main.cpp:1077
+#: main.cpp:1079
 msgid "{} to not limit the transaction to the best candidates"
 msgstr "{} 不將處理事項限制在最佳候選"
 
-#: main.cpp:1084
+#: main.cpp:1086
 msgid "{} to allow removing of installed packages to resolve problems"
 msgstr "{} 允許移除已安裝的軟體包以解決問題"
 
-#: main.cpp:1093
+#: main.cpp:1095
 msgid "{} to load additional filelists metadata"
 msgstr "{} 載入額外的檔案清單中介資料"
 
-#: main.cpp:1100
+#: main.cpp:1102
 msgid "{} to skip uninstallable packages"
 msgstr "{} 跳過無法安裝的軟體包"
 
-#: main.cpp:1106
+#: main.cpp:1108
 msgid "You can try to add to command line:"
 msgstr "您可以嘗試新增至命令列："
 
-#: main.cpp:1124
+#: main.cpp:1126
 msgid ""
 "No matches were found for the following plugin name patterns while enabling "
 "libdnf plugins: {}"
 msgstr "啟用 libdnf 外掛元件時，未發現符合下列外掛元件名稱模式的內容：{}"
 
-#: main.cpp:1125
+#: main.cpp:1127
 msgid ""
 "No matches were found for the following plugin name patterns while disabling "
 "libdnf plugins: {}"
 msgstr "停用 libdnf 外掛元件時，未發現符合下列外掛元件名稱模式的內容：{}"
 
-#: main.cpp:1221
+#: main.cpp:1223
 msgid "--- DNF5 launched with arguments: \"{}\" ---"
 msgstr "--- DNF5 啟動，配合引數：「{}」---"
 
-#: main.cpp:1257
+#: main.cpp:1259
 msgid "Invalid \"index\" in \"--complete=<index>[,...]\": {}"
 msgstr "「—complete=<index>[,...]」中的「index」無效：{}"
 
-#: main.cpp:1296
+#: main.cpp:1298
 msgid "{}."
 msgstr "{}。"
 
-#: main.cpp:1299 main.cpp:1551
+#: main.cpp:1301 main.cpp:1553
 msgid "{}. Add \"--help\" for more information about the arguments."
 msgstr "{}。加入\"--help\" 取得更多關於引數的資訊。"
 
-#: main.cpp:1308
+#: main.cpp:1310
 msgid ""
 "It could be a command provided by a plugin, try: dnf5 install 'dnf5-"
 "command({})'"
 msgstr "可能是外掛元件提供的命令，試試看：dnf5 install 'dnf5-command({})'"
 
-#: main.cpp:1350
+#: main.cpp:1352
 msgid ""
 "The argument is available for commands: {}. (It has to be placed after the "
 "command.)"
 msgstr "該引數可用於命令：{}。（必須放在命令之後）"
 
-#: main.cpp:1394
+#: main.cpp:1396
 msgid "No read/execute access in current directory, moving to /"
 msgstr "在目前的目錄沒有讀寫與執行的權能，移動至 /"
 
-#: main.cpp:1466
+#: main.cpp:1468
 msgid ""
 "The requested operation requires superuser privileges. Please log in as a "
 "user with elevated rights, or use the \"--assumeno\" or \"--downloadonly\" "
@@ -1390,42 +1451,43 @@ msgstr ""
 "請求的操作需要有超級使用者特權。請以具有特定權限的使用者登入，或使用「--"
 "assumeno」或「--downloadonly」選項執行命令，而不修改系統狀態。"
 
-#: main.cpp:1507
+#: main.cpp:1509
 msgid "The operation will only store the transaction in {}"
 msgstr "此操作只會將處理事項儲存在 {} 中"
 
-#: main.cpp:1509
+#: main.cpp:1511
 msgid "The operation will only download packages for the transaction."
 msgstr "此操作只會下載處理事項的軟體包。"
 
-#: main.cpp:1514
+#: main.cpp:1516
 msgid ""
 "Test mode enabled: Only package downloads, OpenPGP key installations and "
 "transaction checks will be performed."
 msgstr "測試模式已啟用：只執行軟體包下載、OpenPGP 金鑰安裝，以及處理事項檢查。"
 
-#: main.cpp:1522
+#: main.cpp:1524
 msgid ""
 "Error: this bootc system is configured to be read-only. For more "
 "information, run `bootc --help`."
 msgstr "錯誤：此 bootc 系統設定為唯讀。如需更多資訊，請執行 `bootc --help`。"
 
-#: main.cpp:1539
+#: main.cpp:1541
 msgid ""
 "No repositories were loaded from the installroot. To use the configuration "
 "and repositories of the host system, pass --use-host-config."
-msgstr "無法從 installroot 載入軟體庫。若要使用主機系統的組態設定和軟體庫，請傳入 "
-"--use-host-config。"
+msgstr ""
+"無法從 installroot 載入軟體庫。若要使用主機系統的組態設定和軟體庫，請傳入 --"
+"use-host-config。"
 
-#: main.cpp:1561
+#: main.cpp:1563
 msgid "Command returned error: {}"
 msgstr "命令回傳錯誤：{}"
 
-#: main.cpp:1569
+#: main.cpp:1571
 msgid "DNF5 finished"
 msgstr "DNF5 己完成"
 
-#: main.cpp:1573
+#: main.cpp:1575
 msgid "Complete!"
 msgstr "完成！"
 

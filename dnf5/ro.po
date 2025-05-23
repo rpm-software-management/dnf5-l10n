@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-16 03:34+0000\n"
+"POT-Creation-Date: 2025-05-23 03:33+0000\n"
 "PO-Revision-Date: 2025-05-08 00:58+0000\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -241,6 +241,64 @@ msgstr ""
 "Actualizarea sau retrogradarea software-ului instalat la cele mai recente "
 "versiuni disponibile"
 
+#: commands/do/do.cpp:42
+#, fuzzy
+#| msgid "Running transaction"
+msgid "Do transaction"
+msgstr "Tranzacție în derulare"
+
+#: commands/do/do.cpp:47
+msgid "Action to be done on the following items."
+msgstr ""
+
+#: commands/do/do.cpp:61
+msgid "Unsupported action \"{}\""
+msgstr ""
+
+#: commands/do/do.cpp:71
+msgid "Type of the following items."
+msgstr ""
+
+#: commands/do/do.cpp:84
+msgid "Unsupported item type \"{}\""
+msgstr ""
+
+#: commands/do/do.cpp:95
+msgid ""
+"The following items can be selected only from the specified repositories. "
+"All enabled repositories will still be used to satisfy dependencies."
+msgstr ""
+
+#: commands/do/do.cpp:110
+msgid "List of items to take action on"
+msgstr ""
+
+#: commands/do/do.cpp:141 commands/do/do.cpp:145
+msgid "Only package downgrade is supported."
+msgstr ""
+
+#: commands/do/do.cpp:152 commands/do/do.cpp:156
+msgid "Only package reinstall is supported."
+msgstr ""
+
+#: commands/do/do.cpp:162
+msgid "Action was not defined"
+msgstr ""
+
+#: commands/do/do.cpp:240
+#, fuzzy
+#| msgid "Invalid urlprotocol option: {}"
+msgid "Invalid Environmet/Group specification: {}"
+msgstr "Opțiune urlprotocol nevalidă: {}"
+
+#: commands/do/do.cpp:324
+msgid "Downgrading environments and groups is not supported."
+msgstr ""
+
+#: commands/do/do.cpp:340
+msgid "Reinstaling environments and groups is not supported."
+msgstr ""
+
 #: commands/downgrade/downgrade.cpp:40
 msgid "Downgrade software"
 msgstr "Retrogradează software-ul (instalând o versiune anterioară a acestuia)"
@@ -255,7 +313,7 @@ msgstr ""
 msgid "Invalid urlprotocol option: {}"
 msgstr "Opțiune urlprotocol nevalidă: {}"
 
-#: commands/download/download.cpp:148 main.cpp:625
+#: commands/download/download.cpp:148 main.cpp:626
 msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
 msgstr "Arhitectură neacceptată „{0}”. Vă rugăm să alegeți una dintre {1}"
 
@@ -925,7 +983,7 @@ msgstr "Cheia 0x{} a fost eliminată cu succes."
 msgid "setopt: \"{}.{}\": {}"
 msgstr "setopt: \"{}.{}\": {}"
 
-#: context.cpp:301 main.cpp:1352
+#: context.cpp:301 main.cpp:1354
 msgid ", "
 msgstr ", "
 
@@ -1074,31 +1132,31 @@ msgstr "Nu se poate încărca biblioteca partajată „{}”: {}"
 msgid "Cannot obtain address of symbol \"{}\": {}"
 msgstr "Nu se poate obține adresa simbolului „{}”: {}"
 
-#: main.cpp:131
+#: main.cpp:132
 msgid "Utility for packages maintaining"
 msgstr "Instrument pentru gestionarea pachetelor"
 
-#: main.cpp:132
+#: main.cpp:133
 msgid "DNF5 is a program for maintaining packages."
 msgstr "«dnf5» este un program pentru gestionarea pachetelor."
 
-#: main.cpp:133
+#: main.cpp:134
 msgid "Unclassified options:"
 msgstr "Opțiuni neclasificate:"
 
-#: main.cpp:136
+#: main.cpp:137
 msgid "Global options:"
 msgstr "Opțiuni globale:"
 
-#: main.cpp:141
+#: main.cpp:142
 msgid "Print help"
 msgstr "Afișează mesajul de ajutor"
 
-#: main.cpp:148
+#: main.cpp:149
 msgid "Configuration file location"
 msgstr "Locația fișierului de configurare"
 
-#: main.cpp:156
+#: main.cpp:157
 msgid ""
 "In combination with a non-interactive command, shows just the relevant "
 "content. Suppresses messages notifying about the current state or actions of "
@@ -1108,7 +1166,7 @@ msgstr ""
 "relevant. Suprimă mesajele de notificare privind starea curentă sau "
 "acțiunile «dnf5»."
 
-#: main.cpp:171
+#: main.cpp:172
 msgid ""
 "Run entirely from system cache, don't update the cache and use it even in "
 "case it is expired."
@@ -1116,31 +1174,31 @@ msgstr ""
 "Rulează în întregime din memoria cache a sistemului, nu actualizează memoria "
 "cache și o utilizează chiar și în cazul în care aceasta este expirată."
 
-#: main.cpp:180
+#: main.cpp:181
 msgid "Control whether color is used."
 msgstr "Controlează dacă se utilizează culoarea."
 
-#: main.cpp:186
+#: main.cpp:187
 msgid "Force refreshing metadata before running the command."
 msgstr "Forțează actualizarea metadatelor înainte de a executa comanda."
 
-#: main.cpp:202
+#: main.cpp:203
 msgid "Failed to expire repository cache in path \"{0}\": {1}"
 msgstr "Expirarea cache-ului depozitului din ruta „{0}” a eșuat: {1}"
 
-#: main.cpp:216
+#: main.cpp:217
 msgid "create additional repository using id and path"
 msgstr "Creează un depozit suplimentar utilizând id și ruta"
 
-#: main.cpp:224
+#: main.cpp:225
 msgid "repofrompath: Incorrect repoid and path specification \"{}\""
 msgstr "repofrompath: Specificație incorectă pentru repoid și ruta „{}”"
 
-#: main.cpp:236
+#: main.cpp:237
 msgid "set arbitrary config and repo options"
 msgstr "Stabilește opțiuni arbitrare de configurare și de depozit"
 
-#: main.cpp:238
+#: main.cpp:239
 msgid ""
 "Override a configuration option from the configuration file. To override "
 "configuration options for repositories, use repoid.option for  the\n"
@@ -1158,46 +1216,46 @@ msgstr ""
 "înlocuiesc. Cu toate acestea, specificarea unei valori goale (de\n"
 "              exemplu, „--setopt=tsflags=”) va șterge opțiunea."
 
-#: main.cpp:247 main.cpp:286
+#: main.cpp:248 main.cpp:287
 msgid "{}: Badly formatted argument value \"{}\""
 msgstr "{}: valoarea argumentului „{}” este greșit formatată"
 
-#: main.cpp:254
+#: main.cpp:255
 msgid ""
 "{}: Badly formatted argument value: Last key character cannot be '.': {}"
 msgstr ""
 "{}: Valoare argument formatată greșit: Ultimul caracter al cheii nu poate fi "
 "„.”: {}"
 
-#: main.cpp:267
+#: main.cpp:268
 msgid "setopt: \"{0}\": {1}"
 msgstr "setopt: \"{0}\": {1}"
 
-#: main.cpp:279
+#: main.cpp:280
 msgid "set arbitrary variable"
 msgstr "definește o variabilă arbitrară"
 
-#: main.cpp:293
+#: main.cpp:294
 msgid "setvar: {}"
 msgstr "setvar: {}"
 
-#: main.cpp:302
+#: main.cpp:303
 msgid "automatically answer yes for all questions"
 msgstr "răspunde automat afirmativ la toate întrebările"
 
-#: main.cpp:309
+#: main.cpp:310
 msgid "automatically answer no for all questions"
 msgstr "răspunde automat negativ la toate întrebările"
 
-#: main.cpp:316
+#: main.cpp:317
 msgid "try the best available package versions in transactions"
 msgstr "încearcă cele mai bune versiuni de pachete disponibile în tranzacții"
 
-#: main.cpp:323
+#: main.cpp:324
 msgid "do not limit the transaction to the best candidate"
 msgstr "nu limitează tranzacția la cel mai bun candidat"
 
-#: main.cpp:334
+#: main.cpp:335
 msgid ""
 "Don't install files that are marked as documentation (which includes man "
 "pages and texinfo documents)"
@@ -1205,12 +1263,12 @@ msgstr ""
 "Nu instalează fișiere care sunt marcate ca documentație (care includ pagini "
 "man și documente texinfo)"
 
-#: main.cpp:350
+#: main.cpp:351
 msgid "exclude packages by name or glob"
 msgstr ""
 "exclude pachetele după nume sau model global (ce conține caractere joker)"
 
-#: main.cpp:369
+#: main.cpp:370
 msgid ""
 "Enable additional repositories. List option. Supports globs, can be "
 "specified multiple times."
@@ -1218,7 +1276,7 @@ msgstr ""
 "Activează depozite suplimentare. Opțiune listă. Acceptă modele globale (ce "
 "conțin caractere joker), poate fi specificată de mai multe ori."
 
-#: main.cpp:387
+#: main.cpp:388
 msgid ""
 "Disable repositories. List option. Supports globs, can be specified multiple "
 "times."
@@ -1226,7 +1284,7 @@ msgstr ""
 "Dezactivează depozitele. Opțiune listă. Acceptă modele globale, poate fi "
 "specificată de mai multe ori."
 
-#: main.cpp:405
+#: main.cpp:406
 msgid ""
 "Enable just specific repositories. List option. Supports globs, can be "
 "specified multiple times."
@@ -1234,16 +1292,16 @@ msgstr ""
 "Activează doar anumite depozite. Opțiune listă. Acceptă modele globale, "
 "poate fi specificată de mai multe ori."
 
-#: main.cpp:427
+#: main.cpp:428
 msgid "disable OpenPGP signature checking (if RPM policy allows)"
 msgstr ""
 "Dezactivează verificarea semnăturii OpenPGP (dacă politica RPM o permite)"
 
-#: main.cpp:444
+#: main.cpp:445
 msgid "Disable all libdnf5 plugins"
 msgstr "Dezactivează toate modulele libdnf5"
 
-#: main.cpp:454
+#: main.cpp:455
 msgid ""
 "Enable libdnf5 plugins by name. List option. Supports globs, can be "
 "specified multiple times."
@@ -1251,7 +1309,7 @@ msgstr ""
 "Activează modulele libdnf5 după nume. Opțiune listă. Acceptă modele globale "
 "(ce conțin caractere joker), poate fi specificată de mai multe ori."
 
-#: main.cpp:469
+#: main.cpp:470
 msgid ""
 "Disable libdnf5 plugins by name. List option. Supports globs, can be "
 "specified multiple times."
@@ -1259,11 +1317,11 @@ msgstr ""
 "Dezactivează modulele libdnf5 după nume. Opțiune listă. Acceptă modele "
 "globale, poate fi specificată de mai multe ori."
 
-#: main.cpp:486
+#: main.cpp:487
 msgid "add a comment to transaction"
 msgstr "Adaugă un comentariu la tranzacție"
 
-#: main.cpp:488
+#: main.cpp:489
 msgid ""
 "Adds a comment to the action. If a transaction takes place, the comment is "
 "stored in it."
@@ -1271,11 +1329,11 @@ msgstr ""
 "Adaugă un comentariu la acțiune. Dacă are loc o tranzacție, comentariul este "
 "stocat în aceasta."
 
-#: main.cpp:501
+#: main.cpp:502
 msgid "set install root"
 msgstr "Definește rădăcina instalării"
 
-#: main.cpp:508
+#: main.cpp:509
 msgid ""
 "use configuration, reposdir, and vars from the host system rather than the "
 "installroot"
@@ -1283,12 +1341,12 @@ msgstr ""
 "Utilizează configurația, reposdir și vars din sistemul gazdă și nu din "
 "rădăcina instalării „installroot”"
 
-#: main.cpp:517
+#: main.cpp:518
 msgid "override the value of $releasever in config and repo files"
 msgstr ""
 "Suprascrie valoarea lui $releasever în fișierele de configurare și de depozit"
 
-#: main.cpp:530
+#: main.cpp:531
 msgid ""
 "Show newly installed leaf packages and packages that became leaves after a "
 "transaction."
@@ -1296,62 +1354,62 @@ msgstr ""
 "Afișează pachetele fără dependențe „leaves” (frunze) nou instalate și "
 "pachetele care au devenit frunze (fără dependențe) după o tranzacție."
 
-#: main.cpp:544
+#: main.cpp:545
 msgid "Dump detailed solving results into files"
 msgstr "Transferă rezultatele detaliate ale rezolvării în fișiere"
 
-#: main.cpp:553
+#: main.cpp:554
 msgid "Print main configuration values to stdout"
 msgstr "Afișează valorile configurației principale la ieșirea standard"
 
-#: main.cpp:570
+#: main.cpp:571
 msgid ""
 "Print repository configuration values to stdout. List option. Supports globs"
 msgstr ""
 "Afișează valorile configurației depozitului la ieșirea standard. Opțiune "
 "listă. Acceptă modele globale"
 
-#: main.cpp:585
+#: main.cpp:586
 msgid "Print variable values to stdout"
 msgstr "Afișează valorile variabilelor la ieșirea standard"
 
-#: main.cpp:599
+#: main.cpp:600
 msgid "Show DNF5 version and exit"
 msgstr "Afișează versiunea instrumentului «dnf5» și iese"
 
-#: main.cpp:606
+#: main.cpp:607
 msgid "Force the use of a different architecture."
 msgstr "Forțează utilizarea unei arhitecturi diferite."
 
-#: main.cpp:644
+#: main.cpp:645
 msgid "Software Management Commands:"
 msgstr "Comenzi de gestionare a software-ului:"
 
-#: main.cpp:651
+#: main.cpp:652
 msgid "Query Commands:"
 msgstr "Comenzi de interogare:"
 
-#: main.cpp:658
+#: main.cpp:659
 msgid "Subcommands:"
 msgstr "Subcomenzi:"
 
-#: main.cpp:755
+#: main.cpp:757
 msgid "{} version {}.{}.{}.{}"
 msgstr "{} versiunea {}.{}.{}.{}"
 
-#: main.cpp:758
+#: main.cpp:760
 msgid "{} plugin API version {}.{}"
 msgstr "API modul {} versiune {}.{}"
 
-#: main.cpp:763
+#: main.cpp:765
 msgid "libdnf5 version {}.{}.{}.{}"
 msgstr "libdnf5 versiunea {}.{}.{}.{}"
 
-#: main.cpp:766
+#: main.cpp:768
 msgid "libdnf5 plugin API version {}.{}"
 msgstr "versiunea API a modulului libdnf5 {}.{}"
 
-#: main.cpp:773
+#: main.cpp:775
 msgid ""
 "\n"
 "Loaded {} plugins:"
@@ -1359,26 +1417,26 @@ msgstr ""
 "\n"
 "{} module încărcate:"
 
-#: main.cpp:778
+#: main.cpp:780
 msgid "  name: {}"
 msgstr "  nume: {}"
 
-#: main.cpp:781
+#: main.cpp:783
 msgid "  version: {}.{}.{}"
 msgstr "  versiunea: {}.{}.{}"
 
-#: main.cpp:783
+#: main.cpp:785
 msgid "  API version: {}.{}"
 msgstr "  versiunea API: {}.{}"
 
-#: main.cpp:821
+#: main.cpp:823
 msgid ""
 "Total size of inbound packages is {:.0f} {:s}. Need to download {:.0f} {:s}."
 msgstr ""
 "Dimensiunea totală a pachetelor de recepționat este {:.0f} {:s}. Trebuie să "
 "descărcați {:.0f} {:s}."
 
-#: main.cpp:838
+#: main.cpp:840
 msgid ""
 "After this operation, {:.0f} {:s} extra will be used (install {:.0f} {:s}, "
 "remove {:.0f} {:s})."
@@ -1386,7 +1444,7 @@ msgstr ""
 "După această operație, va fi utilizată dimensiunea de {:.0f} {:s} de spațiu "
 "suplimentar (instalare {:.0f} {:s}, eliminare {:.0f} {:s})."
 
-#: main.cpp:849
+#: main.cpp:851
 msgid ""
 "After this operation, {:.0f} {:s} will be freed (install {:.0f} {:s}, remove "
 "{:.0f} {:s})."
@@ -1394,40 +1452,40 @@ msgstr ""
 "După această operație, va fi eliberată dimensiunea de {:.0f} {:s} de spațiu "
 "{:.0f} {:s}, eliminare {:.0f} {:s})."
 
-#: main.cpp:861
+#: main.cpp:863
 msgid "======== Main configuration: ========"
 msgstr "======== Configurația principală: ========"
 
-#: main.cpp:898
+#: main.cpp:900
 msgid "No matching repo to dump configuration: \"{}\""
 msgstr ""
 "Nu s-a găsit niciun depozit potrivit pentru descărcarea configurației: „{}”"
 
-#: main.cpp:903
+#: main.cpp:905
 msgid "======== \"{}\" repository configuration: ========"
 msgstr "======== Configurația depozitului „{}”: ========"
 
-#: main.cpp:923
+#: main.cpp:925
 msgid "======== Variables: ========"
 msgstr "======== Variabile: ========"
 
-#: main.cpp:963
+#: main.cpp:965
 msgid "New leaves:"
 msgstr "Pachete fără dependențe „leaves” noi:"
 
-#: main.cpp:965
+#: main.cpp:967
 msgid " {}"
 msgstr " {}"
 
-#: main.cpp:1009
+#: main.cpp:1011
 msgid "{} to skip unavailable packages"
 msgstr "{} pentru a omite pachetele indisponibile"
 
-#: main.cpp:1017
+#: main.cpp:1019
 msgid "{} to allow extra packages in the transaction"
 msgstr "{} pentru a permite pachete suplimentare în tranzacție"
 
-#: main.cpp:1030
+#: main.cpp:1032
 msgid ""
 "{} to allow mismatches between installed and stored transaction packages. "
 "This can result in an empty transaction because among other things the "
@@ -1437,29 +1495,29 @@ msgstr ""
 "ale tranzacției. Acest lucru poate duce la o tranzacție goală deoarece, "
 "printre altele, opțiunea poate ignora acțiunile de eliminare care eșuează."
 
-#: main.cpp:1077
+#: main.cpp:1079
 msgid "{} to not limit the transaction to the best candidates"
 msgstr "{} pentru a nu limita tranzacția la cei mai buni candidați"
 
-#: main.cpp:1084
+#: main.cpp:1086
 msgid "{} to allow removing of installed packages to resolve problems"
 msgstr ""
 "{} pentru a permite eliminarea pachetelor instalate pentru a rezolva "
 "problemele"
 
-#: main.cpp:1093
+#: main.cpp:1095
 msgid "{} to load additional filelists metadata"
 msgstr "{} pentru a încărca metadatele suplimentare ale listelor de fișiere"
 
-#: main.cpp:1100
+#: main.cpp:1102
 msgid "{} to skip uninstallable packages"
 msgstr "{} pentru a omite pachetele ce pot fi dezinstalate"
 
-#: main.cpp:1106
+#: main.cpp:1108
 msgid "You can try to add to command line:"
 msgstr "Puteți încerca să adăugați la linia de comandă:"
 
-#: main.cpp:1124
+#: main.cpp:1126
 msgid ""
 "No matches were found for the following plugin name patterns while enabling "
 "libdnf plugins: {}"
@@ -1467,7 +1525,7 @@ msgstr ""
 "Nu au fost găsite potriviri pentru următoarele modele de nume de module în "
 "timpul activării modulelor libdnf: {}"
 
-#: main.cpp:1125
+#: main.cpp:1127
 msgid ""
 "No matches were found for the following plugin name patterns while disabling "
 "libdnf plugins: {}"
@@ -1475,23 +1533,23 @@ msgstr ""
 "Nu au fost găsite potriviri pentru următoarele modele de nume de module în "
 "timpul dezactivării modulelor libdnf: {}"
 
-#: main.cpp:1221
+#: main.cpp:1223
 msgid "--- DNF5 launched with arguments: \"{}\" ---"
 msgstr "--- «dnf5» lansat cu argumentele: „{}” ---"
 
-#: main.cpp:1257
+#: main.cpp:1259
 msgid "Invalid \"index\" in \"--complete=<index>[,...]\": {}"
 msgstr "Argument „index” nevalid în „--complete=<index>[,...]”: {}"
 
-#: main.cpp:1296
+#: main.cpp:1298
 msgid "{}."
 msgstr "{}."
 
-#: main.cpp:1299 main.cpp:1551
+#: main.cpp:1301 main.cpp:1553
 msgid "{}. Add \"--help\" for more information about the arguments."
 msgstr "{}. Adăugați „--help” pentru mai multe informații despre argumente."
 
-#: main.cpp:1308
+#: main.cpp:1310
 msgid ""
 "It could be a command provided by a plugin, try: dnf5 install 'dnf5-"
 "command({})'"
@@ -1499,7 +1557,7 @@ msgstr ""
 "Ar putea fi o comandă furnizată de un modul, încercați: «dnf5 install 'dnf5-"
 "command({})'»"
 
-#: main.cpp:1350
+#: main.cpp:1352
 msgid ""
 "The argument is available for commands: {}. (It has to be placed after the "
 "command.)"
@@ -1507,12 +1565,12 @@ msgstr ""
 "Argumentul este disponibil pentru comenzile: {}; (trebuie să fie plasat după "
 "comandă)."
 
-#: main.cpp:1394
+#: main.cpp:1396
 msgid "No read/execute access in current directory, moving to /"
 msgstr ""
 "Nu există acces de citire/executare în directorul curent, se deplasează la /"
 
-#: main.cpp:1466
+#: main.cpp:1468
 msgid ""
 "The requested operation requires superuser privileges. Please log in as a "
 "user with elevated rights, or use the \"--assumeno\" or \"--downloadonly\" "
@@ -1523,15 +1581,15 @@ msgstr ""
 "assumeno” sau „--downloadonly” pentru a executa comanda fără a modifica "
 "starea sistemului."
 
-#: main.cpp:1507
+#: main.cpp:1509
 msgid "The operation will only store the transaction in {}"
 msgstr "Operația va stoca tranzacția doar în {}"
 
-#: main.cpp:1509
+#: main.cpp:1511
 msgid "The operation will only download packages for the transaction."
 msgstr "Operația va descărca doar pachetele pentru tranzacție."
 
-#: main.cpp:1514
+#: main.cpp:1516
 msgid ""
 "Test mode enabled: Only package downloads, OpenPGP key installations and "
 "transaction checks will be performed."
@@ -1539,7 +1597,7 @@ msgstr ""
 "Modul de testare activat: Vor fi efectuate numai descărcări de pachete, "
 "instalări de chei OpenPGP și verificări ale tranzacțiilor."
 
-#: main.cpp:1522
+#: main.cpp:1524
 msgid ""
 "Error: this bootc system is configured to be read-only. For more "
 "information, run `bootc --help`."
@@ -1547,7 +1605,7 @@ msgstr ""
 "Eroare: acest sistem bootc este configurat să fie numai-pentru-citire. "
 "Pentru mai multe informații, executați «bootc --help»."
 
-#: main.cpp:1539
+#: main.cpp:1541
 msgid ""
 "No repositories were loaded from the installroot. To use the configuration "
 "and repositories of the host system, pass --use-host-config."
@@ -1555,15 +1613,15 @@ msgstr ""
 "Nu au fost încărcate depozite din installroot. Pentru a utiliza configurația "
 "și depozitele sistemului gazdă, introduceți „--use-host-config”."
 
-#: main.cpp:1561
+#: main.cpp:1563
 msgid "Command returned error: {}"
 msgstr "Comanda a returnat o eroare: {}"
 
-#: main.cpp:1569
+#: main.cpp:1571
 msgid "DNF5 finished"
 msgstr "«dnf5» a terminat"
 
-#: main.cpp:1573
+#: main.cpp:1575
 msgid "Complete!"
 msgstr "Gata!"
 
