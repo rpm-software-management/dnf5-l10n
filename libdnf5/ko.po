@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-23 03:33+0000\n"
-"PO-Revision-Date: 2025-05-11 12:11+0000\n"
+"PO-Revision-Date: 2025-05-24 08:41+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/ko/>\n"
@@ -962,10 +962,8 @@ msgid "Repository \"{}\" has unsupported type \"{}\", skipping."
 msgstr "저장소 \"{}는 미지원 유형 \"{}\"을 가지며, 건너뜁니다."
 
 #: repo/repo.cpp:228 repo/repo_sack.cpp:648
-#, fuzzy
-#| msgid "Failed to download metadata ({}: \"{}\") for repository \"{}\""
 msgid "Failed to download metadata ({}: \"{}\") for repository \"{}\": {}"
-msgstr "저장소 \"{}\"를 위한 메타자료 ({}: \"{}\")를 내려받는 데 실패함"
+msgstr "저장소를 위한 메타자료 ({}: \"{}\") 를 내려받는 데 실패함 \"{}\": {}"
 
 #: repo/repo.cpp:426
 msgid ""
@@ -1000,10 +998,8 @@ msgid "Librepo error: {}"
 msgstr "Librepo 오류: {}"
 
 #: repo/repo_downloader.cpp:265
-#, fuzzy
-#| msgid "Failed to download files"
 msgid "Failed to download metadata"
-msgstr "파일을 내려받는 데 실패함"
+msgstr "메타자료를 내려받는 데 실패함"
 
 #: repo/repo_downloader.cpp:340
 msgid "Error checking if metalink \"{}\" is in sync for repository \"{}\""
