@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-23 03:33+0000\n"
-"PO-Revision-Date: 2025-05-11 12:11+0000\n"
+"PO-Revision-Date: 2025-05-24 08:41+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ko/>\n"
@@ -234,62 +234,59 @@ msgid ""
 msgstr "설치된 소프트웨어를 최신의 사용 가능한 버전으로 향상 또는 하향"
 
 #: commands/do/do.cpp:42
-#, fuzzy
-#| msgid "Running transaction"
 msgid "Do transaction"
-msgstr "연결 실행 중"
+msgstr "연결 실행"
 
 #: commands/do/do.cpp:47
 msgid "Action to be done on the following items."
-msgstr ""
+msgstr "다음 항목에서 실행 해야 할 동작."
 
 #: commands/do/do.cpp:61
 msgid "Unsupported action \"{}\""
-msgstr ""
+msgstr "미지원 동작 \"{}\""
 
 #: commands/do/do.cpp:71
 msgid "Type of the following items."
-msgstr ""
+msgstr "다음 항목 유형."
 
 #: commands/do/do.cpp:84
 msgid "Unsupported item type \"{}\""
-msgstr ""
+msgstr "미지원 항목 유형 \"{}\""
 
 #: commands/do/do.cpp:95
 msgid ""
 "The following items can be selected only from the specified repositories. "
 "All enabled repositories will still be used to satisfy dependencies."
-msgstr ""
+msgstr "다음 항목은 지정된 저정소에서만 선택 될 수 있습니다. 모든 활성화된 저장소는 "
+"여전히 의존성을 만족하는 데 사용됩니다."
 
 #: commands/do/do.cpp:110
 msgid "List of items to take action on"
-msgstr ""
+msgstr "동작을 취하는 항목의 목록"
 
 #: commands/do/do.cpp:141 commands/do/do.cpp:145
 msgid "Only package downgrade is supported."
-msgstr ""
+msgstr "꾸러미 하향설치만 지원됩니다."
 
 #: commands/do/do.cpp:152 commands/do/do.cpp:156
 msgid "Only package reinstall is supported."
-msgstr ""
+msgstr "꾸러미 재설치만 지원됩니다."
 
 #: commands/do/do.cpp:162
 msgid "Action was not defined"
-msgstr ""
+msgstr "동작이 정의되지 않았습니다"
 
 #: commands/do/do.cpp:240
-#, fuzzy
-#| msgid "Invalid urlprotocol option: {}"
 msgid "Invalid Environmet/Group specification: {}"
-msgstr "잘못된 urlprotocol 옵션: {}"
+msgstr "잘못된 환경/그룹 사양: {}"
 
 #: commands/do/do.cpp:324
 msgid "Downgrading environments and groups is not supported."
-msgstr ""
+msgstr "환경 및 그룹 하향설치는 지원되지 않습니다."
 
 #: commands/do/do.cpp:340
 msgid "Reinstaling environments and groups is not supported."
-msgstr ""
+msgstr "환경 및 그룹의 재설치하기는 지원되지 않습니다."
 
 #: commands/downgrade/downgrade.cpp:40
 msgid "Downgrade software"
