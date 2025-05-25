@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-23 03:33+0000\n"
-"PO-Revision-Date: 2025-05-07 05:24+0000\n"
+"PO-Revision-Date: 2025-05-25 05:24+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ka/>\n"
@@ -245,62 +245,61 @@ msgid ""
 msgstr "ასწიეთ ან ჩამოსწიეთ დაყენებული პროგრამები უახლეს ხელმისაწვდომ ვერსიაზე"
 
 #: commands/do/do.cpp:42
-#, fuzzy
-#| msgid "Running transaction"
 msgid "Do transaction"
-msgstr "ტრანზაქციის გაშვება"
+msgstr "ტრანზაქციის შესრულება"
 
 #: commands/do/do.cpp:47
 msgid "Action to be done on the following items."
-msgstr ""
+msgstr "ქმედება, რომელიც შესრულდება შემდეგ ელემენტებზე."
 
 #: commands/do/do.cpp:61
 msgid "Unsupported action \"{}\""
-msgstr ""
+msgstr "მხარდაუჭერელი ქმედება \"{}\""
 
 #: commands/do/do.cpp:71
 msgid "Type of the following items."
-msgstr ""
+msgstr "შემდეგი ელემენტების ტიპი."
 
 #: commands/do/do.cpp:84
 msgid "Unsupported item type \"{}\""
-msgstr ""
+msgstr "მხარდაუჭერელი ელემენტის ტიპი \"{}\""
 
 #: commands/do/do.cpp:95
 msgid ""
 "The following items can be selected only from the specified repositories. "
 "All enabled repositories will still be used to satisfy dependencies."
 msgstr ""
+"შემდეგი ელემენტების არჩევა, მხოლოდ, მითითებული რეპოზიტორიებიდან შეგიძლიათ. "
+"დამოკიდებულებების დასაკმაყოფილებლად ყველა ჩართული რეპოზიტორიის გამოყენება "
+"მაინც მოხდება."
 
 #: commands/do/do.cpp:110
 msgid "List of items to take action on"
-msgstr ""
+msgstr "ელემენტების სია, რომელზედაც ქმედება შესრულდება"
 
 #: commands/do/do.cpp:141 commands/do/do.cpp:145
 msgid "Only package downgrade is supported."
-msgstr ""
+msgstr "მხარდაჭერილია, მხოლოდ, პაკეტის ვერსიის დაწევა."
 
 #: commands/do/do.cpp:152 commands/do/do.cpp:156
 msgid "Only package reinstall is supported."
-msgstr ""
+msgstr "მხარდაჭერილია, მხოლოდ, პაკეტის თავიდან დაყენება."
 
 #: commands/do/do.cpp:162
 msgid "Action was not defined"
-msgstr ""
+msgstr "ქმედება არ აღწერილა"
 
 #: commands/do/do.cpp:240
-#, fuzzy
-#| msgid "Invalid urlprotocol option: {}"
 msgid "Invalid Environmet/Group specification: {}"
-msgstr "არასწორი urlprotocol-ის პარამეტრი: {}"
+msgstr "არასწორი გარემოს/ჯგუფის სპეციფიკაცია: {}"
 
 #: commands/do/do.cpp:324
 msgid "Downgrading environments and groups is not supported."
-msgstr ""
+msgstr "გარემოების და ჯგუფების ვერსიის დაწევა მხარდაჭერილი არაა."
 
 #: commands/do/do.cpp:340
 msgid "Reinstaling environments and groups is not supported."
-msgstr ""
+msgstr "გარემოების და ჯგუფების თავიდან დაყენება მხარდაჭერილი არაა."
 
 #: commands/downgrade/downgrade.cpp:40
 msgid "Downgrade software"
