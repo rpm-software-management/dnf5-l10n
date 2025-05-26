@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-23 03:33+0000\n"
-"PO-Revision-Date: 2025-05-07 15:58+0000\n"
+"PO-Revision-Date: 2025-05-26 07:40+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/sv/>\n"
@@ -243,62 +243,60 @@ msgstr ""
 "tillgängliga versionerna"
 
 #: commands/do/do.cpp:42
-#, fuzzy
-#| msgid "Running transaction"
 msgid "Do transaction"
-msgstr "Kör transaktionen"
+msgstr "Gör transaktionen"
 
 #: commands/do/do.cpp:47
 msgid "Action to be done on the following items."
-msgstr ""
+msgstr "Åtgärder som ska vidtas avseende följande objekt."
 
 #: commands/do/do.cpp:61
 msgid "Unsupported action \"{}\""
-msgstr ""
+msgstr "Åtgärd som inte stöds \"{}\""
 
 #: commands/do/do.cpp:71
 msgid "Type of the following items."
-msgstr ""
+msgstr "Typ av följande objekt."
 
 #: commands/do/do.cpp:84
 msgid "Unsupported item type \"{}\""
-msgstr ""
+msgstr "Objekttyp stöds inte \"{}\""
 
 #: commands/do/do.cpp:95
 msgid ""
 "The following items can be selected only from the specified repositories. "
 "All enabled repositories will still be used to satisfy dependencies."
 msgstr ""
+"Följande objekt kan endast väljas från de angivna förråden. Alla aktiverade "
+"förråd kommer fortfarande att användas för att uppfylla beroenden."
 
 #: commands/do/do.cpp:110
 msgid "List of items to take action on"
-msgstr ""
+msgstr "Lista över objekt att vidta åtgärder på"
 
 #: commands/do/do.cpp:141 commands/do/do.cpp:145
 msgid "Only package downgrade is supported."
-msgstr ""
+msgstr "Endast nedgradering av paket stöds."
 
 #: commands/do/do.cpp:152 commands/do/do.cpp:156
 msgid "Only package reinstall is supported."
-msgstr ""
+msgstr "Endast ominstallation av paket stöds."
 
 #: commands/do/do.cpp:162
 msgid "Action was not defined"
-msgstr ""
+msgstr "Åtgärd definierades inte"
 
 #: commands/do/do.cpp:240
-#, fuzzy
-#| msgid "Invalid urlprotocol option: {}"
 msgid "Invalid Environmet/Group specification: {}"
-msgstr "Ogiltigt urlprotocol alternativ: {}"
+msgstr "Ogiltig miljö/gruppspecifikation: {}"
 
 #: commands/do/do.cpp:324
 msgid "Downgrading environments and groups is not supported."
-msgstr ""
+msgstr "Nedgradering av miljöer och grupper stöds inte."
 
 #: commands/do/do.cpp:340
 msgid "Reinstaling environments and groups is not supported."
-msgstr ""
+msgstr "Ominstallation av miljöer och grupper stöds inte."
 
 #: commands/downgrade/downgrade.cpp:40
 msgid "Downgrade software"
