@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-23 03:33+0000\n"
+"POT-Creation-Date: 2025-05-27 03:33+0000\n"
 "PO-Revision-Date: 2024-02-06 09:36+0000\n"
 "Last-Translator: Petr Ptacek <petr106@atlas.cz>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf5/"
@@ -1287,76 +1287,76 @@ msgid "Failed to import public key \"{}\" to rpmdb: {}"
 msgstr "Nepodařilo se importovat veřejný klíč „{}“ do rpmdb: {}"
 
 #. TODO(jrohel): Why? Librpm does not provide this information.
-#: rpm/transaction.cpp:112
+#: rpm/transaction.cpp:114
 msgid "Cannot set root directory \"{}\""
 msgstr "Nelze nastavit kořenový adresář \"{}\""
 
-#: rpm/transaction.cpp:123
+#: rpm/transaction.cpp:125
 #, c-format
 msgid "Error %i opening rpm database"
 msgstr "Chyba %i při otevírání rpm databáze"
 
-#: rpm/transaction.cpp:132
+#: rpm/transaction.cpp:134
 msgid "The rpmdbCookie() function did not return cookie of rpm database."
 msgstr "Funkce rpmdbCookie() nevrátila cookie databáze rpm."
 
-#: rpm/transaction.cpp:197
+#: rpm/transaction.cpp:199
 msgid "Failed to order the rpm transaction."
 msgstr "Spravování rpm transakce se nezdařilo."
 
-#: rpm/transaction.cpp:233
+#: rpm/transaction.cpp:235
 msgid ""
 "Failed to set scriptlet output file, cannot duplicate file descriptor: {}"
 msgstr ""
 "Nepodařilo se nastavit výstupní soubor skriptletu, nelze duplikovat "
 "deskriptor souboru: {}"
 
-#: rpm/transaction.cpp:252
+#: rpm/transaction.cpp:254
 msgid "Failed to set scriptlet output file, cannot open file \"{}\": {}"
 msgstr ""
 "Nepodařilo se nastavit výstupní soubor skriptletu, nelze otevřít soubor "
 "\"{}\": {}"
 
-#: rpm/transaction.cpp:273
+#: rpm/transaction.cpp:275
 msgid "Failed to read package header, cannot open file \"{}\": {}"
 msgstr ""
 "Nepodařilo se přečíst hlavičku balíčku, nelze otevřít soubor \"{}\": {}"
 
-#: rpm/transaction.cpp:290
+#: rpm/transaction.cpp:292
 msgid "Failed to read package header from file \"{}\""
 msgstr "Nepodařilo se přečíst hlavičku balíčku ze souboru \"{}\""
 
-#: rpm/transaction.cpp:303
+#: rpm/transaction.cpp:305
 msgid "Cannot init rpm database iterator"
 msgstr "Nelze inicializovat iterátor rpm databáze"
 
-#: rpm/transaction.cpp:307
+#: rpm/transaction.cpp:309
 msgid "Package was not found in rpm database"
 msgstr "Balíček nebyl nalezen v rpm databázi"
 
 #. TODO(jrohel): Why? Librpm does not provide this information.
-#: rpm/transaction.cpp:323
+#: rpm/transaction.cpp:325
 msgid "Cannot reinstall package \"{}\""
 msgstr "Nelze přeinstalovat balíček \"{}\""
 
 #. TODO(jrohel): Why? Librpm does not provide this information.
-#: rpm/transaction.cpp:341
+#: rpm/transaction.cpp:343
 msgid "Cannot remove package \"{}\""
 msgstr "Nelze odstranit balíček \"{}\""
 
-#: rpm/transaction.cpp:360
+#: rpm/transaction.cpp:362
 #, fuzzy
 #| msgid "Cannot remove package \"{}\""
 msgid "Cannot upgrade package \"{}\""
 msgstr "Nelze odstranit balíček \"{}\""
 
-#: rpm/transaction.cpp:364
+#: rpm/transaction.cpp:366
 #, fuzzy
 #| msgid "Cannot remove package \"{}\""
 msgid "Cannot downgrade package \"{}\""
 msgstr "Nelze odstranit balíček \"{}\""
 
-#: rpm/transaction.cpp:368
+#: rpm/transaction.cpp:370
 #, fuzzy
 #| msgid "Cannot reinstall package \"{}\""
 msgid "Cannot install package \"{}\""

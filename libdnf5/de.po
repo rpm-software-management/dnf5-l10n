@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-23 03:33+0000\n"
+"POT-Creation-Date: 2025-05-27 03:33+0000\n"
 "PO-Revision-Date: 2025-02-23 02:57+0000\n"
 "Last-Translator: J C <valsu@vivaldi.net>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf5/"
@@ -1228,75 +1228,75 @@ msgstr ""
 "Importieren des öffentlichen Schlüssels \"{}\" in rpmdb fehlgeschlagen: {}"
 
 #. TODO(jrohel): Why? Librpm does not provide this information.
-#: rpm/transaction.cpp:112
+#: rpm/transaction.cpp:114
 msgid "Cannot set root directory \"{}\""
 msgstr "Kann Wurzelverzeichnis \"{}\" nicht setzen"
 
-#: rpm/transaction.cpp:123
+#: rpm/transaction.cpp:125
 #, c-format
 msgid "Error %i opening rpm database"
 msgstr "Fehler %i beim Öffnen der rpm-Datenbank"
 
-#: rpm/transaction.cpp:132
+#: rpm/transaction.cpp:134
 msgid "The rpmdbCookie() function did not return cookie of rpm database."
 msgstr ""
 "Die Funktion rpmdbCookie() hat keinen Cookie einer rpm-Datenbank "
 "zurückgeliefert."
 
-#: rpm/transaction.cpp:197
+#: rpm/transaction.cpp:199
 msgid "Failed to order the rpm transaction."
 msgstr "Ordnen der rpm-Transaktion fehlgeschlagen."
 
-#: rpm/transaction.cpp:233
+#: rpm/transaction.cpp:235
 msgid ""
 "Failed to set scriptlet output file, cannot duplicate file descriptor: {}"
 msgstr ""
 "Fehler beim Setzen der Skript-Ausgabedatei. Der Dateideskriptor kann nicht "
 "dupliziert werden: {}"
 
-#: rpm/transaction.cpp:252
+#: rpm/transaction.cpp:254
 msgid "Failed to set scriptlet output file, cannot open file \"{}\": {}"
 msgstr ""
 "Fehler beim Setzen der Skript-Ausgabedatei. Die Datei \"{}\" kann nicht "
 "geöffnet werden: {}"
 
-#: rpm/transaction.cpp:273
+#: rpm/transaction.cpp:275
 msgid "Failed to read package header, cannot open file \"{}\": {}"
 msgstr ""
 "Fehler beim Lesen des Paket-Headers. Die Datei \"{}\" kann nicht geöffnet "
 "werden: {}"
 
-#: rpm/transaction.cpp:290
+#: rpm/transaction.cpp:292
 msgid "Failed to read package header from file \"{}\""
 msgstr "Fehler beim Lesen des Paket-Headers aus Datei \"{}\""
 
-#: rpm/transaction.cpp:303
+#: rpm/transaction.cpp:305
 msgid "Cannot init rpm database iterator"
 msgstr "Der rpm-Datenbank-Iterator kann nicht initialisiert werden"
 
-#: rpm/transaction.cpp:307
+#: rpm/transaction.cpp:309
 msgid "Package was not found in rpm database"
 msgstr "Paket wurde nicht in der rpm-Datenbank gefunden"
 
 #. TODO(jrohel): Why? Librpm does not provide this information.
-#: rpm/transaction.cpp:323
+#: rpm/transaction.cpp:325
 msgid "Cannot reinstall package \"{}\""
 msgstr "Kann Paket \"{}\" nicht neu installieren"
 
 #. TODO(jrohel): Why? Librpm does not provide this information.
-#: rpm/transaction.cpp:341
+#: rpm/transaction.cpp:343
 msgid "Cannot remove package \"{}\""
 msgstr "Kann Paket \"{}\" nicht entfernen"
 
-#: rpm/transaction.cpp:360
+#: rpm/transaction.cpp:362
 msgid "Cannot upgrade package \"{}\""
 msgstr "Kann Paket \"{}\" nicht aktualisieren"
 
-#: rpm/transaction.cpp:364
+#: rpm/transaction.cpp:366
 msgid "Cannot downgrade package \"{}\""
 msgstr "Kann Paket \"{}\" nicht herabstufen"
 
-#: rpm/transaction.cpp:368
+#: rpm/transaction.cpp:370
 msgid "Cannot install package \"{}\""
 msgstr "Kann Paket \"{}\" nicht installieren"
 
