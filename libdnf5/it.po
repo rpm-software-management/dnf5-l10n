@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-27 03:33+0000\n"
-"PO-Revision-Date: 2025-05-07 15:58+0000\n"
+"PO-Revision-Date: 2025-05-29 01:10+0000\n"
 "Last-Translator: Salvatore Cocuzza <info@salvatorecocuzza.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/it/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.11.3\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: advisory/advisory.cpp:81
 msgid ""
@@ -1003,10 +1003,9 @@ msgid "Repository \"{}\" has unsupported type \"{}\", skipping."
 msgstr "Il repository \"{}\" ha un tipo non supportato \"{}\", verrà saltato."
 
 #: repo/repo.cpp:228 repo/repo_sack.cpp:648
-#, fuzzy
-#| msgid "Failed to download metadata ({}: \"{}\") for repository \"{}\""
 msgid "Failed to download metadata ({}: \"{}\") for repository \"{}\": {}"
-msgstr "Impossibile scaricare i metadati ({}: \"{}\") per il repository \"{}\""
+msgstr ""
+"Impossibile scaricare i metadati ({}: \"{}\") per il repository \"{}\": {}"
 
 #: repo/repo.cpp:426
 msgid ""
@@ -1041,10 +1040,8 @@ msgid "Librepo error: {}"
 msgstr "Errore Librepo: {}"
 
 #: repo/repo_downloader.cpp:265
-#, fuzzy
-#| msgid "Failed to download files"
 msgid "Failed to download metadata"
-msgstr "Impossibile scaricare i file"
+msgstr "Impossibile scaricare i metadati"
 
 #: repo/repo_downloader.cpp:340
 msgid "Error checking if metalink \"{}\" is in sync for repository \"{}\""
