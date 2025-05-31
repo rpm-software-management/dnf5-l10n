@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-27 03:33+0000\n"
+"POT-Creation-Date: 2025-05-31 03:32+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1053,28 +1053,28 @@ msgstr ""
 msgid "Repository \"{}\" has unsupported type \"{}\", skipping."
 msgstr ""
 
-#: repo/repo.cpp:228 repo/repo_sack.cpp:648
+#: repo/repo.cpp:221 repo/repo.cpp:241 repo/repo_sack.cpp:372
 #, c++-format
 msgid "Failed to download metadata ({}: \"{}\") for repository \"{}\": {}"
 msgstr ""
 
-#: repo/repo.cpp:426
+#: repo/repo.cpp:439
 msgid ""
 "Failed to load repository: \"primary\" data not present or in unsupported "
 "format"
 msgstr ""
 
-#: repo/repo.cpp:492
+#: repo/repo.cpp:505
 #, c++-format
 msgid "Failed to load comps \"{}\": doesn't have the \".xml\" extension"
 msgstr ""
 
-#: repo/repo.cpp:499
+#: repo/repo.cpp:512
 #, c++-format
 msgid "Failed to load xml Comps \"{}\": {}"
 msgstr ""
 
-#: repo/repo.cpp:517
+#: repo/repo.cpp:530
 #, c++-format
 msgid "Failed to load RPM \"{}\": {}"
 msgstr ""
@@ -1087,31 +1087,35 @@ msgstr ""
 msgid "Empty path to the repository cache directory."
 msgstr ""
 
-#: repo/repo_downloader.cpp:181
+#: repo/repo_downloader.cpp:214
 #, c++-format
 msgid "Librepo error: {}"
 msgstr ""
 
-#: repo/repo_downloader.cpp:265
+#: repo/repo_downloader.cpp:258
+msgid "Failed to set up metadata download"
+msgstr ""
+
+#: repo/repo_downloader.cpp:312 repo/repo_downloader.cpp:362
 msgid "Failed to download metadata"
 msgstr ""
 
-#: repo/repo_downloader.cpp:340
+#: repo/repo_downloader.cpp:426
 #, c++-format
 msgid "Error checking if metalink \"{}\" is in sync for repository \"{}\""
 msgstr ""
 
-#: repo/repo_downloader.cpp:373
+#: repo/repo_downloader.cpp:446
 #, c++-format
 msgid "Error checking if repomd ({}: \"{}\") is in sync for repository \"{}\""
 msgstr ""
 
-#: repo/repo_downloader.cpp:438
+#: repo/repo_downloader.cpp:515
 #, c++-format
 msgid "Error loading local metadata for repository \"{}\""
 msgstr ""
 
-#: repo/repo_downloader.cpp:520
+#: repo/repo_downloader.cpp:597
 #, c++-format
 msgid ""
 "No valid source (baseurl, mirrorlist or metalink) found for repository \"{}\""
@@ -1132,14 +1136,14 @@ msgstr ""
 msgid "Failed to import OpenPGP keys: {}"
 msgstr ""
 
-#: repo/repo_sack.cpp:150
+#: repo/repo_sack.cpp:159
 #, c++-format
 msgid ""
 "Failed to create repo \"{}\": Id is present more than once in the "
 "configuration"
 msgstr ""
 
-#: repo/repo_sack.cpp:593
+#: repo/repo_sack.cpp:635
 #, c++-format
 msgid "Cache-only enabled but no cache for repository \"{}\""
 msgstr ""
