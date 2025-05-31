@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-27 03:33+0000\n"
+"POT-Creation-Date: 2025-05-31 03:32+0000\n"
 "PO-Revision-Date: 2025-05-01 13:57+0000\n"
 "Last-Translator: Mario Blättermann <mario.blaettermann@gmail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf5/"
@@ -313,7 +313,7 @@ msgstr "Mit --url starten, um alle URLs aller verfügbarer Mirrors auszugeben"
 msgid "Invalid urlprotocol option: {}"
 msgstr "Ungültige URL-Protokolloption: {}"
 
-#: commands/download/download.cpp:148 main.cpp:626
+#: commands/download/download.cpp:148 main.cpp:627
 msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
 msgstr "Nicht unterstützte Architektur \"{0}\". Bitte wählen Sie eine aus {1}"
 
@@ -981,7 +981,7 @@ msgstr "Der Schlüssel wurde erfolgreich entfernt."
 msgid "setopt: \"{}.{}\": {}"
 msgstr "setopt: \"{}.{}\": {}"
 
-#: context.cpp:301 main.cpp:1354
+#: context.cpp:301 main.cpp:1356
 msgid ", "
 msgstr ", "
 
@@ -1134,31 +1134,31 @@ msgstr "Shared-Library kann nicht geladen werden \"{}\": {}"
 msgid "Cannot obtain address of symbol \"{}\": {}"
 msgstr "Adresse des Symbols kann nicht abgerufen werden \"{}\": {}"
 
-#: main.cpp:132
+#: main.cpp:133
 msgid "Utility for packages maintaining"
 msgstr "Hilfsprogramm zur Verwaltung von Paketen"
 
-#: main.cpp:133
+#: main.cpp:134
 msgid "DNF5 is a program for maintaining packages."
 msgstr "DNF5 ist ein Programm zur Verwaltung von Paketen."
 
-#: main.cpp:134
+#: main.cpp:135
 msgid "Unclassified options:"
 msgstr "Unklassifizierte Optionen:"
 
-#: main.cpp:137
+#: main.cpp:138
 msgid "Global options:"
 msgstr "Globale Optionen:"
 
-#: main.cpp:142
+#: main.cpp:143
 msgid "Print help"
 msgstr "Hilfe anzeigen"
 
-#: main.cpp:149
+#: main.cpp:150
 msgid "Configuration file location"
 msgstr "Speicherort der Konfigurationsdatei"
 
-#: main.cpp:157
+#: main.cpp:158
 msgid ""
 "In combination with a non-interactive command, shows just the relevant "
 "content. Suppresses messages notifying about the current state or actions of "
@@ -1168,7 +1168,7 @@ msgstr ""
 "Kommando. Unterdrückt Meldungen, die über den aktuellen Zustand oder "
 "Aktionen von dnf5 informieren."
 
-#: main.cpp:172
+#: main.cpp:173
 msgid ""
 "Run entirely from system cache, don't update the cache and use it even in "
 "case it is expired."
@@ -1176,33 +1176,33 @@ msgstr ""
 "Vollständig aus dem System-Cache ausführen, auch wenn dieser abgelaufen ist. "
 "Der Cache wird nicht aktualisiert."
 
-#: main.cpp:181
+#: main.cpp:182
 msgid "Control whether color is used."
 msgstr ""
 
-#: main.cpp:187
+#: main.cpp:188
 msgid "Force refreshing metadata before running the command."
 msgstr "Aktualisierung der Metadaten vor Ausführung des Kommandos erzwingen."
 
-#: main.cpp:203
+#: main.cpp:204
 msgid "Failed to expire repository cache in path \"{0}\": {1}"
 msgstr ""
 "Außer Kraft setzen des Repository-Caches fehlgeschlagen im Pfad \"{0}\": {1}"
 
-#: main.cpp:217
+#: main.cpp:218
 msgid "create additional repository using id and path"
 msgstr "erzeuge zusätzliches Repository anhand von ID und Pfad"
 
-#: main.cpp:225
+#: main.cpp:226
 msgid "repofrompath: Incorrect repoid and path specification \"{}\""
 msgstr "repofrompath: Fehlerhafte Spezifikation von Repo-ID und Pfad \"{}\""
 
-#: main.cpp:237
+#: main.cpp:238
 msgid "set arbitrary config and repo options"
 msgstr ""
 "Benutzerdefinierte Optionen für Konfiguration und Paketquelle festlegen"
 
-#: main.cpp:239
+#: main.cpp:240
 msgid ""
 "Override a configuration option from the configuration file. To override "
 "configuration options for repositories, use repoid.option for  the\n"
@@ -1221,46 +1221,46 @@ msgstr ""
 "              überschreiben ihn nicht. Wird jedoch ein leerer Wert angegeben "
 "(z. B. --setopt=tsflags=), wird die Option geleert."
 
-#: main.cpp:248 main.cpp:287
+#: main.cpp:249 main.cpp:288
 msgid "{}: Badly formatted argument value \"{}\""
 msgstr "{}: Schlecht formatierter Argumentwert \"{}\""
 
-#: main.cpp:255
+#: main.cpp:256
 msgid ""
 "{}: Badly formatted argument value: Last key character cannot be '.': {}"
 msgstr ""
 "{}: Fehlerhaft formatierter Argumentwert: Letzter Schlüsselwert kann nicht "
 "».« sein: {}"
 
-#: main.cpp:268
+#: main.cpp:269
 msgid "setopt: \"{0}\": {1}"
 msgstr "setopt: \"{0}\": {1}"
 
-#: main.cpp:280
+#: main.cpp:281
 msgid "set arbitrary variable"
 msgstr "setze beliebige Variable ein"
 
-#: main.cpp:294
+#: main.cpp:295
 msgid "setvar: {}"
 msgstr "setvar: {}"
 
-#: main.cpp:303
+#: main.cpp:304
 msgid "automatically answer yes for all questions"
 msgstr "automatisch alle Fragen mit ja beantworten"
 
-#: main.cpp:310
+#: main.cpp:311
 msgid "automatically answer no for all questions"
 msgstr "automatisch alle Fragen mit nein beantworten"
 
-#: main.cpp:317
+#: main.cpp:318
 msgid "try the best available package versions in transactions"
 msgstr "teste die besten erhältlichen Paket-Versionen in Transaktionen"
 
-#: main.cpp:324
+#: main.cpp:325
 msgid "do not limit the transaction to the best candidate"
 msgstr "die Transaktion nicht auf den besten Kandidaten beschränken"
 
-#: main.cpp:335
+#: main.cpp:336
 msgid ""
 "Don't install files that are marked as documentation (which includes man "
 "pages and texinfo documents)"
@@ -1268,11 +1268,11 @@ msgstr ""
 "Installieren Sie keine Dateien, die als Dokumentation gekennzeichnet sind "
 "(dazu gehören man-Pages und texinfo-Dokumente)"
 
-#: main.cpp:351
+#: main.cpp:352
 msgid "exclude packages by name or glob"
 msgstr "Pakete nach Namen oder Muster ausschließen"
 
-#: main.cpp:370
+#: main.cpp:371
 msgid ""
 "Enable additional repositories. List option. Supports globs, can be "
 "specified multiple times."
@@ -1280,7 +1280,7 @@ msgstr ""
 "Aktiviere zusätzliche Repositories. Listenoption. Unterstützt Muster und "
 "kann mehrfach spezifiziert werden."
 
-#: main.cpp:388
+#: main.cpp:389
 msgid ""
 "Disable repositories. List option. Supports globs, can be specified multiple "
 "times."
@@ -1288,7 +1288,7 @@ msgstr ""
 "Deaktiviere zusätzliche Repositories. Listenoption. Unterstützt Muster und "
 "kann mehrfach spezifiziert werden."
 
-#: main.cpp:406
+#: main.cpp:407
 msgid ""
 "Enable just specific repositories. List option. Supports globs, can be "
 "specified multiple times."
@@ -1296,17 +1296,17 @@ msgstr ""
 "Aktiviere nur festgelegte Repositories. Listenoption. Unterstützt Muster und "
 "kann mehrfach spezifiziert werden."
 
-#: main.cpp:428
+#: main.cpp:429
 msgid "disable OpenPGP signature checking (if RPM policy allows)"
 msgstr ""
 "OpenPGP-Signaturüberprüfung deaktivieren (falls die RPM-Richtlinie dies "
 "zulässt)"
 
-#: main.cpp:445
+#: main.cpp:446
 msgid "Disable all libdnf5 plugins"
 msgstr "Deaktiviere alle libdnf5 Plugins"
 
-#: main.cpp:455
+#: main.cpp:456
 msgid ""
 "Enable libdnf5 plugins by name. List option. Supports globs, can be "
 "specified multiple times."
@@ -1314,7 +1314,7 @@ msgstr ""
 "Aktiviere libdnf5-Plugins anhand ihres Namens. Listenoption. Unterstützt "
 "Muster und kann mehrfach spezifiziert werden."
 
-#: main.cpp:470
+#: main.cpp:471
 msgid ""
 "Disable libdnf5 plugins by name. List option. Supports globs, can be "
 "specified multiple times."
@@ -1322,11 +1322,11 @@ msgstr ""
 "Deaktiviere libdnf5-Plugins anhand ihres Namens. Listenoption. Unterstützt "
 "Muster und kann mehrfach spezifiziert werden."
 
-#: main.cpp:487
+#: main.cpp:488
 msgid "add a comment to transaction"
 msgstr "Kommentar zur Transaktion hinzufügen"
 
-#: main.cpp:489
+#: main.cpp:490
 msgid ""
 "Adds a comment to the action. If a transaction takes place, the comment is "
 "stored in it."
@@ -1334,11 +1334,11 @@ msgstr ""
 "Fügt einen Kommentar zur Aktion hinzu. Wenn eine Transaktion stattfindet, "
 "wird der Kommentar darin gespeichert."
 
-#: main.cpp:502
+#: main.cpp:503
 msgid "set install root"
 msgstr "Wurzel-Installationsverzeichnis festlegen"
 
-#: main.cpp:509
+#: main.cpp:510
 msgid ""
 "use configuration, reposdir, and vars from the host system rather than the "
 "installroot"
@@ -1346,12 +1346,12 @@ msgstr ""
 "Konfiguration, repo-Verzeichnis und Variablen vom Hostsystem statt von der "
 "Installationsroot verwenden"
 
-#: main.cpp:518
+#: main.cpp:519
 msgid "override the value of $releasever in config and repo files"
 msgstr ""
 "Wert für $releasever in Konfiguration und Paketquellendateien überschreiben"
 
-#: main.cpp:531
+#: main.cpp:532
 msgid ""
 "Show newly installed leaf packages and packages that became leaves after a "
 "transaction."
@@ -1359,62 +1359,62 @@ msgstr ""
 "Zeigt neu installierte Leaf-Pakete und Pakete, die nach einer Transaktion zu "
 "Leaves wurden."
 
-#: main.cpp:545
+#: main.cpp:546
 msgid "Dump detailed solving results into files"
 msgstr "Detaillierte Lösungsergebnisse in Dateien schreiben"
 
-#: main.cpp:554
+#: main.cpp:555
 msgid "Print main configuration values to stdout"
 msgstr "Werte der Hauptkonfiguration auf stdout ausgeben"
 
-#: main.cpp:571
+#: main.cpp:572
 msgid ""
 "Print repository configuration values to stdout. List option. Supports globs"
 msgstr ""
 "Repository-Konfigurationswerte auf stdout ausgeben. Listenoption. "
 "Unterstützt Muster"
 
-#: main.cpp:586
+#: main.cpp:587
 msgid "Print variable values to stdout"
 msgstr "Werte der Variablen auf stdout ausgeben"
 
-#: main.cpp:600
+#: main.cpp:601
 msgid "Show DNF5 version and exit"
 msgstr "DNF5 version anzeigen und beenden"
 
-#: main.cpp:607
+#: main.cpp:608
 msgid "Force the use of a different architecture."
 msgstr "Nutzung einer anderen Architektur erzwingen."
 
-#: main.cpp:645
+#: main.cpp:646
 msgid "Software Management Commands:"
 msgstr "Software Management Kommandos:"
 
-#: main.cpp:652
+#: main.cpp:653
 msgid "Query Commands:"
 msgstr "Abfragebefehle:"
 
-#: main.cpp:659
+#: main.cpp:660
 msgid "Subcommands:"
 msgstr "Unterbefehle:"
 
-#: main.cpp:757
+#: main.cpp:758
 msgid "{} version {}.{}.{}.{}"
 msgstr "{} Version {}.{}.{}.{}"
 
-#: main.cpp:760
+#: main.cpp:761
 msgid "{} plugin API version {}.{}"
 msgstr "{} Plugin API Version {}.{}"
 
-#: main.cpp:765
+#: main.cpp:766
 msgid "libdnf5 version {}.{}.{}.{}"
 msgstr "libdnf5 Version {}.{}.{}.{}"
 
-#: main.cpp:768
+#: main.cpp:769
 msgid "libdnf5 plugin API version {}.{}"
 msgstr "libdnf5 Plugin API Version {}.{}"
 
-#: main.cpp:775
+#: main.cpp:776
 msgid ""
 "\n"
 "Loaded {} plugins:"
@@ -1422,26 +1422,26 @@ msgstr ""
 "\n"
 "{} Plugins geladen:"
 
-#: main.cpp:780
+#: main.cpp:781
 msgid "  name: {}"
 msgstr "  Name: {}"
 
-#: main.cpp:783
+#: main.cpp:784
 msgid "  version: {}.{}.{}"
 msgstr "  Version: {}.{}.{}"
 
-#: main.cpp:785
+#: main.cpp:786
 msgid "  API version: {}.{}"
 msgstr "  API Version: {}.{}"
 
-#: main.cpp:823
+#: main.cpp:824
 msgid ""
 "Total size of inbound packages is {:.0f} {:s}. Need to download {:.0f} {:s}."
 msgstr ""
 "Die vollständige Größe eingehender Pakete ist {:.0f} {:s}. Heruntergeladen "
 "werden müssen {:.0f} {:s}."
 
-#: main.cpp:840
+#: main.cpp:841
 msgid ""
 "After this operation, {:.0f} {:s} extra will be used (install {:.0f} {:s}, "
 "remove {:.0f} {:s})."
@@ -1449,7 +1449,7 @@ msgstr ""
 "Nach dieser Operation werden {:.0f} {:s} mehr benötigt (installiere {:.0f} {:"
 "s}, entferne {:.0f} {:s})."
 
-#: main.cpp:851
+#: main.cpp:852
 msgid ""
 "After this operation, {:.0f} {:s} will be freed (install {:.0f} {:s}, remove "
 "{:.0f} {:s})."
@@ -1457,39 +1457,39 @@ msgstr ""
 "Nach dieser Operation werden {:.0f} {:s} frei (installiere {:.0f} {:s}, "
 "entferne {:.0f} {:s})."
 
-#: main.cpp:863
+#: main.cpp:864
 msgid "======== Main configuration: ========"
 msgstr "======== Hauptkonfiguration: ========"
 
-#: main.cpp:900
+#: main.cpp:901
 msgid "No matching repo to dump configuration: \"{}\""
 msgstr "Kein passender Repo um Konfigurations-Speicherinhalt abzuladen \"{}\""
 
-#: main.cpp:905
+#: main.cpp:906
 msgid "======== \"{}\" repository configuration: ========"
 msgstr "======== \"{}\" Repository-Konfiguration: ========"
 
-#: main.cpp:925
+#: main.cpp:926
 msgid "======== Variables: ========"
 msgstr "======== Variablen: ========"
 
-#: main.cpp:965
+#: main.cpp:966
 msgid "New leaves:"
 msgstr "Neue leaves:"
 
-#: main.cpp:967
+#: main.cpp:968
 msgid " {}"
 msgstr " {}"
 
-#: main.cpp:1011
+#: main.cpp:1012
 msgid "{} to skip unavailable packages"
 msgstr "{}, um nicht-verfügbare Pakete zu überspringen"
 
-#: main.cpp:1019
+#: main.cpp:1020
 msgid "{} to allow extra packages in the transaction"
 msgstr "{} um weitere Pakete in der Transaktion zu erlauben"
 
-#: main.cpp:1032
+#: main.cpp:1033
 msgid ""
 "{} to allow mismatches between installed and stored transaction packages. "
 "This can result in an empty transaction because among other things the "
@@ -1499,29 +1499,29 @@ msgstr ""
 "Transaktionspaketen zu erlauben. Dies kann zu einer leeren Transaktion "
 "führen, weil die Option fehlgeschlagene Remove-Aktionen ignorieren kann."
 
-#: main.cpp:1079
+#: main.cpp:1080
 msgid "{} to not limit the transaction to the best candidates"
 msgstr ""
 "{}, um die Transaktionen nicht auf die besten Kandidaten zu beschränken"
 
-#: main.cpp:1086
+#: main.cpp:1087
 msgid "{} to allow removing of installed packages to resolve problems"
 msgstr ""
 "{}, um das Entfernen installierter Pakete zur Problemlösung zu erlauben"
 
-#: main.cpp:1095
+#: main.cpp:1096
 msgid "{} to load additional filelists metadata"
 msgstr "{}, um zusätzliche Dateilisten-Metadaten zu laden"
 
-#: main.cpp:1102
+#: main.cpp:1103
 msgid "{} to skip uninstallable packages"
 msgstr "{}, um deinstallierbare Pakete zu überspringen"
 
-#: main.cpp:1108
+#: main.cpp:1109
 msgid "You can try to add to command line:"
 msgstr "Sie können versuchen, folgendes der Befehlszeile hinzuzufügen:"
 
-#: main.cpp:1126
+#: main.cpp:1127
 msgid ""
 "No matches were found for the following plugin name patterns while enabling "
 "libdnf plugins: {}"
@@ -1529,7 +1529,7 @@ msgstr ""
 "Bei der Aktivierung von libdnf-Plugins wurden keine Übereinstimmungen für "
 "die folgenden Plugin-Namensmuster gefunden: {}"
 
-#: main.cpp:1127
+#: main.cpp:1128
 msgid ""
 "No matches were found for the following plugin name patterns while disabling "
 "libdnf plugins: {}"
@@ -1537,25 +1537,25 @@ msgstr ""
 "Bei der Deaktivierung von libdnf-Plugins wurden keine Übereinstimmungen für "
 "die folgenden Plugin-Namensmuster gefunden: {}"
 
-#: main.cpp:1223
+#: main.cpp:1225
 msgid "--- DNF5 launched with arguments: \"{}\" ---"
 msgstr "--- DNF5 wurde mit den Argumenten gestartet: \"{}\" ---"
 
-#: main.cpp:1259
+#: main.cpp:1261
 msgid "Invalid \"index\" in \"--complete=<index>[,...]\": {}"
 msgstr "Ungültiger \"index\" in \"--complete=<index>[,...]\": {}"
 
-#: main.cpp:1298
+#: main.cpp:1300
 msgid "{}."
 msgstr "{}."
 
-#: main.cpp:1301 main.cpp:1553
+#: main.cpp:1303 main.cpp:1555
 msgid "{}. Add \"--help\" for more information about the arguments."
 msgstr ""
 "{}. Fügen Sie \"--help\" hinzu, um weitere Informationen zu den Argumenten "
 "zu erhalten."
 
-#: main.cpp:1310
+#: main.cpp:1312
 msgid ""
 "It could be a command provided by a plugin, try: dnf5 install 'dnf5-"
 "command({})'"
@@ -1563,7 +1563,7 @@ msgstr ""
 "Es könnte ein Befehl sein, dass von einem Plugin bereitgestellt wird. "
 "Versuche: dnf install 'dnf5-command({})'"
 
-#: main.cpp:1352
+#: main.cpp:1354
 msgid ""
 "The argument is available for commands: {}. (It has to be placed after the "
 "command.)"
@@ -1571,11 +1571,11 @@ msgstr ""
 "Das Argument ist für Befehle verfügbar:{}. (Es muss nach dem Befehl "
 "platziert werden.)"
 
-#: main.cpp:1396
+#: main.cpp:1398
 msgid "No read/execute access in current directory, moving to /"
 msgstr "Kein Lese/Schreib-Zugriff im aktuellen Verzeichnis. Verschiebe nach /"
 
-#: main.cpp:1468
+#: main.cpp:1470
 msgid ""
 "The requested operation requires superuser privileges. Please log in as a "
 "user with elevated rights, or use the \"--assumeno\" or \"--downloadonly\" "
@@ -1586,15 +1586,15 @@ msgstr ""
 "Optionen \"--assumeno\" oder \"--downloadonly\", um den Befehl auszuführen, "
 "ohne den Systemzustand zu verändern."
 
-#: main.cpp:1509
+#: main.cpp:1511
 msgid "The operation will only store the transaction in {}"
 msgstr "Die Operation wird nur gespeichert in {}"
 
-#: main.cpp:1511
+#: main.cpp:1513
 msgid "The operation will only download packages for the transaction."
 msgstr "Diese Operation wird nur Pakete für diese Transaktion herunterladen."
 
-#: main.cpp:1516
+#: main.cpp:1518
 msgid ""
 "Test mode enabled: Only package downloads, OpenPGP key installations and "
 "transaction checks will be performed."
@@ -1602,13 +1602,13 @@ msgstr ""
 "Testmodus aktiviert: Es werden nur Paket-Downloads, OpenPGP-"
 "Schlüsselinstallationen und Transaktionsprüfungen durchgeführt."
 
-#: main.cpp:1524
+#: main.cpp:1526
 msgid ""
 "Error: this bootc system is configured to be read-only. For more "
 "information, run `bootc --help`."
 msgstr ""
 
-#: main.cpp:1541
+#: main.cpp:1543
 msgid ""
 "No repositories were loaded from the installroot. To use the configuration "
 "and repositories of the host system, pass --use-host-config."
@@ -1617,15 +1617,15 @@ msgstr ""
 "Konfiguration und die Paketquellen des Host-Systems zu nutzen fügen Sie --"
 "use-host-config hinzu."
 
-#: main.cpp:1563
+#: main.cpp:1565
 msgid "Command returned error: {}"
 msgstr "Befehl hat folgenden Fehler zurückgegeben: {}"
 
-#: main.cpp:1571
+#: main.cpp:1573
 msgid "DNF5 finished"
 msgstr "DNF5 ist fertig"
 
-#: main.cpp:1575
+#: main.cpp:1577
 msgid "Complete!"
 msgstr "Abgeschlossen!"
 

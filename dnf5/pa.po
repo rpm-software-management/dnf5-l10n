@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-27 03:33+0000\n"
+"POT-Creation-Date: 2025-05-31 03:32+0000\n"
 "PO-Revision-Date: 2025-01-03 15:05+0000\n"
 "Last-Translator: A S Alam <aalam@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Punjabi <https://translate.fedoraproject.org/projects/dnf5/"
@@ -285,7 +285,7 @@ msgstr ""
 msgid "Invalid urlprotocol option: {}"
 msgstr ""
 
-#: commands/download/download.cpp:148 main.cpp:626
+#: commands/download/download.cpp:148 main.cpp:627
 msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
 msgstr "ਗ਼ੈਰ-ਸਹਾਇਕ \"{0}\" ਢਾਂਚਾ। {1} ਤੋਂ ਇੱਕ ਨੂੰ ਚੁਣੋ।"
 
@@ -897,7 +897,7 @@ msgstr "ਕੁੰਜੀ ਨੂੰ ਕਾਮਯਾਬੀ ਨਾਲ ਇੰਪੋ�
 msgid "setopt: \"{}.{}\": {}"
 msgstr ""
 
-#: context.cpp:301 main.cpp:1354
+#: context.cpp:301 main.cpp:1356
 msgid ", "
 msgstr ", "
 
@@ -1042,38 +1042,38 @@ msgstr "\"{}\" ਸ਼ੇਅਰਡ ਲਾਇਬਰੇਰੀ ਨੂੰ ਲੋਡ ਨ�
 msgid "Cannot obtain address of symbol \"{}\": {}"
 msgstr ""
 
-#: main.cpp:132
+#: main.cpp:133
 msgid "Utility for packages maintaining"
 msgstr "ਪੈਕੇਜ ਦੇ ਇੰਤਜ਼ਾਮ ਲਈ ਸਹੂਲਤ"
 
-#: main.cpp:133
+#: main.cpp:134
 msgid "DNF5 is a program for maintaining packages."
 msgstr "DNF5 ਪੈਕੇਜਾਂ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰਨ ਵਾਲਾ ਪ੍ਰੋਗਰਾਮ ਹੈ।"
 
-#: main.cpp:134
+#: main.cpp:135
 msgid "Unclassified options:"
 msgstr ""
 
-#: main.cpp:137
+#: main.cpp:138
 msgid "Global options:"
 msgstr "ਗਲੋਬਲ ਚੋਣਾਂ:"
 
-#: main.cpp:142
+#: main.cpp:143
 msgid "Print help"
 msgstr "ਮਦਦ ਵੇਖਾਓ"
 
-#: main.cpp:149
+#: main.cpp:150
 msgid "Configuration file location"
 msgstr "ਫਾਇਲ ਟਿਕਾਣੇ ਦੀ ਸੰਰਚਨਾ"
 
-#: main.cpp:157
+#: main.cpp:158
 msgid ""
 "In combination with a non-interactive command, shows just the relevant "
 "content. Suppresses messages notifying about the current state or actions of "
 "dnf5."
 msgstr ""
 
-#: main.cpp:172
+#: main.cpp:173
 msgid ""
 "Run entirely from system cache, don't update the cache and use it even in "
 "case it is expired."
@@ -1081,31 +1081,31 @@ msgstr ""
 "ਪੂਰੀ ਤਰ੍ਹਾਂ ਸਿਸਟਮ ਕੈਸ਼ ਤੋਂ ਹੀ ਚਲਾਓ, ਕੈਸ਼ ਨੂੰ ਅੱਪਡੇਟ ਨਾ ਕਰੋ ਅਤੇ ਭਾਵੇਂ ਇਸ ਦੀ ਮਿਆਦ ਪੁੱਗ ਹੀ ਗਈ ਹੋਵੇ "
 "ਤਾਂ ਵੀ ਇਸ ਨੂੰ ਹੀ ਵਰਤੋਂ।"
 
-#: main.cpp:181
+#: main.cpp:182
 msgid "Control whether color is used."
 msgstr ""
 
-#: main.cpp:187
+#: main.cpp:188
 msgid "Force refreshing metadata before running the command."
 msgstr "ਕਮਾਂਡ ਚਲਾਉਣ ਤੋਂ ਪਹਿਲਾਂ ਮੇਟਾ-ਡਾਟਾ ਨੂੰ ਤਾਜ਼ਾ ਕਰਨ ਲਈ ਮਜ਼ਬੂਰ ਕਰੋ।"
 
-#: main.cpp:203
+#: main.cpp:204
 msgid "Failed to expire repository cache in path \"{0}\": {1}"
 msgstr ""
 
-#: main.cpp:217
+#: main.cpp:218
 msgid "create additional repository using id and path"
 msgstr ""
 
-#: main.cpp:225
+#: main.cpp:226
 msgid "repofrompath: Incorrect repoid and path specification \"{}\""
 msgstr ""
 
-#: main.cpp:237
+#: main.cpp:238
 msgid "set arbitrary config and repo options"
 msgstr ""
 
-#: main.cpp:239
+#: main.cpp:240
 msgid ""
 "Override a configuration option from the configuration file. To override "
 "configuration options for repositories, use repoid.option for  the\n"
@@ -1116,96 +1116,96 @@ msgid ""
 "g. --setopt=tsflags=) will clear the option."
 msgstr ""
 
-#: main.cpp:248 main.cpp:287
+#: main.cpp:249 main.cpp:288
 msgid "{}: Badly formatted argument value \"{}\""
 msgstr ""
 
-#: main.cpp:255
+#: main.cpp:256
 msgid ""
 "{}: Badly formatted argument value: Last key character cannot be '.': {}"
 msgstr ""
 
-#: main.cpp:268
+#: main.cpp:269
 msgid "setopt: \"{0}\": {1}"
 msgstr ""
 
-#: main.cpp:280
+#: main.cpp:281
 msgid "set arbitrary variable"
 msgstr ""
 
-#: main.cpp:294
+#: main.cpp:295
 msgid "setvar: {}"
 msgstr ""
 
-#: main.cpp:303
+#: main.cpp:304
 msgid "automatically answer yes for all questions"
 msgstr "ਸਾਰੇ ਸਵਾਲਾਂ ਲਈ ਆਪਣੇ-ਆਪ ਜਵਾਬ ਹਾਂ (yes) ਵਿੱਚ ਦਿਓ"
 
-#: main.cpp:310
+#: main.cpp:311
 msgid "automatically answer no for all questions"
 msgstr "ਸਾਰੇ ਸਵਾਲਾਂ ਲਈ ਆਪਣੇ-ਆਪ ਜਵਾਬ ਨਹੀਂ (no) ਵਿੱਚ ਦਿਓ"
 
-#: main.cpp:317
+#: main.cpp:318
 msgid "try the best available package versions in transactions"
 msgstr "ਟਰਾਂਜ਼ੈਕਸ਼ਨਾਂ ਵਿੱਚ ਸਭ ਤੋਂ ਵਧੀਆ ਮੌਜੂਦ ਪੈਕੇਜ ਵਰਜ਼ਨ ਨਾਲ ਕੋਸ਼ਿਸ਼ ਕਰੋ"
 
-#: main.cpp:324
+#: main.cpp:325
 msgid "do not limit the transaction to the best candidate"
 msgstr ""
 
-#: main.cpp:335
+#: main.cpp:336
 msgid ""
 "Don't install files that are marked as documentation (which includes man "
 "pages and texinfo documents)"
 msgstr ""
 
-#: main.cpp:351
+#: main.cpp:352
 msgid "exclude packages by name or glob"
 msgstr ""
 
-#: main.cpp:370
+#: main.cpp:371
 msgid ""
 "Enable additional repositories. List option. Supports globs, can be "
 "specified multiple times."
 msgstr ""
 
-#: main.cpp:388
+#: main.cpp:389
 msgid ""
 "Disable repositories. List option. Supports globs, can be specified multiple "
 "times."
 msgstr ""
 
-#: main.cpp:406
+#: main.cpp:407
 msgid ""
 "Enable just specific repositories. List option. Supports globs, can be "
 "specified multiple times."
 msgstr ""
 
-#: main.cpp:428
+#: main.cpp:429
 msgid "disable OpenPGP signature checking (if RPM policy allows)"
 msgstr ""
 
-#: main.cpp:445
+#: main.cpp:446
 msgid "Disable all libdnf5 plugins"
 msgstr "ਸਭ libdnf5 ਪਲੱਗਇਨਾਂ ਨੂੰ ਅਸਮਰੱਥ ਕਰੋ"
 
-#: main.cpp:455
+#: main.cpp:456
 msgid ""
 "Enable libdnf5 plugins by name. List option. Supports globs, can be "
 "specified multiple times."
 msgstr ""
 
-#: main.cpp:470
+#: main.cpp:471
 msgid ""
 "Disable libdnf5 plugins by name. List option. Supports globs, can be "
 "specified multiple times."
 msgstr ""
 
-#: main.cpp:487
+#: main.cpp:488
 msgid "add a comment to transaction"
 msgstr "ਟਰਾਂਜ਼ੈਕਸ਼ਨ ਵਿੱਚ ਟਿੱਪਣੀ ਜੋੜੋ"
 
-#: main.cpp:489
+#: main.cpp:490
 msgid ""
 "Adds a comment to the action. If a transaction takes place, the comment is "
 "stored in it."
@@ -1213,80 +1213,80 @@ msgstr ""
 "ਕਾਰਵਾਈ ਵਿੱਚ ਟਿੱਪਣੀ ਨੂੰ ਜੋੜਦਾ ਹੈ। ਜੇ ਟਰਾਂਜ਼ੈਕਸ਼ਨ ਕੀਤੀ ਜਾਂਦੀ ਹੈ ਤਾਂ ਟਿੱਪਣੀ ਨੂੰ ਇਸ ਵਿੱਚ ਸੰਭਾਲਿਆ "
 "ਜਾਂਦਾ ਹੈ।"
 
-#: main.cpp:502
+#: main.cpp:503
 msgid "set install root"
 msgstr "ਇੰਸਟਾਲ root ਸੈਟ ਕਰੋ"
 
-#: main.cpp:509
+#: main.cpp:510
 msgid ""
 "use configuration, reposdir, and vars from the host system rather than the "
 "installroot"
 msgstr ""
 
-#: main.cpp:518
+#: main.cpp:519
 msgid "override the value of $releasever in config and repo files"
 msgstr ""
 
-#: main.cpp:531
+#: main.cpp:532
 msgid ""
 "Show newly installed leaf packages and packages that became leaves after a "
 "transaction."
 msgstr ""
 
-#: main.cpp:545
+#: main.cpp:546
 msgid "Dump detailed solving results into files"
 msgstr ""
 
-#: main.cpp:554
+#: main.cpp:555
 msgid "Print main configuration values to stdout"
 msgstr ""
 
-#: main.cpp:571
+#: main.cpp:572
 msgid ""
 "Print repository configuration values to stdout. List option. Supports globs"
 msgstr ""
 
-#: main.cpp:586
+#: main.cpp:587
 msgid "Print variable values to stdout"
 msgstr ""
 
-#: main.cpp:600
+#: main.cpp:601
 msgid "Show DNF5 version and exit"
 msgstr "DNF5 ਵਰਜ਼ਨ ਦੇਖਾਓ ਅਤੇ ਬੰਦ ਕਰੋ"
 
-#: main.cpp:607
+#: main.cpp:608
 msgid "Force the use of a different architecture."
 msgstr "ਵੱਖਰਾ ਢਾਂਚਾ ਵਰਤਣ ਲਈ ਮਜ਼ਬੂਰ ਕਰੋ।"
 
-#: main.cpp:645
+#: main.cpp:646
 msgid "Software Management Commands:"
 msgstr "ਸਾਫਟਵੇਅਰ ਇੰਤਜ਼ਾਮ ਕਮਾਡਾਂ:"
 
-#: main.cpp:652
+#: main.cpp:653
 msgid "Query Commands:"
 msgstr "ਕਿਊਰੀ ਕਮਾਂਡ:"
 
-#: main.cpp:659
+#: main.cpp:660
 msgid "Subcommands:"
 msgstr "ਸਬ-ਕਮਾਂਡ:"
 
-#: main.cpp:757
+#: main.cpp:758
 msgid "{} version {}.{}.{}.{}"
 msgstr "{} ਵਰਜ਼ਨ {}.{}.{}.{}"
 
-#: main.cpp:760
+#: main.cpp:761
 msgid "{} plugin API version {}.{}"
 msgstr "{} ਪਲੱਗਇਨ API ਵਰਜ਼ਨ {}.{}"
 
-#: main.cpp:765
+#: main.cpp:766
 msgid "libdnf5 version {}.{}.{}.{}"
 msgstr "libdnf5 ਵਰਜ਼ਨ {}.{}.{}.{}"
 
-#: main.cpp:768
+#: main.cpp:769
 msgid "libdnf5 plugin API version {}.{}"
 msgstr "libdnf5 ਪਲੱਗਇਨ API ਵਰਜ਼ਨ {}.{}"
 
-#: main.cpp:775
+#: main.cpp:776
 msgid ""
 "\n"
 "Loaded {} plugins:"
@@ -1294,25 +1294,25 @@ msgstr ""
 "\n"
 "ਲੋਡ ਕੀਤੀਆਂ {} ਪਲੱਗਇਨ:"
 
-#: main.cpp:780
+#: main.cpp:781
 msgid "  name: {}"
 msgstr "  ਨਾਂ: {}"
 
-#: main.cpp:783
+#: main.cpp:784
 msgid "  version: {}.{}.{}"
 msgstr "  ਵਰਜ਼ਨ: {}.{}.{}"
 
-#: main.cpp:785
+#: main.cpp:786
 msgid "  API version: {}.{}"
 msgstr "  API ਵਰਜ਼ਨ: {}.{}"
 
-#: main.cpp:823
+#: main.cpp:824
 msgid ""
 "Total size of inbound packages is {:.0f} {:s}. Need to download {:.0f} {:s}."
 msgstr ""
 "ਲਿਆਂਦੇ ਜਾਣ ਵਾਲੇ ਪੈਕੇਜਾਂ ਦਾ ਕੁੱਲ ਆਕਾਰ {:.0f} {:s} ਹੈ। {:.0f} {:s} ਨੂੰ ਡਾਊਨਲੋਡ ਕਰਨ ਦੀ ਲੋੜ ਹੈ।"
 
-#: main.cpp:840
+#: main.cpp:841
 msgid ""
 "After this operation, {:.0f} {:s} extra will be used (install {:.0f} {:s}, "
 "remove {:.0f} {:s})."
@@ -1320,7 +1320,7 @@ msgstr ""
 "ਇਸ ਕਾਰਵਾਈ ਦੇ ਬਾਅਦ, {:.0f} {:s} ਹੋਰ ਥਾਂ ਨੂੰ ਵਰਤਿਆ ਜਾਵੇਗਾ (ਇੰਸਟਾਲ ਕਰਨਾ {:.0f} {:s}, "
 "ਹਟਾਉਣਾ {:.0f} {:s})।"
 
-#: main.cpp:851
+#: main.cpp:852
 msgid ""
 "After this operation, {:.0f} {:s} will be freed (install {:.0f} {:s}, remove "
 "{:.0f} {:s})."
@@ -1328,151 +1328,151 @@ msgstr ""
 "ਕਾਰਵਾਈ ਦੇ ਬਾਅਦ, {:.0f} {:s} ਥਾਂ ਖਾਲੀ ਕੀਤੀ ਜਾਵੇਗੀ (ਇੰਸਟਾਲ ਕਰਨਾ {:.0f} {:s}, "
 "ਹਟਾਉਣਾ {:.0f} {:s})।"
 
-#: main.cpp:863
+#: main.cpp:864
 msgid "======== Main configuration: ========"
 msgstr "======== ਮੁੱਖ ਸੰਰਚਨਾ: ========"
 
-#: main.cpp:900
+#: main.cpp:901
 msgid "No matching repo to dump configuration: \"{}\""
 msgstr ""
 
-#: main.cpp:905
+#: main.cpp:906
 msgid "======== \"{}\" repository configuration: ========"
 msgstr "======== \"{}\" ਰਿਪੋਰਜ਼ਟਰੀ ਦੀ ਸੰਰਚਨਾ: ========"
 
-#: main.cpp:925
+#: main.cpp:926
 msgid "======== Variables: ========"
 msgstr "======== ਵੇਰੀਬਲ: ========"
 
-#: main.cpp:965
+#: main.cpp:966
 msgid "New leaves:"
 msgstr ""
 
-#: main.cpp:967
+#: main.cpp:968
 msgid " {}"
 msgstr " {}"
 
-#: main.cpp:1011
+#: main.cpp:1012
 msgid "{} to skip unavailable packages"
 msgstr "{} ਨੂੰ ਗ਼ੈਰ-ਮੌਜੂਦ ਪੈਕੇਜਾਂ ਨੂੰ ਛੱਡਣ ਦਿਓ"
 
-#: main.cpp:1019
+#: main.cpp:1020
 msgid "{} to allow extra packages in the transaction"
 msgstr "{} ਨੂੰ ਟਰਾਂਜ਼ੈਕਸ਼ਨ ਵਿੱਚ ਹੋਰ ਵਾਧੂ ਪੈਕੇਜਾਂ ਲਈ ਮਨਜ਼ੂਰੀ ਦਿਓ"
 
-#: main.cpp:1032
+#: main.cpp:1033
 msgid ""
 "{} to allow mismatches between installed and stored transaction packages. "
 "This can result in an empty transaction because among other things the "
 "option can ignore failing Remove actions."
 msgstr ""
 
-#: main.cpp:1079
+#: main.cpp:1080
 msgid "{} to not limit the transaction to the best candidates"
 msgstr ""
 
-#: main.cpp:1086
+#: main.cpp:1087
 msgid "{} to allow removing of installed packages to resolve problems"
 msgstr "ਸਮੱਸਿਆਵਾਂ ਨੂੰ ਹੱਲ਼ ਕਰਨ ਵਾਸਤੇ {} ਨੂੰ ਇੰਸਟਾਲ ਹੋਏ ਪੈਕੇਜਾਂ ਨੂੰ ਹਟਾਉਣ ਦੀ ਮਨਜ਼ੂਰੀ ਦਿਓ"
 
-#: main.cpp:1095
+#: main.cpp:1096
 msgid "{} to load additional filelists metadata"
 msgstr ""
 
-#: main.cpp:1102
+#: main.cpp:1103
 msgid "{} to skip uninstallable packages"
 msgstr ""
 
-#: main.cpp:1108
+#: main.cpp:1109
 msgid "You can try to add to command line:"
 msgstr "ਤੁਸੀਂ ਕਮਾਂਡ ਲਾਈਨ ਉੱਤੇ ਜੋੜਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰ ਸਕਦੇ ਹੋ:"
 
-#: main.cpp:1126
+#: main.cpp:1127
 msgid ""
 "No matches were found for the following plugin name patterns while enabling "
 "libdnf plugins: {}"
 msgstr ""
 
-#: main.cpp:1127
+#: main.cpp:1128
 msgid ""
 "No matches were found for the following plugin name patterns while disabling "
 "libdnf plugins: {}"
 msgstr ""
 
-#: main.cpp:1223
+#: main.cpp:1225
 msgid "--- DNF5 launched with arguments: \"{}\" ---"
 msgstr ""
 
-#: main.cpp:1259
+#: main.cpp:1261
 msgid "Invalid \"index\" in \"--complete=<index>[,...]\": {}"
 msgstr ""
 
-#: main.cpp:1298
+#: main.cpp:1300
 msgid "{}."
 msgstr "{}."
 
-#: main.cpp:1301 main.cpp:1553
+#: main.cpp:1303 main.cpp:1555
 msgid "{}. Add \"--help\" for more information about the arguments."
 msgstr ""
 
-#: main.cpp:1310
+#: main.cpp:1312
 msgid ""
 "It could be a command provided by a plugin, try: dnf5 install 'dnf5-"
 "command({})'"
 msgstr ""
 
-#: main.cpp:1352
+#: main.cpp:1354
 msgid ""
 "The argument is available for commands: {}. (It has to be placed after the "
 "command.)"
 msgstr ""
 
-#: main.cpp:1396
+#: main.cpp:1398
 msgid "No read/execute access in current directory, moving to /"
 msgstr ""
 
-#: main.cpp:1468
+#: main.cpp:1470
 msgid ""
 "The requested operation requires superuser privileges. Please log in as a "
 "user with elevated rights, or use the \"--assumeno\" or \"--downloadonly\" "
 "options to run the command without modifying the system state."
 msgstr ""
 
-#: main.cpp:1509
+#: main.cpp:1511
 msgid "The operation will only store the transaction in {}"
 msgstr "ਕਾਰਵਾਈ {} ਵਿੱਚ ਸਿਰਫ਼ ਟਰਾਂਜ਼ੈਕਸ਼ਨ ਨੂੰ ਸੰਭਾਲੇਗੀ"
 
-#: main.cpp:1511
+#: main.cpp:1513
 msgid "The operation will only download packages for the transaction."
 msgstr "ਕਾਰਵਾਈ ਟਰਾਂਜ਼ੈਕਸ਼ਨ ਲਈ ਸਿਰਫ਼ ਪੈਕੇਜਾਂ ਨੂੰ ਡਾਊਨਲੋਡ ਹੀ ਕਰੇਗੀ।"
 
-#: main.cpp:1516
+#: main.cpp:1518
 msgid ""
 "Test mode enabled: Only package downloads, OpenPGP key installations and "
 "transaction checks will be performed."
 msgstr ""
 
-#: main.cpp:1524
+#: main.cpp:1526
 msgid ""
 "Error: this bootc system is configured to be read-only. For more "
 "information, run `bootc --help`."
 msgstr ""
 
-#: main.cpp:1541
+#: main.cpp:1543
 msgid ""
 "No repositories were loaded from the installroot. To use the configuration "
 "and repositories of the host system, pass --use-host-config."
 msgstr ""
 
-#: main.cpp:1563
+#: main.cpp:1565
 msgid "Command returned error: {}"
 msgstr "ਕਮਾਂਡ ਨੇ ਗ਼ਲਤੀ ਵਾਪਸ ਕੀਤੀ: {}"
 
-#: main.cpp:1571
+#: main.cpp:1573
 msgid "DNF5 finished"
 msgstr "DNF5 ਮੁਕੰਮਲ"
 
-#: main.cpp:1575
+#: main.cpp:1577
 msgid "Complete!"
 msgstr "ਮੁਕੰਮਲ!"
 

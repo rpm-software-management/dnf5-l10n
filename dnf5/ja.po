@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-27 03:33+0000\n"
+"POT-Creation-Date: 2025-05-31 03:32+0000\n"
 "PO-Revision-Date: 2025-04-05 08:01+0000\n"
 "Last-Translator: Inci sakura <incisakura@icloud.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf5/"
@@ -332,7 +332,7 @@ msgstr ""
 msgid "Invalid urlprotocol option: {}"
 msgstr "無効な urlprotocol オプション: {}"
 
-#: commands/download/download.cpp:148 main.cpp:626
+#: commands/download/download.cpp:148 main.cpp:627
 msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
 msgstr "サポートされてないアーキテクチャ \"{0}\"。 {1} から一つ選んでください"
 
@@ -981,7 +981,7 @@ msgstr "キー 0x{} が正常に削除されました。"
 msgid "setopt: \"{}.{}\": {}"
 msgstr "setopt: \"{}.{}\": {}"
 
-#: context.cpp:301 main.cpp:1354
+#: context.cpp:301 main.cpp:1356
 msgid ", "
 msgstr ", "
 
@@ -1131,31 +1131,31 @@ msgstr "共有ライブラリ \"{}\" を読み込めませんでした: {}"
 msgid "Cannot obtain address of symbol \"{}\": {}"
 msgstr "シンボル \"{}\" のアドレスを取得できませんでした: {}"
 
-#: main.cpp:132
+#: main.cpp:133
 msgid "Utility for packages maintaining"
 msgstr "パッケージ管理のためのユーティリティ"
 
-#: main.cpp:133
+#: main.cpp:134
 msgid "DNF5 is a program for maintaining packages."
 msgstr "DNF5 はパッケージ管理用のプログラムです。"
 
-#: main.cpp:134
+#: main.cpp:135
 msgid "Unclassified options:"
 msgstr "未分類オプション:"
 
-#: main.cpp:137
+#: main.cpp:138
 msgid "Global options:"
 msgstr "グローバル オプション:"
 
-#: main.cpp:142
+#: main.cpp:143
 msgid "Print help"
 msgstr "ヘルプを表示します"
 
-#: main.cpp:149
+#: main.cpp:150
 msgid "Configuration file location"
 msgstr "設定ファイルの場所"
 
-#: main.cpp:157
+#: main.cpp:158
 msgid ""
 "In combination with a non-interactive command, shows just the relevant "
 "content. Suppresses messages notifying about the current state or actions of "
@@ -1164,7 +1164,7 @@ msgstr ""
 "関連内容のみが表示されるので、非対話型コマンドとの組み合わせ使用に適していま"
 "す。dnf5 の現在の状態やアクションに関するメッセージは抑制されます。"
 
-#: main.cpp:172
+#: main.cpp:173
 msgid ""
 "Run entirely from system cache, don't update the cache and use it even in "
 "case it is expired."
@@ -1172,31 +1172,31 @@ msgstr ""
 "期限切れであってもキャッシュを更新せず、完全にシステム キャッシュで実行しま"
 "す。"
 
-#: main.cpp:181
+#: main.cpp:182
 msgid "Control whether color is used."
 msgstr "色の利用を制御。"
 
-#: main.cpp:187
+#: main.cpp:188
 msgid "Force refreshing metadata before running the command."
 msgstr "コマンド実行する前にメタデータを強制的に更新します。"
 
-#: main.cpp:203
+#: main.cpp:204
 msgid "Failed to expire repository cache in path \"{0}\": {1}"
 msgstr "パス \"{0}\" のリポジトリ キャッシュの期限切れに失敗しました: {1}"
 
-#: main.cpp:217
+#: main.cpp:218
 msgid "create additional repository using id and path"
 msgstr "指定 ID とパスで追加リポジトリを作成します"
 
-#: main.cpp:225
+#: main.cpp:226
 msgid "repofrompath: Incorrect repoid and path specification \"{}\""
 msgstr "repofrompath: 不正な ID とパス指定 \"{}\""
 
-#: main.cpp:237
+#: main.cpp:238
 msgid "set arbitrary config and repo options"
 msgstr "任意の設定およびリポジトリ オプションを設定します"
 
-#: main.cpp:239
+#: main.cpp:240
 msgid ""
 "Override a configuration option from the configuration file. To override "
 "configuration options for repositories, use repoid.option for  the\n"
@@ -1213,45 +1213,45 @@ msgstr ""
 "              上書きされることはありません。ただし、空の値（例: --"
 "setopt=tsflags=）を指定すると、そのオプションはクリアされます。"
 
-#: main.cpp:248 main.cpp:287
+#: main.cpp:249 main.cpp:288
 msgid "{}: Badly formatted argument value \"{}\""
 msgstr "{}: 不正形式の引数 \"{}\""
 
-#: main.cpp:255
+#: main.cpp:256
 msgid ""
 "{}: Badly formatted argument value: Last key character cannot be '.': {}"
 msgstr "{}: 不正形式の引数: キー最後の文字を '.' にすることはできません: {}"
 
-#: main.cpp:268
+#: main.cpp:269
 msgid "setopt: \"{0}\": {1}"
 msgstr "setopt: \"{0}\": {1}"
 
-#: main.cpp:280
+#: main.cpp:281
 msgid "set arbitrary variable"
 msgstr "任意の変数を設定します"
 
-#: main.cpp:294
+#: main.cpp:295
 msgid "setvar: {}"
 msgstr "setvar: {}"
 
-#: main.cpp:303
+#: main.cpp:304
 msgid "automatically answer yes for all questions"
 msgstr "すべての質問に「はい」 と自動的に答えます"
 
-#: main.cpp:310
+#: main.cpp:311
 msgid "automatically answer no for all questions"
 msgstr "すべての質問に「いいえ」と自動的に答えます"
 
-#: main.cpp:317
+#: main.cpp:318
 msgid "try the best available package versions in transactions"
 msgstr ""
 "トランザクションにおいて利用可能な最適なパッケージ バージョンを試します"
 
-#: main.cpp:324
+#: main.cpp:325
 msgid "do not limit the transaction to the best candidate"
 msgstr "トランザクションを最適候補に限定しません"
 
-#: main.cpp:335
+#: main.cpp:336
 msgid ""
 "Don't install files that are marked as documentation (which includes man "
 "pages and texinfo documents)"
@@ -1259,53 +1259,53 @@ msgstr ""
 "ドキュメントとしてマークされたファイルをインストールしません (man ページや "
 "Texinfo ドキュメントを含む)"
 
-#: main.cpp:351
+#: main.cpp:352
 msgid "exclude packages by name or glob"
 msgstr "名前または glob でパッケージを除外します"
 
-#: main.cpp:370
+#: main.cpp:371
 msgid ""
 "Enable additional repositories. List option. Supports globs, can be "
 "specified multiple times."
 msgstr "追加リポジトリを有効にします。リスト、glob は複数回指定可能。"
 
-#: main.cpp:388
+#: main.cpp:389
 msgid ""
 "Disable repositories. List option. Supports globs, can be specified multiple "
 "times."
 msgstr "追加リポジトリを無効にします。リスト、glob は複数回指定可能。"
 
-#: main.cpp:406
+#: main.cpp:407
 msgid ""
 "Enable just specific repositories. List option. Supports globs, can be "
 "specified multiple times."
 msgstr "指定リポジトリを有効にします。リスト、glob は複数回指定可能。"
 
-#: main.cpp:428
+#: main.cpp:429
 msgid "disable OpenPGP signature checking (if RPM policy allows)"
 msgstr "OpenPGP 署名の確認を無効にします (RPM ポリシーが許容する限り)"
 
-#: main.cpp:445
+#: main.cpp:446
 msgid "Disable all libdnf5 plugins"
 msgstr "libdnf5 プラグインをすべて無効にします"
 
-#: main.cpp:455
+#: main.cpp:456
 msgid ""
 "Enable libdnf5 plugins by name. List option. Supports globs, can be "
 "specified multiple times."
 msgstr "libdnf5 プラグインを有効にします。リスト、glob は複数回指定可能。"
 
-#: main.cpp:470
+#: main.cpp:471
 msgid ""
 "Disable libdnf5 plugins by name. List option. Supports globs, can be "
 "specified multiple times."
 msgstr "libdnf5 プラグインを無効にします。リスト、glob は複数回指定可能。"
 
-#: main.cpp:487
+#: main.cpp:488
 msgid "add a comment to transaction"
 msgstr "トランザクションにコメントを追加します"
 
-#: main.cpp:489
+#: main.cpp:490
 msgid ""
 "Adds a comment to the action. If a transaction takes place, the comment is "
 "stored in it."
@@ -1313,11 +1313,11 @@ msgstr ""
 "アクションにコメントを追加します。トランザクションが実行される場合、コメント"
 "はそれに保存されます。"
 
-#: main.cpp:502
+#: main.cpp:503
 msgid "set install root"
 msgstr "インストール root を設定します"
 
-#: main.cpp:509
+#: main.cpp:510
 msgid ""
 "use configuration, reposdir, and vars from the host system rather than the "
 "installroot"
@@ -1325,11 +1325,11 @@ msgstr ""
 "installroot ではなく、ホスト システムからの設定、リポジトリ ディレクトリ、変"
 "数を利用します"
 
-#: main.cpp:518
+#: main.cpp:519
 msgid "override the value of $releasever in config and repo files"
 msgstr "設定ファイルと repo ファイルの $releasever の値をオーバーライドします"
 
-#: main.cpp:531
+#: main.cpp:532
 msgid ""
 "Show newly installed leaf packages and packages that became leaves after a "
 "transaction."
@@ -1337,60 +1337,60 @@ msgstr ""
 "新しくインストールされたリーフ パッケージおよびトランザクション後にリーフに"
 "なったパッケージを表示します。"
 
-#: main.cpp:545
+#: main.cpp:546
 msgid "Dump detailed solving results into files"
 msgstr "詳細な解決結果をファイルにダンプします"
 
-#: main.cpp:554
+#: main.cpp:555
 msgid "Print main configuration values to stdout"
 msgstr "メイン設定の値を stdout に出力します"
 
-#: main.cpp:571
+#: main.cpp:572
 msgid ""
 "Print repository configuration values to stdout. List option. Supports globs"
 msgstr "リポジトリ設定を stdout に出力します。リスト、glob 利用可能"
 
-#: main.cpp:586
+#: main.cpp:587
 msgid "Print variable values to stdout"
 msgstr "変数値を stdout に出力します"
 
-#: main.cpp:600
+#: main.cpp:601
 msgid "Show DNF5 version and exit"
 msgstr "DNF5 のバージョンを表示して終了します"
 
-#: main.cpp:607
+#: main.cpp:608
 msgid "Force the use of a different architecture."
 msgstr "強制的に別のアーキテクチャを利用します。"
 
-#: main.cpp:645
+#: main.cpp:646
 msgid "Software Management Commands:"
 msgstr "ソフトウェア管理コマンド:"
 
-#: main.cpp:652
+#: main.cpp:653
 msgid "Query Commands:"
 msgstr "クエリ コマンド:"
 
-#: main.cpp:659
+#: main.cpp:660
 msgid "Subcommands:"
 msgstr "サブコマンド:"
 
-#: main.cpp:757
+#: main.cpp:758
 msgid "{} version {}.{}.{}.{}"
 msgstr "{} バージョン {}.{}.{}.{}"
 
-#: main.cpp:760
+#: main.cpp:761
 msgid "{} plugin API version {}.{}"
 msgstr "{} プラグイン API バージョン {}.{}"
 
-#: main.cpp:765
+#: main.cpp:766
 msgid "libdnf5 version {}.{}.{}.{}"
 msgstr "libdnf5 バージョン {}.{}.{}.{}"
 
-#: main.cpp:768
+#: main.cpp:769
 msgid "libdnf5 plugin API version {}.{}"
 msgstr "libdnf5 プラグイン API バージョン {}.{}"
 
-#: main.cpp:775
+#: main.cpp:776
 msgid ""
 "\n"
 "Loaded {} plugins:"
@@ -1398,24 +1398,24 @@ msgstr ""
 "\n"
 "読み込まれた {} プラグイン:"
 
-#: main.cpp:780
+#: main.cpp:781
 msgid "  name: {}"
 msgstr "  名前: {}"
 
-#: main.cpp:783
+#: main.cpp:784
 msgid "  version: {}.{}.{}"
 msgstr "  バージョン: {}.{}.{}"
 
-#: main.cpp:785
+#: main.cpp:786
 msgid "  API version: {}.{}"
 msgstr "  API バージョン: {}.{}"
 
-#: main.cpp:823
+#: main.cpp:824
 msgid ""
 "Total size of inbound packages is {:.0f} {:s}. Need to download {:.0f} {:s}."
 msgstr "パッケージサイズ {:.0f} {:s} 、ダウンロードサイズ {:.0f} {:s} 。"
 
-#: main.cpp:840
+#: main.cpp:841
 msgid ""
 "After this operation, {:.0f} {:s} extra will be used (install {:.0f} {:s}, "
 "remove {:.0f} {:s})."
@@ -1423,7 +1423,7 @@ msgstr ""
 "完了後、{:.0f} {:s} のサイズが利用されます（インストール {:.0f} {:s}、削除 "
 "{:.0f} {:s}）。"
 
-#: main.cpp:851
+#: main.cpp:852
 msgid ""
 "After this operation, {:.0f} {:s} will be freed (install {:.0f} {:s}, remove "
 "{:.0f} {:s})."
@@ -1431,39 +1431,39 @@ msgstr ""
 "完了後、 {:.0f} {:s} のサイズが解放されます（インストール {:.0f} {:s}、削除 "
 "{:.0f} {:s}）。"
 
-#: main.cpp:863
+#: main.cpp:864
 msgid "======== Main configuration: ========"
 msgstr "======== メイン設定: ========"
 
-#: main.cpp:900
+#: main.cpp:901
 msgid "No matching repo to dump configuration: \"{}\""
 msgstr "設定をダンプするために一致するリポジトリがありません: \"{}\""
 
-#: main.cpp:905
+#: main.cpp:906
 msgid "======== \"{}\" repository configuration: ========"
 msgstr "======== \"{}\" リポジトリ設定: ========"
 
-#: main.cpp:925
+#: main.cpp:926
 msgid "======== Variables: ========"
 msgstr "======== 変数: ========"
 
-#: main.cpp:965
+#: main.cpp:966
 msgid "New leaves:"
 msgstr "新規リーフ:"
 
-#: main.cpp:967
+#: main.cpp:968
 msgid " {}"
 msgstr " {}"
 
-#: main.cpp:1011
+#: main.cpp:1012
 msgid "{} to skip unavailable packages"
 msgstr "{} で利用できないパッケージをスキップします"
 
-#: main.cpp:1019
+#: main.cpp:1020
 msgid "{} to allow extra packages in the transaction"
 msgstr "{} でトランザクション内での追加パッケージを許可します"
 
-#: main.cpp:1032
+#: main.cpp:1033
 msgid ""
 "{} to allow mismatches between installed and stored transaction packages. "
 "This can result in an empty transaction because among other things the "
@@ -1473,27 +1473,27 @@ msgstr ""
 "許可します。これにより、失敗した削除アクションを無視することがあるため、空の"
 "トランザクションになる可能性があります。"
 
-#: main.cpp:1079
+#: main.cpp:1080
 msgid "{} to not limit the transaction to the best candidates"
 msgstr "{} でトランザクションを最適候補に制限しないようにします"
 
-#: main.cpp:1086
+#: main.cpp:1087
 msgid "{} to allow removing of installed packages to resolve problems"
 msgstr "{} で問題解決のためにインストール済みパッケージの削除を許可します"
 
-#: main.cpp:1095
+#: main.cpp:1096
 msgid "{} to load additional filelists metadata"
 msgstr "{} で追加ファイル リスト メタデータを読み込みます"
 
-#: main.cpp:1102
+#: main.cpp:1103
 msgid "{} to skip uninstallable packages"
 msgstr "{} でアンインストールできないパッケージをスキップします"
 
-#: main.cpp:1108
+#: main.cpp:1109
 msgid "You can try to add to command line:"
 msgstr "コマンド ラインに追加してみてください:"
 
-#: main.cpp:1126
+#: main.cpp:1127
 msgid ""
 "No matches were found for the following plugin name patterns while enabling "
 "libdnf plugins: {}"
@@ -1501,7 +1501,7 @@ msgstr ""
 "libdnf プラグインを有効にする際、次のプラグイン名パターンに一致するものを見つ"
 "かりませんでした: {}"
 
-#: main.cpp:1127
+#: main.cpp:1128
 msgid ""
 "No matches were found for the following plugin name patterns while disabling "
 "libdnf plugins: {}"
@@ -1509,23 +1509,23 @@ msgstr ""
 "libdnf プラグインを無効にする際、次のプラグイン名パターンに一致するものを見つ"
 "かりませんでした: {}"
 
-#: main.cpp:1223
+#: main.cpp:1225
 msgid "--- DNF5 launched with arguments: \"{}\" ---"
 msgstr "--- DNF5 起動引数: \"{}\" ---"
 
-#: main.cpp:1259
+#: main.cpp:1261
 msgid "Invalid \"index\" in \"--complete=<index>[,...]\": {}"
 msgstr "無効なインデックス \"--complete=<index>[,...]\": {}"
 
-#: main.cpp:1298
+#: main.cpp:1300
 msgid "{}."
 msgstr "{}。"
 
-#: main.cpp:1301 main.cpp:1553
+#: main.cpp:1303 main.cpp:1555
 msgid "{}. Add \"--help\" for more information about the arguments."
 msgstr "{}。 引数に関する詳細を表示するには \"--help\" を追加してください。"
 
-#: main.cpp:1310
+#: main.cpp:1312
 msgid ""
 "It could be a command provided by a plugin, try: dnf5 install 'dnf5-"
 "command({})'"
@@ -1533,18 +1533,18 @@ msgstr ""
 "これはプラグインによって提供されるコマンドの可能性があります。次を試してくだ"
 "さい: dnf5 install 'dnf5-command({})'"
 
-#: main.cpp:1352
+#: main.cpp:1354
 msgid ""
 "The argument is available for commands: {}. (It has to be placed after the "
 "command.)"
 msgstr ""
 "引数は以下のコマンドで利用可能: {}. (コマンドの後で指定する必要があります)"
 
-#: main.cpp:1396
+#: main.cpp:1398
 msgid "No read/execute access in current directory, moving to /"
 msgstr "現在のディレクトリに読み取り/実行権限がないため、/ に移動します"
 
-#: main.cpp:1468
+#: main.cpp:1470
 msgid ""
 "The requested operation requires superuser privileges. Please log in as a "
 "user with elevated rights, or use the \"--assumeno\" or \"--downloadonly\" "
@@ -1554,17 +1554,17 @@ msgstr ""
 "ンするか、システム状態を変更せずにコマンドを実行するには \"--assumeno\" また"
 "は \"--downloadonly\" オプションを使用してください。"
 
-#: main.cpp:1509
+#: main.cpp:1511
 msgid "The operation will only store the transaction in {}"
 msgstr "この操作では、トランザクションを {} への保存のみがされます"
 
-#: main.cpp:1511
+#: main.cpp:1513
 msgid "The operation will only download packages for the transaction."
 msgstr ""
 "この操作では、トランザクションのためのパッケージのダウンロードのみがされま"
 "す。"
 
-#: main.cpp:1516
+#: main.cpp:1518
 msgid ""
 "Test mode enabled: Only package downloads, OpenPGP key installations and "
 "transaction checks will be performed."
@@ -1572,7 +1572,7 @@ msgstr ""
 "テスト モードが有効です: パッケージのダウンロード、OpenPGP キーのインストー"
 "ル、およびトランザクションのチェックのみが行われます。"
 
-#: main.cpp:1524
+#: main.cpp:1526
 msgid ""
 "Error: this bootc system is configured to be read-only. For more "
 "information, run `bootc --help`."
@@ -1580,7 +1580,7 @@ msgstr ""
 "エラー: bootc システムが読み込み専用です。詳しくは、`bootc --help` を実行して"
 "ください。"
 
-#: main.cpp:1541
+#: main.cpp:1543
 msgid ""
 "No repositories were loaded from the installroot. To use the configuration "
 "and repositories of the host system, pass --use-host-config."
@@ -1588,15 +1588,15 @@ msgstr ""
 "installroot からリポジトリを読み込みませんでした。ホスト システムの設定とリポ"
 "ジトリを利用するには、--use-host-config を渡してください。"
 
-#: main.cpp:1563
+#: main.cpp:1565
 msgid "Command returned error: {}"
 msgstr "コマンドがエラーを返しました: {}"
 
-#: main.cpp:1571
+#: main.cpp:1573
 msgid "DNF5 finished"
 msgstr "DNF5 が終了しました"
 
-#: main.cpp:1575
+#: main.cpp:1577
 msgid "Complete!"
 msgstr "完了しました！"
 
