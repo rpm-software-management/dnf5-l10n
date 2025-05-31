@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-27 03:33+0000\n"
+"POT-Creation-Date: 2025-05-31 03:32+0000\n"
 "PO-Revision-Date: 2025-05-16 08:45+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -980,11 +980,11 @@ msgstr ""
 msgid "Repository \"{}\" has unsupported type \"{}\", skipping."
 msgstr "Förråd \"{}\" har ostödd typ \"{}\", hoppar över."
 
-#: repo/repo.cpp:228 repo/repo_sack.cpp:648
+#: repo/repo.cpp:221 repo/repo.cpp:241 repo/repo_sack.cpp:372
 msgid "Failed to download metadata ({}: \"{}\") for repository \"{}\": {}"
 msgstr "Misslyckades att ladda ner metadata ({}: \"{}\") för förråd \"{}\" {}"
 
-#: repo/repo.cpp:426
+#: repo/repo.cpp:439
 msgid ""
 "Failed to load repository: \"primary\" data not present or in unsupported "
 "format"
@@ -992,15 +992,15 @@ msgstr ""
 "Misslyckades att ladda förrådet : \"primär\" data finns inte eller i format "
 "som inte stöds"
 
-#: repo/repo.cpp:492
+#: repo/repo.cpp:505
 msgid "Failed to load comps \"{}\": doesn't have the \".xml\" extension"
 msgstr "Misslyckades med att ladda compose \"{}\": har inte \".xml\" tillägget"
 
-#: repo/repo.cpp:499
+#: repo/repo.cpp:512
 msgid "Failed to load xml Comps \"{}\": {}"
 msgstr "Misslyckades att ladda xml compose \"{}\": {}"
 
-#: repo/repo.cpp:517
+#: repo/repo.cpp:530
 msgid "Failed to load RPM \"{}\": {}"
 msgstr "Misslyckades att ladda RPM \"{}\": {}"
 
@@ -1012,30 +1012,36 @@ msgstr "Det går inte att bestämma id för förråd i cache."
 msgid "Empty path to the repository cache directory."
 msgstr "Tom sökväg till förrådets cachekatalog."
 
-#: repo/repo_downloader.cpp:181
+#: repo/repo_downloader.cpp:214
 msgid "Librepo error: {}"
 msgstr "Librepo fel: {}"
 
-#: repo/repo_downloader.cpp:265
+#: repo/repo_downloader.cpp:258
+#, fuzzy
+#| msgid "Failed to resolve module metadata: {}"
+msgid "Failed to set up metadata download"
+msgstr "Misslyckades med att lösa modul metadata: {}"
+
+#: repo/repo_downloader.cpp:312 repo/repo_downloader.cpp:362
 msgid "Failed to download metadata"
 msgstr "Misslyckades med att ladda ner metadata"
 
-#: repo/repo_downloader.cpp:340
+#: repo/repo_downloader.cpp:426
 msgid "Error checking if metalink \"{}\" is in sync for repository \"{}\""
 msgstr ""
 "Fel vid kontroll av om metalink \"{}\" är synkroniserat för förrådet \"{}\""
 
-#: repo/repo_downloader.cpp:373
+#: repo/repo_downloader.cpp:446
 msgid "Error checking if repomd ({}: \"{}\") is in sync for repository \"{}\""
 msgstr ""
 "Fel vid kontroll av om repomd ({}: \"{}\") är synkroniserat för förrådet "
 "\"{}\""
 
-#: repo/repo_downloader.cpp:438
+#: repo/repo_downloader.cpp:515
 msgid "Error loading local metadata for repository \"{}\""
 msgstr "Fel vid laddning av lokal metadata för förråd \"{}\""
 
-#: repo/repo_downloader.cpp:520
+#: repo/repo_downloader.cpp:597
 msgid ""
 "No valid source (baseurl, mirrorlist or metalink) found for repository \"{}\""
 msgstr ""
@@ -1055,7 +1061,7 @@ msgstr "Misslyckades att lista OpenPGP nycklar: {}"
 msgid "Failed to import OpenPGP keys: {}"
 msgstr "Misslyckades att importera OpenPGP nycklar: {}"
 
-#: repo/repo_sack.cpp:150
+#: repo/repo_sack.cpp:159
 msgid ""
 "Failed to create repo \"{}\": Id is present more than once in the "
 "configuration"
@@ -1063,7 +1069,7 @@ msgstr ""
 "Misslyckades att skapa förråd \"{}\": Id finns mer än en gång i "
 "konfigurationen"
 
-#: repo/repo_sack.cpp:593
+#: repo/repo_sack.cpp:635
 msgid "Cache-only enabled but no cache for repository \"{}\""
 msgstr "Endast cache aktiverat men ingen cache för förråd \"{}\""
 

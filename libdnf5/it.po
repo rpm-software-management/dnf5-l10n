@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-27 03:33+0000\n"
+"POT-Creation-Date: 2025-05-31 03:32+0000\n"
 "PO-Revision-Date: 2025-05-29 01:10+0000\n"
 "Last-Translator: Salvatore Cocuzza <info@salvatorecocuzza.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -1002,12 +1002,12 @@ msgstr ""
 msgid "Repository \"{}\" has unsupported type \"{}\", skipping."
 msgstr "Il repository \"{}\" ha un tipo non supportato \"{}\", verrà saltato."
 
-#: repo/repo.cpp:228 repo/repo_sack.cpp:648
+#: repo/repo.cpp:221 repo/repo.cpp:241 repo/repo_sack.cpp:372
 msgid "Failed to download metadata ({}: \"{}\") for repository \"{}\": {}"
 msgstr ""
 "Impossibile scaricare i metadati ({}: \"{}\") per il repository \"{}\": {}"
 
-#: repo/repo.cpp:426
+#: repo/repo.cpp:439
 msgid ""
 "Failed to load repository: \"primary\" data not present or in unsupported "
 "format"
@@ -1015,15 +1015,15 @@ msgstr ""
 "Impossibile caricare il repository: dati \"primary\" non presenti o in "
 "formato non supportato"
 
-#: repo/repo.cpp:492
+#: repo/repo.cpp:505
 msgid "Failed to load comps \"{}\": doesn't have the \".xml\" extension"
 msgstr "Impossibile caricare comps \"{}\": non ha l'estensione \".xml\""
 
-#: repo/repo.cpp:499
+#: repo/repo.cpp:512
 msgid "Failed to load xml Comps \"{}\": {}"
 msgstr "Impossibile caricare Comps xml \"{}\": {}"
 
-#: repo/repo.cpp:517
+#: repo/repo.cpp:530
 msgid "Failed to load RPM \"{}\": {}"
 msgstr "Impossibile caricare RPM \"{}\": {}"
 
@@ -1035,32 +1035,38 @@ msgstr "Impossibile determinare l'ID del repository nella cache."
 msgid "Empty path to the repository cache directory."
 msgstr "Percorso vuoto per la directory della cache del repository."
 
-#: repo/repo_downloader.cpp:181
+#: repo/repo_downloader.cpp:214
 msgid "Librepo error: {}"
 msgstr "Errore Librepo: {}"
 
-#: repo/repo_downloader.cpp:265
+#: repo/repo_downloader.cpp:258
+#, fuzzy
+#| msgid "Failed to resolve module metadata: {}"
+msgid "Failed to set up metadata download"
+msgstr "Impossibile risolvere i metadati del modulo: {}"
+
+#: repo/repo_downloader.cpp:312 repo/repo_downloader.cpp:362
 msgid "Failed to download metadata"
 msgstr "Impossibile scaricare i metadati"
 
-#: repo/repo_downloader.cpp:340
+#: repo/repo_downloader.cpp:426
 msgid "Error checking if metalink \"{}\" is in sync for repository \"{}\""
 msgstr ""
 "Errore durante il controllo della sincronizzazione del metalink \"{}\" per "
 "il repository \"{}\""
 
-#: repo/repo_downloader.cpp:373
+#: repo/repo_downloader.cpp:446
 msgid "Error checking if repomd ({}: \"{}\") is in sync for repository \"{}\""
 msgstr ""
 "Errore durante il controllo della sincronizzazione di repomd ({}: \"{}\") "
 "per il repository \"{}\""
 
-#: repo/repo_downloader.cpp:438
+#: repo/repo_downloader.cpp:515
 msgid "Error loading local metadata for repository \"{}\""
 msgstr ""
 "Errore durante il caricamento dei metadati locali per il repository \"{}\""
 
-#: repo/repo_downloader.cpp:520
+#: repo/repo_downloader.cpp:597
 msgid ""
 "No valid source (baseurl, mirrorlist or metalink) found for repository \"{}\""
 msgstr ""
@@ -1079,7 +1085,7 @@ msgstr "Impossibile elencare le chiavi OpenPGP: {}"
 msgid "Failed to import OpenPGP keys: {}"
 msgstr "Impossibile importare le chiavi OpenPGP: {}"
 
-#: repo/repo_sack.cpp:150
+#: repo/repo_sack.cpp:159
 msgid ""
 "Failed to create repo \"{}\": Id is present more than once in the "
 "configuration"
@@ -1087,7 +1093,7 @@ msgstr ""
 "Impossibile creare il repo \"{}\": l'ID è presente più di una volta nella "
 "configurazione"
 
-#: repo/repo_sack.cpp:593
+#: repo/repo_sack.cpp:635
 msgid "Cache-only enabled but no cache for repository \"{}\""
 msgstr "Cache-only abilitato ma nessuna cache per il repository \"{}\""
 

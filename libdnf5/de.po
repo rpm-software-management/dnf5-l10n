@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-27 03:33+0000\n"
+"POT-Creation-Date: 2025-05-31 03:32+0000\n"
 "PO-Revision-Date: 2025-02-23 02:57+0000\n"
 "Last-Translator: J C <valsu@vivaldi.net>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf5/"
@@ -1024,14 +1024,14 @@ msgstr ""
 "Repository \"{}\" hat einen nicht unterstützten Typ \"{}\". Es wird "
 "übersprungen."
 
-#: repo/repo.cpp:228 repo/repo_sack.cpp:648
+#: repo/repo.cpp:221 repo/repo.cpp:241 repo/repo_sack.cpp:372
 #, fuzzy
 #| msgid "Failed to download metadata ({}: \"{}\") for repository \"{}\""
 msgid "Failed to download metadata ({}: \"{}\") for repository \"{}\": {}"
 msgstr ""
 "Herunterladen von Metadaten ({}: \"{}\") für Repository \"{}\" fehlgeschlagen"
 
-#: repo/repo.cpp:426
+#: repo/repo.cpp:439
 msgid ""
 "Failed to load repository: \"primary\" data not present or in unsupported "
 "format"
@@ -1039,16 +1039,16 @@ msgstr ""
 "Fehler beim Laden des Repository: \"primary\"-Daten sind nicht vorhanden "
 "oder in einem nicht unterstützten Format"
 
-#: repo/repo.cpp:492
+#: repo/repo.cpp:505
 msgid "Failed to load comps \"{}\": doesn't have the \".xml\" extension"
 msgstr ""
 "Laden von comps \"{}\" fehlgeschlagen: Es hat keine \".xml\"-Erweiterung"
 
-#: repo/repo.cpp:499
+#: repo/repo.cpp:512
 msgid "Failed to load xml Comps \"{}\": {}"
 msgstr "Laden der XML Comps \"{}\" fehlgeschlagen: {}"
 
-#: repo/repo.cpp:517
+#: repo/repo.cpp:530
 msgid "Failed to load RPM \"{}\": {}"
 msgstr "Laden von RPM \"{}\" fehlgeschlagen: {}"
 
@@ -1060,33 +1060,39 @@ msgstr "Bestimmung der ID des Repositories im Cache nicht möglich."
 msgid "Empty path to the repository cache directory."
 msgstr "Leerer Pfad zum Repository-Cacheverzeichnis."
 
-#: repo/repo_downloader.cpp:181
+#: repo/repo_downloader.cpp:214
 msgid "Librepo error: {}"
 msgstr "Librepo-Fehler: {}"
 
-#: repo/repo_downloader.cpp:265
+#: repo/repo_downloader.cpp:258
+#, fuzzy
+#| msgid "Failed to resolve module metadata: {}"
+msgid "Failed to set up metadata download"
+msgstr "Auflösen der Metadaten vom Modul fehlgeschlagen: {}"
+
+#: repo/repo_downloader.cpp:312 repo/repo_downloader.cpp:362
 #, fuzzy
 #| msgid "Failed to download files"
 msgid "Failed to download metadata"
 msgstr "Herunterladen der Dateien fehlgeschlagen"
 
-#: repo/repo_downloader.cpp:340
+#: repo/repo_downloader.cpp:426
 msgid "Error checking if metalink \"{}\" is in sync for repository \"{}\""
 msgstr ""
 "Fehler beim Prüfen, ob metalink \"{}\" für Repository \"{}\" synchronisiert "
 "ist"
 
-#: repo/repo_downloader.cpp:373
+#: repo/repo_downloader.cpp:446
 msgid "Error checking if repomd ({}: \"{}\") is in sync for repository \"{}\""
 msgstr ""
 "Fehler beim Überprüfen, ob repomd ({}: \"{}\") für das Repository \"{}\" "
 "synchronisiert ist"
 
-#: repo/repo_downloader.cpp:438
+#: repo/repo_downloader.cpp:515
 msgid "Error loading local metadata for repository \"{}\""
 msgstr "Fehler beim Laden der lokalen Metadaten für Repository \"{}\""
 
-#: repo/repo_downloader.cpp:520
+#: repo/repo_downloader.cpp:597
 msgid ""
 "No valid source (baseurl, mirrorlist or metalink) found for repository \"{}\""
 msgstr ""
@@ -1107,7 +1113,7 @@ msgstr "Auflisten der OpenPGP-Schlüssel ist fehlgeschlagen: {}"
 msgid "Failed to import OpenPGP keys: {}"
 msgstr "Importieren der OpenPGP-Schlüssel ist fehlgeschlagen: {}"
 
-#: repo/repo_sack.cpp:150
+#: repo/repo_sack.cpp:159
 msgid ""
 "Failed to create repo \"{}\": Id is present more than once in the "
 "configuration"
@@ -1115,7 +1121,7 @@ msgstr ""
 "Erstellen von Repo \"{}\" fehlgeschlagen: ID ist mehr als einmal in der "
 "Konfiguration enthalten"
 
-#: repo/repo_sack.cpp:593
+#: repo/repo_sack.cpp:635
 msgid "Cache-only enabled but no cache for repository \"{}\""
 msgstr "Cache-only ist aktiviert, aber kein Cache für Repository \"{}\""
 

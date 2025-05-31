@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-27 03:33+0000\n"
+"POT-Creation-Date: 2025-05-31 03:32+0000\n"
 "PO-Revision-Date: 2025-03-21 02:53+0000\n"
 "Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -1001,14 +1001,14 @@ msgstr ""
 msgid "Repository \"{}\" has unsupported type \"{}\", skipping."
 msgstr "Ohjelmistolähteen \"{}\" tyyppiä \"{}\" ei tueta, ohitetaan."
 
-#: repo/repo.cpp:228 repo/repo_sack.cpp:648
+#: repo/repo.cpp:221 repo/repo.cpp:241 repo/repo_sack.cpp:372
 #, fuzzy
 #| msgid "Failed to download metadata ({}: \"{}\") for repository \"{}\""
 msgid "Failed to download metadata ({}: \"{}\") for repository \"{}\": {}"
 msgstr ""
 "Ohjelmistolähteen \"{}\" metatietojen ({}: \"{}\") lataaminen epäonnistui"
 
-#: repo/repo.cpp:426
+#: repo/repo.cpp:439
 msgid ""
 "Failed to load repository: \"primary\" data not present or in unsupported "
 "format"
@@ -1016,16 +1016,16 @@ msgstr ""
 "Ohjelmistolähteen lataaminen epäonnistui: \"ensisijaista\" dataa ei ole tai "
 "se ei ole tuetussa muodossa"
 
-#: repo/repo.cpp:492
+#: repo/repo.cpp:505
 msgid "Failed to load comps \"{}\": doesn't have the \".xml\" extension"
 msgstr ""
 "comps:n \"{}\" lataaminen epäonnistui: sillä ei ole \".xml\" -laajennusta"
 
-#: repo/repo.cpp:499
+#: repo/repo.cpp:512
 msgid "Failed to load xml Comps \"{}\": {}"
 msgstr "xml Comps:n \"{}\" lataaminen epäonnistui: {}"
 
-#: repo/repo.cpp:517
+#: repo/repo.cpp:530
 msgid "Failed to load RPM \"{}\": {}"
 msgstr "RPM:n \"{}\" lataaminen epäonnistui: {}"
 
@@ -1037,33 +1037,39 @@ msgstr "Välimuistissa olevan ohjelmistolähteen tunnusta ei voi määrittää."
 msgid "Empty path to the repository cache directory."
 msgstr "Tyhjä polku ohjelmistolähteen välimuistihakemistoon."
 
-#: repo/repo_downloader.cpp:181
+#: repo/repo_downloader.cpp:214
 msgid "Librepo error: {}"
 msgstr "Librepo-virhe: {}"
 
-#: repo/repo_downloader.cpp:265
+#: repo/repo_downloader.cpp:258
+#, fuzzy
+#| msgid "Failed to resolve module metadata: {}"
+msgid "Failed to set up metadata download"
+msgstr "Moduulin metatietojen ratkaiseminen epäonnistui: {}"
+
+#: repo/repo_downloader.cpp:312 repo/repo_downloader.cpp:362
 #, fuzzy
 #| msgid "Failed to download files"
 msgid "Failed to download metadata"
 msgstr "Tiedostojen lataaminen epäonnistui"
 
-#: repo/repo_downloader.cpp:340
+#: repo/repo_downloader.cpp:426
 msgid "Error checking if metalink \"{}\" is in sync for repository \"{}\""
 msgstr ""
 "Virhe tarkistettaessa, onko metalinkki \"{}\" synkronoitu "
 "ohjelmistolähteeseen \"{}\""
 
-#: repo/repo_downloader.cpp:373
+#: repo/repo_downloader.cpp:446
 msgid "Error checking if repomd ({}: \"{}\") is in sync for repository \"{}\""
 msgstr ""
 "Virhe tarkistettaessa, onko repomd ({}: \"{}\") synkronoitu "
 "ohjelmistolähteen \"{}\" kanssa"
 
-#: repo/repo_downloader.cpp:438
+#: repo/repo_downloader.cpp:515
 msgid "Error loading local metadata for repository \"{}\""
 msgstr "Virhe ladattaessa paikallisia metatietoja ohjelmistolähteelle \"{}\""
 
-#: repo/repo_downloader.cpp:520
+#: repo/repo_downloader.cpp:597
 msgid ""
 "No valid source (baseurl, mirrorlist or metalink) found for repository \"{}\""
 msgstr ""
@@ -1082,7 +1088,7 @@ msgstr "OpenPGP-avainten listaaminen epäonnistui: {}"
 msgid "Failed to import OpenPGP keys: {}"
 msgstr "OpenPGP-avainten tuominen epäonnistui: {}"
 
-#: repo/repo_sack.cpp:150
+#: repo/repo_sack.cpp:159
 msgid ""
 "Failed to create repo \"{}\": Id is present more than once in the "
 "configuration"
@@ -1090,7 +1096,7 @@ msgstr ""
 "Tietovaraston \"{}\" luominen epäonnistui: Tunnus on useammin kuin kerran "
 "määrityksessä"
 
-#: repo/repo_sack.cpp:593
+#: repo/repo_sack.cpp:635
 msgid "Cache-only enabled but no cache for repository \"{}\""
 msgstr ""
 "Vain välimuisti käytössä, mutta ei välimuistia ohjelmistolähteelle \"{}\""
