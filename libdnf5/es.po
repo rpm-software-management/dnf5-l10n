@@ -7,14 +7,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-31 03:32+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-05-31 18:03+0000\n"
+"Last-Translator: \"Fco. Javier F. Serrador\" <fserrador@gmail.com>\n"
+"Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf5/"
+"libdnf5/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: advisory/advisory.cpp:81
 #, c++-format
@@ -22,61 +24,64 @@ msgid ""
 "Bad libsolv id for advisory \"{}\", solvable name \"{}\" doesn't have "
 "advisory prefix \"{}\""
 msgstr ""
+"Id de libsolv para advertencia \"{}\", nombre \"{}\" resoluble no tiene "
+"prefijo de advertencia \"{}\""
 
 #: base/goal.cpp:472
 #, c++-format
 msgid "Unsupported argument for REMOVE action: {}"
-msgstr ""
+msgstr "Argumento no soportado para acción REMOVE: {}"
 
 #. TODO(lukash) throw a proper exception
 #: base/goal.cpp:1641
 #, c++-format
 msgid "Incorrect configuration value for multilib_policy: {}"
-msgstr ""
+msgstr "Valor de configuración incorrecto para multilib_policy: {}"
 
 #: base/goal_elements.cpp:352
 msgid "Install"
-msgstr ""
+msgstr "Instalar"
 
 #: base/goal_elements.cpp:354
+#, fuzzy
 msgid "Install via provide"
-msgstr ""
+msgstr "Instala vía proporcionar"
 
 #: base/goal_elements.cpp:356
 msgid "Install by group"
-msgstr ""
+msgstr "Instala por grupo"
 
 #: base/goal_elements.cpp:358
 msgid "Upgrade"
-msgstr ""
+msgstr "Modernizar"
 
 #: base/goal_elements.cpp:360
 msgid "Upgrade all"
-msgstr ""
+msgstr "Modernizar todo"
 
 #: base/goal_elements.cpp:362
 msgid "Upgrade minimal"
-msgstr ""
+msgstr "Modernición minimal"
 
 #: base/goal_elements.cpp:364
 msgid "Upgrade all minimal"
-msgstr ""
+msgstr "Modernizar todo minimal"
 
 #: base/goal_elements.cpp:366
 msgid "Downgrade"
-msgstr ""
+msgstr "Degradar"
 
 #: base/goal_elements.cpp:368
 msgid "Reinstall"
-msgstr ""
+msgstr "Reinstalar"
 
 #: base/goal_elements.cpp:370
 msgid "Install or reinstall"
-msgstr ""
+msgstr "Instalar o reinstalar"
 
 #: base/goal_elements.cpp:372
 msgid "Remove"
-msgstr ""
+msgstr "Desinstalar"
 
 #: base/goal_elements.cpp:374
 msgid "Distrosync"
@@ -88,68 +93,68 @@ msgstr ""
 
 #: base/goal_elements.cpp:378
 msgid "Reason Change"
-msgstr ""
+msgstr "Razón del Cambio"
 
 #: base/goal_elements.cpp:380
 msgid "Resolve"
-msgstr ""
+msgstr "Resolver"
 
 #: base/goal_elements.cpp:382
 msgid "Enable"
-msgstr ""
+msgstr "Activar"
 
 #: base/goal_elements.cpp:384
 msgid "Disable"
-msgstr ""
+msgstr "Desactivar"
 
 #: base/goal_elements.cpp:386
 msgid "Reset"
-msgstr ""
+msgstr "Restablecer"
 
 #: base/goal_elements.cpp:388
 msgid "Parse serialized transaction"
-msgstr ""
+msgstr "Interpretar transacción serializada"
 
 #: base/goal_elements.cpp:390
 msgid "Install action"
-msgstr ""
+msgstr "Instalar acción"
 
 #: base/goal_elements.cpp:392
 msgid "Remove action"
-msgstr ""
+msgstr "Retirar acción"
 
 #: base/goal_elements.cpp:394
 msgid "Upgrade action"
-msgstr ""
+msgstr "Modernizar acción"
 
 #: base/goal_elements.cpp:396
 msgid "Reinstall action"
-msgstr ""
+msgstr "Reinstalar acción"
 
 #: base/goal_elements.cpp:398
 msgid "Reason change action"
-msgstr ""
+msgstr "Razón de acción de cambio"
 
 #: base/goal_elements.cpp:400
 msgid "Reason override"
-msgstr ""
+msgstr "Razón sobrescribe"
 
 #: base/goal_elements.cpp:402
 msgid "Revert comps upgrade"
-msgstr ""
+msgstr "Revertir comps modernizar"
 
 #: base/goal_elements.cpp:404
 msgid "Install debug RPMs"
-msgstr ""
+msgstr "Instalar depuración RPMs"
 
 #: base/goal_elements.cpp:406
 msgid "Transaction merge"
-msgstr ""
+msgstr "Unir transacción"
 
 #: base/log_event.cpp:141
 #, c++-format
 msgid "No packages to remove for argument: {}"
-msgstr ""
+msgstr "Ningún paquete a desinstalar para argumento: {}"
 
 #: base/log_event.cpp:143
 #, c++-format
@@ -243,21 +248,24 @@ msgid ""
 "Cannot perform {0} because '{1}' matches only packages excluded by "
 "versionlock."
 msgstr ""
+"No puede realizar {0} porque '{1}' coincidentes solo paquetes excluidos por "
+"versión bloqueada."
 
 #: base/log_event.cpp:208
 #, c++-format
 msgid "Argument '{}' matches only packages excluded by versionlock."
 msgstr ""
+"Coincide argumento '{}' solo para paquetes excluidos por versión bloqueada."
 
 #: base/log_event.cpp:213
-#, c++-format
+#, c++-format, fuzzy
 msgid "  * Maybe you meant: {}"
-msgstr ""
+msgstr "  * Tal vez quiso decir: {}"
 
 #: base/log_event.cpp:216
 #, c++-format
 msgid "There are following alternatives for '{0}': {1}"
-msgstr ""
+msgstr "Hay las siguientes alternativas para '{0}': {1}"
 
 #: base/log_event.cpp:223
 #, c++-format
@@ -265,6 +273,8 @@ msgid ""
 "The lowest available version of the \"{}\" package is already installed, "
 "cannot downgrade it."
 msgstr ""
+"La versión disponible más baja del paquete \"{}\" ya está instalado, no "
+"puede degradarlo."
 
 #: base/log_event.cpp:229
 #, c++-format
@@ -278,6 +288,8 @@ msgstr ""
 msgid ""
 "Cannot perform {0} because '{1}' is installed in a different version: '{2}'."
 msgstr ""
+"No puede realizar {0} porque '{1}' está instalado dentro de una versión "
+"diferente: '{2}'."
 
 #: base/log_event.cpp:241
 #, c++-format
@@ -285,11 +297,13 @@ msgid ""
 "Packages for argument '{}' installed and available, but in a different "
 "version."
 msgstr ""
+"Paquetes para argumento'{}' instalado y disponible, pero en una versión "
+"diferente."
 
 #: base/log_event.cpp:243
 #, c++-format
 msgid "Packages for argument '{}' installed, but not available."
-msgstr ""
+msgstr "Hay paquetes para argumento '{}' instalado, pero no disponible."
 
 #: base/log_event.cpp:252
 #, c++-format
@@ -335,23 +349,29 @@ msgid_plural ""
 "  - Argument '{}' matches {} streams ('{}') of module '{}', but none of the "
 "streams are enabled or default."
 msgstr[0] ""
+"\n"
+"  - Argumento '{}'  coincide con {} flujo ('{}') de módulo '{}', pero el "
+"flujo no está habilitado o por defecto."
 msgstr[1] ""
+"\n"
+"  - Argumento '{}'  coincide con {} flujos ('{}') de módulo '{}', pero el "
+"flujo no está habilitado o por defecto."
 
 #: base/log_event.cpp:293
 msgid "', '"
-msgstr ""
+msgstr "', '"
 
 #: base/log_event.cpp:302
 msgid "Modular dependency problems:\n"
-msgstr ""
+msgstr "Problemas de dependencia modular:\n"
 
 #: base/log_event.cpp:309
 msgid "Modular dependency problems with the latest modules:\n"
-msgstr ""
+msgstr "Problemas de dependencia modular con los módulos más tardíos:\n"
 
 #: base/log_event.cpp:316
 msgid "Modular dependency problems with the defaults:\n"
-msgstr ""
+msgstr "Problemas de dependencia modular con los predeterminados:\n"
 
 #: base/log_event.cpp:331
 #, c++-format
@@ -359,6 +379,8 @@ msgid ""
 "The operation would result in switching of module '{0}' stream '{1}' to "
 "stream '{2}'\n"
 msgstr ""
+"La operación resultaría en intercambio del módulo '{0}' del flujo '{1}' al "
+"flujo '{2}'\n"
 
 #: base/log_event.cpp:336
 msgid ""
@@ -1687,12 +1709,12 @@ msgstr ""
 #: utils/library.cpp:34
 #, c++-format
 msgid "Cannot load shared library \"{}\": {}"
-msgstr ""
+msgstr "No se puede cargar la biblioteca compartida \"{}\": {}"
 
 #: utils/library.cpp:48
 #, c++-format
 msgid "Cannot obtain address of symbol \"{}\": {}"
-msgstr ""
+msgstr "No se puede obtener la dirección del símbolo \"{}\": {}"
 
 #: utils/locale.cpp:57
 #, c++-format
