@@ -8,9 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-31 03:32+0000\n"
-"PO-Revision-Date: 2025-06-02 19:23+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2025-06-02 19:26+0000\n"
+"Last-Translator: \"Fco. Javier F. Serrador\" <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/es/>\n"
 "Language: es\n"
@@ -605,37 +604,38 @@ msgstr "módulo {} no existe"
 #: base/solver_problems.cpp:86
 #, c++-format
 msgid "cannot install the best update candidate for module {}"
-msgstr "no se puede instalar el mejor candidato de actualización para el módulo"
+msgstr ""
+"no se puede instalar el mejor candidato de actualización para el módulo {}"
 
 #: base/solver_problems.cpp:88 base/solver_problems.cpp:91
 #, c++-format
 msgid "module {} is disabled"
-msgstr ""
+msgstr "módulo {} está deshabilitado"
 
 #: base/solver_problems.cpp:89
 #, c++-format
 msgid "module {} does not have a compatible architecture"
-msgstr ""
+msgstr "módulo {} no tiene una arquitectura compatible"
 
 #: base/solver_problems.cpp:90
 #, c++-format
 msgid "module {} is not installable"
-msgstr ""
+msgstr "módulo {} no es instalable"
 
 #: base/solver_problems.cpp:92
 #, c++-format
 msgid "nothing provides {0} needed by module {1}"
-msgstr ""
+msgstr "nada proporciona {0} necesario por el módulo {1}"
 
 #: base/solver_problems.cpp:93
 #, c++-format
 msgid "cannot install both modules {0} and {1}"
-msgstr ""
+msgstr "no se puede instalar ambos módulos {0} y {1}"
 
 #: base/solver_problems.cpp:94
 #, c++-format
 msgid "module {0} conflicts with {1} provided by {2}"
-msgstr ""
+msgstr "el módulo {0} entra en conflicto con {1} proporcionado por {2}"
 
 #: base/solver_problems.cpp:95
 #, c++-format
