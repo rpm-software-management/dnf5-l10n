@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-31 03:32+0000\n"
-"PO-Revision-Date: 2025-05-31 18:03+0000\n"
+"PO-Revision-Date: 2025-06-02 19:18+0000\n"
 "Last-Translator: \"Fco. Javier F. Serrador\" <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/es/>\n"
@@ -43,7 +43,6 @@ msgid "Install"
 msgstr "Instalar"
 
 #: base/goal_elements.cpp:354
-#, fuzzy
 msgid "Install via provide"
 msgstr "Instala vía proporcionar"
 
@@ -85,11 +84,11 @@ msgstr "Desinstalar"
 
 #: base/goal_elements.cpp:374
 msgid "Distrosync"
-msgstr ""
+msgstr "Distrosync"
 
 #: base/goal_elements.cpp:376
 msgid "Distrosync all"
-msgstr ""
+msgstr "Distrosync completo"
 
 #: base/goal_elements.cpp:378
 msgid "Reason Change"
@@ -159,22 +158,22 @@ msgstr "Ningún paquete a desinstalar para argumento: {}"
 #: base/log_event.cpp:143
 #, c++-format
 msgid "No groups to remove for argument: {}"
-msgstr ""
+msgstr "Ningún grupo a quitar para argumento: {}"
 
 #: base/log_event.cpp:146
 #, c++-format
 msgid "No environmental groups to remove for argument: {}"
-msgstr ""
+msgstr "Sin grupos de entorno para quitar del argumento: {}"
 
 #: base/log_event.cpp:148
 #, c++-format
 msgid "No modules to remove for argument: {}"
-msgstr ""
+msgstr "Sin módulos para quitar del argumento: {}"
 
 #: base/log_event.cpp:152
 #, c++-format
 msgid "No match for group from environment: {}"
-msgstr ""
+msgstr "No coincide para grupo desde entorno: {}"
 
 #: base/log_event.cpp:154
 #, c++-format
@@ -184,7 +183,7 @@ msgstr ""
 #: base/log_event.cpp:158
 #, c++-format
 msgid "Cannot perform {0}, no match for: {1}."
-msgstr ""
+msgstr "No puede realizar {0}, no coincide para: {1}."
 
 #: base/log_event.cpp:160
 #, c++-format
@@ -194,26 +193,26 @@ msgstr ""
 #: base/log_event.cpp:163
 #, c++-format
 msgid "No match for argument '{0}' in selected advisories"
-msgstr ""
+msgstr "No coincide para argumento '{0}' en avisos seleccionados"
 
 #: base/log_event.cpp:165
 msgid "No match in selected advisories"
-msgstr ""
+msgstr "No coincide en avisos seleccionados"
 
 #: base/log_event.cpp:169
 #, c++-format
 msgid "No match for argument '{0}' in repositories '{1}'"
-msgstr ""
+msgstr "No coincide para argumento '{0}' en repositorios '{1}'"
 
 #: base/log_event.cpp:175
 #, c++-format
 msgid "Cannot perform {0} for {1} '{2}' because it is not installed."
-msgstr ""
+msgstr "No se puede realizar {0} para {1} '{2}' porque no está instalado."
 
 #: base/log_event.cpp:180
 #, c++-format
 msgid "Packages for argument '{}' available, but not installed."
-msgstr ""
+msgstr "Paquetes para argumento '{}' disponible, pero no instalado."
 
 #: base/log_event.cpp:184
 #, c++-format
@@ -221,26 +220,28 @@ msgid ""
 "Packages for argument '{}' available, but installed for a different "
 "architecture."
 msgstr ""
+"Paquetes para argumento '{}' disponible, pero instalado para una "
+"arquitectura diferente."
 
 #: base/log_event.cpp:188
 #, c++-format
 msgid "Cannot perform {0} because '{1}' matches only source packages."
-msgstr ""
+msgstr "No puede realizar {0} porque '{1}' coincide solo en paquetes fuentes."
 
 #: base/log_event.cpp:192
 #, c++-format
 msgid "Argument '{}' matches only source packages."
-msgstr ""
+msgstr "Coincide el argumento '{}' solo en paquetes de fuente."
 
 #: base/log_event.cpp:196
 #, c++-format
 msgid "Cannot perform {0} because '{1}' matches only excluded packages."
-msgstr ""
+msgstr "No puede realizar {0} porque '{1}' coincide solo paquetes excluídos."
 
 #: base/log_event.cpp:200
 #, c++-format
 msgid "Argument '{}' matches only excluded packages."
-msgstr ""
+msgstr "Solo coincide el argumento'{}' de paquetes excluídos."
 
 #: base/log_event.cpp:204
 #, c++-format
@@ -282,6 +283,9 @@ msgid ""
 "Installed packages for argument '{0}' are not available in repositories in "
 "the same version, available versions: {1}, cannot reinstall."
 msgstr ""
+"Paquetes instalados para argumento '{0}' no están disponibles en "
+"repositorios en la misma versión, versiones disponibles: {1}, no se puede "
+"reinstalar."
 
 #: base/log_event.cpp:235
 #, c++-format
@@ -308,17 +312,17 @@ msgstr "Hay paquetes para argumento '{}' instalado, pero no disponible."
 #: base/log_event.cpp:252
 #, c++-format
 msgid "Package \"{}\" is already installed with reason \"{}\"."
-msgstr ""
+msgstr "El paquete \"{}\" ya está instalado con razón \"{}\"."
 
 #: base/log_event.cpp:254
 #, c++-format
 msgid "Package \"{}\" is already installed."
-msgstr ""
+msgstr "El paquete \"{}\" ya está instalado."
 
 #: base/log_event.cpp:263
 #, c++-format
 msgid "Debug data written to \"{}\""
-msgstr ""
+msgstr "Depurar datos escritos a \"{}\""
 
 #: base/log_event.cpp:267
 #, c++-format
@@ -326,17 +330,19 @@ msgid ""
 "{0} upgrade cannot be reverted, however associated package actions will be. "
 "({1} id: '{2}') ."
 msgstr ""
+"{0} modernización no puede ser revertido, sin embargo serán acciones de "
+"paquete asociado. ({1} id: '{2}')."
 
 #: base/log_event.cpp:273
 #, c++-format
 msgid "{} action for argument \"{}\" is not supported."
-msgstr ""
+msgstr "acción {} para argumento \"{}\" no está mantenido."
 
 #. Format a leading line of the error message.
 #: base/log_event.cpp:282
 #, c++-format
 msgid "Unable to resolve argument '{}':"
-msgstr ""
+msgstr "No es capaz de resolver argumento '{}':"
 
 #: base/log_event.cpp:286
 #, c++-format
@@ -387,6 +393,9 @@ msgid ""
 "Error: It is not possible to switch enabled streams of a module unless "
 "explicitly enabled via configuration option module_stream_switch."
 msgstr ""
+"Error: no es posible intercamiar flujos habilidados de un módulo a no ser "
+"que habilite explícitamente vía opción de configuración de "
+"module_stream_switch."
 
 #: base/log_event.cpp:341
 #, c++-format
@@ -394,11 +403,13 @@ msgid ""
 "Extra package '{0}' (with action '{1}') which is not present in the stored "
 "transaction was pulled into the transaction.\n"
 msgstr ""
+"Paquete '{0}' adicional (con acción '{1}') la cual no está presente dentro "
+"de la transacción almacenada fue tirar en la transacción.\n"
 
 #: base/log_event.cpp:347
 #, c++-format
 msgid "Cannot parse file: '{0}': {1}.\n"
-msgstr ""
+msgstr "No se puede interpretar archivo: '{0}': {1}.\n"
 
 #: base/log_event.cpp:354
 #, c++-format
@@ -406,11 +417,13 @@ msgid ""
 "Could not find debuginfo package for the following packages resolved from "
 "the argument '{0}': {1}"
 msgstr ""
+"No se pudo encontrar el paquete debuginfo para los paquetes siguientes "
+"resueltos desde el argumento '{0}': {1}"
 
 #: base/log_event.cpp:357 base/log_event.cpp:368
 msgctxt "String for joining NEVRAs - e.g. `foo-4-4.noarch, bar-5-5.noarch`"
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: base/log_event.cpp:364
 #, c++-format
@@ -418,11 +431,13 @@ msgid ""
 "Could not find debugsource package for the following packages resolved from "
 "the argument '{0}': {1}"
 msgstr ""
+"No se pudo encontrar el paquete debugsource para los paquetes siguientes "
+"resueltos desde el argumento '{0}': {1}"
 
 #: base/log_event.cpp:371
 #, c++-format
 msgid "Transaction merge error: '{0}'"
-msgstr ""
+msgstr "Error de unión de transacción: '{0}'"
 
 #: base/solver_problems.cpp:41
 #, c++-format
