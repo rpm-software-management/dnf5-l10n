@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-31 03:32+0000\n"
-"PO-Revision-Date: 2025-06-03 15:39+0000\n"
+"PO-Revision-Date: 2025-06-03 16:14+0000\n"
 "Last-Translator: \"Fco. Javier F. Serrador\" <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/es/>\n"
@@ -343,7 +343,7 @@ msgstr "acción {} para argumento \"{}\" no está mantenido."
 #: base/log_event.cpp:282
 #, c++-format
 msgid "Unable to resolve argument '{}':"
-msgstr "No es capaz de resolver argumento '{}':"
+msgstr "No es capaz de resolver parámetro '{}':"
 
 #: base/log_event.cpp:286
 #, c++-format
@@ -386,7 +386,7 @@ msgid ""
 "The operation would result in switching of module '{0}' stream '{1}' to "
 "stream '{2}'\n"
 msgstr ""
-"La operación resultaría en intercambio del módulo '{0}' del flujo '{1}' al "
+"La operación resultaría en intercambiar de módulo '{0}' del flujo '{1}' al "
 "flujo '{2}'\n"
 
 #: base/log_event.cpp:336
@@ -1546,8 +1546,8 @@ msgid ""
 "Action '{0}' '{1}' cannot be merged after it was '{2}' in preceding "
 "transactions -> setting '{0}'."
 msgstr ""
-"Acción '{0}' '{1}' no puede ser unida tras esto fue '{2}' en transacciones "
-"precedentes → estableciendo '{0}'."
+"Acción '{0}' '{1}' no puede ser fusionado tras esto fue '{2}' en "
+"transacciones precedentes → configurando '{0}'."
 
 #: transaction/transaction_merge.cpp:116
 #, c++-format
@@ -1555,8 +1555,8 @@ msgid ""
 "Action 'Upgrade' '{0}' cannot be merged because it is not present at that "
 "point -> setting 'Install'."
 msgstr ""
-"Acción 'Upgrade' '{0}' no puede unirse porque no está presente en ese punto →"
-" estableciendo 'Install'."
+"Acción 'Upgrade' '{0}' no puede ser fusionado porque no está presente en ese "
+"punto → configurando 'Install'."
 
 #: transaction/transaction_merge.cpp:174 transaction/transaction_merge.cpp:231
 #, c++-format
@@ -1564,8 +1564,8 @@ msgid ""
 "Action 'Reinstall' '{0}' cannot be merged because it is not present at that "
 "point -> setting 'Install'."
 msgstr ""
-"Acción 'Reinstall' '{0}' no puede unirse porque no está presente en ese "
-"punto → estableciendo 'Install'."
+"Acción 'Reinstall' '{0}' no puede ser fusionado porque no está presente en "
+"ese punto → configurando 'Install'."
 
 #: transaction/transaction_merge.cpp:194
 #, c++-format
@@ -1573,8 +1573,8 @@ msgid ""
 "Action '{0}' '{1}' cannot be merged after it was '{2}' in preceding "
 "transaction -> setting '{0}'."
 msgstr ""
-"Acción '{0}' '{1}' no puede ser unida tras haber sido '{2}' en transacción "
-"precedente → configurando '{0}'."
+"Acción '{0}' '{1}' no puede estar fusionada tras haber sido '{2}' en "
+"transacción precedente → configurando '{0}'."
 
 #: transaction/transaction_merge.cpp:215
 #, c++-format
@@ -1587,8 +1587,8 @@ msgid ""
 "Action '{0}' '{1}' cannot be merged because it is not present at that point "
 "-> skipping it."
 msgstr ""
-"Acción '{0}' '{1}' no puede estar unido porque no está presente en ese punto "
-"→ se descarta."
+"Acción '{0}' '{1}' no puede estar fusionado porque no está presente en ese "
+"punto → se descarta."
 
 #: transaction/transaction_merge.cpp:245
 #, c++-format
@@ -1596,6 +1596,8 @@ msgid ""
 "Action '{0}' '{1}' cannot be merged because it is not present at that point "
 "-> setting 'INSTALL'."
 msgstr ""
+"La acción '{0}' '{1}' no puede ser fusionada porque no está presente en ese "
+"punto → configuración 'INSTALL'."
 
 #: transaction/transaction_merge.cpp:266
 #, c++-format
@@ -1603,6 +1605,8 @@ msgid ""
 "Action '{0}' '{1}' cannot be merged because it is not present at that point "
 "(present versions are: {2}) -> skipping it."
 msgstr ""
+"La acción '{0}' '{1}' no puede ser fusionada porque no está presente en ese "
+"punto (versiones presentes son: {2}) → se descarta."
 
 #: transaction/transaction_merge.cpp:277
 #, c++-format
@@ -1610,6 +1614,8 @@ msgid ""
 "Action '{0}' '{1}' cannot be merged because it is already present at that "
 "point -> skipping it."
 msgstr ""
+"Acción '{0}' '{1}' no puede ser fusionado porque está ya presente en ese "
+"punto → se descarta."
 
 #: transaction/transaction_merge.cpp:294
 #, c++-format
@@ -1617,13 +1623,13 @@ msgid ""
 "Action '{0}' '{1}' cannot be merged because it is already installed in "
 "version '{2}' -> keeping the action from older transaction with '{1}'."
 msgstr ""
-"La acción '{0}' '{1}' no se puede fusionar porque ya está instalada en la "
+"La acción '{0}' '{1}' no puede ser fusionado porque ya está instalada en la "
 "versión '{2}' → se mantiene la acción de la transacción anterior con '{1}'."
 
 #: transaction/transaction_merge.cpp:304
 #, c++-format
 msgid "Invalid action encountered: '{0}' during transaction merge."
-msgstr "Encontrada acción no válida: '{0}' durante unión de transacción."
+msgstr "Encontrada acción no válida: '{0}' durante fusión de transacción."
 
 #: transaction/transaction_sr.cpp:49
 msgid "Transaction replay JSON serialized transaction input is empty"
@@ -1711,6 +1717,8 @@ msgid ""
 "Missing mandatory object key \"group_id\" in an rpm with reason \"Group\" "
 "and action \"Reason Change\""
 msgstr ""
+"Llave de objeto “group_id” mandatorio ausente dentro de un rpm con razón "
+"“Grupo” y acción “Cambio de Razón”"
 
 #: utils/fs/file.cpp:86
 msgid "cannot open file"
