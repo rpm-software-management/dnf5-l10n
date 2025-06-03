@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-31 03:32+0000\n"
-"PO-Revision-Date: 2025-06-03 15:38+0000\n"
+"PO-Revision-Date: 2025-06-03 15:39+0000\n"
 "Last-Translator: \"Fco. Javier F. Serrador\" <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/es/>\n"
@@ -1587,8 +1587,8 @@ msgid ""
 "Action '{0}' '{1}' cannot be merged because it is not present at that point "
 "-> skipping it."
 msgstr ""
-"Acción '{0}' '{1}' no puede ser unido porque no está presente en ese punto → "
-"se descarta."
+"Acción '{0}' '{1}' no puede estar unido porque no está presente en ese punto "
+"→ se descarta."
 
 #: transaction/transaction_merge.cpp:245
 #, c++-format
@@ -1617,6 +1617,8 @@ msgid ""
 "Action '{0}' '{1}' cannot be merged because it is already installed in "
 "version '{2}' -> keeping the action from older transaction with '{1}'."
 msgstr ""
+"La acción '{0}' '{1}' no se puede fusionar porque ya está instalada en la "
+"versión '{2}' → se mantiene la acción de la transacción anterior con '{1}'."
 
 #: transaction/transaction_merge.cpp:304
 #, c++-format
