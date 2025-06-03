@@ -8,9 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-31 03:32+0000\n"
-"PO-Revision-Date: 2025-06-03 07:37+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2025-06-03 08:10+0000\n"
+"Last-Translator: \"Fco. Javier F. Serrador\" <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/es/>\n"
 "Language: es\n"
@@ -775,7 +774,11 @@ msgid "Warning: skipped OpenPGP checks for {0} package from repositories: {1}"
 msgid_plural ""
 "Warning: skipped OpenPGP checks for {0} packages from repositories: {1}"
 msgstr[0] ""
+"Aviso: omitió comprobación de OpenPGP para {0} paquete desde los "
+"repositorios: {1}"
 msgstr[1] ""
+"Aviso: omitió comprobación de OpenPGP para {0} paquetes desde los "
+"repositorios: {1}"
 
 #: common/exception.cpp:78
 msgid "System error"
@@ -783,52 +786,55 @@ msgstr ""
 
 #: common/exception.cpp:199
 msgid "General RuntimeError exception"
-msgstr ""
+msgstr "Excepcion general de RuntimeError"
 
 #: common/sack/query.cpp:27
 msgid "Query must contain exactly one object."
-msgstr ""
+msgstr "Solicitud debe contener exactamente un objeto."
 
 #: common/xdg.cpp:43
 msgid "get_user_home_dir(): Cannot determine the user's home directory"
 msgstr ""
+"get_user_home_dir(): no puede determinar el directorio inicial del usuario"
 
 #: common/xdg.cpp:98
 msgid "get_user_runtime_dir(): Cannot determine the user's runtime directory"
 msgstr ""
+"get_user_runtime_dir(): no se puede determinar el directorio en tiempo de "
+"ejecución del usuario"
 
 #: comps/environment/environment.cpp:325
 msgid "failed to save xml document for comps"
-msgstr ""
+msgstr "ha fallado al guardar documento xml para comps"
 
 #: comps/group/group.cpp:373
 #, c++-format
 msgid "Failed to save xml document for group \"{}\" to file \"{}\": {}"
-msgstr ""
+msgstr "Incorrecto al guardar documento xml para grupo «{}» al archivo «{}»: {}"
 
 #: comps/group/package.cpp:118 comps/group/package.cpp:121
 #, c++-format
 msgid "Invalid package type: {}"
-msgstr ""
+msgstr "Tipo de paquete no válido: {}"
 
 #: conf/config_main.cpp:57
 msgid "Input is empty. Must contain a value."
-msgstr ""
+msgstr "Entrada está vacía. Debe contener un valor."
 
 #: conf/config_main.cpp:63
 #, c++-format
 msgid "Input value '{}' must not be negative"
-msgstr ""
+msgstr "Valor '{}' de entrada debe no ser negativo"
 
 #: conf/config_main.cpp:68
 #, c++-format
 msgid "Could not convert '{}' to bytes"
-msgstr ""
+msgstr "No pudo convertir '{}' para bytes"
 
 #: conf/config_main.cpp:84
 #, c++-format
 msgid "Unknown unit '{}'"
-msgstr ""
+msgstr "Unidad desconocida '{}'"
 
 #: conf/config_main.cpp:281
 #, c++-format
@@ -838,27 +844,27 @@ msgstr ""
 #: conf/config_parser.cpp:54
 #, c++-format
 msgid "Section \"{}\" not found"
-msgstr ""
+msgstr "Sección «{}» no encontrada"
 
 #: conf/config_parser.cpp:59
 #, c++-format
 msgid "Section \"{}\" does not contain option \"{}\""
-msgstr ""
+msgstr "La sección «{}» no contiene la opción «{}»"
 
 #: conf/config_parser.cpp:96
 #, c++-format
 msgid "Configuration file \"{}\" not found"
-msgstr ""
+msgstr "Archivo de configuración «{}» no encontrado"
 
 #: conf/config_parser.cpp:99
 #, c++-format
 msgid "Unable to access configuration file \"{}\""
-msgstr ""
+msgstr "No es capaz de acceder al archivo de configuración «{}»"
 
 #: conf/config_parser.cpp:102
 #, c++-format
 msgid "Error in configuration file \"{}\""
-msgstr ""
+msgstr "Error dentro del archivo de configuración «{}»"
 
 #: conf/option_binds.cpp:29
 #, c++-format
@@ -968,7 +974,7 @@ msgstr "Sin dicho módulo: {}"
 #: module/module_db.cpp:268
 #, c++-format
 msgid "Cannot enable multiple streams for module '{}'"
-msgstr "No se puede activar múltiples flujos por módulo '{}'"
+msgstr "No se puede activar múltiples flujos para el módulo '{}'"
 
 #. TODO(pkratoch) replace with a proper and descriptive exception
 #. TODO(jmracek) else if (removalOfProtected && removalOfProtected->size()) {
@@ -984,12 +990,12 @@ msgstr "ninguna solución posible"
 #: module/module_metadata.cpp:102
 #, c++-format
 msgid "Failed to update from string: {}"
-msgstr "No se pudo actualizar desde cadena: {}"
+msgstr "Incorrecto al actualizar desde cadena: {}"
 
 #: module/module_metadata.cpp:129
 #, c++-format
 msgid "Failed to resolve module metadata: {}"
-msgstr "No se pudo resolver metadatos de módulo: {}"
+msgstr "Incorrecto al resolver metadatos de módulo: {}"
 
 #: module/module_metadata.cpp:140
 #, c++-format
@@ -1066,7 +1072,7 @@ msgstr "No se puede descargar archivos, está activada la opción cacheonly."
 
 #: repo/file_downloader.cpp:216
 msgid "Failed to download files"
-msgstr "Ha fallado al descargar archivos"
+msgstr "Incorrecto al descargar archivos"
 
 #: repo/librepo.cpp:118
 msgid ""
@@ -1092,12 +1098,12 @@ msgstr "Ya descargado"
 
 #: repo/package_downloader.cpp:267
 msgid "Failed to download packages"
-msgstr "Ha fallado al descargar paquetes"
+msgstr "Incorrecto al descargar paquetes"
 
 #: repo/repo.cpp:61
 #, c++-format
 msgid "Failed to load RPM \"{}\": doesn't have the \".rpm\" extension"
-msgstr "Ha fallado al cargar RPM «{}»: no tiene la extensión «.rpm»"
+msgstr "Incorrecto al cargar RPM «{}»: no tiene la extensión «.rpm»"
 
 #: repo/repo.cpp:65
 #, c++-format
@@ -1119,90 +1125,97 @@ msgstr ""
 #: repo/repo.cpp:161
 #, c++-format
 msgid "Repository \"{}\" has unsupported type \"{}\", skipping."
-msgstr "El repositorio '%s' tiene tipo no admitido: 'type=%s', se descarta."
+msgstr "El repositorio \"{}\" tiene tipo \"{}\" no admitido, se descarta."
 
 #: repo/repo.cpp:221 repo/repo.cpp:241 repo/repo_sack.cpp:372
 #, c++-format
 msgid "Failed to download metadata ({}: \"{}\") for repository \"{}\": {}"
 msgstr ""
+"Incorrecto al descargar metadatos ({}: \"{}\") para repositorio «{}»: {}"
 
 #: repo/repo.cpp:439
 msgid ""
 "Failed to load repository: \"primary\" data not present or in unsupported "
 "format"
 msgstr ""
+"Incorrecto al cargar repositorio: datos «primary» no presente o en formato "
+"no admitido"
 
 #: repo/repo.cpp:505
 #, c++-format
 msgid "Failed to load comps \"{}\": doesn't have the \".xml\" extension"
-msgstr ""
+msgstr "Incorrecto al cargar comps «{}»: no tiene la extensión \".xml\""
 
 #: repo/repo.cpp:512
 #, c++-format
 msgid "Failed to load xml Comps \"{}\": {}"
-msgstr ""
+msgstr "Incorrecto al cargar Comps xml «{}»: {}"
 
 #: repo/repo.cpp:530
 #, c++-format
 msgid "Failed to load RPM \"{}\": {}"
-msgstr ""
+msgstr "Incorrecto al cargar RPM «{}»: {}"
 
 #: repo/repo_cache.cpp:255
 msgid "Unable to determine id of the repository in the cache."
-msgstr ""
+msgstr "No es capaz de determinar id del repositorio en la caché."
 
 #: repo/repo_cache_private.hpp:59
 msgid "Empty path to the repository cache directory."
-msgstr ""
+msgstr "Ruta vac-ia para el directorio caché del repositorio."
 
 #: repo/repo_downloader.cpp:214
 #, c++-format
 msgid "Librepo error: {}"
-msgstr ""
+msgstr "Error librepo: {}"
 
 #: repo/repo_downloader.cpp:258
 msgid "Failed to set up metadata download"
-msgstr ""
+msgstr "Incorrecto al configurar descarga de metadatos"
 
 #: repo/repo_downloader.cpp:312 repo/repo_downloader.cpp:362
 msgid "Failed to download metadata"
-msgstr ""
+msgstr "Incorrecto al descargar metadatos"
 
 #: repo/repo_downloader.cpp:426
 #, c++-format
 msgid "Error checking if metalink \"{}\" is in sync for repository \"{}\""
-msgstr ""
+msgstr "Error al comprobar si metalink «{}» es un sync para repositorio «{}»"
 
 #: repo/repo_downloader.cpp:446
 #, c++-format
 msgid "Error checking if repomd ({}: \"{}\") is in sync for repository \"{}\""
 msgstr ""
+"Error comprobando si repomd ({}: \"{}\") está dentro de sincronización para "
+"repo \"{}\""
 
 #: repo/repo_downloader.cpp:515
 #, c++-format
 msgid "Error loading local metadata for repository \"{}\""
-msgstr ""
+msgstr "Error al cargar metadatos local para repositorio «{}»"
 
 #: repo/repo_downloader.cpp:597
 #, c++-format
 msgid ""
 "No valid source (baseurl, mirrorlist or metalink) found for repository \"{}\""
 msgstr ""
+"Origen no válido (baseurl, listado espejo o metalink) encontrado para repo "
+"«{}»"
 
 #: repo/repo_pgp.cpp:60
 #, c++-format
 msgid "Failed to import OpenPGP keys into temporary keyring: {}"
-msgstr ""
+msgstr "Incorrecto al importar claves OpenPGP en anillo temporal: {}"
 
 #: repo/repo_pgp.cpp:66 repo/repo_pgp.cpp:93
 #, c++-format
 msgid "Failed to list OpenPGP keys: {}"
-msgstr ""
+msgstr "Incorrecto al listado claves OpenPGP: {}"
 
 #: repo/repo_pgp.cpp:141
 #, c++-format
 msgid "Failed to import OpenPGP keys: {}"
-msgstr ""
+msgstr "Incorrecto al importar claves OpenPGP: {}"
 
 #: repo/repo_sack.cpp:159
 #, c++-format
@@ -1210,126 +1223,130 @@ msgid ""
 "Failed to create repo \"{}\": Id is present more than once in the "
 "configuration"
 msgstr ""
+"Incorrecto al crear repo \"{}\": ID está presente más de una vez en la "
+"configuración"
 
 #: repo/repo_sack.cpp:635
 #, c++-format
 msgid "Cache-only enabled but no cache for repository \"{}\""
-msgstr ""
+msgstr "Solo caché activado pero ningún cache para repositorio «{}»"
 
 #: repo/solv_repo.cpp:267
 #, c++-format
 msgid "Failed to load repomd for repo \"{}\" from \"{}\": {}."
-msgstr ""
+msgstr "Incorrecto al cargar repomd para repo «{}» desde «{}»: {}."
 
 #: repo/solv_repo.cpp:275
 #, c++-format
 msgid "Failed to load primary for repo \"{}\" from \"{}\": {}."
-msgstr ""
+msgstr "Ha fallado al cargar primario para repo «{}» desde «{}»: {}."
 
 #: repo/solv_repo.cpp:323
 #, c++-format
 msgid "Unsupported extended repodata type for the system repo: \"{}\"."
-msgstr ""
+msgstr "Tipo de repodata extendido no mantenido para el repo del sistema: «{}»."
 
 #: repo/solv_repo.cpp:395
 #, c++-format
 msgid "Failed to load {} extension for repo \"{}\" from \"{}\": {}"
-msgstr ""
+msgstr "Ha fallado al cargar extensión {} para repo «{}» desde «{}»: {}"
 
 #: repo/solv_repo.cpp:431
 #, c++-format
 msgid "Failed to load system repo from root \"{}\": {}"
-msgstr ""
+msgstr "Ha fallado al cargar el sistema repo desde raíz «{}»: {}"
 
 #: repo/solv_repo.cpp:532
 #, c++-format
 msgid "Failed to load {} cache for repo \"{}\" from \"{}\": {}"
-msgstr ""
+msgstr "Ha fallado al cargar {} caché para repo \"{}\" desde \"{}\": {}"
 
 #: repo/solv_repo.cpp:586
 #, c++-format
 msgid "Failed to write primary cache for repo \"{}\" to \"{}\": {}"
-msgstr ""
+msgstr "Ha fallado al escribir caché primaria para repo «{}» para «{}»: {}"
 
 #: repo/solv_repo.cpp:608
 #, c++-format
 msgid "Failed to re-load primary cache for repo \"{}\" from \"{}\": {}"
-msgstr ""
+msgstr "Ha fallado al re-cargar caché primario para repo «{}» desde «{}»: {}"
 
 #: repo/solv_repo.cpp:673
 #, c++-format
 msgid "Failed to write {} cache for repo \"{}\" to \"{}\": {}"
-msgstr ""
+msgstr "Incorrecto al escribir caché {} para repo «{}» a «{}»: {}"
 
 #: repo/solv_repo.cpp:694
 #, c++-format
 msgid "Failed to re-load {} cache for repo \"{}\" from \"{}\": {}"
-msgstr ""
+msgstr "Incorrecto al re-cargar {} caché para repo «{}» desde «{}»: {}"
 
 #: repo/temp_files_memory.cpp:52
 #, c++-format
 msgid ""
 "An error occurred when parsing the temporary files memory file at '{}': {}"
 msgstr ""
+"Ha sucedido un error cuando interpretaba los archivos temporarios del "
+"archivo de memoria en '{}': {}"
 
 #: rpm/nevra.cpp:82
 #, c++-format
 msgid "NEVRA string \"{}\" contains ':' multiple times"
-msgstr ""
+msgstr "NEVRA cadena «{}» contiene ':' múltiples veces"
 
 #: rpm/nevra.cpp:86
 #, c++-format
 msgid "Invalid character '{}' in NEVRA string \"{}\""
-msgstr ""
+msgstr "Carácter '{}' no válido dentro de cadena NEVRA «{}»"
 
 #: rpm/package.cpp:81
 msgid "Package with rpmdbid was not found"
-msgstr ""
+msgstr "Paquete con rpmdbid no fue encontrado"
 
 #: rpm/package.cpp:478
 msgid "<unknown>"
-msgstr ""
+msgstr "<desconocido>"
 
 #: rpm/reldep.cpp:116 rpm/reldep.cpp:123
 msgid "Cannot parse a dependency string"
-msgstr ""
+msgstr "No se puede interpretar una cadena de dependencia"
 
 #: rpm/rpm_signature.cpp:45
 msgid "No corresponding key was found."
-msgstr ""
+msgstr "Ninguna clave correspondiente fue encontrada."
 
 #: rpm/rpm_signature.cpp:46
 msgid "The signature is valid, but the key is not trusted."
-msgstr ""
+msgstr "La firma es válida, pero la clave no está confiada."
 
 #: rpm/rpm_signature.cpp:47
 msgid "The package is not signed."
-msgstr ""
+msgstr "El paquete no está firmado."
 
 #: rpm/rpm_signature.cpp:48
 msgid "Problem occurred when opening the package."
-msgstr ""
+msgstr "Ha sucedido un problema cuando abría el paquete."
 
 #: rpm/rpm_signature.cpp:64
 #, c++-format
 msgid "Failed to set rpm transaction rootDir \"{}\"."
-msgstr ""
+msgstr "Incorrecto al establecer transacción rpm con rootDir «{}»."
 
 #: rpm/rpm_signature.cpp:290
 #, c++-format
 msgid "\"{}\": key is not an armored public key."
-msgstr ""
+msgstr "«{}»: tecla no es una llave púbica armada."
 
 #: rpm/rpm_signature.cpp:295
 #, c++-format
 msgid "Failed to import public key \"{}\" to rpmdb: {}"
-msgstr ""
+msgstr "Ha fallado al importar clave pública «{}» para rpmdb: {}"
 
 #. TODO(jrohel): Why? Librpm does not provide this information.
 #: rpm/transaction.cpp:114
 #, c++-format
 msgid "Cannot set root directory \"{}\""
-msgstr ""
+msgstr "No se puede fijar el directorio raíz «{}»"
 
 #: rpm/transaction.cpp:125
 #, c-format
