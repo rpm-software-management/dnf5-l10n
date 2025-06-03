@@ -8,9 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-31 03:32+0000\n"
-"PO-Revision-Date: 2025-06-03 14:45+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2025-06-03 15:03+0000\n"
+"Last-Translator: \"Fco. Javier F. Serrador\" <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/es/>\n"
 "Language: es\n"
@@ -1556,6 +1555,8 @@ msgid ""
 "Action 'Upgrade' '{0}' cannot be merged because it is not present at that "
 "point -> setting 'Install'."
 msgstr ""
+"Acción 'Upgrade' '{0}' no puede unirse porque no está presente en ese punto →"
+" estableciendo 'Install'."
 
 #: transaction/transaction_merge.cpp:174 transaction/transaction_merge.cpp:231
 #, c++-format
@@ -1574,7 +1575,7 @@ msgstr ""
 #: transaction/transaction_merge.cpp:215
 #, c++-format
 msgid "Unexpected action encountered: '{0}' during transaction merge."
-msgstr ""
+msgstr "Encontrada acción inesperada: '{0}' durante unión de transacción."
 
 #: transaction/transaction_merge.cpp:224
 #, c++-format
@@ -1638,60 +1639,62 @@ msgstr "Versión mayor incompatible: «{}», la versión mayor soportada es «{}
 #: transaction/transaction_sr.cpp:81
 #, c++-format
 msgid "Invalid minor version: \"{}\", number expected"
-msgstr "Versión menor inválida \"{major}\", se esperaba un número."
+msgstr "Versión menor inválida “{}”, se esperaba número"
 
 #: transaction/transaction_sr.cpp:84
 msgid "Missing key \"version\""
-msgstr ""
+msgstr "Clave ausente “versión”"
 
 #: transaction/transaction_sr.cpp:92
 msgid "Unexpected type of \"environments\", array expected"
-msgstr ""
+msgstr "Tipo inesperado de «environments», repertorio esperado"
 
 #: transaction/transaction_sr.cpp:105
 msgid "Missing object key \"id\" in an environment"
-msgstr ""
+msgstr "Clave «id» de objeto ausente dentro de un entorno"
 
 #: transaction/transaction_sr.cpp:110
 msgid "Missing object key \"action\" in an environment"
-msgstr ""
+msgstr "Clave «action» de objeto ausente dentro de un entorno"
 
 #: transaction/transaction_sr.cpp:129
 msgid "Unexpected type of \"groups\", array expected"
-msgstr ""
+msgstr "Tipo de «groups» inesperado, repertorio esperado"
 
 #: transaction/transaction_sr.cpp:145
 msgid "Missing object key \"id\" in a group"
-msgstr ""
+msgstr "Clave «id» de objeto ausente dentro de un grupo"
 
 #: transaction/transaction_sr.cpp:150
 msgid "Missing object key \"action\" in a group"
-msgstr ""
+msgstr "Clave «action» de objeto ausente dentro de un grupo"
 
 #: transaction/transaction_sr.cpp:155
 msgid "Missing object key \"reason\" in a group"
-msgstr ""
+msgstr "Clave «reason» de objeto ausente dentro de un grupo"
 
 #: transaction/transaction_sr.cpp:186
 msgid "Unexpected type of \"rpms\", array expected"
-msgstr ""
+msgstr "Tipo inesperado de \"rpms\", repertorio esperado"
 
 #: transaction/transaction_sr.cpp:202
 #, c++-format
 msgid "Cannot parse NEVRA for rpm \"{}\""
-msgstr ""
+msgstr "No se puede interpretar NEVRA para rpm «{}»"
 
 #: transaction/transaction_sr.cpp:210
 msgid "Either \"nevra\" or \"package_path\" object key is required in an rpm"
 msgstr ""
+"Clave objeto o bien \"never\" o \"package_path\" es requerida dentro de un "
+"rpm"
 
 #: transaction/transaction_sr.cpp:215
 msgid "Missing object key \"action\" in an rpm"
-msgstr ""
+msgstr "Clave objeto «action» ausente dentro de un rpm"
 
 #: transaction/transaction_sr.cpp:220
 msgid "Missing object key \"reason\" in an rpm"
-msgstr ""
+msgstr "Clave objeto «reason» ausente dentro de un rpm"
 
 #: transaction/transaction_sr.cpp:227
 msgid ""
@@ -1741,50 +1744,50 @@ msgstr ""
 
 #: utils/fs/temp.cpp:42
 msgid "cannot create temporary directory"
-msgstr ""
+msgstr "no se puede crear directorio temporario"
 
 #: utils/fs/temp.cpp:89
 msgid "cannot create temporary file"
-msgstr ""
+msgstr "no se puede crear archivo temporario"
 
 #: utils/fs/temp.cpp:142
 msgid "cannot close temporary file"
-msgstr ""
+msgstr "no se puede cerrar archivo temporario"
 
 #: utils/iniparser.cpp:126
 #, c++-format
 msgid "Missing ']' on line {}"
-msgstr ""
+msgstr "Ausencia de ']' en línea {}"
 
 #: utils/iniparser.cpp:129
 #, c++-format
 msgid "Empty section name on line {}"
-msgstr ""
+msgstr "Nombre de sección vacío en línea {}"
 
 #: utils/iniparser.cpp:137
 #, c++-format
 msgid "Text after section on line {}"
-msgstr ""
+msgstr "Texto tras sección en línea {}"
 
 #: utils/iniparser.cpp:147
 #, c++-format
 msgid "Missing section header on line {}"
-msgstr ""
+msgstr "Cabecera de sección ausente en línea {}"
 
 #: utils/iniparser.cpp:152
 #, c++-format
 msgid "Illegal continuation line on line {}"
-msgstr ""
+msgstr "Línea de continuación ilegal en línea {}"
 
 #: utils/iniparser.cpp:159
 #, c++-format
 msgid "Missing option name on line {}"
-msgstr ""
+msgstr "Nombre de opción ausente en línea {}"
 
 #: utils/iniparser.cpp:163
 #, c++-format
 msgid "Missing '=' on line {}"
-msgstr ""
+msgstr "Ausencia de '=' en línea {}"
 
 #. returns localized message, problem with later translation
 #: utils/library.cpp:34
@@ -1800,17 +1803,17 @@ msgstr "No se puede obtener la dirección del símbolo \"{}\": {}"
 #: utils/locale.cpp:57
 #, c++-format
 msgid "Cannot set the locale \"{}\": {}"
-msgstr ""
+msgstr "No se puede fijar el local «{}»: {}"
 
 #: utils/locker.cpp:45
 #, c++-format
 msgid "Failed to open lock file \"{}\""
-msgstr ""
+msgstr "Incorrecto al abrir archivo bloqueado «{}»"
 
 #: utils/locker.cpp:60
 #, c++-format
 msgid "Failed to obtain lock \"{}\""
-msgstr ""
+msgstr "Ha fallado al obtener bloqueo «{}»"
 
 #: utils/locker.cpp:70
 #, c++-format
@@ -1912,4 +1915,4 @@ msgstr ""
 
 #: utils/system.cpp:52
 msgid "Failed to execute uname()"
-msgstr ""
+msgstr "Ha fallado al ejecutar uname()"
