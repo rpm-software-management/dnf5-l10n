@@ -8,9 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-31 03:32+0000\n"
-"PO-Revision-Date: 2025-06-03 15:04+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2025-06-03 15:38+0000\n"
+"Last-Translator: \"Fco. Javier F. Serrador\" <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/es/>\n"
 "Language: es\n"
@@ -1565,6 +1564,8 @@ msgid ""
 "Action 'Reinstall' '{0}' cannot be merged because it is not present at that "
 "point -> setting 'Install'."
 msgstr ""
+"Acción 'Reinstall' '{0}' no puede unirse porque no está presente en ese "
+"punto → estableciendo 'Install'."
 
 #: transaction/transaction_merge.cpp:194
 #, c++-format
@@ -1572,6 +1573,8 @@ msgid ""
 "Action '{0}' '{1}' cannot be merged after it was '{2}' in preceding "
 "transaction -> setting '{0}'."
 msgstr ""
+"Acción '{0}' '{1}' no puede ser unida tras haber sido '{2}' en transacción "
+"precedente → configurando '{0}'."
 
 #: transaction/transaction_merge.cpp:215
 #, c++-format
@@ -1584,6 +1587,8 @@ msgid ""
 "Action '{0}' '{1}' cannot be merged because it is not present at that point "
 "-> skipping it."
 msgstr ""
+"Acción '{0}' '{1}' no puede ser unido porque no está presente en ese punto → "
+"se descarta."
 
 #: transaction/transaction_merge.cpp:245
 #, c++-format
@@ -1621,11 +1626,13 @@ msgstr "Encontrada acción no válida: '{0}' durante unión de transacción."
 #: transaction/transaction_sr.cpp:49
 msgid "Transaction replay JSON serialized transaction input is empty"
 msgstr ""
+"La repetición de la transacción serializada JSON de reproducción de "
+"transacción está vacía"
 
 #: transaction/transaction_sr.cpp:58
 #, c++-format
 msgid "Error during transaction replay JSON parsing : {}"
-msgstr ""
+msgstr "Error durante transacción repite intérprete JSON : {}"
 
 #: transaction/transaction_sr.cpp:68
 #, c++-format
@@ -1648,31 +1655,31 @@ msgstr "Clave ausente “versión”"
 
 #: transaction/transaction_sr.cpp:92
 msgid "Unexpected type of \"environments\", array expected"
-msgstr "Tipo inesperado de «environments», repertorio esperado"
+msgstr "Tipo inesperado de \"environments\", repertorio esperado"
 
 #: transaction/transaction_sr.cpp:105
 msgid "Missing object key \"id\" in an environment"
-msgstr "Clave «id» de objeto ausente dentro de un entorno"
+msgstr "Clave \"id\" de objeto ausente dentro de un entorno"
 
 #: transaction/transaction_sr.cpp:110
 msgid "Missing object key \"action\" in an environment"
-msgstr "Clave «action» de objeto ausente dentro de un entorno"
+msgstr "Clave \"action\" de objeto ausente dentro de un entorno"
 
 #: transaction/transaction_sr.cpp:129
 msgid "Unexpected type of \"groups\", array expected"
-msgstr "Tipo de «groups» inesperado, repertorio esperado"
+msgstr "Tipo de \"groups\" inesperado, repertorio esperado"
 
 #: transaction/transaction_sr.cpp:145
 msgid "Missing object key \"id\" in a group"
-msgstr "Clave «id» de objeto ausente dentro de un grupo"
+msgstr "Clave \"id\" de objeto ausente dentro de un grupo"
 
 #: transaction/transaction_sr.cpp:150
 msgid "Missing object key \"action\" in a group"
-msgstr "Clave «action» de objeto ausente dentro de un grupo"
+msgstr "Clave \"action\" de objeto ausente dentro de un grupo"
 
 #: transaction/transaction_sr.cpp:155
 msgid "Missing object key \"reason\" in a group"
-msgstr "Clave «reason» de objeto ausente dentro de un grupo"
+msgstr "Clave \"reason\" de objeto ausente dentro de un grupo"
 
 #: transaction/transaction_sr.cpp:186
 msgid "Unexpected type of \"rpms\", array expected"
@@ -1717,31 +1724,31 @@ msgstr "no se puede cerrar archivo"
 
 #: utils/fs/file.cpp:139 utils/fs/file.cpp:168
 msgid "error reading file"
-msgstr "error al cerrar el fichero"
+msgstr "error al leer archivo"
 
 #: utils/fs/file.cpp:154 utils/fs/file.cpp:180
 msgid "error writing file"
-msgstr ""
+msgstr "error al escribir archivo"
 
 #: utils/fs/file.cpp:189
 msgid "error flushing file"
-msgstr ""
+msgstr "error al purgar archivo"
 
 #: utils/fs/file.cpp:198
 msgid "error seeking in file"
-msgstr ""
+msgstr "error al continuar en archivo"
 
 #: utils/fs/file.cpp:209
 msgid "error retrieving file position"
-msgstr ""
+msgstr "error al recuperar posición de archivo"
 
 #: utils/fs/file.cpp:297
 msgid "error reading a line from file"
-msgstr ""
+msgstr "error al leer una línea desde archivo"
 
 #: utils/fs/file.cpp:335
 msgid "error retrieving file descriptor"
-msgstr ""
+msgstr "error al recuperar el descriptor de archivo"
 
 #: utils/fs/temp.cpp:42
 msgid "cannot create temporary directory"
@@ -1814,106 +1821,107 @@ msgstr "Incorrecto al abrir archivo bloqueado «{}»"
 #: utils/locker.cpp:60
 #, c++-format
 msgid "Failed to obtain lock \"{}\""
-msgstr "Ha fallado al obtener bloqueo «{}»"
+msgstr "Incorrecto al obtener bloqueo «{}»"
 
 #: utils/locker.cpp:70
 #, c++-format
 msgid "Failed to close lock file \"{}\""
-msgstr ""
+msgstr "Incorrecto al cerrar archivo de bloqueo «{}»"
 
 #: utils/locker.cpp:73
 #, c++-format
 msgid "Failed to delete lock file \"{}\""
-msgstr ""
+msgstr "Incorrecto al borrar archivo de bloqueo «{}»"
 
 #: utils/sqlite3/sqlite3.cpp:29
 #, c++-format
 msgid "SQL statement compilation failed: \"{}\""
-msgstr ""
+msgstr "Compilación de declaración SQL incorrecta: “{}”"
 
 #: utils/sqlite3/sqlite3.cpp:31
 #, c++-format
 msgid "Binding integer value to SQL statement failed: \"{}\""
-msgstr ""
+msgstr "Vinculando valor entero a declaración SQL incorrecto: “{}”"
 
 #: utils/sqlite3/sqlite3.cpp:33
 #, c++-format
 msgid "Binding integer64 value to SQL statement failed: \"{}\""
-msgstr ""
+msgstr "Vinculando valor integer64 a enunciado SQL incorrecto: “{}”"
 
 #: utils/sqlite3/sqlite3.cpp:35
 #, c++-format
 msgid "Binding unsigned integer32 value to SQL statement failed: \"{}\""
-msgstr ""
+msgstr "Vinculando valor integer32 sin signo a declaración SQL incorrecta: “{}”"
 
 #: utils/sqlite3/sqlite3.cpp:37
 #, c++-format
 msgid "Binding double value to SQL statement failed: \"{}\""
-msgstr ""
+msgstr "Vinculando valor doble a declaración SQL incorrecta: “{}”"
 
 #: utils/sqlite3/sqlite3.cpp:39
 #, c++-format
 msgid "Binding bool value to SQL statement failed: \"{}\""
-msgstr ""
+msgstr "Vinculando valor bool a declaración SQL incorrecta: “{}”"
 
 #: utils/sqlite3/sqlite3.cpp:40
 #, c++-format
 msgid "Binding text to SQL statement failed: \"{}\""
-msgstr ""
+msgstr "Vinculando texto a declaración SQL incorrecta: “{}”"
 
 #: utils/sqlite3/sqlite3.cpp:41
 #, c++-format
 msgid "Binding blob to SQL statement failed: \"{}\""
-msgstr ""
+msgstr "Vinculando amasijo a declaración SQL incorrecta: “{}”"
 
 #: utils/sqlite3/sqlite3.cpp:42
 #, c++-format
 msgid "SQL statement evaluation failed: \"{}\""
-msgstr ""
+msgstr "Evaluzación de declaración SQL incorrecta: “{}”"
 
 #: utils/sqlite3/sqlite3.cpp:44
 msgid "Insufficient memory or result exceed maximum SQLite3 string length"
 msgstr ""
+"Memoria insuficiente o resultado excede cadana de longitud máxima de SQLite3"
 
 #: utils/sqlite3/sqlite3.cpp:46
 #, c++-format
 msgid "Column \"{}\" not found"
-msgstr ""
+msgstr "Columna «{}» no encontrada"
 
 #: utils/sqlite3/sqlite3.cpp:48
 #, c++-format
 msgid "SQL statement execution failed: \"{}\""
-msgstr ""
+msgstr "Ejecución de enunciado SQL incorrecto: “{}”"
 
 #: utils/sqlite3/sqlite3.cpp:68
 #, c++-format
 msgid "Failed to open database \"{}\""
-msgstr ""
+msgstr "Incorrecto al abrir base de datos “{}”"
 
 #: utils/sqlite3/sqlite3.cpp:105
 #, c++-format
 msgid "Failed to close database \"{}\""
-msgstr ""
+msgstr "Incorrecto al cerrar base de datos “{}”"
 
 #: utils/sqlite3/sqlite3.cpp:117 utils/sqlite3/sqlite3.cpp:143
 #, c++-format
 msgid "Failed to open backup database \"{}\""
-msgstr ""
+msgstr "Incorrecto al abrir respaldo de base de datos “{}”"
 
 #: utils/sqlite3/sqlite3.cpp:132
 #, c++-format
 msgid "Failed to backup database \"{}\" into \"{}\""
-msgstr ""
+msgstr "Incorrecto al respaldar base de datos “{}” en “{}”"
 
 #: utils/sqlite3/sqlite3.cpp:158
 #, c++-format
 msgid "Failed to restore database \"{}\""
-msgstr ""
+msgstr "Incorrecto al restaurar base de datos “{}”"
 
 #: utils/system.cpp:34
 msgid "failed to read rpm config files"
-msgstr ""
+msgstr "incorrecto al leer archivos de config de rpm"
 
 #: utils/system.cpp:52
 msgid "Failed to execute uname()"
-msgstr "Ha fallado al ejecutar uname()"
+msgstr "Incorrecto al ejecutar uname()"
