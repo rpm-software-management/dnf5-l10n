@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-31 03:32+0000\n"
-"PO-Revision-Date: 2025-06-02 20:14+0000\n"
+"PO-Revision-Date: 2025-06-03 07:32+0000\n"
 "Last-Translator: \"Fco. Javier F. Serrador\" <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/es/>\n"
@@ -653,27 +653,28 @@ msgstr "módulo {0} obsolece {1} proporcionado por {2}"
 #: base/solver_problems.cpp:96
 #, c++-format
 msgid "installed module {0} obsoletes {1} provided by {2}"
-msgstr ""
+msgstr "módulo {0} instalado obsolece {1} proporcionado por {2}"
 
 #: base/solver_problems.cpp:97
 #, c++-format
 msgid "module {0} implicitly obsoletes {1} provided by {2}"
-msgstr ""
+msgstr "módulo {0} impícitamente obsolece {1} proporcionado por {2}"
 
 #: base/solver_problems.cpp:98
 #, c++-format
 msgid "module {1} requires {0}, but none of the providers can be installed"
 msgstr ""
+"módulo {1} requiere {0}, pero ninguno de los proveedores puede ser instalado"
 
 #: base/solver_problems.cpp:99
 #, c++-format
 msgid "module {1} conflicts with {0} provided by itself"
-msgstr ""
+msgstr "módulo {1} entra en conflicto con {0} proporcionado por sí mismo"
 
 #: base/solver_problems.cpp:100
 #, c++-format
 msgid "both module {0} and {2} obsolete {1}"
-msgstr ""
+msgstr "ambos módulos {0} y {2} obsolecen {1}"
 
 #: base/solver_problems.cpp:290
 msgid "Problem: "
@@ -694,65 +695,68 @@ msgstr "No se puede ejecutar transacción con problemas pendiente de resolución
 
 #: base/transaction.cpp:82
 msgid "Rpm transaction check failed."
-msgstr ""
+msgstr "Comprobante transaccional de rpm incorrecto."
 
 #: base/transaction.cpp:84
 msgid ""
 "Failed to obtain rpm transaction lock. Another transaction is in progress."
 msgstr ""
+"No es capaz de obtener bloqueo de transacción rpm. Otra transacción está en "
+"progreso."
 
 #: base/transaction.cpp:85
 msgid "Rpm transaction failed."
-msgstr ""
+msgstr "Transacción rpm incorrecta."
 
 #: base/transaction.cpp:86
 msgid "Signature verification failed."
-msgstr ""
+msgstr "Verificación de firma incorrecta."
 
 #: base/transaction.cpp:90
 msgid "The repository does not have any OpenPGP keys configured."
-msgstr ""
+msgstr "El repositorio no tiene ninguna de las claves OpenPGP configurada."
 
 #: base/transaction.cpp:91
 msgid "Public key is not installed."
-msgstr ""
+msgstr "La clave pública no está instalada."
 
 #: base/transaction.cpp:92
 msgid "Canceled by the user."
-msgstr ""
+msgstr "Cancelado por el usuario."
 
 #: base/transaction.cpp:93
 msgid "Public key import failed."
-msgstr ""
+msgstr "Importación de clave pública incorrecta."
 
 #: base/transaction.cpp:980
 #, c++-format
 msgid "Invalid tsflag: {}"
-msgstr ""
+msgstr "Indicador ts no válida: {}"
 
 #: base/transaction.cpp:1318
 #, c++-format
 msgid "Public key \"{}\" is already present, not importing."
-msgstr ""
+msgstr "Clave pública «{}» ya está presente, no se importa."
 
 #: base/transaction.cpp:1339
 #, c++-format
 msgid "An error occurred importing key \"{}\": {}"
-msgstr ""
+msgstr "Ha sucedido un error de importación de clave «{}»: {}"
 
 #: base/transaction.cpp:1373
 #, c++-format
 msgid "OpenPGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
 msgstr ""
+"Comprobante OpenPGP para el paquete «{}» ({}) desde repo «{}» ha fallado: "
 
 #: base/transaction.cpp:1401
 msgid "Import of the key didn't help, wrong key?"
-msgstr ""
+msgstr "Importación de la clave no ayuda, ¿clave incorrecta?"
 
 #: base/transaction.cpp:1420
 msgctxt "It is a joining character for repositories IDs"
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: base/transaction.cpp:1423
 #, c++-format
@@ -760,7 +764,9 @@ msgid "Warning: skipped OpenPGP checks for {0} package from repository: {1}"
 msgid_plural ""
 "Warning: skipped OpenPGP checks for {0} packages from repository: {1}"
 msgstr[0] ""
+"Aviso: comprobante OpenPGP omitido para {0} paquete desde repositorio: {1}"
 msgstr[1] ""
+"Aviso: comprobante OpenPGP omitido para {0} paquetes desde repositorio: {1}"
 
 #: base/transaction.cpp:1426
 #, c++-format
@@ -856,67 +862,69 @@ msgstr ""
 #: conf/option_binds.cpp:29
 #, c++-format
 msgid "Option \"{}\" not found"
-msgstr ""
+msgstr "Opción «{}» no encontrada"
 
 #: conf/option_binds.cpp:32
 #, c++-format
 msgid "Option \"{}\" already exists"
-msgstr ""
+msgstr "Opción «{}» ya existe"
 
 #: conf/option_bool.cpp:82
 #, c++-format
 msgid "Invalid boolean value \"{}\""
-msgstr ""
+msgstr "Valor booleano «{}» no válido"
 
 #: conf/option_enum.cpp:68
 #, c++-format
 msgid "Enum option value \"{}\" not allowed"
-msgstr ""
+msgstr "Valor de opción enum «{}» no permitida"
 
 #: conf/option_number.cpp:99
 #, c++-format
 msgid "Input value {} is outside the allowed range {} ... {}"
-msgstr ""
+msgstr "Valor de entrada {} es externo al intervalo permitido {} … {}"
 
 #: conf/option_number.cpp:112
 #, c++-format
 msgid "Invalid number option value \"{}\""
-msgstr ""
+msgstr "Número no válido para la opción de valor «{}»"
 
 #: conf/option_path.cpp:93
 #, c++-format
 msgid "Only absolute paths allowed, relative path \"{}\" detected"
-msgstr ""
+msgstr "Solo rutas absolutas permitidas, ruta «{}» relativa detectada"
 
 #: conf/option_path.cpp:98
 #, c++-format
 msgid "Path \"{}\" does not exist"
-msgstr ""
+msgstr "La ruta «{}» no existe"
 
 #: conf/option_seconds.cpp:38
 msgid "Empty time option value"
-msgstr ""
+msgstr "Valor opcional de hora vacía"
 
 #: conf/option_seconds.cpp:50
 #, c++-format
 msgid "Invalid time option value \"{}\", number or \"never\" expected"
-msgstr ""
+msgstr "Valor «{}» de opción horaria no válida, número o «never» caducado"
 
 #: conf/option_seconds.cpp:54
 #, c++-format
 msgid ""
 "Invalid time option value \"{}\", negative values except \"-1\" not allowed"
 msgstr ""
+"Valor opcional «{}» de hora no válida, no están permitidos valores negativos "
+"excepto «-1»"
 
 #: conf/option_seconds.cpp:59
 #, c++-format
 msgid "Unknown time format \"{}\""
-msgstr ""
+msgstr "Formato de hora «{}» desconocido"
 
 #: conf/option_seconds.cpp:78
 #, c++-format
 msgid "Unknown time unit '{}'"
-msgstr ""
+msgstr "Unidad de hora '{}' desconocida"
 
 #: conf/option_string.cpp:89
 #, c++-format
@@ -924,12 +932,14 @@ msgid ""
 "Input value \"{}\" not allowed, allowed values for this option are defined "
 "by regular expression \"{}\""
 msgstr ""
+"Valor «{}» de entrada no permitida, están definidos los valores permitidos "
+"para esta opción por expresión regular «{}»"
 
 #. TODO(jrohel): We don't know the option name at this time. Add a text name to the options
 #. or extend exception (add name) in upper layer.
 #: conf/option_string.cpp:114
 msgid "Option value is not set"
-msgstr ""
+msgstr "Valor de opción no está fijado"
 
 #: conf/option_string_list.cpp:175
 #, c++-format
@@ -937,25 +947,27 @@ msgid ""
 "Input item value \"{}\" not allowed, allowed values for this option are "
 "defined by regular expression \"{}\""
 msgstr ""
+"Valor «{}» de elemento de entrada no permitido, valores para esta opción "
+"permitidos están definidos por expresión regular «{}»"
 
 #: conf/vars.cpp:313 conf/vars.cpp:353
 #, c++-format
 msgid "Variable \"{}\" is read-only"
-msgstr ""
+msgstr "La variable «{}» es de solo-lectura"
 
 #: logger/rotating_file_logger.cpp:65
 msgid "Cannot open log file"
-msgstr ""
+msgstr "No se puede abrir el archivo de bitácora"
 
 #: module/module_db.cpp:76 module/module_db.cpp:85 module/module_sack.cpp:767
 #, c++-format
 msgid "No such module: {}"
-msgstr ""
+msgstr "Sin dicho módulo: {}"
 
 #: module/module_db.cpp:268
 #, c++-format
 msgid "Cannot enable multiple streams for module '{}'"
-msgstr ""
+msgstr "No se puede activar múltiples flujos por módulo '{}'"
 
 #. TODO(pkratoch) replace with a proper and descriptive exception
 #. TODO(jmracek) else if (removalOfProtected && removalOfProtected->size()) {
@@ -971,44 +983,44 @@ msgstr ""
 #: module/module_metadata.cpp:102
 #, c++-format
 msgid "Failed to update from string: {}"
-msgstr ""
+msgstr "No se pudo actualizar desde cadena: {}"
 
 #: module/module_metadata.cpp:129
 #, c++-format
 msgid "Failed to resolve module metadata: {}"
-msgstr ""
+msgstr "No se pudo resolver metadatos de módulo: {}"
 
 #: module/module_metadata.cpp:140
 #, c++-format
 msgid "Failed to upgrade defaults: {}"
-msgstr ""
+msgstr "Incorrecto al modernizar predeterminaciones: {}"
 
 #: module/module_metadata.cpp:144
 #, c++-format
 msgid "Failed to upgrade streams: {}"
-msgstr ""
+msgstr "Incorrecto al modernizar flujos: {}"
 
 #: module/module_sack.cpp:93
 #, c++-format
 msgid "Failed to load module metadata for repository \"{}\": {}"
-msgstr ""
+msgstr "Incorrecto al cargar metadatos del módulo para repositorio «{}»: {}"
 
 #: module/module_sack.cpp:594
 msgid "Missing '='"
-msgstr ""
+msgstr "Falta un '='"
 
 #: module/module_sack.cpp:598 module/module_sack.cpp:606
 msgid "Missing '\"' in the value"
-msgstr ""
+msgstr "Falta un '\"' en el valor"
 
 #: module/module_sack.cpp:602
 msgid "Missing ':' in the value"
-msgstr ""
+msgstr "Falta un ':' en el valor"
 
 #: module/module_sack.cpp:911
 #, c++-format
 msgid "Invalid module status: {}"
-msgstr ""
+msgstr "Estado de módulo no válido: {}"
 
 #: plugin/plugins.cpp:67
 #, c++-format
@@ -1016,41 +1028,44 @@ msgid ""
 "Unsupported plugin API combination. API version provided by plugin \"{}\" "
 "(\"{}\") is \"{}.{}\". API version in libdnf is \"{}.{}\"."
 msgstr ""
+"Combinación API de complemento no mantenido. La versión de API proporcionada "
+"por complemento «{}» («{}») es «{}.{}». La versión de API en libdnf es "
+"«{}.{}»."
 
 #: plugin/plugins.cpp:92
 msgid "Failed to create a libdnf plugin instance"
-msgstr ""
+msgstr "Incorrecto al crear una instancia de complemento libdnf"
 
 #: plugin/plugins.cpp:146
 #, c++-format
 msgid "Cannot find plugin library \"{}\""
-msgstr ""
+msgstr "No se puede encontrar la biblioteca de complemento «{}»"
 
 #: plugin/plugins.cpp:213
 #, c++-format
 msgid "Invalid option value: enabled={}"
-msgstr ""
+msgstr "Valor de opción no válida: enabled={}"
 
 #: plugin/plugins.cpp:237
 msgid "Plugins::load_plugins(): config_dir_path cannot be empty"
-msgstr ""
+msgstr "Plugins::load_plugins(): config_dir_path no puede estar vacío"
 
 #: plugin/plugins.cpp:253
 #, c++-format
 msgid "Cannot load libdnf plugin enabled from: {}"
-msgstr ""
+msgstr "No se puede cargar el complemento libdnf habilitado desde: {}"
 
 #: repo/config_repo.cpp:581
 msgid "get_unique_id(): Computation of SHA256 failed"
-msgstr ""
+msgstr "get_unique_id(): computación de SHA256 incorrecta"
 
 #: repo/file_downloader.cpp:154
 msgid "Cannot download files, cacheonly option is activated."
-msgstr ""
+msgstr "No se puede descargar archivos, está activada la opción cacheonly."
 
 #: repo/file_downloader.cpp:216
 msgid "Failed to download files"
-msgstr ""
+msgstr "Ha fallado al descargar archivos"
 
 #: repo/librepo.cpp:118
 msgid ""
