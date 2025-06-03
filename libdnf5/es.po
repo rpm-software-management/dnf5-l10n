@@ -8,9 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-31 03:32+0000\n"
-"PO-Revision-Date: 2025-06-03 07:32+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2025-06-03 07:37+0000\n"
+"Last-Translator: \"Fco. Javier F. Serrador\" <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/es/>\n"
 "Language: es\n"
@@ -1084,6 +1083,7 @@ msgstr "'proxy_username' está puesto pero no 'proxy_password'"
 #, c++-format
 msgid "Cannot download the \"{0}\" package, cacheonly option is activated."
 msgstr ""
+"No se puede descargar el paquete «{0}», la opción cacheonly está activada."
 
 #: repo/package_downloader.cpp:219
 msgid "Already downloaded"
@@ -1091,27 +1091,29 @@ msgstr ""
 
 #: repo/package_downloader.cpp:267
 msgid "Failed to download packages"
-msgstr ""
+msgstr "Ha fallado al descargar paquetes"
 
 #: repo/repo.cpp:61
 #, c++-format
 msgid "Failed to load RPM \"{}\": doesn't have the \".rpm\" extension"
-msgstr ""
+msgstr "Ha fallado al cargar RPM «{}»: no tiene la extensión «.rpm»"
 
 #: repo/repo.cpp:65
 #, c++-format
 msgid "Failed to access RPM \"{}\": {}"
-msgstr ""
+msgstr "Incorrecto al acceder al RPM «{}»: {}"
 
 #: repo/repo.cpp:107
 #, c++-format
 msgid "Invalid repository id \"{}\": unexpected character '{}'"
-msgstr ""
+msgstr "ID «{}» de repositorio inválido: carácter '{}' inesperado"
 
 #: repo/repo.cpp:150
 #, c++-format
 msgid "Repository \"{}\" has no source (baseurl, mirrorlist or metalink) set."
 msgstr ""
+"Repositorio «{}» no tiene origen (baseurl, listado de espejo o metalink) "
+"fijado."
 
 #: repo/repo.cpp:161
 #, c++-format
