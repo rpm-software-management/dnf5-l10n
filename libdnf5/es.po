@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-31 03:32+0000\n"
+"POT-Creation-Date: 2025-06-06 03:38+0000\n"
 "PO-Revision-Date: 2025-06-03 16:14+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -21,7 +21,6 @@ msgstr ""
 "X-Generator: Weblate 5.11.4\n"
 
 #: advisory/advisory.cpp:81
-#, c++-format
 msgid ""
 "Bad libsolv id for advisory \"{}\", solvable name \"{}\" doesn't have "
 "advisory prefix \"{}\""
@@ -30,13 +29,11 @@ msgstr ""
 "prefijo de advertencia \"{}\""
 
 #: base/goal.cpp:472
-#, c++-format
 msgid "Unsupported argument for REMOVE action: {}"
 msgstr "Argumento no soportado para acción REMOVE: {}"
 
 #. TODO(lukash) throw a proper exception
 #: base/goal.cpp:1641
-#, c++-format
 msgid "Incorrect configuration value for multilib_policy: {}"
 msgstr "Valor de configuración incorrecto para multilib_policy: {}"
 
@@ -153,47 +150,38 @@ msgid "Transaction merge"
 msgstr "Unir transacción"
 
 #: base/log_event.cpp:141
-#, c++-format
 msgid "No packages to remove for argument: {}"
 msgstr "Ningún paquete a desinstalar para argumento: {}"
 
 #: base/log_event.cpp:143
-#, c++-format
 msgid "No groups to remove for argument: {}"
 msgstr "Ningún grupo a quitar para argumento: {}"
 
 #: base/log_event.cpp:146
-#, c++-format
 msgid "No environmental groups to remove for argument: {}"
 msgstr "Sin grupos de entorno para quitar del argumento: {}"
 
 #: base/log_event.cpp:148
-#, c++-format
 msgid "No modules to remove for argument: {}"
 msgstr "Sin módulos para quitar del argumento: {}"
 
 #: base/log_event.cpp:152
-#, c++-format
 msgid "No match for group from environment: {}"
 msgstr "No coincide para grupo desde entorno: {}"
 
 #: base/log_event.cpp:154
-#, c++-format
 msgid "No match for group package: {}"
 msgstr "No hay coincidencia para el grupo \"{}\""
 
 #: base/log_event.cpp:158
-#, c++-format
 msgid "Cannot perform {0}, no match for: {1}."
 msgstr "No puede realizar {0}, no coincide para: {1}."
 
 #: base/log_event.cpp:160
-#, c++-format
 msgid "No match for argument: {}"
 msgstr "No coincide para argumento: {}"
 
 #: base/log_event.cpp:163
-#, c++-format
 msgid "No match for argument '{0}' in selected advisories"
 msgstr "No coincide para argumento '{0}' en avisos seleccionados"
 
@@ -202,22 +190,18 @@ msgid "No match in selected advisories"
 msgstr "No coincide en avisos seleccionados"
 
 #: base/log_event.cpp:169
-#, c++-format
 msgid "No match for argument '{0}' in repositories '{1}'"
 msgstr "No coincide para argumento '{0}' en repositorios '{1}'"
 
 #: base/log_event.cpp:175
-#, c++-format
 msgid "Cannot perform {0} for {1} '{2}' because it is not installed."
 msgstr "No se puede realizar {0} para {1} '{2}' porque no está instalado."
 
 #: base/log_event.cpp:180
-#, c++-format
 msgid "Packages for argument '{}' available, but not installed."
 msgstr "Paquetes para argumento '{}' disponible, pero no instalado."
 
 #: base/log_event.cpp:184
-#, c++-format
 msgid ""
 "Packages for argument '{}' available, but installed for a different "
 "architecture."
@@ -226,27 +210,22 @@ msgstr ""
 "arquitectura diferente."
 
 #: base/log_event.cpp:188
-#, c++-format
 msgid "Cannot perform {0} because '{1}' matches only source packages."
 msgstr "No puede realizar {0} porque '{1}' coincide solo en paquetes fuentes."
 
 #: base/log_event.cpp:192
-#, c++-format
 msgid "Argument '{}' matches only source packages."
 msgstr "Coincide el argumento '{}' solo en paquetes de fuente."
 
 #: base/log_event.cpp:196
-#, c++-format
 msgid "Cannot perform {0} because '{1}' matches only excluded packages."
 msgstr "No puede realizar {0} porque '{1}' coincide solo paquetes excluídos."
 
 #: base/log_event.cpp:200
-#, c++-format
 msgid "Argument '{}' matches only excluded packages."
 msgstr "Solo coincide el argumento'{}' de paquetes excluídos."
 
 #: base/log_event.cpp:204
-#, c++-format
 msgid ""
 "Cannot perform {0} because '{1}' matches only packages excluded by "
 "versionlock."
@@ -255,23 +234,19 @@ msgstr ""
 "versión bloqueada."
 
 #: base/log_event.cpp:208
-#, c++-format
 msgid "Argument '{}' matches only packages excluded by versionlock."
 msgstr ""
 "Coincide argumento '{}' solo para paquetes excluidos por versión bloqueada."
 
 #: base/log_event.cpp:213
-#, c++-format
 msgid "  * Maybe you meant: {}"
 msgstr "  * Tal vez quiso decir: {}"
 
 #: base/log_event.cpp:216
-#, c++-format
 msgid "There are following alternatives for '{0}': {1}"
 msgstr "Hay las siguientes alternativas para '{0}': {1}"
 
 #: base/log_event.cpp:223
-#, c++-format
 msgid ""
 "The lowest available version of the \"{}\" package is already installed, "
 "cannot downgrade it."
@@ -280,7 +255,6 @@ msgstr ""
 "puede degradarlo."
 
 #: base/log_event.cpp:229
-#, c++-format
 msgid ""
 "Installed packages for argument '{0}' are not available in repositories in "
 "the same version, available versions: {1}, cannot reinstall."
@@ -290,7 +264,6 @@ msgstr ""
 "reinstalar."
 
 #: base/log_event.cpp:235
-#, c++-format
 msgid ""
 "Cannot perform {0} because '{1}' is installed in a different version: '{2}'."
 msgstr ""
@@ -298,7 +271,6 @@ msgstr ""
 "diferente: '{2}'."
 
 #: base/log_event.cpp:241
-#, c++-format
 msgid ""
 "Packages for argument '{}' installed and available, but in a different "
 "version."
@@ -307,27 +279,22 @@ msgstr ""
 "diferente."
 
 #: base/log_event.cpp:243
-#, c++-format
 msgid "Packages for argument '{}' installed, but not available."
 msgstr "Hay paquetes para argumento '{}' instalado, pero no disponible."
 
 #: base/log_event.cpp:252
-#, c++-format
 msgid "Package \"{}\" is already installed with reason \"{}\"."
 msgstr "El paquete \"{}\" ya está instalado con razón \"{}\"."
 
 #: base/log_event.cpp:254
-#, c++-format
 msgid "Package \"{}\" is already installed."
 msgstr "El paquete \"{}\" ya está instalado."
 
 #: base/log_event.cpp:263
-#, c++-format
 msgid "Debug data written to \"{}\""
 msgstr "Depurar datos escritos a \"{}\""
 
 #: base/log_event.cpp:267
-#, c++-format
 msgid ""
 "{0} upgrade cannot be reverted, however associated package actions will be. "
 "({1} id: '{2}') ."
@@ -336,18 +303,15 @@ msgstr ""
 "paquete asociado. ({1} id: '{2}')."
 
 #: base/log_event.cpp:273
-#, c++-format
 msgid "{} action for argument \"{}\" is not supported."
 msgstr "acción {} para argumento \"{}\" no está mantenido."
 
 #. Format a leading line of the error message.
 #: base/log_event.cpp:282
-#, c++-format
 msgid "Unable to resolve argument '{}':"
 msgstr "No es capaz de resolver parámetro '{}':"
 
 #: base/log_event.cpp:286
-#, c++-format
 msgid ""
 "\n"
 "  - Argument '{}' matches {} stream ('{}') of module '{}', but the stream is "
@@ -382,7 +346,6 @@ msgid "Modular dependency problems with the defaults:\n"
 msgstr "Problemas de dependencia modular con los predeterminados:\n"
 
 #: base/log_event.cpp:331
-#, c++-format
 msgid ""
 "The operation would result in switching of module '{0}' stream '{1}' to "
 "stream '{2}'\n"
@@ -400,7 +363,6 @@ msgstr ""
 "module_stream_switch."
 
 #: base/log_event.cpp:341
-#, c++-format
 msgid ""
 "Extra package '{0}' (with action '{1}') which is not present in the stored "
 "transaction was pulled into the transaction.\n"
@@ -409,12 +371,10 @@ msgstr ""
 "de la transacción almacenada fue tirar en la transacción.\n"
 
 #: base/log_event.cpp:347
-#, c++-format
 msgid "Cannot parse file: '{0}': {1}.\n"
 msgstr "No se puede interpretar archivo: '{0}': {1}.\n"
 
 #: base/log_event.cpp:354
-#, c++-format
 msgid ""
 "Could not find debuginfo package for the following packages resolved from "
 "the argument '{0}': {1}"
@@ -428,7 +388,6 @@ msgid ", "
 msgstr ", "
 
 #: base/log_event.cpp:364
-#, c++-format
 msgid ""
 "Could not find debugsource package for the following packages resolved from "
 "the argument '{0}': {1}"
@@ -437,17 +396,14 @@ msgstr ""
 "resueltos desde el argumento '{0}': {1}"
 
 #: base/log_event.cpp:371
-#, c++-format
 msgid "Transaction merge error: '{0}'"
 msgstr "Error de unión de transacción: '{0}'"
 
 #: base/solver_problems.cpp:41
-#, c++-format
 msgid "{} does not belong to a distupgrade repository"
 msgstr "{} no pertenece a un repositorio distupgrade"
 
 #: base/solver_problems.cpp:42
-#, c++-format
 msgid "{0} from {1} has inferior architecture"
 msgstr "{0} desde {1} tiene arquitectura inferior"
 
@@ -464,17 +420,14 @@ msgid "unsupported request"
 msgstr "petición no soportada"
 
 #: base/solver_problems.cpp:46 base/solver_problems.cpp:82
-#, c++-format
 msgid "nothing provides requested {}"
 msgstr "nada proporciona {} solicitado"
 
 #: base/solver_problems.cpp:47
-#, c++-format
 msgid "package {} does not exist"
 msgstr "el paquete {} no existe"
 
 #: base/solver_problems.cpp:48 base/solver_problems.cpp:84
-#, c++-format
 msgid "{} is provided by the system"
 msgstr "{} es proporcionado por el sistema"
 
@@ -483,7 +436,6 @@ msgid "some dependency problem"
 msgstr "algún problema de dependencia"
 
 #: base/solver_problems.cpp:50
-#, c++-format
 msgid "cannot install the best update candidate for package {}"
 msgstr ""
 "no se puede instalar el mejor candidato de actualización para el paquete {}"
@@ -493,66 +445,54 @@ msgid "cannot install the best candidate for the job"
 msgstr "no se puede instalar el mejor candidato para la tarea"
 
 #: base/solver_problems.cpp:52
-#, c++-format
 msgid "package {0} from {1} is filtered out by modular filtering"
 msgstr "paquete {0} desde {1} está filtrado externo por filtro modular"
 
 #: base/solver_problems.cpp:53
-#, c++-format
 msgid "package {0} from {1} does not have a compatible architecture"
 msgstr "paquete {0} desde {1} no tiene una arquitectura compatible"
 
 #: base/solver_problems.cpp:54
-#, c++-format
 msgid "package {0} from {1} is not installable"
 msgstr "paquete {0} desde {1} no es instalable"
 
 #: base/solver_problems.cpp:55
-#, c++-format
 msgid "package {0} from {1} is filtered out by exclude filtering"
 msgstr "el paquete {0} desde {1} está filtrado fuera por filtro de exclusión"
 
 #: base/solver_problems.cpp:56
-#, c++-format
 msgid "nothing provides {0} needed by {1} from {2}"
 msgstr "nada proporciona {0} necesario por {1} desde {2}"
 
 #: base/solver_problems.cpp:57
-#, c++-format
 msgid "cannot install both {0} from {1} and {2} from {3}"
 msgstr "no se puede instalar ambos {0} desde {1} y {2} desde {3}"
 
 #: base/solver_problems.cpp:58
-#, c++-format
 msgid "package {0} from {1} conflicts with {2} provided by {3} from {4}"
 msgstr ""
 "el paquete {0} desde {1} en conflicto con {2} proporcionado por {3} desde {4}"
 
 #: base/solver_problems.cpp:60
-#, c++-format
 msgid "installed package {0} conflicts with {1} provided by {2} from {3}"
 msgstr ""
 "paquete {0} instalado en conflicto con {1} proporcionado por {2} dede {3}"
 
 #: base/solver_problems.cpp:61
-#, c++-format
 msgid "package {0} from {1} obsoletes {2} provided by {3} from {4}"
 msgstr "paquete {0} dede {1} obsolece {2} proporcionado por {3} desde {4}"
 
 #: base/solver_problems.cpp:62
-#, c++-format
 msgid "installed package {0} obsoletes {1} provided by {2} from {3}"
 msgstr "instaló el paquete {0} obsolece {1} proporcionado por {2} desde {3}"
 
 #: base/solver_problems.cpp:64
-#, c++-format
 msgid "package {0} from {1} implicitly obsoletes {2} provided by {3} from {4}"
 msgstr ""
 "el paquete {0} desde {1} obsolece implícitamente {2} proporcionados por {3} "
 "desde {4}"
 
 #: base/solver_problems.cpp:66
-#, c++-format
 msgid ""
 "package {1} from {2} requires {0}, but none of the providers can be installed"
 msgstr ""
@@ -560,7 +500,6 @@ msgstr ""
 "ser instalado"
 
 #: base/solver_problems.cpp:68
-#, c++-format
 msgid ""
 "installed package {1} requires {0}, but none of the providers can be "
 "installed"
@@ -569,111 +508,90 @@ msgstr ""
 "puede ser instalado"
 
 #: base/solver_problems.cpp:69
-#, c++-format
 msgid "package {0} from {1} conflicts with {2} provided by itself"
 msgstr "paquete {0} desde {1} en conflicto con {2} proporcionado por sí mismo"
 
 #: base/solver_problems.cpp:70
-#, c++-format
 msgid "both package {0} from {1} and {3} from {4} obsolete {2}"
 msgstr "ambos paquete {0} desde {1} y {3} dede {4} obsolece {2}"
 
 #: base/solver_problems.cpp:72
-#, c++-format
 msgid ""
 "The operation would result in removing the following protected packages: {}"
 msgstr ""
 "La operación resultaría en desinstalar los siguientes paquetes protegidos: {}"
 
 #: base/solver_problems.cpp:75
-#, c++-format
 msgid "The operation would result in removing of running kernel: {}"
 msgstr "La operación resultaría en retirar el kernel ejecutándose: {}"
 
 #: base/solver_problems.cpp:77
-#, c++-format
 msgid "module {} does not belong to a distupgrade repository"
 msgstr "el módulo {} no pertenece a un repositorio distupgrade"
 
 #: base/solver_problems.cpp:78
-#, c++-format
 msgid "module {} has inferior architecture"
 msgstr "el módulo {} tiene arquitectura inferior"
 
 #: base/solver_problems.cpp:79
-#, c++-format
 msgid "problem with installed module {}"
 msgstr "problema con módulo {} instalado"
 
 #: base/solver_problems.cpp:83
-#, c++-format
 msgid "module {} does not exist"
 msgstr "módulo {} no existe"
 
 #: base/solver_problems.cpp:86
-#, c++-format
 msgid "cannot install the best update candidate for module {}"
 msgstr ""
 "no se puede instalar el mejor candidato de actualización para el módulo {}"
 
 #: base/solver_problems.cpp:88 base/solver_problems.cpp:91
-#, c++-format
 msgid "module {} is disabled"
 msgstr "módulo {} está deshabilitado"
 
 #: base/solver_problems.cpp:89
-#, c++-format
 msgid "module {} does not have a compatible architecture"
 msgstr "módulo {} no tiene una arquitectura compatible"
 
 #: base/solver_problems.cpp:90
-#, c++-format
 msgid "module {} is not installable"
 msgstr "módulo {} no es instalable"
 
 #: base/solver_problems.cpp:92
-#, c++-format
 msgid "nothing provides {0} needed by module {1}"
 msgstr "nada proporciona {0} necesario por el módulo {1}"
 
 #: base/solver_problems.cpp:93
-#, c++-format
 msgid "cannot install both modules {0} and {1}"
 msgstr "no se puede instalar ambos módulos {0} y {1}"
 
 #: base/solver_problems.cpp:94
-#, c++-format
 msgid "module {0} conflicts with {1} provided by {2}"
 msgstr "el módulo {0} entra en conflicto con {1} proporcionado por {2}"
 
 #: base/solver_problems.cpp:95
-#, c++-format
 msgid "module {0} obsoletes {1} provided by {2}"
 msgstr "módulo {0} obsolece {1} proporcionado por {2}"
 
 #: base/solver_problems.cpp:96
-#, c++-format
 msgid "installed module {0} obsoletes {1} provided by {2}"
 msgstr "módulo {0} instalado obsolece {1} proporcionado por {2}"
 
 #: base/solver_problems.cpp:97
-#, c++-format
 msgid "module {0} implicitly obsoletes {1} provided by {2}"
 msgstr "módulo {0} impícitamente obsolece {1} proporcionado por {2}"
 
 #: base/solver_problems.cpp:98
-#, c++-format
 msgid "module {1} requires {0}, but none of the providers can be installed"
 msgstr ""
 "módulo {1} requiere {0}, pero ninguno de los proveedores puede ser instalado"
 
 #: base/solver_problems.cpp:99
-#, c++-format
 msgid "module {1} conflicts with {0} provided by itself"
 msgstr "módulo {1} entra en conflicto con {0} proporcionado por sí mismo"
 
 #: base/solver_problems.cpp:100
-#, c++-format
 msgid "both module {0} and {2} obsolete {1}"
 msgstr "ambos módulos {0} y {2} obsolecen {1}"
 
@@ -682,7 +600,6 @@ msgid "Problem: "
 msgstr "Problema: "
 
 #: base/solver_problems.cpp:294
-#, c++-format
 msgid "Problem {}: "
 msgstr "Problema {}: "
 
@@ -692,7 +609,8 @@ msgstr "Esta transacción ha sido ya ejecutada antes."
 
 #: base/transaction.cpp:81
 msgid "Cannot run transaction with resolving problems."
-msgstr "No se puede ejecutar transacción con problemas pendiente de resolución."
+msgstr ""
+"No se puede ejecutar transacción con problemas pendiente de resolución."
 
 #: base/transaction.cpp:82
 msgid "Rpm transaction check failed."
@@ -730,22 +648,18 @@ msgid "Public key import failed."
 msgstr "Importación de clave pública incorrecta."
 
 #: base/transaction.cpp:980
-#, c++-format
 msgid "Invalid tsflag: {}"
 msgstr "Indicador ts no válida: {}"
 
 #: base/transaction.cpp:1318
-#, c++-format
 msgid "Public key \"{}\" is already present, not importing."
 msgstr "Clave pública «{}» ya está presente, no se importa."
 
 #: base/transaction.cpp:1339
-#, c++-format
 msgid "An error occurred importing key \"{}\": {}"
 msgstr "Ha sucedido un error de importación de clave «{}»: {}"
 
 #: base/transaction.cpp:1373
-#, c++-format
 msgid "OpenPGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
 msgstr ""
 "Comprobante OpenPGP para el paquete «{}» ({}) desde repo «{}» ha fallado: "
@@ -760,7 +674,6 @@ msgid ", "
 msgstr ", "
 
 #: base/transaction.cpp:1423
-#, c++-format
 msgid "Warning: skipped OpenPGP checks for {0} package from repository: {1}"
 msgid_plural ""
 "Warning: skipped OpenPGP checks for {0} packages from repository: {1}"
@@ -770,7 +683,6 @@ msgstr[1] ""
 "Aviso: comprobante OpenPGP omitido para {0} paquetes desde repositorio: {1}"
 
 #: base/transaction.cpp:1426
-#, c++-format
 msgid "Warning: skipped OpenPGP checks for {0} package from repositories: {1}"
 msgid_plural ""
 "Warning: skipped OpenPGP checks for {0} packages from repositories: {1}"
@@ -809,12 +721,11 @@ msgid "failed to save xml document for comps"
 msgstr "ha fallado al guardar documento xml para comps"
 
 #: comps/group/group.cpp:373
-#, c++-format
 msgid "Failed to save xml document for group \"{}\" to file \"{}\": {}"
-msgstr "Incorrecto al guardar documento xml para grupo «{}» al archivo «{}»: {}"
+msgstr ""
+"Incorrecto al guardar documento xml para grupo «{}» al archivo «{}»: {}"
 
 #: comps/group/package.cpp:118 comps/group/package.cpp:121
-#, c++-format
 msgid "Invalid package type: {}"
 msgstr "Tipo de paquete no válido: {}"
 
@@ -823,87 +734,70 @@ msgid "Input is empty. Must contain a value."
 msgstr "Entrada está vacía. Debe contener un valor."
 
 #: conf/config_main.cpp:63
-#, c++-format
 msgid "Input value '{}' must not be negative"
 msgstr "Valor '{}' de entrada debe no ser negativo"
 
 #: conf/config_main.cpp:68
-#, c++-format
 msgid "Could not convert '{}' to bytes"
 msgstr "No pudo convertir '{}' para bytes"
 
 #: conf/config_main.cpp:84
-#, c++-format
 msgid "Unknown unit '{}'"
 msgstr "Unidad desconocida '{}'"
 
 #: conf/config_main.cpp:281
-#, c++-format
 msgid "The throttle value {} is outside the allowed range {} ... {}"
 msgstr "El valor del acelerador {} está fuera del rango permitido {} … {}"
 
 #: conf/config_parser.cpp:54
-#, c++-format
 msgid "Section \"{}\" not found"
 msgstr "Sección «{}» no encontrada"
 
 #: conf/config_parser.cpp:59
-#, c++-format
 msgid "Section \"{}\" does not contain option \"{}\""
 msgstr "La sección «{}» no contiene la opción «{}»"
 
 #: conf/config_parser.cpp:96
-#, c++-format
 msgid "Configuration file \"{}\" not found"
 msgstr "Archivo de configuración «{}» no encontrado"
 
 #: conf/config_parser.cpp:99
-#, c++-format
 msgid "Unable to access configuration file \"{}\""
 msgstr "No es capaz de acceder al archivo de configuración «{}»"
 
 #: conf/config_parser.cpp:102
-#, c++-format
 msgid "Error in configuration file \"{}\""
 msgstr "Error dentro del archivo de configuración «{}»"
 
 #: conf/option_binds.cpp:29
-#, c++-format
 msgid "Option \"{}\" not found"
 msgstr "Opción «{}» no encontrada"
 
 #: conf/option_binds.cpp:32
-#, c++-format
 msgid "Option \"{}\" already exists"
 msgstr "Opción «{}» ya existe"
 
 #: conf/option_bool.cpp:82
-#, c++-format
 msgid "Invalid boolean value \"{}\""
 msgstr "Valor booleano «{}» no válido"
 
 #: conf/option_enum.cpp:68
-#, c++-format
 msgid "Enum option value \"{}\" not allowed"
 msgstr "Valor de opción enum «{}» no permitida"
 
 #: conf/option_number.cpp:99
-#, c++-format
 msgid "Input value {} is outside the allowed range {} ... {}"
 msgstr "Valor de entrada {} es externo al intervalo permitido {} … {}"
 
 #: conf/option_number.cpp:112
-#, c++-format
 msgid "Invalid number option value \"{}\""
 msgstr "Número no válido para la opción de valor «{}»"
 
 #: conf/option_path.cpp:93
-#, c++-format
 msgid "Only absolute paths allowed, relative path \"{}\" detected"
 msgstr "Solo rutas absolutas permitidas, ruta «{}» relativa detectada"
 
 #: conf/option_path.cpp:98
-#, c++-format
 msgid "Path \"{}\" does not exist"
 msgstr "La ruta «{}» no existe"
 
@@ -912,12 +806,10 @@ msgid "Empty time option value"
 msgstr "Valor opcional de hora vacía"
 
 #: conf/option_seconds.cpp:50
-#, c++-format
 msgid "Invalid time option value \"{}\", number or \"never\" expected"
 msgstr "Valor «{}» de opción horaria no válida, número o «never» caducado"
 
 #: conf/option_seconds.cpp:54
-#, c++-format
 msgid ""
 "Invalid time option value \"{}\", negative values except \"-1\" not allowed"
 msgstr ""
@@ -925,17 +817,14 @@ msgstr ""
 "excepto «-1»"
 
 #: conf/option_seconds.cpp:59
-#, c++-format
 msgid "Unknown time format \"{}\""
 msgstr "Formato de hora «{}» desconocido"
 
 #: conf/option_seconds.cpp:78
-#, c++-format
 msgid "Unknown time unit '{}'"
 msgstr "Unidad de hora '{}' desconocida"
 
 #: conf/option_string.cpp:89
-#, c++-format
 msgid ""
 "Input value \"{}\" not allowed, allowed values for this option are defined "
 "by regular expression \"{}\""
@@ -950,7 +839,6 @@ msgid "Option value is not set"
 msgstr "Valor de opción no está fijado"
 
 #: conf/option_string_list.cpp:175
-#, c++-format
 msgid ""
 "Input item value \"{}\" not allowed, allowed values for this option are "
 "defined by regular expression \"{}\""
@@ -959,7 +847,6 @@ msgstr ""
 "permitidos están definidos por expresión regular «{}»"
 
 #: conf/vars.cpp:313 conf/vars.cpp:353
-#, c++-format
 msgid "Variable \"{}\" is read-only"
 msgstr "La variable «{}» es de solo-lectura"
 
@@ -968,12 +855,10 @@ msgid "Cannot open log file"
 msgstr "No se puede abrir el archivo de bitácora"
 
 #: module/module_db.cpp:76 module/module_db.cpp:85 module/module_sack.cpp:767
-#, c++-format
 msgid "No such module: {}"
 msgstr "No existe el módulo: {}"
 
 #: module/module_db.cpp:268
-#, c++-format
 msgid "Cannot enable multiple streams for module '{}'"
 msgstr "No se puede activar múltiples flujos para el módulo '{}'"
 
@@ -989,27 +874,22 @@ msgid "no solution possible"
 msgstr "ninguna solución posible"
 
 #: module/module_metadata.cpp:102
-#, c++-format
 msgid "Failed to update from string: {}"
 msgstr "Incorrecto al actualizar desde cadena: {}"
 
 #: module/module_metadata.cpp:129
-#, c++-format
 msgid "Failed to resolve module metadata: {}"
 msgstr "Incorrecto al resolver metadatos de módulo: {}"
 
 #: module/module_metadata.cpp:140
-#, c++-format
 msgid "Failed to upgrade defaults: {}"
 msgstr "Incorrecto al modernizar predeterminaciones: {}"
 
 #: module/module_metadata.cpp:144
-#, c++-format
 msgid "Failed to upgrade streams: {}"
 msgstr "Incorrecto al modernizar flujos: {}"
 
 #: module/module_sack.cpp:93
-#, c++-format
 msgid "Failed to load module metadata for repository \"{}\": {}"
 msgstr "Incorrecto al cargar metadatos del módulo para repositorio «{}»: {}"
 
@@ -1026,31 +906,27 @@ msgid "Missing ':' in the value"
 msgstr "Falta un ':' en el valor"
 
 #: module/module_sack.cpp:911
-#, c++-format
 msgid "Invalid module status: {}"
 msgstr "Estado de módulo no válido: {}"
 
 #: plugin/plugins.cpp:67
-#, c++-format
 msgid ""
-"Unsupported plugin API combination. API version provided by plugin \"{}\" "
-"(\"{}\") is \"{}.{}\". API version in libdnf is \"{}.{}\"."
+"Unsupported plugin API combination. API version provided by plugin "
+"\"{}\" (\"{}\") is \"{}.{}\". API version in libdnf is \"{}.{}\"."
 msgstr ""
 "Combinación API de complemento no mantenido. La versión de API proporcionada "
-"por complemento «{}» («{}») es «{}.{}». La versión de API en libdnf es "
-"«{}.{}»."
+"por complemento «{}» («{}») es «{}.{}». La versión de API en libdnf es «{}."
+"{}»."
 
 #: plugin/plugins.cpp:92
 msgid "Failed to create a libdnf plugin instance"
 msgstr "Incorrecto al crear una instancia de complemento libdnf"
 
 #: plugin/plugins.cpp:146
-#, c++-format
 msgid "Cannot find plugin library \"{}\""
 msgstr "No se puede encontrar la biblioteca de complemento «{}»"
 
 #: plugin/plugins.cpp:213
-#, c++-format
 msgid "Invalid option value: enabled={}"
 msgstr "Valor de opción no válida: enabled={}"
 
@@ -1059,7 +935,6 @@ msgid "Plugins::load_plugins(): config_dir_path cannot be empty"
 msgstr "Plugins::load_plugins(): config_dir_path no puede estar vacío"
 
 #: plugin/plugins.cpp:253
-#, c++-format
 msgid "Cannot load libdnf plugin enabled from: {}"
 msgstr "No se puede cargar el complemento libdnf habilitado desde: {}"
 
@@ -1088,7 +963,6 @@ msgid "'proxy_username' is set but not 'proxy_password'"
 msgstr "'proxy_username' está puesto pero no 'proxy_password'"
 
 #: repo/package_downloader.cpp:154
-#, c++-format
 msgid "Cannot download the \"{0}\" package, cacheonly option is activated."
 msgstr ""
 "No se puede descargar el paquete «{0}», la opción cacheonly está activada."
@@ -1102,34 +976,28 @@ msgid "Failed to download packages"
 msgstr "Incorrecto al descargar paquetes"
 
 #: repo/repo.cpp:61
-#, c++-format
 msgid "Failed to load RPM \"{}\": doesn't have the \".rpm\" extension"
 msgstr "Incorrecto al cargar RPM «{}»: no tiene la extensión «.rpm»"
 
 #: repo/repo.cpp:65
-#, c++-format
 msgid "Failed to access RPM \"{}\": {}"
 msgstr "Incorrecto al acceder al RPM «{}»: {}"
 
 #: repo/repo.cpp:107
-#, c++-format
 msgid "Invalid repository id \"{}\": unexpected character '{}'"
 msgstr "ID «{}» de repositorio inválido: carácter '{}' inesperado"
 
 #: repo/repo.cpp:150
-#, c++-format
 msgid "Repository \"{}\" has no source (baseurl, mirrorlist or metalink) set."
 msgstr ""
 "Repositorio «{}» no tiene origen (baseurl, listado de espejo o metalink) "
 "fijado."
 
 #: repo/repo.cpp:161
-#, c++-format
 msgid "Repository \"{}\" has unsupported type \"{}\", skipping."
 msgstr "El repositorio \"{}\" tiene tipo \"{}\" no admitido, se descarta."
 
 #: repo/repo.cpp:221 repo/repo.cpp:241 repo/repo_sack.cpp:372
-#, c++-format
 msgid "Failed to download metadata ({}: \"{}\") for repository \"{}\": {}"
 msgstr ""
 "Incorrecto al descargar metadatos ({}: \"{}\") para repositorio «{}»: {}"
@@ -1143,17 +1011,14 @@ msgstr ""
 "no admitido"
 
 #: repo/repo.cpp:505
-#, c++-format
 msgid "Failed to load comps \"{}\": doesn't have the \".xml\" extension"
 msgstr "Incorrecto al cargar comps «{}»: no tiene la extensión \".xml\""
 
 #: repo/repo.cpp:512
-#, c++-format
 msgid "Failed to load xml Comps \"{}\": {}"
 msgstr "Incorrecto al cargar Comps xml «{}»: {}"
 
 #: repo/repo.cpp:530
-#, c++-format
 msgid "Failed to load RPM \"{}\": {}"
 msgstr "Incorrecto al cargar RPM «{}»: {}"
 
@@ -1166,7 +1031,6 @@ msgid "Empty path to the repository cache directory."
 msgstr "Ruta vac-ia para el directorio caché del repositorio."
 
 #: repo/repo_downloader.cpp:214
-#, c++-format
 msgid "Librepo error: {}"
 msgstr "Error librepo: {}"
 
@@ -1179,24 +1043,20 @@ msgid "Failed to download metadata"
 msgstr "Incorrecto al descargar metadatos"
 
 #: repo/repo_downloader.cpp:426
-#, c++-format
 msgid "Error checking if metalink \"{}\" is in sync for repository \"{}\""
 msgstr "Error al comprobar si metalink «{}» es un sync para repositorio «{}»"
 
 #: repo/repo_downloader.cpp:446
-#, c++-format
 msgid "Error checking if repomd ({}: \"{}\") is in sync for repository \"{}\""
 msgstr ""
 "Error comprobando si repomd ({}: \"{}\") está dentro de sincronización para "
 "repo \"{}\""
 
 #: repo/repo_downloader.cpp:515
-#, c++-format
 msgid "Error loading local metadata for repository \"{}\""
 msgstr "Error al cargar metadatos local para repositorio «{}»"
 
 #: repo/repo_downloader.cpp:597
-#, c++-format
 msgid ""
 "No valid source (baseurl, mirrorlist or metalink) found for repository \"{}\""
 msgstr ""
@@ -1204,22 +1064,18 @@ msgstr ""
 "«{}»"
 
 #: repo/repo_pgp.cpp:60
-#, c++-format
 msgid "Failed to import OpenPGP keys into temporary keyring: {}"
 msgstr "Incorrecto al importar claves OpenPGP en anillo temporal: {}"
 
 #: repo/repo_pgp.cpp:66 repo/repo_pgp.cpp:93
-#, c++-format
 msgid "Failed to list OpenPGP keys: {}"
 msgstr "Incorrecto al listado claves OpenPGP: {}"
 
 #: repo/repo_pgp.cpp:141
-#, c++-format
 msgid "Failed to import OpenPGP keys: {}"
 msgstr "Incorrecto al importar claves OpenPGP: {}"
 
 #: repo/repo_sack.cpp:159
-#, c++-format
 msgid ""
 "Failed to create repo \"{}\": Id is present more than once in the "
 "configuration"
@@ -1228,62 +1084,51 @@ msgstr ""
 "configuración"
 
 #: repo/repo_sack.cpp:635
-#, c++-format
 msgid "Cache-only enabled but no cache for repository \"{}\""
 msgstr "Solo caché activado pero ningún cache para repositorio «{}»"
 
 #: repo/solv_repo.cpp:267
-#, c++-format
 msgid "Failed to load repomd for repo \"{}\" from \"{}\": {}."
 msgstr "Incorrecto al cargar repomd para repo «{}» desde «{}»: {}."
 
 #: repo/solv_repo.cpp:275
-#, c++-format
 msgid "Failed to load primary for repo \"{}\" from \"{}\": {}."
 msgstr "Ha fallado al cargar primario para repo «{}» desde «{}»: {}."
 
 #: repo/solv_repo.cpp:323
-#, c++-format
 msgid "Unsupported extended repodata type for the system repo: \"{}\"."
-msgstr "Tipo de repodata extendido no mantenido para el repo del sistema: «{}»."
+msgstr ""
+"Tipo de repodata extendido no mantenido para el repo del sistema: «{}»."
 
 #: repo/solv_repo.cpp:395
-#, c++-format
 msgid "Failed to load {} extension for repo \"{}\" from \"{}\": {}"
 msgstr "Ha fallado al cargar extensión {} para repo «{}» desde «{}»: {}"
 
 #: repo/solv_repo.cpp:431
-#, c++-format
 msgid "Failed to load system repo from root \"{}\": {}"
 msgstr "Ha fallado al cargar el sistema repo desde raíz «{}»: {}"
 
 #: repo/solv_repo.cpp:532
-#, c++-format
 msgid "Failed to load {} cache for repo \"{}\" from \"{}\": {}"
 msgstr "Ha fallado al cargar {} caché para repo \"{}\" desde \"{}\": {}"
 
 #: repo/solv_repo.cpp:586
-#, c++-format
 msgid "Failed to write primary cache for repo \"{}\" to \"{}\": {}"
 msgstr "Ha fallado al escribir caché primaria para repo «{}» para «{}»: {}"
 
 #: repo/solv_repo.cpp:608
-#, c++-format
 msgid "Failed to re-load primary cache for repo \"{}\" from \"{}\": {}"
 msgstr "Ha fallado al re-cargar caché primario para repo «{}» desde «{}»: {}"
 
 #: repo/solv_repo.cpp:673
-#, c++-format
 msgid "Failed to write {} cache for repo \"{}\" to \"{}\": {}"
 msgstr "Incorrecto al escribir caché {} para repo «{}» a «{}»: {}"
 
 #: repo/solv_repo.cpp:694
-#, c++-format
 msgid "Failed to re-load {} cache for repo \"{}\" from \"{}\": {}"
 msgstr "Incorrecto al re-cargar {} caché para repo «{}» desde «{}»: {}"
 
 #: repo/temp_files_memory.cpp:52
-#, c++-format
 msgid ""
 "An error occurred when parsing the temporary files memory file at '{}': {}"
 msgstr ""
@@ -1291,12 +1136,10 @@ msgstr ""
 "archivo de memoria en '{}': {}"
 
 #: rpm/nevra.cpp:82
-#, c++-format
 msgid "NEVRA string \"{}\" contains ':' multiple times"
 msgstr "NEVRA cadena «{}» contiene ':' múltiples veces"
 
 #: rpm/nevra.cpp:86
-#, c++-format
 msgid "Invalid character '{}' in NEVRA string \"{}\""
 msgstr "Carácter '{}' no válido dentro de cadena NEVRA «{}»"
 
@@ -1329,23 +1172,19 @@ msgid "Problem occurred when opening the package."
 msgstr "Ha sucedido un problema cuando abría el paquete."
 
 #: rpm/rpm_signature.cpp:64
-#, c++-format
 msgid "Failed to set rpm transaction rootDir \"{}\"."
 msgstr "Incorrecto al establecer transacción rpm con rootDir «{}»."
 
 #: rpm/rpm_signature.cpp:290
-#, c++-format
 msgid "\"{}\": key is not an armored public key."
 msgstr "«{}»: tecla no es una llave púbica armada."
 
 #: rpm/rpm_signature.cpp:295
-#, c++-format
 msgid "Failed to import public key \"{}\" to rpmdb: {}"
 msgstr "Ha fallado al importar clave pública «{}» para rpmdb: {}"
 
 #. TODO(jrohel): Why? Librpm does not provide this information.
 #: rpm/transaction.cpp:114
-#, c++-format
 msgid "Cannot set root directory \"{}\""
 msgstr "No se puede fijar el directorio raíz «{}»"
 
@@ -1364,7 +1203,6 @@ msgid "Failed to order the rpm transaction."
 msgstr "Incorrecto al ordenar la transacción rpm."
 
 #: rpm/transaction.cpp:235
-#, c++-format
 msgid ""
 "Failed to set scriptlet output file, cannot duplicate file descriptor: {}"
 msgstr ""
@@ -1372,21 +1210,18 @@ msgstr ""
 "el descriptor de archivo: {}"
 
 #: rpm/transaction.cpp:254
-#, c++-format
 msgid "Failed to set scriptlet output file, cannot open file \"{}\": {}"
 msgstr ""
 "Incorrecto al fijar el archivo de salida scriptlet, no se pude abrir el "
 "archivo «{}»: {}"
 
 #: rpm/transaction.cpp:275
-#, c++-format
 msgid "Failed to read package header, cannot open file \"{}\": {}"
 msgstr ""
 "Incorrecto al leer cabecera del paquete, no se puede abrir el archivo «{}»: "
 "{}"
 
 #: rpm/transaction.cpp:292
-#, c++-format
 msgid "Failed to read package header from file \"{}\""
 msgstr "Ha fallado al leer la cabecera del paquete desde el archivo «{}»"
 
@@ -1400,66 +1235,54 @@ msgstr "Paquete no fue encontrado en la base de datos rpm"
 
 #. TODO(jrohel): Why? Librpm does not provide this information.
 #: rpm/transaction.cpp:325
-#, c++-format
 msgid "Cannot reinstall package \"{}\""
 msgstr "No se puede reinstalar el paquete «{}»"
 
 #. TODO(jrohel): Why? Librpm does not provide this information.
 #: rpm/transaction.cpp:343
-#, c++-format
 msgid "Cannot remove package \"{}\""
 msgstr "No se puede desinstalar el paquete «{}»"
 
 #: rpm/transaction.cpp:362
-#, c++-format
 msgid "Cannot upgrade package \"{}\""
 msgstr "No se puede modernizar el paquete «{}»"
 
 #: rpm/transaction.cpp:366
-#, c++-format
 msgid "Cannot downgrade package \"{}\""
 msgstr "No se pude degradar el paquete «{}»"
 
 #: rpm/transaction.cpp:370
-#, c++-format
 msgid "Cannot install package \"{}\""
 msgstr "No se puede instalar el paquete «{}»"
 
 #: rpm/versionlock_config.cpp:284 system/state.cpp:573
-#, c++-format
 msgid "{}"
 msgstr "{}"
 
 #. TODO(lukash) throw proper exception class
 #: solv/pool.cpp:174
-#, c++-format
 msgid "Failed to convert epoch \"{}\" to number"
 msgstr "Incorrecto al convertir epoch «{}» a número"
 
 #: solv/solver.cpp:79
-#, c++-format
 msgid "Writing debugsolver data into \"{}\" failed: {}"
 msgstr "Incorrecto al escribir datos debugsolver en «{}»: {}"
 
 #: system/state.cpp:280 system/state.cpp:289
-#, c++-format
 msgid "Invalid TOML version \"{}\", \"MAJOR.MINOR\" expected"
 msgstr "No es válida la versión TOML «{}», \"MAYOR.MENOR\" esperado"
 
 #: system/state.cpp:297
-#, c++-format
 msgid "{} state for \"{}\" not found."
 msgstr "Estado {} para «{}» no encontrado."
 
 #: system/state.cpp:301
-#, c++-format
 msgid "Loading system state TOML file {} failed (see dnf5-system-state(7)): {}"
 msgstr ""
-"Cargando estado TOML del sistema en el archivo {} incorrecot (consulte dnf5"
-"-system-state(7)): {}"
+"Cargando estado TOML del sistema en el archivo {} incorrecot (consulte dnf5-"
+"system-state(7)): {}"
 
 #: system/state.cpp:602
-#, c++-format
 msgid "Unsupported TOML version \"{}\", maximum supported version is \"{}\""
 msgstr "Versión de TOML «{}» no mantenido, versión máxima mantenida es «{}»"
 
@@ -1513,7 +1336,6 @@ msgid "incompatible version of state data"
 msgstr "versión de estado de datos incompatible"
 
 #: transaction/transaction.cpp:96
-#, c++-format
 msgid "Invalid transaction state: {}"
 msgstr "Estado de transacción no válido: {}"
 
@@ -1522,27 +1344,22 @@ msgid "Transaction has already started!"
 msgstr "¡Transacción ya ha iniciado!"
 
 #: transaction/transaction_item_action.cpp:28
-#, c++-format
 msgid "Invalid transaction item action: {}"
 msgstr "Acción de ítem de transacción no válida: {}"
 
 #: transaction/transaction_item_reason.cpp:28
-#, c++-format
 msgid "Invalid transaction item reason: {}"
 msgstr "Razón de ítem de transacción no válida: {}"
 
 #: transaction/transaction_item_state.cpp:28
-#, c++-format
 msgid "Invalid transaction item state: {}"
 msgstr "Estado de ítem de transacción no válida: {}"
 
 #: transaction/transaction_item_type.cpp:28
-#, c++-format
 msgid "Invalid transaction item type: {}"
 msgstr "Tipo de ítem de transacción no válida: {}"
 
 #: transaction/transaction_merge.cpp:102
-#, c++-format
 msgid ""
 "Action '{0}' '{1}' cannot be merged after it was '{2}' in preceding "
 "transactions -> setting '{0}'."
@@ -1551,7 +1368,6 @@ msgstr ""
 "transacciones precedentes → configurando '{0}'."
 
 #: transaction/transaction_merge.cpp:116
-#, c++-format
 msgid ""
 "Action 'Upgrade' '{0}' cannot be merged because it is not present at that "
 "point -> setting 'Install'."
@@ -1560,7 +1376,6 @@ msgstr ""
 "punto → configurando 'Install'."
 
 #: transaction/transaction_merge.cpp:174 transaction/transaction_merge.cpp:231
-#, c++-format
 msgid ""
 "Action 'Reinstall' '{0}' cannot be merged because it is not present at that "
 "point -> setting 'Install'."
@@ -1569,7 +1384,6 @@ msgstr ""
 "ese punto → configurando 'Install'."
 
 #: transaction/transaction_merge.cpp:194
-#, c++-format
 msgid ""
 "Action '{0}' '{1}' cannot be merged after it was '{2}' in preceding "
 "transaction -> setting '{0}'."
@@ -1578,30 +1392,26 @@ msgstr ""
 "transacción precedente → configurando '{0}'."
 
 #: transaction/transaction_merge.cpp:215
-#, c++-format
 msgid "Unexpected action encountered: '{0}' during transaction merge."
 msgstr "Encontrada acción inesperada: '{0}' durante unión de transacción."
 
 #: transaction/transaction_merge.cpp:224
-#, c++-format
 msgid ""
-"Action '{0}' '{1}' cannot be merged because it is not present at that point "
-"-> skipping it."
+"Action '{0}' '{1}' cannot be merged because it is not present at that point -"
+"> skipping it."
 msgstr ""
 "Acción '{0}' '{1}' no puede estar fusionado porque no está presente en ese "
 "punto → se descarta."
 
 #: transaction/transaction_merge.cpp:245
-#, c++-format
 msgid ""
-"Action '{0}' '{1}' cannot be merged because it is not present at that point "
-"-> setting 'INSTALL'."
+"Action '{0}' '{1}' cannot be merged because it is not present at that point -"
+"> setting 'INSTALL'."
 msgstr ""
 "La acción '{0}' '{1}' no puede ser fusionada porque no está presente en ese "
 "punto → configuración 'INSTALL'."
 
 #: transaction/transaction_merge.cpp:266
-#, c++-format
 msgid ""
 "Action '{0}' '{1}' cannot be merged because it is not present at that point "
 "(present versions are: {2}) -> skipping it."
@@ -1610,7 +1420,6 @@ msgstr ""
 "punto (versiones presentes son: {2}) → se descarta."
 
 #: transaction/transaction_merge.cpp:277
-#, c++-format
 msgid ""
 "Action '{0}' '{1}' cannot be merged because it is already present at that "
 "point -> skipping it."
@@ -1619,7 +1428,6 @@ msgstr ""
 "punto → se descarta."
 
 #: transaction/transaction_merge.cpp:294
-#, c++-format
 msgid ""
 "Action '{0}' '{1}' cannot be merged because it is already installed in "
 "version '{2}' -> keeping the action from older transaction with '{1}'."
@@ -1628,7 +1436,6 @@ msgstr ""
 "versión '{2}' → se mantiene la acción de la transacción anterior con '{1}'."
 
 #: transaction/transaction_merge.cpp:304
-#, c++-format
 msgid "Invalid action encountered: '{0}' during transaction merge."
 msgstr "Encontrada acción no válida: '{0}' durante fusión de transacción."
 
@@ -1639,22 +1446,18 @@ msgstr ""
 "transacción está vacía"
 
 #: transaction/transaction_sr.cpp:58
-#, c++-format
 msgid "Error during transaction replay JSON parsing : {}"
 msgstr "Error durante transacción repite intérprete JSON : {}"
 
 #: transaction/transaction_sr.cpp:68
-#, c++-format
 msgid "Unexpected version format: \"{}\", supported version is \"{}\""
 msgstr "Formato de versión inesperada: «{}», versión mantenida es «{}»"
 
 #: transaction/transaction_sr.cpp:74
-#, c++-format
 msgid "Incompatible major version: \"{}\", supported major version is \"{}\""
 msgstr "Versión mayor incompatible: «{}», la versión mayor soportada es «{}»"
 
 #: transaction/transaction_sr.cpp:81
-#, c++-format
 msgid "Invalid minor version: \"{}\", number expected"
 msgstr "Versión menor inválida “{}”, se esperaba número"
 
@@ -1695,7 +1498,6 @@ msgid "Unexpected type of \"rpms\", array expected"
 msgstr "Tipo inesperado de \"rpms\", repertorio esperado"
 
 #: transaction/transaction_sr.cpp:202
-#, c++-format
 msgid "Cannot parse NEVRA for rpm \"{}\""
 msgstr "No se puede interpretar NEVRA para rpm «{}»"
 
@@ -1774,118 +1576,96 @@ msgid "cannot close temporary file"
 msgstr "no se puede cerrar archivo temporario"
 
 #: utils/iniparser.cpp:126
-#, c++-format
 msgid "Missing ']' on line {}"
 msgstr "Ausencia de ']' en línea {}"
 
 #: utils/iniparser.cpp:129
-#, c++-format
 msgid "Empty section name on line {}"
 msgstr "Nombre de sección vacío en línea {}"
 
 #: utils/iniparser.cpp:137
-#, c++-format
 msgid "Text after section on line {}"
 msgstr "Texto tras sección en línea {}"
 
 #: utils/iniparser.cpp:147
-#, c++-format
 msgid "Missing section header on line {}"
 msgstr "Cabecera de sección ausente en línea {}"
 
 #: utils/iniparser.cpp:152
-#, c++-format
 msgid "Illegal continuation line on line {}"
 msgstr "Línea de continuación ilegal en línea {}"
 
 #: utils/iniparser.cpp:159
-#, c++-format
 msgid "Missing option name on line {}"
 msgstr "Nombre de opción ausente en línea {}"
 
 #: utils/iniparser.cpp:163
-#, c++-format
 msgid "Missing '=' on line {}"
 msgstr "Ausencia de '=' en línea {}"
 
 #. returns localized message, problem with later translation
 #: utils/library.cpp:34
-#, c++-format
 msgid "Cannot load shared library \"{}\": {}"
 msgstr "No se puede cargar la biblioteca compartida \"{}\": {}"
 
 #: utils/library.cpp:48
-#, c++-format
 msgid "Cannot obtain address of symbol \"{}\": {}"
 msgstr "No se puede obtener la dirección del símbolo \"{}\": {}"
 
 #: utils/locale.cpp:57
-#, c++-format
 msgid "Cannot set the locale \"{}\": {}"
 msgstr "No se puede fijar el local «{}»: {}"
 
 #: utils/locker.cpp:45
-#, c++-format
 msgid "Failed to open lock file \"{}\""
 msgstr "Incorrecto al abrir archivo bloqueado «{}»"
 
 #: utils/locker.cpp:60
-#, c++-format
 msgid "Failed to obtain lock \"{}\""
 msgstr "Incorrecto al obtener bloqueo «{}»"
 
 #: utils/locker.cpp:70
-#, c++-format
 msgid "Failed to close lock file \"{}\""
 msgstr "Incorrecto al cerrar archivo de bloqueo «{}»"
 
 #: utils/locker.cpp:73
-#, c++-format
 msgid "Failed to delete lock file \"{}\""
 msgstr "Incorrecto al borrar archivo de bloqueo «{}»"
 
 #: utils/sqlite3/sqlite3.cpp:29
-#, c++-format
 msgid "SQL statement compilation failed: \"{}\""
 msgstr "Compilación de declaración SQL incorrecta: “{}”"
 
 #: utils/sqlite3/sqlite3.cpp:31
-#, c++-format
 msgid "Binding integer value to SQL statement failed: \"{}\""
 msgstr "Vinculando valor entero a declaración SQL incorrecto: “{}”"
 
 #: utils/sqlite3/sqlite3.cpp:33
-#, c++-format
 msgid "Binding integer64 value to SQL statement failed: \"{}\""
 msgstr "Vinculando valor integer64 a enunciado SQL incorrecto: “{}”"
 
 #: utils/sqlite3/sqlite3.cpp:35
-#, c++-format
 msgid "Binding unsigned integer32 value to SQL statement failed: \"{}\""
-msgstr "Vinculando valor integer32 sin signo a declaración SQL incorrecta: “{}”"
+msgstr ""
+"Vinculando valor integer32 sin signo a declaración SQL incorrecta: “{}”"
 
 #: utils/sqlite3/sqlite3.cpp:37
-#, c++-format
 msgid "Binding double value to SQL statement failed: \"{}\""
 msgstr "Vinculando valor doble a declaración SQL incorrecta: “{}”"
 
 #: utils/sqlite3/sqlite3.cpp:39
-#, c++-format
 msgid "Binding bool value to SQL statement failed: \"{}\""
 msgstr "Vinculando valor bool a declaración SQL incorrecta: “{}”"
 
 #: utils/sqlite3/sqlite3.cpp:40
-#, c++-format
 msgid "Binding text to SQL statement failed: \"{}\""
 msgstr "Vinculando texto a declaración SQL incorrecta: “{}”"
 
 #: utils/sqlite3/sqlite3.cpp:41
-#, c++-format
 msgid "Binding blob to SQL statement failed: \"{}\""
 msgstr "Vinculando amasijo a declaración SQL incorrecta: “{}”"
 
 #: utils/sqlite3/sqlite3.cpp:42
-#, c++-format
 msgid "SQL statement evaluation failed: \"{}\""
 msgstr "Evaluzación de declaración SQL incorrecta: “{}”"
 
@@ -1895,37 +1675,30 @@ msgstr ""
 "Memoria insuficiente o resultado excede cadana de longitud máxima de SQLite3"
 
 #: utils/sqlite3/sqlite3.cpp:46
-#, c++-format
 msgid "Column \"{}\" not found"
 msgstr "Columna «{}» no encontrada"
 
 #: utils/sqlite3/sqlite3.cpp:48
-#, c++-format
 msgid "SQL statement execution failed: \"{}\""
 msgstr "Ejecución de enunciado SQL incorrecto: “{}”"
 
 #: utils/sqlite3/sqlite3.cpp:68
-#, c++-format
 msgid "Failed to open database \"{}\""
 msgstr "Incorrecto al abrir base de datos “{}”"
 
 #: utils/sqlite3/sqlite3.cpp:105
-#, c++-format
 msgid "Failed to close database \"{}\""
 msgstr "Incorrecto al cerrar base de datos “{}”"
 
 #: utils/sqlite3/sqlite3.cpp:117 utils/sqlite3/sqlite3.cpp:143
-#, c++-format
 msgid "Failed to open backup database \"{}\""
 msgstr "Incorrecto al abrir respaldo de base de datos “{}”"
 
 #: utils/sqlite3/sqlite3.cpp:132
-#, c++-format
 msgid "Failed to backup database \"{}\" into \"{}\""
 msgstr "Incorrecto al respaldar base de datos “{}” en “{}”"
 
 #: utils/sqlite3/sqlite3.cpp:158
-#, c++-format
 msgid "Failed to restore database \"{}\""
 msgstr "Incorrecto al restaurar base de datos “{}”"
 
