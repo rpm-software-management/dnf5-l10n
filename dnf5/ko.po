@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-31 03:32+0000\n"
+"POT-Creation-Date: 2025-06-06 03:38+0000\n"
 "PO-Revision-Date: 2025-05-24 08:41+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
@@ -233,85 +233,77 @@ msgid ""
 "Upgrade or downgrade installed software to the latest available versions"
 msgstr "설치된 소프트웨어를 최신의 사용 가능한 버전으로 향상 또는 하향"
 
-#: commands/do/do.cpp:42
+#: commands/do/do.cpp:44
 msgid "Do transaction"
 msgstr "연결 실행"
 
-#: commands/do/do.cpp:47
+#: commands/do/do.cpp:49
 msgid "Action to be done on the following items."
 msgstr "다음 항목에서 실행 해야 할 동작."
 
-#: commands/do/do.cpp:61
+#: commands/do/do.cpp:63
 msgid "Unsupported action \"{}\""
 msgstr "미지원 동작 \"{}\""
 
-#: commands/do/do.cpp:71
+#: commands/do/do.cpp:73
 msgid "Type of the following items."
 msgstr "다음 항목 유형."
 
-#: commands/do/do.cpp:84
+#: commands/do/do.cpp:86
 msgid "Unsupported item type \"{}\""
 msgstr "미지원 항목 유형 \"{}\""
 
-#: commands/do/do.cpp:95
-msgid ""
-"The following items can be selected only from the specified repositories. "
-"All enabled repositories will still be used to satisfy dependencies."
-msgstr ""
-"다음 항목은 지정된 저정소에서만 선택 될 수 있습니다. 모든 활성화된 저장소는 "
-"여전히 의존성을 만족하는 데 사용됩니다."
-
-#: commands/do/do.cpp:110
+#: commands/do/do.cpp:98
 msgid "List of items to take action on"
 msgstr "동작을 취하는 항목의 목록"
 
-#: commands/do/do.cpp:141 commands/do/do.cpp:145
+#: commands/do/do.cpp:129 commands/do/do.cpp:133
 msgid "Only package downgrade is supported."
 msgstr "꾸러미 하향설치만 지원됩니다."
 
-#: commands/do/do.cpp:152 commands/do/do.cpp:156
+#: commands/do/do.cpp:140 commands/do/do.cpp:144
 msgid "Only package reinstall is supported."
 msgstr "꾸러미 재설치만 지원됩니다."
 
-#: commands/do/do.cpp:162
+#: commands/do/do.cpp:150
 msgid "Action was not defined"
 msgstr "동작이 정의되지 않았습니다"
 
-#: commands/do/do.cpp:240
+#: commands/do/do.cpp:228
 msgid "Invalid Environmet/Group specification: {}"
 msgstr "잘못된 환경/그룹 사양: {}"
 
-#: commands/do/do.cpp:324
+#: commands/do/do.cpp:312
 msgid "Downgrading environments and groups is not supported."
 msgstr "환경 및 그룹 하향설치는 지원되지 않습니다."
 
-#: commands/do/do.cpp:340
+#: commands/do/do.cpp:328
 msgid "Reinstaling environments and groups is not supported."
 msgstr "환경 및 그룹의 재설치하기는 지원되지 않습니다."
 
-#: commands/downgrade/downgrade.cpp:40
+#: commands/downgrade/downgrade.cpp:42
 msgid "Downgrade software"
 msgstr "소프트웨어 하향설치"
 
-#: commands/download/download.cpp:105
+#: commands/download/download.cpp:106
 msgid "When running with --url, prints URLs from all available mirrors"
 msgstr ""
 "--url과 함께 사용하여 실행하면, 모든 사용 가능한 미러에서 URL을 출력합니다"
 
-#: commands/download/download.cpp:121
+#: commands/download/download.cpp:122
 msgid "Invalid urlprotocol option: {}"
 msgstr "잘못된 urlprotocol 옵션: {}"
 
-#: commands/download/download.cpp:148 main.cpp:627
+#: commands/download/download.cpp:149 main.cpp:627
 msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
 msgstr "미지원 구조 \"{0}\". {1}에서 하나를 골라주세요"
 
 #. TODO(jrohel): Add support for requiring an argument by another argument in ArgumentParser?
-#: commands/download/download.cpp:184
+#: commands/download/download.cpp:186
 msgid "Option \"--alldeps\" should be used with \"--resolve\""
 msgstr "옵션 \"--alldeps\"은 \"--resolve\"와 함께 사용 될 수 있습니다"
 
-#: commands/download/download.cpp:220
+#: commands/download/download.cpp:226
 msgid ""
 "No package \"{}\" available; You might want to use --skip-unavailable option."
 msgstr ""
@@ -333,6 +325,24 @@ msgstr "유형이 일치되는 환경 IDs."
 #: commands/environment/environment.cpp:35
 msgid "Manage comps environments"
 msgstr "comps 환경을 관리합니다"
+
+#: commands/from_repo.cpp:35
+msgid ""
+"The following items can be selected only from the specified repositories. "
+"All enabled repositories will still be used to satisfy dependencies."
+msgstr ""
+"다음 항목은 지정된 저정소에서만 선택 될 수 있습니다. 모든 활성화된 저장소는 "
+"여전히 의존성을 만족하는 데 사용됩니다."
+
+#: commands/from_repo.cpp:38
+#, fuzzy
+#| msgid "CVE_ID,..."
+msgid "REPO_ID,..."
+msgstr "CVE_ID,..."
+
+#: commands/from_repo.cpp:47
+msgid "\"--from_repo\" already defined with diferent value"
+msgstr ""
 
 #: commands/group/arguments.hpp:34
 msgid "Show only available groups."
@@ -436,7 +446,7 @@ msgstr ""
 "잘못된 연결 ID 범위 \"{}\", \"ID\" 또는 \"ID..ID\"가 예상되며, 여기서 ID는 "
 "\"NUMBER\", \"last\" 또는 \"last-NUMBER\"입니다."
 
-#: commands/install/install.cpp:41
+#: commands/install/install.cpp:43
 msgid "Install software"
 msgstr "소프트웨어 설치"
 
@@ -709,7 +719,7 @@ msgstr "알지 못하는 오프라인 연결 상태: "
 msgid "Find what package provides the given value"
 msgstr "지정된 값을 제공하는 꾸러미를 찾습니다"
 
-#: commands/reinstall/reinstall.cpp:40
+#: commands/reinstall/reinstall.cpp:42
 msgid "Reinstall software"
 msgstr "소프트웨어 재설치"
 
@@ -773,7 +783,7 @@ msgstr "유형"
 msgid "Search for software matching all specified strings"
 msgstr "모든 지정된 문자열과 일치하는 소프트웨어를 검색합니다"
 
-#: commands/swap/swap.cpp:42
+#: commands/swap/swap.cpp:44
 msgid "Remove software and install another in one transaction"
 msgstr "소프트웨어를 제거하고 다른 것을 한 번에 설치합니다"
 
@@ -804,11 +814,11 @@ msgstr "distro-sync 연결을 저장하고 오프라인에서 수행됩니다"
 msgid "Store an upgrade transaction to be performed offline"
 msgstr "향상 연결을 저장하고 오프라인을 수행합니다"
 
-#: commands/upgrade/upgrade.cpp:41
+#: commands/upgrade/upgrade.cpp:43
 msgid "Upgrade software"
 msgstr "소프트웨어 향상"
 
-#: commands/upgrade/upgrade.cpp:48
+#: commands/upgrade/upgrade.cpp:50
 msgid ""
 "Upgrade packages only to the lowest versions that fix advisories of type "
 "bugfix, enhancement, security, or newpackage. In case that any option "

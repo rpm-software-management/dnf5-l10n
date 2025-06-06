@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-31 03:32+0000\n"
+"POT-Creation-Date: 2025-06-06 03:38+0000\n"
 "PO-Revision-Date: 2025-05-25 05:24+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -244,88 +244,79 @@ msgid ""
 "Upgrade or downgrade installed software to the latest available versions"
 msgstr "ასწიეთ ან ჩამოსწიეთ დაყენებული პროგრამები უახლეს ხელმისაწვდომ ვერსიაზე"
 
-#: commands/do/do.cpp:42
+#: commands/do/do.cpp:44
 msgid "Do transaction"
 msgstr "ტრანზაქციის შესრულება"
 
-#: commands/do/do.cpp:47
+#: commands/do/do.cpp:49
 msgid "Action to be done on the following items."
 msgstr "ქმედება, რომელიც შესრულდება შემდეგ ელემენტებზე."
 
-#: commands/do/do.cpp:61
+#: commands/do/do.cpp:63
 msgid "Unsupported action \"{}\""
 msgstr "მხარდაუჭერელი ქმედება \"{}\""
 
-#: commands/do/do.cpp:71
+#: commands/do/do.cpp:73
 msgid "Type of the following items."
 msgstr "შემდეგი ელემენტების ტიპი."
 
-#: commands/do/do.cpp:84
+#: commands/do/do.cpp:86
 msgid "Unsupported item type \"{}\""
 msgstr "მხარდაუჭერელი ელემენტის ტიპი \"{}\""
 
-#: commands/do/do.cpp:95
-msgid ""
-"The following items can be selected only from the specified repositories. "
-"All enabled repositories will still be used to satisfy dependencies."
-msgstr ""
-"შემდეგი ელემენტების არჩევა, მხოლოდ, მითითებული რეპოზიტორიებიდან შეგიძლიათ. "
-"დამოკიდებულებების დასაკმაყოფილებლად ყველა ჩართული რეპოზიტორიის გამოყენება "
-"მაინც მოხდება."
-
-#: commands/do/do.cpp:110
+#: commands/do/do.cpp:98
 msgid "List of items to take action on"
 msgstr "ელემენტების სია, რომელზედაც ქმედება შესრულდება"
 
-#: commands/do/do.cpp:141 commands/do/do.cpp:145
+#: commands/do/do.cpp:129 commands/do/do.cpp:133
 msgid "Only package downgrade is supported."
 msgstr "მხარდაჭერილია, მხოლოდ, პაკეტის ვერსიის დაწევა."
 
-#: commands/do/do.cpp:152 commands/do/do.cpp:156
+#: commands/do/do.cpp:140 commands/do/do.cpp:144
 msgid "Only package reinstall is supported."
 msgstr "მხარდაჭერილია, მხოლოდ, პაკეტის თავიდან დაყენება."
 
-#: commands/do/do.cpp:162
+#: commands/do/do.cpp:150
 msgid "Action was not defined"
 msgstr "ქმედება არ აღწერილა"
 
-#: commands/do/do.cpp:240
+#: commands/do/do.cpp:228
 msgid "Invalid Environmet/Group specification: {}"
 msgstr "არასწორი გარემოს/ჯგუფის სპეციფიკაცია: {}"
 
-#: commands/do/do.cpp:324
+#: commands/do/do.cpp:312
 msgid "Downgrading environments and groups is not supported."
 msgstr "გარემოების და ჯგუფების ვერსიის დაწევა მხარდაჭერილი არაა."
 
-#: commands/do/do.cpp:340
+#: commands/do/do.cpp:328
 msgid "Reinstaling environments and groups is not supported."
 msgstr "გარემოების და ჯგუფების თავიდან დაყენება მხარდაჭერილი არაა."
 
-#: commands/downgrade/downgrade.cpp:40
+#: commands/downgrade/downgrade.cpp:42
 msgid "Downgrade software"
 msgstr "პროგრამის ვერსიის ჩამოწევა"
 
-#: commands/download/download.cpp:105
+#: commands/download/download.cpp:106
 msgid "When running with --url, prints URLs from all available mirrors"
 msgstr ""
 "როცა გაშვებულია პარამეტრით --url, დაბეჭდავს URL-ებს ყველა ხელმისაწვდომი "
 "სარკიდან"
 
-#: commands/download/download.cpp:121
+#: commands/download/download.cpp:122
 msgid "Invalid urlprotocol option: {}"
 msgstr "არასწორი urlprotocol-ის პარამეტრი: {}"
 
-#: commands/download/download.cpp:148 main.cpp:627
+#: commands/download/download.cpp:149 main.cpp:627
 msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
 msgstr "მხარდაუჭერელი არქიტექტურა \"{0}\". აირჩიეთ ერთ-ერთი სიიდან {1}"
 
 #. TODO(jrohel): Add support for requiring an argument by another argument in ArgumentParser?
-#: commands/download/download.cpp:184
+#: commands/download/download.cpp:186
 msgid "Option \"--alldeps\" should be used with \"--resolve\""
 msgstr ""
 "პარამეტრი \"--alldeps\" პარამეტრ \"--resolve\"-თან ერთად უნდა გამოიყენოთ"
 
-#: commands/download/download.cpp:220
+#: commands/download/download.cpp:226
 msgid ""
 "No package \"{}\" available; You might want to use --skip-unavailable option."
 msgstr ""
@@ -347,6 +338,25 @@ msgstr "გარემოს ID-ების შესაბამისი შ
 #: commands/environment/environment.cpp:35
 msgid "Manage comps environments"
 msgstr "Comps გარემოების მართვა"
+
+#: commands/from_repo.cpp:35
+msgid ""
+"The following items can be selected only from the specified repositories. "
+"All enabled repositories will still be used to satisfy dependencies."
+msgstr ""
+"შემდეგი ელემენტების არჩევა, მხოლოდ, მითითებული რეპოზიტორიებიდან შეგიძლიათ. "
+"დამოკიდებულებების დასაკმაყოფილებლად ყველა ჩართული რეპოზიტორიის გამოყენება "
+"მაინც მოხდება."
+
+#: commands/from_repo.cpp:38
+#, fuzzy
+#| msgid "CVE_ID,..."
+msgid "REPO_ID,..."
+msgstr "CVE_ID,..."
+
+#: commands/from_repo.cpp:47
+msgid "\"--from_repo\" already defined with diferent value"
+msgstr ""
 
 #: commands/group/arguments.hpp:34
 msgid "Show only available groups."
@@ -452,7 +462,7 @@ msgstr ""
 "არასწორი ტრანზაქციის ID-ის შუალედი. \"{}\". მოველოდი \"ID\" ან \"ID..ID\", "
 "სადაც ID რიცხვია, \"last\" (ბოლო), ან \"last-რიცხვი\"."
 
-#: commands/install/install.cpp:41
+#: commands/install/install.cpp:43
 msgid "Install software"
 msgstr "პროგრამების დაყენება"
 
@@ -732,7 +742,7 @@ msgstr "უცნობი ქსელგარეშე ტრანზაქ�
 msgid "Find what package provides the given value"
 msgstr "პოვნა, რომელი პაკეტი მოგაწოდებთ მოცემულ მნიშვნელობას"
 
-#: commands/reinstall/reinstall.cpp:40
+#: commands/reinstall/reinstall.cpp:42
 msgid "Reinstall software"
 msgstr "პროგრამის თავიდან დაყენება"
 
@@ -796,7 +806,7 @@ msgstr "შაბლონები"
 msgid "Search for software matching all specified strings"
 msgstr "პროგრამების ძებნა, რომლებიც ყველა მითითებულ სტრიქონს ემთხვევა"
 
-#: commands/swap/swap.cpp:42
+#: commands/swap/swap.cpp:44
 msgid "Remove software and install another in one transaction"
 msgstr "პროგრამის წაშლა და სხვა პროგრამის დაყენება ერთ ტრანზაქციაში"
 
@@ -829,11 +839,11 @@ msgstr ""
 msgid "Store an upgrade transaction to be performed offline"
 msgstr "ტრანზაქციის 'upgrade' დამახსოვრება ინტერნეტის გარეშე გასაშვებად"
 
-#: commands/upgrade/upgrade.cpp:41
+#: commands/upgrade/upgrade.cpp:43
 msgid "Upgrade software"
 msgstr "პროგრამის ვერსიის აწევა"
 
-#: commands/upgrade/upgrade.cpp:48
+#: commands/upgrade/upgrade.cpp:50
 msgid ""
 "Upgrade packages only to the lowest versions that fix advisories of type "
 "bugfix, enhancement, security, or newpackage. In case that any option "

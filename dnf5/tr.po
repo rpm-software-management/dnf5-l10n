@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-31 03:32+0000\n"
+"POT-Creation-Date: 2025-06-06 03:38+0000\n"
 "PO-Revision-Date: 2025-01-23 08:17+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -259,88 +259,82 @@ msgid ""
 "Upgrade or downgrade installed software to the latest available versions"
 msgstr "Kurulu yazılımları kullanılabilir en son sürümlere yükselt veya düşür"
 
-#: commands/do/do.cpp:42
+#: commands/do/do.cpp:44
 #, fuzzy
 #| msgid "Running transaction"
 msgid "Do transaction"
 msgstr "İşlem çalıştırılıyor"
 
-#: commands/do/do.cpp:47
+#: commands/do/do.cpp:49
 msgid "Action to be done on the following items."
 msgstr ""
 
-#: commands/do/do.cpp:61
+#: commands/do/do.cpp:63
 msgid "Unsupported action \"{}\""
 msgstr ""
 
-#: commands/do/do.cpp:71
+#: commands/do/do.cpp:73
 msgid "Type of the following items."
 msgstr ""
 
-#: commands/do/do.cpp:84
+#: commands/do/do.cpp:86
 msgid "Unsupported item type \"{}\""
 msgstr ""
 
-#: commands/do/do.cpp:95
-msgid ""
-"The following items can be selected only from the specified repositories. "
-"All enabled repositories will still be used to satisfy dependencies."
-msgstr ""
-
-#: commands/do/do.cpp:110
+#: commands/do/do.cpp:98
 msgid "List of items to take action on"
 msgstr ""
 
-#: commands/do/do.cpp:141 commands/do/do.cpp:145
+#: commands/do/do.cpp:129 commands/do/do.cpp:133
 msgid "Only package downgrade is supported."
 msgstr ""
 
-#: commands/do/do.cpp:152 commands/do/do.cpp:156
+#: commands/do/do.cpp:140 commands/do/do.cpp:144
 msgid "Only package reinstall is supported."
 msgstr ""
 
-#: commands/do/do.cpp:162
+#: commands/do/do.cpp:150
 msgid "Action was not defined"
 msgstr ""
 
-#: commands/do/do.cpp:240
+#: commands/do/do.cpp:228
 #, fuzzy
 #| msgid "Invalid urlprotocol option: {}"
 msgid "Invalid Environmet/Group specification: {}"
 msgstr "Geçersiz urlprotocol seçeneği: {}"
 
-#: commands/do/do.cpp:324
+#: commands/do/do.cpp:312
 msgid "Downgrading environments and groups is not supported."
 msgstr ""
 
-#: commands/do/do.cpp:340
+#: commands/do/do.cpp:328
 msgid "Reinstaling environments and groups is not supported."
 msgstr ""
 
-#: commands/downgrade/downgrade.cpp:40
+#: commands/downgrade/downgrade.cpp:42
 msgid "Downgrade software"
 msgstr "Yazılım sürümünü düşür"
 
-#: commands/download/download.cpp:105
+#: commands/download/download.cpp:106
 msgid "When running with --url, prints URLs from all available mirrors"
 msgstr ""
 "--url seçeneği ile çalıştırıldığında, kullanılabilir tüm yansıların "
 "URL'lerini yazdırır"
 
-#: commands/download/download.cpp:121
+#: commands/download/download.cpp:122
 msgid "Invalid urlprotocol option: {}"
 msgstr "Geçersiz urlprotocol seçeneği: {}"
 
-#: commands/download/download.cpp:148 main.cpp:627
+#: commands/download/download.cpp:149 main.cpp:627
 msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
 msgstr "Desteklenmeyen mimari \"{0}\". Lütfen {1} seçeneklerinden birini seçin"
 
 #. TODO(jrohel): Add support for requiring an argument by another argument in ArgumentParser?
-#: commands/download/download.cpp:184
+#: commands/download/download.cpp:186
 msgid "Option \"--alldeps\" should be used with \"--resolve\""
 msgstr "\"--alldeps\" seçeneği \"--resolve\" ile birlikte kullanılmalıdır"
 
-#: commands/download/download.cpp:220
+#: commands/download/download.cpp:226
 msgid ""
 "No package \"{}\" available; You might want to use --skip-unavailable option."
 msgstr ""
@@ -360,6 +354,22 @@ msgstr "Ortam kimliklerini (ID'lerini) eşleştirme kalıbı."
 #: commands/environment/environment.cpp:35
 msgid "Manage comps environments"
 msgstr "Ortam gruplarını yönet"
+
+#: commands/from_repo.cpp:35
+msgid ""
+"The following items can be selected only from the specified repositories. "
+"All enabled repositories will still be used to satisfy dependencies."
+msgstr ""
+
+#: commands/from_repo.cpp:38
+#, fuzzy
+#| msgid "CVE_ID,..."
+msgid "REPO_ID,..."
+msgstr "CVE_KİMLİĞİ,..."
+
+#: commands/from_repo.cpp:47
+msgid "\"--from_repo\" already defined with diferent value"
+msgstr ""
 
 #: commands/group/arguments.hpp:34
 msgid "Show only available groups."
@@ -464,7 +474,7 @@ msgstr ""
 "Geçersiz işlem kimliği aralığı \"{}\", \"kimlik\" veya \"kimlik..kimlik\" "
 "bekleniyor, kimlik \"SAYI\", \"last\" vaya \"last-SAYI\" olmalıdır."
 
-#: commands/install/install.cpp:41
+#: commands/install/install.cpp:43
 msgid "Install software"
 msgstr "Yazılım kur"
 
@@ -746,7 +756,7 @@ msgstr "Bilinmeyen çevrim dışı işlem durumu: "
 msgid "Find what package provides the given value"
 msgstr "Verilen değeri hangi paketin sağladığını bul"
 
-#: commands/reinstall/reinstall.cpp:40
+#: commands/reinstall/reinstall.cpp:42
 msgid "Reinstall software"
 msgstr "Yazılımı yeniden kur"
 
@@ -810,7 +820,7 @@ msgstr "Desenler"
 msgid "Search for software matching all specified strings"
 msgstr "Belirtilen tüm dizgelerle eşleşen yazılımları ara"
 
-#: commands/swap/swap.cpp:42
+#: commands/swap/swap.cpp:44
 msgid "Remove software and install another in one transaction"
 msgstr "Tek bir işlemde yazılım kaldır ve başka bir yazılım kur"
 
@@ -841,11 +851,11 @@ msgstr "Dağıtım eşzamanlama işlemini çevrim dışı gerçekleştirmek içi
 msgid "Store an upgrade transaction to be performed offline"
 msgstr "Yükseltme işlemini çevrim dışı gerçekleştirmek için kaydet"
 
-#: commands/upgrade/upgrade.cpp:41
+#: commands/upgrade/upgrade.cpp:43
 msgid "Upgrade software"
 msgstr "Yazılımı yükselt"
 
-#: commands/upgrade/upgrade.cpp:48
+#: commands/upgrade/upgrade.cpp:50
 msgid ""
 "Upgrade packages only to the lowest versions that fix advisories of type "
 "bugfix, enhancement, security, or newpackage. In case that any option "

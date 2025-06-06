@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-31 03:32+0000\n"
+"POT-Creation-Date: 2025-06-06 03:38+0000\n"
 "PO-Revision-Date: 2025-05-26 07:40+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -242,84 +242,76 @@ msgstr ""
 "Uppgradera eller nedgradera installerad programvara till de senast "
 "tillgängliga versionerna"
 
-#: commands/do/do.cpp:42
+#: commands/do/do.cpp:44
 msgid "Do transaction"
 msgstr "Gör transaktionen"
 
-#: commands/do/do.cpp:47
+#: commands/do/do.cpp:49
 msgid "Action to be done on the following items."
 msgstr "Åtgärder som ska vidtas avseende följande objekt."
 
-#: commands/do/do.cpp:61
+#: commands/do/do.cpp:63
 msgid "Unsupported action \"{}\""
 msgstr "Åtgärd som inte stöds \"{}\""
 
-#: commands/do/do.cpp:71
+#: commands/do/do.cpp:73
 msgid "Type of the following items."
 msgstr "Typ av följande objekt."
 
-#: commands/do/do.cpp:84
+#: commands/do/do.cpp:86
 msgid "Unsupported item type \"{}\""
 msgstr "Objekttyp stöds inte \"{}\""
 
-#: commands/do/do.cpp:95
-msgid ""
-"The following items can be selected only from the specified repositories. "
-"All enabled repositories will still be used to satisfy dependencies."
-msgstr ""
-"Följande objekt kan endast väljas från de angivna förråden. Alla aktiverade "
-"förråd kommer fortfarande att användas för att uppfylla beroenden."
-
-#: commands/do/do.cpp:110
+#: commands/do/do.cpp:98
 msgid "List of items to take action on"
 msgstr "Lista över objekt att vidta åtgärder på"
 
-#: commands/do/do.cpp:141 commands/do/do.cpp:145
+#: commands/do/do.cpp:129 commands/do/do.cpp:133
 msgid "Only package downgrade is supported."
 msgstr "Endast nedgradering av paket stöds."
 
-#: commands/do/do.cpp:152 commands/do/do.cpp:156
+#: commands/do/do.cpp:140 commands/do/do.cpp:144
 msgid "Only package reinstall is supported."
 msgstr "Endast ominstallation av paket stöds."
 
-#: commands/do/do.cpp:162
+#: commands/do/do.cpp:150
 msgid "Action was not defined"
 msgstr "Åtgärd definierades inte"
 
-#: commands/do/do.cpp:240
+#: commands/do/do.cpp:228
 msgid "Invalid Environmet/Group specification: {}"
 msgstr "Ogiltig miljö/gruppspecifikation: {}"
 
-#: commands/do/do.cpp:324
+#: commands/do/do.cpp:312
 msgid "Downgrading environments and groups is not supported."
 msgstr "Nedgradering av miljöer och grupper stöds inte."
 
-#: commands/do/do.cpp:340
+#: commands/do/do.cpp:328
 msgid "Reinstaling environments and groups is not supported."
 msgstr "Ominstallation av miljöer och grupper stöds inte."
 
-#: commands/downgrade/downgrade.cpp:40
+#: commands/downgrade/downgrade.cpp:42
 msgid "Downgrade software"
 msgstr "Nedgradera programvara"
 
-#: commands/download/download.cpp:105
+#: commands/download/download.cpp:106
 msgid "When running with --url, prints URLs from all available mirrors"
 msgstr "När det körs med --url, skriver URL:ar från alla tillgängliga speglar"
 
-#: commands/download/download.cpp:121
+#: commands/download/download.cpp:122
 msgid "Invalid urlprotocol option: {}"
 msgstr "Ogiltigt urlprotocol alternativ: {}"
 
-#: commands/download/download.cpp:148 main.cpp:627
+#: commands/download/download.cpp:149 main.cpp:627
 msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
 msgstr "Arkitektur \"{0}\" som inte stöds. Välj en från {1}"
 
 #. TODO(jrohel): Add support for requiring an argument by another argument in ArgumentParser?
-#: commands/download/download.cpp:184
+#: commands/download/download.cpp:186
 msgid "Option \"--alldeps\" should be used with \"--resolve\""
 msgstr "Alternativet \"--alldeps\" ska användas med \"--resolve\""
 
-#: commands/download/download.cpp:220
+#: commands/download/download.cpp:226
 msgid ""
 "No package \"{}\" available; You might want to use --skip-unavailable option."
 msgstr ""
@@ -341,6 +333,24 @@ msgstr "Mönstermatchande miljö-IDn."
 #: commands/environment/environment.cpp:35
 msgid "Manage comps environments"
 msgstr "Hantera comps-miljöer"
+
+#: commands/from_repo.cpp:35
+msgid ""
+"The following items can be selected only from the specified repositories. "
+"All enabled repositories will still be used to satisfy dependencies."
+msgstr ""
+"Följande objekt kan endast väljas från de angivna förråden. Alla aktiverade "
+"förråd kommer fortfarande att användas för att uppfylla beroenden."
+
+#: commands/from_repo.cpp:38
+#, fuzzy
+#| msgid "CVE_ID,..."
+msgid "REPO_ID,..."
+msgstr "CVE_ID,..."
+
+#: commands/from_repo.cpp:47
+msgid "\"--from_repo\" already defined with diferent value"
+msgstr ""
 
 #: commands/group/arguments.hpp:34
 msgid "Show only available groups."
@@ -445,7 +455,7 @@ msgstr ""
 "Ogiltigt transaktions-ID-intervall \"{}\", \"ID\" eller \"ID..ID\" "
 "förväntas, där ID är \"NUMMER\", \"last\" eller \"last-NUMMER\"."
 
-#: commands/install/install.cpp:41
+#: commands/install/install.cpp:43
 msgid "Install software"
 msgstr "Installera programvara"
 
@@ -725,7 +735,7 @@ msgstr "Okänd status på frånkopplad transaktion: "
 msgid "Find what package provides the given value"
 msgstr "Ta reda på vilket paket som tillhandahåller det angivna värdet"
 
-#: commands/reinstall/reinstall.cpp:40
+#: commands/reinstall/reinstall.cpp:42
 msgid "Reinstall software"
 msgstr "Ominstallera programvara"
 
@@ -789,7 +799,7 @@ msgstr "Mönster"
 msgid "Search for software matching all specified strings"
 msgstr "Sök efter programvara som matchar alla angivna strängar"
 
-#: commands/swap/swap.cpp:42
+#: commands/swap/swap.cpp:44
 msgid "Remove software and install another in one transaction"
 msgstr "Ta bort programvara och installera annan i en transaktion"
 
@@ -821,11 +831,11 @@ msgstr "Lagra en distro-sync-transaktion att utföras frånkopplat"
 msgid "Store an upgrade transaction to be performed offline"
 msgstr "Lagra en uppgraderingstransaktion att utföras frånkopplat"
 
-#: commands/upgrade/upgrade.cpp:41
+#: commands/upgrade/upgrade.cpp:43
 msgid "Upgrade software"
 msgstr "Uppgradera programvara"
 
-#: commands/upgrade/upgrade.cpp:48
+#: commands/upgrade/upgrade.cpp:50
 msgid ""
 "Upgrade packages only to the lowest versions that fix advisories of type "
 "bugfix, enhancement, security, or newpackage. In case that any option "

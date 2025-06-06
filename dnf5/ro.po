@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-31 03:32+0000\n"
+"POT-Creation-Date: 2025-06-06 03:38+0000\n"
 "PO-Revision-Date: 2025-05-23 19:51+0000\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -241,87 +241,78 @@ msgstr ""
 "Actualizarea sau retrogradarea software-ului instalat la cele mai recente "
 "versiuni disponibile"
 
-#: commands/do/do.cpp:42
+#: commands/do/do.cpp:44
 msgid "Do transaction"
 msgstr "Efectuează tranzacția"
 
-#: commands/do/do.cpp:47
+#: commands/do/do.cpp:49
 msgid "Action to be done on the following items."
 msgstr "Se vor lua măsuri cu privire la următoarele elemente."
 
-#: commands/do/do.cpp:61
+#: commands/do/do.cpp:63
 msgid "Unsupported action \"{}\""
 msgstr "Acțiune neacceptată „{}”"
 
-#: commands/do/do.cpp:71
+#: commands/do/do.cpp:73
 msgid "Type of the following items."
 msgstr "Tipul următoarelor elemente."
 
-#: commands/do/do.cpp:84
+#: commands/do/do.cpp:86
 msgid "Unsupported item type \"{}\""
 msgstr "Tip de element neadmis „{}”"
 
-#: commands/do/do.cpp:95
-msgid ""
-"The following items can be selected only from the specified repositories. "
-"All enabled repositories will still be used to satisfy dependencies."
-msgstr ""
-"Următoarele elemente pot fi selectate numai din depozitele specificate. "
-"Toate depozitele activate vor fi utilizate în continuare pentru a satisface "
-"dependențele."
-
-#: commands/do/do.cpp:110
+#: commands/do/do.cpp:98
 msgid "List of items to take action on"
 msgstr "Lista elementelor asupra cărora trebuie luate măsuri"
 
-#: commands/do/do.cpp:141 commands/do/do.cpp:145
+#: commands/do/do.cpp:129 commands/do/do.cpp:133
 msgid "Only package downgrade is supported."
 msgstr "Este acceptată doar retrogradarea pachetelor."
 
-#: commands/do/do.cpp:152 commands/do/do.cpp:156
+#: commands/do/do.cpp:140 commands/do/do.cpp:144
 msgid "Only package reinstall is supported."
 msgstr "Este acceptată doar reinstalarea pachetelor."
 
-#: commands/do/do.cpp:162
+#: commands/do/do.cpp:150
 msgid "Action was not defined"
 msgstr "Acțiunea nu a fost definită"
 
-#: commands/do/do.cpp:240
+#: commands/do/do.cpp:228
 msgid "Invalid Environmet/Group specification: {}"
 msgstr "Specificație de mediu/grup nevalidă: {}"
 
-#: commands/do/do.cpp:324
+#: commands/do/do.cpp:312
 msgid "Downgrading environments and groups is not supported."
 msgstr "Retrogradarea mediilor și grupurilor nu este acceptată."
 
-#: commands/do/do.cpp:340
+#: commands/do/do.cpp:328
 msgid "Reinstaling environments and groups is not supported."
 msgstr "Reinstalarea mediilor și grupurilor nu este acceptată."
 
-#: commands/downgrade/downgrade.cpp:40
+#: commands/downgrade/downgrade.cpp:42
 msgid "Downgrade software"
 msgstr "Retrogradează software-ul (instalând o versiune anterioară a acestuia)"
 
-#: commands/download/download.cpp:105
+#: commands/download/download.cpp:106
 msgid "When running with --url, prints URLs from all available mirrors"
 msgstr ""
 "Când rulează cu „--url”, afișează adresele URL ale tuturor oglinzilor "
 "disponibile"
 
-#: commands/download/download.cpp:121
+#: commands/download/download.cpp:122
 msgid "Invalid urlprotocol option: {}"
 msgstr "Opțiune urlprotocol nevalidă: {}"
 
-#: commands/download/download.cpp:148 main.cpp:627
+#: commands/download/download.cpp:149 main.cpp:627
 msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
 msgstr "Arhitectură neacceptată „{0}”. Vă rugăm să alegeți una dintre {1}"
 
 #. TODO(jrohel): Add support for requiring an argument by another argument in ArgumentParser?
-#: commands/download/download.cpp:184
+#: commands/download/download.cpp:186
 msgid "Option \"--alldeps\" should be used with \"--resolve\""
 msgstr "Opțiunea „--alldeps” trebuie utilizată cu opțiunea „--resolve”"
 
-#: commands/download/download.cpp:220
+#: commands/download/download.cpp:226
 msgid ""
 "No package \"{}\" available; You might want to use --skip-unavailable option."
 msgstr ""
@@ -343,6 +334,25 @@ msgstr "Model de căutat în ID-urile de mediu."
 #: commands/environment/environment.cpp:35
 msgid "Manage comps environments"
 msgstr "Gestionează mediile comps"
+
+#: commands/from_repo.cpp:35
+msgid ""
+"The following items can be selected only from the specified repositories. "
+"All enabled repositories will still be used to satisfy dependencies."
+msgstr ""
+"Următoarele elemente pot fi selectate numai din depozitele specificate. "
+"Toate depozitele activate vor fi utilizate în continuare pentru a satisface "
+"dependențele."
+
+#: commands/from_repo.cpp:38
+#, fuzzy
+#| msgid "CVE_ID,..."
+msgid "REPO_ID,..."
+msgstr "ID_CVE,..."
+
+#: commands/from_repo.cpp:47
+msgid "\"--from_repo\" already defined with diferent value"
+msgstr ""
 
 #: commands/group/arguments.hpp:34
 msgid "Show only available groups."
@@ -451,7 +461,7 @@ msgstr ""
 "Intervalul ID al tranzacției „{}” nu este valid, „ID” sau „ID..ID” așteptat, "
 "unde ID este „NUMBER”, „last” sau „last-NUMBER”."
 
-#: commands/install/install.cpp:41
+#: commands/install/install.cpp:43
 msgid "Install software"
 msgstr "Instalează software"
 
@@ -736,7 +746,7 @@ msgstr "Stare necunoscută a tranzacției fără conexiune la rețea: "
 msgid "Find what package provides the given value"
 msgstr "Găsește pachetul care furnizează valoarea dată"
 
-#: commands/reinstall/reinstall.cpp:40
+#: commands/reinstall/reinstall.cpp:42
 msgid "Reinstall software"
 msgstr "Reinstalează software-ul"
 
@@ -800,7 +810,7 @@ msgstr "Modele"
 msgid "Search for software matching all specified strings"
 msgstr "Caută software care să corespundă tuturor șirurilor specificate"
 
-#: commands/swap/swap.cpp:42
+#: commands/swap/swap.cpp:44
 msgid "Remove software and install another in one transaction"
 msgstr "Elimină software-ul și instalează altul într-o singură tranzacție"
 
@@ -837,11 +847,11 @@ msgid "Store an upgrade transaction to be performed offline"
 msgstr ""
 "Stochează o tranzacție de actualizare pentru a fi efectuată fără conexiune"
 
-#: commands/upgrade/upgrade.cpp:41
+#: commands/upgrade/upgrade.cpp:43
 msgid "Upgrade software"
 msgstr "Actualizează software-ul"
 
-#: commands/upgrade/upgrade.cpp:48
+#: commands/upgrade/upgrade.cpp:50
 msgid ""
 "Upgrade packages only to the lowest versions that fix advisories of type "
 "bugfix, enhancement, security, or newpackage. In case that any option "

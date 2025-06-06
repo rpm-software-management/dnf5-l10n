@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-31 03:32+0000\n"
+"POT-Creation-Date: 2025-06-06 03:38+0000\n"
 "PO-Revision-Date: 2025-05-23 19:51+0000\n"
 "Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf5/"
@@ -255,91 +255,82 @@ msgstr ""
 "Installer la dernière version disponible des logiciels installés "
 "(réinstallation de versions antérieures possible)"
 
-#: commands/do/do.cpp:42
+#: commands/do/do.cpp:44
 msgid "Do transaction"
 msgstr "Faire une transaction"
 
-#: commands/do/do.cpp:47
+#: commands/do/do.cpp:49
 msgid "Action to be done on the following items."
 msgstr "Action à faire sur les éléments suivants."
 
-#: commands/do/do.cpp:61
+#: commands/do/do.cpp:63
 msgid "Unsupported action \"{}\""
 msgstr "Action \"{}\" non prise en charge"
 
-#: commands/do/do.cpp:71
+#: commands/do/do.cpp:73
 msgid "Type of the following items."
 msgstr "Type des éléments suivants."
 
-#: commands/do/do.cpp:84
+#: commands/do/do.cpp:86
 msgid "Unsupported item type \"{}\""
 msgstr "Type d'élément \"{}\" non pris en charge"
 
-#: commands/do/do.cpp:95
-msgid ""
-"The following items can be selected only from the specified repositories. "
-"All enabled repositories will still be used to satisfy dependencies."
-msgstr ""
-"Les éléments suivants ne peuvent être sélectionnés qu'à partir des dépôts "
-"spécifiés. Les dépendances seront quand même satisfaites en utilisant tous "
-"les dépôts activés."
-
-#: commands/do/do.cpp:110
+#: commands/do/do.cpp:98
 msgid "List of items to take action on"
 msgstr "Liste des éléments sur lesquels agir"
 
-#: commands/do/do.cpp:141 commands/do/do.cpp:145
+#: commands/do/do.cpp:129 commands/do/do.cpp:133
 msgid "Only package downgrade is supported."
 msgstr ""
 "Seule l'installation de versions antérieures de paquets est prise en charge."
 
-#: commands/do/do.cpp:152 commands/do/do.cpp:156
+#: commands/do/do.cpp:140 commands/do/do.cpp:144
 msgid "Only package reinstall is supported."
 msgstr "Seule la réinstallation de paquets est prise en charge."
 
-#: commands/do/do.cpp:162
+#: commands/do/do.cpp:150
 msgid "Action was not defined"
 msgstr "L'action n'était pas définie"
 
-#: commands/do/do.cpp:240
+#: commands/do/do.cpp:228
 msgid "Invalid Environmet/Group specification: {}"
 msgstr "Spécification d'environnement ou de groupe invalide : {}"
 
-#: commands/do/do.cpp:324
+#: commands/do/do.cpp:312
 msgid "Downgrading environments and groups is not supported."
 msgstr ""
 "L'installation de versions antérieures d'environnements ou de groupes n'est "
 "pas prise en charge."
 
-#: commands/do/do.cpp:340
+#: commands/do/do.cpp:328
 msgid "Reinstaling environments and groups is not supported."
 msgstr ""
 "La réinstallation d'environnements ou de groupes n'est pas prise en charge."
 
-#: commands/downgrade/downgrade.cpp:40
+#: commands/downgrade/downgrade.cpp:42
 msgid "Downgrade software"
 msgstr "Installer une version antérieure des logiciels"
 
-#: commands/download/download.cpp:105
+#: commands/download/download.cpp:106
 msgid "When running with --url, prints URLs from all available mirrors"
 msgstr ""
 "Lorsque utilisé avec --url, affiche les URL de l'ensemble des miroirs "
 "disponibles"
 
-#: commands/download/download.cpp:121
+#: commands/download/download.cpp:122
 msgid "Invalid urlprotocol option: {}"
 msgstr "Option urlprotocol invalide : {}"
 
-#: commands/download/download.cpp:148 main.cpp:627
+#: commands/download/download.cpp:149 main.cpp:627
 msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
 msgstr "Architecture \"{0}\" non prise en charge. Choisissez-en une parmi {1}"
 
 #. TODO(jrohel): Add support for requiring an argument by another argument in ArgumentParser?
-#: commands/download/download.cpp:184
+#: commands/download/download.cpp:186
 msgid "Option \"--alldeps\" should be used with \"--resolve\""
 msgstr "L'option \"--alldeps\" devrait être utilisée avec \"--resolve\""
 
-#: commands/download/download.cpp:220
+#: commands/download/download.cpp:226
 msgid ""
 "No package \"{}\" available; You might want to use --skip-unavailable option."
 msgstr ""
@@ -361,6 +352,25 @@ msgstr "Motif à rechercher dans les ID d'environnement."
 #: commands/environment/environment.cpp:35
 msgid "Manage comps environments"
 msgstr "Gérer les environnements comps"
+
+#: commands/from_repo.cpp:35
+msgid ""
+"The following items can be selected only from the specified repositories. "
+"All enabled repositories will still be used to satisfy dependencies."
+msgstr ""
+"Les éléments suivants ne peuvent être sélectionnés qu'à partir des dépôts "
+"spécifiés. Les dépendances seront quand même satisfaites en utilisant tous "
+"les dépôts activés."
+
+#: commands/from_repo.cpp:38
+#, fuzzy
+#| msgid "CVE_ID,..."
+msgid "REPO_ID,..."
+msgstr "ID_DE_CVE,…"
+
+#: commands/from_repo.cpp:47
+msgid "\"--from_repo\" already defined with diferent value"
+msgstr ""
 
 #: commands/group/arguments.hpp:34
 msgid "Show only available groups."
@@ -470,7 +480,7 @@ msgstr ""
 "Intervalle d'ID de transaction \"{}\" invalide, \"ID\" ou \"ID..ID\" "
 "attendus, avec ID sous la forme \"NOMBRE\", \"last\", ou \"last-NOMBRE\"."
 
-#: commands/install/install.cpp:41
+#: commands/install/install.cpp:43
 msgid "Install software"
 msgstr "Installer des logiciels"
 
@@ -762,7 +772,7 @@ msgstr "État de transaction hors ligne inconnu : "
 msgid "Find what package provides the given value"
 msgstr "Trouver le paquet fournissant la valeur fournie"
 
-#: commands/reinstall/reinstall.cpp:40
+#: commands/reinstall/reinstall.cpp:42
 msgid "Reinstall software"
 msgstr "Réinstaller des logiciels"
 
@@ -828,7 +838,7 @@ msgstr ""
 "Rechercher les logiciels correspondant à l'ensemble des chaînes de "
 "caractères spécifiées"
 
-#: commands/swap/swap.cpp:42
+#: commands/swap/swap.cpp:44
 msgid "Remove software and install another in one transaction"
 msgstr ""
 "Supprimer un logiciel et en installer un autre, en une seule transaction"
@@ -863,11 +873,11 @@ msgstr "Stocker une transaction distro-sync à effectuer hors ligne"
 msgid "Store an upgrade transaction to be performed offline"
 msgstr "Stocker une transaction de mise à jour à effectuer hors ligne"
 
-#: commands/upgrade/upgrade.cpp:41
+#: commands/upgrade/upgrade.cpp:43
 msgid "Upgrade software"
 msgstr "Mettre à jour des logiciels"
 
-#: commands/upgrade/upgrade.cpp:48
+#: commands/upgrade/upgrade.cpp:50
 msgid ""
 "Upgrade packages only to the lowest versions that fix advisories of type "
 "bugfix, enhancement, security, or newpackage. In case that any option "
