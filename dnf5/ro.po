@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-06 03:38+0000\n"
-"PO-Revision-Date: 2025-05-23 19:51+0000\n"
+"PO-Revision-Date: 2025-06-06 06:59+0000\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ro/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
-"X-Generator: Weblate 5.11.3\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: commands/advisory/advisory.cpp:36
 msgid "Manage advisories"
@@ -345,14 +345,12 @@ msgstr ""
 "dependențele."
 
 #: commands/from_repo.cpp:38
-#, fuzzy
-#| msgid "CVE_ID,..."
 msgid "REPO_ID,..."
-msgstr "ID_CVE,..."
+msgstr "ID_DEPOZIT,..."
 
 #: commands/from_repo.cpp:47
 msgid "\"--from_repo\" already defined with diferent value"
-msgstr ""
+msgstr "„--from_repo” deja definit cu o valoare diferită"
 
 #: commands/group/arguments.hpp:34
 msgid "Show only available groups."
