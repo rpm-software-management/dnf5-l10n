@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-06 03:38+0000\n"
-"PO-Revision-Date: 2025-05-24 04:59+0000\n"
+"PO-Revision-Date: 2025-06-07 08:39+0000\n"
 "Last-Translator: Paweł Marciniak <sunwire+fas@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/pl/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.11.3\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: commands/advisory/advisory.cpp:36
 msgid "Manage advisories"
@@ -348,14 +348,12 @@ msgstr ""
 "Wszystkie włączone repozytoria będą nadal używane do spełnienia zależności."
 
 #: commands/from_repo.cpp:38
-#, fuzzy
-#| msgid "CVE_ID,..."
 msgid "REPO_ID,..."
-msgstr "ID_CVE,..."
+msgstr "REPO_ID,..."
 
 #: commands/from_repo.cpp:47
 msgid "\"--from_repo\" already defined with diferent value"
-msgstr ""
+msgstr "„--from_repo” jest już zdefiniowane z inną wartością"
 
 #: commands/group/arguments.hpp:34
 msgid "Show only available groups."
