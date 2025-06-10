@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-10 03:39+0000\n"
-"PO-Revision-Date: 2025-06-06 06:59+0000\n"
+"PO-Revision-Date: 2025-06-10 21:45+0000\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ro/>\n"
@@ -28,140 +28,175 @@ msgid ""
 "Attached named argument \"{}\" not found: {}: Requested in file \"{}\" on "
 "line {}: {}"
 msgstr ""
+"Argumentul atașat numit „{}” nu a fost găsit: {}: Solicitat în fișierul „{}” "
+"pe linia {}: {}"
 
 #: cmdline_aliases.cpp:159
 msgid ""
 "Unknown attribute \"{}\" of attached named argument for alias \"{}\" in file "
 "\"{}\" on line {}: {}"
 msgstr ""
+"Atribut necunoscut „{}” al argumentului numit atașat pentru alias „{}” în "
+"fișierul „{}” pe linia {}: {}"
 
 #: cmdline_aliases.cpp:171
 msgid "Missing attribute \"id_path\" for alias \"{}\" in file \"{}\""
-msgstr ""
+msgstr "Lipsește atributul „id_path” pentru alias „{}” în fișierul „{}”"
 
 #: cmdline_aliases.cpp:208
 msgid "Unsupported version \"{}\" in file \"{}\". Supported versions: {}"
-msgstr ""
+msgstr "Versiune neacceptată „{}” în fișierul „{}”. Versiuni acceptate: {}"
 
 #: cmdline_aliases.cpp:218
 msgid "Bad value type of attribute \"version\" in file \"{}\" on line {}: {}"
 msgstr ""
+"Tip de valoare greșit pentru atributul „version” în fișierul „{}” pe linia "
+"{}: {}"
 
 #: cmdline_aliases.cpp:224
 msgid "Missing attribute \"version\" in file \"{}\""
-msgstr ""
+msgstr "Lipsește atributul „version” în fișierul „{}”"
 
 #: cmdline_aliases.cpp:236
 msgid "Unknown key \"{}\" in file \"{}\" on line {}: {}"
-msgstr ""
+msgstr "Cheie necunoscută „{}” în fișierul „{}” pe linia {}: {}"
 
 #: cmdline_aliases.cpp:253
 msgid "Empty or bad element id path in file \"{}\" on line {}: {}"
 msgstr ""
+"Ruta cu id-ul elementului este goală sau greșită în fișierul „{}” pe linia "
+"{}: {}"
 
 #: cmdline_aliases.cpp:272
 msgid ""
 "Parent command \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
 msgstr ""
+"Comanda părinte „{}” nu a fost găsită: {}: solicitată în fișierul „{}” pe "
+"linia {}: {}"
 
 #: cmdline_aliases.cpp:301
 msgid "Unknown type \"{}\" of element \"{}\" in file \"{}\" on line {}: {}"
 msgstr ""
+"Tip necunoscut „{}” al elementului „{}” din fișierul „{}” pe linia {}: {}"
 
 #: cmdline_aliases.cpp:312
 msgid "Missing attribute \"type\" for element \"{}\" in file \"{}\""
-msgstr ""
+msgstr "Lipsește atributul „type” pentru elementul „{}” din fișierul „{}”"
 
 #: cmdline_aliases.cpp:331
 msgid ""
 "Named argument \"{}\" already registered. Requested in file \"{}\" on line "
 "{}: {}"
 msgstr ""
+"Argumentul numit „{}” este deja înregistrat. Solicitat în fișierul „{}” pe "
+"linia {}: {}"
 
 #: cmdline_aliases.cpp:347
 msgid ""
 "Command \"{}\" already registered. Requested in file \"{}\" on line {}: {}"
 msgstr ""
+"Comanda „{}” este deja înregistrată. Solicitată în fișierul „{}” pe linia {}:"
+" {}"
 
 #: cmdline_aliases.cpp:375
 msgid "Unknown attribute \"{}\" of group \"{}\" in file \"{}\" on line {}: {}"
 msgstr ""
+"Atribut necunoscut „{}” al grupului „{}” în fișierul „{}” pe linia {}: {}"
 
 #: cmdline_aliases.cpp:387
 msgid "Missing attribute \"header\" for element \"{}\" in file \"{}\""
-msgstr ""
+msgstr "Lipsește atributul „header” pentru elementul „{}” în fișierul „{}”"
 
 #: cmdline_aliases.cpp:428 cmdline_aliases.cpp:538
 msgid ""
 "The \"short_name\" attribute of named argument \"{}\" must be one character "
 "long in file \"{}\" on line {}: {}"
 msgstr ""
+"Atributul „short_name” al argumentului numit „{}” trebuie să aibă lungimea "
+"unui caracter în fișierul „{}” pe linia {}: {}"
 
 #: cmdline_aliases.cpp:446
 msgid "Source \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
 msgstr ""
+"Sursa „{}” nu a fost găsită: {}: Solicitată în fișierul „{}” pe linia {}: {}"
 
 #: cmdline_aliases.cpp:462 cmdline_aliases.cpp:563 cmdline_aliases.cpp:676
 msgid "Group \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
 msgstr ""
+"Grupul „{}” nu a fost găsit: {}: Solicitat în fișierul „{}” pe linia {}: {}"
 
 #: cmdline_aliases.cpp:476 cmdline_aliases.cpp:579
 msgid ""
 "Unknown attribute \"{}\" of named argument \"{}\" in file \"{}\" on line {}: "
 "{}"
 msgstr ""
+"Atribut necunoscut „{}” al argumentului numit „{}” în fișierul „{}” pe linia "
+"{}: {}"
 
 #: cmdline_aliases.cpp:489
 msgid "Missing attribute \"source\" for named argument \"{}\" in file \"{}\""
 msgstr ""
+"Lipsește atributul „source” pentru argumentul numit „{}” în fișierul „{}”"
 
 #: cmdline_aliases.cpp:498 cmdline_aliases.cpp:592
 msgid ""
 "At least one of the attributes \"long_name\" and \"short_name\" must be set "
 "for named argument \"{}\" in file \"{}\""
 msgstr ""
+"Cel puțin unul dintre atributele „long_name” și „short_name” trebuie să fie "
+"definit pentru argumentul numit „{}” din fișierul „{}”"
 
 #: cmdline_aliases.cpp:657
 msgid ""
 "Attached command \"{}\" not found: {}: Requested in file \"{}\" on line {}: "
 "{}"
 msgstr ""
+"Comanda atașată „{}” nu a fost găsită: {}: Solicitată în fișierul „{}” pe "
+"linia {}: {}"
 
 #: cmdline_aliases.cpp:691
 msgid ""
 "Used config file version \"1.0\" for attribute \"{}\" of command \"{}\" in "
 "file \"{}\" on line {}: {}"
 msgstr ""
+"S-a folosit fișierul de configurare versiunea „1.0” pentru atributul „{}” al "
+"comenzii „{}” din fișierul „{}” pe linia {}: {}"
 
 #: cmdline_aliases.cpp:713
 msgid ""
 "Unknown attribute \"{}\" of required value for alias \"{}\" in file \"{}\" "
 "on line {}: {}"
 msgstr ""
+"Atribut necunoscut „{}” al valorii necesare pentru alias „{}” în fișierul "
+"„{}” pe linia {}: {}"
 
 #: cmdline_aliases.cpp:726
 msgid ""
 "Missing attribute \"value_help\" of required value for alias \"{}\" in file "
 "\"{}\""
 msgstr ""
+"Lipsește atributul „value_help” al valorii necesare pentru alias „{}” în "
+"fișierul „{}”"
 
 #: cmdline_aliases.cpp:740
 msgid ""
 "Unknown attribute \"{}\" of command \"{}\" in file \"{}\" on line {}: {}"
 msgstr ""
+"Atribut necunoscut „{}” al comenzii „{}” în fișierul „{}” pe linia {}: {}"
 
 #: cmdline_aliases.cpp:756
 msgid ""
 "Missing attribute \"attached_command\" for command \"{}\" in file \"{}\""
 msgstr ""
+"Lipsește atributul „attached_command” pentru comanda „{}” din fișierul „{}”"
 
 #: cmdline_aliases.cpp:791
 msgid "Bad value type in file \"{}\" on line {}: {}"
-msgstr ""
+msgstr "Tip de valoare incorect în fișierul „{}” pe linia {}: {}"
 
 #: cmdline_aliases.cpp:804
 msgid "Syntax error in file \"{}\" on line {}"
-msgstr ""
+msgstr "Eroare de sintaxă în fișierul „{}” pe linia {}"
 
 #: commands/advisory/advisory.cpp:36
 msgid "Manage advisories"
