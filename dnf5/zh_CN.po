@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-10 03:39+0000\n"
-"PO-Revision-Date: 2025-06-10 05:36+0000\n"
+"PO-Revision-Date: 2025-06-10 06:31+0000\n"
 "Last-Translator: caffiendo c <1728778012@qq.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/dnf5/dnf5/zh_CN/>\n"
@@ -42,131 +42,134 @@ msgstr "未知属性 \"{}\" 为别名附加的命名参数 \"{}\" 在文件 \"{}
 
 #: cmdline_aliases.cpp:171
 msgid "Missing attribute \"id_path\" for alias \"{}\" in file \"{}\""
-msgstr ""
+msgstr "缺失别名中的 \"id_path\" 属性 \"{}\" 在文件 \"{}\" 中"
 
 #: cmdline_aliases.cpp:208
 msgid "Unsupported version \"{}\" in file \"{}\". Supported versions: {}"
-msgstr ""
+msgstr "不支持的版本 \"{}\" 在文件 \"{}\" 中。支持的版本：{}"
 
 #: cmdline_aliases.cpp:218
 msgid "Bad value type of attribute \"version\" in file \"{}\" on line {}: {}"
-msgstr ""
+msgstr "\"version\" 属性的值类型错误，在文件 \"{}\" 中的行列位置 {}: {}"
 
 #: cmdline_aliases.cpp:224
 msgid "Missing attribute \"version\" in file \"{}\""
-msgstr ""
+msgstr "文件 \"{}\" 中缺失 \"version\" 属性值"
 
 #: cmdline_aliases.cpp:236
 msgid "Unknown key \"{}\" in file \"{}\" on line {}: {}"
-msgstr ""
+msgstr "未知健 \"{}\" 在文件 \"{}\" 中行列位置 {}: {}"
 
 #: cmdline_aliases.cpp:253
 msgid "Empty or bad element id path in file \"{}\" on line {}: {}"
-msgstr ""
+msgstr "空的或错误的元素ID路径在文件 \"{}\" 中的行列位置 {}: {}"
 
 #: cmdline_aliases.cpp:272
 msgid ""
 "Parent command \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
-msgstr ""
+msgstr "父命令 \"{}\" 未找到: {}: 请求文件 \"{}\" 行列位置 {}: {}"
 
 #: cmdline_aliases.cpp:301
 msgid "Unknown type \"{}\" of element \"{}\" in file \"{}\" on line {}: {}"
-msgstr ""
+msgstr "未知类型 \"{}\" 元素 \"{}\" 文件 \"{}\" 行列位置 {}: {}"
 
 #: cmdline_aliases.cpp:312
 msgid "Missing attribute \"type\" for element \"{}\" in file \"{}\""
-msgstr ""
+msgstr "元素缺少 \"type\" 属性 \"{}\" 文件 \"{}\""
 
 #: cmdline_aliases.cpp:331
 msgid ""
 "Named argument \"{}\" already registered. Requested in file \"{}\" on line "
 "{}: {}"
-msgstr ""
+msgstr "命名参数 \"{}\" 已经注册。请求文件 \"{}\" 行列位置 {}: {}"
 
 #: cmdline_aliases.cpp:347
 msgid ""
 "Command \"{}\" already registered. Requested in file \"{}\" on line {}: {}"
-msgstr ""
+msgstr "命令 \"{}\" 已经注册。请求文件 \"{}\" 行列位置 {}: {}"
 
 #: cmdline_aliases.cpp:375
 msgid "Unknown attribute \"{}\" of group \"{}\" in file \"{}\" on line {}: {}"
-msgstr ""
+msgstr "未知属性 \"{}\" 组 \"{}\" 文件 \"{}\" 行列位置 {}: {}"
 
 #: cmdline_aliases.cpp:387
 msgid "Missing attribute \"header\" for element \"{}\" in file \"{}\""
-msgstr ""
+msgstr "缺失元素中的\"header\" 属性 \"{}\" 在 \"{}\" 文件中"
 
 #: cmdline_aliases.cpp:428 cmdline_aliases.cpp:538
 msgid ""
 "The \"short_name\" attribute of named argument \"{}\" must be one character "
 "long in file \"{}\" on line {}: {}"
-msgstr ""
+msgstr "\"short_name\" 命名参数的属性 \"{}\" 字符串长度必须大于1，在文件 \"{}\" 中，"
+"行列位置 {}: {}"
 
 #: cmdline_aliases.cpp:446
 msgid "Source \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
-msgstr ""
+msgstr "源 \"{}\" 未找到: {}: 请求文件 \"{}\" 行列位置 {}: {}"
 
 #: cmdline_aliases.cpp:462 cmdline_aliases.cpp:563 cmdline_aliases.cpp:676
 msgid "Group \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
-msgstr ""
+msgstr "组 \"{}\" 未找到: {}: 请求文件 \"{}\" 行列位置 {}: {}"
 
 #: cmdline_aliases.cpp:476 cmdline_aliases.cpp:579
 msgid ""
 "Unknown attribute \"{}\" of named argument \"{}\" in file \"{}\" on line {}: "
 "{}"
-msgstr ""
+msgstr "未知属性 \"{}\" 命名参数 \"{}\" 文件 \"{}\" 行列位置 {}: {}"
 
 #: cmdline_aliases.cpp:489
 msgid "Missing attribute \"source\" for named argument \"{}\" in file \"{}\""
-msgstr ""
+msgstr "命名参数中缺失 \"source\" 属性 \"{}\" 文件 \"{}\""
 
 #: cmdline_aliases.cpp:498 cmdline_aliases.cpp:592
 msgid ""
 "At least one of the attributes \"long_name\" and \"short_name\" must be set "
 "for named argument \"{}\" in file \"{}\""
-msgstr ""
+msgstr "命名参数中，\"long_name\" 和 \"short_name\" 属性必须至少提供一个 \"{}\" 文件 "
+"\"{}\""
 
 #: cmdline_aliases.cpp:657
 msgid ""
 "Attached command \"{}\" not found: {}: Requested in file \"{}\" on line {}: "
 "{}"
-msgstr ""
+msgstr "附加命令 \"{}\" 未找到: {}: 请求文件 \"{}\" 行列位置 {}: {}"
 
 #: cmdline_aliases.cpp:691
 msgid ""
 "Used config file version \"1.0\" for attribute \"{}\" of command \"{}\" in "
 "file \"{}\" on line {}: {}"
-msgstr ""
+msgstr "为属性使用 \"1.0\" 版本的配置文件 \"{}\" 命令 \"{}\" 文件 \"{}\" 行列位置 {}:"
+" {}"
 
 #: cmdline_aliases.cpp:713
 msgid ""
 "Unknown attribute \"{}\" of required value for alias \"{}\" in file \"{}\" "
 "on line {}: {}"
-msgstr ""
+msgstr "未知属性 \"{}\" 别名要求的值 \"{}\" 文件 \"{}\" 行列位置 {}: {}"
 
 #: cmdline_aliases.cpp:726
 msgid ""
 "Missing attribute \"value_help\" of required value for alias \"{}\" in file "
 "\"{}\""
-msgstr ""
+msgstr "别名要求的值缺失 \"value_help\" 属性 \"{}\" 文件 \"{}\""
 
 #: cmdline_aliases.cpp:740
 msgid ""
 "Unknown attribute \"{}\" of command \"{}\" in file \"{}\" on line {}: {}"
-msgstr ""
+msgstr "未知属性 \"{}\" 命令 \"{}\" 文件 \"{}\" 行列位置 {}: {}"
 
 #: cmdline_aliases.cpp:756
 msgid ""
 "Missing attribute \"attached_command\" for command \"{}\" in file \"{}\""
-msgstr ""
+msgstr "命令中缺失 \"attached_command\" 属性 \"{}\" 文件 \"{}\""
 
 #: cmdline_aliases.cpp:791
 msgid "Bad value type in file \"{}\" on line {}: {}"
-msgstr ""
+msgstr "文件 \"{}\" 中有错误的值类型，位置 {}: {}"
 
 #: cmdline_aliases.cpp:804
 msgid "Syntax error in file \"{}\" on line {}"
-msgstr ""
+msgstr "文件语法错误 \"{}\" 位置 {}"
 
 #: commands/advisory/advisory.cpp:36
 msgid "Manage advisories"
@@ -374,56 +377,52 @@ msgid ""
 msgstr "升级或降级已安装的软件至最新可用版本"
 
 #: commands/do/do.cpp:44
-#, fuzzy
-#| msgid "Running transaction"
 msgid "Do transaction"
 msgstr "执行事务"
 
 #: commands/do/do.cpp:49
 msgid "Action to be done on the following items."
-msgstr ""
+msgstr "要对以下项目执行的动作。"
 
 #: commands/do/do.cpp:63
 msgid "Unsupported action \"{}\""
-msgstr ""
+msgstr "不支持的动作 \"{}\""
 
 #: commands/do/do.cpp:73
 msgid "Type of the following items."
-msgstr ""
+msgstr "后续项目的类型。"
 
 #: commands/do/do.cpp:86
 msgid "Unsupported item type \"{}\""
-msgstr ""
+msgstr "不支持的项目类型 \"{}\""
 
 #: commands/do/do.cpp:98
 msgid "List of items to take action on"
-msgstr ""
+msgstr "对其执行作的项目列表"
 
 #: commands/do/do.cpp:129 commands/do/do.cpp:133
 msgid "Only package downgrade is supported."
-msgstr ""
+msgstr "仅支持降级包。"
 
 #: commands/do/do.cpp:140 commands/do/do.cpp:144
 msgid "Only package reinstall is supported."
-msgstr ""
+msgstr "仅支持重新安装包。"
 
 #: commands/do/do.cpp:150
 msgid "Action was not defined"
-msgstr ""
+msgstr "动作未定义"
 
 #: commands/do/do.cpp:228
-#, fuzzy
-#| msgid "Invalid urlprotocol option: {}"
 msgid "Invalid Environmet/Group specification: {}"
-msgstr "无效的URL协议选项 : {}"
+msgstr "无效的环境或组规范 : {}"
 
 #: commands/do/do.cpp:312
 msgid "Downgrading environments and groups is not supported."
-msgstr ""
+msgstr "不支持降级环境和组。"
 
 #: commands/do/do.cpp:328
 msgid "Reinstaling environments and groups is not supported."
-msgstr ""
+msgstr "不支持重新安装环境和组。"
 
 #: commands/downgrade/downgrade.cpp:42
 msgid "Downgrade software"
@@ -471,17 +470,15 @@ msgstr "计算机环境管理"
 msgid ""
 "The following items can be selected only from the specified repositories. "
 "All enabled repositories will still be used to satisfy dependencies."
-msgstr ""
+msgstr "以下项目只能从指定的存储库中选择。所有已启用的存储库仍将用于满足依赖项。"
 
 #: commands/from_repo.cpp:38
-#, fuzzy
-#| msgid "CVE_ID,..."
 msgid "REPO_ID,..."
-msgstr "CVE_ID,..."
+msgstr "REPO_ID,..."
 
 #: commands/from_repo.cpp:47
 msgid "\"--from_repo\" already defined with diferent value"
-msgstr ""
+msgstr "\"--from_repo\" 已经被使用不同的值定义"
 
 #: commands/group/arguments.hpp:34
 msgid "Show only available groups."
