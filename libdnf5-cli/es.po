@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # gossypium <gossypium@users.noreply.translate.fedoraproject.org>, 2025.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2025.
+# "Fco. Javier F. Serrador" <fserrador@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-10 03:39+0000\n"
-"PO-Revision-Date: 2025-05-15 06:32+0000\n"
-"Last-Translator: gossypium <gossypium@users.noreply.translate.fedoraproject."
-"org>\n"
+"PO-Revision-Date: 2025-06-10 12:39+0000\n"
+"Last-Translator: \"Fco. Javier F. Serrador\" <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5-cli/es/>\n"
 "Language: es\n"
@@ -18,15 +18,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.11.3\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: argument_parser.cpp:68
 msgid "Misconfigured alias \"{}\": cannot convert \"{}\" to a number"
-msgstr ""
+msgstr "Alias \"{}\" mal configurado: no se puede convertir \"{}\" a un número"
 
 #: argument_parser.cpp:76
 msgid "Misconfigured alias \"{}\": index \"{}\" out of range"
-msgstr ""
+msgstr "Alias \"{}\" mal configurado: índice \"{}\" fuera del intervalo"
 
 #: argument_parser.cpp:98
 msgid "\"{}\" not allowed together with named argument \"{}\""
@@ -54,20 +54,20 @@ msgstr "Insuficientes valores para el argumento posicional «{}»"
 
 #: argument_parser.cpp:548
 msgid "Missing value for named argument \"--{}\""
-msgstr "Valor ausente para el argumento nombrado «--{}»"
+msgstr "Valor ausente para el argumento nombrado “--{}”"
 
 #: argument_parser.cpp:556
 msgid "Unexpected value for named argument \"--{}\""
-msgstr "Valor inesperado para el argumento nombrado «--{}»"
+msgstr "Valor inesperado para el argumento nombrado “--{}”"
 
 #: argument_parser.cpp:598
 msgid "Missing value for named argument \"-{}\""
-msgstr "Valor ausente para el argumento nombrado «-{}»"
+msgstr "Valor ausente para el argumento nombrado “-{}”"
 
 #. print usage
 #: argument_parser.cpp:694
 msgid "Usage:"
-msgstr "Uso:"
+msgstr "Modo de empleo:"
 
 #: argument_parser.cpp:702
 msgid "Description:"
@@ -75,7 +75,7 @@ msgstr "Descripción:"
 
 #: argument_parser.cpp:979
 msgid "Command id \"{}\" already registered for command \"{}\""
-msgstr "ID del comando «{}» ya registrado para el comando «{}»"
+msgstr "ID del comando “{}” ya registrado para la instrucción “{}”"
 
 #: argument_parser.cpp:990
 msgid "Named argument id \"{}\" already registered for command \"{}\""
@@ -116,10 +116,8 @@ msgid "Missing positional argument \"{}\" for command \"{}\""
 msgstr "Argumento posicional «{}» ausente para el comando «{}»"
 
 #: argument_parser.cpp:1274
-#, fuzzy
-#| msgid "Missing value for named argument \"-{}\""
 msgid "Missing value for command alias \"{}\""
-msgstr "Valor ausente para el argumento nombrado «-{}»"
+msgstr "Valor ausente para el instrucción alias «{}»"
 
 #: argument_parser.cpp:1610
 msgid "Named argument with path id \"{}\" not found"
