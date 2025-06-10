@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-10 03:39+0000\n"
-"PO-Revision-Date: 2025-06-10 07:53+0000\n"
+"PO-Revision-Date: 2025-06-10 08:10+0000\n"
 "Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5-cli/fr/>\n"
@@ -28,7 +28,7 @@ msgstr ""
 
 #: argument_parser.cpp:76
 msgid "Misconfigured alias \"{}\": index \"{}\" out of range"
-msgstr ""
+msgstr "Configuration de l'alias \"{}\" incorrecte : indice \"{}\" hors limites"
 
 #: argument_parser.cpp:98
 msgid "\"{}\" not allowed together with named argument \"{}\""
@@ -125,10 +125,8 @@ msgid "Missing positional argument \"{}\" for command \"{}\""
 msgstr "Argument positionnel \"{}\" manquant pour la commande \"{}\""
 
 #: argument_parser.cpp:1274
-#, fuzzy
-#| msgid "Missing value for named argument \"-{}\""
 msgid "Missing value for command alias \"{}\""
-msgstr "Valeur manquante pour l'argument nommé \"-{}\""
+msgstr "Valeur manquante pour l'alias de commande \"{}\""
 
 #: argument_parser.cpp:1610
 msgid "Named argument with path id \"{}\" not found"
