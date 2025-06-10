@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-06 03:38+0000\n"
+"POT-Creation-Date: 2025-06-10 03:39+0000\n"
 "PO-Revision-Date: 2025-05-31 20:58+0000\n"
 "Last-Translator: Aleksey Fedorov <aleksejfedorov963@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -19,107 +19,121 @@ msgstr ""
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.11.4\n"
 
-#: argument_parser.cpp:62
+#: argument_parser.cpp:68
+msgid "Misconfigured alias \"{}\": cannot convert \"{}\" to a number"
+msgstr ""
+
+#: argument_parser.cpp:76
+msgid "Misconfigured alias \"{}\": index \"{}\" out of range"
+msgstr ""
+
+#: argument_parser.cpp:98
 msgid "\"{}\" not allowed together with named argument \"{}\""
 msgstr "\"{}\" не допускается вместе с именованным аргументом \"{}\""
 
-#: argument_parser.cpp:64
+#: argument_parser.cpp:100
 msgid "\"{}\" not allowed in command \"{}\""
 msgstr "\"{}\" не допускается в команде \"{}\""
 
-#: argument_parser.cpp:66
+#: argument_parser.cpp:102
 msgid "\"{}\" not allowed together with positional argument \"{}\""
 msgstr "\"{}\" не допускается вместе с позиционным аргументом \"{}\""
 
-#: argument_parser.cpp:111
+#: argument_parser.cpp:147
 msgid "Argument id \"{}\" already registered in group \"{}\""
 msgstr "Идентификатор аргумента \"{}\" уже зарегистрирован в группе \"{}\""
 
-#: argument_parser.cpp:238
+#: argument_parser.cpp:274
 msgid "Invalid character '.' in argument id \"{}\""
 msgstr "Недопустимый символ '.' в идентификаторе аргумента \"{}\""
 
-#: argument_parser.cpp:346 argument_parser.cpp:351
+#: argument_parser.cpp:382 argument_parser.cpp:387
 msgid "Too few values for positional argument \"{}\""
 msgstr "Слишком мало значений для позиционного аргумента \"{}\""
 
-#: argument_parser.cpp:512
+#: argument_parser.cpp:548
 msgid "Missing value for named argument \"--{}\""
 msgstr "Недостающее значение для именованного аргумента \"--{}\""
 
-#: argument_parser.cpp:520
+#: argument_parser.cpp:556
 msgid "Unexpected value for named argument \"--{}\""
 msgstr "Неожиданное значение для именованного аргумента \"--{}\""
 
-#: argument_parser.cpp:562
+#: argument_parser.cpp:598
 msgid "Missing value for named argument \"-{}\""
 msgstr "Недостающее значение для именованного аргумента \"-{}\""
 
 #. print usage
-#: argument_parser.cpp:658
+#: argument_parser.cpp:694
 msgid "Usage:"
 msgstr "Использование:"
 
-#: argument_parser.cpp:666
+#: argument_parser.cpp:702
 msgid "Description:"
 msgstr "Описание:"
 
-#: argument_parser.cpp:943
+#: argument_parser.cpp:979
 msgid "Command id \"{}\" already registered for command \"{}\""
 msgstr "Идентификатор команды \"{}\" уже зарегистрирован для команды \"{}\""
 
-#: argument_parser.cpp:954
+#: argument_parser.cpp:990
 msgid "Named argument id \"{}\" already registered for command \"{}\""
 msgstr ""
 "Идентификатор именованного аргумента \"{}\" уже зарегистрирован для команды "
 "\"{}\""
 
-#: argument_parser.cpp:964
+#: argument_parser.cpp:1000
 msgid "Positional argument id \"{}\" already registered for command \"{}\""
 msgstr ""
 "Идентификатор позиционного аргумента \"{}\" уже зарегистрирован для команды "
 "\"{}\""
 
-#: argument_parser.cpp:974
+#: argument_parser.cpp:1010
 msgid "Group id \"{}\" already registered for command \"{}\""
 msgstr "Идентификатор группы \"{}\" уже зарегистрирован для команды \"{}\""
 
-#: argument_parser.cpp:1001
+#: argument_parser.cpp:1037
 msgid "Command id \"{}\" does not contain subcommand with id \"{}\""
 msgstr ""
 "Команда с идентификатором \"{}\" не содержит подкоманду с идентификатором "
 "\"{}\""
 
-#: argument_parser.cpp:1009
+#: argument_parser.cpp:1045
 msgid "Command id \"{}\" does not contain named argument with id \"{}\""
 msgstr ""
 "Команда с идентификатором \"{}\" не содержит именованного аргумента с "
 "идентификатором \"{}\""
 
-#: argument_parser.cpp:1017
+#: argument_parser.cpp:1053
 msgid "Command id \"{}\" does not contain positional argument with id \"{}\""
 msgstr ""
 "Команда с идентификатором \"{}\" не содержит позиционного аргумента с "
 "идентификатором \"{}\""
 
-#: argument_parser.cpp:1024
+#: argument_parser.cpp:1060
 msgid "Command id \"{}\" does not contain group with id \"{}\""
 msgstr ""
 "Команда с идентификатором \"{}\" не содержит группу с идентификатором \"{}\""
 
-#: argument_parser.cpp:1141 argument_parser.cpp:1345
+#: argument_parser.cpp:1177 argument_parser.cpp:1388
 msgid "Unknown argument \"{}\" for command \"{}\""
 msgstr "Неизвестный аргумент \"{}\" для команды \"{}\""
 
-#: argument_parser.cpp:1156 argument_parser.cpp:1360
+#: argument_parser.cpp:1192 argument_parser.cpp:1403
 msgid "Missing positional argument \"{}\" for command \"{}\""
 msgstr "Отсутствует позиционный аргумент \"{}\" для команды \"{}\""
 
-#: argument_parser.cpp:1563
+#: argument_parser.cpp:1274
+#, fuzzy
+#| msgid "Missing value for named argument \"-{}\""
+msgid "Missing value for command alias \"{}\""
+msgstr "Недостающее значение для именованного аргумента \"-{}\""
+
+#: argument_parser.cpp:1610
 msgid "Named argument with path id \"{}\" not found"
 msgstr "Именованный аргумент с идентификатором пути \"{}\" не найден"
 
-#: argument_parser.cpp:1573
+#: argument_parser.cpp:1620
 msgid "Positional argument with path id \"{}\" not found"
 msgstr "Позиционный аргумент с идентификатором пути \"{}\" не найден"
 

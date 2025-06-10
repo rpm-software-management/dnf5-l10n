@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-06 03:38+0000\n"
+"POT-Creation-Date: 2025-06-10 03:39+0000\n"
 "PO-Revision-Date: 2025-05-15 06:32+0000\n"
 "Last-Translator: gossypium <gossypium@users.noreply.translate.fedoraproject."
 "org>\n"
@@ -20,98 +20,112 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.11.3\n"
 
-#: argument_parser.cpp:62
+#: argument_parser.cpp:68
+msgid "Misconfigured alias \"{}\": cannot convert \"{}\" to a number"
+msgstr ""
+
+#: argument_parser.cpp:76
+msgid "Misconfigured alias \"{}\": index \"{}\" out of range"
+msgstr ""
+
+#: argument_parser.cpp:98
 msgid "\"{}\" not allowed together with named argument \"{}\""
 msgstr "«{}» no está permitido junto con el argumento nombrado «{}»"
 
-#: argument_parser.cpp:64
+#: argument_parser.cpp:100
 msgid "\"{}\" not allowed in command \"{}\""
 msgstr "«{}» no está permitido en el comando «{}»"
 
-#: argument_parser.cpp:66
+#: argument_parser.cpp:102
 msgid "\"{}\" not allowed together with positional argument \"{}\""
 msgstr "«{}» no está permitido junto con el argumento posicional «{}»"
 
-#: argument_parser.cpp:111
+#: argument_parser.cpp:147
 msgid "Argument id \"{}\" already registered in group \"{}\""
 msgstr "ID del argumento «{}» ya registrado en el grupo «{}»"
 
-#: argument_parser.cpp:238
+#: argument_parser.cpp:274
 msgid "Invalid character '.' in argument id \"{}\""
 msgstr "Carácter «.» inválido en el ID del argumento «{}»"
 
-#: argument_parser.cpp:346 argument_parser.cpp:351
+#: argument_parser.cpp:382 argument_parser.cpp:387
 msgid "Too few values for positional argument \"{}\""
 msgstr "Insuficientes valores para el argumento posicional «{}»"
 
-#: argument_parser.cpp:512
+#: argument_parser.cpp:548
 msgid "Missing value for named argument \"--{}\""
 msgstr "Valor ausente para el argumento nombrado «--{}»"
 
-#: argument_parser.cpp:520
+#: argument_parser.cpp:556
 msgid "Unexpected value for named argument \"--{}\""
 msgstr "Valor inesperado para el argumento nombrado «--{}»"
 
-#: argument_parser.cpp:562
+#: argument_parser.cpp:598
 msgid "Missing value for named argument \"-{}\""
 msgstr "Valor ausente para el argumento nombrado «-{}»"
 
 #. print usage
-#: argument_parser.cpp:658
+#: argument_parser.cpp:694
 msgid "Usage:"
 msgstr "Uso:"
 
-#: argument_parser.cpp:666
+#: argument_parser.cpp:702
 msgid "Description:"
 msgstr "Descripción:"
 
-#: argument_parser.cpp:943
+#: argument_parser.cpp:979
 msgid "Command id \"{}\" already registered for command \"{}\""
 msgstr "ID del comando «{}» ya registrado para el comando «{}»"
 
-#: argument_parser.cpp:954
+#: argument_parser.cpp:990
 msgid "Named argument id \"{}\" already registered for command \"{}\""
 msgstr "ID del argumento nombrado «{}» ya registrado para el comando «{}»"
 
-#: argument_parser.cpp:964
+#: argument_parser.cpp:1000
 msgid "Positional argument id \"{}\" already registered for command \"{}\""
 msgstr "ID del argumento posicional «{}» ya registrado para el comando «{}»"
 
-#: argument_parser.cpp:974
+#: argument_parser.cpp:1010
 msgid "Group id \"{}\" already registered for command \"{}\""
 msgstr "ID del grupo «{}» ya registrado para el comando «{}»"
 
-#: argument_parser.cpp:1001
+#: argument_parser.cpp:1037
 msgid "Command id \"{}\" does not contain subcommand with id \"{}\""
 msgstr "El ID del comando «{}» no contiene un subcomando con el ID «{}»"
 
-#: argument_parser.cpp:1009
+#: argument_parser.cpp:1045
 msgid "Command id \"{}\" does not contain named argument with id \"{}\""
 msgstr ""
 "El ID del comando «{}» no contiene un argumento nombrado con el ID «{}»"
 
-#: argument_parser.cpp:1017
+#: argument_parser.cpp:1053
 msgid "Command id \"{}\" does not contain positional argument with id \"{}\""
 msgstr ""
 "El ID del comando «{}» no contiene un argumento posicional con el ID «{}»"
 
-#: argument_parser.cpp:1024
+#: argument_parser.cpp:1060
 msgid "Command id \"{}\" does not contain group with id \"{}\""
 msgstr "El ID del comando «{}» no contiene un grupo con el ID «{}»"
 
-#: argument_parser.cpp:1141 argument_parser.cpp:1345
+#: argument_parser.cpp:1177 argument_parser.cpp:1388
 msgid "Unknown argument \"{}\" for command \"{}\""
 msgstr "Argumento «{}» desconocido para el comando «{}»"
 
-#: argument_parser.cpp:1156 argument_parser.cpp:1360
+#: argument_parser.cpp:1192 argument_parser.cpp:1403
 msgid "Missing positional argument \"{}\" for command \"{}\""
 msgstr "Argumento posicional «{}» ausente para el comando «{}»"
 
-#: argument_parser.cpp:1563
+#: argument_parser.cpp:1274
+#, fuzzy
+#| msgid "Missing value for named argument \"-{}\""
+msgid "Missing value for command alias \"{}\""
+msgstr "Valor ausente para el argumento nombrado «-{}»"
+
+#: argument_parser.cpp:1610
 msgid "Named argument with path id \"{}\" not found"
 msgstr "Argumento nombrado con ID de ruta «{}» no encontrado"
 
-#: argument_parser.cpp:1573
+#: argument_parser.cpp:1620
 msgid "Positional argument with path id \"{}\" not found"
 msgstr "Argumento posicional con ID de ruta «{}» no encontrado"
 
