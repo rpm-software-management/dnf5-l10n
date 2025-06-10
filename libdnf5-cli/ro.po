@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-10 03:39+0000\n"
-"PO-Revision-Date: 2025-02-19 11:30+0000\n"
+"PO-Revision-Date: 2025-06-10 10:29+0000\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5-cli/ro/>\n"
@@ -17,15 +17,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
-"X-Generator: Weblate 5.10\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: argument_parser.cpp:68
 msgid "Misconfigured alias \"{}\": cannot convert \"{}\" to a number"
-msgstr ""
+msgstr "Alias „{}” greșit configurat: nu se poate converti „{}” într-un număr"
 
 #: argument_parser.cpp:76
 msgid "Misconfigured alias \"{}\": index \"{}\" out of range"
-msgstr ""
+msgstr "Alias „{}” greșit configurat: indicele „{}” este în afara intervalului"
 
 #: argument_parser.cpp:98
 msgid "\"{}\" not allowed together with named argument \"{}\""
@@ -115,10 +115,8 @@ msgid "Missing positional argument \"{}\" for command \"{}\""
 msgstr "Lipsește argumentul pozițional „{}” pentru comanda „{}”"
 
 #: argument_parser.cpp:1274
-#, fuzzy
-#| msgid "Missing value for named argument \"-{}\""
 msgid "Missing value for command alias \"{}\""
-msgstr "Lipsește valoarea pentru argumentul numit „-{}”"
+msgstr "Lipsește valoarea pentru comanda alias „{}”"
 
 #: argument_parser.cpp:1610
 msgid "Named argument with path id \"{}\" not found"
