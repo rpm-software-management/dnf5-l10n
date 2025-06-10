@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-06 03:38+0000\n"
+"POT-Creation-Date: 2025-06-10 03:39+0000\n"
 "PO-Revision-Date: 2025-01-03 15:05+0000\n"
 "Last-Translator: A S Alam <aalam@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Punjabi <https://translate.fedoraproject.org/projects/dnf5/"
@@ -17,6 +17,150 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 5.9.1\n"
+
+#: cmdline_aliases.cpp:84 context.cpp:301 main.cpp:1357
+msgid ", "
+msgstr ", "
+
+#: cmdline_aliases.cpp:145
+msgid ""
+"Attached named argument \"{}\" not found: {}: Requested in file \"{}\" on "
+"line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:159
+msgid ""
+"Unknown attribute \"{}\" of attached named argument for alias \"{}\" in file "
+"\"{}\" on line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:171
+msgid "Missing attribute \"id_path\" for alias \"{}\" in file \"{}\""
+msgstr ""
+
+#: cmdline_aliases.cpp:208
+msgid "Unsupported version \"{}\" in file \"{}\". Supported versions: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:218
+msgid "Bad value type of attribute \"version\" in file \"{}\" on line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:224
+msgid "Missing attribute \"version\" in file \"{}\""
+msgstr ""
+
+#: cmdline_aliases.cpp:236
+msgid "Unknown key \"{}\" in file \"{}\" on line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:253
+msgid "Empty or bad element id path in file \"{}\" on line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:272
+msgid ""
+"Parent command \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:301
+msgid "Unknown type \"{}\" of element \"{}\" in file \"{}\" on line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:312
+msgid "Missing attribute \"type\" for element \"{}\" in file \"{}\""
+msgstr ""
+
+#: cmdline_aliases.cpp:331
+msgid ""
+"Named argument \"{}\" already registered. Requested in file \"{}\" on line "
+"{}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:347
+msgid ""
+"Command \"{}\" already registered. Requested in file \"{}\" on line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:375
+msgid "Unknown attribute \"{}\" of group \"{}\" in file \"{}\" on line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:387
+msgid "Missing attribute \"header\" for element \"{}\" in file \"{}\""
+msgstr ""
+
+#: cmdline_aliases.cpp:428 cmdline_aliases.cpp:538
+msgid ""
+"The \"short_name\" attribute of named argument \"{}\" must be one character "
+"long in file \"{}\" on line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:446
+msgid "Source \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:462 cmdline_aliases.cpp:563 cmdline_aliases.cpp:676
+msgid "Group \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:476 cmdline_aliases.cpp:579
+msgid ""
+"Unknown attribute \"{}\" of named argument \"{}\" in file \"{}\" on line {}: "
+"{}"
+msgstr ""
+
+#: cmdline_aliases.cpp:489
+msgid "Missing attribute \"source\" for named argument \"{}\" in file \"{}\""
+msgstr ""
+
+#: cmdline_aliases.cpp:498 cmdline_aliases.cpp:592
+msgid ""
+"At least one of the attributes \"long_name\" and \"short_name\" must be set "
+"for named argument \"{}\" in file \"{}\""
+msgstr ""
+
+#: cmdline_aliases.cpp:657
+msgid ""
+"Attached command \"{}\" not found: {}: Requested in file \"{}\" on line {}: "
+"{}"
+msgstr ""
+
+#: cmdline_aliases.cpp:691
+msgid ""
+"Used config file version \"1.0\" for attribute \"{}\" of command \"{}\" in "
+"file \"{}\" on line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:713
+msgid ""
+"Unknown attribute \"{}\" of required value for alias \"{}\" in file \"{}\" "
+"on line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:726
+msgid ""
+"Missing attribute \"value_help\" of required value for alias \"{}\" in file "
+"\"{}\""
+msgstr ""
+
+#: cmdline_aliases.cpp:740
+msgid ""
+"Unknown attribute \"{}\" of command \"{}\" in file \"{}\" on line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:756
+msgid ""
+"Missing attribute \"attached_command\" for command \"{}\" in file \"{}\""
+msgstr ""
+
+#: cmdline_aliases.cpp:791
+msgid "Bad value type in file \"{}\" on line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:804
+msgid "Syntax error in file \"{}\" on line {}"
+msgstr ""
 
 #: commands/advisory/advisory.cpp:36
 msgid "Manage advisories"
@@ -907,10 +1051,6 @@ msgstr "ਕੁੰਜੀ ਨੂੰ ਕਾਮਯਾਬੀ ਨਾਲ ਇੰਪੋ�
 msgid "setopt: \"{}.{}\": {}"
 msgstr ""
 
-#: context.cpp:301 main.cpp:1356
-msgid ", "
-msgstr ", "
-
 #: context.cpp:305
 msgid ""
 "No matching repositories for {}. To use repositories from a host system, "
@@ -1280,23 +1420,23 @@ msgstr "ਕਿਊਰੀ ਕਮਾਂਡ:"
 msgid "Subcommands:"
 msgstr "ਸਬ-ਕਮਾਂਡ:"
 
-#: main.cpp:758
+#: main.cpp:759
 msgid "{} version {}.{}.{}.{}"
 msgstr "{} ਵਰਜ਼ਨ {}.{}.{}.{}"
 
-#: main.cpp:761
+#: main.cpp:762
 msgid "{} plugin API version {}.{}"
 msgstr "{} ਪਲੱਗਇਨ API ਵਰਜ਼ਨ {}.{}"
 
-#: main.cpp:766
+#: main.cpp:767
 msgid "libdnf5 version {}.{}.{}.{}"
 msgstr "libdnf5 ਵਰਜ਼ਨ {}.{}.{}.{}"
 
-#: main.cpp:769
+#: main.cpp:770
 msgid "libdnf5 plugin API version {}.{}"
 msgstr "libdnf5 ਪਲੱਗਇਨ API ਵਰਜ਼ਨ {}.{}"
 
-#: main.cpp:776
+#: main.cpp:777
 msgid ""
 "\n"
 "Loaded {} plugins:"
@@ -1304,25 +1444,25 @@ msgstr ""
 "\n"
 "ਲੋਡ ਕੀਤੀਆਂ {} ਪਲੱਗਇਨ:"
 
-#: main.cpp:781
+#: main.cpp:782
 msgid "  name: {}"
 msgstr "  ਨਾਂ: {}"
 
-#: main.cpp:784
+#: main.cpp:785
 msgid "  version: {}.{}.{}"
 msgstr "  ਵਰਜ਼ਨ: {}.{}.{}"
 
-#: main.cpp:786
+#: main.cpp:787
 msgid "  API version: {}.{}"
 msgstr "  API ਵਰਜ਼ਨ: {}.{}"
 
-#: main.cpp:824
+#: main.cpp:825
 msgid ""
 "Total size of inbound packages is {:.0f} {:s}. Need to download {:.0f} {:s}."
 msgstr ""
 "ਲਿਆਂਦੇ ਜਾਣ ਵਾਲੇ ਪੈਕੇਜਾਂ ਦਾ ਕੁੱਲ ਆਕਾਰ {:.0f} {:s} ਹੈ। {:.0f} {:s} ਨੂੰ ਡਾਊਨਲੋਡ ਕਰਨ ਦੀ ਲੋੜ ਹੈ।"
 
-#: main.cpp:841
+#: main.cpp:842
 msgid ""
 "After this operation, {:.0f} {:s} extra will be used (install {:.0f} {:s}, "
 "remove {:.0f} {:s})."
@@ -1330,7 +1470,7 @@ msgstr ""
 "ਇਸ ਕਾਰਵਾਈ ਦੇ ਬਾਅਦ, {:.0f} {:s} ਹੋਰ ਥਾਂ ਨੂੰ ਵਰਤਿਆ ਜਾਵੇਗਾ (ਇੰਸਟਾਲ ਕਰਨਾ {:.0f} {:s}, "
 "ਹਟਾਉਣਾ {:.0f} {:s})।"
 
-#: main.cpp:852
+#: main.cpp:853
 msgid ""
 "After this operation, {:.0f} {:s} will be freed (install {:.0f} {:s}, remove "
 "{:.0f} {:s})."
@@ -1338,151 +1478,151 @@ msgstr ""
 "ਕਾਰਵਾਈ ਦੇ ਬਾਅਦ, {:.0f} {:s} ਥਾਂ ਖਾਲੀ ਕੀਤੀ ਜਾਵੇਗੀ (ਇੰਸਟਾਲ ਕਰਨਾ {:.0f} {:s}, "
 "ਹਟਾਉਣਾ {:.0f} {:s})।"
 
-#: main.cpp:864
+#: main.cpp:865
 msgid "======== Main configuration: ========"
 msgstr "======== ਮੁੱਖ ਸੰਰਚਨਾ: ========"
 
-#: main.cpp:901
+#: main.cpp:902
 msgid "No matching repo to dump configuration: \"{}\""
 msgstr ""
 
-#: main.cpp:906
+#: main.cpp:907
 msgid "======== \"{}\" repository configuration: ========"
 msgstr "======== \"{}\" ਰਿਪੋਰਜ਼ਟਰੀ ਦੀ ਸੰਰਚਨਾ: ========"
 
-#: main.cpp:926
+#: main.cpp:927
 msgid "======== Variables: ========"
 msgstr "======== ਵੇਰੀਬਲ: ========"
 
-#: main.cpp:966
+#: main.cpp:967
 msgid "New leaves:"
 msgstr ""
 
-#: main.cpp:968
+#: main.cpp:969
 msgid " {}"
 msgstr " {}"
 
-#: main.cpp:1012
+#: main.cpp:1013
 msgid "{} to skip unavailable packages"
 msgstr "{} ਨੂੰ ਗ਼ੈਰ-ਮੌਜੂਦ ਪੈਕੇਜਾਂ ਨੂੰ ਛੱਡਣ ਦਿਓ"
 
-#: main.cpp:1020
+#: main.cpp:1021
 msgid "{} to allow extra packages in the transaction"
 msgstr "{} ਨੂੰ ਟਰਾਂਜ਼ੈਕਸ਼ਨ ਵਿੱਚ ਹੋਰ ਵਾਧੂ ਪੈਕੇਜਾਂ ਲਈ ਮਨਜ਼ੂਰੀ ਦਿਓ"
 
-#: main.cpp:1033
+#: main.cpp:1034
 msgid ""
 "{} to allow mismatches between installed and stored transaction packages. "
 "This can result in an empty transaction because among other things the "
 "option can ignore failing Remove actions."
 msgstr ""
 
-#: main.cpp:1080
+#: main.cpp:1081
 msgid "{} to not limit the transaction to the best candidates"
 msgstr ""
 
-#: main.cpp:1087
+#: main.cpp:1088
 msgid "{} to allow removing of installed packages to resolve problems"
 msgstr "ਸਮੱਸਿਆਵਾਂ ਨੂੰ ਹੱਲ਼ ਕਰਨ ਵਾਸਤੇ {} ਨੂੰ ਇੰਸਟਾਲ ਹੋਏ ਪੈਕੇਜਾਂ ਨੂੰ ਹਟਾਉਣ ਦੀ ਮਨਜ਼ੂਰੀ ਦਿਓ"
 
-#: main.cpp:1096
+#: main.cpp:1097
 msgid "{} to load additional filelists metadata"
 msgstr ""
 
-#: main.cpp:1103
+#: main.cpp:1104
 msgid "{} to skip uninstallable packages"
 msgstr ""
 
-#: main.cpp:1109
+#: main.cpp:1110
 msgid "You can try to add to command line:"
 msgstr "ਤੁਸੀਂ ਕਮਾਂਡ ਲਾਈਨ ਉੱਤੇ ਜੋੜਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰ ਸਕਦੇ ਹੋ:"
 
-#: main.cpp:1127
+#: main.cpp:1128
 msgid ""
 "No matches were found for the following plugin name patterns while enabling "
 "libdnf plugins: {}"
 msgstr ""
 
-#: main.cpp:1128
+#: main.cpp:1129
 msgid ""
 "No matches were found for the following plugin name patterns while disabling "
 "libdnf plugins: {}"
 msgstr ""
 
-#: main.cpp:1225
+#: main.cpp:1226
 msgid "--- DNF5 launched with arguments: \"{}\" ---"
 msgstr ""
 
-#: main.cpp:1261
+#: main.cpp:1262
 msgid "Invalid \"index\" in \"--complete=<index>[,...]\": {}"
 msgstr ""
 
-#: main.cpp:1300
+#: main.cpp:1301
 msgid "{}."
 msgstr "{}."
 
-#: main.cpp:1303 main.cpp:1555
+#: main.cpp:1304 main.cpp:1556
 msgid "{}. Add \"--help\" for more information about the arguments."
 msgstr ""
 
-#: main.cpp:1312
+#: main.cpp:1313
 msgid ""
 "It could be a command provided by a plugin, try: dnf5 install 'dnf5-"
 "command({})'"
 msgstr ""
 
-#: main.cpp:1354
+#: main.cpp:1355
 msgid ""
 "The argument is available for commands: {}. (It has to be placed after the "
 "command.)"
 msgstr ""
 
-#: main.cpp:1398
+#: main.cpp:1399
 msgid "No read/execute access in current directory, moving to /"
 msgstr ""
 
-#: main.cpp:1470
+#: main.cpp:1471
 msgid ""
 "The requested operation requires superuser privileges. Please log in as a "
 "user with elevated rights, or use the \"--assumeno\" or \"--downloadonly\" "
 "options to run the command without modifying the system state."
 msgstr ""
 
-#: main.cpp:1511
+#: main.cpp:1512
 msgid "The operation will only store the transaction in {}"
 msgstr "ਕਾਰਵਾਈ {} ਵਿੱਚ ਸਿਰਫ਼ ਟਰਾਂਜ਼ੈਕਸ਼ਨ ਨੂੰ ਸੰਭਾਲੇਗੀ"
 
-#: main.cpp:1513
+#: main.cpp:1514
 msgid "The operation will only download packages for the transaction."
 msgstr "ਕਾਰਵਾਈ ਟਰਾਂਜ਼ੈਕਸ਼ਨ ਲਈ ਸਿਰਫ਼ ਪੈਕੇਜਾਂ ਨੂੰ ਡਾਊਨਲੋਡ ਹੀ ਕਰੇਗੀ।"
 
-#: main.cpp:1518
+#: main.cpp:1519
 msgid ""
 "Test mode enabled: Only package downloads, OpenPGP key installations and "
 "transaction checks will be performed."
 msgstr ""
 
-#: main.cpp:1526
+#: main.cpp:1527
 msgid ""
 "Error: this bootc system is configured to be read-only. For more "
 "information, run `bootc --help`."
 msgstr ""
 
-#: main.cpp:1543
+#: main.cpp:1544
 msgid ""
 "No repositories were loaded from the installroot. To use the configuration "
 "and repositories of the host system, pass --use-host-config."
 msgstr ""
 
-#: main.cpp:1565
+#: main.cpp:1566
 msgid "Command returned error: {}"
 msgstr "ਕਮਾਂਡ ਨੇ ਗ਼ਲਤੀ ਵਾਪਸ ਕੀਤੀ: {}"
 
-#: main.cpp:1573
+#: main.cpp:1574
 msgid "DNF5 finished"
 msgstr "DNF5 ਮੁਕੰਮਲ"
 
-#: main.cpp:1577
+#: main.cpp:1578
 msgid "Complete!"
 msgstr "ਮੁਕੰਮਲ!"
 

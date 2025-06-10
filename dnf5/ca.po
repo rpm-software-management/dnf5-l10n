@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-06 03:38+0000\n"
+"POT-Creation-Date: 2025-06-10 03:39+0000\n"
 "PO-Revision-Date: 2025-05-13 11:25+0000\n"
 "Last-Translator: David Medina <dmedinacpnl@gmail.com>\n"
 "Language-Team: Catalan <https://translate.fedoraproject.org/projects/dnf5/"
@@ -19,6 +19,150 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.11.3\n"
+
+#: cmdline_aliases.cpp:84 context.cpp:301 main.cpp:1357
+msgid ", "
+msgstr ", "
+
+#: cmdline_aliases.cpp:145
+msgid ""
+"Attached named argument \"{}\" not found: {}: Requested in file \"{}\" on "
+"line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:159
+msgid ""
+"Unknown attribute \"{}\" of attached named argument for alias \"{}\" in file "
+"\"{}\" on line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:171
+msgid "Missing attribute \"id_path\" for alias \"{}\" in file \"{}\""
+msgstr ""
+
+#: cmdline_aliases.cpp:208
+msgid "Unsupported version \"{}\" in file \"{}\". Supported versions: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:218
+msgid "Bad value type of attribute \"version\" in file \"{}\" on line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:224
+msgid "Missing attribute \"version\" in file \"{}\""
+msgstr ""
+
+#: cmdline_aliases.cpp:236
+msgid "Unknown key \"{}\" in file \"{}\" on line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:253
+msgid "Empty or bad element id path in file \"{}\" on line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:272
+msgid ""
+"Parent command \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:301
+msgid "Unknown type \"{}\" of element \"{}\" in file \"{}\" on line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:312
+msgid "Missing attribute \"type\" for element \"{}\" in file \"{}\""
+msgstr ""
+
+#: cmdline_aliases.cpp:331
+msgid ""
+"Named argument \"{}\" already registered. Requested in file \"{}\" on line "
+"{}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:347
+msgid ""
+"Command \"{}\" already registered. Requested in file \"{}\" on line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:375
+msgid "Unknown attribute \"{}\" of group \"{}\" in file \"{}\" on line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:387
+msgid "Missing attribute \"header\" for element \"{}\" in file \"{}\""
+msgstr ""
+
+#: cmdline_aliases.cpp:428 cmdline_aliases.cpp:538
+msgid ""
+"The \"short_name\" attribute of named argument \"{}\" must be one character "
+"long in file \"{}\" on line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:446
+msgid "Source \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:462 cmdline_aliases.cpp:563 cmdline_aliases.cpp:676
+msgid "Group \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:476 cmdline_aliases.cpp:579
+msgid ""
+"Unknown attribute \"{}\" of named argument \"{}\" in file \"{}\" on line {}: "
+"{}"
+msgstr ""
+
+#: cmdline_aliases.cpp:489
+msgid "Missing attribute \"source\" for named argument \"{}\" in file \"{}\""
+msgstr ""
+
+#: cmdline_aliases.cpp:498 cmdline_aliases.cpp:592
+msgid ""
+"At least one of the attributes \"long_name\" and \"short_name\" must be set "
+"for named argument \"{}\" in file \"{}\""
+msgstr ""
+
+#: cmdline_aliases.cpp:657
+msgid ""
+"Attached command \"{}\" not found: {}: Requested in file \"{}\" on line {}: "
+"{}"
+msgstr ""
+
+#: cmdline_aliases.cpp:691
+msgid ""
+"Used config file version \"1.0\" for attribute \"{}\" of command \"{}\" in "
+"file \"{}\" on line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:713
+msgid ""
+"Unknown attribute \"{}\" of required value for alias \"{}\" in file \"{}\" "
+"on line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:726
+msgid ""
+"Missing attribute \"value_help\" of required value for alias \"{}\" in file "
+"\"{}\""
+msgstr ""
+
+#: cmdline_aliases.cpp:740
+msgid ""
+"Unknown attribute \"{}\" of command \"{}\" in file \"{}\" on line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:756
+msgid ""
+"Missing attribute \"attached_command\" for command \"{}\" in file \"{}\""
+msgstr ""
+
+#: cmdline_aliases.cpp:791
+msgid "Bad value type in file \"{}\" on line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:804
+msgid "Syntax error in file \"{}\" on line {}"
+msgstr ""
 
 #: commands/advisory/advisory.cpp:36
 msgid "Manage advisories"
@@ -997,10 +1141,6 @@ msgstr "La clau 0x{} s'ha suprimit correctament."
 msgid "setopt: \"{}.{}\": {}"
 msgstr "setopt: \"{}.{}\": {}"
 
-#: context.cpp:301 main.cpp:1356
-msgid ", "
-msgstr ", "
-
 #: context.cpp:305
 msgid ""
 "No matching repositories for {}. To use repositories from a host system, "
@@ -1403,23 +1543,23 @@ msgstr "Ordres de consulta:"
 msgid "Subcommands:"
 msgstr "Subordres:"
 
-#: main.cpp:758
+#: main.cpp:759
 msgid "{} version {}.{}.{}.{}"
 msgstr "{} versió {}.{}.{}.{}"
 
-#: main.cpp:761
+#: main.cpp:762
 msgid "{} plugin API version {}.{}"
 msgstr "{} versió de l'API del connector {}.{}"
 
-#: main.cpp:766
+#: main.cpp:767
 msgid "libdnf5 version {}.{}.{}.{}"
 msgstr "versió de libdnf5 {}.{}.{}.{}"
 
-#: main.cpp:769
+#: main.cpp:770
 msgid "libdnf5 plugin API version {}.{}"
 msgstr "versió de l'API del connector de libdnf5 {}.{}"
 
-#: main.cpp:776
+#: main.cpp:777
 msgid ""
 "\n"
 "Loaded {} plugins:"
@@ -1427,25 +1567,25 @@ msgstr ""
 "\n"
 "S'han carregat {} connectors:"
 
-#: main.cpp:781
+#: main.cpp:782
 msgid "  name: {}"
 msgstr "  nom: {}"
 
-#: main.cpp:784
+#: main.cpp:785
 msgid "  version: {}.{}.{}"
 msgstr "  versió: {}.{}.{}"
 
-#: main.cpp:786
+#: main.cpp:787
 msgid "  API version: {}.{}"
 msgstr "  Versió de l'API: {}.{}"
 
-#: main.cpp:824
+#: main.cpp:825
 msgid ""
 "Total size of inbound packages is {:.0f} {:s}. Need to download {:.0f} {:s}."
 msgstr ""
 "La mida total dels paquets entrants és {:.0f} {:s}. Cal baixar {:.0f} {:s}."
 
-#: main.cpp:841
+#: main.cpp:842
 msgid ""
 "After this operation, {:.0f} {:s} extra will be used (install {:.0f} {:s}, "
 "remove {:.0f} {:s})."
@@ -1453,7 +1593,7 @@ msgstr ""
 "Després d'aquesta operació, s'usaran {:.0f} {:s} addicionals ({:.0f} "
 "d'instal·lació {:s}, {:.0f} {:s} de supressió)."
 
-#: main.cpp:852
+#: main.cpp:853
 msgid ""
 "After this operation, {:.0f} {:s} will be freed (install {:.0f} {:s}, remove "
 "{:.0f} {:s})."
@@ -1461,40 +1601,40 @@ msgstr ""
 "Després d'aquesta operació, s'alliberaran {:.0f} {:s} ({:.0f} d'instal·lació "
 "{:s}, {:.0f} {:s} de supressió)."
 
-#: main.cpp:864
+#: main.cpp:865
 msgid "======== Main configuration: ========"
 msgstr "======== Configuració principal: ========"
 
-#: main.cpp:901
+#: main.cpp:902
 msgid "No matching repo to dump configuration: \"{}\""
 msgstr ""
 "No hi ha cap dipòsit que coincideixi amb la configuració d'abocament: {}"
 
-#: main.cpp:906
+#: main.cpp:907
 msgid "======== \"{}\" repository configuration: ========"
 msgstr "======== Configuració del dipòsit {}: ========"
 
-#: main.cpp:926
+#: main.cpp:927
 msgid "======== Variables: ========"
 msgstr "======== Variables: ========"
 
-#: main.cpp:966
+#: main.cpp:967
 msgid "New leaves:"
 msgstr "Abandonaments nous:"
 
-#: main.cpp:968
+#: main.cpp:969
 msgid " {}"
 msgstr " {}"
 
-#: main.cpp:1012
+#: main.cpp:1013
 msgid "{} to skip unavailable packages"
 msgstr "{} per ometre paquets no disponibles"
 
-#: main.cpp:1020
+#: main.cpp:1021
 msgid "{} to allow extra packages in the transaction"
 msgstr "{} per permetre paquets addicionals a la transacció"
 
-#: main.cpp:1033
+#: main.cpp:1034
 msgid ""
 "{} to allow mismatches between installed and stored transaction packages. "
 "This can result in an empty transaction because among other things the "
@@ -1504,28 +1644,28 @@ msgstr ""
 "transaccions desades. Això pot resultar en una transacció buida perquè, "
 "entre altres coses, l'opció pot ignorar les accions de supressió fallides."
 
-#: main.cpp:1080
+#: main.cpp:1081
 msgid "{} to not limit the transaction to the best candidates"
 msgstr "{} per no limitar la transacció als millors candidats"
 
-#: main.cpp:1087
+#: main.cpp:1088
 msgid "{} to allow removing of installed packages to resolve problems"
 msgstr ""
 "{} per permetre la supressió de paquets instal·lats per resoldre problemes"
 
-#: main.cpp:1096
+#: main.cpp:1097
 msgid "{} to load additional filelists metadata"
 msgstr "{} per carregar metadades addicionals de llistes de fitxers"
 
-#: main.cpp:1103
+#: main.cpp:1104
 msgid "{} to skip uninstallable packages"
 msgstr "{} per ometre paquets desinstal·lables"
 
-#: main.cpp:1109
+#: main.cpp:1110
 msgid "You can try to add to command line:"
 msgstr "Podeu provar d'afegir el següent a la línia d'ordres:"
 
-#: main.cpp:1127
+#: main.cpp:1128
 msgid ""
 "No matches were found for the following plugin name patterns while enabling "
 "libdnf plugins: {}"
@@ -1533,7 +1673,7 @@ msgstr ""
 "No s'han trobat coincidències per als patrons de nom de connectors següents "
 "mentre s'habilitaven els connectors de libdnf: {}"
 
-#: main.cpp:1128
+#: main.cpp:1129
 msgid ""
 "No matches were found for the following plugin name patterns while disabling "
 "libdnf plugins: {}"
@@ -1541,23 +1681,23 @@ msgstr ""
 "No s'han trobat coincidències per als patrons de nom de connectors següents "
 "mentre s'inhabilitaven els connectors de libdnf: {}"
 
-#: main.cpp:1225
+#: main.cpp:1226
 msgid "--- DNF5 launched with arguments: \"{}\" ---"
 msgstr "--- DNF5 llançat amb arguments: {} ---"
 
-#: main.cpp:1261
+#: main.cpp:1262
 msgid "Invalid \"index\" in \"--complete=<index>[,...]\": {}"
 msgstr "Índex no vàlid a \"--complete=<index>[,...]\": {}"
 
-#: main.cpp:1300
+#: main.cpp:1301
 msgid "{}."
 msgstr "{}."
 
-#: main.cpp:1303 main.cpp:1555
+#: main.cpp:1304 main.cpp:1556
 msgid "{}. Add \"--help\" for more information about the arguments."
 msgstr "{}. Afegiu '--help' per obtenir més informació sobre els arguments."
 
-#: main.cpp:1312
+#: main.cpp:1313
 msgid ""
 "It could be a command provided by a plugin, try: dnf5 install 'dnf5-"
 "command({})'"
@@ -1565,7 +1705,7 @@ msgstr ""
 "Pot ser una ordre proporcionada per un connector, proveu: dnf5 install 'dnf5-"
 "command({})'"
 
-#: main.cpp:1354
+#: main.cpp:1355
 msgid ""
 "The argument is available for commands: {}. (It has to be placed after the "
 "command.)"
@@ -1573,11 +1713,11 @@ msgstr ""
 "L'argument està disponible per a les ordres següents: {}. (S'ha de col·locar "
 "després de l'ordre.)"
 
-#: main.cpp:1398
+#: main.cpp:1399
 msgid "No read/execute access in current directory, moving to /"
 msgstr "No hi ha accés de lectura o execució al directori actual, es passa a /"
 
-#: main.cpp:1470
+#: main.cpp:1471
 msgid ""
 "The requested operation requires superuser privileges. Please log in as a "
 "user with elevated rights, or use the \"--assumeno\" or \"--downloadonly\" "
@@ -1587,15 +1727,15 @@ msgstr ""
 "a usuari amb drets elevats o useu les opcions '--assumeno' o '--"
 "downloadonly' per executar l'ordre sense modificar l'estat del sistema."
 
-#: main.cpp:1511
+#: main.cpp:1512
 msgid "The operation will only store the transaction in {}"
 msgstr "L'operació només desarà la transacció a {}"
 
-#: main.cpp:1513
+#: main.cpp:1514
 msgid "The operation will only download packages for the transaction."
 msgstr "L'operació només baixarà els paquets per a la transacció."
 
-#: main.cpp:1518
+#: main.cpp:1519
 msgid ""
 "Test mode enabled: Only package downloads, OpenPGP key installations and "
 "transaction checks will be performed."
@@ -1603,7 +1743,7 @@ msgstr ""
 "Mode de prova activat: només es faran baixades de paquets, instal·lacions de "
 "claus OpenPGP i comprovacions de transaccions."
 
-#: main.cpp:1526
+#: main.cpp:1527
 msgid ""
 "Error: this bootc system is configured to be read-only. For more "
 "information, run `bootc --help`."
@@ -1611,7 +1751,7 @@ msgstr ""
 "Error: aquest sistema de bootc està configurat per ser només de lectura. Per "
 "obtenir-ne més informació, executeu bootc --help."
 
-#: main.cpp:1543
+#: main.cpp:1544
 msgid ""
 "No repositories were loaded from the installroot. To use the configuration "
 "and repositories of the host system, pass --use-host-config."
@@ -1619,15 +1759,15 @@ msgstr ""
 "No s'ha carregat cap dipòsit des de l'arrel de la instal·lació. Per usar la "
 "configuració i els dipòsits del sistema amfitrió, apliqueu --use-host-config."
 
-#: main.cpp:1565
+#: main.cpp:1566
 msgid "Command returned error: {}"
 msgstr "L'ordre ha retornat un error: {}"
 
-#: main.cpp:1573
+#: main.cpp:1574
 msgid "DNF5 finished"
 msgstr "El DNF5 ha acabat"
 
-#: main.cpp:1577
+#: main.cpp:1578
 msgid "Complete!"
 msgstr "Completat!"
 

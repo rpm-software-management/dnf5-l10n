@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-06 03:38+0000\n"
+"POT-Creation-Date: 2025-06-10 03:39+0000\n"
 "PO-Revision-Date: 2025-05-07 18:49+0000\n"
 "Last-Translator: caffiendo c <1728778012@qq.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
@@ -23,6 +23,150 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.11.3\n"
+
+#: cmdline_aliases.cpp:84 context.cpp:301 main.cpp:1357
+msgid ", "
+msgstr ", "
+
+#: cmdline_aliases.cpp:145
+msgid ""
+"Attached named argument \"{}\" not found: {}: Requested in file \"{}\" on "
+"line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:159
+msgid ""
+"Unknown attribute \"{}\" of attached named argument for alias \"{}\" in file "
+"\"{}\" on line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:171
+msgid "Missing attribute \"id_path\" for alias \"{}\" in file \"{}\""
+msgstr ""
+
+#: cmdline_aliases.cpp:208
+msgid "Unsupported version \"{}\" in file \"{}\". Supported versions: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:218
+msgid "Bad value type of attribute \"version\" in file \"{}\" on line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:224
+msgid "Missing attribute \"version\" in file \"{}\""
+msgstr ""
+
+#: cmdline_aliases.cpp:236
+msgid "Unknown key \"{}\" in file \"{}\" on line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:253
+msgid "Empty or bad element id path in file \"{}\" on line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:272
+msgid ""
+"Parent command \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:301
+msgid "Unknown type \"{}\" of element \"{}\" in file \"{}\" on line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:312
+msgid "Missing attribute \"type\" for element \"{}\" in file \"{}\""
+msgstr ""
+
+#: cmdline_aliases.cpp:331
+msgid ""
+"Named argument \"{}\" already registered. Requested in file \"{}\" on line "
+"{}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:347
+msgid ""
+"Command \"{}\" already registered. Requested in file \"{}\" on line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:375
+msgid "Unknown attribute \"{}\" of group \"{}\" in file \"{}\" on line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:387
+msgid "Missing attribute \"header\" for element \"{}\" in file \"{}\""
+msgstr ""
+
+#: cmdline_aliases.cpp:428 cmdline_aliases.cpp:538
+msgid ""
+"The \"short_name\" attribute of named argument \"{}\" must be one character "
+"long in file \"{}\" on line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:446
+msgid "Source \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:462 cmdline_aliases.cpp:563 cmdline_aliases.cpp:676
+msgid "Group \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:476 cmdline_aliases.cpp:579
+msgid ""
+"Unknown attribute \"{}\" of named argument \"{}\" in file \"{}\" on line {}: "
+"{}"
+msgstr ""
+
+#: cmdline_aliases.cpp:489
+msgid "Missing attribute \"source\" for named argument \"{}\" in file \"{}\""
+msgstr ""
+
+#: cmdline_aliases.cpp:498 cmdline_aliases.cpp:592
+msgid ""
+"At least one of the attributes \"long_name\" and \"short_name\" must be set "
+"for named argument \"{}\" in file \"{}\""
+msgstr ""
+
+#: cmdline_aliases.cpp:657
+msgid ""
+"Attached command \"{}\" not found: {}: Requested in file \"{}\" on line {}: "
+"{}"
+msgstr ""
+
+#: cmdline_aliases.cpp:691
+msgid ""
+"Used config file version \"1.0\" for attribute \"{}\" of command \"{}\" in "
+"file \"{}\" on line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:713
+msgid ""
+"Unknown attribute \"{}\" of required value for alias \"{}\" in file \"{}\" "
+"on line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:726
+msgid ""
+"Missing attribute \"value_help\" of required value for alias \"{}\" in file "
+"\"{}\""
+msgstr ""
+
+#: cmdline_aliases.cpp:740
+msgid ""
+"Unknown attribute \"{}\" of command \"{}\" in file \"{}\" on line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:756
+msgid ""
+"Missing attribute \"attached_command\" for command \"{}\" in file \"{}\""
+msgstr ""
+
+#: cmdline_aliases.cpp:791
+msgid "Bad value type in file \"{}\" on line {}: {}"
+msgstr ""
+
+#: cmdline_aliases.cpp:804
+msgid "Syntax error in file \"{}\" on line {}"
+msgstr ""
 
 #: commands/advisory/advisory.cpp:36
 msgid "Manage advisories"
@@ -924,10 +1068,6 @@ msgstr "密钥 0x{} 已成功删除。"
 msgid "setopt: \"{}.{}\": {}"
 msgstr "设置选项: \"{}.{}\": {}"
 
-#: context.cpp:301 main.cpp:1356
-msgid ", "
-msgstr ", "
-
 #: context.cpp:305
 msgid ""
 "No matching repositories for {}. To use repositories from a host system, "
@@ -1295,23 +1435,23 @@ msgstr "查询命令:"
 msgid "Subcommands:"
 msgstr "子命令:"
 
-#: main.cpp:758
+#: main.cpp:759
 msgid "{} version {}.{}.{}.{}"
 msgstr "{} 版本 {}.{}.{}.{}"
 
-#: main.cpp:761
+#: main.cpp:762
 msgid "{} plugin API version {}.{}"
 msgstr "{} 插件API版本 {}.{}"
 
-#: main.cpp:766
+#: main.cpp:767
 msgid "libdnf5 version {}.{}.{}.{}"
 msgstr "libdnf5 版本 {}.{}.{}.{}"
 
-#: main.cpp:769
+#: main.cpp:770
 msgid "libdnf5 plugin API version {}.{}"
 msgstr "libdnf5 插件API版本 {}.{}"
 
-#: main.cpp:776
+#: main.cpp:777
 msgid ""
 "\n"
 "Loaded {} plugins:"
@@ -1319,24 +1459,24 @@ msgstr ""
 "\n"
 "已加载 {} 插件:"
 
-#: main.cpp:781
+#: main.cpp:782
 msgid "  name: {}"
 msgstr "  名称: {}"
 
-#: main.cpp:784
+#: main.cpp:785
 msgid "  version: {}.{}.{}"
 msgstr "  版本: {}.{}.{}"
 
-#: main.cpp:786
+#: main.cpp:787
 msgid "  API version: {}.{}"
 msgstr "  API版本: {}.{}"
 
-#: main.cpp:824
+#: main.cpp:825
 msgid ""
 "Total size of inbound packages is {:.0f} {:s}. Need to download {:.0f} {:s}."
 msgstr "本次要处理的软件包总大小为 {:.0f} {:s}. 还需下载 {:.0f} {:s}。"
 
-#: main.cpp:841
+#: main.cpp:842
 msgid ""
 "After this operation, {:.0f} {:s} extra will be used (install {:.0f} {:s}, "
 "remove {:.0f} {:s})."
@@ -1344,7 +1484,7 @@ msgstr ""
 "此次操作完成之后，{:.0f} {:s} 额外的空间被使用 (安装 {:.0f} {:s}, 删除 "
 "{:.0f} {:s})。"
 
-#: main.cpp:852
+#: main.cpp:853
 msgid ""
 "After this operation, {:.0f} {:s} will be freed (install {:.0f} {:s}, remove "
 "{:.0f} {:s})."
@@ -1352,39 +1492,39 @@ msgstr ""
 "此次操作完成之后，{:.0f} {:s} 空间被释放 (安装 {:.0f} {:s}, 删除 {:.0f} {:"
 "s})。"
 
-#: main.cpp:864
+#: main.cpp:865
 msgid "======== Main configuration: ========"
 msgstr "======== 主要配置: ========"
 
-#: main.cpp:901
+#: main.cpp:902
 msgid "No matching repo to dump configuration: \"{}\""
 msgstr "无匹配到的仓库写入到配置中: \"{}\""
 
-#: main.cpp:906
+#: main.cpp:907
 msgid "======== \"{}\" repository configuration: ========"
 msgstr "======== \"{}\" 仓库配置: ========"
 
-#: main.cpp:926
+#: main.cpp:927
 msgid "======== Variables: ========"
 msgstr "======== 变量: ========"
 
-#: main.cpp:966
+#: main.cpp:967
 msgid "New leaves:"
 msgstr "新子软件包:"
 
-#: main.cpp:968
+#: main.cpp:969
 msgid " {}"
 msgstr " {}"
 
-#: main.cpp:1012
+#: main.cpp:1013
 msgid "{} to skip unavailable packages"
 msgstr "{} 跳过不可用软件包"
 
-#: main.cpp:1020
+#: main.cpp:1021
 msgid "{} to allow extra packages in the transaction"
 msgstr "{} 在本次事务中允许额外的软件包"
 
-#: main.cpp:1033
+#: main.cpp:1034
 msgid ""
 "{} to allow mismatches between installed and stored transaction packages. "
 "This can result in an empty transaction because among other things the "
@@ -1393,71 +1533,71 @@ msgstr ""
 "{} 允许已安装和已存储的软件包事务之间不匹配。这可能会导致空事务，因为除其他事"
 "项外，该选项可以忽略失败的删除操作。"
 
-#: main.cpp:1080
+#: main.cpp:1081
 msgid "{} to not limit the transaction to the best candidates"
 msgstr "{} 不将事务限制在最佳候选中"
 
-#: main.cpp:1087
+#: main.cpp:1088
 msgid "{} to allow removing of installed packages to resolve problems"
 msgstr "{} 允许删除和安装软件包来解决问题"
 
-#: main.cpp:1096
+#: main.cpp:1097
 msgid "{} to load additional filelists metadata"
 msgstr "{} 加载额外的文件列表元数据"
 
-#: main.cpp:1103
+#: main.cpp:1104
 msgid "{} to skip uninstallable packages"
 msgstr "{} 跳过不可删除的软件包"
 
-#: main.cpp:1109
+#: main.cpp:1110
 msgid "You can try to add to command line:"
 msgstr "你可以尝试添加到命令行中:"
 
-#: main.cpp:1127
+#: main.cpp:1128
 msgid ""
 "No matches were found for the following plugin name patterns while enabling "
 "libdnf plugins: {}"
 msgstr "启用libdnf插件时，未匹配到以下插件的名称: {}"
 
-#: main.cpp:1128
+#: main.cpp:1129
 msgid ""
 "No matches were found for the following plugin name patterns while disabling "
 "libdnf plugins: {}"
 msgstr "禁用libdnf插件时，未匹配到以下插件的名称: {}"
 
-#: main.cpp:1225
+#: main.cpp:1226
 msgid "--- DNF5 launched with arguments: \"{}\" ---"
 msgstr "--- DNF5 启动参数: \"{}\" ---"
 
-#: main.cpp:1261
+#: main.cpp:1262
 msgid "Invalid \"index\" in \"--complete=<index>[,...]\": {}"
 msgstr "无效的 \"index\" 在 \"--complete=<index>[,...]\": {}"
 
-#: main.cpp:1300
+#: main.cpp:1301
 msgid "{}."
 msgstr "{}."
 
-#: main.cpp:1303 main.cpp:1555
+#: main.cpp:1304 main.cpp:1556
 msgid "{}. Add \"--help\" for more information about the arguments."
 msgstr "{}。添加 \"--help\" 参数来获取更多的参数信息。"
 
-#: main.cpp:1312
+#: main.cpp:1313
 msgid ""
 "It could be a command provided by a plugin, try: dnf5 install 'dnf5-"
 "command({})'"
 msgstr "它可能是插件提供的命令，尝试用: dnf5 install 'dnf5-command({})'"
 
-#: main.cpp:1354
+#: main.cpp:1355
 msgid ""
 "The argument is available for commands: {}. (It has to be placed after the "
 "command.)"
 msgstr "该参数可用于如下命令: {}。(参数必须放在命令的后面)"
 
-#: main.cpp:1398
+#: main.cpp:1399
 msgid "No read/execute access in current directory, moving to /"
 msgstr "没有当前目录的读取/执行权限，移动至 /"
 
-#: main.cpp:1470
+#: main.cpp:1471
 msgid ""
 "The requested operation requires superuser privileges. Please log in as a "
 "user with elevated rights, or use the \"--assumeno\" or \"--downloadonly\" "
@@ -1466,27 +1606,27 @@ msgstr ""
 "请求的操作需要超级用户权限。请使用有权限的用户来操作。或者使用 \"--"
 "assumeno\" 或 \"--downloadonly\" 参数运行该命令不修改当前系统状态。"
 
-#: main.cpp:1511
+#: main.cpp:1512
 msgid "The operation will only store the transaction in {}"
 msgstr "此操作仅将事务保存到: {}"
 
-#: main.cpp:1513
+#: main.cpp:1514
 msgid "The operation will only download packages for the transaction."
 msgstr "该操作将仅下载这个事务的软件包。"
 
-#: main.cpp:1518
+#: main.cpp:1519
 msgid ""
 "Test mode enabled: Only package downloads, OpenPGP key installations and "
 "transaction checks will be performed."
 msgstr "测试模式已启用: 仅执行软件包下载、OpenPGP密钥安装和事务检查。"
 
-#: main.cpp:1526
+#: main.cpp:1527
 msgid ""
 "Error: this bootc system is configured to be read-only. For more "
 "information, run `bootc --help`."
 msgstr "错误：此 bootc 系统配置为只读。有关更多信息，请运行“bootc --help”。"
 
-#: main.cpp:1543
+#: main.cpp:1544
 msgid ""
 "No repositories were loaded from the installroot. To use the configuration "
 "and repositories of the host system, pass --use-host-config."
@@ -1494,15 +1634,15 @@ msgstr ""
 "未从installroot加载任何仓库。要使用系统的配置和仓库 ，请加 --use-host-config "
 "参数。"
 
-#: main.cpp:1565
+#: main.cpp:1566
 msgid "Command returned error: {}"
 msgstr "命令返回错误: {}"
 
-#: main.cpp:1573
+#: main.cpp:1574
 msgid "DNF5 finished"
 msgstr "DNF5 执行完毕"
 
-#: main.cpp:1577
+#: main.cpp:1578
 msgid "Complete!"
 msgstr "完成！"
 
