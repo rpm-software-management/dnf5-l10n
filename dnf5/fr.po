@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-10 03:39+0000\n"
-"PO-Revision-Date: 2025-06-06 08:35+0000\n"
+"PO-Revision-Date: 2025-06-10 07:53+0000\n"
 "Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/fr/>\n"
@@ -31,140 +31,186 @@ msgid ""
 "Attached named argument \"{}\" not found: {}: Requested in file \"{}\" on "
 "line {}: {}"
 msgstr ""
+"Argument nommé et attaché \"{}\" introuvable : {} : Demandé dans le fichier "
+"\"{}\" à la ligne {} : {}"
 
 #: cmdline_aliases.cpp:159
 msgid ""
 "Unknown attribute \"{}\" of attached named argument for alias \"{}\" in file "
 "\"{}\" on line {}: {}"
 msgstr ""
+"Attribut \"{}\" inconnu pour l'argument nommé ayant pour alias \"{}\" dans "
+"le fichier \"{}\" à la ligne {} : {}"
 
 #: cmdline_aliases.cpp:171
 msgid "Missing attribute \"id_path\" for alias \"{}\" in file \"{}\""
 msgstr ""
+"Attribut \"id_path\" manquant pour l'alias \"{}\" dans le fichier \"{}\""
 
 #: cmdline_aliases.cpp:208
 msgid "Unsupported version \"{}\" in file \"{}\". Supported versions: {}"
 msgstr ""
+"Version non prise en charge \"{}\" dans le fichier \"{}\". Versions prises "
+"en charge : {}"
 
 #: cmdline_aliases.cpp:218
 msgid "Bad value type of attribute \"version\" in file \"{}\" on line {}: {}"
 msgstr ""
+"Type de valeur incorrect pour l'attribut \"version\" dans le fichier \"{}\" "
+"à la ligne {} : {}"
 
 #: cmdline_aliases.cpp:224
 msgid "Missing attribute \"version\" in file \"{}\""
-msgstr ""
+msgstr "Attribut \"version\" manquant dans le fichier \"{}\""
 
 #: cmdline_aliases.cpp:236
 msgid "Unknown key \"{}\" in file \"{}\" on line {}: {}"
-msgstr ""
+msgstr "Clé \"{}\" inconnue dans le fichier \"{}\" à la ligne {} : {}"
 
 #: cmdline_aliases.cpp:253
 msgid "Empty or bad element id path in file \"{}\" on line {}: {}"
 msgstr ""
+"Chemin d'identification d'élément vide ou incorrect dans le fichier \"{}\" à "
+"la ligne {} : {}"
 
 #: cmdline_aliases.cpp:272
 msgid ""
 "Parent command \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
 msgstr ""
+"Commande parent \"{}\" introuvable : {} : Demandée dans le fichier \"{}\" à "
+"la ligne {} : {}"
 
 #: cmdline_aliases.cpp:301
 msgid "Unknown type \"{}\" of element \"{}\" in file \"{}\" on line {}: {}"
 msgstr ""
+"Type \"{}\" inconnu pour l'élement \"{}\" dans le fichier \"{}\" à la ligne "
+"{} : {}"
 
 #: cmdline_aliases.cpp:312
 msgid "Missing attribute \"type\" for element \"{}\" in file \"{}\""
-msgstr ""
+msgstr "Attribut \"type\" manquant pour l'élément \"{}\" dans le fichier \"{}\""
 
 #: cmdline_aliases.cpp:331
 msgid ""
 "Named argument \"{}\" already registered. Requested in file \"{}\" on line "
 "{}: {}"
 msgstr ""
+"Argument nommé \"{}\" déjà enregistré. Demandé dans le fichier \"{}\" à la "
+"ligne {} : {}"
 
 #: cmdline_aliases.cpp:347
 msgid ""
 "Command \"{}\" already registered. Requested in file \"{}\" on line {}: {}"
 msgstr ""
+"Commande \"{}\" déjà enregistrée. Demandé dans le fichier \"{}\" à la ligne "
+"{} : {}"
 
 #: cmdline_aliases.cpp:375
 msgid "Unknown attribute \"{}\" of group \"{}\" in file \"{}\" on line {}: {}"
 msgstr ""
+"Attribut \"{}\" inconnu pour le groupe \"{}\" dans le fichier \"{}\" à la "
+"ligne {} : {}"
 
 #: cmdline_aliases.cpp:387
 msgid "Missing attribute \"header\" for element \"{}\" in file \"{}\""
 msgstr ""
+"Attribut \"header\" manquant pour l'élément \"{}\" dans le fichier \"{}\""
 
 #: cmdline_aliases.cpp:428 cmdline_aliases.cpp:538
 msgid ""
 "The \"short_name\" attribute of named argument \"{}\" must be one character "
 "long in file \"{}\" on line {}: {}"
 msgstr ""
+"L'attribut \"short_name\" de l'argument nommé \"{}\" doit avoir une longueur "
+"de 1 dans le fichier \"{}\" à la ligne {} : {}"
 
 #: cmdline_aliases.cpp:446
 msgid "Source \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
 msgstr ""
+"Source \"{}\" introuvable : {} : Demandé dans le fichier \"{}\" à la ligne {}"
+" : {}"
 
 #: cmdline_aliases.cpp:462 cmdline_aliases.cpp:563 cmdline_aliases.cpp:676
 msgid "Group \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
 msgstr ""
+"Groupe \"{}\" introuvable : {} : Demandé dans le fichier \"{}\" à la ligne {}"
+" : {}"
 
 #: cmdline_aliases.cpp:476 cmdline_aliases.cpp:579
 msgid ""
 "Unknown attribute \"{}\" of named argument \"{}\" in file \"{}\" on line {}: "
 "{}"
 msgstr ""
+"Attribut \"{}\" inconnu pour l'argument nommé \"{}\" dans le fichier \"{}\" "
+"à la ligne {} : {}"
 
 #: cmdline_aliases.cpp:489
 msgid "Missing attribute \"source\" for named argument \"{}\" in file \"{}\""
 msgstr ""
+"Attribut \"source\" manquant pour l'argument nommé \"{}\" dans le fichier "
+"\"{}\""
 
 #: cmdline_aliases.cpp:498 cmdline_aliases.cpp:592
 msgid ""
 "At least one of the attributes \"long_name\" and \"short_name\" must be set "
 "for named argument \"{}\" in file \"{}\""
 msgstr ""
+"Au moins 1 des attributs \"long_name\" et \"short_name\" doit être défini "
+"pour l'argument nommé \"{}\" dans le fichier \"{}\""
 
 #: cmdline_aliases.cpp:657
 msgid ""
 "Attached command \"{}\" not found: {}: Requested in file \"{}\" on line {}: "
 "{}"
 msgstr ""
+"Commande attachée \"{}\" introuvable : {} : Demandé dans le fichier \"{}\" à "
+"la ligne {} : {}"
 
 #: cmdline_aliases.cpp:691
 msgid ""
 "Used config file version \"1.0\" for attribute \"{}\" of command \"{}\" in "
 "file \"{}\" on line {}: {}"
 msgstr ""
+"Version de fichier de configuration \"1.0\" utilisée pour l'attribut \"{}\" "
+"de la commande \"{}\" dans le fichier \"{}\" à la ligne {} : {}"
 
 #: cmdline_aliases.cpp:713
 msgid ""
 "Unknown attribute \"{}\" of required value for alias \"{}\" in file \"{}\" "
 "on line {}: {}"
 msgstr ""
+"Attribut \"{}\" inconnu pour la valeur requise pour l'alias \"{}\" dans le "
+"fichier \"{}\" à la ligne {} : {}"
 
 #: cmdline_aliases.cpp:726
 msgid ""
 "Missing attribute \"value_help\" of required value for alias \"{}\" in file "
 "\"{}\""
 msgstr ""
+"Attribut \"value_help\" manquant pour la valeur requise pour l'alias \"{}\" "
+"dans le fichier \"{}\""
 
 #: cmdline_aliases.cpp:740
 msgid ""
 "Unknown attribute \"{}\" of command \"{}\" in file \"{}\" on line {}: {}"
 msgstr ""
+"Attribut \"{}\" inconnu pour la commande \"{}\" dans le fichier \"{}\" à la "
+"ligne {} : {}"
 
 #: cmdline_aliases.cpp:756
 msgid ""
 "Missing attribute \"attached_command\" for command \"{}\" in file \"{}\""
 msgstr ""
+"Attribut \"attached_command\" manquant pour la commande \"{}\" dans le "
+"fichier \"{}\""
 
 #: cmdline_aliases.cpp:791
 msgid "Bad value type in file \"{}\" on line {}: {}"
-msgstr ""
+msgstr "Type de valeur incorrect dans le fichier \"{}\" à la ligne {} : {}"
 
 #: cmdline_aliases.cpp:804
 msgid "Syntax error in file \"{}\" on line {}"
-msgstr ""
+msgstr "Erreur de syntaxe dans le fichier \"{}\" à la ligne {}"
 
 #: commands/advisory/advisory.cpp:36
 msgid "Manage advisories"
