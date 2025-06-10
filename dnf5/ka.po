@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-10 03:39+0000\n"
-"PO-Revision-Date: 2025-06-06 13:35+0000\n"
+"PO-Revision-Date: 2025-06-10 05:33+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ka/>\n"
@@ -28,127 +28,154 @@ msgid ""
 "Attached named argument \"{}\" not found: {}: Requested in file \"{}\" on "
 "line {}: {}"
 msgstr ""
+"მითითებული სახელიანი არგუმენტი \"{}\" აღმოჩენილი არაა: {}: მოთხოვნილია "
+"ფაილში \"{}\" ხაზზე {}: {}"
 
 #: cmdline_aliases.cpp:159
 msgid ""
 "Unknown attribute \"{}\" of attached named argument for alias \"{}\" in file "
 "\"{}\" on line {}: {}"
 msgstr ""
+"მიმაგრებული სახელიანი არგუმენტის უცნობი ატრიბუტი \"{}\" ფსევდონიმისთვის "
+"\"{}\" ფაილში \"{}\" ხაზზე {}: {}"
 
 #: cmdline_aliases.cpp:171
 msgid "Missing attribute \"id_path\" for alias \"{}\" in file \"{}\""
 msgstr ""
+"ატრიბუტი \"id_path\" მითითებული არაა ფსევდონიმისთვის \"{}\" ფაილში \"{}\""
 
 #: cmdline_aliases.cpp:208
 msgid "Unsupported version \"{}\" in file \"{}\". Supported versions: {}"
-msgstr ""
+msgstr "მხარდაუჭერელი ვერსია \"{}\" ფაილში \"{}\". მხარდაჭერილი ვერსიებია: {}"
 
 #: cmdline_aliases.cpp:218
 msgid "Bad value type of attribute \"version\" in file \"{}\" on line {}: {}"
 msgstr ""
+"არასწოი მნიშვნელობა ატრიბუტისთვის \"version\" ფაილში \"{}\" ხაზზე {}: {}"
 
 #: cmdline_aliases.cpp:224
 msgid "Missing attribute \"version\" in file \"{}\""
-msgstr ""
+msgstr "აკლია ატრიბუტი \"version\" ფაილში \"{}\""
 
 #: cmdline_aliases.cpp:236
 msgid "Unknown key \"{}\" in file \"{}\" on line {}: {}"
-msgstr ""
+msgstr "უცნობი გასაღები \"{}\" ფაილში \"{}\" ხაზზე {}: {}"
 
 #: cmdline_aliases.cpp:253
 msgid "Empty or bad element id path in file \"{}\" on line {}: {}"
-msgstr ""
+msgstr "ცარიელი ან არასწორი ელემენტის id ბილიკი ფაილში \"{}\" ხაზზე {}: {}"
 
 #: cmdline_aliases.cpp:272
 msgid ""
 "Parent command \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
 msgstr ""
+"მშობელი ბრძანება \"{}\" აღმოჩენილი არაა: {}: მოთხოვნილია ფაილში \"{}\" ხაზზე "
+"{}: {}"
 
 #: cmdline_aliases.cpp:301
 msgid "Unknown type \"{}\" of element \"{}\" in file \"{}\" on line {}: {}"
-msgstr ""
+msgstr "უცნობი ტიპი \"{}\" ელემენტისთვის \"{}\" ფაილში \"{}\" ხაზზე {}: {}"
 
 #: cmdline_aliases.cpp:312
 msgid "Missing attribute \"type\" for element \"{}\" in file \"{}\""
-msgstr ""
+msgstr "აკლია ატრიბუტი \"type\" ელემენტისთვის \"{}\" ფაილში \"{}\""
 
 #: cmdline_aliases.cpp:331
 msgid ""
 "Named argument \"{}\" already registered. Requested in file \"{}\" on line "
 "{}: {}"
 msgstr ""
+"სახელიანი არგუმენტი \"{}\" უკვე დარეგისტრირებულია. მოთხოვნილია ფაილში \"{}\" "
+"ხაზზე {}: {}"
 
 #: cmdline_aliases.cpp:347
 msgid ""
 "Command \"{}\" already registered. Requested in file \"{}\" on line {}: {}"
 msgstr ""
+"ბრძანება \"{}\" უკვე დარეგისტრირებულია. მოთხოვნილია ფაილში \"{}\" ხაზზე {}: "
+"{}"
 
 #: cmdline_aliases.cpp:375
 msgid "Unknown attribute \"{}\" of group \"{}\" in file \"{}\" on line {}: {}"
-msgstr ""
+msgstr "უცნობი ატრიბუტი \"{}\" ჯგუფის \"{}\" ფაილში \"{}\" ხაზზე {}: {}"
 
 #: cmdline_aliases.cpp:387
 msgid "Missing attribute \"header\" for element \"{}\" in file \"{}\""
-msgstr ""
+msgstr "აკლია ატრიბუტი \"header\" ელემენტისთვის \"{}\" ფაილში \"{}\""
 
 #: cmdline_aliases.cpp:428 cmdline_aliases.cpp:538
 msgid ""
 "The \"short_name\" attribute of named argument \"{}\" must be one character "
 "long in file \"{}\" on line {}: {}"
 msgstr ""
+"ატრიბუტი \"short_name\" სახელიანი ატრიბუტისთვის \"{}\" ერთ სიმბოლოს უნდა "
+"შეადგენდეს ფაილში \"{}\" ხაზზე {}: {}"
 
 #: cmdline_aliases.cpp:446
 msgid "Source \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
 msgstr ""
+"წყარო \"{}\" აღმოჩენილი არაა: {}: მოთხოვნილია ფაილში \"{}\" ხაზზე {}: {}"
 
 #: cmdline_aliases.cpp:462 cmdline_aliases.cpp:563 cmdline_aliases.cpp:676
 msgid "Group \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
-msgstr ""
+msgstr "ჯგუფი \"{}\" აღმოჩენილი არაა: {} მოთხოვნილია ფაილში \"{}\" ხაზზე {}: {}"
 
 #: cmdline_aliases.cpp:476 cmdline_aliases.cpp:579
 msgid ""
 "Unknown attribute \"{}\" of named argument \"{}\" in file \"{}\" on line {}: "
 "{}"
 msgstr ""
+"უცნობი ატრიბუტი \"{}\" სახელიანი არგუმენტისტვის \"{}\" ფაილში \"{}\" ხაზზე "
+"{}: {}"
 
 #: cmdline_aliases.cpp:489
 msgid "Missing attribute \"source\" for named argument \"{}\" in file \"{}\""
-msgstr ""
+msgstr "აკლია ატრიბუტი \"source\" სახელიანი არგუმენტისთვის \"{}\" ფაილში \"{}\""
 
 #: cmdline_aliases.cpp:498 cmdline_aliases.cpp:592
 msgid ""
 "At least one of the attributes \"long_name\" and \"short_name\" must be set "
 "for named argument \"{}\" in file \"{}\""
 msgstr ""
+"აუცილებელია ერთი ატრიბუტი მაინც, \"long_name\", ან \"short_name\" სახელიანი "
+"არგუმენტისთვის \"{}\" ფაილში \"{}\""
 
 #: cmdline_aliases.cpp:657
 msgid ""
 "Attached command \"{}\" not found: {}: Requested in file \"{}\" on line {}: "
 "{}"
 msgstr ""
+"მიმაგრებული ბრძანება \"{}\" არმოჩენილი არაა: {}: მოთხოვნილია ფაილში \"{}\" "
+"ხაზზე {}: {}"
 
 #: cmdline_aliases.cpp:691
 msgid ""
 "Used config file version \"1.0\" for attribute \"{}\" of command \"{}\" in "
 "file \"{}\" on line {}: {}"
 msgstr ""
+"გამოყენებულია კონფიგურაციის ფაილის ვერსია \"1.0\" ატრიბუტისთვის \"{}\" "
+"ბრძანებისთვის \"{}\" ფაილში \"{}\" ხაზზე {}: {}"
 
 #: cmdline_aliases.cpp:713
 msgid ""
 "Unknown attribute \"{}\" of required value for alias \"{}\" in file \"{}\" "
 "on line {}: {}"
 msgstr ""
+"უცნობი ატრიბუტი \"{}\" აუცილებელი მნიშვნელობისთვის ფსევდონიმისთვის \"{}\" "
+"ფაილში \"{}\" ხაზზე {}: {}"
 
 #: cmdline_aliases.cpp:726
 msgid ""
 "Missing attribute \"value_help\" of required value for alias \"{}\" in file "
 "\"{}\""
 msgstr ""
+"აკლია ატრიბუტი \"value_help\" აუცილებელი მნიშვნელობისთვის ფსევდონიმისთვის "
+"\"{}\" ფაილში \"{}\""
 
 #: cmdline_aliases.cpp:740
 msgid ""
 "Unknown attribute \"{}\" of command \"{}\" in file \"{}\" on line {}: {}"
-msgstr ""
+msgstr "უცნობი ატრიბუტი \"{}\" ბრძანებისთვის \"{}\" ფაილში \"{}\" ხაზზე {}: {}"
 
 #: cmdline_aliases.cpp:756
 msgid ""
