@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-10 03:39+0000\n"
-"PO-Revision-Date: 2025-06-07 08:39+0000\n"
+"PO-Revision-Date: 2025-06-11 03:40+0000\n"
 "Last-Translator: Paweł Marciniak <sunwire+fas@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/pl/>\n"
@@ -128,42 +128,49 @@ msgid ""
 "Attached command \"{}\" not found: {}: Requested in file \"{}\" on line {}: "
 "{}"
 msgstr ""
+"Dołączone polecenie „{}” nie zostało znalezione: {}: Żądano w pliku „{}” w "
+"linii {}: {}"
 
 #: cmdline_aliases.cpp:691
 msgid ""
 "Used config file version \"1.0\" for attribute \"{}\" of command \"{}\" in "
 "file \"{}\" on line {}: {}"
 msgstr ""
+"Użyto pliku konfiguracyjnego w wersji „1.0” dla atrybutu „{}” polecenia „{}” "
+"w pliku „{}” w linii {}: {}"
 
 #: cmdline_aliases.cpp:713
 msgid ""
 "Unknown attribute \"{}\" of required value for alias \"{}\" in file \"{}\" "
 "on line {}: {}"
 msgstr ""
+"Nieznany atrybut „{}” wymaganej wartości dla aliasu „{}” w pliku „{}” w "
+"linii {}: {}"
 
 #: cmdline_aliases.cpp:726
 msgid ""
 "Missing attribute \"value_help\" of required value for alias \"{}\" in file "
 "\"{}\""
 msgstr ""
+"Brak atrybutu „value_help” wymaganej wartości dla aliasu „{}” w pliku „{}”"
 
 #: cmdline_aliases.cpp:740
 msgid ""
 "Unknown attribute \"{}\" of command \"{}\" in file \"{}\" on line {}: {}"
-msgstr ""
+msgstr "Nieznany atrybut „{}” polecenia „{}” w pliku „{}” w linii {}: {}"
 
 #: cmdline_aliases.cpp:756
 msgid ""
 "Missing attribute \"attached_command\" for command \"{}\" in file \"{}\""
-msgstr ""
+msgstr "Brak atrybutu „attached_command” dla polecenia „{}” w pliku „{}”"
 
 #: cmdline_aliases.cpp:791
 msgid "Bad value type in file \"{}\" on line {}: {}"
-msgstr ""
+msgstr "Nieprawidłowy typ wartości w pliku „{}” w linii {}: {}"
 
 #: cmdline_aliases.cpp:804
 msgid "Syntax error in file \"{}\" on line {}"
-msgstr ""
+msgstr "Błąd składni w pliku „{}” w linii {}"
 
 #: commands/advisory/advisory.cpp:36
 msgid "Manage advisories"
