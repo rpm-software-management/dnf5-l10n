@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-11 03:39+0000\n"
-"PO-Revision-Date: 2025-06-11 03:40+0000\n"
+"PO-Revision-Date: 2025-06-11 13:46+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf5/libdnf5-cli/pt_BR/>\n"
@@ -22,11 +22,11 @@ msgstr ""
 
 #: argument_parser.cpp:68
 msgid "Misconfigured alias \"{}\": cannot convert \"{}\" to a number"
-msgstr "Alias desconfigurado \"{}\" não pode converter \"{}\" para um número"
+msgstr "Alias mal configurado \"{}\" não pode converter \"{}\" para um número"
 
 #: argument_parser.cpp:76
 msgid "Misconfigured alias \"{}\": index \"{}\" out of range"
-msgstr ""
+msgstr "Alias mal configurado \"{}\": índice \"{}\" fora do intervalo"
 
 #: argument_parser.cpp:98
 msgid "\"{}\" not allowed together with named argument \"{}\""
@@ -115,10 +115,8 @@ msgid "Missing positional argument \"{}\" for command \"{}\""
 msgstr "Faltando o argumento posicional \"{}\" para o comando \"{}\""
 
 #: argument_parser.cpp:1274
-#, fuzzy
-#| msgid "Missing value for named argument \"-{}\""
 msgid "Missing value for command alias \"{}\""
-msgstr "Faltando valor para o argumento nomeado \"-{}\""
+msgstr "Faltando valor para o alias de comando \"{}\""
 
 #: argument_parser.cpp:1610
 msgid "Named argument with path id \"{}\" not found"
