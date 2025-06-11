@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-10 03:39+0000\n"
+"POT-Creation-Date: 2025-06-11 03:39+0000\n"
 "PO-Revision-Date: 2025-06-10 07:53+0000\n"
 "Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf5/"
@@ -88,7 +88,8 @@ msgstr ""
 
 #: cmdline_aliases.cpp:312
 msgid "Missing attribute \"type\" for element \"{}\" in file \"{}\""
-msgstr "Attribut \"type\" manquant pour l'élément \"{}\" dans le fichier \"{}\""
+msgstr ""
+"Attribut \"type\" manquant pour l'élément \"{}\" dans le fichier \"{}\""
 
 #: cmdline_aliases.cpp:331
 msgid ""
@@ -127,14 +128,14 @@ msgstr ""
 #: cmdline_aliases.cpp:446
 msgid "Source \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
 msgstr ""
-"Source \"{}\" introuvable : {} : Demandé dans le fichier \"{}\" à la ligne {}"
-" : {}"
+"Source \"{}\" introuvable : {} : Demandé dans le fichier \"{}\" à la ligne "
+"{} : {}"
 
 #: cmdline_aliases.cpp:462 cmdline_aliases.cpp:563 cmdline_aliases.cpp:676
 msgid "Group \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
 msgstr ""
-"Groupe \"{}\" introuvable : {} : Demandé dans le fichier \"{}\" à la ligne {}"
-" : {}"
+"Groupe \"{}\" introuvable : {} : Demandé dans le fichier \"{}\" à la ligne "
+"{} : {}"
 
 #: cmdline_aliases.cpp:476 cmdline_aliases.cpp:579
 msgid ""
@@ -209,7 +210,9 @@ msgid "Bad value type in file \"{}\" on line {}: {}"
 msgstr "Type de valeur incorrect dans le fichier \"{}\" à la ligne {} : {}"
 
 #: cmdline_aliases.cpp:804
-msgid "Syntax error in file \"{}\" on line {}"
+#, fuzzy
+#| msgid "Syntax error in file \"{}\" on line {}"
+msgid "Syntax error in file \"{}\" on line {}:"
 msgstr "Erreur de syntaxe dans le fichier \"{}\" à la ligne {}"
 
 #: commands/advisory/advisory.cpp:36

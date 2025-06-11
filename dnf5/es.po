@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-10 03:39+0000\n"
+"POT-Creation-Date: 2025-06-11 03:39+0000\n"
 "PO-Revision-Date: 2025-06-10 13:59+0000\n"
 "Last-Translator: \"Fco. Javier F. Serrador\" <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -39,8 +39,8 @@ msgid ""
 "Unknown attribute \"{}\" of attached named argument for alias \"{}\" in file "
 "\"{}\" on line {}: {}"
 msgstr ""
-"Atributo \"{}\" desconocido de argumento nombrado adjuntado para alias \"{}\""
-" dentro del archivo \"{}\" en la línea {}: {}"
+"Atributo \"{}\" desconocido de argumento nombrado adjuntado para alias "
+"\"{}\" dentro del archivo \"{}\" en la línea {}: {}"
 
 #: cmdline_aliases.cpp:171
 msgid "Missing attribute \"id_path\" for alias \"{}\" in file \"{}\""
@@ -95,8 +95,8 @@ msgid ""
 "Named argument \"{}\" already registered. Requested in file \"{}\" on line "
 "{}: {}"
 msgstr ""
-"Argumento nombrado \"{}\" ya registrado. Solicitado dentro del archivo \"{}\""
-" en línea {}: {}"
+"Argumento nombrado \"{}\" ya registrado. Solicitado dentro del archivo "
+"\"{}\" en línea {}: {}"
 
 #: cmdline_aliases.cpp:347
 msgid ""
@@ -163,8 +163,8 @@ msgid ""
 "Attached command \"{}\" not found: {}: Requested in file \"{}\" on line {}: "
 "{}"
 msgstr ""
-"Instrucción adjunta \"{}\" no encontrada: {}: Solicitaba en el archivo \"{}\""
-" en línea {}: {}"
+"Instrucción adjunta \"{}\" no encontrada: {}: Solicitaba en el archivo "
+"\"{}\" en línea {}: {}"
 
 #: cmdline_aliases.cpp:691
 msgid ""
@@ -209,7 +209,9 @@ msgid "Bad value type in file \"{}\" on line {}: {}"
 msgstr "Tipo de valor incorrecto en archivo \"{}\" en línea {}: {}"
 
 #: cmdline_aliases.cpp:804
-msgid "Syntax error in file \"{}\" on line {}"
+#, fuzzy
+#| msgid "Syntax error in file \"{}\" on line {}"
+msgid "Syntax error in file \"{}\" on line {}:"
 msgstr "Error sintáctico dentro del archivo \"{}\" en línea {}"
 
 #: commands/advisory/advisory.cpp:36

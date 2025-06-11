@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-10 03:39+0000\n"
+"POT-Creation-Date: 2025-06-11 03:39+0000\n"
 "PO-Revision-Date: 2025-06-10 21:45+0000\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -95,8 +95,8 @@ msgstr ""
 msgid ""
 "Command \"{}\" already registered. Requested in file \"{}\" on line {}: {}"
 msgstr ""
-"Comanda „{}” este deja înregistrată. Solicitată în fișierul „{}” pe linia {}:"
-" {}"
+"Comanda „{}” este deja înregistrată. Solicitată în fișierul „{}” pe linia "
+"{}: {}"
 
 #: cmdline_aliases.cpp:375
 msgid "Unknown attribute \"{}\" of group \"{}\" in file \"{}\" on line {}: {}"
@@ -195,7 +195,9 @@ msgid "Bad value type in file \"{}\" on line {}: {}"
 msgstr "Tip de valoare incorect în fișierul „{}” pe linia {}: {}"
 
 #: cmdline_aliases.cpp:804
-msgid "Syntax error in file \"{}\" on line {}"
+#, fuzzy
+#| msgid "Syntax error in file \"{}\" on line {}"
+msgid "Syntax error in file \"{}\" on line {}:"
 msgstr "Eroare de sintaxă în fișierul „{}” pe linia {}"
 
 #: commands/advisory/advisory.cpp:36

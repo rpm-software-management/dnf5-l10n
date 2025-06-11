@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-10 03:39+0000\n"
+"POT-Creation-Date: 2025-06-11 03:39+0000\n"
 "PO-Revision-Date: 2025-06-10 06:31+0000\n"
 "Last-Translator: caffiendo c <1728778012@qq.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
@@ -38,7 +38,8 @@ msgstr "附加的命名参数 \"{}\" 未找到: {}: 请求的文件 \"{}\" 行�
 msgid ""
 "Unknown attribute \"{}\" of attached named argument for alias \"{}\" in file "
 "\"{}\" on line {}: {}"
-msgstr "未知属性 \"{}\" 为别名附加的命名参数 \"{}\" 在文件 \"{}\" 中的行列位置 {}: {}"
+msgstr ""
+"未知属性 \"{}\" 为别名附加的命名参数 \"{}\" 在文件 \"{}\" 中的行列位置 {}: {}"
 
 #: cmdline_aliases.cpp:171
 msgid "Missing attribute \"id_path\" for alias \"{}\" in file \"{}\""
@@ -100,7 +101,8 @@ msgstr "缺失元素中的\"header\" 属性 \"{}\" 在 \"{}\" 文件中"
 msgid ""
 "The \"short_name\" attribute of named argument \"{}\" must be one character "
 "long in file \"{}\" on line {}: {}"
-msgstr "\"short_name\" 命名参数的属性 \"{}\" 字符串长度必须大于1，在文件 \"{}\" 中，"
+msgstr ""
+"\"short_name\" 命名参数的属性 \"{}\" 字符串长度必须大于1，在文件 \"{}\" 中，"
 "行列位置 {}: {}"
 
 #: cmdline_aliases.cpp:446
@@ -125,7 +127,8 @@ msgstr "命名参数中缺失 \"source\" 属性 \"{}\" 文件 \"{}\""
 msgid ""
 "At least one of the attributes \"long_name\" and \"short_name\" must be set "
 "for named argument \"{}\" in file \"{}\""
-msgstr "命名参数中，\"long_name\" 和 \"short_name\" 属性必须至少提供一个 \"{}\" 文件 "
+msgstr ""
+"命名参数中，\"long_name\" 和 \"short_name\" 属性必须至少提供一个 \"{}\" 文件 "
 "\"{}\""
 
 #: cmdline_aliases.cpp:657
@@ -138,8 +141,9 @@ msgstr "附加命令 \"{}\" 未找到: {}: 请求文件 \"{}\" 行列位置 {}: 
 msgid ""
 "Used config file version \"1.0\" for attribute \"{}\" of command \"{}\" in "
 "file \"{}\" on line {}: {}"
-msgstr "为属性使用 \"1.0\" 版本的配置文件 \"{}\" 命令 \"{}\" 文件 \"{}\" 行列位置 {}:"
-" {}"
+msgstr ""
+"为属性使用 \"1.0\" 版本的配置文件 \"{}\" 命令 \"{}\" 文件 \"{}\" 行列位置 "
+"{}: {}"
 
 #: cmdline_aliases.cpp:713
 msgid ""
@@ -168,7 +172,9 @@ msgid "Bad value type in file \"{}\" on line {}: {}"
 msgstr "文件 \"{}\" 中有错误的值类型，位置 {}: {}"
 
 #: cmdline_aliases.cpp:804
-msgid "Syntax error in file \"{}\" on line {}"
+#, fuzzy
+#| msgid "Syntax error in file \"{}\" on line {}"
+msgid "Syntax error in file \"{}\" on line {}:"
 msgstr "文件语法错误 \"{}\" 位置 {}"
 
 #: commands/advisory/advisory.cpp:36
@@ -470,7 +476,8 @@ msgstr "计算机环境管理"
 msgid ""
 "The following items can be selected only from the specified repositories. "
 "All enabled repositories will still be used to satisfy dependencies."
-msgstr "以下项目只能从指定的存储库中选择。所有已启用的存储库仍将用于满足依赖项。"
+msgstr ""
+"以下项目只能从指定的存储库中选择。所有已启用的存储库仍将用于满足依赖项。"
 
 #: commands/from_repo.cpp:38
 msgid "REPO_ID,..."
