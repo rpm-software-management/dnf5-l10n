@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-11 03:39+0000\n"
-"PO-Revision-Date: 2025-05-13 11:25+0000\n"
-"Last-Translator: David Medina <dmedinacpnl@gmail.com>\n"
+"PO-Revision-Date: 2025-06-14 10:57+0000\n"
+"Last-Translator: Joan Aymà <joan@ayma.cat>\n"
 "Language-Team: Catalan <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ca/>\n"
 "Language: ca\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.11.3\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: cmdline_aliases.cpp:84 context.cpp:301 main.cpp:1357
 msgid ", "
@@ -29,74 +29,93 @@ msgid ""
 "Attached named argument \"{}\" not found: {}: Requested in file \"{}\" on "
 "line {}: {}"
 msgstr ""
+"L'argument anomenat \"{}\" adjuntat no s'ha trobat: {}: S'ha soŀlicitat al "
+"fitxer \"{}\" a la línia {}: {}"
 
 #: cmdline_aliases.cpp:159
 msgid ""
 "Unknown attribute \"{}\" of attached named argument for alias \"{}\" in file "
 "\"{}\" on line {}: {}"
 msgstr ""
+"Atribut desconegut \"{}\" d'un argument adjuntat anomenat per l'àlies \"{}\" "
+"a la línia {}: {}"
 
 #: cmdline_aliases.cpp:171
 msgid "Missing attribute \"id_path\" for alias \"{}\" in file \"{}\""
-msgstr ""
+msgstr "Falta l'atribut \"id_path\" per l'àlies \"{}\" en el fitxer \"{}\""
 
 #: cmdline_aliases.cpp:208
 msgid "Unsupported version \"{}\" in file \"{}\". Supported versions: {}"
-msgstr ""
+msgstr "Versió no suportada \"{}\" en el fitxer \"{}\". Versions suportades: {}"
 
 #: cmdline_aliases.cpp:218
 msgid "Bad value type of attribute \"version\" in file \"{}\" on line {}: {}"
 msgstr ""
+"Tipus de valor incorrecte per l'atribut \"version\" en el fitxer \"{}\" a la "
+"línia {}: {}"
 
 #: cmdline_aliases.cpp:224
 msgid "Missing attribute \"version\" in file \"{}\""
-msgstr ""
+msgstr "Falta l'atribut \"version\" en el fitxer \"{}\""
 
 #: cmdline_aliases.cpp:236
 msgid "Unknown key \"{}\" in file \"{}\" on line {}: {}"
-msgstr ""
+msgstr "Clau \"{}\" desconeguda en el fitxer \"{}\" a la línia {}: {}"
 
 #: cmdline_aliases.cpp:253
 msgid "Empty or bad element id path in file \"{}\" on line {}: {}"
 msgstr ""
+"Id de camí d'element buit o incorrecte en el fitxer \"{}\" a la línia {}: {}"
 
 #: cmdline_aliases.cpp:272
 msgid ""
 "Parent command \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
 msgstr ""
+"No s'ha trobat la comanda parent \"{}\": {}: Soŀlicitat en el fitxer \"{}\" "
+"a la línia {}: {}"
 
 #: cmdline_aliases.cpp:301
 msgid "Unknown type \"{}\" of element \"{}\" in file \"{}\" on line {}: {}"
 msgstr ""
+"Tipus \"{}\" desconegut de l'element \"{}\" en el fitxer \"{}\" a la línia "
+"{}: {}"
 
 #: cmdline_aliases.cpp:312
 msgid "Missing attribute \"type\" for element \"{}\" in file \"{}\""
-msgstr ""
+msgstr "Falta l'atribut \"type\" a l'element \"{}\" al fitxer \"{}\""
 
 #: cmdline_aliases.cpp:331
 msgid ""
 "Named argument \"{}\" already registered. Requested in file \"{}\" on line "
 "{}: {}"
 msgstr ""
+"L'argument anomenat \"{}\" ja està registrat. La soŀlicitud és en el fitxer "
+"\"{}\" a la línia {}: {}"
 
 #: cmdline_aliases.cpp:347
 msgid ""
 "Command \"{}\" already registered. Requested in file \"{}\" on line {}: {}"
 msgstr ""
+"La comanda \"{}\" ja està registrada. La soŀlicitud és en el fitxer \"{}\" a "
+"la línia {}: {}"
 
 #: cmdline_aliases.cpp:375
 msgid "Unknown attribute \"{}\" of group \"{}\" in file \"{}\" on line {}: {}"
 msgstr ""
+"Atribut \"{}\" desconegut del grup \"{}\" en el fitxer \"{}\" a la línia {}: "
+"{}"
 
 #: cmdline_aliases.cpp:387
 msgid "Missing attribute \"header\" for element \"{}\" in file \"{}\""
-msgstr ""
+msgstr "Falta l'atribut \"header\" a l'element \"{}\" en el fitxer \"{}\""
 
 #: cmdline_aliases.cpp:428 cmdline_aliases.cpp:538
 msgid ""
 "The \"short_name\" attribute of named argument \"{}\" must be one character "
 "long in file \"{}\" on line {}: {}"
 msgstr ""
+"L'atribut \"short_name\" de l'argument anomenat \"{}\" ha de tenir un "
+"caràcter de llargada en el fitxer \"{}\" a la línia {}: {}"
 
 #: cmdline_aliases.cpp:446
 msgid "Source \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
@@ -348,7 +367,7 @@ msgstr ""
 "tipus correcció d'errors, millora, seguretat o paquet nou. En cas que s'usi "
 "qualsevol opció que limiti els avisos, informa de les versions més baixes "
 "dels paquets que solucionen els avisos que coincideixen amb les propietats "
-"d'assessorament seleccionades."
+"d'assessorament seleccionades"
 
 #: commands/check/check.cpp:247
 msgid "Check for problems in the packagedb"
