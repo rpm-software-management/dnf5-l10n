@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-11 03:39+0000\n"
-"PO-Revision-Date: 2025-04-25 12:11+0000\n"
+"PO-Revision-Date: 2025-06-15 15:13+0000\n"
 "Last-Translator: Salvatore Cocuzza <info@salvatorecocuzza.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5-cli/it/>\n"
@@ -16,15 +16,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.11\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: argument_parser.cpp:68
 msgid "Misconfigured alias \"{}\": cannot convert \"{}\" to a number"
 msgstr ""
+"Alias \"{}\" non configurato correttamente: impossibile convertire \"{}\" in "
+"un numero"
 
 #: argument_parser.cpp:76
 msgid "Misconfigured alias \"{}\": index \"{}\" out of range"
 msgstr ""
+"Alias \"{}\" non configurato correttamente: indice \"{}\" fuori intervallo"
 
 #: argument_parser.cpp:98
 msgid "\"{}\" not allowed together with named argument \"{}\""
@@ -114,10 +117,8 @@ msgid "Missing positional argument \"{}\" for command \"{}\""
 msgstr "Argomento posizionale mancante \"{}\" per il comando \"{}\""
 
 #: argument_parser.cpp:1274
-#, fuzzy
-#| msgid "Missing value for named argument \"-{}\""
 msgid "Missing value for command alias \"{}\""
-msgstr "Valore mancante per l'argomento con nome \"-{}\""
+msgstr "Valore mancante per l'alias del comando \"{}\""
 
 #: argument_parser.cpp:1610
 msgid "Named argument with path id \"{}\" not found"
