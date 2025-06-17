@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-11 03:39+0000\n"
-"PO-Revision-Date: 2025-06-09 22:30+0000\n"
+"PO-Revision-Date: 2025-06-17 18:20+0000\n"
 "Last-Translator: Ciro Mota <ciro.mota@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf5/dnf5/pt_BR/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.11.4\n"
+"X-Generator: Weblate 5.12.1\n"
 
 #: cmdline_aliases.cpp:84 context.cpp:301 main.cpp:1357
 msgid ", "
@@ -101,72 +101,92 @@ msgid ""
 "The \"short_name\" attribute of named argument \"{}\" must be one character "
 "long in file \"{}\" on line {}: {}"
 msgstr ""
+"O atributo \"short_name\" do argumento nomeado \"{}\" deve ter um caractere "
+"de comprimento no arquivo \"{}\" na linha {}: {}"
 
 #: cmdline_aliases.cpp:446
 msgid "Source \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
 msgstr ""
+"Fonte \"{}\" não encontrada: {}: Solicitado no arquivo \"{}\" na linha {}: {}"
 
 #: cmdline_aliases.cpp:462 cmdline_aliases.cpp:563 cmdline_aliases.cpp:676
 msgid "Group \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
 msgstr ""
+"Grupo \"{}\" não encontrado: {}: Solicitado no arquivo \"{}\" na linha {}: {}"
 
 #: cmdline_aliases.cpp:476 cmdline_aliases.cpp:579
 msgid ""
 "Unknown attribute \"{}\" of named argument \"{}\" in file \"{}\" on line {}: "
 "{}"
 msgstr ""
+"Atributo desconhecido \"{}\" do argumento nomeado \"{}\" no arquivo \"{}\" "
+"na linha {}: {}"
 
 #: cmdline_aliases.cpp:489
 msgid "Missing attribute \"source\" for named argument \"{}\" in file \"{}\""
 msgstr ""
+"Atributo \"source\" ausente para o argumento nomeado \"{}\" no arquivo \"{}\""
 
 #: cmdline_aliases.cpp:498 cmdline_aliases.cpp:592
 msgid ""
 "At least one of the attributes \"long_name\" and \"short_name\" must be set "
 "for named argument \"{}\" in file \"{}\""
 msgstr ""
+"Pelo menos um dos atributos \"long_name\" e \"short_name\" deve ser definido "
+"para o argumento nomeado \"{}\" no arquivo \"{}\""
 
 #: cmdline_aliases.cpp:657
 msgid ""
 "Attached command \"{}\" not found: {}: Requested in file \"{}\" on line {}: "
 "{}"
 msgstr ""
+"Comando anexado \"{}\" não encontrado: {}: Solicitado no arquivo \"{}\" na "
+"linha {}: {}"
 
 #: cmdline_aliases.cpp:691
 msgid ""
 "Used config file version \"1.0\" for attribute \"{}\" of command \"{}\" in "
 "file \"{}\" on line {}: {}"
 msgstr ""
+"Arquivo de configuração usado versão \"1.0\" para o atributo \"{}\" do "
+"comando \"{}\" no arquivo \"{}\" na linha {}: {}"
 
 #: cmdline_aliases.cpp:713
 msgid ""
 "Unknown attribute \"{}\" of required value for alias \"{}\" in file \"{}\" "
 "on line {}: {}"
 msgstr ""
+"Atributo desconhecido \"{}\" de valor obrigatório para o alias \"{}\" no "
+"arquivo \"{}\" na linha {}: {}"
 
 #: cmdline_aliases.cpp:726
 msgid ""
 "Missing attribute \"value_help\" of required value for alias \"{}\" in file "
 "\"{}\""
 msgstr ""
+"Atributo \"value_help\" ausente do valor obrigatório para o alias \"{}\" no "
+"arquivo \"{}\""
 
 #: cmdline_aliases.cpp:740
 msgid ""
 "Unknown attribute \"{}\" of command \"{}\" in file \"{}\" on line {}: {}"
 msgstr ""
+"Atributo desconhecido \"{}\" do comando \"{}\" no arquivo \"{}\" na linha {}:"
+" {}"
 
 #: cmdline_aliases.cpp:756
 msgid ""
 "Missing attribute \"attached_command\" for command \"{}\" in file \"{}\""
 msgstr ""
+"Atributo ausente \"attached_command\" para o comando \"{}\" no arquivo \"{}\""
 
 #: cmdline_aliases.cpp:791
 msgid "Bad value type in file \"{}\" on line {}: {}"
-msgstr ""
+msgstr "Tipo de valor inválido no arquivo \"{}\" na linha {}: {}"
 
 #: cmdline_aliases.cpp:804
 msgid "Syntax error in file \"{}\" on line {}:"
-msgstr ""
+msgstr "Erro de sintaxe no arquivo \"{}\" na linha {}:"
 
 #: commands/advisory/advisory.cpp:36
 msgid "Manage advisories"
