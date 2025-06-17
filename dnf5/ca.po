@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-11 03:39+0000\n"
-"PO-Revision-Date: 2025-06-14 10:57+0000\n"
-"Last-Translator: Joan Aymà <joan@ayma.cat>\n"
+"PO-Revision-Date: 2025-06-17 10:10+0000\n"
+"Last-Translator: David Medina <dmedinacpnl@gmail.com>\n"
 "Language-Team: Catalan <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ca/>\n"
 "Language: ca\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.11.4\n"
+"X-Generator: Weblate 5.12.1\n"
 
 #: cmdline_aliases.cpp:84 context.cpp:301 main.cpp:1357
 msgid ", "
@@ -120,68 +120,88 @@ msgstr ""
 #: cmdline_aliases.cpp:446
 msgid "Source \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
 msgstr ""
+"Font \"{}\" no trobada: {}: sol·licitada al fitxer \"{}\" a la línia {}: {}"
 
 #: cmdline_aliases.cpp:462 cmdline_aliases.cpp:563 cmdline_aliases.cpp:676
 msgid "Group \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
 msgstr ""
+"No s'ha trobat el grup \"{}\": {}: s'ha sol·licitat al fitxer \"{}\" a la "
+"línia {}: {}"
 
 #: cmdline_aliases.cpp:476 cmdline_aliases.cpp:579
 msgid ""
 "Unknown attribute \"{}\" of named argument \"{}\" in file \"{}\" on line {}: "
 "{}"
 msgstr ""
+"Atribut desconegut \"{}\" de l'argument amb el nom \"{}\" al fitxer \"{}\" a "
+"la línia {}: {}"
 
 #: cmdline_aliases.cpp:489
 msgid "Missing attribute \"source\" for named argument \"{}\" in file \"{}\""
 msgstr ""
+"Falta l'atribut \"source\" per a l'argument amb el nom \"{}\" al fitxer "
+"\"{}\""
 
 #: cmdline_aliases.cpp:498 cmdline_aliases.cpp:592
 msgid ""
 "At least one of the attributes \"long_name\" and \"short_name\" must be set "
 "for named argument \"{}\" in file \"{}\""
 msgstr ""
+"Almenys un dels atributs \"long_name\" i \"short_name\" s'ha d'establir per "
+"a l'argument amb nom \"{}\" al fitxer \"{}\""
 
 #: cmdline_aliases.cpp:657
 msgid ""
 "Attached command \"{}\" not found: {}: Requested in file \"{}\" on line {}: "
 "{}"
 msgstr ""
+"No s'ha trobat l'ordre adjunta \"{}\": {}: s'ha sol·licitat al fitxer \"{}\" "
+"a la línia {}: {}"
 
 #: cmdline_aliases.cpp:691
 msgid ""
 "Used config file version \"1.0\" for attribute \"{}\" of command \"{}\" in "
 "file \"{}\" on line {}: {}"
 msgstr ""
+"S'ha usat la versió del fitxer de configuració \"1.0\" per a l'atribut \"{}\""
+" de l'ordre \"{}\" al fitxer \"{}\" a la línia {}: {}"
 
 #: cmdline_aliases.cpp:713
 msgid ""
 "Unknown attribute \"{}\" of required value for alias \"{}\" in file \"{}\" "
 "on line {}: {}"
 msgstr ""
+"Atribut desconegut \"{}\" del valor obligatori per a l'àlies \"{}\" al "
+"fitxer \"{}\" a la línia {}: {}"
 
 #: cmdline_aliases.cpp:726
 msgid ""
 "Missing attribute \"value_help\" of required value for alias \"{}\" in file "
 "\"{}\""
 msgstr ""
+"Falta l'atribut \"value_help\" del valor obligatori per a l'àlies \"{}\" al "
+"fitxer \"{}\""
 
 #: cmdline_aliases.cpp:740
 msgid ""
 "Unknown attribute \"{}\" of command \"{}\" in file \"{}\" on line {}: {}"
 msgstr ""
+"Atribut desconegut \"{}\" de l'ordre \"{}\" al fitxer \"{}\" a la línia {}: "
+"{}"
 
 #: cmdline_aliases.cpp:756
 msgid ""
 "Missing attribute \"attached_command\" for command \"{}\" in file \"{}\""
 msgstr ""
+"Falta l'atribut \"attached_command\" per a l'ordre \"{}\" al fitxer \"{}\""
 
 #: cmdline_aliases.cpp:791
 msgid "Bad value type in file \"{}\" on line {}: {}"
-msgstr ""
+msgstr "Tipus de valor incorrecte al fitxer \"{}\" a la línia {}: {}"
 
 #: cmdline_aliases.cpp:804
 msgid "Syntax error in file \"{}\" on line {}:"
-msgstr ""
+msgstr "Error de sintaxi al fitxer \"{}\" a la línia {}:"
 
 #: commands/advisory/advisory.cpp:36
 msgid "Manage advisories"
@@ -411,56 +431,52 @@ msgstr ""
 "recents disponibles"
 
 #: commands/do/do.cpp:44
-#, fuzzy
-#| msgid "Running transaction"
 msgid "Do transaction"
-msgstr "S'executa la transacció"
+msgstr "Fes la transacció"
 
 #: commands/do/do.cpp:49
 msgid "Action to be done on the following items."
-msgstr ""
+msgstr "Acció per fer als elements següents:"
 
 #: commands/do/do.cpp:63
 msgid "Unsupported action \"{}\""
-msgstr ""
+msgstr "Acció no admesa: \"{}\""
 
 #: commands/do/do.cpp:73
 msgid "Type of the following items."
-msgstr ""
+msgstr "Tipus dels elements següents:"
 
 #: commands/do/do.cpp:86
 msgid "Unsupported item type \"{}\""
-msgstr ""
+msgstr "Tipus d'element \"{}\" no compatible"
 
 #: commands/do/do.cpp:98
 msgid "List of items to take action on"
-msgstr ""
+msgstr "Llista d'elements sobre els quals cal actuar"
 
 #: commands/do/do.cpp:129 commands/do/do.cpp:133
 msgid "Only package downgrade is supported."
-msgstr ""
+msgstr "Només s'admet la baixada de paquets."
 
 #: commands/do/do.cpp:140 commands/do/do.cpp:144
 msgid "Only package reinstall is supported."
-msgstr ""
+msgstr "Només s'admet la reinstal·lació de paquets."
 
 #: commands/do/do.cpp:150
 msgid "Action was not defined"
-msgstr ""
+msgstr "No s'ha definit l'acció"
 
 #: commands/do/do.cpp:228
-#, fuzzy
-#| msgid "Invalid urlprotocol option: {}"
 msgid "Invalid Environmet/Group specification: {}"
-msgstr "Opció de protocol url invàlida: {}"
+msgstr "Especificació d'entorn / grup no vàlida: {}"
 
 #: commands/do/do.cpp:312
 msgid "Downgrading environments and groups is not supported."
-msgstr ""
+msgstr "No s'admet la baixada d'entorns i grups."
 
 #: commands/do/do.cpp:328
 msgid "Reinstaling environments and groups is not supported."
-msgstr ""
+msgstr "No s'admet la reinstal·lació d'entorns i grups."
 
 #: commands/downgrade/downgrade.cpp:42
 msgid "Downgrade software"
@@ -512,16 +528,17 @@ msgid ""
 "The following items can be selected only from the specified repositories. "
 "All enabled repositories will still be used to satisfy dependencies."
 msgstr ""
+"Els elements següents només es poden seleccionar dels repositoris "
+"especificats. Tots els dipòsits habilitats s'usaran encara per satisfer les "
+"dependències."
 
 #: commands/from_repo.cpp:38
-#, fuzzy
-#| msgid "CVE_ID,..."
 msgid "REPO_ID,..."
-msgstr "CVE_ID,..."
+msgstr "REPO_ID..."
 
 #: commands/from_repo.cpp:47
 msgid "\"--from_repo\" already defined with diferent value"
-msgstr ""
+msgstr "\"--from_repo\" ja està definit amb un valor diferent"
 
 #: commands/group/arguments.hpp:34
 msgid "Show only available groups."
@@ -1237,7 +1254,7 @@ msgstr "Es degrada {}"
 
 #: context.cpp:826
 msgid "Reinstalling {}"
-msgstr "Reinstal·lant {}"
+msgstr "Es reinstal·la {}"
 
 #: context.cpp:839
 msgid "Unexpected action in TransactionPackage: {}"
@@ -1245,7 +1262,7 @@ msgstr "Acció inesperada a TransactionPackage: {}"
 
 #: context.cpp:845
 msgid "Installing {}"
-msgstr "Instal·lant {}"
+msgstr "S'instal·la {}"
 
 #: context.cpp:866
 msgid "Prepare transaction"
