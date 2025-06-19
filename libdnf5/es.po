@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-11 03:39+0000\n"
+"POT-Creation-Date: 2025-06-19 03:39+0000\n"
 "PO-Revision-Date: 2025-06-03 16:14+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -1255,7 +1255,7 @@ msgstr "No se pude degradar el paquete «{}»"
 msgid "Cannot install package \"{}\""
 msgstr "No se puede instalar el paquete «{}»"
 
-#: rpm/versionlock_config.cpp:284 system/state.cpp:573
+#: rpm/versionlock_config.cpp:284 system/state.cpp:605
 msgid "{}"
 msgstr "{}"
 
@@ -1268,21 +1268,21 @@ msgstr "Incorrecto al convertir epoch «{}» a número"
 msgid "Writing debugsolver data into \"{}\" failed: {}"
 msgstr "Incorrecto al escribir datos debugsolver en «{}»: {}"
 
-#: system/state.cpp:280 system/state.cpp:289
+#: system/state.cpp:282 system/state.cpp:291
 msgid "Invalid TOML version \"{}\", \"MAJOR.MINOR\" expected"
 msgstr "No es válida la versión TOML «{}», \"MAYOR.MENOR\" esperado"
 
-#: system/state.cpp:297
+#: system/state.cpp:299
 msgid "{} state for \"{}\" not found."
 msgstr "Estado {} para «{}» no encontrado."
 
-#: system/state.cpp:301
+#: system/state.cpp:303
 msgid "Loading system state TOML file {} failed (see dnf5-system-state(7)): {}"
 msgstr ""
 "Cargando estado TOML del sistema en el archivo {} incorrecot (consulte dnf5-"
 "system-state(7)): {}"
 
-#: system/state.cpp:602
+#: system/state.cpp:640
 msgid "Unsupported TOML version \"{}\", maximum supported version is \"{}\""
 msgstr "Versión de TOML «{}» no mantenido, versión máxima mantenida es «{}»"
 

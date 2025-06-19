@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-11 03:39+0000\n"
+"POT-Creation-Date: 2025-06-19 03:39+0000\n"
 "PO-Revision-Date: 2025-06-01 08:46+0000\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -1265,7 +1265,7 @@ msgstr "Nu se poate retrograda pachetul „{}”"
 msgid "Cannot install package \"{}\""
 msgstr "Nu se poate instala pachetul „{}”"
 
-#: rpm/versionlock_config.cpp:284 system/state.cpp:573
+#: rpm/versionlock_config.cpp:284 system/state.cpp:605
 msgid "{}"
 msgstr "{}"
 
@@ -1278,21 +1278,21 @@ msgstr "A eșuat conversia epocii „{}” în număr"
 msgid "Writing debugsolver data into \"{}\" failed: {}"
 msgstr "Scrierea datelor debugsolver în „{}” a eșuat: {}"
 
-#: system/state.cpp:280 system/state.cpp:289
+#: system/state.cpp:282 system/state.cpp:291
 msgid "Invalid TOML version \"{}\", \"MAJOR.MINOR\" expected"
 msgstr "Versiune TOML nevalidă „{}”, se aștepta „V_MAJORĂ.V_MINORĂ”"
 
-#: system/state.cpp:297
+#: system/state.cpp:299
 msgid "{} state for \"{}\" not found."
 msgstr "Starea {} pentru „{}” nu a fost găsită."
 
-#: system/state.cpp:301
+#: system/state.cpp:303
 msgid "Loading system state TOML file {} failed (see dnf5-system-state(7)): {}"
 msgstr ""
 "Încărcarea fișierului TOML de stare a sistemului {} a eșuat (consultați dnf5-"
 "system-state(7)): {}"
 
-#: system/state.cpp:602
+#: system/state.cpp:640
 msgid "Unsupported TOML version \"{}\", maximum supported version is \"{}\""
 msgstr "Versiune TOML neacceptată „{}”, versiunea maximă acceptată este „{}”"
 
