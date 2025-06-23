@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-21 03:35+0000\n"
-"PO-Revision-Date: 2025-05-18 10:16+0000\n"
+"PO-Revision-Date: 2025-06-23 13:56+0000\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
 "projects/dnf5/dnf5-plugin-config-manager/zh_TW/>\n"
@@ -18,11 +18,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.11.3\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #: addrepo.cpp:136
 msgid "from-repofile: \"{}\" file does not exist"
-msgstr "from-repofile： 「{}」檔案不存在"
+msgstr "from-repofile：「{}」檔案不存在"
 
 #: addrepo.cpp:139
 msgid "from-repofile: {}"
@@ -34,11 +34,11 @@ msgstr "{}：格式錯誤的引數值「{}」"
 
 #: addrepo.cpp:179
 msgid "Cannot set repository option \"{}={}\": {}"
-msgstr "無法設定軟體庫選項「{}={}」： {}"
+msgstr "無法設定軟體庫選項「{}={}」：{}"
 
 #: addrepo.cpp:187 setopt.cpp:138
 msgid "Sets the \"{}\" option again with a different value: \"{}\" != \"{}\""
-msgstr "以不同的值再次設定 「{}」 選項： 「{}」 != 「{}」"
+msgstr "以不同的值再次設定 「{}」 選項：「{}」 != 「{}」"
 
 #: addrepo.cpp:253
 msgid "Missing path to repository configuration directory"
@@ -46,17 +46,17 @@ msgstr "遺失軟體庫設定目錄的路徑"
 
 #: addrepo.cpp:303
 msgid "Failed to copy repository configuration file \"{}\": {}"
-msgstr "複製軟體庫組態設定「{}」失敗： {}"
+msgstr "複製軟體庫組態設定「{}」失敗：{}"
 
 #: addrepo.cpp:314
 msgid "Failed to download repository configuration file \"{}\": {}"
-msgstr "下載軟體庫組態設定檔 「{}」 失敗： {}"
+msgstr "下載軟體庫組態設定檔 「{}」 失敗：{}"
 
 #: addrepo.cpp:342
 msgid ""
 "Error in added repository configuration file. Cannot set repository option "
 "\"{}={}\": {}"
-msgstr "新增軟體庫組態設定檔中出現錯誤。 無法設定軟體庫選項「{}={}」： {}"
+msgstr "新增軟體庫組態設定檔中出現錯誤。 無法設定軟體庫選項「{}={}」：{}"
 
 #: addrepo.cpp:376
 msgid "Bad baseurl: {}={}"
@@ -72,7 +72,7 @@ msgstr ""
 
 #: addrepo.cpp:429
 msgid "Failed to save repository configuration file \"{}\": {}"
-msgstr "儲存軟體庫組態設定檔 「{}」 失敗： {}"
+msgstr "儲存軟體庫組態設定檔 「{}」 失敗：{}"
 
 #: addrepo.cpp:451
 msgid ""
@@ -92,11 +92,11 @@ msgstr ""
 
 #: addrepo.cpp:474 addrepo.cpp:500
 msgid "A repository with id \"{}\" already configured in file: {}"
-msgstr "檔案中已設定 id 為 「{}」 的軟體庫： {}"
+msgstr "檔案中已設定 id 為 「{}」 的軟體庫：{}"
 
 #: addrepo.cpp:486 setopt.cpp:263
 msgid "Cannot read repositories from directory \"{}\": {}"
-msgstr "無法從目錄 「{}」 讀取軟體庫： {}"
+msgstr "無法從目錄 「{}」 讀取軟體庫：{}"
 
 #: config-manager.cpp:43
 msgid "Manage configuration"
@@ -109,21 +109,21 @@ msgstr "{}：格式錯誤的引數值：最後一個鍵的字元不能是「.」
 
 #: setopt.cpp:100 unsetopt.cpp:81
 msgid "{}: Empty repository id is not allowed: {}"
-msgstr "{}: 不允許使用空的軟體庫 ID： {}"
+msgstr "{}: 不允許使用空的軟體庫 ID：{}"
 
 #: setopt.cpp:109
 msgid "Cannot set repository option \"{}\": {}"
-msgstr "無法設定軟體庫選項 「{}」： {}"
+msgstr "無法設定軟體庫選項 「{}」：{}"
 
 #: setopt.cpp:116 setopt.cpp:179
 msgid ""
 "Sets the \"{}\" option of the repository \"{}\" again with a different "
 "value: \"{}\" != \"{}\""
-msgstr "以不同的值再次設定軟體庫 「{}」 的 「{}」 選項： 「{}」 != 「{}」"
+msgstr "以不同的值再次設定軟體庫 「{}」 的 「{}」 選項：「{}」 != 「{}」"
 
 #: setopt.cpp:130
 msgid "Cannot set option: \"{}\": {}"
-msgstr "無法設定選項： 「{}」: {}"
+msgstr "無法設定選項：「{}」: {}"
 
 #: setopt.cpp:170
 msgid "No matching repository to modify: {}"
@@ -131,11 +131,11 @@ msgstr "沒有符合的軟體庫要修改: {}"
 
 #: setvar.cpp:60
 msgid "Cannot set \"{}\": Variable \"{}\" is read-only"
-msgstr "無法設定 「{}」： 變數「{}」是唯讀的"
+msgstr "無法設定 「{}」：變數「{}」是唯讀的"
 
 #: setvar.cpp:68
 msgid "Sets the \"{}\" variable again with a different value: \"{}\" != \"{}\""
-msgstr "再次設定變數 「{}」 的不同值： 「{}」 != 「{}」"
+msgstr "再次設定變數 「{}」 的不同值：「{}」 != 「{}」"
 
 #: setvar.cpp:97 unsetvar.cpp:63
 msgid "Missing path to vars directory"
@@ -143,7 +143,7 @@ msgstr "缺少 vars 目錄的路徑"
 
 #: setvar.cpp:110
 msgid "Cannot write variable to file \"{}\": {}"
-msgstr "無法將變數寫入檔案「{}」： {}"
+msgstr "無法將變數寫入檔案「{}」：{}"
 
 #: shared.hpp:58
 msgid ""
@@ -163,60 +163,58 @@ msgstr "目錄 「{}」 不存在。 新增「--create-missing-dir」以建立�
 
 #: shared.hpp:80
 msgid "Variable name can contain only ASCII letters, numbers and '_': {}"
-msgstr "變數名稱只能包含 ASCII 字母、數字和 '_'： {}"
+msgstr "變數名稱只能包含 ASCII 字母、數字和 '_'：{}"
 
 #: unsetopt.cpp:93
 msgid "config-manager: Request to remove unsupported repository option: {}"
-msgstr "config-manager： 請求移除不支援的軟體庫選項： {}"
+msgstr "config-manager：請求移除不支援的軟體庫選項：{}"
 
 #: unsetopt.cpp:105
 msgid "config-manager: Request to remove unsupported main option: {}"
-msgstr "config-manager： 請求移除不支援的主要選項： {}"
+msgstr "config-manager：請求移除不支援的主要選項：{}"
 
 #: unsetopt.cpp:140
 msgid ""
 "config-manager: Request to remove main option but it is not present in the "
 "config file: {}"
-msgstr "config-manager： 請求移除主要選項，但它不存在於設定檔中： {}"
+msgstr "config-manager：請求移除主要選項，但它不存在於設定檔中：{}"
 
 #: unsetopt.cpp:152
 msgid ""
 "config-manager: Request to remove main option but config file not found: {}"
-msgstr "config-manager： 請求移除主要選項，但找不到設定檔： {}"
+msgstr "config-manager：請求移除主要選項，但找不到設定檔：{}"
 
 #: unsetopt.cpp:186
 msgid ""
 "config-manager: Request to remove repository option but repoid is not "
 "present in the overrides: {}"
-msgstr ""
-"config-manager： 請求移除 repository 選項，但 repoid 並未出現在 overrides "
-"中： {}"
+msgstr "config-manager：請求移除 repository 選項，但 repoid 並未出現在 overrides "
+"中：{}"
 
 #: unsetopt.cpp:194
 msgid ""
 "config-manager: Request to remove repository option but it is not present in "
 "the overrides: {}.{}"
-msgstr ""
-"config-manager： 請求移除 repository 選項，但它不存在於 overrides 中： {}.{}"
+msgstr "config-manager：請求移除 repository 選項，但它不存在於 overrides 中：{}.{}"
 
 #: unsetopt.cpp:214
 msgid ""
 "config-manager: Request to remove repository option but file with overrides "
 "not found: {}"
-msgstr "config-manager： 請求移除儲存庫選項，但未找到具有覆寫功能的檔案： {}"
+msgstr "config-manager：請求移除儲存庫選項，但未找到具有覆寫功能的檔案：{}"
 
 #: unsetvar.cpp:69
 msgid ""
 "config-manager: Request to remove variable but vars directory was not found: "
 "{}"
-msgstr "config-manager： 請求移除變數，但找不到 vars 目錄： {}"
+msgstr "config-manager：請求移除變數，但找不到 vars 目錄：{}"
 
 #: unsetvar.cpp:82
 msgid ""
 "config-manager: Request to remove variable but it is not present in the vars "
 "directory: {}"
-msgstr "config-manager： 請求移除變數，但變數不在 vars 目錄中： {}"
+msgstr "config-manager：請求移除變數，但變數不在 vars 目錄中：{}"
 
 #: unsetvar.cpp:88
 msgid "Cannot remove variable file \"{}\": {}"
-msgstr "無法移除變數檔案 「{}」： {}"
+msgstr "無法移除變數檔案 「{}」：{}"
