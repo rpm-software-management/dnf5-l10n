@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # hsu zangmen <chzang55@gmail.com>, 2025.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2025.
+# Cheng-Chia Tseng <pswo10680@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-21 03:35+0000\n"
-"PO-Revision-Date: 2025-04-26 02:23+0000\n"
-"Last-Translator: hsu zangmen <chzang55@gmail.com>\n"
+"PO-Revision-Date: 2025-06-23 13:56+0000\n"
+"Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
 "projects/dnf5/dnf5-plugin-copr/zh_TW/>\n"
 "Language: zh_TW\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.11\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #: copr.cpp:48
 msgid "Copr hub (the web-UI/API server) hostname"
@@ -63,18 +64,18 @@ msgid ""
 "Please do not file bug reports about these packages in Fedora\n"
 "Bugzilla. In case of problems, contact the owner of this repository.\n"
 msgstr ""
-"啟用 Copr 儲存庫。請注意，此軟體庫並非主發行版的一部分，\n"
+"啟用 Copr 軟體庫。請注意，此軟體庫並非主要散布版的一部分，\n"
 "在品質管控部分可能會有所差異。\n"
 "\n"
 "除了在\n"
 "<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-build-"
 "in-copr> \n"
 "的 Copr 常見問題所列出的規則之外，\n"
-"Fedora 計畫對這個軟體庫的內容不行使任何權力，\n"
-"套件的品質或安全等級也不受任何限制。\n"
+"Fedora 專案對這個軟體庫的內容不行使任何權力，\n"
+"軟體包的品質或安全等級也不受任何限制。\n"
 "\n"
-"請不要在 Fedora Bugzilla 中提交有關這些套件的錯誤報告。\n"
-"如有問題，請聯絡此套件庫的擁有者。\n"
+"請不要在 Fedora Bugzilla 中提交有關這些軟體包的錯誤報告。\n"
+"如有問題，請聯絡此軟體庫的擁有者。\n"
 
 #: copr_constants.hpp:41
 msgid ""
@@ -91,9 +92,9 @@ msgid ""
 "These repositories are being enabled together with the main\n"
 "repository.\n"
 msgstr ""
-"啟用 Copr 軟體庫的維護者決定讓它依賴於其他軟體庫。\n"
-"這些軟體庫通常是從主 Copr 軟體庫成功安裝 RPM 的必要條件 (它們提供執行時的依"
-"賴)。\n"
+"啟用的 Copr 軟體庫維護者，決定讓它依賴其他軟體庫。\n"
+"這些軟體庫通常是從主 Copr 軟體庫成功安裝 RPM "
+"的必要條件（它們提供執行時的依賴）。\n"
 "\n"
 "請注意，上面關於品質與錯誤回報的說明也適用於此，\n"
 "Fedora 專案並不會控制其中的內容。\n"
@@ -130,7 +131,7 @@ msgstr ""
 
 #: copr_list.cpp:51
 msgid "list Copr repositories"
-msgstr "列出 Copr 套件庫"
+msgstr "列出 Copr 軟體庫"
 
 #: copr_remove.cpp:35
 msgid ""
@@ -179,7 +180,7 @@ msgstr "無法在 {} 中找到項目 {}"
 
 #: copr_repo.cpp:449
 msgid "Removing old config file '{}'"
-msgstr "移除舊的設定檔 '{}'"
+msgstr "移除舊的組態檔 '{}'"
 
 #: copr_repo.cpp:452
 msgid "Can't remove"
