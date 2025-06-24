@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-24 03:40+0000\n"
-"PO-Revision-Date: 2025-06-24 20:30+0000\n"
+"PO-Revision-Date: 2025-06-24 20:51+0000\n"
 "Last-Translator: Sijmen Schoon <fedora@vijf.life>\n"
 "Language-Team: Dutch <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/nl/>\n"
@@ -615,238 +615,258 @@ msgstr "Deze transactie is al een keer uitgevoerd."
 
 #: base/transaction.cpp:81
 msgid "Cannot run transaction with resolving problems."
-msgstr ""
+msgstr "Kan transactie niet uitvoeren vanwege oplossingsproblemen."
 
 #: base/transaction.cpp:82
 msgid "Rpm transaction check failed."
-msgstr ""
+msgstr "RPM-transactiecontrole is mislukt."
 
 #: base/transaction.cpp:84
 msgid ""
 "Failed to obtain rpm transaction lock. Another transaction is in progress."
 msgstr ""
+"Kon rpm-transactieslot niet verkrijgen. Er draait al een andere transactie."
 
 #: base/transaction.cpp:85
 msgid "Rpm transaction failed."
-msgstr ""
+msgstr "RPM-transactie mislukt."
 
 #: base/transaction.cpp:86
 msgid "Signature verification failed."
-msgstr ""
+msgstr "Handtekeningsverificatie is mislukt."
 
 #: base/transaction.cpp:90
 msgid "The repository does not have any OpenPGP keys configured."
-msgstr ""
+msgstr "De repository heeft geen geconfigureerde OpenPGP-sleutels."
 
 #: base/transaction.cpp:91
 msgid "Public key is not installed."
-msgstr ""
+msgstr "Publieke sleutel is niet geïnstalleerd."
 
 #: base/transaction.cpp:92
 msgid "Canceled by the user."
-msgstr ""
+msgstr "Geannuleerd door de gebruiker."
 
 #: base/transaction.cpp:93
 msgid "Public key import failed."
-msgstr ""
+msgstr "Importeren van publieke sleutel is mislukt."
 
 #: base/transaction.cpp:980
 msgid "Invalid tsflag: {}"
-msgstr ""
+msgstr "Ongeldige tsflag: {}"
 
 #: base/transaction.cpp:1314
 msgid "Public key \"{}\" is already present, not importing."
-msgstr ""
+msgstr "Publieke sleutel \"{}\" is al aanwezig; import wordt overgeslagen."
 
 #: base/transaction.cpp:1335
 msgid "An error occurred importing key \"{}\": {}"
-msgstr ""
+msgstr "Er is een fout opgetreden bij het importeren van sleutel \"{}\": {}"
 
 #: base/transaction.cpp:1369
 msgid "OpenPGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
 msgstr ""
+"OpenPGP-controle voor pakket \"{}\" ({})\" van repository \"{}\" is mislukt: "
 
 #: base/transaction.cpp:1397
 msgid "Import of the key didn't help, wrong key?"
-msgstr ""
+msgstr "Het importeren van de sleutel hielp niet — verkeerde sleutel?"
 
 #: base/transaction.cpp:1416
 msgctxt "It is a joining character for repositories IDs"
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: base/transaction.cpp:1419
 msgid "Warning: skipped OpenPGP checks for {0} package from repository: {1}"
 msgid_plural ""
 "Warning: skipped OpenPGP checks for {0} packages from repository: {1}"
 msgstr[0] ""
+"Waarschuwing: OpenPGP-controles overgeslagen voor {0} pakket uit repository: "
+"{1}"
 msgstr[1] ""
+"Waarschuwing: OpenPGP-controles overgeslagen voor {0} pakketten uit "
+"repository: {1}"
 
 #: base/transaction.cpp:1422
 msgid "Warning: skipped OpenPGP checks for {0} package from repositories: {1}"
 msgid_plural ""
 "Warning: skipped OpenPGP checks for {0} packages from repositories: {1}"
 msgstr[0] ""
+"Waarschuwing: OpenPGP-controles overgeslagen voor {0} pakket uit "
+"repository's: {1}"
 msgstr[1] ""
+"Waarschuwing: OpenPGP-controles overgeslagen voor {0} pakketten uit "
+"repository's: {1}"
 
 #: common/exception.cpp:78
 msgid "System error"
-msgstr ""
+msgstr "Systeemfout"
 
 #: common/exception.cpp:199
 msgid "General RuntimeError exception"
-msgstr ""
+msgstr "Algemene RuntimeError-fout"
 
 #: common/sack/query.cpp:27
 msgid "Query must contain exactly one object."
-msgstr ""
+msgstr "Query moet exact één object bevatten."
 
 #: common/xdg.cpp:43
 msgid "get_user_home_dir(): Cannot determine the user's home directory"
-msgstr ""
+msgstr "get_user_home_dir(): Kan home-map van de gebruiker niet bepalen"
 
 #: common/xdg.cpp:98
 msgid "get_user_runtime_dir(): Cannot determine the user's runtime directory"
 msgstr ""
+"get_user_runtime_dir(): Kan de runtime-map van de gebruiker niet bepalen"
 
 #: comps/environment/environment.cpp:325
 msgid "failed to save xml document for comps"
-msgstr ""
+msgstr "kon het xml-document voor comps niet opslaan"
 
 #: comps/group/group.cpp:373
 msgid "Failed to save xml document for group \"{}\" to file \"{}\": {}"
 msgstr ""
+"Kon het xml-document voor groep \"{}\" niet opslaan naar bestand \"{}\": {}"
 
 #: comps/group/package.cpp:118 comps/group/package.cpp:121
 msgid "Invalid package type: {}"
-msgstr ""
+msgstr "Ongeldig pakkettype: {}"
 
 #: conf/config_main.cpp:57
 msgid "Input is empty. Must contain a value."
-msgstr ""
+msgstr "Invoer is leeg. Er moet een waarde worden opgegeven."
 
 #: conf/config_main.cpp:63
 msgid "Input value '{}' must not be negative"
-msgstr ""
+msgstr "Invoerwaarde '{}' mag niet negatief zijn"
 
 #: conf/config_main.cpp:68
 msgid "Could not convert '{}' to bytes"
-msgstr ""
+msgstr "Kon '{}' niet converteren naar bytes"
 
 #: conf/config_main.cpp:84
 msgid "Unknown unit '{}'"
-msgstr ""
+msgstr "Onbekende eenheid '{}'"
 
 #: conf/config_main.cpp:281
 msgid "The throttle value {} is outside the allowed range {} ... {}"
-msgstr ""
+msgstr "De throttle-waarde {} ligt buiten het toegestane bereik {} ... {}"
 
 #: conf/config_parser.cpp:54
 msgid "Section \"{}\" not found"
-msgstr ""
+msgstr "Sectie \"{}\" niet gevonden"
 
 #: conf/config_parser.cpp:59
 msgid "Section \"{}\" does not contain option \"{}\""
-msgstr ""
+msgstr "Sectie \"{}\" bevat geen optie \"{}\""
 
 #: conf/config_parser.cpp:96
 msgid "Configuration file \"{}\" not found"
-msgstr ""
+msgstr "Configuratiebestand \"{}\" niet gevonden"
 
 #: conf/config_parser.cpp:99
 msgid "Unable to access configuration file \"{}\""
-msgstr ""
+msgstr "Kon configuratiebestand \"{}\" niet openen"
 
 #: conf/config_parser.cpp:102
 msgid "Error in configuration file \"{}\""
-msgstr ""
+msgstr "Fout in configuratiebestand \"{}\""
 
 #: conf/option_binds.cpp:29
 msgid "Option \"{}\" not found"
-msgstr ""
+msgstr "Optie \"{}\" niet gevonden"
 
 #: conf/option_binds.cpp:32
 msgid "Option \"{}\" already exists"
-msgstr ""
+msgstr "Optie \"{}\" bestaat al"
 
 #: conf/option_bool.cpp:82
 msgid "Invalid boolean value \"{}\""
-msgstr ""
+msgstr "Ongeldige booleaanse waarde \"{}\""
 
 #: conf/option_enum.cpp:68
 msgid "Enum option value \"{}\" not allowed"
-msgstr ""
+msgstr "Enum-optiewaarde \"{}\" niet toegestaan"
 
 #: conf/option_number.cpp:99
 msgid "Input value {} is outside the allowed range {} ... {}"
-msgstr ""
+msgstr "Invoerwaarde {} is buiten het toegestane bereik {} ... {}"
 
 #: conf/option_number.cpp:112
 msgid "Invalid number option value \"{}\""
-msgstr ""
+msgstr "Ongeldige nummeroptiewaarde \"{}\""
 
 #: conf/option_path.cpp:93
 msgid "Only absolute paths allowed, relative path \"{}\" detected"
 msgstr ""
+"Alleen absolute paden zijn toegestaan, maar een relatief pad \"{}\" is "
+"gedetecteerd"
 
 #: conf/option_path.cpp:98
 msgid "Path \"{}\" does not exist"
-msgstr ""
+msgstr "Pad \"{}\" bestaat niet"
 
 #: conf/option_seconds.cpp:38
 msgid "Empty time option value"
-msgstr ""
+msgstr "Lege tijdoptiewaarde"
 
 #: conf/option_seconds.cpp:50
 msgid "Invalid time option value \"{}\", number or \"never\" expected"
-msgstr ""
+msgstr "Ongeldige tijdoptiewaarde \"{}\", nummer of \"never\" verwacht"
 
 #: conf/option_seconds.cpp:54
 msgid ""
 "Invalid time option value \"{}\", negative values except \"-1\" not allowed"
 msgstr ""
+"Ongeldige tijdoptiewaarde \"{}\", behalve \"-1\" zijn negatieve waarden niet "
+"toegestaan"
 
 #: conf/option_seconds.cpp:59
 msgid "Unknown time format \"{}\""
-msgstr ""
+msgstr "Onbekend tijdformaat \"{}\""
 
 #: conf/option_seconds.cpp:78
 msgid "Unknown time unit '{}'"
-msgstr ""
+msgstr "Ongebekende tijdseenheid '{}'"
 
 #: conf/option_string.cpp:89
 msgid ""
 "Input value \"{}\" not allowed, allowed values for this option are defined "
 "by regular expression \"{}\""
 msgstr ""
+"Invoerwaarde \"{}\" is niet toegestaan; toegestane waarden voor deze optie "
+"zijn gedefinieerd door de reguliere expressie \"{}\""
 
 #. TODO(jrohel): We don't know the option name at this time. Add a text name to the options
 #. or extend exception (add name) in upper layer.
 #: conf/option_string.cpp:114
 msgid "Option value is not set"
-msgstr ""
+msgstr "Optiewaarde is niet ingesteld"
 
 #: conf/option_string_list.cpp:175
 msgid ""
 "Input item value \"{}\" not allowed, allowed values for this option are "
 "defined by regular expression \"{}\""
 msgstr ""
+"Invoeritemwaarde \"{}\" is niet toegestaan; toegestane waarden voor deze "
+"optie zijn gedefinieerd door de reguliere expressie \"{}\""
 
 #: conf/vars.cpp:313 conf/vars.cpp:353
 msgid "Variable \"{}\" is read-only"
-msgstr ""
+msgstr "Variabele \"{}\" is alleen-lezen"
 
 #: logger/rotating_file_logger.cpp:65
 msgid "Cannot open log file"
-msgstr ""
+msgstr "Kan logbestand niet openen"
 
 #: module/module_db.cpp:76 module/module_db.cpp:85 module/module_sack.cpp:767
 msgid "No such module: {}"
-msgstr ""
+msgstr "Module {} bestaat niet"
 
 #: module/module_db.cpp:268
 msgid "Cannot enable multiple streams for module '{}'"
-msgstr ""
+msgstr "Kan meerdere streams voor module '{}' niet inschakelen"
 
 #. TODO(pkratoch) replace with a proper and descriptive exception
 #. TODO(jmracek) else if (removalOfProtected && removalOfProtected->size()) {
@@ -857,43 +877,43 @@ msgstr ""
 #: module/module_goal_private.cpp:83 rpm/solv/goal_private.cpp:342
 #: rpm/solv/goal_private.cpp:764
 msgid "no solution possible"
-msgstr ""
+msgstr "geen oplossing mogelijk"
 
 #: module/module_metadata.cpp:102
 msgid "Failed to update from string: {}"
-msgstr ""
+msgstr "Update van string mislukt: {}"
 
 #: module/module_metadata.cpp:129
 msgid "Failed to resolve module metadata: {}"
-msgstr ""
+msgstr "Oplossen module-metadata is mislukt: {}"
 
 #: module/module_metadata.cpp:140
 msgid "Failed to upgrade defaults: {}"
-msgstr ""
+msgstr "Upgrade van standaardwaarden mislukt: {}"
 
 #: module/module_metadata.cpp:144
 msgid "Failed to upgrade streams: {}"
-msgstr ""
+msgstr "Upgrade van streams mislukt: {}"
 
 #: module/module_sack.cpp:93
 msgid "Failed to load module metadata for repository \"{}\": {}"
-msgstr ""
+msgstr "Laden van module-metadata voor repository \"{}\" mislukt: {}"
 
 #: module/module_sack.cpp:594
 msgid "Missing '='"
-msgstr ""
+msgstr "Ontbrekende '='"
 
 #: module/module_sack.cpp:598 module/module_sack.cpp:606
 msgid "Missing '\"' in the value"
-msgstr ""
+msgstr "Ontbrekende '\"' in de waarde"
 
 #: module/module_sack.cpp:602
 msgid "Missing ':' in the value"
-msgstr ""
+msgstr "Ontbrekende ':' in de waarde"
 
 #: module/module_sack.cpp:911
 msgid "Invalid module status: {}"
-msgstr ""
+msgstr "Ongeldige modulestatus: {}"
 
 #: plugin/plugins.cpp:67
 msgid ""
@@ -905,41 +925,43 @@ msgstr ""
 
 #: plugin/plugins.cpp:92
 msgid "Failed to create a libdnf plugin instance"
-msgstr ""
+msgstr "Aanmaken van libdnf-plugin-instantie mislukt"
 
 #: plugin/plugins.cpp:146
 msgid "Cannot find plugin library \"{}\""
-msgstr ""
+msgstr "Kan pluginbibliotheek \"{}\" niet vinden"
 
 #: plugin/plugins.cpp:213
 msgid "Invalid option value: enabled={}"
-msgstr ""
+msgstr "Ongeldige optiewaarde: enabled={}"
 
 #: plugin/plugins.cpp:237
 msgid "Plugins::load_plugins(): config_dir_path cannot be empty"
-msgstr ""
+msgstr "Plugins::load_plugins(): config_dir_path kan niet leeg zijn"
 
 #: plugin/plugins.cpp:253
 msgid "Cannot load libdnf plugin enabled from: {}"
-msgstr ""
+msgstr "Kan libdnf-plugin niet laden die is ingeschakeld vanuit: {}"
 
 #: repo/config_repo.cpp:581
 msgid "get_unique_id(): Computation of SHA256 failed"
-msgstr ""
+msgstr "get_unique_id(): Berekenen van SHA256 mislukt"
 
 #: repo/file_downloader.cpp:154
 msgid "Cannot download files, cacheonly option is activated."
-msgstr ""
+msgstr "Kan bestanden niet downloaden, cacheonly-optie is ingeschakeld."
 
 #: repo/file_downloader.cpp:216
 msgid "Failed to download files"
-msgstr ""
+msgstr "Downloaden van bestanden is mislukt"
 
 #: repo/librepo.cpp:118
 msgid ""
 "Maximum download speed is lower than minimum, please change configuration of "
 "minrate or throttle"
 msgstr ""
+"Maximale downloadsnelheid is lager dan de minimumsnelheid, verander de "
+"configuratie van minrate of throttle"
 
 #: repo/librepo.cpp:181
 msgid "'proxy_username' is set but not 'proxy_password'"
