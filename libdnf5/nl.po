@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-24 03:40+0000\n"
-"PO-Revision-Date: 2025-06-24 21:13+0000\n"
+"PO-Revision-Date: 2025-06-24 22:06+0000\n"
 "Last-Translator: Sijmen Schoon <fedora@vijf.life>\n"
 "Language-Team: Dutch <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/nl/>\n"
@@ -1236,83 +1236,86 @@ msgstr "Lezen van pakket-header van bestand \"{}\" mislukt"
 
 #: rpm/transaction.cpp:305
 msgid "Cannot init rpm database iterator"
-msgstr ""
+msgstr "Initialiseren van rpm-database-iterator mislukt"
 
 #: rpm/transaction.cpp:309
 msgid "Package was not found in rpm database"
-msgstr ""
+msgstr "Pakket niet gevonden in rpm-database"
 
 #. TODO(jrohel): Why? Librpm does not provide this information.
 #: rpm/transaction.cpp:325
 msgid "Cannot reinstall package \"{}\""
-msgstr ""
+msgstr "Herinstalleren van pakket \"{}\" mislukt"
 
 #. TODO(jrohel): Why? Librpm does not provide this information.
 #: rpm/transaction.cpp:343
 msgid "Cannot remove package \"{}\""
-msgstr ""
+msgstr "Verwijderen van pakket \"{}\" is mislukt"
 
 #: rpm/transaction.cpp:362
 msgid "Cannot upgrade package \"{}\""
-msgstr ""
+msgstr "Upgraden van pakket \"{}\" is mislukt"
 
 #: rpm/transaction.cpp:366
 msgid "Cannot downgrade package \"{}\""
-msgstr ""
+msgstr "Downgraden van pakket \"{}\" is mislukt"
 
 #: rpm/transaction.cpp:370
 msgid "Cannot install package \"{}\""
-msgstr ""
+msgstr "Installeren van pakket \"{}\" is mislukt"
 
 #: rpm/versionlock_config.cpp:284 system/state.cpp:605
 msgid "{}"
-msgstr ""
+msgstr "{}"
 
 #. TODO(lukash) throw proper exception class
 #: solv/pool.cpp:174
 msgid "Failed to convert epoch \"{}\" to number"
-msgstr ""
+msgstr "Omzetten van epoch \"{}\" naar een nummer is mislukt"
 
 #: solv/solver.cpp:79
 msgid "Writing debugsolver data into \"{}\" failed: {}"
-msgstr ""
+msgstr "Schrijven van debugsolver-data naar \"{}\" is mislukt: {}"
 
 #: system/state.cpp:282 system/state.cpp:291
 msgid "Invalid TOML version \"{}\", \"MAJOR.MINOR\" expected"
-msgstr ""
+msgstr "Ongeldige TOML-versie \"{}\", \"MAJOR.MINOR\" verwacht"
 
 #: system/state.cpp:299
 msgid "{} state for \"{}\" not found."
-msgstr ""
+msgstr "{}-staat voor \"{}\" niet gevonden."
 
 #: system/state.cpp:303
 msgid "Loading system state TOML file {} failed (see dnf5-system-state(7)): {}"
 msgstr ""
+"Laden van TOML-bestand voor systeemstaat {} is mislukt (zie dnf5-system-"
+"state(7)): {}"
 
 #: system/state.cpp:640
 msgid "Unsupported TOML version \"{}\", maximum supported version is \"{}\""
 msgstr ""
+"Niet-ondersteunde TOML-versie \"{}\"; maximale ondersteunde versie is \"{}\""
 
 #: transaction/Swdb.cpp:91
 msgid "In progress"
-msgstr ""
+msgstr "Bezig"
 
 #: transaction/Swdb.cpp:99 transaction/Swdb.cpp:126 transaction/Swdb.cpp:136
 #: transaction/Swdb.cpp:150 transaction/Swdb.cpp:273 transaction/Swdb.cpp:281
 msgid "Not in progress"
-msgstr ""
+msgstr "Niet bezig"
 
 #: transaction/Swdb.cpp:158
 msgid "No transaction in progress"
-msgstr ""
+msgstr "Geen transactie bezig"
 
 #: transaction/Transformer.cpp:647
 msgid "Transformer: can't open history persist dir"
-msgstr ""
+msgstr "Transformer: kan de geschiedenisopslagmap niet openen"
 
 #: transaction/Transformer.cpp:660
 msgid "Couldn't find a history database"
-msgstr ""
+msgstr "Kon geen geschiedenisdatabase vinden"
 
 #. TODO(dmach): replace with a better exception class
 #: transaction/db/comps_environment_group.cpp:100
@@ -1320,199 +1323,231 @@ msgid ""
 "Failed to insert record into table 'comps_environment_group' in history "
 "database"
 msgstr ""
+"Invoegen van record in de tabel 'comps_environment_group' van de "
+"geschiedenisdatabase is mislukt"
 
 #: transaction/db/db.cpp:71
 msgid "Unable to get 'version' from table 'config'"
-msgstr ""
+msgstr "Kan 'version' niet ophalen uit de 'config'-tabel"
 
 #. TODO(dmach): replace with a better exception class
 #: transaction/db/item.cpp:43
 msgid "Failed to insert record into table 'item' in history database"
 msgstr ""
+"Invoegen van record in de tabel 'item' van de geschiedenisdatabase is mislukt"
 
 #: transaction/offline.cpp:195
 msgid "error reading offline state file"
-msgstr ""
+msgstr "fout bij lezen van het offlinestaat-bestand"
 
 #: transaction/offline.cpp:200
 msgid "incompatible version of state data"
-msgstr ""
+msgstr "incompatibele versie van staatdata"
 
 #: transaction/transaction.cpp:96
 msgid "Invalid transaction state: {}"
-msgstr ""
+msgstr "Ongeldige transactiestaat: {}"
 
 #: transaction/transaction.cpp:279
 msgid "Transaction has already started!"
-msgstr ""
+msgstr "Transactie is al gestart!"
 
 #: transaction/transaction_item_action.cpp:28
 msgid "Invalid transaction item action: {}"
-msgstr ""
+msgstr "Ongeldige transactieitemactie: {}"
 
 #: transaction/transaction_item_reason.cpp:28
 msgid "Invalid transaction item reason: {}"
-msgstr ""
+msgstr "Ongeldige transactieitemreden: {}"
 
 #: transaction/transaction_item_state.cpp:28
 msgid "Invalid transaction item state: {}"
-msgstr ""
+msgstr "Ongeldige transactieitemstaat: {}"
 
 #: transaction/transaction_item_type.cpp:28
 msgid "Invalid transaction item type: {}"
-msgstr ""
+msgstr "Ongeldig transactieitemtype: {}"
 
 #: transaction/transaction_merge.cpp:102
 msgid ""
 "Action '{0}' '{1}' cannot be merged after it was '{2}' in preceding "
 "transactions -> setting '{0}'."
 msgstr ""
+"Actie '{0}' '{1}' kan niet worden samengevoegd nadat deze '{2}' was in "
+"voorgaande transacties -> instelling '{0}'."
 
 #: transaction/transaction_merge.cpp:116
+#, fuzzy
 msgid ""
 "Action 'Upgrade' '{0}' cannot be merged because it is not present at that "
 "point -> setting 'Install'."
 msgstr ""
+"Actie 'Upgrade' '{0}' kan niet worden samengevoegd omdat deze op dat punt "
+"niet aanwezig is -> instelling 'Install'."
 
 #: transaction/transaction_merge.cpp:174 transaction/transaction_merge.cpp:231
 msgid ""
 "Action 'Reinstall' '{0}' cannot be merged because it is not present at that "
 "point -> setting 'Install'."
 msgstr ""
+"Actie 'Reinstall' '{0}' kan niet worden samengevoegd omdat deze op dat punt "
+"niet aanwezig is -> instelling 'Install'."
 
 #: transaction/transaction_merge.cpp:194
+#, fuzzy
 msgid ""
 "Action '{0}' '{1}' cannot be merged after it was '{2}' in preceding "
 "transaction -> setting '{0}'."
 msgstr ""
+"Actie '{0}' '{1}' kan niet worden samengevoegd nadat deze '{2}' was in "
+"voorgaande transactie -> instelling '{0}'."
 
 #: transaction/transaction_merge.cpp:215
 msgid "Unexpected action encountered: '{0}' during transaction merge."
 msgstr ""
+"Onverwachte actie tegengekomen: '{0}' tijdens samenvoegen van transactie."
 
 #: transaction/transaction_merge.cpp:224
 msgid ""
 "Action '{0}' '{1}' cannot be merged because it is not present at that point -"
 "> skipping it."
 msgstr ""
+"Actie '{0}' '{1}' kan niet worden samengevoegd omdat deze op dat punt niet "
+"aanwezig is -> wordt overgeslagen."
 
 #: transaction/transaction_merge.cpp:245
+#, fuzzy
 msgid ""
 "Action '{0}' '{1}' cannot be merged because it is not present at that point -"
 "> setting 'INSTALL'."
 msgstr ""
+"Actie '{0}' '{1}' kan niet worden samengevoegd omdat deze op dat punt niet "
+"aanwezig is -> instelling 'INSTALL'."
 
 #: transaction/transaction_merge.cpp:266
 msgid ""
 "Action '{0}' '{1}' cannot be merged because it is not present at that point "
 "(present versions are: {2}) -> skipping it."
 msgstr ""
+"Actie '{0}' '{1}' kan niet worden samengevoegd omdat deze op dat punt niet "
+"aanwezig is (aanwezige versies zijn: {2}) -> wordt overgeslagen."
 
 #: transaction/transaction_merge.cpp:277
 msgid ""
 "Action '{0}' '{1}' cannot be merged because it is already present at that "
 "point -> skipping it."
 msgstr ""
+"Actie '{0}' '{1}' kan niet worden samengevoegd omdat deze op dat punt al "
+"aanwezig is -> wordt overgeslagen."
 
 #: transaction/transaction_merge.cpp:294
 msgid ""
 "Action '{0}' '{1}' cannot be merged because it is already installed in "
 "version '{2}' -> keeping the action from older transaction with '{1}'."
 msgstr ""
+"Actie '{0}' '{1}' kan niet worden samengevoegd omdat deze al geïnstalleerd "
+"is in versie '{2}' -> actie van oudere transactie met '{1}' wordt behouden."
 
 #: transaction/transaction_merge.cpp:304
 msgid "Invalid action encountered: '{0}' during transaction merge."
 msgstr ""
+"Ongeldige actie tegengekomen: '{0}' tijdens samenvoegen van transacties."
 
 #: transaction/transaction_sr.cpp:49
 msgid "Transaction replay JSON serialized transaction input is empty"
 msgstr ""
+"De geserialiseerde JSON-transactieinvoer voor het herhalen van de transactie "
+"is leeg"
 
 #: transaction/transaction_sr.cpp:58
 msgid "Error during transaction replay JSON parsing : {}"
-msgstr ""
+msgstr "Fout bij het parsen van de JSON voor het herhalen van de transactie: {}"
 
 #: transaction/transaction_sr.cpp:68
 msgid "Unexpected version format: \"{}\", supported version is \"{}\""
-msgstr ""
+msgstr "Onverwacht versieformaat: \"{}\"; ondersteunde versie is \"{}\""
 
 #: transaction/transaction_sr.cpp:74
 msgid "Incompatible major version: \"{}\", supported major version is \"{}\""
-msgstr ""
+msgstr "Incompatibele hoofdversie: \"{}\"; ondersteunde hoofdversie is \"{}\""
 
 #: transaction/transaction_sr.cpp:81
 msgid "Invalid minor version: \"{}\", number expected"
-msgstr ""
+msgstr "Ongeldige subversie: \"{}\"; nummer verwacht"
 
 #: transaction/transaction_sr.cpp:84
 msgid "Missing key \"version\""
-msgstr ""
+msgstr "Ontbrekende sleutel \"versie\""
 
 #: transaction/transaction_sr.cpp:92
 msgid "Unexpected type of \"environments\", array expected"
-msgstr ""
+msgstr "Onverwacht type van \"environments\", array verwacht"
 
 #: transaction/transaction_sr.cpp:105
 msgid "Missing object key \"id\" in an environment"
-msgstr ""
+msgstr "Ontbrekende objectsleutel \"id\" in een omgeving"
 
 #: transaction/transaction_sr.cpp:110
 msgid "Missing object key \"action\" in an environment"
-msgstr ""
+msgstr "Ontbrekende objectsleutel \"action\" in een omgeving"
 
 #: transaction/transaction_sr.cpp:129
 msgid "Unexpected type of \"groups\", array expected"
-msgstr ""
+msgstr "Onverwacht type van \"groups\", array verwacht"
 
 #: transaction/transaction_sr.cpp:145
 msgid "Missing object key \"id\" in a group"
-msgstr ""
+msgstr "Ontbrekende objectsleutel \"id\" in een groep"
 
 #: transaction/transaction_sr.cpp:150
 msgid "Missing object key \"action\" in a group"
-msgstr ""
+msgstr "Ontbrekende objectsleutel \"action\" in een groep"
 
 #: transaction/transaction_sr.cpp:155
 msgid "Missing object key \"reason\" in a group"
-msgstr ""
+msgstr "Ontbrekende objectsleutel \"reason\" in een groep"
 
 #: transaction/transaction_sr.cpp:186
 msgid "Unexpected type of \"rpms\", array expected"
-msgstr ""
+msgstr "Onverwacht type van \"rpms\", array verwacht"
 
 #: transaction/transaction_sr.cpp:202
 msgid "Cannot parse NEVRA for rpm \"{}\""
-msgstr ""
+msgstr "Kan NEVRA niet parsen voor rpm \"{}\""
 
 #: transaction/transaction_sr.cpp:210
 msgid "Either \"nevra\" or \"package_path\" object key is required in an rpm"
 msgstr ""
+"Óf de objectsleutel \"nevra\" óf de objectsleutel \"package_path\" is "
+"vereist in een rpm"
 
 #: transaction/transaction_sr.cpp:215
 msgid "Missing object key \"action\" in an rpm"
-msgstr ""
+msgstr "Ontbrekende objectsleutel \"action\" in een rpm"
 
 #: transaction/transaction_sr.cpp:220
 msgid "Missing object key \"reason\" in an rpm"
-msgstr ""
+msgstr "Ontbrekende objectsleutel \"reason\" in een rpm"
 
 #: transaction/transaction_sr.cpp:227
 msgid ""
 "Missing mandatory object key \"group_id\" in an rpm with reason \"Group\" "
 "and action \"Reason Change\""
 msgstr ""
+"Ontbrekende verplichte objectsleutel \"group_id\" in een rpm met reden "
+"\"Group\" en actie \"Reason Change\""
 
 #: utils/fs/file.cpp:86
 msgid "cannot open file"
-msgstr ""
+msgstr "kan bestand niet openen"
 
 #: utils/fs/file.cpp:99
 msgid "cannot open file from fd"
-msgstr ""
+msgstr "kan bestand niet openen met fd"
 
 #: utils/fs/file.cpp:109
 msgid "cannot close file"
-msgstr ""
+msgstr "kan bestand niet sluiten"
 
 #: utils/fs/file.cpp:139 utils/fs/file.cpp:168
 msgid "error reading file"
@@ -1520,7 +1555,7 @@ msgstr ""
 
 #: utils/fs/file.cpp:154 utils/fs/file.cpp:180
 msgid "error writing file"
-msgstr ""
+msgstr "out bij schrijven van bestand"
 
 #: utils/fs/file.cpp:189
 msgid "error flushing file"
