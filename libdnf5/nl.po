@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-24 03:40+0000\n"
-"PO-Revision-Date: 2025-06-24 20:51+0000\n"
+"PO-Revision-Date: 2025-06-24 21:13+0000\n"
 "Last-Translator: Sijmen Schoon <fedora@vijf.life>\n"
 "Language-Team: Dutch <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/nl/>\n"
@@ -965,248 +965,274 @@ msgstr ""
 
 #: repo/librepo.cpp:181
 msgid "'proxy_username' is set but not 'proxy_password'"
-msgstr ""
+msgstr "'proxy_username' is ingesteld, maar 'proxy_password' niet"
 
 #: repo/package_downloader.cpp:154
 msgid "Cannot download the \"{0}\" package, cacheonly option is activated."
 msgstr ""
+"Kan het pakket \"{0}\" niet downloaden, cacheonly-optie is ingeschakeld."
 
 #: repo/package_downloader.cpp:219
 msgid "Already downloaded"
-msgstr ""
+msgstr "Reeds gedownload"
 
 #: repo/package_downloader.cpp:267
 msgid "Failed to download packages"
-msgstr ""
+msgstr "Kon pakketten niet downloaden"
 
 #: repo/repo.cpp:61
 msgid "Failed to load RPM \"{}\": doesn't have the \".rpm\" extension"
-msgstr ""
+msgstr "Kon RPM \"{}\" niet laden: bestand heeft geen \".rpm\"-extensie"
 
 #: repo/repo.cpp:65
 msgid "Failed to access RPM \"{}\": {}"
-msgstr ""
+msgstr "Kon RPM \"{}\" niet openen: {}"
 
 #: repo/repo.cpp:107
 msgid "Invalid repository id \"{}\": unexpected character '{}'"
-msgstr ""
+msgstr "Ongeldige repository-id \"{}\": onverwacht karakter '{}'"
 
 #: repo/repo.cpp:150
 msgid "Repository \"{}\" has no source (baseurl, mirrorlist or metalink) set."
 msgstr ""
+"Er is geen bron (baseurl, mirrorlist of metalink) ingesteld voor repository "
+"\"{}\"."
 
 #: repo/repo.cpp:161
 msgid "Repository \"{}\" has unsupported type \"{}\", skipping."
 msgstr ""
+"Repository \"{}\" heeft een niet-ondersteund type \"{}\" en wordt "
+"overgeslagen."
 
 #: repo/repo.cpp:221 repo/repo.cpp:241 repo/repo_sack.cpp:372
 msgid "Failed to download metadata ({}: \"{}\") for repository \"{}\": {}"
-msgstr ""
+msgstr "Downloaden van metadata ({}: \"{}\") voor repository \"{}\": {} mislukt"
 
 #: repo/repo.cpp:439
 msgid ""
 "Failed to load repository: \"primary\" data not present or in unsupported "
 "format"
 msgstr ""
+"Laden van repository mislukt: \"primaire\" data niet aanwezig of is in een "
+"niet-ondersteunde indeling"
 
 #: repo/repo.cpp:505
 msgid "Failed to load comps \"{}\": doesn't have the \".xml\" extension"
-msgstr ""
+msgstr "Laden van comps \"{}\" mislukt: bestand heeft geen \".xml\"-extensie"
 
 #: repo/repo.cpp:512
 msgid "Failed to load xml Comps \"{}\": {}"
-msgstr ""
+msgstr "Laden van xml comps \"{}\" mislukt: {}"
 
 #: repo/repo.cpp:530
 msgid "Failed to load RPM \"{}\": {}"
-msgstr ""
+msgstr "Laden van RPM \"{}\" mislukt: {}"
 
 #: repo/repo_cache.cpp:255
 msgid "Unable to determine id of the repository in the cache."
-msgstr ""
+msgstr "Bepalen van de ID van de repository in de cache mislukt."
 
 #: repo/repo_cache_private.hpp:59
 msgid "Empty path to the repository cache directory."
-msgstr ""
+msgstr "Leeg pad naar de repository-cachemap."
 
 #: repo/repo_downloader.cpp:214
 msgid "Librepo error: {}"
-msgstr ""
+msgstr "Librepo-fout: {}"
 
 #: repo/repo_downloader.cpp:258
 msgid "Failed to set up metadata download"
-msgstr ""
+msgstr "Het opzetten van de metadata-download is mislukt"
 
 #: repo/repo_downloader.cpp:312 repo/repo_downloader.cpp:362
 msgid "Failed to download metadata"
-msgstr ""
+msgstr "Downloaden metadata mislukt"
 
 #: repo/repo_downloader.cpp:426
 msgid "Error checking if metalink \"{}\" is in sync for repository \"{}\""
 msgstr ""
+"Controleren of metalink \"{}\" in sync is met repository \"{}\" is mislukt"
 
 #: repo/repo_downloader.cpp:446
 msgid "Error checking if repomd ({}: \"{}\") is in sync for repository \"{}\""
 msgstr ""
+"Controleren of repomd ({}: \"{}\") in sync is met repository \"{}\" is "
+"mislukt"
 
 #: repo/repo_downloader.cpp:515
 msgid "Error loading local metadata for repository \"{}\""
-msgstr ""
+msgstr "Laden van locale metadata voor repository \"{}\" is mislukt"
 
 #: repo/repo_downloader.cpp:597
 msgid ""
 "No valid source (baseurl, mirrorlist or metalink) found for repository \"{}\""
 msgstr ""
+"Geen geldige bron (baseurl, mirrorlist of metalink) gevonden voor repository "
+"\"{}\""
 
 #: repo/repo_pgp.cpp:60
 msgid "Failed to import OpenPGP keys into temporary keyring: {}"
 msgstr ""
+"Importeren van OpenPGP-sleutels naar de tijdelijke sleutelbos is mislukt: {}"
 
 #: repo/repo_pgp.cpp:66 repo/repo_pgp.cpp:93
 msgid "Failed to list OpenPGP keys: {}"
-msgstr ""
+msgstr "Het weergeven van OpenPGP-sleutels is mislukt: {}"
 
 #: repo/repo_pgp.cpp:141
 msgid "Failed to import OpenPGP keys: {}"
-msgstr ""
+msgstr "Het importeren van OpenPGP-sleutels is mislukt: {}"
 
 #: repo/repo_sack.cpp:159
 msgid ""
 "Failed to create repo \"{}\": Id is present more than once in the "
 "configuration"
 msgstr ""
+"Het aanmaken van repository \"{}\" is mislukt: ID is meer dan één keer "
+"aanwezig in de configuratie"
 
 #: repo/repo_sack.cpp:635
 msgid "Cache-only enabled but no cache for repository \"{}\""
-msgstr ""
+msgstr "Cache-only is ingeschakeld, maar er is geen cache voor repository {}"
 
 #: repo/solv_repo.cpp:267
 msgid "Failed to load repomd for repo \"{}\" from \"{}\": {}."
-msgstr ""
+msgstr "Laden van repomd voor repo \"{}\" van \"{}\" mislukt: {}."
 
 #: repo/solv_repo.cpp:275
 msgid "Failed to load primary for repo \"{}\" from \"{}\": {}."
-msgstr ""
+msgstr "Het laden van primary voor repository \"{}\" van \"{}\" is mislukt: {}."
 
 #: repo/solv_repo.cpp:323
 msgid "Unsupported extended repodata type for the system repo: \"{}\"."
 msgstr ""
+"Niet-ondersteund uitgebreid repodata-type voor de systeemrepository: \"{}\"."
 
 #: repo/solv_repo.cpp:395
 msgid "Failed to load {} extension for repo \"{}\" from \"{}\": {}"
-msgstr ""
+msgstr "Laden van extensie {} voor repository \"{}\" van \"{}\" is mislukt: {}"
 
 #: repo/solv_repo.cpp:431
 msgid "Failed to load system repo from root \"{}\": {}"
-msgstr ""
+msgstr "Laden van systeemrepository van root \"{}\" is mislukt: {}"
 
 #: repo/solv_repo.cpp:532
 msgid "Failed to load {} cache for repo \"{}\" from \"{}\": {}"
-msgstr ""
+msgstr "Laden van {}-cache voor repository \"{}\" van \"{}\" is mislukt: {}"
 
 #: repo/solv_repo.cpp:586
 msgid "Failed to write primary cache for repo \"{}\" to \"{}\": {}"
 msgstr ""
+"Schrijven van primary-cache voor repository \"{}\" naar \"{}\" is mislukt: {}"
 
 #: repo/solv_repo.cpp:608
 msgid "Failed to re-load primary cache for repo \"{}\" from \"{}\": {}"
 msgstr ""
+"Herladen van primary-cache voor repository \"{}\" van \"{}\" mislukt: {}"
 
 #: repo/solv_repo.cpp:673
 msgid "Failed to write {} cache for repo \"{}\" to \"{}\": {}"
 msgstr ""
+"Schrijven van {}-cache voor repository \"{}\" naar \"{}\" is mislukt: {}"
 
 #: repo/solv_repo.cpp:694
 msgid "Failed to re-load {} cache for repo \"{}\" from \"{}\": {}"
-msgstr ""
+msgstr "Herladen van {}-cache van repository \"{}\" van \"{}\" is mislukt: {}"
 
 #: repo/temp_files_memory.cpp:52
 msgid ""
 "An error occurred when parsing the temporary files memory file at '{}': {}"
 msgstr ""
+"Er is een fout opgetreden bij het verwerken van het geheugenbestand van "
+"tijdelijke bestanden op '{}': {}"
 
 #: rpm/nevra.cpp:82
 msgid "NEVRA string \"{}\" contains ':' multiple times"
-msgstr ""
+msgstr "NEVRA-string \"{}\" bevat meermaals ':'"
 
 #: rpm/nevra.cpp:86
 msgid "Invalid character '{}' in NEVRA string \"{}\""
-msgstr ""
+msgstr "Ongeldig teken '{}' in NEVRA-string \"{}\""
 
 #: rpm/package.cpp:81
 msgid "Package with rpmdbid was not found"
-msgstr ""
+msgstr "Pakket met rpmdbid niet gevonden"
 
 #: rpm/package.cpp:478
 msgid "<unknown>"
-msgstr ""
+msgstr "<onbekend>"
 
 #: rpm/reldep.cpp:116 rpm/reldep.cpp:123
 msgid "Cannot parse a dependency string"
-msgstr ""
+msgstr "Kan afhankelijkheidsstring niet parsen"
 
 #: rpm/rpm_signature.cpp:45
 msgid "No corresponding key was found."
-msgstr ""
+msgstr "Geen bijbehorende sleutel gevonden."
 
 #: rpm/rpm_signature.cpp:46
 msgid "The signature is valid, but the key is not trusted."
-msgstr ""
+msgstr "De handtekening is geldig, maar de sleutel wordt niet vertrouwd."
 
 #: rpm/rpm_signature.cpp:47
 msgid "The package is not signed."
-msgstr ""
+msgstr "Het pakket is niet ondertekend."
 
 #: rpm/rpm_signature.cpp:48
 msgid "Problem occurred when opening the package."
-msgstr ""
+msgstr "Probleem opgetreden bij het openen van het pakket."
 
 #: rpm/rpm_signature.cpp:64
 msgid "Failed to set rpm transaction rootDir \"{}\"."
-msgstr ""
+msgstr "Instellen van rootDir rpm-transactie \"{}\" is mislukt."
 
 #: rpm/rpm_signature.cpp:290
 msgid "\"{}\": key is not an armored public key."
-msgstr ""
+msgstr "\"{}\": sleutel is geen 'armored' publieke sleutel."
 
 #: rpm/rpm_signature.cpp:295
 msgid "Failed to import public key \"{}\" to rpmdb: {}"
-msgstr ""
+msgstr "Importeren van publieke sleutel \"{}\" naar rpmdb mislukt: {}"
 
 #. TODO(jrohel): Why? Librpm does not provide this information.
 #: rpm/transaction.cpp:114
 msgid "Cannot set root directory \"{}\""
-msgstr ""
+msgstr "Instellen van root-map \"{}\" mislukt"
 
 #: rpm/transaction.cpp:125
 #, c-format
 msgid "Error %i opening rpm database"
-msgstr ""
+msgstr "Fout %i bij openen van rpm-database"
 
 #: rpm/transaction.cpp:134
 msgid "The rpmdbCookie() function did not return cookie of rpm database."
 msgstr ""
+"De rpmdbCookie()-functie heeft geen cookie van de rpm-database teruggegeven."
 
 #: rpm/transaction.cpp:199
 msgid "Failed to order the rpm transaction."
-msgstr ""
+msgstr "Het ordenen van de rpm-transactie is mislukt."
 
 #: rpm/transaction.cpp:235
 msgid ""
 "Failed to set scriptlet output file, cannot duplicate file descriptor: {}"
 msgstr ""
+"Instellen van uitvoerbestand voor scriptlet mislukt, bestanddescriptor kan "
+"niet worden gedupliceerd: {}"
 
 #: rpm/transaction.cpp:254
 msgid "Failed to set scriptlet output file, cannot open file \"{}\": {}"
 msgstr ""
+"Instellen van uitvoerbestand voor scriptlet mislukt, kan bestand \"{}\" niet "
+"openen: {}"
 
 #: rpm/transaction.cpp:275
 msgid "Failed to read package header, cannot open file \"{}\": {}"
-msgstr ""
+msgstr "Lezen van pakket-header mislukt; kan bestand \"{}\" niet openen: {}"
 
 #: rpm/transaction.cpp:292
 msgid "Failed to read package header from file \"{}\""
-msgstr ""
+msgstr "Lezen van pakket-header van bestand \"{}\" mislukt"
 
 #: rpm/transaction.cpp:305
 msgid "Cannot init rpm database iterator"
