@@ -7,74 +7,79 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-24 03:40+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-06-24 22:54+0000\n"
+"Last-Translator: Sijmen Schoon <fedora@vijf.life>\n"
+"Language-Team: Dutch <https://translate.fedoraproject.org/projects/dnf5/"
+"libdnf5-cli/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #: argument_parser.cpp:68
 #, c++-format
 msgid "Misconfigured alias \"{}\": cannot convert \"{}\" to a number"
 msgstr ""
+"Verkeerd geconfigureerde alias \"{}\": kan \"{}\" niet omzetten naar een "
+"nummer"
 
 #: argument_parser.cpp:76
 #, c++-format
 msgid "Misconfigured alias \"{}\": index \"{}\" out of range"
-msgstr ""
+msgstr "Verkeerd geconfigureerde alias \"{}\": index \"{}\" buiten bereik"
 
 #: argument_parser.cpp:98
 #, c++-format
 msgid "\"{}\" not allowed together with named argument \"{}\""
-msgstr ""
+msgstr "\"{}\" is niet toegestaan in combinatie met een genoemd argument \"{}\""
 
 #: argument_parser.cpp:100
 #, c++-format
 msgid "\"{}\" not allowed in command \"{}\""
-msgstr ""
+msgstr "\"{}\" is niet toegestaan in commando \"{}\""
 
 #: argument_parser.cpp:102
 #, c++-format
 msgid "\"{}\" not allowed together with positional argument \"{}\""
 msgstr ""
+"\"{}\" is niet toegestaan in combinatie met het positionele argument \"{}\""
 
 #: argument_parser.cpp:147
 #, c++-format
 msgid "Argument id \"{}\" already registered in group \"{}\""
-msgstr ""
+msgstr "Argument-id \"{}\" is al geregistreerd in groep \"{}\""
 
 #: argument_parser.cpp:274
 #, c++-format
 msgid "Invalid character '.' in argument id \"{}\""
-msgstr ""
+msgstr "Ongeldig teken '.' in argument-id \"{}\""
 
 #: argument_parser.cpp:382 argument_parser.cpp:387
 #, c++-format
 msgid "Too few values for positional argument \"{}\""
-msgstr ""
+msgstr "Te weinig waarden voor het positionele argument \"{}\""
 
 #: argument_parser.cpp:548
 #, c++-format
 msgid "Missing value for named argument \"--{}\""
-msgstr ""
+msgstr "Ontbrekende waarde voor benoemd argument \"--{}\""
 
 #: argument_parser.cpp:556
 #, c++-format
 msgid "Unexpected value for named argument \"--{}\""
-msgstr ""
+msgstr "Onverwachte waarde voor benoemd argument \"--{}\""
 
 #: argument_parser.cpp:598
 #, c++-format
 msgid "Missing value for named argument \"-{}\""
-msgstr ""
+msgstr "Ontbrekende waarde voor benoemd argument \"-{}\""
 
 #. print usage
 #: argument_parser.cpp:694
 msgid "Usage:"
-msgstr ""
+msgstr "Gebruik:"
 
 #: argument_parser.cpp:702
 msgid "Description:"
@@ -83,89 +88,91 @@ msgstr ""
 #: argument_parser.cpp:979
 #, c++-format
 msgid "Command id \"{}\" already registered for command \"{}\""
-msgstr ""
+msgstr "Opdracht-id \"{}\" is al geregistreerd voor commando \"{}\""
 
 #: argument_parser.cpp:990
 #, c++-format
 msgid "Named argument id \"{}\" already registered for command \"{}\""
-msgstr ""
+msgstr "Benoemd argument-id \"{}\" is al geregistreerd voor opdracht \"{}\""
 
 #: argument_parser.cpp:1000
 #, c++-format
 msgid "Positional argument id \"{}\" already registered for command \"{}\""
-msgstr ""
+msgstr "Positioneel argument-id \"{}\" is al geregistreerd voor opdracht \"{}\""
 
 #: argument_parser.cpp:1010
 #, c++-format
 msgid "Group id \"{}\" already registered for command \"{}\""
-msgstr ""
+msgstr "Groep-id \"{}\" al geregistreerd voor opdracht \"{}\""
 
 #: argument_parser.cpp:1037
 #, c++-format
 msgid "Command id \"{}\" does not contain subcommand with id \"{}\""
-msgstr ""
+msgstr "Opdracht-id \"{}\" bevat geen subcommando met id \"{}\""
 
 #: argument_parser.cpp:1045
 #, c++-format
 msgid "Command id \"{}\" does not contain named argument with id \"{}\""
-msgstr ""
+msgstr "Opdracht-id \"{}\" bevat geen benoemd argument met id \"{}\""
 
 #: argument_parser.cpp:1053
 #, c++-format
 msgid "Command id \"{}\" does not contain positional argument with id \"{}\""
-msgstr ""
+msgstr "Opdracht-id \"{}\" bevat geen positioneel argument met id \"{}\""
 
 #: argument_parser.cpp:1060
 #, c++-format
 msgid "Command id \"{}\" does not contain group with id \"{}\""
-msgstr ""
+msgstr "Opdracht-id \"{}\" bevat geen groep met id \"{}\""
 
 #: argument_parser.cpp:1177 argument_parser.cpp:1388
 #, c++-format
 msgid "Unknown argument \"{}\" for command \"{}\""
-msgstr ""
+msgstr "Onbekend argument \"{}\" voor commando \"{}\""
 
 #: argument_parser.cpp:1192 argument_parser.cpp:1403
 #, c++-format
 msgid "Missing positional argument \"{}\" for command \"{}\""
-msgstr ""
+msgstr "Ontbrekend positioneel argument \"{}\" voor opdracht \"{}\""
 
 #: argument_parser.cpp:1274
 #, c++-format
 msgid "Missing value for command alias \"{}\""
-msgstr ""
+msgstr "Ontbrekende waarde voor opdracht-alias \"{}\""
 
 #: argument_parser.cpp:1610
 #, c++-format
 msgid "Named argument with path id \"{}\" not found"
-msgstr ""
+msgstr "Benoemd argument met pad-id \"{}\" niet gevonden"
 
 #: argument_parser.cpp:1620
 #, c++-format
 msgid "Positional argument with path id \"{}\" not found"
-msgstr ""
+msgstr "Positioneel argument met pad-id \"{}\" niet gevonden"
 
 #: exception.cpp:30
 msgid "Operation aborted by the user."
-msgstr ""
+msgstr "Operatie afgebroken door de gebruiker."
 
 #: exception.cpp:33
 msgid "Failed to resolve the transaction"
-msgstr ""
+msgstr "Oplossen van transactie mislukt"
 
 #: output/moduleinfo.cpp:36
 msgid "Hint: [d]efault, [e]nabled, [x]disabled, [i]nstalled, [a]ctive"
 msgstr ""
+"Hint: [d]standaard, [e]ingeschakeld, [x]uitgeschakeld, [i]geïnstalleerd, [a]"
+"ctief"
 
 #: output/modulelist.cpp:39
 msgid "Hint: [d]efault, [e]nabled, [x]disabled, [i]nstalled"
-msgstr ""
+msgstr "Hint: [d]standaard, [e]ingeschakeld, [x]uitgeschakeld, [i]geïnstalleerd"
 
 #. Note for translators: This is a right-aligned column separator in
 #. a package properties table as in "Name    : bash".
 #: output/packageinfo.cpp:57
 msgid " : "
-msgstr ""
+msgstr " : "
 
 #. Add package
 #: output/packageinfo.cpp:63
@@ -190,15 +197,15 @@ msgstr ""
 
 #: output/packageinfo.cpp:75
 msgid "Obsoletes"
-msgstr ""
+msgstr "Vervangt"
 
 #: output/packageinfo.cpp:85
 msgid "Download size"
-msgstr ""
+msgstr "Downloadgrootte"
 
 #: output/packageinfo.cpp:89
 msgid "Installed size"
-msgstr ""
+msgstr "Geïnstalleerde grootte"
 
 #: output/packageinfo.cpp:91
 msgid "Source"
@@ -206,11 +213,11 @@ msgstr ""
 
 #: output/packageinfo.cpp:94
 msgid "From repository"
-msgstr ""
+msgstr "Van repository"
 
 #: output/packageinfo.cpp:96 output/transaction_table.cpp:295
 msgid "Repository"
-msgstr ""
+msgstr "Repository"
 
 #: output/packageinfo.cpp:98
 msgid "Summary"
@@ -234,7 +241,7 @@ msgstr ""
 
 #: output/search.cpp:45
 msgid " (exact)"
-msgstr ""
+msgstr " (exact)"
 
 #: output/search.cpp:90
 msgid "No matches found."
@@ -242,75 +249,75 @@ msgstr ""
 
 #: output/search.cpp:101
 msgid "Matched fields: "
-msgstr ""
+msgstr "Overeenkomende velden: "
 
 #: output/transaction_table.cpp:127
 msgid "Transaction Summary:\n"
-msgstr ""
+msgstr "Transactiesamenvatting:\n"
 
 #. Keep the replaceble number aligned across all messages.
 #: output/transaction_table.cpp:132
 #, c++-format
 msgid " Installing:      {:4} package\n"
 msgid_plural " Installing:      {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " Installeren:      {:4} pakket\n"
+msgstr[1] " Installeren:      {:4} paketten\n"
 
 #. Keep the replaceble number aligned across all messages.
 #: output/transaction_table.cpp:141
 #, c++-format
 msgid " Reinstalling:    {:4} package\n"
 msgid_plural " Reinstalling:    {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " Herinstalleren:   {:4} pakket\n"
+msgstr[1] " Herinstalleren:   {:4} pakketten\n"
 
 #. Keep the replaceble number aligned across all messages.
 #: output/transaction_table.cpp:150
 #, c++-format
 msgid " Upgrading:       {:4} package\n"
 msgid_plural " Upgrading:       {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " Upgraden:         {:4} pakket\n"
+msgstr[1] " Upgraden:         {:4} pakketten\n"
 
 #. Keep the replaceble number aligned across all messages.
 #: output/transaction_table.cpp:159
 #, c++-format
 msgid " Replacing:       {:4} package\n"
 msgid_plural " Replacing:       {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " Vervangen:        {:4} pakket\n"
+msgstr[1] " Vervangen:        {:4} pakketten\n"
 
 #. Keep the replaceble number aligned across all messages.
 #: output/transaction_table.cpp:168
 #, c++-format
 msgid " Removing:        {:4} package\n"
 msgid_plural " Removing:        {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " Verwijderen:      {:4} pakket\n"
+msgstr[1] " Verwijderen:      {:4} pakketten\n"
 
 #. Keep the replaceble number aligned across all messages.
 #: output/transaction_table.cpp:177
 #, c++-format
 msgid " Downgrading:     {:4} package\n"
 msgid_plural " Downgrading:     {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " Downgraden:       {:4} pakket\n"
+msgstr[1] " Downgraden:       {:4} pakketten\n"
 
 #. Keep the replaceble number aligned across all messages.
 #: output/transaction_table.cpp:186
 #, c++-format
 msgid " Changing reason: {:4} package\n"
 msgid_plural " Changing reason: {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " Reden veranderen: {:4} pakket\n"
+msgstr[1] " Reden veranderen: {:4} pakketten\n"
 
 #. Keep the replaceble number aligned across all messages.
 #: output/transaction_table.cpp:195
 #, c++-format
 msgid " Skipping:        {:4} package\n"
 msgid_plural " Skipping:        {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " Overslaan:        {:4} pakket\n"
+msgstr[1] " Overslaan:        {:4} pakketten\n"
 
 #: output/transaction_table.cpp:277
 msgid "Package"
@@ -327,12 +334,12 @@ msgstr ""
 #: output/transaction_table.cpp:357 output/transaction_table.cpp:451
 #, c++-format
 msgid "{} -> {}"
-msgstr ""
+msgstr "{} -> {}"
 
 #: output/transaction_table.cpp:373
 #, c++-format
 msgid "replacing {}"
-msgstr ""
+msgstr "vervangt {}"
 
 #: output/transaction_table.cpp:409 output/transaction_table.cpp:426
 msgid " <name-unset>"
@@ -340,35 +347,35 @@ msgstr ""
 
 #: output/transaction_table.cpp:457
 msgid "replacing "
-msgstr ""
+msgstr "vervangt "
 
 #: output/transaction_table.cpp:470
 msgid "Skipping packages with conflicts:"
-msgstr ""
+msgstr "Pakketten met conflicten om over te slaan:"
 
 #: output/transaction_table.cpp:472
 msgid "Skipping packages with broken dependencies:"
-msgstr ""
+msgstr "Pakketten met niet-oplosbare afhankelijkheden om over te slaan:"
 
 #: output/transaction_table.cpp:533
 msgid "Installing dependencies:"
-msgstr ""
+msgstr "Te installeren dependencies:"
 
 #: output/transaction_table.cpp:535
 msgid "Installing weak dependencies:"
-msgstr ""
+msgstr "Te installeren zwakke afhankelijkheden:"
 
 #: output/transaction_table.cpp:537
 msgid "Installing group/module packages:"
-msgstr ""
+msgstr "Te installeren groep/module-pakketten:"
 
 #: output/transaction_table.cpp:539
 msgid "Installing:"
-msgstr ""
+msgstr "Installeren:"
 
 #: output/transaction_table.cpp:543
 msgid "Upgrading:"
-msgstr ""
+msgstr "Upgraden:"
 
 #: output/transaction_table.cpp:546
 msgid "Downgrading:"
