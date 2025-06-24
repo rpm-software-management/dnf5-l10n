@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-21 03:35+0000\n"
+"POT-Creation-Date: 2025-06-24 03:40+0000\n"
 "PO-Revision-Date: 2025-06-11 07:31+0000\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -653,24 +653,26 @@ msgstr ""
 msgid "Lists packages depending on the packages' relation to the system"
 msgstr "Listează pachetele în funcție de relația pachetelor cu sistemul"
 
-#: commands/list/list.cpp:47
-msgid "List of keys to match case insensitively"
+#: commands/list/list.cpp:48
+#, fuzzy
+#| msgid "List of keys to match case insensitively"
+msgid "List of package-spec-NI to match (case insensitively)"
 msgstr ""
 "Listă de chei pentru potrivirea fără distincție între majuscule și minuscule"
 
-#: commands/list/list.cpp:59
+#: commands/list/list.cpp:60
 msgid "Show all versions of the packages, not only the latest ones."
 msgstr "Afișează toate versiunile pachetelor, nu doar pe cele mai recente."
 
-#: commands/list/list.cpp:65
+#: commands/list/list.cpp:66
 msgid "List installed packages."
 msgstr "Listează pachetele instalate."
 
-#: commands/list/list.cpp:69
+#: commands/list/list.cpp:70
 msgid "List available packages."
 msgstr "Listează pachetele disponibile."
 
-#: commands/list/list.cpp:76
+#: commands/list/list.cpp:77
 msgid ""
 "List extras, that is packages installed on the system that are not available "
 "in any known repository."
@@ -678,7 +680,7 @@ msgstr ""
 "Listează pachetele suplimentare, adică pachetele instalate în sistem care nu "
 "sunt disponibile în niciun depozit cunoscut."
 
-#: commands/list/list.cpp:84
+#: commands/list/list.cpp:85
 msgid ""
 "List packages installed on the system that are obsoleted by packages in any "
 "known repository."
@@ -686,47 +688,47 @@ msgstr ""
 "Listează pachetele instalate în sistem care au devenit obsolete din cauza "
 "pachetelor din oricare dintre depozitele cunoscute."
 
-#: commands/list/list.cpp:89
+#: commands/list/list.cpp:90
 msgid "List packages recently added into the repositories."
 msgstr "Listează pachetele adăugate recent în depozite."
 
-#: commands/list/list.cpp:93
+#: commands/list/list.cpp:94
 msgid "List upgrades available for the installed packages."
 msgstr "Listează actualizările disponibile pentru pachetele instalate."
 
-#: commands/list/list.cpp:97
+#: commands/list/list.cpp:98
 msgid "List packages which will be removed by the 'dnf autoremove' command."
 msgstr "Listează pachetele care vor fi eliminate de comanda «dnf autoremove»."
 
-#: commands/list/list.cpp:194 commands/list/list.cpp:199
+#: commands/list/list.cpp:195 commands/list/list.cpp:200
 msgid "Installed packages"
 msgstr "Pachete instalate"
 
-#: commands/list/list.cpp:195 commands/list/list.cpp:208
+#: commands/list/list.cpp:196 commands/list/list.cpp:209
 msgid "Available packages"
 msgstr "Pachete disponibile"
 
-#: commands/list/list.cpp:216
+#: commands/list/list.cpp:217
 msgid "Available upgrades"
 msgstr "Actualizări disponibile"
 
-#: commands/list/list.cpp:232
+#: commands/list/list.cpp:233
 msgid "Obsoleting packages"
 msgstr "Pachete devenite obsolete"
 
-#: commands/list/list.cpp:237
+#: commands/list/list.cpp:238
 msgid "Autoremove packages"
 msgstr "Pachete care pot fi eliminate automat"
 
-#: commands/list/list.cpp:241
+#: commands/list/list.cpp:242
 msgid "Extra packages"
 msgstr "Pachete suplimentare"
 
-#: commands/list/list.cpp:252
+#: commands/list/list.cpp:253
 msgid "Recently added packages"
 msgstr "Pachete adăugate recent"
 
-#: commands/list/list.cpp:257
+#: commands/list/list.cpp:258
 msgid "No matching packages to list"
 msgstr "Nu există pachete care să se potrivească de listat"
 
@@ -1055,20 +1057,22 @@ msgstr "Gestionează configurația versionlock"
 msgid "Add new entry to versionlock configuration"
 msgstr "Adaugă o nouă intrare la configurația versionlock"
 
-#: commands/versionlock/versionlock_add.cpp:43
-msgid "List of package specs to add versionlock for"
+#: commands/versionlock/versionlock_add.cpp:44
+#, fuzzy
+#| msgid "List of package specs to add versionlock for"
+msgid "List of package package-spec-N to add versionlock for"
 msgstr "Lista specificațiilor pachetelor pentru adăugarea la versionlock"
 
-#: commands/versionlock/versionlock_add.cpp:106
-#: commands/versionlock/versionlock_exclude.cpp:125
+#: commands/versionlock/versionlock_add.cpp:107
+#: commands/versionlock/versionlock_exclude.cpp:126
 msgid "No package found for \"{}\"."
 msgstr "Nu s-a găsit niciun pachet pentru „{}”."
 
-#: commands/versionlock/versionlock_add.cpp:133
+#: commands/versionlock/versionlock_add.cpp:134
 msgid "Adding versionlock on \"{0} = {1}\"."
 msgstr "Se adaugă blocarea versiunii „versionlock” la „{0} = {1}”."
 
-#: commands/versionlock/versionlock_add.cpp:136
+#: commands/versionlock/versionlock_add.cpp:137
 msgid "Package \"{}\" is already locked."
 msgstr "Pachetul „{}” este deja blocat."
 
@@ -1094,19 +1098,21 @@ msgstr "Se șterge intrarea versionlock:"
 msgid "Add new exclude entry to versionlock configuration"
 msgstr "Adaugă o nouă intrare de excludere la configurația versionlock"
 
-#: commands/versionlock/versionlock_exclude.cpp:43
-msgid "List of package specs to add versionlock exclude for"
+#: commands/versionlock/versionlock_exclude.cpp:44
+#, fuzzy
+#| msgid "List of package specs to add versionlock exclude for"
+msgid "List of package-spec-N to add versionlock exclude for"
 msgstr ""
 "Lista specificațiilor de pachete pentru care se adaugă excluderea de la "
 "blocareai versiunii „versionlock”"
 
-#: commands/versionlock/versionlock_exclude.cpp:88
-#: commands/versionlock/versionlock_exclude.cpp:100
+#: commands/versionlock/versionlock_exclude.cpp:89
+#: commands/versionlock/versionlock_exclude.cpp:101
 msgid "Adding versionlock exclude on \"{0} = {1}\"."
 msgstr ""
 "Se adaugă excluderea de la blocarea versiunii „versionlock” la „{0} = {1}”."
 
-#: commands/versionlock/versionlock_exclude.cpp:139
+#: commands/versionlock/versionlock_exclude.cpp:140
 msgid "Package \"{}\" is already excluded."
 msgstr "Pachetul „{}” este deja exclus."
 

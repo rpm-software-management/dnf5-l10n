@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-21 03:35+0000\n"
+"POT-Creation-Date: 2025-06-24 03:40+0000\n"
 "PO-Revision-Date: 2025-06-14 10:57+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
@@ -619,23 +619,25 @@ msgstr ""
 msgid "Lists packages depending on the packages' relation to the system"
 msgstr "꾸러미와 시스템의 연관에 따라 의존하는 꾸러미를 나열합니다"
 
-#: commands/list/list.cpp:47
-msgid "List of keys to match case insensitively"
+#: commands/list/list.cpp:48
+#, fuzzy
+#| msgid "List of keys to match case insensitively"
+msgid "List of package-spec-NI to match (case insensitively)"
 msgstr "대소문자를 구분하지 않도록 일치하는 키의 목록"
 
-#: commands/list/list.cpp:59
+#: commands/list/list.cpp:60
 msgid "Show all versions of the packages, not only the latest ones."
 msgstr "최종 부분만이 아닌 꾸러미의 모든 버전을 표시합니다."
 
-#: commands/list/list.cpp:65
+#: commands/list/list.cpp:66
 msgid "List installed packages."
 msgstr "설치된 꾸러미 목록."
 
-#: commands/list/list.cpp:69
+#: commands/list/list.cpp:70
 msgid "List available packages."
 msgstr "사용 할 수 있는 꾸러미 목록."
 
-#: commands/list/list.cpp:76
+#: commands/list/list.cpp:77
 msgid ""
 "List extras, that is packages installed on the system that are not available "
 "in any known repository."
@@ -643,7 +645,7 @@ msgstr ""
 "알려진 저장소에서 사용 할 수 없는 시스템에 설치된 꾸러미로 추가된 부분을 나열"
 "합니다."
 
-#: commands/list/list.cpp:84
+#: commands/list/list.cpp:85
 msgid ""
 "List packages installed on the system that are obsoleted by packages in any "
 "known repository."
@@ -651,47 +653,47 @@ msgstr ""
 "알려진 저장소에서 꾸러미에 의해 더 이상 사용하지 않는 시스템에서 설치된 꾸러"
 "미를 나열합니다."
 
-#: commands/list/list.cpp:89
+#: commands/list/list.cpp:90
 msgid "List packages recently added into the repositories."
 msgstr "최근에 저장소로 추가된 꾸러미를 나열합니다."
 
-#: commands/list/list.cpp:93
+#: commands/list/list.cpp:94
 msgid "List upgrades available for the installed packages."
 msgstr "설치된 꾸러미를 위해 사용 가능한 향상을 나열합니다."
 
-#: commands/list/list.cpp:97
+#: commands/list/list.cpp:98
 msgid "List packages which will be removed by the 'dnf autoremove' command."
 msgstr "'dnf autoremove' 명령에 의해 제거 될 꾸러미를 나열합니다."
 
-#: commands/list/list.cpp:194 commands/list/list.cpp:199
+#: commands/list/list.cpp:195 commands/list/list.cpp:200
 msgid "Installed packages"
 msgstr "설치된 꾸러미"
 
-#: commands/list/list.cpp:195 commands/list/list.cpp:208
+#: commands/list/list.cpp:196 commands/list/list.cpp:209
 msgid "Available packages"
 msgstr "사용 할 수 있는 꾸러미"
 
-#: commands/list/list.cpp:216
+#: commands/list/list.cpp:217
 msgid "Available upgrades"
 msgstr "사용 가능한 향상"
 
-#: commands/list/list.cpp:232
+#: commands/list/list.cpp:233
 msgid "Obsoleting packages"
 msgstr "더 이상 사용되지 않는 꾸러미"
 
-#: commands/list/list.cpp:237
+#: commands/list/list.cpp:238
 msgid "Autoremove packages"
 msgstr "꾸러미 자동제거"
 
-#: commands/list/list.cpp:241
+#: commands/list/list.cpp:242
 msgid "Extra packages"
 msgstr "추가 꾸러미"
 
-#: commands/list/list.cpp:252
+#: commands/list/list.cpp:253
 msgid "Recently added packages"
 msgstr "최근에 추가된 꾸러미"
 
-#: commands/list/list.cpp:257
+#: commands/list/list.cpp:258
 msgid "No matching packages to list"
 msgstr "목록과 일치하는 꾸러미가 없습니다"
 
@@ -1001,20 +1003,22 @@ msgstr "versionlock 구성 관리"
 msgid "Add new entry to versionlock configuration"
 msgstr "신규 항목을 versionlock 구성에 추가합니다"
 
-#: commands/versionlock/versionlock_add.cpp:43
-msgid "List of package specs to add versionlock for"
+#: commands/versionlock/versionlock_add.cpp:44
+#, fuzzy
+#| msgid "List of package specs to add versionlock for"
+msgid "List of package package-spec-N to add versionlock for"
 msgstr "versionlock을 추가하려는 꾸러미 상세 목록"
 
-#: commands/versionlock/versionlock_add.cpp:106
-#: commands/versionlock/versionlock_exclude.cpp:125
+#: commands/versionlock/versionlock_add.cpp:107
+#: commands/versionlock/versionlock_exclude.cpp:126
 msgid "No package found for \"{}\"."
 msgstr "\"{}\"를 위해 어떤 꾸러미도 찾을 수 없습니다."
 
-#: commands/versionlock/versionlock_add.cpp:133
+#: commands/versionlock/versionlock_add.cpp:134
 msgid "Adding versionlock on \"{0} = {1}\"."
 msgstr "\"{0} = {1}\"에서 versionlock 추가하기."
 
-#: commands/versionlock/versionlock_add.cpp:136
+#: commands/versionlock/versionlock_add.cpp:137
 msgid "Package \"{}\" is already locked."
 msgstr "꾸러미 {} 는 이미 잠겨졌습니다."
 
@@ -1038,16 +1042,18 @@ msgstr "versionlock 항목을 삭제 중:"
 msgid "Add new exclude entry to versionlock configuration"
 msgstr "신규 예외 항목을 versionlock 구성에 추가합니다"
 
-#: commands/versionlock/versionlock_exclude.cpp:43
-msgid "List of package specs to add versionlock exclude for"
+#: commands/versionlock/versionlock_exclude.cpp:44
+#, fuzzy
+#| msgid "List of package specs to add versionlock exclude for"
+msgid "List of package-spec-N to add versionlock exclude for"
 msgstr "versionlock 제외를 추가하려는 꾸러미 사양의 목록"
 
-#: commands/versionlock/versionlock_exclude.cpp:88
-#: commands/versionlock/versionlock_exclude.cpp:100
+#: commands/versionlock/versionlock_exclude.cpp:89
+#: commands/versionlock/versionlock_exclude.cpp:101
 msgid "Adding versionlock exclude on \"{0} = {1}\"."
 msgstr "\"{0} = {1}\"에서 versionlock 예외 추가 중."
 
-#: commands/versionlock/versionlock_exclude.cpp:139
+#: commands/versionlock/versionlock_exclude.cpp:140
 msgid "Package \"{}\" is already excluded."
 msgstr "꾸러미 {} 는 이미 제외되었습니다."
 
