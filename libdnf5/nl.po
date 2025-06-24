@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-24 03:40+0000\n"
-"PO-Revision-Date: 2025-06-24 14:36+0000\n"
+"PO-Revision-Date: 2025-06-24 20:30+0000\n"
 "Last-Translator: Sijmen Schoon <fedora@vijf.life>\n"
 "Language-Team: Dutch <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/nl/>\n"
@@ -407,7 +407,7 @@ msgstr "{} hoort niet bij een distupgrade-repository"
 
 #: base/solver_problems.cpp:42
 msgid "{0} from {1} has inferior architecture"
-msgstr "{0} van {1} heeft een slechtere architectuur"
+msgstr "{0} van {1} heeft een inferieure architectuur"
 
 #: base/solver_problems.cpp:43
 msgid "problem with installed package"
@@ -471,132 +471,147 @@ msgstr "kan niet tegelijkertijd {0} van {1} én {2} van {3} installeren"
 
 #: base/solver_problems.cpp:58
 msgid "package {0} from {1} conflicts with {2} provided by {3} from {4}"
-msgstr "pakket {0} van {1} conflicteert met {2} aangeboden door {3} van {4}"
+msgstr ""
+"pakket {0} van {1} conflicteert met {2}, dat door {3} van {4} aangeboden "
+"wordt"
 
 #: base/solver_problems.cpp:60
 msgid "installed package {0} conflicts with {1} provided by {2} from {3}"
 msgstr ""
-"geïnstalleerd pakket {0} conflicteert met {1} aangeboden door {2} van {3}"
+"geïnstalleerd pakket {0} conflicteert met {1}, dat door {2} van {3} "
+"aangeboden wordt"
 
 #: base/solver_problems.cpp:61
 msgid "package {0} from {1} obsoletes {2} provided by {3} from {4}"
-msgstr ""
+msgstr "pakket {0} van {1} vervangt {2}, dat door {3} van {4} aangeboden wordt"
 
 #: base/solver_problems.cpp:62
 msgid "installed package {0} obsoletes {1} provided by {2} from {3}"
 msgstr ""
+"geïnstalleerd pakket {0} vervangt {1}, dat door {2} van {3} aangeboden wordt"
 
 #: base/solver_problems.cpp:64
 msgid "package {0} from {1} implicitly obsoletes {2} provided by {3} from {4}"
 msgstr ""
+"pakket {0} van {1} vervangt impliciet {2}, dat door {3} van {4} aangeboden "
+"wordt"
 
 #: base/solver_problems.cpp:66
 msgid ""
 "package {1} from {2} requires {0}, but none of the providers can be installed"
 msgstr ""
+"pakket {1} van {2} vereist {0}, maar geen van de aanbieders kan worden "
+"geïnstalleerd"
 
 #: base/solver_problems.cpp:68
 msgid ""
 "installed package {1} requires {0}, but none of the providers can be "
 "installed"
 msgstr ""
+"geïnstalleerd pakket {1} vereist {0}, maar geen van de aanbieders kan worden "
+"geïnstalleerd"
 
 #: base/solver_problems.cpp:69
 msgid "package {0} from {1} conflicts with {2} provided by itself"
 msgstr ""
+"pakket {0} van {1} conflicteert met {2}, dat door zichzelf aangeboden wordt"
 
 #: base/solver_problems.cpp:70
 msgid "both package {0} from {1} and {3} from {4} obsolete {2}"
-msgstr ""
+msgstr "zowel pakket {0} van {1} als {3} van {4} vervangen {2}"
 
 #: base/solver_problems.cpp:72
 msgid ""
 "The operation would result in removing the following protected packages: {}"
 msgstr ""
+"De operatie zou ertoe leiden dat de volgende beschermde pakketten verwijderd "
+"worden: {}"
 
 #: base/solver_problems.cpp:75
 msgid "The operation would result in removing of running kernel: {}"
 msgstr ""
+"De operatie zou er toe leiden dat de draaiende kernel wordt vervangen: {}"
 
 #: base/solver_problems.cpp:77
 msgid "module {} does not belong to a distupgrade repository"
-msgstr ""
+msgstr "module {} hoort niet bij een distupgrade-repository"
 
 #: base/solver_problems.cpp:78
 msgid "module {} has inferior architecture"
-msgstr ""
+msgstr "module {} heeft een inferieure architectuur"
 
 #: base/solver_problems.cpp:79
 msgid "problem with installed module {}"
-msgstr ""
+msgstr "probleem met geïnstalleerde module {}"
 
 #: base/solver_problems.cpp:83
 msgid "module {} does not exist"
-msgstr ""
+msgstr "module {} bestaat niet"
 
 #: base/solver_problems.cpp:86
 msgid "cannot install the best update candidate for module {}"
-msgstr ""
+msgstr "kan de beste update-kandidaat voor module {} niet installeren"
 
 #: base/solver_problems.cpp:88 base/solver_problems.cpp:91
 msgid "module {} is disabled"
-msgstr ""
+msgstr "module {} is uitgeschakeld"
 
 #: base/solver_problems.cpp:89
 msgid "module {} does not have a compatible architecture"
-msgstr ""
+msgstr "module {} heeft geen compatibele architectuur"
 
 #: base/solver_problems.cpp:90
 msgid "module {} is not installable"
-msgstr ""
+msgstr "module {} is niet installeerbaar"
 
 #: base/solver_problems.cpp:92
 msgid "nothing provides {0} needed by module {1}"
-msgstr ""
+msgstr "niets biedt {0} aan, dat nodig is voor module {1}"
 
 #: base/solver_problems.cpp:93
 msgid "cannot install both modules {0} and {1}"
-msgstr ""
+msgstr "kan modules {0} en {1} niet tegelijk installeren"
 
 #: base/solver_problems.cpp:94
 msgid "module {0} conflicts with {1} provided by {2}"
-msgstr ""
+msgstr "module {0} conflicteert met {1}, dat door {2} aangeboden wordt"
 
 #: base/solver_problems.cpp:95
 msgid "module {0} obsoletes {1} provided by {2}"
-msgstr ""
+msgstr "module {0} vervangt {1}, dat door {2} aangeboden wordt"
 
 #: base/solver_problems.cpp:96
 msgid "installed module {0} obsoletes {1} provided by {2}"
-msgstr ""
+msgstr "geïnstalleerde module {0} vervangt {1}, dat door {2} aangeboden wordt"
 
 #: base/solver_problems.cpp:97
 msgid "module {0} implicitly obsoletes {1} provided by {2}"
-msgstr ""
+msgstr "module {0} vervangt impliciet {1}, dat door {2} aangeboden wordt"
 
 #: base/solver_problems.cpp:98
 msgid "module {1} requires {0}, but none of the providers can be installed"
 msgstr ""
+"module {1} vereist {0}, maar geen van de aanbieders kan worden geïnstalleerd"
 
 #: base/solver_problems.cpp:99
 msgid "module {1} conflicts with {0} provided by itself"
-msgstr ""
+msgstr "module {1} conflicteert met {0}, dat door zichzelf aangeboden wordt"
 
 #: base/solver_problems.cpp:100
 msgid "both module {0} and {2} obsolete {1}"
-msgstr ""
+msgstr "modules {0} en {2} vervangen beiden {1}"
 
 #: base/solver_problems.cpp:290
 msgid "Problem: "
-msgstr ""
+msgstr "Probleem: "
 
 #: base/solver_problems.cpp:294
 msgid "Problem {}: "
-msgstr ""
+msgstr "Probleem {}: "
 
 #: base/transaction.cpp:80
 msgid "This transaction has been already run before."
-msgstr ""
+msgstr "Deze transactie is al een keer uitgevoerd."
 
 #: base/transaction.cpp:81
 msgid "Cannot run transaction with resolving problems."
@@ -885,6 +900,8 @@ msgid ""
 "Unsupported plugin API combination. API version provided by plugin "
 "\"{}\" (\"{}\") is \"{}.{}\". API version in libdnf is \"{}.{}\"."
 msgstr ""
+"Niet-ondersteunde plugin-API-combinatie. De API-versie die door plugin \"{}\""
+" (\"{}\") aangeboden wordt is \"{}.{}\". API-versie in libdnf is \"{}.{}\"."
 
 #: plugin/plugins.cpp:92
 msgid "Failed to create a libdnf plugin instance"
