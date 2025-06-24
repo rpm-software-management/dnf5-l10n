@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-24 03:40+0000\n"
-"PO-Revision-Date: 2025-06-11 09:23+0000\n"
+"PO-Revision-Date: 2025-06-24 09:06+0000\n"
 "Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/fr/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.11.4\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #: cmdline_aliases.cpp:84 context.cpp:301 main.cpp:1357
 msgid ", "
@@ -685,10 +685,8 @@ msgid "Lists packages depending on the packages' relation to the system"
 msgstr "Liste les paquets en fonction de leur relation avec le système"
 
 #: commands/list/list.cpp:48
-#, fuzzy
-#| msgid "List of keys to match case insensitively"
 msgid "List of package-spec-NI to match (case insensitively)"
-msgstr "Liste des clés à rechercher en ignorant la casse"
+msgstr "Liste de package-spec-NI à rechercher (en ignorant la casse)"
 
 #: commands/list/list.cpp:60
 msgid "Show all versions of the packages, not only the latest ones."
@@ -1096,10 +1094,8 @@ msgid "Add new entry to versionlock configuration"
 msgstr "Ajouter une nouvelle entrée à la configuration versionlock"
 
 #: commands/versionlock/versionlock_add.cpp:44
-#, fuzzy
-#| msgid "List of package specs to add versionlock for"
 msgid "List of package package-spec-N to add versionlock for"
-msgstr "Ajouter un versionlock aux spécifications de paquet de la liste"
+msgstr "Liste de package-spec-N pour lesquels ajouter un versionlock"
 
 #: commands/versionlock/versionlock_add.cpp:107
 #: commands/versionlock/versionlock_exclude.cpp:126
@@ -1138,12 +1134,8 @@ msgid "Add new exclude entry to versionlock configuration"
 msgstr "Ajouter une nouvelle entrée d'exclusion à la configuration versionlock"
 
 #: commands/versionlock/versionlock_exclude.cpp:44
-#, fuzzy
-#| msgid "List of package specs to add versionlock exclude for"
 msgid "List of package-spec-N to add versionlock exclude for"
-msgstr ""
-"Exclure des versionlocks les paquets correspondant aux spécifications de "
-"paquet de la liste"
+msgstr "Liste de package-spec-N pour lesquels ajouter une exclusion versionlock"
 
 #: commands/versionlock/versionlock_exclude.cpp:89
 #: commands/versionlock/versionlock_exclude.cpp:101
@@ -1440,14 +1432,15 @@ msgid ""
 "              they do not override it. However, specifying an empty value (e."
 "g. --setopt=tsflags=) will clear the option."
 msgstr ""
-"Remplacer une option de configuration depuis le fichier de configuration. "
-"Pour remplacer les options de configuration des dépôts, utilisez repoid."
-"option pour l'option\n"
-"               <option>.   Les valeurs   des options de configuration telles "
-"que excludepkgs, includepkgs, installonlypkgs et tsflags sont ajoutées à la "
-"valeur originale,\n"
-"               elles ne la remplacent pas. Cependant, spécifier une valeur "
-"vide (par exemple --setopt=tsflags=) effacera l'option."
+"Forcer une option de configuration en ignorant la valeur du fichier de "
+"configuration.\n"
+"Pour forcer une option de configuration de dépôt, utilisez repoid.option "
+"pour l'option <option>.\n"
+"Les valeurs des options de configuration comme excludepkgs, includepkgs, "
+"installonlypkgs et tsflags sont ajoutées à la valeur originale et ne la "
+"remplacent pas.\n"
+"Cependant, spécifier une valeur vide (par exemple --setopt=tsflags=) "
+"effacera la valeur existante de l'option."
 
 #: main.cpp:249 main.cpp:288
 msgid "{}: Badly formatted argument value \"{}\""
