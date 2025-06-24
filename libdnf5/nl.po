@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-24 03:40+0000\n"
-"PO-Revision-Date: 2025-06-24 22:06+0000\n"
+"PO-Revision-Date: 2025-06-24 22:34+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
 "Language-Team: Dutch <https://translate.fedoraproject.org/projects/dnf5/"
@@ -107,7 +107,7 @@ msgstr "Uitschakelen"
 
 #: base/goal_elements.cpp:386
 msgid "Reset"
-msgstr "Herstellen"
+msgstr "Resetten"
 
 #: base/goal_elements.cpp:388
 msgid "Parse serialized transaction"
@@ -413,7 +413,7 @@ msgstr "{0} van {1} heeft een inferieure architectuur"
 
 #: base/solver_problems.cpp:43
 msgid "problem with installed package"
-msgstr "probleem met geïnstalleerde pakket"
+msgstr "probleem met geïnstalleerd pakket"
 
 #: base/solver_problems.cpp:44 base/solver_problems.cpp:80
 msgid "conflicting requests"
@@ -864,7 +864,7 @@ msgstr "Kan logbestand niet openen"
 
 #: module/module_db.cpp:76 module/module_db.cpp:85 module/module_sack.cpp:767
 msgid "No such module: {}"
-msgstr "Module {} bestaat niet"
+msgstr "Geen dergelijke module: {}"
 
 #: module/module_db.cpp:268
 msgid "Cannot enable multiple streams for module '{}'"
@@ -976,7 +976,7 @@ msgstr ""
 
 #: repo/package_downloader.cpp:219
 msgid "Already downloaded"
-msgstr "Reeds gedownload"
+msgstr "Al gedownload"
 
 #: repo/package_downloader.cpp:267
 msgid "Failed to download packages"
@@ -1317,7 +1317,7 @@ msgstr "Transformer: kan de geschiedenisopslagmap niet openen"
 
 #: transaction/Transformer.cpp:660
 msgid "Couldn't find a history database"
-msgstr "Kon geen geschiedenisdatabase vinden"
+msgstr "Kan geen geschiedenisdatabase vinden"
 
 #. TODO(dmach): replace with a better exception class
 #: transaction/db/comps_environment_group.cpp:100
@@ -1622,11 +1622,11 @@ msgstr ""
 #. returns localized message, problem with later translation
 #: utils/library.cpp:34
 msgid "Cannot load shared library \"{}\": {}"
-msgstr ""
+msgstr "Kan gedeelde library \"{}\" niet vinden: {}"
 
 #: utils/library.cpp:48
 msgid "Cannot obtain address of symbol \"{}\": {}"
-msgstr ""
+msgstr "Kan adres van symbool \"{}\" niet verkrijgen: {}"
 
 #: utils/locale.cpp:57
 msgid "Cannot set the locale \"{}\": {}"
