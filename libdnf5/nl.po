@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-24 03:40+0000\n"
+"POT-Creation-Date: 2025-07-02 03:42+0000\n"
 "PO-Revision-Date: 2025-06-24 22:34+0000\n"
 "Last-Translator: Sijmen Schoon <fedora@vijf.life>\n"
 "Language-Team: Dutch <https://translate.fedoraproject.org/projects/dnf5/"
@@ -283,7 +283,8 @@ msgstr ""
 
 #: base/log_event.cpp:243
 msgid "Packages for argument '{}' installed, but not available."
-msgstr "Pakketten voor argument '{}' zijn geïnstalleerd, maar niet beschikbaar."
+msgstr ""
+"Pakketten voor argument '{}' zijn geïnstalleerd, maar niet beschikbaar."
 
 #: base/log_event.cpp:252
 msgid "Package \"{}\" is already installed with reason \"{}\"."
@@ -921,8 +922,9 @@ msgid ""
 "Unsupported plugin API combination. API version provided by plugin "
 "\"{}\" (\"{}\") is \"{}.{}\". API version in libdnf is \"{}.{}\"."
 msgstr ""
-"Niet-ondersteunde plugin-API-combinatie. De API-versie die door plugin \"{}\""
-" (\"{}\") aangeboden wordt is \"{}.{}\". API-versie in libdnf is \"{}.{}\"."
+"Niet-ondersteunde plugin-API-combinatie. De API-versie die door plugin "
+"\"{}\" (\"{}\") aangeboden wordt is \"{}.{}\". API-versie in libdnf is \"{}."
+"{}\"."
 
 #: plugin/plugins.cpp:92
 msgid "Failed to create a libdnf plugin instance"
@@ -1007,7 +1009,8 @@ msgstr ""
 
 #: repo/repo.cpp:221 repo/repo.cpp:241 repo/repo_sack.cpp:372
 msgid "Failed to download metadata ({}: \"{}\") for repository \"{}\": {}"
-msgstr "Downloaden van metadata ({}: \"{}\") voor repository \"{}\": {} mislukt"
+msgstr ""
+"Downloaden van metadata ({}: \"{}\") voor repository \"{}\": {} mislukt"
 
 #: repo/repo.cpp:439
 msgid ""
@@ -1102,7 +1105,8 @@ msgstr "Laden van repomd voor repo \"{}\" van \"{}\" mislukt: {}."
 
 #: repo/solv_repo.cpp:275
 msgid "Failed to load primary for repo \"{}\" from \"{}\": {}."
-msgstr "Het laden van primary voor repository \"{}\" van \"{}\" is mislukt: {}."
+msgstr ""
+"Het laden van primary voor repository \"{}\" van \"{}\" is mislukt: {}."
 
 #: repo/solv_repo.cpp:323
 msgid "Unsupported extended repodata type for the system repo: \"{}\"."
@@ -1459,7 +1463,8 @@ msgstr ""
 
 #: transaction/transaction_sr.cpp:58
 msgid "Error during transaction replay JSON parsing : {}"
-msgstr "Fout bij het parsen van de JSON voor het herhalen van de transactie: {}"
+msgstr ""
+"Fout bij het parsen van de JSON voor het herhalen van de transactie: {}"
 
 #: transaction/transaction_sr.cpp:68
 msgid "Unexpected version format: \"{}\", supported version is \"{}\""
@@ -1686,8 +1691,8 @@ msgstr "Evaluatie van SQL-instructie mislukt: \"{}\""
 #: utils/sqlite3/sqlite3.cpp:44
 msgid "Insufficient memory or result exceed maximum SQLite3 string length"
 msgstr ""
-"Onvoldoende geheugen, of resultaat overschrijdt maximale "
-"SQLite3-tekenreekslengte"
+"Onvoldoende geheugen, of resultaat overschrijdt maximale SQLite3-"
+"tekenreekslengte"
 
 #: utils/sqlite3/sqlite3.cpp:46
 msgid "Column \"{}\" not found"
