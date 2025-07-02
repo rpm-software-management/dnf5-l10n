@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-02 03:42+0000\n"
-"PO-Revision-Date: 2025-06-23 14:32+0000\n"
+"PO-Revision-Date: 2025-07-02 18:28+0000\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
 "projects/dnf5/libdnf5-plugin-actions/zh_TW/>\n"
@@ -26,11 +26,11 @@ msgstr "檔案「{}」在第 {} 列：{}"
 
 #: actions.cpp:636 actions.cpp:642 actions.cpp:648 actions.cpp:654
 msgid "\"HOOK:PKG_FILTER:DIRECTION:OPTIONS:CMD\" format expected"
-msgstr "\"HOOK:PKG_FILTER:DIRECTION:OPTIONS:CMD\" 預期格式"
+msgstr "預期格式為 \"HOOK:PKG_FILTER:DIRECTION:OPTIONS:CMD\""
 
 #: actions.cpp:676
 msgid "Unknown \"enabled\" option value \"{}\""
-msgstr "未知 \"enabled\" 選項值「{}」"
+msgstr "未知「enabled」選項值「{}」"
 
 #: actions.cpp:683
 msgid "Unknown option \"{}\""
@@ -60,11 +60,11 @@ msgstr "未知模式「{}」"
 
 #: actions.cpp:755
 msgid "Unsupported value of the \"raise_error\" option: {}"
-msgstr "己不支援 \"raise_error\" 選項的值：{}"
+msgstr "己不支援「raise_error」選項的值：{}"
 
 #: actions.cpp:760
 msgid "Missing command"
-msgstr "無效命令"
+msgstr "缺少命令"
 
 #: actions.cpp:953
 msgid "Synax error: Missing equal sign (=) in action output line: {}"
@@ -76,7 +76,7 @@ msgstr "無法設定選項：動作輸出：{}"
 
 #: actions.cpp:982
 msgid "Action sent the wrong log level: {}"
-msgstr "傳送動作中錯誤的記錄層級：{}"
+msgstr "傳送動作中錯誤的日誌層級：{}"
 
 #: actions.cpp:987 actions.cpp:1794
 msgid "Action calls for stop: {}"
@@ -128,11 +128,11 @@ msgstr "動作外掛元件：無法分叉"
 
 #: actions.cpp:1968
 msgid "Actions plugin: Cannot bind command stdin"
-msgstr "動作外掛元件：無法綁定標準輸入指令"
+msgstr "動作外掛元件：無法綁定標準輸入命令"
 
 #: actions.cpp:1970
 msgid "Actions plugin: Cannot bind command stdout"
-msgstr "動作外掛元件：無法綁定標準輸出指令"
+msgstr "動作外掛元件：無法綁定標準輸出命令"
 
 #: actions.cpp:1988
 msgid "Cannot execute action, command \"{}\" arguments \"{}\""
