@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-24 03:40+0000\n"
+"POT-Creation-Date: 2025-07-02 03:42+0000\n"
 "PO-Revision-Date: 2025-06-01 23:36+0000\n"
 "Last-Translator: Jonáš Loskot <alius@users.noreply.translate.fedoraproject."
 "org>\n"
@@ -713,11 +713,11 @@ msgstr "Spravuje moduly"
 msgid "No matches found for \"{}\"."
 msgstr "Nebyly nalezeny žádné shody pro „{}“."
 
-#: commands/offline/offline.cpp:214
+#: commands/offline/offline.cpp:217
 msgid "Manage offline transactions"
 msgstr "Spravuje transakce při neběžícím systému"
 
-#: commands/offline/offline.cpp:246
+#: commands/offline/offline.cpp:249
 msgid ""
 "Error reading state: {}. Rerun the command you used to initiate the offline "
 "transaction, e.g. `dnf5 system-upgrade download [OPTIONS]`."
@@ -725,11 +725,11 @@ msgstr ""
 "Chyba při čtení stavu: {}. Znovu spusťte příkaz, který jste použili pro "
 "zadání offline transakce. Např. „dnf5 system-upgrade download [PŘEPÍNAČE]“."
 
-#: commands/offline/offline.cpp:269
+#: commands/offline/offline.cpp:272
 msgid "Couldn't connect to D-Bus: {}"
 msgstr "Ke sběrnici D-Bus se nebylo možné připojit: {}"
 
-#: commands/offline/offline.cpp:300
+#: commands/offline/offline.cpp:303
 msgid ""
 "Prepare the system to perform the offline transaction and reboot to start "
 "the transaction."
@@ -737,33 +737,33 @@ msgstr ""
 "Připraví počítač k provedení transakce mimo běžící systém a pak jej "
 "restartuje, aby se transakce provedla."
 
-#: commands/offline/offline.cpp:307
+#: commands/offline/offline.cpp:310
 msgid "Power off the system after the operation is complete"
 msgstr "Po dokončení operace počítač vypne"
 
-#: commands/offline/offline.cpp:318
+#: commands/offline/offline.cpp:321
 msgid "No offline transaction is stored."
 msgstr "Žádná transakce pro provedení mimo běžící systém není uložena."
 
-#: commands/offline/offline.cpp:326
+#: commands/offline/offline.cpp:329
 msgid "System is not ready for offline transaction."
 msgstr "Počítač není připraven na transakci mimo běžící systém."
 
-#: commands/offline/offline.cpp:329
+#: commands/offline/offline.cpp:332
 msgid "Data directory {} does not exist."
 msgstr "Adresář s daty {} neexistuje."
 
-#: commands/offline/offline.cpp:354
+#: commands/offline/offline.cpp:357
 msgid "{} is not wanted by system-update.target."
 msgstr "{} není chtěný cílem system-update.target."
 
-#: commands/offline/offline.cpp:364
+#: commands/offline/offline.cpp:367
 #, fuzzy
 #| msgid "The system will now reboot to upgrade to release version "
 msgid "The system will now reboot to upgrade to release version {}."
 msgstr "Počítač se nyní restartuje, aby byl aktualizován na vydání verze "
 
-#: commands/offline/offline.cpp:368
+#: commands/offline/offline.cpp:371
 msgid ""
 "The system will now reboot to perform the offline transaction initiated by "
 "the following command:"
@@ -771,7 +771,7 @@ msgstr ""
 "Počítač se nyní restartuje, aby vykonal transakci mimo běžící systém, která "
 "byla zadána tímto příkazem:"
 
-#: commands/offline/offline.cpp:399
+#: commands/offline/offline.cpp:402
 msgid ""
 "Internal use only, not intended to be run by the user. Execute the "
 "transaction in the offline environment."
@@ -779,91 +779,91 @@ msgstr ""
 "Jen pro neveřejné použití. Není určeno běžnému uživateli. Vykoná transakci "
 "mimo běžící systém."
 
-#: commands/offline/offline.cpp:433
+#: commands/offline/offline.cpp:436
 msgid "Trigger file does not exist. Exiting."
 msgstr "Spouštěcí soubor neexistuje. Končí se."
 
-#: commands/offline/offline.cpp:437
+#: commands/offline/offline.cpp:440
 msgid "Another offline transaction tool is running. Exiting."
 msgstr "Již běží jiný nástroj pro transakce mimo běžící systém. Končí se."
 
-#: commands/offline/offline.cpp:464
+#: commands/offline/offline.cpp:467
 msgid "Starting offline transaction. This will take a while."
 msgstr ""
 "Zahajuje sa transakce mimo běžící systém. Transakce bude nějakou dobu trvat."
 
-#: commands/offline/offline.cpp:468
+#: commands/offline/offline.cpp:471
 msgid "Starting system upgrade. This will take a while."
 msgstr "Zahajuje se aktualizace systému. Aktualizace bude nějakou dobu trvat."
 
-#: commands/offline/offline.cpp:480
+#: commands/offline/offline.cpp:483
 msgid "Use `dnf5 offline reboot` to begin the transaction."
 msgstr "Transakci zahájíte příkazem „dnf5 offline reboot“."
 
-#: commands/offline/offline.cpp:531
+#: commands/offline/offline.cpp:534
 msgid "Transaction failed: "
 msgstr "Transakce selhala: "
 
-#: commands/offline/offline.cpp:601
+#: commands/offline/offline.cpp:604
 msgid "Error reading journal: {}"
 msgstr "Chyba při čtení žurnálu: {}"
 
-#: commands/offline/offline.cpp:607
+#: commands/offline/offline.cpp:610
 msgid "Add journal match failed: {}"
 msgstr "Přidání vyhledávacích kritérií do žurnálu selhalo: {}"
 
-#: commands/offline/offline.cpp:635
+#: commands/offline/offline.cpp:638
 msgid "No logs were found."
 msgstr "Žádné protokoly nebyly nalezeny."
 
-#: commands/offline/offline.cpp:639
+#: commands/offline/offline.cpp:642
 msgid "The following boots appear to contain offline transaction logs:"
 msgstr ""
 "Zdá se, že následující spuštění počítače obsahují protokol z transakce mimo "
 "běh systému:"
 
-#: commands/offline/offline.cpp:656
+#: commands/offline/offline.cpp:659
 msgid "Cannot find logs with this index."
 msgstr "Protokoly s tímto pořadovým číslem nelze najít."
 
-#: commands/offline/offline.cpp:663
+#: commands/offline/offline.cpp:666
 msgid "Unable to match systemd journal entry."
 msgstr "Záznam v žurnálu systemd nelze dohledat."
 
-#: commands/offline/offline.cpp:675
+#: commands/offline/offline.cpp:678
 msgid "Show logs from past offline transactions"
 msgstr "Zobrazí protokol z minulých transakcí mimo běh systému"
 
-#: commands/offline/offline.cpp:683
+#: commands/offline/offline.cpp:686
 msgid ""
 "Which log to show. Run without any arguments to get a list of available logs."
 msgstr ""
 "Který protokol zobrazit. Seznam dostupných protokolů získáte tímto příkazem "
 "bez argumentů."
 
-#: commands/offline/offline.cpp:698
+#: commands/offline/offline.cpp:701
 msgid ""
 "systemd is not supported in this build of DNF 5; the `log` subcommand is "
 "unavailable."
 msgstr ""
 "Toto sestavení DNF 5 nepodporuje systemd. Podpříkaz „log“ není dostupný."
 
-#: commands/offline/offline.cpp:703
+#: commands/offline/offline.cpp:706
 msgid "Show status of the current offline transaction"
 msgstr "Zobrazí stav současné transakce mimo běh systému"
 
-#: commands/offline/offline.cpp:719
+#: commands/offline/offline.cpp:722
 msgid "An offline transaction was initiated by the following command:"
 msgstr "Transakce mimo běh systému byla zadána tímto příkazem:"
 
-#: commands/offline/offline.cpp:721
+#: commands/offline/offline.cpp:724
 msgid ""
 "Run `dnf5 offline reboot` to reboot and perform the offline transaction."
 msgstr ""
 "Pro restart a vykonání transakce mimo běh systému spusťte příkaz „dnf5 "
 "offline reboot“."
 
-#: commands/offline/offline.cpp:723
+#: commands/offline/offline.cpp:726
 msgid ""
 "An offline transaction was started, but it did not finish. Run `dnf5 offline "
 "log` for more information. The command that initiated the transaction was:"
@@ -871,7 +871,7 @@ msgstr ""
 "Transakce byla spuštěna by běh systému, ale neskončila. Podrobnosti získáte "
 "příkazem „dnf5 offline log“. Příkaz, který zadal transakci byl:"
 
-#: commands/offline/offline.cpp:728
+#: commands/offline/offline.cpp:731
 msgid "Unknown offline transaction status: "
 msgstr "Neznámý stav transakce mimo běh systému: "
 
