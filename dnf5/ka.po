@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-08 03:42+0000\n"
-"PO-Revision-Date: 2025-06-12 04:05+0000\n"
+"PO-Revision-Date: 2025-07-09 04:15+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ka/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.11.4\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #: cmdline_aliases.cpp:84 context.cpp:301 main.cpp:1357
 msgid ", "
@@ -649,10 +649,10 @@ msgid "Lists packages depending on the packages' relation to the system"
 msgstr "ჩამოთვლის პაკეტებს სისტემის მიმართ მათი დამოკიდებულების მიხედვით"
 
 #: commands/list/list.cpp:48
-#, fuzzy
-#| msgid "List of keys to match case insensitively"
 msgid "List of package-spec-NI to match (case insensitively)"
-msgstr "გასაღებების სია, რომლებიც რეგისტრის დამთხვევის გარეშე ემთხვვა"
+msgstr ""
+"package-spec-NI-ის სია დასამთხვევად (დიდი და პატარა ასოების გათვალისწინების "
+"გარეშე)"
 
 #: commands/list/list.cpp:60
 msgid "Show all versions of the packages, not only the latest ones."
@@ -1043,10 +1043,8 @@ msgid "Add new entry to versionlock configuration"
 msgstr "ახალი ჩანაწერის დამატება versionlock-ის კონფიგურაციაში"
 
 #: commands/versionlock/versionlock_add.cpp:44
-#, fuzzy
-#| msgid "List of package specs to add versionlock for"
 msgid "List of package package-spec-N to add versionlock for"
-msgstr "პაკეტის spec-ების სია versionlock-ის დასამატებლად"
+msgstr "პაკეტის package-spec-N-is სია versionlock-ის დასამატებლად"
 
 #: commands/versionlock/versionlock_add.cpp:107
 #: commands/versionlock/versionlock_exclude.cpp:126
@@ -1082,10 +1080,8 @@ msgid "Add new exclude entry to versionlock configuration"
 msgstr "ახალი ამოღების ჩანაწერის ჩამატება versionlock-ის კონფიგურაციაში"
 
 #: commands/versionlock/versionlock_exclude.cpp:44
-#, fuzzy
-#| msgid "List of package specs to add versionlock exclude for"
 msgid "List of package-spec-N to add versionlock exclude for"
-msgstr "პაკეტის spec-ების სია versionlock-ის ამოღების დასამატებლად"
+msgstr "package-spec-N-ების სია versionlock-ის ამოღების დასამატებლად"
 
 #: commands/versionlock/versionlock_exclude.cpp:89
 #: commands/versionlock/versionlock_exclude.cpp:101
