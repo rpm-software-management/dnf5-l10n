@@ -11,9 +11,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-08 03:42+0000\n"
-"PO-Revision-Date: 2025-06-01 23:36+0000\n"
-"Last-Translator: Jonáš Loskot <alius@users.noreply.translate.fedoraproject."
-"org>\n"
+"PO-Revision-Date: 2025-07-09 15:06+0000\n"
+"Last-Translator: Petr Pisar <ppisar@redhat.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf5/dnf5/"
 "cs/>\n"
 "Language: cs\n"
@@ -21,11 +20,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 5.11.4\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #: cmdline_aliases.cpp:84 context.cpp:301 main.cpp:1357
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: cmdline_aliases.cpp:145
 msgid ""
@@ -243,7 +242,7 @@ msgstr "Seznam vzorů porovnaných s doporučenými názvy."
 
 #: commands/advisory/arguments.hpp:100
 msgid "Show only advisories referencing a bugzilla."
-msgstr "Zobrazí pouze doporučení odkazující na bugzillu."
+msgstr "Zobrazí pouze doporučení odkazující na Bugzillu."
 
 #: commands/advisory/arguments.hpp:107
 msgid "Show only advisories referencing a CVE."
@@ -362,11 +361,11 @@ msgstr "Neznámý typ mezipaměti \"{0}\". Podporované typy: {1}"
 
 #: commands/clean/clean.cpp:166
 msgid "Failed to cleanup repository cache in path \"{0}\": {1}"
-msgstr "Nepodařilo se vyčistit mezipaměť repozitory na cestě \"{0}\": {1}"
+msgstr "Nepodařilo se vyčistit mezipaměť repozitáře v „{0}“: {1}"
 
 #: commands/clean/clean.cpp:176
 msgid "Cache directory \"{}\" does not exist. Nothing to clean."
-msgstr ""
+msgstr "Adresář mezipaměti „{}“ neexistuje. Není co uklidit."
 
 #: commands/clean/clean.cpp:181
 msgid "Cannot iterate cache directory \"{}\": {}"
@@ -380,14 +379,11 @@ msgstr "nainstalovat debuginfo balíčky"
 msgid ""
 "Upgrade or downgrade installed software to the latest available versions"
 msgstr ""
-"Upgradovat nebo downgradovat nainstalovaný software na nejnovější dostupné "
-"verze"
+"Aktualizovat nebo ponížit nainstalovaný software na nejnovější dostupné verze"
 
 #: commands/do/do.cpp:44
-#, fuzzy
-#| msgid "Transaction ID"
 msgid "Do transaction"
-msgstr "ID transakce"
+msgstr "Vykonat transakci"
 
 #: commands/do/do.cpp:49
 msgid "Action to be done on the following items."
@@ -1052,17 +1048,19 @@ msgstr ""
 
 #: context.cpp:73
 msgid "Importing OpenPGP key 0x{}:\n"
-msgstr ""
+msgstr "Importuje se OpenPGP klíč 0x{}:\n"
 
 #: context.cpp:75 context.cpp:100
 msgid " UserID     : \"{}\"\n"
-msgstr ""
+msgstr " ID uživatele: „{}“\n"
 
 #: context.cpp:78
 msgid ""
 " Fingerprint: {}\n"
 " From       : {}\n"
 msgstr ""
+" Otisk       : {}\n"
+" Z           : {}\n"
 
 #: context.cpp:87
 msgid "The key was successfully imported."
@@ -1070,100 +1068,93 @@ msgstr "Klíč byl úspěšně importován."
 
 #: context.cpp:96
 msgid "The following OpenPGP key (0x{}) is about to be removed:"
-msgstr ""
+msgstr "Následující OpenPGP klíč (0x{}) bude odstraněn:"
 
 #: context.cpp:98
 msgid " Reason     : {}\n"
-msgstr ""
+msgstr " Důvod       : {}\n"
 
 #: context.cpp:102
 msgid " Fingerprint: {}\n"
-msgstr ""
+msgstr " Otisk       : {}\n"
 
 #: context.cpp:104
 msgid "As a result, installing packages signed with this key will fail."
-msgstr ""
+msgstr "V důsledku toho instalace balíčků podepsaných tímto klíčem selže."
 
 #: context.cpp:105
 msgid "It is recommended to remove the expired key to allow importing"
-msgstr ""
+msgstr "Zastaralý klíč se doporučuje odstranit, aby bylo možné importovat"
 
 #: context.cpp:106
 msgid ""
 "an updated key. This might leave already installed packages unverifiable."
 msgstr ""
+"klíč aktuální. To může zanechat již nainstalované balíčky bez možnosti "
+"ověření."
 
 #: context.cpp:109
 msgid "The system will now proceed with removing the key."
-msgstr ""
+msgstr "Systém nyní přikročí k odstranění klíče."
 
 #: context.cpp:115
-#, fuzzy
-#| msgid "The key was successfully imported."
 msgid "Key 0x{} was successfully removed."
-msgstr "Klíč byl úspěšně importován."
+msgstr "Klíč 0x{} byl úspěšně odstraněn."
 
 #: context.cpp:295
-#, fuzzy
-#| msgid "setopt: \"{0}\": {1}"
 msgid "setopt: \"{}.{}\": {}"
-msgstr "setopt: \"{0}\": {1}"
+msgstr "setopt: „{}.{}“: {}"
 
 #: context.cpp:305
 msgid ""
 "No matching repositories for {}. To use repositories from a host system, "
 "pass --use-host-config option"
 msgstr ""
+"Žádný repozitář neodpovídá {}. Pro použití repozitářů z hostitelského "
+"systému použijte přepínač --use-host-config."
 
 #: context.cpp:309
-#, fuzzy
-#| msgid "No matching repositories for \"{}\""
 msgid "No matching repositories for {}"
-msgstr "Žádné odpovídající repozitáře pro \"{}\""
+msgstr "Žádný repozitář neodpovídá {}"
 
 #: context.cpp:355
 msgid "Updating and loading repositories:"
-msgstr ""
+msgstr "Aktualizace a načítání repozitářů:"
 
 #: context.cpp:365
 msgid "Repositories loaded."
-msgstr ""
+msgstr "Repozitáře načteny."
 
 #: context.cpp:371
-#, fuzzy
-#| msgid "Reverse the order of transactions."
 msgid "Testing offline transaction"
-msgstr "Obrací pořadí transakcí."
+msgstr "Kontroluje se transakce mimo běh systému."
 
 #: context.cpp:375 context.cpp:523
-#, fuzzy
-#| msgid "Transaction ID"
 msgid "Transaction failed: {}"
-msgstr "ID transakce"
+msgstr "Transakce selhala: {}"
 
 #: context.cpp:380 context.cpp:528
 msgid "  - {}"
-msgstr ""
+msgstr "  – {}"
 
 #: context.cpp:447
-#, fuzzy
-#| msgid "File \"{}\" already exists, it will be overwritten.\n"
 msgid ""
 "Location \"{}\" already contains a stored transaction, it will be "
 "overwritten."
-msgstr "Soubor \"{}\" již existuje, bude přepsán.\n"
+msgstr "Umístění „{}“ již obsahuje uloženou transakci. Bude přepsána."
 
 #: context.cpp:476
 msgid ""
 "There is already an offline transaction queued, initiated by the following "
 "command:"
-msgstr ""
+msgstr "Transakce pro běh mimo systém již byla přichystána tímto příkazem:"
 
 #: context.cpp:478
 msgid ""
 "Continuing will cancel the old offline transaction and replace it with this "
 "one."
 msgstr ""
+"Pokračováním starou transakci pro běh mimo systém zrušíte a nahradíte touto."
 
 #: context.cpp:496
 msgid ""
@@ -1171,84 +1162,81 @@ msgid ""
 "reboot and run the transaction. To cancel the transaction and delete the "
 "downloaded files, use `dnf5 offline clean`."
 msgstr ""
+"Transakce byla uložena pro běh mimo systém. Pro restart systému a následné "
+"vykonání transakce spusťte „dnf5 offline reboot“. Pro zrušení transakce a "
+"smazání stažených souborů použijte „dnf5 offline clean“."
 
 #: context.cpp:502
-#, fuzzy
-#| msgid "Transaction ID"
 msgid "Running transaction"
-msgstr "ID transakce"
+msgstr "Transakce zahájena"
 
 #: context.cpp:820
 msgid "Upgrading {}"
-msgstr ""
+msgstr "Aktualizuje se {}"
 
 #: context.cpp:823
 msgid "Downgrading {}"
-msgstr ""
+msgstr "Ponižuje se {}"
 
 #: context.cpp:826
 msgid "Reinstalling {}"
-msgstr ""
+msgstr "Přeinstalovává se {}"
 
 #: context.cpp:839
 msgid "Unexpected action in TransactionPackage: {}"
-msgstr ""
+msgstr "Nečekaný úkon v TransactionPackage: {}"
 
 #: context.cpp:845
-#, fuzzy
-#| msgid "Installed"
 msgid "Installing {}"
-msgstr "Nainstalováno"
+msgstr "Instaluje se {}"
 
 #: context.cpp:866
-#, fuzzy
-#| msgid "Transaction ID"
 msgid "Prepare transaction"
-msgstr "ID transakce"
+msgstr "Transakce se připravuje"
 
 #: context.cpp:886
 msgid "Removing {}"
-msgstr ""
+msgstr "Odstraňuje se {}"
 
 #: context.cpp:889
 msgid "Cleanup {}"
-msgstr ""
+msgstr "Uklízí se {}"
 
 #: context.cpp:907
 msgid "Unpack error: {}"
-msgstr ""
+msgstr "Chyba při rozbalování: {}"
 
 #: context.cpp:915
 msgid "Cpio error: {}"
-msgstr ""
+msgstr "Chyba archivu cpio: {}"
 
 #: context.cpp:925
 msgid "Scriptlet output:"
-msgstr ""
+msgstr "Výstup skriptu:"
 
 #: context.cpp:948
 msgid "Running scriptlets"
-msgstr ""
+msgstr "Vykonávají se skripty"
 
 #: context.cpp:953
 msgid "Running {} scriptlet: {}"
-msgstr ""
+msgstr "Spouští se skript {}: {}"
 
 #: context.cpp:968
 msgid "Finished {} scriptlet: {}"
-msgstr ""
+msgstr "Skript {} dokončen: {}"
 
 #: context.cpp:974
 msgid "Non-critical error in {} scriptlet: {}"
-msgstr ""
+msgstr "Nekritická chyba ve skriptu {}: {}"
 
 #: context.cpp:983
 msgid "Error in {} scriptlet: {}"
-msgstr ""
+msgstr "Chyba ve skriptu {}: {}"
 
 #: context.cpp:1018
 msgid "Verify package files"
-msgstr ""
+msgstr "Ověřují se soubory s balíčky"
 
 #: library.cpp:33
 msgid "Cannot load shared library \"{}\": {}"
@@ -1684,25 +1672,23 @@ msgstr ""
 
 #: main.cpp:1566
 msgid "Command returned error: {}"
-msgstr ""
+msgstr "Příkaz vrátil chybu: {}"
 
 #: main.cpp:1574
 msgid "DNF5 finished"
-msgstr ""
+msgstr "DFN5 skončil"
 
 #: main.cpp:1578
 msgid "Complete!"
-msgstr ""
+msgstr "Hotovo!"
 
 #: shared_options.cpp:32
-#, fuzzy
-#| msgid "Allow erasing of installed packages to resolve problems"
 msgid "Allow removing of installed packages to resolve problems"
-msgstr "Chcete-li vyřešit problémy, povolte vymazání nainstalovaných balíčků"
+msgstr "Povolit řešit problémy odstraněním nainstalovaných balíčků"
 
 #: shared_options.cpp:42
 msgid "Allow resolving of depsolve problems by skipping packages"
-msgstr "Přeskakováním balíčků povolíte řešení depsolve problémů"
+msgstr "Povolit přeskočení balíčků s rozbitými závislostmi"
 
 #: shared_options.cpp:54
 msgid "Allow skipping unavailable packages"
