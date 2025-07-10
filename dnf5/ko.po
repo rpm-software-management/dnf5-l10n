@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-08 03:42+0000\n"
-"PO-Revision-Date: 2025-06-14 10:57+0000\n"
+"PO-Revision-Date: 2025-07-10 07:51+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ko/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.11.4\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #: cmdline_aliases.cpp:84 context.cpp:301 main.cpp:1357
 msgid ", "
@@ -620,10 +620,8 @@ msgid "Lists packages depending on the packages' relation to the system"
 msgstr "꾸러미와 시스템의 연관에 따라 의존하는 꾸러미를 나열합니다"
 
 #: commands/list/list.cpp:48
-#, fuzzy
-#| msgid "List of keys to match case insensitively"
 msgid "List of package-spec-NI to match (case insensitively)"
-msgstr "대소문자를 구분하지 않도록 일치하는 키의 목록"
+msgstr "일치 시킬 때에 package-spec-NI의 목록 (대소문자 구분 없음)"
 
 #: commands/list/list.cpp:60
 msgid "Show all versions of the packages, not only the latest ones."
@@ -1004,10 +1002,8 @@ msgid "Add new entry to versionlock configuration"
 msgstr "신규 항목을 versionlock 구성에 추가합니다"
 
 #: commands/versionlock/versionlock_add.cpp:44
-#, fuzzy
-#| msgid "List of package specs to add versionlock for"
 msgid "List of package package-spec-N to add versionlock for"
-msgstr "versionlock을 추가하려는 꾸러미 상세 목록"
+msgstr "versionlock을 추가하려는 꾸러미 package-spec-N의 목록"
 
 #: commands/versionlock/versionlock_add.cpp:107
 #: commands/versionlock/versionlock_exclude.cpp:126
@@ -1043,10 +1039,8 @@ msgid "Add new exclude entry to versionlock configuration"
 msgstr "신규 예외 항목을 versionlock 구성에 추가합니다"
 
 #: commands/versionlock/versionlock_exclude.cpp:44
-#, fuzzy
-#| msgid "List of package specs to add versionlock exclude for"
 msgid "List of package-spec-N to add versionlock exclude for"
-msgstr "versionlock 제외를 추가하려는 꾸러미 사양의 목록"
+msgstr "versionlock 제외를 추가하려는 package-spec-N의 목록"
 
 #: commands/versionlock/versionlock_exclude.cpp:89
 #: commands/versionlock/versionlock_exclude.cpp:101
