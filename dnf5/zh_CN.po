@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-11 03:49+0000\n"
-"PO-Revision-Date: 2025-06-16 15:28+0000\n"
+"PO-Revision-Date: 2025-07-13 01:47+0000\n"
 "Last-Translator: caffiendo c <1728778012@qq.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/dnf5/dnf5/zh_CN/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.11.4\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #: cmdline_aliases.cpp:84 context.cpp:301 main.cpp:1357
 msgid ", "
@@ -596,10 +596,8 @@ msgid "Lists packages depending on the packages' relation to the system"
 msgstr "根据软件包与系统的关系列出软件包"
 
 #: commands/list/list.cpp:48
-#, fuzzy
-#| msgid "List of keys to match case insensitively"
 msgid "List of package-spec-NI to match (case insensitively)"
-msgstr "不区分大小写匹配的密钥列表"
+msgstr "不区分大小写匹配的包配置列表"
 
 #: commands/list/list.cpp:60
 msgid "Show all versions of the packages, not only the latest ones."
@@ -966,10 +964,8 @@ msgid "Add new entry to versionlock configuration"
 msgstr "在版本锁配置中添加新条目"
 
 #: commands/versionlock/versionlock_add.cpp:44
-#, fuzzy
-#| msgid "List of package specs to add versionlock for"
 msgid "List of package package-spec-N to add versionlock for"
-msgstr "添加版本锁的软件包规格列表"
+msgstr "添加版本锁的软件包配置列表"
 
 #: commands/versionlock/versionlock_add.cpp:107
 #: commands/versionlock/versionlock_exclude.cpp:126
@@ -1005,10 +1001,8 @@ msgid "Add new exclude entry to versionlock configuration"
 msgstr "在版本锁配置中添加新的排除条目"
 
 #: commands/versionlock/versionlock_exclude.cpp:44
-#, fuzzy
-#| msgid "List of package specs to add versionlock exclude for"
 msgid "List of package-spec-N to add versionlock exclude for"
-msgstr "列出版本锁配置中排除的软件包规格条目"
+msgstr "列出版本锁配置中排除的软件包配置条目"
 
 #: commands/versionlock/versionlock_exclude.cpp:89
 #: commands/versionlock/versionlock_exclude.cpp:101
