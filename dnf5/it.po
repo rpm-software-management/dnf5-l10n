@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-11 03:49+0000\n"
-"PO-Revision-Date: 2025-06-15 11:11+0000\n"
+"PO-Revision-Date: 2025-07-19 11:40+0000\n"
 "Last-Translator: Salvatore Cocuzza <info@salvatorecocuzza.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/it/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.11.4\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #: cmdline_aliases.cpp:84 context.cpp:301 main.cpp:1357
 msgid ", "
@@ -663,12 +663,10 @@ msgid "Lists packages depending on the packages' relation to the system"
 msgstr "Elenca i pacchetti in base alla relazione dei pacchetti con il sistema"
 
 #: commands/list/list.cpp:48
-#, fuzzy
-#| msgid "List of keys to match case insensitively"
 msgid "List of package-spec-NI to match (case insensitively)"
 msgstr ""
-"Elenco di chiavi per la corrispondenza senza distinzione tra maiuscole e "
-"minuscole"
+"Elenco di package-spec-NI da abbinare (senza distinzione tra maiuscole e "
+"minuscole)"
 
 #: commands/list/list.cpp:60
 msgid "Show all versions of the packages, not only the latest ones."
@@ -1064,11 +1062,8 @@ msgid "Add new entry to versionlock configuration"
 msgstr "Aggunge una nuova entry alla configurazione di versionlock"
 
 #: commands/versionlock/versionlock_add.cpp:44
-#, fuzzy
-#| msgid "List of package specs to add versionlock for"
 msgid "List of package package-spec-N to add versionlock for"
-msgstr ""
-"Elenco delle specifiche del pacchetto per cui aggiungere il blocco versione"
+msgstr "Elenco dei pacchetti package-spec-N per cui aggiungere versionlock"
 
 #: commands/versionlock/versionlock_add.cpp:107
 #: commands/versionlock/versionlock_exclude.cpp:126
@@ -1105,12 +1100,8 @@ msgstr ""
 "Aggiungi una nuova voce di esclusione alla configurazione del blocco versione"
 
 #: commands/versionlock/versionlock_exclude.cpp:44
-#, fuzzy
-#| msgid "List of package specs to add versionlock exclude for"
 msgid "List of package-spec-N to add versionlock exclude for"
-msgstr ""
-"Elenco delle specifiche del pacchetto per cui aggiungere l'esclusione del "
-"blocco versione"
+msgstr "Elenco di package-spec-N per cui aggiungere l'esclusione versionlock"
 
 #: commands/versionlock/versionlock_exclude.cpp:89
 #: commands/versionlock/versionlock_exclude.cpp:101
