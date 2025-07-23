@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-11 03:49+0000\n"
+"POT-Creation-Date: 2025-07-23 03:52+0000\n"
 "PO-Revision-Date: 2025-06-30 18:24+0000\n"
 "Last-Translator: Ciro Mota <ciro.mota@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
@@ -527,12 +527,29 @@ msgstr ""
 "especificados. Todos os repositórios habilitados ainda serão usados para "
 "satisfazer dependências."
 
-#: commands/from_repo.cpp:38
+#: commands/from_repo.cpp:38 commands/from_repo.cpp:70
 msgid "REPO_ID,..."
 msgstr "REPO_ID,..."
 
-#: commands/from_repo.cpp:47
+#: commands/from_repo.cpp:53
 msgid "\"--from_repo\" already defined with diferent value"
+msgstr "\"--from_repo\" já definido com valor diferente"
+
+#: commands/from_repo.cpp:68
+#, fuzzy
+#| msgid ""
+#| "List groups of installed packages not required by other installed packages"
+msgid ""
+"Filters installed packages by the ID of the repository they were installed "
+"from."
+msgstr ""
+"Listar grupos de pacotes instalados não requeridos por outros pacotes "
+"instalados"
+
+#: commands/from_repo.cpp:79
+#, fuzzy
+#| msgid "\"--from_repo\" already defined with diferent value"
+msgid "\"--installed-from_repo\" already defined with diferent value"
 msgstr "\"--from_repo\" já definido com valor diferente"
 
 #: commands/group/arguments.hpp:34
@@ -651,29 +668,29 @@ msgstr ""
 "Listar grupos de pacotes instalados não requeridos por outros pacotes "
 "instalados"
 
-#: commands/list/list.cpp:44
+#: commands/list/list.cpp:46
 msgid "Lists packages depending on the packages' relation to the system"
 msgstr "Lista os pacotes dependendo da relação dos pacotes com o sistema"
 
-#: commands/list/list.cpp:48
+#: commands/list/list.cpp:50
 msgid "List of package-spec-NI to match (case insensitively)"
 msgstr ""
 "Lista de pacotes-spec-NI a serem correspondidos (sem distinção de maiúsculas "
 "e minúsculas)"
 
-#: commands/list/list.cpp:60
+#: commands/list/list.cpp:62
 msgid "Show all versions of the packages, not only the latest ones."
 msgstr "Mostra todas as versões dos pacotes, não apenas as mais recentes."
 
-#: commands/list/list.cpp:66
+#: commands/list/list.cpp:70
 msgid "List installed packages."
 msgstr "Lista pacotes instalados."
 
-#: commands/list/list.cpp:70
+#: commands/list/list.cpp:74
 msgid "List available packages."
 msgstr "Lista pacotes indisponíveis."
 
-#: commands/list/list.cpp:77
+#: commands/list/list.cpp:81
 msgid ""
 "List extras, that is packages installed on the system that are not available "
 "in any known repository."
@@ -681,7 +698,7 @@ msgstr ""
 "Lista extras, ou seja, pacotes instalados no sistema que não estão "
 "disponíveis em nenhum repositório conhecido."
 
-#: commands/list/list.cpp:85
+#: commands/list/list.cpp:89
 msgid ""
 "List packages installed on the system that are obsoleted by packages in any "
 "known repository."
@@ -689,47 +706,47 @@ msgstr ""
 "Lista os pacotes instalados no sistema que estão obsoletos por pacotes em "
 "qualquer repositório conhecido."
 
-#: commands/list/list.cpp:90
+#: commands/list/list.cpp:94
 msgid "List packages recently added into the repositories."
 msgstr "Lista os pacotes adicionados recentemente aos repositórios."
 
-#: commands/list/list.cpp:94
+#: commands/list/list.cpp:98
 msgid "List upgrades available for the installed packages."
 msgstr "Lista as atualizações disponíveis para os pacotes instalados."
 
-#: commands/list/list.cpp:98
+#: commands/list/list.cpp:102
 msgid "List packages which will be removed by the 'dnf autoremove' command."
 msgstr "Lista os pacotes que serão removidos pelo comando 'dnf autoremove'."
 
-#: commands/list/list.cpp:195 commands/list/list.cpp:200
+#: commands/list/list.cpp:203 commands/list/list.cpp:208
 msgid "Installed packages"
 msgstr "Pacotes instalados"
 
-#: commands/list/list.cpp:196 commands/list/list.cpp:209
+#: commands/list/list.cpp:204 commands/list/list.cpp:217
 msgid "Available packages"
 msgstr "Pacotes disponíveis"
 
-#: commands/list/list.cpp:217
+#: commands/list/list.cpp:225
 msgid "Available upgrades"
 msgstr "Atualizações disponíveis"
 
-#: commands/list/list.cpp:233
+#: commands/list/list.cpp:241
 msgid "Obsoleting packages"
 msgstr "Obsoletando pacotes"
 
-#: commands/list/list.cpp:238
+#: commands/list/list.cpp:246
 msgid "Autoremove packages"
 msgstr "Remover pacotes automaticamente"
 
-#: commands/list/list.cpp:242
+#: commands/list/list.cpp:250
 msgid "Extra packages"
 msgstr "Pacotes extras"
 
-#: commands/list/list.cpp:253
+#: commands/list/list.cpp:261
 msgid "Recently added packages"
 msgstr "Pacotes adicionados recentemente"
 
-#: commands/list/list.cpp:258
+#: commands/list/list.cpp:266
 msgid "No matching packages to list"
 msgstr "Nenhum pacote correspondente para listar"
 
@@ -927,7 +944,7 @@ msgstr "Localiza qual pacote fornece o valor dado"
 msgid "Reinstall software"
 msgstr "Reinstalar software"
 
-#: commands/remove/remove.cpp:40
+#: commands/remove/remove.cpp:42
 msgid "Remove (uninstall) software"
 msgstr "Remover (desinstalar) software"
 
@@ -956,11 +973,11 @@ msgstr "Padrão correspondendo a IDs de repositórios."
 msgid "Manage repositories"
 msgstr "Gerenciar repositórios"
 
-#: commands/repoquery/repoquery.cpp:80
+#: commands/repoquery/repoquery.cpp:82
 msgid "Search for packages matching various criteria"
 msgstr "Pesquise por pacotes que correspondam a vários critérios"
 
-#: commands/repoquery/repoquery.cpp:517
+#: commands/repoquery/repoquery.cpp:525
 msgid ""
 "Option \"--exactdeps\" has to be used either with \"--whatrequires\" or \"--"
 "whatdepends\""
@@ -968,7 +985,7 @@ msgstr ""
 "A opção \"--exactdeps\" tem que ser usada com \"--whatrequires\" ou \"--"
 "whatdepends\""
 
-#: commands/repoquery/repoquery.cpp:522
+#: commands/repoquery/repoquery.cpp:530
 msgid ""
 "Option \"--recursive\" has to be used either with \"--whatrequires\" or \"--"
 "providers-of=requires\""

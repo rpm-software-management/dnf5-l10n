@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-11 03:49+0000\n"
+"POT-Creation-Date: 2025-07-23 03:52+0000\n"
 "PO-Revision-Date: 2025-07-09 04:15+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -521,12 +521,29 @@ msgstr ""
 "დამოკიდებულებების დასაკმაყოფილებლად ყველა ჩართული რეპოზიტორიის გამოყენება "
 "მაინც მოხდება."
 
-#: commands/from_repo.cpp:38
+#: commands/from_repo.cpp:38 commands/from_repo.cpp:70
 msgid "REPO_ID,..."
 msgstr "REPO_ID,..."
 
-#: commands/from_repo.cpp:47
+#: commands/from_repo.cpp:53
 msgid "\"--from_repo\" already defined with diferent value"
+msgstr "\"--from_repo\" უკვე აღწერილია სხვა მნიშვნელობით"
+
+#: commands/from_repo.cpp:68
+#, fuzzy
+#| msgid ""
+#| "List groups of installed packages not required by other installed packages"
+msgid ""
+"Filters installed packages by the ID of the repository they were installed "
+"from."
+msgstr ""
+"ჯგუფების ჩამოთვლა დაყენებული პაკეტებისთვის, რომლებიც არც ერთ სხვა დაყენებულ "
+"პაკეტს სჭირდება"
+
+#: commands/from_repo.cpp:79
+#, fuzzy
+#| msgid "\"--from_repo\" already defined with diferent value"
+msgid "\"--installed-from_repo\" already defined with diferent value"
 msgstr "\"--from_repo\" უკვე აღწერილია სხვა მნიშვნელობით"
 
 #: commands/group/arguments.hpp:34
@@ -644,29 +661,29 @@ msgstr ""
 "ჯგუფების ჩამოთვლა დაყენებული პაკეტებისთვის, რომლებიც არც ერთ სხვა დაყენებულ "
 "პაკეტს სჭირდება"
 
-#: commands/list/list.cpp:44
+#: commands/list/list.cpp:46
 msgid "Lists packages depending on the packages' relation to the system"
 msgstr "ჩამოთვლის პაკეტებს სისტემის მიმართ მათი დამოკიდებულების მიხედვით"
 
-#: commands/list/list.cpp:48
+#: commands/list/list.cpp:50
 msgid "List of package-spec-NI to match (case insensitively)"
 msgstr ""
 "package-spec-NI-ის სია დასამთხვევად (დიდი და პატარა ასოების გათვალისწინების "
 "გარეშე)"
 
-#: commands/list/list.cpp:60
+#: commands/list/list.cpp:62
 msgid "Show all versions of the packages, not only the latest ones."
 msgstr "პაკეტის ყველა ვერსიის ჩვენება და არა მხოლოდ უკანასკნელი ვერსიის."
 
-#: commands/list/list.cpp:66
+#: commands/list/list.cpp:70
 msgid "List installed packages."
 msgstr "დაყენებული პაკეტების ჩამონათვალი."
 
-#: commands/list/list.cpp:70
+#: commands/list/list.cpp:74
 msgid "List available packages."
 msgstr "ხელმისაწვდომი პაკეტების ჩამონათვალი."
 
-#: commands/list/list.cpp:77
+#: commands/list/list.cpp:81
 msgid ""
 "List extras, that is packages installed on the system that are not available "
 "in any known repository."
@@ -674,7 +691,7 @@ msgstr ""
 "დამატებითი ჩამონათვალი, რომ სისტემაში დაყენებული პაკეტი არც ერთი ცნობილი "
 "რეპოზიტორიიდან არაა."
 
-#: commands/list/list.cpp:85
+#: commands/list/list.cpp:89
 msgid ""
 "List packages installed on the system that are obsoleted by packages in any "
 "known repository."
@@ -682,48 +699,48 @@ msgstr ""
 "პაკეტების ჩამონათვალი, რომლებიც ამ სისტემაშია დაყენებული და მოძველებულად "
 "ცხადდება პაკეტის მიერ ნებისმიერი ცნობილი რეპოზიტორიიდან."
 
-#: commands/list/list.cpp:90
+#: commands/list/list.cpp:94
 msgid "List packages recently added into the repositories."
 msgstr "რეპოზიტორიებში ახლახან ჩამატებული პაკეტების ჩამონათვალი."
 
-#: commands/list/list.cpp:94
+#: commands/list/list.cpp:98
 msgid "List upgrades available for the installed packages."
 msgstr ""
 "დაყენებული პაკეტებისთვის ხელმისაწვდომი ვერსიის განახლებების ჩამონათვალი."
 
-#: commands/list/list.cpp:98
+#: commands/list/list.cpp:102
 msgid "List packages which will be removed by the 'dnf autoremove' command."
 msgstr "პაკეტები ჩამონათვალი, რომელსაც 'dnf autoremove' ბრძანება წაშლის."
 
-#: commands/list/list.cpp:195 commands/list/list.cpp:200
+#: commands/list/list.cpp:203 commands/list/list.cpp:208
 msgid "Installed packages"
 msgstr "დაყენებული პაკეტები"
 
-#: commands/list/list.cpp:196 commands/list/list.cpp:209
+#: commands/list/list.cpp:204 commands/list/list.cpp:217
 msgid "Available packages"
 msgstr "ხელმისაწვდომი პაკეტები"
 
-#: commands/list/list.cpp:217
+#: commands/list/list.cpp:225
 msgid "Available upgrades"
 msgstr "ხელმისაწვდომი განახლებები"
 
-#: commands/list/list.cpp:233
+#: commands/list/list.cpp:241
 msgid "Obsoleting packages"
 msgstr "ამოსაღები პაკეტები"
 
-#: commands/list/list.cpp:238
+#: commands/list/list.cpp:246
 msgid "Autoremove packages"
 msgstr "პაკეტების ავტომატური წაშლა"
 
-#: commands/list/list.cpp:242
+#: commands/list/list.cpp:250
 msgid "Extra packages"
 msgstr "დამატებითი პაკეტები"
 
-#: commands/list/list.cpp:253
+#: commands/list/list.cpp:261
 msgid "Recently added packages"
 msgstr "ახლახანს დამატებული პაკეტები"
 
-#: commands/list/list.cpp:258
+#: commands/list/list.cpp:266
 msgid "No matching packages to list"
 msgstr "არცერთი პაკეტი არ ემთხვევა"
 
@@ -919,7 +936,7 @@ msgstr "პოვნა, რომელი პაკეტი მოგაწ�
 msgid "Reinstall software"
 msgstr "პროგრამის თავიდან დაყენება"
 
-#: commands/remove/remove.cpp:40
+#: commands/remove/remove.cpp:42
 msgid "Remove (uninstall) software"
 msgstr "პროგრამების წაშლა"
 
@@ -947,11 +964,11 @@ msgstr "რეპოზიტორიის ID-ების შესაბა�
 msgid "Manage repositories"
 msgstr "რეპოზიტორიების მართვა"
 
-#: commands/repoquery/repoquery.cpp:80
+#: commands/repoquery/repoquery.cpp:82
 msgid "Search for packages matching various criteria"
 msgstr "პაკეტების ძებნა სასურველი პირობებით"
 
-#: commands/repoquery/repoquery.cpp:517
+#: commands/repoquery/repoquery.cpp:525
 msgid ""
 "Option \"--exactdeps\" has to be used either with \"--whatrequires\" or \"--"
 "whatdepends\""
@@ -959,7 +976,7 @@ msgstr ""
 "პარამეტრი \"--exactdeps\", მხოლოდ, \"--whatrequires\" ან \"--whatdepends\" "
 "პარამეტრებთან ერთად შეგიძლიათ, გამოიყენოთ"
 
-#: commands/repoquery/repoquery.cpp:522
+#: commands/repoquery/repoquery.cpp:530
 msgid ""
 "Option \"--recursive\" has to be used either with \"--whatrequires\" or \"--"
 "providers-of=requires\""

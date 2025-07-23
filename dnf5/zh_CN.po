@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-11 03:49+0000\n"
+"POT-Creation-Date: 2025-07-23 03:52+0000\n"
 "PO-Revision-Date: 2025-07-13 01:47+0000\n"
 "Last-Translator: caffiendo c <1728778012@qq.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
@@ -477,12 +477,27 @@ msgid ""
 msgstr ""
 "以下项目只能从指定的存储库中选择。所有已启用的存储库仍将用于满足依赖项。"
 
-#: commands/from_repo.cpp:38
+#: commands/from_repo.cpp:38 commands/from_repo.cpp:70
 msgid "REPO_ID,..."
 msgstr "REPO_ID,..."
 
-#: commands/from_repo.cpp:47
+#: commands/from_repo.cpp:53
 msgid "\"--from_repo\" already defined with diferent value"
+msgstr "\"--from_repo\" 已经被使用不同的值定义"
+
+#: commands/from_repo.cpp:68
+#, fuzzy
+#| msgid ""
+#| "List groups of installed packages not required by other installed packages"
+msgid ""
+"Filters installed packages by the ID of the repository they were installed "
+"from."
+msgstr "列出已安装软件包不需要的其它已安装软件包组"
+
+#: commands/from_repo.cpp:79
+#, fuzzy
+#| msgid "\"--from_repo\" already defined with diferent value"
+msgid "\"--installed-from_repo\" already defined with diferent value"
 msgstr "\"--from_repo\" 已经被使用不同的值定义"
 
 #: commands/group/arguments.hpp:34
@@ -591,80 +606,80 @@ msgid ""
 "List groups of installed packages not required by other installed packages"
 msgstr "列出已安装软件包不需要的其它已安装软件包组"
 
-#: commands/list/list.cpp:44
+#: commands/list/list.cpp:46
 msgid "Lists packages depending on the packages' relation to the system"
 msgstr "根据软件包与系统的关系列出软件包"
 
-#: commands/list/list.cpp:48
+#: commands/list/list.cpp:50
 msgid "List of package-spec-NI to match (case insensitively)"
 msgstr "不区分大小写匹配的包配置列表"
 
-#: commands/list/list.cpp:60
+#: commands/list/list.cpp:62
 msgid "Show all versions of the packages, not only the latest ones."
 msgstr "显示软件包的所有版本，而不仅仅是最新版本。"
 
-#: commands/list/list.cpp:66
+#: commands/list/list.cpp:70
 msgid "List installed packages."
 msgstr "列出已安装的软件包。"
 
-#: commands/list/list.cpp:70
+#: commands/list/list.cpp:74
 msgid "List available packages."
 msgstr "列出可安装的软件包。"
 
-#: commands/list/list.cpp:77
+#: commands/list/list.cpp:81
 msgid ""
 "List extras, that is packages installed on the system that are not available "
 "in any known repository."
 msgstr ""
 "列出额外的，即安装在系统上的软件包，这些软件包在任何已知的仓库中都不可用。"
 
-#: commands/list/list.cpp:85
+#: commands/list/list.cpp:89
 msgid ""
 "List packages installed on the system that are obsoleted by packages in any "
 "known repository."
 msgstr "列出系统上已安装的软件包，这些软件包在任何已知仓库中过时。"
 
-#: commands/list/list.cpp:90
+#: commands/list/list.cpp:94
 msgid "List packages recently added into the repositories."
 msgstr "列出最近添加进仓库的软件包。"
 
-#: commands/list/list.cpp:94
+#: commands/list/list.cpp:98
 msgid "List upgrades available for the installed packages."
 msgstr "列出已安装可升级的软件包。"
 
-#: commands/list/list.cpp:98
+#: commands/list/list.cpp:102
 msgid "List packages which will be removed by the 'dnf autoremove' command."
 msgstr "列出将会被 \"dnf autoremove\" 命令删除的软件包。"
 
-#: commands/list/list.cpp:195 commands/list/list.cpp:200
+#: commands/list/list.cpp:203 commands/list/list.cpp:208
 msgid "Installed packages"
 msgstr "已安装的软件包"
 
-#: commands/list/list.cpp:196 commands/list/list.cpp:209
+#: commands/list/list.cpp:204 commands/list/list.cpp:217
 msgid "Available packages"
 msgstr "可安装的软件包"
 
-#: commands/list/list.cpp:217
+#: commands/list/list.cpp:225
 msgid "Available upgrades"
 msgstr "可用升级"
 
-#: commands/list/list.cpp:233
+#: commands/list/list.cpp:241
 msgid "Obsoleting packages"
 msgstr "已过时的软件包"
 
-#: commands/list/list.cpp:238
+#: commands/list/list.cpp:246
 msgid "Autoremove packages"
 msgstr "自动删除软件包"
 
-#: commands/list/list.cpp:242
+#: commands/list/list.cpp:250
 msgid "Extra packages"
 msgstr "额外的软件包"
 
-#: commands/list/list.cpp:253
+#: commands/list/list.cpp:261
 msgid "Recently added packages"
 msgstr "最近添加的软件包"
 
-#: commands/list/list.cpp:258
+#: commands/list/list.cpp:266
 msgid "No matching packages to list"
 msgstr "没有匹配的软件包可以列出"
 
@@ -846,7 +861,7 @@ msgstr "查找提供指定内容的软件包"
 msgid "Reinstall software"
 msgstr "重新安装软件"
 
-#: commands/remove/remove.cpp:40
+#: commands/remove/remove.cpp:42
 msgid "Remove (uninstall) software"
 msgstr "删除（卸载）软件"
 
@@ -874,18 +889,18 @@ msgstr "模式匹配仓库ID。"
 msgid "Manage repositories"
 msgstr "仓库管理"
 
-#: commands/repoquery/repoquery.cpp:80
+#: commands/repoquery/repoquery.cpp:82
 msgid "Search for packages matching various criteria"
 msgstr "搜索符合各种条件的软件包"
 
-#: commands/repoquery/repoquery.cpp:517
+#: commands/repoquery/repoquery.cpp:525
 msgid ""
 "Option \"--exactdeps\" has to be used either with \"--whatrequires\" or \"--"
 "whatdepends\""
 msgstr ""
 "选项 \"--exactdeps\" 必须与 \"--whatrequires\" 或 \"--whatdepends\" 一起使用"
 
-#: commands/repoquery/repoquery.cpp:522
+#: commands/repoquery/repoquery.cpp:530
 msgid ""
 "Option \"--recursive\" has to be used either with \"--whatrequires\" or \"--"
 "providers-of=requires\""
