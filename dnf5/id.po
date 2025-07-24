@@ -7,18 +7,21 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-23 03:52+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-07-24 14:05+0000\n"
+"Last-Translator: Ega Natha <ega8642@gmail.com>\n"
+"Language-Team: Indonesian <https://translate.fedoraproject.org/projects/dnf5/"
+"dnf5/id/>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #: cmdline_aliases.cpp:84 context.cpp:301 main.cpp:1357
+#, fuzzy
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: cmdline_aliases.cpp:145
 #, c++-format
@@ -43,6 +46,7 @@ msgstr ""
 #, c++-format
 msgid "Unsupported version \"{}\" in file \"{}\". Supported versions: {}"
 msgstr ""
+"Versi \"{}\" tak didukung dalam berkas \"{}\". Versi yang didukung: \"{}\""
 
 #: cmdline_aliases.cpp:218
 #, c++-format
@@ -101,7 +105,7 @@ msgstr ""
 #: cmdline_aliases.cpp:387
 #, c++-format
 msgid "Missing attribute \"header\" for element \"{}\" in file \"{}\""
-msgstr ""
+msgstr "Atribut \"header\" hilang untuk elemen \"{}\" dalam berkas \"{}\""
 
 #: cmdline_aliases.cpp:428 cmdline_aliases.cpp:538
 #, c++-format
@@ -191,31 +195,32 @@ msgstr ""
 
 #: commands/advisory/advisory.cpp:36
 msgid "Manage advisories"
-msgstr ""
+msgstr "Mengelola Penasihat"
 
 #: commands/advisory/advisory_info.hpp:35
 msgid "Print details about advisories"
-msgstr ""
+msgstr "Berikan rincian tentang penasihat"
 
 #: commands/advisory/advisory_list.hpp:35
+#, fuzzy
 msgid "List advisories"
-msgstr ""
+msgstr "Daftar penasihat"
 
 #: commands/advisory/advisory_summary.cpp:44
 msgid "All"
-msgstr ""
+msgstr "Semua"
 
 #: commands/advisory/advisory_summary.cpp:48
 msgid "Installed"
-msgstr ""
+msgstr "Terpasang"
 
 #: commands/advisory/advisory_summary.cpp:52
 msgid "Updates"
-msgstr ""
+msgstr "Pemutakhiran"
 
 #: commands/advisory/advisory_summary.cpp:65
 msgid "Available"
-msgstr ""
+msgstr "Tersedia"
 
 #: commands/advisory/advisory_summary.hpp:33
 msgid "Print summary of advisories"
@@ -250,7 +255,7 @@ msgstr ""
 
 #: commands/advisory/arguments.hpp:83 commands/history/arguments.hpp:81
 msgid "PACKAGE_NAME,..."
-msgstr ""
+msgstr "NAMA_PAKET,..."
 
 #: commands/advisory/arguments.hpp:90
 msgid "List of patterns matched against advisory names."
@@ -258,16 +263,16 @@ msgstr ""
 
 #: commands/advisory/arguments.hpp:100
 msgid "Show only advisories referencing a bugzilla."
-msgstr ""
+msgstr "Hanya tampilkan penasihat yang mereferensikan bugzilla."
 
 #: commands/advisory/arguments.hpp:107
 msgid "Show only advisories referencing a CVE."
-msgstr ""
+msgstr "Hanya tampilkan penasihat yang mereferensikan CVE."
 
 #: commands/advisory_shared.hpp:76
 #, c++-format
 msgid "No advisory found matching the requested name: \"{}\""
-msgstr ""
+msgstr "Penasihat tidak ditemukan untuk nama yang diminta: \"{}\""
 
 #: commands/advisory_shared.hpp:109
 #, c++-format
@@ -290,7 +295,7 @@ msgstr ""
 
 #: commands/advisory_shared.hpp:159
 msgid "ADVISORY_NAME,..."
-msgstr ""
+msgstr "NAMA_PENASIHAT,..."
 
 #: commands/advisory_shared.hpp:166
 msgid "Include content contained in security advisories."
@@ -390,34 +395,36 @@ msgstr ""
 
 #: commands/debuginfo-install/debuginfo-install.cpp:45
 msgid "Install debuginfo packages."
-msgstr ""
+msgstr "Pasang paket debuginfo."
 
 #: commands/distro-sync/distro-sync.cpp:44
 msgid ""
 "Upgrade or downgrade installed software to the latest available versions"
 msgstr ""
+"Tingkatkan atau turunkan perangkat lunak terpasang ke versi terakhir yang "
+"tersedia"
 
 #: commands/do/do.cpp:44
 msgid "Do transaction"
-msgstr ""
+msgstr "Lakukan transaksi"
 
 #: commands/do/do.cpp:49
 msgid "Action to be done on the following items."
-msgstr ""
+msgstr "Aksi yang akan dilakukan dalam butir berikut."
 
 #: commands/do/do.cpp:63
 #, c++-format
 msgid "Unsupported action \"{}\""
-msgstr ""
+msgstr "Aksi \"{}\" tidak didukung"
 
 #: commands/do/do.cpp:73
 msgid "Type of the following items."
-msgstr ""
+msgstr "Ketik butir berikut."
 
 #: commands/do/do.cpp:86
 #, c++-format
 msgid "Unsupported item type \"{}\""
-msgstr ""
+msgstr "Tipe butir \"{}\" tidak didukung"
 
 #: commands/do/do.cpp:98
 msgid "List of items to take action on"
@@ -425,11 +432,11 @@ msgstr ""
 
 #: commands/do/do.cpp:129 commands/do/do.cpp:133
 msgid "Only package downgrade is supported."
-msgstr ""
+msgstr "Hanya penurunan paket yang didukung."
 
 #: commands/do/do.cpp:140 commands/do/do.cpp:144
 msgid "Only package reinstall is supported."
-msgstr ""
+msgstr "Hanya pemasangan ulang paket yang didukung."
 
 #: commands/do/do.cpp:150
 msgid "Action was not defined"
