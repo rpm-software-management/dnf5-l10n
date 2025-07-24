@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-23 03:52+0000\n"
-"PO-Revision-Date: 2025-06-24 09:06+0000\n"
+"PO-Revision-Date: 2025-07-24 14:05+0000\n"
 "Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/fr/>\n"
@@ -562,21 +562,16 @@ msgid "\"--from_repo\" already defined with diferent value"
 msgstr "\"--from_repo\" déjà défini avec une valeur différente"
 
 #: commands/from_repo.cpp:68
-#, fuzzy
-#| msgid ""
-#| "List groups of installed packages not required by other installed packages"
 msgid ""
 "Filters installed packages by the ID of the repository they were installed "
 "from."
 msgstr ""
-"Lister les groupes de paquets installés qui ne sont pas requis par d'autres "
-"paquets installés"
+"Filtrer les paquets installés par l'ID du dépôt à partir duquel ils ont été "
+"installés."
 
 #: commands/from_repo.cpp:79
-#, fuzzy
-#| msgid "\"--from_repo\" already defined with diferent value"
 msgid "\"--installed-from_repo\" already defined with diferent value"
-msgstr "\"--from_repo\" déjà défini avec une valeur différente"
+msgstr "\"--installed-from_repo\" déjà défini avec une valeur différente"
 
 #: commands/group/arguments.hpp:34
 msgid "Show only available groups."
@@ -699,7 +694,7 @@ msgstr ""
 
 #: commands/list/list.cpp:46
 msgid "Lists packages depending on the packages' relation to the system"
-msgstr "Liste les paquets en fonction de leur relation avec le système"
+msgstr "Lister les paquets en fonction de leur relation avec le système"
 
 #: commands/list/list.cpp:50
 msgid "List of package-spec-NI to match (case insensitively)"
