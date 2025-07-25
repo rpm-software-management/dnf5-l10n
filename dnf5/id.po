@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-23 03:52+0000\n"
+"POT-Creation-Date: 2025-07-25 03:51+0000\n"
 "PO-Revision-Date: 2025-07-25 03:22+0000\n"
 "Last-Translator: Ega Natha <ega8642@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -25,172 +25,143 @@ msgid ", "
 msgstr ", "
 
 #: cmdline_aliases.cpp:145
-#, c++-format
 msgid ""
 "Attached named argument \"{}\" not found: {}: Requested in file \"{}\" on "
 "line {}: {}"
 msgstr ""
 
 #: cmdline_aliases.cpp:159
-#, c++-format
 msgid ""
 "Unknown attribute \"{}\" of attached named argument for alias \"{}\" in file "
 "\"{}\" on line {}: {}"
 msgstr ""
 
 #: cmdline_aliases.cpp:171
-#, c++-format
 msgid "Missing attribute \"id_path\" for alias \"{}\" in file \"{}\""
 msgstr ""
 
 #: cmdline_aliases.cpp:208
-#, c++-format
 msgid "Unsupported version \"{}\" in file \"{}\". Supported versions: {}"
 msgstr ""
 "Versi \"{}\" tak didukung dalam berkas \"{}\". Versi yang didukung: \"{}\""
 
 #: cmdline_aliases.cpp:218
-#, c++-format
 msgid "Bad value type of attribute \"version\" in file \"{}\" on line {}: {}"
 msgstr ""
 
 #: cmdline_aliases.cpp:224
-#, c++-format
 msgid "Missing attribute \"version\" in file \"{}\""
 msgstr ""
 
 #: cmdline_aliases.cpp:236
-#, c++-format
 msgid "Unknown key \"{}\" in file \"{}\" on line {}: {}"
 msgstr ""
 
 #: cmdline_aliases.cpp:253
-#, c++-format
 msgid "Empty or bad element id path in file \"{}\" on line {}: {}"
 msgstr ""
 
 #: cmdline_aliases.cpp:272
-#, c++-format
 msgid ""
 "Parent command \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
 msgstr ""
 
 #: cmdline_aliases.cpp:301
-#, c++-format
 msgid "Unknown type \"{}\" of element \"{}\" in file \"{}\" on line {}: {}"
 msgstr ""
 
 #: cmdline_aliases.cpp:312
-#, c++-format
 msgid "Missing attribute \"type\" for element \"{}\" in file \"{}\""
 msgstr ""
 
 #: cmdline_aliases.cpp:331
-#, c++-format
 msgid ""
 "Named argument \"{}\" already registered. Requested in file \"{}\" on line "
 "{}: {}"
 msgstr ""
 
 #: cmdline_aliases.cpp:347
-#, c++-format
 msgid ""
 "Command \"{}\" already registered. Requested in file \"{}\" on line {}: {}"
 msgstr ""
 
 #: cmdline_aliases.cpp:375
-#, c++-format
 msgid "Unknown attribute \"{}\" of group \"{}\" in file \"{}\" on line {}: {}"
 msgstr ""
 
 #: cmdline_aliases.cpp:387
-#, c++-format
 msgid "Missing attribute \"header\" for element \"{}\" in file \"{}\""
 msgstr "Atribut \"header\" hilang untuk elemen \"{}\" dalam berkas \"{}\""
 
 #: cmdline_aliases.cpp:428 cmdline_aliases.cpp:538
-#, c++-format
 msgid ""
 "The \"short_name\" attribute of named argument \"{}\" must be one character "
 "long in file \"{}\" on line {}: {}"
 msgstr ""
 
 #: cmdline_aliases.cpp:446
-#, c++-format
 msgid "Source \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
 msgstr ""
 
 #: cmdline_aliases.cpp:462 cmdline_aliases.cpp:563 cmdline_aliases.cpp:676
-#, c++-format
 msgid "Group \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
 msgstr ""
 
 #: cmdline_aliases.cpp:476 cmdline_aliases.cpp:579
-#, c++-format
 msgid ""
 "Unknown attribute \"{}\" of named argument \"{}\" in file \"{}\" on line {}: "
 "{}"
 msgstr ""
 
 #: cmdline_aliases.cpp:489
-#, c++-format
 msgid "Missing attribute \"source\" for named argument \"{}\" in file \"{}\""
 msgstr ""
 
 #: cmdline_aliases.cpp:498 cmdline_aliases.cpp:592
-#, c++-format
 msgid ""
 "At least one of the attributes \"long_name\" and \"short_name\" must be set "
 "for named argument \"{}\" in file \"{}\""
 msgstr ""
 
 #: cmdline_aliases.cpp:657
-#, c++-format
 msgid ""
 "Attached command \"{}\" not found: {}: Requested in file \"{}\" on line {}: "
 "{}"
 msgstr ""
 
 #: cmdline_aliases.cpp:691
-#, c++-format
 msgid ""
 "Used config file version \"1.0\" for attribute \"{}\" of command \"{}\" in "
 "file \"{}\" on line {}: {}"
 msgstr ""
 
 #: cmdline_aliases.cpp:713
-#, c++-format
 msgid ""
 "Unknown attribute \"{}\" of required value for alias \"{}\" in file \"{}\" "
 "on line {}: {}"
 msgstr ""
 
 #: cmdline_aliases.cpp:726
-#, c++-format
 msgid ""
 "Missing attribute \"value_help\" of required value for alias \"{}\" in file "
 "\"{}\""
 msgstr ""
 
 #: cmdline_aliases.cpp:740
-#, c++-format
 msgid ""
 "Unknown attribute \"{}\" of command \"{}\" in file \"{}\" on line {}: {}"
 msgstr ""
 
 #: cmdline_aliases.cpp:756
-#, c++-format
 msgid ""
 "Missing attribute \"attached_command\" for command \"{}\" in file \"{}\""
 msgstr ""
 
 #: cmdline_aliases.cpp:791
-#, c++-format
 msgid "Bad value type in file \"{}\" on line {}: {}"
 msgstr ""
 
 #: cmdline_aliases.cpp:804
-#, c++-format
 msgid "Syntax error in file \"{}\" on line {}:"
 msgstr ""
 
@@ -271,17 +242,14 @@ msgid "Show only advisories referencing a CVE."
 msgstr "Hanya tampilkan penasihat yang mereferensikan CVE."
 
 #: commands/advisory_shared.hpp:76
-#, c++-format
 msgid "No advisory found matching the requested name: \"{}\""
 msgstr "Penasihat tidak ditemukan untuk nama yang diminta: \"{}\""
 
 #: commands/advisory_shared.hpp:109
-#, c++-format
 msgid "No advisory found fixing the Bugzilla ID: \"{}\""
 msgstr ""
 
 #: commands/advisory_shared.hpp:128
-#, c++-format
 msgid "No advisory found fixing the CVE ID: \"{}\""
 msgstr ""
 
@@ -365,32 +333,26 @@ msgid "Check for problems in the packagedb"
 msgstr "Periksa masalah dalam packagedb"
 
 #: commands/check/check.cpp:335
-#, c++-format
 msgid "Check discovered {} problem(s) in {} package(s)"
 msgstr ""
 
 #: commands/clean/clean.cpp:91
-#, c++-format
 msgid "List of cache types to clean up. Supported types: {0}"
 msgstr ""
 
 #: commands/clean/clean.cpp:109
-#, c++-format
 msgid "Unknown cache type \"{0}\". Supported types: {1}"
 msgstr ""
 
 #: commands/clean/clean.cpp:166
-#, c++-format
 msgid "Failed to cleanup repository cache in path \"{0}\": {1}"
 msgstr ""
 
 #: commands/clean/clean.cpp:176
-#, c++-format
 msgid "Cache directory \"{}\" does not exist. Nothing to clean."
 msgstr ""
 
 #: commands/clean/clean.cpp:181
-#, c++-format
 msgid "Cannot iterate cache directory \"{}\": {}"
 msgstr ""
 
@@ -414,7 +376,6 @@ msgid "Action to be done on the following items."
 msgstr "Aksi yang akan dilakukan dalam butir berikut."
 
 #: commands/do/do.cpp:63
-#, c++-format
 msgid "Unsupported action \"{}\""
 msgstr "Aksi \"{}\" tidak didukung"
 
@@ -423,7 +384,6 @@ msgid "Type of the following items."
 msgstr "Ketik butir berikut."
 
 #: commands/do/do.cpp:86
-#, c++-format
 msgid "Unsupported item type \"{}\""
 msgstr "Tipe butir \"{}\" tidak didukung"
 
@@ -444,7 +404,6 @@ msgid "Action was not defined"
 msgstr ""
 
 #: commands/do/do.cpp:228
-#, c++-format
 msgid "Invalid Environmet/Group specification: {}"
 msgstr ""
 
@@ -465,12 +424,10 @@ msgid "When running with --url, prints URLs from all available mirrors"
 msgstr ""
 
 #: commands/download/download.cpp:122
-#, c++-format
 msgid "Invalid urlprotocol option: {}"
 msgstr ""
 
 #: commands/download/download.cpp:149 main.cpp:627
-#, c++-format
 msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
 msgstr ""
 
@@ -480,7 +437,6 @@ msgid "Option \"--alldeps\" should be used with \"--resolve\""
 msgstr ""
 
 #: commands/download/download.cpp:226
-#, c++-format
 msgid ""
 "No package \"{}\" available; You might want to use --skip-unavailable option."
 msgstr ""
@@ -607,12 +563,10 @@ msgid "Multiple transactions selected for storing, only one allowed."
 msgstr ""
 
 #: commands/history/history_store.cpp:80
-#, c++-format
 msgid "File \"{}\" already exists, it will be overwritten.\n"
 msgstr ""
 
 #: commands/history/transaction_id.cpp:32
-#, c++-format
 msgid ""
 "Invalid transaction ID range \"{}\", \"ID\" or \"ID..ID\" expected, where ID "
 "is \"NUMBER\", \"last\" or \"last-NUMBER\"."
@@ -724,7 +678,6 @@ msgid "Manage modules"
 msgstr ""
 
 #: commands/module/module_list.cpp:85
-#, c++-format
 msgid "No matches found for \"{}\"."
 msgstr ""
 
@@ -733,14 +686,12 @@ msgid "Manage offline transactions"
 msgstr ""
 
 #: commands/offline/offline.cpp:249
-#, c++-format
 msgid ""
 "Error reading state: {}. Rerun the command you used to initiate the offline "
 "transaction, e.g. `dnf5 system-upgrade download [OPTIONS]`."
 msgstr ""
 
 #: commands/offline/offline.cpp:272
-#, c++-format
 msgid "Couldn't connect to D-Bus: {}"
 msgstr ""
 
@@ -763,17 +714,14 @@ msgid "System is not ready for offline transaction."
 msgstr ""
 
 #: commands/offline/offline.cpp:332
-#, c++-format
 msgid "Data directory {} does not exist."
 msgstr ""
 
 #: commands/offline/offline.cpp:357
-#, c++-format
 msgid "{} is not wanted by system-update.target."
 msgstr ""
 
 #: commands/offline/offline.cpp:367
-#, c++-format
 msgid "The system will now reboot to upgrade to release version {}."
 msgstr ""
 
@@ -814,12 +762,10 @@ msgid "Transaction failed: "
 msgstr ""
 
 #: commands/offline/offline.cpp:604
-#, c++-format
 msgid "Error reading journal: {}"
 msgstr ""
 
 #: commands/offline/offline.cpp:610
-#, c++-format
 msgid "Add journal match failed: {}"
 msgstr ""
 
@@ -985,7 +931,6 @@ msgstr ""
 
 #. TODO(mblaha): add full command line
 #: commands/versionlock/utils.cpp:35
-#, c++-format
 msgid "Added by 'versionlock {}' command on {}"
 msgstr ""
 
@@ -1003,17 +948,14 @@ msgstr ""
 
 #: commands/versionlock/versionlock_add.cpp:107
 #: commands/versionlock/versionlock_exclude.cpp:126
-#, c++-format
 msgid "No package found for \"{}\"."
 msgstr ""
 
 #: commands/versionlock/versionlock_add.cpp:134
-#, c++-format
 msgid "Adding versionlock on \"{0} = {1}\"."
 msgstr ""
 
 #: commands/versionlock/versionlock_add.cpp:137
-#, c++-format
 msgid "Package \"{}\" is already locked."
 msgstr ""
 
@@ -1043,27 +985,22 @@ msgstr ""
 
 #: commands/versionlock/versionlock_exclude.cpp:89
 #: commands/versionlock/versionlock_exclude.cpp:101
-#, c++-format
 msgid "Adding versionlock exclude on \"{0} = {1}\"."
 msgstr ""
 
 #: commands/versionlock/versionlock_exclude.cpp:140
-#, c++-format
 msgid "Package \"{}\" is already excluded."
 msgstr ""
 
 #: context.cpp:73
-#, c++-format
 msgid "Importing OpenPGP key 0x{}:\n"
 msgstr ""
 
 #: context.cpp:75 context.cpp:100
-#, c++-format
 msgid " UserID     : \"{}\"\n"
 msgstr ""
 
 #: context.cpp:78
-#, c++-format
 msgid ""
 " Fingerprint: {}\n"
 " From       : {}\n"
@@ -1074,17 +1011,14 @@ msgid "The key was successfully imported."
 msgstr ""
 
 #: context.cpp:96
-#, c++-format
 msgid "The following OpenPGP key (0x{}) is about to be removed:"
 msgstr ""
 
 #: context.cpp:98
-#, c++-format
 msgid " Reason     : {}\n"
 msgstr ""
 
 #: context.cpp:102
-#, c++-format
 msgid " Fingerprint: {}\n"
 msgstr ""
 
@@ -1106,24 +1040,20 @@ msgid "The system will now proceed with removing the key."
 msgstr ""
 
 #: context.cpp:115
-#, c++-format
 msgid "Key 0x{} was successfully removed."
 msgstr ""
 
 #: context.cpp:295
-#, c++-format
 msgid "setopt: \"{}.{}\": {}"
 msgstr ""
 
 #: context.cpp:305
-#, c++-format
 msgid ""
 "No matching repositories for {}. To use repositories from a host system, "
 "pass --use-host-config option"
 msgstr ""
 
 #: context.cpp:309
-#, c++-format
 msgid "No matching repositories for {}"
 msgstr ""
 
@@ -1140,17 +1070,14 @@ msgid "Testing offline transaction"
 msgstr ""
 
 #: context.cpp:375 context.cpp:523
-#, c++-format
 msgid "Transaction failed: {}"
 msgstr ""
 
 #: context.cpp:380 context.cpp:528
-#, c++-format
 msgid "  - {}"
 msgstr ""
 
 #: context.cpp:447
-#, c++-format
 msgid ""
 "Location \"{}\" already contains a stored transaction, it will be "
 "overwritten."
@@ -1180,27 +1107,22 @@ msgid "Running transaction"
 msgstr "Transkasi berjalan"
 
 #: context.cpp:820
-#, c++-format
 msgid "Upgrading {}"
 msgstr "Memperbarui {}"
 
 #: context.cpp:823
-#, c++-format
 msgid "Downgrading {}"
 msgstr "Menurunkan {}"
 
 #: context.cpp:826
-#, c++-format
 msgid "Reinstalling {}"
 msgstr "Memasang ulang {}"
 
 #: context.cpp:839
-#, c++-format
 msgid "Unexpected action in TransactionPackage: {}"
 msgstr "Aksi tak terduga dalam TransactionPackage: {}"
 
 #: context.cpp:845
-#, c++-format
 msgid "Installing {}"
 msgstr "Memasang {}"
 
@@ -1209,22 +1131,18 @@ msgid "Prepare transaction"
 msgstr "Mempersiapkan transaksi"
 
 #: context.cpp:886
-#, c++-format
 msgid "Removing {}"
 msgstr "Menghapus {}"
 
 #: context.cpp:889
-#, c++-format
 msgid "Cleanup {}"
 msgstr "Membersihkan {}"
 
 #: context.cpp:907
-#, c++-format
 msgid "Unpack error: {}"
 msgstr ""
 
 #: context.cpp:915
-#, c++-format
 msgid "Cpio error: {}"
 msgstr ""
 
@@ -1237,22 +1155,18 @@ msgid "Running scriptlets"
 msgstr ""
 
 #: context.cpp:953
-#, c++-format
 msgid "Running {} scriptlet: {}"
 msgstr ""
 
 #: context.cpp:968
-#, c++-format
 msgid "Finished {} scriptlet: {}"
 msgstr ""
 
 #: context.cpp:974
-#, c++-format
 msgid "Non-critical error in {} scriptlet: {}"
 msgstr ""
 
 #: context.cpp:983
-#, c++-format
 msgid "Error in {} scriptlet: {}"
 msgstr ""
 
@@ -1261,12 +1175,10 @@ msgid "Verify package files"
 msgstr "Verifikasi berkas paket"
 
 #: library.cpp:33
-#, c++-format
 msgid "Cannot load shared library \"{}\": {}"
 msgstr ""
 
 #: library.cpp:47
-#, c++-format
 msgid "Cannot obtain address of symbol \"{}\": {}"
 msgstr ""
 
@@ -1316,7 +1228,6 @@ msgid "Force refreshing metadata before running the command."
 msgstr ""
 
 #: main.cpp:204
-#, c++-format
 msgid "Failed to expire repository cache in path \"{0}\": {1}"
 msgstr ""
 
@@ -1325,7 +1236,6 @@ msgid "create additional repository using id and path"
 msgstr ""
 
 #: main.cpp:226
-#, c++-format
 msgid "repofrompath: Incorrect repoid and path specification \"{}\""
 msgstr ""
 
@@ -1340,23 +1250,20 @@ msgid ""
 "              <option>.  Values  for configuration options like excludepkgs, "
 "includepkgs, installonlypkgs and tsflags are appended to the original "
 "value,\n"
-"              they do not override it. However, specifying an empty value "
-"(e.g. --setopt=tsflags=) will clear the option."
+"              they do not override it. However, specifying an empty value (e."
+"g. --setopt=tsflags=) will clear the option."
 msgstr ""
 
 #: main.cpp:249 main.cpp:288
-#, c++-format
 msgid "{}: Badly formatted argument value \"{}\""
 msgstr ""
 
 #: main.cpp:256
-#, c++-format
 msgid ""
 "{}: Badly formatted argument value: Last key character cannot be '.': {}"
 msgstr ""
 
 #: main.cpp:269
-#, c++-format
 msgid "setopt: \"{0}\": {1}"
 msgstr ""
 
@@ -1365,7 +1272,6 @@ msgid "set arbitrary variable"
 msgstr ""
 
 #: main.cpp:295
-#, c++-format
 msgid "setvar: {}"
 msgstr ""
 
@@ -1501,27 +1407,22 @@ msgid "Subcommands:"
 msgstr "Subperintah:"
 
 #: main.cpp:759
-#, c++-format
 msgid "{} version {}.{}.{}.{}"
 msgstr "{} versi {}.{}.{}.{}"
 
 #: main.cpp:762
-#, c++-format
 msgid "{} plugin API version {}.{}"
 msgstr "Versi API pengaya {} {}.{}"
 
 #: main.cpp:767
-#, c++-format
 msgid "libdnf5 version {}.{}.{}.{}"
 msgstr "Versi libdnf5 {}.{}.{}.{}"
 
 #: main.cpp:770
-#, c++-format
 msgid "libdnf5 plugin API version {}.{}"
 msgstr "Versi API pengaya libdnf5 {}.{}"
 
 #: main.cpp:777
-#, c++-format
 msgid ""
 "\n"
 "Loaded {} plugins:"
@@ -1530,22 +1431,18 @@ msgstr ""
 "Pengaya {} termuat:"
 
 #: main.cpp:782
-#, c++-format
 msgid "  name: {}"
 msgstr "  nama: {}"
 
 #: main.cpp:785
-#, c++-format
 msgid "  version: {}.{}.{}"
 msgstr "  versi: {}.{}.{}"
 
 #: main.cpp:787
-#, c++-format
 msgid "  API version: {}.{}"
 msgstr "  versi API: {}.{}"
 
 #: main.cpp:825
-#, c++-format
 msgid ""
 "Total size of inbound packages is {:.0f} {:s}. Need to download {:.0f} {:s}."
 msgstr ""
@@ -1553,7 +1450,6 @@ msgstr ""
 "{:s}."
 
 #: main.cpp:842
-#, c++-format
 msgid ""
 "After this operation, {:.0f} {:s} extra will be used (install {:.0f} {:s}, "
 "remove {:.0f} {:s})."
@@ -1562,25 +1458,22 @@ msgstr ""
 "{:s}, hapus {:.0f} {:s})."
 
 #: main.cpp:853
-#, c++-format
 msgid ""
 "After this operation, {:.0f} {:s} will be freed (install {:.0f} {:s}, remove "
 "{:.0f} {:s})."
 msgstr ""
-"Setelah operasi ini, akan ada pengurangan sebanyak {:.0f} {:s} (pasang {:.0f}"
-" {:s}, hapus {:.0f} {:s})."
+"Setelah operasi ini, akan ada pengurangan sebanyak {:.0f} {:s} (pasang "
+"{:.0f} {:s}, hapus {:.0f} {:s})."
 
 #: main.cpp:865
 msgid "======== Main configuration: ========"
 msgstr ""
 
 #: main.cpp:902
-#, c++-format
 msgid "No matching repo to dump configuration: \"{}\""
 msgstr ""
 
 #: main.cpp:907
-#, c++-format
 msgid "======== \"{}\" repository configuration: ========"
 msgstr ""
 
@@ -1593,22 +1486,18 @@ msgid "New leaves:"
 msgstr ""
 
 #: main.cpp:969
-#, c++-format
 msgid " {}"
 msgstr ""
 
 #: main.cpp:1013
-#, c++-format
 msgid "{} to skip unavailable packages"
 msgstr "{} untuk melewati paket yang tidak tersedia"
 
 #: main.cpp:1021
-#, c++-format
 msgid "{} to allow extra packages in the transaction"
 msgstr "{} untuk mengizinkan menambahkan paket tambahan dalam transaksi"
 
 #: main.cpp:1034
-#, c++-format
 msgid ""
 "{} to allow mismatches between installed and stored transaction packages. "
 "This can result in an empty transaction because among other things the "
@@ -1619,23 +1508,20 @@ msgstr ""
 "opsi ini dapat mengabaikan aksi Hapus yang gagal."
 
 #: main.cpp:1081
-#, c++-format
 msgid "{} to not limit the transaction to the best candidates"
 msgstr "{} untuk tidak membatasi transaksi ke kandidat terbaik"
 
 #: main.cpp:1088
-#, c++-format
 msgid "{} to allow removing of installed packages to resolve problems"
 msgstr ""
 "{} untuk mengizinkan menghapus paket yang terpasang untuk mengatasi masalah"
 
 #: main.cpp:1097
-#, c++-format, fuzzy
+#, fuzzy
 msgid "{} to load additional filelists metadata"
 msgstr "{} untuk memuat metadata filelists"
 
 #: main.cpp:1104
-#, c++-format
 msgid "{} to skip uninstallable packages"
 msgstr "{} untuk melewati paket yang dapat di pasang"
 
@@ -1644,48 +1530,40 @@ msgid "You can try to add to command line:"
 msgstr ""
 
 #: main.cpp:1128
-#, c++-format
 msgid ""
 "No matches were found for the following plugin name patterns while enabling "
 "libdnf plugins: {}"
 msgstr ""
 
 #: main.cpp:1129
-#, c++-format
 msgid ""
 "No matches were found for the following plugin name patterns while disabling "
 "libdnf plugins: {}"
 msgstr ""
 
 #: main.cpp:1226
-#, c++-format
 msgid "--- DNF5 launched with arguments: \"{}\" ---"
 msgstr ""
 
 #: main.cpp:1262
-#, c++-format
 msgid "Invalid \"index\" in \"--complete=<index>[,...]\": {}"
 msgstr ""
 
 #: main.cpp:1301
-#, c++-format
 msgid "{}."
 msgstr ""
 
 #: main.cpp:1304 main.cpp:1556
-#, c++-format
 msgid "{}. Add \"--help\" for more information about the arguments."
 msgstr ""
 
 #: main.cpp:1313
-#, c++-format
 msgid ""
 "It could be a command provided by a plugin, try: dnf5 install 'dnf5-"
 "command({})'"
 msgstr ""
 
 #: main.cpp:1355
-#, c++-format
 msgid ""
 "The argument is available for commands: {}. (It has to be placed after the "
 "command.)"
@@ -1702,11 +1580,10 @@ msgid ""
 "options to run the command without modifying the system state."
 msgstr ""
 "Operasi yang diminta memerlukan izin superuser. Mohon log masuk sebagai "
-"pengguna dengan hak tinggi, atau gunakan opsi \"--assumeno\" atau "
-"\"--downloadonly\" untuk menjalankan perintah tanpa mengubah keadaan sistem."
+"pengguna dengan hak tinggi, atau gunakan opsi \"--assumeno\" atau \"--"
+"downloadonly\" untuk menjalankan perintah tanpa mengubah keadaan sistem."
 
 #: main.cpp:1512
-#, c++-format
 msgid "The operation will only store the transaction in {}"
 msgstr "Operasi ini hanya akan menyimpan transaksi dalam {}"
 
@@ -1733,7 +1610,6 @@ msgid ""
 msgstr ""
 
 #: main.cpp:1566
-#, c++-format
 msgid "Command returned error: {}"
 msgstr "Perintah mengembalikan galat: {}"
 
