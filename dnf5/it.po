@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-26 03:48+0000\n"
-"PO-Revision-Date: 2025-07-19 11:40+0000\n"
+"PO-Revision-Date: 2025-07-26 18:41+0000\n"
 "Last-Translator: Salvatore Cocuzza <info@salvatorecocuzza.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/it/>\n"
@@ -541,21 +541,16 @@ msgid "\"--from_repo\" already defined with diferent value"
 msgstr "\"--from_repo\" già definito con un valore diverso"
 
 #: commands/from_repo.cpp:68
-#, fuzzy
-#| msgid ""
-#| "List groups of installed packages not required by other installed packages"
 msgid ""
 "Filters installed packages by the ID of the repository they were installed "
 "from."
 msgstr ""
-"Elenca i gruppi di pacchetti installati non richiesti da altri pacchetti "
-"installati"
+"Filtra i pacchetti installati in base all'ID del repository da cui sono "
+"stati installati."
 
 #: commands/from_repo.cpp:79
-#, fuzzy
-#| msgid "\"--from_repo\" already defined with diferent value"
 msgid "\"--installed-from_repo\" already defined with diferent value"
-msgstr "\"--from_repo\" già definito con un valore diverso"
+msgstr "\"--installed-from_repo\" è già definito con un valore diverso"
 
 #: commands/group/arguments.hpp:34
 msgid "Show only available groups."
