@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-26 03:48+0000\n"
-"PO-Revision-Date: 2025-07-10 07:51+0000\n"
+"PO-Revision-Date: 2025-07-26 18:41+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ko/>\n"
@@ -504,20 +504,14 @@ msgid "\"--from_repo\" already defined with diferent value"
 msgstr "\"--from_repo\" 이미 다른 값으로 확인되었습니다"
 
 #: commands/from_repo.cpp:68
-#, fuzzy
-#| msgid ""
-#| "List groups of installed packages not required by other installed packages"
 msgid ""
 "Filters installed packages by the ID of the repository they were installed "
 "from."
-msgstr ""
-"다른 설치된 꾸러미에 의해 필요하지 않은 설치된 꾸러미 그룹을 나열합니다"
+msgstr "꾸러미가 설치된 저장소의 ID를 기준으로 걸러냅니다."
 
 #: commands/from_repo.cpp:79
-#, fuzzy
-#| msgid "\"--from_repo\" already defined with diferent value"
 msgid "\"--installed-from_repo\" already defined with diferent value"
-msgstr "\"--from_repo\" 이미 다른 값으로 확인되었습니다"
+msgstr "\"--installed-from_repo\" 이미 다른 값으로 확인되었습니다"
 
 #: commands/group/arguments.hpp:34
 msgid "Show only available groups."
