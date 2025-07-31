@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-26 03:48+0000\n"
-"PO-Revision-Date: 2025-07-31 11:53+0000\n"
+"PO-Revision-Date: 2025-08-01 12:53+0000\n"
 "Last-Translator: kanitha chim <kchim@redhat.com>\n"
 "Language-Team: Khmer (Central) <https://translate.fedoraproject.org/projects/"
 "dnf5/dnf5/km/>\n"
@@ -1005,52 +1005,55 @@ msgid ""
 "Option \"--recursive\" has to be used either with \"--whatrequires\" or \"--"
 "providers-of=requires\""
 msgstr ""
+"ជម្រើស \"--recursive\" ត្រូវបានប្រើប្រាស់ជាមួយនឹង \"--whatrequires\" ឬក៍ "
+"\"--providers-of=requires\""
 
 #: commands/search/arguments.hpp:37
 msgid "Search also package description and URL."
-msgstr ""
+msgstr "ស្វែងរកការពិពណ៏នានៃ​ package និង URL។"
 
 #: commands/search/arguments.hpp:45
 msgid "Patterns"
-msgstr ""
+msgstr "លំនាំ"
 
 #: commands/search/search.cpp:44
 msgid "Search for software matching all specified strings"
-msgstr ""
+msgstr "ស្វែងរកសម្រាប់កម្មវិធីត្រូវនឹងអក្សរដែលបានបញ្ជាក់"
 
 #: commands/swap/swap.cpp:44
 msgid "Remove software and install another in one transaction"
-msgstr ""
+msgstr "លុបចេញកម្មវិធី និង ដំឡើងកម្មវិធីផ្សេងនៅក្នុងប្រតិបត្តិការមួយ"
 
 #: commands/system-upgrade/system-upgrade.cpp:56
 msgid "Prepare system for upgrade to a new release"
-msgstr ""
+msgstr "ប្រៀបធៀបប្រព័ន្ធសម្រាប់កំណែឡើងទៅការបញ្ចេញថ្មី"
 
 #: commands/system-upgrade/system-upgrade.cpp:72
 msgid "Download everything needed to upgrade to a new release"
-msgstr ""
+msgstr "ទាញយកគ្រប់យ៉ាងដែលចាំបាច់សម្រាប់ធ្វើកំណែឡើងទៅកាន់ការបញ្ចេញថ្មី"
 
 #: commands/system-upgrade/system-upgrade.cpp:80
 msgid ""
 "Do not install packages from the new release if they are older than what is "
 "currently installed"
 msgstr ""
+"កុំដំឡើង packages មកពីការបញ្ចេញថ្មីប្រសិនបើពួកវាចាស់ជាងអ្វីដែលបានដំឡើងរួចរាល់នាបុច្ចប្បន្ន"
 
 #: commands/system-upgrade/system-upgrade.cpp:101
 msgid "Need a --releasever greater than the current system version."
-msgstr ""
+msgstr "ត្រូវការ --releasever ដែលធំជាងកំណែនៅក្នុងប្រព័ន្ធបុច្ចប្បន្ន។"
 
 #: commands/system-upgrade/system-upgrade.cpp:150
 msgid "Store a distro-sync transaction to be performed offline"
-msgstr ""
+msgstr "រក្សាទុកប្រតិបត្តិការ distro-sync ដើម្បីអនុវត្តក្រៅបណ្ដាញ"
 
 #: commands/system-upgrade/system-upgrade.cpp:172
 msgid "Store an upgrade transaction to be performed offline"
-msgstr ""
+msgstr "រក្សាទុកកំណែប្រតិបត្តិការដើម្បីអនុវត្តក្រៅបណ្ដាញ"
 
 #: commands/upgrade/upgrade.cpp:43
 msgid "Upgrade software"
-msgstr ""
+msgstr "ធ្វើកំណែឡើងកម្មវិធី"
 
 #: commands/upgrade/upgrade.cpp:50
 msgid ""
@@ -1059,85 +1062,89 @@ msgid ""
 "limiting advisories is used it upgrades packages only to the lowest versions "
 "that fix advisories that matching selected advisory property"
 msgstr ""
+"ដំឡើងកំណែកញ្ចប់ទៅកំណែទាបបំផុតដែលជួសជុលការណែនាំអំពីប្រភេទ bugfix, enhancement, security ឬ​ "
+"newpackage។ ក្នុង​ករណី​ដែល​ការ​ណែនាំ​កំណត់​ជម្រើស​ណា​មួយ​ត្រូវ​បាន​ប្រើ "
+"វា​ធ្វើ​ឱ្យ​ប្រសើរ​កញ្ចប់​តែ​ទៅ​កំណែ​ទាប​បំផុត​ដែល​ជួសជុល​ការ​ប្រឹក្សា​ដែល​ត្រូវ​គ្នា​នឹង​លក្ខណៈ​សម្បត្តិ​ទីប្រឹក្សា​ដែល​បាន​"
+"ជ្រើសរើស"
 
 #. TODO(mblaha): add full command line
 #: commands/versionlock/utils.cpp:35
 #, c++-format
 msgid "Added by 'versionlock {}' command on {}"
-msgstr ""
+msgstr "ដាក់បញ្ចូលដោយ 'versionlock {}' command នៅ {}"
 
 #: commands/versionlock/versionlock.cpp:40
 msgid "Manage versionlock configuration"
-msgstr ""
+msgstr "គ្រប់គ្រង versionlock configuration"
 
 #: commands/versionlock/versionlock_add.cpp:37
 msgid "Add new entry to versionlock configuration"
-msgstr ""
+msgstr "ដាក់ entry ថ្មីទៅ versionlock configuration"
 
 #: commands/versionlock/versionlock_add.cpp:44
 msgid "List of package package-spec-N to add versionlock for"
-msgstr ""
+msgstr "បង្ហាញតារាងនៃ package-spec-N ដើម្បីបន្ថែម versionlock សម្រាប់"
 
 #: commands/versionlock/versionlock_add.cpp:107
 #: commands/versionlock/versionlock_exclude.cpp:126
 #, c++-format
 msgid "No package found for \"{}\"."
-msgstr ""
+msgstr "រកមិនឃើញ package សម្រាប់ \"{}\"។"
 
 #: commands/versionlock/versionlock_add.cpp:134
 #, c++-format
 msgid "Adding versionlock on \"{0} = {1}\"."
-msgstr ""
+msgstr "កំពុងដាក់បន្ថែម versionlock នៅលើ \"{0} = {1}\"។"
 
 #: commands/versionlock/versionlock_add.cpp:137
 #, c++-format
 msgid "Package \"{}\" is already locked."
-msgstr ""
+msgstr "Package \"{}\" បានបិទរួចរាល់។"
 
 #: commands/versionlock/versionlock_clear.cpp:32
 msgid "Remove all entries from versionlock configuration"
-msgstr ""
+msgstr "ដកចេញរាល់ entries ទាំងអស់ដែលមកពី versionlock configuration"
 
 #: commands/versionlock/versionlock_delete.cpp:35
 msgid "Remove any matching versionlock configuration entries"
-msgstr ""
+msgstr "ដក់ចេញការផ្គូរផ្គងណាមួយនៃ versionlock configuration entries"
 
 #: commands/versionlock/versionlock_delete.cpp:41
 msgid "List of package specs to remove versionlock for"
-msgstr ""
+msgstr "បង្ហាញតារាងនៃ package specs ដើម្បីលុបចេញ versionlock សម្រាប់"
 
 #: commands/versionlock/versionlock_delete.cpp:55
 msgid "Deleting versionlock entry:"
-msgstr ""
+msgstr "កំពុងលុប versionlock entry:"
 
 #: commands/versionlock/versionlock_exclude.cpp:37
 msgid "Add new exclude entry to versionlock configuration"
-msgstr ""
+msgstr "ដាក់បន្ថែម exclude entry ថ្មីទៅកាន់ versionlock configuration"
 
 #: commands/versionlock/versionlock_exclude.cpp:44
 msgid "List of package-spec-N to add versionlock exclude for"
-msgstr ""
+msgstr "បង្ហាញតារាងនៃ package-spec-N ដើម្បីដាក់ versionlock exclude សម្រាប់"
 
 #: commands/versionlock/versionlock_exclude.cpp:89
 #: commands/versionlock/versionlock_exclude.cpp:101
 #, c++-format
 msgid "Adding versionlock exclude on \"{0} = {1}\"."
-msgstr ""
+msgstr "កំពុងដាក់បន្ថែម versionlock exclude នៅលើ \"{0} = {1}\"។"
 
 #: commands/versionlock/versionlock_exclude.cpp:140
 #, c++-format
 msgid "Package \"{}\" is already excluded."
-msgstr ""
+msgstr "Package \"{}\" ត្រូវបានដកចេញរួចរាល់។"
 
 #: context.cpp:73
 #, c++-format
 msgid "Importing OpenPGP key 0x{}:\n"
-msgstr ""
+msgstr "កំពុងទាញចូល OpenPGP key 0x{}:\n"
 
 #: context.cpp:75 context.cpp:100
 #, c++-format
 msgid " UserID     : \"{}\"\n"
-msgstr ""
+msgstr " .UserID.....:\"{}\"\n"
 
 #: context.cpp:78
 #, c++-format
@@ -1145,52 +1152,56 @@ msgid ""
 " Fingerprint: {}\n"
 " From       : {}\n"
 msgstr ""
+" ស្នាមម្រាមដៃ: {}\n"
+" មកពី       : {}\n"
 
 #: context.cpp:87
 msgid "The key was successfully imported."
-msgstr ""
+msgstr "Key ត្រូវបានទាញចូលជោគជ័យ។"
 
 #: context.cpp:96
 #, c++-format
 msgid "The following OpenPGP key (0x{}) is about to be removed:"
-msgstr ""
+msgstr "OpenPGP key (0x{}) ខាងក្រោមនេះគឺនឹងត្រូវបានលុបចោល:"
 
 #: context.cpp:98
 #, c++-format
 msgid " Reason     : {}\n"
-msgstr ""
+msgstr " ហេតុផល     : {}\n"
 
 #: context.cpp:102
 #, c++-format
 msgid " Fingerprint: {}\n"
-msgstr ""
+msgstr " ស្នាមម្រាមដៃ: {}\n"
 
 #: context.cpp:104
 msgid "As a result, installing packages signed with this key will fail."
-msgstr ""
+msgstr "ជាលទ្ធផល, ការដំឡើង packages ដែលបានចុះហត្ថលេខាជាមួយ key នេះនឹងបរាជ័យ។"
 
 #: context.cpp:105
 msgid "It is recommended to remove the expired key to allow importing"
-msgstr ""
+msgstr "គេបានណែនាំអោយលុប key ដែលផុតកំណត់ដើម្បីអនុញ្ញាតការនាំចូល"
 
 #: context.cpp:106
 msgid ""
 "an updated key. This might leave already installed packages unverifiable."
 msgstr ""
+"key ដែលបានធ្វើបច្ចុប្បន្នកាល។ នេះអាចធ្វើអោយ package "
+"ដែលបានដំឡើងរួចហើយក្លាយទៅជាមិនអាចផ្ទៀងផ្ទាត់បាន។"
 
 #: context.cpp:109
 msgid "The system will now proceed with removing the key."
-msgstr ""
+msgstr "ប្រព័ន្ធនឹងចាប់ផ្ដើមលុប key ចោលឥឡូវនេះ។"
 
 #: context.cpp:115
 #, c++-format
 msgid "Key 0x{} was successfully removed."
-msgstr ""
+msgstr "Key 0x{} ត្រូវបានដកចេញជោគជ័យ។"
 
 #: context.cpp:295
 #, c++-format
 msgid "setopt: \"{}.{}\": {}"
-msgstr ""
+msgstr "setopt: \"{}.{}\": {}"
 
 #: context.cpp:305
 #, c++-format
@@ -1198,52 +1209,56 @@ msgid ""
 "No matching repositories for {}. To use repositories from a host system, "
 "pass --use-host-config option"
 msgstr ""
+"គ្មាន​ repositories ដែលត្រូវនឹងគ្នាសម្រាប់ {}។ ដើម្បីប្រើ repositories ពីប្រព័ន្ធដើម, "
+"វាយបញ្ចូលជម្រើស --use-host-config"
 
 #: context.cpp:309
 #, c++-format
 msgid "No matching repositories for {}"
-msgstr ""
+msgstr "គ្មាន repositories ផ្គូរផ្គងសម្រាប់ {}"
 
 #: context.cpp:355
 msgid "Updating and loading repositories:"
-msgstr ""
+msgstr "កំពុងធ្វើបច្ចុប្បន្នភាព និង ទាញផ្ទុក repositories:"
 
 #: context.cpp:365
 msgid "Repositories loaded."
-msgstr ""
+msgstr "Repositories ត្រូវបានទាញផ្ទុក។"
 
 #: context.cpp:371
 msgid "Testing offline transaction"
-msgstr ""
+msgstr "កំពុងសាកល្បងប្រតិបត្តិការក្រៅបណ្ដាញ"
 
 #: context.cpp:375 context.cpp:523
 #, c++-format
 msgid "Transaction failed: {}"
-msgstr ""
+msgstr "ប្រតិបត្តិការមិនបានជោគជ័យ: {}"
 
 #: context.cpp:380 context.cpp:528
 #, c++-format
 msgid "  - {}"
-msgstr ""
+msgstr "  - {}"
 
 #: context.cpp:447
 #, c++-format
 msgid ""
 "Location \"{}\" already contains a stored transaction, it will be "
 "overwritten."
-msgstr ""
+msgstr "ទីតាំង \"{}\" មានផ្ទុកប្រតិបត្តិការស្រាប់ហើយ, វានឹងត្រូវបានសរសេរជាន់លើ។"
 
 #: context.cpp:476
 msgid ""
 "There is already an offline transaction queued, initiated by the following "
 "command:"
 msgstr ""
+"មានប្រតិបត្តិការក្រៅបណ្ដាញរួចរាល់ហើយនៅក្នុងជួរ, ត្រូវបានផ្ដួចផ្ដើមដោយ command​ ដូចខាងក្រោម:"
 
 #: context.cpp:478
 msgid ""
 "Continuing will cancel the old offline transaction and replace it with this "
 "one."
 msgstr ""
+"ធ្វើការបន្តនឹងបោះបង់ចោលប្រតិបត្តិការក្រៅបណ្ដាញចាស់ និងជំនួសវាជាមួយនឹងប្រតិបត្តិការមួយនេះ។"
 
 #: context.cpp:496
 msgid ""
@@ -1251,30 +1266,33 @@ msgid ""
 "reboot and run the transaction. To cancel the transaction and delete the "
 "downloaded files, use `dnf5 offline clean`."
 msgstr ""
+"ប្រតិបត្តិការដែលបានរក្សាទុកដើម្បីអនុវត្តក្រៅបណ្ដាញ។ Run `dnf5 offline reboot`ដើម្បី reboot "
+"និង run​ ប្រតិបត្តិការ។ ដើម្បីបោះបង់ចោលប្រតិបត្តិការនិងលុបចោលឯកសារដែលបានទាញយក, ប្រើ `dnf5 "
+"offline clean`។"
 
 #: context.cpp:502
 msgid "Running transaction"
-msgstr ""
+msgstr "កំពុងដំណើរការប្រតិបត្តិការ"
 
 #: context.cpp:820
 #, c++-format
 msgid "Upgrading {}"
-msgstr ""
+msgstr "កំពុងធ្វើកំណែឡើង {}"
 
 #: context.cpp:823
 #, c++-format
 msgid "Downgrading {}"
-msgstr ""
+msgstr "កំពុងធ្វើកំណែចុះ {}"
 
 #: context.cpp:826
 #, c++-format
 msgid "Reinstalling {}"
-msgstr ""
+msgstr "កំពុងដំឡើងម្ដងទៀត {}"
 
 #: context.cpp:839
 #, c++-format
 msgid "Unexpected action in TransactionPackage: {}"
-msgstr ""
+msgstr "សកម្មភាពមិនបានរំពឹងទុកនៅក្នុង TransactionPackage: {}"
 
 #: context.cpp:845
 #, c++-format
@@ -1283,93 +1301,93 @@ msgstr "កំពុងតម្លើង​ {}"
 
 #: context.cpp:866
 msgid "Prepare transaction"
-msgstr ""
+msgstr "រៀបចំប្រតិបត្តិការ"
 
 #: context.cpp:886
 #, c++-format
 msgid "Removing {}"
-msgstr ""
+msgstr "ធ្វើការដកចេញ {}"
 
 #: context.cpp:889
 #, c++-format
 msgid "Cleanup {}"
-msgstr ""
+msgstr "សម្អាត {}"
 
 #: context.cpp:907
 #, c++-format
 msgid "Unpack error: {}"
-msgstr ""
+msgstr "ស្រាយកញ្ចប់កំហុស: {}"
 
 #: context.cpp:915
 #, c++-format
 msgid "Cpio error: {}"
-msgstr ""
+msgstr "កំហុស​ cpio: {}"
 
 #: context.cpp:925
 msgid "Scriptlet output:"
-msgstr ""
+msgstr "សង្ខេបទិន្នផល:"
 
 #: context.cpp:948
 msgid "Running scriptlets"
-msgstr ""
+msgstr "កំពុង run scriptlets"
 
 #: context.cpp:953
 #, c++-format
 msgid "Running {} scriptlet: {}"
-msgstr ""
+msgstr "កំពុង run {} scriptlet: {}"
 
 #: context.cpp:968
 #, c++-format
 msgid "Finished {} scriptlet: {}"
-msgstr ""
+msgstr "បានបញ្ចប់ {} scriptlet: {}"
 
 #: context.cpp:974
 #, c++-format
 msgid "Non-critical error in {} scriptlet: {}"
-msgstr ""
+msgstr "កំហុសមិនធ្ងន់ធ្ងរនៅក្នុង {} scriptlet: {}"
 
 #: context.cpp:983
 #, c++-format
 msgid "Error in {} scriptlet: {}"
-msgstr ""
+msgstr "កំហុសនៅក្នុង {} scriptlet: {}"
 
 #: context.cpp:1018
 msgid "Verify package files"
-msgstr ""
+msgstr "បញ្ជាក់ឯកសារ package"
 
 #: library.cpp:33
 #, c++-format
 msgid "Cannot load shared library \"{}\": {}"
-msgstr ""
+msgstr "មិនអាចទាញផ្ទុកបណ្ណាល័យរួម \"{}\": {}"
 
 #: library.cpp:47
 #, c++-format
 msgid "Cannot obtain address of symbol \"{}\": {}"
-msgstr ""
+msgstr "មិនអាចទទួលអាស័យដ្ឋាននៃនិមិត្តសញ្ញា \"{}\": {}​"
 
 #: main.cpp:133
 msgid "Utility for packages maintaining"
-msgstr ""
+msgstr "ឧបករណ៍ប្រើប្រាស់សម្រាប់ថែរក្សា packages"
 
 #: main.cpp:134
 msgid "DNF5 is a program for maintaining packages."
-msgstr ""
+msgstr "DNF5 គឺជាកម្មវិធីសម្រាប់ថែរក្សា packages។"
 
 #: main.cpp:135
 msgid "Unclassified options:"
-msgstr ""
+msgstr "ជម្រើសដែលមិនបានចាត់ថ្នាក់:"
 
 #: main.cpp:138
 msgid "Global options:"
-msgstr ""
+msgstr "ជម្រើសសកល:"
 
 #: main.cpp:143
 msgid "Print help"
-msgstr ""
+msgstr "បង្ហាញជំនួយ"
 
 #: main.cpp:150
 msgid "Configuration file location"
-msgstr ""
+msgstr "ទីតាំងរបស់ឯកសារ configuration"
 
 #: main.cpp:158
 msgid ""
@@ -1377,38 +1395,42 @@ msgid ""
 "content. Suppresses messages notifying about the current state or actions of "
 "dnf5."
 msgstr ""
+"ផ្សំជាមួយនឹង non-interactive command, បង្ហាញតែមាតិការដែលពាក់ព័ន្ធ។ "
+"រារាំងសារដែលផ្ដល់ដំណឹងអំពីស្ថានភាពបច្ចុប្បន្ន​ឬសកម្មភាពនៃ dnf5។"
 
 #: main.cpp:173
 msgid ""
 "Run entirely from system cache, don't update the cache and use it even in "
 "case it is expired."
 msgstr ""
+"Run ទាំងស្រុងពី cache របស់ប្រព័ន្ធ, កុំធ្វើបុច្ចប្បន្នកាល cache និងប្រើវាទោះបីជាក្នុងករណីវាផុតកំណត់។"
 
 #: main.cpp:182
 msgid "Control whether color is used."
-msgstr ""
+msgstr "គ្រប់គ្រងថាតើពណ៏ត្រូវបានប្រើ។"
 
 #: main.cpp:188
 msgid "Force refreshing metadata before running the command."
-msgstr ""
+msgstr "ជម្រុញការ refreshing metadata មុនពេល run command។"
 
 #: main.cpp:204
 #, c++-format
 msgid "Failed to expire repository cache in path \"{0}\": {1}"
 msgstr ""
+"បរាជ័យក្នុងការធ្វើឲ្យ repository cache ផុតកំណត់នៅក្នុង path \"{0}\": {1}"
 
 #: main.cpp:218
 msgid "create additional repository using id and path"
-msgstr ""
+msgstr "បង្កើត repository បន្ថែមដោយប្រើ id និង path"
 
 #: main.cpp:226
 #, c++-format
 msgid "repofrompath: Incorrect repoid and path specification \"{}\""
-msgstr ""
+msgstr "repofrompath: ការបញ្ជាក់​ repoid និង path មិនត្រឹមត្រូវ \"{}\""
 
 #: main.cpp:238
 msgid "set arbitrary config and repo options"
-msgstr ""
+msgstr "ដាក់ arbitrary config និងជម្រើស repo"
 
 #: main.cpp:240
 msgid ""
