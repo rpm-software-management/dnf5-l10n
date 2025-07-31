@@ -8,9 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-26 03:48+0000\n"
-"PO-Revision-Date: 2025-07-30 11:20+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2025-07-31 11:53+0000\n"
+"Last-Translator: kanitha chim <kchim@redhat.com>\n"
 "Language-Team: Khmer (Central) <https://translate.fedoraproject.org/projects/"
 "dnf5/dnf5/km/>\n"
 "Language: km\n"
@@ -282,104 +281,114 @@ msgid ""
 "Show only advisories containing packages with specified names. List option, "
 "supports globs."
 msgstr ""
+"បង្ហាញតែ advisories ណាមួយដែលមានផ្ទុក packages ជាមួយនឹងឈ្មោះដែលបានបញ្ជាក់។ បង្ហាញជម្រើស, "
+"គាំទ្រ globs។"
 
 #: commands/advisory/arguments.hpp:83 commands/history/arguments.hpp:81
 msgid "PACKAGE_NAME,..."
-msgstr ""
+msgstr "PACKAGE_NAME,..."
 
 #: commands/advisory/arguments.hpp:90
 msgid "List of patterns matched against advisory names."
-msgstr ""
+msgstr "តារាងនៃលំនាំដែលត្រូវគ្នានឹងឈ្មោះ advisory។"
 
 #: commands/advisory/arguments.hpp:100
 msgid "Show only advisories referencing a bugzilla."
-msgstr ""
+msgstr "បង្ហាញតែ advisories ណាដែលយោងទៅកាន់ bugzilla។"
 
 #: commands/advisory/arguments.hpp:107
 msgid "Show only advisories referencing a CVE."
-msgstr ""
+msgstr "បង្ហាញតែ advisories ណាដែលយោងទៅ CVE។"
 
 #: commands/advisory_shared.hpp:76
 #, c++-format
 msgid "No advisory found matching the requested name: \"{}\""
-msgstr ""
+msgstr "រកមិនឃើញ advisory ដែលត្រូវគ្នានឹងឈ្មោះដែលបានដាក់ស្នើរ: \"{}\""
 
 #: commands/advisory_shared.hpp:109
 #, c++-format
 msgid "No advisory found fixing the Bugzilla ID: \"{}\""
-msgstr ""
+msgstr "រកមិនឃើញ advisory ដែលកែតម្រូវ Bugzilla ID: \"{}\""
 
 #: commands/advisory_shared.hpp:128
 #, c++-format
 msgid "No advisory found fixing the CVE ID: \"{}\""
-msgstr ""
+msgstr "រកមិនឃើញ advisory ដែលកែតម្រូវ CVE ID: \"{}\""
 
 #: commands/advisory_shared.hpp:143
 msgid "No advisory found matching the specified filters."
-msgstr ""
+msgstr "រកមិនឃើញ advisory ដែលត្រូវនឹង filters ដែលបានបញ្ជាក់។"
 
 #: commands/advisory_shared.hpp:158
 msgid ""
 "Include content contained in advisories with specified name. List option."
 msgstr ""
+"បញ្ជូលមាតិកាដែលមានផ្ទុកនៅក្នុង advisories ជាមួយនឹងឈ្មោះដែលបានបញ្ជាក់។ បង្ហាញជម្រើស។"
 
 #: commands/advisory_shared.hpp:159
 msgid "ADVISORY_NAME,..."
-msgstr ""
+msgstr "ADVISORY_NAME,..."
 
 #: commands/advisory_shared.hpp:166
 msgid "Include content contained in security advisories."
-msgstr ""
+msgstr "បញ្ជូលមាតិកាដែលមានផ្ទុកនៅក្នុង security advisories។"
 
 #: commands/advisory_shared.hpp:173
 msgid "Include content contained in bugfix advisories."
-msgstr ""
+msgstr "បញ្ជូលមាតិកាដែលមានផ្ទុកនៅក្នុង bugfix advisories។"
 
 #: commands/advisory_shared.hpp:180
 msgid "Include content contained in enhancement advisories."
-msgstr ""
+msgstr "បញ្ជូលមាតិកាដែលមានផ្ទុកនៅក្នុង enhancement advisories។"
 
 #: commands/advisory_shared.hpp:187
 msgid "Include content contained in newpackage advisories."
-msgstr ""
+msgstr "បញ្ជូលមាតិកាដែលមានផ្ទុកនៅក្នុង newpackage advisories។"
 
 #: commands/advisory_shared.hpp:198
 msgid ""
 "Include content contained in advisories with specified severity. List "
 "option. Can be \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgstr ""
+"បញ្ជូលមាតិកាដែលមានផ្ទុកនៅក្នុង advisories ជាមួយនឹង severity ដែលបានបញ្ជាក់។ បង្ហាញជម្រើស។ "
+"អាចជា \"critical\", \"important\", \"moderate\", \"low\", \"none\"។"
 
 #: commands/advisory_shared.hpp:200
 msgid "ADVISORY_SEVERITY,..."
-msgstr ""
+msgstr "ADVISORY_SEVERITY,..."
 
 #: commands/advisory_shared.hpp:212
 msgid ""
 "Include content contained in advisories that fix a Bugzilla ID, Eg. 123123. "
 "List option."
 msgstr ""
+"បញ្ចូលមាតិកាដែលមានផ្ទុកនៅក្នុង advisories ដែលកែតម្រូវ Bugzilla ID, ឧទាហរណ៍ 123123។ "
+"បង្ហាញជម្រើស។"
 
 #: commands/advisory_shared.hpp:213
 msgid "BUGZILLA_ID,..."
-msgstr ""
+msgstr "BUGZILLA_ID,..."
 
 #: commands/advisory_shared.hpp:223
 msgid ""
 "Include content contained in advisories that fix a CVE (Common "
 "Vulnerabilities and Exposures) ID, Eg. CVE-2201-0123. List option."
 msgstr ""
+"បញ្ចូលមាតិកាដែលមានផ្ទុកនៅក្នុង advisories ដែលកែរតម្រូវ CVE (Common Vulnerabilities "
+"and Exposures) ID, ឧទាហរណ៍​ CVE-2201-0123។​ បង្ហាញជម្រើស។"
 
 #: commands/advisory_shared.hpp:225
 msgid "CVE_ID,..."
-msgstr ""
+msgstr "CVE_ID,..."
 
 #: commands/autoremove/autoremove.cpp:38
 msgid "Remove all unneeded packages originally installed as dependencies."
 msgstr ""
+"ដកចេញរាល់ packages ដែលមិនត្រូវការទាំងអស់ដែលត្រូវបានដំឡើងមុនដំបូងជា dependencies។"
 
 #: commands/check-upgrade/check-upgrade.cpp:47
 msgid "Check for available package upgrades"
-msgstr ""
+msgstr "ពិនិត្យថាតើមាន packages ណាដែលអាចធ្វើកំណែទម្រង់បាន"
 
 #: commands/check-upgrade/check-upgrade.cpp:54
 msgid ""
@@ -388,207 +397,216 @@ msgid ""
 "advisories is used it reports the lowest versions of packages that fix "
 "advisories matching selected advisory properties"
 msgstr ""
+"រាយការណ៍កំណែទាបបំផុងរបស់ packages ដែលកែរតម្រូវប្រភេទ advisories ដូចជា bugfix, "
+"enhancement, security, ឬ newpackage។ ក្នុងករណីដែលជម្រើសណាមួយបានកំណត់ advisories "
+"ត្រូវបានប្រើប្រាស់របាយការណ៍នៃកំណែទាបបំផុតនៃ packages ដែលកែតម្រូវ advisories "
+"ត្រូវនឹងលក្ខណ:សម្បត្តិនៃ advisory ដែលបានជ្រើសរើស"
 
 #: commands/check/check.cpp:247
 msgid "Check for problems in the packagedb"
-msgstr ""
+msgstr "ពិនិត្យរកមើលបញ្ហានៅក្នុង packagedb"
 
 #: commands/check/check.cpp:335
 #, c++-format
 msgid "Check discovered {} problem(s) in {} package(s)"
-msgstr ""
+msgstr "ពិនិត្យបញ្ហាដែលបានរកឃើញ {} នៅក្នុង {} package(s)"
 
 #: commands/clean/clean.cpp:91
 #, c++-format
 msgid "List of cache types to clean up. Supported types: {0}"
-msgstr ""
+msgstr "បង្ហាញតារាងប្រភេទ cache ដើម្បីសម្អាត។ ប្រភេទដែលគាំទ្រ: {0}"
 
 #: commands/clean/clean.cpp:109
 #, c++-format
 msgid "Unknown cache type \"{0}\". Supported types: {1}"
-msgstr ""
+msgstr "មិនស្គាល់ប្រភេទ cache \"{0}\"។ គាំទ្រប្រភេទ: {1}"
 
 #: commands/clean/clean.cpp:166
 #, c++-format
 msgid "Failed to cleanup repository cache in path \"{0}\": {1}"
-msgstr ""
+msgstr "បរាជ័យក្នុងការសម្អាត repository cache នៅក្នុង path \"{0}\": {1}"
 
 #: commands/clean/clean.cpp:176
 #, c++-format
 msgid "Cache directory \"{}\" does not exist. Nothing to clean."
-msgstr ""
+msgstr "Cache directory \"{}\" មិនមាន។ គ្មានអ្វីត្រូវសម្អាត។"
 
 #: commands/clean/clean.cpp:181
 #, c++-format
 msgid "Cannot iterate cache directory \"{}\": {}"
-msgstr ""
+msgstr "មិនអាច iterate cache directory \"{}\": {}"
 
 #: commands/debuginfo-install/debuginfo-install.cpp:45
 msgid "Install debuginfo packages."
-msgstr ""
+msgstr "ដំឡើង​ debuginfo packages។"
 
 #: commands/distro-sync/distro-sync.cpp:44
 msgid ""
 "Upgrade or downgrade installed software to the latest available versions"
-msgstr ""
+msgstr "ធ្វើកំណែ​ឡើង ឬ បញ្ចុះកំណែកម្មវិធីដែលបានដំឡើងទៅកំណែចុងក្រោយដែលមានរួចរាល់"
 
 #: commands/do/do.cpp:44
 msgid "Do transaction"
-msgstr ""
+msgstr "ធ្វើប្រតិបត្តិការ"
 
 #: commands/do/do.cpp:49
 msgid "Action to be done on the following items."
-msgstr ""
+msgstr "សកម្មភាពដើម្បីសម្រេចនៅធាតុដូចខាងក្រោម។"
 
 #: commands/do/do.cpp:63
 #, c++-format
 msgid "Unsupported action \"{}\""
-msgstr ""
+msgstr "សកម្មភាពមិនគាំទ្រ \"{}\""
 
 #: commands/do/do.cpp:73
 msgid "Type of the following items."
-msgstr ""
+msgstr "ប្រភេទនៃធាតុដូចខាងក្រោម។"
 
 #: commands/do/do.cpp:86
 #, c++-format
 msgid "Unsupported item type \"{}\""
-msgstr ""
+msgstr "ប្រភេទធាតុដែលមិនគាំទ្រ \"{}\""
 
 #: commands/do/do.cpp:99
 msgid "List of items to take action on"
-msgstr ""
+msgstr "តារាងធាតុដើម្បីធ្វើសកម្មភាព"
 
 #: commands/do/do.cpp:131 commands/do/do.cpp:135
 msgid "Only package downgrade is supported."
-msgstr ""
+msgstr "សម្រាប់គាំទ្រតែការបញ្ជុះកំណែ package។"
 
 #: commands/do/do.cpp:142 commands/do/do.cpp:146
 msgid "Only package reinstall is supported."
-msgstr ""
+msgstr "សម្រាប់គាំទ្រតែការដំឡើង package ម្ដងទៀត។"
 
 #: commands/do/do.cpp:152
 msgid "Action was not defined"
-msgstr ""
+msgstr "សកម្មភាពមិនត្រូវបានកំណត់"
 
 #: commands/do/do.cpp:230
 #, c++-format
 msgid "Invalid Environmet/Group specification: {}"
-msgstr ""
+msgstr "Environment/Group ដែលបានបញ្ជាក់មិនត្រឹមត្រូវ: {}"
 
 #: commands/do/do.cpp:314
 msgid "Downgrading environments and groups is not supported."
-msgstr ""
+msgstr "ការបញ្ជុះកំណែ environments និង group​ គឺមិនគាំទ្រ។"
 
 #: commands/do/do.cpp:330
 msgid "Reinstaling environments and groups is not supported."
-msgstr ""
+msgstr "ការដំឡើង environments និង groups ម្ដងទៀតគឺមិនគាំទ្រ។"
 
 #: commands/downgrade/downgrade.cpp:42
 msgid "Downgrade software"
-msgstr ""
+msgstr "ធ្វើការបញ្ជុះកំណែកម្មវិធី"
 
 #: commands/download/download.cpp:106
 msgid "When running with --url, prints URLs from all available mirrors"
-msgstr ""
+msgstr "នៅពេល running ជាមួយ --url,​ បង្ហាញ URLs ពី mirrors ទាំងអស់ដែលមាន"
 
 #: commands/download/download.cpp:122
 #, c++-format
 msgid "Invalid urlprotocol option: {}"
-msgstr ""
+msgstr "ជម្រើស urlprotocol មិនត្រឹមត្រូវ: {}"
 
 #: commands/download/download.cpp:149 main.cpp:627
 #, c++-format
 msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
-msgstr ""
+msgstr "ស្ថាបត្យកម្មមិនត្រូវបានគាំទ្រ \"{0}\"។ សូមជ្រើសរើសមួយក្នុងចំណោម {1}"
 
 #. TODO(jrohel): Add support for requiring an argument by another argument in ArgumentParser?
 #: commands/download/download.cpp:186
 msgid "Option \"--alldeps\" should be used with \"--resolve\""
-msgstr ""
+msgstr "ជម្រើស \"--alldeps\" គួរតែត្រូវបានប្រើប្រាស់ជាមួយ \"--resolve\""
 
 #: commands/download/download.cpp:226
 #, c++-format
 msgid ""
 "No package \"{}\" available; You might want to use --skip-unavailable option."
-msgstr ""
+msgstr "គ្មាន package \"{}\";​​​ អ្នកអាចប្រើជម្រើស --skip-unavailable។"
 
 #: commands/environment/arguments.hpp:33
 msgid "Show only available environments."
-msgstr ""
+msgstr "បង្ហាញតែ environments ដែលមាន។"
 
 #: commands/environment/arguments.hpp:40
 msgid "Show only installed environments."
-msgstr ""
+msgstr "បង្ហាញតែ environments ដែលបានដំឡើង។"
 
 #: commands/environment/arguments.hpp:47
 msgid "Pattern matching environment IDs."
-msgstr ""
+msgstr "លំនាំត្រូវនឹង environment IDs។"
 
 #: commands/environment/environment.cpp:35
 msgid "Manage comps environments"
-msgstr ""
+msgstr "គ្រប់គ្រង comps environments"
 
 #: commands/from_repo.cpp:35
 msgid ""
 "The following items can be selected only from the specified repositories. "
 "All enabled repositories will still be used to satisfy dependencies."
 msgstr ""
+"ធាតុខាងក្រោមនេះអាចជ្រើសរើសបានតែពី repositories ដែលបានបញ្ជាក់ប៉ុណ្ណោះ។ រាល់ "
+"repositories ដែលបានដាក់អោយប្រើនឹងនៅតែអាចប្រើបានដើម្បីបំពេញតាម dependencies។"
 
 #: commands/from_repo.cpp:38 commands/from_repo.cpp:70
 msgid "REPO_ID,..."
-msgstr ""
+msgstr "REPO_ID,..."
 
 #: commands/from_repo.cpp:53
 msgid "\"--from_repo\" already defined with diferent value"
-msgstr ""
+msgstr "\"--from_repo\" ត្រូវបានកំណត់រួចហើយជាមួយនឹងតម្លៃផ្សេង"
 
 #: commands/from_repo.cpp:68
 msgid ""
 "Filters installed packages by the ID of the repository they were installed "
 "from."
 msgstr ""
+"ជ្រើសតម្រង packages​ ដែលបានដំឡើងដោយ ID​ នៃ repository ពីកន្លែងដែលពួកវាត្រូវបានដំឡើង។"
 
 #: commands/from_repo.cpp:79
 msgid "\"--installed-from_repo\" already defined with diferent value"
-msgstr ""
+msgstr "\"--installed-from_repo\" ត្រូវបានកំណត់រួចហើយជាមួយនឹងតម្លៃផ្សេង"
 
 #: commands/group/arguments.hpp:34
 msgid "Show only available groups."
-msgstr ""
+msgstr "បង្ហាញតែ groups ដែលមានប៉ុណ្ណោះ។"
 
 #: commands/group/arguments.hpp:41
 msgid "Show also hidden groups."
-msgstr ""
+msgstr "បង្ហាញ groups ដែលបានលាក់ផងដែរ។"
 
 #: commands/group/arguments.hpp:48
 msgid "Show only installed groups."
-msgstr ""
+msgstr "បង្ហាញតែ groups ដែលបានដំឡើងប៉ុណ្ណោះ។"
 
 #: commands/group/arguments.hpp:59
 msgid ""
 "Show only groups containing packages with specified names. List option, "
 "supports globs."
 msgstr ""
+"បង្ហាញតែ groups ដែលមាន​ packages ជាមួយនឹងឈ្មោះដែលបានបញ្ជាក់។ បង្ហាញជម្រើស, គាំទ្រ globs។"
 
 #: commands/group/arguments.hpp:67
 msgid "Pattern matching group IDS."
-msgstr ""
+msgstr "លំនាំត្រូវនឹង group IDs។"
 
 #: commands/group/arguments.hpp:76
 msgid "Include optional packages from group."
-msgstr ""
+msgstr "បញ្ចូល packages ដែលមិនទាមទារពី group។"
 
 #: commands/group/arguments.hpp:83
 msgid "Operate on groups only, no packages are changed."
 msgstr ""
+"ធ្វើដំណើរការនៅលើ groups តែប៉ុណ្ណោះ, គ្មាន packages ណាដែលត្រូវបានផ្លាស់ប្ដូរឡើយ។"
 
 #: commands/history/arguments.hpp:37
 msgid "Transaction ID"
-msgstr ""
+msgstr "ប្រតិបត្តិការ ID"
 
 #: commands/history/arguments.hpp:44
 msgid "Reverse the order of transactions."
-msgstr ""
+msgstr "បញ្ច្រាស់លំដាប់នៃប្រតិបត្តិការ។"
 
 #: commands/history/arguments.hpp:54
 msgid ""
@@ -596,47 +614,56 @@ msgid ""
 "as errors. This can result in an empty transaction because among other "
 "things the option can ignore failing Remove actions."
 msgstr ""
+"កុំពិចារណាភាពមិនត្រូវគ្នារវាងប្រតិបត្តិការ packages ដែលបានដំឡើង​ និង បានរក្សាទុកថាជាកំហុស។ "
+"នេះអាចក្លាចទៅជាប្រតិបត្តិការទទេរ ពីព្រោះក្នុងចំណោមវត្ថុផ្សេងជម្រើសអាចមិនអើពើការបរាជ័យសកម្មភាព "
+"Remove។"
 
 #: commands/history/arguments.hpp:67
 msgid "Don't consider extra packages pulled into the transaction as errors."
 msgstr ""
+"កុំពិចារណា packages បន្ថែមដែលត្រូវបានទាញចូលទៅក្នុងប្រតិបត្តិការថាជាកំហុស។"
 
 #: commands/history/arguments.hpp:80
 msgid ""
 "Show only transactions containing packages with specified names. List "
 "option, supports globs."
 msgstr ""
+"បង្ហាញតែប្រតិបត្តិការដែលមានផ្ទុក packages ជាមួយនឹងឈ្មោះដែលបានបញ្ជាក់។ បង្ហាញជម្រើស, គាំទ្រ "
+"globs។"
 
 #: commands/history/history.cpp:41
 msgid "Manage transaction history"
-msgstr ""
+msgstr "គ្រប់គ្រងប្រវត្តិប្រតិបត្តិការ"
 
 #: commands/history/history_info.cpp:70
 msgid ""
 "No match found, history info defaults to considering only the last "
 "transaction, specify \"1..last\" range to search all transactions."
 msgstr ""
+"រកមិនឃើញភាពផ្គូរផ្គង, ប្រវត្តិពណ៌មានត្រូវបានលំនាំទៅការផ្ទុកតែប្រតិបត្តិការចុងក្រោយ, បញ្ជាក់ "
+"\"1..last\" ជួរដើម្បីស្វែងរកប្រតិបត្តិការទាំងអស់។"
 
 #: commands/history/history_redo.cpp:54
 #: commands/history/history_rollback.cpp:58
 #: commands/history/history_store.cpp:65 commands/history/history_undo.cpp:57
 msgid "No matching transaction ID found, exactly one required."
-msgstr ""
+msgstr "រកមិនឃើញប្រតិបត្តិការ ID ដែលផ្គូរផ្គង, ត្រូវបានទាមទារតែមួយគត់។"
 
 #: commands/history/history_redo.cpp:58
 #: commands/history/history_rollback.cpp:62
 #: commands/history/history_undo.cpp:61
 msgid "Matched more than one transaction ID, exactly one required."
-msgstr ""
+msgstr "ផ្គូរផ្គងច្រើនជាងមួយប្រតិបត្តិការ ID, ត្រូវបានទាមទារតែមួយគត់។"
 
 #: commands/history/history_store.cpp:68
 msgid "Multiple transactions selected for storing, only one allowed."
 msgstr ""
+"ប្រតិបត្តិការមួយចំនួនត្រូវបានជ្រើសរើសសម្រាប់រក្សាទុក, ត្រូវបានអនុញ្ញាតតែមួយគត់។"
 
 #: commands/history/history_store.cpp:80
 #, c++-format
 msgid "File \"{}\" already exists, it will be overwritten.\n"
-msgstr ""
+msgstr "ឯកសារ \"{}\" មានរួចហើយ, វានឹងត្រូវបានសរសេរជាន់លើ។\n"
 
 #: commands/history/transaction_id.cpp:32
 #, c++-format
@@ -644,120 +671,128 @@ msgid ""
 "Invalid transaction ID range \"{}\", \"ID\" or \"ID..ID\" expected, where ID "
 "is \"NUMBER\", \"last\" or \"last-NUMBER\"."
 msgstr ""
+"ជួរប្រតិបត្តិការ ID មិនត្រឹមត្រូវ \"{}\", \"ID\", ឬ \"ID..ID\" រំពឹងទុក, ដែល ID ជា "
+"\"NUMBER\", \"last\", ឬ \"last-NUMBER\"។"
 
 #: commands/install/install.cpp:43
 msgid "Install software"
-msgstr ""
+msgstr "ដំឡើងកម្មវិធី"
 
 #: commands/leaves/leaves.cpp:42
 msgid ""
 "List groups of installed packages not required by other installed packages"
 msgstr ""
+"តារាងក្រុមនៃ packages ដែលបានដំឡើងតែមិនទាមទារដោយ packages ផ្សេងៗដែលបានដំឡើង"
 
 #: commands/list/list.cpp:46
 msgid "Lists packages depending on the packages' relation to the system"
 msgstr ""
+"បង្ហាញ packages ដែលពឹងពាក់លើ packages ផ្សេងៗដែលមានទំនាក់ទំនងទៅនឹងប្រព័ន្ធ"
 
 #: commands/list/list.cpp:50
 msgid "List of package-spec-NI to match (case insensitively)"
-msgstr ""
+msgstr "បង្ហាញ package-spec-NI ដើម្បីផ្គូរផ្គង (case insensitively)"
 
 #: commands/list/list.cpp:62
 msgid "Show all versions of the packages, not only the latest ones."
-msgstr ""
+msgstr "បង្ហាញគ្រប់កំណែនៃ packages, មិនមែនតែកំែណចុងក្រោយបង្អស់ទេ។"
 
 #: commands/list/list.cpp:70
 msgid "List installed packages."
-msgstr ""
+msgstr "បង្ហាញ packages ដែលបានដំឡើង។"
 
 #: commands/list/list.cpp:74
 msgid "List available packages."
-msgstr ""
+msgstr "បង្ហាញ packages ដែលមាន។"
 
 #: commands/list/list.cpp:81
 msgid ""
 "List extras, that is packages installed on the system that are not available "
 "in any known repository."
 msgstr ""
+"បង្ហាញ extras, ដែលជា packages ដែលបានដំឡើងនៅលើប្រព័ន្ធដែលមិនមាននៅក្នុង repository "
+"ដែលបានស្គាល់។"
 
 #: commands/list/list.cpp:89
 msgid ""
 "List packages installed on the system that are obsoleted by packages in any "
 "known repository."
 msgstr ""
+"បង្ហាញ packages ដែលបានដំឡើងនៅលើប្រព័ន្ធដែលមិនបានប្រើដោយ packages នៅក្នុង repository "
+"ដែលបានស្គាល់។"
 
 #: commands/list/list.cpp:94
 msgid "List packages recently added into the repositories."
-msgstr ""
+msgstr "បង្ហាញ packages ថ្មីៗដែលបានដាក់ចូលទៅក្នុង repositories។"
 
 #: commands/list/list.cpp:98
 msgid "List upgrades available for the installed packages."
-msgstr ""
+msgstr "បង្ហាញកំណែឡើងដែលមានសម្រាប់ packages ដែលបានដំឡើង។"
 
 #: commands/list/list.cpp:102
 msgid "List packages which will be removed by the 'dnf autoremove' command."
-msgstr ""
+msgstr "បង្ហាញ packages ដែលនឹងត្រូវបានដកចេញដោយ command 'dnf autoremove' ។"
 
 #: commands/list/list.cpp:203 commands/list/list.cpp:208
 msgid "Installed packages"
-msgstr ""
+msgstr "បានដំឡើង packages"
 
 #: commands/list/list.cpp:204 commands/list/list.cpp:217
 msgid "Available packages"
-msgstr ""
+msgstr "packages ដែលមាន"
 
 #: commands/list/list.cpp:225
 msgid "Available upgrades"
-msgstr ""
+msgstr "កំណែឡើងដែលមាន"
 
 #: commands/list/list.cpp:241
 msgid "Obsoleting packages"
-msgstr ""
+msgstr "លែងប្រើ packages"
 
 #: commands/list/list.cpp:246
 msgid "Autoremove packages"
-msgstr ""
+msgstr "ដក packages ចេញដោយស្វ័យប្រវត្តិ"
 
 #: commands/list/list.cpp:250
 msgid "Extra packages"
-msgstr ""
+msgstr "packages បន្ថែម"
 
 #: commands/list/list.cpp:261
 msgid "Recently added packages"
-msgstr ""
+msgstr "packages ដែលបានដាក់ចូលថ្មីៗ"
 
 #: commands/list/list.cpp:266
 msgid "No matching packages to list"
-msgstr ""
+msgstr "គ្មាន packages ដែលផ្គូរផ្គងដើម្បីបង្ហាញ"
 
 #: commands/mark/mark.cpp:38
 msgid "Change the reason of an installed package"
-msgstr ""
+msgstr "ផ្លាស់ប្ដូរហេតុផលនៃ package ដែលបានដំឡើង"
 
 #: commands/module/arguments.hpp:36
 msgid "Show enabled modules."
-msgstr ""
+msgstr "បង្ហាញ modules ដែលបានដាក់ឲ្យដំណើរការ។"
 
 #: commands/module/arguments.hpp:43
 msgid "Show disabled modules."
-msgstr ""
+msgstr "បង្ហាញ modules ដែលបានបិទ។"
 
 #: commands/module/arguments.hpp:50
 msgid "Pattern matching module NSVCAs."
-msgstr ""
+msgstr "លំនាំត្រូវនឹង module NSVCAs។"
 
 #: commands/module/module.cpp:43
 msgid "Manage modules"
-msgstr ""
+msgstr "គ្រប់គ្រង modules"
 
 #: commands/module/module_list.cpp:85
 #, c++-format
 msgid "No matches found for \"{}\"."
-msgstr ""
+msgstr "រកមិនឃើញការផ្គូរផ្គងសម្រាប់ \"{}\"។"
 
 #: commands/offline/offline.cpp:217
 msgid "Manage offline transactions"
-msgstr ""
+msgstr "គ្រប់គ្រងប្រតិបត្តិការក្រៅបណ្ដាញ"
 
 #: commands/offline/offline.cpp:249
 #, c++-format
@@ -765,190 +800,205 @@ msgid ""
 "Error reading state: {}. Rerun the command you used to initiate the offline "
 "transaction, e.g. `dnf5 system-upgrade download [OPTIONS]`."
 msgstr ""
+"កំហុសអានស្ថានភាព: {}។ Rerun command ដែលអ្នកបានប្រើដើម្បីចាប់ផ្ដើមប្រតិបត្តិការក្រៅបណ្ដាញ, "
+"ឧទាហរណ៍ `dnf5 system-upgrade download [OPTIONS]`។"
 
 #: commands/offline/offline.cpp:272
 #, c++-format
 msgid "Couldn't connect to D-Bus: {}"
-msgstr ""
+msgstr "មិនអាច់ភ្ជាប់ទៅកាន់ D-Bus: {}"
 
 #: commands/offline/offline.cpp:303
 msgid ""
 "Prepare the system to perform the offline transaction and reboot to start "
 "the transaction."
 msgstr ""
+"រៀបចំប្រព័ន្ធដើម្បីអនុវត្តប្រតិបត្តិការក្រៅបណ្ដាញនិង reboot ដើម្បីចាប់ផ្ដើមប្រតិបត្តិការ។"
 
 #: commands/offline/offline.cpp:310
 msgid "Power off the system after the operation is complete"
-msgstr ""
+msgstr "បិទប្រព័ន្ធបន្ទាប់ពីប្រតិបត្តិការបញ្ចប់"
 
 #: commands/offline/offline.cpp:321
 msgid "No offline transaction is stored."
-msgstr ""
+msgstr "គ្មានប្រតិបត្តិការក្រៅបណ្ដាញត្រូវបានរក្សាទុក។"
 
 #: commands/offline/offline.cpp:329
 msgid "System is not ready for offline transaction."
-msgstr ""
+msgstr "ប្រព័ន្ធគឺមិនទាន់រួចរាល់សម្រាប់ប្រតិបត្តិការក្រៅបណ្ដាញ។"
 
 #: commands/offline/offline.cpp:332
 #, c++-format
 msgid "Data directory {} does not exist."
-msgstr ""
+msgstr "ថតទិន្នន័យ {} គឺមិនមាន។"
 
 #: commands/offline/offline.cpp:357
 #, c++-format
 msgid "{} is not wanted by system-update.target."
-msgstr ""
+msgstr "{} គឺមិនត្រូវការដោយ system-update.target។"
 
 #: commands/offline/offline.cpp:367
 #, c++-format
 msgid "The system will now reboot to upgrade to release version {}."
-msgstr ""
+msgstr "ប្រព័ន្ធនឹង reboot ឥឡូវនេះដើម្បីធ្វើកំណែឡើងទៅ release version {}។"
 
 #: commands/offline/offline.cpp:371
 msgid ""
 "The system will now reboot to perform the offline transaction initiated by "
 "the following command:"
 msgstr ""
+"ប្រព័ន្ធនឹងធ្វើការ reboot​ ឥឡូវនេះដើម្បីអនុវត្តប្រតិបត្តិការក្រៅបណ្ដាញដែលផ្ដួចផ្ដើមដោយ command​ "
+"ដូចខាងក្រោម:"
 
 #: commands/offline/offline.cpp:402
 msgid ""
 "Internal use only, not intended to be run by the user. Execute the "
 "transaction in the offline environment."
 msgstr ""
+"អ្នកប្រើប្រាស់ផ្ទៃក្នុងតែមួយគត់, មិនមែនសម្រាប់ run ដោយអ្នកប្រើប្រាស់ទូរទៅ។​ ធ្វើប្រតិបត្តិការនៅក្នុង​ "
+"environment ក្រៅបណ្ដាញ។"
 
 #: commands/offline/offline.cpp:436
 msgid "Trigger file does not exist. Exiting."
-msgstr ""
+msgstr "ឯកសារដែលបាន​ trigger​ មិនមាន។​ ចាកចេញ។"
 
 #: commands/offline/offline.cpp:440
 msgid "Another offline transaction tool is running. Exiting."
-msgstr ""
+msgstr "ឧបករណ៍ប្រតិបត្តិការក្រៅបណ្ដាញផ្សេងទៀតគឺកំពុងធ្វើដំណើរការ។​ ចាកចេញ។"
 
 #: commands/offline/offline.cpp:467
 msgid "Starting offline transaction. This will take a while."
-msgstr ""
+msgstr "ចាប់ផ្ដើមប្រតិបត្តិការក្រៅបណ្ដាញ។ វានឹងត្រូវការពេលបន្តិច។"
 
 #: commands/offline/offline.cpp:471
 msgid "Starting system upgrade. This will take a while."
-msgstr ""
+msgstr "ចាប់ផ្ដើមធ្វើកំណែឡើងសម្រាប់ប្រព័ន្ធ។ វានឹងត្រូវការពេលបន្តិច។"
 
 #: commands/offline/offline.cpp:483
 msgid "Use `dnf5 offline reboot` to begin the transaction."
-msgstr ""
+msgstr "ប្រើ `dnf5 offline reboot` ដើម្បីចាប់ផ្ដើមប្រតិបត្តិការ។"
 
 #: commands/offline/offline.cpp:534
 msgid "Transaction failed: "
-msgstr ""
+msgstr "ប្រតិបត្តិការមិនបានជោគជ័យ: "
 
 #: commands/offline/offline.cpp:604
 #, c++-format
 msgid "Error reading journal: {}"
-msgstr ""
+msgstr "កំហុសអាន journal: {}"
 
 #: commands/offline/offline.cpp:610
 #, c++-format
 msgid "Add journal match failed: {}"
-msgstr ""
+msgstr "ដាក់ journal​ ផ្គូរផ្គងមិនបានសម្រេច: {}"
 
 #: commands/offline/offline.cpp:638
 msgid "No logs were found."
-msgstr ""
+msgstr "រកមិនឃើញ​ logs។"
 
 #: commands/offline/offline.cpp:642
 msgid "The following boots appear to contain offline transaction logs:"
-msgstr ""
+msgstr "boots​ ខាងក្រោមនេះហាក់ដូចជាមានផ្ទុក logs​ នៃប្រតិបត្តិការក្រៅបណ្ដាញ:"
 
 #: commands/offline/offline.cpp:659
 msgid "Cannot find logs with this index."
-msgstr ""
+msgstr "មិនអាចស្វែងរក logs ជាមួយនឹង index នេះទេ។"
 
 #: commands/offline/offline.cpp:666
 msgid "Unable to match systemd journal entry."
-msgstr ""
+msgstr "មិនអាចធ្វើការផ្គូរផ្គង systemd journal entry។"
 
 #: commands/offline/offline.cpp:678
 msgid "Show logs from past offline transactions"
-msgstr ""
+msgstr "បង្ហាញ logs ពីប្រតិបត្តិការក្រៅបណ្ដាញអតីតកាល"
 
 #: commands/offline/offline.cpp:686
 msgid ""
 "Which log to show. Run without any arguments to get a list of available logs."
 msgstr ""
+"Which log ដើម្បីបង្ហាញ។ Run​ ដោយគ្មានអមជាមួយ arguments ណាមួយដើម្បីបានតារាងនៃ logs "
+"ទាំងអស់។"
 
 #: commands/offline/offline.cpp:701
 msgid ""
 "systemd is not supported in this build of DNF 5; the `log` subcommand is "
 "unavailable."
 msgstr ""
+"systemd គឺមិនត្រូវបានគាំទ្រនៅក្នុង build នៃ DNF 5; `log` subcommand មិនមានទេ។"
 
 #: commands/offline/offline.cpp:706
 msgid "Show status of the current offline transaction"
-msgstr ""
+msgstr "បង្ហាញស្ថានភាពនៃប្រតិបត្តិការក្រៅបណ្ដាញបច្ចុប្បន្ន"
 
 #: commands/offline/offline.cpp:722
 msgid "An offline transaction was initiated by the following command:"
-msgstr ""
+msgstr "ប្រតិបត្តិការក្រៅបណ្ដាញត្រូវបានផ្ដួចផ្ដើមដោយ command ដូចខាងក្រោម:"
 
 #: commands/offline/offline.cpp:724
 msgid ""
 "Run `dnf5 offline reboot` to reboot and perform the offline transaction."
 msgstr ""
+"Run `dnf5 offline reboot` ដើម្បី reboot និងអនុវត្តប្រតិបត្តិការក្រៅបណ្ដាញ។"
 
 #: commands/offline/offline.cpp:726
 msgid ""
 "An offline transaction was started, but it did not finish. Run `dnf5 offline "
 "log` for more information. The command that initiated the transaction was:"
 msgstr ""
+"ប្រតិបត្តិការក្រៅបណ្ដាញត្រូវបានចាប់ផ្ដើម, ប៉ុន្តែវាមិនបានបញ្ចប់ទេ។​ Run `dnf5 offline log` "
+"សម្រាប់មើលព័ត៏មានបន្ថែម។​ command ដែលបានផ្ដួចផ្ដើមប្រតិបត្តិការគឺ:"
 
 #: commands/offline/offline.cpp:731
 msgid "Unknown offline transaction status: "
-msgstr ""
+msgstr "មិនស្គាល់ស្ថានភាពរបស់ប្រតិបត្តិការក្រៅបណ្ដាញ: "
 
 #: commands/provides/provides.cpp:48
 msgid "Find what package provides the given value"
-msgstr ""
+msgstr "ស្វែងរកថាតើ package​ ណាដែលផ្ដល់តម្លៃនេះ"
 
 #: commands/reinstall/reinstall.cpp:42
 msgid "Reinstall software"
-msgstr ""
+msgstr "ធ្វើការដំឡើងកម្មវិធីម្ដងទៀត"
 
 #: commands/remove/remove.cpp:42
 msgid "Remove (uninstall) software"
-msgstr ""
+msgstr "លុប(ដក)​ កម្មវិធី​​"
 
 #: commands/replay/replay.cpp:38
 msgid "Replay a transaction that was previously stored to a directory"
-msgstr ""
+msgstr "ចាក់ឡើងវិញនូវប្រតិបត្តិការដែលពីមុនត្រូវបានទុកនៅក្នុងថត"
 
 #: commands/repo/arguments.hpp:35
 msgid "Show all repositories."
-msgstr ""
+msgstr "បង្ហាញ repositories ទាំងអស់។"
 
 #: commands/repo/arguments.hpp:42
 msgid "Show enabled repositories (default)."
-msgstr ""
+msgstr "បង្ហាញ repositories ដែលបានដាក់ឲ្យប្រើ (លំនាំដើម)។"
 
 #: commands/repo/arguments.hpp:49
 msgid "Show disabled repositories."
-msgstr ""
+msgstr "បង្ហាញ repositories ដែលត្រូវបានបិទ។"
 
 #: commands/repo/arguments.hpp:56
 msgid "Pattern matching repo IDs."
-msgstr ""
+msgstr "លំនាំត្រូវនឹង repo IDs។"
 
 #: commands/repo/repo.cpp:38
 msgid "Manage repositories"
-msgstr ""
+msgstr "គ្រប់គ្រង repositories"
 
 #: commands/repoquery/repoquery.cpp:82
 msgid "Search for packages matching various criteria"
-msgstr ""
+msgstr "ស្វែងរក package ដែលត្រូវនឹងលក្ខណ:វិនិច្ឆ័យផ្សេងៗ"
 
 #: commands/repoquery/repoquery.cpp:525
 msgid ""
 "Option \"--exactdeps\" has to be used either with \"--whatrequires\" or \"--"
 "whatdepends\""
 msgstr ""
+"ជម្រើស \"--exactdeps\" ត្រូវបានប្រើប្រាស់ជាមួយ \"--whatrequires\" ឬក៍ "
+"\"--whatdepends\""
 
 #: commands/repoquery/repoquery.cpp:530
 msgid ""
@@ -1229,7 +1279,7 @@ msgstr ""
 #: context.cpp:845
 #, c++-format
 msgid "Installing {}"
-msgstr "កំពុងតម្លើង"
+msgstr "កំពុងតម្លើង​ {}"
 
 #: context.cpp:866
 msgid "Prepare transaction"
