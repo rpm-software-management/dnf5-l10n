@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Sabri Ünal <yakushabb@gmail.com>, 2024.
 # Oğuz Ersen <oguz@ersen.moe>, 2024.
+# Demir Kolak <demirkolak8@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-26 03:48+0000\n"
-"PO-Revision-Date: 2024-09-21 14:54+0000\n"
-"Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
+"PO-Revision-Date: 2025-08-28 02:23+0000\n"
+"Last-Translator: Demir Kolak <demirkolak8@gmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5-plugin-actions/tr/>\n"
 "Language: tr\n"
@@ -17,23 +18,17 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.7.2\n"
+"X-Generator: Weblate 5.13\n"
 
 #: actions.cpp:237
-#, fuzzy
-#| msgid "Error in file \"{}\" on line {}: Unknown hook \"{}\""
 msgid "File \"{}\" on line {}: {}"
-msgstr "\"{}\" dosyasının {}. satırında hata. Bilinmeyen kanca \"{}\""
+msgstr "\"{}\" dosyasının {}. satırında hata. Bilinmeyen bağlantı \"{}\""
 
 #: actions.cpp:636 actions.cpp:642 actions.cpp:648 actions.cpp:654
-#, fuzzy
-#| msgid ""
-#| "Error in file \"{}\" on line {}: \"HOOK:PKG_FILTER:DIRECTION:OPTIONS:"
-#| "CMD\" format expected"
 msgid "\"HOOK:PKG_FILTER:DIRECTION:OPTIONS:CMD\" format expected"
 msgstr ""
-"\"{}\" dosyasının {}. satırında hata: \"KANCA:PKT_FİLTRESİ::YÖN:KOMUT\" "
-"biçimi bekleniyor"
+"\"{}\" dosyasının {}. satırında hata: "
+"\"BAGLANTI:PKT_FİLTRESİ:YÖN:SECENEKLER:KOMUT\" biçimi bekleniyor"
 
 #: actions.cpp:676
 #, fuzzy
@@ -46,70 +41,70 @@ msgstr ""
 
 #: actions.cpp:683
 msgid "Unknown option \"{}\""
-msgstr ""
+msgstr "Bilinmeyen seçenek \"{}\""
 
 #: actions.cpp:711
 msgid "Unknown hook \"{}\""
-msgstr ""
+msgstr "Bilinmeyen bağlantı \"{}\""
 
 #: actions.cpp:720
-#, fuzzy
-#| msgid ""
-#| "Error in file \"{}\" on line {}: Package filter can only be used in "
-#| "PRE_TRANS and POST_TRANS hooks"
 msgid ""
 "Package filter can only be used in GOAL_RESOLVED, PRE_TRANS and POST_TRANS "
 "hooks"
 msgstr ""
 "\"{}\" dosyasının {}. satırında hata. Paket filtresi yalnızca PRE_TRANS ve "
-"POST_TRANS kancalarında kullanılabilir"
+"POST_TRANS bağlantılarında kullanılabilir"
 
 #: actions.cpp:726
-#, fuzzy
-#| msgid ""
-#| "Error in file \"{}\" on line {}: Cannot use direction without package "
-#| "filter"
 msgid "Cannot use direction without package filter"
 msgstr ""
-"\"{}\" dosyasının {}. satırında hata. Paket filtresi olmadan yön kullanılamaz"
+"\"{}\" dosyasının {}. satırında hata: Paket filtresi olmadan yön kullanılamaz"
 
 #: actions.cpp:740
 #, fuzzy
 #| msgid "Error in file \"{}\" on line {}: Unknown package direction \"{}\""
 msgid "Unknown package direction \"{}\""
-msgstr "\"{}\" dosyasının {}. satırında hata. Bilinmeyen paket yönü \"{}\""
+msgstr "\"{}\" dosyasının {}. satırında hata: Bilinmeyen paket yönü \"{}\""
 
 #: actions.cpp:747
+#, fuzzy
 msgid "Unknown mode \"{}\""
-msgstr ""
+msgstr "Bilinmeyen mod \"{}\""
 
 #: actions.cpp:755
+#, fuzzy
 msgid "Unsupported value of the \"raise_error\" option: {}"
-msgstr ""
+msgstr "“raise_error” seçeneği için desteklenmeyen değer: {}"
 
 #: actions.cpp:760
+#, fuzzy
 msgid "Missing command"
-msgstr ""
+msgstr "Eksik komut"
 
 #: actions.cpp:953
+#, fuzzy
 msgid "Synax error: Missing equal sign (=) in action output line: {}"
-msgstr ""
+msgstr "Yazım Hatası: İşlem çıkış satırı {} , eksik eşittir işareti (=)."
 
 #: actions.cpp:964
+#, fuzzy
 msgid "Cannot set option: Action output line: {}"
-msgstr ""
+msgstr "Seçenek ayarlanamıyor: Eylem çıkış satırı: {}"
 
 #: actions.cpp:982
+#, fuzzy
 msgid "Action sent the wrong log level: {}"
-msgstr ""
+msgstr "Yanlış günlük düzeyi gönderildi: {}"
 
 #: actions.cpp:987 actions.cpp:1794
+#, fuzzy
 msgid "Action calls for stop: {}"
-msgstr ""
+msgstr "{} : Eylem durdurma çağrısında bulundu"
 
 #: actions.cpp:990 actions.cpp:1801
+#, fuzzy
 msgid "Action sent error message: {}"
-msgstr ""
+msgstr "{} Eylemi hata mesajı gönderdi."
 
 #: actions.cpp:995
 msgid ""
