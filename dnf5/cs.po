@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-26 03:48+0000\n"
-"PO-Revision-Date: 2025-08-26 15:53+0000\n"
+"PO-Revision-Date: 2025-09-19 20:13+0000\n"
 "Last-Translator: Petr Pisar <ppisar@redhat.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf5/dnf5/"
 "cs/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 5.13\n"
+"X-Generator: Weblate 5.13.3\n"
 
 #: cmdline_aliases.cpp:84 context.cpp:301 main.cpp:1357
 msgid ", "
@@ -367,6 +367,10 @@ msgid ""
 "advisories is used it reports the lowest versions of packages that fix "
 "advisories matching selected advisory properties"
 msgstr ""
+"Hlásí nejnižší verze balíčků, které naplňují doporučení typu oprava, "
+"vylepšení, bezpečnost nebo nový balík. Je-li použit přepínač, který omezuje "
+"doporučení, hlásí nejnižší verze balíčků, které naplňují doporučení "
+"odpovídající vybraným vlastnostem doporučení."
 
 #: commands/check/check.cpp:247
 msgid "Check for problems in the packagedb"
@@ -1020,67 +1024,65 @@ msgstr ""
 #. TODO(mblaha): add full command line
 #: commands/versionlock/utils.cpp:35
 msgid "Added by 'versionlock {}' command on {}"
-msgstr ""
+msgstr "Přidáno příkazem „versionlock {}“ v {}"
 
 #: commands/versionlock/versionlock.cpp:40
 msgid "Manage versionlock configuration"
-msgstr ""
+msgstr "Spravuje nastavení příkazu versionlock"
 
 #: commands/versionlock/versionlock_add.cpp:37
 msgid "Add new entry to versionlock configuration"
-msgstr ""
+msgstr "Přidá novou položku do nastavení versionlocku"
 
 #: commands/versionlock/versionlock_add.cpp:44
 msgid "List of package package-spec-N to add versionlock for"
-msgstr ""
+msgstr "Seznam balíčků package-spec-N, kterým se má uzamknout verze"
 
 #: commands/versionlock/versionlock_add.cpp:107
 #: commands/versionlock/versionlock_exclude.cpp:126
-#, fuzzy
-#| msgid "No matches found for \"{}\"."
 msgid "No package found for \"{}\"."
-msgstr "Nebyly nalezeny žádné shody pro \"{}\"."
+msgstr "Nebyly nalezeny žádné balíčky odpovídající „{}“."
 
 #: commands/versionlock/versionlock_add.cpp:134
 msgid "Adding versionlock on \"{0} = {1}\"."
-msgstr ""
+msgstr "Verze se uzamyká na „{0} = {1}“."
 
 #: commands/versionlock/versionlock_add.cpp:137
 msgid "Package \"{}\" is already locked."
-msgstr ""
+msgstr "Balíček „{}“ je již uzamčen."
 
 #: commands/versionlock/versionlock_clear.cpp:32
 msgid "Remove all entries from versionlock configuration"
-msgstr ""
+msgstr "Odstraní všechny položky z nastavení versionlocku"
 
 #: commands/versionlock/versionlock_delete.cpp:35
 msgid "Remove any matching versionlock configuration entries"
-msgstr ""
+msgstr "Odstraní odpovídající položky nastavení versionlocku"
 
 #: commands/versionlock/versionlock_delete.cpp:41
 msgid "List of package specs to remove versionlock for"
-msgstr ""
+msgstr "Seznam specifikací balíčků, kterým se má odebrat zámek"
 
 #: commands/versionlock/versionlock_delete.cpp:55
 msgid "Deleting versionlock entry:"
-msgstr ""
+msgstr "Odstraňují se položky versionlocku:"
 
 #: commands/versionlock/versionlock_exclude.cpp:37
 msgid "Add new exclude entry to versionlock configuration"
-msgstr ""
+msgstr "Přidá novou vylučující položku do nastavení versionlocku"
 
 #: commands/versionlock/versionlock_exclude.cpp:44
 msgid "List of package-spec-N to add versionlock exclude for"
-msgstr ""
+msgstr "Seznam package-spec-N balíčků, které se mají vyloučit"
 
 #: commands/versionlock/versionlock_exclude.cpp:89
 #: commands/versionlock/versionlock_exclude.cpp:101
 msgid "Adding versionlock exclude on \"{0} = {1}\"."
-msgstr ""
+msgstr "Vylučuje se versionlockem „{0} = {1}“."
 
 #: commands/versionlock/versionlock_exclude.cpp:140
 msgid "Package \"{}\" is already excluded."
-msgstr ""
+msgstr "Balíček „{}“ je již vyloučen."
 
 #: context.cpp:73
 msgid "Importing OpenPGP key 0x{}:\n"
@@ -1683,33 +1685,35 @@ msgstr "--- DNF5 bylo spuštěno s těmito argumenty: „{}“ ---"
 
 #: main.cpp:1262
 msgid "Invalid \"index\" in \"--complete=<index>[,...]\": {}"
-msgstr ""
+msgstr "Chybný „index“ v „--complete=<index>[,…]“: {}"
 
 #: main.cpp:1301
 msgid "{}."
-msgstr ""
+msgstr "{}."
 
 #: main.cpp:1304 main.cpp:1556
-#, fuzzy
-#| msgid ". Add \"--help\" for more information about the arguments."
 msgid "{}. Add \"--help\" for more information about the arguments."
-msgstr ". Přidejte \"--help\" pro více informací o argumentech."
+msgstr "{}. Podrobnosti o argumentech získáte přidáním přepínače „--help“."
 
 #: main.cpp:1313
 msgid ""
 "It could be a command provided by a plugin, try: dnf5 install 'dnf5-"
 "command({})'"
 msgstr ""
+"Možná se jedná o příkaz poskytovaný zásuvným modulem. Zkuste „dnf5 install "
+"'dnf5-command({})'“."
 
 #: main.cpp:1355
 msgid ""
 "The argument is available for commands: {}. (It has to be placed after the "
 "command.)"
 msgstr ""
+"Argument je možný u těchto příkazů: {}. (Je nutné jej uvést za příkazem.)"
 
 #: main.cpp:1399
 msgid "No read/execute access in current directory, moving to /"
 msgstr ""
+"Současný pracovní adresář nelze ani číst, ani prohledávat. Přechází se do /."
 
 #: main.cpp:1471
 msgid ""
@@ -1717,32 +1721,41 @@ msgid ""
 "user with elevated rights, or use the \"--assumeno\" or \"--downloadonly\" "
 "options to run the command without modifying the system state."
 msgstr ""
+"Zadaný úkon potřebuje oprávnění superuživatele. Prosím, přihlaste se jako "
+"uživatel s vyššími právy, nebo použijte přepínače „--assumeno“ nebo "
+"„--downloadonly“, aby se příkaz vykonal bez zásahu do systému."
 
 #: main.cpp:1512
 msgid "The operation will only store the transaction in {}"
-msgstr ""
+msgstr "Tento úkon pouze uloží transakci do {}."
 
 #: main.cpp:1514
 msgid "The operation will only download packages for the transaction."
-msgstr ""
+msgstr "Tento úkon pouze stáhne balíčky potřebné pro transakci."
 
 #: main.cpp:1519
 msgid ""
 "Test mode enabled: Only package downloads, OpenPGP key installations and "
 "transaction checks will be performed."
 msgstr ""
+"Zapnut testovací režim: Balíčky budou pouze staženy, OpenPGP klíče "
+"nainstalovány a transakce zkontrolována."
 
 #: main.cpp:1527
 msgid ""
 "Error: this bootc system is configured to be read-only. For more "
 "information, run `bootc --help`."
 msgstr ""
+"Chyba: Tento systém bootc je nastaven jen pro čtení. Pro podrobnosti spusťte "
+"„bootc --help“."
 
 #: main.cpp:1544
 msgid ""
 "No repositories were loaded from the installroot. To use the configuration "
 "and repositories of the host system, pass --use-host-config."
 msgstr ""
+"Z instalačního podstromu repozitáře nebyly načteny. Pro načtení konfigurace "
+"a repozitářů z hostitelského systému zadejte --use-host-config."
 
 #: main.cpp:1566
 msgid "Command returned error: {}"
