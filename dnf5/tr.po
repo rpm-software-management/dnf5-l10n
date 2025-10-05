@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-26 03:48+0000\n"
-"PO-Revision-Date: 2025-08-28 02:23+0000\n"
-"Last-Translator: Demir Kolak <demirkolak8@gmail.com>\n"
+"PO-Revision-Date: 2025-10-06 03:17+0000\n"
+"Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/tr/>\n"
 "Language: tr\n"
@@ -19,20 +19,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.13\n"
+"X-Generator: Weblate 5.13.3\n"
 
 #: cmdline_aliases.cpp:84 context.cpp:301 main.cpp:1357
 msgid ", "
 msgstr ", "
 
 #: cmdline_aliases.cpp:145
-#, fuzzy
 msgid ""
 "Attached named argument \"{}\" not found: {}: Requested in file \"{}\" on "
 "line {}: {}"
 msgstr ""
-"Ekteki adlandırılmış argüman “{}” bulunamadı: {}: , “{}:” dosyasının {}: {} "
-"satırında talep edildi."
+"Ekteki adlandırılmış argüman \"{}\" bulunamadı: {}: , \"{}:\" dosyasının {}: "
+"{} satırında talep edildi"
 
 #: cmdline_aliases.cpp:159
 msgid ""
@@ -166,7 +165,7 @@ msgstr ""
 
 #: cmdline_aliases.cpp:804
 msgid "Syntax error in file \"{}\" on line {}:"
-msgstr ""
+msgstr "\"{}\" dosyasının {}. satırında söz dizimi hatası:"
 
 #: commands/advisory/advisory.cpp:36
 msgid "Manage advisories"
@@ -419,7 +418,7 @@ msgstr ""
 
 #: commands/do/do.cpp:63
 msgid "Unsupported action \"{}\""
-msgstr ""
+msgstr "Desteklenmeyen eylem \"{}\""
 
 #: commands/do/do.cpp:73
 msgid "Type of the following items."
@@ -427,7 +426,7 @@ msgstr ""
 
 #: commands/do/do.cpp:86
 msgid "Unsupported item type \"{}\""
-msgstr ""
+msgstr "Desteklenmeyen öge türü \"{}\""
 
 #: commands/do/do.cpp:99
 msgid "List of items to take action on"
@@ -435,15 +434,15 @@ msgstr ""
 
 #: commands/do/do.cpp:131 commands/do/do.cpp:135
 msgid "Only package downgrade is supported."
-msgstr ""
+msgstr "Yalnızca paket sürümü düşürme desteklenir."
 
 #: commands/do/do.cpp:142 commands/do/do.cpp:146
 msgid "Only package reinstall is supported."
-msgstr ""
+msgstr "Yalnızca paket yeniden kurulumu desteklenir."
 
 #: commands/do/do.cpp:152
 msgid "Action was not defined"
-msgstr ""
+msgstr "Eylem tanımlanmadı"
 
 #: commands/do/do.cpp:230
 #, fuzzy
@@ -453,11 +452,11 @@ msgstr "Geçersiz urlprotocol seçeneği: {}"
 
 #: commands/do/do.cpp:314
 msgid "Downgrading environments and groups is not supported."
-msgstr ""
+msgstr "Ortamların ve grupların sürümünün düşürülmesi desteklenmiyor."
 
 #: commands/do/do.cpp:330
 msgid "Reinstaling environments and groups is not supported."
-msgstr ""
+msgstr "Ortamların ve grupların yeniden kurulumu desteklenmiyor."
 
 #: commands/downgrade/downgrade.cpp:42
 msgid "Downgrade software"
@@ -510,14 +509,12 @@ msgid ""
 msgstr ""
 
 #: commands/from_repo.cpp:38 commands/from_repo.cpp:70
-#, fuzzy
-#| msgid "CVE_ID,..."
 msgid "REPO_ID,..."
-msgstr "CVE_KİMLİĞİ,..."
+msgstr "DEPO_KİMLİĞİ,..."
 
 #: commands/from_repo.cpp:53
 msgid "\"--from_repo\" already defined with diferent value"
-msgstr ""
+msgstr "\"--from_repo\" zaten farklı bir değerle tanımlandı"
 
 #: commands/from_repo.cpp:68
 #, fuzzy
@@ -532,7 +529,7 @@ msgstr ""
 
 #: commands/from_repo.cpp:79
 msgid "\"--installed-from_repo\" already defined with diferent value"
-msgstr ""
+msgstr "\"--installed-from_repo\" zaten farklı bir değerle tanımlandı"
 
 #: commands/group/arguments.hpp:34
 msgid "Show only available groups."
@@ -800,10 +797,8 @@ msgid "{} is not wanted by system-update.target."
 msgstr "{} system-update.target tarafından istenmiyor."
 
 #: commands/offline/offline.cpp:367
-#, fuzzy
-#| msgid "The system will now reboot to upgrade to release version "
 msgid "The system will now reboot to upgrade to release version {}."
-msgstr "Sistem şimdi yayın sürümüne yükseltmek için yeniden başlatılacak: "
+msgstr "Sistem şimdi {} yayın sürümüne yükseltmek için yeniden başlatılacak."
 
 #: commands/offline/offline.cpp:371
 msgid ""
@@ -830,14 +825,12 @@ msgid "Another offline transaction tool is running. Exiting."
 msgstr "Başka bir çevrim dışı işlem aracı çalışıyor. Çıkılıyor."
 
 #: commands/offline/offline.cpp:467
-#, fuzzy
-#| msgid "No offline transaction is stored."
 msgid "Starting offline transaction. This will take a while."
-msgstr "Çevrim dışı işlem kaydedilmedi."
+msgstr "Çevrim dışı işlem başlatılıyor. Bu biraz zaman alacak."
 
 #: commands/offline/offline.cpp:471
 msgid "Starting system upgrade. This will take a while."
-msgstr ""
+msgstr "Sistem yükseltme başlatılıyor. Bu biraz zaman alacak."
 
 #: commands/offline/offline.cpp:483
 msgid "Use `dnf5 offline reboot` to begin the transaction."
@@ -1122,27 +1115,20 @@ msgstr "Anahtar başarıyla içe aktarıldı."
 
 #: context.cpp:96
 msgid "The following OpenPGP key (0x{}) is about to be removed:"
-msgstr ""
+msgstr "Şu OpenPGP anahtarı (0x{}) kaldırılmak üzere:"
 
 #: context.cpp:98
-#, fuzzy
-#| msgid " UserID     : \"{}\"\n"
 msgid " Reason     : {}\n"
-msgstr " Kullanıcı kimliği: \"{}\"\n"
+msgstr " Sebep     : {}\n"
 
 #: context.cpp:102
-#, fuzzy
-#| msgid ""
-#| " Fingerprint: {}\n"
-#| " From       : {}\n"
 msgid " Fingerprint: {}\n"
-msgstr ""
-" Parmak izi       : {}\n"
-" Nerden           : {}\n"
+msgstr " Parmak izi: {}\n"
 
 #: context.cpp:104
 msgid "As a result, installing packages signed with this key will fail."
 msgstr ""
+"Sonuç olarak, bu anahtar ile imzalanan paketleri kurmak başarısız olacaktır."
 
 #: context.cpp:105
 msgid "It is recommended to remove the expired key to allow importing"
@@ -1155,13 +1141,11 @@ msgstr ""
 
 #: context.cpp:109
 msgid "The system will now proceed with removing the key."
-msgstr ""
+msgstr "Sistem şimdi anahtarı kaldırmaya devam edecek."
 
 #: context.cpp:115
-#, fuzzy
-#| msgid "The key was successfully imported."
 msgid "Key 0x{} was successfully removed."
-msgstr "Anahtar başarıyla içe aktarıldı."
+msgstr "0x{} anahtarı başarıyla kaldırıldı."
 
 #: context.cpp:295
 msgid "setopt: \"{}.{}\": {}"
@@ -1280,10 +1264,8 @@ msgid "Scriptlet output:"
 msgstr "Betik çıktısı:"
 
 #: context.cpp:948
-#, fuzzy
-#| msgid "Running {} scriptlet: {}"
 msgid "Running scriptlets"
-msgstr "{} betiği çalıştırılıyor: {}"
+msgstr "Betikler çalıştırılıyor"
 
 #: context.cpp:953
 msgid "Running {} scriptlet: {}"
@@ -1357,7 +1339,7 @@ msgstr ""
 
 #: main.cpp:182
 msgid "Control whether color is used."
-msgstr ""
+msgstr "Renk kullanımını denetle."
 
 #: main.cpp:188
 msgid "Force refreshing metadata before running the command."
