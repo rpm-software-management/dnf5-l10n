@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-26 03:48+0000\n"
-"PO-Revision-Date: 2025-10-06 03:17+0000\n"
+"PO-Revision-Date: 2025-10-07 23:48+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/tr/>\n"
@@ -265,51 +265,36 @@ msgid "No advisory found matching the specified filters."
 msgstr ""
 
 #: commands/advisory_shared.hpp:158
-#, fuzzy
-#| msgid "Limit to packages in advisories with specified name. List option."
 msgid ""
 "Include content contained in advisories with specified name. List option."
-msgstr ""
-"Belirtilen ada sahip tavsiyelerdeki paketlerle sınırla. Liste seçeneği."
+msgstr "Belirtilen ada sahip tavsiyelerdeki içeriği dahil et. Liste seçeneği."
 
 #: commands/advisory_shared.hpp:159
 msgid "ADVISORY_NAME,..."
 msgstr "TAVSİYE_ADI,..."
 
 #: commands/advisory_shared.hpp:166
-#, fuzzy
-#| msgid "Limit to packages in security advisories."
 msgid "Include content contained in security advisories."
-msgstr "Güvenlik tavsiyelerindeki paketlerle sınırla."
+msgstr "Güvenlik tavsiyelerindeki içeriği dahil et."
 
 #: commands/advisory_shared.hpp:173
-#, fuzzy
-#| msgid "Limit to packages in bugfix advisories."
 msgid "Include content contained in bugfix advisories."
-msgstr "Hata düzeltme tavsiyelerindeki paketlerle sınırla."
+msgstr "Hata düzeltme tavsiyelerindeki içeriği dahil et."
 
 #: commands/advisory_shared.hpp:180
-#, fuzzy
-#| msgid "Limit to packages in enhancement advisories."
 msgid "Include content contained in enhancement advisories."
-msgstr "İyileştirme tavsiyelerindeki paketlerle sınırla."
+msgstr "İyileştirme tavsiyelerindeki içeriği dahil et."
 
 #: commands/advisory_shared.hpp:187
-#, fuzzy
-#| msgid "Limit to packages in newpackage advisories."
 msgid "Include content contained in newpackage advisories."
-msgstr "Yeni paket tavsiyelerindeki paketlerle sınırla."
+msgstr "Yeni paket tavsiyelerindeki içeriği dahil et."
 
 #: commands/advisory_shared.hpp:198
-#, fuzzy
-#| msgid ""
-#| "Limit to packages in advisories with specified severity. List option. Can "
-#| "be \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgid ""
 "Include content contained in advisories with specified severity. List "
 "option. Can be \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgstr ""
-"Belirtilen önem derecesine sahip tavsiyelerdeki paketlerle sınırla. Liste "
+"Belirtilen önem derecesine sahip tavsiyelerdeki içeriği dahil et. Liste "
 "seçeneği. \"critical\", \"important\", \"moderate\", \"low\", \"none\" "
 "seçeneklerinden biri olabilir."
 
@@ -318,32 +303,24 @@ msgid "ADVISORY_SEVERITY,..."
 msgstr "TAVSİYE_ÖNEMİ,..."
 
 #: commands/advisory_shared.hpp:212
-#, fuzzy
-#| msgid ""
-#| "Limit to packages in advisories that fix a Bugzilla ID, Eg. 123123. List "
-#| "option."
 msgid ""
 "Include content contained in advisories that fix a Bugzilla ID, Eg. 123123. "
 "List option."
 msgstr ""
-"Bir Bugzilla kimliğini (örn. 123123) düzelten tavsiyelerdeki paketlerle "
-"sınırla. Liste seçeneği."
+"Bir Bugzilla kimliğini (örn. 123123) düzelten tavsiyelerdeki içeriği dahil "
+"et. Liste seçeneği."
 
 #: commands/advisory_shared.hpp:213
 msgid "BUGZILLA_ID,..."
 msgstr "BUGZILLA_KİMLİĞİ,..."
 
 #: commands/advisory_shared.hpp:223
-#, fuzzy
-#| msgid ""
-#| "Limit to packages in advisories that fix a CVE (Common Vulnerabilities "
-#| "and Exposures) ID, Eg. CVE-2201-0123. List option."
 msgid ""
 "Include content contained in advisories that fix a CVE (Common "
 "Vulnerabilities and Exposures) ID, Eg. CVE-2201-0123. List option."
 msgstr ""
-"Bir CVE (Common Vulnerabilities and Exposures) kimliğini (örn. "
-"CVE-2201-0123) düzelten tavsiyelerdeki paketlerle sınırla. Liste seçeneği."
+"Bir CVE (Common Vulnerabilities and Exposures) kimliğini (örn. CVE-2201-0123)"
+" düzelten tavsiyelerdeki içeriği dahil et. Liste seçeneği."
 
 #: commands/advisory_shared.hpp:225
 msgid "CVE_ID,..."
