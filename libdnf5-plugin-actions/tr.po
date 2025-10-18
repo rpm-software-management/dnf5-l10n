@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-26 03:48+0000\n"
-"PO-Revision-Date: 2025-10-06 03:17+0000\n"
+"PO-Revision-Date: 2025-10-19 15:53+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5-plugin-actions/tr/>\n"
@@ -26,9 +26,7 @@ msgstr "\"{}\" dosyasının {}. satırında hata. Bilinmeyen bağlantı \"{}\""
 
 #: actions.cpp:636 actions.cpp:642 actions.cpp:648 actions.cpp:654
 msgid "\"HOOK:PKG_FILTER:DIRECTION:OPTIONS:CMD\" format expected"
-msgstr ""
-"\"{}\" dosyasının {}. satırında hata: "
-"\"BAGLANTI:PKT_FİLTRESİ:YÖN:SECENEKLER:KOMUT\" biçimi bekleniyor"
+msgstr "\"BAGLANTI:PKT_FİLTRESİ:YÖN:SECENEKLER:KOMUT\" biçimi bekleniyor"
 
 #: actions.cpp:676
 msgid "Unknown \"enabled\" option value \"{}\""
@@ -47,8 +45,8 @@ msgid ""
 "Package filter can only be used in GOAL_RESOLVED, PRE_TRANS and POST_TRANS "
 "hooks"
 msgstr ""
-"\"{}\" dosyasının {}. satırında hata. Paket filtresi yalnızca PRE_TRANS ve "
-"POST_TRANS bağlantılarında kullanılabilir"
+"Paket filtresi yalnızca GOAL_RESOLVED, PRE_TRANS ve POST_TRANS "
+"bağlantılarında kullanılabilir"
 
 #: actions.cpp:726
 msgid "Cannot use direction without package filter"
@@ -71,18 +69,16 @@ msgid "Missing command"
 msgstr "Eksik komut"
 
 #: actions.cpp:953
-#, fuzzy
 msgid "Synax error: Missing equal sign (=) in action output line: {}"
-msgstr "Yazım Hatası: İşlem çıkış satırı {} , eksik eşittir işareti (=)."
+msgstr "Söz dizimi hatası: Eylem çıktı satırı {} , eşittir işareti (=) eksik"
 
 #: actions.cpp:964
 msgid "Cannot set option: Action output line: {}"
-msgstr "Seçenek ayarlanamıyor: Eylem çıkış satırı: {}"
+msgstr "Seçenek ayarlanamıyor: Eylem çıktı satırı: {}"
 
 #: actions.cpp:982
-#, fuzzy
 msgid "Action sent the wrong log level: {}"
-msgstr "Yanlış günlük düzeyi gönderildi: {}"
+msgstr "Eylem yanlış günlük düzeyi gönderdi: {}"
 
 #: actions.cpp:987 actions.cpp:1794
 msgid "Action calls for stop: {}"
@@ -97,26 +93,30 @@ msgid ""
 "Syntax error: Action output line must start with \"tmp.\" or \"conf.\" or "
 "\"var.\" or \"stop=\" or \"error=\": {}"
 msgstr ""
+"Söz dizimi hatası: Eylem çıktı satırı \"tmp.\" veya \"conf.\" veya \"var.\" "
+"veya \"stop=\" veya \"error=\" ile başlamalıdır: {}"
 
 #: actions.cpp:1020
 msgid "Error reading from action (from pipe)"
-msgstr ""
+msgstr "Eylemden (boru (pipe)'dan) okunurken hata oluştu"
 
 #: actions.cpp:1038
 msgid "Syntax error in json request from action: Missing starting '{{' char"
 msgstr ""
+"Eylemden gelen json isteğinde söz dizimi hatası: Başlangıç '{{' karakteri "
+"eksik"
 
 #: actions.cpp:1062
 msgid "Error during processing of a request from action."
-msgstr ""
+msgstr "Eylemden gelen bir isteğin işlenmesi sırasında hata oluştu."
 
 #: actions.cpp:1071
 msgid "Syntax error in json request from action: {}"
-msgstr ""
+msgstr "Eylemden gelen json isteğinde söz dizimi hatası: {}"
 
 #: actions.cpp:1079
 msgid "Syntax error in json request from action: Incomplete input"
-msgstr ""
+msgstr "Eylemden gelen json isteğinde söz dizimi hatası: Eksik girdi"
 
 #: actions.cpp:1154
 msgid "Cannot write response"
@@ -128,19 +128,19 @@ msgstr "Eylemler eklentisi: Boru (pipe) oluşturulamıyor"
 
 #: actions.cpp:1913
 msgid "Actions plugin: Cannot fork"
-msgstr ""
+msgstr "Eylemler eklentisi: Çatal oluşturulamıyor"
 
 #: actions.cpp:1968
 msgid "Actions plugin: Cannot bind command stdin"
-msgstr ""
+msgstr "Eylemler eklentisi: Komut standart girdisi bağlanamıyor"
 
 #: actions.cpp:1970
 msgid "Actions plugin: Cannot bind command stdout"
-msgstr ""
+msgstr "Eylemler eklentisi: Komut standart çıktısı bağlanamıyor"
 
 #: actions.cpp:1988
 msgid "Cannot execute action, command \"{}\" arguments \"{}\""
-msgstr ""
+msgstr "Eylem gerçekleştirilemiyor, komut \"{}\" argümanları \"{}\""
 
 #: actions.cpp:1996
 msgid "Error during preparation child process"
@@ -152,7 +152,7 @@ msgstr "Çıkış kodu: {}"
 
 #: actions.cpp:2019
 msgid "Terminated by signal: {}"
-msgstr ""
+msgstr "Sinyal ile sonlandırıldı: {}"
 
 #~ msgid "Error in file \"{}\" on line {}: Unknown option \"{}\""
 #~ msgstr "\"{}\" dosyasının {} satırında hata: \"{}\" seçeneği bilinmiyor"
