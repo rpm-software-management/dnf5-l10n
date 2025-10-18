@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-26 03:48+0000\n"
-"PO-Revision-Date: 2025-10-07 23:48+0000\n"
+"PO-Revision-Date: 2025-10-19 15:53+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/tr/>\n"
@@ -30,138 +30,167 @@ msgid ""
 "Attached named argument \"{}\" not found: {}: Requested in file \"{}\" on "
 "line {}: {}"
 msgstr ""
-"Ekteki adlandırılmış argüman \"{}\" bulunamadı: {}: , \"{}:\" dosyasının {}: "
-"{} satırında talep edildi"
+"Ekteki adlandırılmış argüman \"{}\" bulunamadı: {}: \"{}\" dosyasının {}. "
+"satırında istendi: {}"
 
 #: cmdline_aliases.cpp:159
 msgid ""
 "Unknown attribute \"{}\" of attached named argument for alias \"{}\" in file "
 "\"{}\" on line {}: {}"
 msgstr ""
+"Bilinmeyen öznitelik \"{}\", \"{}\" takma adı için ekli adlandırılmış "
+"argümanın, \"{}\" dosyasında {}. satırda: {}"
 
 #: cmdline_aliases.cpp:171
 msgid "Missing attribute \"id_path\" for alias \"{}\" in file \"{}\""
-msgstr ""
+msgstr "\"{}\" takma adı için \"id_path\" özniteliği eksik, \"{}\" dosyasında"
 
 #: cmdline_aliases.cpp:208
 msgid "Unsupported version \"{}\" in file \"{}\". Supported versions: {}"
 msgstr ""
+"Desteklenmeyen sürüm \"{}\", \"{}\" dosyasında. Desteklenen sürümler: {}"
 
 #: cmdline_aliases.cpp:218
 msgid "Bad value type of attribute \"version\" in file \"{}\" on line {}: {}"
 msgstr ""
+"\"{}\" dosyasında {}. satırda \"version\" özniteliğinin değer türü hatalı: {}"
 
 #: cmdline_aliases.cpp:224
 msgid "Missing attribute \"version\" in file \"{}\""
-msgstr ""
+msgstr "\"{}\" dosyasında \"version\" özniteliği eksik"
 
 #: cmdline_aliases.cpp:236
 msgid "Unknown key \"{}\" in file \"{}\" on line {}: {}"
-msgstr ""
+msgstr "Bilinmeyen anahtar \"{}\", \"{}\" dosyasında {}. satırda: {}"
 
 #: cmdline_aliases.cpp:253
 msgid "Empty or bad element id path in file \"{}\" on line {}: {}"
-msgstr ""
+msgstr "\"{}\" dosyasında {} satırda boş veya hatalı öge kimliği yolu: {}"
 
 #: cmdline_aliases.cpp:272
 msgid ""
 "Parent command \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
 msgstr ""
+"Ana komut \"{}\" bulunamadı: {}: \"{}\" dosyasında {}. satırda istendi: {}"
 
 #: cmdline_aliases.cpp:301
 msgid "Unknown type \"{}\" of element \"{}\" in file \"{}\" on line {}: {}"
 msgstr ""
+"Bilinmeyen tür \"{}\", \"{}\" ögesinin, \"{}\" dosyasının {}. satırında: {}"
 
 #: cmdline_aliases.cpp:312
 msgid "Missing attribute \"type\" for element \"{}\" in file \"{}\""
-msgstr ""
+msgstr "\"{}\" ögesi için \"type\" özniteliği eksik, \"{}\" dosyasında"
 
 #: cmdline_aliases.cpp:331
 msgid ""
 "Named argument \"{}\" already registered. Requested in file \"{}\" on line "
 "{}: {}"
 msgstr ""
+"Adlandırılmış argüman \"{}\" zaten kayıtlı. \"{}\" dosyasında {}. satırda "
+"istendi: {}"
 
 #: cmdline_aliases.cpp:347
 msgid ""
 "Command \"{}\" already registered. Requested in file \"{}\" on line {}: {}"
-msgstr ""
+msgstr "\"{}\" komutu zaten kayıtlı. \"{}\" dosyasında {}. satırda istendi: {}"
 
 #: cmdline_aliases.cpp:375
 msgid "Unknown attribute \"{}\" of group \"{}\" in file \"{}\" on line {}: {}"
 msgstr ""
+"Bilinmeyen öznitelik \"{}\", \"{}\" grubunun, \"{}\" dosyasında {}. satırda: "
+"{}"
 
 #: cmdline_aliases.cpp:387
 msgid "Missing attribute \"header\" for element \"{}\" in file \"{}\""
-msgstr ""
+msgstr "\"{}\" ögesi için \"header\" özniteliği eksik, \"{}\" dosyasında"
 
 #: cmdline_aliases.cpp:428 cmdline_aliases.cpp:538
 msgid ""
 "The \"short_name\" attribute of named argument \"{}\" must be one character "
 "long in file \"{}\" on line {}: {}"
 msgstr ""
+"\"{}\" adlandırılmış argümanının \"short_name\" özniteliği bir karakter "
+"uzunluğunda olmalı, \"{}\" dosyasında {}. satırda: {}"
 
 #: cmdline_aliases.cpp:446
 msgid "Source \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
 msgstr ""
+"\"{}\" kaynağı bulunamadı: {}: \"{}\" dosyasında {}. satırda istendi: {}"
 
 #: cmdline_aliases.cpp:462 cmdline_aliases.cpp:563 cmdline_aliases.cpp:676
 msgid "Group \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
-msgstr ""
+msgstr "\"{}\" grubu bulunamadı: {}: \"{}\" dosyasında {}. satırda istendi: {}"
 
 #: cmdline_aliases.cpp:476 cmdline_aliases.cpp:579
 msgid ""
 "Unknown attribute \"{}\" of named argument \"{}\" in file \"{}\" on line {}: "
 "{}"
 msgstr ""
+"Bilinmeyen öznitelik \"{}\", \"{}\" adlandırılmış argümanının, \"{}\" "
+"dosyasında {}. satırda: {}"
 
 #: cmdline_aliases.cpp:489
 msgid "Missing attribute \"source\" for named argument \"{}\" in file \"{}\""
 msgstr ""
+"\"{}\" adlandırılmış argümanı için \"source\" özniteliği eksik, \"{}\" "
+"dosyasında"
 
 #: cmdline_aliases.cpp:498 cmdline_aliases.cpp:592
 msgid ""
 "At least one of the attributes \"long_name\" and \"short_name\" must be set "
 "for named argument \"{}\" in file \"{}\""
 msgstr ""
+"\"{}\" adlandırılmış argümanı için \"long_name\" ve \"short_name\" "
+"özniteliklerinden en az biri ayarlanmalıdır, \"{}\" dosyasında"
 
 #: cmdline_aliases.cpp:657
 msgid ""
 "Attached command \"{}\" not found: {}: Requested in file \"{}\" on line {}: "
 "{}"
 msgstr ""
+"Ekli komut \"{}\" bulunamadı: {}: \"{}\" dosyasında {}. satırda istendi: {}"
 
 #: cmdline_aliases.cpp:691
 msgid ""
 "Used config file version \"1.0\" for attribute \"{}\" of command \"{}\" in "
 "file \"{}\" on line {}: {}"
 msgstr ""
+"\"{}\" özniteliği için yapılandırma dosyası \"1.0\" sürümü kullanıldı, \"{}\""
+" komutunun, \"{}\" dosyasında {}. satırda: {}"
 
 #: cmdline_aliases.cpp:713
 msgid ""
 "Unknown attribute \"{}\" of required value for alias \"{}\" in file \"{}\" "
 "on line {}: {}"
 msgstr ""
+"Bilinmeyen öznitelik \"{}\", \"{}\" takma adı için gerekli değerin, \"{}\" "
+"dosyasında {}. satırda: {}"
 
 #: cmdline_aliases.cpp:726
 msgid ""
 "Missing attribute \"value_help\" of required value for alias \"{}\" in file "
 "\"{}\""
 msgstr ""
+"\"{}\" takma adı için gerekli değerin \"value_help\" özniteliği eksik, \"{}\""
+" dosyasında"
 
 #: cmdline_aliases.cpp:740
 msgid ""
 "Unknown attribute \"{}\" of command \"{}\" in file \"{}\" on line {}: {}"
 msgstr ""
+"Bilinmeyen öznitelik \"{}\", \"{}\" komutunun, \"{}\" dosyasında {}. satırda:"
+" {}"
 
 #: cmdline_aliases.cpp:756
 msgid ""
 "Missing attribute \"attached_command\" for command \"{}\" in file \"{}\""
 msgstr ""
+"\"{}\" komutu için \"attached_command\" özniteliği eksik, \"{}\" dosyasında"
 
 #: cmdline_aliases.cpp:791
 msgid "Bad value type in file \"{}\" on line {}: {}"
-msgstr ""
+msgstr "\"{} dosyasında {}. satırda hatalı değer türü: {}"
 
 #: cmdline_aliases.cpp:804
 msgid "Syntax error in file \"{}\" on line {}:"
@@ -250,19 +279,19 @@ msgstr "Yalnızca bir CVE'ye kaynak gösteren tavsiyeleri göster."
 
 #: commands/advisory_shared.hpp:76
 msgid "No advisory found matching the requested name: \"{}\""
-msgstr ""
+msgstr "İstenen adla eşleşen tavsiye bulunamadı: \"{}\""
 
 #: commands/advisory_shared.hpp:109
 msgid "No advisory found fixing the Bugzilla ID: \"{}\""
-msgstr ""
+msgstr "Bugzilla kimliğini düzelten tavsiye bulunamadı: \"{}\""
 
 #: commands/advisory_shared.hpp:128
 msgid "No advisory found fixing the CVE ID: \"{}\""
-msgstr ""
+msgstr "CVE kimliğini düzelten tavsiye bulunamadı: \"{}\""
 
 #: commands/advisory_shared.hpp:143
 msgid "No advisory found matching the specified filters."
-msgstr ""
+msgstr "Belirtilen filtrelerle eşleşen tavsiye bulunamadı."
 
 #: commands/advisory_shared.hpp:158
 msgid ""
@@ -384,14 +413,12 @@ msgid ""
 msgstr "Kurulu yazılımları kullanılabilir en son sürümlere yükselt veya düşür"
 
 #: commands/do/do.cpp:44
-#, fuzzy
-#| msgid "Running transaction"
 msgid "Do transaction"
-msgstr "İşlem çalıştırılıyor"
+msgstr "İşlem çalıştır"
 
 #: commands/do/do.cpp:49
 msgid "Action to be done on the following items."
-msgstr ""
+msgstr "Takip eden ögeler üzerinde yapılacak eylem."
 
 #: commands/do/do.cpp:63
 msgid "Unsupported action \"{}\""
@@ -399,7 +426,7 @@ msgstr "Desteklenmeyen eylem \"{}\""
 
 #: commands/do/do.cpp:73
 msgid "Type of the following items."
-msgstr ""
+msgstr "Takip eden ögelerin türü."
 
 #: commands/do/do.cpp:86
 msgid "Unsupported item type \"{}\""
@@ -407,7 +434,7 @@ msgstr "Desteklenmeyen öge türü \"{}\""
 
 #: commands/do/do.cpp:99
 msgid "List of items to take action on"
-msgstr ""
+msgstr "Eylem gerçekleştirilecek ögelerin listesi"
 
 #: commands/do/do.cpp:131 commands/do/do.cpp:135
 msgid "Only package downgrade is supported."
@@ -422,10 +449,8 @@ msgid "Action was not defined"
 msgstr "Eylem tanımlanmadı"
 
 #: commands/do/do.cpp:230
-#, fuzzy
-#| msgid "Invalid urlprotocol option: {}"
 msgid "Invalid Environmet/Group specification: {}"
-msgstr "Geçersiz urlprotocol seçeneği: {}"
+msgstr "Geçersiz Ortam/Grup belirtimi: {}"
 
 #: commands/do/do.cpp:314
 msgid "Downgrading environments and groups is not supported."
@@ -462,6 +487,8 @@ msgstr "\"--alldeps\" seçeneği \"--resolve\" ile birlikte kullanılmalıdır"
 msgid ""
 "No package \"{}\" available; You might want to use --skip-unavailable option."
 msgstr ""
+"Kullanılabilir \"{}\" paketi yok; --skip-unavailable seçeneğini kullanmak "
+"isteyebilirsiniz."
 
 #: commands/environment/arguments.hpp:33
 msgid "Show only available environments."
@@ -484,6 +511,8 @@ msgid ""
 "The following items can be selected only from the specified repositories. "
 "All enabled repositories will still be used to satisfy dependencies."
 msgstr ""
+"Aşağıdaki ögeler yalnızca belirtilen depolardan seçilebilir. Etkinleştirilen "
+"tüm depolar, bağımlılıkları karşılamak için yine de kullanılacaktır."
 
 #: commands/from_repo.cpp:38 commands/from_repo.cpp:70
 msgid "REPO_ID,..."
@@ -494,15 +523,10 @@ msgid "\"--from_repo\" already defined with diferent value"
 msgstr "\"--from_repo\" zaten farklı bir değerle tanımlandı"
 
 #: commands/from_repo.cpp:68
-#, fuzzy
-#| msgid ""
-#| "List groups of installed packages not required by other installed packages"
 msgid ""
 "Filters installed packages by the ID of the repository they were installed "
 "from."
-msgstr ""
-"Diğer kurulu paketler tarafından gerektirilmeyen kurulu paket gruplarını "
-"listele"
+msgstr "Kurulu paketleri, kuruldukları deponun kimliğine göre filtreler."
 
 #: commands/from_repo.cpp:79
 msgid "\"--installed-from_repo\" already defined with diferent value"
@@ -627,10 +651,10 @@ msgid "Lists packages depending on the packages' relation to the system"
 msgstr "Paketlerin sistemle ilişkisine bağlı olarak paketleri listeler"
 
 #: commands/list/list.cpp:50
-#, fuzzy
-#| msgid "List of keys to match case insensitively"
 msgid "List of package-spec-NI to match (case insensitively)"
-msgstr "Büyük/küçük harfe duyarsız olarak eşleştirilecek anahtarların listesi"
+msgstr ""
+"Büyük/küçük harfe duyarsız olarak eşleştirilecek paket belirtimlerinin "
+"listesi"
 
 #: commands/list/list.cpp:62
 msgid "Show all versions of the packages, not only the latest ones."
@@ -1017,8 +1041,6 @@ msgid "Add new entry to versionlock configuration"
 msgstr "Sürüm kilidi yapılandırmasına yeni girdi ekle"
 
 #: commands/versionlock/versionlock_add.cpp:44
-#, fuzzy
-#| msgid "List of package specs to add versionlock for"
 msgid "List of package package-spec-N to add versionlock for"
 msgstr "Sürüm kilidi eklenecek paket belirtimlerinin listesi"
 
@@ -1056,8 +1078,6 @@ msgid "Add new exclude entry to versionlock configuration"
 msgstr "Sürüm kilidi yapılandırmasına yeni hariç tutma girdisi ekle"
 
 #: commands/versionlock/versionlock_exclude.cpp:44
-#, fuzzy
-#| msgid "List of package specs to add versionlock exclude for"
 msgid "List of package-spec-N to add versionlock exclude for"
 msgstr "Sürüm kilidi hariç tutma eklenecek paket belirtimlerinin listesi"
 
@@ -1110,11 +1130,15 @@ msgstr ""
 #: context.cpp:105
 msgid "It is recommended to remove the expired key to allow importing"
 msgstr ""
+"Güncellenen anahtarın içe aktarılmasına izin vermek için süresi dolan "
+"anahtarı kaldırmanız"
 
 #: context.cpp:106
 msgid ""
 "an updated key. This might leave already installed packages unverifiable."
 msgstr ""
+"tavsiye edilir. Bu, önceden kurulan paketlerin doğrulanamamasına neden "
+"olabilir."
 
 #: context.cpp:109
 msgid "The system will now proceed with removing the key."
@@ -1673,7 +1697,7 @@ msgstr "--- DNF5 şu argümanlarla başlatıldı: \"{}\" ---"
 
 #: main.cpp:1262
 msgid "Invalid \"index\" in \"--complete=<index>[,...]\": {}"
-msgstr ""
+msgstr "\"--complete\"=<index>[,...]\" içinde geçersiz \"index\":{}"
 
 #: main.cpp:1301
 msgid "{}."
@@ -1735,6 +1759,8 @@ msgid ""
 "Error: this bootc system is configured to be read-only. For more "
 "information, run `bootc --help`."
 msgstr ""
+"Hata: Bu bootc sistemi salt okunur olarak yapılandırıldı. Daha fazla bilgi "
+"için `bootc --help` komutunu çalıştırın."
 
 #: main.cpp:1544
 msgid ""
