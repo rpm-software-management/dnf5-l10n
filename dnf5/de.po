@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-26 03:48+0000\n"
-"PO-Revision-Date: 2025-10-06 03:17+0000\n"
+"PO-Revision-Date: 2025-12-17 08:33+0000\n"
 "Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/de/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.13.3\n"
+"X-Generator: Weblate 5.15\n"
 
 #: cmdline_aliases.cpp:84 context.cpp:301 main.cpp:1357
 msgid ", "
@@ -490,6 +490,8 @@ msgstr "Option \"--alldeps\" sollte mit \"--resolve\" genutzt werden"
 msgid ""
 "No package \"{}\" available; You might want to use --skip-unavailable option."
 msgstr ""
+"Kein Paket „{}“ verfügbar; verwenden Sie gegebenenfalls die Option --skip-"
+"unavailable."
 
 #: commands/environment/arguments.hpp:33
 msgid "Show only available environments."
@@ -611,6 +613,9 @@ msgid ""
 "No match found, history info defaults to considering only the last "
 "transaction, specify \"1..last\" range to search all transactions."
 msgstr ""
+"Keine Übereinstimmung gefunden, die Verlaufsdaten berücksichtigen "
+"standardmäßig nur die letzte Transaktion. Geben Sie den Bereich „1..last“ "
+"an, um alle Transaktionen zu durchsuchen."
 
 #: commands/history/history_redo.cpp:54
 #: commands/history/history_rollback.cpp:58
@@ -804,12 +809,10 @@ msgid "{} is not wanted by system-update.target."
 msgstr "{} wird nicht von system-update.target benötigt."
 
 #: commands/offline/offline.cpp:367
-#, fuzzy
-#| msgid "The system will now reboot to upgrade to release version "
 msgid "The system will now reboot to upgrade to release version {}."
 msgstr ""
-"Das System wird nun neustarten, um ein Upgrade auf die Release-Version "
-"durchzuführen "
+"Das System wird nun neu gestartet, um ein Upgrade auf die Release-Version {} "
+"durchzuführen."
 
 #: commands/offline/offline.cpp:371
 msgid ""
@@ -1287,10 +1290,8 @@ msgid "Scriptlet output:"
 msgstr "Scriptlet Ausgabe:"
 
 #: context.cpp:948
-#, fuzzy
-#| msgid "Running {} scriptlet: {}"
 msgid "Running scriptlets"
-msgstr "Führe {} scriptlet aus: {}"
+msgstr "Skriptlets ausführen"
 
 #: context.cpp:953
 msgid "Running {} scriptlet: {}"
@@ -1364,7 +1365,7 @@ msgstr ""
 
 #: main.cpp:182
 msgid "Control whether color is used."
-msgstr ""
+msgstr "Steuern Sie, ob Farbe verwendet wird."
 
 #: main.cpp:188
 msgid "Force refreshing metadata before running the command."
@@ -1793,6 +1794,8 @@ msgid ""
 "Error: this bootc system is configured to be read-only. For more "
 "information, run `bootc --help`."
 msgstr ""
+"Fehler: Dieses Bootc-System ist als schreibgeschützt konfiguriert. Weitere "
+"Informationen erhalten Sie mit dem Befehl `bootc --help`."
 
 #: main.cpp:1544
 msgid ""
