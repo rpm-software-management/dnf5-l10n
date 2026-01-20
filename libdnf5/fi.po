@@ -2,7 +2,7 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Ricky Tigg <ricky.tigg@gmail.com>, 2024, 2025.
-# Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024, 2025.
+# Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024, 2025, 2026.
 # Jiri Grönroos <jiri.gronroos@iki.fi>, 2024.
 # Ville-Pekka Vainio <vpvainio@iki.fi>, 2024.
 # Jan Kuparinen <copper_fin@hotmail.com>, 2025.
@@ -12,9 +12,9 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-26 03:48+0000\n"
-"PO-Revision-Date: 2026-01-19 17:06+0000\n"
-"Last-Translator: Jouko Tiilikainen "
-"<jti65@users.noreply.translate.fedoraproject.org>\n"
+"PO-Revision-Date: 2026-01-21 07:58+0000\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/fi/>\n"
 "Language: fi\n"
@@ -323,13 +323,11 @@ msgid_plural ""
 "  - Argument '{}' matches {} streams ('{}') of module '{}', but none of the "
 "streams are enabled or default."
 msgstr[0] ""
-"\n"
-"  - Argumentti '{}' vastaa moduulin '{}' {}-virtaa ('{}'), mutta virta ei "
-"ole käytössä tai oletusarvoinen."
 msgstr[1] ""
 "\n"
-"  - Argumentti '{}' löytää vastaavat {} striimiä ('{}') moduulista '{}', "
-"mutta mikään striimeistä ei ole käytössä tai oletusarvoinen."
+"  Argumentti ”{argument}” täsmää {stream_count} virtaan (”{streams}”) "
+"moduulille ”{module}”, mutta mitkään virroista eivät ole käytössä tai "
+"oletuksena"
 
 #: base/log_event.cpp:293
 msgid "', '"
@@ -1469,7 +1467,7 @@ msgstr ""
 
 #: transaction/transaction_sr.cpp:105
 msgid "Missing object key \"id\" in an environment"
-msgstr ""
+msgstr "Puuttuva objektiavain ”{key}” jossain ympäristössä."
 
 #: transaction/transaction_sr.cpp:110
 msgid "Missing object key \"action\" in an environment"
