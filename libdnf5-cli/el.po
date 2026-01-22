@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Languages add-on <noreply-addon-languages@weblate.org>, 2026.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2026.
+# Jim Spentzos <jimspentzos2000@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-26 03:48+0000\n"
 "PO-Revision-Date: 2026-01-22 08:58+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5-cli/el/>\n"
 "Language: el\n"
@@ -127,7 +127,7 @@ msgstr ""
 #: argument_parser.cpp:1177 argument_parser.cpp:1388
 #, c++-format
 msgid "Unknown argument \"{}\" for command \"{}\""
-msgstr ""
+msgstr "Άγνωστο όρισμα «{}» για την εντολή «{}»"
 
 #: argument_parser.cpp:1192 argument_parser.cpp:1403
 #, c++-format
@@ -169,7 +169,7 @@ msgstr ""
 #. a package properties table as in "Name    : bash".
 #: output/packageinfo.cpp:57
 msgid " : "
-msgstr ""
+msgstr " : "
 
 #. Add package
 #: output/packageinfo.cpp:63
@@ -190,7 +190,7 @@ msgstr ""
 
 #: output/packageinfo.cpp:71
 msgid "Architecture"
-msgstr ""
+msgstr "Αρχιτεκτονική"
 
 #: output/packageinfo.cpp:75
 msgid "Obsoletes"
@@ -198,11 +198,11 @@ msgstr ""
 
 #: output/packageinfo.cpp:85
 msgid "Download size"
-msgstr ""
+msgstr "Μέγεθος λήψης"
 
 #: output/packageinfo.cpp:89
 msgid "Installed size"
-msgstr ""
+msgstr "Μέγεθος εγκατάστασης"
 
 #: output/packageinfo.cpp:91
 msgid "Source"
@@ -210,19 +210,19 @@ msgstr "Πηγή"
 
 #: output/packageinfo.cpp:94
 msgid "From repository"
-msgstr ""
+msgstr "Από αποθετήριο"
 
 #: output/packageinfo.cpp:96 output/transaction_table.cpp:295
 msgid "Repository"
-msgstr ""
+msgstr "Αποθετήριο"
 
 #: output/packageinfo.cpp:98
 msgid "Summary"
-msgstr ""
+msgstr "Περίληψη"
 
 #: output/packageinfo.cpp:99
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: output/packageinfo.cpp:100
 msgid "License"
@@ -242,7 +242,7 @@ msgstr ""
 
 #: output/search.cpp:90
 msgid "No matches found."
-msgstr ""
+msgstr "Δεν βρέθηκαν αποτελέσματα."
 
 #: output/search.cpp:101
 msgid "Matched fields: "
@@ -250,15 +250,15 @@ msgstr ""
 
 #: output/transaction_table.cpp:127
 msgid "Transaction Summary:\n"
-msgstr ""
+msgstr "Περίληψη συναλλαγής:\n"
 
 #. Keep the replaceble number aligned across all messages.
 #: output/transaction_table.cpp:132
 #, c++-format
 msgid " Installing:      {:4} package\n"
 msgid_plural " Installing:      {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " Εγκατάσταση:      {:4} πακέτο\n"
+msgstr[1] " Εγκατάσταση:      {:4} πακέτα\n"
 
 #. Keep the replaceble number aligned across all messages.
 #: output/transaction_table.cpp:141
@@ -273,16 +273,16 @@ msgstr[1] ""
 #, c++-format
 msgid " Upgrading:       {:4} package\n"
 msgid_plural " Upgrading:       {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " Αναβάθμιση:       {:4} πακέτο\n"
+msgstr[1] " Αναβάθμιση:       {:4} πακέτα\n"
 
 #. Keep the replaceble number aligned across all messages.
 #: output/transaction_table.cpp:159
 #, c++-format
 msgid " Replacing:       {:4} package\n"
 msgid_plural " Replacing:       {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " Αντικατάσταση:       {:4} πακέτο\n"
+msgstr[1] " Αντικατάσταση:       {:4} πακέτα\n"
 
 #. Keep the replaceble number aligned across all messages.
 #: output/transaction_table.cpp:168
@@ -318,7 +318,7 @@ msgstr[1] ""
 
 #: output/transaction_table.cpp:277
 msgid "Package"
-msgstr ""
+msgstr "Πακέτο"
 
 #: output/transaction_table.cpp:283
 msgid "Arch"
@@ -331,7 +331,7 @@ msgstr "Μέγεθος"
 #: output/transaction_table.cpp:357 output/transaction_table.cpp:451
 #, c++-format
 msgid "{} -> {}"
-msgstr ""
+msgstr "{} -> {}"
 
 #: output/transaction_table.cpp:373
 #, c++-format
@@ -368,15 +368,15 @@ msgstr ""
 
 #: output/transaction_table.cpp:539
 msgid "Installing:"
-msgstr ""
+msgstr "Εγκατάσταση:"
 
 #: output/transaction_table.cpp:543
 msgid "Upgrading:"
-msgstr ""
+msgstr "Αναβάθμιση:"
 
 #: output/transaction_table.cpp:546
 msgid "Downgrading:"
-msgstr ""
+msgstr "Υποβάθμιση:"
 
 #: output/transaction_table.cpp:549
 msgid "Reinstalling:"
@@ -384,7 +384,7 @@ msgstr ""
 
 #: output/transaction_table.cpp:553
 msgid "Removing dependent packages:"
-msgstr ""
+msgstr "Αφαίρεση εξαρτημένων πακέτων:"
 
 #: output/transaction_table.cpp:555
 msgid "Removing unused dependencies:"
@@ -392,7 +392,7 @@ msgstr ""
 
 #: output/transaction_table.cpp:557
 msgid "Removing:"
-msgstr ""
+msgstr "Αφαίρεση:"
 
 #: output/transaction_table.cpp:561
 msgid "Changing reason:"
@@ -448,7 +448,7 @@ msgstr ""
 
 #: progressbar/multi_progress_bar.cpp:36
 msgid "Total"
-msgstr ""
+msgstr "Σύνολο"
 
 #: session.cpp:149
 msgid "Missing command"
