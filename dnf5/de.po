@@ -5,15 +5,15 @@
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024.
 # Fabio D <fabio1977@arcor.de>, 2024.
 # Ettore Atalan <atalanttore@googlemail.com>, 2024, 2025.
-# Mario Blättermann <mario.blaettermann@gmail.com>, 2025.
+# Mario Blättermann <mario.blaettermann@gmail.com>, 2025, 2026.
 # Vahur Schwarze <schwarzevahur@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-26 03:48+0000\n"
-"PO-Revision-Date: 2026-01-05 10:20+0000\n"
-"Last-Translator: Vahur Schwarze <schwarzevahur@gmail.com>\n"
+"PO-Revision-Date: 2026-01-27 04:58+0000\n"
+"Last-Translator: Mario Blättermann <mario.blaettermann@gmail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/de/>\n"
 "Language: de\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.15.1\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #: cmdline_aliases.cpp:84 context.cpp:301 main.cpp:1357
 msgid ", "
@@ -619,17 +619,17 @@ msgstr ""
 #: commands/history/history_rollback.cpp:58
 #: commands/history/history_store.cpp:65 commands/history/history_undo.cpp:57
 msgid "No matching transaction ID found, exactly one required."
-msgstr "Keine passende Transaktions-ID gefunden, genau Eine ist erforderlich."
+msgstr "Keine passende Transaktions-ID gefunden, genau eine ist erforderlich."
 
 #: commands/history/history_redo.cpp:58
 #: commands/history/history_rollback.cpp:62
 #: commands/history/history_undo.cpp:61
 msgid "Matched more than one transaction ID, exactly one required."
-msgstr "Mehr als eine Transaktions-ID passend, genau Eine ist erforderlich."
+msgstr "Mehr als eine Transaktions-ID passend, genau eine ist erforderlich."
 
 #: commands/history/history_store.cpp:68
 msgid "Multiple transactions selected for storing, only one allowed."
-msgstr "Mehrere Transaktionen zum Speichern ausgewählt, nur Eine ist erlaubt."
+msgstr "Mehrere Transaktionen zum Speichern ausgewählt, nur eine ist erlaubt."
 
 #: commands/history/history_store.cpp:80
 msgid "File \"{}\" already exists, it will be overwritten.\n"
@@ -939,7 +939,8 @@ msgstr "Entferne (deinstalliere) Software"
 #: commands/replay/replay.cpp:38
 msgid "Replay a transaction that was previously stored to a directory"
 msgstr ""
-"Wiederhole eine Transaktion die zuvor in einem Verzeichnis gespeichert wurde"
+"Eine Transaktion wiederholen, die zuvor in einem Verzeichnis gespeichert "
+"wurde"
 
 #: commands/repo/arguments.hpp:35
 msgid "Show all repositories."
@@ -995,7 +996,7 @@ msgstr "Suche nach Software die alle angegebenen Zeichenketten erfüllt"
 
 #: commands/swap/swap.cpp:44
 msgid "Remove software and install another in one transaction"
-msgstr "Entferne Software und installiere eine andere in einer Transaktion"
+msgstr "Software entfernen und eine andere in einer Transaktion installieren"
 
 #: commands/system-upgrade/system-upgrade.cpp:56
 msgid "Prepare system for upgrade to a new release"
@@ -1208,7 +1209,7 @@ msgid ""
 "overwritten."
 msgstr ""
 "Stelle \"{}\" enthält bereits eine gespeicherte Transaktion, diese wird "
-"überschreiben."
+"überschrieben."
 
 #: context.cpp:476
 msgid ""
@@ -1232,10 +1233,10 @@ msgid ""
 "reboot and run the transaction. To cancel the transaction and delete the "
 "downloaded files, use `dnf5 offline clean`."
 msgstr ""
-"Transaktion wurde gespeichert, um offline ausgeführt werden zu können. "
-"Starte`dnf offline reboot` um neuzustarten und die Transaktion auszuführen "
-"und lösche die heruntergeladenen Dateien durch das ausführen von `dnf "
-"offline clean`."
+"Transaktion wurde gespeichert, um offline ausgeführt werden zu können. Rufen "
+"Sie `dnf offline reboot` auf, um neuzustarten und die Transaktion "
+"auszuführen und löschen Sie die heruntergeladenen Dateien durch das "
+"Ausführen von `dnf offline clean`."
 
 #: context.cpp:502
 msgid "Running transaction"
@@ -1437,7 +1438,7 @@ msgstr "automatisch alle Fragen mit nein beantworten"
 
 #: main.cpp:318
 msgid "try the best available package versions in transactions"
-msgstr "teste die besten erhältlichen Paket-Versionen in Transaktionen"
+msgstr "Die besten erhältlichen Paket-Versionen in Transaktionen testen"
 
 #: main.cpp:325
 msgid "do not limit the transaction to the best candidate"
