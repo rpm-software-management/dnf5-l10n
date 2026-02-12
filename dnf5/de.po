@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-26 03:48+0000\n"
-"PO-Revision-Date: 2026-02-08 12:01+0000\n"
-"Last-Translator: Moritz Baumann <codemonkey@landkeks.de>\n"
+"PO-Revision-Date: 2026-02-12 10:32+0000\n"
+"Last-Translator: Mario Blättermann <mario.blaettermann@gmail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/de/>\n"
 "Language: de\n"
@@ -660,10 +660,10 @@ msgid "Lists packages depending on the packages' relation to the system"
 msgstr "Listet Pakete abhängig von ihrer Beziehung zum System auf"
 
 #: commands/list/list.cpp:50
-#, fuzzy
-#| msgid "List of keys to match case insensitively"
 msgid "List of package-spec-NI to match (case insensitively)"
-msgstr "Schlüssel zum fallunabhängigen Vergleich auflisten"
+msgstr ""
+"Liste der abzugleichenden package-spec-NI (Groß-/Kleinschreibung wird nicht "
+"beachtet)"
 
 #: commands/list/list.cpp:62
 msgid "Show all versions of the packages, not only the latest ones."
@@ -777,7 +777,7 @@ msgstr ""
 
 #: commands/offline/offline.cpp:272
 msgid "Couldn't connect to D-Bus: {}"
-msgstr "Konnte keine Verbindung zum D-Bus herstellen: {}"
+msgstr "Verbindung zum D-Bus konnte nicht hergestellt werden: {}"
 
 #: commands/offline/offline.cpp:303
 msgid ""
@@ -1408,7 +1408,7 @@ msgstr ""
 
 #: main.cpp:249 main.cpp:288
 msgid "{}: Badly formatted argument value \"{}\""
-msgstr "{}: Schlecht formatierter Argumentwert \"{}\""
+msgstr "{}: Fehlerhaft formatierter Argumentwert \"{}\""
 
 #: main.cpp:256
 msgid ""
