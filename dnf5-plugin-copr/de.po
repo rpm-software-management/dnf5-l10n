@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Dennis Koerner <dennis@bumblebeeman.dev>, 2024.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024.
+# Mario Blättermann <mario.blaettermann@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-26 03:48+0000\n"
-"PO-Revision-Date: 2024-05-26 19:16+0000\n"
-"Last-Translator: Dennis Koerner <dennis@bumblebeeman.dev>\n"
+"PO-Revision-Date: 2026-02-12 10:32+0000\n"
+"Last-Translator: Mario Blättermann <mario.blaettermann@gmail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5-plugin-copr/de/>\n"
 "Language: de\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.5.5\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #: copr.cpp:48
 msgid "Copr hub (the web-UI/API server) hostname"
@@ -97,17 +98,17 @@ msgid ""
 "These repositories are being enabled together with the main\n"
 "repository.\n"
 msgstr ""
-"Der Betreuer des aktivierten Copr-Repositorys hat entschieden, \n"
-"es von anderen Repositories abhängig zu machen. Solche Repositories \n"
-"sind in der Regel für die erfolgreiche Installation von RPMs aus dem \n"
-"Haupt-Copr-Repository notwendig (stellen Laufzeitabhängigkeiten bereit).\n"
+"Der Betreuer der aktivierten Copr-Paketquelle hat entschieden, \n"
+"sie von anderen Paketquellen abhängig zu machen. Solche Paketquellen \n"
+"sind in der Regel für die erfolgreiche Installation von RPMs aus der \n"
+"Haupt-Copr-Paketquelle notwendig (stellen Laufzeitabhängigkeiten bereit).\n"
 "\n"
 "Beachten Sie, dass der Hinweis zur Qualität und Fehlerberichterstattung \n"
 "von oben auch hier gilt. Das Fedora-Projekt kontrolliert den Inhalt nicht. \n"
 "Bitte überprüfen Sie folgende Liste:\n"
 "\n"
 "{}\n"
-"Diese Repositories werden zusammen mit dem Haupt-Repository \n"
+"Diese Paketquellen werden zusammen mit der Haupt-Paketquelle \n"
 "aktiviert.\n"
 
 #: copr_debug.cpp:30
@@ -120,7 +121,7 @@ msgid ""
 "disable specified Copr repository (if exists), keep {}/*.repo file - just "
 "mark enabled=0"
 msgstr ""
-"deaktiviert festgelegtes Copr-Repository (falls vorhanden), behält {}/*.repo-"
+"deaktiviert festgelegte Copr-Paketquelle (falls vorhanden), behält {}/*.repo-"
 "Datei und setzt enabled=0"
 
 #: copr_enable.cpp:38
