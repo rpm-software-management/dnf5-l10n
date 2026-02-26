@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-26 03:48+0000\n"
-"PO-Revision-Date: 2026-02-26 00:48+0000\n"
+"PO-Revision-Date: 2026-02-27 00:58+0000\n"
 "Last-Translator: Efstathios Iosifidis <eiosifidis@yandex.com>\n"
 "Language-Team: Greek <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5daemon-client/el/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16\n"
+"X-Generator: Weblate 5.16.1\n"
 
 #: commands/advisory/advisory.cpp:35
 msgid "Manage advisories"
@@ -156,7 +156,7 @@ msgstr "CVE_ID,..."
 
 #: commands/clean/clean.cpp:88
 msgid "Error cleaning the cache: {}"
-msgstr ""
+msgstr "Σφάλμα κατά τον καθαρισμό της προσωρινής μνήμης: {}"
 
 #: commands/distro-sync/distro-sync.cpp:48
 msgid ""
@@ -167,7 +167,7 @@ msgstr ""
 
 #: commands/group/group.cpp:41
 msgid "Manage comps groups"
-msgstr ""
+msgstr "Διαχείριση ομάδων comps"
 
 #: commands/group/group_list.hpp:37
 msgid "Show only available groups."
@@ -195,7 +195,7 @@ msgstr "Διαχείριση αποθετηρίων"
 
 #: commands/repoquery/repoquery.cpp:95
 msgid "search for packages matching various criteria"
-msgstr ""
+msgstr "αναζήτηση πακέτων που ταιριάζουν σε διάφορα κριτήρια"
 
 #: commands/repoquery/repoquery.cpp:159
 msgid "Error parsing JSON object \"{}\": {}"
@@ -206,6 +206,8 @@ msgid ""
 "This command has to be run with superuser privileges (under the root user on "
 "most systems)."
 msgstr ""
+"Αυτή η εντολή πρέπει να εκτελεστεί με προνόμια υπερχρήστη (ως χρήστης root "
+"στα περισσότερα συστήματα)."
 
 #: main.cpp:158
 msgid ""
@@ -217,3 +219,4 @@ msgstr ""
 #: main.cpp:258 main.cpp:308
 msgid ". Add \"--help\" for more information about the arguments."
 msgstr ""
+". Προσθέστε «--help» για περισσότερες πληροφορίες σχετικά με τα ορίσματα."
