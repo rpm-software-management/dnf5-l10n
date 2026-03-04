@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-26 03:48+0000\n"
-"PO-Revision-Date: 2026-02-25 21:58+0000\n"
+"PO-Revision-Date: 2026-03-05 02:22+0000\n"
 "Last-Translator: Massii Aqvayli <massiin@proton.me>\n"
 "Language-Team: Kabyle <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5-plugin-config-manager/kab/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.16\n"
+"X-Generator: Weblate 5.16.1\n"
 
 #: addrepo.cpp:136
 #, c++-format
@@ -115,11 +115,13 @@ msgstr "Sefrek tawila"
 msgid ""
 "{}: Badly formatted argument value: Last key character cannot be '.': {}"
 msgstr ""
+"{}: Azal n ufakul ur yemsil ara akken iwata: Asekkil aneggaru ur izmir ara "
+"ad yili d '.': {}"
 
 #: setopt.cpp:100 unsetopt.cpp:81
 #, c++-format
 msgid "{}: Empty repository id is not allowed: {}"
-msgstr ""
+msgstr "{}: Asulay n ukufi ilem ur yettwasireg ara: {}"
 
 #: setopt.cpp:109
 #, c++-format
@@ -154,6 +156,7 @@ msgstr "Ur izmer ara asbadu n \"{}\": Amutti \"{}\" i tɣuṛi kan"
 #, c++-format
 msgid "Sets the \"{}\" variable again with a different value: \"{}\" != \"{}\""
 msgstr ""
+"Sbadu amutti \"{}\" i tikkelt nniḍen s wazal yemgaraden: \"{}\" != \"{}\""
 
 #: setvar.cpp:97 unsetvar.cpp:63
 msgid "Missing path to vars directory"
