@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-26 03:48+0000\n"
-"PO-Revision-Date: 2026-03-05 02:22+0000\n"
+"PO-Revision-Date: 2026-03-06 21:58+0000\n"
 "Last-Translator: Massii Aqvayli <massiin@proton.me>\n"
 "Language-Team: Kabyle <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/kab/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.16.1\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #: advisory/advisory.cpp:81
 msgid ""
@@ -865,61 +865,63 @@ msgstr ""
 
 #: plugin/plugins.cpp:213
 msgid "Invalid option value: enabled={}"
-msgstr ""
+msgstr "Azal n uɣewwaṛ d armeɣtu: yermed={}"
 
 #: plugin/plugins.cpp:237
 msgid "Plugins::load_plugins(): config_dir_path cannot be empty"
-msgstr ""
+msgstr "Plugins::load_plugins(): config_dir_path ur izmir ara ad yili d ilem"
 
 #: plugin/plugins.cpp:253
 msgid "Cannot load libdnf plugin enabled from: {}"
-msgstr ""
+msgstr "Ur izmir ara ad d-isali azegrir libdnf iremden seg: {}"
 
 #: repo/config_repo.cpp:581
 msgid "get_unique_id(): Computation of SHA256 failed"
-msgstr ""
+msgstr "get_unique_id(): Asiḍen n SHA256 ur yeddi ara"
 
 #: repo/file_downloader.cpp:154
 msgid "Cannot download files, cacheonly option is activated."
-msgstr ""
+msgstr "D awezɣi asider n yifuyla, tanefrunt cacheonly termed."
 
 #: repo/file_downloader.cpp:216
 msgid "Failed to download files"
-msgstr ""
+msgstr "Asider n ifuyla ur yeddi ara"
 
 #: repo/librepo.cpp:118
 msgid ""
 "Maximum download speed is lower than minimum, please change configuration of "
 "minrate or throttle"
 msgstr ""
+"Arured afellay n usider d amecṭuḥ ɣef adday, ttxil-k·m, senfel tawila n "
+"minrate neɣ throttle"
 
 #: repo/librepo.cpp:181
 msgid "'proxy_username' is set but not 'proxy_password'"
-msgstr ""
+msgstr "'proxy_username' Ittusbadu, maca mačči 'proxy_password'"
 
 #: repo/package_downloader.cpp:154
 msgid "Cannot download the \"{0}\" package, cacheonly option is activated."
-msgstr ""
+msgstr "Ulamek asider n ukemmus \"{0}\", tanefrunt cacheonly termed."
 
 #: repo/package_downloader.cpp:231
 msgid "Already downloaded"
-msgstr ""
+msgstr "Yettusider yakan"
 
 #: repo/package_downloader.cpp:279
 msgid "Failed to download packages"
-msgstr ""
+msgstr "Asider n ikemmusen ur yeddi ara"
 
 #: repo/repo.cpp:61
 msgid "Failed to load RPM \"{}\": doesn't have the \".rpm\" extension"
-msgstr ""
+msgstr "Asali n RPM \"{}\" ur yeddi ara: ur yesɛi ara asiɣzef \".rpm\""
 
 #: repo/repo.cpp:65
 msgid "Failed to access RPM \"{}\": {}"
-msgstr ""
+msgstr "Anekcum ur yeddi ara ɣer RPM \"{}\": {}"
 
 #: repo/repo.cpp:107
 msgid "Invalid repository id \"{}\": unexpected character '{}'"
-msgstr ""
+msgstr "Asulay n ukufi d arameɣtu \"{}\": asekkil ur yettwarǧan ara '{}'"
 
 #: repo/repo.cpp:150
 msgid "Repository \"{}\" has no source (baseurl, mirrorlist or metalink) set."
