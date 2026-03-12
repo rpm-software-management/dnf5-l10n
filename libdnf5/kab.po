@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-26 03:48+0000\n"
-"PO-Revision-Date: 2026-03-11 20:58+0000\n"
+"PO-Revision-Date: 2026-03-12 21:58+0000\n"
 "Last-Translator: Massii Aqvayli <massiin@proton.me>\n"
 "Language-Team: Kabyle <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/kab/>\n"
@@ -590,39 +590,39 @@ msgstr ""
 
 #: base/transaction.cpp:90
 msgid "The repository does not have any OpenPGP keys configured."
-msgstr ""
+msgstr "Akufi-nni ur yesɛi ula d yiwet n tsura OpenPGP i yettusewlen."
 
 #: base/transaction.cpp:91
 msgid "Public key is not installed."
-msgstr ""
+msgstr "Tasarut tazayezt ur tettwasbedd ara."
 
 #: base/transaction.cpp:92
 msgid "Canceled by the user."
-msgstr ""
+msgstr "Yettwasefsex sɣur useqdac."
 
 #: base/transaction.cpp:93
 msgid "Public key import failed."
-msgstr ""
+msgstr "Aktar n tsarut tazayezt yecceḍ."
 
 #: base/transaction.cpp:980
 msgid "Invalid tsflag: {}"
-msgstr ""
+msgstr "tsflag d tarameɣtut: {}"
 
 #: base/transaction.cpp:1314
 msgid "Public key \"{}\" is already present, not importing."
-msgstr ""
+msgstr "Tasarut tazayezt \"{}\" tella yakan, ur d-tettukter ara."
 
 #: base/transaction.cpp:1335
 msgid "An error occurred importing key \"{}\": {}"
-msgstr ""
+msgstr "Teḍra-d tuccḍa deg ukter n tsarut \"{}\": {}"
 
 #: base/transaction.cpp:1369
 msgid "OpenPGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
-msgstr ""
+msgstr "Aselken OpenPGP i ukemmus \"{}\" ({}) seg ukufi \"{}\" yecceḍ: "
 
 #: base/transaction.cpp:1397
 msgid "Import of the key didn't help, wrong key?"
-msgstr ""
+msgstr "Aktar n tsarut ur d-imudd ara tallelt, d tasarut tarameɣtut?"
 
 #: base/transaction.cpp:1416
 msgctxt "It is a joining character for repositories IDs"
@@ -633,15 +633,15 @@ msgstr ", "
 msgid "Warning: skipped OpenPGP checks for {0} package from repository: {1}"
 msgid_plural ""
 "Warning: skipped OpenPGP checks for {0} packages from repository: {1}"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Ɣur-k·m: yettwazgel uselken OpenPGP i {0} ukemmus seg ukufi: {1}"
+msgstr[1] "Ɣur-k·m: yettwazgel uselken OpenPGP i {0} ikemmusen seg ukufi: {1}"
 
 #: base/transaction.cpp:1422
 msgid "Warning: skipped OpenPGP checks for {0} package from repositories: {1}"
 msgid_plural ""
 "Warning: skipped OpenPGP checks for {0} packages from repositories: {1}"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Ɣur-k·m: yettwazgel uselken OpenPGP i {0} ukemmus seg ikufiyen: {1}"
+msgstr[1] "Ɣur-k·m: yettwazgel uselken OpenPGP i {0} ikemmusen seg ikufiyen: {1}"
 
 #: common/exception.cpp:78
 msgid "System error"
@@ -649,19 +649,19 @@ msgstr "Tuccḍa n unagraw"
 
 #: common/exception.cpp:199
 msgid "General RuntimeError exception"
-msgstr ""
+msgstr "Tasureft RuntimeError tamatut"
 
 #: common/sack/query.cpp:27
 msgid "Query must contain exactly one object."
-msgstr ""
+msgstr "Tuttra issefk ad tegber swaswa 1 n tɣawsa."
 
 #: common/xdg.cpp:43
 msgid "get_user_home_dir(): Cannot determine the user's home directory"
-msgstr ""
+msgstr "get_user_home_dir(): D awezɣi tifin n ukaram agejdan n useqdac"
 
 #: common/xdg.cpp:98
 msgid "get_user_runtime_dir(): Cannot determine the user's runtime directory"
-msgstr ""
+msgstr "get_user_runtime_dir(): D awezɣi tifin n ukaram agejdan n uselkam"
 
 #: comps/environment/environment.cpp:325
 msgid "failed to save xml document for comps"
@@ -926,20 +926,23 @@ msgstr "Asulay n ukufi d arameɣtu \"{}\": asekkil ur yettwarǧan ara '{}'"
 #: repo/repo.cpp:150
 msgid "Repository \"{}\" has no source (baseurl, mirrorlist or metalink) set."
 msgstr ""
+"Ulac aɣbalu(baseurl, mirrorlist neɣ metalink) yettusbadun i ukufi \"{}\"."
 
 #: repo/repo.cpp:161
 msgid "Repository \"{}\" has unsupported type \"{}\", skipping."
-msgstr ""
+msgstr "Akufi \"{}\" ur yettusefrak ara anaw \"{}\", zgel."
 
 #: repo/repo.cpp:221 repo/repo.cpp:241 repo/repo_sack.cpp:368
 msgid "Failed to download metadata ({}: \"{}\") for repository \"{}\": {}"
-msgstr ""
+msgstr "Ur yeddi ara usider n yiɣefisefka ({}: \"{}\") i ukufi \"{}\": {}"
 
 #: repo/repo.cpp:439
 msgid ""
 "Failed to load repository: \"primary\" data not present or in unsupported "
 "format"
 msgstr ""
+"Yecceḍ usali n ukufi: isefka \"primary\" ulac-iten neɣ s umasal ur "
+"yettusefraken ara"
 
 #: repo/repo.cpp:505
 msgid "Failed to load comps \"{}\": doesn't have the \".xml\" extension"
@@ -1515,11 +1518,11 @@ msgstr "Yecceḍ umdal n ufaylu n usekkeṛ \"{}\""
 
 #: utils/locker.cpp:73
 msgid "Failed to delete lock file \"{}\""
-msgstr ""
+msgstr "Tecceḍ tukksa n ufaylu n usekkeṛ \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:29
 msgid "SQL statement compilation failed: \"{}\""
-msgstr ""
+msgstr "Asefsu n tanaṭ SQL ur yeddi ara: \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:31
 msgid "Binding integer value to SQL statement failed: \"{}\""
@@ -1559,36 +1562,36 @@ msgstr ""
 
 #: utils/sqlite3/sqlite3.cpp:46
 msgid "Column \"{}\" not found"
-msgstr ""
+msgstr "Tigejdit \"{}\" ur tettwaf ara"
 
 #: utils/sqlite3/sqlite3.cpp:48
 msgid "SQL statement execution failed: \"{}\""
-msgstr ""
+msgstr "Aselkem n tanaṭ SQL ur yeddi ara: \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:68
 msgid "Failed to open database \"{}\""
-msgstr ""
+msgstr "Yecceḍ ulday n taffa n yisefka \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:105
 msgid "Failed to close database \"{}\""
-msgstr ""
+msgstr "Yecceḍ umdal n taffa n yisefka \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:117 utils/sqlite3/sqlite3.cpp:143
 msgid "Failed to open backup database \"{}\""
-msgstr ""
+msgstr "Yecceḍ ulday n weḥraz n taffa n yisefka \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:132
 msgid "Failed to backup database \"{}\" into \"{}\""
-msgstr ""
+msgstr "Yecceḍ weḥraz n taffa n yisefka \"{}\" deg \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:158
 msgid "Failed to restore database \"{}\""
-msgstr ""
+msgstr "Tecceḍ tririt n taffa n yisefka \"{}\""
 
 #: utils/system.cpp:34
 msgid "failed to read rpm config files"
-msgstr ""
+msgstr "tecceḍ tɣuri n yifuyla n twila rpm"
 
 #: utils/system.cpp:52
 msgid "Failed to execute uname()"
-msgstr ""
+msgstr "Yecceḍ uselkem n uname()"
