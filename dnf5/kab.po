@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-26 03:48+0000\n"
-"PO-Revision-Date: 2026-03-12 21:58+0000\n"
+"PO-Revision-Date: 2026-03-17 19:58+0000\n"
 "Last-Translator: Massii Aqvayli <massiin@proton.me>\n"
 "Language-Team: Kabyle <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/kab/>\n"
@@ -719,6 +719,9 @@ msgid ""
 "Error reading state: {}. Rerun the command you used to initiate the offline "
 "transaction, e.g. `dnf5 system-upgrade download [OPTIONS]`."
 msgstr ""
+"Tuccḍa deg tɣuri n waddad: {}. Ales aselkem n tladna i tesqedceḍ iwakken ad "
+"twennezeḍ tamyigawt n war tuqqna, amedya. `dnf5 system-upgrade download "
+"[OPTIONS]`."
 
 #: commands/offline/offline.cpp:272
 msgid "Couldn't connect to D-Bus: {}"
@@ -772,23 +775,23 @@ msgstr ""
 
 #: commands/offline/offline.cpp:436
 msgid "Trigger file does not exist. Exiting."
-msgstr ""
+msgstr "Afaylu n zznad ulac-it. Tuffɣa."
 
 #: commands/offline/offline.cpp:440
 msgid "Another offline transaction tool is running. Exiting."
-msgstr ""
+msgstr "Afecku-nniḍen n temyigawt s war tuqqna itteddu. Tuffɣa."
 
 #: commands/offline/offline.cpp:467
 msgid "Starting offline transaction. This will take a while."
-msgstr ""
+msgstr "Asenker n temyigawt deg uskar aruqqin. Aya ad yeṭṭef kra n wakud."
 
 #: commands/offline/offline.cpp:471
 msgid "Starting system upgrade. This will take a while."
-msgstr ""
+msgstr "Asenker n uleqqem n unagraw. Aya ad yeṭṭef kra n wakud."
 
 #: commands/offline/offline.cpp:483
 msgid "Use `dnf5 offline reboot` to begin the transaction."
-msgstr ""
+msgstr "Seqdec `dnf5 offline reboot`akken ad tebduḍ tanigawt."
 
 #: commands/offline/offline.cpp:534
 msgid "Transaction failed: "
@@ -796,7 +799,7 @@ msgstr "Tuccḍa n tnigawt: "
 
 #: commands/offline/offline.cpp:604
 msgid "Error reading journal: {}"
-msgstr ""
+msgstr "Tuccḍa deg tɣuri n uɣmis: {}"
 
 #: commands/offline/offline.cpp:610
 msgid "Add journal match failed: {}"
@@ -804,7 +807,7 @@ msgstr ""
 
 #: commands/offline/offline.cpp:638
 msgid "No logs were found."
-msgstr ""
+msgstr "Ulac iɣmisen yettwafen."
 
 #: commands/offline/offline.cpp:642
 msgid "The following boots appear to contain offline transaction logs:"
@@ -812,7 +815,7 @@ msgstr ""
 
 #: commands/offline/offline.cpp:659
 msgid "Cannot find logs with this index."
-msgstr ""
+msgstr "Ur izmir ara ad d-yaf iɣmisen s umatar-agi."
 
 #: commands/offline/offline.cpp:666
 msgid "Unable to match systemd journal entry."
