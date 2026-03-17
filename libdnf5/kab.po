@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-26 03:48+0000\n"
-"PO-Revision-Date: 2026-03-17 19:58+0000\n"
+"PO-Revision-Date: 2026-03-18 20:58+0000\n"
 "Last-Translator: Massii Aqvayli <massiin@proton.me>\n"
 "Language-Team: Kabyle <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/kab/>\n"
@@ -1062,15 +1062,15 @@ msgstr ""
 
 #: rpm/nevra.cpp:82
 msgid "NEVRA string \"{}\" contains ':' multiple times"
-msgstr ""
+msgstr "Azrar NEVRA \"{}\" yegber ddeqs n ':'"
 
 #: rpm/nevra.cpp:86
 msgid "Invalid character '{}' in NEVRA string \"{}\""
-msgstr ""
+msgstr "Asekkil armeɣtu '{}' deg uzrar NEVRA \"{}\""
 
 #: rpm/package.cpp:81
 msgid "Package with rpmdbid was not found"
-msgstr ""
+msgstr "Akemmus s rpmdbid ur yettwaf ara"
 
 #: rpm/package.cpp:478
 msgid "<unknown>"
@@ -1078,27 +1078,27 @@ msgstr "<d arussin>"
 
 #: rpm/reldep.cpp:116 rpm/reldep.cpp:123
 msgid "Cannot parse a dependency string"
-msgstr ""
+msgstr "Ur izmir ara ad isleḍ azrir n tagelt"
 
 #: rpm/rpm_signature.cpp:45
 msgid "No corresponding key was found."
-msgstr ""
+msgstr "Ulac tasarut inmeɣran i yettwafen."
 
 #: rpm/rpm_signature.cpp:46
 msgid "The signature is valid, but the key is not trusted."
-msgstr ""
+msgstr "Azmul d ameɣtu, maca tasarut ur tettwaman ara."
 
 #: rpm/rpm_signature.cpp:47
 msgid "The package is not signed."
-msgstr ""
+msgstr "Akemmus ur yettwazmel ara."
 
 #: rpm/rpm_signature.cpp:48
 msgid "Problem occurred when opening the package."
-msgstr ""
+msgstr "Yeḍra-d wugur deg ulday n ukemmus."
 
 #: rpm/rpm_signature.cpp:64
 msgid "Failed to set rpm transaction rootDir \"{}\"."
-msgstr ""
+msgstr "D awezɣi asbadu n rootDir n tnigawt rpm s wazal \"{}\"."
 
 #: rpm/rpm_signature.cpp:290
 msgid "\"{}\": key is not an armored public key."
@@ -1106,17 +1106,17 @@ msgstr ""
 
 #: rpm/rpm_signature.cpp:295
 msgid "Failed to import public key \"{}\" to rpmdb: {}"
-msgstr ""
+msgstr "Yecceḍ uktar n tsarut tazayezt \"{}\" ɣer rpmdb: {}"
 
 #. TODO(jrohel): Why? Librpm does not provide this information.
 #: rpm/transaction.cpp:114
 msgid "Cannot set root directory \"{}\""
-msgstr ""
+msgstr "D awezɣi asbadu n ukaram aẓar \"{}\""
 
 #: rpm/transaction.cpp:125
 #, c-format
 msgid "Error %i opening rpm database"
-msgstr ""
+msgstr "Tuccḍa %i deg ulday n taffa n yisefka rpm"
 
 #: rpm/transaction.cpp:134
 msgid "The rpmdbCookie() function did not return cookie of rpm database."
@@ -1209,11 +1209,11 @@ msgstr "Iteddu"
 #: transaction/Swdb.cpp:99 transaction/Swdb.cpp:126 transaction/Swdb.cpp:136
 #: transaction/Swdb.cpp:150 transaction/Swdb.cpp:273 transaction/Swdb.cpp:281
 msgid "Not in progress"
-msgstr ""
+msgstr "Ulac deg usfari"
 
 #: transaction/Swdb.cpp:158
 msgid "No transaction in progress"
-msgstr ""
+msgstr "Ulac tanigawt iteddun"
 
 #: transaction/Transformer.cpp:647
 msgid "Transformer: can't open history persist dir"
@@ -1221,7 +1221,7 @@ msgstr ""
 
 #: transaction/Transformer.cpp:660
 msgid "Couldn't find a history database"
-msgstr ""
+msgstr "D awezɣi tifin n taffa n yisefka n uzray"
 
 #. TODO(dmach): replace with a better exception class
 #: transaction/db/comps_environment_group.cpp:100
