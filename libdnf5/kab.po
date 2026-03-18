@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-26 03:48+0000\n"
-"PO-Revision-Date: 2026-03-18 20:58+0000\n"
+"PO-Revision-Date: 2026-03-19 21:58+0000\n"
 "Last-Translator: Massii Aqvayli <massiin@proton.me>\n"
 "Language-Team: Kabyle <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/kab/>\n"
@@ -1124,7 +1124,7 @@ msgstr ""
 
 #: rpm/transaction.cpp:199
 msgid "Failed to order the rpm transaction."
-msgstr ""
+msgstr "D awezɣi amizzwer n tnigawt rpm."
 
 #: rpm/transaction.cpp:235
 msgid ""
@@ -1134,14 +1134,17 @@ msgstr ""
 #: rpm/transaction.cpp:254
 msgid "Failed to set scriptlet output file, cannot open file \"{}\": {}"
 msgstr ""
+"Ur izmir ara ad isbadu afaylu n tuffɣa n scriptlet, ur yezmir ara ad yeldi "
+"ufaylu \"{}\": {}"
 
 #: rpm/transaction.cpp:275
 msgid "Failed to read package header, cannot open file \"{}\": {}"
 msgstr ""
+"Tecceḍ tɣuri n uqerru n ukemmus, ur yezmir ara ad yeldi ufaylu \"{}\": {}"
 
 #: rpm/transaction.cpp:292
 msgid "Failed to read package header from file \"{}\""
-msgstr ""
+msgstr "Tecceḍ tɣuri n uqerru n ukemmus seg ufaylu \"{}\""
 
 #: rpm/transaction.cpp:305
 msgid "Cannot init rpm database iterator"
@@ -1149,29 +1152,29 @@ msgstr ""
 
 #: rpm/transaction.cpp:309
 msgid "Package was not found in rpm database"
-msgstr ""
+msgstr "Akemmus ur yettwaf ara deg taffa n yisefka rpm"
 
 #. TODO(jrohel): Why? Librpm does not provide this information.
 #: rpm/transaction.cpp:325
 msgid "Cannot reinstall package \"{}\""
-msgstr ""
+msgstr "Ur izmir ara ad yales asbeddi ukemmus \"{}\""
 
 #. TODO(jrohel): Why? Librpm does not provide this information.
 #: rpm/transaction.cpp:343
 msgid "Cannot remove package \"{}\""
-msgstr ""
+msgstr "D awezɣi tukksa n ukemmus \"{}\""
 
 #: rpm/transaction.cpp:362
 msgid "Cannot upgrade package \"{}\""
-msgstr ""
+msgstr "Ulamek aleqqem n ukemmus \"{}\""
 
 #: rpm/transaction.cpp:366
 msgid "Cannot downgrade package \"{}\""
-msgstr ""
+msgstr "Ur izmir ara ad isebded lqem yezrin n ukemmus \"{}\""
 
 #: rpm/transaction.cpp:370
 msgid "Cannot install package \"{}\""
-msgstr ""
+msgstr "Ulamek asbeddi n ukemmus \"{}\""
 
 #: rpm/versionlock_config.cpp:284 system/state.cpp:605
 msgid "{}"
@@ -1180,7 +1183,7 @@ msgstr "{}"
 #. TODO(lukash) throw proper exception class
 #: solv/pool.cpp:174
 msgid "Failed to convert epoch \"{}\" to number"
-msgstr ""
+msgstr "D awezɣi aselket n epoch \"{}\" ɣer umḍan"
 
 #: solv/solver.cpp:79
 msgid "Writing debugsolver data into \"{}\" failed: {}"
