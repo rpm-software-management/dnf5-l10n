@@ -7,18 +7,20 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-26 03:48+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-03-18 20:58+0000\n"
+"Last-Translator: Keith Bowes <zooplah@gmail.com>\n"
+"Language-Team: Esperanto <https://translate.fedoraproject.org/projects/dnf5/"
+"dnf5/eo/>\n"
 "Language: eo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #: cmdline_aliases.cpp:84 context.cpp:301 main.cpp:1357
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: cmdline_aliases.cpp:145
 #, c++-format
@@ -191,39 +193,39 @@ msgstr ""
 
 #: commands/advisory/advisory.cpp:36
 msgid "Manage advisories"
-msgstr ""
+msgstr "Administri avizojn"
 
 #: commands/advisory/advisory_info.hpp:35
 msgid "Print details about advisories"
-msgstr ""
+msgstr "Listigi detalojn pri avizoj"
 
 #: commands/advisory/advisory_list.hpp:35
 msgid "List advisories"
-msgstr ""
+msgstr "Listigi avizojn"
 
 #: commands/advisory/advisory_summary.cpp:44
 msgid "All"
-msgstr ""
+msgstr "Ĉiuj"
 
 #: commands/advisory/advisory_summary.cpp:48
 msgid "Installed"
-msgstr ""
+msgstr "Instalitaj"
 
 #: commands/advisory/advisory_summary.cpp:52
 msgid "Updates"
-msgstr ""
+msgstr "Ĝisdatigoj"
 
 #: commands/advisory/advisory_summary.cpp:65
 msgid "Available"
-msgstr ""
+msgstr "Disponeblaj"
 
 #: commands/advisory/advisory_summary.hpp:33
 msgid "Print summary of advisories"
-msgstr ""
+msgstr "Eligi resumon de avizoj"
 
 #: commands/advisory/arguments.hpp:34
 msgid "Show advisories containing any version of installed packages."
-msgstr ""
+msgstr "Montri avizojn enhavantaj ĉiun ajn eldonon de instalitaj pakoj."
 
 #: commands/advisory/arguments.hpp:45
 msgid ""
@@ -235,34 +237,40 @@ msgstr ""
 msgid ""
 "Show advisories containing equal and older versions of installed packages."
 msgstr ""
+"Montri avizojn enhavantaj eldonojn de instalitaj pakoj, kiuj ne estas pli "
+"novaj."
 
 #: commands/advisory/arguments.hpp:69
 msgid ""
 "Show advisories containing newer versions of installed packages for which a "
 "newer version is available."
 msgstr ""
+"Montri avizojn enhavantaj pli novajn eldonojn de instalitaj pakoj por kiuj "
+"pli nova eldono disponeblas."
 
 #: commands/advisory/arguments.hpp:82
 msgid ""
 "Show only advisories containing packages with specified names. List option, "
 "supports globs."
 msgstr ""
+"Montri nur tiujn avizojn, kiuj enhavas pakojn kun specifitaj nomoj. Lista "
+"opcio, regas ĵokerojn."
 
 #: commands/advisory/arguments.hpp:83 commands/history/arguments.hpp:81
 msgid "PACKAGE_NAME,..."
-msgstr ""
+msgstr "PAKO_NOMO,..."
 
 #: commands/advisory/arguments.hpp:90
 msgid "List of patterns matched against advisory names."
-msgstr ""
+msgstr "Listo da ŝablonoj kongruantaj kun avizaj nomoj."
 
 #: commands/advisory/arguments.hpp:100
 msgid "Show only advisories referencing a bugzilla."
-msgstr ""
+msgstr "Montri tiujn avizojn kun Bugzilla-raporto."
 
 #: commands/advisory/arguments.hpp:107
 msgid "Show only advisories referencing a CVE."
-msgstr ""
+msgstr "Montri nur avizojn, kiuj mencias CVE-on."
 
 #: commands/advisory_shared.hpp:76
 #, c++-format
@@ -290,7 +298,7 @@ msgstr ""
 
 #: commands/advisory_shared.hpp:159
 msgid "ADVISORY_NAME,..."
-msgstr ""
+msgstr "AVIZA_NOMO,..."
 
 #: commands/advisory_shared.hpp:166
 msgid "Include content contained in security advisories."
@@ -316,7 +324,7 @@ msgstr ""
 
 #: commands/advisory_shared.hpp:200
 msgid "ADVISORY_SEVERITY,..."
-msgstr ""
+msgstr "AVIZA_SEVERECO,..."
 
 #: commands/advisory_shared.hpp:212
 msgid ""
@@ -326,7 +334,7 @@ msgstr ""
 
 #: commands/advisory_shared.hpp:213
 msgid "BUGZILLA_ID,..."
-msgstr ""
+msgstr "BUGZILLA_INTENTIGILO,..."
 
 #: commands/advisory_shared.hpp:223
 msgid ""
@@ -336,7 +344,7 @@ msgstr ""
 
 #: commands/advisory_shared.hpp:225
 msgid "CVE_ID,..."
-msgstr ""
+msgstr "CVE_IDENTIGILO,..."
 
 #: commands/autoremove/autoremove.cpp:38
 msgid "Remove all unneeded packages originally installed as dependencies."
@@ -371,12 +379,12 @@ msgstr ""
 #: commands/clean/clean.cpp:109
 #, c++-format
 msgid "Unknown cache type \"{0}\". Supported types: {1}"
-msgstr ""
+msgstr "Nekonata kaŝmemora tipo \"{0}\". Regataj tipoj: {1}"
 
 #: commands/clean/clean.cpp:166
 #, c++-format
 msgid "Failed to cleanup repository cache in path \"{0}\": {1}"
-msgstr ""
+msgstr "Malsukcesis purigi deponejan kaŝmemoron en vojo \"{0}\": {1}"
 
 #: commands/clean/clean.cpp:176
 #, c++-format
@@ -464,12 +472,12 @@ msgstr ""
 #: commands/download/download.cpp:149 main.cpp:627
 #, c++-format
 msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
-msgstr ""
+msgstr "Neregata arĥitekturo \"{0}\". Bonvolu elekti ian el {1}"
 
 #. TODO(jrohel): Add support for requiring an argument by another argument in ArgumentParser?
 #: commands/download/download.cpp:186
 msgid "Option \"--alldeps\" should be used with \"--resolve\""
-msgstr ""
+msgstr "Konsilindas uzi la opcion \"--alldeps\" kun \"--resolve\""
 
 #: commands/download/download.cpp:226
 #, c++-format
@@ -479,15 +487,15 @@ msgstr ""
 
 #: commands/environment/arguments.hpp:33
 msgid "Show only available environments."
-msgstr ""
+msgstr "Montri nur disponeblajn mediojn."
 
 #: commands/environment/arguments.hpp:40
 msgid "Show only installed environments."
-msgstr ""
+msgstr "Montri nur instalitajn mediojn."
 
 #: commands/environment/arguments.hpp:47
 msgid "Pattern matching environment IDs."
-msgstr ""
+msgstr "Ŝablona kongruado de mediaj identigiloj."
 
 #: commands/environment/environment.cpp:35
 msgid "Manage comps environments"
@@ -519,41 +527,43 @@ msgstr ""
 
 #: commands/group/arguments.hpp:34
 msgid "Show only available groups."
-msgstr ""
+msgstr "Montri nur disponeblajn grupojn."
 
 #: commands/group/arguments.hpp:41
 msgid "Show also hidden groups."
-msgstr ""
+msgstr "Ankaŭ montri kaŝitajn grupojn."
 
 #: commands/group/arguments.hpp:48
 msgid "Show only installed groups."
-msgstr ""
+msgstr "Montri nur instalitajn grupojn."
 
 #: commands/group/arguments.hpp:59
 msgid ""
 "Show only groups containing packages with specified names. List option, "
 "supports globs."
 msgstr ""
+"Montri nur grupojn enhavantaj pakojn kun specifaj nomoj. Lista opcio, regas "
+"ĵokerojn."
 
 #: commands/group/arguments.hpp:67
 msgid "Pattern matching group IDS."
-msgstr ""
+msgstr "Ŝablono kongruanta kun grupaj identigiloj."
 
 #: commands/group/arguments.hpp:76
 msgid "Include optional packages from group."
-msgstr ""
+msgstr "Inkluzivigi libervolajn pakojn el grupo."
 
 #: commands/group/arguments.hpp:83
 msgid "Operate on groups only, no packages are changed."
-msgstr ""
+msgstr "Funkcii en nur grupoj, neniuj pakoj estas ŝanĝotaj."
 
 #: commands/history/arguments.hpp:37
 msgid "Transaction ID"
-msgstr ""
+msgstr "Transakcia identigilo"
 
 #: commands/history/arguments.hpp:44
 msgid "Reverse the order of transactions."
-msgstr ""
+msgstr "Inversigi la ordon de transakcioj."
 
 #: commands/history/arguments.hpp:54
 msgid ""
@@ -609,6 +619,8 @@ msgid ""
 "Invalid transaction ID range \"{}\", \"ID\" or \"ID..ID\" expected, where ID "
 "is \"NUMBER\", \"last\" or \"last-NUMBER\"."
 msgstr ""
+"Nevalida transakcia identigila amplekso \"{}\". \"ID\" aŭ \"ID..ID\" "
+"atendata. ID estas \"NOMBRO\", \"last\" aŭ \"last-NOMBRO\"."
 
 #: commands/install/install.cpp:43
 msgid "Install software"
@@ -693,7 +705,7 @@ msgstr ""
 
 #: commands/list/list.cpp:266
 msgid "No matching packages to list"
-msgstr ""
+msgstr "Neniuj kongruantoj pakoj listigeblas"
 
 #: commands/mark/mark.cpp:38
 msgid "Change the reason of an installed package"
@@ -701,15 +713,15 @@ msgstr ""
 
 #: commands/module/arguments.hpp:36
 msgid "Show enabled modules."
-msgstr ""
+msgstr "Montri ŝaltitajn modulojn."
 
 #: commands/module/arguments.hpp:43
 msgid "Show disabled modules."
-msgstr ""
+msgstr "Montri malŝaltitajn modulojn."
 
 #: commands/module/arguments.hpp:50
 msgid "Pattern matching module NSVCAs."
-msgstr ""
+msgstr "Modulo por sablona kongruado konraŭ NSVCA-oj."
 
 #: commands/module/module.cpp:43
 msgid "Manage modules"
@@ -734,7 +746,7 @@ msgstr ""
 #: commands/offline/offline.cpp:272
 #, c++-format
 msgid "Couldn't connect to D-Bus: {}"
-msgstr ""
+msgstr "Ne eblas konektiĝi al D-Bus: {}"
 
 #: commands/offline/offline.cpp:303
 msgid ""
@@ -887,19 +899,19 @@ msgstr ""
 
 #: commands/repo/arguments.hpp:35
 msgid "Show all repositories."
-msgstr ""
+msgstr "Montri ĉiujn deponejojn."
 
 #: commands/repo/arguments.hpp:42
 msgid "Show enabled repositories (default)."
-msgstr ""
+msgstr "Montri ŝaltitajn deponejojn (apriore)."
 
 #: commands/repo/arguments.hpp:49
 msgid "Show disabled repositories."
-msgstr ""
+msgstr "Montri malŝaltitajn deponejojn."
 
 #: commands/repo/arguments.hpp:56
 msgid "Pattern matching repo IDs."
-msgstr ""
+msgstr "Ŝablona kongruado de deponejaj identigiloj."
 
 #: commands/repo/repo.cpp:38
 msgid "Manage repositories"
@@ -914,6 +926,8 @@ msgid ""
 "Option \"--exactdeps\" has to be used either with \"--whatrequires\" or \"--"
 "whatdepends\""
 msgstr ""
+"Opcio \"--exactdeps\" devas esti uzata kun aŭ \"--whatrequires\" aŭ \"--"
+"whatdepends\""
 
 #: commands/repoquery/repoquery.cpp:530
 msgid ""
@@ -923,11 +937,11 @@ msgstr ""
 
 #: commands/search/arguments.hpp:37
 msgid "Search also package description and URL."
-msgstr ""
+msgstr "Serĉi ankaŭ pakan priskribon kaj URL-on."
 
 #: commands/search/arguments.hpp:45
 msgid "Patterns"
-msgstr ""
+msgstr "Ŝablonoj"
 
 #: commands/search/search.cpp:44
 msgid "Search for software matching all specified strings"
@@ -1063,7 +1077,7 @@ msgstr ""
 
 #: context.cpp:87
 msgid "The key was successfully imported."
-msgstr ""
+msgstr "La ŝlosilo estis sukcese importita."
 
 #: context.cpp:96
 #, c++-format
@@ -1255,12 +1269,12 @@ msgstr ""
 #: library.cpp:33
 #, c++-format
 msgid "Cannot load shared library \"{}\": {}"
-msgstr ""
+msgstr "Ne eblas ŝargi per dinamika biblioteko \"{}\": {}"
 
 #: library.cpp:47
 #, c++-format
 msgid "Cannot obtain address of symbol \"{}\": {}"
-msgstr ""
+msgstr "Ne eblas atingi adreson de simbolo \"{}\": {}"
 
 #: main.cpp:133
 msgid "Utility for packages maintaining"
@@ -1310,7 +1324,7 @@ msgstr ""
 #: main.cpp:204
 #, c++-format
 msgid "Failed to expire repository cache in path \"{0}\": {1}"
-msgstr ""
+msgstr "Malsukcesis eksvalidigi deponejan kaŝmemoron en vojo: \"{0}\": {1}"
 
 #: main.cpp:218
 msgid "create additional repository using id and path"
@@ -1319,7 +1333,7 @@ msgstr ""
 #: main.cpp:226
 #, c++-format
 msgid "repofrompath: Incorrect repoid and path specification \"{}\""
-msgstr ""
+msgstr "repofrompath: Malĝusta deponeja kaj voja specifo \"{}\""
 
 #: main.cpp:238
 msgid "set arbitrary config and repo options"
@@ -1350,7 +1364,7 @@ msgstr ""
 #: main.cpp:269
 #, c++-format
 msgid "setopt: \"{0}\": {1}"
-msgstr ""
+msgstr "setopt: \"{0}\": {1}"
 
 #: main.cpp:281
 msgid "set arbitrary variable"
@@ -1359,7 +1373,7 @@ msgstr ""
 #: main.cpp:295
 #, c++-format
 msgid "setvar: {}"
-msgstr ""
+msgstr "setvar: {}"
 
 #: main.cpp:304
 msgid "automatically answer yes for all questions"
@@ -1556,7 +1570,7 @@ msgstr ""
 
 #: main.cpp:865
 msgid "======== Main configuration: ========"
-msgstr ""
+msgstr "======== Ĉefa agordo: ========"
 
 #: main.cpp:902
 #, c++-format
@@ -1566,11 +1580,11 @@ msgstr ""
 #: main.cpp:907
 #, c++-format
 msgid "======== \"{}\" repository configuration: ========"
-msgstr ""
+msgstr "======== Agordo pri deponejo \"{}\": ========"
 
 #: main.cpp:927
 msgid "======== Variables: ========"
-msgstr ""
+msgstr "======== Variabloj: ========"
 
 #: main.cpp:967
 msgid "New leaves:"
@@ -1728,8 +1742,8 @@ msgstr ""
 
 #: shared_options.cpp:42
 msgid "Allow resolving of depsolve problems by skipping packages"
-msgstr ""
+msgstr "Permesi solvi problemojn pri dependaĵa solvado per preterlaso de pakoj"
 
 #: shared_options.cpp:54
 msgid "Allow skipping unavailable packages"
-msgstr ""
+msgstr "Permesi preterlasi nedisponeblajn pakojn"
