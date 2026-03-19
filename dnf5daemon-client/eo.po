@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-26 03:48+0000\n"
-"PO-Revision-Date: 2026-03-18 20:58+0000\n"
+"PO-Revision-Date: 2026-03-19 21:58+0000\n"
 "Last-Translator: Keith Bowes <zooplah@gmail.com>\n"
 "Language-Team: Esperanto <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5daemon-client/eo/>\n"
@@ -39,6 +39,8 @@ msgid ""
 "Show advisories containing newer versions of installed packages. This is the "
 "default behavior."
 msgstr ""
+"Montri avizojn, kiuj enhavas pli novajn eldonojn de instalitaj pakoj. Tio "
+"estas la apriora konduto."
 
 #: commands/advisory/arguments.hpp:55
 msgid ""
@@ -82,7 +84,7 @@ msgstr "Montri nur avizojn, kiuj mencias CVE-on."
 #: commands/advisory/arguments.hpp:113
 msgid ""
 "Include content contained in advisories with specified name. List option."
-msgstr ""
+msgstr "Inkluzivigi enhavon enhavita en avizoj kun specifita nomo. Lista opcio."
 
 #: commands/advisory/arguments.hpp:114
 msgid "ADVISORY_NAME,..."
@@ -90,19 +92,19 @@ msgstr "AVIZA_NOMO,..."
 
 #: commands/advisory/arguments.hpp:121
 msgid "Include content contained in security advisories."
-msgstr ""
+msgstr "Inkluzivigi enhavon enhavita en sekurecaj avizoj."
 
 #: commands/advisory/arguments.hpp:128
 msgid "Include content contained in bugfix advisories."
-msgstr ""
+msgstr "Inkluzivgi enhavon enhavita en cimriparaj avizoj."
 
 #: commands/advisory/arguments.hpp:135
 msgid "Include content contained in enhancement advisories."
-msgstr ""
+msgstr "Inkluzivgi enhavon enhavita en plibonigaj avizoj."
 
 #: commands/advisory/arguments.hpp:142
 msgid "Include content contained in newpackage advisories."
-msgstr ""
+msgstr "Inkluzivigi enhavon enhavitan en avizoj pri novaj pakoj."
 
 #. Note for translators: "critical" etc. quoted words are
 #. literals that should not be translated.
@@ -111,6 +113,8 @@ msgid ""
 "Include content contained in advisories with specified severity. List "
 "option. Can be \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgstr ""
+"Inkluzivigi enhavon enhavita en avizoj kun specifita severeco. Lista opcio. "
+"Povas esti \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 
 #: commands/advisory/arguments.hpp:157
 msgid "ADVISORY_SEVERITY,..."
@@ -121,6 +125,8 @@ msgid ""
 "Include content contained in advisories that fix a Bugzilla ID, Eg. 123123. "
 "List option."
 msgstr ""
+"Inkluzivgi enhavon enhavita en avizoj, kiuj riparas Bugzilla-numeron, ekz-e "
+"123123. Lista opcio."
 
 #: commands/advisory/arguments.hpp:170
 msgid "BUGZILLA_ID,..."
@@ -131,6 +137,8 @@ msgid ""
 "Include content contained in advisories that fix a CVE (Common "
 "Vulnerabilities and Exposures) ID, Eg. CVE-2201-0123. List option."
 msgstr ""
+"Inkluzivigi enhavon enhavita en avizoj, kiuj ripari identigilon de CVE "
+"(Komunaj vundebloj kaj elmetoj). Ekz-e CVE-2201-0123. Lista opcio."
 
 #: commands/advisory/arguments.hpp:182
 msgid "CVE_ID,..."
@@ -139,16 +147,18 @@ msgstr "CVE_IDENTIGILO,..."
 #: commands/clean/clean.cpp:88
 #, c++-format
 msgid "Error cleaning the cache: {}"
-msgstr ""
+msgstr "Eraro dum purigo de la kaŝmemoro: {}"
 
 #: commands/distro-sync/distro-sync.cpp:48
 msgid ""
 "Upgrade or downgrade installed software to the latest available versions"
 msgstr ""
+"Promocii aŭ malpromocii instalitajn programojn al la plej freŝaj disponeblaj "
+"eldonoj"
 
 #: commands/group/group.cpp:41
 msgid "Manage comps groups"
-msgstr ""
+msgstr "Administri comps.xml-grupojn"
 
 #: commands/group/group_list.hpp:37
 msgid "Show only available groups."
@@ -172,29 +182,33 @@ msgstr ""
 
 #: commands/repo/repo.cpp:37
 msgid "Manage repositories"
-msgstr ""
+msgstr "Administri deponejojn"
 
 #: commands/repoquery/repoquery.cpp:95
 msgid "search for packages matching various criteria"
-msgstr ""
+msgstr "Serĉi pakojn laŭ diversaj kriterioj"
 
 #: commands/repoquery/repoquery.cpp:159
 #, c++-format
 msgid "Error parsing JSON object \"{}\": {}"
-msgstr ""
+msgstr "Eraro dum analizo de JSON-objekto \"{}\": {}"
 
 #: exception.cpp:28
 msgid ""
 "This command has to be run with superuser privileges (under the root user on "
 "most systems)."
 msgstr ""
+"Oni devas esti la ĉefuzulo (la uzulo root en la plejparto de sistemoj) por "
+"plenumigi ĉi tiun komandon."
 
 #: main.cpp:158
 #, c++-format
 msgid ""
 "{}: Badly formatted argument value: Last key character cannot be '.': {}"
 msgstr ""
+"{}: Malbone formita argumenta valoro: Lasta ŝlosila signo ne povas esti '.': "
+"{}"
 
 #: main.cpp:258 main.cpp:308
 msgid ". Add \"--help\" for more information about the arguments."
-msgstr ""
+msgstr "Aldoneblas \"--help\" por pliaj informoj pri la argumentoj."
