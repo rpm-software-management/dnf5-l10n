@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-26 03:48+0000\n"
-"PO-Revision-Date: 2026-03-18 20:58+0000\n"
+"PO-Revision-Date: 2026-03-19 21:58+0000\n"
 "Last-Translator: Keith Bowes <zooplah@gmail.com>\n"
 "Language-Team: Esperanto <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/eo/>\n"
@@ -232,6 +232,8 @@ msgid ""
 "Show advisories containing newer versions of installed packages. This is the "
 "default behavior."
 msgstr ""
+"Montri avizojn, kiuj enhavas pli novajn eldonojn de instalitaj pakoj. Tio "
+"estas la apriora konduto."
 
 #: commands/advisory/arguments.hpp:57
 msgid ""
@@ -294,7 +296,7 @@ msgstr ""
 #: commands/advisory_shared.hpp:158
 msgid ""
 "Include content contained in advisories with specified name. List option."
-msgstr ""
+msgstr "Inkluzivigi enhavon enhavita en avizoj kun specifita nomo. Lista opcio."
 
 #: commands/advisory_shared.hpp:159
 msgid "ADVISORY_NAME,..."
@@ -302,25 +304,27 @@ msgstr "AVIZA_NOMO,..."
 
 #: commands/advisory_shared.hpp:166
 msgid "Include content contained in security advisories."
-msgstr ""
+msgstr "Inkluzivigi enhavon enhavita en sekurecaj avizoj."
 
 #: commands/advisory_shared.hpp:173
 msgid "Include content contained in bugfix advisories."
-msgstr ""
+msgstr "Inkluzivgi enhavon enhavita en cimriparaj avizoj."
 
 #: commands/advisory_shared.hpp:180
 msgid "Include content contained in enhancement advisories."
-msgstr ""
+msgstr "Inkluzivgi enhavon enhavita en plibonigaj avizoj."
 
 #: commands/advisory_shared.hpp:187
 msgid "Include content contained in newpackage advisories."
-msgstr ""
+msgstr "Inkluzivigi enhavon enhavitan en avizoj pri novaj pakoj."
 
 #: commands/advisory_shared.hpp:198
 msgid ""
 "Include content contained in advisories with specified severity. List "
 "option. Can be \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgstr ""
+"Inkluzivigi enhavon enhavita en avizoj kun specifita severeco. Lista opcio. "
+"Povas esti \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 
 #: commands/advisory_shared.hpp:200
 msgid "ADVISORY_SEVERITY,..."
@@ -331,6 +335,8 @@ msgid ""
 "Include content contained in advisories that fix a Bugzilla ID, Eg. 123123. "
 "List option."
 msgstr ""
+"Inkluzivgi enhavon enhavita en avizoj, kiuj riparas Bugzilla-numeron, ekz-e "
+"123123. Lista opcio."
 
 #: commands/advisory_shared.hpp:213
 msgid "BUGZILLA_ID,..."
@@ -341,6 +347,8 @@ msgid ""
 "Include content contained in advisories that fix a CVE (Common "
 "Vulnerabilities and Exposures) ID, Eg. CVE-2201-0123. List option."
 msgstr ""
+"Inkluzivigi enhavon enhavita en avizoj, kiuj ripari identigilon de CVE "
+"(Komunaj vundebloj kaj elmetoj). Ekz-e CVE-2201-0123. Lista opcio."
 
 #: commands/advisory_shared.hpp:225
 msgid "CVE_ID,..."
@@ -404,6 +412,8 @@ msgstr ""
 msgid ""
 "Upgrade or downgrade installed software to the latest available versions"
 msgstr ""
+"Promocii aŭ malpromocii instalitajn programojn al la plej freŝaj disponeblaj "
+"eldonoj"
 
 #: commands/do/do.cpp:44
 msgid "Do transaction"
@@ -915,7 +925,7 @@ msgstr "Ŝablona kongruado de deponejaj identigiloj."
 
 #: commands/repo/repo.cpp:38
 msgid "Manage repositories"
-msgstr ""
+msgstr "Administri deponejojn"
 
 #: commands/repoquery/repoquery.cpp:82
 msgid "Search for packages matching various criteria"
@@ -1269,7 +1279,7 @@ msgstr ""
 #: library.cpp:33
 #, c++-format
 msgid "Cannot load shared library \"{}\": {}"
-msgstr "Ne eblas ŝargi per dinamika biblioteko \"{}\": {}"
+msgstr "Ne eblas ŝargi dinamikan bibliotekon \"{}\": {}"
 
 #: library.cpp:47
 #, c++-format
@@ -1360,6 +1370,8 @@ msgstr ""
 msgid ""
 "{}: Badly formatted argument value: Last key character cannot be '.': {}"
 msgstr ""
+"{}: Malbone formita argumenta valoro: Lasta ŝlosila signo ne povas esti '.': "
+"{}"
 
 #: main.cpp:269
 #, c++-format
