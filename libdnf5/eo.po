@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-26 03:48+0000\n"
-"PO-Revision-Date: 2026-03-18 20:58+0000\n"
+"PO-Revision-Date: 2026-03-19 21:58+0000\n"
 "Last-Translator: Keith Bowes <zooplah@gmail.com>\n"
 "Language-Team: Esperanto <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/eo/>\n"
@@ -24,159 +24,161 @@ msgid ""
 "Bad libsolv id for advisory \"{}\", solvable name \"{}\" doesn't have "
 "advisory prefix \"{}\""
 msgstr ""
+"Malbona libsolv-identigilo por avizo \"{}\", solvebla nomo \"{}\" ne havas "
+"avizan prefikson \"{}\""
 
 #: base/goal.cpp:482
 #, c++-format
 msgid "Unsupported argument for REMOVE action: {}"
-msgstr ""
+msgstr "Nokonata argumento por ago REMOVE: {}"
 
 #. TODO(lukash) throw a proper exception
 #: base/goal.cpp:1652
 #, c++-format
 msgid "Incorrect configuration value for multilib_policy: {}"
-msgstr ""
+msgstr "Malĝusta agordo-valoro por multilib_ploticy: {}"
 
 #: base/goal_elements.cpp:352
 msgid "Install"
-msgstr ""
+msgstr "Instali"
 
 #: base/goal_elements.cpp:354
 msgid "Install via provide"
-msgstr ""
+msgstr "Instali laŭ provizo"
 
 #: base/goal_elements.cpp:356
 msgid "Install by group"
-msgstr ""
+msgstr "Instali laŭ grupo"
 
 #: base/goal_elements.cpp:358
 msgid "Upgrade"
-msgstr ""
+msgstr "Promocii"
 
 #: base/goal_elements.cpp:360
 msgid "Upgrade all"
-msgstr ""
+msgstr "Promocii ĉion"
 
 #: base/goal_elements.cpp:362
 msgid "Upgrade minimal"
-msgstr ""
+msgstr "Minimume promocii"
 
 #: base/goal_elements.cpp:364
 msgid "Upgrade all minimal"
-msgstr ""
+msgstr "Minimume promocii ĉion"
 
 #: base/goal_elements.cpp:366
 msgid "Downgrade"
-msgstr ""
+msgstr "Malpromocii"
 
 #: base/goal_elements.cpp:368
 msgid "Reinstall"
-msgstr ""
+msgstr "Reinstali"
 
 #: base/goal_elements.cpp:370
 msgid "Install or reinstall"
-msgstr ""
+msgstr "Instali aŭ reinstali"
 
 #: base/goal_elements.cpp:372
 msgid "Remove"
-msgstr ""
+msgstr "Forigi"
 
 #: base/goal_elements.cpp:374
 msgid "Distrosync"
-msgstr ""
+msgstr "Sinkronigi la distribuaĵon"
 
 #: base/goal_elements.cpp:376
 msgid "Distrosync all"
-msgstr ""
+msgstr "Tute sinkronigi la distribuaĵon"
 
 #: base/goal_elements.cpp:378
 msgid "Reason Change"
-msgstr ""
+msgstr "Ŝanĝo de kialo"
 
 #: base/goal_elements.cpp:380
 msgid "Resolve"
-msgstr ""
+msgstr "Solvi"
 
 #: base/goal_elements.cpp:382
 msgid "Enable"
-msgstr ""
+msgstr "Ŝalti"
 
 #: base/goal_elements.cpp:384
 msgid "Disable"
-msgstr ""
+msgstr "Malŝalti"
 
 #: base/goal_elements.cpp:386
 msgid "Reset"
-msgstr ""
+msgstr "Restarigi"
 
 #: base/goal_elements.cpp:388
 msgid "Parse serialized transaction"
-msgstr ""
+msgstr "Analizi seriigitan transakcion"
 
 #: base/goal_elements.cpp:390
 msgid "Install action"
-msgstr ""
+msgstr "Instali agon"
 
 #: base/goal_elements.cpp:392
 msgid "Remove action"
-msgstr ""
+msgstr "Forigi agon"
 
 #: base/goal_elements.cpp:394
 msgid "Upgrade action"
-msgstr ""
+msgstr "Promocii agon"
 
 #: base/goal_elements.cpp:396
 msgid "Reinstall action"
-msgstr ""
+msgstr "Reinstali agon"
 
 #: base/goal_elements.cpp:398
 msgid "Reason change action"
-msgstr ""
+msgstr "Ŝanĝi agon de kialo"
 
 #: base/goal_elements.cpp:400
 msgid "Reason override"
-msgstr ""
+msgstr "Transpaso de kialo"
 
 #: base/goal_elements.cpp:402
 msgid "Revert comps upgrade"
-msgstr ""
+msgstr "Inversigi promocion de comps"
 
 #: base/goal_elements.cpp:404
 msgid "Install debug RPMs"
-msgstr ""
+msgstr "Instali senerarigan RPM-ojn"
 
 #: base/goal_elements.cpp:406
 msgid "Transaction merge"
-msgstr ""
+msgstr "Kunfandiĝo de transakcio"
 
 #: base/log_event.cpp:141
 #, c++-format
 msgid "No packages to remove for argument: {}"
-msgstr ""
+msgstr "Neniuj forigeblaj pakoj por argumento: {}"
 
 #: base/log_event.cpp:143
 #, c++-format
 msgid "No groups to remove for argument: {}"
-msgstr ""
+msgstr "Neniuj forigeblaj grupoj por argumento: {}"
 
 #: base/log_event.cpp:146
 #, c++-format
 msgid "No environmental groups to remove for argument: {}"
-msgstr ""
+msgstr "Neniuj forigeblaj medio-grupoj por argumento: {}"
 
 #: base/log_event.cpp:148
 #, c++-format
 msgid "No modules to remove for argument: {}"
-msgstr ""
+msgstr "Neniuj forigeblaj moduloj por argumento: {}"
 
 #: base/log_event.cpp:152
 #, c++-format
 msgid "No match for group from environment: {}"
-msgstr ""
+msgstr "Neniu kongruo por grupo el medio: {}"
 
 #: base/log_event.cpp:154
 #, c++-format
 msgid "No match for group package: {}"
-msgstr ""
+msgstr "Neniu kongruo por grupa pako: {}"
 
 #: base/log_event.cpp:158
 #, c++-format
@@ -186,7 +188,7 @@ msgstr ""
 #: base/log_event.cpp:160
 #, c++-format
 msgid "No match for argument: {}"
-msgstr ""
+msgstr "Neniu kongruo por argumento: {}"
 
 #: base/log_event.cpp:163
 #, c++-format
@@ -259,7 +261,7 @@ msgstr ""
 #: base/log_event.cpp:216
 #, c++-format
 msgid "There are following alternatives for '{0}': {1}"
-msgstr ""
+msgstr "Ekzistas jenaj alternativoj por '{0}': {1}"
 
 #: base/log_event.cpp:223
 #, c++-format
@@ -291,7 +293,7 @@ msgstr ""
 #: base/log_event.cpp:243
 #, c++-format
 msgid "Packages for argument '{}' installed, but not available."
-msgstr ""
+msgstr "Pakoj por argumento '{}' instalitaj, sed ne disponeblaj."
 
 #: base/log_event.cpp:252
 #, c++-format
@@ -301,7 +303,7 @@ msgstr ""
 #: base/log_event.cpp:254
 #, c++-format
 msgid "Package \"{}\" is already installed."
-msgstr ""
+msgstr "Pako \"{}\" jam estas instalita."
 
 #: base/log_event.cpp:263
 #, c++-format
@@ -324,7 +326,7 @@ msgstr ""
 #: base/log_event.cpp:282
 #, c++-format
 msgid "Unable to resolve argument '{}':"
-msgstr ""
+msgstr "Ne eblas solvi argumenton '{}':"
 
 #: base/log_event.cpp:286
 #, c++-format
@@ -341,7 +343,7 @@ msgstr[1] ""
 
 #: base/log_event.cpp:293
 msgid "', '"
-msgstr ""
+msgstr "', '"
 
 #: base/log_event.cpp:302
 msgid "Modular dependency problems:\n"
@@ -378,7 +380,7 @@ msgstr ""
 #: base/log_event.cpp:347
 #, c++-format
 msgid "Cannot parse file: '{0}': {1}.\n"
-msgstr ""
+msgstr "Ne eblas analizi dosieron: '{0}': {1}.\n"
 
 #: base/log_event.cpp:354
 #, c++-format
@@ -416,11 +418,11 @@ msgstr ""
 
 #: base/solver_problems.cpp:43
 msgid "problem with installed package"
-msgstr ""
+msgstr "problemo kun instalita pako"
 
 #: base/solver_problems.cpp:44 base/solver_problems.cpp:80
 msgid "conflicting requests"
-msgstr ""
+msgstr "konfliktaj petoj"
 
 #: base/solver_problems.cpp:45 base/solver_problems.cpp:81
 msgid "unsupported request"
@@ -429,17 +431,17 @@ msgstr ""
 #: base/solver_problems.cpp:46 base/solver_problems.cpp:82
 #, c++-format
 msgid "nothing provides requested {}"
-msgstr ""
+msgstr "nenio provizas petitan {}"
 
 #: base/solver_problems.cpp:47
 #, c++-format
 msgid "package {} does not exist"
-msgstr ""
+msgstr "pako {} ne ekzistas"
 
 #: base/solver_problems.cpp:48 base/solver_problems.cpp:84
 #, c++-format
 msgid "{} is provided by the system"
-msgstr ""
+msgstr "{} estas provizita de la sistemo"
 
 #: base/solver_problems.cpp:49 base/solver_problems.cpp:85
 msgid "some dependency problem"
@@ -452,7 +454,7 @@ msgstr ""
 
 #: base/solver_problems.cpp:51 base/solver_problems.cpp:87
 msgid "cannot install the best candidate for the job"
-msgstr ""
+msgstr "ne povas instali la plej bonan kandidaton por la tasko"
 
 #: base/solver_problems.cpp:52
 #, c++-format
@@ -462,12 +464,12 @@ msgstr ""
 #: base/solver_problems.cpp:53
 #, c++-format
 msgid "package {0} from {1} does not have a compatible architecture"
-msgstr ""
+msgstr "pako {0} el {1} ne havas kongruan arĥitekturo"
 
 #: base/solver_problems.cpp:54
 #, c++-format
 msgid "package {0} from {1} is not installable"
-msgstr ""
+msgstr "pako {0} el {1} ne instaleblas"
 
 #: base/solver_problems.cpp:55
 #, c++-format
@@ -477,22 +479,22 @@ msgstr ""
 #: base/solver_problems.cpp:56
 #, c++-format
 msgid "nothing provides {0} needed by {1} from {2}"
-msgstr ""
+msgstr "{0}, postulata de {1} el {2}, estas provizata de nenio"
 
 #: base/solver_problems.cpp:57
 #, c++-format
 msgid "cannot install both {0} from {1} and {2} from {3}"
-msgstr ""
+msgstr "ne eblas instali kaj {0} el {1} kaj {2} el {3}"
 
 #: base/solver_problems.cpp:58
 #, c++-format
 msgid "package {0} from {1} conflicts with {2} provided by {3} from {4}"
-msgstr ""
+msgstr "pako {0} el {1} konfliktas kun {2} provizita de {3} el {4}"
 
 #: base/solver_problems.cpp:60
 #, c++-format
 msgid "installed package {0} conflicts with {1} provided by {2} from {3}"
-msgstr ""
+msgstr "instalita pako {0} konfliktas kun {1} provizita de {2} el {3}"
 
 #: base/solver_problems.cpp:61
 #, c++-format
@@ -525,7 +527,7 @@ msgstr ""
 #: base/solver_problems.cpp:69
 #, c++-format
 msgid "package {0} from {1} conflicts with {2} provided by itself"
-msgstr ""
+msgstr "pako {0} el {1} konfliktas kun {2} provizita de si mem"
 
 #: base/solver_problems.cpp:70
 #, c++-format
@@ -536,7 +538,7 @@ msgstr ""
 #, c++-format
 msgid ""
 "The operation would result in removing the following protected packages: {}"
-msgstr ""
+msgstr "La operacio kaŭzus la forigon de la jenaj protektataj pakoj: {}"
 
 #: base/solver_problems.cpp:75
 #, c++-format
@@ -551,17 +553,17 @@ msgstr ""
 #: base/solver_problems.cpp:78
 #, c++-format
 msgid "module {} has inferior architecture"
-msgstr ""
+msgstr "modulo {} havas malsuperan arĥitekturon"
 
 #: base/solver_problems.cpp:79
 #, c++-format
 msgid "problem with installed module {}"
-msgstr ""
+msgstr "problemo kun instalita modulo {}"
 
 #: base/solver_problems.cpp:83
 #, c++-format
 msgid "module {} does not exist"
-msgstr ""
+msgstr "modulo {} ne ekzistas"
 
 #: base/solver_problems.cpp:86
 #, c++-format
@@ -571,32 +573,32 @@ msgstr ""
 #: base/solver_problems.cpp:88 base/solver_problems.cpp:91
 #, c++-format
 msgid "module {} is disabled"
-msgstr ""
+msgstr "modulo {} estas malŝaltita"
 
 #: base/solver_problems.cpp:89
 #, c++-format
 msgid "module {} does not have a compatible architecture"
-msgstr ""
+msgstr "modulo {} ne havas kongruan arĥitekturon"
 
 #: base/solver_problems.cpp:90
 #, c++-format
 msgid "module {} is not installable"
-msgstr ""
+msgstr "modulo {} ne instaleblas"
 
 #: base/solver_problems.cpp:92
 #, c++-format
 msgid "nothing provides {0} needed by module {1}"
-msgstr ""
+msgstr "{0}, postulata de modulo {1}, estas provizita de nenio"
 
 #: base/solver_problems.cpp:93
 #, c++-format
 msgid "cannot install both modules {0} and {1}"
-msgstr ""
+msgstr "moduloj {0} kaj {1} ne estas samtempe instaleblaj"
 
 #: base/solver_problems.cpp:94
 #, c++-format
 msgid "module {0} conflicts with {1} provided by {2}"
-msgstr ""
+msgstr "modulo {0} konfliktas kun {1}, provizita de {2}"
 
 #: base/solver_problems.cpp:95
 #, c++-format
@@ -621,7 +623,7 @@ msgstr ""
 #: base/solver_problems.cpp:99
 #, c++-format
 msgid "module {1} conflicts with {0} provided by itself"
-msgstr ""
+msgstr "modulo {1} konfliktas kun {0} provizata de si mem"
 
 #: base/solver_problems.cpp:100
 #, c++-format
@@ -630,16 +632,16 @@ msgstr ""
 
 #: base/solver_problems.cpp:290
 msgid "Problem: "
-msgstr ""
+msgstr "Problemo: "
 
 #: base/solver_problems.cpp:294
 #, c++-format
 msgid "Problem {}: "
-msgstr ""
+msgstr "Problemo {}: "
 
 #: base/transaction.cpp:80
 msgid "This transaction has been already run before."
-msgstr ""
+msgstr "Tiu transakcio jam estas plenumita."
 
 #: base/transaction.cpp:81
 msgid "Cannot run transaction with resolving problems."
@@ -647,16 +649,16 @@ msgstr ""
 
 #: base/transaction.cpp:82
 msgid "Rpm transaction check failed."
-msgstr ""
+msgstr "Kontrolo de rpm-transakcio malsukcesis"
 
 #: base/transaction.cpp:84
 msgid ""
 "Failed to obtain rpm transaction lock. Another transaction is in progress."
-msgstr ""
+msgstr "Malsukcesis atingi rpm-transakcian ŝloson. Alia transakcio okazas."
 
 #: base/transaction.cpp:85
 msgid "Rpm transaction failed."
-msgstr ""
+msgstr "Rpm-transakcio malsukcesis."
 
 #: base/transaction.cpp:86
 msgid "Signature verification failed."
@@ -668,30 +670,30 @@ msgstr ""
 
 #: base/transaction.cpp:91
 msgid "Public key is not installed."
-msgstr ""
+msgstr "Publika ŝlosilo ne estas instalita."
 
 #: base/transaction.cpp:92
 msgid "Canceled by the user."
-msgstr ""
+msgstr "Nuligita de la uzulo."
 
 #: base/transaction.cpp:93
 msgid "Public key import failed."
-msgstr ""
+msgstr "Importo de publika ŝlosilo malsukcesis."
 
 #: base/transaction.cpp:980
 #, c++-format
 msgid "Invalid tsflag: {}"
-msgstr ""
+msgstr "Nevalida tsflag: {}"
 
 #: base/transaction.cpp:1314
 #, c++-format
 msgid "Public key \"{}\" is already present, not importing."
-msgstr ""
+msgstr "Publika ŝlosila \"{}\" jam ekzistas, ne importos."
 
 #: base/transaction.cpp:1335
 #, c++-format
 msgid "An error occurred importing key \"{}\": {}"
-msgstr ""
+msgstr "Eraro okazis dum importado de ŝlosilo: \"{}\": {}"
 
 #: base/transaction.cpp:1369
 #, c++-format
@@ -705,7 +707,7 @@ msgstr ""
 #: base/transaction.cpp:1416
 msgctxt "It is a joining character for repositories IDs"
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: base/transaction.cpp:1419
 #, c++-format
@@ -725,11 +727,11 @@ msgstr[1] ""
 
 #: common/exception.cpp:78
 msgid "System error"
-msgstr ""
+msgstr "Sistema eraro"
 
 #: common/exception.cpp:199
 msgid "General RuntimeError exception"
-msgstr ""
+msgstr "Ĝenerala escepto RuntimeError"
 
 #: common/sack/query.cpp:27
 msgid "Query must contain exactly one object."
@@ -737,7 +739,7 @@ msgstr ""
 
 #: common/xdg.cpp:43
 msgid "get_user_home_dir(): Cannot determine the user's home directory"
-msgstr ""
+msgstr "get_user_home_dir(): Ne eblas determini la hejmdosierujon do la uzulo"
 
 #: common/xdg.cpp:98
 msgid "get_user_runtime_dir(): Cannot determine the user's runtime directory"
@@ -745,7 +747,7 @@ msgstr ""
 
 #: comps/environment/environment.cpp:325
 msgid "failed to save xml document for comps"
-msgstr ""
+msgstr "malsukcesis savi xml-dosieron por comps"
 
 #: comps/group/group.cpp:373
 #, c++-format
@@ -995,15 +997,15 @@ msgstr ""
 
 #: repo/config_repo.cpp:581
 msgid "get_unique_id(): Computation of SHA256 failed"
-msgstr ""
+msgstr "get_unique_id(): Komputo de SHA256 malsukcesis"
 
 #: repo/file_downloader.cpp:154
 msgid "Cannot download files, cacheonly option is activated."
-msgstr ""
+msgstr "Ne eblas elŝuti dosierojn, opcio cacheonly estas aktivigita."
 
 #: repo/file_downloader.cpp:216
 msgid "Failed to download files"
-msgstr ""
+msgstr "Malsukcesis elŝuti dosierojn"
 
 #: repo/librepo.cpp:118
 msgid ""
@@ -1018,15 +1020,15 @@ msgstr ""
 #: repo/package_downloader.cpp:154
 #, c++-format
 msgid "Cannot download the \"{0}\" package, cacheonly option is activated."
-msgstr ""
+msgstr "Ne eblas elŝuti la pakon \"{0}\", opcio cacheonly estas aktivigita."
 
 #: repo/package_downloader.cpp:231
 msgid "Already downloaded"
-msgstr ""
+msgstr "Jam elŝutita"
 
 #: repo/package_downloader.cpp:279
 msgid "Failed to download packages"
-msgstr ""
+msgstr "Malsukcesis elŝuti pakojn"
 
 #: repo/repo.cpp:61
 #, c++-format
@@ -1513,7 +1515,7 @@ msgstr ""
 #: transaction/transaction_merge.cpp:304
 #, c++-format
 msgid "Invalid action encountered: '{0}' during transaction merge."
-msgstr ""
+msgstr "Nevalida ago okazis: '{0}' dum transakcia kunfandiĝo."
 
 #: transaction/transaction_sr.cpp:49
 msgid "Transaction replay JSON serialized transaction input is empty"
@@ -1689,7 +1691,7 @@ msgstr ""
 #: utils/library.cpp:34
 #, c++-format
 msgid "Cannot load shared library \"{}\": {}"
-msgstr "Ne eblas ŝargi per dinamika biblioteko \"{}\": {}"
+msgstr "Ne eblas ŝargi dinamikan bibliotekon \"{}\": {}"
 
 #: utils/library.cpp:48
 #, c++-format
@@ -1704,27 +1706,27 @@ msgstr ""
 #: utils/locker.cpp:45
 #, c++-format
 msgid "Failed to open lock file \"{}\""
-msgstr ""
+msgstr "Malsukcesis malfermi ŝlosodosieron \"{}\""
 
 #: utils/locker.cpp:60
 #, c++-format
 msgid "Failed to obtain lock \"{}\""
-msgstr ""
+msgstr "Malsukcesis krei ŝlosodosieron \"{}\""
 
 #: utils/locker.cpp:70
 #, c++-format
 msgid "Failed to close lock file \"{}\""
-msgstr ""
+msgstr "Malsukcesis fermi ŝlosodosieron \"{}\""
 
 #: utils/locker.cpp:73
 #, c++-format
 msgid "Failed to delete lock file \"{}\""
-msgstr ""
+msgstr "Malsukcesis forigi ŝlosodosieron \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:29
 #, c++-format
 msgid "SQL statement compilation failed: \"{}\""
-msgstr ""
+msgstr "Traduko de SQL-ordono malsukcesis: \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:31
 #, c++-format
@@ -1773,22 +1775,22 @@ msgstr ""
 #: utils/sqlite3/sqlite3.cpp:46
 #, c++-format
 msgid "Column \"{}\" not found"
-msgstr ""
+msgstr "Kolumno \"{}\" ne trovita"
 
 #: utils/sqlite3/sqlite3.cpp:48
 #, c++-format
 msgid "SQL statement execution failed: \"{}\""
-msgstr ""
+msgstr "Plenumo do SQL-ordono malsukceis: \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:68
 #, c++-format
 msgid "Failed to open database \"{}\""
-msgstr ""
+msgstr "Malsukcesis malfermi datumbazon \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:105
 #, c++-format
 msgid "Failed to close database \"{}\""
-msgstr ""
+msgstr "Malsukcesis malfermi datumbazon \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:117 utils/sqlite3/sqlite3.cpp:143
 #, c++-format
@@ -1803,12 +1805,12 @@ msgstr ""
 #: utils/sqlite3/sqlite3.cpp:158
 #, c++-format
 msgid "Failed to restore database \"{}\""
-msgstr ""
+msgstr "Malsukcesis restarigi datumbazon \"{}\""
 
 #: utils/system.cpp:34
 msgid "failed to read rpm config files"
-msgstr ""
+msgstr "malsukcesis legi agordodosierojn de rpm"
 
 #: utils/system.cpp:52
 msgid "Failed to execute uname()"
-msgstr ""
+msgstr "uname() ne plenumeblas"
