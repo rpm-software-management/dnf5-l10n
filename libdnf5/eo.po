@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-26 03:48+0000\n"
-"PO-Revision-Date: 2026-03-19 21:58+0000\n"
+"PO-Revision-Date: 2026-03-22 02:58+0000\n"
 "Last-Translator: Keith Bowes <zooplah@gmail.com>\n"
 "Language-Team: Esperanto <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/eo/>\n"
@@ -183,7 +183,7 @@ msgstr "Neniu kongruo por grupa pako: {}"
 #: base/log_event.cpp:158
 #, c++-format
 msgid "Cannot perform {0}, no match for: {1}."
-msgstr ""
+msgstr "Ne eblas fari {0}, neniu kongruo por: {1}."
 
 #: base/log_event.cpp:160
 #, c++-format
@@ -193,26 +193,26 @@ msgstr "Neniu kongruo por argumento: {}"
 #: base/log_event.cpp:163
 #, c++-format
 msgid "No match for argument '{0}' in selected advisories"
-msgstr ""
+msgstr "Neniu kongruo por argumento '{0}' en elektitaj avizoj"
 
 #: base/log_event.cpp:165
 msgid "No match in selected advisories"
-msgstr ""
+msgstr "Neniu kongruo en elektitaj avizoj"
 
 #: base/log_event.cpp:169
 #, c++-format
 msgid "No match for argument '{0}' in repositories '{1}'"
-msgstr ""
+msgstr "Neniu kongruo por argumento '{0}' en deponejoj '{1}'"
 
 #: base/log_event.cpp:175
 #, c++-format
 msgid "Cannot perform {0} for {1} '{2}' because it is not installed."
-msgstr ""
+msgstr "Ne fareblas {0} por {1} '{2}' ĉar ĝi ne estas instalita."
 
 #: base/log_event.cpp:180
 #, c++-format
 msgid "Packages for argument '{}' available, but not installed."
-msgstr ""
+msgstr "Pakoj por argumento '{}' disponeblas, sed ne instalita."
 
 #: base/log_event.cpp:184
 #, c++-format
@@ -220,26 +220,27 @@ msgid ""
 "Packages for argument '{}' available, but installed for a different "
 "architecture."
 msgstr ""
+"Pakoj por argumento '{}' disponeblas, sed instalita por alia arĥitekturo."
 
 #: base/log_event.cpp:188
 #, c++-format
 msgid "Cannot perform {0} because '{1}' matches only source packages."
-msgstr ""
+msgstr "{0} ne fareblas ĉar '{1}' kongruas kun nur fontaj pakoj."
 
 #: base/log_event.cpp:192
 #, c++-format
 msgid "Argument '{}' matches only source packages."
-msgstr ""
+msgstr "Argumento '{}' kongruas kun nur fontaj pakoj."
 
 #: base/log_event.cpp:196
 #, c++-format
 msgid "Cannot perform {0} because '{1}' matches only excluded packages."
-msgstr ""
+msgstr "{0} ne fareblas ĉar '{1}' kongruas kun nur ekskluzivigitaj pakoj."
 
 #: base/log_event.cpp:200
 #, c++-format
 msgid "Argument '{}' matches only excluded packages."
-msgstr ""
+msgstr "Argumento '{}' kongruas kun nur ekskluzivigitaj pakoj."
 
 #: base/log_event.cpp:204
 #, c++-format
@@ -247,16 +248,18 @@ msgid ""
 "Cannot perform {0} because '{1}' matches only packages excluded by "
 "versionlock."
 msgstr ""
+"{0} ne fareblas ĉar '{1}' kongruas kun nur pakoj ekskluzivigitaj de "
+"versionlock."
 
 #: base/log_event.cpp:208
 #, c++-format
 msgid "Argument '{}' matches only packages excluded by versionlock."
-msgstr ""
+msgstr "Argumento '{}' kongruas kun nur pakoj ekskluzivigitaj de versionlock."
 
 #: base/log_event.cpp:213
 #, c++-format
 msgid "  * Maybe you meant: {}"
-msgstr ""
+msgstr "  * Eble vi celis: {}"
 
 #: base/log_event.cpp:216
 #, c++-format
@@ -269,6 +272,8 @@ msgid ""
 "The lowest available version of the \"{}\" package is already installed, "
 "cannot downgrade it."
 msgstr ""
+"La plej malnova eldono de la pako \"{}\" jam estas instalita, ne eblas "
+"malpromocii ĝin."
 
 #: base/log_event.cpp:229
 #, c++-format
@@ -276,12 +281,14 @@ msgid ""
 "Installed packages for argument '{0}' are not available in repositories in "
 "the same version, available versions: {1}, cannot reinstall."
 msgstr ""
+"Instalitaj pakoj por argumento '{0}' ne estas disponeblaj en deponejoj en la "
+"sama eldono, disponeblaj eldonoj: {1}, ne eblas reinstali."
 
 #: base/log_event.cpp:235
 #, c++-format
 msgid ""
 "Cannot perform {0} because '{1}' is installed in a different version: '{2}'."
-msgstr ""
+msgstr "{0} ne fareblas ĉar '{1} estas instalita en alia eldono: '{2}'."
 
 #: base/log_event.cpp:241
 #, c++-format
@@ -289,6 +296,7 @@ msgid ""
 "Packages for argument '{}' installed and available, but in a different "
 "version."
 msgstr ""
+"Pakoj kun argumento '{}' instalitaj kaj disponeblaj, sed de alia eldono."
 
 #: base/log_event.cpp:243
 #, c++-format
@@ -298,7 +306,7 @@ msgstr "Pakoj por argumento '{}' instalitaj, sed ne disponeblaj."
 #: base/log_event.cpp:252
 #, c++-format
 msgid "Package \"{}\" is already installed with reason \"{}\"."
-msgstr ""
+msgstr "Pako \"{}\" jam estas instalita kun kialo \"{}\"."
 
 #: base/log_event.cpp:254
 #, c++-format
@@ -308,7 +316,7 @@ msgstr "Pako \"{}\" jam estas instalita."
 #: base/log_event.cpp:263
 #, c++-format
 msgid "Debug data written to \"{}\""
-msgstr ""
+msgstr "Senerarigaj datumoj skribitaj al \"{}\""
 
 #: base/log_event.cpp:267
 #, c++-format
@@ -316,11 +324,13 @@ msgid ""
 "{0} upgrade cannot be reverted, however associated package actions will be. "
 "({1} id: '{2}') ."
 msgstr ""
+"Promocio de {0} ne estas inversigebla, sed kunligitaj pakaj agoj estos. ({1} "
+"id: '{2}') ."
 
 #: base/log_event.cpp:273
 #, c++-format
 msgid "{} action for argument \"{}\" is not supported."
-msgstr ""
+msgstr "Ago {} por argumento \"{}\" ne estas rekonata."
 
 #. Format a leading line of the error message.
 #: base/log_event.cpp:282
@@ -347,15 +357,15 @@ msgstr "', '"
 
 #: base/log_event.cpp:302
 msgid "Modular dependency problems:\n"
-msgstr ""
+msgstr "Problemoj de modulaj dependaĵoj:\n"
 
 #: base/log_event.cpp:309
 msgid "Modular dependency problems with the latest modules:\n"
-msgstr ""
+msgstr "Problemoj de modulaj dependaĵoj en la plej freŝaj moduloj:\n"
 
 #: base/log_event.cpp:316
 msgid "Modular dependency problems with the defaults:\n"
-msgstr ""
+msgstr "Problemoj de modulaj dependaĵoj kun la aprioraĵoj:\n"
 
 #: base/log_event.cpp:331
 #, c++-format
@@ -369,6 +379,8 @@ msgid ""
 "Error: It is not possible to switch enabled streams of a module unless "
 "explicitly enabled via configuration option module_stream_switch."
 msgstr ""
+"Eraro: Ne eblas ŝanĝi ŝaltitajn fluojn de modulo se ne malimplice ŝaltita "
+"per la agordaĵo module_stream_switch."
 
 #: base/log_event.cpp:341
 #, c++-format
@@ -988,12 +1000,12 @@ msgstr ""
 
 #: plugin/plugins.cpp:237
 msgid "Plugins::load_plugins(): config_dir_path cannot be empty"
-msgstr ""
+msgstr "Plugins::load_plugins(): config_dir_path ne rajtas esti malplena"
 
 #: plugin/plugins.cpp:253
 #, c++-format
 msgid "Cannot load libdnf plugin enabled from: {}"
-msgstr ""
+msgstr "Ne povas ŝargi libdnf-kromprogramon ŝaltita de: {}"
 
 #: repo/config_repo.cpp:581
 msgid "get_unique_id(): Computation of SHA256 failed"
@@ -1012,10 +1024,12 @@ msgid ""
 "Maximum download speed is lower than minimum, please change configuration of "
 "minrate or throttle"
 msgstr ""
+"Maksimuma elŝuta rapido estas pli minimumo, bonvolu ŝanĝi agordon de minrate "
+"aŭ throttle"
 
 #: repo/librepo.cpp:181
 msgid "'proxy_username' is set but not 'proxy_password'"
-msgstr ""
+msgstr "'proxy_username' estas agordita sed ne 'proxy_password'"
 
 #: repo/package_downloader.cpp:154
 #, c++-format
@@ -1626,7 +1640,7 @@ msgstr ""
 
 #: utils/fs/file.cpp:198
 msgid "error seeking in file"
-msgstr ""
+msgstr "eraro dum serĉo de dosiero"
 
 #: utils/fs/file.cpp:209
 msgid "error retrieving file position"
@@ -1634,58 +1648,58 @@ msgstr ""
 
 #: utils/fs/file.cpp:297
 msgid "error reading a line from file"
-msgstr ""
+msgstr "eraro dum lego de linio de dosiero"
 
 #: utils/fs/file.cpp:335
 msgid "error retrieving file descriptor"
-msgstr ""
+msgstr "eraro dum atingo de dosiera priskribilo"
 
 #: utils/fs/temp.cpp:42
 msgid "cannot create temporary directory"
-msgstr ""
+msgstr "ne eblas krei provizoran dosierujon"
 
 #: utils/fs/temp.cpp:89
 msgid "cannot create temporary file"
-msgstr ""
+msgstr "ne eblas krei provizoran dosieron"
 
 #: utils/fs/temp.cpp:142
 msgid "cannot close temporary file"
-msgstr ""
+msgstr "ne eblas fermi provizoran dosieron"
 
 #: utils/iniparser.cpp:126
 #, c++-format
 msgid "Missing ']' on line {}"
-msgstr ""
+msgstr "']' en linio {} mankas"
 
 #: utils/iniparser.cpp:129
 #, c++-format
 msgid "Empty section name on line {}"
-msgstr ""
+msgstr "Malplena sekcinomo en linio {}"
 
 #: utils/iniparser.cpp:137
 #, c++-format
 msgid "Text after section on line {}"
-msgstr ""
+msgstr "Teksto post sekcio en linio {}"
 
 #: utils/iniparser.cpp:147
 #, c++-format
 msgid "Missing section header on line {}"
-msgstr ""
+msgstr "Sekcia ĉapo en linio {} mankas"
 
 #: utils/iniparser.cpp:152
 #, c++-format
 msgid "Illegal continuation line on line {}"
-msgstr ""
+msgstr "Nevalida daŭriga linio en linio {}"
 
 #: utils/iniparser.cpp:159
 #, c++-format
 msgid "Missing option name on line {}"
-msgstr ""
+msgstr "Opcinomo en linio {} mankas"
 
 #: utils/iniparser.cpp:163
 #, c++-format
 msgid "Missing '=' on line {}"
-msgstr ""
+msgstr "'=' en linio {} mankas"
 
 #. returns localized message, problem with later translation
 #: utils/library.cpp:34
@@ -1701,7 +1715,7 @@ msgstr "Ne eblas atingi adreson de simbolo \"{}\": {}"
 #: utils/locale.cpp:57
 #, c++-format
 msgid "Cannot set the locale \"{}\": {}"
-msgstr ""
+msgstr "Ne eblas starigi lokaĵaron \"{}\": {}"
 
 #: utils/locker.cpp:45
 #, c++-format
@@ -1731,46 +1745,47 @@ msgstr "Traduko de SQL-ordono malsukcesis: \"{}\""
 #: utils/sqlite3/sqlite3.cpp:31
 #, c++-format
 msgid "Binding integer value to SQL statement failed: \"{}\""
-msgstr ""
+msgstr "Ligi entjeran valoron al SQL-ordonon malsukcesis: \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:33
 #, c++-format
 msgid "Binding integer64 value to SQL statement failed: \"{}\""
-msgstr ""
+msgstr "Ligi 64-bitan entjeran valoron al SQL-ordono malsukcesis: \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:35
 #, c++-format
 msgid "Binding unsigned integer32 value to SQL statement failed: \"{}\""
 msgstr ""
+"Ligi sensignan 32-bitan entjeran valoron al SQL-ordono malsukcesis: \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:37
 #, c++-format
 msgid "Binding double value to SQL statement failed: \"{}\""
-msgstr ""
+msgstr "Ligi glitkoman valoron al SQL-ordono malsukcesis: \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:39
 #, c++-format
 msgid "Binding bool value to SQL statement failed: \"{}\""
-msgstr ""
+msgstr "Ligi bulean valoron al SQL-ordono malsukcesis: \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:40
 #, c++-format
 msgid "Binding text to SQL statement failed: \"{}\""
-msgstr ""
+msgstr "Ligi tekston al SQL-ordono malsukcesis: \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:41
 #, c++-format
 msgid "Binding blob to SQL statement failed: \"{}\""
-msgstr ""
+msgstr "Ligi senformaĵon al SQL-ordono malsukcesis: \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:42
 #, c++-format
 msgid "SQL statement evaluation failed: \"{}\""
-msgstr ""
+msgstr "Evaluo de SQL-ordono malsukcesis: \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:44
 msgid "Insufficient memory or result exceed maximum SQLite3 string length"
-msgstr ""
+msgstr "Nesufiĉa memoro aŭ rezulto superis maksimuman ĉeno-longon de SQLite3"
 
 #: utils/sqlite3/sqlite3.cpp:46
 #, c++-format
@@ -1780,7 +1795,7 @@ msgstr "Kolumno \"{}\" ne trovita"
 #: utils/sqlite3/sqlite3.cpp:48
 #, c++-format
 msgid "SQL statement execution failed: \"{}\""
-msgstr "Plenumo do SQL-ordono malsukceis: \"{}\""
+msgstr "Plenumo do SQL-ordono malsukcesis: \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:68
 #, c++-format
@@ -1795,12 +1810,12 @@ msgstr "Malsukcesis malfermi datumbazon \"{}\""
 #: utils/sqlite3/sqlite3.cpp:117 utils/sqlite3/sqlite3.cpp:143
 #, c++-format
 msgid "Failed to open backup database \"{}\""
-msgstr ""
+msgstr "Malsukcesis malfermi savodatumbazon \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:132
 #, c++-format
 msgid "Failed to backup database \"{}\" into \"{}\""
-msgstr ""
+msgstr "Fari savokopion de datumbazo \"{}\" en \"{}\" malsukcesis"
 
 #: utils/sqlite3/sqlite3.cpp:158
 #, c++-format
