@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-26 03:48+0000\n"
-"PO-Revision-Date: 2026-03-19 21:58+0000\n"
+"PO-Revision-Date: 2026-03-24 02:58+0000\n"
 "Last-Translator: Keith Bowes <zooplah@gmail.com>\n"
 "Language-Team: Esperanto <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/eo/>\n"
@@ -28,6 +28,8 @@ msgid ""
 "Attached named argument \"{}\" not found: {}: Requested in file \"{}\" on "
 "line {}: {}"
 msgstr ""
+"Alkroĉita nomita argumento \"{}\" ne trovita: {}: Petita en dosiero \"{}\" "
+"en linio {}: {}"
 
 #: cmdline_aliases.cpp:159
 #, c++-format
@@ -35,52 +37,60 @@ msgid ""
 "Unknown attribute \"{}\" of attached named argument for alias \"{}\" in file "
 "\"{}\" on line {}: {}"
 msgstr ""
+"Nekonata atributo \"{}\" de alkroĉita nomita argumento por alinomo \"{}\" en "
+"dosiero \"{}\" en linio {}: {}"
 
 #: cmdline_aliases.cpp:171
 #, c++-format
 msgid "Missing attribute \"id_path\" for alias \"{}\" in file \"{}\""
-msgstr ""
+msgstr "Atributo \"id_path\" por alinomo \"{}\" en dosiero \"{}\" mankas"
 
 #: cmdline_aliases.cpp:208
 #, c++-format
 msgid "Unsupported version \"{}\" in file \"{}\". Supported versions: {}"
-msgstr ""
+msgstr "Nekonata eldono \"{}\" en dosiero \"{}\". Konataj eldonoj: {}"
 
 #: cmdline_aliases.cpp:218
 #, c++-format
 msgid "Bad value type of attribute \"version\" in file \"{}\" on line {}: {}"
 msgstr ""
+"Malbona valora tipo de atributo \"version\" en dosiero \"{}\" en linio {}: {}"
 
 #: cmdline_aliases.cpp:224
 #, c++-format
 msgid "Missing attribute \"version\" in file \"{}\""
-msgstr ""
+msgstr "Atributo \"version\" en dosiero \"{}\" mankas"
 
 #: cmdline_aliases.cpp:236
 #, c++-format
 msgid "Unknown key \"{}\" in file \"{}\" on line {}: {}"
-msgstr ""
+msgstr "Nekonata ŝlosilo \"{}\" en dosiero \"{}\" en linio {}: {}"
 
 #: cmdline_aliases.cpp:253
 #, c++-format
 msgid "Empty or bad element id path in file \"{}\" on line {}: {}"
 msgstr ""
+"Malplena aŭ malbona vojo de elemento-identigilo en dosiero \"{}\" en linio {}"
+": {}"
 
 #: cmdline_aliases.cpp:272
 #, c++-format
 msgid ""
 "Parent command \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
 msgstr ""
+"Patra komando \"{}\" ne trovebla: {}: Petita en dosiero \"{}\" en linio {}: "
+"{}"
 
 #: cmdline_aliases.cpp:301
 #, c++-format
 msgid "Unknown type \"{}\" of element \"{}\" in file \"{}\" on line {}: {}"
 msgstr ""
+"Nekonata tipo \"{}\" de elemento \"{}\" en dosiero \"{}\" en linio {}: {}"
 
 #: cmdline_aliases.cpp:312
 #, c++-format
 msgid "Missing attribute \"type\" for element \"{}\" in file \"{}\""
-msgstr ""
+msgstr "Atributo \"type\" por elemento \"{}\" en dosiero \"{}\" mankas"
 
 #: cmdline_aliases.cpp:331
 #, c++-format
@@ -88,22 +98,25 @@ msgid ""
 "Named argument \"{}\" already registered. Requested in file \"{}\" on line "
 "{}: {}"
 msgstr ""
+"Nomita argumento \"{}\" jam registrita. Petita en dosiero \"{}\" en linio {}"
+": {}"
 
 #: cmdline_aliases.cpp:347
 #, c++-format
 msgid ""
 "Command \"{}\" already registered. Requested in file \"{}\" on line {}: {}"
-msgstr ""
+msgstr "Komando \"{}\" jam registrita. Petita en dosiero \"{}\" en linio {}: {}"
 
 #: cmdline_aliases.cpp:375
 #, c++-format
 msgid "Unknown attribute \"{}\" of group \"{}\" in file \"{}\" on line {}: {}"
 msgstr ""
+"Nekonata atributo \"{}\" de grupo \"{}\" en dosiero \"{}\" en linio {}: {}"
 
 #: cmdline_aliases.cpp:387
 #, c++-format
 msgid "Missing attribute \"header\" for element \"{}\" in file \"{}\""
-msgstr ""
+msgstr "Atributo \"header\" por elemento \"{}\" en dosiero \"{}\" mankas"
 
 #: cmdline_aliases.cpp:428 cmdline_aliases.cpp:538
 #, c++-format
@@ -277,17 +290,17 @@ msgstr "Montri nur avizojn, kiuj mencias CVE-on."
 #: commands/advisory_shared.hpp:76
 #, c++-format
 msgid "No advisory found matching the requested name: \"{}\""
-msgstr ""
+msgstr "Neniu trovebla avizo kongruas kun la petita nomo: \"{}\""
 
 #: commands/advisory_shared.hpp:109
 #, c++-format
 msgid "No advisory found fixing the Bugzilla ID: \"{}\""
-msgstr ""
+msgstr "Neniu trovebla avizo, kiu riparas la Bugzilla-identigilon: \"{}\""
 
 #: commands/advisory_shared.hpp:128
 #, c++-format
 msgid "No advisory found fixing the CVE ID: \"{}\""
-msgstr ""
+msgstr "Neniu trovebla avizo, kiu riparas la CVE-identigilon: \"{}\""
 
 #: commands/advisory_shared.hpp:143
 msgid "No advisory found matching the specified filters."
@@ -1738,19 +1751,19 @@ msgstr ""
 #: main.cpp:1566
 #, c++-format
 msgid "Command returned error: {}"
-msgstr ""
+msgstr "Komando donis eraron: {}"
 
 #: main.cpp:1574
 msgid "DNF5 finished"
-msgstr ""
+msgstr "DNF5 finiĝis"
 
 #: main.cpp:1578
 msgid "Complete!"
-msgstr ""
+msgstr "Kompleta!"
 
 #: shared_options.cpp:32
 msgid "Allow removing of installed packages to resolve problems"
-msgstr ""
+msgstr "Permesi forigon de instalitaj pakoj por solvi problemojn"
 
 #: shared_options.cpp:42
 msgid "Allow resolving of depsolve problems by skipping packages"
