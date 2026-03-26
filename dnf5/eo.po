@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-26 03:48+0000\n"
-"PO-Revision-Date: 2026-03-24 02:58+0000\n"
+"PO-Revision-Date: 2026-03-27 12:58+0000\n"
 "Last-Translator: Keith Bowes <zooplah@gmail.com>\n"
 "Language-Team: Esperanto <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/eo/>\n"
@@ -124,16 +124,18 @@ msgid ""
 "The \"short_name\" attribute of named argument \"{}\" must be one character "
 "long in file \"{}\" on line {}: {}"
 msgstr ""
+"La atributo \"short_name\" de nomita argumento \"{}\" devas esti unusigna en "
+"dosiero \"{}\" en linio {}: {}"
 
 #: cmdline_aliases.cpp:446
 #, c++-format
 msgid "Source \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
-msgstr ""
+msgstr "Fonto \"{}\" ne trovita: {}: Petita en dosiero \"{}\" en linio {}: {}"
 
 #: cmdline_aliases.cpp:462 cmdline_aliases.cpp:563 cmdline_aliases.cpp:676
 #, c++-format
 msgid "Group \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
-msgstr ""
+msgstr "Grupo \"{}\" ne trovita: {}: Petita en dosiero \"{}\" en linio {}: {}"
 
 #: cmdline_aliases.cpp:476 cmdline_aliases.cpp:579
 #, c++-format
@@ -141,11 +143,14 @@ msgid ""
 "Unknown attribute \"{}\" of named argument \"{}\" in file \"{}\" on line {}: "
 "{}"
 msgstr ""
+"Nekonata atributo \"{}\" de nomita argumento \"{}\" en dosiero \"{}\" en "
+"linio {}: {}"
 
 #: cmdline_aliases.cpp:489
 #, c++-format
 msgid "Missing attribute \"source\" for named argument \"{}\" in file \"{}\""
 msgstr ""
+"Atributo \"source\" por nomita argumento \"{}\" en dosiero \"{}\" mankas"
 
 #: cmdline_aliases.cpp:498 cmdline_aliases.cpp:592
 #, c++-format
@@ -153,6 +158,8 @@ msgid ""
 "At least one of the attributes \"long_name\" and \"short_name\" must be set "
 "for named argument \"{}\" in file \"{}\""
 msgstr ""
+"Minimume unu el la atributoj \"long_name\" kaj \"short_name\" devas esti "
+"uzata por nomita argumento \"{}\" en dosiero \"{}\""
 
 #: cmdline_aliases.cpp:657
 #, c++-format
@@ -160,6 +167,8 @@ msgid ""
 "Attached command \"{}\" not found: {}: Requested in file \"{}\" on line {}: "
 "{}"
 msgstr ""
+"Alkroĉita komando \"{}\" ne trovita: {}: Petita en dosiero \"{}\" en linio {}"
+": {}"
 
 #: cmdline_aliases.cpp:691
 #, c++-format
@@ -167,6 +176,8 @@ msgid ""
 "Used config file version \"1.0\" for attribute \"{}\" of command \"{}\" in "
 "file \"{}\" on line {}: {}"
 msgstr ""
+"Uzis agordo-dosieron eldonon \"1.0\" por atributo \"{}\" de komando \"{}\" "
+"en dosiero \"{}\" en linio {}: {}"
 
 #: cmdline_aliases.cpp:713
 #, c++-format
@@ -174,6 +185,8 @@ msgid ""
 "Unknown attribute \"{}\" of required value for alias \"{}\" in file \"{}\" "
 "on line {}: {}"
 msgstr ""
+"Nekonata atributo \"{}\" de postulata valoro por alinomo \"{}\" en dosiero \""
+"{}\" en linio {}: {}"
 
 #: cmdline_aliases.cpp:726
 #, c++-format
@@ -181,28 +194,32 @@ msgid ""
 "Missing attribute \"value_help\" of required value for alias \"{}\" in file "
 "\"{}\""
 msgstr ""
+"Atributo \"value_help\" de la postulata valoro por alinomo \"{}\" en dosiero "
+"\"{}\" mankas"
 
 #: cmdline_aliases.cpp:740
 #, c++-format
 msgid ""
 "Unknown attribute \"{}\" of command \"{}\" in file \"{}\" on line {}: {}"
 msgstr ""
+"Nekonata atributo \"{}\" de komando \"{}\" en dosiero \"{}\" en linio {}: {}"
 
 #: cmdline_aliases.cpp:756
 #, c++-format
 msgid ""
 "Missing attribute \"attached_command\" for command \"{}\" in file \"{}\""
 msgstr ""
+"Atributo \"attached_command\" por komando \"{}\" en dosiero \"{}\" mankas"
 
 #: cmdline_aliases.cpp:791
 #, c++-format
 msgid "Bad value type in file \"{}\" on line {}: {}"
-msgstr ""
+msgstr "Malbona valortipo en dosiero \"{}\" en linio {}: {}"
 
 #: cmdline_aliases.cpp:804
 #, c++-format
 msgid "Syntax error in file \"{}\" on line {}:"
-msgstr ""
+msgstr "Sintaksa eraro en dosiero \"{}\" en linio {}:"
 
 #: commands/advisory/advisory.cpp:36
 msgid "Manage advisories"
@@ -304,7 +321,7 @@ msgstr "Neniu trovebla avizo, kiu riparas la CVE-identigilon: \"{}\""
 
 #: commands/advisory_shared.hpp:143
 msgid "No advisory found matching the specified filters."
-msgstr ""
+msgstr "Neniu avizo kongruanta kun la specifitaj filtriloj trovita."
 
 #: commands/advisory_shared.hpp:158
 msgid ""
@@ -369,11 +386,11 @@ msgstr "CVE_IDENTIGILO,..."
 
 #: commands/autoremove/autoremove.cpp:38
 msgid "Remove all unneeded packages originally installed as dependencies."
-msgstr ""
+msgstr "Forigi ĉiujn nebezonatajn pakojn unufoje instalitajn kiel dependaĵojn."
 
 #: commands/check-upgrade/check-upgrade.cpp:47
 msgid "Check for available package upgrades"
-msgstr ""
+msgstr "Serĉi disponeblajn pakajn promociojn"
 
 #: commands/check-upgrade/check-upgrade.cpp:54
 msgid ""
@@ -382,25 +399,29 @@ msgid ""
 "advisories is used it reports the lowest versions of packages that fix "
 "advisories matching selected advisory properties"
 msgstr ""
+"Raportas la plej malaltajn eldonojn de pakojn, kiuj riparas avizojn de tipo "
+"bugfix, enhancement, security, aŭ newpackage. Okaze de tio, ke iu opcio, kiu "
+"limigas avizojn estas uzata, ĝi raportas la plej malaltajn eldonojn de "
+"pakoj, kiuj riparas avizojn kongruantaj kun elektitaj avizaj ecoj"
 
 #: commands/check/check.cpp:247
 msgid "Check for problems in the packagedb"
-msgstr ""
+msgstr "Kontroli problemojn en la pako-datumbazo"
 
 #: commands/check/check.cpp:335
 #, c++-format
 msgid "Check discovered {} problem(s) in {} package(s)"
-msgstr ""
+msgstr "Kontrolo malkovris {} problemo(j)n en {} pako(j)"
 
 #: commands/clean/clean.cpp:91
 #, c++-format
 msgid "List of cache types to clean up. Supported types: {0}"
-msgstr ""
+msgstr "Listo de kaŝmemoro-tipoj purigeblaj. Konataj tipoj: {0}"
 
 #: commands/clean/clean.cpp:109
 #, c++-format
 msgid "Unknown cache type \"{0}\". Supported types: {1}"
-msgstr "Nekonata kaŝmemora tipo \"{0}\". Regataj tipoj: {1}"
+msgstr "Nekonata kaŝmemora tipo \"{0}\". Konataj tipoj: {1}"
 
 #: commands/clean/clean.cpp:166
 #, c++-format
@@ -410,16 +431,16 @@ msgstr "Malsukcesis purigi deponejan kaŝmemoron en vojo \"{0}\": {1}"
 #: commands/clean/clean.cpp:176
 #, c++-format
 msgid "Cache directory \"{}\" does not exist. Nothing to clean."
-msgstr ""
+msgstr "Kaŝmemora dosierujo \"{}\" ne ekzistas. Nenio purigota."
 
 #: commands/clean/clean.cpp:181
 #, c++-format
 msgid "Cannot iterate cache directory \"{}\": {}"
-msgstr ""
+msgstr "Ne eblas iteracii kaŝmemoran dosierujon \"{}\": {}"
 
 #: commands/debuginfo-install/debuginfo-install.cpp:45
 msgid "Install debuginfo packages."
-msgstr ""
+msgstr "Instali senerarigajn pakojn."
 
 #: commands/distro-sync/distro-sync.cpp:44
 msgid ""
@@ -430,67 +451,67 @@ msgstr ""
 
 #: commands/do/do.cpp:44
 msgid "Do transaction"
-msgstr ""
+msgstr "Fari transakcion"
 
 #: commands/do/do.cpp:49
 msgid "Action to be done on the following items."
-msgstr ""
+msgstr "Ago farota al la jenaj eroj."
 
 #: commands/do/do.cpp:63
 #, c++-format
 msgid "Unsupported action \"{}\""
-msgstr ""
+msgstr "Nekonata ago \"{}\""
 
 #: commands/do/do.cpp:73
 msgid "Type of the following items."
-msgstr ""
+msgstr "Tipo de la jenaj eroj."
 
 #: commands/do/do.cpp:86
 #, c++-format
 msgid "Unsupported item type \"{}\""
-msgstr ""
+msgstr "Nekonata ero-tipo \"{}\""
 
 #: commands/do/do.cpp:99
 msgid "List of items to take action on"
-msgstr ""
+msgstr "Listo da eroj sur kiujn agi"
 
 #: commands/do/do.cpp:131 commands/do/do.cpp:135
 msgid "Only package downgrade is supported."
-msgstr ""
+msgstr "Nur malpromocio de pako eblas."
 
 #: commands/do/do.cpp:142 commands/do/do.cpp:146
 msgid "Only package reinstall is supported."
-msgstr ""
+msgstr "Nur reinstalo de pako eblas."
 
 #: commands/do/do.cpp:152
 msgid "Action was not defined"
-msgstr ""
+msgstr "Ago ne estas difinita"
 
 #: commands/do/do.cpp:230
 #, c++-format
 msgid "Invalid Environmet/Group specification: {}"
-msgstr ""
+msgstr "Nevalida media/grupa specifo: {}"
 
 #: commands/do/do.cpp:314
 msgid "Downgrading environments and groups is not supported."
-msgstr ""
+msgstr "Malpromocio de medioj kaj grupoj ne eblas."
 
 #: commands/do/do.cpp:330
 msgid "Reinstaling environments and groups is not supported."
-msgstr ""
+msgstr "Reinstalo de medioj kaj grupoj ne eblas."
 
 #: commands/downgrade/downgrade.cpp:42
 msgid "Downgrade software"
-msgstr ""
+msgstr "Malpromocii programon"
 
 #: commands/download/download.cpp:106
 msgid "When running with --url, prints URLs from all available mirrors"
-msgstr ""
+msgstr "Kiam plenumigas kun --url, eligas URL-oj de ĉiuj disponeblaj speguloj"
 
 #: commands/download/download.cpp:122
 #, c++-format
 msgid "Invalid urlprotocol option: {}"
-msgstr ""
+msgstr "Nevalida opcio de urlprotocol: {}"
 
 #: commands/download/download.cpp:149 main.cpp:627
 #, c++-format
@@ -507,6 +528,8 @@ msgstr "Konsilindas uzi la opcion \"--alldeps\" kun \"--resolve\""
 msgid ""
 "No package \"{}\" available; You might want to use --skip-unavailable option."
 msgstr ""
+"Neniu pako \"{}\" disponeblas. Eble vi volas uzi la opcion --skip-"
+"unavailable."
 
 #: commands/environment/arguments.hpp:33
 msgid "Show only available environments."
@@ -522,31 +545,35 @@ msgstr "Ŝablona kongruado de mediaj identigiloj."
 
 #: commands/environment/environment.cpp:35
 msgid "Manage comps environments"
-msgstr ""
+msgstr "Administri comps-mediojn"
 
 #: commands/from_repo.cpp:35
 msgid ""
 "The following items can be selected only from the specified repositories. "
 "All enabled repositories will still be used to satisfy dependencies."
 msgstr ""
+"La jenaj eroj estas elekteblaj nur el la specifitaj deponejoj. Ĉiuj ŝaltitaj "
+"deponejoj ja uziĝos por plenumi dependaĵojn."
 
 #: commands/from_repo.cpp:38 commands/from_repo.cpp:70
 msgid "REPO_ID,..."
-msgstr ""
+msgstr "DEPONEJO_ID,..."
 
 #: commands/from_repo.cpp:53
 msgid "\"--from_repo\" already defined with diferent value"
-msgstr ""
+msgstr "\"--from-repo\" jam estas difinita kun alia valoro"
 
 #: commands/from_repo.cpp:68
 msgid ""
 "Filters installed packages by the ID of the repository they were installed "
 "from."
 msgstr ""
+"Filtriloj instalis pakojn laŭ la identigilo de la deponejo el kiu ili "
+"instaliĝis."
 
 #: commands/from_repo.cpp:79
 msgid "\"--installed-from_repo\" already defined with diferent value"
-msgstr ""
+msgstr "\"--installed-from_repo\" jam estas difinita kun alia valoro"
 
 #: commands/group/arguments.hpp:34
 msgid "Show only available groups."
@@ -594,47 +621,54 @@ msgid ""
 "as errors. This can result in an empty transaction because among other "
 "things the option can ignore failing Remove actions."
 msgstr ""
+"Ne konsideri miskongruojn inter instalitaj kaj konservitaj transakciaj pakoj "
+"kiel eraraj. Tio povas kaŭzi malplenan transakcion ĉar interalie la opcio "
+"povas ignori malsukcesajn forigo-agojn."
 
 #: commands/history/arguments.hpp:67
 msgid "Don't consider extra packages pulled into the transaction as errors."
-msgstr ""
+msgstr "Ne konsideru ekstrajn pakojn tiritajn en la transakcion kiel eraraj."
 
 #: commands/history/arguments.hpp:80
 msgid ""
 "Show only transactions containing packages with specified names. List "
 "option, supports globs."
 msgstr ""
+"Montri nur transakciojn enhavintajn pakojn kun specifitaj nomoj. Lista "
+"opcioj, ĵokeroj eblas."
 
 #: commands/history/history.cpp:41
 msgid "Manage transaction history"
-msgstr ""
+msgstr "Administri transakcian historion"
 
 #: commands/history/history_info.cpp:70
 msgid ""
 "No match found, history info defaults to considering only the last "
 "transaction, specify \"1..last\" range to search all transactions."
 msgstr ""
+"Neniu kongruo trovita, apriore historiaj informoj konsideras nur la lastan "
+"transakcion. \"1..last\" estas uzata por serĉi ĉiujn transakciojn."
 
 #: commands/history/history_redo.cpp:54
 #: commands/history/history_rollback.cpp:58
 #: commands/history/history_store.cpp:65 commands/history/history_undo.cpp:57
 msgid "No matching transaction ID found, exactly one required."
-msgstr ""
+msgstr "Neniu kongruanta transakcia identigilo troveblas, ĝuste nur postulata."
 
 #: commands/history/history_redo.cpp:58
 #: commands/history/history_rollback.cpp:62
 #: commands/history/history_undo.cpp:61
 msgid "Matched more than one transaction ID, exactly one required."
-msgstr ""
+msgstr "Kongruas kun pli ol unu transakcia identigilo, ĝuste unu postulata."
 
 #: commands/history/history_store.cpp:68
 msgid "Multiple transactions selected for storing, only one allowed."
-msgstr ""
+msgstr "Pluraj transakcioj elektitaj por konservo, nur unu permesita."
 
 #: commands/history/history_store.cpp:80
 #, c++-format
 msgid "File \"{}\" already exists, it will be overwritten.\n"
-msgstr ""
+msgstr "Dosiero \"{}\" jam ekzistas, ĝi anstataŭiĝos.\n"
 
 #: commands/history/transaction_id.cpp:32
 #, c++-format
@@ -647,7 +681,7 @@ msgstr ""
 
 #: commands/install/install.cpp:43
 msgid "Install software"
-msgstr ""
+msgstr "Instali programon"
 
 #: commands/leaves/leaves.cpp:42
 msgid ""
@@ -664,15 +698,15 @@ msgstr ""
 
 #: commands/list/list.cpp:62
 msgid "Show all versions of the packages, not only the latest ones."
-msgstr ""
+msgstr "Montri ĉiujn eldonoj de la pakoj, ne nur la plej freŝaj."
 
 #: commands/list/list.cpp:70
 msgid "List installed packages."
-msgstr ""
+msgstr "Listigi instalitajn pakojn."
 
 #: commands/list/list.cpp:74
 msgid "List available packages."
-msgstr ""
+msgstr "Listigi disponeblaj pakojn"
 
 #: commands/list/list.cpp:81
 msgid ""
@@ -765,6 +799,9 @@ msgid ""
 "Error reading state: {}. Rerun the command you used to initiate the offline "
 "transaction, e.g. `dnf5 system-upgrade download [OPTIONS]`."
 msgstr ""
+"Eraro dum lego de stato: {}. Replenumigi la komandon, kiun vi uzis por "
+"iniciati la eksterretan transakcion, ekz-e `dnf system-upgrade download "
+"[OPCIOJN]`."
 
 #: commands/offline/offline.cpp:272
 #, c++-format
@@ -864,11 +901,11 @@ msgstr ""
 
 #: commands/offline/offline.cpp:666
 msgid "Unable to match systemd journal entry."
-msgstr ""
+msgstr "Ne eblas trovi egalan eron de systemd-registro."
 
 #: commands/offline/offline.cpp:678
 msgid "Show logs from past offline transactions"
-msgstr ""
+msgstr "Montri protokolojn de pasintaj eksterretaj transakcioj"
 
 #: commands/offline/offline.cpp:686
 msgid ""
@@ -968,7 +1005,7 @@ msgstr "Ŝablonoj"
 
 #: commands/search/search.cpp:44
 msgid "Search for software matching all specified strings"
-msgstr ""
+msgstr "Serĉi programojn kongruantaj kun ĉiuj specifitaj ĉenoj"
 
 #: commands/swap/swap.cpp:44
 msgid "Remove software and install another in one transaction"
@@ -1079,17 +1116,17 @@ msgstr ""
 #: commands/versionlock/versionlock_exclude.cpp:140
 #, c++-format
 msgid "Package \"{}\" is already excluded."
-msgstr ""
+msgstr "Pako \"{}\" jam estas ekskluzivigita."
 
 #: context.cpp:73
 #, c++-format
 msgid "Importing OpenPGP key 0x{}:\n"
-msgstr ""
+msgstr "Importas OpenPGP-ŝlosilon 0x{}:\n"
 
 #: context.cpp:75 context.cpp:100
 #, c++-format
 msgid " UserID     : \"{}\"\n"
-msgstr ""
+msgstr " UzulID     : \"{}\"\n"
 
 #: context.cpp:78
 #, c++-format
@@ -1097,6 +1134,8 @@ msgid ""
 " Fingerprint: {}\n"
 " From       : {}\n"
 msgstr ""
+" Fingropremaĵo: {}\n"
+" El           : {}\n"
 
 #: context.cpp:87
 msgid "The key was successfully imported."
@@ -1176,7 +1215,7 @@ msgstr ""
 #: context.cpp:380 context.cpp:528
 #, c++-format
 msgid "  - {}"
-msgstr ""
+msgstr "  - {}"
 
 #: context.cpp:447
 #, c++-format
@@ -1211,17 +1250,17 @@ msgstr ""
 #: context.cpp:820
 #, c++-format
 msgid "Upgrading {}"
-msgstr ""
+msgstr "Promocio de {}"
 
 #: context.cpp:823
 #, c++-format
 msgid "Downgrading {}"
-msgstr ""
+msgstr "Malpromocio de {}"
 
 #: context.cpp:826
 #, c++-format
 msgid "Reinstalling {}"
-msgstr ""
+msgstr "Reinstalo de {}"
 
 #: context.cpp:839
 #, c++-format
@@ -1231,7 +1270,7 @@ msgstr ""
 #: context.cpp:845
 #, c++-format
 msgid "Installing {}"
-msgstr ""
+msgstr "Instalo de {}"
 
 #: context.cpp:866
 msgid "Prepare transaction"
@@ -1240,12 +1279,12 @@ msgstr ""
 #: context.cpp:886
 #, c++-format
 msgid "Removing {}"
-msgstr ""
+msgstr "Forigo de {}"
 
 #: context.cpp:889
 #, c++-format
 msgid "Cleanup {}"
-msgstr ""
+msgstr "Purigo de {}"
 
 #: context.cpp:907
 #, c++-format
@@ -1376,7 +1415,7 @@ msgstr ""
 #: main.cpp:249 main.cpp:288
 #, c++-format
 msgid "{}: Badly formatted argument value \"{}\""
-msgstr ""
+msgstr "{}: Malbone formatita argumenta valoro \"{}\""
 
 #: main.cpp:256
 #, c++-format
@@ -1463,10 +1502,12 @@ msgid ""
 "Disable libdnf5 plugins by name. List option. Supports globs, can be "
 "specified multiple times."
 msgstr ""
+"Malŝalti libdnf5-kromprogramojn laŭ nomo. Lista opcio. Uzeblas ĵokeroj, eble "
+"plurfoje."
 
 #: main.cpp:488
 msgid "add a comment to transaction"
-msgstr ""
+msgstr "aldoni komenton al la transakcion"
 
 #: main.cpp:490
 msgid ""
@@ -1529,27 +1570,27 @@ msgstr ""
 
 #: main.cpp:660
 msgid "Subcommands:"
-msgstr ""
+msgstr "Subkomandoj:"
 
 #: main.cpp:759
 #, c++-format
 msgid "{} version {}.{}.{}.{}"
-msgstr ""
+msgstr "{} eldono {}.{}.{}.{}"
 
 #: main.cpp:762
 #, c++-format
 msgid "{} plugin API version {}.{}"
-msgstr ""
+msgstr "{} eldono de kromprograma API: {}.{}"
 
 #: main.cpp:767
 #, c++-format
 msgid "libdnf5 version {}.{}.{}.{}"
-msgstr ""
+msgstr "libdnf5-eldono {}.{}.{}.{}"
 
 #: main.cpp:770
 #, c++-format
 msgid "libdnf5 plugin API version {}.{}"
-msgstr ""
+msgstr "eldono de libdnf5-kromprograma API: {}.{}"
 
 #: main.cpp:777
 #, c++-format
@@ -1561,17 +1602,17 @@ msgstr ""
 #: main.cpp:782
 #, c++-format
 msgid "  name: {}"
-msgstr ""
+msgstr "  nomo: {}"
 
 #: main.cpp:785
 #, c++-format
 msgid "  version: {}.{}.{}"
-msgstr ""
+msgstr "  eldono: {}.{}.{}"
 
 #: main.cpp:787
 #, c++-format
 msgid "  API version: {}.{}"
-msgstr ""
+msgstr "  API-eldono: {}.{}"
 
 #: main.cpp:825
 #, c++-format
@@ -1660,7 +1701,7 @@ msgstr ""
 
 #: main.cpp:1110
 msgid "You can try to add to command line:"
-msgstr ""
+msgstr "Vi povas provi aldoni al la komandlinio:"
 
 #: main.cpp:1128
 #, c++-format
@@ -1668,6 +1709,8 @@ msgid ""
 "No matches were found for the following plugin name patterns while enabling "
 "libdnf plugins: {}"
 msgstr ""
+"Neniuj kongruoj estis trovitaj por la jenaj ŝablonoj de kromprogramaj nomoj "
+"dum ebligo de libdnf-kromprogramoj: {}"
 
 #: main.cpp:1129
 #, c++-format
@@ -1679,7 +1722,7 @@ msgstr ""
 #: main.cpp:1226
 #, c++-format
 msgid "--- DNF5 launched with arguments: \"{}\" ---"
-msgstr ""
+msgstr "--- DNF plenumiĝos kun argumentoj: \"{}\" ---"
 
 #: main.cpp:1262
 #, c++-format
@@ -1689,12 +1732,12 @@ msgstr ""
 #: main.cpp:1301
 #, c++-format
 msgid "{}."
-msgstr ""
+msgstr "{}."
 
 #: main.cpp:1304 main.cpp:1556
 #, c++-format
 msgid "{}. Add \"--help\" for more information about the arguments."
-msgstr ""
+msgstr "{}. \"--help\" uziĝas por pliaj informoj pri la argumentoj."
 
 #: main.cpp:1313
 #, c++-format
@@ -1702,6 +1745,8 @@ msgid ""
 "It could be a command provided by a plugin, try: dnf5 install 'dnf5-"
 "command({})'"
 msgstr ""
+"Tio eble estas komando provizita per kromprogramo. provu: dnf install 'dnf5-"
+"command({})'"
 
 #: main.cpp:1355
 #, c++-format
@@ -1724,7 +1769,7 @@ msgstr ""
 #: main.cpp:1512
 #, c++-format
 msgid "The operation will only store the transaction in {}"
-msgstr ""
+msgstr "La operacio konservos la transakcion nur en {}"
 
 #: main.cpp:1514
 msgid "The operation will only download packages for the transaction."
