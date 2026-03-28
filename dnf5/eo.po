@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-26 03:48+0000\n"
-"PO-Revision-Date: 2026-03-27 12:58+0000\n"
+"PO-Revision-Date: 2026-03-29 21:58+0000\n"
 "Last-Translator: Keith Bowes <zooplah@gmail.com>\n"
 "Language-Team: Esperanto <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/eo/>\n"
@@ -687,14 +687,15 @@ msgstr "Instali programon"
 msgid ""
 "List groups of installed packages not required by other installed packages"
 msgstr ""
+"Listigi grupojn de instalitaj pakoj ne postulataj de aliaj instalitaj pakoj"
 
 #: commands/list/list.cpp:46
 msgid "Lists packages depending on the packages' relation to the system"
-msgstr ""
+msgstr "Listigas pakojn, kiuj dependas de la rilato de la pakoj al la sistemo"
 
 #: commands/list/list.cpp:50
 msgid "List of package-spec-NI to match (case insensitively)"
-msgstr ""
+msgstr "Listo de kongruanta kun pako-spec-NI (ne ignoras usklecon)"
 
 #: commands/list/list.cpp:62
 msgid "Show all versions of the packages, not only the latest ones."
@@ -713,52 +714,56 @@ msgid ""
 "List extras, that is packages installed on the system that are not available "
 "in any known repository."
 msgstr ""
+"Listigas ekstrojn, alivorte pakoj instalitaj en la sistemo sed ne "
+"disponeblaj en iu konata deponejo."
 
 #: commands/list/list.cpp:89
 msgid ""
 "List packages installed on the system that are obsoleted by packages in any "
 "known repository."
 msgstr ""
+"Listigas pakojn instalitaj en la sistemo sed anstataŭigotaj per pakoj en iu "
+"konta deponejo."
 
 #: commands/list/list.cpp:94
 msgid "List packages recently added into the repositories."
-msgstr ""
+msgstr "Listoj de pakoj ĵuse aldonitaj al la deponejoj."
 
 #: commands/list/list.cpp:98
 msgid "List upgrades available for the installed packages."
-msgstr ""
+msgstr "Listigi promociojn disponeblajn por la instalitaj pakoj."
 
 #: commands/list/list.cpp:102
 msgid "List packages which will be removed by the 'dnf autoremove' command."
-msgstr ""
+msgstr "Listigi pakojn, kiuj estos forigitaj per la komando 'dnf autoremove'."
 
 #: commands/list/list.cpp:203 commands/list/list.cpp:208
 msgid "Installed packages"
-msgstr ""
+msgstr "Instalitaj pakoj"
 
 #: commands/list/list.cpp:204 commands/list/list.cpp:217
 msgid "Available packages"
-msgstr ""
+msgstr "Disponeblaj pakoj"
 
 #: commands/list/list.cpp:225
 msgid "Available upgrades"
-msgstr ""
+msgstr "Disponeblaj promocioj"
 
 #: commands/list/list.cpp:241
 msgid "Obsoleting packages"
-msgstr ""
+msgstr "Anstataŭiĝontaj pakoj"
 
 #: commands/list/list.cpp:246
 msgid "Autoremove packages"
-msgstr ""
+msgstr "Aŭtomate forigotaj pakoj"
 
 #: commands/list/list.cpp:250
 msgid "Extra packages"
-msgstr ""
+msgstr "Ekstraj pakoj"
 
 #: commands/list/list.cpp:261
 msgid "Recently added packages"
-msgstr ""
+msgstr "Ĵuse aldonitaj pakoj"
 
 #: commands/list/list.cpp:266
 msgid "No matching packages to list"
@@ -766,7 +771,7 @@ msgstr "Neniuj kongruantoj pakoj listigeblas"
 
 #: commands/mark/mark.cpp:38
 msgid "Change the reason of an installed package"
-msgstr ""
+msgstr "Ŝanĝi la kialon de instalita pako"
 
 #: commands/module/arguments.hpp:36
 msgid "Show enabled modules."
@@ -782,16 +787,16 @@ msgstr "Modulo por sablona kongruado konraŭ NSVCA-oj."
 
 #: commands/module/module.cpp:43
 msgid "Manage modules"
-msgstr ""
+msgstr "Administri modulojn"
 
 #: commands/module/module_list.cpp:85
 #, c++-format
 msgid "No matches found for \"{}\"."
-msgstr ""
+msgstr "Neniuj troveblaj kongruoj por \"{}\"."
 
 #: commands/offline/offline.cpp:217
 msgid "Manage offline transactions"
-msgstr ""
+msgstr "Administri eksterretajn transakciojn"
 
 #: commands/offline/offline.cpp:249
 #, c++-format
@@ -813,91 +818,97 @@ msgid ""
 "Prepare the system to perform the offline transaction and reboot to start "
 "the transaction."
 msgstr ""
+"Pretigi la sistemon por plenumi la eksterretan transakcion kaj restarti por "
+"startigi la transakcion."
 
 #: commands/offline/offline.cpp:310
 msgid "Power off the system after the operation is complete"
-msgstr ""
+msgstr "Malŝalti la sistemon post kompletiĝo de la operacio"
 
 #: commands/offline/offline.cpp:321
 msgid "No offline transaction is stored."
-msgstr ""
+msgstr "Neniu eksterreta transakcio estas konservita."
 
 #: commands/offline/offline.cpp:329
 msgid "System is not ready for offline transaction."
-msgstr ""
+msgstr "Sistemo ne pretas por eksterreta transakcio."
 
 #: commands/offline/offline.cpp:332
 #, c++-format
 msgid "Data directory {} does not exist."
-msgstr ""
+msgstr "Datuma dosierujo {} ne ekzistas."
 
 #: commands/offline/offline.cpp:357
 #, c++-format
 msgid "{} is not wanted by system-update.target."
-msgstr ""
+msgstr "{} ne volata de system-update.target."
 
 #: commands/offline/offline.cpp:367
 #, c++-format
 msgid "The system will now reboot to upgrade to release version {}."
-msgstr ""
+msgstr "La sistemo nun restartos por promocii al eldono {}."
 
 #: commands/offline/offline.cpp:371
 msgid ""
 "The system will now reboot to perform the offline transaction initiated by "
 "the following command:"
 msgstr ""
+"La sistemo nun restartos por plenumi la eksterretan transakcion iniciatita "
+"de la jena komando:"
 
 #: commands/offline/offline.cpp:402
 msgid ""
 "Internal use only, not intended to be run by the user. Execute the "
 "transaction in the offline environment."
 msgstr ""
+"Nur por interna uzo, ne plenumigota de la uzulo. Plenumigi la transakcion en "
+"la eksterreta medio."
 
 #: commands/offline/offline.cpp:436
 msgid "Trigger file does not exist. Exiting."
-msgstr ""
+msgstr "Ekagiga dosiero ne ekzistas. Finas."
 
 #: commands/offline/offline.cpp:440
 msgid "Another offline transaction tool is running. Exiting."
-msgstr ""
+msgstr "Alia ilo por eksterreta transakcio plenumiĝas. Finas."
 
 #: commands/offline/offline.cpp:467
 msgid "Starting offline transaction. This will take a while."
-msgstr ""
+msgstr "Startigas eksterretan transakcion. Tio eble longe daŭros."
 
 #: commands/offline/offline.cpp:471
 msgid "Starting system upgrade. This will take a while."
-msgstr ""
+msgstr "Komencas sisteman promocion. Tio longe daŭros."
 
 #: commands/offline/offline.cpp:483
 msgid "Use `dnf5 offline reboot` to begin the transaction."
-msgstr ""
+msgstr "Komenci la transakcion per `dnf5 offline reboot`."
 
 #: commands/offline/offline.cpp:534
 msgid "Transaction failed: "
-msgstr ""
+msgstr "Transakcio malsukcesis: "
 
 #: commands/offline/offline.cpp:604
 #, c++-format
 msgid "Error reading journal: {}"
-msgstr ""
+msgstr "Ne eblas legi protokolon: {}"
 
 #: commands/offline/offline.cpp:610
 #, c++-format
 msgid "Add journal match failed: {}"
-msgstr ""
+msgstr "Aldono de protokola kongruo malsukcesis: {}"
 
 #: commands/offline/offline.cpp:638
 msgid "No logs were found."
-msgstr ""
+msgstr "Neniuj protokoloj troviĝis."
 
 #: commands/offline/offline.cpp:642
 msgid "The following boots appear to contain offline transaction logs:"
-msgstr ""
+msgstr "La jenaj ŝargoj ŝajne enhavas eksterretajn transakciajn protokolojn:"
 
 #: commands/offline/offline.cpp:659
 msgid "Cannot find logs with this index."
-msgstr ""
+msgstr "Ne eblas trovi protokolojn kun tiu indico."
 
 #: commands/offline/offline.cpp:666
 msgid "Unable to match systemd journal entry."
