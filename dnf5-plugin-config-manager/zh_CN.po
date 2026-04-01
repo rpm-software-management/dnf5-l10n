@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Languages add-on <noreply-addon-languages@weblate.org>, 2026.
 # Tzuhsi Liu <GAKMOTS@outlook.com>, 2026.
+# 耗子 <haozi@loli.email>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-26 03:48+0000\n"
-"PO-Revision-Date: 2026-01-19 12:58+0000\n"
-"Last-Translator: Tzuhsi Liu <GAKMOTS@outlook.com>\n"
+"PO-Revision-Date: 2026-04-02 22:59+0000\n"
+"Last-Translator: 耗子 <haozi@loli.email>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/dnf5/dnf5-plugin-config-manager/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.15.2\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #: addrepo.cpp:136
 #, c++-format
@@ -27,7 +28,7 @@ msgstr "无法通过指定文件添加软件源：文件 \"{}\" 不存在"
 #: addrepo.cpp:139
 #, c++-format
 msgid "from-repofile: {}"
-msgstr ""
+msgstr "from-repofile：{}"
 
 #: addrepo.cpp:169 setopt.cpp:83 setvar.cpp:49
 #, c++-format
@@ -42,7 +43,7 @@ msgstr "无法设置软件仓库选项 \"{}={}\"：{}"
 #: addrepo.cpp:187 setopt.cpp:138
 #, c++-format
 msgid "Sets the \"{}\" option again with a different value: \"{}\" != \"{}\""
-msgstr ""
+msgstr "再次设置 \"{}\" 选项，但值不同：\"{}\" != \"{}\""
 
 #: addrepo.cpp:253
 msgid "Missing path to repository configuration directory"
@@ -51,19 +52,19 @@ msgstr "缺少软件源配置目录路径"
 #: addrepo.cpp:303
 #, c++-format
 msgid "Failed to copy repository configuration file \"{}\": {}"
-msgstr ""
+msgstr "无法复制仓库配置文件 \"{}\"：{}"
 
 #: addrepo.cpp:314
 #, c++-format
 msgid "Failed to download repository configuration file \"{}\": {}"
-msgstr ""
+msgstr "无法下载仓库配置文件 \"{}\"：{}"
 
 #: addrepo.cpp:342
 #, c++-format
 msgid ""
 "Error in added repository configuration file. Cannot set repository option "
 "\"{}={}\": {}"
-msgstr ""
+msgstr "添加的仓库配置文件有误。无法设置仓库选项 \"{}={}\"：{}"
 
 #: addrepo.cpp:376
 #, c++-format
@@ -197,57 +198,57 @@ msgstr "config-manager: 请求移除不支持的软件仓库选项: {}"
 #: unsetopt.cpp:105
 #, c++-format
 msgid "config-manager: Request to remove unsupported main option: {}"
-msgstr ""
+msgstr "config-manager：请求移除不支持的主选项：{}"
 
 #: unsetopt.cpp:140
 #, c++-format
 msgid ""
 "config-manager: Request to remove main option but it is not present in the "
 "config file: {}"
-msgstr ""
+msgstr "config-manager：请求移除主选项，但配置文件中不存在该选项：{}"
 
 #: unsetopt.cpp:152
 #, c++-format
 msgid ""
 "config-manager: Request to remove main option but config file not found: {}"
-msgstr ""
+msgstr "config-manager：请求移除主选项，但未找到配置文件：{}"
 
 #: unsetopt.cpp:186
 #, c++-format
 msgid ""
 "config-manager: Request to remove repository option but repoid is not "
 "present in the overrides: {}"
-msgstr ""
+msgstr "config-manager：请求移除仓库选项，但覆盖中不存在该仓库 ID：{}"
 
 #: unsetopt.cpp:194
 #, c++-format
 msgid ""
 "config-manager: Request to remove repository option but it is not present in "
 "the overrides: {}.{}"
-msgstr ""
+msgstr "config-manager：请求移除仓库选项，但覆盖中不存在该选项：{}.{}"
 
 #: unsetopt.cpp:214
 #, c++-format
 msgid ""
 "config-manager: Request to remove repository option but file with overrides "
 "not found: {}"
-msgstr ""
+msgstr "config-manager：请求移除仓库选项，但未找到覆盖文件：{}"
 
 #: unsetvar.cpp:69
 #, c++-format
 msgid ""
 "config-manager: Request to remove variable but vars directory was not found: "
 "{}"
-msgstr ""
+msgstr "config-manager：请求移除变量，但未找到变量目录：{}"
 
 #: unsetvar.cpp:82
 #, c++-format
 msgid ""
 "config-manager: Request to remove variable but it is not present in the vars "
 "directory: {}"
-msgstr ""
+msgstr "config-manager：请求移除变量，但变量目录中不存在该变量：{}"
 
 #: unsetvar.cpp:88
 #, c++-format
 msgid "Cannot remove variable file \"{}\": {}"
-msgstr ""
+msgstr "无法移除变量文件 \"{}\"：{}"
