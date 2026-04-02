@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-26 03:48+0000\n"
-"PO-Revision-Date: 2026-03-29 21:58+0000\n"
+"PO-Revision-Date: 2026-04-02 22:58+0000\n"
 "Last-Translator: Keith Bowes <zooplah@gmail.com>\n"
 "Language-Team: Esperanto <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/eo/>\n"
@@ -921,52 +921,59 @@ msgstr "Montri protokolojn de pasintaj eksterretaj transakcioj"
 #: commands/offline/offline.cpp:686
 msgid ""
 "Which log to show. Run without any arguments to get a list of available logs."
-msgstr ""
+msgstr "Ku protokolo montrota. Sen argumentoj listigas montreblajn protokolojn."
 
 #: commands/offline/offline.cpp:701
 msgid ""
 "systemd is not supported in this build of DNF 5; the `log` subcommand is "
 "unavailable."
 msgstr ""
+"systemd ne disponeblas en ĉi tiu munto de dNF5; la subkomando `log` estas "
+"nedisponebla."
 
 #: commands/offline/offline.cpp:706
 msgid "Show status of the current offline transaction"
-msgstr ""
+msgstr "Montri staton de nuna eksterreta transakcio"
 
 #: commands/offline/offline.cpp:722
 msgid "An offline transaction was initiated by the following command:"
-msgstr ""
+msgstr "Eksterreta transakcio estis iniciatata per la jena komando:"
 
 #: commands/offline/offline.cpp:724
 msgid ""
 "Run `dnf5 offline reboot` to reboot and perform the offline transaction."
 msgstr ""
+"Plenumigu la komandon `dnf5 offline reboot` por restartigi kaj fori la "
+"eksterretan transakcion."
 
 #: commands/offline/offline.cpp:726
 msgid ""
 "An offline transaction was started, but it did not finish. Run `dnf5 offline "
 "log` for more information. The command that initiated the transaction was:"
 msgstr ""
+"Eksterreta transakcio komenciĝis sed ne finiĝis. Uzu la komandon `dnf "
+"offline log` por pliaj informoj. La komando, kiu iniciatis la transakcion "
+"estis:"
 
 #: commands/offline/offline.cpp:731
 msgid "Unknown offline transaction status: "
-msgstr ""
+msgstr "Nekonata stato de eksterreta transakcio: "
 
 #: commands/provides/provides.cpp:48
 msgid "Find what package provides the given value"
-msgstr ""
+msgstr "Trovi tion, kiu pako provizas la donitan valoron"
 
 #: commands/reinstall/reinstall.cpp:42
 msgid "Reinstall software"
-msgstr ""
+msgstr "Reinstali pakon"
 
 #: commands/remove/remove.cpp:42
 msgid "Remove (uninstall) software"
-msgstr ""
+msgstr "Forigi (malinstali) pakon"
 
 #: commands/replay/replay.cpp:38
 msgid "Replay a transaction that was previously stored to a directory"
-msgstr ""
+msgstr "Refari transakcion, kiu antaŭe estis konservita en dosierujo"
 
 #: commands/repo/arguments.hpp:35
 msgid "Show all repositories."
@@ -990,7 +997,7 @@ msgstr "Administri deponejojn"
 
 #: commands/repoquery/repoquery.cpp:82
 msgid "Search for packages matching various criteria"
-msgstr ""
+msgstr "Serĉi pakojn, kiuj kongruas kun diversaj kriterioj"
 
 #: commands/repoquery/repoquery.cpp:525
 msgid ""
@@ -1005,6 +1012,8 @@ msgid ""
 "Option \"--recursive\" has to be used either with \"--whatrequires\" or \"--"
 "providers-of=requires\""
 msgstr ""
+"Opcio \"--requires\" devas esti uzata kun aŭ \"--whatrequires\" aŭ \"--"
+"providers-of/requires\""
 
 #: commands/search/arguments.hpp:37
 msgid "Search also package description and URL."
@@ -1020,25 +1029,28 @@ msgstr "Serĉi programojn kongruantaj kun ĉiuj specifitaj ĉenoj"
 
 #: commands/swap/swap.cpp:44
 msgid "Remove software and install another in one transaction"
-msgstr ""
+msgstr "Forigi pakon kaj instali alian per unu transakcio"
 
 #: commands/system-upgrade/system-upgrade.cpp:56
 msgid "Prepare system for upgrade to a new release"
-msgstr ""
+msgstr "Pretigi sistemon por promocio al nova eldono"
 
 #: commands/system-upgrade/system-upgrade.cpp:72
 msgid "Download everything needed to upgrade to a new release"
-msgstr ""
+msgstr "Malŝalti ĉion, kio estas postulata por promocii al nova eldono"
 
 #: commands/system-upgrade/system-upgrade.cpp:80
 msgid ""
 "Do not install packages from the new release if they are older than what is "
 "currently installed"
 msgstr ""
+"Ne instali pakojn el la nova eldono se ili estas pli malnovaj ol la nune "
+"instalitaj"
 
 #: commands/system-upgrade/system-upgrade.cpp:101
 msgid "Need a --releasever greater than the current system version."
 msgstr ""
+"Bezonas argumenton --releasever pli grandan ol la eldonon de la nuna sistemo."
 
 #: commands/system-upgrade/system-upgrade.cpp:150
 msgid "Store a distro-sync transaction to be performed offline"
@@ -1050,7 +1062,7 @@ msgstr ""
 
 #: commands/upgrade/upgrade.cpp:43
 msgid "Upgrade software"
-msgstr ""
+msgstr "Promocii pakon"
 
 #: commands/upgrade/upgrade.cpp:50
 msgid ""
@@ -1192,7 +1204,7 @@ msgstr ""
 #: context.cpp:295
 #, c++-format
 msgid "setopt: \"{}.{}\": {}"
-msgstr ""
+msgstr "setopt: \"{}.{}\": {}"
 
 #: context.cpp:305
 #, c++-format
@@ -1204,24 +1216,24 @@ msgstr ""
 #: context.cpp:309
 #, c++-format
 msgid "No matching repositories for {}"
-msgstr ""
+msgstr "Neniuj kongruantaj deponejoj por {}"
 
 #: context.cpp:355
 msgid "Updating and loading repositories:"
-msgstr ""
+msgstr "Ĝisdatigas kaj ŝargas deponejojn:"
 
 #: context.cpp:365
 msgid "Repositories loaded."
-msgstr ""
+msgstr "Deponejoj ŝargitaj."
 
 #: context.cpp:371
 msgid "Testing offline transaction"
-msgstr ""
+msgstr "Testas eksterretan transakcion"
 
 #: context.cpp:375 context.cpp:523
 #, c++-format
 msgid "Transaction failed: {}"
-msgstr ""
+msgstr "Transakcio malsukcesis: {}"
 
 #: context.cpp:380 context.cpp:528
 #, c++-format
@@ -1285,7 +1297,7 @@ msgstr "Instalo de {}"
 
 #: context.cpp:866
 msgid "Prepare transaction"
-msgstr ""
+msgstr "Pretigi transakcion"
 
 #: context.cpp:886
 #, c++-format
@@ -1300,44 +1312,44 @@ msgstr "Purigo de {}"
 #: context.cpp:907
 #, c++-format
 msgid "Unpack error: {}"
-msgstr ""
+msgstr "Eraro dum maldensigo: {}"
 
 #: context.cpp:915
 #, c++-format
 msgid "Cpio error: {}"
-msgstr ""
+msgstr "Cpio-eraro: {}"
 
 #: context.cpp:925
 msgid "Scriptlet output:"
-msgstr ""
+msgstr "Skripteta eligo:"
 
 #: context.cpp:948
 msgid "Running scriptlets"
-msgstr ""
+msgstr "Plenumas skriptetojn"
 
 #: context.cpp:953
 #, c++-format
 msgid "Running {} scriptlet: {}"
-msgstr ""
+msgstr "Plenumas skripteton {}: {}"
 
 #: context.cpp:968
 #, c++-format
 msgid "Finished {} scriptlet: {}"
-msgstr ""
+msgstr "Finis skripteto {}: {}"
 
 #: context.cpp:974
 #, c++-format
 msgid "Non-critical error in {} scriptlet: {}"
-msgstr ""
+msgstr "Negrava eraro en skripteto {}: {}"
 
 #: context.cpp:983
 #, c++-format
 msgid "Error in {} scriptlet: {}"
-msgstr ""
+msgstr "Eraro en skripteto {}: {}"
 
 #: context.cpp:1018
 msgid "Verify package files"
-msgstr ""
+msgstr "Kontrolas pako-dosierojn"
 
 #: library.cpp:33
 #, c++-format
@@ -1351,11 +1363,11 @@ msgstr "Ne eblas atingi adreson de simbolo \"{}\": {}"
 
 #: main.cpp:133
 msgid "Utility for packages maintaining"
-msgstr ""
+msgstr "Ilo por prizorgi pakojn"
 
 #: main.cpp:134
 msgid "DNF5 is a program for maintaining packages."
-msgstr ""
+msgstr "DNF5 estas programo por prizorgi pakojn."
 
 #: main.cpp:135
 msgid "Unclassified options:"
@@ -1363,15 +1375,15 @@ msgstr ""
 
 #: main.cpp:138
 msgid "Global options:"
-msgstr ""
+msgstr "Ĝeneralaj opcioj:"
 
 #: main.cpp:143
 msgid "Print help"
-msgstr ""
+msgstr "Eligi helpon"
 
 #: main.cpp:150
 msgid "Configuration file location"
-msgstr ""
+msgstr "Loko de agordo-dosiero"
 
 #: main.cpp:158
 msgid ""
@@ -1401,7 +1413,7 @@ msgstr "Malsukcesis eksvalidigi deponejan kaŝmemoron en vojo: \"{0}\": {1}"
 
 #: main.cpp:218
 msgid "create additional repository using id and path"
-msgstr ""
+msgstr "krei aldonan deponejon per identigilon kaj vojon"
 
 #: main.cpp:226
 #, c++-format
@@ -1452,19 +1464,19 @@ msgstr "setvar: {}"
 
 #: main.cpp:304
 msgid "automatically answer yes for all questions"
-msgstr ""
+msgstr "aŭtomate jesi ĉiujn demandojn"
 
 #: main.cpp:311
 msgid "automatically answer no for all questions"
-msgstr ""
+msgstr "aŭtomate nei ĉiujn demandojn"
 
 #: main.cpp:318
 msgid "try the best available package versions in transactions"
-msgstr ""
+msgstr "provi la plej bonajn disponeblajn eldonojn de pako en transakcioj"
 
 #: main.cpp:325
 msgid "do not limit the transaction to the best candidate"
-msgstr ""
+msgstr "ne limigi la transakcion al la plej bona kandidato"
 
 #: main.cpp:336
 msgid ""
@@ -1493,28 +1505,32 @@ msgid ""
 "Enable just specific repositories. List option. Supports globs, can be "
 "specified multiple times."
 msgstr ""
+"Ŝalti nur specifitajn deponejojn. Lista opcio. Uzeblas ĵokeroj, eblas esti "
+"plurfoje specifita."
 
 #: main.cpp:429
 msgid "disable OpenPGP signature checking (if RPM policy allows)"
-msgstr ""
+msgstr "malŝalti kontrolon de OpenPG-subskriboj (se RPM-politikon permesas)"
 
 #: main.cpp:446
 msgid "Disable all libdnf5 plugins"
-msgstr ""
+msgstr "Malŝalti ĉiujn libdnf5-kromprogramojn"
 
 #: main.cpp:456
 msgid ""
 "Enable libdnf5 plugins by name. List option. Supports globs, can be "
 "specified multiple times."
 msgstr ""
+"Ŝalti libdnf-kromprogramojn laŭ nomo. Lista opcio. Uzeblas ĵokoj, eblas esti "
+"plurfoje specifita."
 
 #: main.cpp:471
 msgid ""
 "Disable libdnf5 plugins by name. List option. Supports globs, can be "
 "specified multiple times."
 msgstr ""
-"Malŝalti libdnf5-kromprogramojn laŭ nomo. Lista opcio. Uzeblas ĵokeroj, eble "
-"plurfoje."
+"Malŝalti libdnf5-kromprogramojn laŭ nomo. Lista opcio. Uzeblas ĵokeroj, "
+"eblas esti plurfoje specifita."
 
 #: main.cpp:488
 msgid "add a comment to transaction"
@@ -1561,15 +1577,15 @@ msgstr ""
 
 #: main.cpp:587
 msgid "Print variable values to stdout"
-msgstr ""
+msgstr "Eligi variablajn valorojn al la ĉefeligujo"
 
 #: main.cpp:601
 msgid "Show DNF5 version and exit"
-msgstr ""
+msgstr "Montri DNF5-eldonon kaj fini"
 
 #: main.cpp:608
 msgid "Force the use of a different architecture."
-msgstr ""
+msgstr "Eldevigi la uzon de alia arĥitekturo."
 
 #: main.cpp:646
 msgid "Software Management Commands:"
@@ -1577,7 +1593,7 @@ msgstr ""
 
 #: main.cpp:653
 msgid "Query Commands:"
-msgstr ""
+msgstr "Informopetaj komandoj:"
 
 #: main.cpp:660
 msgid "Subcommands:"
@@ -1609,6 +1625,8 @@ msgid ""
 "\n"
 "Loaded {} plugins:"
 msgstr ""
+"\n"
+"Ŝargis {} kromprogramojn:"
 
 #: main.cpp:782
 #, c++-format
@@ -1630,6 +1648,8 @@ msgstr "  API-eldono: {}.{}"
 msgid ""
 "Total size of inbound packages is {:.0f} {:s}. Need to download {:.0f} {:s}."
 msgstr ""
+"Totala grando de ricevantaj pakoj estas {:.0f} {:s}. Devas elŝuti {:.0f} {:s}"
+"."
 
 #: main.cpp:842
 #, c++-format
@@ -1652,7 +1672,7 @@ msgstr "======== Ĉefa agordo: ========"
 #: main.cpp:902
 #, c++-format
 msgid "No matching repo to dump configuration: \"{}\""
-msgstr ""
+msgstr "Neniu kongruanta deponejo por ŝuti agordon: \"{}\""
 
 #: main.cpp:907
 #, c++-format
@@ -1665,17 +1685,17 @@ msgstr "======== Variabloj: ========"
 
 #: main.cpp:967
 msgid "New leaves:"
-msgstr ""
+msgstr "Novaj folioj:"
 
 #: main.cpp:969
 #, c++-format
 msgid " {}"
-msgstr ""
+msgstr " {}"
 
 #: main.cpp:1013
 #, c++-format
 msgid "{} to skip unavailable packages"
-msgstr ""
+msgstr "{} por preterlasi nedisponeblajn pakojn"
 
 #: main.cpp:1021
 #, c++-format
@@ -1693,22 +1713,22 @@ msgstr ""
 #: main.cpp:1081
 #, c++-format
 msgid "{} to not limit the transaction to the best candidates"
-msgstr ""
+msgstr "{} por ne limigi la transakcion al la plej bonaj kandidatoj"
 
 #: main.cpp:1088
 #, c++-format
 msgid "{} to allow removing of installed packages to resolve problems"
-msgstr ""
+msgstr "{} por permesi forigi instalitajn pakojn por solvi problemojn"
 
 #: main.cpp:1097
 #, c++-format
 msgid "{} to load additional filelists metadata"
-msgstr ""
+msgstr "{} por ŝargi metadatumojn de aldonaj dosiero-listoj"
 
 #: main.cpp:1104
 #, c++-format
 msgid "{} to skip uninstallable packages"
-msgstr ""
+msgstr "{} por preterpasi neinstaleblajn pakojn"
 
 #: main.cpp:1110
 msgid "You can try to add to command line:"
@@ -1729,6 +1749,8 @@ msgid ""
 "No matches were found for the following plugin name patterns while disabling "
 "libdnf plugins: {}"
 msgstr ""
+"Neniuj kongruoj troveblis por la jenaj kromprogramo-nomaj ŝablonoj dum la "
+"malŝalto de libdnf-kromprogramoj: {}"
 
 #: main.cpp:1226
 #, c++-format
@@ -1738,7 +1760,7 @@ msgstr "--- DNF plenumiĝos kun argumentoj: \"{}\" ---"
 #: main.cpp:1262
 #, c++-format
 msgid "Invalid \"index\" in \"--complete=<index>[,...]\": {}"
-msgstr ""
+msgstr "Nevalida \"indico\" en \"--complete=<indico>[,...]\": {}"
 
 #: main.cpp:1301
 #, c++-format
