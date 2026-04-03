@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-26 03:48+0000\n"
-"PO-Revision-Date: 2026-04-01 21:58+0000\n"
+"PO-Revision-Date: 2026-04-04 03:58+0000\n"
 "Last-Translator: Keith Bowes <zooplah@gmail.com>\n"
 "Language-Team: Esperanto <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/eo/>\n"
@@ -1067,110 +1067,120 @@ msgstr "Malsukcesis elŝuti pakojn"
 #: repo/repo.cpp:61
 #, c++-format
 msgid "Failed to load RPM \"{}\": doesn't have the \".rpm\" extension"
-msgstr ""
+msgstr "Malsukcesis ŝargi RPM-dosieron \"{}\": ne havas la sufikson \"rpm\""
 
 #: repo/repo.cpp:65
 #, c++-format
 msgid "Failed to access RPM \"{}\": {}"
-msgstr ""
+msgstr "Malsukcesis atingi RPM-dosieron \"{}\": {}"
 
 #: repo/repo.cpp:107
 #, c++-format
 msgid "Invalid repository id \"{}\": unexpected character '{}'"
-msgstr ""
+msgstr "Nevalida deponeja identigilo \"{}\": neatendita signo '{}'"
 
 #: repo/repo.cpp:150
 #, c++-format
 msgid "Repository \"{}\" has no source (baseurl, mirrorlist or metalink) set."
 msgstr ""
+"Deponejo \"{}\" havas neniun fonton (baseurl, mirrorlist aŭ metalink) "
+"agordita."
 
 #: repo/repo.cpp:161
 #, c++-format
 msgid "Repository \"{}\" has unsupported type \"{}\", skipping."
-msgstr ""
+msgstr "Deponejo \"{}\" havas nekonatan tipon \"{}\", preterpasas."
 
 #: repo/repo.cpp:221 repo/repo.cpp:241 repo/repo_sack.cpp:368
 #, c++-format
 msgid "Failed to download metadata ({}: \"{}\") for repository \"{}\": {}"
-msgstr ""
+msgstr "Malsukcesis elŝuti metadatumojn ({}: \"{}\") por deponejo \"{}\": {}"
 
 #: repo/repo.cpp:439
 msgid ""
 "Failed to load repository: \"primary\" data not present or in unsupported "
 "format"
 msgstr ""
+"Malsukcesis ŝargi deponejon: \"primary\"-datumoj ne ĉeestas aŭ estas en "
+"nekonata formato"
 
 #: repo/repo.cpp:505
 #, c++-format
 msgid "Failed to load comps \"{}\": doesn't have the \".xml\" extension"
-msgstr ""
+msgstr "Malsukcesis ŝargi comps-dosieron \"{}\": ne havas la sufikson \".xml\""
 
 #: repo/repo.cpp:512
 #, c++-format
 msgid "Failed to load xml Comps \"{}\": {}"
-msgstr ""
+msgstr "Malsukcesis ŝargi XML-an comps-dosieron \"{}\": {}"
 
 #: repo/repo.cpp:530
 #, c++-format
 msgid "Failed to load RPM \"{}\": {}"
-msgstr ""
+msgstr "Malsukcesis ŝargi RPM-dosieron \"{}\": {}"
 
 #: repo/repo_cache.cpp:255
 msgid "Unable to determine id of the repository in the cache."
-msgstr ""
+msgstr "Ne eblas determini identigilon de la deponejo en la kaŝmemoro."
 
 #: repo/repo_cache_private.hpp:59
 msgid "Empty path to the repository cache directory."
-msgstr ""
+msgstr "Malplena vojo al la kaŝmemora dosierujo de la deponejo."
 
 #: repo/repo_downloader.cpp:214
 #, c++-format
 msgid "Librepo error: {}"
-msgstr ""
+msgstr "Librepo-eraro: {}"
 
 #: repo/repo_downloader.cpp:258
 msgid "Failed to set up metadata download"
-msgstr ""
+msgstr "Malsukcesis konektiĝi por elŝuti metadatumojn"
 
 #: repo/repo_downloader.cpp:312 repo/repo_downloader.cpp:362
 msgid "Failed to download metadata"
-msgstr ""
+msgstr "Malsukcesis elŝuti metadatumojn"
 
 #: repo/repo_downloader.cpp:426
 #, c++-format
 msgid "Error checking if metalink \"{}\" is in sync for repository \"{}\""
 msgstr ""
+"Eraro dum kontrolo, ĉu metalink-dosieron \"{}\" estas sinkronigita por "
+"deponejo \"{}\""
 
 #: repo/repo_downloader.cpp:446
 #, c++-format
 msgid "Error checking if repomd ({}: \"{}\") is in sync for repository \"{}\""
 msgstr ""
+"Eraro dum kontrolo, ĉu repomd-dosieron ({}: \"{}\") estas sinkronigita por "
+"deponejo \"{}\""
 
 #: repo/repo_downloader.cpp:515
 #, c++-format
 msgid "Error loading local metadata for repository \"{}\""
-msgstr ""
+msgstr "Eraro dum ŝargo de lokaj metadatumoj por deponejo \"{}\""
 
 #: repo/repo_downloader.cpp:597
 #, c++-format
 msgid ""
 "No valid source (baseurl, mirrorlist or metalink) found for repository \"{}\""
 msgstr ""
+"Neniu valida fonto (baseurl, mirrorlist aŭ metalink) troveblas por deponejo "
+"\"{}\""
 
 #: repo/repo_pgp.cpp:60
 #, c++-format
 msgid "Failed to import OpenPGP keys into temporary keyring: {}"
-msgstr ""
+msgstr "Malsukcesis importi OpenPGP-ŝlosilon en provizoran ŝlosilaron: {}"
 
 #: repo/repo_pgp.cpp:66 repo/repo_pgp.cpp:93
 #, c++-format
 msgid "Failed to list OpenPGP keys: {}"
-msgstr ""
+msgstr "Malsukcesis listigi OpenPGP-ŝlosilojn: {}"
 
 #: repo/repo_pgp.cpp:141
 #, c++-format
 msgid "Failed to import OpenPGP keys: {}"
-msgstr ""
+msgstr "Malsukcesis importi OpenPGP-ŝlosilojn: {}"
 
 #: repo/repo_sack.cpp:159
 #, c++-format
@@ -1178,31 +1188,33 @@ msgid ""
 "Failed to create repo \"{}\": Id is present more than once in the "
 "configuration"
 msgstr ""
+"Malsukcesis krei deponejon \"{}\": Identigilo pli ol unufoje ĉeestas en la "
+"agordo"
 
 #: repo/repo_sack.cpp:631
 #, c++-format
 msgid "Cache-only enabled but no cache for repository \"{}\""
-msgstr ""
+msgstr "Nurkaŝmemora ŝaltita sed neniu kaŝmemoro por deponejo \"{}\""
 
 #: repo/solv_repo.cpp:267
 #, c++-format
 msgid "Failed to load repomd for repo \"{}\" from \"{}\": {}."
-msgstr ""
+msgstr "Malsukcesis ŝargi repomd-dosieron por deponejo \"{}\" el \"{}\": {}."
 
 #: repo/solv_repo.cpp:275
 #, c++-format
 msgid "Failed to load primary for repo \"{}\" from \"{}\": {}."
-msgstr ""
+msgstr "Malsukcesis ŝargi primary-datumojn por deponejo \"{}\" el \"{}\": {}."
 
 #: repo/solv_repo.cpp:323
 #, c++-format
 msgid "Unsupported extended repodata type for the system repo: \"{}\"."
-msgstr ""
+msgstr "Nekonata etendita repodata-tipo por la sistema deponejo: \"{}\"."
 
 #: repo/solv_repo.cpp:395
 #, c++-format
 msgid "Failed to load {} extension for repo \"{}\" from \"{}\": {}"
-msgstr ""
+msgstr "Malsukcesis ŝargi etendaĵon {} por deponejo \"{}\" el \"{}\": {}"
 
 #: repo/solv_repo.cpp:431
 #, c++-format
