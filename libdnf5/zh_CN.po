@@ -4,13 +4,15 @@
 # Languages add-on <noreply-addon-languages@weblate.org>, 2026.
 # Tzuhsi Liu <GAKMOTS@outlook.com>, 2026.
 # 耗子 <haozi@loli.email>, 2026.
+# Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-26 03:48+0000\n"
 "PO-Revision-Date: 2026-04-05 22:12+0000\n"
-"Last-Translator: 耗子 <haozi@loli.email>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/dnf5/libdnf5/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -178,7 +180,7 @@ msgstr "在环境中未找到匹配的组：{}"
 #: base/log_event.cpp:154
 #, c++-format
 msgid "No match for group package: {}"
-msgstr "未找到匹配的组软件包：{}"
+msgstr "没有和组 \"{}\" 匹配的"
 
 #: base/log_event.cpp:158
 #, c++-format
@@ -188,7 +190,7 @@ msgstr "无法执行 {0}，未找到匹配项：{1}。"
 #: base/log_event.cpp:160
 #, c++-format
 msgid "No match for argument: {}"
-msgstr "参数 {} 没有匹配项"
+msgstr "未找到匹配的参数： {}"
 
 #: base/log_event.cpp:163
 #, c++-format
@@ -256,12 +258,12 @@ msgstr "参数 '{0}' 不仅匹配运行中的内核软件包 '{1}'，其余被�
 #: base/log_event.cpp:213
 #, c++-format
 msgid "  * Maybe you meant: {}"
-msgstr "  软件包 \"{0}\" 被排除在事务之外，但 {} 已安装的软件包取决于它。"
+msgstr "  * 可能您的意思是：{}"
 
 #: base/log_event.cpp:216
 #, c++-format
 msgid "There are following alternatives for '{0}': {1}"
-msgstr "参数 '{}' 没有候选项。"
+msgstr "以下是 \"{0}\" 的替代 : {1}"
 
 #: base/log_event.cpp:223
 #, c++-format
@@ -350,22 +352,22 @@ msgstr "- 参数 '{}' 匹配模块 '{}' 的默认流中的软件包，但该模�
 
 #: base/log_event.cpp:302
 msgid "Modular dependency problems:\n"
-msgstr "无法为存储的事务执行自动删除: {}\n"
+msgstr "模块依赖问题：%s\n"
 
 #: base/log_event.cpp:309
 msgid "Modular dependency problems with the latest modules:\n"
-msgstr "为存储的事务执行自动删除时出现异常:\n"
+msgstr "最新的模块存在依赖问题：%s\n"
 
 #: base/log_event.cpp:316
 msgid "Modular dependency problems with the defaults:\n"
-msgstr "使用默认值时出现模块依赖问题:\n"
+msgstr "默认设置的模块依赖性问题：%s\n"
 
 #: base/log_event.cpp:331
 #, c++-format
 msgid ""
 "The operation would result in switching of module '{0}' stream '{1}' to "
 "stream '{2}'\n"
-msgstr "该操作将导致模块 '{0}' 的流从 '{1}' 切换到 '{2}'\n"
+msgstr "这个操作会把模块 '{0}' 从流 '{1}' 切换到流 '{2}'\n"
 
 #: base/log_event.cpp:336
 msgid ""
@@ -385,7 +387,7 @@ msgstr "额外的软件包 '{0}'（操作为 '{1}'）不在存储的事务中，
 #: base/log_event.cpp:347
 #, c++-format
 msgid "Cannot parse file: '{0}': {1}.\n"
-msgstr "无法解析文件：'{0}'：{1}。\n"
+msgstr "无法复制文件 '{0}': {1}\n"
 
 #: base/log_event.cpp:354
 #, c++-format
@@ -423,15 +425,15 @@ msgstr "仓库元数据的校验和不匹配。"
 
 #: base/solver_problems.cpp:43
 msgid "problem with installed package"
-msgstr "元数据签名验证不可用。"
+msgstr "安装的软件包的问题"
 
 #: base/solver_problems.cpp:44 base/solver_problems.cpp:80
 msgid "conflicting requests"
-msgstr "GPG 签名验证不可用。"
+msgstr "冲突的请求"
 
 #: base/solver_problems.cpp:45 base/solver_problems.cpp:81
 msgid "unsupported request"
-msgstr "软件包 \"{}\" 不可用。"
+msgstr "不支持的请求"
 
 #: base/solver_problems.cpp:46 base/solver_problems.cpp:82
 #, c++-format
@@ -450,7 +452,7 @@ msgstr "{} 由系统提供"
 
 #: base/solver_problems.cpp:49 base/solver_problems.cpp:85
 msgid "some dependency problem"
-msgstr "存在依赖问题"
+msgstr "一些依赖问题"
 
 #: base/solver_problems.cpp:50
 #, c++-format
@@ -679,7 +681,7 @@ msgstr "公钥未安装。"
 
 #: base/transaction.cpp:92
 msgid "Canceled by the user."
-msgstr "已被用户取消。"
+msgstr "用户取消。"
 
 #: base/transaction.cpp:93
 msgid "Public key import failed."
@@ -707,7 +709,7 @@ msgstr "来自仓库 \"{}\" 的软件包 \"{}\"（{}）的 OpenPGP 检查失败�
 
 #: base/transaction.cpp:1397
 msgid "Import of the key didn't help, wrong key?"
-msgstr "导入密钥没有帮助，密钥是否错误？"
+msgstr "导入的密钥没有公钥，错误的公钥？"
 
 #: base/transaction.cpp:1416
 msgctxt "It is a joining character for repositories IDs"
@@ -908,7 +910,7 @@ msgstr "无法打开日志文件"
 #: module/module_db.cpp:76 module/module_db.cpp:85 module/module_sack.cpp:767
 #, c++-format
 msgid "No such module: {}"
-msgstr "没有此模块：{}"
+msgstr "不存在模块：{}"
 
 #: module/module_db.cpp:268
 #, c++-format
@@ -924,7 +926,7 @@ msgstr "无法启用多个具有不同版本的模块流"
 #: module/module_goal_private.cpp:83 rpm/solv/goal_private.cpp:342
 #: rpm/solv/goal_private.cpp:764
 msgid "no solution possible"
-msgstr "无法为模块 {} 启用多个流"
+msgstr "没有可能的解决方案"
 
 #: module/module_metadata.cpp:102
 #, c++-format
@@ -1020,11 +1022,11 @@ msgstr "下载文件失败"
 msgid ""
 "Maximum download speed is lower than minimum, please change configuration of "
 "minrate or throttle"
-msgstr "最大下载速度低于最小速度，请更改 minrate 或 throttle 的配置"
+msgstr "最大下载速度低于最小值。请修改 minrate 或 throttle 的配置"
 
 #: repo/librepo.cpp:181
 msgid "'proxy_username' is set but not 'proxy_password'"
-msgstr "设置了 'proxy_username'，但未设置 'proxy_password'"
+msgstr "'proxy_username' 已被设置，但没有设置 'proxy_password'"
 
 #: repo/package_downloader.cpp:154
 #, c++-format
@@ -1231,7 +1233,7 @@ msgstr "未找到具有 rpmdbid 的软件包"
 
 #: rpm/package.cpp:478
 msgid "<unknown>"
-msgstr "<未知>"
+msgstr "未知"
 
 #: rpm/reldep.cpp:116 rpm/reldep.cpp:123
 msgid "Cannot parse a dependency string"
@@ -1277,11 +1279,11 @@ msgstr "无法设置根目录 \"{}\""
 #: rpm/transaction.cpp:125
 #, c-format
 msgid "Error %i opening rpm database"
-msgstr "打开 RPM 数据库时出错 %i"
+msgstr "打开 rpm 数据库时错误 %i"
 
 #: rpm/transaction.cpp:134
 msgid "The rpmdbCookie() function did not return cookie of rpm database."
-msgstr "rpmdbCookie() 函数未返回 RPM 数据库的 cookie。"
+msgstr "rpmdbCookie()函数没有返回 rpm 数据库的 cookie。"
 
 #: rpm/transaction.cpp:199
 msgid "Failed to order the rpm transaction."
@@ -1386,19 +1388,19 @@ msgstr "进行中"
 #: transaction/Swdb.cpp:99 transaction/Swdb.cpp:126 transaction/Swdb.cpp:136
 #: transaction/Swdb.cpp:150 transaction/Swdb.cpp:273 transaction/Swdb.cpp:281
 msgid "Not in progress"
-msgstr "未在进行中"
+msgstr "没有在进行中"
 
 #: transaction/Swdb.cpp:158
 msgid "No transaction in progress"
-msgstr "没有正在进行的事务"
+msgstr "没有事务在进行中"
 
 #: transaction/Transformer.cpp:647
 msgid "Transformer: can't open history persist dir"
-msgstr "Transformer：无法打开历史持久化目录"
+msgstr "转换程序: 无法打开历史持久目录"
 
 #: transaction/Transformer.cpp:660
 msgid "Couldn't find a history database"
-msgstr "找不到历史数据库"
+msgstr "无法打开一个历史数据库"
 
 #. TODO(dmach): replace with a better exception class
 #: transaction/db/comps_environment_group.cpp:100
@@ -1431,7 +1433,7 @@ msgstr "无效的事务状态：{}"
 
 #: transaction/transaction.cpp:279
 msgid "Transaction has already started!"
-msgstr "事务已经开始！"
+msgstr "事务已开始！"
 
 #: transaction/transaction_item_action.cpp:28
 #, c++-format
@@ -1617,7 +1619,7 @@ msgstr "无法打开文件"
 
 #: utils/fs/file.cpp:99
 msgid "cannot open file from fd"
-msgstr "无法从文件描述符打开文件"
+msgstr "无法使用 fd 打开文件"
 
 #: utils/fs/file.cpp:109
 msgid "cannot close file"
@@ -1625,11 +1627,11 @@ msgstr "无法关闭文件"
 
 #: utils/fs/file.cpp:139 utils/fs/file.cpp:168
 msgid "error reading file"
-msgstr "读取文件出错"
+msgstr "读取文件时出错"
 
 #: utils/fs/file.cpp:154 utils/fs/file.cpp:180
 msgid "error writing file"
-msgstr "写入文件出错"
+msgstr "写入文件 \"%s\" 出错："
 
 #: utils/fs/file.cpp:189
 msgid "error flushing file"
@@ -1645,7 +1647,7 @@ msgstr "获取文件位置出错"
 
 #: utils/fs/file.cpp:297
 msgid "error reading a line from file"
-msgstr "从文件读取行出错"
+msgstr "文件 %s 读取错误"
 
 #: utils/fs/file.cpp:335
 msgid "error retrieving file descriptor"
@@ -1653,15 +1655,15 @@ msgstr "获取文件描述符出错"
 
 #: utils/fs/temp.cpp:42
 msgid "cannot create temporary directory"
-msgstr "无法创建临时目录"
+msgstr "无法创建临时目录于"
 
 #: utils/fs/temp.cpp:89
 msgid "cannot create temporary file"
-msgstr "无法创建临时文件"
+msgstr "不能创建临时文件: %s"
 
 #: utils/fs/temp.cpp:142
 msgid "cannot close temporary file"
-msgstr "无法关闭临时文件"
+msgstr "不能创建临时文件: %s"
 
 #: utils/iniparser.cpp:126
 #, c++-format
@@ -1702,12 +1704,12 @@ msgstr "第 {} 行缺少 '='"
 #: utils/library.cpp:34
 #, c++-format
 msgid "Cannot load shared library \"{}\": {}"
-msgstr "无法加载共享库 \"{}\"：{}"
+msgstr "无法加载共享库文件 \"{}\":{}"
 
 #: utils/library.cpp:48
 #, c++-format
 msgid "Cannot obtain address of symbol \"{}\": {}"
-msgstr "无法获取符号 \"{}\" 的地址：{}"
+msgstr "无法获取符号的地址 \"{}\": {}"
 
 #: utils/locale.cpp:57
 #, c++-format
