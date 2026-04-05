@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-26 03:48+0000\n"
-"PO-Revision-Date: 2026-04-05 22:12+0000\n"
+"PO-Revision-Date: 2026-04-06 22:59+0000\n"
 "Last-Translator: 耗子 <haozi@loli.email>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/dnf5/dnf5daemon-client/zh_CN/>\n"
@@ -68,7 +68,7 @@ msgstr "PACKAGE_NAME,..."
 
 #: commands/advisory/arguments.hpp:88
 msgid "List of patterns matched against advisory names."
-msgstr "与建议名称匹配的列表。"
+msgstr "与通告名称匹配的列表。"
 
 #: commands/advisory/arguments.hpp:95
 msgid "Show only advisories referencing a bugzilla."
@@ -101,7 +101,7 @@ msgstr "包含增强建议中包含的内容。"
 
 #: commands/advisory/arguments.hpp:142
 msgid "Include content contained in newpackage advisories."
-msgstr "包含新软件包通告中包含的内容。"
+msgstr "包含新软件包通告中的内容。"
 
 #. Note for translators: "critical" etc. quoted words are
 #. literals that should not be translated.
@@ -141,7 +141,7 @@ msgstr "CVE_ID,..."
 
 #: commands/clean/clean.cpp:88
 msgid "Error cleaning the cache: {}"
-msgstr "清除缓存错误: {}"
+msgstr "清除缓存错误：{}"
 
 #: commands/distro-sync/distro-sync.cpp:48
 msgid ""
@@ -150,7 +150,7 @@ msgstr "升级或降级已安装的软件至最新可用版本"
 
 #: commands/group/group.cpp:41
 msgid "Manage comps groups"
-msgstr "计算机软件包组管理"
+msgstr "管理 comps 组"
 
 #: commands/group/group_list.hpp:37
 msgid "Show only available groups."
@@ -180,19 +180,19 @@ msgstr "搜索符合条件的软件包"
 
 #: commands/repoquery/repoquery.cpp:159
 msgid "Error parsing JSON object \"{}\": {}"
-msgstr "解析 JSON 对象错误 \"{}\": {}"
+msgstr "解析 JSON 对象错误「{}」：{}"
 
 #: exception.cpp:28
 msgid ""
 "This command has to be run with superuser privileges (under the root user on "
 "most systems)."
-msgstr "该命令必须以管理员权限运行(大多数系统是在root用户下)。"
+msgstr "该命令必须以管理员权限运行 (大多数系统是在 root 用户下)。"
 
 #: main.cpp:158
 msgid ""
 "{}: Badly formatted argument value: Last key character cannot be '.': {}"
-msgstr "{}：错误的参数值格式：键名的结尾字符不能是\".\"：{}"
+msgstr "{}：错误的参数值格式：键名的结尾字符不能是「.」：{}"
 
 #: main.cpp:258 main.cpp:308
 msgid ". Add \"--help\" for more information about the arguments."
-msgstr "。添加 \"--help\" 参数来获取更多参数信息。"
+msgstr "。添加「--help」参数来获取更多参数信息。"
