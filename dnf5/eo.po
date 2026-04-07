@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-26 03:48+0000\n"
-"PO-Revision-Date: 2026-04-02 22:58+0000\n"
+"PO-Revision-Date: 2026-04-08 08:58+0000\n"
 "Last-Translator: Keith Bowes <zooplah@gmail.com>\n"
 "Language-Team: Esperanto <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/eo/>\n"
@@ -695,7 +695,7 @@ msgstr "Listigas pakojn, kiuj dependas de la rilato de la pakoj al la sistemo"
 
 #: commands/list/list.cpp:50
 msgid "List of package-spec-NI to match (case insensitively)"
-msgstr "Listo de kongruanta kun pako-spec-NI (ne ignoras usklecon)"
+msgstr "Listo de kongruoj kun pako-spec-NI (ne ignoras usklecon)"
 
 #: commands/list/list.cpp:62
 msgid "Show all versions of the packages, not only the latest ones."
@@ -1054,11 +1054,11 @@ msgstr ""
 
 #: commands/system-upgrade/system-upgrade.cpp:150
 msgid "Store a distro-sync transaction to be performed offline"
-msgstr ""
+msgstr "Konservi transakcion de distro-sync por esti eksterrete plenumota"
 
 #: commands/system-upgrade/system-upgrade.cpp:172
 msgid "Store an upgrade transaction to be performed offline"
-msgstr ""
+msgstr "Konservi promocian transakcion por esti eksterreta plenumota"
 
 #: commands/upgrade/upgrade.cpp:43
 msgid "Upgrade software"
@@ -1071,70 +1071,74 @@ msgid ""
 "limiting advisories is used it upgrades packages only to the lowest versions "
 "that fix advisories that matching selected advisory property"
 msgstr ""
+"Promocii pakojn nur al la plej malgrandaj eldonoj, kiuj riparas avizojn de "
+"tipo bugfix, enhancement, security aŭ newpackage. Okaze de iu opcio, kiu "
+"limigas avizojn, estas uzata, ĝi promocias pakojn nur al la plej malgrandaj "
+"eldonoj, kiuj riparas avizojn, kiuj kongruas kun elektita aviza eco"
 
 #. TODO(mblaha): add full command line
 #: commands/versionlock/utils.cpp:35
 #, c++-format
 msgid "Added by 'versionlock {}' command on {}"
-msgstr ""
+msgstr "Aldonita de komando 'versionlock {}' de {}"
 
 #: commands/versionlock/versionlock.cpp:40
 msgid "Manage versionlock configuration"
-msgstr ""
+msgstr "Administri eldonoŝloso-agordon"
 
 #: commands/versionlock/versionlock_add.cpp:37
 msgid "Add new entry to versionlock configuration"
-msgstr ""
+msgstr "Aldoni novan eron al eldonoŝloso-agordo"
 
 #: commands/versionlock/versionlock_add.cpp:44
 msgid "List of package package-spec-N to add versionlock for"
-msgstr ""
+msgstr "Listo de pakoj (pako-specifo-N) al kiuj aldoni eldonoŝloson"
 
 #: commands/versionlock/versionlock_add.cpp:107
 #: commands/versionlock/versionlock_exclude.cpp:126
 #, c++-format
 msgid "No package found for \"{}\"."
-msgstr ""
+msgstr "Neniu pako trovita por \"{}\"."
 
 #: commands/versionlock/versionlock_add.cpp:134
 #, c++-format
 msgid "Adding versionlock on \"{0} = {1}\"."
-msgstr ""
+msgstr "Aldonas eldonoŝloso en \"{0} = {1}\"."
 
 #: commands/versionlock/versionlock_add.cpp:137
 #, c++-format
 msgid "Package \"{}\" is already locked."
-msgstr ""
+msgstr "Pako \"{}\" jam estas ŝlosita."
 
 #: commands/versionlock/versionlock_clear.cpp:32
 msgid "Remove all entries from versionlock configuration"
-msgstr ""
+msgstr "Forigi ĉiujn erojn de la eldonoŝloso-agordo"
 
 #: commands/versionlock/versionlock_delete.cpp:35
 msgid "Remove any matching versionlock configuration entries"
-msgstr ""
+msgstr "Forigi ĉiujn kongruantajn erojn de eldonoŝloso-agordo"
 
 #: commands/versionlock/versionlock_delete.cpp:41
 msgid "List of package specs to remove versionlock for"
-msgstr ""
+msgstr "Listo de pako-specifoj por kiuj forigi eldonoŝlosojn"
 
 #: commands/versionlock/versionlock_delete.cpp:55
 msgid "Deleting versionlock entry:"
-msgstr ""
+msgstr "Forigi eldonoŝlosan eron:"
 
 #: commands/versionlock/versionlock_exclude.cpp:37
 msgid "Add new exclude entry to versionlock configuration"
-msgstr ""
+msgstr "Aldonis novan ekskluzivigan eron al eldonoŝloso-agordo"
 
 #: commands/versionlock/versionlock_exclude.cpp:44
 msgid "List of package-spec-N to add versionlock exclude for"
-msgstr ""
+msgstr "Listo de pako-specifoj al kiuj aldoni eldonoŝlosan ekskluzivigo"
 
 #: commands/versionlock/versionlock_exclude.cpp:89
 #: commands/versionlock/versionlock_exclude.cpp:101
 #, c++-format
 msgid "Adding versionlock exclude on \"{0} = {1}\"."
-msgstr ""
+msgstr "Aldonas eldonoŝlosan ekskluzivigon al \"{0} = {1}\"."
 
 #: commands/versionlock/versionlock_exclude.cpp:140
 #, c++-format
@@ -1167,39 +1171,41 @@ msgstr "La ŝlosilo estis sukcese importita."
 #: context.cpp:96
 #, c++-format
 msgid "The following OpenPGP key (0x{}) is about to be removed:"
-msgstr ""
+msgstr "La jena OpenPGP-ŝlosilo (0x{}) estas forigota:"
 
 #: context.cpp:98
 #, c++-format
 msgid " Reason     : {}\n"
-msgstr ""
+msgstr " Kialo      : {}\n"
 
 #: context.cpp:102
 #, c++-format
 msgid " Fingerprint: {}\n"
-msgstr ""
+msgstr " Fingropremĵo: {}\n"
 
 #: context.cpp:104
 msgid "As a result, installing packages signed with this key will fail."
-msgstr ""
+msgstr "Pro tio instalo de pakoj subskribitaj per tiu ŝlosilo malsukcesos."
 
 #: context.cpp:105
 msgid "It is recommended to remove the expired key to allow importing"
 msgstr ""
+"Rekomendinde estas forigi la eksvalidiĝinta ŝlosilo por permesi importadon"
 
 #: context.cpp:106
 msgid ""
 "an updated key. This might leave already installed packages unverifiable."
 msgstr ""
+"ĝisdatigita ŝlosilo. Tio eble restigos jam instalitajn pakojn nekontroleblaj."
 
 #: context.cpp:109
 msgid "The system will now proceed with removing the key."
-msgstr ""
+msgstr "La sistemo nun forigos la ŝlosilon."
 
 #: context.cpp:115
 #, c++-format
 msgid "Key 0x{} was successfully removed."
-msgstr ""
+msgstr "Ŝlosilo 0x{} sukcese estis forigita."
 
 #: context.cpp:295
 #, c++-format
@@ -1212,6 +1218,8 @@ msgid ""
 "No matching repositories for {}. To use repositories from a host system, "
 "pass --use-host-config option"
 msgstr ""
+"Neniuj kongruantaj deponejoj por {}. Por uzi deponejen el fora sistemo, donu "
+"la opcion --use-host-config"
 
 #: context.cpp:309
 #, c++-format
@@ -1246,18 +1254,22 @@ msgid ""
 "Location \"{}\" already contains a stored transaction, it will be "
 "overwritten."
 msgstr ""
+"Loko \"{}\" jam enhavas konservitan transakcion. Ĝi estos anstataŭigita."
 
 #: context.cpp:476
 msgid ""
 "There is already an offline transaction queued, initiated by the following "
 "command:"
 msgstr ""
+"Jam estas atendanta eksterreta transakcio, iniciatita de la jena komando:"
 
 #: context.cpp:478
 msgid ""
 "Continuing will cancel the old offline transaction and replace it with this "
 "one."
 msgstr ""
+"Daŭrigo nuligos la eksan eksterretan transakcion kaj anstataŭigi ĝin per ĉi "
+"tio."
 
 #: context.cpp:496
 msgid ""
@@ -1265,10 +1277,13 @@ msgid ""
 "reboot and run the transaction. To cancel the transaction and delete the "
 "downloaded files, use `dnf5 offline clean`."
 msgstr ""
+"Transakcio konservita eksterrete plenumota. Uzu la komandon 'dnf "
+"offlinereboot` por plenumigi la transakcion. Por nuligi la transakcion kaj "
+"forigi la elŝutitajn dosierojn, uzu la komandon `dnf offline clean`."
 
 #: context.cpp:502
 msgid "Running transaction"
-msgstr ""
+msgstr "Plenumas transakcion"
 
 #: context.cpp:820
 #, c++-format
@@ -1288,7 +1303,7 @@ msgstr "Reinstalo de {}"
 #: context.cpp:839
 #, c++-format
 msgid "Unexpected action in TransactionPackage: {}"
-msgstr ""
+msgstr "Neatendita ago en TransactionPackage: {}"
 
 #: context.cpp:845
 #, c++-format
@@ -1371,7 +1386,7 @@ msgstr "DNF5 estas programo por prizorgi pakojn."
 
 #: main.cpp:135
 msgid "Unclassified options:"
-msgstr ""
+msgstr "Neklasifikitaj opcioj:"
 
 #: main.cpp:138
 msgid "Global options:"
@@ -1391,20 +1406,24 @@ msgid ""
 "content. Suppresses messages notifying about the current state or actions of "
 "dnf5."
 msgstr ""
+"Kombinita kun neinteraga komando montras nur la koncernantan enhavon. "
+"Silentigas mesaĝojn, kiuj sciigas pri la nuna stato aŭ agoj de dnf5."
 
 #: main.cpp:173
 msgid ""
 "Run entirely from system cache, don't update the cache and use it even in "
 "case it is expired."
 msgstr ""
+"Plenumigi tute el la sistema kaŝmemoro. Ne promocii la kaŝmemoron kaj uzi "
+"ĝin eĉ okaze de ĝia eksvalidiĝo."
 
 #: main.cpp:182
 msgid "Control whether color is used."
-msgstr ""
+msgstr "Regi, ĉu koloroj estas uzataj."
 
 #: main.cpp:188
 msgid "Force refreshing metadata before running the command."
-msgstr ""
+msgstr "Eldevigi refreŝigi metadatumojn antaŭ plenumo de la komando."
 
 #: main.cpp:204
 #, c++-format
@@ -1422,7 +1441,7 @@ msgstr "repofrompath: Malĝusta deponeja kaj voja specifo \"{}\""
 
 #: main.cpp:238
 msgid "set arbitrary config and repo options"
-msgstr ""
+msgstr "agordi arbitrajn agordajn kaj deponejajn opciojn"
 
 #: main.cpp:240
 msgid ""
@@ -1434,6 +1453,13 @@ msgid ""
 "              they do not override it. However, specifying an empty value "
 "(e.g. --setopt=tsflags=) will clear the option."
 msgstr ""
+"Transpasi agordan opcion de la agordo-dosiero. Por transpasi agordajn "
+"opciojn por deponejoj uzu la notacion deponejo.opcio por la\n"
+"              <opcio>. Valoroj por agordaj opcioj tiaj excludepkgs, "
+"includepkgs, installonlypkgs kaj tsflags estas alkroĉitaj al la origina "
+"valoro,\n"
+"              ili ne transpasas ĝin. Tamen specifi malplenan valoron (ekz-"
+"e --setopt=tsflags=) viŝos la opcion."
 
 #: main.cpp:249 main.cpp:288
 #, c++-format
@@ -1455,7 +1481,7 @@ msgstr "setopt: \"{0}\": {1}"
 
 #: main.cpp:281
 msgid "set arbitrary variable"
-msgstr ""
+msgstr "agordi arbitran variablon"
 
 #: main.cpp:295
 #, c++-format
@@ -1483,22 +1509,28 @@ msgid ""
 "Don't install files that are marked as documentation (which includes man "
 "pages and texinfo documents)"
 msgstr ""
+"Ne instali dosierojn, kiuj estas markitaj kiel dokumentaj (kiuj inkluzivas "
+"manlibrajn paĝojn kaj texinfo-dokumentojn)"
 
 #: main.cpp:352
 msgid "exclude packages by name or glob"
-msgstr ""
+msgstr "ekskluzivigi pakojn laŭ nomo aŭ ĵokero"
 
 #: main.cpp:371
 msgid ""
 "Enable additional repositories. List option. Supports globs, can be "
 "specified multiple times."
 msgstr ""
+"Ŝalti aldonajn deponejojn. Lista opcio. Uzeblas ĵokeroj, eblas esti "
+"specifita plurfoje."
 
 #: main.cpp:389
 msgid ""
 "Disable repositories. List option. Supports globs, can be specified multiple "
 "times."
 msgstr ""
+"Malŝalti deponejojn. Lista opcio. Uzeblas ĵokeroj, eblas esti specifita "
+"plurfoje."
 
 #: main.cpp:407
 msgid ""
@@ -1541,39 +1573,47 @@ msgid ""
 "Adds a comment to the action. If a transaction takes place, the comment is "
 "stored in it."
 msgstr ""
+"Aldonas komenton al la ago. Se transakcio okazas la komento estas konservita "
+"en ĝi."
 
 #: main.cpp:503
 msgid "set install root"
-msgstr ""
+msgstr "agordi instalan radikon"
 
 #: main.cpp:510
 msgid ""
 "use configuration, reposdir, and vars from the host system rather than the "
 "installroot"
 msgstr ""
+"uzi agordon, deponejan dosierujon kaj variablon el la sistemo anstataŭ el la "
+"instala radiko"
 
 #: main.cpp:519
 msgid "override the value of $releasever in config and repo files"
-msgstr ""
+msgstr "transpasas la valoron de $releasever en agordaj kaj deponejaj dosieroj"
 
 #: main.cpp:532
 msgid ""
 "Show newly installed leaf packages and packages that became leaves after a "
 "transaction."
 msgstr ""
+"Montri nove instalitajn foliajn pakojn kaj pakojn, kiuj foliiĝis post "
+"transakcio."
 
 #: main.cpp:546
 msgid "Dump detailed solving results into files"
-msgstr ""
+msgstr "Ŝuti detalajn solvajn rezultojn en dosierojn"
 
 #: main.cpp:555
 msgid "Print main configuration values to stdout"
-msgstr ""
+msgstr "Eligi ĉefajn agordajn valorojn al ĉefeligujo"
 
 #: main.cpp:572
 msgid ""
 "Print repository configuration values to stdout. List option. Supports globs"
 msgstr ""
+"Eligi deponejajn agordajn valorojn al ĉefeligujo. Lista opcio. Uzeblas "
+"ĵokeroj"
 
 #: main.cpp:587
 msgid "Print variable values to stdout"
@@ -1589,7 +1629,7 @@ msgstr "Eldevigi la uzon de alia arĥitekturo."
 
 #: main.cpp:646
 msgid "Software Management Commands:"
-msgstr ""
+msgstr "Komandoj por administrado de pakoj:"
 
 #: main.cpp:653
 msgid "Query Commands:"
@@ -1657,6 +1697,8 @@ msgid ""
 "After this operation, {:.0f} {:s} extra will be used (install {:.0f} {:s}, "
 "remove {:.0f} {:s})."
 msgstr ""
+"Post la operacio {:.0f} {:s} aldona uziĝos (instalo {:.0f} {:s}, forigo "
+"{:.0f} {:s})."
 
 #: main.cpp:853
 #, c++-format
@@ -1664,6 +1706,8 @@ msgid ""
 "After this operation, {:.0f} {:s} will be freed (install {:.0f} {:s}, remove "
 "{:.0f} {:s})."
 msgstr ""
+"Post la operacio {:.0f} {:s} liberiĝos (instalo {:.0f} {:s}, forigo {:.0f} "
+"{:s})."
 
 #: main.cpp:865
 msgid "======== Main configuration: ========"
@@ -1695,12 +1739,12 @@ msgstr " {}"
 #: main.cpp:1013
 #, c++-format
 msgid "{} to skip unavailable packages"
-msgstr "{} por preterlasi nedisponeblajn pakojn"
+msgstr "{} por preterpasi nedisponeblajn pakojn"
 
 #: main.cpp:1021
 #, c++-format
 msgid "{} to allow extra packages in the transaction"
-msgstr ""
+msgstr "{} por permesi aldonajn pakojn en la transakcio"
 
 #: main.cpp:1034
 #, c++-format
@@ -1709,6 +1753,9 @@ msgid ""
 "This can result in an empty transaction because among other things the "
 "option can ignore failing Remove actions."
 msgstr ""
+"{} por permesi malkongruoj inter instalitaj kaj konservitaj transakciaj "
+"pakoj. Tio povas kaŭzi malplenan transakcion ĉar interalie la opcio povas "
+"ignori malsukcesajn agojn de Remove."
 
 #: main.cpp:1081
 #, c++-format
@@ -1787,10 +1834,12 @@ msgid ""
 "The argument is available for commands: {}. (It has to be placed after the "
 "command.)"
 msgstr ""
+"La argumento disponeblas por komandoj: {}. (Ĝe devas esti metita post la "
+"komando.)"
 
 #: main.cpp:1399
 msgid "No read/execute access in current directory, moving to /"
-msgstr ""
+msgstr "Neniuj legaj/plenumigaj atingorajtoj en la nuna dosierujo, moviĝas al /"
 
 #: main.cpp:1471
 msgid ""
@@ -1798,6 +1847,9 @@ msgid ""
 "user with elevated rights, or use the \"--assumeno\" or \"--downloadonly\" "
 "options to run the command without modifying the system state."
 msgstr ""
+"La petita operacio postulas privilegiojn de la ĉefuzanto. Bonvolu ensaluti "
+"kiel uzulo kun pli da rajtoj, aŭ uzi la opciojn \"--assumeno\" aŭ \"----"
+"downloadonly\" por plenumigi la komandon sen modifo de la sistema stato."
 
 #: main.cpp:1512
 #, c++-format
@@ -1806,25 +1858,31 @@ msgstr "La operacio konservos la transakcion nur en {}"
 
 #: main.cpp:1514
 msgid "The operation will only download packages for the transaction."
-msgstr ""
+msgstr "La operacio elŝutos nur pakojn por la transakcio."
 
 #: main.cpp:1519
 msgid ""
 "Test mode enabled: Only package downloads, OpenPGP key installations and "
 "transaction checks will be performed."
 msgstr ""
+"Testreĝimo ŝaltita: Nur pakaj elŝutaĵoj, OpenPGP-ŝlosilaj instaloj kaj "
+"transakciaj kontroloj plenumiĝos."
 
 #: main.cpp:1527
 msgid ""
 "Error: this bootc system is configured to be read-only. For more "
 "information, run `bootc --help`."
 msgstr ""
+"Eraro: ĉi tiu bootc-sistemo estas agordita kiel nurlega. Por pliaj informoj "
+"uzu la komandon `bootc --help`."
 
 #: main.cpp:1544
 msgid ""
 "No repositories were loaded from the installroot. To use the configuration "
 "and repositories of the host system, pass --use-host-config."
 msgstr ""
+"Neniuj deponejoj estis ŝargitaj el la instala radiko. Por uzi la agordon kaj "
+"deponejojn de la sistemo, uzu la opcion --use-host-config."
 
 #: main.cpp:1566
 #, c++-format
@@ -1849,4 +1907,4 @@ msgstr "Permesi solvi problemojn pri dependaĵa solvado per preterlaso de pakoj"
 
 #: shared_options.cpp:54
 msgid "Allow skipping unavailable packages"
-msgstr "Permesi preterlasi nedisponeblajn pakojn"
+msgstr "Permesi preterpasi nedisponeblajn pakojn"
