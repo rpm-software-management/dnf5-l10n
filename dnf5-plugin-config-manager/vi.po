@@ -2,13 +2,13 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Tri Phuong Nguyen <triphuongvasa@gmail.com>, 2025.
-# Khoa Le <inctenone@gmail.com>, 2025.
+# Khoa Le <inctenone@gmail.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-26 03:48+0000\n"
-"PO-Revision-Date: 2025-11-28 17:00+0000\n"
+"PO-Revision-Date: 2026-04-08 08:58+0000\n"
 "Last-Translator: Khoa Le <inctenone@gmail.com>\n"
 "Language-Team: Vietnamese <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5-plugin-config-manager/vi/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.14.3\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #: addrepo.cpp:136
 #, c++-format
@@ -37,12 +37,12 @@ msgstr "{}: Giá trị đối số \"{}\" được định dạng sai"
 #: addrepo.cpp:179
 #, c++-format
 msgid "Cannot set repository option \"{}={}\": {}"
-msgstr ""
+msgstr "Không thể thiết lập tùy chọn kho lưu trữ \"{}={}\": {}"
 
 #: addrepo.cpp:187 setopt.cpp:138
 #, c++-format
 msgid "Sets the \"{}\" option again with a different value: \"{}\" != \"{}\""
-msgstr ""
+msgstr "Đặt lại tùy chọn \"{}\" với một giá trị khác: \"{}\" ≠ \"{}\""
 
 #: addrepo.cpp:253
 msgid "Missing path to repository configuration directory"
@@ -51,12 +51,12 @@ msgstr "Thiếu đường dẫn tới thư mục cài đặt kho chứa"
 #: addrepo.cpp:303
 #, c++-format
 msgid "Failed to copy repository configuration file \"{}\": {}"
-msgstr ""
+msgstr "Không sao chép được tệp cấu hình kho lưu trữ \"{}\": {}"
 
 #: addrepo.cpp:314
 #, c++-format
 msgid "Failed to download repository configuration file \"{}\": {}"
-msgstr ""
+msgstr "Không thể tải xuống được tệp cấu hình kho lưu trữ \"{}\": {}"
 
 #: addrepo.cpp:342
 #, c++-format
@@ -64,22 +64,27 @@ msgid ""
 "Error in added repository configuration file. Cannot set repository option "
 "\"{}={}\": {}"
 msgstr ""
+"Lỗi trong tệp cấu hình kho lưu trữ đã thêm. Không thể thiết lập tùy chọn kho "
+"lưu trữ \"{}={}\": {}"
 
 #: addrepo.cpp:376
 #, c++-format
 msgid "Bad baseurl: {}={}"
-msgstr ""
+msgstr "URL cơ sở không hợp lệ: {}={}"
 
 #: addrepo.cpp:384
 msgid ""
 "One of --from-repofile=<URL>, --set=baseurl=<URL>, --set=mirrorlist=<URL>, --"
 "set=metalink=<URL> must be set to a non-empty URL"
 msgstr ""
+"Phải thiết lập ít nhất một trong các tham số --from-repofile, --"
+"set=baseurl, --set=mirrorlist, hoặc --set=metalink với một URL không được để "
+"trống"
 
 #: addrepo.cpp:429
 #, c++-format
 msgid "Failed to save repository configuration file \"{}\": {}"
-msgstr ""
+msgstr "Không thể lưu tệp cấu hình kho lưu trữ \"{}\": {}"
 
 #: addrepo.cpp:451
 #, c++-format
@@ -87,6 +92,8 @@ msgid ""
 "File \"{}\" already exists and configures repositories with IDs \"{}\". Add "
 "\"--add-or-replace\" or \"--overwrite\"."
 msgstr ""
+"Tệp \"{}\" đã tồn tại và cấu hình các kho lưu trữ có ID là \"{}\". Hãy thêm "
+"tùy chọn \"--add-or-replace\" hoặc \"--overwrite\"."
 
 #: addrepo.cpp:454
 #, c++-format
@@ -94,26 +101,30 @@ msgid ""
 "File \"{}\" already exists and configures repositories with IDs \"{}\". Add "
 "\"--overwrite\" to overwrite."
 msgstr ""
+"Tệp \"{}\" đã tồn tại và cấu hình các kho lưu trữ có ID là \"{}\". Hãy thêm "
+"tùy chọn \"--overwrite\" để ghi đè."
 
 #: addrepo.cpp:474 addrepo.cpp:500
 #, c++-format
 msgid "A repository with id \"{}\" already configured in file: {}"
-msgstr ""
+msgstr "Một kho lưu trữ có ID \"{}\" đã được cấu hình trong tệp: {}"
 
 #: addrepo.cpp:486 setopt.cpp:263
 #, c++-format
 msgid "Cannot read repositories from directory \"{}\": {}"
-msgstr ""
+msgstr "Không thể đọc các kho lưu trữ từ thư mục \"{}\": {}"
 
 #: config-manager.cpp:43
 msgid "Manage configuration"
-msgstr ""
+msgstr "Quản lý cấu hình"
 
 #: setopt.cpp:91 unsetopt.cpp:72
 #, c++-format
 msgid ""
 "{}: Badly formatted argument value: Last key character cannot be '.': {}"
 msgstr ""
+"{}: Giá trị đối số định dạng không đúng: Ký tự cuối cùng của khóa không được "
+"là '.': {}"
 
 #: setopt.cpp:100 unsetopt.cpp:81
 #, c++-format
