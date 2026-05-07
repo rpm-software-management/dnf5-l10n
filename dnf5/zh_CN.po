@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-26 03:48+0000\n"
-"PO-Revision-Date: 2026-05-07 16:09+0000\n"
+"PO-Revision-Date: 2026-05-08 16:59+0000\n"
 "Last-Translator: Luke Na <narukeu@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/dnf5/dnf5/zh_CN/>\n"
@@ -539,8 +539,8 @@ msgid ""
 "as errors. This can result in an empty transaction because among other "
 "things the option can ignore failing Remove actions."
 msgstr ""
-"不要将已安装和存储的软件包事务的不匹配视为错误。这可能会导致清空事务，因为除"
-"其他事项外，该选项可以忽略失败的删除操作。"
+"不要将已安装的软件包和已存储事务中的软件包之间的不匹配视为错误。这可能导致产"
+"生空事务，因为除其他原因外，该选项会忽略失败的删除操作。"
 
 #: commands/history/arguments.hpp:67
 msgid "Don't consider extra packages pulled into the transaction as errors."
@@ -561,7 +561,7 @@ msgid ""
 "No match found, history info defaults to considering only the last "
 "transaction, specify \"1..last\" range to search all transactions."
 msgstr ""
-"未找到匹配项，历史信息默认仅考虑最后一次操作，请设定「1..last」范围以搜索所有"
+"未找到匹配项，历史信息默认仅考虑最后一次事务，请设定「1..last」范围以搜索所有"
 "操作。"
 
 #: commands/history/history_redo.cpp:54
@@ -599,7 +599,7 @@ msgstr "安装软件"
 #: commands/leaves/leaves.cpp:42
 msgid ""
 "List groups of installed packages not required by other installed packages"
-msgstr "列出已安装软件包不需要的其它已安装软件包组"
+msgstr "列出不被其他已安装软件包所依赖的已安装软件包组"
 
 #: commands/list/list.cpp:46
 msgid "Lists packages depending on the packages' relation to the system"
@@ -607,7 +607,7 @@ msgstr "根据软件包与系统的关系列出软件包"
 
 #: commands/list/list.cpp:50
 msgid "List of package-spec-NI to match (case insensitively)"
-msgstr "不区分大小写匹配的包配置列表"
+msgstr "用于匹配的软件包规格列表（不区分大小写）"
 
 #: commands/list/list.cpp:62
 msgid "Show all versions of the packages, not only the latest ones."
@@ -632,7 +632,7 @@ msgstr ""
 msgid ""
 "List packages installed on the system that are obsoleted by packages in any "
 "known repository."
-msgstr "列出系统上已安装的软件包，这些软件包在任何已知仓库中过时。"
+msgstr "列出已安装在系统上的软件包，这些软件包已被任何已知仓库中的软件包所取代。"
 
 #: commands/list/list.cpp:94
 msgid "List packages recently added into the repositories."
@@ -1119,7 +1119,7 @@ msgstr "位置「{}」已包含存储的事务，将被覆盖。"
 msgid ""
 "There is already an offline transaction queued, initiated by the following "
 "command:"
-msgstr "已有一个离线事务在队列中，它将在以下命令中启动："
+msgstr "队列中已有一个离线事务，由以下命令启动："
 
 #: context.cpp:478
 msgid ""
@@ -1182,7 +1182,7 @@ msgstr "Cpio 错误：{}"
 
 #: context.cpp:925
 msgid "Scriptlet output:"
-msgstr "包输出："
+msgstr "脚本输出："
 
 #: context.cpp:948
 msgid "Running scriptlets"
@@ -1190,7 +1190,7 @@ msgstr "运行脚本"
 
 #: context.cpp:953
 msgid "Running {} scriptlet: {}"
-msgstr "运行 {}，包：{}"
+msgstr "正在运行 {} 脚本：{}"
 
 #: context.cpp:968
 msgid "Finished {} scriptlet: {}"
@@ -1406,7 +1406,7 @@ msgstr "覆盖在配置文件和仓库文件中 $releasever 的值"
 msgid ""
 "Show newly installed leaf packages and packages that became leaves after a "
 "transaction."
-msgstr "显示新安装的子软件包和事务完成后成为子软件包的软件包。"
+msgstr "显示新安装的叶子软件包，以及在事务完成后成为叶子节点的软件包。"
 
 #: main.cpp:546
 msgid "Dump detailed solving results into files"
@@ -1520,7 +1520,7 @@ msgstr "======== 变量：========"
 
 #: main.cpp:967
 msgid "New leaves:"
-msgstr "新子软件包："
+msgstr "新增叶子软件包："
 
 #: main.cpp:969
 msgid " {}"
@@ -1613,8 +1613,8 @@ msgid ""
 "user with elevated rights, or use the \"--assumeno\" or \"--downloadonly\" "
 "options to run the command without modifying the system state."
 msgstr ""
-"请求的操作需要超级用户权限。请使用有权限的用户来操作。或者使用「--assumeno」"
-"或「--downloadonly」参数运行该命令不修改当前系统状态。"
+"请求的操作需要超级用户权限。请以提升权限的用户登录。或者使用「--assumeno」或"
+"「--downloadonly」选项运行该命令，以便在不修改系统状态的情况下进行操作。"
 
 #: main.cpp:1512
 msgid "The operation will only store the transaction in {}"
