@@ -3,14 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Languages add-on <noreply-addon-languages@weblate.org>, 2026.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2026.
+# Priit Jõerüüt <jrtkbfdr@users.noreply.translate.fedoraproject.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-26 03:48+0000\n"
 "PO-Revision-Date: 2026-06-02 16:01+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: Priit Jõerüüt "
+"<jrtkbfdr@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Estonian <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/et/>\n"
 "Language: et\n"
@@ -104,7 +105,7 @@ msgstr "Võta kasutusele"
 
 #: base/goal_elements.cpp:384
 msgid "Disable"
-msgstr ""
+msgstr "Eemalda kasutuselt"
 
 #: base/goal_elements.cpp:386
 msgid "Reset"
@@ -674,7 +675,7 @@ msgstr ""
 
 #: base/transaction.cpp:92
 msgid "Canceled by the user."
-msgstr "Katkestatud kasutaja poolt"
+msgstr "Katkestatud kasutaja poolt."
 
 #: base/transaction.cpp:93
 msgid "Public key import failed."
@@ -727,7 +728,7 @@ msgstr[1] ""
 
 #: common/exception.cpp:78
 msgid "System error"
-msgstr "Süsteemi viga"
+msgstr "Süsteemiviga"
 
 #: common/exception.cpp:199
 msgid "General RuntimeError exception"
@@ -846,7 +847,7 @@ msgstr ""
 #: conf/option_path.cpp:98
 #, c++-format
 msgid "Path \"{}\" does not exist"
-msgstr "Asukohta pole olemas."
+msgstr "„{}“ asukohta pole olemas"
 
 #: conf/option_seconds.cpp:38
 msgid "Empty time option value"
@@ -1005,7 +1006,7 @@ msgstr ""
 
 #: repo/file_downloader.cpp:216
 msgid "Failed to download files"
-msgstr "Allalaadimine ei õnnestunud: %1"
+msgstr "Failide allalaadimine ei õnnestunud"
 
 #: repo/librepo.cpp:118
 msgid ""
@@ -1222,7 +1223,7 @@ msgstr ""
 
 #: rpm/package.cpp:478
 msgid "<unknown>"
-msgstr "tundmatu"
+msgstr "<tundmatu>"
 
 #: rpm/reldep.cpp:116 rpm/reldep.cpp:123
 msgid "Cannot parse a dependency string"
@@ -1614,7 +1615,7 @@ msgstr ""
 
 #: utils/fs/file.cpp:139 utils/fs/file.cpp:168
 msgid "error reading file"
-msgstr "faili lugemise viga"
+msgstr "viga faili lugemisel"
 
 #: utils/fs/file.cpp:154 utils/fs/file.cpp:180
 msgid "error writing file"
@@ -1622,7 +1623,7 @@ msgstr "viga faili kirjutamisel"
 
 #: utils/fs/file.cpp:189
 msgid "error flushing file"
-msgstr "faili lukustamise viga"
+msgstr "viga faili tühjendamisel"
 
 #: utils/fs/file.cpp:198
 msgid "error seeking in file"
