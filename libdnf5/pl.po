@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Paweł Marciniak <sunwire+fas@gmail.com>, 2024, 2025, 2026.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024, 2025, 2026.
+# Nik Nikovsky <zejdzztegomaila@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-26 03:48+0000\n"
-"PO-Revision-Date: 2026-02-27 00:58+0000\n"
-"Last-Translator: Paweł Marciniak <sunwire+fas@gmail.com>\n"
+"PO-Revision-Date: 2026-06-09 13:18+0000\n"
+"Last-Translator: Nik Nikovsky <zejdzztegomaila@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/pl/>\n"
 "Language: pl\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.16.1\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #: advisory/advisory.cpp:81
 msgid ""
@@ -82,8 +83,9 @@ msgid "Remove"
 msgstr "Usuń"
 
 #: base/goal_elements.cpp:374
+#, fuzzy
 msgid "Distrosync"
-msgstr ""
+msgstr "Distrosync"
 
 #: base/goal_elements.cpp:376
 msgid "Distrosync all"
@@ -115,19 +117,20 @@ msgstr ""
 
 #: base/goal_elements.cpp:390
 msgid "Install action"
-msgstr ""
+msgstr "Dodaj akcję"
 
 #: base/goal_elements.cpp:392
 msgid "Remove action"
-msgstr ""
+msgstr "Usuń akcję"
 
 #: base/goal_elements.cpp:394
+#, fuzzy
 msgid "Upgrade action"
-msgstr ""
+msgstr "Aktualizuj akcję"
 
 #: base/goal_elements.cpp:396
 msgid "Reinstall action"
-msgstr ""
+msgstr "Reinstaluj akcję"
 
 #: base/goal_elements.cpp:398
 msgid "Reason change action"
@@ -142,8 +145,9 @@ msgid "Revert comps upgrade"
 msgstr ""
 
 #: base/goal_elements.cpp:404
+#, fuzzy
 msgid "Install debug RPMs"
-msgstr ""
+msgstr "Instaluj RPM do debugowania"
 
 #: base/goal_elements.cpp:406
 msgid "Transaction merge"
@@ -575,8 +579,9 @@ msgid "module {0} obsoletes {1} provided by {2}"
 msgstr ""
 
 #: base/solver_problems.cpp:96
+#, fuzzy
 msgid "installed module {0} obsoletes {1} provided by {2}"
-msgstr ""
+msgstr "Zainstalowany moduł {0} (przestarzałe) {1} zapewnione przez {2}"
 
 #: base/solver_problems.cpp:97
 msgid "module {0} implicitly obsoletes {1} provided by {2}"
@@ -1408,10 +1413,13 @@ msgid ""
 msgstr ""
 
 #: transaction/transaction_merge.cpp:245
+#, fuzzy
 msgid ""
 "Action '{0}' '{1}' cannot be merged because it is not present at that point -"
 "> setting 'INSTALL'."
 msgstr ""
+"Akcja '{0}' '{1}' nie może być uwspólniona, ponieważ nie istnieje w "
+"punkcie -> setting 'INSTALL'"
 
 #: transaction/transaction_merge.cpp:266
 msgid ""
