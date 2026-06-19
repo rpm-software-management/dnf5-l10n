@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-26 03:48+0000\n"
-"PO-Revision-Date: 2026-06-02 16:01+0000\n"
+"PO-Revision-Date: 2026-06-20 09:12+0000\n"
 "Last-Translator: Priit Jõerüüt "
 "<jrtkbfdr@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Estonian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -53,15 +53,15 @@ msgstr ""
 
 #: base/goal_elements.cpp:358
 msgid "Upgrade"
-msgstr ""
+msgstr "Uuenda"
 
 #: base/goal_elements.cpp:360
 msgid "Upgrade all"
-msgstr ""
+msgstr "Uuenda kõik"
 
 #: base/goal_elements.cpp:362
 msgid "Upgrade minimal"
-msgstr ""
+msgstr "Uuenda minimaalset vajalik"
 
 #: base/goal_elements.cpp:364
 msgid "Upgrade all minimal"
@@ -69,11 +69,11 @@ msgstr ""
 
 #: base/goal_elements.cpp:366
 msgid "Downgrade"
-msgstr ""
+msgstr "paigalda varasem version"
 
 #: base/goal_elements.cpp:368
 msgid "Reinstall"
-msgstr ""
+msgstr "Paigalda uuesti"
 
 #: base/goal_elements.cpp:370
 msgid "Install or reinstall"
@@ -97,7 +97,7 @@ msgstr ""
 
 #: base/goal_elements.cpp:380
 msgid "Resolve"
-msgstr ""
+msgstr "Lahenda"
 
 #: base/goal_elements.cpp:382
 msgid "Enable"
@@ -437,16 +437,16 @@ msgstr ""
 #: base/solver_problems.cpp:47
 #, c++-format
 msgid "package {} does not exist"
-msgstr ""
+msgstr "{} paketti pole olemas"
 
 #: base/solver_problems.cpp:48 base/solver_problems.cpp:84
 #, c++-format
 msgid "{} is provided by the system"
-msgstr ""
+msgstr "{} on tagatud süsteemi poolt"
 
 #: base/solver_problems.cpp:49 base/solver_problems.cpp:85
 msgid "some dependency problem"
-msgstr ""
+msgstr "mõni sõltuvusprobleem"
 
 #: base/solver_problems.cpp:50
 #, c++-format
@@ -633,12 +633,12 @@ msgstr ""
 
 #: base/solver_problems.cpp:290
 msgid "Problem: "
-msgstr ""
+msgstr "Probleem: "
 
 #: base/solver_problems.cpp:294
 #, c++-format
 msgid "Problem {}: "
-msgstr ""
+msgstr "Probleem {}: "
 
 #: base/transaction.cpp:80
 msgid "This transaction has been already run before."
@@ -689,12 +689,12 @@ msgstr ""
 #: base/transaction.cpp:1314
 #, c++-format
 msgid "Public key \"{}\" is already present, not importing."
-msgstr ""
+msgstr "Avalik võti „{}“ on juba olemas, jätan importimise vahele."
 
 #: base/transaction.cpp:1335
 #, c++-format
 msgid "An error occurred importing key \"{}\": {}"
-msgstr ""
+msgstr "„{}“ võtme importimisel tekkis viga: {}"
 
 #: base/transaction.cpp:1369
 #, c++-format
@@ -951,7 +951,7 @@ msgstr ""
 
 #: module/module_sack.cpp:594
 msgid "Missing '='"
-msgstr ""
+msgstr "Puudu on „=“"
 
 #: module/module_sack.cpp:598 module/module_sack.cpp:606
 msgid "Missing '\"' in the value"
@@ -1025,7 +1025,7 @@ msgstr ""
 
 #: repo/package_downloader.cpp:231
 msgid "Already downloaded"
-msgstr ""
+msgstr "On juba allalaaditud"
 
 #: repo/package_downloader.cpp:279
 msgid "Failed to download packages"
@@ -1338,7 +1338,7 @@ msgstr ""
 #: rpm/versionlock_config.cpp:284 system/state.cpp:605
 #, c++-format
 msgid "{}"
-msgstr ""
+msgstr "{}"
 
 #. TODO(lukash) throw proper exception class
 #: solv/pool.cpp:174
