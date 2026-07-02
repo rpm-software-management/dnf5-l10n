@@ -5,13 +5,14 @@
 # Tzuhsi Liu <GAKMOTS@outlook.com>, 2026.
 # 耗子 <haozi@loli.email>, 2026.
 # Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>, 2026.
+# Jesse Guo <jesseguotech@outlook.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-26 03:48+0000\n"
-"PO-Revision-Date: 2026-06-20 09:11+0000\n"
-"Last-Translator: Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>\n"
+"PO-Revision-Date: 2026-07-03 16:17+0000\n"
+"Last-Translator: Jesse Guo <jesseguotech@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/dnf5/dnf5-plugin-config-manager/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -19,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.6.1\n"
+"X-Generator: Weblate 2026.7.1.dev0\n"
 
 #: addrepo.cpp:136
 #, c++-format
@@ -44,7 +45,7 @@ msgstr "无法设置软件仓库选项 \"{}={}\"：{}"
 #: addrepo.cpp:187 setopt.cpp:138
 #, c++-format
 msgid "Sets the \"{}\" option again with a different value: \"{}\" != \"{}\""
-msgstr ""
+msgstr "使用不同的值重复设置了选项“{}”：“{}” != “{}”"
 
 #: addrepo.cpp:253
 msgid "Missing path to repository configuration directory"
@@ -53,19 +54,19 @@ msgstr "缺少软件源配置目录路径"
 #: addrepo.cpp:303
 #, c++-format
 msgid "Failed to copy repository configuration file \"{}\": {}"
-msgstr ""
+msgstr "无法复制仓库配置文件 “{}”：{}"
 
 #: addrepo.cpp:314
 #, c++-format
 msgid "Failed to download repository configuration file \"{}\": {}"
-msgstr ""
+msgstr "无法下载仓库配置文件 “{}”：{}"
 
 #: addrepo.cpp:342
 #, c++-format
 msgid ""
 "Error in added repository configuration file. Cannot set repository option "
 "\"{}={}\": {}"
-msgstr ""
+msgstr "添加仓库配置文件时出现错误。无法设置仓库选项“{}={}”：{}"
 
 #: addrepo.cpp:376
 #, c++-format
