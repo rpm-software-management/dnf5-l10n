@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-26 03:48+0000\n"
-"PO-Revision-Date: 2026-06-09 13:18+0000\n"
+"PO-Revision-Date: 2026-08-07 17:17+0000\n"
 "Last-Translator: Nik Nikovsky <zejdzztegomaila@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/pl/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2026.6.1\n"
+"X-Generator: Weblate 2026.8\n"
 
 #: advisory/advisory.cpp:81
 msgid ""
@@ -88,8 +88,9 @@ msgid "Distrosync"
 msgstr "Distrosync"
 
 #: base/goal_elements.cpp:376
+#, fuzzy
 msgid "Distrosync all"
-msgstr ""
+msgstr "Distrosync wszystko"
 
 #: base/goal_elements.cpp:378
 msgid "Reason Change"
@@ -134,7 +135,7 @@ msgstr "Reinstaluj akcję"
 
 #: base/goal_elements.cpp:398
 msgid "Reason change action"
-msgstr ""
+msgstr "Powód zmiany akcji"
 
 #: base/goal_elements.cpp:400
 msgid "Reason override"
@@ -576,7 +577,7 @@ msgstr "moduł {0} koliduje z {1} dostarczonym przez {2}"
 
 #: base/solver_problems.cpp:95
 msgid "module {0} obsoletes {1} provided by {2}"
-msgstr ""
+msgstr "moduł {0} zastępuje {1} dostarczane przez {2}"
 
 #: base/solver_problems.cpp:96
 #, fuzzy
@@ -585,7 +586,7 @@ msgstr "Zainstalowany moduł {0} (przestarzałe) {1} zapewnione przez {2}"
 
 #: base/solver_problems.cpp:97
 msgid "module {0} implicitly obsoletes {1} provided by {2}"
-msgstr ""
+msgstr "moduł {0} niebezpośrednio zastępuje {1} dostarczane przez {2}"
 
 #: base/solver_problems.cpp:98
 msgid "module {1} requires {0}, but none of the providers can be installed"
@@ -593,7 +594,7 @@ msgstr "moduł {1} wymaga {0}, ale żaden z dostawców go nie dostarcza"
 
 #: base/solver_problems.cpp:99
 msgid "module {1} conflicts with {0} provided by itself"
-msgstr ""
+msgstr "moduł {1} jest sprzeczny z {0} dostarczanym przez samego siebie"
 
 #: base/solver_problems.cpp:100
 msgid "both module {0} and {2} obsolete {1}"
@@ -612,8 +613,9 @@ msgid "This transaction has been already run before."
 msgstr "Ta transakcja została już wcześniej przeprowadzona."
 
 #: base/transaction.cpp:81
+#, fuzzy
 msgid "Cannot run transaction with resolving problems."
-msgstr ""
+msgstr "Nie można uruchomić transkacji z problemami"
 
 #: base/transaction.cpp:82
 msgid "Rpm transaction check failed."
@@ -651,7 +653,7 @@ msgstr "Import klucza publicznego nie powiódł się."
 
 #: base/transaction.cpp:980
 msgid "Invalid tsflag: {}"
-msgstr ""
+msgstr "Nieprawidłowy tsflag: {}"
 
 #: base/transaction.cpp:1314
 msgid "Public key \"{}\" is already present, not importing."
