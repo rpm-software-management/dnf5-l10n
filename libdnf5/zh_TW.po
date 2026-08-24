@@ -4,15 +4,15 @@
 # Shihfu Juan <xlion@xlion.tw>, 2025, 2026.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2025.
 # hsu zangmen <chzang55@gmail.com>, 2025.
-# Cheng-Chia Tseng <pswo10680@gmail.com>, 2025.
+# Cheng-Chia Tseng <pswo10680@gmail.com>, 2025, 2026.
 # madomado nuko <mado@fyralabs.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-26 03:48+0000\n"
-"PO-Revision-Date: 2026-03-03 17:58+0000\n"
-"Last-Translator: Shihfu Juan <xlion@xlion.tw>\n"
+"PO-Revision-Date: 2026-08-25 14:18+0000\n"
+"Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
 "projects/dnf5/libdnf5/zh_TW/>\n"
 "Language: zh_TW\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.16.1\n"
+"X-Generator: Weblate 2026.8.1\n"
 
 #: advisory/advisory.cpp:81
 msgid ""
@@ -30,7 +30,7 @@ msgstr "錯誤的 libsolv id： advisory「{}」、可解包名稱「{}」沒有
 
 #: base/goal.cpp:482
 msgid "Unsupported argument for REMOVE action: {}"
-msgstr "REMOVE 動作己不支援的參數：{}"
+msgstr "REMOVE 動作已不支援的引數：{}"
 
 #. TODO(lukash) throw a proper exception
 #: base/goal.cpp:1652
@@ -151,19 +151,19 @@ msgstr "處理事項管理"
 
 #: base/log_event.cpp:141
 msgid "No packages to remove for argument: {}"
-msgstr "無符合所指定的軟件包可移除：{}"
+msgstr "引數無符合的軟體包可移除：{}"
 
 #: base/log_event.cpp:143
 msgid "No groups to remove for argument: {}"
-msgstr "無符合所指定的群組可移除：{}"
+msgstr "引數無符合的群組可移除：{}"
 
 #: base/log_event.cpp:146
 msgid "No environmental groups to remove for argument: {}"
-msgstr "無符合所指定的環境群組可移除：{}"
+msgstr "引數無符合的環境群組可移除：{}"
 
 #: base/log_event.cpp:148
 msgid "No modules to remove for argument: {}"
-msgstr "無符合所指定的模組可移除：{}"
+msgstr "引數無符合的模組可移除：{}"
 
 #: base/log_event.cpp:152
 msgid "No match for group from environment: {}"
@@ -183,7 +183,7 @@ msgstr "沒有符合引數的項目: {}"
 
 #: base/log_event.cpp:163
 msgid "No match for argument '{0}' in selected advisories"
-msgstr "指定通報中無符合此引數之項目：{0}"
+msgstr "選取的通報中無符合此引數之項目：{0}"
 
 #: base/log_event.cpp:165
 msgid "No match in selected advisories"
@@ -199,39 +199,39 @@ msgstr "無法對 {1}「{2}」執行 {0}，因為尚未安裝。"
 
 #: base/log_event.cpp:180
 msgid "Packages for argument '{}' available, but not installed."
-msgstr "參數「{}」有可用的套件，但尚未安裝。"
+msgstr "引數「{}」有可用的軟體包，但尚未安裝。"
 
 #: base/log_event.cpp:184
 msgid ""
 "Packages for argument '{}' available, but installed for a different "
 "architecture."
-msgstr "參數「{}」有可用的套件，但安裝的是不同架構版本。"
+msgstr "引數「{}」有可用的軟體包，但安裝的是不同架構版本。"
 
 #: base/log_event.cpp:188
 msgid "Cannot perform {0} because '{1}' matches only source packages."
-msgstr "無法執行 {0}，因為「{1}」僅符合原始碼套件。"
+msgstr "無法執行 {0}，因為「{1}」僅符合原始碼軟體包。"
 
 #: base/log_event.cpp:192
 msgid "Argument '{}' matches only source packages."
-msgstr "參數「{}」僅符合原始碼套件。"
+msgstr "引數「{}」僅比對原始碼軟體包。"
 
 #: base/log_event.cpp:196
 msgid "Cannot perform {0} because '{1}' matches only excluded packages."
-msgstr "無法執行 {0}，因為「{1}」僅符合已排除的套件。"
+msgstr "無法執行 {0}，因為「{1}」僅符合已排除的軟體包。"
 
 #: base/log_event.cpp:200
 msgid "Argument '{}' matches only excluded packages."
-msgstr "參數「{}」僅符合已排除的套件。"
+msgstr "引數「{}」僅比對已排除的軟體包。"
 
 #: base/log_event.cpp:204
 msgid ""
 "Cannot perform {0} because '{1}' matches only packages excluded by "
 "versionlock."
-msgstr "無法執行 {0}，因為「{1}」僅符合由 versionlock 排除的套件。"
+msgstr "無法執行 {0}，因為「{1}」僅符合由 versionlock 排除的軟體包。"
 
 #: base/log_event.cpp:208
 msgid "Argument '{}' matches only packages excluded by versionlock."
-msgstr "參數「{}」僅符合由 versionlock 排除的套件。"
+msgstr "引數「{}」僅比對由 versionlock 排除的軟體包。"
 
 #: base/log_event.cpp:213
 msgid "  * Maybe you meant: {}"
@@ -245,13 +245,15 @@ msgstr "以下可以用來替代「{0}」：{1}"
 msgid ""
 "The lowest available version of the \"{}\" package is already installed, "
 "cannot downgrade it."
-msgstr "「{}」套件的最低可用版本已安裝，無法降級。"
+msgstr "「{}」軟體包的最低可用版本已安裝，無法降級。"
 
 #: base/log_event.cpp:229
 msgid ""
 "Installed packages for argument '{0}' are not available in repositories in "
 "the same version, available versions: {1}, cannot reinstall."
-msgstr "「{0}」參數已安裝的套件在軟體庫中無相同版本，可用版本：{1}，無法重新安裝。"
+msgstr ""
+"「{0}」引數所安裝的軟體包在軟體庫中無相同版本，可用版本有：{1}，無法重新安裝"
+"。"
 
 #: base/log_event.cpp:235
 msgid ""
@@ -262,11 +264,11 @@ msgstr "無法執行 {0}，因為「{1}」已安裝的版本不同：「{2}」�
 msgid ""
 "Packages for argument '{}' installed and available, but in a different "
 "version."
-msgstr "「{}」參數的套件已安裝且可用，但版本不同。"
+msgstr "符合「{}」引數的軟體包已安裝且可用，但版本不同。"
 
 #: base/log_event.cpp:243
 msgid "Packages for argument '{}' installed, but not available."
-msgstr "「{}」參數的套件已安裝，但無法使用。"
+msgstr "「{}」引數的軟體包已安裝，但無法使用。"
 
 #: base/log_event.cpp:252
 msgid "Package \"{}\" is already installed with reason \"{}\"."
@@ -284,16 +286,16 @@ msgstr "偵錯資料已寫入「{}」"
 msgid ""
 "{0} upgrade cannot be reverted, however associated package actions will be. "
 "({1} id: '{2}') ."
-msgstr "{0} 升級無法還原，但相關的套件動作將會還原。（{1} id：「{2}」）。"
+msgstr "{0} 升級無法還原，但相關的軟體包動作將會還原。（{1} id：「{2}」）。"
 
 #: base/log_event.cpp:273
 msgid "{} action for argument \"{}\" is not supported."
-msgstr "「{}」參數不支援「{}」動作。"
+msgstr "「{}」引數不支援「{}」動作。"
 
 #. Format a leading line of the error message.
 #: base/log_event.cpp:282
 msgid "Unable to resolve argument '{}':"
-msgstr "無法解析 '{}' 引數:"
+msgstr "無法解析「{}」引數："
 
 #: base/log_event.cpp:286
 msgid ""
@@ -306,8 +308,7 @@ msgid_plural ""
 "streams are enabled or default."
 msgstr[0] ""
 "\n"
-"  - 參數 '{}' 與模組 '{}' 的 {} 串流 ('{}')匹配，但是沒有一個串流是啟用或預設"
-"的。"
+"  - 引數「{}」與模組「{}」的 {} 流道（'{}'）相符，但是沒有流道啟用或是預設。"
 
 #: base/log_event.cpp:293
 msgid "', '"
@@ -329,7 +330,7 @@ msgstr "預設值的模組相依性問題：\n"
 msgid ""
 "The operation would result in switching of module '{0}' stream '{1}' to "
 "stream '{2}'\n"
-msgstr "此操作會將模組「{0}」的串流「{1}」切換至串流「{2}」。\n"
+msgstr "此操作會將模組「{0}」的流道「{1}」切換至流道「{2}」。\n"
 
 #: base/log_event.cpp:336
 msgid ""
@@ -337,13 +338,13 @@ msgid ""
 "explicitly enabled via configuration option module_stream_switch."
 msgstr ""
 "錯誤：除非透過設定選項 module_stream_switch 明確啟用，否則無法切換模組的已啟"
-"用串流。"
+"用流道。"
 
 #: base/log_event.cpp:341
 msgid ""
 "Extra package '{0}' (with action '{1}') which is not present in the stored "
 "transaction was pulled into the transaction.\n"
-msgstr "額外的套件「{0}」（含動作「{1}」）不在儲存的處理事項中，被拉入處理事項。\n"
+msgstr "額外的軟體包「{0}」（含動作「{1}」）不在儲存的處理事項中，被拉入處理事項。\n"
 
 #: base/log_event.cpp:347
 msgid "Cannot parse file: '{0}': {1}.\n"
@@ -353,7 +354,7 @@ msgstr "無法解析檔案：'{0}': {1}.\n"
 msgid ""
 "Could not find debuginfo package for the following packages resolved from "
 "the argument '{0}': {1}"
-msgstr "找不到以下從參數「{0}」解析的套件的 debuginfo 套件：{1}"
+msgstr "找不到以下從引數「{0}」解析到的 debuginfo 軟體包：{1}"
 
 #: base/log_event.cpp:357 base/log_event.cpp:368
 msgctxt "String for joining NEVRAs - e.g. `foo-4-4.noarch, bar-5-5.noarch`"
@@ -364,7 +365,7 @@ msgstr ", "
 msgid ""
 "Could not find debugsource package for the following packages resolved from "
 "the argument '{0}': {1}"
-msgstr "找不到以下從參數「{0}」解析的套件的 debugsource 套件：{1}"
+msgstr "找不到以下從引數「{0}」解析到的 debugsource 軟體包：{1}"
 
 #: base/log_event.cpp:371
 msgid "Transaction merge error: '{0}'"
@@ -416,19 +417,19 @@ msgstr "無法安裝工作的最佳候選"
 
 #: base/solver_problems.cpp:52
 msgid "package {0} from {1} is filtered out by modular filtering"
-msgstr "{1} 的套件 {0} 被模組篩選排除"
+msgstr "{1} 的軟體包 {0} 被模組篩選排除"
 
 #: base/solver_problems.cpp:53
 msgid "package {0} from {1} does not have a compatible architecture"
-msgstr "{1} 的套件 {0} 沒有相容的架構"
+msgstr "{1} 的軟體包 {0} 沒有相容的架構"
 
 #: base/solver_problems.cpp:54
 msgid "package {0} from {1} is not installable"
-msgstr "{1} 的套件 {0} 無法安裝"
+msgstr "{1} 的軟體包 {0} 無法安裝"
 
 #: base/solver_problems.cpp:55
 msgid "package {0} from {1} is filtered out by exclude filtering"
-msgstr "{1} 的套件 {0} 被排除篩選排除"
+msgstr "{1} 的軟體包 {0} 被排除篩選排除"
 
 #: base/solver_problems.cpp:56
 msgid "nothing provides {0} needed by {1} from {2}"
@@ -440,7 +441,7 @@ msgstr "無法同時安裝 {1} 的 {0} 和 {3} 的 {2}"
 
 #: base/solver_problems.cpp:58
 msgid "package {0} from {1} conflicts with {2} provided by {3} from {4}"
-msgstr "{1} 的「{0}」套件與 {4} 的「{3}」提供的「{2}」衝突"
+msgstr "{1} 的「{0}」軟體包與 {4} 的「{3}」提供的「{2}」衝突"
 
 #: base/solver_problems.cpp:60
 msgid "installed package {0} conflicts with {1} provided by {2} from {3}"
@@ -448,7 +449,7 @@ msgstr "已安裝的「{0}」與 {3} 的「{2}」提供的「{1}」衝突"
 
 #: base/solver_problems.cpp:61
 msgid "package {0} from {1} obsoletes {2} provided by {3} from {4}"
-msgstr "{1} 的「{0}」套件廢止了 {4} 的「{3}」提供的「{2}」"
+msgstr "{1} 的「{0}」軟體包廢止了 {4} 的「{3}」提供的「{2}」"
 
 #: base/solver_problems.cpp:62
 msgid "installed package {0} obsoletes {1} provided by {2} from {3}"
@@ -456,12 +457,12 @@ msgstr "已安裝的「{0}」廢止了 {3} 的「{2}」提供的「{1}」"
 
 #: base/solver_problems.cpp:64
 msgid "package {0} from {1} implicitly obsoletes {2} provided by {3} from {4}"
-msgstr "{1} 的「{0}」套件隱含廢止了 {4} 的「{3}」提供的「{2}」"
+msgstr "{1} 的「{0}」軟體包隱含廢止了 {4} 的「{3}」提供的「{2}」"
 
 #: base/solver_problems.cpp:66
 msgid ""
 "package {1} from {2} requires {0}, but none of the providers can be installed"
-msgstr "{2} 的「{1}」套件需要「{0}」，但無法安裝任何提供者"
+msgstr "{2} 的「{1}」軟體包需要「{0}」，但無法安裝任何提供者"
 
 #: base/solver_problems.cpp:68
 msgid ""
@@ -471,7 +472,7 @@ msgstr "已安裝的「{1}」需要「{0}」，但無法安裝任何提供者"
 
 #: base/solver_problems.cpp:69
 msgid "package {0} from {1} conflicts with {2} provided by itself"
-msgstr "{1} 的「{0}」套件與自身提供的「{2}」衝突"
+msgstr "{1} 的「{0}」軟體包與自身提供的「{2}」衝突"
 
 #: base/solver_problems.cpp:70
 msgid "both package {0} from {1} and {3} from {4} obsolete {2}"
@@ -617,7 +618,7 @@ msgstr "匯入金鑰「{}」時發生錯誤：{}"
 
 #: base/transaction.cpp:1369
 msgid "OpenPGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
-msgstr "OpenPGP 檢查失敗：套件「{}」（{}）來自軟體庫「{}」： "
+msgstr "OpenPGP 檢查失敗：軟體包「{}」（{}）來自軟體庫「{}」： "
 
 #: base/transaction.cpp:1397
 msgid "Import of the key didn't help, wrong key?"
@@ -632,13 +633,13 @@ msgstr "， "
 msgid "Warning: skipped OpenPGP checks for {0} package from repository: {1}"
 msgid_plural ""
 "Warning: skipped OpenPGP checks for {0} packages from repository: {1}"
-msgstr[0] "警告：已略過軟體庫 {1} 的 {0} 個套件的 OpenPGP 檢查"
+msgstr[0] "警告：已略過軟體庫 {1} 的 {0} 個軟體包的 OpenPGP 檢查"
 
 #: base/transaction.cpp:1422
 msgid "Warning: skipped OpenPGP checks for {0} package from repositories: {1}"
 msgid_plural ""
 "Warning: skipped OpenPGP checks for {0} packages from repositories: {1}"
-msgstr[0] "警告：已略過軟體庫 {1} 的 {0} 個套件的 OpenPGP 檢查"
+msgstr[0] "警告：已略過軟體庫 {1} 的 {0} 個軟體包的 OpenPGP 檢查"
 
 #: common/exception.cpp:78
 msgid "System error"
@@ -670,7 +671,7 @@ msgstr "儲存群組「{}」的 xml 文件至檔案「{}」失敗：{}"
 
 #: comps/group/package.cpp:118 comps/group/package.cpp:121
 msgid "Invalid package type: {}"
-msgstr "無效的套件類型：{}"
+msgstr "無效的軟體包類型：{}"
 
 #: conf/config_main.cpp:57
 msgid "Input is empty. Must contain a value."
@@ -797,7 +798,7 @@ msgstr "沒有這個模組：{}"
 
 #: module/module_db.cpp:268
 msgid "Cannot enable multiple streams for module '{}'"
-msgstr "無法為模組 '{}' 啟用多個串流"
+msgstr "無法為模組 '{}' 啟用多個流道"
 
 #. TODO(pkratoch) replace with a proper and descriptive exception
 #. TODO(jmracek) else if (removalOfProtected && removalOfProtected->size()) {
@@ -824,7 +825,7 @@ msgstr "無法升級預設值：{}"
 
 #: module/module_metadata.cpp:144
 msgid "Failed to upgrade streams: {}"
-msgstr "無法升級串流：{}"
+msgstr "無法升級流道：{}"
 
 #: module/module_sack.cpp:93
 msgid "Failed to load module metadata for repository \"{}\": {}"
@@ -898,7 +899,7 @@ msgstr "已設定「proxy_username」但未設定「proxy_password」"
 
 #: repo/package_downloader.cpp:154
 msgid "Cannot download the \"{0}\" package, cacheonly option is activated."
-msgstr "無法下載「{0}」套件，cacheonly 選項已啟用。"
+msgstr "無法下載「{0}」軟體包，cacheonly 選項已啟用。"
 
 #: repo/package_downloader.cpp:231
 msgid "Already downloaded"
@@ -906,7 +907,7 @@ msgstr "已經下載"
 
 #: repo/package_downloader.cpp:279
 msgid "Failed to download packages"
-msgstr "下載套件失敗"
+msgstr "下載軟體包失敗"
 
 #: repo/repo.cpp:61
 msgid "Failed to load RPM \"{}\": doesn't have the \".rpm\" extension"
@@ -1064,7 +1065,7 @@ msgstr "NEVRA 字串「{}」中有無效字元「{}」"
 
 #: rpm/package.cpp:81
 msgid "Package with rpmdbid was not found"
-msgstr "找不到具有 rpmdbid 的套件"
+msgstr "找不到具有 rpmdbid 的軟體包"
 
 #: rpm/package.cpp:478
 msgid "<unknown>"
@@ -1084,11 +1085,11 @@ msgstr "簽章有效，但金鑰不受信任。"
 
 #: rpm/rpm_signature.cpp:47
 msgid "The package is not signed."
-msgstr "此套件未簽章。"
+msgstr "此軟體包未簽章。"
 
 #: rpm/rpm_signature.cpp:48
 msgid "Problem occurred when opening the package."
-msgstr "開啟套件時發生錯誤。"
+msgstr "開啟軟體包時發生錯誤。"
 
 #: rpm/rpm_signature.cpp:64
 msgid "Failed to set rpm transaction rootDir \"{}\"."
@@ -1131,11 +1132,11 @@ msgstr "無法設定命令小稿輸出檔，無法開啟檔案「{}」：{}"
 
 #: rpm/transaction.cpp:275
 msgid "Failed to read package header, cannot open file \"{}\": {}"
-msgstr "無法讀取套件標頭，無法開啟檔案「{}」：{}"
+msgstr "無法讀取軟體包標頭，無法開啟檔案「{}」：{}"
 
 #: rpm/transaction.cpp:292
 msgid "Failed to read package header from file \"{}\""
-msgstr "無法從檔案「{}」讀取套件標頭"
+msgstr "無法從檔案「{}」讀取軟體包標頭"
 
 #: rpm/transaction.cpp:305
 msgid "Cannot init rpm database iterator"
@@ -1143,29 +1144,29 @@ msgstr "無法初始化 rpm 資料庫疊代器"
 
 #: rpm/transaction.cpp:309
 msgid "Package was not found in rpm database"
-msgstr "在 rpm 資料庫中找不到套件"
+msgstr "在 rpm 資料庫中找不到軟體包"
 
 #. TODO(jrohel): Why? Librpm does not provide this information.
 #: rpm/transaction.cpp:325
 msgid "Cannot reinstall package \"{}\""
-msgstr "無法重新安裝套件「{}」"
+msgstr "無法重新安裝軟體包「{}」"
 
 #. TODO(jrohel): Why? Librpm does not provide this information.
 #: rpm/transaction.cpp:343
 msgid "Cannot remove package \"{}\""
-msgstr "無法移除套件「{}」"
+msgstr "無法移除軟體包「{}」"
 
 #: rpm/transaction.cpp:362
 msgid "Cannot upgrade package \"{}\""
-msgstr "無法升級套件「{}」"
+msgstr "無法升級軟體包「{}」"
 
 #: rpm/transaction.cpp:366
 msgid "Cannot downgrade package \"{}\""
-msgstr "無法降級套件「{}」"
+msgstr "無法降級軟體包「{}」"
 
 #: rpm/transaction.cpp:370
 msgid "Cannot install package \"{}\""
-msgstr "無法安裝套件「{}」"
+msgstr "無法安裝軟體包「{}」"
 
 #: rpm/versionlock_config.cpp:284 system/state.cpp:605
 msgid "{}"
