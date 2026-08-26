@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-26 03:48+0000\n"
-"PO-Revision-Date: 2026-08-25 14:18+0000\n"
+"PO-Revision-Date: 2026-08-26 03:45+0000\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
 "projects/dnf5/dnf5/zh_TW/>\n"
@@ -41,19 +41,19 @@ msgstr "檔案「{}」第 {} 列：別名「{}」的附加具名引數有未知�
 
 #: cmdline_aliases.cpp:171
 msgid "Missing attribute \"id_path\" for alias \"{}\" in file \"{}\""
-msgstr "檔案「{}」中缺少別名「{}」的屬性「id_path」"
+msgstr "檔案「{}」中缺少別名「{}」的特性「id_path」"
 
 #: cmdline_aliases.cpp:208
 msgid "Unsupported version \"{}\" in file \"{}\". Supported versions: {}"
-msgstr "檔案「{}」中的版本「{}」不受支援。支援的版本：{}"
+msgstr "檔案「{}」中的版本「{}」不支援。支援的版本有：{}"
 
 #: cmdline_aliases.cpp:218
 msgid "Bad value type of attribute \"version\" in file \"{}\" on line {}: {}"
-msgstr "檔案「{}」第 {} 行：屬性「version」的值類型錯誤：{}"
+msgstr "檔案「{}」第 {} 列：特性「version」的值類型錯誤：{}"
 
 #: cmdline_aliases.cpp:224
 msgid "Missing attribute \"version\" in file \"{}\""
-msgstr "檔案「{}」中缺少屬性「version」"
+msgstr "檔案「{}」中缺少特性「version」"
 
 #: cmdline_aliases.cpp:236
 msgid "Unknown key \"{}\" in file \"{}\" on line {}: {}"
@@ -66,7 +66,7 @@ msgstr "空值或有不良元素 id 路徑位於檔案「{}」的列 {}: {}"
 #: cmdline_aliases.cpp:272
 msgid ""
 "Parent command \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
-msgstr "找不到父命令「{}」：{}：於檔案「{}」第 {} 行請求：{}"
+msgstr "找不到親代命令「{}」：{}：於檔案「{}」第 {} 列請求：{}"
 
 #: cmdline_aliases.cpp:301
 msgid "Unknown type \"{}\" of element \"{}\" in file \"{}\" on line {}: {}"
@@ -85,11 +85,11 @@ msgstr "具名引數「{}」已註冊。於檔案「{}」第 {} 列請求：{}"
 #: cmdline_aliases.cpp:347
 msgid ""
 "Command \"{}\" already registered. Requested in file \"{}\" on line {}: {}"
-msgstr "命令「{}」已註冊。於檔案「{}」第 {} 行請求：{}"
+msgstr "命令「{}」已註冊。於檔案「{}」第 {} 列請求：{}"
 
 #: cmdline_aliases.cpp:375
 msgid "Unknown attribute \"{}\" of group \"{}\" in file \"{}\" on line {}: {}"
-msgstr "檔案「{}」第 {} 行：群組「{}」有未知屬性「{}」：{}"
+msgstr "檔案「{}」第 {} 列：群組「{}」有未知特性「{}」：{}"
 
 #: cmdline_aliases.cpp:387
 msgid "Missing attribute \"header\" for element \"{}\" in file \"{}\""
@@ -103,11 +103,11 @@ msgstr "檔案「{}」第 {} 列：具名引數「{}」的「short_name」特性
 
 #: cmdline_aliases.cpp:446
 msgid "Source \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
-msgstr "找不到來源「{}」：{}：於檔案「{}」第 {} 行請求：{}"
+msgstr "找不到來源「{}」：{}：於檔案「{}」第 {} 列請求：{}"
 
 #: cmdline_aliases.cpp:462 cmdline_aliases.cpp:563 cmdline_aliases.cpp:676
 msgid "Group \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
-msgstr "找不到群組「{}」：{}：於檔案「{}」第 {} 行請求：{}"
+msgstr "找不到群組「{}」：{}：於檔案「{}」第 {} 列請求：{}"
 
 #: cmdline_aliases.cpp:476 cmdline_aliases.cpp:579
 msgid ""
@@ -131,43 +131,43 @@ msgstr ""
 msgid ""
 "Attached command \"{}\" not found: {}: Requested in file \"{}\" on line {}: "
 "{}"
-msgstr "找不到附加命令「{}」：{}：於檔案「{}」第 {} 行請求：{}"
+msgstr "找不到附加命令「{}」：{}：於檔案「{}」第 {} 列請求：{}"
 
 #: cmdline_aliases.cpp:691
 msgid ""
 "Used config file version \"1.0\" for attribute \"{}\" of command \"{}\" in "
 "file \"{}\" on line {}: {}"
-msgstr "檔案「{}」第 {} 行：命令「{}」的屬性「{}」使用了設定檔版本「1.0」：{}"
+msgstr "檔案「{}」第 {} 列：命令「{}」的特性「{}」使用了設定檔版本「1.0」：{}"
 
 #: cmdline_aliases.cpp:713
 msgid ""
 "Unknown attribute \"{}\" of required value for alias \"{}\" in file \"{}\" "
 "on line {}: {}"
-msgstr "檔案「{}」第 {} 行：別名「{}」的必要值有未知屬性「{}」：{}"
+msgstr "檔案「{}」第 {} 列：別名「{}」的必要值有未知特性「{}」：{}"
 
 #: cmdline_aliases.cpp:726
 msgid ""
 "Missing attribute \"value_help\" of required value for alias \"{}\" in file "
 "\"{}\""
-msgstr "檔案「{}」中缺少別名「{}」的必要值的屬性「value_help」"
+msgstr "檔案「{}」中缺少別名「{}」的必要值的特性「value_help」"
 
 #: cmdline_aliases.cpp:740
 msgid ""
 "Unknown attribute \"{}\" of command \"{}\" in file \"{}\" on line {}: {}"
-msgstr "檔案「{}」第 {} 行：命令「{}」有未知屬性「{}」：{}"
+msgstr "檔案「{}」第 {} 列：命令「{}」有未知特性「{}」：{}"
 
 #: cmdline_aliases.cpp:756
 msgid ""
 "Missing attribute \"attached_command\" for command \"{}\" in file \"{}\""
-msgstr "檔案「{}」中缺少命令「{}」的屬性「attached_command」"
+msgstr "檔案「{}」中缺少命令「{}」的特性「attached_command」"
 
 #: cmdline_aliases.cpp:791
 msgid "Bad value type in file \"{}\" on line {}: {}"
-msgstr "檔案「{}」第 {} 行：值類型錯誤：{}"
+msgstr "檔案「{}」第 {} 列：值類型錯誤：{}"
 
 #: cmdline_aliases.cpp:804
 msgid "Syntax error in file \"{}\" on line {}:"
-msgstr "檔案「{}」第 {} 行：語法錯誤："
+msgstr "檔案「{}」第 {} 列：語法錯誤："
 
 #: commands/advisory/advisory.cpp:36
 msgid "Manage advisories"
@@ -381,7 +381,7 @@ msgstr "執行處理事項"
 
 #: commands/do/do.cpp:49
 msgid "Action to be done on the following items."
-msgstr "以下項目要執行的動作。"
+msgstr "以下項目所要執行的動作。"
 
 #: commands/do/do.cpp:63
 msgid "Unsupported action \"{}\""
