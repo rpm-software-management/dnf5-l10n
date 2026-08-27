@@ -10,8 +10,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-26 03:48+0000\n"
 "PO-Revision-Date: 2026-08-28 08:18+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: Priit Jõerüüt "
+"<jrtkbfdr@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Estonian <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5-cli/et/>\n"
 "Language: et\n"
@@ -163,7 +163,7 @@ msgstr "Versioon"
 
 #: output/packageinfo.cpp:70
 msgid "Release"
-msgstr ""
+msgstr "Väljalase"
 
 #: output/packageinfo.cpp:71
 msgid "Architecture"
@@ -282,8 +282,8 @@ msgstr[1] ""
 #: output/transaction_table.cpp:195
 msgid " Skipping:        {:4} package\n"
 msgid_plural " Skipping:        {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " Vahele jääb:        {:4} pakett\n"
+msgstr[1] " Vahele jääb:        {:4} paketti\n"
 
 #: output/transaction_table.cpp:277
 msgid "Package"
@@ -315,11 +315,11 @@ msgstr "asendab "
 
 #: output/transaction_table.cpp:470
 msgid "Skipping packages with conflicts:"
-msgstr ""
+msgstr "Vahelejäetavad paketid, millel on sisulised konfliktid:"
 
 #: output/transaction_table.cpp:472
 msgid "Skipping packages with broken dependencies:"
-msgstr ""
+msgstr "Vahelejäetavad paketid, millel on katkised sõltuvused:"
 
 #: output/transaction_table.cpp:533
 msgid "Installing dependencies:"
@@ -391,7 +391,7 @@ msgstr "Eemaldan keskkonnagruppe:"
 
 #: output/transaction_table.cpp:635
 msgid "Upgrading environmental groups:"
-msgstr "Paigaldan keskkonnagruppe:"
+msgstr "Uuendan keskkonnagruppe:"
 
 #: output/transaction_table.cpp:662
 msgid "Enabling module streams:"
