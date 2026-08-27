@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-26 03:48+0000\n"
-"PO-Revision-Date: 2026-06-20 09:11+0000\n"
+"PO-Revision-Date: 2026-08-28 08:18+0000\n"
 "Last-Translator: Priit Jõerüüt "
 "<jrtkbfdr@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Estonian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.6.1\n"
+"X-Generator: Weblate 2026.8.1\n"
 
 #: cmdline_aliases.cpp:84 context.cpp:301 main.cpp:1357
 msgid ", "
@@ -165,23 +165,23 @@ msgstr ""
 
 #: cmdline_aliases.cpp:791
 msgid "Bad value type in file \"{}\" on line {}: {}"
-msgstr ""
+msgstr "Vigane väärtuse tüüp „{}“ faili real {}: {}"
 
 #: cmdline_aliases.cpp:804
 msgid "Syntax error in file \"{}\" on line {}:"
-msgstr ""
+msgstr "Süntaksiviga „{}“ faili real {}:"
 
 #: commands/advisory/advisory.cpp:36
 msgid "Manage advisories"
-msgstr ""
+msgstr "Halda nõuandmikke"
 
 #: commands/advisory/advisory_info.hpp:35
 msgid "Print details about advisories"
-msgstr ""
+msgstr "Väljasta nõuandmike üksikasjad"
 
 #: commands/advisory/advisory_list.hpp:35
 msgid "List advisories"
-msgstr ""
+msgstr "Nõuandmike loend"
 
 #: commands/advisory/advisory_summary.cpp:44
 msgid "All"
@@ -201,22 +201,28 @@ msgstr "Saadaval"
 
 #: commands/advisory/advisory_summary.hpp:33
 msgid "Print summary of advisories"
-msgstr "Väljasta uuenduste teavistuste kokkuvõte"
+msgstr "Väljasta uuenduste teavituste kokkuvõte"
 
 #: commands/advisory/arguments.hpp:34
 msgid "Show advisories containing any version of installed packages."
 msgstr ""
+"Näita nõuandmikke, mis sisaldavad teavet ükspuha missuguste paigaldatud "
+"pakettide kohta."
 
 #: commands/advisory/arguments.hpp:45
 msgid ""
 "Show advisories containing newer versions of installed packages. This is the "
 "default behavior."
 msgstr ""
+"Näita nõuandmikke, mis sisaldavad teavet paigaldatud pakettide viimaste "
+"versioonide kohta. See on ka vaikimisi tööpõhimõte."
 
 #: commands/advisory/arguments.hpp:57
 msgid ""
 "Show advisories containing equal and older versions of installed packages."
 msgstr ""
+"Näita nõuandmikke, mis sisaldavad teavet paigaldatud pakettide võrdsete või "
+"vanemate versioonide kohta."
 
 #: commands/advisory/arguments.hpp:69
 msgid ""
@@ -240,23 +246,26 @@ msgstr ""
 
 #: commands/advisory/arguments.hpp:100
 msgid "Show only advisories referencing a bugzilla."
-msgstr ""
+msgstr "Näita nõuandmikke, mis viitavad Bugzilla kirjele."
 
 #: commands/advisory/arguments.hpp:107
 msgid "Show only advisories referencing a CVE."
-msgstr ""
+msgstr "Näita nõuandmikke, mis viitavad CVE kirjele."
 
 #: commands/advisory_shared.hpp:76
 msgid "No advisory found matching the requested name: \"{}\""
-msgstr ""
+msgstr "Otsitud nimele ei vasta ükski nõuandmik: „{}“"
 
 #: commands/advisory_shared.hpp:109
 msgid "No advisory found fixing the Bugzilla ID: \"{}\""
 msgstr ""
+"Otsitud Bugzilla tunnusele ei vasta ükski nõuandmik, mis selle vea "
+"parandaks: „{}“"
 
 #: commands/advisory_shared.hpp:128
 msgid "No advisory found fixing the CVE ID: \"{}\""
 msgstr ""
+"Otsitud CVE tunnusele ei vasta ükski nõuandmik, mis selle vea parandaks: „{}“"
 
 #: commands/advisory_shared.hpp:143
 msgid "No advisory found matching the specified filters."
@@ -1030,6 +1039,8 @@ msgstr " Sõrmejälg: {}\n"
 #: context.cpp:104
 msgid "As a result, installing packages signed with this key will fail."
 msgstr ""
+"Tulemuseks on, et selle võtmega allkirjastatud pakettide paigaldamine ei "
+"õnnestu."
 
 #: context.cpp:105
 msgid "It is recommended to remove the expired key to allow importing"
@@ -1417,7 +1428,7 @@ msgstr "{} versioon {}.{}.{}.{}"
 
 #: main.cpp:762
 msgid "{} plugin API version {}.{}"
-msgstr ""
+msgstr "{} lisamooduli API versioon {}.{}"
 
 #: main.cpp:767
 msgid "libdnf5 version {}.{}.{}.{}"
@@ -1443,7 +1454,7 @@ msgstr "  versioon: {}.{}.{}"
 
 #: main.cpp:787
 msgid "  API version: {}.{}"
-msgstr ""
+msgstr "  API versioon: {}.{}"
 
 #: main.cpp:825
 msgid ""
@@ -1622,8 +1633,8 @@ msgstr ""
 
 #: shared_options.cpp:42
 msgid "Allow resolving of depsolve problems by skipping packages"
-msgstr ""
+msgstr "Luba sõltuvusprobleemide lahendamist pakettide vahelejätmisega"
 
 #: shared_options.cpp:54
 msgid "Allow skipping unavailable packages"
-msgstr ""
+msgstr "Luba kättesaamatute pakettide vahelejätmine"
