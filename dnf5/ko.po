@@ -5,13 +5,14 @@
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024, 2025.
 # 김인수 <simmon@nplob.com>, 2024, 2025, 2026.
 # Joungmin Lee <leejm516@gmail.com>, 2024.
+# Dohyeon Jeon <hotoras03@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-26 03:48+0000\n"
-"PO-Revision-Date: 2026-06-06 10:01+0000\n"
-"Last-Translator: 김인수 <simmon@nplob.com>\n"
+"PO-Revision-Date: 2026-08-31 09:18+0000\n"
+"Last-Translator: Dohyeon Jeon <hotoras03@gmail.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ko/>\n"
 "Language: ko\n"
@@ -19,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.6.1\n"
+"X-Generator: Weblate 2026.8.1\n"
 
 #: cmdline_aliases.cpp:84 context.cpp:301 main.cpp:1357
 msgid ", "
@@ -1334,11 +1335,11 @@ msgid ""
 "              they do not override it. However, specifying an empty value (e."
 "g. --setopt=tsflags=) will clear the option."
 msgstr ""
-"구성 파일에서 구성 옵션을 재정의합니다. 저장소를 위해 구성 옵션을 재정의 하려"
-"면, <option>을 위해 repoid.option를 사용합니다. \n"
-"              excludepkgs, installonlypkgs 및 tsflags와 같은 구성 옵션을 위"
-"한  값  은 원래 값으로 추가 되며,\n"
-"              이를 재정의하지 않습니다. 아무튼, 빈 값(예: --setopt=tsflags=)"
+"구성 파일에서 구성 옵션을 재정의합니다. 저장소에 대한 구성 옵션을 "
+"재정의하려면, <option>에 대해 repoid.option를 사용합니다. \n"
+"              excludepkgs, includepkgs, installonlypkgs 및 tsflags와 같은 "
+"구성 옵션을 위한  값  은 원래 값에 추가되며,\n"
+"              이를 재정의하지 않습니다. 하지만 빈 값(예: --setopt=tsflags=)"
 "을 지정하면 옵션이 지워집니다."
 
 #: main.cpp:249 main.cpp:288
