@@ -4,13 +4,14 @@
 # Paweł Marciniak <sunwire+fas@gmail.com>, 2024, 2025.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024.
 # Petr Pisar <ppisar@redhat.com>, 2025.
+# Tomasz Bojanowski <tomasz@bojanowski.me>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-01 18:31+0000\n"
-"PO-Revision-Date: 2025-06-11 03:40+0000\n"
-"Last-Translator: Paweł Marciniak <sunwire+fas@gmail.com>\n"
+"PO-Revision-Date: 2026-09-02 07:20+0000\n"
+"Last-Translator: Tomasz Bojanowski <tomasz@bojanowski.me>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5-cli/pl/>\n"
 "Language: pl\n"
@@ -19,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.11.4\n"
+"X-Generator: Weblate 2026.8.1\n"
 
 #: argument_parser.cpp:68
 #, c++-format
@@ -418,7 +419,7 @@ msgstr "Usuwanie:"
 
 #: output/transaction_table.cpp:586
 msgid "Changing reason:"
-msgstr "Przyczyna zmiany:"
+msgstr "Zmienianie przyczyny:"
 
 #: output/transaction_table.cpp:618
 msgid "Installing groups dependencies:"
@@ -437,10 +438,8 @@ msgid "Upgrading groups:"
 msgstr "Aktualizowanie grup:"
 
 #: output/transaction_table.cpp:630
-#, fuzzy
-#| msgid "Changing reason:"
 msgid "Changing reason of installed groups:"
-msgstr "Przyczyna zmiany:"
+msgstr "Zmienianie przyczyny zainstalowanych grup:"
 
 #: output/transaction_table.cpp:657
 msgid "Installing environmental groups:"
@@ -472,15 +471,15 @@ msgstr "Przełączanie strumieni modułów:"
 
 #: output/transaction_table.cpp:771 output/transaction_table.cpp:772
 msgid "(none)"
-msgstr ""
+msgstr "(brak)"
 
 #: output/transaction_table.cpp:778
 #, c++-format
 msgid "Skipping {0} package due to vendor change restriction: {1}."
 msgid_plural "Skipping {0} packages due to vendor change restriction: {1}."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Pomijanie {0} pakietu z powodu ograniczenia zmiany dostawcy: {1}."
+msgstr[1] "Pomijanie {0} pakietów z powodu ograniczenia zmiany dostawcy: {1}."
+msgstr[2] "Pomijanie {0} pakietów z powodu ograniczenia zmiany dostawcy: {1}."
 
 #: output/transaction_table.cpp:799
 msgid "Nothing to do."
@@ -489,83 +488,79 @@ msgstr "Nie ma nic do zrobienia."
 #. The two spaces indent the table the same way as child lines in KeyValueTable
 #: output/transactioninfo.cpp:73
 msgid "Action"
-msgstr ""
+msgstr "Działanie"
 
 #: output/transactioninfo.cpp:75
 msgid "Reason"
-msgstr ""
+msgstr "Przyczyna"
 
 #: output/transactioninfo.cpp:98
-#, fuzzy
-#| msgid "Transaction Summary:\n"
 msgid "Transaction ID"
-msgstr "Podsumowanie transakcji:\n"
+msgstr "Identyfikator transakcji"
 
 #: output/transactioninfo.cpp:99
 msgid "Begin time"
-msgstr ""
+msgstr "Czas rozpoczęcia"
 
 #: output/transactioninfo.cpp:100
 msgid "Begin rpmdb"
-msgstr ""
+msgstr "Baza RPM na początku"
 
 #: output/transactioninfo.cpp:101
 msgid "End time"
-msgstr ""
+msgstr "Czas zakończenia"
 
 #: output/transactioninfo.cpp:102
 msgid "End rpmdb"
-msgstr ""
+msgstr "Baza RPM na końcu"
 
 #: output/transactioninfo.cpp:104
 msgid "User"
-msgstr ""
+msgstr "Użytkownik"
 
 #: output/transactioninfo.cpp:105
 msgid "Status"
-msgstr ""
+msgstr "Stan"
 
 #: output/transactioninfo.cpp:106
-#, fuzzy
-#| msgid "Release"
 msgid "Releasever"
-msgstr "Wydanie"
+msgstr "Wersja wydania"
 
 #: output/transactioninfo.cpp:108
 msgid "Comment"
-msgstr ""
+msgstr "Komentarz"
 
 #: output/transactioninfo.cpp:111
 msgid "Packages altered:"
-msgstr ""
+msgstr "Zmienione pakiety:"
 
 #: output/transactioninfo.cpp:112
 msgid "Groups altered:"
-msgstr ""
+msgstr "Zmienione grupy:"
 
 #: output/transactioninfo.cpp:113
 msgid "Environments altered:"
-msgstr ""
+msgstr "Zmienione środowiska:"
 
 #: output/transactionlist.cpp:53
 msgid "ID"
-msgstr ""
+msgstr "Identyfikator"
 
 #: output/transactionlist.cpp:54
 msgid "Command line"
-msgstr ""
+msgstr "Wiersz poleceń"
 
 #: output/transactionlist.cpp:55
 msgid "Date and time"
-msgstr ""
+msgstr "Data i godzina"
 
 #: output/transactionlist.cpp:56
 msgid "Action(s)"
-msgstr ""
+msgstr "Działania"
 
 #: output/transactionlist.cpp:57
 msgid "Altered"
-msgstr ""
+msgstr "Zmienione"
 
 #. namespace
 #: progressbar/multi_progress_bar.cpp:85
@@ -581,19 +576,20 @@ msgstr "Brak polecenia"
 msgid ""
 "Invalid date passed: \"{}\". Dates in \"YYYY-MM-DD\" format are expected"
 msgstr ""
+"Podano nieprawidłową datę: „{}”. Oczekiwane są daty w formacie „RRRR-MM-DD”"
 
 #: session.cpp:270
 #, c++-format
 msgid "\"{}\" date cannot be represented by time_t type on this platform"
-msgstr ""
+msgstr "Data \"{}\" nie może zostać zapisana w typie time_t na tej platformie"
 
 #: utils/userconfirm.cpp:46
 msgid "Is this ok [Y/n]: "
-msgstr ""
+msgstr "Kontynuować? [T/n]: "
 
 #: utils/userconfirm.cpp:49
 msgid "Is this ok [y/N]: "
-msgstr ""
+msgstr "Kontynuować? [t/N]: "
 
 #~ msgid "No matches found."
 #~ msgstr "Nie znaleziono dopasowań."
