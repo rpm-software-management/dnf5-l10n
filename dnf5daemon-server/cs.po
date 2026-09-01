@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-26 03:48+0000\n"
+"POT-Creation-Date: 2026-09-01 18:31+0000\n"
 "PO-Revision-Date: 2024-02-02 12:15+0000\n"
 "Last-Translator: Petr Ptacek <petr106@atlas.cz>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf5/"
@@ -19,9 +19,17 @@ msgstr ""
 "X-Generator: Weblate 5.3.1\n"
 
 #: threads_manager.cpp:94
+#, fuzzy, c++-format
+#| msgid "Failed to use locale \"{}\"."
+msgid "Invalid locale \"{}\"."
+msgstr "Nepodařilo se použít národní prostředí \"{}\"."
+
+#: threads_manager.cpp:100
+#, c++-format
 msgid "Failed to create locale \"{}\"."
 msgstr "Nepodařilo se vytvořit národní prostředí \"{}\"."
 
-#: threads_manager.cpp:99
+#: threads_manager.cpp:105
+#, c++-format
 msgid "Failed to use locale \"{}\"."
 msgstr "Nepodařilo se použít národní prostředí \"{}\"."

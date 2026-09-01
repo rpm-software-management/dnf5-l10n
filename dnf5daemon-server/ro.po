@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-26 03:48+0000\n"
+"POT-Creation-Date: 2026-09-01 18:31+0000\n"
 "PO-Revision-Date: 2024-10-01 12:38+0000\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -20,9 +20,17 @@ msgstr ""
 "X-Generator: Weblate 5.7.2\n"
 
 #: threads_manager.cpp:94
+#, fuzzy, c++-format
+#| msgid "Failed to use locale \"{}\"."
+msgid "Invalid locale \"{}\"."
+msgstr "Nu s-a reușit utilizarea configurației regionale „{}”."
+
+#: threads_manager.cpp:100
+#, c++-format
 msgid "Failed to create locale \"{}\"."
 msgstr "Crearea configurației regionale „{}” a eșuat."
 
-#: threads_manager.cpp:99
+#: threads_manager.cpp:105
+#, c++-format
 msgid "Failed to use locale \"{}\"."
 msgstr "Nu s-a reușit utilizarea configurației regionale „{}”."
