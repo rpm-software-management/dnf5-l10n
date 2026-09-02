@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-01 18:31+0000\n"
-"PO-Revision-Date: 2026-08-07 17:17+0000\n"
-"Last-Translator: Nik Nikovsky <zejdzztegomaila@gmail.com>\n"
+"PO-Revision-Date: 2026-09-02 07:20+0000\n"
+"Last-Translator: Paweł Marciniak <sunwire+fas@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/pl/>\n"
 "Language: pl\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2026.8\n"
+"X-Generator: Weblate 2026.8.1\n"
 
 #: cmdline_aliases.cpp:84 context.cpp:198 main.cpp:1447
 msgid ", "
@@ -215,7 +215,7 @@ msgstr "Brak atrybutu „attached_command” dla polecenia „{}” w pliku „{
 #: cmdline_aliases.cpp:791
 #, c++-format
 msgid "Bad value type in file \"{}\" on line {}: {}"
-msgstr "Nieprawidłowy typ wartości w pliku „{}” w linii {}: {}"
+msgstr "Nieprawidłowy typ wartości w pliku \"{}\" w linii {}: {}"
 
 #: cmdline_aliases.cpp:804
 #, c++-format
@@ -236,10 +236,8 @@ msgstr "Wyświetl ostrzeżenia"
 
 #: commands/advisory/advisory_subcommand.cpp:93 commands/no_matches.cpp:74
 #: commands/repoquery/repoquery.cpp:903
-#, fuzzy
-#| msgid "No matching repositories for {}"
 msgid "No matches found: no repositories are enabled."
-msgstr "Brak pasujących repozytoriów dla {}"
+msgstr "Nie znaleziono wyników: żadne repozytoria nie są włączone."
 
 #: commands/advisory/advisory_summary.cpp:44
 msgid "All"
@@ -407,6 +405,9 @@ msgid ""
 "either mark it as user-installed or change protected_packages configuration "
 "option."
 msgstr ""
+"Niepotrzebny pakiet chroniony: {0} (i jego zależności) nie może zostać "
+"usunięty. Należy oznaczyć go jako zainstalowany przez użytkownika lub "
+"zmienić opcję konfiguracji protected_packages."
 
 #: commands/check-upgrade/check-upgrade.cpp:47
 msgid "Check for available package upgrades"
@@ -511,8 +512,7 @@ msgid "Action was not defined"
 msgstr "Działanie nie zostało zdefiniowane"
 
 #: commands/do/do.cpp:231
-#, fuzzy, c++-format
-#| msgid "Invalid Environmet/Group specification: {}"
+#, c++-format
 msgid "Invalid Environment/Group specification: {}"
 msgstr "Nieprawidłowa specyfikacja środowiska/grupy: {}"
 
@@ -521,8 +521,6 @@ msgid "Downgrading environments and groups is not supported."
 msgstr "Obniżanie wersji środowisk i grup nie jest obsługiwane."
 
 #: commands/do/do.cpp:332
-#, fuzzy
-#| msgid "Reinstaling environments and groups is not supported."
 msgid "Reinstalling environments and groups is not supported."
 msgstr "Ponowna instalacja środowisk i grup nie jest obsługiwana."
 
@@ -566,8 +564,6 @@ msgid "Show only installed environments."
 msgstr "Pokaż tylko zainstalowane środowiska."
 
 #: commands/environment/arguments.hpp:47
-#, fuzzy
-#| msgid "Pattern matching environment IDs."
 msgid "Pattern matching environment identifiers."
 msgstr "Dopasowywanie wzorców identyfikatorów środowisk."
 
@@ -578,19 +574,17 @@ msgstr "Zarządzaj środowiskami comps"
 #: commands/environment/environment_info.cpp:101
 #: commands/environment/environment_list.cpp:99
 msgid "No matches found: no environments are installed."
-msgstr ""
+msgstr "Nie znaleziono wyników: nie zainstalowano żadnych środowisk."
 
 #: commands/environment/environment_info.cpp:103
 #: commands/environment/environment_list.cpp:101
 msgid "No matches found: no environments are available."
-msgstr ""
+msgstr "Nie znaleziono wyników: nie ma dostępnych środowisk."
 
 #: commands/environment/environment_info.cpp:105
 #: commands/environment/environment_list.cpp:103
-#, fuzzy
-#| msgid "No matches found for \"{}\"."
 msgid "No matches found: no environments exist."
-msgstr "Nie znaleziono wyników dla „{}”."
+msgstr "Nie znaleziono wyników: nie istnieją żadne środowiska."
 
 #: commands/group/arguments.hpp:34
 msgid "Show only available groups."
@@ -613,46 +607,32 @@ msgstr ""
 "obsługuje wzorce."
 
 #: commands/group/arguments.hpp:67
-#, fuzzy
-#| msgid "Pattern matching group IDS."
 msgid "Pattern matching group identifiers."
-msgstr "Grupa dopasowywania wzorców IDS."
+msgstr "Identyfikatory grup dopasowywania wzorców."
 
 #: commands/group/arguments.hpp:77
-#, fuzzy
-#| msgid "Pattern matching environment IDs."
 msgid "Pattern matching group or environment identifiers."
-msgstr "Dopasowywanie wzorców identyfikatorów środowisk."
+msgstr "Identyfikatory grupy lub środowiska dopasowywania wzorców."
 
 #: commands/group/arguments.hpp:86
-#, fuzzy
-#| msgid "Include optional packages from group."
 msgid "Include optional packages from groups."
-msgstr "Dołącz opcjonalne pakiety z grupy."
+msgstr "Dołącz opcjonalne pakiety z grup."
 
 #: commands/group/arguments.hpp:97
-#, fuzzy
-#| msgid "Operate on groups only, no packages are changed."
 msgid "Operate on environments and groups only, no packages are changed."
-msgstr "Działa tylko na grupach, pakiety nie ulegają zmianie."
+msgstr "Działa tylko w środowiskach i grupach, żadne pakiety nie są zmieniane."
 
 #: commands/group/group_list.cpp:110
-#, fuzzy
-#| msgid "No matches found for \"{}\"."
 msgid "No matches found: no groups are installed."
-msgstr "Nie znaleziono wyników dla „{}”."
+msgstr "Nie znaleziono wyników: nie zainstalowano żadnych grup."
 
 #: commands/group/group_list.cpp:112
-#, fuzzy
-#| msgid "No matches found for \"{}\"."
 msgid "No matches found: no groups are available."
-msgstr "Nie znaleziono wyników dla „{}”."
+msgstr "Nie znaleziono wyników: nie ma dostępnych grup."
 
 #: commands/group/group_list.cpp:114
-#, fuzzy
-#| msgid "No matches found for \"{}\"."
 msgid "No matches found: no groups exist."
-msgstr "Nie znaleziono wyników dla „{}”."
+msgstr "Nie znaleziono wyników: nie istnieją żadne grupy."
 
 #: commands/history/arguments.hpp:37
 msgid "Transaction ID"
@@ -743,12 +723,12 @@ msgstr ""
 "inne zainstalowane pakiety"
 
 #: commands/list/info.hpp:38
-#, fuzzy
-#| msgid "Lists packages depending on the packages' relation to the system"
 msgid ""
 "Lists packages depending on the packages' relation to the system with "
 "additional details"
-msgstr "Wypisuje pakiety w zależności od ich relacji z systemem"
+msgstr ""
+"Wypisuje pakiety w zależności od relacji pakietów z systemem, podając "
+"dodatkowe szczegóły"
 
 #: commands/list/list.cpp:49
 msgid "List of package-spec-NI to match (case insensitively)"
@@ -851,17 +831,15 @@ msgstr "Zarządzaj modułami"
 
 #: commands/module/module_list.cpp:88
 msgid "No matches found: no module streams are enabled."
-msgstr ""
+msgstr "Nie znaleziono wyników: nie włączono żadnego strumienia modułu."
 
 #: commands/module/module_list.cpp:90
 msgid "No matches found: no module streams are disabled."
-msgstr ""
+msgstr "Nie znaleziono wyników: żaden strumień modułu nie jest wyłączony."
 
 #: commands/module/module_list.cpp:92
-#, fuzzy
-#| msgid "No matches found for \"{}\"."
 msgid "No matches found: no module streams exist."
-msgstr "Nie znaleziono wyników dla „{}”."
+msgstr "Nie znaleziono wyników: nie istnieją żadne strumienie modułów."
 
 #: commands/no_matches.cpp:14
 #, c++-format
@@ -873,14 +851,13 @@ msgid ""
 "No repositories were loaded from the installroot. To use the configuration "
 "and repositories of the host system, pass --use-host-config."
 msgstr ""
-"Żadne repozytoria nie zostały załadowane z installroot. Aby użyć "
-"konfiguracji i repozytoriów systemu hosta, przekaż --use-host-config."
+"Żadne repozytoria nie zostały załadowane z katalogu instalacyjnego. Aby użyć "
+"konfiguracji i repozytoriów systemu hosta, należy podać parametr --use-host-"
+"config."
 
 #: commands/no_matches.cpp:78 commands/no_matches.hpp:45
-#, fuzzy
-#| msgid "No matches found for \"{}\"."
 msgid "No matches found."
-msgstr "Nie znaleziono wyników dla „{}”."
+msgstr "Nie znaleziono wyników."
 
 #: commands/offline/offline.cpp:217
 msgid "Manage offline transactions"
@@ -898,7 +875,7 @@ msgstr ""
 #: commands/offline/offline.cpp:264
 msgid ""
 "The system has been modified since the offline transaction was prepared."
-msgstr ""
+msgstr "System został zmodyfikowany od czasu przygotowania transakcji offline."
 
 #: commands/offline/offline.cpp:268
 #, c++-format
@@ -906,6 +883,8 @@ msgid ""
 "The system has been modified since the offline transaction was prepared. To "
 "reschedule, run: {}"
 msgstr ""
+"System został zmodyfikowany od czasu przygotowania transakcji offline. Aby "
+"przeplanować transakcję, uruchom: {}"
 
 #: commands/offline/offline.cpp:290
 #, c++-format
@@ -1040,21 +1019,20 @@ msgid "Show status of the current offline transaction"
 msgstr "Pokaż status bieżącej transakcji offline"
 
 #: commands/offline/offline.cpp:752
-#, fuzzy
-#| msgid ""
-#| "The system will now reboot to perform the offline transaction initiated "
-#| "by the following command:"
 msgid ""
 "The system has been modified since the offline transaction was prepared. The "
 "offline transaction initiated by the following command is no longer valid:"
 msgstr ""
-"System zostanie teraz uruchomiony ponownie w celu wykonania transakcji "
-"offline zainicjowanej następującym poleceniem:"
+"System został zmodyfikowany od czasu przygotowania transakcji offline. "
+"Transakcja offline zainicjowana następującym poleceniem nie jest już "
+"prawidłowa:"
 
 #: commands/offline/offline.cpp:756
 msgid ""
 "To reschedule, run the command above. To clean up, run `dnf5 offline clean`."
 msgstr ""
+"Aby zmienić harmonogram, uruchom powyższe polecenie. Aby wyczyścić, uruchom "
+"polecenie `dnf5 offline clean`."
 
 #: commands/offline/offline.cpp:760
 msgid "An offline transaction was initiated by the following command:"
@@ -1090,6 +1068,8 @@ msgid ""
 "If searching for a file, try specifying the full path or using a wildcard "
 "prefix (\"*/\") at the beginning."
 msgstr ""
+"Jeśli szukasz pliku, spróbuj podać pełną ścieżkę lub użyj symbolu "
+"wieloznacznego („*/”) na początku."
 
 #: commands/reinstall/reinstall.cpp:40
 msgid "Reinstall software"
@@ -1104,18 +1084,22 @@ msgid ""
 "Option '--limit' must be equal or greater than 1 (to keep at least the "
 "newest installed package)."
 msgstr ""
+"Opcja „--limit” musi być większa lub równa 1 (aby zachować co najmniej "
+"najnowszy zainstalowany pakiet)."
 
 #: commands/remove/remove.cpp:237
 msgid "Option '--limit' can only be used with '--oldinstallonly'."
 msgstr ""
+"Opcja „--limit” może być używana wyłącznie w połączeniu z opcją „--"
+"oldinstallonly”."
 
 #: commands/remove/remove.cpp:242
-#, fuzzy
-#| msgid "{}. Add \"--help\" for more information about the arguments."
 msgid ""
 "Missing positional arguments for \"remove\" command. Add \"--help\" for more "
 "information about the arguments."
-msgstr "{}. Dodaj „--help”, aby uzyskać więcej informacji o argumentach."
+msgstr ""
+"Brak argumentów pozycyjnych dla polecenia „remove”. Dodaj „--help”, aby "
+"uzyskać więcej informacji o argumentach."
 
 #: commands/remove/remove.cpp:269
 #, c++-format
@@ -1124,6 +1108,9 @@ msgid ""
 "version and was not removed. Please reboot into the latest kernel and run "
 "this command again to complete the cleanup."
 msgstr ""
+"Ostrzeżenie: aktualnie działające jądro „{}” nie jest najnowszą "
+"zainstalowaną wersją i nie zostało usunięte. Uruchom ponownie komputer z "
+"najnowszym jądrem i uruchom tę komendę ponownie, aby zakończyć czyszczenie."
 
 #: commands/replay/replay.cpp:38
 msgid "Replay a transaction that was previously stored to a directory"
@@ -1183,13 +1170,11 @@ msgstr "Wyszukaj oprogramowanie pasujące do wszystkich określonych ciągów"
 
 #: commands/search/search.cpp:70
 msgid "Options --name and --summary cannot be used together."
-msgstr ""
+msgstr "Opcji --name i --summary nie można używać razem."
 
 #: commands/search/search.cpp:74
-#, fuzzy
-#| msgid "Option \"--alldeps\" should be used with \"--resolve\""
 msgid "Option --all cannot be used with --name or --summary."
-msgstr "Opcja „--alldeps” powinna być używana z opcją „--resolve”"
+msgstr "Opcji --all nie można używać z opcjami --name ani --summary."
 
 #: commands/swap/swap.cpp:42
 msgid "Remove software and install another in one transaction"
@@ -1258,10 +1243,8 @@ msgid "Add new entry to versionlock configuration"
 msgstr "Dodaj nowy wpis do konfiguracji versionlock"
 
 #: commands/versionlock/versionlock_add.cpp:44
-#, fuzzy
-#| msgid "List of package specs to remove versionlock for"
 msgid "List of packages to lock to their current versions"
-msgstr "Lista specyfikacji pakietów, dla których należy usunąć blokadę wersji"
+msgstr "Lista pakietów do zablokowania w ich bieżących wersjach"
 
 #: commands/versionlock/versionlock_add.cpp:107
 #: commands/versionlock/versionlock_exclude.cpp:128
@@ -1304,6 +1287,8 @@ msgid ""
 "List of packages to exclude. If no version is specified, all available "
 "versions of the package will be excluded."
 msgstr ""
+"Lista pakietów do wykluczenia. Jeśli nie określono wersji, wykluczone "
+"zostaną wszystkie dostępne wersje pakietu."
 
 #: commands/versionlock/versionlock_exclude.cpp:91
 #: commands/versionlock/versionlock_exclude.cpp:103
@@ -1317,37 +1302,33 @@ msgid "Package \"{}\" is already excluded."
 msgstr "Pakiet {} jest już wykluczony."
 
 #: context.cpp:73
-#, fuzzy, c++-format
-#| msgid "Query Commands:"
+#, c++-format
 msgid "Command: {}"
-msgstr "Polecenia zapytania:"
+msgstr "Polecenie: {}"
 
 #: context.cpp:81
 #, c++-format
 msgid "Process ID: {} (still running)"
-msgstr ""
+msgstr "Identyfikator procesu: {} (nadal działa)"
 
 #: context.cpp:83
 #, c++-format
 msgid "Process ID: {}"
-msgstr ""
+msgstr "Identyfikator procesu: {}"
 
 #: context.cpp:92
-#, fuzzy, c++-format
-#| msgid "setvar: {}"
+#, c++-format
 msgid "Started: {}"
-msgstr "setvar: {}"
+msgstr "Rozpoczęto: {}"
 
 #: context.cpp:99
 #, c++-format
 msgid "Comment: {}"
-msgstr ""
+msgstr "Komentarz: {}"
 
 #: context.cpp:103
-#, fuzzy
-#| msgid "Show status of the current offline transaction"
 msgid "Details about the currently running transaction:\n"
-msgstr "Pokaż status bieżącej transakcji offline"
+msgstr "Szczegóły aktualnie trwającej transakcji:\n"
 
 #: context.cpp:121
 #, c++-format
@@ -1437,16 +1418,20 @@ msgid ""
 "Waiting for a lock on the system repository; another process is currently "
 "accessing it. Use the \"--skip-file-locks\" option to bypass the lock."
 msgstr ""
+"Oczekiwanie na blokadę repozytorium systemowego; inny proces aktualnie "
+"uzyskuje do niego dostęp. Użyj opcji „--skip-file-locks”, aby ominąć blokadę."
 
 #: context.cpp:282
 msgid ""
 "Waiting for a lock on the system repository. The following processes are "
 "currently accessing it:"
 msgstr ""
+"Oczekiwanie na blokadę repozytorium systemowego. Następujące procesy "
+"aktualnie uzyskują do niego dostęp:"
 
 #: context.cpp:292
 msgid "Use the \"--skip-file-locks\" option to bypass the lock."
-msgstr ""
+msgstr "Aby ominąć blokadę, użyj opcji „--skip-file-locks”."
 
 #. If we're only loading the system repo, we can skip the message.
 #: context.cpp:300
@@ -1510,15 +1495,13 @@ msgid "Running transaction"
 msgstr "Wykonywanie transakcji"
 
 #: context.cpp:551
-#, fuzzy
-#| msgid "Starting offline transaction. This will take a while."
 msgid "Warning: Pending offline transaction has been invalidated."
-msgstr "Rozpoczęcie transakcji offline. To potrwa chwilę."
+msgstr "Ostrzeżenie: oczekująca transakcja offline została unieważniona."
 
 #: context.cpp:553
 #, c++-format
 msgid "To reschedule, run: {}"
-msgstr ""
+msgstr "Aby zmienić harmonogram, uruchom: {}"
 
 #: context.cpp:916
 #, c++-format
@@ -1744,11 +1727,11 @@ msgstr "nie ograniczaj transakcji do najlepszego kandydata"
 
 #: main.cpp:342
 msgid "allow automatic package replacements from different vendors"
-msgstr ""
+msgstr "umożliwia automatyczną wymianę pakietów od różnych dostawców"
 
 #: main.cpp:349
 msgid "do not allow automatic package replacements from different vendors"
-msgstr ""
+msgstr "nie zezwalaj na automatyczną wymianę pakietów od różnych dostawców"
 
 #: main.cpp:360
 msgid ""
@@ -1839,16 +1822,14 @@ msgid "override the value of $releasever in config and repo files"
 msgstr "nadpisz wartość $releasever w plikach konfiguracyjnych i repozytorium"
 
 #: main.cpp:556
-#, fuzzy
-#| msgid "override the value of $releasever in config and repo files"
 msgid "override the value of $releasever_major in config and repo files"
-msgstr "nadpisz wartość $releasever w plikach konfiguracyjnych i repozytorium"
+msgstr ""
+"nadpisz wartość $releasever_major w plikach konfiguracyjnych i repozytorium"
 
 #: main.cpp:569
-#, fuzzy
-#| msgid "override the value of $releasever in config and repo files"
 msgid "override the value of $releasever_minor in config and repo files"
-msgstr "nadpisz wartość $releasever w plikach konfiguracyjnych i repozytorium"
+msgstr ""
+"nadpisz wartość $releasever_minor w plikach konfiguracyjnych i repozytorium"
 
 #: main.cpp:582
 msgid ""
@@ -1888,6 +1869,7 @@ msgstr "Wymuś użycie innej architektury."
 #: main.cpp:697
 msgid "Skip acquiring file locks, such as the lock on the system repository"
 msgstr ""
+"Pomiń nabywanie blokad plików, takich jak blokada repozytorium systemowego"
 
 #: main.cpp:712
 msgid "Software Management Commands:"
@@ -1946,16 +1928,12 @@ msgid "  API version: {}.{}"
 msgstr "  wersja API: {}.{}"
 
 #: main.cpp:861
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "Loaded {} plugins:"
 msgid ""
 "\n"
 "Loaded libdnf5 plugins:"
 msgstr ""
 "\n"
-"Załadowano {} wtyczek:"
+"Załadowano wtyczki libdnf5:"
 
 #: main.cpp:908
 #, c++-format
@@ -2052,10 +2030,9 @@ msgid "{} to skip uninstallable packages"
 msgstr "{} aby pominąć pakiety, które można odinstalować"
 
 #: main.cpp:1227
-#, fuzzy, c++-format
-#| msgid "{} to allow extra packages in the transaction"
+#, c++-format
 msgid "{} to allow changing package vendors"
-msgstr "{} aby zezwolić na dodatkowe pakiety w transakcji"
+msgstr "{} aby umożliwić zmianę dostawcy pakietów"
 
 #: main.cpp:1231
 msgid "You can try to add to command line:"
@@ -2127,6 +2104,8 @@ msgid ""
 "{}. Dropping all logs. To redirect the log file location use the \"logdir\" "
 "configuration option."
 msgstr ""
+"{}. Usunięcie wszystkich logów. Aby przekierować lokalizację pliku logu, "
+"użyj opcji konfiguracji „logdir”."
 
 #: main.cpp:1576
 msgid ""
@@ -2141,7 +2120,7 @@ msgstr ""
 #: main.cpp:1590
 #, c++-format
 msgid "Warning: {}"
-msgstr ""
+msgstr "Ostrzeżenie: {}"
 
 #: main.cpp:1603
 msgid ""
@@ -2149,6 +2128,9 @@ msgid ""
 "or immutable operating system. For more information, refer to your "
 "distribution's documentation."
 msgstr ""
+"Błąd: /usr jest skonfigurowany jako tylko do odczytu. Być może używasz "
+"systemu operacyjnego opartego na obrazie lub niezmiennego. Aby uzyskać "
+"więcej informacji, zapoznaj się z dokumentacją swojej dystrybucji."
 
 #: main.cpp:1622
 msgid ""
@@ -2156,23 +2138,23 @@ msgid ""
 "transient to perform this operation in a transient overlay which will reset "
 "when the system reboots."
 msgstr ""
+"Błąd: transakcje trwałe nie są obsługiwane w systemach bootc. Wprowadź --"
+"transient, aby wykonać tę operację w tymczasowej nakładce, która zostanie "
+"zresetowana po ponownym uruchomieniu systemu."
 
 #: main.cpp:1632
-#, fuzzy
-#| msgid ""
-#| "Error: this bootc system is configured to be read-only. For more "
-#| "information, run `bootc --help`."
 msgid ""
 "Error: this bootc system is configured to be read-only. Pass --transient to "
 "perform this operation in a transient overlay which will reset when the "
 "system reboots."
 msgstr ""
-"Błąd: ten system bootc jest skonfigurowany jako tylko do odczytu. Aby "
-"uzyskać więcej informacji, uruchom `bootc --help`."
+"Błąd: ten system bootc jest skonfigurowany jako tylko do odczytu. Podaj "
+"parametr --transient, aby wykonać tę operację w tymczasowej nakładce, która "
+"zostanie zresetowana po ponownym uruchomieniu systemu."
 
 #: main.cpp:1643
 msgid "Error: transient transactions are only supported on bootc systems."
-msgstr ""
+msgstr "Błąd: transakcje przejściowe są obsługiwane tylko w systemach bootc."
 
 #: main.cpp:1684
 #, c++-format
@@ -2192,19 +2174,17 @@ msgstr ""
 "kluczy OpenPGP i sprawdzanie transakcji."
 
 #: main.cpp:1700
-#, fuzzy
-#| msgid "Starting offline transaction. This will take a while."
 msgid "Warning: A pending offline transaction will be invalidated."
-msgstr "Rozpoczęcie transakcji offline. To potrwa chwilę."
+msgstr "Ostrzeżenie: oczekująca transakcja offline zostanie unieważniona."
 
 #: main.cpp:1703
-#, fuzzy, c++-format
-#| msgid "An offline transaction was initiated by the following command:"
+#, c++-format
 msgid ""
 "Warning: A pending offline transaction initiated by the following command "
 "will be invalidated: {}"
 msgstr ""
-"Transakcja offline została zainicjowana za pomocą następującego polecenia:"
+"Ostrzeżenie: oczekująca transakcja offline zainicjowana następującym "
+"poleceniem zostanie unieważniona: {}"
 
 #: main.cpp:1728
 msgid ""
@@ -2212,12 +2192,17 @@ msgid ""
 "inconsistencies when the transient overlay on /usr is discarded. See the "
 "usr_drift_protected_paths configuration option for more information."
 msgstr ""
+"Ta transakcja zmodyfikowałaby następujące ścieżki, co mogłoby spowodować "
+"niespójności po usunięciu tymczasowej nakładki w /usr. Więcej informacji "
+"można znaleźć w opcji konfiguracji usr_drift_protected_paths."
 
 #: main.cpp:1739
 msgid ""
 "Operation aborted. Pass --setopt=usr_drift_protected_paths= to disable this "
 "check and proceed anyway."
 msgstr ""
+"Operacja przerwana. Wprowadź --setopt=usr_drift_protected_paths=, aby "
+"wyłączyć to sprawdzanie i kontynuować mimo wszystko."
 
 #: main.cpp:1748
 msgid ""
@@ -2225,6 +2210,9 @@ msgid ""
 "reboot. Keep in mind that changes to /etc and /var will still persist, and "
 "packages commonly modify these directories."
 msgstr ""
+"W katalogu /usr zostanie utworzona tymczasowa nakładka, która zostanie "
+"usunięta po ponownym uruchomieniu. Należy pamiętać, że zmiany w katalogach /"
+"etc i /var nadal będą obowiązywać, a pakiety często modyfikują te katalogi."
 
 #: main.cpp:1785
 #, c++-format
@@ -2266,8 +2254,6 @@ msgid "REPO_ID,..."
 msgstr "REPO_ID,..."
 
 #: shared_options.cpp:193
-#, fuzzy
-#| msgid "\"--from_repo\" already defined with diferent value"
 msgid "\"--from_repo\" already defined with different value"
 msgstr "„--from_repo” jest już zdefiniowane z inną wartością"
 
@@ -2280,35 +2266,26 @@ msgstr ""
 "zostały zainstalowane."
 
 #: shared_options.cpp:220
-#, fuzzy
-#| msgid "\"--installed-from_repo\" already defined with diferent value"
 msgid "\"--installed-from_repo\" already defined with different value"
 msgstr "„--installed-from_repo” jest już zdefiniowane z inną wartością"
 
 #: shared_options.cpp:236
-#, fuzzy
-#| msgid ""
-#| "The following items can be selected only from the specified repositories. "
-#| "All enabled repositories will still be used to satisfy dependencies."
 msgid ""
 "The following items can be selected only from the specified vendors. The "
 "vendor is ignored or vendor change policies (if allow_vendor_change=0) will "
 "still be used for items that satisfy dependencies."
 msgstr ""
-"Następujące elementy można wybrać tylko z określonych repozytoriów. "
-"Wszystkie włączone repozytoria będą nadal używane do spełnienia zależności."
+"Następujące elementy można wybrać tylko od wskazanych dostawców. Dostawca "
+"jest ignorowany lub zasady zmiany dostawcy (jeśli allow_vendor_change=0) "
+"będą nadal stosowane dla elementów spełniających zależności."
 
 #: shared_options.cpp:239
-#, fuzzy
-#| msgid "CVE_ID,..."
 msgid "VENDOR,..."
-msgstr "ID_CVE,..."
+msgstr "DOSTAWCA,..."
 
 #: shared_options.cpp:248
-#, fuzzy
-#| msgid "\"--from_repo\" already defined with diferent value"
 msgid "\"--from_vendor\" already defined with different value"
-msgstr "„--from_repo” jest już zdefiniowane z inną wartością"
+msgstr "„--from_vendor” jest już zdefiniowany z inną wartością"
 
 #~ msgid "No matching packages to list"
 #~ msgstr "Brak pakietów pasujących do listy"
