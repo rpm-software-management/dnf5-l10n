@@ -1,13 +1,13 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Paweł Marciniak <sunwire+fas@gmail.com>, 2024.
+# Paweł Marciniak <sunwire+fas@gmail.com>, 2024, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-01 18:31+0000\n"
-"PO-Revision-Date: 2024-10-17 17:14+0000\n"
+"PO-Revision-Date: 2026-09-02 07:20+0000\n"
 "Last-Translator: Paweł Marciniak <sunwire+fas@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5-plugin-copr/pl/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.7.2\n"
+"X-Generator: Weblate 2026.8.1\n"
 
 #: copr.cpp:48
 msgid "Copr hub (the web-UI/API server) hostname"
@@ -55,19 +55,6 @@ msgstr ""
 "społeczność/osoby trzecie)"
 
 #: copr_constants.hpp:29
-#, fuzzy
-#| msgid ""
-#| "Enabling a Copr repository. Please note that this repository is not part\n"
-#| "of the main distribution, and quality may vary.\n"
-#| "\n"
-#| "The Fedora Project does not exercise any power over the contents of\n"
-#| "this repository beyond the rules outlined in the Copr FAQ at\n"
-#| "<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-"
-#| "build-in-copr>,\n"
-#| "and packages are not held to any quality or security level.\n"
-#| "\n"
-#| "Please do not file bug reports about these packages in Fedora\n"
-#| "Bugzilla. In case of problems, contact the owner of this repository.\n"
 msgid ""
 "Enabling a Copr repository. Please note that this repository is not part\n"
 "of the main distribution, and quality may vary.\n"
@@ -83,16 +70,16 @@ msgid ""
 msgstr ""
 "Włączanie repozytorium Copr. Należy pamiętać, że to repozytorium nie jest "
 "częścią\n"
-"głównej dystrybucji, a jakość może się różnić.\n"
+"głównej dystrybucji i jego jakość może się różnić.\n"
 "\n"
-"Projekt Fedora nie sprawuje żadnej władzy nad zawartością\n"
+"Projekt Fedora nie sprawuje żadnej kontroli nad zawartością\n"
 "tego repozytorium poza zasadami określonymi w FAQ Copr pod adresem\n"
-"<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-build-"
-"in-copr>,\n"
+"<https://docs.copr.fedorainfracloud.org/user_documentation.html#what-i-can-"
+"build-in-copr>,\n"
 "a pakiety nie są objęte żadnym poziomem jakości ani bezpieczeństwa.\n"
 "\n"
-"Prosimy nie zgłaszać błędów dotyczących tych pakietów w Bugzilli\n"
-"Fedory. W przypadku problemów skontaktuj się z właścicielem tego "
+"Prosimy nie zgłaszać błędów dotyczących tych pakietów w\n"
+"Bugzilli Fedory. W przypadku problemów prosimy o kontakt z właścicielem tego "
 "repozytorium.\n"
 
 #: copr_constants.hpp:41
@@ -163,6 +150,9 @@ msgid ""
 "No repositories were loaded from the installroot. To use the configuration "
 "and repositories of the host system, pass --use-host-config."
 msgstr ""
+"Żadne repozytoria nie zostały załadowane z katalogu instalacyjnego. Aby użyć "
+"konfiguracji i repozytoriów systemu hosta, należy podać parametr --use-host-"
+"config."
 
 #: copr_remove.cpp:35
 #, c++-format
