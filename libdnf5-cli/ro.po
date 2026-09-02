@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-01 18:31+0000\n"
-"PO-Revision-Date: 2026-09-02 07:20+0000\n"
+"PO-Revision-Date: 2026-09-02 16:15+0000\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5-cli/ro/>\n"
@@ -187,7 +187,7 @@ msgstr "Versiunea"
 
 #: output/packageinfo.cpp:70
 msgid "Release"
-msgstr "Ramura de lansare"
+msgstr "Ediția"
 
 #: output/packageinfo.cpp:71
 msgid "Architecture"
@@ -422,10 +422,8 @@ msgid "Upgrading groups:"
 msgstr "Se actualizează grupurile:"
 
 #: output/transaction_table.cpp:630
-#, fuzzy
-#| msgid "Changing reason:"
 msgid "Changing reason of installed groups:"
-msgstr "Schimbând motivul (tipul de operație):"
+msgstr "Schimbarea motivului pentru care au fost instalate grupurile:"
 
 #: output/transaction_table.cpp:657
 msgid "Installing environmental groups:"
@@ -457,15 +455,21 @@ msgstr "Se schimbă fluxurile de module:"
 
 #: output/transaction_table.cpp:771 output/transaction_table.cpp:772
 msgid "(none)"
-msgstr ""
+msgstr "(niciunul)"
 
 #: output/transaction_table.cpp:778
 #, c++-format
 msgid "Skipping {0} package due to vendor change restriction: {1}."
 msgid_plural "Skipping {0} packages due to vendor change restriction: {1}."
 msgstr[0] ""
+"Se omite {0} pachet din cauza restricției privind schimbarea furnizorului: "
+"{1}."
 msgstr[1] ""
+"Se omit {0} pachete din cauza restricției privind schimbarea furnizorului: "
+"{1}."
 msgstr[2] ""
+"Se omit {0} de pachete din cauza restricției privind schimbarea "
+"furnizorului: {1}."
 
 #: output/transaction_table.cpp:799
 msgid "Nothing to do."
@@ -474,83 +478,79 @@ msgstr "Nimic de făcut."
 #. The two spaces indent the table the same way as child lines in KeyValueTable
 #: output/transactioninfo.cpp:73
 msgid "Action"
-msgstr ""
+msgstr "Acțiune"
 
 #: output/transactioninfo.cpp:75
 msgid "Reason"
-msgstr ""
+msgstr "Motiv"
 
 #: output/transactioninfo.cpp:98
-#, fuzzy
-#| msgid "Transaction Summary:\n"
 msgid "Transaction ID"
-msgstr "Rezumatul tranzacției:\n"
+msgstr "ID tranzacție"
 
 #: output/transactioninfo.cpp:99
 msgid "Begin time"
-msgstr ""
+msgstr "Ora de începere"
 
 #: output/transactioninfo.cpp:100
 msgid "Begin rpmdb"
-msgstr ""
+msgstr "Începerea construirii rpmdb"
 
 #: output/transactioninfo.cpp:101
 msgid "End time"
-msgstr ""
+msgstr "Ora de terminare"
 
 #: output/transactioninfo.cpp:102
 msgid "End rpmdb"
-msgstr ""
+msgstr "Terminarea construirii rpmdb"
 
 #: output/transactioninfo.cpp:104
 msgid "User"
-msgstr ""
+msgstr "Utilizator"
 
 #: output/transactioninfo.cpp:105
 msgid "Status"
-msgstr ""
+msgstr "Stare"
 
 #: output/transactioninfo.cpp:106
-#, fuzzy
-#| msgid "Release"
 msgid "Releasever"
-msgstr "Ramura de lansare"
+msgstr "Versiunea-lansată"
 
 #: output/transactioninfo.cpp:108
 msgid "Comment"
-msgstr ""
+msgstr "Comentariu"
 
 #: output/transactioninfo.cpp:111
 msgid "Packages altered:"
-msgstr ""
+msgstr "Pachete modificate:"
 
 #: output/transactioninfo.cpp:112
 msgid "Groups altered:"
-msgstr ""
+msgstr "Grupuri modificate:"
 
 #: output/transactioninfo.cpp:113
 msgid "Environments altered:"
-msgstr ""
+msgstr "Medii modificate:"
 
 #: output/transactionlist.cpp:53
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: output/transactionlist.cpp:54
 msgid "Command line"
-msgstr ""
+msgstr "Linia de comandă"
 
 #: output/transactionlist.cpp:55
 msgid "Date and time"
-msgstr ""
+msgstr "Data și ora"
 
 #: output/transactionlist.cpp:56
 msgid "Action(s)"
-msgstr ""
+msgstr "Acțiuni"
 
 #: output/transactionlist.cpp:57
 msgid "Altered"
-msgstr ""
+msgstr "Modificat"
 
 #. namespace
 #: progressbar/multi_progress_bar.cpp:85
@@ -571,15 +571,15 @@ msgstr ""
 #: session.cpp:270
 #, c++-format
 msgid "\"{}\" date cannot be represented by time_t type on this platform"
-msgstr ""
+msgstr "Data „{}” nu poate fi reprezentată de tipul time_t pe această platformă"
 
 #: utils/userconfirm.cpp:46
 msgid "Is this ok [Y/n]: "
-msgstr ""
+msgstr "Este în regulă [D/n]: "
 
 #: utils/userconfirm.cpp:49
 msgid "Is this ok [y/N]: "
-msgstr ""
+msgstr "Este în regulă [d/N]: "
 
 #~ msgid "No matches found."
 #~ msgstr "Nu s-au găsit potriviri."
