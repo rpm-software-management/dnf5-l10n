@@ -4,14 +4,14 @@
 # Adaline Simonian <adalinesimonian@gmail.com>, 2024.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2026.
 # Eskil Gerdrup <eskil.gerdrup@outlook.com>, 2026.
+# Adaline Simonian <adalinesimonian@pm.me>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-01 18:31+0000\n"
-"PO-Revision-Date: 2026-06-10 15:38+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2026-09-02 07:20+0000\n"
+"Last-Translator: Adaline Simonian <adalinesimonian@pm.me>\n"
 "Language-Team: Norwegian Nynorsk <https://translate.fedoraproject.org/"
 "projects/dnf5/dnf5/nn/>\n"
 "Language: nn\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.6.1\n"
+"X-Generator: Weblate 2026.8.1\n"
 
 #: cmdline_aliases.cpp:84 context.cpp:198 main.cpp:1447
 msgid ", "
@@ -236,7 +236,7 @@ msgstr "List opp varsel"
 #: commands/advisory/advisory_subcommand.cpp:93 commands/no_matches.cpp:74
 #: commands/repoquery/repoquery.cpp:903
 msgid "No matches found: no repositories are enabled."
-msgstr ""
+msgstr "Ingen resultat funne: ingen pakkelager er aktiverte."
 
 #: commands/advisory/advisory_summary.cpp:44
 msgid "All"
@@ -399,6 +399,9 @@ msgid ""
 "either mark it as user-installed or change protected_packages configuration "
 "option."
 msgstr ""
+"Unødvendig verna pakke: {0} (og avhengnadene til ho) kan ikkje fjernast; "
+"anten merk ho som installert av brukaren eller endre protected_packages-"
+"instillinga."
 
 #: commands/check-upgrade/check-upgrade.cpp:47
 msgid "Check for available package upgrades"
@@ -570,12 +573,12 @@ msgstr "Handter comps-miljø"
 #: commands/environment/environment_info.cpp:101
 #: commands/environment/environment_list.cpp:99
 msgid "No matches found: no environments are installed."
-msgstr ""
+msgstr "Ingen resultat funne: ingen miljø er installerte."
 
 #: commands/environment/environment_info.cpp:103
 #: commands/environment/environment_list.cpp:101
 msgid "No matches found: no environments are available."
-msgstr ""
+msgstr "Ingen resultat funne: ingen miljø er tilgjengelege."
 
 #: commands/environment/environment_info.cpp:105
 #: commands/environment/environment_list.cpp:103
@@ -837,11 +840,11 @@ msgstr "Handter modular"
 
 #: commands/module/module_list.cpp:88
 msgid "No matches found: no module streams are enabled."
-msgstr ""
+msgstr "Ingen resultat funne: ingen modulstraumar er aktiverte."
 
 #: commands/module/module_list.cpp:90
 msgid "No matches found: no module streams are disabled."
-msgstr ""
+msgstr "Ingen resultat funne: ingen modulstraumar er deaktiverte."
 
 #: commands/module/module_list.cpp:92
 #, fuzzy
@@ -859,6 +862,8 @@ msgid ""
 "No repositories were loaded from the installroot. To use the configuration "
 "and repositories of the host system, pass --use-host-config."
 msgstr ""
+"Ingen pakkelager vart lasta inn frå installroot-en. For å bruke "
+"konfigurasjonen og pakkelagera frå vertsystemet, bruk --use-host-config."
 
 #: commands/no_matches.cpp:78 commands/no_matches.hpp:45
 #, fuzzy
@@ -883,7 +888,7 @@ msgstr ""
 #: commands/offline/offline.cpp:264
 msgid ""
 "The system has been modified since the offline transaction was prepared."
-msgstr ""
+msgstr "Systemet har vorte endra sidan offline-transaksjonen vart førebudd."
 
 #: commands/offline/offline.cpp:268
 #, c++-format
@@ -891,6 +896,8 @@ msgid ""
 "The system has been modified since the offline transaction was prepared. To "
 "reschedule, run: {}"
 msgstr ""
+"Systemet har vorte endra sidan offline-transaksjonen vart førebudd. For å "
+"planleggje på nytt, køyr: {}"
 
 #: commands/offline/offline.cpp:290
 #, c++-format
@@ -1038,6 +1045,8 @@ msgstr ""
 msgid ""
 "To reschedule, run the command above. To clean up, run `dnf5 offline clean`."
 msgstr ""
+"For å planleggje på nytt, køyr kommandoen ovanfor. For å rydde opp, køyr "
+"`dnf5 offline clean`."
 
 #: commands/offline/offline.cpp:760
 msgid "An offline transaction was initiated by the following command:"
@@ -1072,6 +1081,8 @@ msgid ""
 "If searching for a file, try specifying the full path or using a wildcard "
 "prefix (\"*/\") at the beginning."
 msgstr ""
+"Om du søkjer etter ei fil, prøv å gjeva heile stigen eller bruke ein "
+"jokerteiknforled («*/») på starten."
 
 #: commands/reinstall/reinstall.cpp:40
 msgid "Reinstall software"
@@ -1086,16 +1097,20 @@ msgid ""
 "Option '--limit' must be equal or greater than 1 (to keep at least the "
 "newest installed package)."
 msgstr ""
+"Alternativet «--limit» må vera lik eller større enn 1 (for å ta vare minst "
+"på den sist installerte pakka)."
 
 #: commands/remove/remove.cpp:237
 msgid "Option '--limit' can only be used with '--oldinstallonly'."
-msgstr ""
+msgstr "Alternativet «--limit» kan berre brukast med «--oldinstallonly»."
 
 #: commands/remove/remove.cpp:242
 msgid ""
 "Missing positional arguments for \"remove\" command. Add \"--help\" for more "
 "information about the arguments."
 msgstr ""
+"Manglande posisjonsbundne argument for «remove»-kommandoen. Legg til «--help"
+"» for meir informasjon om argumenta."
 
 #: commands/remove/remove.cpp:269
 #, c++-format
@@ -1104,6 +1119,9 @@ msgid ""
 "version and was not removed. Please reboot into the latest kernel and run "
 "this command again to complete the cleanup."
 msgstr ""
+"Åtvaring: Den køyrande kjernen «{}» er ikkje den sist installerte versjonen "
+"og vart då ikkje fjerna. Ver venleg og start på nytt med den nyaste kjernen "
+"og køyr denne kommandoen att for å fullføre ryddinga."
 
 #: commands/replay/replay.cpp:38
 msgid "Replay a transaction that was previously stored to a directory"
@@ -1163,7 +1181,7 @@ msgstr "Søk etter programvare som høver med alle dei oppgjevne strengane"
 
 #: commands/search/search.cpp:70
 msgid "Options --name and --summary cannot be used together."
-msgstr ""
+msgstr "Alternativa --name og --summary kan ikkje brukast saman."
 
 #: commands/search/search.cpp:74
 #, fuzzy
@@ -1181,29 +1199,32 @@ msgstr "Førebu systemet for oppgradering til ei ny utgjeving"
 
 #: commands/system-upgrade/system-upgrade.cpp:72
 msgid "Download everything needed to upgrade to a new release"
-msgstr ""
+msgstr "Last ned alt som trengst for å oppgradere til ei ny utgåve"
 
 #: commands/system-upgrade/system-upgrade.cpp:80
 msgid ""
 "Do not install packages from the new release if they are older than what is "
 "currently installed"
 msgstr ""
+"Ikkje installer pakker frå den nye utgåva om dei er eldre enn dei som no er "
+"installerte"
 
 #: commands/system-upgrade/system-upgrade.cpp:101
 msgid "Need a --releasever greater than the current system version."
 msgstr ""
+"Det trengst ein --releasever som er større enn den gjeldande systemversjonen."
 
 #: commands/system-upgrade/system-upgrade.cpp:150
 msgid "Store a distro-sync transaction to be performed offline"
-msgstr ""
+msgstr "Lagre ein distro-sync-transaksjon for å køyrast offline"
 
 #: commands/system-upgrade/system-upgrade.cpp:172
 msgid "Store an upgrade transaction to be performed offline"
-msgstr ""
+msgstr "Lagre ein oppgraderingstransaksjon for å køyrast offline"
 
 #: commands/upgrade/upgrade.cpp:41
 msgid "Upgrade software"
-msgstr ""
+msgstr "Oppgrader programvarer"
 
 #: commands/upgrade/upgrade.cpp:48
 msgid ""
@@ -1212,30 +1233,35 @@ msgid ""
 "limiting advisories is used it upgrades packages only to the lowest versions "
 "that fix advisories that matching selected advisory property"
 msgstr ""
+"Oppgrader pakker berre til dei lågaste versjonane som løyser tilrådingar med "
+"typane bugfix, enhancement, security eller newpackage. I tilfellet det vert "
+"bruka eit alternativ som avgrensar tilrådingar, vert pakkene berre "
+"oppgraderte til dei lågaste versjonane som løyser tilrådingar som samsvarar "
+"med den valde eigenskapen"
 
 #. TODO(mblaha): add full command line
 #: commands/versionlock/utils.cpp:35
 #, c++-format
 msgid "Added by 'versionlock {}' command on {}"
-msgstr ""
+msgstr "Lagt til av «versionlock {}» kommando {}"
 
 #: commands/versionlock/versionlock.cpp:40
 msgid "Manage versionlock configuration"
-msgstr ""
+msgstr "Handsam versionlock-konfigurasjonen"
 
 #: commands/versionlock/versionlock_add.cpp:37
 msgid "Add new entry to versionlock configuration"
-msgstr ""
+msgstr "Legg til ny innføring i versionlock-konfigurasjonen"
 
 #: commands/versionlock/versionlock_add.cpp:44
 msgid "List of packages to lock to their current versions"
-msgstr ""
+msgstr "Liste over pakker som skal festast til dei noverande versjonane deira"
 
 #: commands/versionlock/versionlock_add.cpp:107
 #: commands/versionlock/versionlock_exclude.cpp:128
 #, c++-format
 msgid "No package found for \"{}\"."
-msgstr ""
+msgstr "Inga pakke funnen for «{}»."
 
 #: commands/versionlock/versionlock_add.cpp:134
 #, c++-format
@@ -1493,7 +1519,7 @@ msgstr ""
 #: context.cpp:941
 #, c++-format
 msgid "Installing {}"
-msgstr "Installerar {}"
+msgstr "Installerer {}"
 
 #: context.cpp:962
 msgid "Prepare transaction"
@@ -2146,7 +2172,7 @@ msgid ""
 "Filters installed packages by the ID of the repository they were installed "
 "from."
 msgstr ""
-"Filtrerar installerte pakkar etter ID-en til pakkebrunnen dei vart "
+"Filtrerer installerte pakker etter ID-en til pakkelageret dei vart "
 "installert frå."
 
 #: shared_options.cpp:220
