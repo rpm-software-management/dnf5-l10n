@@ -1,13 +1,13 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>, 2024, 2025.
+# Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>, 2024, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-01 18:31+0000\n"
-"PO-Revision-Date: 2025-08-20 07:53+0000\n"
+"PO-Revision-Date: 2026-09-02 16:15+0000\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ro/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
-"X-Generator: Weblate 5.13\n"
+"X-Generator: Weblate 2026.8.1\n"
 
 #: cmdline_aliases.cpp:84 context.cpp:198 main.cpp:1447
 msgid ", "
@@ -241,10 +241,8 @@ msgstr "Listează avizele"
 
 #: commands/advisory/advisory_subcommand.cpp:93 commands/no_matches.cpp:74
 #: commands/repoquery/repoquery.cpp:903
-#, fuzzy
-#| msgid "No matching repositories for {}"
 msgid "No matches found: no repositories are enabled."
-msgstr "Niciun depozit care să coincidă cu {}"
+msgstr "Nu s-au găsit potriviri: nu este activat niciun depozit."
 
 #: commands/advisory/advisory_summary.cpp:44
 msgid "All"
@@ -409,6 +407,9 @@ msgid ""
 "either mark it as user-installed or change protected_packages configuration "
 "option."
 msgstr ""
+"Pachet protejat fără să fie necesar: {0} (și dependențele sale) nu poate fi "
+"eliminat; marcați-l ca fiind instalat de utilizator sau modificați opțiunea "
+"de configurare „protected_packages”."
 
 #: commands/check-upgrade/check-upgrade.cpp:47
 msgid "Check for available package upgrades"
@@ -512,8 +513,7 @@ msgid "Action was not defined"
 msgstr "Acțiunea nu a fost definită"
 
 #: commands/do/do.cpp:231
-#, fuzzy, c++-format
-#| msgid "Invalid Environmet/Group specification: {}"
+#, c++-format
 msgid "Invalid Environment/Group specification: {}"
 msgstr "Specificație de mediu/grup nevalidă: {}"
 
@@ -522,8 +522,6 @@ msgid "Downgrading environments and groups is not supported."
 msgstr "Retrogradarea mediilor și grupurilor nu este acceptată."
 
 #: commands/do/do.cpp:332
-#, fuzzy
-#| msgid "Reinstaling environments and groups is not supported."
 msgid "Reinstalling environments and groups is not supported."
 msgstr "Reinstalarea mediilor și grupurilor nu este acceptată."
 
@@ -569,10 +567,8 @@ msgid "Show only installed environments."
 msgstr "Afișează numai mediile instalate."
 
 #: commands/environment/arguments.hpp:47
-#, fuzzy
-#| msgid "Pattern matching environment IDs."
 msgid "Pattern matching environment identifiers."
-msgstr "Model de căutat în ID-urile de mediu."
+msgstr "Model de căutat în identificatorii de mediu."
 
 #: commands/environment/environment.cpp:38
 msgid "Manage comps environments"
@@ -581,19 +577,17 @@ msgstr "Gestionează mediile comps"
 #: commands/environment/environment_info.cpp:101
 #: commands/environment/environment_list.cpp:99
 msgid "No matches found: no environments are installed."
-msgstr ""
+msgstr "Nu s-au găsit potriviri: nu este instalat niciun mediu."
 
 #: commands/environment/environment_info.cpp:103
 #: commands/environment/environment_list.cpp:101
 msgid "No matches found: no environments are available."
-msgstr ""
+msgstr "Nu s-au găsit potriviri: nu este disponibil niciun mediu."
 
 #: commands/environment/environment_info.cpp:105
 #: commands/environment/environment_list.cpp:103
-#, fuzzy
-#| msgid "No matches found for \"{}\"."
 msgid "No matches found: no environments exist."
-msgstr "Nu s-au găsit potriviri pentru „{}”."
+msgstr "Nu s-au găsit potriviri: nu există niciun mediu."
 
 #: commands/group/arguments.hpp:34
 msgid "Show only available groups."
@@ -616,46 +610,32 @@ msgstr ""
 "Opțiune listă, acceptă caractere joker."
 
 #: commands/group/arguments.hpp:67
-#, fuzzy
-#| msgid "Pattern matching group IDS."
 msgid "Pattern matching group identifiers."
-msgstr "Model de căutat în ID-urile de grup."
+msgstr "Model de căutat în identificatorii de grup."
 
 #: commands/group/arguments.hpp:77
-#, fuzzy
-#| msgid "Pattern matching environment IDs."
 msgid "Pattern matching group or environment identifiers."
-msgstr "Model de căutat în ID-urile de mediu."
+msgstr "Model de căutat în identificatorii de mediu."
 
 #: commands/group/arguments.hpp:86
-#, fuzzy
-#| msgid "Include optional packages from group."
 msgid "Include optional packages from groups."
-msgstr "Include pachetele opționale din grup."
+msgstr "Include pachetele opționale din grupuri."
 
 #: commands/group/arguments.hpp:97
-#, fuzzy
-#| msgid "Operate on groups only, no packages are changed."
 msgid "Operate on environments and groups only, no packages are changed."
-msgstr "Operează numai pe grupuri, nu sunt schimbate pachetele."
+msgstr "Operează numai pe medii și grupuri, nu sunt schimbate pachetele."
 
 #: commands/group/group_list.cpp:110
-#, fuzzy
-#| msgid "No matches found for \"{}\"."
 msgid "No matches found: no groups are installed."
-msgstr "Nu s-au găsit potriviri pentru „{}”."
+msgstr "Nu s-au găsit potriviri: nu este instalat niciun grup."
 
 #: commands/group/group_list.cpp:112
-#, fuzzy
-#| msgid "No matches found for \"{}\"."
 msgid "No matches found: no groups are available."
-msgstr "Nu s-au găsit potriviri pentru „{}”."
+msgstr "Nu s-au găsit potriviri: nu este disponibil niciun grup."
 
 #: commands/group/group_list.cpp:114
-#, fuzzy
-#| msgid "No matches found for \"{}\"."
 msgid "No matches found: no groups exist."
-msgstr "Nu s-au găsit potriviri pentru „{}”."
+msgstr "Nu s-au găsit potriviri: nu există niciun grup."
 
 #: commands/history/arguments.hpp:37
 msgid "Transaction ID"
@@ -746,12 +726,12 @@ msgstr ""
 "pachete instalate"
 
 #: commands/list/info.hpp:38
-#, fuzzy
-#| msgid "Lists packages depending on the packages' relation to the system"
 msgid ""
 "Lists packages depending on the packages' relation to the system with "
 "additional details"
-msgstr "Listează pachetele în funcție de relația pachetelor cu sistemul"
+msgstr ""
+"Listează pachetele în funcție de relația acestora cu sistemul, oferind "
+"detalii suplimentare"
 
 #: commands/list/list.cpp:49
 msgid "List of package-spec-NI to match (case insensitively)"
@@ -853,17 +833,15 @@ msgstr "Gestionează modulele"
 
 #: commands/module/module_list.cpp:88
 msgid "No matches found: no module streams are enabled."
-msgstr ""
+msgstr "Nu s-au găsit potriviri: nu este activat niciun flux de modul."
 
 #: commands/module/module_list.cpp:90
 msgid "No matches found: no module streams are disabled."
-msgstr ""
+msgstr "Nu s-au găsit potriviri: niciun flux de modul nu este dezactivat."
 
 #: commands/module/module_list.cpp:92
-#, fuzzy
-#| msgid "No matches found for \"{}\"."
 msgid "No matches found: no module streams exist."
-msgstr "Nu s-au găsit potriviri pentru „{}”."
+msgstr "Nu s-au găsit potriviri pentru: nu există fluxuri de module."
 
 #: commands/no_matches.cpp:14
 #, c++-format
@@ -879,10 +857,8 @@ msgstr ""
 "și depozitele sistemului gazdă, introduceți „--use-host-config”."
 
 #: commands/no_matches.cpp:78 commands/no_matches.hpp:45
-#, fuzzy
-#| msgid "No matches found for \"{}\"."
 msgid "No matches found."
-msgstr "Nu s-au găsit potriviri pentru „{}”."
+msgstr "Nu s-au găsit potriviri."
 
 #: commands/offline/offline.cpp:217
 msgid "Manage offline transactions"
@@ -902,6 +878,8 @@ msgstr ""
 msgid ""
 "The system has been modified since the offline transaction was prepared."
 msgstr ""
+"Sistemul a fost modificat de când a fost pregătită tranzacția fără conexiune "
+"la rețea."
 
 #: commands/offline/offline.cpp:268
 #, c++-format
@@ -909,6 +887,8 @@ msgid ""
 "The system has been modified since the offline transaction was prepared. To "
 "reschedule, run: {}"
 msgstr ""
+"Sistemul a fost modificat de când a fost pregătită tranzacția fără conexiune "
+"la rețea. Pentru a o replanifica, executați: {}"
 
 #: commands/offline/offline.cpp:290
 #, c++-format
@@ -1044,21 +1024,20 @@ msgid "Show status of the current offline transaction"
 msgstr "Afișează starea tranzacției efectuate fără conexiune, curente"
 
 #: commands/offline/offline.cpp:752
-#, fuzzy
-#| msgid ""
-#| "The system will now reboot to perform the offline transaction initiated "
-#| "by the following command:"
 msgid ""
 "The system has been modified since the offline transaction was prepared. The "
 "offline transaction initiated by the following command is no longer valid:"
 msgstr ""
-"Sistemul va reporni acum pentru a efectua tranzacția fără conexiune inițiată "
-"de următoarea comandă:"
+"Sistemul a fost modificat de când a fost pregătită tranzacția fără conexiune "
+"la rețea. Tranzacția fără conexiune inițiată prin următoarea comandă nu mai "
+"este valabilă:"
 
 #: commands/offline/offline.cpp:756
 msgid ""
 "To reschedule, run the command above. To clean up, run `dnf5 offline clean`."
 msgstr ""
+"Pentru a o replanifica, executați comanda de mai sus. Pentru a o elimina, "
+"executați «dnf5 offline clean»."
 
 #: commands/offline/offline.cpp:760
 msgid "An offline transaction was initiated by the following command:"
@@ -1094,6 +1073,8 @@ msgid ""
 "If searching for a file, try specifying the full path or using a wildcard "
 "prefix (\"*/\") at the beginning."
 msgstr ""
+"Dacă căutați un fișier, încercați să specificați ruta completă sau să "
+"folosiți un prefix cu caractere joker („*/”) la început."
 
 #: commands/reinstall/reinstall.cpp:40
 msgid "Reinstall software"
@@ -1108,18 +1089,22 @@ msgid ""
 "Option '--limit' must be equal or greater than 1 (to keep at least the "
 "newest installed package)."
 msgstr ""
+"Opțiunea „--limit” trebuie să fie egală sau mai mare decât 1 (pentru a "
+"păstra cel puțin cel mai recent pachet instalat)."
 
 #: commands/remove/remove.cpp:237
 msgid "Option '--limit' can only be used with '--oldinstallonly'."
 msgstr ""
+"Opțiunea „--limit” poate fi utilizată numai împreună cu opțiunea „--"
+"oldinstallonly”."
 
 #: commands/remove/remove.cpp:242
-#, fuzzy
-#| msgid "{}. Add \"--help\" for more information about the arguments."
 msgid ""
 "Missing positional arguments for \"remove\" command. Add \"--help\" for more "
 "information about the arguments."
-msgstr "{}. Adăugați „--help” pentru mai multe informații despre argumente."
+msgstr ""
+"Lipsesc argumentele de poziție pentru comanda «remove». Adăugați „--help” "
+"pentru mai multe informații despre argumente."
 
 #: commands/remove/remove.cpp:269
 #, c++-format
@@ -1128,6 +1113,10 @@ msgid ""
 "version and was not removed. Please reboot into the latest kernel and run "
 "this command again to complete the cleanup."
 msgstr ""
+"Avertisment:Nucleul „{}” care rulează în prezent nu este cea mai recentă "
+"versiune instalată și nu a fost eliminat. Vă rugăm să reporniți sistemul cu "
+"cel mai recent nucleu și să rulați din nou această comandă pentru a finaliza "
+"procesul de curățare."
 
 #: commands/replay/replay.cpp:38
 msgid "Replay a transaction that was previously stored to a directory"
@@ -1187,13 +1176,13 @@ msgstr "Caută software care să corespundă tuturor șirurilor specificate"
 
 #: commands/search/search.cpp:70
 msgid "Options --name and --summary cannot be used together."
-msgstr ""
+msgstr "Opțiunile „--name” și „--summary” nu pot fi utilizate împreună."
 
 #: commands/search/search.cpp:74
-#, fuzzy
-#| msgid "Option \"--alldeps\" should be used with \"--resolve\""
 msgid "Option --all cannot be used with --name or --summary."
-msgstr "Opțiunea „--alldeps” trebuie utilizată cu opțiunea „--resolve”"
+msgstr ""
+"Opțiunea „--all” nu poate fi utilizată cu opțiunea „--name” sau cu opțiunea "
+"„--summary”."
 
 #: commands/swap/swap.cpp:42
 msgid "Remove software and install another in one transaction"
@@ -1265,12 +1254,8 @@ msgid "Add new entry to versionlock configuration"
 msgstr "Adaugă o nouă intrare la configurația versionlock"
 
 #: commands/versionlock/versionlock_add.cpp:44
-#, fuzzy
-#| msgid "List of package specs to remove versionlock for"
 msgid "List of packages to lock to their current versions"
-msgstr ""
-"Lista specificațiilor pachetelor pentru care se elimină blocarea de versiune "
-"„versionlock”"
+msgstr "Lista pachetelor care trebuie blocate la versiunile lor actuale"
 
 #: commands/versionlock/versionlock_add.cpp:107
 #: commands/versionlock/versionlock_exclude.cpp:128
@@ -1315,6 +1300,8 @@ msgid ""
 "List of packages to exclude. If no version is specified, all available "
 "versions of the package will be excluded."
 msgstr ""
+"Lista pachetelor care trebuie excluse. Dacă nu se specifică nicio versiune, "
+"vor fi excluse toate versiunile disponibile ale pachetului."
 
 #: commands/versionlock/versionlock_exclude.cpp:91
 #: commands/versionlock/versionlock_exclude.cpp:103
@@ -1329,37 +1316,33 @@ msgid "Package \"{}\" is already excluded."
 msgstr "Pachetul „{}” este deja exclus."
 
 #: context.cpp:73
-#, fuzzy, c++-format
-#| msgid "Query Commands:"
+#, c++-format
 msgid "Command: {}"
-msgstr "Comenzi de interogare:"
+msgstr "Comanda: {}"
 
 #: context.cpp:81
 #, c++-format
 msgid "Process ID: {} (still running)"
-msgstr ""
+msgstr "ID proces: {} (încă în execuție)"
 
 #: context.cpp:83
 #, c++-format
 msgid "Process ID: {}"
-msgstr ""
+msgstr "ID proces: {}"
 
 #: context.cpp:92
-#, fuzzy, c++-format
-#| msgid "setvar: {}"
+#, c++-format
 msgid "Started: {}"
-msgstr "setvar: {}"
+msgstr "S-a pornit: {}"
 
 #: context.cpp:99
 #, c++-format
 msgid "Comment: {}"
-msgstr ""
+msgstr "Comentariu: {}"
 
 #: context.cpp:103
-#, fuzzy
-#| msgid "Show status of the current offline transaction"
 msgid "Details about the currently running transaction:\n"
-msgstr "Afișează starea tranzacției efectuate fără conexiune, curente"
+msgstr "Detalii despre tranzacția în curs de desfășurare:\n"
 
 #: context.cpp:121
 #, c++-format
@@ -1447,16 +1430,21 @@ msgid ""
 "Waiting for a lock on the system repository; another process is currently "
 "accessing it. Use the \"--skip-file-locks\" option to bypass the lock."
 msgstr ""
+"Se așteaptă obținerea unui blocaj asupra depozitului de sistem; un alt "
+"proces îl accesează în acest moment. Utilizați opțiunea „--skip-file-locks” "
+"pentru a ocoli blocajul."
 
 #: context.cpp:282
 msgid ""
 "Waiting for a lock on the system repository. The following processes are "
 "currently accessing it:"
 msgstr ""
+"Se așteaptă obținerea unui blocaj asupra depozitului de sistem. Următoarele "
+"procese îl accesează în prezent:"
 
 #: context.cpp:292
 msgid "Use the \"--skip-file-locks\" option to bypass the lock."
-msgstr ""
+msgstr "Utilizați opțiunea „--skip-file-locks” pentru a ocoli blocajul."
 
 #. If we're only loading the system repo, we can skip the message.
 #: context.cpp:300
@@ -1520,15 +1508,14 @@ msgid "Running transaction"
 msgstr "Tranzacție în derulare"
 
 #: context.cpp:551
-#, fuzzy
-#| msgid "Starting offline transaction. This will take a while."
 msgid "Warning: Pending offline transaction has been invalidated."
-msgstr "Se inițiază tranzacția fără conexiune. Aceasta va dura ceva timp."
+msgstr ""
+"Avertisment: Tranzacția fără conexiune aflată în așteptare a fost invalidată."
 
 #: context.cpp:553
 #, c++-format
 msgid "To reschedule, run: {}"
-msgstr ""
+msgstr "Pentru a o replanifica, rulați: {}"
 
 #: context.cpp:916
 #, c++-format
@@ -1752,11 +1739,11 @@ msgstr "nu limitează tranzacția la cel mai bun candidat"
 
 #: main.cpp:342
 msgid "allow automatic package replacements from different vendors"
-msgstr ""
+msgstr "permite înlocuirea automată a pachetelor de la diferiți furnizori"
 
 #: main.cpp:349
 msgid "do not allow automatic package replacements from different vendors"
-msgstr ""
+msgstr "nu permite înlocuirea automată a pachetelor de la diferiți furnizori"
 
 #: main.cpp:360
 msgid ""
@@ -1850,18 +1837,16 @@ msgstr ""
 "Suprascrie valoarea lui $releasever în fișierele de configurare și de depozit"
 
 #: main.cpp:556
-#, fuzzy
-#| msgid "override the value of $releasever in config and repo files"
 msgid "override the value of $releasever_major in config and repo files"
 msgstr ""
-"Suprascrie valoarea lui $releasever în fișierele de configurare și de depozit"
+"Suprascrie valoarea lui $releasever_major în fișierele de configurare și de "
+"depozit"
 
 #: main.cpp:569
-#, fuzzy
-#| msgid "override the value of $releasever in config and repo files"
 msgid "override the value of $releasever_minor in config and repo files"
 msgstr ""
-"Suprascrie valoarea lui $releasever în fișierele de configurare și de depozit"
+"Suprascrie valoarea lui $releasever_minor în fișierele de configurare și de "
+"depozit"
 
 #: main.cpp:582
 msgid ""
@@ -1901,6 +1886,8 @@ msgstr "Forțează utilizarea unei arhitecturi diferite."
 #: main.cpp:697
 msgid "Skip acquiring file locks, such as the lock on the system repository"
 msgstr ""
+"Se omite obținerea blocărilor de fișiere, cum ar fi blocarea depozitului de "
+"sistem"
 
 #: main.cpp:712
 msgid "Software Management Commands:"
@@ -1959,16 +1946,12 @@ msgid "  API version: {}.{}"
 msgstr "  versiunea API: {}.{}"
 
 #: main.cpp:861
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "Loaded {} plugins:"
 msgid ""
 "\n"
 "Loaded libdnf5 plugins:"
 msgstr ""
 "\n"
-"{} module încărcate:"
+"Module libdnf5 încărcate:"
 
 #: main.cpp:908
 #, c++-format
@@ -2068,10 +2051,9 @@ msgid "{} to skip uninstallable packages"
 msgstr "{} pentru a omite pachetele ce pot fi dezinstalate"
 
 #: main.cpp:1227
-#, fuzzy, c++-format
-#| msgid "{} to allow extra packages in the transaction"
+#, c++-format
 msgid "{} to allow changing package vendors"
-msgstr "{} pentru a permite pachete suplimentare în tranzacție"
+msgstr "{} pentru a permite schimbarea furnizorilor de pachete"
 
 #: main.cpp:1231
 msgid "You can try to add to command line:"
@@ -2144,6 +2126,8 @@ msgid ""
 "{}. Dropping all logs. To redirect the log file location use the \"logdir\" "
 "configuration option."
 msgstr ""
+"{}. Se elimină toate jurnalele. Pentru a redirecționa locația fișierului "
+"jurnal, utilizați opțiunea de configurare „logdir”."
 
 #: main.cpp:1576
 msgid ""
@@ -2159,7 +2143,7 @@ msgstr ""
 #: main.cpp:1590
 #, c++-format
 msgid "Warning: {}"
-msgstr ""
+msgstr "Atenție: {}"
 
 #: main.cpp:1603
 msgid ""
@@ -2167,6 +2151,9 @@ msgid ""
 "or immutable operating system. For more information, refer to your "
 "distribution's documentation."
 msgstr ""
+"Eroare: /usr este configurat ca fiind doar-pentru-citire. Este posibil să "
+"utilizați un sistem de operare bazat pe imagine sau imuabil. Pentru mai "
+"multe informații, consultați documentația distribuției dumneavoastră."
 
 #: main.cpp:1622
 msgid ""
@@ -2174,23 +2161,24 @@ msgid ""
 "transient to perform this operation in a transient overlay which will reset "
 "when the system reboots."
 msgstr ""
+"Eroare: tranzacțiile persistente nu sunt acceptate pe sistemele bootc. "
+"Folosiți opțiunea „--transient” pentru a efectua această operație într-o "
+"suprapunere tranzitorie, care se va șterge la repornirea sistemului."
 
 #: main.cpp:1632
-#, fuzzy
-#| msgid ""
-#| "Error: this bootc system is configured to be read-only. For more "
-#| "information, run `bootc --help`."
 msgid ""
 "Error: this bootc system is configured to be read-only. Pass --transient to "
 "perform this operation in a transient overlay which will reset when the "
 "system reboots."
 msgstr ""
 "Eroare: acest sistem bootc este configurat să fie numai-pentru-citire. "
-"Pentru mai multe informații, executați «bootc --help»."
+"Folosiți opțiunea „--transient” pentru a efectua această operație într-o "
+"suprapunere tranzitorie, care se va șterge la repornirea sistemului."
 
 #: main.cpp:1643
 msgid "Error: transient transactions are only supported on bootc systems."
 msgstr ""
+"Eroare: tranzacțiile tranzitorii sunt acceptate numai pe sistemele bootc."
 
 #: main.cpp:1684
 #, c++-format
@@ -2210,19 +2198,17 @@ msgstr ""
 "instalări de chei OpenPGP și verificări ale tranzacțiilor."
 
 #: main.cpp:1700
-#, fuzzy
-#| msgid "Starting offline transaction. This will take a while."
 msgid "Warning: A pending offline transaction will be invalidated."
-msgstr "Se inițiază tranzacția fără conexiune. Aceasta va dura ceva timp."
+msgstr "Avertisment: O tranzacție fără conexiune va fi invalidată."
 
 #: main.cpp:1703
-#, fuzzy, c++-format
-#| msgid "An offline transaction was initiated by the following command:"
+#, c++-format
 msgid ""
 "Warning: A pending offline transaction initiated by the following command "
 "will be invalidated: {}"
 msgstr ""
-"O tranzacție fără conexiune la rețea a fost inițiată prin următoarea comandă:"
+"Avertisment: O tranzacție fără conexiune aflată în așteptare inițiată de "
+"către următoarea comandă va fi invalidată: {}"
 
 #: main.cpp:1728
 msgid ""
@@ -2230,12 +2216,19 @@ msgid ""
 "inconsistencies when the transient overlay on /usr is discarded. See the "
 "usr_drift_protected_paths configuration option for more information."
 msgstr ""
+"Această tranzacție ar putea modifica următoarele rute, ceea ce ar putea duce "
+"la apariția unor neconcordanțe atunci când suprapunerea tranzitorie de pe /"
+"usr este eliminată. Pentru mai multe informații, consultați opțiunea de "
+"configurare usr_drift_protected_paths."
 
 #: main.cpp:1739
 msgid ""
 "Operation aborted. Pass --setopt=usr_drift_protected_paths= to disable this "
 "check and proceed anyway."
 msgstr ""
+"Operație întreruptă. Introduceți opțiunea „--"
+"setopt=usr_drift_protected_paths=” pentru a dezactiva această verificare și "
+"a continua oricum."
 
 #: main.cpp:1748
 msgid ""
@@ -2243,6 +2236,9 @@ msgid ""
 "reboot. Keep in mind that changes to /etc and /var will still persist, and "
 "packages commonly modify these directories."
 msgstr ""
+"Se va crea o suprapunere tranzitorie pe /usr, care va fi eliminată la "
+"repornirea sistemului. Rețineți că modificările aduse directoarelor /etc și /"
+"var vor rămâne valabile, iar pachetele modifică de obicei aceste directoare."
 
 #: main.cpp:1785
 #, c++-format
@@ -2283,8 +2279,6 @@ msgid "REPO_ID,..."
 msgstr "ID_DEPOZIT,..."
 
 #: shared_options.cpp:193
-#, fuzzy
-#| msgid "\"--from_repo\" already defined with diferent value"
 msgid "\"--from_repo\" already defined with different value"
 msgstr "„--from_repo” deja definită cu o valoare diferită"
 
@@ -2297,36 +2291,27 @@ msgstr ""
 "instalate."
 
 #: shared_options.cpp:220
-#, fuzzy
-#| msgid "\"--installed-from_repo\" already defined with diferent value"
 msgid "\"--installed-from_repo\" already defined with different value"
 msgstr "„--installed-from_repo” deja definită cu o valoare diferită"
 
 #: shared_options.cpp:236
-#, fuzzy
-#| msgid ""
-#| "The following items can be selected only from the specified repositories. "
-#| "All enabled repositories will still be used to satisfy dependencies."
 msgid ""
 "The following items can be selected only from the specified vendors. The "
 "vendor is ignored or vendor change policies (if allow_vendor_change=0) will "
 "still be used for items that satisfy dependencies."
 msgstr ""
-"Următoarele elemente pot fi selectate numai din depozitele specificate. "
-"Toate depozitele activate vor fi utilizate în continuare pentru a satisface "
-"dependențele."
+"Următoarele elemente pot fi selectate numai de la furnizorii specificați. "
+"Furnizorul este ignorat, iar politicile privind schimbarea furnizorului "
+"(dacă allow_vendor_change=0) vor fi totuși aplicate pentru elementele care "
+"îndeplinesc dependențele."
 
 #: shared_options.cpp:239
-#, fuzzy
-#| msgid "CVE_ID,..."
 msgid "VENDOR,..."
-msgstr "ID_CVE,..."
+msgstr "FURNIZOR,..."
 
 #: shared_options.cpp:248
-#, fuzzy
-#| msgid "\"--from_repo\" already defined with diferent value"
 msgid "\"--from_vendor\" already defined with different value"
-msgstr "„--from_repo” deja definită cu o valoare diferită"
+msgstr "„--from_vendor” deja definită cu o valoare diferită"
 
 #~ msgid "No matching packages to list"
 #~ msgstr "Nu există pachete care să se potrivească de listat"
