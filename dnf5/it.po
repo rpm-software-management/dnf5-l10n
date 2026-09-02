@@ -6,13 +6,13 @@
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024.
 # Ruben Roland Fonti <ruben.roland.fonti@ikmail.com>, 2024.
 # Salvatore Cocuzza <info@salvatorecocuzza.it>, 2025.
-# Nathan <nathan95@live.it>, 2025.
+# Nathan <nathan95@live.it>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-01 18:31+0000\n"
-"PO-Revision-Date: 2025-08-06 09:53+0000\n"
+"PO-Revision-Date: 2026-09-02 16:15+0000\n"
 "Last-Translator: Nathan <nathan95@live.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/it/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 2026.8.1\n"
 
 #: cmdline_aliases.cpp:84 context.cpp:198 main.cpp:1447
 msgid ", "
@@ -247,10 +247,8 @@ msgstr "Elenca gli avvisi"
 
 #: commands/advisory/advisory_subcommand.cpp:93 commands/no_matches.cpp:74
 #: commands/repoquery/repoquery.cpp:903
-#, fuzzy
-#| msgid "No matching repositories for {}"
 msgid "No matches found: no repositories are enabled."
-msgstr "Nessun repository corrispondente per {}"
+msgstr "Nessuna corrispondenza trovata: Nessun repository è abilitato"
 
 #: commands/advisory/advisory_summary.cpp:44
 msgid "All"
@@ -421,6 +419,9 @@ msgid ""
 "either mark it as user-installed or change protected_packages configuration "
 "option."
 msgstr ""
+"Pacchetto protetto non necessario: {0} (e le relative dipendenze) non può "
+"essere rimosso; contrassegnalo come installato dall'utente oppure modifica "
+"l'opzione di configurazione `protected_packages`."
 
 #: commands/check-upgrade/check-upgrade.cpp:47
 msgid "Check for available package upgrades"
@@ -522,8 +523,7 @@ msgid "Action was not defined"
 msgstr "L'azione non è stata definita"
 
 #: commands/do/do.cpp:231
-#, fuzzy, c++-format
-#| msgid "Invalid Environmet/Group specification: {}"
+#, c++-format
 msgid "Invalid Environment/Group specification: {}"
 msgstr "Specifica ambiente/gruppo non valida: {}"
 
@@ -532,8 +532,6 @@ msgid "Downgrading environments and groups is not supported."
 msgstr "Il downgrade di ambienti e gruppi non è supportato."
 
 #: commands/do/do.cpp:332
-#, fuzzy
-#| msgid "Reinstaling environments and groups is not supported."
 msgid "Reinstalling environments and groups is not supported."
 msgstr "La reinstallazione di ambienti e gruppi non è supportata."
 
@@ -579,10 +577,8 @@ msgid "Show only installed environments."
 msgstr "Mostra solo gli ambienti installati."
 
 #: commands/environment/arguments.hpp:47
-#, fuzzy
-#| msgid "Pattern matching environment IDs."
 msgid "Pattern matching environment identifiers."
-msgstr "ID dell'ambiente di corrispondenza del modello."
+msgstr "Corrispondenza dei modelli degli identificatori dell'ambiente."
 
 #: commands/environment/environment.cpp:38
 msgid "Manage comps environments"
@@ -591,19 +587,17 @@ msgstr "Gestisce gli ambienti delle composizioni"
 #: commands/environment/environment_info.cpp:101
 #: commands/environment/environment_list.cpp:99
 msgid "No matches found: no environments are installed."
-msgstr ""
+msgstr "Nessuna corrispondenza trovata: non è installato alcun ambiente."
 
 #: commands/environment/environment_info.cpp:103
 #: commands/environment/environment_list.cpp:101
 msgid "No matches found: no environments are available."
-msgstr ""
+msgstr "Nessuna corrispondenza trovata: non è disponibile alcun ambiente."
 
 #: commands/environment/environment_info.cpp:105
 #: commands/environment/environment_list.cpp:103
-#, fuzzy
-#| msgid "No matches found for \"{}\"."
 msgid "No matches found: no environments exist."
-msgstr "Nessuna corrispondenza trovata per \"{}\"."
+msgstr "Nessuna corrispondenza trovata: non esiste nessun ambiente."
 
 #: commands/group/arguments.hpp:34
 msgid "Show only available groups."
@@ -626,46 +620,32 @@ msgstr ""
 "elenco, supporta i glob."
 
 #: commands/group/arguments.hpp:67
-#, fuzzy
-#| msgid "Pattern matching group IDS."
 msgid "Pattern matching group identifiers."
-msgstr "IDS del gruppo di corrispondenza dei modelli."
+msgstr "Identificatori del gruppo di corrispondenza dei modelli."
 
 #: commands/group/arguments.hpp:77
-#, fuzzy
-#| msgid "Pattern matching environment IDs."
 msgid "Pattern matching group or environment identifiers."
-msgstr "ID dell'ambiente di corrispondenza del modello."
+msgstr "Corrispondenza dei modelli degli identificatori di gruppo o ambiente."
 
 #: commands/group/arguments.hpp:86
-#, fuzzy
-#| msgid "Include optional packages from group."
 msgid "Include optional packages from groups."
 msgstr "Comprende pacchetti opzionali dal gruppo."
 
 #: commands/group/arguments.hpp:97
-#, fuzzy
-#| msgid "Operate on groups only, no packages are changed."
 msgid "Operate on environments and groups only, no packages are changed."
-msgstr "Opera solo sui gruppi, nessun pacchetto è cambiato."
+msgstr "Operare solo su ambienti e gruppi, senza modificare alcun pacchetto."
 
 #: commands/group/group_list.cpp:110
-#, fuzzy
-#| msgid "No matches found for \"{}\"."
 msgid "No matches found: no groups are installed."
-msgstr "Nessuna corrispondenza trovata per \"{}\"."
+msgstr "Nessuna corrispondenza trovata: non è installato alcun gruppo."
 
 #: commands/group/group_list.cpp:112
-#, fuzzy
-#| msgid "No matches found for \"{}\"."
 msgid "No matches found: no groups are available."
-msgstr "Nessuna corrispondenza trovata per \"{}\"."
+msgstr "Nessuna corrispondenza trovata: non è disponibile alcun gruppo."
 
 #: commands/group/group_list.cpp:114
-#, fuzzy
-#| msgid "No matches found for \"{}\"."
 msgid "No matches found: no groups exist."
-msgstr "Nessuna corrispondenza trovata per \"{}\"."
+msgstr "Nessuna corrispondenza trovata: non esiste alcun gruppo"
 
 #: commands/history/arguments.hpp:37
 msgid "Transaction ID"
@@ -756,12 +736,12 @@ msgstr ""
 "installati"
 
 #: commands/list/info.hpp:38
-#, fuzzy
-#| msgid "Lists packages depending on the packages' relation to the system"
 msgid ""
 "Lists packages depending on the packages' relation to the system with "
 "additional details"
-msgstr "Elenca i pacchetti in base alla relazione dei pacchetti con il sistema"
+msgstr ""
+"Elenca i pacchetti in base alla loro relazione con il sistema, con dettagli "
+"aggiuntivi"
 
 #: commands/list/list.cpp:49
 msgid "List of package-spec-NI to match (case insensitively)"
@@ -864,17 +844,16 @@ msgstr "Gestisce i moduli"
 
 #: commands/module/module_list.cpp:88
 msgid "No matches found: no module streams are enabled."
-msgstr ""
+msgstr "Nessuna corrispondenza trovata: non è abilitato alcun flusso di moduli."
 
 #: commands/module/module_list.cpp:90
 msgid "No matches found: no module streams are disabled."
 msgstr ""
+"Nessuna corrispondenza trovata: non è disabilitato alcun flusso di moduli."
 
 #: commands/module/module_list.cpp:92
-#, fuzzy
-#| msgid "No matches found for \"{}\"."
 msgid "No matches found: no module streams exist."
-msgstr "Nessuna corrispondenza trovata per \"{}\"."
+msgstr "Nessuna corrispondenza trovata: non esiste alcun flusso di moduli."
 
 #: commands/no_matches.cpp:14
 #, c++-format
@@ -890,10 +869,8 @@ msgstr ""
 "configurazione e i repository del sistema host, passare --use-host-config."
 
 #: commands/no_matches.cpp:78 commands/no_matches.hpp:45
-#, fuzzy
-#| msgid "No matches found for \"{}\"."
 msgid "No matches found."
-msgstr "Nessuna corrispondenza trovata per \"{}\"."
+msgstr "Nessuna corrispondenza trovata."
 
 #: commands/offline/offline.cpp:217
 msgid "Manage offline transactions"
@@ -913,6 +890,7 @@ msgstr ""
 msgid ""
 "The system has been modified since the offline transaction was prepared."
 msgstr ""
+"Il sistema è stato modificato dopo la preparazione della transazione offline."
 
 #: commands/offline/offline.cpp:268
 #, c++-format
@@ -920,6 +898,8 @@ msgid ""
 "The system has been modified since the offline transaction was prepared. To "
 "reschedule, run: {}"
 msgstr ""
+"Il sistema è stato modificato dopo la preparazione della transazione "
+"offline. Per riprogrammarla, eseguire: {}"
 
 #: commands/offline/offline.cpp:290
 #, c++-format
@@ -1054,21 +1034,20 @@ msgid "Show status of the current offline transaction"
 msgstr "Mostra lo stato delle transazioni offline correnti"
 
 #: commands/offline/offline.cpp:752
-#, fuzzy
-#| msgid ""
-#| "The system will now reboot to perform the offline transaction initiated "
-#| "by the following command:"
 msgid ""
 "The system has been modified since the offline transaction was prepared. The "
 "offline transaction initiated by the following command is no longer valid:"
 msgstr ""
-"Il sistema verrà ora riavviato per eseguire la transazione offline avviata "
-"dal seguente comando:"
+"Il sistema è stato modificato dopo la preparazione della transazione "
+"offline. La transazione offline avviata dal seguente comando non è più "
+"valida:"
 
 #: commands/offline/offline.cpp:756
 msgid ""
 "To reschedule, run the command above. To clean up, run `dnf5 offline clean`."
 msgstr ""
+"Per riprogrammare, eseguire il comando riportato sopra. Per effettuare la "
+"pulizia, eseguire `dnf5 offline clean`."
 
 #: commands/offline/offline.cpp:760
 msgid "An offline transaction was initiated by the following command:"
@@ -1103,6 +1082,8 @@ msgid ""
 "If searching for a file, try specifying the full path or using a wildcard "
 "prefix (\"*/\") at the beginning."
 msgstr ""
+"Se si cerca un file, provare a specificare il percorso completo oppure "
+"utilizzare un prefisso jolly (\"*/\") all'inizio."
 
 #: commands/reinstall/reinstall.cpp:40
 msgid "Reinstall software"
@@ -1117,18 +1098,20 @@ msgid ""
 "Option '--limit' must be equal or greater than 1 (to keep at least the "
 "newest installed package)."
 msgstr ""
+"L'opzione `--limit` deve essere uguale o maggiore di 1 (per mantenere almeno "
+"il pacchetto installato più recente)."
 
 #: commands/remove/remove.cpp:237
 msgid "Option '--limit' can only be used with '--oldinstallonly'."
-msgstr ""
+msgstr "L'opzione `--limit` può essere utilizzata solo con `--oldinstallonly`."
 
 #: commands/remove/remove.cpp:242
-#, fuzzy
-#| msgid "{}. Add \"--help\" for more information about the arguments."
 msgid ""
 "Missing positional arguments for \"remove\" command. Add \"--help\" for more "
 "information about the arguments."
-msgstr "{}. Aggiungere \"--help\" per maggiori informazioni sugli argomenti."
+msgstr ""
+"Mancano gli argomenti posizionali per il comando \"remove\". Aggiungere \"--"
+"help\" per ulteriori informazioni sugli argomenti."
 
 #: commands/remove/remove.cpp:269
 #, c++-format
@@ -1137,6 +1120,9 @@ msgid ""
 "version and was not removed. Please reboot into the latest kernel and run "
 "this command again to complete the cleanup."
 msgstr ""
+"Avviso: il kernel attualmente in esecuzione '{}' non è l'ultima versione "
+"installata e non è stato rimosso. Riavviare il sistema utilizzando il kernel "
+"più recente ed eseguire nuovamente questo comando per completare la pulizia."
 
 #: commands/replay/replay.cpp:38
 msgid "Replay a transaction that was previously stored to a directory"
@@ -1198,7 +1184,7 @@ msgstr "Cerca il software corrispondente a tutte le stringhe specificate"
 
 #: commands/search/search.cpp:70
 msgid "Options --name and --summary cannot be used together."
-msgstr ""
+msgstr "Opzione ----name e --summary non possono essere usate assieme"
 
 #: commands/search/search.cpp:74
 #, fuzzy
