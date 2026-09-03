@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-02 16:43+0000\n"
-"PO-Revision-Date: 2026-09-02 16:15+0000\n"
+"PO-Revision-Date: 2026-09-04 11:18+0000\n"
 "Last-Translator: Paweł Marciniak <sunwire+fas@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5-cli/pl/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2026.8.1\n"
+"X-Generator: Weblate 2026.9\n"
 
 #: argument_parser.cpp:68
 #, c++-format
@@ -264,33 +264,27 @@ msgstr "Dopasowane pola: "
 
 #: output/status.cpp:45
 msgid "Groups"
-msgstr ""
+msgstr "Grupy"
 
 #: output/status.cpp:46 output/status.cpp:55 output/status.cpp:72
-#, fuzzy
-#| msgid "Installed size"
 msgid "installed"
-msgstr "Zainstalowany rozmiar"
+msgstr "zainstalowane"
 
 #: output/status.cpp:47 output/status.cpp:56 output/status.cpp:73
 msgid "available"
 msgstr ""
 
 #: output/status.cpp:54
-#, fuzzy
-#| msgid "Environments altered:"
 msgid "Environments"
-msgstr "Zmienione środowiska:"
+msgstr "Środowiska"
 
 #: output/status.cpp:71
-#, fuzzy
-#| msgid "Package"
 msgid "Packages"
-msgstr "Pakiet"
+msgstr "Pakiety"
 
 #: output/status.cpp:74
 msgid "user-installed"
-msgstr ""
+msgstr "zainstalowane przez użytkownika"
 
 #: output/status.cpp:84
 #, fuzzy
@@ -299,16 +293,12 @@ msgid "Installed Size"
 msgstr "Zainstalowany rozmiar"
 
 #: output/status.cpp:90
-#, fuzzy
-#| msgid "Repository"
 msgid "Enabled Repositories"
-msgstr "Repozytorium"
+msgstr "Włączone repozytoria"
 
 #: output/status.cpp:101
-#, fuzzy
-#| msgid "Transaction ID"
 msgid "Last Transaction"
-msgstr "Identyfikator transakcji"
+msgstr "Ostatnia transakcja"
 
 #: output/transaction_table.cpp:128
 msgid "Transaction Summary:\n"
@@ -552,7 +542,7 @@ msgstr "Czas rozpoczęcia"
 
 #: output/transactioninfo.cpp:100
 msgid "Begin rpmdb"
-msgstr ""
+msgstr "Rozpoczynam rpmdb"
 
 #: output/transactioninfo.cpp:101
 msgid "End time"
@@ -560,7 +550,7 @@ msgstr "Czas zakończenia"
 
 #: output/transactioninfo.cpp:102
 msgid "End rpmdb"
-msgstr ""
+msgstr "Kończę rpmdb"
 
 #: output/transactioninfo.cpp:104
 msgid "User"
