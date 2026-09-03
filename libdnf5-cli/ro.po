@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-01 18:31+0000\n"
+"POT-Creation-Date: 2026-09-02 16:43+0000\n"
 "PO-Revision-Date: 2026-09-02 16:15+0000\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -245,6 +245,54 @@ msgstr " (corespondență exactă)"
 #: output/search.cpp:100
 msgid "Matched fields: "
 msgstr "Câmpuri cu potrivire: "
+
+#: output/status.cpp:45
+msgid "Groups"
+msgstr ""
+
+#: output/status.cpp:46 output/status.cpp:55 output/status.cpp:72
+#, fuzzy
+#| msgid "Installed size"
+msgid "installed"
+msgstr "Dimensiunea instalată"
+
+#: output/status.cpp:47 output/status.cpp:56 output/status.cpp:73
+msgid "available"
+msgstr ""
+
+#: output/status.cpp:54
+#, fuzzy
+#| msgid "Environments altered:"
+msgid "Environments"
+msgstr "Medii modificate:"
+
+#: output/status.cpp:71
+#, fuzzy
+#| msgid "Package"
+msgid "Packages"
+msgstr "Pachet"
+
+#: output/status.cpp:74
+msgid "user-installed"
+msgstr ""
+
+#: output/status.cpp:84
+#, fuzzy
+#| msgid "Installed size"
+msgid "Installed Size"
+msgstr "Dimensiunea instalată"
+
+#: output/status.cpp:90
+#, fuzzy
+#| msgid "Repository"
+msgid "Enabled Repositories"
+msgstr "Depozit"
+
+#: output/status.cpp:101
+#, fuzzy
+#| msgid "Transaction ID"
+msgid "Last Transaction"
+msgstr "ID tranzacție"
 
 #: output/transaction_table.cpp:128
 msgid "Transaction Summary:\n"
@@ -571,7 +619,8 @@ msgstr ""
 #: session.cpp:270
 #, c++-format
 msgid "\"{}\" date cannot be represented by time_t type on this platform"
-msgstr "Data „{}” nu poate fi reprezentată de tipul time_t pe această platformă"
+msgstr ""
+"Data „{}” nu poate fi reprezentată de tipul time_t pe această platformă"
 
 #: utils/userconfirm.cpp:46
 msgid "Is this ok [Y/n]: "

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-01 18:31+0000\n"
+"POT-Creation-Date: 2026-09-02 16:43+0000\n"
 "PO-Revision-Date: 2026-06-20 09:10+0000\n"
 "Last-Translator: Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
@@ -246,6 +246,52 @@ msgstr " （精确）"
 #: output/search.cpp:100
 msgid "Matched fields: "
 msgstr "匹配字段： "
+
+#: output/status.cpp:45
+msgid "Groups"
+msgstr ""
+
+#: output/status.cpp:46 output/status.cpp:55 output/status.cpp:72
+#, fuzzy
+#| msgid "Installed size"
+msgid "installed"
+msgstr "安装大小"
+
+#: output/status.cpp:47 output/status.cpp:56 output/status.cpp:73
+msgid "available"
+msgstr ""
+
+#: output/status.cpp:54
+msgid "Environments"
+msgstr ""
+
+#: output/status.cpp:71
+#, fuzzy
+#| msgid "Package"
+msgid "Packages"
+msgstr "软件包"
+
+#: output/status.cpp:74
+msgid "user-installed"
+msgstr ""
+
+#: output/status.cpp:84
+#, fuzzy
+#| msgid "Installed size"
+msgid "Installed Size"
+msgstr "安装大小"
+
+#: output/status.cpp:90
+#, fuzzy
+#| msgid "Repository"
+msgid "Enabled Repositories"
+msgstr "仓库"
+
+#: output/status.cpp:101
+#, fuzzy
+#| msgid "Transaction Summary:\n"
+msgid "Last Transaction"
+msgstr "事务摘要：\n"
 
 #: output/transaction_table.cpp:128
 msgid "Transaction Summary:\n"

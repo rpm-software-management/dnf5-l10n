@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-01 18:31+0000\n"
+"POT-Creation-Date: 2026-09-02 16:43+0000\n"
 "PO-Revision-Date: 2026-09-02 16:15+0000\n"
 "Last-Translator: Paweł Marciniak <sunwire+fas@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -261,6 +261,54 @@ msgstr " (dokładny)"
 #: output/search.cpp:100
 msgid "Matched fields: "
 msgstr "Dopasowane pola: "
+
+#: output/status.cpp:45
+msgid "Groups"
+msgstr ""
+
+#: output/status.cpp:46 output/status.cpp:55 output/status.cpp:72
+#, fuzzy
+#| msgid "Installed size"
+msgid "installed"
+msgstr "Zainstalowany rozmiar"
+
+#: output/status.cpp:47 output/status.cpp:56 output/status.cpp:73
+msgid "available"
+msgstr ""
+
+#: output/status.cpp:54
+#, fuzzy
+#| msgid "Environments altered:"
+msgid "Environments"
+msgstr "Zmienione środowiska:"
+
+#: output/status.cpp:71
+#, fuzzy
+#| msgid "Package"
+msgid "Packages"
+msgstr "Pakiet"
+
+#: output/status.cpp:74
+msgid "user-installed"
+msgstr ""
+
+#: output/status.cpp:84
+#, fuzzy
+#| msgid "Installed size"
+msgid "Installed Size"
+msgstr "Zainstalowany rozmiar"
+
+#: output/status.cpp:90
+#, fuzzy
+#| msgid "Repository"
+msgid "Enabled Repositories"
+msgstr "Repozytorium"
+
+#: output/status.cpp:101
+#, fuzzy
+#| msgid "Transaction ID"
+msgid "Last Transaction"
+msgstr "Identyfikator transakcji"
 
 #: output/transaction_table.cpp:128
 msgid "Transaction Summary:\n"
