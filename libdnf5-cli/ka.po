@@ -6,8 +6,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-01 18:31+0000\n"
 "PO-Revision-Date: 2026-09-03 07:23+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5-cli/ka/>\n"
 "Language: ka\n"
@@ -417,10 +416,8 @@ msgid "Upgrading groups:"
 msgstr "ჯგუფების განახლება:"
 
 #: output/transaction_table.cpp:630
-#, fuzzy
-#| msgid "Changing reason:"
 msgid "Changing reason of installed groups:"
-msgstr "შეცვლის მიზეზი:"
+msgstr "დაყენებული ჯგუფების მიზეზის შეცვლა:"
 
 #: output/transaction_table.cpp:657
 msgid "Installing environmental groups:"
@@ -458,8 +455,8 @@ msgstr "(არცერთი)"
 #, c++-format
 msgid "Skipping {0} package due to vendor change restriction: {1}."
 msgid_plural "Skipping {0} packages due to vendor change restriction: {1}."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{0} პაკეტის გამოტოვება მომწოდებლის ცვლილების აკრძალვის გამო: {1}."
+msgstr[1] "{0} პაკეტის გამოტოვება მომწოდებლის ცვლილების აკრძალვის გამო: {1}."
 
 #: output/transaction_table.cpp:799
 msgid "Nothing to do."
@@ -480,19 +477,19 @@ msgstr "ტრანზაქციის ID"
 
 #: output/transactioninfo.cpp:99
 msgid "Begin time"
-msgstr ""
+msgstr "დაწყების დრო"
 
 #: output/transactioninfo.cpp:100
 msgid "Begin rpmdb"
-msgstr ""
+msgstr "დასაწყისის rpmdb"
 
 #: output/transactioninfo.cpp:101
 msgid "End time"
-msgstr ""
+msgstr "დასრულების დრო"
 
 #: output/transactioninfo.cpp:102
 msgid "End rpmdb"
-msgstr ""
+msgstr "დასასრულის rpmdb"
 
 #: output/transactioninfo.cpp:104
 msgid "User"
@@ -503,10 +500,8 @@ msgid "Status"
 msgstr "სტატუსი"
 
 #: output/transactioninfo.cpp:106
-#, fuzzy
-#| msgid "Release"
 msgid "Releasever"
-msgstr "გამოცემა"
+msgstr "გამოცემისვერსია"
 
 #: output/transactioninfo.cpp:108
 msgid "Comment"
@@ -518,11 +513,11 @@ msgstr "შეცვლილი პაკეტები:"
 
 #: output/transactioninfo.cpp:112
 msgid "Groups altered:"
-msgstr ""
+msgstr "შეცვლილი ჯგუფები:"
 
 #: output/transactioninfo.cpp:113
 msgid "Environments altered:"
-msgstr ""
+msgstr "შეცვლილი გარემოები:"
 
 #: output/transactionlist.cpp:53
 msgid "ID"
@@ -538,7 +533,7 @@ msgstr "თარიღი და დრო"
 
 #: output/transactionlist.cpp:56
 msgid "Action(s)"
-msgstr ""
+msgstr "ქმედებები"
 
 #: output/transactionlist.cpp:57
 msgid "Altered"
@@ -564,7 +559,7 @@ msgstr ""
 #: session.cpp:270
 #, c++-format
 msgid "\"{}\" date cannot be represented by time_t type on this platform"
-msgstr ""
+msgstr "ამ პლატფორმაზე თარიღი \"{}\" ვერ იქნება წარმოდგენილი ტიპით time_t"
 
 #: utils/userconfirm.cpp:46
 msgid "Is this ok [Y/n]: "
