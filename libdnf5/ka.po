@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2023, 2024, 2025.
+# Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2023, 2024, 2025, 2026.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024, 2025, 2026.
 msgid ""
 msgstr ""
@@ -9,8 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-01 18:31+0000\n"
 "PO-Revision-Date: 2026-09-03 07:23+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/ka/>\n"
 "Language: ka\n"
@@ -31,13 +30,12 @@ msgstr ""
 
 #: advisory/advisory_collection.cpp:94
 msgid "This libdnf5 does not support modularity"
-msgstr ""
+msgstr "ამ libdnf5-ს მოდულარობის მხარდაჭერა არ აქვს"
 
 #: base/active_transaction_info.cpp:93 base/active_transaction_info.cpp:95
-#, fuzzy, c++-format
-#| msgid "Error during transaction replay JSON parsing : {}"
+#, c++-format
 msgid "Error parsing transaction info: {}"
-msgstr "შეცდომა ტრანზაქციის თავიდან გაშვების JSON-ის დამუშავებისას: {}"
+msgstr "ტრანზაქციის ინფორმაციის დამუშავების შეცდომა: {}"
 
 #: base/base.cpp:185
 #, c++-format
@@ -329,16 +327,14 @@ msgid "Packages for argument '{}' installed, but not available."
 msgstr "პაკეტი არგუმენტისთვის '{}' დაყენებულია, მაგრამ ხელმისაწვდომი არაა."
 
 #: base/log_event.cpp:248
-#, fuzzy, c++-format
-#| msgid "Package \"{}\" is already installed."
+#, c++-format
 msgid "Group \"{}\" is already installed."
-msgstr "პაკეტი \"{}\" უკვე დაყენებულია."
+msgstr "ჯგუფი \"{}\" უკვე დაყენებულია."
 
 #: base/log_event.cpp:251
-#, fuzzy, c++-format
-#| msgid "Package \"{}\" is already installed."
+#, c++-format
 msgid "Environmental group \"{}\" is already installed."
-msgstr "პაკეტი \"{}\" უკვე დაყენებულია."
+msgstr "გარემოს ჯგუფი \"{}\" უკვე დაყენებულია."
 
 #: base/log_event.cpp:258
 #, c++-format
@@ -545,10 +541,9 @@ msgid "nothing provides {0} needed by {1} from {2}"
 msgstr "არცერთი პაკეტი წარმოადგენს {0}-ს, რომელიც {1}-ს სჭირდება {2}-დან"
 
 #: base/solver_problems.cpp:57
-#, fuzzy, c++-format
-#| msgid "cannot install both {0} from {1} and {2} from {3}"
+#, c++-format
 msgid "cannot install both {0} from {1} and {2} from {3}"
-msgstr "{0}-ის და {1}-ის {2}-დან ერთდროულად დაყენება შეუძლებელია"
+msgstr "ორივეს, {0}-ს {1}-დან და {2}-ს {3}-დან დაყენება შეუძლებელია"
 
 #: base/solver_problems.cpp:58
 #, c++-format
@@ -613,14 +608,13 @@ msgid ""
 msgstr "ოპერაცია შეიძლება შემდეგი დაცული პაკეტების წაშლით დასრულდეს: {}"
 
 #: base/solver_problems.cpp:75
-#, fuzzy, c++-format
-#| msgid ""
-#| "The operation would result in removing the following protected packages: "
-#| "{}"
+#, c++-format
 msgid ""
 "The operation would result in broken dependencies for the following "
 "protected packages: {}"
-msgstr "ოპერაცია შეიძლება შემდეგი დაცული პაკეტების წაშლით დასრულდეს: {}"
+msgstr ""
+"ოპერაცია, შეიძლება, შემდეგი დაცული პაკეტების გაფუჭებული დამოკიდებულებებით "
+"დასრულდეს: {}"
 
 #: base/solver_problems.cpp:78
 #, c++-format
@@ -767,15 +761,11 @@ msgstr "საჯარო გასაღების შემოტანა 
 
 #: base/transaction.cpp:993
 msgid "poll failed during scriptlets pipe processing"
-msgstr ""
+msgstr "poll ჩავარდა მინისკრიპტების კომუნიკაციის არხის დამუშავებისას"
 
 #: base/transaction.cpp:1016
-#, fuzzy
-#| msgid "Failed to set scriptlet output file, cannot open file \"{}\": {}"
 msgid "failed to read scriptlet output from pipe"
-msgstr ""
-"მინისკრიპტის გამოტანის ფაილის დაყენების შეცდომა. ფაილის \"{}\" გახსნა "
-"შეუძლებელია: {}"
+msgstr "კომუნიკაციის არხდან მინისკრიპტის გამოტანის წაკითხვის შეცდომა"
 
 #: base/transaction.cpp:1134
 #, c++-format
@@ -839,16 +829,14 @@ msgid "General RuntimeError exception"
 msgstr "ზოგადი RuntimeError გამონაკლისი"
 
 #: common/proc.cpp:88
-#, fuzzy, c++-format
-#| msgid "Cannot install package \"{}\""
+#, c++-format
 msgid "Cannot stat {}"
-msgstr "ვერ დავაყენე პაკეტი \"{}\""
+msgstr "{}-ის აღმოჩენა შეუძლებელია"
 
 #: common/proc.cpp:124
-#, fuzzy, c++-format
-#| msgid "cannot open file"
+#, c++-format
 msgid "Cannot open {}"
-msgstr "ფაილი ვერ გავხსენი"
+msgstr "{}-ის გახსნა შეუძლებელია"
 
 #: common/sack/query.cpp:27
 msgid "Query must contain exactly one object."
@@ -866,10 +854,9 @@ msgstr ""
 "შეუძლებელია"
 
 #: comps/environment/environment.cpp:361
-#, fuzzy, c++-format
-#| msgid "Failed to save xml document for group \"{}\" to file \"{}\": {}"
+#, c++-format
 msgid "Failed to save xml document for environment \"{}\" to file \"{}\": {}"
-msgstr "ჩავარდა XML დოკუმენტისს შენახვა ჯგუფისთვის \"{}\" ფაილში \"{}\": {}"
+msgstr "ჩავარდა xml დოკუმენტის შენახვა გარემოსთვის \"{}\" ფაილში \"{}\": {}"
 
 #: comps/group/group.cpp:354
 #, c++-format
@@ -1116,10 +1103,8 @@ msgid "Cannot find plugin library \"{}\""
 msgstr "ვერ ვიპოვე დამატების ბიბლიოთეკა \"{}\""
 
 #: plugin/plugins.cpp:181
-#, fuzzy
-#| msgid "Plugins::load_plugins(): config_dir_path cannot be empty"
 msgid "Plugins::load_plugins(): config_dirs cannot be empty"
-msgstr "Plugins::load_plugins(): config_dir_path ცარიელი ვერ იქნება"
+msgstr "Plugins::load_plugins(): config_dirs ცარიელი ვერ იქნება"
 
 #: plugin/plugins.cpp:194
 #, c++-format
@@ -1228,29 +1213,24 @@ msgid "Empty path to the repository cache directory."
 msgstr "რეპოზიტორიის კეშის საქაღალდის ბილიკი ცარიელია."
 
 #: repo/repo_config_override.cpp:69
-#, fuzzy, c++-format
-#| msgid "Failed to download metadata ({}: \"{}\") for repository \"{}\": {}"
+#, c++-format
 msgid "Cannot set option \"{}\" for repository \"{}\": {}"
-msgstr ""
-"მეტამონაცემების ({}: \"{}\") გადმოწერის შეცდომა რეპოზიტორიისთვის \"{}\": {}"
+msgstr "ვერ დავაყენე პარამეტრი \"{}\" რეპოზიტორიისთვის \"{}\": {}"
 
 #: repo/repo_config_override.cpp:84
-#, fuzzy, c++-format
-#| msgid "Cannot set root directory \"{}\""
+#, c++-format
 msgid "Cannot create directory \"{}\": {}"
-msgstr "შეცდომა root საქაღალდის (\"{}\") დაყენებისას"
+msgstr "საქაღალდის \"{}\" შექმნა შეუძლებელია: {}"
 
 #: repo/repo_config_override.cpp:136 repo/repo_config_override.cpp:143
-#, fuzzy, c++-format
-#| msgid "Cannot set the locale \"{}\": {}"
+#, c++-format
 msgid "Cannot write to file \"{}\": {}"
-msgstr "ვერ დავაყენე ენა \"{}\": {}"
+msgstr "ვერ ჩავწერე ფაილში \"{}\": {}"
 
 #: repo/repo_config_override.cpp:157
-#, fuzzy, c++-format
-#| msgid "Cannot set the locale \"{}\": {}"
+#, c++-format
 msgid "Cannot set permissions on file \"{}\": {}"
-msgstr "ვერ დავაყენე ენა \"{}\": {}"
+msgstr "წვდომების დაყენების შეცდომა ფაილზე \"{}\": {}"
 
 #: repo/repo_downloader.cpp:224
 #, c++-format
@@ -1385,7 +1365,7 @@ msgstr ""
 
 #: rpm/checksum.cpp:98
 msgid "Unknown checksum type"
-msgstr ""
+msgstr "უცნობი საკონტროლო ჯამის ტიპი"
 
 #: rpm/nevra.cpp:82
 #, c++-format
@@ -1463,6 +1443,10 @@ msgid ""
 "versions after an interrupted upgrade. Please remove the duplicate packages "
 "using \"dnf remove\" and retry."
 msgstr ""
+"rpm-ის ტრანზაქცია წაშლიდა პაკეტებს, რომლებიც ამომხსნელს არ დაუგეგმავს: {}. "
+"ეს, ჩვეულებრივ, ხდება მაშინ, როცა rpmdb შეიცავს გამეორებულ პაკეტის ვერსიებს "
+"შეწყვეტილი განახლების შემდეგ. წაშალეთ გამეორებული პაკეტები ბრძანებით \"dnf "
+"remove\" და კიდევ სცადეთ."
 
 #: rpm/transaction.cpp:236
 msgid "Failed to order the rpm transaction."
@@ -1547,7 +1531,7 @@ msgstr "შეცდომა debugsolver-ის მონაცემები�
 #: solv/vendor_change_manager.cpp:97
 #, c++-format
 msgid "Unknown 'comparator' \"{}\" in file \"{}\" on line {}"
-msgstr ""
+msgstr "უცნობი 'comparator' \"{}\" ფაილში \"{}\" ხაზზე {}"
 
 #: solv/vendor_change_manager.cpp:101
 #, c++-format
@@ -1555,27 +1539,29 @@ msgid ""
 "Configuration file \"{}\" uses version \"{}\" which does not support "
 "'comparator' \"{}\""
 msgstr ""
+"კონფიგურაციის ფაილი \"{}\" იყენებს ვერსიას \"{}\", რომელსაც არ აქვს "
+"'შემდარებლის' \"{}\" მხარდაჭერა"
 
 #: solv/vendor_change_manager.cpp:443
 #, c++-format
 msgid "Unknown 'filter' \"{}\" in file \"{}\" on line {}"
-msgstr "უცნობი გასაღები \"{}\" ფაილში \"{}\" ხაზზე {}: {}"
+msgstr "უცნობი 'filter' \"{}\" ფაილში \"{}\" ხაზზე {}"
 
 #: solv/vendor_change_manager.cpp:458 solv/vendor_change_manager.cpp:621
 #: solv/vendor_change_manager.cpp:662 solv/vendor_change_manager.cpp:714
 #, c++-format
 msgid "Unknown key '{}' in file \"{}\" on line {}"
-msgstr "უცნობი გასაღები \"{}\" ფაილში \"{}\" ხაზზე {}: {}"
+msgstr "უცნობი გასაღები \"{}\" ფაილში \"{}\" ხაზზე {}"
 
 #: solv/vendor_change_manager.cpp:467
 #, c++-format
 msgid "Missing 'filter' key in file \"{}\" for table entry on line {}"
-msgstr ""
+msgstr "აკლია გასაღები 'filter' ფაილში \"{}\" ცხრილის ჩანაწერისთვის ხაზზე {}"
 
 #: solv/vendor_change_manager.cpp:474
 #, c++-format
 msgid "Missing 'value' key in file \"{}\" for table entry on line {}"
-msgstr ""
+msgstr "ნაკლული გასაღები 'value' ფაილში \"{}\" ცხრილში ხაზიდან {}"
 
 #: solv/vendor_change_manager.cpp:483
 #, c++-format
@@ -1584,6 +1570,9 @@ msgid ""
 "support comparator \"{}\". Only the default \"EXACT\" comparator is allowed "
 "for this filter"
 msgstr ""
+"ფილტრი \"cmdline_repo\" ფაილში \"{}\" ცხრილში დაწყებული ხაზიდან {} არ აქვს "
+"შემდარებლის \"{}\" მხარდაჭერა. ამ ფილტრისთვის დაშვებულია, მხოლოდ, "
+"ნაგულისხმევი \"EXACT\" შემდარებელი"
 
 #: solv/vendor_change_manager.cpp:500
 #, c++-format
@@ -1591,6 +1580,8 @@ msgid ""
 "Invalid 'value' \"{}\" in file \"{}\" in table starting on line {}. Only "
 "\"true\", \"1\", \"false\", \"0\" are supported"
 msgstr ""
+"არასწორი 'value' ფაილში \"{}\" ცხრილში დაწყებული ხაზიდან {}. მხარდაჭერილია, "
+"მხოლოდ, \"true\", \"1\", \"false\" და \"0\""
 
 #: solv/vendor_change_manager.cpp:512 solv/vendor_change_manager.cpp:523
 #, c++-format
@@ -1598,24 +1589,23 @@ msgid ""
 "Filter \"{}\" in file \"{}\" in table starting on line {} does not support "
 "comparator \"{}\""
 msgstr ""
+"ფილტრს \"{}\" ფაილში \"{}\" ცხრილში დაწყებული ხაზიდან {} არ აქვს შემდარებლის "
+"\"{}\" მხარდაჭერა"
 
 #: solv/vendor_change_manager.cpp:540
 #, c++-format
 msgid "Invalid regex \"{}\" in file \"{}\" in table starting on line {}: {}"
-msgstr ""
+msgstr "არასწორი რეგგამოსი \"{}\" ფაილში \"{} ცხრილში დაწყებული ხაზიდან {}: {}"
 
 #: solv/vendor_change_manager.cpp:566
-#, fuzzy, c++-format
-#| msgid "Missing section header on line {}"
+#, c++-format
 msgid "Missing \"version\" key in file \"{}\""
-msgstr "აკლია სექციის თავსართი ხაზზე {}"
+msgstr "აკლია \"version\" გასაღები ფაილში \"{}\""
 
 #: solv/vendor_change_manager.cpp:578
-#, fuzzy, c++-format
-#| msgid "Unsupported TOML version \"{}\", maximum supported version is \"{}\""
+#, c++-format
 msgid "Unsupported version \"{}\" in file \"{}\". Supported versions: {}"
-msgstr ""
-"TOML-ის მხარდაუჭერელი ვერსია \"{}\". მაქსიმალური მხარდაჭერილი ვერსიაა \"{}\""
+msgstr "მხარდაუჭერელი ვერსია \"{}\" ფაილში \"{}\". მხარდაჭერილია ვერსიები: {}"
 
 #: solv/vendor_change_manager.cpp:589
 #, c++-format
@@ -1623,6 +1613,9 @@ msgid ""
 "Configuration file \"{}\" uses version \"1.0\" which does not support "
 "combining 'equivalent_vendors' with 'outgoing_vendors' and 'incoming_vendors'"
 msgstr ""
+"კონფიგურაციის ფაილი \"{}\" იყენებს ვერსიას \"1.0\", რომელსაც არ აქვს "
+"'equivalent_vendors'-ის მხარდაჭერა 'outgoing_vendors'-სთან და "
+"'incoming_vendors'-სთან ერთად"
 
 #: solv/vendor_change_manager.cpp:631
 #, c++-format
@@ -1630,6 +1623,8 @@ msgid ""
 "Configuration file \"{}\" uses version \"1.0\" which does not support key "
 "'{}' on line {}"
 msgstr ""
+"კონფიგურაციის ფაილი \"{}\" იყენებს ვერსიას \"1.0\", რომელსაც არ აქვს "
+"გასაღების '{}' მხარდაჭერა ხაზზე {}"
 
 #: solv/vendor_change_manager.cpp:650
 #, c++-format
@@ -1637,23 +1632,26 @@ msgid ""
 "Filter \"cmdline_repo\" is only allowed in the 'incoming_packages' section. "
 "Error in file \"{}\" in table starting on line {}"
 msgstr ""
+"ფილტრი \"cmdline_repo\", მხოლოდ, დაშვებულია სექციაში 'incoming_packages'. "
+"შეცდომა ფაილში \"{}\" ცხრილში დაწყებული ხაზიდან {}"
 
 #: solv/vendor_change_manager.cpp:672
 #, c++-format
 msgid ""
 "Missing package filter definition in file \"{}\" in table starting on line {}"
-msgstr ""
+msgstr "აკლია პაკეტის ფილტრის აღწერა ფაილში \"{}\" ცხრილში დაწყებული ხაზიდან {}"
 
 #: solv/vendor_change_manager.cpp:703
 #, c++-format
 msgid ""
 "Unsupported comparator \"{}\" for vendor definition in file \"{}\" on line {}"
 msgstr ""
+"მხარდაუჭერელი შემდარებელი \"{}\" მომწოდებლის აღწერაში ფაილში \"{}\" ხაზზე {}"
 
 #: solv/vendor_change_manager.cpp:724
 #, c++-format
 msgid "Missing 'vendor' key in file \"{}\" in table starting on line {}"
-msgstr ""
+msgstr "ნაკლული გასაღები 'vendor' ფაილში \"{}\" ცხრილში ხაზიდან {}"
 
 #: solv/vendor_change_manager.cpp:737
 #, c++-format
@@ -1661,6 +1659,8 @@ msgid ""
 "Invalid regex vendor pattern \"{}\" in file \"{}\" in table starting on line "
 "{}: {}"
 msgstr ""
+"არასწორი რეგგამოსის მომწოდებლის ნიმუში \"{}\" ფაილში \"{}\" ცხრილში "
+"დაწყებული ხაზიდან {}: {}"
 
 #: solv/vendor_change_manager.cpp:763
 #, c++-format
@@ -1668,10 +1668,9 @@ msgid "Bad value type in file \"{}\" on line {}: {}"
 msgstr ""
 
 #: solv/vendor_change_manager.cpp:769
-#, fuzzy, c++-format
-#| msgid "An error occurred importing key \"{}\": {}"
+#, c++-format
 msgid "An error occurred when parsing file \"{}\": {}"
-msgstr "შეცდომა გასაღების \"{}\" შემოტანისას: {}"
+msgstr "შეცდომა ფაილის \"{}\" დამუშავებისას: {}"
 
 #: solv/vendor_change_manager.cpp:780
 #, c++-format
@@ -1679,6 +1678,8 @@ msgid ""
 "Configuration file \"{}\" uses version \"1.0\" which does not support "
 "'incoming_vendors' without 'outgoing_vendors'"
 msgstr ""
+"კონფიგურაციის ფაილი \"{}\" იყენებს ვერსიას \"1.1\", რომელსაც არ აქვს "
+"'incoming_vendors'-ის მხარდაჭერა 'outgoing_vendors'-ის გარეშე"
 
 #: solv/vendor_change_manager.cpp:787
 #, c++-format
@@ -1686,6 +1687,8 @@ msgid ""
 "Configuration file \"{}\" uses version \"1.0\" which does not support "
 "'outgoing_vendors' without 'incoming_vendors'"
 msgstr ""
+"კონფიგურაციის ფაილი \"{}\" იყენებს ვერსიას \"1.1\", რომელსაც არ აქვს "
+"'outgoing_vendors'-ის მხარდაჭერა 'incoming_vendors'-ის გარეშე"
 
 #: system/state.cpp:282 system/state.cpp:291
 #, c++-format
@@ -1737,7 +1740,7 @@ msgstr "მდგომარეობის მონაცემების �
 
 #: transaction/transaction.cpp:87
 msgid "Started"
-msgstr "გაშვებული"
+msgstr "გაშვებულია"
 
 #: transaction/transaction.cpp:89
 msgid "Ok"
@@ -1763,7 +1766,7 @@ msgstr "არასწორი ტრანზაქციის ელემ�
 
 #: transaction/transaction_item_action.cpp:74
 msgid "Replaced"
-msgstr ""
+msgstr "ჩანაცვლდა"
 
 #: transaction/transaction_item_action.cpp:84
 msgid "Switch"
@@ -1776,11 +1779,11 @@ msgstr "არასწორი ტრანზაქციის ელემ�
 
 #: transaction/transaction_item_reason.cpp:56
 msgid "None"
-msgstr ""
+msgstr "არცერთი"
 
 #: transaction/transaction_item_reason.cpp:58
 msgid "Dependency"
-msgstr ""
+msgstr "დამოკიდებულება"
 
 #: transaction/transaction_item_reason.cpp:60
 msgid "User"
@@ -1788,11 +1791,11 @@ msgstr "მომხმარებელი"
 
 #: transaction/transaction_item_reason.cpp:62
 msgid "Clean"
-msgstr ""
+msgstr "გასუფთავება"
 
 #: transaction/transaction_item_reason.cpp:64
 msgid "Weak Dependency"
-msgstr ""
+msgstr "სუსტი დამოკიდებულება"
 
 #: transaction/transaction_item_reason.cpp:66
 msgid "Group"
@@ -1994,33 +1997,31 @@ msgstr ""
 #: utils/bootc.cpp:46
 #, c++-format
 msgid "Error checking bootc status: {}"
-msgstr ""
+msgstr "bootc-ის სტატუსის შემოწმების შეცდომა: {}"
 
 #: utils/bootc.cpp:49
 #, c++-format
 msgid "Error checking bootc status: bootc command failed with exit code {}"
 msgstr ""
+"bootc-ის სტატუსის შემოწმების შეცდომა: ბრძანება bootc ჩავარდა გასვლის კოდით {}"
 
 #: utils/bootc.cpp:58
 msgid "Error checking bootc status: Failed to parse JSON output"
-msgstr ""
+msgstr "bootc-ის სტატუსის შემოწმების შეცდომა: JSON გამოტანის დამუშავება ჩავარდა"
 
 #: utils/bootc.cpp:73
-#, fuzzy, c++-format
-#| msgid "Failed to update from string: {}"
+#, c++-format
 msgid "Failed to query status of bootc system: {}"
-msgstr "სტრიქონიდან განახლების შეცდომა: {}"
+msgstr "bootc სისტემის სტატუსის გამოთხოვის შეცდომა: {}"
 
 #: utils/bootc.cpp:90
-#, fuzzy
-#| msgid "Failed to download files"
 msgid "Failed to stat /usr filesystem"
-msgstr "ფაილების გადმოწერის შეცდომა"
+msgstr "/usr ფაილური სისტემის დადგენა შეუძლებელია"
 
 #: utils/bootc.cpp:125
 #, c++-format
 msgid "Error running `bootc usr-overlay --read-only`: {}"
-msgstr ""
+msgstr "შეცდომა ბრძანების `bootc usr-overlay --read-only` შესრულებისას: {}"
 
 #: utils/bootc.cpp:128
 #, c++-format
@@ -2028,18 +2029,17 @@ msgid ""
 "Error running `bootc usr-overlay --read-only`: bootc command failed with "
 "exit code {}"
 msgstr ""
+"ბრძანების `bootc usr-overlay --read-only` შესრულების შეცდომა: bootc ჩავარდა "
+"გასვლის კოდით {}"
 
 #: utils/bootc.cpp:136
-#, fuzzy
-#| msgid "Failed to execute uname()"
 msgid "Failed to unshare mount namespace"
-msgstr "ჩავარდა შესრულება ფუნქციისთვის uname()"
+msgstr "მიმაგრების სახელების სივრცის გაზიარების გაუქმება ჩავარდა"
 
 #: utils/bootc.cpp:143
-#, fuzzy, c++-format
-#| msgid "Failed to resolve module metadata: {}"
+#, c++-format
 msgid "Failed to remount /usr as read-write: {}"
-msgstr "მოდულის მეტამონაცემების ამოხსნა ჩავარდა: {}"
+msgstr "/usr-ის ჩაწერის უფლებებით თავიდან მიმაგრება ჩავარდა: {}"
 
 #: utils/fs/file.cpp:87
 msgid "cannot open file"
@@ -2087,7 +2087,7 @@ msgstr "დროებითი საქაღალდის შექმნ�
 
 #: utils/fs/temp.cpp:89
 msgid "cannot create temporary file"
-msgstr "დროებითი ფაილის შექმნის შედცდომა: %s"
+msgstr "დროებითი ფაილის შექმნის შეცდომა: %s"
 
 #: utils/fs/temp.cpp:142
 msgid "cannot close temporary file"
@@ -2151,7 +2151,7 @@ msgstr "შეცდომა ბლოკის \"{}\" მიღებისა
 
 #: utils/locker.cpp:108
 msgid "File is already open."
-msgstr ""
+msgstr "ფაილი უკვე ღიაა."
 
 #: utils/locker.cpp:121
 #, c++-format
@@ -2159,40 +2159,34 @@ msgid "Failed to open lock file \"{}\""
 msgstr "შეცდომა დაბლოკვის ფაილის \"{}\" გახსნისას"
 
 #: utils/locker.cpp:127 utils/locker.cpp:164
-#, fuzzy, c++-format
-#| msgid "The package is not signed."
+#, c++-format
 msgid "The lock file \"{}\" is not opened"
-msgstr "პაკეტი ხელმოწერილი არაა."
+msgstr "ბლოკის ფაილი \"{}\" ღია არაა"
 
 #: utils/locker.cpp:132
-#, fuzzy, c++-format
-#| msgid "Failed to close lock file \"{}\""
+#, c++-format
 msgid "Failed to truncate lock file \"{}\""
-msgstr "შეცდომა დაბლოკვის ფაილის \"{}\" დახურვისას"
+msgstr "შეცდომა დაბლოკვის ფაილის \"{}\" წაკვეთისას"
 
 #: utils/locker.cpp:135 utils/locker.cpp:172
-#, fuzzy, c++-format
-#| msgid "Failed to close lock file \"{}\""
+#, c++-format
 msgid "Failed to seek lock file \"{}\""
-msgstr "შეცდომა დაბლოკვის ფაილის \"{}\" დახურვისას"
+msgstr "დაბლოკვის ფაილის \"{}\" გადახვევის შეცდომა"
 
 #: utils/locker.cpp:143
-#, fuzzy, c++-format
-#| msgid "Failed to delete lock file \"{}\""
+#, c++-format
 msgid "Failed to write to lock file \"{}\""
-msgstr "შეცდომა დაბლოკვის ფაილის \"{}\" წაშლისას"
+msgstr "შეცდომა დაბლოკვის ფაილში \"{}\" ჩაწერისას"
 
 #: utils/locker.cpp:150
-#, fuzzy, c++-format
-#| msgid "Failed to open lock file \"{}\""
+#, c++-format
 msgid "Failed to sync lock file \"{}\""
-msgstr "შეცდომა დაბლოკვის ფაილის \"{}\" გახსნისას"
+msgstr "შეცდომა დაბლოკვის ფაილის \"{}\" სინქრონიზაციისას"
 
 #: utils/locker.cpp:178
-#, fuzzy, c++-format
-#| msgid "Failed to open lock file \"{}\""
+#, c++-format
 msgid "Failed to read from lock file \"{}\""
-msgstr "შეცდომა დაბლოკვის ფაილის \"{}\" გახსნისას"
+msgstr "შეცდომა დაბლოკვის ფაილიდან \"{}\" წაკითხვისას"
 
 #: utils/locker.cpp:192
 #, c++-format
@@ -2292,48 +2286,42 @@ msgid "Failed to restore database \"{}\""
 msgstr "შეცდომა ბაზის \"{}\" აღდგენისას"
 
 #: utils/subprocess.cpp:29
-#, fuzzy
-#| msgid "cannot create temporary file"
 msgid "cannot create pipe"
-msgstr "დროებითი ფაილის შექმნის შედცდომა: %s"
+msgstr "კომუნიკაციის არხის შექმნა შეუძლებელია"
 
 #: utils/subprocess.cpp:98
 msgid "cannot fork"
-msgstr ""
+msgstr "ფორკი შეუძლებელია"
 
 #: utils/subprocess.cpp:173
 msgid "cannot bind child stdin"
-msgstr ""
+msgstr "შვილის stdin-ზე მიბმა შეუძლებელია"
 
 #: utils/subprocess.cpp:175
 msgid "cannot bind child stdout"
-msgstr ""
+msgstr "შვილის stdout-ზე მიბმა შეუძლებელია"
 
 #: utils/subprocess.cpp:177
-#, fuzzy
-#| msgid "cannot open file"
 msgid "cannot bind child stderr"
-msgstr "ფაილი ვერ გავხსენი"
+msgstr "შვილის stderr-ზე მიმაგრება შეუძლებელია"
 
 #: utils/subprocess.cpp:180
-#, fuzzy, c++-format
-#| msgid "Failed to execute uname()"
+#, c++-format
 msgid "failed to execute command: {}"
-msgstr "ჩავარდა შესრულება ფუნქციისთვის uname()"
+msgstr "ბრძანების შესრულება ჩავარდა: {}"
 
 #: utils/subprocess.cpp:185
-#, fuzzy, c++-format
-#| msgid "Error during transaction replay JSON parsing : {}"
+#, c++-format
 msgid "error during preparation of child process: {}"
-msgstr "შეცდომა ტრანზაქციის თავიდან გაშვების JSON-ის დამუშავებისას: {}"
+msgstr "შეცდომა შვილი პროცესის მომზადებისას: {}"
 
 #: utils/subprocess.cpp:211
 msgid "poll failed during subprocess I/O"
-msgstr ""
+msgstr "poll ჩავარდა ქვეპროცესის შეყვანა/გამოტანის დროს"
 
 #: utils/subprocess.cpp:257
 msgid "unexpected child process status after waitpid"
-msgstr ""
+msgstr "მოულოდნელი შვილი პროცესის სტატუსი waitpid-ის შემდეგ"
 
 #: utils/system.cpp:34
 msgid "failed to read rpm config files"
