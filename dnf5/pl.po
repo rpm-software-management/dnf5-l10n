@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-02 16:43+0000\n"
-"PO-Revision-Date: 2026-09-02 07:20+0000\n"
+"PO-Revision-Date: 2026-09-04 11:18+0000\n"
 "Last-Translator: Paweł Marciniak <sunwire+fas@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/pl/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2026.8.1\n"
+"X-Generator: Weblate 2026.9\n"
 
 #: cmdline_aliases.cpp:84 context.cpp:198 main.cpp:1449
 msgid ", "
@@ -637,25 +637,21 @@ msgstr "Nie znaleziono wyników: nie istnieją żadne grupy."
 #: commands/group/group_list.cpp:144
 #, c++-format
 msgid "Groups: {0} ({1} {2}, {3} {4})"
-msgstr ""
+msgstr "Grupy: {0} ({1} {2}, {3} {4})"
 
 #: commands/group/group_list.cpp:147
-#, fuzzy
-#| msgid "Installed"
 msgid "installed"
 msgid_plural "installed"
-msgstr[0] "Zainstalowane"
+msgstr[0] "Zainstalowany"
 msgstr[1] "Zainstalowane"
 msgstr[2] "Zainstalowane"
 
 #: commands/group/group_list.cpp:149
-#, fuzzy
-#| msgid "Available"
 msgid "available"
 msgid_plural "available"
-msgstr[0] "Dostępne"
+msgstr[0] "Dostępny"
 msgstr[1] "Dostępne"
-msgstr[2] "Dostępne"
+msgstr[2] "Dostępnych"
 
 #: commands/history/arguments.hpp:37
 msgid "Transaction ID"
