@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2023, 2024, 2025.
+# Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2023, 2024, 2025, 2026.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024, 2026.
 msgid ""
 msgstr ""
@@ -9,8 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-01 18:31+0000\n"
 "PO-Revision-Date: 2026-09-03 07:23+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ka/>\n"
 "Language: ka\n"
@@ -51,7 +50,7 @@ msgstr ""
 #: cmdline_aliases.cpp:208
 #, c++-format
 msgid "Unsupported version \"{}\" in file \"{}\". Supported versions: {}"
-msgstr "მხარდაუჭერელი ვერსია \"{}\" ფაილში \"{}\". მხარდაჭერილი ვერსიებია: {}"
+msgstr "მხარდაუჭერელი ვერსია \"{}\" ფაილში \"{}\". მხარდაჭერილია ვერსიები: {}"
 
 #: cmdline_aliases.cpp:218
 #, c++-format
@@ -236,10 +235,8 @@ msgstr "რეკომენდაციების ჩვენება"
 
 #: commands/advisory/advisory_subcommand.cpp:93 commands/no_matches.cpp:74
 #: commands/repoquery/repoquery.cpp:903
-#, fuzzy
-#| msgid "No matching repositories for {}"
 msgid "No matches found: no repositories are enabled."
-msgstr "რეპოზიტორიები, რომლებიც {}-ს ემთხვევა, აღმოჩენილი არაა"
+msgstr "დამთხვევები აღმოჩენილი არაა: ჩართული რეპოზიტორიების გარეშე."
 
 #: commands/advisory/advisory_summary.cpp:44
 msgid "All"
@@ -410,7 +407,7 @@ msgid ""
 "either mark it as user-installed or change protected_packages configuration "
 "option."
 msgstr ""
-"არასაჭირო დაცული პაკეტი: %s-ის (და მისი დამოკიდებულებების) წაშლა "
+"არასაჭირო დაცული პაკეტი: {0}-ის (და მისი დამოკიდებულებების) წაშლა "
 "შეუძლებელია. ან მონიშნეთ ის, როგორც მომხმარებლის დაყენებული, ან შეცვალეთ "
 "კონფიგურაციის პარამეტრი protected_packages."
 
@@ -513,8 +510,7 @@ msgid "Action was not defined"
 msgstr "ქმედება არ აღწერილა"
 
 #: commands/do/do.cpp:231
-#, fuzzy, c++-format
-#| msgid "Invalid Environmet/Group specification: {}"
+#, c++-format
 msgid "Invalid Environment/Group specification: {}"
 msgstr "არასწორი გარემოს/ჯგუფის სპეციფიკაცია: {}"
 
@@ -523,8 +519,6 @@ msgid "Downgrading environments and groups is not supported."
 msgstr "გარემოების და ჯგუფების ვერსიის დაწევა მხარდაჭერილი არაა."
 
 #: commands/do/do.cpp:332
-#, fuzzy
-#| msgid "Reinstaling environments and groups is not supported."
 msgid "Reinstalling environments and groups is not supported."
 msgstr "გარემოების და ჯგუფების თავიდან დაყენება მხარდაჭერილი არაა."
 
@@ -571,10 +565,8 @@ msgid "Show only installed environments."
 msgstr "მხოლოდ დაყენებული გარემოების ჩვენება."
 
 #: commands/environment/arguments.hpp:47
-#, fuzzy
-#| msgid "Pattern matching environment IDs."
 msgid "Pattern matching environment identifiers."
-msgstr "გარემოს ID-ების შესაბამისი შაბლონი."
+msgstr "გარემოს იდენტფიკატორების შესაბამისი შაბლონი."
 
 #: commands/environment/environment.cpp:38
 msgid "Manage comps environments"
@@ -583,19 +575,17 @@ msgstr "Comps გარემოების მართვა"
 #: commands/environment/environment_info.cpp:101
 #: commands/environment/environment_list.cpp:99
 msgid "No matches found: no environments are installed."
-msgstr ""
+msgstr "დამთხვევები აღმოჩენილი არაა: დაყენებული გარემოების გარეშე."
 
 #: commands/environment/environment_info.cpp:103
 #: commands/environment/environment_list.cpp:101
 msgid "No matches found: no environments are available."
-msgstr ""
+msgstr "დამთხვევები აღმოჩენილი არაა: ხელმისაწვდომი გარემოების გარეშე."
 
 #: commands/environment/environment_info.cpp:105
 #: commands/environment/environment_list.cpp:103
-#, fuzzy
-#| msgid "No matches found for \"{}\"."
 msgid "No matches found: no environments exist."
-msgstr "\"{}\"-სთვის დამთხვევა აღმოჩენილი არაა."
+msgstr "დამთხვევა აღმოჩენილი არაა: არსებული გარემოების გარეშე."
 
 #: commands/group/arguments.hpp:34
 msgid "Show only available groups."
@@ -618,46 +608,33 @@ msgstr ""
 "შესაბამისის სახელები. სიის პარამეტრი. აქვს გლობების მხარდაჭერა."
 
 #: commands/group/arguments.hpp:67
-#, fuzzy
-#| msgid "Pattern matching group IDS."
 msgid "Pattern matching group identifiers."
-msgstr "ჯგუფის ID-ების შესაბამისი შაბლონი."
+msgstr "ჯგუფის იდენტიფიკატორების შესაბამისი შაბლონი."
 
 #: commands/group/arguments.hpp:77
-#, fuzzy
-#| msgid "Pattern matching environment IDs."
 msgid "Pattern matching group or environment identifiers."
-msgstr "გარემოს ID-ების შესაბამისი შაბლონი."
+msgstr "ჯგუფის, ან გარემოს იდენტიფიკატორების შესაბამისი შაბლონი."
 
 #: commands/group/arguments.hpp:86
-#, fuzzy
-#| msgid "Include optional packages from group."
 msgid "Include optional packages from groups."
-msgstr "ჯგუფიდან არასავალდებულო პაკეტების ჩართვა."
+msgstr "არასავალდებულო პაკეტების ჩასმა ჯგუფებიდან."
 
 #: commands/group/arguments.hpp:97
-#, fuzzy
-#| msgid "Operate on groups only, no packages are changed."
 msgid "Operate on environments and groups only, no packages are changed."
-msgstr "ოპერაციების შესრულება მხოლოდ ჯგუფებზე. პაკეტები არ შეიცვლება."
+msgstr ""
+"ოპერაციების შესრულება მხოლოდ ჯგუფებზე და გარემოებზე. პაკეტები არ შეიცვლება."
 
 #: commands/group/group_list.cpp:110
-#, fuzzy
-#| msgid "No matches found for \"{}\"."
 msgid "No matches found: no groups are installed."
-msgstr "\"{}\"-სთვის დამთხვევა აღმოჩენილი არაა."
+msgstr "დამთხვევები აღმოჩენილი არაა: დაყენებული ჯგუფების გარეშე."
 
 #: commands/group/group_list.cpp:112
-#, fuzzy
-#| msgid "No matches found for \"{}\"."
 msgid "No matches found: no groups are available."
-msgstr "\"{}\"-სთვის დამთხვევა აღმოჩენილი არაა."
+msgstr "დამთხვევები აღმოჩენილი არაა: ჯგუფები ხელმისაწვდომი არაა."
 
 #: commands/group/group_list.cpp:114
-#, fuzzy
-#| msgid "No matches found for \"{}\"."
 msgid "No matches found: no groups exist."
-msgstr "\"{}\"-სთვის დამთხვევა აღმოჩენილი არაა."
+msgstr "დამთხვევები აღმოჩენილი არაა: ჯგუფები არ არსებობს."
 
 #: commands/history/arguments.hpp:37
 msgid "Transaction ID"
@@ -745,12 +722,12 @@ msgstr ""
 "პაკეტს სჭირდება"
 
 #: commands/list/info.hpp:38
-#, fuzzy
-#| msgid "Lists packages depending on the packages' relation to the system"
 msgid ""
 "Lists packages depending on the packages' relation to the system with "
 "additional details"
-msgstr "ჩამოთვლის პაკეტებს სისტემის მიმართ მათი დამოკიდებულების მიხედვით"
+msgstr ""
+"ჩამოთვლის პაკეტებს სისტემის მიმართ მათი დამოკიდებულების მიხედვით დამატებითი "
+"დეტალებით"
 
 #: commands/list/list.cpp:49
 msgid "List of package-spec-NI to match (case insensitively)"
@@ -853,17 +830,15 @@ msgstr "მოდულების მართვა"
 
 #: commands/module/module_list.cpp:88
 msgid "No matches found: no module streams are enabled."
-msgstr ""
+msgstr "დამთხვევები აღმოჩენილი არაა: მოდულის ნაკადები ჩართული არაა."
 
 #: commands/module/module_list.cpp:90
 msgid "No matches found: no module streams are disabled."
-msgstr ""
+msgstr "დამთხვევები აღმოჩენილი არაა: მოდულის ნაკადები გათიშული არაა."
 
 #: commands/module/module_list.cpp:92
-#, fuzzy
-#| msgid "No matches found for \"{}\"."
 msgid "No matches found: no module streams exist."
-msgstr "\"{}\"-სთვის დამთხვევა აღმოჩენილი არაა."
+msgstr "დამთხვევები აღმოჩენილი არაა: მოდულის ნაკადები არ არსებობს."
 
 #: commands/no_matches.cpp:14
 #, c++-format
@@ -880,10 +855,8 @@ msgstr ""
 "პარამეტრი --use-host-config."
 
 #: commands/no_matches.cpp:78 commands/no_matches.hpp:45
-#, fuzzy
-#| msgid "No matches found for \"{}\"."
 msgid "No matches found."
-msgstr "\"{}\"-სთვის დამთხვევა აღმოჩენილი არაა."
+msgstr "დამთხვევები აღმოჩენილი არაა."
 
 #: commands/offline/offline.cpp:217
 msgid "Manage offline transactions"
@@ -902,7 +875,7 @@ msgstr ""
 #: commands/offline/offline.cpp:264
 msgid ""
 "The system has been modified since the offline transaction was prepared."
-msgstr ""
+msgstr "უკანასკნელი ხაზგარეშე ტრანზაქციის შემდეგ სისტემა შეიცვალა."
 
 #: commands/offline/offline.cpp:268
 #, c++-format
@@ -910,6 +883,8 @@ msgid ""
 "The system has been modified since the offline transaction was prepared. To "
 "reschedule, run: {}"
 msgstr ""
+"უკანასკნელი ხაზგარეშე ტრანზაქციის შემდეგ სისტემა შეიცვალა. თავიდან "
+"დასაგეგმად გაუშვით ბრძანება: {}"
 
 #: commands/offline/offline.cpp:290
 #, c++-format
@@ -1042,21 +1017,19 @@ msgid "Show status of the current offline transaction"
 msgstr "მიმდინარე ქსელგარეშე ტრანზაქციის სტატუსის მიღება"
 
 #: commands/offline/offline.cpp:752
-#, fuzzy
-#| msgid ""
-#| "The system will now reboot to perform the offline transaction initiated "
-#| "by the following command:"
 msgid ""
 "The system has been modified since the offline transaction was prepared. The "
 "offline transaction initiated by the following command is no longer valid:"
 msgstr ""
-"სისტემა ახლა გადაიტვირთება, რომ მოხდეს ქსელგარეშე ტრანზაქცია, რომელიც გაუშვა "
-"შემდეგმა ბრძანებამ:"
+"უკანასკნელი ხაზგარეშე ტრანზაქციის შემდეგ სისტემა შეიცვალა. ხაზგარეშე "
+"ტრანზაქცია, რომელიც მოამზადა ამ ბრძანებამ, სწორი აღარაა:"
 
 #: commands/offline/offline.cpp:756
 msgid ""
 "To reschedule, run the command above. To clean up, run `dnf5 offline clean`."
 msgstr ""
+"თავიდან დასაგეგმად გაუშვით ზემო ბრძანება. მის გასასუფთავებლად გაუშვით 'dnf5 "
+"offline clean'."
 
 #: commands/offline/offline.cpp:760
 msgid "An offline transaction was initiated by the following command:"
@@ -1090,8 +1063,8 @@ msgid ""
 "If searching for a file, try specifying the full path or using a wildcard "
 "prefix (\"*/\") at the beginning."
 msgstr ""
-"დამთხვევები აღმოჩენილი არაა. თუ ეძებთ ფაილს, სცადეთ, სრული ბილიკი, ან "
-"დასაწყისში ვაილდკარდის პრეფიქსი (\"*/\") მიუთითოთ."
+"თუ ეძებთ ფაილს, სცადეთ, სრული ბილიკი, ან დასაწყისში ვაილდკარდის პრეფიქსი "
+"(\"*/\") მიუთითოთ."
 
 #: commands/reinstall/reinstall.cpp:40
 msgid "Reinstall software"
@@ -1106,19 +1079,22 @@ msgid ""
 "Option '--limit' must be equal or greater than 1 (to keep at least the "
 "newest installed package)."
 msgstr ""
+"პარამეტრი '--limit' 1-ზე მეტი, ან ტოლი უნდა იყოს (რომ შენარჩუნებული იყოს, "
+"სულ ცოტა, უახლესი დაყენებული პაკეტი)."
 
 #: commands/remove/remove.cpp:237
 msgid "Option '--limit' can only be used with '--oldinstallonly'."
 msgstr ""
+"პარამეტრი '--limit' შეგიძლიათ, მხოლოდ, გამოიყენოთ პარამეტრთან '--"
+"oldinstallonly' ერთად."
 
 #: commands/remove/remove.cpp:242
-#, fuzzy
-#| msgid "{}. Add \"--help\" for more information about the arguments."
 msgid ""
 "Missing positional arguments for \"remove\" command. Add \"--help\" for more "
 "information about the arguments."
 msgstr ""
-"{} დაამატეთ \"--help\" არგუმენტების შესახებ მეტი ინფორმაციის მისაღებად."
+"ბრძანებას \"remove\" პოზიციური არგუმენტები აკლია. არგუმენტების შესახებ მეტი "
+"ინფორმაციის მისაღებად გამოიყენეთ პარამეტრი \"--help\"."
 
 #: commands/remove/remove.cpp:269
 #, c++-format
@@ -1127,6 +1103,9 @@ msgid ""
 "version and was not removed. Please reboot into the latest kernel and run "
 "this command again to complete the cleanup."
 msgstr ""
+"გაფრთხილება: ამჟამად გაშვებული ბირთვი '{}' უახლესი დაყენებული ვერსია არაა და "
+"არ წაშლილა. ჩატვირთეთ სისტემა უახლესი ბირთვით და გაუშვით ეს ბრძანება კიდევ "
+"ერთხელ მოსუფთავების დასასრულებლად."
 
 #: commands/replay/replay.cpp:38
 msgid "Replay a transaction that was previously stored to a directory"
@@ -1186,14 +1165,12 @@ msgstr "პროგრამების ძებნა, რომლები
 
 #: commands/search/search.cpp:70
 msgid "Options --name and --summary cannot be used together."
-msgstr ""
+msgstr "პარამეტრებს --name და --summary ერთად ვერ გამოიყენებთ."
 
 #: commands/search/search.cpp:74
-#, fuzzy
-#| msgid "Option \"--alldeps\" should be used with \"--resolve\""
 msgid "Option --all cannot be used with --name or --summary."
 msgstr ""
-"პარამეტრი \"--alldeps\" პარამეტრ \"--resolve\"-თან ერთად უნდა გამოიყენოთ"
+"პარამეტრს \"--all\" პარამეტრებთან --name, ან --summary ერთად ვერ გამოიყენებთ."
 
 #: commands/swap/swap.cpp:42
 msgid "Remove software and install another in one transaction"
@@ -1260,10 +1237,8 @@ msgid "Add new entry to versionlock configuration"
 msgstr "ახალი ჩანაწერის დამატება versionlock-ის კონფიგურაციაში"
 
 #: commands/versionlock/versionlock_add.cpp:44
-#, fuzzy
-#| msgid "List of package specs to remove versionlock for"
 msgid "List of packages to lock to their current versions"
-msgstr "პაკეტის spec-ების სია, რომლისთვისაც versionlock წაიშლება"
+msgstr "მათ მიმდინარე ვერსიაზე ჩასაკეტი პაკეტების სია"
 
 #: commands/versionlock/versionlock_add.cpp:107
 #: commands/versionlock/versionlock_exclude.cpp:128
@@ -1306,6 +1281,8 @@ msgid ""
 "List of packages to exclude. If no version is specified, all available "
 "versions of the package will be excluded."
 msgstr ""
+"გამოსარიცხი პაკეტების სია. თუ ვერსია მითითებული არაა, გამორიცხული იქნება "
+"პაკეტის ყველა ვერსია."
 
 #: commands/versionlock/versionlock_exclude.cpp:91
 #: commands/versionlock/versionlock_exclude.cpp:103
@@ -1319,37 +1296,33 @@ msgid "Package \"{}\" is already excluded."
 msgstr "პაკეტი \"{}\" უკვე ამოღებულია."
 
 #: context.cpp:73
-#, fuzzy, c++-format
-#| msgid "Query Commands:"
+#, c++-format
 msgid "Command: {}"
-msgstr "გამოთხოვის ბრძანებები:"
+msgstr "ბრძანება: {}"
 
 #: context.cpp:81
 #, c++-format
 msgid "Process ID: {} (still running)"
-msgstr ""
+msgstr "პროცესის ID: {} (ჯერ კიდევ გაშვებულია)"
 
 #: context.cpp:83
 #, c++-format
 msgid "Process ID: {}"
-msgstr ""
+msgstr "პროცესის ID: {}"
 
 #: context.cpp:92
-#, fuzzy, c++-format
-#| msgid "setvar: {}"
+#, c++-format
 msgid "Started: {}"
-msgstr "setvar: {}"
+msgstr "გაეშვა: {}"
 
 #: context.cpp:99
 #, c++-format
 msgid "Comment: {}"
-msgstr ""
+msgstr "კომენტარი: {}"
 
 #: context.cpp:103
-#, fuzzy
-#| msgid "Show status of the current offline transaction"
 msgid "Details about the currently running transaction:\n"
-msgstr "მიმდინარე ქსელგარეშე ტრანზაქციის სტატუსის მიღება"
+msgstr "დეტალები ამჟამად გაშვებული ტრანზაქციის შესახებ:\n"
 
 #: context.cpp:121
 #, c++-format
@@ -1437,16 +1410,20 @@ msgid ""
 "Waiting for a lock on the system repository; another process is currently "
 "accessing it. Use the \"--skip-file-locks\" option to bypass the lock."
 msgstr ""
+"სისტემურ რეპოზიტორიაზე ბლოკის მოლოდინი. ის ამჟამად დაკავებულია სხვა პროცესის "
+"მიერ. ბლოკის გამოსატოვებლად გამოიყენეთ პარამეტრი \"--skip-file-locks\"."
 
 #: context.cpp:282
 msgid ""
 "Waiting for a lock on the system repository. The following processes are "
 "currently accessing it:"
 msgstr ""
+"სისტემური რეპოზიტორიის ბლოკის მოლოდინი. ამჟამად მასთან წვდომა აქვს შემდეგ "
+"პროცესებს:"
 
 #: context.cpp:292
 msgid "Use the \"--skip-file-locks\" option to bypass the lock."
-msgstr ""
+msgstr "დაბლოკვის გამოსატოვებლად გამოიყენეთ პარამეტრი \"--skip-file-locks\"."
 
 #. If we're only loading the system repo, we can skip the message.
 #: context.cpp:300
@@ -1509,15 +1486,13 @@ msgid "Running transaction"
 msgstr "ტრანზაქციის გაშვება"
 
 #: context.cpp:551
-#, fuzzy
-#| msgid "Starting offline transaction. This will take a while."
 msgid "Warning: Pending offline transaction has been invalidated."
-msgstr "ქსელგარეშე ტრანზაქციის გაშვება. ამას საკმაო დრო დასჭირდება."
+msgstr "გაფრთხილება: რიგში მყოფი ხაზგარეშე ტრანზაქციები არასწორად გამოცხადდა."
 
 #: context.cpp:553
 #, c++-format
 msgid "To reschedule, run: {}"
-msgstr ""
+msgstr "გეგმის შესაცვლელად გაუშვით: {}"
 
 #: context.cpp:916
 #, c++-format
@@ -1741,11 +1716,11 @@ msgstr "ტრანზაქცია არ შეიზღუდება ს
 
 #: main.cpp:342
 msgid "allow automatic package replacements from different vendors"
-msgstr ""
+msgstr "პაკეტის განსხვავებული მომწოდებლებიდან ავტომატური ჩანაცვლების დაშვება"
 
 #: main.cpp:349
 msgid "do not allow automatic package replacements from different vendors"
-msgstr ""
+msgstr "პაკეტის განსხვავებული მომწოდებლებიდან ავტომატური ჩანაცვლების არდაშვება"
 
 #: main.cpp:360
 msgid ""
@@ -1838,16 +1813,14 @@ msgid "override the value of $releasever in config and repo files"
 msgstr "$releasever-ის მნიშვნელობის გადაფარვა კონფიგურაციასა და რეპოს ფაილში"
 
 #: main.cpp:556
-#, fuzzy
-#| msgid "override the value of $releasever in config and repo files"
 msgid "override the value of $releasever_major in config and repo files"
-msgstr "$releasever-ის მნიშვნელობის გადაფარვა კონფიგურაციასა და რეპოს ფაილში"
+msgstr ""
+"$releasever_major-ის მნიშვნელობის გადაფარვა კონფიგურაციასა და რეპოს ფაილებში"
 
 #: main.cpp:569
-#, fuzzy
-#| msgid "override the value of $releasever in config and repo files"
 msgid "override the value of $releasever_minor in config and repo files"
-msgstr "$releasever-ის მნიშვნელობის გადაფარვა კონფიგურაციასა და რეპოს ფაილში"
+msgstr ""
+"$releasever_minor-ის მნიშვნელობის გადაფარვა კონფიგურაციასა და რეპოს ფაილში"
 
 #: main.cpp:582
 msgid ""
@@ -1886,7 +1859,7 @@ msgstr "სხვა არქიტექტურის ნაძალად�
 
 #: main.cpp:697
 msgid "Skip acquiring file locks, such as the lock on the system repository"
-msgstr ""
+msgstr "ფაილების, როგორიცაა სისტემურ რეპოზიტორია, ბლოკის მიღების გამოტოვება"
 
 #: main.cpp:712
 msgid "Software Management Commands:"
@@ -1945,16 +1918,12 @@ msgid "  API version: {}.{}"
 msgstr "  API ვერსია: {}.{}"
 
 #: main.cpp:861
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "Loaded {} plugins:"
 msgid ""
 "\n"
 "Loaded libdnf5 plugins:"
 msgstr ""
 "\n"
-"ჩატვირთულია {} დამატება:"
+"ჩატვირთული libdnf5-ის დამატებები:"
 
 #: main.cpp:908
 #, c++-format
@@ -2051,10 +2020,9 @@ msgid "{} to skip uninstallable packages"
 msgstr "{} ისეთი პაკეტების გამოსატოვებლად, რომლებიც არ იშლება"
 
 #: main.cpp:1227
-#, fuzzy, c++-format
-#| msgid "{} to allow extra packages in the transaction"
+#, c++-format
 msgid "{} to allow changing package vendors"
-msgstr "{} ტრანზაქციაში დამატებითი პაკეტების შეტანის დასაშვებად"
+msgstr "{} პაკეტის მომწოდებლების შეცვლის დასაშვებად"
 
 #: main.cpp:1231
 msgid "You can try to add to command line:"
@@ -2128,6 +2096,8 @@ msgid ""
 "{}. Dropping all logs. To redirect the log file location use the \"logdir\" "
 "configuration option."
 msgstr ""
+"{}. წაიშლება ყველა ჟურნალი. ჟურნალის ფაილის გადასამისამართებლად გამოიყენეთ "
+"კონფიგურაციის პარამეტრი 'logdir'."
 
 #: main.cpp:1576
 msgid ""
@@ -2143,7 +2113,7 @@ msgstr ""
 #: main.cpp:1590
 #, c++-format
 msgid "Warning: {}"
-msgstr ""
+msgstr "გაფრთხილება: {}"
 
 #: main.cpp:1603
 msgid ""
@@ -2151,6 +2121,9 @@ msgid ""
 "or immutable operating system. For more information, refer to your "
 "distribution's documentation."
 msgstr ""
+"შეცდომა: /usr მიმაგრებულია მხოლოდ წასაკითხად. შეიძლება, გაშვებული გაქვთ "
+"ასლის ფაილზე დაფუძნებული, ან უცვლელი ოპერაციული სისტემა. მეტი "
+"ინფორმაციისთვის იხილეთ თქვენი დისტრიბუტივის დოკუმენტაცია."
 
 #: main.cpp:1622
 msgid ""
@@ -2158,23 +2131,24 @@ msgid ""
 "transient to perform this operation in a transient overlay which will reset "
 "when the system reboots."
 msgstr ""
+"შეცდომა: მუდმივი ტრანზაქციები bootc სისტემებზე მხარდაჭერილი არაა. "
+"გამოიყენეთ --transient, რომ ეს ოპერაცია ჩატარდეს დროებით, ზემოდან დადებულ "
+"რეჟიმში, რომელიც სისტემის გადატვირთვისას გაქრება."
 
 #: main.cpp:1632
-#, fuzzy
-#| msgid ""
-#| "Error: this bootc system is configured to be read-only. For more "
-#| "information, run `bootc --help`."
 msgid ""
 "Error: this bootc system is configured to be read-only. Pass --transient to "
 "perform this operation in a transient overlay which will reset when the "
 "system reboots."
 msgstr ""
-"შეცდომა: ეს bootc სისტემა მორგებულია, რომ მხოლოდ-წაკითხვადი იყოს. მეტი "
-"ინფორმაციისთვის გაუშვით ბრძანება 'bootc --help'."
+"შეცდომა: ეს bootc სისტემა მორგებულია, რომ მხოლოდ-წაკითხვადი იყოს. მიუთითეთ "
+"პარამეტრი --transient, რომ მოხდეს ამ ოპერაციის ჩატარება დროებით გადაფარვაზე, "
+"რომელიც გაქრება სისტემის გადატვირთვის შემდეგ."
 
 #: main.cpp:1643
 msgid "Error: transient transactions are only supported on bootc systems."
 msgstr ""
+"შეცდომა: გარდამავალი ტრანზაქციების, მხოლოდ, bootc სისტემებზეა მხარდაჭერილი."
 
 #: main.cpp:1684
 #, c++-format
@@ -2194,18 +2168,17 @@ msgstr ""
 "გასაღებების დაყენება და ტრანზაქციების შემოწმება."
 
 #: main.cpp:1700
-#, fuzzy
-#| msgid "Starting offline transaction. This will take a while."
 msgid "Warning: A pending offline transaction will be invalidated."
-msgstr "ქსელგარეშე ტრანზაქციის გაშვება. ამას საკმაო დრო დასჭირდება."
+msgstr "გაფრთხილება: რიგში მყოფი ხაზგარეშე ტრანზაქცია არასწორად გამოცადდება."
 
 #: main.cpp:1703
-#, fuzzy, c++-format
-#| msgid "An offline transaction was initiated by the following command:"
+#, c++-format
 msgid ""
 "Warning: A pending offline transaction initiated by the following command "
 "will be invalidated: {}"
-msgstr "ქსელგარეშე ტრანზქცია დაიწყო შემდეგ ბრძანების მიერ:"
+msgstr ""
+"გაფრთხილება: რიგში მყოფი ხაზგარეშე ტრანზაქცია, დაწყებული შემდეგი ბრძანების "
+"მიერ არასწორად გამოცხადდება: {}"
 
 #: main.cpp:1728
 msgid ""
@@ -2213,12 +2186,17 @@ msgid ""
 "inconsistencies when the transient overlay on /usr is discarded. See the "
 "usr_drift_protected_paths configuration option for more information."
 msgstr ""
+"ეს ტრანზაქცია შეცვლიდა შემდეგ ბილიკებს და შესაძლოა, შეიტანდა არამდგრადობებს /"
+"usr-ზე დროებითი გადაფარვის მოცილებისას. მეტი ინფორმაციისთვის იხილეთ "
+"პარამეტრი usr_drift_protected_paths."
 
 #: main.cpp:1739
 msgid ""
 "Operation aborted. Pass --setopt=usr_drift_protected_paths= to disable this "
 "check and proceed anyway."
 msgstr ""
+"ოპერაცია შეწყდა. ამ შემოწმების გასათიშად და მაინც გასაგრძელებლად გადაეცით "
+"პარამეტრი --setopt=usr_drift_protected_paths=."
 
 #: main.cpp:1748
 msgid ""
@@ -2226,6 +2204,9 @@ msgid ""
 "reboot. Keep in mind that changes to /etc and /var will still persist, and "
 "packages commonly modify these directories."
 msgstr ""
+"დროებითი გადაფარვა შეიქმნება /usr-ზე და გაქრება სისტემის გადატვირთვისას. "
+"გახსოვდეთ, რომ ცვლილებები /etc-ში და /var-ში მაინც დარჩება და პაკეტები, "
+"ჩვეულებრივ, ცვლიან ამ საქაღალდეებს."
 
 #: main.cpp:1785
 #, c++-format
@@ -2267,8 +2248,6 @@ msgid "REPO_ID,..."
 msgstr "REPO_ID,..."
 
 #: shared_options.cpp:193
-#, fuzzy
-#| msgid "\"--from_repo\" already defined with diferent value"
 msgid "\"--from_repo\" already defined with different value"
 msgstr "\"--from_repo\" უკვე აღწერილია სხვა მნიშვნელობით"
 
@@ -2281,36 +2260,27 @@ msgstr ""
 "დააყენეს."
 
 #: shared_options.cpp:220
-#, fuzzy
-#| msgid "\"--installed-from_repo\" already defined with diferent value"
 msgid "\"--installed-from_repo\" already defined with different value"
 msgstr "\"--installed-from_repo\" უკვე აღწერილია სხვა მნიშვნელობით"
 
 #: shared_options.cpp:236
-#, fuzzy
-#| msgid ""
-#| "The following items can be selected only from the specified repositories. "
-#| "All enabled repositories will still be used to satisfy dependencies."
 msgid ""
 "The following items can be selected only from the specified vendors. The "
 "vendor is ignored or vendor change policies (if allow_vendor_change=0) will "
 "still be used for items that satisfy dependencies."
 msgstr ""
-"შემდეგი ელემენტების არჩევა, მხოლოდ, მითითებული რეპოზიტორიებიდან შეგიძლიათ. "
-"დამოკიდებულებების დასაკმაყოფილებლად ყველა ჩართული რეპოზიტორიის გამოყენება "
-"მაინც მოხდება."
+"შემდეგი ელემენტების არჩევა, მხოლოდ, მითითებული მომწოდებლებისგანაა "
+"შესაძლებელი. მომწოდებლის გამოტოვების, ან მომწოდებლის შეცვლის პოლიტიკები (თუ "
+"allow_vendor_change=0) გამოყენებული იქნება ელემენტებისთვის, რომლებიც "
+"დამოკიდებულებებს აკმაყოფილებენ."
 
 #: shared_options.cpp:239
-#, fuzzy
-#| msgid "CVE_ID,..."
 msgid "VENDOR,..."
-msgstr "CVE_ID,..."
+msgstr "მომწოდებელი,..."
 
 #: shared_options.cpp:248
-#, fuzzy
-#| msgid "\"--from_repo\" already defined with diferent value"
 msgid "\"--from_vendor\" already defined with different value"
-msgstr "\"--from_repo\" უკვე აღწერილია სხვა მნიშვნელობით"
+msgstr "\"--from_vendor\" უკვე აღწერილია სხვა მნიშვნელობით"
 
 #~ msgid "No matching packages to list"
 #~ msgstr "არცერთი პაკეტი არ ემთხვევა"
