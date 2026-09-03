@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-01 18:31+0000\n"
+"POT-Creation-Date: 2026-09-02 16:43+0000\n"
 "PO-Revision-Date: 2026-09-03 07:23+0000\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -825,6 +825,39 @@ msgstr[1] ""
 msgstr[2] ""
 "Atenție: verificări OpenPGP omise pentru {0} de pachete din depozitele: {1}"
 
+#: base/vendor_change_manager.cpp:129
+#, fuzzy
+#| msgid "Cannot write to file \"{}\": {}"
+msgid "{func}(): Cannot remove file: {path}: {msg}"
+msgstr "Nu se poate scrie în fișierul „{}”: {}"
+
+#: base/vendor_change_manager.cpp:135
+msgid "{func}(): File does not exist: {path}"
+msgstr ""
+
+#: base/vendor_change_manager.cpp:218
+msgid "{func}(): Cannot create file: {path}"
+msgstr ""
+
+#: base/vendor_change_manager.cpp:235
+#, fuzzy
+#| msgid "Cannot write to file \"{}\": {}"
+msgid "{func}(): Cannot write to file: {path}"
+msgstr "Nu se poate scrie în fișierul „{}”: {}"
+
+#: base/vendor_change_manager.cpp:270
+msgid "{func}(): Base filename cannot be empty"
+msgstr ""
+
+#: base/vendor_change_manager.cpp:276
+msgid ""
+"{func}(): Base filename must not contain path components: {base_filename}"
+msgstr ""
+
+#: base/vendor_change_manager.cpp:395
+msgid "{func}(): Path must have .conf extension: {path}"
+msgstr ""
+
 #: common/exception.cpp:78
 msgid "System error"
 msgstr "Eroare de sistem"
@@ -1542,177 +1575,376 @@ msgstr "A eșuat conversia epocii „{}” în număr"
 msgid "Writing debugsolver data into \"{}\" failed: {}"
 msgstr "Scrierea datelor debugsolver în „{}” a eșuat: {}"
 
-#: solv/vendor_change_manager.cpp:97
-#, c++-format
-msgid "Unknown 'comparator' \"{}\" in file \"{}\" on line {}"
-msgstr "„Comparator” necunoscut „{}” în fișierul „{}” la linia {}"
+#: solv/vendor_change_manager.cpp:339
+#, fuzzy, c++-format
+#| msgid "Missing \"version\" key in file \"{}\""
+msgid "Missing \"version\" key in \"{}\""
+msgstr "Lipsește cheia „version” din fișierul „{}”"
 
-#: solv/vendor_change_manager.cpp:101
-#, c++-format
+#: solv/vendor_change_manager.cpp:351
+#, fuzzy, c++-format
+#| msgid "Unsupported version \"{}\" in file \"{}\". Supported versions: {}"
+msgid "Unsupported version \"{}\" in \"{}\". Supported versions: {}"
+msgstr "Versiune neacceptată „{}” în fișierul „{}”. Versiunile acceptate: {}"
+
+#: solv/vendor_change_manager.cpp:362
+#, fuzzy, c++-format
+#| msgid ""
+#| "Configuration file \"{}\" uses version \"1.0\" which does not support "
+#| "combining 'equivalent_vendors' with 'outgoing_vendors' and "
+#| "'incoming_vendors'"
 msgid ""
-"Configuration file \"{}\" uses version \"{}\" which does not support "
-"'comparator' \"{}\""
+"Configuration \"{}\" uses version \"1.0\" which does not support combining "
+"'equivalent_vendors' with 'outgoing_vendors' and 'incoming_vendors'"
 msgstr ""
-"Fișierul de configurare „{}” utilizează versiunea „{}”, care nu acceptă „"
-"comparatorul” „{}”"
+"Fișierul de configurare „{}” utilizează versiunea „1.0”, care nu acceptă "
+"combinarea parametrului „equivalent_vendors” cu parametrii "
+"„outgoing_vendors” și „incoming_vendors”"
 
-#: solv/vendor_change_manager.cpp:443
-#, c++-format
-msgid "Unknown 'filter' \"{}\" in file \"{}\" on line {}"
-msgstr "„Filtru” necunoscut „{}” în fișierul „{}” la linia {}"
-
-#: solv/vendor_change_manager.cpp:458 solv/vendor_change_manager.cpp:621
-#: solv/vendor_change_manager.cpp:662 solv/vendor_change_manager.cpp:714
-#, c++-format
-msgid "Unknown key '{}' in file \"{}\" on line {}"
+#: solv/vendor_change_manager.cpp:394 solv/vendor_change_manager.cpp:432
+#: solv/vendor_change_manager.cpp:484 solv/vendor_change_manager.cpp:709
+#, fuzzy, c++-format
+#| msgid "Unknown key '{}' in file \"{}\" on line {}"
+msgid "Unknown key '{}' in \"{}\" on line {}"
 msgstr "Cheie necunoscută „{}” în fișierul „{}” la linia {}"
 
-#: solv/vendor_change_manager.cpp:467
-#, c++-format
-msgid "Missing 'filter' key in file \"{}\" for table entry on line {}"
+#: solv/vendor_change_manager.cpp:401
+#, fuzzy, c++-format
+#| msgid ""
+#| "Configuration file \"{}\" uses version \"1.0\" which does not support key "
+#| "'{}' on line {}"
+msgid ""
+"Configuration \"{}\" uses version \"1.0\" which does not support key '{}' on "
+"line {}"
+msgstr ""
+"Fișierul de configurare „{}” utilizează versiunea „1.0”, care nu acceptă "
+"cheia „{}” din linia {}"
+
+#: solv/vendor_change_manager.cpp:420
+#, fuzzy, c++-format
+#| msgid ""
+#| "Filter \"cmdline_repo\" is only allowed in the 'incoming_packages' "
+#| "section. Error in file \"{}\" in table starting on line {}"
+msgid ""
+"Filter \"cmdline_repo\" is only allowed in the 'incoming_packages' section. "
+"Error in \"{}\" in table starting on line {}"
+msgstr ""
+"Filtrul „cmdline_repo” este permis numai în secțiunea „incoming_packages”. "
+"Eroare în fișierul „{}” din tabel, începând cu linia {}"
+
+#: solv/vendor_change_manager.cpp:442
+#, fuzzy, c++-format
+#| msgid ""
+#| "Missing package filter definition in file \"{}\" in table starting on "
+#| "line {}"
+msgid ""
+"Missing package filter definition in \"{}\" in table starting on line {}"
+msgstr ""
+"Lipsește definiția filtrului pentru pachete în fișierul „{}” din tabel, "
+"începând cu linia {}"
+
+#: solv/vendor_change_manager.cpp:473
+#, fuzzy, c++-format
+#| msgid ""
+#| "Unsupported comparator \"{}\" for vendor definition in file \"{}\" on "
+#| "line {}"
+msgid ""
+"Unsupported comparator \"{}\" for vendor definition in \"{}\" on line {}"
+msgstr ""
+"Comparator neacceptat „{}” pentru definiția furnizorului din fișierul „{}”, "
+"la linia {}"
+
+#: solv/vendor_change_manager.cpp:494
+#, fuzzy, c++-format
+#| msgid "Missing 'vendor' key in file \"{}\" in table starting on line {}"
+msgid "Missing 'vendor' key in \"{}\" in table starting on line {}"
+msgstr ""
+"Lipsește cheia „vendor” din fișierul „{}” din tabel, începând cu linia {}"
+
+#: solv/vendor_change_manager.cpp:507
+#, fuzzy, c++-format
+#| msgid ""
+#| "Invalid regex vendor pattern \"{}\" in file \"{}\" in table starting on "
+#| "line {}: {}"
+msgid ""
+"Invalid regex vendor pattern \"{}\" in \"{}\" in table starting on line {}: "
+"{}"
+msgstr ""
+"Modelul de expresie regulată al furnizorului „{}” este nevalid în fișierul "
+"„{}”, în tabelul care începe la linia {}: {}"
+
+#: solv/vendor_change_manager.cpp:535
+#, fuzzy, c++-format
+#| msgid "Bad value type in file \"{}\" on line {}: {}"
+msgid "Bad value type in \"{}\" on line {}: {}"
+msgstr "Tip de valoare incorect în fișierul „{}” la linia {}: {}"
+
+#: solv/vendor_change_manager.cpp:541
+#, fuzzy, c++-format
+#| msgid "An error occurred when parsing file \"{}\": {}"
+msgid "An error occurred when parsing \"{}\": {}"
+msgstr "A apărut o eroare la analizarea fișierului „{}”: {}"
+
+#: solv/vendor_change_manager.cpp:555
+#, fuzzy, c++-format
+#| msgid ""
+#| "Configuration file \"{}\" uses version \"1.0\" which does not support "
+#| "'incoming_vendors' without 'outgoing_vendors'"
+msgid ""
+"Configuration \"{}\" uses version \"1.0\" which does not support "
+"'incoming_vendors' without 'outgoing_vendors'"
+msgstr ""
+"Fișierul de configurare „{}” utilizează versiunea „1.0”, care nu acceptă "
+"„incoming_vendors” fără „outgoing_vendors”"
+
+#: solv/vendor_change_manager.cpp:561
+#, fuzzy, c++-format
+#| msgid ""
+#| "Configuration file \"{}\" uses version \"1.0\" which does not support "
+#| "'outgoing_vendors' without 'incoming_vendors'"
+msgid ""
+"Configuration \"{}\" uses version \"1.0\" which does not support "
+"'outgoing_vendors' without 'incoming_vendors'"
+msgstr ""
+"Fișierul de configurare „{}” utilizează versiunea „1.0”, care nu acceptă "
+"„outgoing_vendors” fără „incoming_vendors”"
+
+#: solv/vendor_change_manager.cpp:651
+#, fuzzy, c++-format
+#| msgid "Unknown 'comparator' \"{}\" in file \"{}\" on line {}"
+msgid "Unknown 'comparator' \"{}\" in \"{}\" on line {}"
+msgstr "„Comparator” necunoscut „{}” în fișierul „{}” la linia {}"
+
+#: solv/vendor_change_manager.cpp:655
+#, fuzzy, c++-format
+#| msgid ""
+#| "Configuration file \"{}\" uses version \"{}\" which does not support "
+#| "'comparator' \"{}\""
+msgid ""
+"Configuration \"{}\" uses version \"{}\" which does not support 'comparator' "
+"\"{}\""
+msgstr ""
+"Fișierul de configurare „{}” utilizează versiunea „{}”, care nu acceptă "
+"„comparatorul” „{}”"
+
+#: solv/vendor_change_manager.cpp:694
+#, fuzzy, c++-format
+#| msgid "Unknown 'filter' \"{}\" in file \"{}\" on line {}"
+msgid "Unknown 'filter' \"{}\" in \"{}\" on line {}"
+msgstr "„Filtru” necunoscut „{}” în fișierul „{}” la linia {}"
+
+#: solv/vendor_change_manager.cpp:715
+#, fuzzy, c++-format
+#| msgid "Missing 'filter' key in file \"{}\" for table entry on line {}"
+msgid "Missing 'filter' key in \"{}\" for table entry on line {}"
 msgstr ""
 "Lipsește cheia „filter” din fișierul „{}” pentru intrarea din tabel de la "
 "linia {}"
 
-#: solv/vendor_change_manager.cpp:474
-#, c++-format
-msgid "Missing 'value' key in file \"{}\" for table entry on line {}"
+#: solv/vendor_change_manager.cpp:720
+#, fuzzy, c++-format
+#| msgid "Missing 'value' key in file \"{}\" for table entry on line {}"
+msgid "Missing 'value' key in \"{}\" for table entry on line {}"
 msgstr ""
 "Lipsește cheia „value” din fișierul „{}” pentru intrarea din tabel de la "
 "linia {}"
 
-#: solv/vendor_change_manager.cpp:483
-#, c++-format
+#: solv/vendor_change_manager.cpp:727
+#, fuzzy, c++-format
+#| msgid ""
+#| "Filter \"cmdline_repo\" in file \"{}\" in table starting on line {} does "
+#| "not support comparator \"{}\". Only the default \"EXACT\" comparator is "
+#| "allowed for this filter"
 msgid ""
-"Filter \"cmdline_repo\" in file \"{}\" in table starting on line {} does not "
+"Filter \"cmdline_repo\" in \"{}\" in table starting on line {} does not "
 "support comparator \"{}\". Only the default \"EXACT\" comparator is allowed "
 "for this filter"
 msgstr ""
-"Filtrul „cmdline_repo” din fișierul „{}”, în tabelul care începe la linia {}"
-", nu acceptă comparatorul „{}”. Pentru acest filtru este permis doar "
+"Filtrul „cmdline_repo” din fișierul „{}”, în tabelul care începe la linia "
+"{}, nu acceptă comparatorul „{}”. Pentru acest filtru este permis doar "
 "comparatorul implicit „EXACT”"
 
-#: solv/vendor_change_manager.cpp:500
-#, c++-format
+#: solv/vendor_change_manager.cpp:744
+#, fuzzy, c++-format
+#| msgid ""
+#| "Invalid 'value' \"{}\" in file \"{}\" in table starting on line {}. Only "
+#| "\"true\", \"1\", \"false\", \"0\" are supported"
 msgid ""
-"Invalid 'value' \"{}\" in file \"{}\" in table starting on line {}. Only "
+"Invalid 'value' \"{}\" in \"{}\" in table starting on line {}. Only "
 "\"true\", \"1\", \"false\", \"0\" are supported"
 msgstr ""
 "„Valoarea” „{}” nu este validă în fișierul „{}” din tabel, începând cu linia "
 "{}. Sunt acceptate doar valorile „true”, „1”, „false” și „0”"
 
-#: solv/vendor_change_manager.cpp:512 solv/vendor_change_manager.cpp:523
-#, c++-format
+#: solv/vendor_change_manager.cpp:754 solv/vendor_change_manager.cpp:765
+#, fuzzy, c++-format
+#| msgid ""
+#| "Filter \"{}\" in file \"{}\" in table starting on line {} does not "
+#| "support comparator \"{}\""
 msgid ""
-"Filter \"{}\" in file \"{}\" in table starting on line {} does not support "
+"Filter \"{}\" in \"{}\" in table starting on line {} does not support "
 "comparator \"{}\""
 msgstr ""
 "Filtrul „{}” din fișierul „{}”, în tabelul începând cu linia {} nu acceptă "
 "comparatorul „{}”"
 
-#: solv/vendor_change_manager.cpp:540
-#, c++-format
-msgid "Invalid regex \"{}\" in file \"{}\" in table starting on line {}: {}"
+#: solv/vendor_change_manager.cpp:781
+#, fuzzy, c++-format
+#| msgid "Invalid regex \"{}\" in file \"{}\" in table starting on line {}: {}"
+msgid "Invalid epoch value \"{}\" in \"{}\" in table starting on line {}"
 msgstr ""
 "Expresie regulată nevalidă „{}” în fișierul „{}” din tabel, începând cu "
 "linia {}: {}"
 
-#: solv/vendor_change_manager.cpp:566
-#, c++-format
-msgid "Missing \"version\" key in file \"{}\""
-msgstr "Lipsește cheia „version” din fișierul „{}”"
-
-#: solv/vendor_change_manager.cpp:578
-#, c++-format
-msgid "Unsupported version \"{}\" in file \"{}\". Supported versions: {}"
-msgstr "Versiune neacceptată „{}” în fișierul „{}”. Versiunile acceptate: {}"
-
-#: solv/vendor_change_manager.cpp:589
-#, c++-format
-msgid ""
-"Configuration file \"{}\" uses version \"1.0\" which does not support "
-"combining 'equivalent_vendors' with 'outgoing_vendors' and 'incoming_vendors'"
+#: solv/vendor_change_manager.cpp:796
+#, fuzzy, c++-format
+#| msgid "Invalid regex \"{}\" in file \"{}\" in table starting on line {}: {}"
+msgid "Invalid regex \"{}\" in \"{}\" in table starting on line {}: {}"
 msgstr ""
-"Fișierul de configurare „{}” utilizează versiunea „1.0”, care nu acceptă "
-"combinarea parametrului „equivalent_vendors” cu parametrii „outgoing_vendors"
-"” și „incoming_vendors”"
+"Expresie regulată nevalidă „{}” în fișierul „{}” din tabel, începând cu "
+"linia {}: {}"
 
-#: solv/vendor_change_manager.cpp:631
-#, c++-format
-msgid ""
-"Configuration file \"{}\" uses version \"1.0\" which does not support key "
-"'{}' on line {}"
+#: solv/vendor_change_manager.cpp:848
+msgid "Unexpected end of input"
 msgstr ""
-"Fișierul de configurare „{}” utilizează versiunea „1.0”, care nu acceptă "
-"cheia „{}” din linia {}"
 
-#: solv/vendor_change_manager.cpp:650
+#: solv/vendor_change_manager.cpp:865
 #, c++-format
+msgid "Expected '{}' but found end of input"
+msgstr ""
+
+#: solv/vendor_change_manager.cpp:867
+#, c++-format
+msgid "Expected '{}' but found '{}'"
+msgstr ""
+
+#: solv/vendor_change_manager.cpp:877
+#, c++-format
+msgid "Compact vendor change policy parse error in \"{}\" at position {}"
+msgstr ""
+
+#: solv/vendor_change_manager.cpp:913
+msgid "Empty vendor policy string"
+msgstr ""
+
+#: solv/vendor_change_manager.cpp:930
+msgid "Expected package filter after '@'"
+msgstr ""
+
+#: solv/vendor_change_manager.cpp:943
+#, fuzzy, c++-format
+#| msgid "Invalid repository id \"{}\": unexpected character '{}'"
+msgid "Unexpected character '{}'"
+msgstr "Id de depozit nevalid „{}”: caracter neașteptat „{}”"
+
+#: solv/vendor_change_manager.cpp:947
+msgid "Empty policy: no vendor definitions or package filters specified"
+msgstr ""
+
+#: solv/vendor_change_manager.cpp:1023
+msgid "Expected quoted string starting with '\"'"
+msgstr ""
+
+#: solv/vendor_change_manager.cpp:1031
+msgid "Unterminated escape sequence"
+msgstr ""
+
+#: solv/vendor_change_manager.cpp:1037
+#, c++-format
+msgid "Invalid escape sequence '\\{}'. Only '\\\"' and '\\\\' are supported"
+msgstr ""
+
+#: solv/vendor_change_manager.cpp:1044
+msgid "Unterminated quoted string"
+msgstr ""
+
+#: solv/vendor_change_manager.cpp:1079
+msgid "Expected direction prefix 'in', 'out', or 'eq'"
+msgstr ""
+
+#: solv/vendor_change_manager.cpp:1143
 msgid ""
-"Filter \"cmdline_repo\" is only allowed in the 'incoming_packages' section. "
-"Error in file \"{}\" in table starting on line {}"
+"Expected comparison operator: relational (<, <=, >, >=) or string (=, ^, $, "
+"*, =*, =~; optionally prefixed with ! and/or i"
+msgstr ""
+
+#: solv/vendor_change_manager.cpp:1208
+msgid ""
+"Vendor definition does not support relational comparators. Use string "
+"comparators: =, ^, $, *, =*, =~"
+msgstr ""
+
+#: solv/vendor_change_manager.cpp:1216
+#, fuzzy, c++-format
+#| msgid ""
+#| "Invalid regex vendor pattern \"{}\" in file \"{}\" in table starting on "
+#| "line {}: {}"
+msgid "Invalid regex vendor pattern '{}': {}"
+msgstr ""
+"Modelul de expresie regulată al furnizorului „{}” este nevalid în fișierul "
+"„{}”, în tabelul care începe la linia {}: {}"
+
+#: solv/vendor_change_manager.cpp:1234
+#, fuzzy, c++-format
+#| msgid "Unknown time unit '{}'"
+msgid "Unknown filter field name '{}'"
+msgstr "Unitate de timp necunoscută „{}”"
+
+#: solv/vendor_change_manager.cpp:1244
+msgid "Expected filter field name"
+msgstr ""
+
+#: solv/vendor_change_manager.cpp:1267
+#, fuzzy, c++-format
+#| msgid "Invalid boolean value \"{}\""
+msgid "Invalid epoch value \"{}\""
+msgstr "Valoare booleană nevalidă „{}”"
+
+#: solv/vendor_change_manager.cpp:1271
+msgid "Filter 'cmdline_repo' only supports the '=' (EXACT) comparator"
+msgstr ""
+
+#: solv/vendor_change_manager.cpp:1274
+#, fuzzy
+#| msgid ""
+#| "Filter \"cmdline_repo\" is only allowed in the 'incoming_packages' "
+#| "section. Error in file \"{}\" in table starting on line {}"
+msgid "Filter 'cmdline_repo' is only allowed in incoming packages ('in:')"
 msgstr ""
 "Filtrul „cmdline_repo” este permis numai în secțiunea „incoming_packages”. "
 "Eroare în fișierul „{}” din tabel, începând cu linia {}"
 
-#: solv/vendor_change_manager.cpp:672
+#: solv/vendor_change_manager.cpp:1285
 #, c++-format
 msgid ""
-"Missing package filter definition in file \"{}\" in table starting on line {}"
+"Invalid value '{}' for 'cmdline_repo' filter. Use 'true', '1', 'false', or "
+"'0'"
 msgstr ""
-"Lipsește definiția filtrului pentru pachete în fișierul „{}” din tabel, "
-"începând cu linia {}"
 
-#: solv/vendor_change_manager.cpp:703
+#: solv/vendor_change_manager.cpp:1289
 #, c++-format
-msgid ""
-"Unsupported comparator \"{}\" for vendor definition in file \"{}\" on line {}"
+msgid "Filter '{}' only supports relational comparators: =, !=, >, >=, <, <="
 msgstr ""
-"Comparator neacceptat „{}” pentru definiția furnizorului din fișierul „{}”, "
-"la linia {}"
 
-#: solv/vendor_change_manager.cpp:724
+#: solv/vendor_change_manager.cpp:1293
 #, c++-format
-msgid "Missing 'vendor' key in file \"{}\" in table starting on line {}"
+msgid "Filter '{}' only supports string comparators: =, ^, $, *, =*, =~"
 msgstr ""
-"Lipsește cheia „vendor” din fișierul „{}” din tabel, începând cu linia {}"
 
-#: solv/vendor_change_manager.cpp:737
-#, c++-format
-msgid ""
-"Invalid regex vendor pattern \"{}\" in file \"{}\" in table starting on line "
-"{}: {}"
+#: solv/vendor_change_manager.cpp:1302
+#, fuzzy, c++-format
+#| msgid "Invalid package type: {}"
+msgid "Invalid regex '{}': {}"
+msgstr "Tip de pachet nevalid: {}"
+
+#: solv/vendor_change_manager.cpp:1313
+msgid "Package filters do not support 'eq' direction. Use 'in' or 'out'"
 msgstr ""
-"Modelul de expresie regulată al furnizorului „{}” este nevalid în fișierul „"
-"{}”, în tabelul care începe la linia {}: {}"
 
-#: solv/vendor_change_manager.cpp:763
-#, c++-format
-msgid "Bad value type in file \"{}\" on line {}: {}"
-msgstr "Tip de valoare incorect în fișierul „{}” la linia {}: {}"
-
-#: solv/vendor_change_manager.cpp:769
-#, c++-format
-msgid "An error occurred when parsing file \"{}\": {}"
-msgstr "A apărut o eroare la analizarea fișierului „{}”: {}"
-
-#: solv/vendor_change_manager.cpp:780
-#, c++-format
-msgid ""
-"Configuration file \"{}\" uses version \"1.0\" which does not support "
-"'incoming_vendors' without 'outgoing_vendors'"
+#: solv/vendor_change_manager.cpp:1404 solv/vendor_change_manager.cpp:1454
+#: solv/vendor_change_manager.cpp:1465 solv/vendor_change_manager.cpp:1476
+msgid "{func}(): Policy index {idx} is out of range"
 msgstr ""
-"Fișierul de configurare „{}” utilizează versiunea „1.0”, care nu acceptă „"
-"incoming_vendors” fără „outgoing_vendors”"
-
-#: solv/vendor_change_manager.cpp:787
-#, c++-format
-msgid ""
-"Configuration file \"{}\" uses version \"1.0\" which does not support "
-"'outgoing_vendors' without 'incoming_vendors'"
-msgstr ""
-"Fișierul de configurare „{}” utilizează versiunea „1.0”, care nu acceptă „"
-"outgoing_vendors” fără „incoming_vendors”"
 
 #: system/state.cpp:282 system/state.cpp:291
 #, c++-format

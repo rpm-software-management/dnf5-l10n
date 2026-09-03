@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-01 18:31+0000\n"
+"POT-Creation-Date: 2026-09-02 16:43+0000\n"
 "PO-Revision-Date: 2026-05-07 16:10+0000\n"
 "Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
 "Language-Team: Lao <https://translate.fedoraproject.org/projects/dnf5/"
@@ -781,6 +781,39 @@ msgid_plural ""
 "Warning: skipped OpenPGP checks for {0} packages from repositories: {1}"
 msgstr[0] "ຄຳເຕືອນ: ຂ້າມການກວດສອບ OpenPGP ສຳລັບ {0} ແພັກເກດ ຈາກຄັງເກັບ: {1}"
 
+#: base/vendor_change_manager.cpp:129
+#, fuzzy
+#| msgid "Cannot set the locale \"{}\": {}"
+msgid "{func}(): Cannot remove file: {path}: {msg}"
+msgstr "ບໍ່ສາມາດຕັ້ງຄ່າທ້ອງຖິ່ນ (locale) \"{}\": {}"
+
+#: base/vendor_change_manager.cpp:135
+msgid "{func}(): File does not exist: {path}"
+msgstr ""
+
+#: base/vendor_change_manager.cpp:218
+msgid "{func}(): Cannot create file: {path}"
+msgstr ""
+
+#: base/vendor_change_manager.cpp:235
+#, fuzzy
+#| msgid "Cannot set the locale \"{}\": {}"
+msgid "{func}(): Cannot write to file: {path}"
+msgstr "ບໍ່ສາມາດຕັ້ງຄ່າທ້ອງຖິ່ນ (locale) \"{}\": {}"
+
+#: base/vendor_change_manager.cpp:270
+msgid "{func}(): Base filename cannot be empty"
+msgstr ""
+
+#: base/vendor_change_manager.cpp:276
+msgid ""
+"{func}(): Base filename must not contain path components: {base_filename}"
+msgstr ""
+
+#: base/vendor_change_manager.cpp:395
+msgid "{func}(): Path must have .conf extension: {path}"
+msgstr ""
+
 #: common/exception.cpp:78
 msgid "System error"
 msgstr "ຂໍ້ຜິດພາດຂອງລະບົບ"
@@ -1458,146 +1491,282 @@ msgstr "ບໍ່ສາມາດແປງ epoch \"{}\" ເປັນຕົວເ�
 msgid "Writing debugsolver data into \"{}\" failed: {}"
 msgstr "ການຂຽນຂໍ້ມູນ debugsolver ລົງໃນ \"{}\" ຫຼົ້ມເຫຼວ: {}"
 
-#: solv/vendor_change_manager.cpp:97
-#, c++-format
-msgid "Unknown 'comparator' \"{}\" in file \"{}\" on line {}"
-msgstr ""
+#: solv/vendor_change_manager.cpp:339
+#, fuzzy, c++-format
+#| msgid "Missing section header on line {}"
+msgid "Missing \"version\" key in \"{}\""
+msgstr "ຂາດສ່ວນຫົວຂອງພາກສ່ວນຢູ່ແຖວທີ {}"
 
-#: solv/vendor_change_manager.cpp:101
+#: solv/vendor_change_manager.cpp:351
+#, fuzzy, c++-format
+#| msgid "Unsupported TOML version \"{}\", maximum supported version is \"{}\""
+msgid "Unsupported version \"{}\" in \"{}\". Supported versions: {}"
+msgstr "ບໍ່ຮອງຮັບ TOML ລຸ້ນ \"{}\", ລຸ້ນສູງສຸດທີ່ຮອງຮັບແມ່ນ \"{}\""
+
+#: solv/vendor_change_manager.cpp:362
 #, c++-format
 msgid ""
-"Configuration file \"{}\" uses version \"{}\" which does not support "
-"'comparator' \"{}\""
+"Configuration \"{}\" uses version \"1.0\" which does not support combining "
+"'equivalent_vendors' with 'outgoing_vendors' and 'incoming_vendors'"
 msgstr ""
 
-#: solv/vendor_change_manager.cpp:443
+#: solv/vendor_change_manager.cpp:394 solv/vendor_change_manager.cpp:432
+#: solv/vendor_change_manager.cpp:484 solv/vendor_change_manager.cpp:709
 #, c++-format
-msgid "Unknown 'filter' \"{}\" in file \"{}\" on line {}"
+msgid "Unknown key '{}' in \"{}\" on line {}"
 msgstr ""
 
-#: solv/vendor_change_manager.cpp:458 solv/vendor_change_manager.cpp:621
-#: solv/vendor_change_manager.cpp:662 solv/vendor_change_manager.cpp:714
-#, c++-format
-msgid "Unknown key '{}' in file \"{}\" on line {}"
-msgstr ""
-
-#: solv/vendor_change_manager.cpp:467
-#, c++-format
-msgid "Missing 'filter' key in file \"{}\" for table entry on line {}"
-msgstr ""
-
-#: solv/vendor_change_manager.cpp:474
-#, c++-format
-msgid "Missing 'value' key in file \"{}\" for table entry on line {}"
-msgstr ""
-
-#: solv/vendor_change_manager.cpp:483
+#: solv/vendor_change_manager.cpp:401
 #, c++-format
 msgid ""
-"Filter \"cmdline_repo\" in file \"{}\" in table starting on line {} does not "
+"Configuration \"{}\" uses version \"1.0\" which does not support key '{}' on "
+"line {}"
+msgstr ""
+
+#: solv/vendor_change_manager.cpp:420
+#, c++-format
+msgid ""
+"Filter \"cmdline_repo\" is only allowed in the 'incoming_packages' section. "
+"Error in \"{}\" in table starting on line {}"
+msgstr ""
+
+#: solv/vendor_change_manager.cpp:442
+#, c++-format
+msgid ""
+"Missing package filter definition in \"{}\" in table starting on line {}"
+msgstr ""
+
+#: solv/vendor_change_manager.cpp:473
+#, c++-format
+msgid ""
+"Unsupported comparator \"{}\" for vendor definition in \"{}\" on line {}"
+msgstr ""
+
+#: solv/vendor_change_manager.cpp:494
+#, c++-format
+msgid "Missing 'vendor' key in \"{}\" in table starting on line {}"
+msgstr ""
+
+#: solv/vendor_change_manager.cpp:507
+#, c++-format
+msgid ""
+"Invalid regex vendor pattern \"{}\" in \"{}\" in table starting on line {}: "
+"{}"
+msgstr ""
+
+#: solv/vendor_change_manager.cpp:535
+#, c++-format
+msgid "Bad value type in \"{}\" on line {}: {}"
+msgstr ""
+
+#: solv/vendor_change_manager.cpp:541
+#, fuzzy, c++-format
+#| msgid "An error occurred importing key \"{}\": {}"
+msgid "An error occurred when parsing \"{}\": {}"
+msgstr "ເກີດຂໍ້ຜິດພາດໃນການນຳເຂົ້າຄີ \"{}\": {}"
+
+#: solv/vendor_change_manager.cpp:555
+#, c++-format
+msgid ""
+"Configuration \"{}\" uses version \"1.0\" which does not support "
+"'incoming_vendors' without 'outgoing_vendors'"
+msgstr ""
+
+#: solv/vendor_change_manager.cpp:561
+#, c++-format
+msgid ""
+"Configuration \"{}\" uses version \"1.0\" which does not support "
+"'outgoing_vendors' without 'incoming_vendors'"
+msgstr ""
+
+#: solv/vendor_change_manager.cpp:651
+#, c++-format
+msgid "Unknown 'comparator' \"{}\" in \"{}\" on line {}"
+msgstr ""
+
+#: solv/vendor_change_manager.cpp:655
+#, c++-format
+msgid ""
+"Configuration \"{}\" uses version \"{}\" which does not support 'comparator' "
+"\"{}\""
+msgstr ""
+
+#: solv/vendor_change_manager.cpp:694
+#, c++-format
+msgid "Unknown 'filter' \"{}\" in \"{}\" on line {}"
+msgstr ""
+
+#: solv/vendor_change_manager.cpp:715
+#, c++-format
+msgid "Missing 'filter' key in \"{}\" for table entry on line {}"
+msgstr ""
+
+#: solv/vendor_change_manager.cpp:720
+#, c++-format
+msgid "Missing 'value' key in \"{}\" for table entry on line {}"
+msgstr ""
+
+#: solv/vendor_change_manager.cpp:727
+#, c++-format
+msgid ""
+"Filter \"cmdline_repo\" in \"{}\" in table starting on line {} does not "
 "support comparator \"{}\". Only the default \"EXACT\" comparator is allowed "
 "for this filter"
 msgstr ""
 
-#: solv/vendor_change_manager.cpp:500
+#: solv/vendor_change_manager.cpp:744
 #, c++-format
 msgid ""
-"Invalid 'value' \"{}\" in file \"{}\" in table starting on line {}. Only "
+"Invalid 'value' \"{}\" in \"{}\" in table starting on line {}. Only "
 "\"true\", \"1\", \"false\", \"0\" are supported"
 msgstr ""
 
-#: solv/vendor_change_manager.cpp:512 solv/vendor_change_manager.cpp:523
+#: solv/vendor_change_manager.cpp:754 solv/vendor_change_manager.cpp:765
 #, c++-format
 msgid ""
-"Filter \"{}\" in file \"{}\" in table starting on line {} does not support "
+"Filter \"{}\" in \"{}\" in table starting on line {} does not support "
 "comparator \"{}\""
 msgstr ""
 
-#: solv/vendor_change_manager.cpp:540
+#: solv/vendor_change_manager.cpp:781
 #, c++-format
-msgid "Invalid regex \"{}\" in file \"{}\" in table starting on line {}: {}"
+msgid "Invalid epoch value \"{}\" in \"{}\" in table starting on line {}"
 msgstr ""
 
-#: solv/vendor_change_manager.cpp:566
+#: solv/vendor_change_manager.cpp:796
+#, c++-format
+msgid "Invalid regex \"{}\" in \"{}\" in table starting on line {}: {}"
+msgstr ""
+
+#: solv/vendor_change_manager.cpp:848
+msgid "Unexpected end of input"
+msgstr ""
+
+#: solv/vendor_change_manager.cpp:865
+#, c++-format
+msgid "Expected '{}' but found end of input"
+msgstr ""
+
+#: solv/vendor_change_manager.cpp:867
+#, c++-format
+msgid "Expected '{}' but found '{}'"
+msgstr ""
+
+#: solv/vendor_change_manager.cpp:877
+#, c++-format
+msgid "Compact vendor change policy parse error in \"{}\" at position {}"
+msgstr ""
+
+#: solv/vendor_change_manager.cpp:913
+msgid "Empty vendor policy string"
+msgstr ""
+
+#: solv/vendor_change_manager.cpp:930
+msgid "Expected package filter after '@'"
+msgstr ""
+
+#: solv/vendor_change_manager.cpp:943
 #, fuzzy, c++-format
-#| msgid "Missing section header on line {}"
-msgid "Missing \"version\" key in file \"{}\""
-msgstr "ຂາດສ່ວນຫົວຂອງພາກສ່ວນຢູ່ແຖວທີ {}"
+#| msgid "Invalid repository id \"{}\": unexpected character '{}'"
+msgid "Unexpected character '{}'"
+msgstr "repository id \"{}\" ບໍ່ຖືກຕ້ອງ: ພົບຕົວອັກສອນທີ່ບໍ່ຄາດຄິດ '{}'"
 
-#: solv/vendor_change_manager.cpp:578
+#: solv/vendor_change_manager.cpp:947
+msgid "Empty policy: no vendor definitions or package filters specified"
+msgstr ""
+
+#: solv/vendor_change_manager.cpp:1023
+msgid "Expected quoted string starting with '\"'"
+msgstr ""
+
+#: solv/vendor_change_manager.cpp:1031
+msgid "Unterminated escape sequence"
+msgstr ""
+
+#: solv/vendor_change_manager.cpp:1037
+#, c++-format
+msgid "Invalid escape sequence '\\{}'. Only '\\\"' and '\\\\' are supported"
+msgstr ""
+
+#: solv/vendor_change_manager.cpp:1044
+msgid "Unterminated quoted string"
+msgstr ""
+
+#: solv/vendor_change_manager.cpp:1079
+msgid "Expected direction prefix 'in', 'out', or 'eq'"
+msgstr ""
+
+#: solv/vendor_change_manager.cpp:1143
+msgid ""
+"Expected comparison operator: relational (<, <=, >, >=) or string (=, ^, $, "
+"*, =*, =~; optionally prefixed with ! and/or i"
+msgstr ""
+
+#: solv/vendor_change_manager.cpp:1208
+msgid ""
+"Vendor definition does not support relational comparators. Use string "
+"comparators: =, ^, $, *, =*, =~"
+msgstr ""
+
+#: solv/vendor_change_manager.cpp:1216
+#, c++-format
+msgid "Invalid regex vendor pattern '{}': {}"
+msgstr ""
+
+#: solv/vendor_change_manager.cpp:1234
 #, fuzzy, c++-format
-#| msgid "Unsupported TOML version \"{}\", maximum supported version is \"{}\""
-msgid "Unsupported version \"{}\" in file \"{}\". Supported versions: {}"
-msgstr "ບໍ່ຮອງຮັບ TOML ລຸ້ນ \"{}\", ລຸ້ນສູງສຸດທີ່ຮອງຮັບແມ່ນ \"{}\""
+#| msgid "Unknown time unit '{}'"
+msgid "Unknown filter field name '{}'"
+msgstr "ບໍ່ຮູ້ຈັກຫົວໜ່ວຍເວລາ '{}'"
 
-#: solv/vendor_change_manager.cpp:589
-#, c++-format
-msgid ""
-"Configuration file \"{}\" uses version \"1.0\" which does not support "
-"combining 'equivalent_vendors' with 'outgoing_vendors' and 'incoming_vendors'"
+#: solv/vendor_change_manager.cpp:1244
+msgid "Expected filter field name"
 msgstr ""
 
-#: solv/vendor_change_manager.cpp:631
-#, c++-format
-msgid ""
-"Configuration file \"{}\" uses version \"1.0\" which does not support key "
-"'{}' on line {}"
-msgstr ""
-
-#: solv/vendor_change_manager.cpp:650
-#, c++-format
-msgid ""
-"Filter \"cmdline_repo\" is only allowed in the 'incoming_packages' section. "
-"Error in file \"{}\" in table starting on line {}"
-msgstr ""
-
-#: solv/vendor_change_manager.cpp:672
-#, c++-format
-msgid ""
-"Missing package filter definition in file \"{}\" in table starting on line {}"
-msgstr ""
-
-#: solv/vendor_change_manager.cpp:703
-#, c++-format
-msgid ""
-"Unsupported comparator \"{}\" for vendor definition in file \"{}\" on line {}"
-msgstr ""
-
-#: solv/vendor_change_manager.cpp:724
-#, c++-format
-msgid "Missing 'vendor' key in file \"{}\" in table starting on line {}"
-msgstr ""
-
-#: solv/vendor_change_manager.cpp:737
-#, c++-format
-msgid ""
-"Invalid regex vendor pattern \"{}\" in file \"{}\" in table starting on line "
-"{}: {}"
-msgstr ""
-
-#: solv/vendor_change_manager.cpp:763
-#, c++-format
-msgid "Bad value type in file \"{}\" on line {}: {}"
-msgstr ""
-
-#: solv/vendor_change_manager.cpp:769
+#: solv/vendor_change_manager.cpp:1267
 #, fuzzy, c++-format
-#| msgid "An error occurred importing key \"{}\": {}"
-msgid "An error occurred when parsing file \"{}\": {}"
-msgstr "ເກີດຂໍ້ຜິດພາດໃນການນຳເຂົ້າຄີ \"{}\": {}"
+#| msgid "Invalid boolean value \"{}\""
+msgid "Invalid epoch value \"{}\""
+msgstr "ຄ່າບູລີນ (boolean) ບໍ່ຖືກຕ້ອງ \"{}\""
 
-#: solv/vendor_change_manager.cpp:780
-#, c++-format
-msgid ""
-"Configuration file \"{}\" uses version \"1.0\" which does not support "
-"'incoming_vendors' without 'outgoing_vendors'"
+#: solv/vendor_change_manager.cpp:1271
+msgid "Filter 'cmdline_repo' only supports the '=' (EXACT) comparator"
 msgstr ""
 
-#: solv/vendor_change_manager.cpp:787
+#: solv/vendor_change_manager.cpp:1274
+msgid "Filter 'cmdline_repo' is only allowed in incoming packages ('in:')"
+msgstr ""
+
+#: solv/vendor_change_manager.cpp:1285
 #, c++-format
 msgid ""
-"Configuration file \"{}\" uses version \"1.0\" which does not support "
-"'outgoing_vendors' without 'incoming_vendors'"
+"Invalid value '{}' for 'cmdline_repo' filter. Use 'true', '1', 'false', or "
+"'0'"
+msgstr ""
+
+#: solv/vendor_change_manager.cpp:1289
+#, c++-format
+msgid "Filter '{}' only supports relational comparators: =, !=, >, >=, <, <="
+msgstr ""
+
+#: solv/vendor_change_manager.cpp:1293
+#, c++-format
+msgid "Filter '{}' only supports string comparators: =, ^, $, *, =*, =~"
+msgstr ""
+
+#: solv/vendor_change_manager.cpp:1302
+#, fuzzy, c++-format
+#| msgid "Invalid package type: {}"
+msgid "Invalid regex '{}': {}"
+msgstr "ປະເພດແພັກເກດບໍ່ຖືກຕ້ອງ: {}"
+
+#: solv/vendor_change_manager.cpp:1313
+msgid "Package filters do not support 'eq' direction. Use 'in' or 'out'"
+msgstr ""
+
+#: solv/vendor_change_manager.cpp:1404 solv/vendor_change_manager.cpp:1454
+#: solv/vendor_change_manager.cpp:1465 solv/vendor_change_manager.cpp:1476
+msgid "{func}(): Policy index {idx} is out of range"
 msgstr ""
 
 #: system/state.cpp:282 system/state.cpp:291
