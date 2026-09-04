@@ -8,9 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-02 16:43+0000\n"
-"PO-Revision-Date: 2026-09-03 07:23+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2026-09-04 11:18+0000\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/ka/>\n"
 "Language: ka\n"
@@ -18,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.8.1\n"
+"X-Generator: Weblate 2026.9\n"
 
 #: advisory/advisory.cpp:81
 #, c++-format
@@ -822,37 +821,35 @@ msgstr[1] ""
 "რეპოზიტორიებიდან: {1}"
 
 #: base/vendor_change_manager.cpp:129
-#, fuzzy
-#| msgid "Cannot write to file \"{}\": {}"
 msgid "{func}(): Cannot remove file: {path}: {msg}"
-msgstr "ვერ ჩავწერე ფაილში \"{}\": {}"
+msgstr "{func}(): ვერ წავშალე ფაილი: {path}: {msg}"
 
 #: base/vendor_change_manager.cpp:135
 msgid "{func}(): File does not exist: {path}"
-msgstr ""
+msgstr "{func}(): ფაილი არ არსებობს: {path}"
 
 #: base/vendor_change_manager.cpp:218
 msgid "{func}(): Cannot create file: {path}"
-msgstr ""
+msgstr "{func}(): ფაილის შექმნა შეუძლებელია: {path}"
 
 #: base/vendor_change_manager.cpp:235
-#, fuzzy
-#| msgid "Cannot write to file \"{}\": {}"
 msgid "{func}(): Cannot write to file: {path}"
-msgstr "ვერ ჩავწერე ფაილში \"{}\": {}"
+msgstr "{func}(): ვერ ჩავწერე ფაილში: {path}"
 
 #: base/vendor_change_manager.cpp:270
 msgid "{func}(): Base filename cannot be empty"
-msgstr ""
+msgstr "{func}(): საბაზისო ფაილის სახელი ცარიელი ვერ იქნება"
 
 #: base/vendor_change_manager.cpp:276
 msgid ""
 "{func}(): Base filename must not contain path components: {base_filename}"
 msgstr ""
+"{func}(): საბაზისო ფაილის სახელი არ შეიძლება, ბილიკის კომპონენტებს "
+"შეიცავდეს: {base_filename}"
 
 #: base/vendor_change_manager.cpp:395
 msgid "{func}(): Path must have .conf extension: {path}"
-msgstr ""
+msgstr "{func}(): ბილიკს უნდა ჰქონდეს გაფართოება .conf: {path}"
 
 #: common/exception.cpp:78
 msgid "System error"
@@ -1563,332 +1560,277 @@ msgid "Writing debugsolver data into \"{}\" failed: {}"
 msgstr "შეცდომა debugsolver-ის მონაცემების \"{}\"-ში ჩაწერისას: {}"
 
 #: solv/vendor_change_manager.cpp:339
-#, fuzzy, c++-format
-#| msgid "Missing \"version\" key in file \"{}\""
+#, c++-format
 msgid "Missing \"version\" key in \"{}\""
-msgstr "აკლია \"version\" გასაღები ფაილში \"{}\""
+msgstr "აკლია \"version\" გასაღები \"{}\"-ში"
 
 #: solv/vendor_change_manager.cpp:351
-#, fuzzy, c++-format
-#| msgid "Unsupported version \"{}\" in file \"{}\". Supported versions: {}"
+#, c++-format
 msgid "Unsupported version \"{}\" in \"{}\". Supported versions: {}"
-msgstr "მხარდაუჭერელი ვერსია \"{}\" ფაილში \"{}\". მხარდაჭერილია ვერსიები: {}"
+msgstr "მხარდაუჭერელი ვერსია \"{}\" \"{}\"-ში. მხარდაჭერილია ვერსიები: {}"
 
 #: solv/vendor_change_manager.cpp:362
-#, fuzzy, c++-format
-#| msgid ""
-#| "Configuration file \"{}\" uses version \"1.0\" which does not support "
-#| "combining 'equivalent_vendors' with 'outgoing_vendors' and "
-#| "'incoming_vendors'"
+#, c++-format
 msgid ""
 "Configuration \"{}\" uses version \"1.0\" which does not support combining "
 "'equivalent_vendors' with 'outgoing_vendors' and 'incoming_vendors'"
 msgstr ""
-"კონფიგურაციის ფაილი \"{}\" იყენებს ვერსიას \"1.0\", რომელსაც არ აქვს "
+"კონფიგურაცია \"{}\" იყენებს ვერსიას \"1.0\", რომელსაც არ აქვს "
 "'equivalent_vendors'-ის მხარდაჭერა 'outgoing_vendors'-სთან და "
 "'incoming_vendors'-სთან ერთად"
 
 #: solv/vendor_change_manager.cpp:394 solv/vendor_change_manager.cpp:432
 #: solv/vendor_change_manager.cpp:484 solv/vendor_change_manager.cpp:709
-#, fuzzy, c++-format
-#| msgid "Unknown key '{}' in file \"{}\" on line {}"
+#, c++-format
 msgid "Unknown key '{}' in \"{}\" on line {}"
-msgstr "უცნობი გასაღები \"{}\" ფაილში \"{}\" ხაზზე {}"
+msgstr "უცნობი გასაღები \"{}\" \"{}\"-ში ხაზზე {}"
 
 #: solv/vendor_change_manager.cpp:401
-#, fuzzy, c++-format
-#| msgid ""
-#| "Configuration file \"{}\" uses version \"1.0\" which does not support key "
-#| "'{}' on line {}"
+#, c++-format
 msgid ""
 "Configuration \"{}\" uses version \"1.0\" which does not support key '{}' on "
 "line {}"
 msgstr ""
-"კონფიგურაციის ფაილი \"{}\" იყენებს ვერსიას \"1.0\", რომელსაც არ აქვს "
-"გასაღების '{}' მხარდაჭერა ხაზზე {}"
+"კონფიგურაცია \"{}\" იყენებს ვერსიას \"1.0\", რომელსაც არ აქვს გასაღების '{}' "
+"მხარდაჭერა ხაზზე {}"
 
 #: solv/vendor_change_manager.cpp:420
-#, fuzzy, c++-format
-#| msgid ""
-#| "Filter \"cmdline_repo\" is only allowed in the 'incoming_packages' "
-#| "section. Error in file \"{}\" in table starting on line {}"
+#, c++-format
 msgid ""
 "Filter \"cmdline_repo\" is only allowed in the 'incoming_packages' section. "
 "Error in \"{}\" in table starting on line {}"
 msgstr ""
 "ფილტრი \"cmdline_repo\", მხოლოდ, დაშვებულია სექციაში 'incoming_packages'. "
-"შეცდომა ფაილში \"{}\" ცხრილში დაწყებული ხაზიდან {}"
+"შეცდომა \"{}\"-ში ცხრილში დაწყებული ხაზიდან {}"
 
 #: solv/vendor_change_manager.cpp:442
-#, fuzzy, c++-format
-#| msgid ""
-#| "Missing package filter definition in file \"{}\" in table starting on "
-#| "line {}"
+#, c++-format
 msgid ""
 "Missing package filter definition in \"{}\" in table starting on line {}"
-msgstr ""
-"აკლია პაკეტის ფილტრის აღწერა ფაილში \"{}\" ცხრილში დაწყებული ხაზიდან {}"
+msgstr "აკლია პაკეტის ფილტრის აღწერა \"{}\"-ში ცხრილში დაწყებული ხაზიდან {}"
 
 #: solv/vendor_change_manager.cpp:473
-#, fuzzy, c++-format
-#| msgid ""
-#| "Unsupported comparator \"{}\" for vendor definition in file \"{}\" on "
-#| "line {}"
+#, c++-format
 msgid ""
 "Unsupported comparator \"{}\" for vendor definition in \"{}\" on line {}"
 msgstr ""
-"მხარდაუჭერელი შემდარებელი \"{}\" მომწოდებლის აღწერაში ფაილში \"{}\" ხაზზე {}"
+"მხარდაუჭერელი შემდარებელი \"{}\" მომწოდებლის აღწერაში \"{}\"-ში ხაზზე {}"
 
 #: solv/vendor_change_manager.cpp:494
-#, fuzzy, c++-format
-#| msgid "Missing 'vendor' key in file \"{}\" in table starting on line {}"
+#, c++-format
 msgid "Missing 'vendor' key in \"{}\" in table starting on line {}"
-msgstr "ნაკლული გასაღები 'vendor' ფაილში \"{}\" ცხრილში ხაზიდან {}"
+msgstr "ნაკლული გასაღები 'vendor' \"{}\"-ში ცხრილში ხაზიდან {}"
 
 #: solv/vendor_change_manager.cpp:507
-#, fuzzy, c++-format
-#| msgid ""
-#| "Invalid regex vendor pattern \"{}\" in file \"{}\" in table starting on "
-#| "line {}: {}"
+#, c++-format
 msgid ""
 "Invalid regex vendor pattern \"{}\" in \"{}\" in table starting on line {}: "
 "{}"
 msgstr ""
-"არასწორი რეგგამოსის მომწოდებლის ნიმუში \"{}\" ფაილში \"{}\" ცხრილში "
-"დაწყებული ხაზიდან {}: {}"
+"არასწორი რეგგამოსის მომწოდებლის ნიმუში \"{}\" \"{}\"-ში ცხრილში დაწყებული "
+"ხაზიდან {}: {}"
 
 #: solv/vendor_change_manager.cpp:535
-#, fuzzy, c++-format
-#| msgid "Bad value type in file \"{}\" on line {}: {}"
+#, c++-format
 msgid "Bad value type in \"{}\" on line {}: {}"
-msgstr "არასწორი მნიშვნელობის ტიპი ფაილში \"{}\" ხაზზე {}: {}"
+msgstr "არასწორი მნიშვნელობის ტიპი \"{}\"-ში ხაზზე {}: {}"
 
 #: solv/vendor_change_manager.cpp:541
-#, fuzzy, c++-format
-#| msgid "An error occurred when parsing file \"{}\": {}"
+#, c++-format
 msgid "An error occurred when parsing \"{}\": {}"
-msgstr "შეცდომა ფაილის \"{}\" დამუშავებისას: {}"
+msgstr "შეცდომა \"{}\"-ის დამუშავებისას: {}"
 
 #: solv/vendor_change_manager.cpp:555
-#, fuzzy, c++-format
-#| msgid ""
-#| "Configuration file \"{}\" uses version \"1.0\" which does not support "
-#| "'incoming_vendors' without 'outgoing_vendors'"
+#, c++-format
 msgid ""
 "Configuration \"{}\" uses version \"1.0\" which does not support "
 "'incoming_vendors' without 'outgoing_vendors'"
 msgstr ""
-"კონფიგურაციის ფაილი \"{}\" იყენებს ვერსიას \"1.1\", რომელსაც არ აქვს "
+"კონფიგურაცია \"{}\" იყენებს ვერსიას \"1.1\", რომელსაც არ აქვს "
 "'incoming_vendors'-ის მხარდაჭერა 'outgoing_vendors'-ის გარეშე"
 
 #: solv/vendor_change_manager.cpp:561
-#, fuzzy, c++-format
-#| msgid ""
-#| "Configuration file \"{}\" uses version \"1.0\" which does not support "
-#| "'outgoing_vendors' without 'incoming_vendors'"
+#, c++-format
 msgid ""
 "Configuration \"{}\" uses version \"1.0\" which does not support "
 "'outgoing_vendors' without 'incoming_vendors'"
 msgstr ""
-"კონფიგურაციის ფაილი \"{}\" იყენებს ვერსიას \"1.1\", რომელსაც არ აქვს "
+"კონფიგურაცია \"{}\" იყენებს ვერსიას \"1.1\", რომელსაც არ აქვს "
 "'outgoing_vendors'-ის მხარდაჭერა 'incoming_vendors'-ის გარეშე"
 
 #: solv/vendor_change_manager.cpp:651
-#, fuzzy, c++-format
-#| msgid "Unknown 'comparator' \"{}\" in file \"{}\" on line {}"
+#, c++-format
 msgid "Unknown 'comparator' \"{}\" in \"{}\" on line {}"
-msgstr "უცნობი 'comparator' \"{}\" ფაილში \"{}\" ხაზზე {}"
+msgstr "უცნობი 'comparator' \"{}\" \"{}\"-ში ხაზზე {}"
 
 #: solv/vendor_change_manager.cpp:655
-#, fuzzy, c++-format
-#| msgid ""
-#| "Configuration file \"{}\" uses version \"{}\" which does not support "
-#| "'comparator' \"{}\""
+#, c++-format
 msgid ""
 "Configuration \"{}\" uses version \"{}\" which does not support 'comparator' "
 "\"{}\""
 msgstr ""
-"კონფიგურაციის ფაილი \"{}\" იყენებს ვერსიას \"{}\", რომელსაც არ აქვს "
-"'შემდარებლის' \"{}\" მხარდაჭერა"
+"კონფიგურაცია \"{}\" იყენებს ვერსიას \"{}\", რომელსაც არ აქვს 'შემდარებლის' \""
+"{}\" მხარდაჭერა"
 
 #: solv/vendor_change_manager.cpp:694
-#, fuzzy, c++-format
-#| msgid "Unknown 'filter' \"{}\" in file \"{}\" on line {}"
+#, c++-format
 msgid "Unknown 'filter' \"{}\" in \"{}\" on line {}"
-msgstr "უცნობი 'filter' \"{}\" ფაილში \"{}\" ხაზზე {}"
+msgstr "უცნობი 'filter' \"{}\" \"{}\"-ში ხაზზე {}"
 
 #: solv/vendor_change_manager.cpp:715
-#, fuzzy, c++-format
-#| msgid "Missing 'filter' key in file \"{}\" for table entry on line {}"
+#, c++-format
 msgid "Missing 'filter' key in \"{}\" for table entry on line {}"
-msgstr "აკლია გასაღები 'filter' ფაილში \"{}\" ცხრილის ჩანაწერისთვის ხაზზე {}"
+msgstr "აკლია გასაღები 'filter' \"{}\"-ში ცხრილის ჩანაწერისთვის ხაზზე {}"
 
 #: solv/vendor_change_manager.cpp:720
-#, fuzzy, c++-format
-#| msgid "Missing 'value' key in file \"{}\" for table entry on line {}"
+#, c++-format
 msgid "Missing 'value' key in \"{}\" for table entry on line {}"
-msgstr "ნაკლული გასაღები 'value' ფაილში \"{}\" ცხრილში ხაზიდან {}"
+msgstr "ნაკლული გასაღები 'value' \"{}\"-ში ცხრილში ხაზიდან {}"
 
 #: solv/vendor_change_manager.cpp:727
-#, fuzzy, c++-format
-#| msgid ""
-#| "Filter \"cmdline_repo\" in file \"{}\" in table starting on line {} does "
-#| "not support comparator \"{}\". Only the default \"EXACT\" comparator is "
-#| "allowed for this filter"
+#, c++-format
 msgid ""
 "Filter \"cmdline_repo\" in \"{}\" in table starting on line {} does not "
 "support comparator \"{}\". Only the default \"EXACT\" comparator is allowed "
 "for this filter"
 msgstr ""
-"ფილტრი \"cmdline_repo\" ფაილში \"{}\" ცხრილში დაწყებული ხაზიდან {} არ აქვს "
+"ფილტრი \"cmdline_repo\" \"{}\"-ში ცხრილში დაწყებული ხაზიდან {} არ აქვს "
 "შემდარებლის \"{}\" მხარდაჭერა. ამ ფილტრისთვის დაშვებულია, მხოლოდ, "
 "ნაგულისხმევი \"EXACT\" შემდარებელი"
 
 #: solv/vendor_change_manager.cpp:744
-#, fuzzy, c++-format
-#| msgid ""
-#| "Invalid 'value' \"{}\" in file \"{}\" in table starting on line {}. Only "
-#| "\"true\", \"1\", \"false\", \"0\" are supported"
+#, c++-format
 msgid ""
 "Invalid 'value' \"{}\" in \"{}\" in table starting on line {}. Only "
 "\"true\", \"1\", \"false\", \"0\" are supported"
 msgstr ""
-"არასწორი 'value' ფაილში \"{}\" ცხრილში დაწყებული ხაზიდან {}. მხარდაჭერილია, "
+"არასწორი 'value' \"{}\"-ში ცხრილში დაწყებული ხაზიდან {}. მხარდაჭერილია, "
 "მხოლოდ, \"true\", \"1\", \"false\" და \"0\""
 
 #: solv/vendor_change_manager.cpp:754 solv/vendor_change_manager.cpp:765
-#, fuzzy, c++-format
-#| msgid ""
-#| "Filter \"{}\" in file \"{}\" in table starting on line {} does not "
-#| "support comparator \"{}\""
+#, c++-format
 msgid ""
 "Filter \"{}\" in \"{}\" in table starting on line {} does not support "
 "comparator \"{}\""
 msgstr ""
-"ფილტრს \"{}\" ფაილში \"{}\" ცხრილში დაწყებული ხაზიდან {} არ აქვს შემდარებლის "
-"\"{}\" მხარდაჭერა"
+"ფილტრს \"{}\" \"{}\"-ში ცხრილში დაწყებული ხაზიდან {} არ აქვს შემდარებლის \"{}"
+"\" მხარდაჭერა"
 
 #: solv/vendor_change_manager.cpp:781
-#, fuzzy, c++-format
-#| msgid "Invalid regex \"{}\" in file \"{}\" in table starting on line {}: {}"
+#, c++-format
 msgid "Invalid epoch value \"{}\" in \"{}\" in table starting on line {}"
-msgstr "არასწორი რეგგამოსი \"{}\" ფაილში \"{} ცხრილში დაწყებული ხაზიდან {}: {}"
+msgstr ""
+"არასწორი ეპოქის მნიშვნელობა \"{}\" \"{}\"-ში ცხრილში დაწყებული ხაზიდან {}"
 
 #: solv/vendor_change_manager.cpp:796
-#, fuzzy, c++-format
-#| msgid "Invalid regex \"{}\" in file \"{}\" in table starting on line {}: {}"
+#, c++-format
 msgid "Invalid regex \"{}\" in \"{}\" in table starting on line {}: {}"
-msgstr "არასწორი რეგგამოსი \"{}\" ფაილში \"{} ცხრილში დაწყებული ხაზიდან {}: {}"
+msgstr "არასწორი რეგგამოსი \"{}\" \"{}\"-ში ცხრილში დაწყებული ხაზიდან {}: {}"
 
 #: solv/vendor_change_manager.cpp:848
 msgid "Unexpected end of input"
-msgstr ""
+msgstr "შეყვანის მოულოდნელი დასასრული"
 
 #: solv/vendor_change_manager.cpp:865
 #, c++-format
 msgid "Expected '{}' but found end of input"
-msgstr ""
+msgstr "მოველოდი '{}'-ს, მაგრამ აღმოჩენილია შეყვანის დასასრული"
 
 #: solv/vendor_change_manager.cpp:867
 #, c++-format
 msgid "Expected '{}' but found '{}'"
-msgstr ""
+msgstr "მოველოდი '{}'-ს, მაგრამ აღმოჩენილია '{}'"
 
 #: solv/vendor_change_manager.cpp:877
 #, c++-format
 msgid "Compact vendor change policy parse error in \"{}\" at position {}"
 msgstr ""
+"კომპაქტური მომწოდებლის ცვლილების პოლიტიკის დამუშავების შეცდომა \"{}\"-ში "
+"პოზიციაზე {}"
 
 #: solv/vendor_change_manager.cpp:913
 msgid "Empty vendor policy string"
-msgstr ""
+msgstr "ცარიელი მომწოდებლის პოლიტიკის სტრიქონი"
 
 #: solv/vendor_change_manager.cpp:930
 msgid "Expected package filter after '@'"
-msgstr ""
+msgstr "მოველოდი პაკეტის ფილტრს '@'-ის შემდეგ"
 
 #: solv/vendor_change_manager.cpp:943
-#, fuzzy, c++-format
-#| msgid "Invalid repository id \"{}\": unexpected character '{}'"
+#, c++-format
 msgid "Unexpected character '{}'"
-msgstr "არასწორი რეპოზიტორიის ID \"{}\": მოულოდნელი სიმბოლო '{}'"
+msgstr "მოულოდნელი სიმბოლო '{}'"
 
 #: solv/vendor_change_manager.cpp:947
 msgid "Empty policy: no vendor definitions or package filters specified"
 msgstr ""
+"ცარიელი პოლიტიკა: მომწოდებლის აღწერები, ან პაკეტის ფილტრები მითითებული არაა"
 
 #: solv/vendor_change_manager.cpp:1023
 msgid "Expected quoted string starting with '\"'"
-msgstr ""
+msgstr "მოველოდი ციტირებულ სტრიქონს, რომელიც იწყება სიმბოლოთი '\"'"
 
 #: solv/vendor_change_manager.cpp:1031
 msgid "Unterminated escape sequence"
-msgstr ""
+msgstr "დაუსრულებელი სპეციალური სიმბოლოების მიმდევრობა"
 
 #: solv/vendor_change_manager.cpp:1037
 #, c++-format
 msgid "Invalid escape sequence '\\{}'. Only '\\\"' and '\\\\' are supported"
 msgstr ""
+"არასწორი სპეციალური სიმბოლოების მიმდევრობა '\\{}'. მხარდაჭერილია, მხოლოდ, '\\"
+"\"' და '\\\\'"
 
 #: solv/vendor_change_manager.cpp:1044
 msgid "Unterminated quoted string"
-msgstr ""
+msgstr "დაუსრულებელი ციტირებული სტრიქონი"
 
 #: solv/vendor_change_manager.cpp:1079
 msgid "Expected direction prefix 'in', 'out', or 'eq'"
-msgstr ""
+msgstr "მოველოდი მიმართულების პრეფიქსს 'in', 'out', ან 'eq'"
 
 #: solv/vendor_change_manager.cpp:1143
 msgid ""
 "Expected comparison operator: relational (<, <=, >, >=) or string (=, ^, $, "
 "*, =*, =~; optionally prefixed with ! and/or i"
 msgstr ""
+"მოველოდი შედარების ოპერატორს: რაციონალურს (<, <=, >, >=), ან სტრიქონს (=, ^, "
+"$, *, =*, =~; სურვილისამებრ პრეფიქსით ! ან/და i"
 
 #: solv/vendor_change_manager.cpp:1208
 msgid ""
 "Vendor definition does not support relational comparators. Use string "
 "comparators: =, ^, $, *, =*, =~"
 msgstr ""
+"მომწოდებლის აღწერს არ აქვს რელაციური შემდარებლების მხარდაჭერა. გამოიყენეთ "
+"სტრიქონის შემდარებლები: =, ^, $, *, =*, =~"
 
 #: solv/vendor_change_manager.cpp:1216
-#, fuzzy, c++-format
-#| msgid ""
-#| "Invalid regex vendor pattern \"{}\" in file \"{}\" in table starting on "
-#| "line {}: {}"
+#, c++-format
 msgid "Invalid regex vendor pattern '{}': {}"
-msgstr ""
-"არასწორი რეგგამოსის მომწოდებლის ნიმუში \"{}\" ფაილში \"{}\" ცხრილში "
-"დაწყებული ხაზიდან {}: {}"
+msgstr "არასწორი რეგგამოსის მომწოდებლის ნიმუში \"{}\": {}"
 
 #: solv/vendor_change_manager.cpp:1234
-#, fuzzy, c++-format
-#| msgid "Unknown time unit '{}'"
+#, c++-format
 msgid "Unknown filter field name '{}'"
-msgstr "უცნობი დროის ერთეული '{}'"
+msgstr "უცნობი ფილტრის ველის სახელი '{}'"
 
 #: solv/vendor_change_manager.cpp:1244
 msgid "Expected filter field name"
-msgstr ""
+msgstr "მოველოდი ფილტრის ველის სახელს"
 
 #: solv/vendor_change_manager.cpp:1267
-#, fuzzy, c++-format
-#| msgid "Invalid enum option value \"{}\""
+#, c++-format
 msgid "Invalid epoch value \"{}\""
-msgstr "არასწორი ჩამონათვალის პარამეტრის მნიშვნელობა \"{}\""
+msgstr "არასწორი ეპოქის მნიშვნელობა \"{}\""
 
 #: solv/vendor_change_manager.cpp:1271
 msgid "Filter 'cmdline_repo' only supports the '=' (EXACT) comparator"
-msgstr ""
+msgstr "ფილტრს 'cmdline_repo', მხოლოდ, '=' (ზუსტი) შემდარებლის მხარდაჭერა აქვს"
 
 #: solv/vendor_change_manager.cpp:1274
-#, fuzzy
-#| msgid ""
-#| "Filter \"cmdline_repo\" is only allowed in the 'incoming_packages' "
-#| "section. Error in file \"{}\" in table starting on line {}"
 msgid "Filter 'cmdline_repo' is only allowed in incoming packages ('in:')"
-msgstr ""
-"ფილტრი \"cmdline_repo\", მხოლოდ, დაშვებულია სექციაში 'incoming_packages'. "
-"შეცდომა ფაილში \"{}\" ცხრილში დაწყებული ხაზიდან {}"
+msgstr "ფილტრი 'cmdline_repo', მხოლოდ, დაშვებულია შემომავალ პაკეტებში ('in:')"
 
 #: solv/vendor_change_manager.cpp:1285
 #, c++-format
@@ -1896,31 +1838,38 @@ msgid ""
 "Invalid value '{}' for 'cmdline_repo' filter. Use 'true', '1', 'false', or "
 "'0'"
 msgstr ""
+"არასწორი მნიშვნელობა '{}' ფილტრისთვის 'cmdline_repo'. გამოიყენეთ 'true', "
+"'1', 'false',ან '0'"
 
 #: solv/vendor_change_manager.cpp:1289
 #, c++-format
 msgid "Filter '{}' only supports relational comparators: =, !=, >, >=, <, <="
 msgstr ""
+"ფილტრს '{}' მხოლოდ, რელაციური სემდარებლების მხარდაჭერა აქვს: =, !=, >, >=, "
+"<, <="
 
 #: solv/vendor_change_manager.cpp:1293
 #, c++-format
 msgid "Filter '{}' only supports string comparators: =, ^, $, *, =*, =~"
 msgstr ""
+"ფილტრს '{}', მხოლოდ, სტრიქონის შემდარებლების მხარდაჭერა აქვს: =, ^, $, *, "
+"=*, =~"
 
 #: solv/vendor_change_manager.cpp:1302
-#, fuzzy, c++-format
-#| msgid "Invalid package type: {}"
+#, c++-format
 msgid "Invalid regex '{}': {}"
-msgstr "არასწორი პაკეტის ტიპი: {}"
+msgstr "არასწორი რეგგამოსი '{}': {}"
 
 #: solv/vendor_change_manager.cpp:1313
 msgid "Package filters do not support 'eq' direction. Use 'in' or 'out'"
 msgstr ""
+"პაკეტის ფილტრებს 'eq' მიმართულების მხარდაჭერა არ აქვთ. გამოიყენეთ 'in', ან "
+"'out'"
 
 #: solv/vendor_change_manager.cpp:1404 solv/vendor_change_manager.cpp:1454
 #: solv/vendor_change_manager.cpp:1465 solv/vendor_change_manager.cpp:1476
 msgid "{func}(): Policy index {idx} is out of range"
-msgstr ""
+msgstr "{func}(): პოლიტიკის ინდექსი {idx} დიაპაზონს გარეთაა"
 
 #: system/state.cpp:282 system/state.cpp:291
 #, c++-format
