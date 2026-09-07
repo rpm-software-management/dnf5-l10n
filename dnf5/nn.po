@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-02 16:43+0000\n"
-"PO-Revision-Date: 2026-09-02 16:15+0000\n"
+"PO-Revision-Date: 2026-09-08 05:18+0000\n"
 "Last-Translator: Adaline Simonian <adalinesimonian@pm.me>\n"
 "Language-Team: Norwegian Nynorsk <https://translate.fedoraproject.org/"
 "projects/dnf5/dnf5/nn/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.8.1\n"
+"X-Generator: Weblate 2026.9\n"
 
 #: cmdline_aliases.cpp:84 context.cpp:198 main.cpp:1449
 msgid ", "
@@ -631,23 +631,19 @@ msgstr "Ingen treff funne: ingen grupper finst."
 #: commands/group/group_list.cpp:144
 #, c++-format
 msgid "Groups: {0} ({1} {2}, {3} {4})"
-msgstr ""
+msgstr "Grupper: {0} ({1} {2}, {3} {4})"
 
 #: commands/group/group_list.cpp:147
-#, fuzzy
-#| msgid "Installed"
 msgid "installed"
 msgid_plural "installed"
-msgstr[0] "Installert"
-msgstr[1] "Installert"
+msgstr[0] "installert"
+msgstr[1] "installerte"
 
 #: commands/group/group_list.cpp:149
-#, fuzzy
-#| msgid "Available"
 msgid "available"
 msgid_plural "available"
-msgstr[0] "Tilgjengeleg"
-msgstr[1] "Tilgjengeleg"
+msgstr[0] "tilgjengeleg"
+msgstr[1] "tilgjengelege"
 
 #: commands/history/arguments.hpp:37
 msgid "Transaction ID"
