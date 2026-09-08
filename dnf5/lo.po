@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-02 16:43+0000\n"
-"PO-Revision-Date: 2026-05-07 16:09+0000\n"
+"PO-Revision-Date: 2026-09-08 05:18+0000\n"
 "Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
 "Language-Team: Lao <https://translate.fedoraproject.org/projects/dnf5/dnf5/"
 "lo/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.17.1\n"
+"X-Generator: Weblate 2026.9\n"
 
 #: cmdline_aliases.cpp:84 context.cpp:198 main.cpp:1449
 msgid ", "
@@ -215,10 +215,8 @@ msgstr "ສະແດງລາຍຊື່ແຈ້ງການ"
 
 #: commands/advisory/advisory_subcommand.cpp:93 commands/no_matches.cpp:74
 #: commands/repoquery/repoquery.cpp:903
-#, fuzzy
-#| msgid "No matching repositories for {}"
 msgid "No matches found: no repositories are enabled."
-msgstr "ບໍ່ມີຄັງເກັບທີ່ກົງກັນສຳລັບ {}"
+msgstr "ບໍ່ພົບຂໍ້ມູນທີ່ກົງກັນ: ບໍ່ມີຄັງເກັບຊອບແວໃດຖືກເປີດໃຊ້ງານ."
 
 #: commands/advisory/advisory_summary.cpp:44
 msgid "All"
@@ -370,6 +368,8 @@ msgid ""
 "either mark it as user-installed or change protected_packages configuration "
 "option."
 msgstr ""
+"ແພັກເກດທີ່ຖືກປ້ອງກັນທີ່ບໍ່ຈຳເປັນ: {0} (ແລະ ໂຕທີ່ມັນຕ້ອງການ) ບໍ່ສາມາດລຶບອອກໄດ້, ໃຫ້ໝາຍມັນເປັນການຕິດຕັ້ງ"
+"ໂດຍຜູ້ໃຊ້ ຫຼື ປ່ຽນຕົວເລືອກການຕັ້ງຄ່າ protected_packages."
 
 #: commands/check-upgrade/check-upgrade.cpp:47
 msgid "Check for available package upgrades"
@@ -533,12 +533,12 @@ msgstr "ຈັດການສະພາບແວດລ້ອມ comps"
 #: commands/environment/environment_info.cpp:101
 #: commands/environment/environment_list.cpp:99
 msgid "No matches found: no environments are installed."
-msgstr ""
+msgstr "ບໍ່ພົບຂໍ້ມູນທີ່ກົງກັນ: ບໍ່ມີສະພາບແວດລ້ອມໃດຖືກຕິດຕັ້ງ."
 
 #: commands/environment/environment_info.cpp:103
 #: commands/environment/environment_list.cpp:101
 msgid "No matches found: no environments are available."
-msgstr ""
+msgstr "ບໍ່ພົບຂໍ້ມູນທີ່ກົງກັນ: ບໍ່ມີສະພາບແວດລ້ອມໃດທີ່ມີໃຫ້ໃຊ້."
 
 #: commands/environment/environment_info.cpp:105
 #: commands/environment/environment_list.cpp:103
@@ -610,7 +610,7 @@ msgstr "ບໍ່ພົບຂໍ້ມູນທີ່ກົງກັບ \"{}\"."
 #: commands/group/group_list.cpp:144
 #, c++-format
 msgid "Groups: {0} ({1} {2}, {3} {4})"
-msgstr ""
+msgstr "ກຸ່ມ: {0} ({1} {2}, {3} {4})"
 
 #: commands/group/group_list.cpp:147
 #, fuzzy
@@ -628,7 +628,7 @@ msgstr[0] "ທີ່ມີໃຫ້ໃຊ້"
 
 #: commands/history/arguments.hpp:37
 msgid "Transaction ID"
-msgstr "ID ຂອງທຸລະກຳ"
+msgstr "ລະຫັດທຸລະກຳ"
 
 #: commands/history/arguments.hpp:44
 msgid "Reverse the order of transactions."
@@ -802,11 +802,11 @@ msgstr "ຈັດການໂມດູນ"
 
 #: commands/module/module_list.cpp:88
 msgid "No matches found: no module streams are enabled."
-msgstr ""
+msgstr "ບໍ່ພົບຂໍ້ມູນທີ່ກົງກັນ: ບໍ່ມີສະຕຣີມໂມດູນໃດຖືກເປີດໃຊ້."
 
 #: commands/module/module_list.cpp:90
 msgid "No matches found: no module streams are disabled."
-msgstr ""
+msgstr "ບໍ່ພົບຂໍ້ມູນທີ່ກົງກັນ: ບໍ່ມີສະຕຣີມໂມດູນໃດຖືກປິດໃຊ້."
 
 #: commands/module/module_list.cpp:92
 #, fuzzy
@@ -824,8 +824,8 @@ msgid ""
 "No repositories were loaded from the installroot. To use the configuration "
 "and repositories of the host system, pass --use-host-config."
 msgstr ""
-"ບໍ່ມີຄັງຊອບແວຖືກໂຫລດມາຈາກ installroot. ເພື່ອໃຊ້ການຕັ້ງຄ່າ ແລະ ຄັງຊອບແວຂອງລະບົບຫຼັກ, ໃຫ້ລະບຸ --"
-"use-host-config."
+"ບໍ່ມີຄັງເກັບຊອບແວໃດຖືກໂຫຼດມາຈາກ installroot. ເພື່ອນຳໃຊ້ການຕັ້ງຄ່າ ແລະ ຄັງເກັບຊອບແວຂອງລະບົບໂຮ"
+"ສ, ໃຫ້ລະບຸ --use-host-config."
 
 #: commands/no_matches.cpp:78 commands/no_matches.hpp:45
 #, fuzzy
@@ -847,7 +847,7 @@ msgstr "ເກີດຂໍ້ຜິດພາດໃນການອ່ານສະ
 #: commands/offline/offline.cpp:264
 msgid ""
 "The system has been modified since the offline transaction was prepared."
-msgstr ""
+msgstr "ລະບົບໄດ້ຖືກປ່ຽນແປງຕັ້ງແຕ່ທຸລະກຳແບບອອຟລາຍຖືກກຽມໄວ້."
 
 #: commands/offline/offline.cpp:268
 #, c++-format
@@ -855,6 +855,7 @@ msgid ""
 "The system has been modified since the offline transaction was prepared. To "
 "reschedule, run: {}"
 msgstr ""
+"ລະບົບໄດ້ຖືກປ່ຽນແປງຕັ້ງແຕ່ທຸລະກຳແບບອອຟລາຍຖືກກຽມໄວ້. ເພື່ອກຳນົດເວລາໃໝ່, ໃຫ້ລັນ: {}"
 
 #: commands/offline/offline.cpp:290
 #, c++-format
@@ -989,6 +990,7 @@ msgstr "ລະບົບຈະເລີ່ມໃໝ່ດຽວນີ້ເພື
 msgid ""
 "To reschedule, run the command above. To clean up, run `dnf5 offline clean`."
 msgstr ""
+"ເພື່ອກຳນົດເວລາໃໝ່, ໃຫ້ລັນຄຳສັ່ງຂ້າງເທິງ. ເພື່ອລຶບລ້າງ, ໃຫ້ລັນ `dnf5 offline clean`."
 
 #: commands/offline/offline.cpp:760
 msgid "An offline transaction was initiated by the following command:"
@@ -1020,6 +1022,7 @@ msgid ""
 "If searching for a file, try specifying the full path or using a wildcard "
 "prefix (\"*/\") at the beginning."
 msgstr ""
+"ຫາກກຳລັງຄົ້ນຫາໄຟລ໌, ໃຫ້ລອງລະບຸເສັ້ນທາງເຕັມ ຫຼື ໃຊ້ເຄື່ອງໝາຍ wildcard (\"*/\") ຢູ່ທາງໜ້າ."
 
 #: commands/reinstall/reinstall.cpp:40
 msgid "Reinstall software"
@@ -1034,10 +1037,12 @@ msgid ""
 "Option '--limit' must be equal or greater than 1 (to keep at least the "
 "newest installed package)."
 msgstr ""
+"ຕົວເລືອກ '--limit' ຕ້ອງເທົ່າກັບ ຫຼື ຫຼາຍກວ່າ 1 (ເພື່ອເກັບຮັກສາແພັກເກດທີ່ຕິດຕັ້ງໃໝ່ສຸດໄວ້ຢ່າງໜ້ອຍໜຶ່ງແພັກເ"
+"ກດ)."
 
 #: commands/remove/remove.cpp:237
 msgid "Option '--limit' can only be used with '--oldinstallonly'."
-msgstr ""
+msgstr "ຕົວເລືອກ '--limit' ສາມາດໃຊ້ໄດ້ກັບ '--oldinstallonly' ເທົັ້ນັ້ນ."
 
 #: commands/remove/remove.cpp:242
 #, fuzzy
@@ -1054,6 +1059,8 @@ msgid ""
 "version and was not removed. Please reboot into the latest kernel and run "
 "this command again to complete the cleanup."
 msgstr ""
+"ຄຳເຕືອນ: ເຄີເນລ (kernel) '{}' ທີ່ກຳລັງເຮັດວຽກຢູ່ບໍ່ແມ່ນເວີຊັນຫຼ້າສຸດທີ່ຕິດຕັ້ງໄວ້ ແລະ ບໍ່ໄດ້ຖືກລຶບອອກ. ກ"
+"ະລຸນາເລີ່ມລະບົບໃໝ່ເຂົ້າສູ່ເຄີເນລຫຼ້າສຸດ ແລ້ວລັນຄຳສັ່ງນີ້ອີກຄັ້ງເພື່ອເຮັດການລຶບລ້າງໃຫ້ສຳເລັດ."
 
 #: commands/replay/replay.cpp:38
 msgid "Replay a transaction that was previously stored to a directory"
@@ -1112,7 +1119,7 @@ msgstr "ຄົ້ນຫາຊອບແວທີ່ກົງກັບຂໍ້ຄ
 
 #: commands/search/search.cpp:70
 msgid "Options --name and --summary cannot be used together."
-msgstr ""
+msgstr "ຕົວເລືອກ --name ແລະ --summary ບໍ່ສາມາດໃຊ້ຮ່ວມກັນໄດ້."
 
 #: commands/search/search.cpp:74
 #, fuzzy
@@ -1226,6 +1233,7 @@ msgid ""
 "List of packages to exclude. If no version is specified, all available "
 "versions of the package will be excluded."
 msgstr ""
+"ລາຍຊື່ແພັກເກດທີ່ຈະຍົກເວັ້ນ. ຫາກບໍ່ມີການລະບຸເວີຊັນ, ທຸກເວີຊັນທີ່ມີຢູ່ຂອງແພັກເກດຈະຖືກຍົກເວັ້ນ."
 
 #: commands/versionlock/versionlock_exclude.cpp:91
 #: commands/versionlock/versionlock_exclude.cpp:103
@@ -1247,12 +1255,12 @@ msgstr "ຄຳສັ່ງສອບຖາມຂໍ້ມູນ:"
 #: context.cpp:81
 #, c++-format
 msgid "Process ID: {} (still running)"
-msgstr ""
+msgstr "ໄອດີໂປຣເຊສ (Process ID): {} (ຍັງຄົງເຮັດວຽກຢູ່)"
 
 #: context.cpp:83
 #, c++-format
 msgid "Process ID: {}"
-msgstr ""
+msgstr "ໄອດີໂປຣເຊສ (Process ID): {}"
 
 #: context.cpp:92
 #, fuzzy, c++-format
@@ -1263,7 +1271,7 @@ msgstr "setvar: {}"
 #: context.cpp:99
 #, c++-format
 msgid "Comment: {}"
-msgstr ""
+msgstr "ຄຳອະທິບາຍ: {}"
 
 #: context.cpp:103
 #, fuzzy
@@ -1355,16 +1363,18 @@ msgid ""
 "Waiting for a lock on the system repository; another process is currently "
 "accessing it. Use the \"--skip-file-locks\" option to bypass the lock."
 msgstr ""
+"ກຳລັງລໍຖ້າການລັອກຄັງເກັບຂໍ້ມູນລະບົບ; ໂປຣເຊສອື່ນກຳລັງເຂົ້າໃຊ້ງານຢູ່. ໃຊ້ຕົວເລືອກ \"--skip-file-"
+"locks\" ເພື່ອຂ້າມການລັອກ."
 
 #: context.cpp:282
 msgid ""
 "Waiting for a lock on the system repository. The following processes are "
 "currently accessing it:"
-msgstr ""
+msgstr "ກຳລັງລໍຖ້າການລັອກຄັງເກັບຂໍ້ມູນລະບົບ. ໂປຣເຊສຕໍ່ໄປນີ້ກຳລັງເຂົ້າໃຊ້ງານຢູ່:"
 
 #: context.cpp:292
 msgid "Use the \"--skip-file-locks\" option to bypass the lock."
-msgstr ""
+msgstr "ໃຊ້ຕົວເລືອກ \"--skip-file-locks\" ເພື່ອຂ້າມການລັອກ."
 
 #. If we're only loading the system repo, we can skip the message.
 #: context.cpp:300
@@ -1428,7 +1438,7 @@ msgstr "ກຳລັງເລີ່ມທຸລະກຳແບບອອຟລາ
 #: context.cpp:553
 #, c++-format
 msgid "To reschedule, run: {}"
-msgstr ""
+msgstr "ເພື່ອກຳນົດເວລາໃໝ່, ໃຫ້ລັນ: {}"
 
 #: context.cpp:916
 #, c++-format
@@ -1644,11 +1654,11 @@ msgstr "ບໍ່ຕ້ອງຈຳກັດທຸລະກຳໄວ້ສະເ
 
 #: main.cpp:343
 msgid "allow automatic package replacements from different vendors"
-msgstr ""
+msgstr "ອະນຸຍາດໃຫ້ປ່ຽນແທນແພັກເກດອັດຕະໂນມັດຈາກຜູ້ສະໜອງ (vendor) ຕ່າງກັນ"
 
 #: main.cpp:350
 msgid "do not allow automatic package replacements from different vendors"
-msgstr ""
+msgstr "ບໍ່ອະນຸຍາດໃຫ້ປ່ຽນແທນແພັກເກດອັດຕະໂນມັດຈາກຜູ້ສະໜອງ (vendor) ຕ່າງກັນ"
 
 #: main.cpp:361
 msgid ""
@@ -1767,7 +1777,7 @@ msgstr "ບັງຄັບໃຫ້ໃຊ້ສະຖາປັດຕະຍະກ
 
 #: main.cpp:698
 msgid "Skip acquiring file locks, such as the lock on the system repository"
-msgstr ""
+msgstr "ຂ້າມການຂໍສິດລັອກໄຟລ໌, ເຊັ່ນ: ການລັອກຄັງເກັບຂໍ້ມູນລະບົບ"
 
 #: main.cpp:713
 msgid "Software Management Commands:"
@@ -1993,6 +2003,8 @@ msgid ""
 "{}. Dropping all logs. To redirect the log file location use the \"logdir\" "
 "configuration option."
 msgstr ""
+"{}. ກຳລັງຖິ້ມລັອກ (log) ທັງໝົດ. ເພື່ອປ່ຽນເສັ້ນທາງໄປຫາຕຳແໜ່ງໄຟລ໌ລັອກ ໃຫ້ໃຊ້ຕົວເລືອກການຕັ້ງຄ່າ "
+"\"logdir\"."
 
 #: main.cpp:1578
 msgid ""
@@ -2007,7 +2019,7 @@ msgstr ""
 #: main.cpp:1592
 #, c++-format
 msgid "Warning: {}"
-msgstr ""
+msgstr "ຄຳເຕືອນ: {}"
 
 #: main.cpp:1605
 msgid ""
@@ -2015,6 +2027,8 @@ msgid ""
 "or immutable operating system. For more information, refer to your "
 "distribution's documentation."
 msgstr ""
+"ຂໍ້ຜິດພາດ: /usr ຖືກຕັ້ງຄ່າໃຫ້ອ່ານໄດ້ຢ່າງດຽວ. ທ່ານອາດຈະກຳລັງໃຊ້ລະບົບປະຕິບັດການແບບ image-based "
+"ຫຼື immutable. ສຳລັບຂໍ້ມູນເພີ່ມເຕີມ, ໃຫ້ເບິ່ງເອກະສານຂອງດິສທຣິບິວຊັນ (distribution) ຂອງທ່ານ."
 
 #: main.cpp:1624
 msgid ""
@@ -2022,6 +2036,8 @@ msgid ""
 "transient to perform this operation in a transient overlay which will reset "
 "when the system reboots."
 msgstr ""
+"ຂໍ້ຜິດພາດ: ບໍ່ຮອງຮັບທຸລະກຳແບບຖາວອນ (persistent transactions) ໃນລະບົບ bootc. ໃຫ້ໃຊ້ --"
+"transient ເພື່ອດຳເນີນການໃນ overlay ຊົ່ວຄາວ ເຊິ່ງຈະຖືກລ້າງອອກເມື່ອເລີ່ມລະບົບໃໝ່."
 
 #: main.cpp:1634
 #, fuzzy
@@ -2039,6 +2055,7 @@ msgstr ""
 #: main.cpp:1645
 msgid "Error: transient transactions are only supported on bootc systems."
 msgstr ""
+"ຂໍ້ຜິດພາດ: ທຸລະກຳຊົ່ວຄາວ (transient transactions) ແມ່ນຮອງຮັບສະເພາະໃນລະບົບ bootc ເທົ່ານັ້ນ."
 
 #: main.cpp:1686
 #, c++-format
@@ -2077,12 +2094,16 @@ msgid ""
 "inconsistencies when the transient overlay on /usr is discarded. See the "
 "usr_drift_protected_paths configuration option for more information."
 msgstr ""
+"ທຸລະກຳນີ້ຈະແກ້ໄຂເສັ້ນທາງຕໍ່ໄປນີ້, ເຊິ່ງອາດເຮັດໃຫ້ເກີດຄວາມບໍ່ສອດຄ່ອງກັນເມື່ອ overlay ຊົ່ວຄາວໃນ /usr ຖື"
+"ກລຶບຖິ້ມ. ເບິ່ງຕົວເລືອກການຕັ້ງຄ່າ usr_drift_protected_paths ສຳລັບຂໍ້ມູນເພີ່ມເຕີມ."
 
 #: main.cpp:1741
 msgid ""
 "Operation aborted. Pass --setopt=usr_drift_protected_paths= to disable this "
 "check and proceed anyway."
 msgstr ""
+"ຍົກເລີກການເຮັດວຽກ. ໃຫ້ໃຊ້ --setopt=usr_drift_protected_paths= ເພື່ອປິດການກວດສອບນີ້ ແລະ "
+"ດຳເນີນການຕໍ່."
 
 #: main.cpp:1750
 msgid ""
@@ -2090,6 +2111,8 @@ msgid ""
 "reboot. Keep in mind that changes to /etc and /var will still persist, and "
 "packages commonly modify these directories."
 msgstr ""
+"overlay ຊົ່ວຄາວຈະຖືກສ້າງຂຶ້ນໃນ /usr ແລະ ຈະຖືກລຶບຖິ້ມເມື່ອເລີ່ມລະບົບໃໝ່. ໃຫ້ຈື່ໄວ້ວ່າການປ່ຽນແປງໃນ /"
+"etc ແລະ /var ຈະຍັງຄົງຢູ່, ແລະ ປົກກະຕິແລ້ວແພັກເກດຈະແກ້ໄຂໄດເຣັກທໍຣີເຫຼົ່ານີ້."
 
 #: main.cpp:1787
 #, c++-format
