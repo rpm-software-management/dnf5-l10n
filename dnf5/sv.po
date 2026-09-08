@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Göran Uddeborg <goeran@uddeborg.se>, 2024, 2025.
+# Göran Uddeborg <goeran@uddeborg.se>, 2024, 2025, 2026.
 # Luna Jernberg <bittin@reimu.nl>, 2024, 2025.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024, 2025, 2026.
 # Luna Jernberg <droidbittin@gmail.com>, 2025.
@@ -11,8 +11,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-02 16:43+0000\n"
 "PO-Revision-Date: 2026-09-08 14:32+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/sv/>\n"
 "Language: sv\n"
@@ -234,10 +233,8 @@ msgstr "Lista rekommendationer"
 
 #: commands/advisory/advisory_subcommand.cpp:93 commands/no_matches.cpp:74
 #: commands/repoquery/repoquery.cpp:903
-#, fuzzy
-#| msgid "No matching repositories for {}"
 msgid "No matches found: no repositories are enabled."
-msgstr "Inga matchande förråd för {}"
+msgstr "Inga matchningar fanns: inga förråd är aktiverade."
 
 #: commands/advisory/advisory_summary.cpp:44
 msgid "All"
@@ -404,9 +401,9 @@ msgid ""
 "either mark it as user-installed or change protected_packages configuration "
 "option."
 msgstr ""
-"Onödigt skyddat paket: %s (och dess beroenden) kan inte tas bort, antingen "
-"markera det som användarinstallerat eller ändra protected_packages "
-"konfigurationsalternativet."
+"Onödigt skyddat paket: {0} (och dess beroenden) kan inte tas bort, antingen "
+"markera det som användarinstallerat eller ändra konfigurationsalternativet "
+"protected_packages."
 
 #: commands/check-upgrade/check-upgrade.cpp:47
 msgid "Check for available package upgrades"
@@ -510,17 +507,15 @@ msgstr "Åtgärd definierades inte"
 #: commands/do/do.cpp:231
 #, c++-format
 msgid "Invalid Environment/Group specification: {}"
-msgstr "Ogiltig miljö/gruppspecifikation: {}"
+msgstr "Ogiltig miljö-/gruppspecifikation: {}"
 
 #: commands/do/do.cpp:317
 msgid "Downgrading environments and groups is not supported."
 msgstr "Nedgradering av miljöer och grupper stöds inte."
 
 #: commands/do/do.cpp:332
-#, fuzzy
-#| msgid "Reinstaling environments and groups is not supported."
 msgid "Reinstalling environments and groups is not supported."
-msgstr "Ominstallation av miljöer och grupper stöds inte."
+msgstr "Ominstallation av miljöer och grupper stödjs inte."
 
 #: commands/downgrade/downgrade.cpp:40
 msgid "Downgrade software"
@@ -563,7 +558,7 @@ msgstr "Visa endast installerade miljöer."
 
 #: commands/environment/arguments.hpp:47
 msgid "Pattern matching environment identifiers."
-msgstr "Mönstermatchande miljö-IDn."
+msgstr "Mönstermatchande miljöidentifierare."
 
 #: commands/environment/environment.cpp:38
 msgid "Manage comps environments"
@@ -572,19 +567,17 @@ msgstr "Hantera comps-miljöer"
 #: commands/environment/environment_info.cpp:101
 #: commands/environment/environment_list.cpp:99
 msgid "No matches found: no environments are installed."
-msgstr ""
+msgstr "Inga matchningar fanns: inga miljöer är installerade."
 
 #: commands/environment/environment_info.cpp:103
 #: commands/environment/environment_list.cpp:101
 msgid "No matches found: no environments are available."
-msgstr ""
+msgstr "Inga matchningar fanns: inga miljöer är tillgängliga."
 
 #: commands/environment/environment_info.cpp:105
 #: commands/environment/environment_list.cpp:103
-#, fuzzy
-#| msgid "No matches found for \"{}\"."
 msgid "No matches found: no environments exist."
-msgstr "Inga matchningar hittades för \"{}\"."
+msgstr "Inga matchningar fanns: det finns inga miljöer."
 
 #: commands/group/arguments.hpp:34
 msgid "Show only available groups."
@@ -607,66 +600,48 @@ msgstr ""
 "stödjer ”glob”:ar."
 
 #: commands/group/arguments.hpp:67
-#, fuzzy
-#| msgid "Pattern matching group IDS."
 msgid "Pattern matching group identifiers."
-msgstr "Mönstermatchande grupp IDn."
+msgstr "Mönstermatchande gruppidentfierare."
 
 #: commands/group/arguments.hpp:77
-#, fuzzy
-#| msgid "Pattern matching environment IDs."
 msgid "Pattern matching group or environment identifiers."
-msgstr "Mönstermatchande miljö-IDn."
+msgstr "Mönstermatchande grupp- eller miljöidentifierare."
 
 #: commands/group/arguments.hpp:86
-#, fuzzy
-#| msgid "Include optional packages from group."
 msgid "Include optional packages from groups."
-msgstr "Inkludera valfria paket från grupp."
+msgstr "Inkludera valfria paket från grupper."
 
 #: commands/group/arguments.hpp:97
-#, fuzzy
-#| msgid "Operate on groups only, no packages are changed."
 msgid "Operate on environments and groups only, no packages are changed."
-msgstr "Operera på grupper endast, inga paket ändras."
+msgstr "Arbeta endast på miljöer och grupper, inga paket ändras."
 
 #: commands/group/group_list.cpp:114
-#, fuzzy
-#| msgid "No matches found for \"{}\"."
 msgid "No matches found: no groups are installed."
-msgstr "Inga matchningar hittades för \"{}\"."
+msgstr "Inga matchningar fanns: inga grupper är installerade."
 
 #: commands/group/group_list.cpp:116
-#, fuzzy
-#| msgid "No matches found for \"{}\"."
 msgid "No matches found: no groups are available."
-msgstr "Inga matchningar hittades för \"{}\"."
+msgstr "Inga matchningar fanns: inga grupper är tillgängliga."
 
 #: commands/group/group_list.cpp:118
-#, fuzzy
-#| msgid "No matches found for \"{}\"."
 msgid "No matches found: no groups exist."
-msgstr "Inga matchningar hittades för \"{}\"."
+msgstr "Inga matchningar fanns: det finns inga grupper."
 
 #: commands/group/group_list.cpp:144
 #, c++-format
 msgid "Groups: {0} ({1} {2}, {3} {4})"
-msgstr ""
+msgstr "Grupper: {0} ({1} {2}, {3} {4})"
 
 #: commands/group/group_list.cpp:147
-#, fuzzy
-#| msgid "Installed"
 msgid "installed"
 msgid_plural "installed"
-msgstr[0] "Installerade"
+msgstr[0] "Installerad"
 msgstr[1] "Installerade"
 
 #: commands/group/group_list.cpp:149
-#, fuzzy
-#| msgid "Available"
 msgid "available"
 msgid_plural "available"
-msgstr[0] "Tillgängliga"
+msgstr[0] "Tillgänglig"
 msgstr[1] "Tillgängliga"
 
 #: commands/history/arguments.hpp:37
@@ -754,12 +729,12 @@ msgstr ""
 "paket"
 
 #: commands/list/info.hpp:38
-#, fuzzy
-#| msgid "Lists packages depending on the packages' relation to the system"
 msgid ""
 "Lists packages depending on the packages' relation to the system with "
 "additional details"
-msgstr "Listar paket beroende på paketens förhållande till systemet"
+msgstr ""
+"Listar paket beroende på paketens förhållande till systemet med ytterligare "
+"detaljer"
 
 #: commands/list/list.cpp:49
 msgid "List of package-spec-NI to match (case insensitively)"
@@ -821,7 +796,7 @@ msgstr "Tillgängliga uppgraderingar"
 
 #: commands/list/list.cpp:252
 msgid "Obsoleting packages"
-msgstr "Fasar ut paket"
+msgstr "Utfasande paket"
 
 #: commands/list/list.cpp:257
 msgid "Autoremove packages"
@@ -861,7 +836,7 @@ msgstr "Hantera moduler"
 
 #: commands/module/module_list.cpp:88
 msgid "No matches found: no module streams are enabled."
-msgstr ""
+msgstr "Inga matchningar fanns: inga modulströmmar är aktiverade."
 
 #: commands/module/module_list.cpp:90
 msgid "No matches found: no module streams are disabled."
