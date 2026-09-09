@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Aleksey Fedorov <aleksejfedorov963@gmail.com>, 2024, 2025.
 # Igor Gorbounov <igor.gorbounov@gmail.com>, 2026.
+# Andrei Stepanov <adem4ik@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-08 12:03+0000\n"
-"PO-Revision-Date: 2026-03-31 19:58+0000\n"
-"Last-Translator: Igor Gorbounov <igor.gorbounov@gmail.com>\n"
+"PO-Revision-Date: 2026-09-10 18:18+0000\n"
+"Last-Translator: Andrei Stepanov <adem4ik@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5-cli/ru/>\n"
 "Language: ru\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 2026.9.1\n"
 
 #: argument_parser.cpp:68
 #, c++-format
@@ -263,49 +264,39 @@ msgstr "Совпадающие поля: "
 
 #: output/status.cpp:45
 msgid "Groups"
-msgstr ""
+msgstr "Группы"
 
 #: output/status.cpp:46 output/status.cpp:55 output/status.cpp:72
-#, fuzzy
-#| msgid "Installed size"
 msgid "installed"
-msgstr "Размер установки"
+msgstr "установленные"
 
 #: output/status.cpp:47 output/status.cpp:56 output/status.cpp:73
 msgid "available"
-msgstr ""
+msgstr "доступные"
 
 #: output/status.cpp:54
 msgid "Environments"
-msgstr ""
+msgstr "Окружения"
 
 #: output/status.cpp:71
-#, fuzzy
-#| msgid "Package"
 msgid "Packages"
-msgstr "Пакет"
+msgstr "Пакеты"
 
 #: output/status.cpp:74
 msgid "user-installed"
-msgstr ""
+msgstr "установленные пользователем"
 
 #: output/status.cpp:84
-#, fuzzy
-#| msgid "Installed size"
 msgid "Installed Size"
 msgstr "Размер установки"
 
 #: output/status.cpp:90
-#, fuzzy
-#| msgid "Repository"
 msgid "Enabled Repositories"
-msgstr "Репозиторий"
+msgstr "Включённые репозитории"
 
 #: output/status.cpp:101
-#, fuzzy
-#| msgid "Transaction Summary:\n"
 msgid "Last Transaction"
-msgstr "Сводка транзакции:\n"
+msgstr "Последняя транзакция"
 
 #: output/transaction_table.cpp:128
 msgid "Transaction Summary:\n"
@@ -483,10 +474,8 @@ msgid "Upgrading groups:"
 msgstr "Обновление групп:"
 
 #: output/transaction_table.cpp:630
-#, fuzzy
-#| msgid "Changing reason:"
 msgid "Changing reason of installed groups:"
-msgstr "Изменение причины:"
+msgstr "Изменение причины установленных групп:"
 
 #: output/transaction_table.cpp:657
 msgid "Installing environmental groups:"
@@ -518,15 +507,15 @@ msgstr "Переключение потоков модулей:"
 
 #: output/transaction_table.cpp:771 output/transaction_table.cpp:772
 msgid "(none)"
-msgstr ""
+msgstr "(нет)"
 
 #: output/transaction_table.cpp:778
 #, c++-format
 msgid "Skipping {0} package due to vendor change restriction: {1}."
 msgid_plural "Skipping {0} packages due to vendor change restriction: {1}."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Пропуск {0} пакета из-за ограничения смены поставщика: {1}."
+msgstr[1] "Пропуск {0} пакетов из-за ограничения смены поставщика: {1}."
+msgstr[2] "Пропуск {0} пакетов из-за ограничения смены поставщика: {1}."
 
 #: output/transaction_table.cpp:799
 msgid "Nothing to do."
@@ -535,83 +524,79 @@ msgstr "Нечего делать."
 #. The two spaces indent the table the same way as child lines in KeyValueTable
 #: output/transactioninfo.cpp:73
 msgid "Action"
-msgstr ""
+msgstr "Действие"
 
 #: output/transactioninfo.cpp:75
 msgid "Reason"
-msgstr ""
+msgstr "Причина"
 
 #: output/transactioninfo.cpp:98
-#, fuzzy
-#| msgid "Transaction Summary:\n"
 msgid "Transaction ID"
-msgstr "Сводка транзакции:\n"
+msgstr "Идентификатор транзакции"
 
 #: output/transactioninfo.cpp:99
 msgid "Begin time"
-msgstr ""
+msgstr "Время начала"
 
 #: output/transactioninfo.cpp:100
 msgid "Begin rpmdb"
-msgstr ""
+msgstr "Начало rpmdb"
 
 #: output/transactioninfo.cpp:101
 msgid "End time"
-msgstr ""
+msgstr "Время окончания"
 
 #: output/transactioninfo.cpp:102
 msgid "End rpmdb"
-msgstr ""
+msgstr "Конец rpmdb"
 
 #: output/transactioninfo.cpp:104
 msgid "User"
-msgstr ""
+msgstr "Пользователь"
 
 #: output/transactioninfo.cpp:105
 msgid "Status"
-msgstr ""
+msgstr "Статус"
 
 #: output/transactioninfo.cpp:106
-#, fuzzy
-#| msgid "Release"
 msgid "Releasever"
-msgstr "Выпуск"
+msgstr "Версия релиза"
 
 #: output/transactioninfo.cpp:108
 msgid "Comment"
-msgstr ""
+msgstr "Комментарий"
 
 #: output/transactioninfo.cpp:111
 msgid "Packages altered:"
-msgstr ""
+msgstr "Изменено пакетов:"
 
 #: output/transactioninfo.cpp:112
 msgid "Groups altered:"
-msgstr ""
+msgstr "Изменено групп:"
 
 #: output/transactioninfo.cpp:113
 msgid "Environments altered:"
-msgstr ""
+msgstr "Изменено сред:"
 
 #: output/transactionlist.cpp:53
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: output/transactionlist.cpp:54
 msgid "Command line"
-msgstr ""
+msgstr "Командная строка"
 
 #: output/transactionlist.cpp:55
 msgid "Date and time"
-msgstr ""
+msgstr "Дата и время"
 
 #: output/transactionlist.cpp:56
 msgid "Action(s)"
-msgstr ""
+msgstr "Действие(я)"
 
 #: output/transactionlist.cpp:57
 msgid "Altered"
-msgstr ""
+msgstr "Изменено"
 
 #. namespace
 #: progressbar/multi_progress_bar.cpp:85
@@ -627,19 +612,20 @@ msgstr "Отсутствует команда"
 msgid ""
 "Invalid date passed: \"{}\". Dates in \"YYYY-MM-DD\" format are expected"
 msgstr ""
+"Передана недопустимая дата: \"{}\". Ожидаются даты в формате \"ГГГГ-ММ-ДД\""
 
 #: session.cpp:270
 #, c++-format
 msgid "\"{}\" date cannot be represented by time_t type on this platform"
-msgstr ""
+msgstr "Дата \"{}\" не может быть представлена типом time_t на этой платформе"
 
 #: utils/userconfirm.cpp:46
 msgid "Is this ok [Y/n]: "
-msgstr ""
+msgstr "Всё верно? [Д/н]: "
 
 #: utils/userconfirm.cpp:49
 msgid "Is this ok [y/N]: "
-msgstr ""
+msgstr "Всё верно? [д/Н]: "
 
 #~ msgid "No matches found."
 #~ msgstr "Совпадений не найдено."
