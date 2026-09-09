@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-02 16:43+0000\n"
-"PO-Revision-Date: 2026-09-08 05:18+0000\n"
+"PO-Revision-Date: 2026-09-09 07:34+0000\n"
 "Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
 "Language-Team: Lao <https://translate.fedoraproject.org/projects/dnf5/dnf5/"
 "lo/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.9\n"
+"X-Generator: Weblate 2026.9.1\n"
 
 #: cmdline_aliases.cpp:84 context.cpp:198 main.cpp:1449
 msgid ", "
@@ -383,8 +383,8 @@ msgid ""
 "advisories matching selected advisory properties"
 msgstr ""
 "ລາຍງານເວີຊັນຕໍ່າສຸດຂອງແພັກເກດທີ່ແກ້ໄຂແຈ້ງການປະເພດ bugfix, enhancement, security, ຫຼື "
-"newpackage. ໃນກໍລະນີທີ່ມີການໃຊ້ຕົວເລືອກຈຳກັດແຈ້ງການ, "
-"ມັນຈະລາຍງານເວີຊັນຕໍ່າສຸດທີ່ກົງກັບຄຸນສົມບັດທີ່ເລືອກ."
+"newpackage. ໃນກໍລະນີທີ່ມີການໃຊ້ທາງເລືອກຈຳກັດແຈ້ງການ ມັນຈະລາຍງານເວີຊັນຕໍ່າສຸດຂອງແພັກເກດທີ່ແກ້ໄຂແຈ້"
+"ງການເຊິ່ງກົງກັບຄຸນສົມບັດແຈ້ງການທີ່ເລືອກໄວ້"
 
 #: commands/check/check.cpp:247
 msgid "Check for problems in the packagedb"
@@ -468,20 +468,17 @@ msgid "Action was not defined"
 msgstr "ບໍ່ໄດ້ກຳນົດການດຳເນີນການ"
 
 #: commands/do/do.cpp:231
-#, fuzzy, c++-format
-#| msgid "Invalid Environmet/Group specification: {}"
+#, c++-format
 msgid "Invalid Environment/Group specification: {}"
-msgstr "ການລະບຸສະພາບແວດລ້ອມ (Environment)/ກຸ່ມ ບໍ່ຖືກຕ້ອງ: {}"
+msgstr "ການລະບຸສະພາບແວດລ້ອມ/ກຸ່ມບໍ່ຖືກຕ້ອງ: {}"
 
 #: commands/do/do.cpp:317
 msgid "Downgrading environments and groups is not supported."
 msgstr "ບໍ່ຮອງຮັບການດາວເກຣດສະພາບແວດລ້ອມ ແລະ ກຸ່ມ."
 
 #: commands/do/do.cpp:332
-#, fuzzy
-#| msgid "Reinstaling environments and groups is not supported."
 msgid "Reinstalling environments and groups is not supported."
-msgstr "ບໍ່ຮອງຮັບການຕິດຕັ້ງສະພາບແວດລ້ອມ ແລະ ກຸ່ມ ໃໝ່ຄືນ."
+msgstr "ບໍ່ຮອງຮັບການຕິດຕັ້ງສະພາບແວດລ້ອມແລະກຸ່ມຄືນໃໝ່."
 
 #: commands/downgrade/downgrade.cpp:40
 msgid "Downgrade software"
@@ -521,10 +518,8 @@ msgid "Show only installed environments."
 msgstr "ສະແດງສະເພາະສະພາບແວດລ້ອມທີ່ຕິດຕັ້ງແລ້ວ."
 
 #: commands/environment/arguments.hpp:47
-#, fuzzy
-#| msgid "Pattern matching environment IDs."
 msgid "Pattern matching environment identifiers."
-msgstr "ຮູບແບບ (pattern) ທີ່ກົງກັບ ID ຂອງສະພາບແວດລ້ອມ."
+msgstr "ຮູບແບບການຈັບຄູ່ຕົວລະບຸສະພາບແວດລ້ອມ."
 
 #: commands/environment/environment.cpp:38
 msgid "Manage comps environments"
@@ -542,10 +537,8 @@ msgstr "ບໍ່ພົບຂໍ້ມູນທີ່ກົງກັນ: ບໍ�
 
 #: commands/environment/environment_info.cpp:105
 #: commands/environment/environment_list.cpp:103
-#, fuzzy
-#| msgid "No matches found for \"{}\"."
 msgid "No matches found: no environments exist."
-msgstr "ບໍ່ພົບຂໍ້ມູນທີ່ກົງກັບ \"{}\"."
+msgstr "ບໍ່ພົບລາຍການທີ່ກົງກັນ: ບໍ່ມີສະພາບແວດລ້ອມຢູ່."
 
 #: commands/group/arguments.hpp:34
 msgid "Show only available groups."
@@ -566,46 +559,33 @@ msgid ""
 msgstr "ສະແດງສະເພາະກຸ່ມທີ່ມີແພັກເກດຕາມຊື່ທີ່ລະບຸ. ເປັນຕົວເລືອກແບບລາຍຊື່, ຮອງຮັບ globs."
 
 #: commands/group/arguments.hpp:67
-#, fuzzy
-#| msgid "Pattern matching group IDS."
 msgid "Pattern matching group identifiers."
-msgstr "ຮູບແບບທີ່ກົງກັບ ID ຂອງກຸ່ມ."
+msgstr "ຮູບແບບການຈັບຄູ່ຕົວລະບຸກຸ່ມ."
 
 #: commands/group/arguments.hpp:77
-#, fuzzy
-#| msgid "Pattern matching environment IDs."
 msgid "Pattern matching group or environment identifiers."
-msgstr "ຮູບແບບ (pattern) ທີ່ກົງກັບ ID ຂອງສະພາບແວດລ້ອມ."
+msgstr "ຮູບແບບການຈັບຄູ່ຕົວລະບຸກຸ່ມ ຫຼື ສະພາບແວດລ້ອມ."
 
 #: commands/group/arguments.hpp:86
-#, fuzzy
-#| msgid "Include optional packages from group."
 msgid "Include optional packages from groups."
-msgstr "ລວມແພັກເກດເສີມຈາກກຸ່ມ."
+msgstr "ລວມແພັກເກດທາງເລືອກຈາກກຸ່ມນຳ."
 
 #: commands/group/arguments.hpp:97
-#, fuzzy
-#| msgid "Operate on groups only, no packages are changed."
 msgid "Operate on environments and groups only, no packages are changed."
-msgstr "ດຳເນີນການກັບກຸ່ມເທົ່ານັ້ນ, ບໍ່ມີແພັກເກດໃດຖືກປ່ຽນແປງ."
+msgstr ""
+"ປະຕິບັດງານສະເພາະກັບສະພາບແວດລ້ອມແລະກຸ່ມເທົ່ານັ້ນ, ບໍ່ມີການປ່ຽນແປງແພັກເກດໃດໆ."
 
 #: commands/group/group_list.cpp:114
-#, fuzzy
-#| msgid "No matches found for \"{}\"."
 msgid "No matches found: no groups are installed."
-msgstr "ບໍ່ພົບຂໍ້ມູນທີ່ກົງກັບ \"{}\"."
+msgstr "ບໍ່ພົບລາຍການທີ່ກົງກັນ: ບໍ່ມີກຸ່ມທີ່ຖືກຕິດຕັ້ງໄວ້."
 
 #: commands/group/group_list.cpp:116
-#, fuzzy
-#| msgid "No matches found for \"{}\"."
 msgid "No matches found: no groups are available."
-msgstr "ບໍ່ພົບຂໍ້ມູນທີ່ກົງກັບ \"{}\"."
+msgstr "ບໍ່ພົບລາຍການທີ່ກົງກັນ: ບໍ່ມີກຸ່ມທີ່ມີຢູ່."
 
 #: commands/group/group_list.cpp:118
-#, fuzzy
-#| msgid "No matches found for \"{}\"."
 msgid "No matches found: no groups exist."
-msgstr "ບໍ່ພົບຂໍ້ມູນທີ່ກົງກັບ \"{}\"."
+msgstr "ບໍ່ພົບລາຍການທີ່ກົງກັນ: ບໍ່ມີກຸ່ມຢູ່."
 
 #: commands/group/group_list.cpp:144
 #, c++-format
@@ -613,18 +593,14 @@ msgid "Groups: {0} ({1} {2}, {3} {4})"
 msgstr "ກຸ່ມ: {0} ({1} {2}, {3} {4})"
 
 #: commands/group/group_list.cpp:147
-#, fuzzy
-#| msgid "Installed"
 msgid "installed"
 msgid_plural "installed"
 msgstr[0] "ຕິດຕັ້ງແລ້ວ"
 
 #: commands/group/group_list.cpp:149
-#, fuzzy
-#| msgid "Available"
 msgid "available"
 msgid_plural "available"
-msgstr[0] "ທີ່ມີໃຫ້ໃຊ້"
+msgstr[0] "ມີໃຫ້ໃຊ້"
 
 #: commands/history/arguments.hpp:37
 msgid "Transaction ID"
@@ -701,12 +677,11 @@ msgid ""
 msgstr "ສະແດງກຸ່ມຂອງແພັກເກດທີ່ຕິດຕັ້ງແລ້ວ ເຊິ່ງແພັກເກດອື່ນບໍ່ຈຳເປັນຕ້ອງໃຊ້"
 
 #: commands/list/info.hpp:38
-#, fuzzy
-#| msgid "Lists packages depending on the packages' relation to the system"
 msgid ""
 "Lists packages depending on the packages' relation to the system with "
 "additional details"
-msgstr "ສະແດງລາຍຊື່ແພັກເກດໂດຍອີງຕາມຄວາມກ່ຽວພັນຂອງແພັກເກດກັບລະບົບ"
+msgstr ""
+"ສະແດງລາຍການແພັກເກດໂດຍອີງຕາມຄວາມສຳພັນຂອງແພັກເກດກັບລະບົບ ພ້ອມລາຍລະອຽດເພີ່ມເຕີມ"
 
 #: commands/list/list.cpp:49
 msgid "List of package-spec-NI to match (case insensitively)"
@@ -809,10 +784,8 @@ msgid "No matches found: no module streams are disabled."
 msgstr "ບໍ່ພົບຂໍ້ມູນທີ່ກົງກັນ: ບໍ່ມີສະຕຣີມໂມດູນໃດຖືກປິດໃຊ້."
 
 #: commands/module/module_list.cpp:92
-#, fuzzy
-#| msgid "No matches found for \"{}\"."
 msgid "No matches found: no module streams exist."
-msgstr "ບໍ່ພົບຂໍ້ມູນທີ່ກົງກັບ \"{}\"."
+msgstr "ບໍ່ພົບລາຍການທີ່ກົງກັນ: ບໍ່ມີສະຕຣີມໂມດູນຢູ່."
 
 #: commands/no_matches.cpp:14
 #, c++-format
@@ -828,10 +801,8 @@ msgstr ""
 "ສ, ໃຫ້ລະບຸ --use-host-config."
 
 #: commands/no_matches.cpp:78 commands/no_matches.hpp:45
-#, fuzzy
-#| msgid "No matches found for \"{}\"."
 msgid "No matches found."
-msgstr "ບໍ່ພົບຂໍ້ມູນທີ່ກົງກັບ \"{}\"."
+msgstr "ບໍ່ພົບລາຍການທີ່ກົງກັນ."
 
 #: commands/offline/offline.cpp:217
 msgid "Manage offline transactions"
@@ -977,14 +948,12 @@ msgid "Show status of the current offline transaction"
 msgstr "ສະແດງສະຖານະຂອງທຸລະກຳແບບອອຟລາຍປັດຈຸບັນ"
 
 #: commands/offline/offline.cpp:752
-#, fuzzy
-#| msgid ""
-#| "The system will now reboot to perform the offline transaction initiated "
-#| "by the following command:"
 msgid ""
 "The system has been modified since the offline transaction was prepared. The "
 "offline transaction initiated by the following command is no longer valid:"
-msgstr "ລະບົບຈະເລີ່ມໃໝ່ດຽວນີ້ເພື່ອດຳເນີນທຸລະກຳແບບອອຟລາຍທີ່ເລີ່ມໂດຍຄຳສັ່ງ:"
+msgstr ""
+"ລະບົບໄດ້ຖືກດັດແປງນັບຕັ້ງແຕ່ການເຮັດທຸລະກຳອອບລາຍໄດ້ຖືກກຽມໄວ້. ການເຮັດທຸລະກຳອອບລາຍທີ່ເລີ່ມຕົ້ນໂດຍຄຳສັ່ງ"
+"ຕໍ່ໄປນີ້ບໍ່ສາມາດໃຊ້ງານໄດ້ອີກຕໍ່ໄປ:"
 
 #: commands/offline/offline.cpp:756
 msgid ""
@@ -1022,7 +991,7 @@ msgid ""
 "If searching for a file, try specifying the full path or using a wildcard "
 "prefix (\"*/\") at the beginning."
 msgstr ""
-"ຫາກກຳລັງຄົ້ນຫາໄຟລ໌, ໃຫ້ລອງລະບຸເສັ້ນທາງເຕັມ ຫຼື ໃຊ້ເຄື່ອງໝາຍ wildcard (\"*/\") ຢູ່ທາງໜ້າ."
+"ຖ້າຫາກກຳລັງຊອກຫາໄຟລ໌, ໃຫ້ລອງລະບຸເສັ້ນທາງເຕັມ ຫຼື ໃຊ້ຕົວແທນໄວລ໌ກາດ (\"*/\") ຢູ່ທາງໜ້າ."
 
 #: commands/reinstall/reinstall.cpp:40
 msgid "Reinstall software"
@@ -1045,12 +1014,11 @@ msgid "Option '--limit' can only be used with '--oldinstallonly'."
 msgstr "ຕົວເລືອກ '--limit' ສາມາດໃຊ້ໄດ້ກັບ '--oldinstallonly' ເທົັ້ນັ້ນ."
 
 #: commands/remove/remove.cpp:242
-#, fuzzy
-#| msgid "{}. Add \"--help\" for more information about the arguments."
 msgid ""
 "Missing positional arguments for \"remove\" command. Add \"--help\" for more "
 "information about the arguments."
-msgstr "{}. ໃຊ້ \"--help\" ເພື່ອເບິ່ງຂໍ້ມູນເພີ່ມເຕີມກ່ຽວກັບອາຄິວເມນ."
+msgstr ""
+"ຂາດອາກິວເມັນຕຳແໜ່ງສຳລັບຄຳສັ່ງ \"remove\". ເພີ່ມ \"--help\" ເພື່ອຂໍຂໍ້ມູນເພີ່ມເຕີມກ່ຽວກັບອາກິວເມັນ."
 
 #: commands/remove/remove.cpp:269
 #, c++-format
@@ -1122,10 +1090,8 @@ msgid "Options --name and --summary cannot be used together."
 msgstr "ຕົວເລືອກ --name ແລະ --summary ບໍ່ສາມາດໃຊ້ຮ່ວມກັນໄດ້."
 
 #: commands/search/search.cpp:74
-#, fuzzy
-#| msgid "Option \"--alldeps\" should be used with \"--resolve\""
 msgid "Option --all cannot be used with --name or --summary."
-msgstr "ຕົວເລືອກ \"--alldeps\" ຄວນໃຊ້ຮ່ວມກັບ \"--resolve\""
+msgstr "ທາງເລືອກ --all ບໍ່ສາມາດໃຊ້ຮ່ວມກັບ --name ຫຼື --summary ໄດ້."
 
 #: commands/swap/swap.cpp:42
 msgid "Remove software and install another in one transaction"
@@ -1168,9 +1134,9 @@ msgid ""
 "limiting advisories is used it upgrades packages only to the lowest versions "
 "that fix advisories that matching selected advisory property"
 msgstr ""
-"ອັບເກຣດແພັກເກດສະເພາະເວີຊັນຕໍ່າສຸດທີ່ແກ້ໄຂການແຈ້ງເຕືອນປະເພດ bugfix, enhancement, "
-"security, ຫຼື newpackage. ໃນກໍລະນີທີ່ມີການໃຊ້ຕົວເລືອກໃດໜຶ່ງທີ່ຈຳກັດການແຈ້ງເຕືອນ, "
-"ມັນຈະອັບເກຣດແພັກເກດສະເພາະເວີຊັນຕໍ່າສຸດທີ່ແກ້ໄຂການແຈ້ງເຕືອນທີ່ກົງກັບຄຸນສົມບັດການແຈ້ງເຕືອນທີ່ເລືອກໄວ້."
+"ອັບເກຣດແພັກເກດສະເພາະເວີຊັນຕໍ່າສຸດທີ່ແກ້ໄຂແຈ້ງການປະເພດ bugfix, enhancement, security, ຫຼື "
+"newpackage. ໃນກໍລະນີທີ່ມີການໃຊ້ທາງເລືອກຈຳກັດແຈ້ງການ ມັນຈະອັບເກຣດແພັກເກດສະເພາະເວີຊັນຕໍ່າສຸດທີ່ແກ້ໄ"
+"ຂແຈ້ງການເຊິ່ງກົງກັບຄຸນສົມບັດແຈ້ງການທີ່ເລືອກໄວ້"
 
 #. TODO(mblaha): add full command line
 #: commands/versionlock/utils.cpp:35
@@ -1187,10 +1153,8 @@ msgid "Add new entry to versionlock configuration"
 msgstr "ເພີ່ມລາຍການໃໝ່ເຂົ້າໃນການຕັ້ງຄ່າການລັອກເວີຊັນ"
 
 #: commands/versionlock/versionlock_add.cpp:44
-#, fuzzy
-#| msgid "List of package specs to remove versionlock for"
 msgid "List of packages to lock to their current versions"
-msgstr "ລາຍຊື່ແພັກເກດທີ່ຕ້ອງການລຶບການລັອກເວີຊັນອອກ"
+msgstr "ລາຍການແພັກເກດທີ່ຈະລັອກໄວ້ທີ່ເວີຊັນປັດຈຸບັນ"
 
 #: commands/versionlock/versionlock_add.cpp:107
 #: commands/versionlock/versionlock_exclude.cpp:128
@@ -1247,10 +1211,9 @@ msgid "Package \"{}\" is already excluded."
 msgstr "ແພັກເກດ \"{}\" ຖືກຍົກເວັ້ນໄວ້ແລ້ວ."
 
 #: context.cpp:73
-#, fuzzy, c++-format
-#| msgid "Query Commands:"
+#, c++-format
 msgid "Command: {}"
-msgstr "ຄຳສັ່ງສອບຖາມຂໍ້ມູນ:"
+msgstr "ຄຳສັ່ງ: {}"
 
 #: context.cpp:81
 #, c++-format
@@ -1263,21 +1226,18 @@ msgid "Process ID: {}"
 msgstr "ໄອດີໂປຣເຊສ (Process ID): {}"
 
 #: context.cpp:92
-#, fuzzy, c++-format
-#| msgid "setvar: {}"
+#, c++-format
 msgid "Started: {}"
-msgstr "setvar: {}"
+msgstr "ເລີ່ມຕົ້ນເມື່ອ: {}"
 
 #: context.cpp:99
 #, c++-format
 msgid "Comment: {}"
-msgstr "ຄຳອະທິບາຍ: {}"
+msgstr "ຄຳເຫັນ: {}"
 
 #: context.cpp:103
-#, fuzzy
-#| msgid "Show status of the current offline transaction"
 msgid "Details about the currently running transaction:\n"
-msgstr "ສະແດງສະຖານະຂອງທຸລະກຳແບບອອຟລາຍປັດຈຸບັນ"
+msgstr "ລາຍລະອຽດກ່ຽວກັບທຸລະກຳທີ່ກຳລັງດຳເນີນຢູ່:\n"
 
 #: context.cpp:121
 #, c++-format
@@ -1296,7 +1256,7 @@ msgid ""
 " From       : {}\n"
 msgstr ""
 " Fingerprint: {}\n"
-" From       : {}\n"
+" ຈາກ       : {}\n"
 
 #: context.cpp:135
 msgid "The key was successfully imported."
@@ -1430,10 +1390,8 @@ msgid "Running transaction"
 msgstr "ກຳລັງດຳເນີນທຸລະກຳ"
 
 #: context.cpp:551
-#, fuzzy
-#| msgid "Starting offline transaction. This will take a while."
 msgid "Warning: Pending offline transaction has been invalidated."
-msgstr "ກຳລັງເລີ່ມທຸລະກຳແບບອອຟລາຍ. ອາດຈະໃຊ້ເວລາໄລຍະໜຶ່ງ."
+msgstr "ຄຳເຕືອນ: ທຸລະກຳອອບລາຍທີ່ຄ້າງຢູ່ໄດ້ຖືກຍົກເລີກຜົນແລ້ວ."
 
 #: context.cpp:553
 #, c++-format
@@ -1733,16 +1691,12 @@ msgid "override the value of $releasever in config and repo files"
 msgstr "ຂຽນທັບຄ່າ $releasever ໃນໄຟລ໌ຕັ້ງຄ່າ ແລະ ໄຟລ໌ຄັງເກັບ"
 
 #: main.cpp:557
-#, fuzzy
-#| msgid "override the value of $releasever in config and repo files"
 msgid "override the value of $releasever_major in config and repo files"
-msgstr "ຂຽນທັບຄ່າ $releasever ໃນໄຟລ໌ຕັ້ງຄ່າ ແລະ ໄຟລ໌ຄັງເກັບ"
+msgstr "ປ່ຽນຄ່າ $releasever_major ໃນໄຟລ໌ config ແລະ repo"
 
 #: main.cpp:570
-#, fuzzy
-#| msgid "override the value of $releasever in config and repo files"
 msgid "override the value of $releasever_minor in config and repo files"
-msgstr "ຂຽນທັບຄ່າ $releasever ໃນໄຟລ໌ຕັ້ງຄ່າ ແລະ ໄຟລ໌ຄັງເກັບ"
+msgstr "ປ່ຽນຄ່າ $releasever_minor ໃນໄຟລ໌ config ແລະ repo"
 
 #: main.cpp:583
 msgid ""
@@ -1761,7 +1715,7 @@ msgstr "ສະແດງຄ່າການຕັ້ງຄ່າຫຼັກອອ
 #: main.cpp:623
 msgid ""
 "Print repository configuration values to stdout. List option. Supports globs"
-msgstr "ສະແດງຄ່າການກຳນົດຄ່າຂອງຄັງເກັບໄປທີ່ stdout.ຕົວເລືອກລາຍການ. ຮອງຮັບ glob."
+msgstr "ພິມຄ່າການຕັ້ງຄ່າຣີໂພຊິທໍຣີອອກທາງ stdout. ທາງເລືອກລາຍການ. ຮອງຮັບ globs"
 
 #: main.cpp:638
 msgid "Print variable values to stdout"
@@ -1836,16 +1790,12 @@ msgid "  API version: {}.{}"
 msgstr "  API ເວີຊັນ: {}.{}"
 
 #: main.cpp:863
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "Loaded {} plugins:"
 msgid ""
 "\n"
 "Loaded libdnf5 plugins:"
 msgstr ""
 "\n"
-"ໂຫຼດ {} ປລັກອິນແລ້ວ:"
+"ປລັກອິນ libdnf5 ທີ່ໂຫຼດແລ້ວ:"
 
 #: main.cpp:910
 #, c++-format
@@ -1936,10 +1886,9 @@ msgid "{} to skip uninstallable packages"
 msgstr "{} ເພື່ອຂ້າມແພັກເກດທີ່ບໍ່ສາມາດຕິດຕັ້ງໄດ້"
 
 #: main.cpp:1229
-#, fuzzy, c++-format
-#| msgid "{} to allow extra packages in the transaction"
+#, c++-format
 msgid "{} to allow changing package vendors"
-msgstr "{} ເພື່ອອະນຸຍາດໃຫ້ມີແພັກເກດເພີ່ມເຕີມໃນທຸລະກຳ"
+msgstr "{} ເພື່ອອະນຸຍາດໃຫ້ປ່ຽນຜູ້ສະໜອງແພັກເກດ"
 
 #: main.cpp:1233
 msgid "You can try to add to command line:"
@@ -2040,22 +1989,17 @@ msgstr ""
 "transient ເພື່ອດຳເນີນການໃນ overlay ຊົ່ວຄາວ ເຊິ່ງຈະຖືກລ້າງອອກເມື່ອເລີ່ມລະບົບໃໝ່."
 
 #: main.cpp:1634
-#, fuzzy
-#| msgid ""
-#| "Error: this bootc system is configured to be read-only. For more "
-#| "information, run `bootc --help`."
 msgid ""
 "Error: this bootc system is configured to be read-only. Pass --transient to "
 "perform this operation in a transient overlay which will reset when the "
 "system reboots."
 msgstr ""
-"Error: this bootc system is configured to be read-only. For more "
-"information, run bootc --help."
+"ຂໍ້ຜິດພາດ: ລະບົບ bootc ນີ້ຖືກຕັ້ງຄ່າໃຫ້ອ່ານໄດ້ຢ່າງດຽວ. ໃຫ້ຜ່ານ --transient ເພື່ອປະຕິບັດງານນີ້ໃນ "
+"transient overlay ເຊິ່ງຈະຣີເຊັດເມື່ອລະບົບຣີບູດ."
 
 #: main.cpp:1645
 msgid "Error: transient transactions are only supported on bootc systems."
-msgstr ""
-"ຂໍ້ຜິດພາດ: ທຸລະກຳຊົ່ວຄາວ (transient transactions) ແມ່ນຮອງຮັບສະເພາະໃນລະບົບ bootc ເທົ່ານັ້ນ."
+msgstr "ຂໍ້ຜິດພາດ: ທຸລະກຳຊົ່ວຄາວຮອງຮັບສະເພາະໃນລະບົບ bootc ເທົ່ານັ້ນ."
 
 #: main.cpp:1686
 #, c++-format
@@ -2075,18 +2019,16 @@ msgstr ""
 "ການກວດສອບທຸລະກຳ."
 
 #: main.cpp:1702
-#, fuzzy
-#| msgid "Starting offline transaction. This will take a while."
 msgid "Warning: A pending offline transaction will be invalidated."
-msgstr "ກຳລັງເລີ່ມທຸລະກຳແບບອອຟລາຍ. ອາດຈະໃຊ້ເວລາໄລຍະໜຶ່ງ."
+msgstr "ຄຳເຕືອນ: ທຸລະກຳອອບລາຍທີ່ຄ້າງຢູ່ຈະຖືກຍົກເລີກຜົນ."
 
 #: main.cpp:1705
-#, fuzzy, c++-format
-#| msgid "An offline transaction was initiated by the following command:"
+#, c++-format
 msgid ""
 "Warning: A pending offline transaction initiated by the following command "
 "will be invalidated: {}"
-msgstr "ທຸລະກຳແບບອອຟລາຍຖືກເລີ່ມໂດຍຄຳສັ່ງຕໍ່ໄປນີ້:"
+msgstr ""
+"ຄຳເຕືອນ: ທຸລະກຳອອບລາຍທີ່ຄ້າງຢູ່ເຊິ່ງເລີ່ມຕົ້ນໂດຍຄຳສັ່ງຕໍ່ໄປນີ້ຈະຖືກຍົກເລີກຜົນ: {}"
 
 #: main.cpp:1730
 msgid ""
@@ -2094,8 +2036,8 @@ msgid ""
 "inconsistencies when the transient overlay on /usr is discarded. See the "
 "usr_drift_protected_paths configuration option for more information."
 msgstr ""
-"ທຸລະກຳນີ້ຈະແກ້ໄຂເສັ້ນທາງຕໍ່ໄປນີ້, ເຊິ່ງອາດເຮັດໃຫ້ເກີດຄວາມບໍ່ສອດຄ່ອງກັນເມື່ອ overlay ຊົ່ວຄາວໃນ /usr ຖື"
-"ກລຶບຖິ້ມ. ເບິ່ງຕົວເລືອກການຕັ້ງຄ່າ usr_drift_protected_paths ສຳລັບຂໍ້ມູນເພີ່ມເຕີມ."
+"ທຸລະກຳນີ້ຈະດັດແປງເສັ້ນທາງຕໍ່ໄປນີ້, ເຊິ່ງອາດເຮັດໃຫ້ເກີດຄວາມບໍ່ສອດຄ້ອງກັນເມື່ອ transient overlay ຢູ່ເທິ"
+"ງ /usr ຖືກຍົກເລີກ. ເບິ່ງທາງເລືອກການຕັ້ງຄ່າ usr_drift_protected_paths ສຳລັບຂໍ້ມູນເພີ່ມເຕີມ."
 
 #: main.cpp:1741
 msgid ""
@@ -2152,10 +2094,8 @@ msgid "REPO_ID,..."
 msgstr "ID_ຄັງເກັບ,..."
 
 #: shared_options.cpp:193
-#, fuzzy
-#| msgid "\"--from_repo\" already defined with diferent value"
 msgid "\"--from_repo\" already defined with different value"
-msgstr "\"--from_repo\" ຖືກກຳນົດໄວ້ແລ້ວດ້ວຍຄ່າທີ່ຕ່າງກັນ"
+msgstr "\"--from_repo\" ຖືກກຳນົດດ້ວຍຄ່າອື່ນໄປກ່ອນໜ້ານີ້ແລ້ວ"
 
 #: shared_options.cpp:209
 msgid ""
@@ -2164,35 +2104,25 @@ msgid ""
 msgstr "ຕອງແພັກເກດທີ່ຕິດຕັ້ງແລ້ວຕາມ ID ຂອງຄັງເກັບທີ່ພວກມັນຖືກຕິດຕັ້ງມາ."
 
 #: shared_options.cpp:220
-#, fuzzy
-#| msgid "\"--installed-from_repo\" already defined with diferent value"
 msgid "\"--installed-from_repo\" already defined with different value"
-msgstr "\"--installed-from_repo\" ຖືກກຳນົດໄວ້ແລ້ວດ້ວຍຄ່າທີ່ຕ່າງກັນ"
+msgstr "\"--installed-from_repo\" ຖືກກຳນົດດ້ວຍຄ່າອື່ນໄປກ່ອນໜ້ານີ້ແລ້ວ"
 
 #: shared_options.cpp:236
-#, fuzzy
-#| msgid ""
-#| "The following items can be selected only from the specified repositories. "
-#| "All enabled repositories will still be used to satisfy dependencies."
 msgid ""
 "The following items can be selected only from the specified vendors. The "
 "vendor is ignored or vendor change policies (if allow_vendor_change=0) will "
 "still be used for items that satisfy dependencies."
 msgstr ""
-"ລາຍການຕໍ່ໄປນີ້ສາມາດເລືອກໄດ້ຈາກຄັງເກັບທີ່ລະບຸເທົ່ານັ້ນ. "
-"ຄັງເກັບທັງໝົດທີ່ເປີດໃຊ້ຈະຍັງຄົງຖືກໃຊ້ເພື່ອຕອບສະໜອງຄວາມຕ້ອງການເບື້ອງຕົ້ນ (dependencies)."
+"ລາຍການຕໍ່ໄປນີ້ສາມາດເລືອກໄດ້ຈາກຜູ້ສະໜອງທີ່ລະບຸໄວ້ເທົ່ານັ້ນ. ຜູ້ສະໜອງຈະຖືກລະເລີຍ ຫຼື ນະໂຍບາຍການປ່ຽນຜູ້ສະ"
+"ໜອງ (ຖ້າ allow_vendor_change=0) ຈະຍັງຖືກໃຊ້ສຳລັບລາຍການທີ່ຕອບສະໜອງຄວາມຕ້ອງການເພິ່ງພາ."
 
 #: shared_options.cpp:239
-#, fuzzy
-#| msgid "CVE_ID,..."
 msgid "VENDOR,..."
-msgstr "CVE_ID,..."
+msgstr "ຜູ້ສະໜອງ,..."
 
 #: shared_options.cpp:248
-#, fuzzy
-#| msgid "\"--from_repo\" already defined with diferent value"
 msgid "\"--from_vendor\" already defined with different value"
-msgstr "\"--from_repo\" ຖືກກຳນົດໄວ້ແລ້ວດ້ວຍຄ່າທີ່ຕ່າງກັນ"
+msgstr "\"--from_vendor\" ຖືກກຳນົດດ້ວຍຄ່າອື່ນໄປກ່ອນໜ້ານີ້ແລ້ວ"
 
 #~ msgid "No matching packages to list"
 #~ msgstr "ບໍ່ມີແພັກເກດທີ່ກົງກັນເພື່ອສະແດງ"
