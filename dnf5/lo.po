@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-02 16:43+0000\n"
+"POT-Creation-Date: 2026-09-08 12:03+0000\n"
 "PO-Revision-Date: 2026-09-09 07:34+0000\n"
 "Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
 "Language-Team: Lao <https://translate.fedoraproject.org/projects/dnf5/dnf5/"
@@ -368,8 +368,8 @@ msgid ""
 "either mark it as user-installed or change protected_packages configuration "
 "option."
 msgstr ""
-"ແພັກເກດທີ່ຖືກປ້ອງກັນທີ່ບໍ່ຈຳເປັນ: {0} (ແລະ ໂຕທີ່ມັນຕ້ອງການ) ບໍ່ສາມາດລຶບອອກໄດ້, ໃຫ້ໝາຍມັນເປັນການຕິດຕັ້ງ"
-"ໂດຍຜູ້ໃຊ້ ຫຼື ປ່ຽນຕົວເລືອກການຕັ້ງຄ່າ protected_packages."
+"ແພັກເກດທີ່ຖືກປ້ອງກັນທີ່ບໍ່ຈຳເປັນ: {0} (ແລະ ໂຕທີ່ມັນຕ້ອງການ) ບໍ່ສາມາດລຶບອອກໄດ້, "
+"ໃຫ້ໝາຍມັນເປັນການຕິດຕັ້ງໂດຍຜູ້ໃຊ້ ຫຼື ປ່ຽນຕົວເລືອກການຕັ້ງຄ່າ protected_packages."
 
 #: commands/check-upgrade/check-upgrade.cpp:47
 msgid "Check for available package upgrades"
@@ -383,8 +383,8 @@ msgid ""
 "advisories matching selected advisory properties"
 msgstr ""
 "ລາຍງານເວີຊັນຕໍ່າສຸດຂອງແພັກເກດທີ່ແກ້ໄຂແຈ້ງການປະເພດ bugfix, enhancement, security, ຫຼື "
-"newpackage. ໃນກໍລະນີທີ່ມີການໃຊ້ທາງເລືອກຈຳກັດແຈ້ງການ ມັນຈະລາຍງານເວີຊັນຕໍ່າສຸດຂອງແພັກເກດທີ່ແກ້ໄຂແຈ້"
-"ງການເຊິ່ງກົງກັບຄຸນສົມບັດແຈ້ງການທີ່ເລືອກໄວ້"
+"newpackage. ໃນກໍລະນີທີ່ມີການໃຊ້ທາງເລືອກຈຳກັດແຈ້ງການ "
+"ມັນຈະລາຍງານເວີຊັນຕໍ່າສຸດຂອງແພັກເກດທີ່ແກ້ໄຂແຈ້ງການເຊິ່ງກົງກັບຄຸນສົມບັດແຈ້ງການທີ່ເລືອກໄວ້"
 
 #: commands/check/check.cpp:247
 msgid "Check for problems in the packagedb"
@@ -572,8 +572,7 @@ msgstr "ລວມແພັກເກດທາງເລືອກຈາກກຸ່
 
 #: commands/group/arguments.hpp:97
 msgid "Operate on environments and groups only, no packages are changed."
-msgstr ""
-"ປະຕິບັດງານສະເພາະກັບສະພາບແວດລ້ອມແລະກຸ່ມເທົ່ານັ້ນ, ບໍ່ມີການປ່ຽນແປງແພັກເກດໃດໆ."
+msgstr "ປະຕິບັດງານສະເພາະກັບສະພາບແວດລ້ອມແລະກຸ່ມເທົ່ານັ້ນ, ບໍ່ມີການປ່ຽນແປງແພັກເກດໃດໆ."
 
 #: commands/group/group_list.cpp:114
 msgid "No matches found: no groups are installed."
@@ -680,8 +679,7 @@ msgstr "ສະແດງກຸ່ມຂອງແພັກເກດທີ່ຕິ
 msgid ""
 "Lists packages depending on the packages' relation to the system with "
 "additional details"
-msgstr ""
-"ສະແດງລາຍການແພັກເກດໂດຍອີງຕາມຄວາມສຳພັນຂອງແພັກເກດກັບລະບົບ ພ້ອມລາຍລະອຽດເພີ່ມເຕີມ"
+msgstr "ສະແດງລາຍການແພັກເກດໂດຍອີງຕາມຄວາມສຳພັນຂອງແພັກເກດກັບລະບົບ ພ້ອມລາຍລະອຽດເພີ່ມເຕີມ"
 
 #: commands/list/list.cpp:49
 msgid "List of package-spec-NI to match (case insensitively)"
@@ -797,8 +795,8 @@ msgid ""
 "No repositories were loaded from the installroot. To use the configuration "
 "and repositories of the host system, pass --use-host-config."
 msgstr ""
-"ບໍ່ມີຄັງເກັບຊອບແວໃດຖືກໂຫຼດມາຈາກ installroot. ເພື່ອນຳໃຊ້ການຕັ້ງຄ່າ ແລະ ຄັງເກັບຊອບແວຂອງລະບົບໂຮ"
-"ສ, ໃຫ້ລະບຸ --use-host-config."
+"ບໍ່ມີຄັງເກັບຊອບແວໃດຖືກໂຫຼດມາຈາກ installroot. ເພື່ອນຳໃຊ້ການຕັ້ງຄ່າ ແລະ "
+"ຄັງເກັບຊອບແວຂອງລະບົບໂຮສ, ໃຫ້ລະບຸ --use-host-config."
 
 #: commands/no_matches.cpp:78 commands/no_matches.hpp:45
 msgid "No matches found."
@@ -825,8 +823,7 @@ msgstr "ລະບົບໄດ້ຖືກປ່ຽນແປງຕັ້ງແຕ
 msgid ""
 "The system has been modified since the offline transaction was prepared. To "
 "reschedule, run: {}"
-msgstr ""
-"ລະບົບໄດ້ຖືກປ່ຽນແປງຕັ້ງແຕ່ທຸລະກຳແບບອອຟລາຍຖືກກຽມໄວ້. ເພື່ອກຳນົດເວລາໃໝ່, ໃຫ້ລັນ: {}"
+msgstr "ລະບົບໄດ້ຖືກປ່ຽນແປງຕັ້ງແຕ່ທຸລະກຳແບບອອຟລາຍຖືກກຽມໄວ້. ເພື່ອກຳນົດເວລາໃໝ່, ໃຫ້ລັນ: {}"
 
 #: commands/offline/offline.cpp:290
 #, c++-format
@@ -952,14 +949,13 @@ msgid ""
 "The system has been modified since the offline transaction was prepared. The "
 "offline transaction initiated by the following command is no longer valid:"
 msgstr ""
-"ລະບົບໄດ້ຖືກດັດແປງນັບຕັ້ງແຕ່ການເຮັດທຸລະກຳອອບລາຍໄດ້ຖືກກຽມໄວ້. ການເຮັດທຸລະກຳອອບລາຍທີ່ເລີ່ມຕົ້ນໂດຍຄຳສັ່ງ"
-"ຕໍ່ໄປນີ້ບໍ່ສາມາດໃຊ້ງານໄດ້ອີກຕໍ່ໄປ:"
+"ລະບົບໄດ້ຖືກດັດແປງນັບຕັ້ງແຕ່ການເຮັດທຸລະກຳອອບລາຍໄດ້ຖືກກຽມໄວ້. "
+"ການເຮັດທຸລະກຳອອບລາຍທີ່ເລີ່ມຕົ້ນໂດຍຄຳສັ່ງຕໍ່ໄປນີ້ບໍ່ສາມາດໃຊ້ງານໄດ້ອີກຕໍ່ໄປ:"
 
 #: commands/offline/offline.cpp:756
 msgid ""
 "To reschedule, run the command above. To clean up, run `dnf5 offline clean`."
-msgstr ""
-"ເພື່ອກຳນົດເວລາໃໝ່, ໃຫ້ລັນຄຳສັ່ງຂ້າງເທິງ. ເພື່ອລຶບລ້າງ, ໃຫ້ລັນ `dnf5 offline clean`."
+msgstr "ເພື່ອກຳນົດເວລາໃໝ່, ໃຫ້ລັນຄຳສັ່ງຂ້າງເທິງ. ເພື່ອລຶບລ້າງ, ໃຫ້ລັນ `dnf5 offline clean`."
 
 #: commands/offline/offline.cpp:760
 msgid "An offline transaction was initiated by the following command:"
@@ -990,8 +986,7 @@ msgstr "ຄົ້ນຫາວ່າແພັກເກດໃດໃຫ້ຄ່າ
 msgid ""
 "If searching for a file, try specifying the full path or using a wildcard "
 "prefix (\"*/\") at the beginning."
-msgstr ""
-"ຖ້າຫາກກຳລັງຊອກຫາໄຟລ໌, ໃຫ້ລອງລະບຸເສັ້ນທາງເຕັມ ຫຼື ໃຊ້ຕົວແທນໄວລ໌ກາດ (\"*/\") ຢູ່ທາງໜ້າ."
+msgstr "ຖ້າຫາກກຳລັງຊອກຫາໄຟລ໌, ໃຫ້ລອງລະບຸເສັ້ນທາງເຕັມ ຫຼື ໃຊ້ຕົວແທນໄວລ໌ກາດ (\"*/\") ຢູ່ທາງໜ້າ."
 
 #: commands/reinstall/reinstall.cpp:40
 msgid "Reinstall software"
@@ -1006,8 +1001,8 @@ msgid ""
 "Option '--limit' must be equal or greater than 1 (to keep at least the "
 "newest installed package)."
 msgstr ""
-"ຕົວເລືອກ '--limit' ຕ້ອງເທົ່າກັບ ຫຼື ຫຼາຍກວ່າ 1 (ເພື່ອເກັບຮັກສາແພັກເກດທີ່ຕິດຕັ້ງໃໝ່ສຸດໄວ້ຢ່າງໜ້ອຍໜຶ່ງແພັກເ"
-"ກດ)."
+"ຕົວເລືອກ '--limit' ຕ້ອງເທົ່າກັບ ຫຼື ຫຼາຍກວ່າ 1 "
+"(ເພື່ອເກັບຮັກສາແພັກເກດທີ່ຕິດຕັ້ງໃໝ່ສຸດໄວ້ຢ່າງໜ້ອຍໜຶ່ງແພັກເກດ)."
 
 #: commands/remove/remove.cpp:237
 msgid "Option '--limit' can only be used with '--oldinstallonly'."
@@ -1027,8 +1022,8 @@ msgid ""
 "version and was not removed. Please reboot into the latest kernel and run "
 "this command again to complete the cleanup."
 msgstr ""
-"ຄຳເຕືອນ: ເຄີເນລ (kernel) '{}' ທີ່ກຳລັງເຮັດວຽກຢູ່ບໍ່ແມ່ນເວີຊັນຫຼ້າສຸດທີ່ຕິດຕັ້ງໄວ້ ແລະ ບໍ່ໄດ້ຖືກລຶບອອກ. ກ"
-"ະລຸນາເລີ່ມລະບົບໃໝ່ເຂົ້າສູ່ເຄີເນລຫຼ້າສຸດ ແລ້ວລັນຄຳສັ່ງນີ້ອີກຄັ້ງເພື່ອເຮັດການລຶບລ້າງໃຫ້ສຳເລັດ."
+"ຄຳເຕືອນ: ເຄີເນລ (kernel) '{}' ທີ່ກຳລັງເຮັດວຽກຢູ່ບໍ່ແມ່ນເວີຊັນຫຼ້າສຸດທີ່ຕິດຕັ້ງໄວ້ ແລະ ບໍ່ໄດ້ຖືກລຶບອອກ. "
+"ກະລຸນາເລີ່ມລະບົບໃໝ່ເຂົ້າສູ່ເຄີເນລຫຼ້າສຸດ ແລ້ວລັນຄຳສັ່ງນີ້ອີກຄັ້ງເພື່ອເຮັດການລຶບລ້າງໃຫ້ສຳເລັດ."
 
 #: commands/replay/replay.cpp:38
 msgid "Replay a transaction that was previously stored to a directory"
@@ -1135,8 +1130,8 @@ msgid ""
 "that fix advisories that matching selected advisory property"
 msgstr ""
 "ອັບເກຣດແພັກເກດສະເພາະເວີຊັນຕໍ່າສຸດທີ່ແກ້ໄຂແຈ້ງການປະເພດ bugfix, enhancement, security, ຫຼື "
-"newpackage. ໃນກໍລະນີທີ່ມີການໃຊ້ທາງເລືອກຈຳກັດແຈ້ງການ ມັນຈະອັບເກຣດແພັກເກດສະເພາະເວີຊັນຕໍ່າສຸດທີ່ແກ້ໄ"
-"ຂແຈ້ງການເຊິ່ງກົງກັບຄຸນສົມບັດແຈ້ງການທີ່ເລືອກໄວ້"
+"newpackage. ໃນກໍລະນີທີ່ມີການໃຊ້ທາງເລືອກຈຳກັດແຈ້ງການ "
+"ມັນຈະອັບເກຣດແພັກເກດສະເພາະເວີຊັນຕໍ່າສຸດທີ່ແກ້ໄຂແຈ້ງການເຊິ່ງກົງກັບຄຸນສົມບັດແຈ້ງການທີ່ເລືອກໄວ້"
 
 #. TODO(mblaha): add full command line
 #: commands/versionlock/utils.cpp:35
@@ -1196,8 +1191,7 @@ msgstr "ເພີ່ມລາຍການຍົກເວັ້ນໃໝ່ເຂ
 msgid ""
 "List of packages to exclude. If no version is specified, all available "
 "versions of the package will be excluded."
-msgstr ""
-"ລາຍຊື່ແພັກເກດທີ່ຈະຍົກເວັ້ນ. ຫາກບໍ່ມີການລະບຸເວີຊັນ, ທຸກເວີຊັນທີ່ມີຢູ່ຂອງແພັກເກດຈະຖືກຍົກເວັ້ນ."
+msgstr "ລາຍຊື່ແພັກເກດທີ່ຈະຍົກເວັ້ນ. ຫາກບໍ່ມີການລະບຸເວີຊັນ, ທຸກເວີຊັນທີ່ມີຢູ່ຂອງແພັກເກດຈະຖືກຍົກເວັ້ນ."
 
 #: commands/versionlock/versionlock_exclude.cpp:91
 #: commands/versionlock/versionlock_exclude.cpp:103
@@ -2027,8 +2021,7 @@ msgstr "ຄຳເຕືອນ: ທຸລະກຳອອບລາຍທີ່ຄ�
 msgid ""
 "Warning: A pending offline transaction initiated by the following command "
 "will be invalidated: {}"
-msgstr ""
-"ຄຳເຕືອນ: ທຸລະກຳອອບລາຍທີ່ຄ້າງຢູ່ເຊິ່ງເລີ່ມຕົ້ນໂດຍຄຳສັ່ງຕໍ່ໄປນີ້ຈະຖືກຍົກເລີກຜົນ: {}"
+msgstr "ຄຳເຕືອນ: ທຸລະກຳອອບລາຍທີ່ຄ້າງຢູ່ເຊິ່ງເລີ່ມຕົ້ນໂດຍຄຳສັ່ງຕໍ່ໄປນີ້ຈະຖືກຍົກເລີກຜົນ: {}"
 
 #: main.cpp:1730
 msgid ""
@@ -2036,8 +2029,8 @@ msgid ""
 "inconsistencies when the transient overlay on /usr is discarded. See the "
 "usr_drift_protected_paths configuration option for more information."
 msgstr ""
-"ທຸລະກຳນີ້ຈະດັດແປງເສັ້ນທາງຕໍ່ໄປນີ້, ເຊິ່ງອາດເຮັດໃຫ້ເກີດຄວາມບໍ່ສອດຄ້ອງກັນເມື່ອ transient overlay ຢູ່ເທິ"
-"ງ /usr ຖືກຍົກເລີກ. ເບິ່ງທາງເລືອກການຕັ້ງຄ່າ usr_drift_protected_paths ສຳລັບຂໍ້ມູນເພີ່ມເຕີມ."
+"ທຸລະກຳນີ້ຈະດັດແປງເສັ້ນທາງຕໍ່ໄປນີ້, ເຊິ່ງອາດເຮັດໃຫ້ເກີດຄວາມບໍ່ສອດຄ້ອງກັນເມື່ອ transient overlay "
+"ຢູ່ເທິງ /usr ຖືກຍົກເລີກ. ເບິ່ງທາງເລືອກການຕັ້ງຄ່າ usr_drift_protected_paths ສຳລັບຂໍ້ມູນເພີ່ມເຕີມ."
 
 #: main.cpp:1741
 msgid ""
@@ -2113,8 +2106,9 @@ msgid ""
 "vendor is ignored or vendor change policies (if allow_vendor_change=0) will "
 "still be used for items that satisfy dependencies."
 msgstr ""
-"ລາຍການຕໍ່ໄປນີ້ສາມາດເລືອກໄດ້ຈາກຜູ້ສະໜອງທີ່ລະບຸໄວ້ເທົ່ານັ້ນ. ຜູ້ສະໜອງຈະຖືກລະເລີຍ ຫຼື ນະໂຍບາຍການປ່ຽນຜູ້ສະ"
-"ໜອງ (ຖ້າ allow_vendor_change=0) ຈະຍັງຖືກໃຊ້ສຳລັບລາຍການທີ່ຕອບສະໜອງຄວາມຕ້ອງການເພິ່ງພາ."
+"ລາຍການຕໍ່ໄປນີ້ສາມາດເລືອກໄດ້ຈາກຜູ້ສະໜອງທີ່ລະບຸໄວ້ເທົ່ານັ້ນ. ຜູ້ສະໜອງຈະຖືກລະເລີຍ ຫຼື "
+"ນະໂຍບາຍການປ່ຽນຜູ້ສະໜອງ (ຖ້າ allow_vendor_change=0) "
+"ຈະຍັງຖືກໃຊ້ສຳລັບລາຍການທີ່ຕອບສະໜອງຄວາມຕ້ອງການເພິ່ງພາ."
 
 #: shared_options.cpp:239
 msgid "VENDOR,..."
