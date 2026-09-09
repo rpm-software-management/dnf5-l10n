@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-02 16:43+0000\n"
+"POT-Creation-Date: 2026-09-08 12:03+0000\n"
 "PO-Revision-Date: 2026-09-09 07:34+0000\n"
 "Last-Translator: Ciro Mota <ciro.mota@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
@@ -765,7 +765,8 @@ msgstr "Falha na importação da chave pública."
 
 #: base/transaction.cpp:993
 msgid "poll failed during scriptlets pipe processing"
-msgstr "falha na operação de poll durante o processamento de pipe de scriptlets"
+msgstr ""
+"falha na operação de poll durante o processamento de pipe de scriptlets"
 
 #: base/transaction.cpp:1016
 msgid "failed to read scriptlet output from pipe"
@@ -824,34 +825,40 @@ msgstr[1] ""
 "Aviso: ignoradas as verificações de OpenPGP para {0} pacotes dos "
 "repositórios: {1}"
 
-#: base/vendor_change_manager.cpp:129
+#: base/vendor_change_manager.cpp:145
 msgid "{func}(): Cannot remove file: {path}: {msg}"
 msgstr "{func}(): Não é possível remover o arquivo: {path}: {msg}"
 
-#: base/vendor_change_manager.cpp:135
+#: base/vendor_change_manager.cpp:151
 msgid "{func}(): File does not exist: {path}"
 msgstr "{func}(): O arquivo não existe: {path}"
 
-#: base/vendor_change_manager.cpp:218
+#: base/vendor_change_manager.cpp:240
+#, fuzzy
+#| msgid "{func}(): Cannot write to file: {path}"
+msgid "{func}(): Cannot remove existing policy file: {path}"
+msgstr "{func}(): Não é possível gravar no arquivo: {path}"
+
+#: base/vendor_change_manager.cpp:252
 msgid "{func}(): Cannot create file: {path}"
 msgstr "{func}(): Não é possível criar o arquivo: {path}"
 
-#: base/vendor_change_manager.cpp:235
+#: base/vendor_change_manager.cpp:269
 msgid "{func}(): Cannot write to file: {path}"
 msgstr "{func}(): Não é possível gravar no arquivo: {path}"
 
-#: base/vendor_change_manager.cpp:270
+#: base/vendor_change_manager.cpp:306
 msgid "{func}(): Base filename cannot be empty"
 msgstr "{func}(): O nome base do arquivo não pode estar vazio"
 
-#: base/vendor_change_manager.cpp:276
+#: base/vendor_change_manager.cpp:312
 msgid ""
 "{func}(): Base filename must not contain path components: {base_filename}"
 msgstr ""
 "{func}(): O nome de arquivo base não deve conter componentes de caminho: "
 "{base_filename}"
 
-#: base/vendor_change_manager.cpp:395
+#: base/vendor_change_manager.cpp:437
 msgid "{func}(): Path must have .conf extension: {path}"
 msgstr "{func}(): O caminho deve ter a extensão .conf: {path}"
 
@@ -892,7 +899,8 @@ msgstr ""
 #: comps/environment/environment.cpp:361
 #, c++-format
 msgid "Failed to save xml document for environment \"{}\" to file \"{}\": {}"
-msgstr "Falha ao salvar o documento xml do ambiente \"{}\" no arquivo \"{}\":{}"
+msgstr ""
+"Falha ao salvar o documento xml do ambiente \"{}\" no arquivo \"{}\":{}"
 
 #: comps/group/group.cpp:354
 #, c++-format
@@ -1725,7 +1733,7 @@ msgstr ""
 "operador de comparação \"{}\""
 
 #: solv/vendor_change_manager.cpp:781
-#, c++-format, fuzzy
+#, fuzzy, c++-format
 msgid "Invalid epoch value \"{}\" in \"{}\" in table starting on line {}"
 msgstr ""
 "Valor de época inválido \"{}\" em \"{}\" na tabela que começa na linha {}"
@@ -1854,13 +1862,14 @@ msgstr ""
 #, c++-format
 msgid "Filter '{}' only supports relational comparators: =, !=, >, >=, <, <="
 msgstr ""
-"O filtro '{}' suporta apenas operadores de comparação relacionais: =, !=, >"
-", >=, <, <="
+"O filtro '{}' suporta apenas operadores de comparação relacionais: =, !=, >, "
+">=, <, <="
 
 #: solv/vendor_change_manager.cpp:1293
 #, c++-format
 msgid "Filter '{}' only supports string comparators: =, ^, $, *, =*, =~"
-msgstr "O filtro '{}' suporta apenas comparadores de string: =, ^, $, *, =*, =~"
+msgstr ""
+"O filtro '{}' suporta apenas comparadores de string: =, ^, $, *, =*, =~"
 
 #: solv/vendor_change_manager.cpp:1302
 #, c++-format

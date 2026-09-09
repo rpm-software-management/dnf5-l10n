@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-02 16:43+0000\n"
+"POT-Creation-Date: 2026-09-08 12:03+0000\n"
 "PO-Revision-Date: 2026-09-04 11:18+0000\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -825,34 +825,40 @@ msgstr[1] ""
 msgstr[2] ""
 "Atenție: verificări OpenPGP omise pentru {0} de pachete din depozitele: {1}"
 
-#: base/vendor_change_manager.cpp:129
+#: base/vendor_change_manager.cpp:145
 msgid "{func}(): Cannot remove file: {path}: {msg}"
 msgstr "{func}(): Nu se poate elimina fișierul: {path}: {msg}"
 
-#: base/vendor_change_manager.cpp:135
+#: base/vendor_change_manager.cpp:151
 msgid "{func}(): File does not exist: {path}"
 msgstr "{func}(): Fișierul nu există: {path}"
 
-#: base/vendor_change_manager.cpp:218
+#: base/vendor_change_manager.cpp:240
+#, fuzzy
+#| msgid "{func}(): Cannot write to file: {path}"
+msgid "{func}(): Cannot remove existing policy file: {path}"
+msgstr "{func}(): Nu se poate scrie în fișierul: {path}"
+
+#: base/vendor_change_manager.cpp:252
 msgid "{func}(): Cannot create file: {path}"
 msgstr "{func}(): Nu se poate crea fișierul: {path}"
 
-#: base/vendor_change_manager.cpp:235
+#: base/vendor_change_manager.cpp:269
 msgid "{func}(): Cannot write to file: {path}"
 msgstr "{func}(): Nu se poate scrie în fișierul: {path}"
 
-#: base/vendor_change_manager.cpp:270
+#: base/vendor_change_manager.cpp:306
 msgid "{func}(): Base filename cannot be empty"
 msgstr "{func}(): Numele de bază al fișierului nu poate fi gol"
 
-#: base/vendor_change_manager.cpp:276
+#: base/vendor_change_manager.cpp:312
 msgid ""
 "{func}(): Base filename must not contain path components: {base_filename}"
 msgstr ""
 "{func}(): Numele de bază al fișierului nu trebuie să conțină componente de "
 "rută: {base_filename}"
 
-#: base/vendor_change_manager.cpp:395
+#: base/vendor_change_manager.cpp:437
 msgid "{func}(): Path must have .conf extension: {path}"
 msgstr "{func}(): Ruta trebuie să aibă extensia .conf: {path}"
 
@@ -1590,8 +1596,8 @@ msgid ""
 "'equivalent_vendors' with 'outgoing_vendors' and 'incoming_vendors'"
 msgstr ""
 "Fișierul de configurare „{}” utilizează versiunea „1.0”, care nu acceptă "
-"combinarea parametrului „equivalent_vendors” cu parametrii „outgoing_vendors"
-"” și „incoming_vendors”"
+"combinarea parametrului „equivalent_vendors” cu parametrii "
+"„outgoing_vendors” și „incoming_vendors”"
 
 #: solv/vendor_change_manager.cpp:394 solv/vendor_change_manager.cpp:432
 #: solv/vendor_change_manager.cpp:484 solv/vendor_change_manager.cpp:709
@@ -1645,8 +1651,8 @@ msgid ""
 "Invalid regex vendor pattern \"{}\" in \"{}\" in table starting on line {}: "
 "{}"
 msgstr ""
-"Modelul de expresie regulată al furnizorului „{}” nu este valid în fișierul „"
-"{}”, în tabelul care începe la linia {}: {}"
+"Modelul de expresie regulată al furnizorului „{}” nu este valid în fișierul "
+"„{}”, în tabelul care începe la linia {}: {}"
 
 #: solv/vendor_change_manager.cpp:535
 #, c++-format
@@ -1664,8 +1670,8 @@ msgid ""
 "Configuration \"{}\" uses version \"1.0\" which does not support "
 "'incoming_vendors' without 'outgoing_vendors'"
 msgstr ""
-"Fișierul de configurare „{}” utilizează versiunea „1.0”, care nu acceptă „"
-"incoming_vendors” fără „outgoing_vendors”"
+"Fișierul de configurare „{}” utilizează versiunea „1.0”, care nu acceptă "
+"„incoming_vendors” fără „outgoing_vendors”"
 
 #: solv/vendor_change_manager.cpp:561
 #, c++-format
@@ -1673,8 +1679,8 @@ msgid ""
 "Configuration \"{}\" uses version \"1.0\" which does not support "
 "'outgoing_vendors' without 'incoming_vendors'"
 msgstr ""
-"Fișierul de configurare „{}” utilizează versiunea „1.0”, care nu acceptă „"
-"outgoing_vendors” fără „incoming_vendors”"
+"Fișierul de configurare „{}” utilizează versiunea „1.0”, care nu acceptă "
+"„outgoing_vendors” fără „incoming_vendors”"
 
 #: solv/vendor_change_manager.cpp:651
 #, c++-format
@@ -1687,8 +1693,8 @@ msgid ""
 "Configuration \"{}\" uses version \"{}\" which does not support 'comparator' "
 "\"{}\""
 msgstr ""
-"Fișierul de configurare „{}” utilizează versiunea „{}”, care nu acceptă „"
-"comparatorul” „{}”"
+"Fișierul de configurare „{}” utilizează versiunea „{}”, care nu acceptă "
+"„comparatorul” „{}”"
 
 #: solv/vendor_change_manager.cpp:694
 #, c++-format
@@ -1716,8 +1722,8 @@ msgid ""
 "support comparator \"{}\". Only the default \"EXACT\" comparator is allowed "
 "for this filter"
 msgstr ""
-"Filtrul „cmdline_repo” din fișierul „{}”, în tabelul care începe la linia {}"
-", nu acceptă comparatorul „{}”. Pentru acest filtru este permis doar "
+"Filtrul „cmdline_repo” din fișierul „{}”, în tabelul care începe la linia "
+"{}, nu acceptă comparatorul „{}”. Pentru acest filtru este permis doar "
 "comparatorul implicit „EXACT”"
 
 #: solv/vendor_change_manager.cpp:744
@@ -1863,15 +1869,15 @@ msgid ""
 "Invalid value '{}' for 'cmdline_repo' filter. Use 'true', '1', 'false', or "
 "'0'"
 msgstr ""
-"Valoare nevalidă „{}” pentru filtrul „cmdline_repo”. Utilizați „true”, „1”, „"
-"false” sau „0”"
+"Valoare nevalidă „{}” pentru filtrul „cmdline_repo”. Utilizați „true”, „1”, "
+"„false” sau „0”"
 
 #: solv/vendor_change_manager.cpp:1289
 #, c++-format
 msgid "Filter '{}' only supports relational comparators: =, !=, >, >=, <, <="
 msgstr ""
-"Filtrul „{}” acceptă doar operatorii de comparație relațională: =, !=, >, >"
-"=, <, <="
+"Filtrul „{}” acceptă doar operatorii de comparație relațională: =, !=, >, "
+">=, <, <="
 
 #: solv/vendor_change_manager.cpp:1293
 #, c++-format

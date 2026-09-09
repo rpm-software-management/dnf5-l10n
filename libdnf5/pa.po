@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-02 16:43+0000\n"
+"POT-Creation-Date: 2026-09-08 12:03+0000\n"
 "PO-Revision-Date: 2026-03-17 19:58+0000\n"
 "Last-Translator: A S Alam <aalam@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Punjabi <https://translate.fedoraproject.org/projects/dnf5/"
@@ -765,36 +765,42 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: base/vendor_change_manager.cpp:129
+#: base/vendor_change_manager.cpp:145
 #, fuzzy
 #| msgid "Cannot remove package \"{}\""
 msgid "{func}(): Cannot remove file: {path}: {msg}"
 msgstr "\"{}\" ਪੈਕੇਜ ਹਟਾਇਆ ਨਹੀਂ ਜਾ ਸਕਦਾ"
 
-#: base/vendor_change_manager.cpp:135
+#: base/vendor_change_manager.cpp:151
 msgid "{func}(): File does not exist: {path}"
 msgstr ""
 
-#: base/vendor_change_manager.cpp:218
+#: base/vendor_change_manager.cpp:240
+#, fuzzy
+#| msgid "Cannot remove package \"{}\""
+msgid "{func}(): Cannot remove existing policy file: {path}"
+msgstr "\"{}\" ਪੈਕੇਜ ਹਟਾਇਆ ਨਹੀਂ ਜਾ ਸਕਦਾ"
+
+#: base/vendor_change_manager.cpp:252
 msgid "{func}(): Cannot create file: {path}"
 msgstr ""
 
-#: base/vendor_change_manager.cpp:235
+#: base/vendor_change_manager.cpp:269
 #, fuzzy
 #| msgid "Cannot remove package \"{}\""
 msgid "{func}(): Cannot write to file: {path}"
 msgstr "\"{}\" ਪੈਕੇਜ ਹਟਾਇਆ ਨਹੀਂ ਜਾ ਸਕਦਾ"
 
-#: base/vendor_change_manager.cpp:270
+#: base/vendor_change_manager.cpp:306
 msgid "{func}(): Base filename cannot be empty"
 msgstr ""
 
-#: base/vendor_change_manager.cpp:276
+#: base/vendor_change_manager.cpp:312
 msgid ""
 "{func}(): Base filename must not contain path components: {base_filename}"
 msgstr ""
 
-#: base/vendor_change_manager.cpp:395
+#: base/vendor_change_manager.cpp:437
 msgid "{func}(): Path must have .conf extension: {path}"
 msgstr ""
 

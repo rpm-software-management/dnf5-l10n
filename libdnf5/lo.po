@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-02 16:43+0000\n"
+"POT-Creation-Date: 2026-09-08 12:03+0000\n"
 "PO-Revision-Date: 2026-09-09 07:34+0000\n"
 "Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
 "Language-Team: Lao <https://translate.fedoraproject.org/projects/dnf5/"
@@ -580,8 +580,7 @@ msgstr "ການດຳເນີນການນີ້ຈະສົ່ງຜົນ
 msgid ""
 "The operation would result in broken dependencies for the following "
 "protected packages: {}"
-msgstr ""
-"ການດຳເນີນການນີ້ຈະສົ່ງຜົນໃຫ້ການຂຶ້ນຕໍ່ຂອງແພັກເກັດທີ່ຖືກປົກປ້ອງຕໍ່ໄປນີ້ເສຍຫາຍ: {}"
+msgstr "ການດຳເນີນການນີ້ຈະສົ່ງຜົນໃຫ້ການຂຶ້ນຕໍ່ຂອງແພັກເກັດທີ່ຖືກປົກປ້ອງຕໍ່ໄປນີ້ເສຍຫາຍ: {}"
 
 #: base/solver_problems.cpp:78
 #, c++-format
@@ -774,33 +773,38 @@ msgid_plural ""
 "Warning: skipped OpenPGP checks for {0} packages from repositories: {1}"
 msgstr[0] "ຄຳເຕືອນ: ຂ້າມການກວດສອບ OpenPGP ສຳລັບ {0} ແພັກເກດ ຈາກຄັງເກັບ: {1}"
 
-#: base/vendor_change_manager.cpp:129
+#: base/vendor_change_manager.cpp:145
 msgid "{func}(): Cannot remove file: {path}: {msg}"
 msgstr "{func}(): ບໍ່ສາມາດລຶບໄຟລ໌ໄດ້: {path}: {msg}"
 
-#: base/vendor_change_manager.cpp:135
+#: base/vendor_change_manager.cpp:151
 msgid "{func}(): File does not exist: {path}"
 msgstr "{func}(): ໄຟລ໌ບໍ່ມີຢູ່: {path}"
 
-#: base/vendor_change_manager.cpp:218
+#: base/vendor_change_manager.cpp:240
+#, fuzzy
+#| msgid "{func}(): Cannot write to file: {path}"
+msgid "{func}(): Cannot remove existing policy file: {path}"
+msgstr "{func}(): ບໍ່ສາມາດຂຽນໄຟລ໌ໄດ້: {path}"
+
+#: base/vendor_change_manager.cpp:252
 msgid "{func}(): Cannot create file: {path}"
 msgstr "{func}(): ບໍ່ສາມາດສ້າງໄຟລ໌ໄດ້: {path}"
 
-#: base/vendor_change_manager.cpp:235
+#: base/vendor_change_manager.cpp:269
 msgid "{func}(): Cannot write to file: {path}"
 msgstr "{func}(): ບໍ່ສາມາດຂຽນໄຟລ໌ໄດ້: {path}"
 
-#: base/vendor_change_manager.cpp:270
+#: base/vendor_change_manager.cpp:306
 msgid "{func}(): Base filename cannot be empty"
 msgstr "{func}(): ຊື່ໄຟລ໌ພື້ນຖານຫວ່າງເປົ່າບໍ່ໄດ້"
 
-#: base/vendor_change_manager.cpp:276
+#: base/vendor_change_manager.cpp:312
 msgid ""
 "{func}(): Base filename must not contain path components: {base_filename}"
-msgstr ""
-"{func}(): ຊື່ໄຟລ໌ພື້ນຖານຕ້ອງບໍ່ມີສ່ວນປະກອບຂອງເສັ້ນທາງໄຟລ໌: {base_filename}"
+msgstr "{func}(): ຊື່ໄຟລ໌ພື້ນຖານຕ້ອງບໍ່ມີສ່ວນປະກອບຂອງເສັ້ນທາງໄຟລ໌: {base_filename}"
 
-#: base/vendor_change_manager.cpp:395
+#: base/vendor_change_manager.cpp:437
 msgid "{func}(): Path must have .conf extension: {path}"
 msgstr "{func}(): ເສັ້ນທາງໄຟລ໌ຕ້ອງມີນາມສະກຸນ .conf: {path}"
 
@@ -837,8 +841,7 @@ msgstr "get_user_runtime_dir(): ບໍ່ສາມາດລະບຸ runtime dir
 #: comps/environment/environment.cpp:361
 #, c++-format
 msgid "Failed to save xml document for environment \"{}\" to file \"{}\": {}"
-msgstr ""
-"ບໍ່ສາມາດບັນທຶກເອກະສານ xml ສໍາລັບສະພາບແວດລ້ອມ \"{}\" ລົງໃນໄຟລ໌ \"{}\": {}"
+msgstr "ບໍ່ສາມາດບັນທຶກເອກະສານ xml ສໍາລັບສະພາບແວດລ້ອມ \"{}\" ລົງໃນໄຟລ໌ \"{}\": {}"
 
 #: comps/group/group.cpp:354
 #, c++-format
@@ -1396,9 +1399,9 @@ msgid ""
 "versions after an interrupted upgrade. Please remove the duplicate packages "
 "using \"dnf remove\" and retry."
 msgstr ""
-"ທຸລະກຳ rpm ຈະລຶບແພັກເກັດທີ່ບໍ່ໄດ້ວາງແຜນໄວ້ໂດຍຕົວແກ້ໄຂບັນຫາໂດຍບໍ່ຄາດຄິດ: {}. ເຫດການນີ້ມັກຈະເກີດຂຶ້ນເ"
-"ມື່ອ rpmdb ມີເວີຊັນຂອງແພັກເກັດຊ້ຳກັນຫຼັງຈາກການອັບເກຣດຖືກຂັດຈັງຫວະ. ກະລຸນາລຶບແພັກເກັດທີ່ຊ້ຳກັນອອກໂດຍໃ"
-"ຊ້ \"dnf remove\" ແລ້ວລອງໃໝ່ອີກຄັ້ງ."
+"ທຸລະກຳ rpm ຈະລຶບແພັກເກັດທີ່ບໍ່ໄດ້ວາງແຜນໄວ້ໂດຍຕົວແກ້ໄຂບັນຫາໂດຍບໍ່ຄາດຄິດ: {}. "
+"ເຫດການນີ້ມັກຈະເກີດຂຶ້ນເມື່ອ rpmdb ມີເວີຊັນຂອງແພັກເກັດຊ້ຳກັນຫຼັງຈາກການອັບເກຣດຖືກຂັດຈັງຫວະ. "
+"ກະລຸນາລຶບແພັກເກັດທີ່ຊ້ຳກັນອອກໂດຍໃຊ້ \"dnf remove\" ແລ້ວລອງໃໝ່ອີກຄັ້ງ."
 
 #: rpm/transaction.cpp:236
 msgid "Failed to order the rpm transaction."
@@ -1514,8 +1517,8 @@ msgid ""
 "Filter \"cmdline_repo\" is only allowed in the 'incoming_packages' section. "
 "Error in \"{}\" in table starting on line {}"
 msgstr ""
-"ຕົວກອງ \"cmdline_repo\" ອະນຸຍາດໃຫ້ໃຊ້ໄດ້ພຽງແຕ່ໃນພາກ 'incoming_packages' ເທົ່ານັ້ນ. ເກີດຂໍ້"
-"ຜິດພາດໃນ \"{}\" ທີ່ຕາຕະລາງເລີ່ມຕົ້ນໃນແຖວທີ {}"
+"ຕົວກອງ \"cmdline_repo\" ອະນຸຍາດໃຫ້ໃຊ້ໄດ້ພຽງແຕ່ໃນພາກ 'incoming_packages' ເທົ່ານັ້ນ. "
+"ເກີດຂໍ້ຜິດພາດໃນ \"{}\" ທີ່ຕາຕະລາງເລີ່ມຕົ້ນໃນແຖວທີ {}"
 
 #: solv/vendor_change_manager.cpp:442
 #, c++-format
@@ -1527,8 +1530,7 @@ msgstr "ຂາດນິຍາມຕົວກອງແພັກເກັດໃນ
 #, c++-format
 msgid ""
 "Unsupported comparator \"{}\" for vendor definition in \"{}\" on line {}"
-msgstr ""
-"ຕົວປຽບທຽບ \"{}\" ບໍ່ໄດ້ຮັບການຮອງຮັບສຳລັບນິຍາມຜູ້ສະໜອງໃນ \"{}\" ທີ່ແຖວທີ {}"
+msgstr "ຕົວປຽບທຽບ \"{}\" ບໍ່ໄດ້ຮັບການຮອງຮັບສຳລັບນິຍາມຜູ້ສະໜອງໃນ \"{}\" ທີ່ແຖວທີ {}"
 
 #: solv/vendor_change_manager.cpp:494
 #, c++-format
@@ -1540,8 +1542,7 @@ msgstr "ຂາດກະແຈ 'vendor' ໃນ \"{}\" ທີ່ຕາຕະລາ
 msgid ""
 "Invalid regex vendor pattern \"{}\" in \"{}\" in table starting on line {}: "
 "{}"
-msgstr ""
-"ຮູບແບບ regex ຜູ້ສະໜອງ \"{}\" ບໍ່ຖືກຕ້ອງໃນ \"{}\" ທີ່ຕາຕະລາງເລີ່ມຕົ້ນໃນແຖວທີ {}: {}"
+msgstr "ຮູບແບບ regex ຜູ້ສະໜອງ \"{}\" ບໍ່ຖືກຕ້ອງໃນ \"{}\" ທີ່ຕາຕະລາງເລີ່ມຕົ້ນໃນແຖວທີ {}: {}"
 
 #: solv/vendor_change_manager.cpp:535
 #, c++-format
@@ -1622,8 +1623,7 @@ msgstr ""
 msgid ""
 "Filter \"{}\" in \"{}\" in table starting on line {} does not support "
 "comparator \"{}\""
-msgstr ""
-"ຕົວກອງ \"{}\" ໃນ \"{}\" ທີ່ຕາຕະລາງເລີ່ມຕົ້ນໃນແຖວທີ {} ບໍ່ຮອງຮັບຕົວປຽບທຽບ \"{}\""
+msgstr "ຕົວກອງ \"{}\" ໃນ \"{}\" ທີ່ຕາຕະລາງເລີ່ມຕົ້ນໃນແຖວທີ {} ບໍ່ຮອງຮັບຕົວປຽບທຽບ \"{}\""
 
 #: solv/vendor_change_manager.cpp:781
 #, c++-format
@@ -1652,8 +1652,7 @@ msgstr "ຄາດຫວັງ '{}' ແຕ່ພົບ '{}'"
 #: solv/vendor_change_manager.cpp:877
 #, c++-format
 msgid "Compact vendor change policy parse error in \"{}\" at position {}"
-msgstr ""
-"ເກີດຂໍ້ຜິດພາດໃນການແປນະໂຍບາຍການປ່ຽນແປງຜູ້ສະໜອງແບບກະທັດຮັດໃນ \"{}\" ທີ່ຕຳແໜ່ງທີ {}"
+msgstr "ເກີດຂໍ້ຜິດພາດໃນການແປນະໂຍບາຍການປ່ຽນແປງຜູ້ສະໜອງແບບກະທັດຮັດໃນ \"{}\" ທີ່ຕຳແໜ່ງທີ {}"
 
 #: solv/vendor_change_manager.cpp:913
 msgid "Empty vendor policy string"
@@ -1733,8 +1732,7 @@ msgstr "ຕົວກອງ 'cmdline_repo' ຮອງຮັບພຽງຕົວ�
 
 #: solv/vendor_change_manager.cpp:1274
 msgid "Filter 'cmdline_repo' is only allowed in incoming packages ('in:')"
-msgstr ""
-"ຕົວກອງ 'cmdline_repo' ອະນຸຍາດໃຫ້ໃຊ້ໄດ້ພຽງແຕ່ໃນແພັກເກັດຂາເຂົ້າ ('in:') ເທົ່ານັ້ນ"
+msgstr "ຕົວກອງ 'cmdline_repo' ອະນຸຍາດໃຫ້ໃຊ້ໄດ້ພຽງແຕ່ໃນແພັກເກັດຂາເຂົ້າ ('in:') ເທົ່ານັ້ນ"
 
 #: solv/vendor_change_manager.cpp:1285
 #, c++-format
@@ -2065,8 +2063,7 @@ msgstr "ເກີດຂໍ້ຜິດພາດໃນການກວດສອບ
 #: utils/bootc.cpp:49
 #, c++-format
 msgid "Error checking bootc status: bootc command failed with exit code {}"
-msgstr ""
-"ເກີດຂໍ້ຜິດພາດໃນການກວດສອບສະຖານະ bootc: ຄຳສັ່ງ bootc ລົ້ມເຫຼວດ້ວຍລະຫັດອອກ {}"
+msgstr "ເກີດຂໍ້ຜິດພາດໃນການກວດສອບສະຖານະ bootc: ຄຳສັ່ງ bootc ລົ້ມເຫຼວດ້ວຍລະຫັດອອກ {}"
 
 #: utils/bootc.cpp:58
 msgid "Error checking bootc status: Failed to parse JSON output"
@@ -2092,8 +2089,8 @@ msgid ""
 "Error running `bootc usr-overlay --read-only`: bootc command failed with "
 "exit code {}"
 msgstr ""
-"ເກີດຂໍ້ຜິດພາດໃນການແລ່ນ `bootc usr-overlay --read-only`: ຄຳສັ່ງ bootc ລົ້ມເຫຼວດ້ວຍລະຫັດອອ"
-"ກ {}"
+"ເກີດຂໍ້ຜິດພາດໃນການແລ່ນ `bootc usr-overlay --read-only`: ຄຳສັ່ງ bootc "
+"ລົ້ມເຫຼວດ້ວຍລະຫັດອອກ {}"
 
 #: utils/bootc.cpp:136
 msgid "Failed to unshare mount namespace"

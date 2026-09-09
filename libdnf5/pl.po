@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-02 16:43+0000\n"
+"POT-Creation-Date: 2026-09-08 12:03+0000\n"
 "PO-Revision-Date: 2026-09-04 11:18+0000\n"
 "Last-Translator: Paweł Marciniak <sunwire+fas@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -833,34 +833,40 @@ msgstr[2] ""
 "Ostrzeżenie: pominięto sprawdzanie OpenPGP dla {0} pakietów z repozytoriów: "
 "{1}"
 
-#: base/vendor_change_manager.cpp:129
+#: base/vendor_change_manager.cpp:145
 msgid "{func}(): Cannot remove file: {path}: {msg}"
 msgstr "{func}(): Nie można usunąć pliku: {path}: {msg}"
 
-#: base/vendor_change_manager.cpp:135
+#: base/vendor_change_manager.cpp:151
 msgid "{func}(): File does not exist: {path}"
 msgstr "{func}(): Plik nie istnieje: {path}"
 
-#: base/vendor_change_manager.cpp:218
+#: base/vendor_change_manager.cpp:240
+#, fuzzy
+#| msgid "{func}(): Cannot write to file: {path}"
+msgid "{func}(): Cannot remove existing policy file: {path}"
+msgstr "{func}(): Nie można zapisać do pliku: {path}"
+
+#: base/vendor_change_manager.cpp:252
 msgid "{func}(): Cannot create file: {path}"
 msgstr "{func}(): Nie można utworzyć pliku: {path}"
 
-#: base/vendor_change_manager.cpp:235
+#: base/vendor_change_manager.cpp:269
 msgid "{func}(): Cannot write to file: {path}"
 msgstr "{func}(): Nie można zapisać do pliku: {path}"
 
-#: base/vendor_change_manager.cpp:270
+#: base/vendor_change_manager.cpp:306
 msgid "{func}(): Base filename cannot be empty"
 msgstr "{func}(): Nazwa pliku bazowego nie może być pusta"
 
-#: base/vendor_change_manager.cpp:276
+#: base/vendor_change_manager.cpp:312
 msgid ""
 "{func}(): Base filename must not contain path components: {base_filename}"
 msgstr ""
 "{func}(): Nazwa pliku bazowego nie może zawierać składników ścieżki: "
 "{base_filename}"
 
-#: base/vendor_change_manager.cpp:395
+#: base/vendor_change_manager.cpp:437
 msgid "{func}(): Path must have .conf extension: {path}"
 msgstr "{func}(): Ścieżka musi mieć rozszerzenie .conf: {path}"
 
@@ -1597,8 +1603,8 @@ msgid ""
 "Configuration \"{}\" uses version \"1.0\" which does not support combining "
 "'equivalent_vendors' with 'outgoing_vendors' and 'incoming_vendors'"
 msgstr ""
-"Konfiguracja „{}” używa wersji „1.0”, która nie obsługuje łączenia „"
-"equivalent_vendors” z „outgoing_vendors” i „incoming_vendors”"
+"Konfiguracja „{}” używa wersji „1.0”, która nie obsługuje łączenia "
+"„equivalent_vendors” z „outgoing_vendors” i „incoming_vendors”"
 
 #: solv/vendor_change_manager.cpp:394 solv/vendor_change_manager.cpp:432
 #: solv/vendor_change_manager.cpp:484 solv/vendor_change_manager.cpp:709
@@ -1725,8 +1731,8 @@ msgid ""
 "Invalid 'value' \"{}\" in \"{}\" in table starting on line {}. Only "
 "\"true\", \"1\", \"false\", \"0\" are supported"
 msgstr ""
-"Nieprawidłowa wartość „{}” w „{}” w tabeli rozpoczynającej się od wiersza {}"
-". Obsługiwane są tylko wartości „prawda”, „1”, „fałsz” i „0”"
+"Nieprawidłowa wartość „{}” w „{}” w tabeli rozpoczynającej się od wiersza "
+"{}. Obsługiwane są tylko wartości „prawda”, „1”, „fałsz” i „0”"
 
 #: solv/vendor_change_manager.cpp:754 solv/vendor_change_manager.cpp:765
 #, c++-format
@@ -1859,8 +1865,8 @@ msgid ""
 "Invalid value '{}' for 'cmdline_repo' filter. Use 'true', '1', 'false', or "
 "'0'"
 msgstr ""
-"Nieprawidłowa wartość „{}” dla filtra „cmdline_repo”. Użyj wartości „true”, „"
-"1”, „false” lub „0”"
+"Nieprawidłowa wartość „{}” dla filtra „cmdline_repo”. Użyj wartości „true”, "
+"„1”, „false” lub „0”"
 
 #: solv/vendor_change_manager.cpp:1289
 #, c++-format

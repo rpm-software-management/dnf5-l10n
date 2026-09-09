@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-02 16:43+0000\n"
+"POT-Creation-Date: 2026-09-08 12:03+0000\n"
 "PO-Revision-Date: 2026-09-04 11:18+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -820,34 +820,40 @@ msgstr[1] ""
 "გაფრთხილება: OpenPGP-ით შემოწმების გამოტოვება {0} პაკეტისთვის "
 "რეპოზიტორიებიდან: {1}"
 
-#: base/vendor_change_manager.cpp:129
+#: base/vendor_change_manager.cpp:145
 msgid "{func}(): Cannot remove file: {path}: {msg}"
 msgstr "{func}(): ვერ წავშალე ფაილი: {path}: {msg}"
 
-#: base/vendor_change_manager.cpp:135
+#: base/vendor_change_manager.cpp:151
 msgid "{func}(): File does not exist: {path}"
 msgstr "{func}(): ფაილი არ არსებობს: {path}"
 
-#: base/vendor_change_manager.cpp:218
+#: base/vendor_change_manager.cpp:240
+#, fuzzy
+#| msgid "{func}(): Cannot write to file: {path}"
+msgid "{func}(): Cannot remove existing policy file: {path}"
+msgstr "{func}(): ვერ ჩავწერე ფაილში: {path}"
+
+#: base/vendor_change_manager.cpp:252
 msgid "{func}(): Cannot create file: {path}"
 msgstr "{func}(): ფაილის შექმნა შეუძლებელია: {path}"
 
-#: base/vendor_change_manager.cpp:235
+#: base/vendor_change_manager.cpp:269
 msgid "{func}(): Cannot write to file: {path}"
 msgstr "{func}(): ვერ ჩავწერე ფაილში: {path}"
 
-#: base/vendor_change_manager.cpp:270
+#: base/vendor_change_manager.cpp:306
 msgid "{func}(): Base filename cannot be empty"
 msgstr "{func}(): საბაზისო ფაილის სახელი ცარიელი ვერ იქნება"
 
-#: base/vendor_change_manager.cpp:276
+#: base/vendor_change_manager.cpp:312
 msgid ""
 "{func}(): Base filename must not contain path components: {base_filename}"
 msgstr ""
 "{func}(): საბაზისო ფაილის სახელი არ შეიძლება, ბილიკის კომპონენტებს "
 "შეიცავდეს: {base_filename}"
 
-#: base/vendor_change_manager.cpp:395
+#: base/vendor_change_manager.cpp:437
 msgid "{func}(): Path must have .conf extension: {path}"
 msgstr "{func}(): ბილიკს უნდა ჰქონდეს გაფართოება .conf: {path}"
 
@@ -1669,8 +1675,8 @@ msgid ""
 "Configuration \"{}\" uses version \"{}\" which does not support 'comparator' "
 "\"{}\""
 msgstr ""
-"კონფიგურაცია \"{}\" იყენებს ვერსიას \"{}\", რომელსაც არ აქვს 'შემდარებლის' \""
-"{}\" მხარდაჭერა"
+"კონფიგურაცია \"{}\" იყენებს ვერსიას \"{}\", რომელსაც არ აქვს 'შემდარებლის' "
+"\"{}\" მხარდაჭერა"
 
 #: solv/vendor_change_manager.cpp:694
 #, c++-format
