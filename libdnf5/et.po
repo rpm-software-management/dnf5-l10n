@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-08 12:03+0000\n"
-"PO-Revision-Date: 2026-08-28 08:18+0000\n"
+"PO-Revision-Date: 2026-09-10 18:18+0000\n"
 "Last-Translator: Priit Jõerüüt "
 "<jrtkbfdr@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Estonian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.8.1\n"
+"X-Generator: Weblate 2026.9.1\n"
 
 #: advisory/advisory.cpp:81
 #, c++-format
@@ -714,11 +714,11 @@ msgstr ""
 
 #: base/transaction.cpp:993
 msgid "poll failed during scriptlets pipe processing"
-msgstr ""
+msgstr "pollimine ei õnnestunud lõigendi konveiertöötluses"
 
 #: base/transaction.cpp:1016
 msgid "failed to read scriptlet output from pipe"
-msgstr ""
+msgstr "lõigendi väljundit konveiertöötluses ei õnnestunud lugeda"
 
 #: base/transaction.cpp:1134
 #, c++-format
@@ -1174,10 +1174,9 @@ msgid "Cannot set option \"{}\" for repository \"{}\": {}"
 msgstr ""
 
 #: repo/repo_config_override.cpp:84
-#, fuzzy, c++-format
-#| msgid "cannot create temporary directory"
+#, c++-format
 msgid "Cannot create directory \"{}\": {}"
-msgstr "ajutise kausta loomine ei õnnestunud"
+msgstr "„{}“ kausta loomine ei õnnestunud: {}"
 
 #: repo/repo_config_override.cpp:136 repo/repo_config_override.cpp:143
 #, c++-format
@@ -1196,7 +1195,7 @@ msgstr ""
 
 #: repo/repo_downloader.cpp:269
 msgid "Failed to set up metadata download"
-msgstr ""
+msgstr "Metateabe allalaadimise seadistamine ei õnnestunud"
 
 #: repo/repo_downloader.cpp:323 repo/repo_downloader.cpp:373
 msgid "Failed to download metadata"
@@ -1351,7 +1350,7 @@ msgstr ""
 #: rpm/rpm_signature.cpp:64
 #, c++-format
 msgid "Failed to set rpm transaction rootDir \"{}\"."
-msgstr ""
+msgstr "rpm-i transaktsiooni väärtustamine „{}“ juurkausta ei õnnestunud."
 
 #: rpm/rpm_signature.cpp:282
 #, c++-format
@@ -1396,11 +1395,15 @@ msgstr ""
 msgid ""
 "Failed to set scriptlet output file, cannot duplicate file descriptor: {}"
 msgstr ""
+"Lõigendi väljundfaili väärtustamine ei õnnestunud, faili deskriptorist ei "
+"saa teha koopiat: {}"
 
 #: rpm/transaction.cpp:291
 #, c++-format
 msgid "Failed to set scriptlet output file, cannot open file \"{}\": {}"
 msgstr ""
+"Lõigendi väljundfaili väärtustamine ei õnnestunud, „{}“ faili avamine ei "
+"õnnestu: {}"
 
 #: rpm/transaction.cpp:312
 #, c++-format
@@ -1530,10 +1533,9 @@ msgid "Bad value type in \"{}\" on line {}: {}"
 msgstr ""
 
 #: solv/vendor_change_manager.cpp:541
-#, fuzzy, c++-format
-#| msgid "An error occurred importing key \"{}\": {}"
+#, c++-format
 msgid "An error occurred when parsing \"{}\": {}"
-msgstr "„{}“ võtme importimisel tekkis viga: {}"
+msgstr "„{}“ töötlemisel tekkis viga: {}"
 
 #: solv/vendor_change_manager.cpp:555
 #, c++-format
@@ -2032,10 +2034,8 @@ msgid "Failed to query status of bootc system: {}"
 msgstr ""
 
 #: utils/bootc.cpp:90
-#, fuzzy
-#| msgid "Failed to download files"
 msgid "Failed to stat /usr filesystem"
-msgstr "Failide allalaadimine ei õnnestunud"
+msgstr "„stat“ käsu käivitamine „/usr“ kausta jaoks ei õnnestunud"
 
 #: utils/bootc.cpp:125
 #, c++-format
@@ -2181,34 +2181,29 @@ msgid "The lock file \"{}\" is not opened"
 msgstr ""
 
 #: utils/locker.cpp:132
-#, fuzzy, c++-format
-#| msgid "Failed to close lock file \"{}\""
+#, c++-format
 msgid "Failed to truncate lock file \"{}\""
-msgstr "„{}“ lukustusfaili sulgemine ei õnnestunud"
+msgstr "„{}“ lukustusfaili kärpimine ei õnnestunud"
 
 #: utils/locker.cpp:135 utils/locker.cpp:172
-#, fuzzy, c++-format
-#| msgid "Failed to close lock file \"{}\""
+#, c++-format
 msgid "Failed to seek lock file \"{}\""
-msgstr "„{}“ lukustusfaili sulgemine ei õnnestunud"
+msgstr "„{}“ lukustusfaili otsimine ei õnnestunud"
 
 #: utils/locker.cpp:143
-#, fuzzy, c++-format
-#| msgid "Failed to delete lock file \"{}\""
+#, c++-format
 msgid "Failed to write to lock file \"{}\""
-msgstr "„{}“ lukustusfaili kustutamine ei õnnestunud"
+msgstr "„{}“ lukustusfaili kirjutamine ei õnnestunud"
 
 #: utils/locker.cpp:150
-#, fuzzy, c++-format
-#| msgid "Failed to open lock file \"{}\""
+#, c++-format
 msgid "Failed to sync lock file \"{}\""
-msgstr "„{}“ lukustusfaili avamine ei õnnestunud"
+msgstr "„{}“ lukustusfaili sünkroonimine ei õnnestunud"
 
 #: utils/locker.cpp:178
-#, fuzzy, c++-format
-#| msgid "Failed to open lock file \"{}\""
+#, c++-format
 msgid "Failed to read from lock file \"{}\""
-msgstr "„{}“ lukustusfaili avamine ei õnnestunud"
+msgstr "„{}“ lukustusfailist lugemine ei õnnestunud"
 
 #: utils/locker.cpp:192
 #, c++-format
@@ -2305,10 +2300,8 @@ msgid "Failed to restore database \"{}\""
 msgstr ""
 
 #: utils/subprocess.cpp:29
-#, fuzzy
-#| msgid "cannot create temporary directory"
 msgid "cannot create pipe"
-msgstr "ajutise kausta loomine ei õnnestunud"
+msgstr "töötluskonveieri loomine ei õnnestunud"
 
 #: utils/subprocess.cpp:98
 msgid "cannot fork"
@@ -2327,10 +2320,9 @@ msgid "cannot bind child stderr"
 msgstr ""
 
 #: utils/subprocess.cpp:180
-#, fuzzy, c++-format
-#| msgid "Failed to delete lock file \"{}\""
+#, c++-format
 msgid "failed to execute command: {}"
-msgstr "„{}“ lukustusfaili kustutamine ei õnnestunud"
+msgstr "„{}“ käsu käivitamine ei õnnestunud"
 
 #: utils/subprocess.cpp:185
 #, c++-format
