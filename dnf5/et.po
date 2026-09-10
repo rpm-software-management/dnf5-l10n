@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-08 12:03+0000\n"
-"PO-Revision-Date: 2026-08-28 08:18+0000\n"
+"PO-Revision-Date: 2026-09-10 18:18+0000\n"
 "Last-Translator: Priit Jõerüüt "
 "<jrtkbfdr@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Estonian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.8.1\n"
+"X-Generator: Weblate 2026.9.1\n"
 
 #: cmdline_aliases.cpp:84 context.cpp:198 main.cpp:1449
 msgid ", "
@@ -414,7 +414,7 @@ msgstr ""
 #: commands/clean/clean.cpp:176
 #, c++-format
 msgid "Cache directory \"{}\" does not exist. Nothing to clean."
-msgstr ""
+msgstr "Puhverkausta „{}“ pole olemas. Pole midagi kustutatavat."
 
 #: commands/clean/clean.cpp:181
 #, c++-format
@@ -593,20 +593,16 @@ msgid "Groups: {0} ({1} {2}, {3} {4})"
 msgstr ""
 
 #: commands/group/group_list.cpp:147
-#, fuzzy
-#| msgid "Installed"
 msgid "installed"
 msgid_plural "installed"
-msgstr[0] "Paigaldatud"
-msgstr[1] "Paigaldatud"
+msgstr[0] "paigaldatud"
+msgstr[1] "paigaldatud"
 
 #: commands/group/group_list.cpp:149
-#, fuzzy
-#| msgid "Available"
 msgid "available"
 msgid_plural "available"
-msgstr[0] "Saadaval"
-msgstr[1] "Saadaval"
+msgstr[0] "saadaval"
+msgstr[1] "saadaval"
 
 #: commands/history/arguments.hpp:37
 msgid "Transaction ID"
@@ -802,10 +798,8 @@ msgid ""
 msgstr ""
 
 #: commands/no_matches.cpp:78 commands/no_matches.hpp:45
-#, fuzzy
-#| msgid "No logs were found."
 msgid "No matches found."
-msgstr "Logisid ei leidu."
+msgstr "Vasteid ei leidu."
 
 #: commands/offline/offline.cpp:217
 msgid "Manage offline transactions"
@@ -1008,12 +1002,12 @@ msgid "Option '--limit' can only be used with '--oldinstallonly'."
 msgstr ""
 
 #: commands/remove/remove.cpp:242
-#, fuzzy
-#| msgid "{}. Add \"--help\" for more information about the arguments."
 msgid ""
 "Missing positional arguments for \"remove\" command. Add \"--help\" for more "
 "information about the arguments."
-msgstr "{}. Täiendava teabe jaoks lisa „--help“ argumendina."
+msgstr ""
+"„remove“ käsu positsioonilised argumendid on puudu. Täiendava teabe jaoks "
+"argumentide kohta lisa „--help“."
 
 #: commands/remove/remove.cpp:269
 #, c++-format
@@ -1197,10 +1191,9 @@ msgid "Package \"{}\" is already excluded."
 msgstr ""
 
 #: context.cpp:73
-#, fuzzy, c++-format
-#| msgid "Query Commands:"
+#, c++-format
 msgid "Command: {}"
-msgstr "Päringu käsud:"
+msgstr "Käsk: {}"
 
 #: context.cpp:81
 #, c++-format
@@ -1213,10 +1206,9 @@ msgid "Process ID: {}"
 msgstr ""
 
 #: context.cpp:92
-#, fuzzy, c++-format
-#| msgid "setvar: {}"
+#, c++-format
 msgid "Started: {}"
-msgstr "setvar: {}"
+msgstr "Käivitatud: {}"
 
 #: context.cpp:99
 #, c++-format
@@ -1444,22 +1436,22 @@ msgstr "Käivitan lõigendeid"
 #: context.cpp:1052
 #, c++-format
 msgid "Running {} scriptlet: {}"
-msgstr ""
+msgstr "Käivitan „{}“ lõigendit: {}"
 
 #: context.cpp:1068
 #, c++-format
 msgid "Finished {} scriptlet: {}"
-msgstr ""
+msgstr "Lõpetasin „{}“ lõigendi töö: {}"
 
 #: context.cpp:1075
 #, c++-format
 msgid "Non-critical error in {} scriptlet: {}"
-msgstr ""
+msgstr "Mittekriitiline viga „{}“ lõigendis: {}"
 
 #: context.cpp:1085
 #, c++-format
 msgid "Error in {} scriptlet: {}"
-msgstr ""
+msgstr "Viga „{}“ lõigendis: {}"
 
 #: context.cpp:1120
 msgid "Verify package files"
@@ -2072,10 +2064,8 @@ msgid ""
 msgstr ""
 
 #: shared_options.cpp:239
-#, fuzzy
-#| msgid "CVE_ID,..."
 msgid "VENDOR,..."
-msgstr "CVE_TUNNUS,..."
+msgstr "VALMISTAJA,..."
 
 #: shared_options.cpp:248
 msgid "\"--from_vendor\" already defined with different value"
