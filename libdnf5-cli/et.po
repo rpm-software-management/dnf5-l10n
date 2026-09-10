@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-08 12:03+0000\n"
-"PO-Revision-Date: 2026-08-28 08:18+0000\n"
+"PO-Revision-Date: 2026-09-10 18:18+0000\n"
 "Last-Translator: Priit Jõerüüt "
 "<jrtkbfdr@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Estonian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.8.1\n"
+"X-Generator: Weblate 2026.9.1\n"
 
 #: argument_parser.cpp:68
 #, c++-format
@@ -251,10 +251,8 @@ msgid "Groups"
 msgstr ""
 
 #: output/status.cpp:46 output/status.cpp:55 output/status.cpp:72
-#, fuzzy
-#| msgid "Installed size"
 msgid "installed"
-msgstr "Paigaldatud andmemaht"
+msgstr "paigaldatud"
 
 #: output/status.cpp:47 output/status.cpp:56 output/status.cpp:73
 msgid "available"
@@ -275,22 +273,16 @@ msgid "user-installed"
 msgstr ""
 
 #: output/status.cpp:84
-#, fuzzy
-#| msgid "Installed size"
 msgid "Installed Size"
 msgstr "Paigaldatud andmemaht"
 
 #: output/status.cpp:90
-#, fuzzy
-#| msgid "Repository"
 msgid "Enabled Repositories"
-msgstr "Tarkvarahoidla"
+msgstr "Kasutusel tarkvarahoidlad"
 
 #: output/status.cpp:101
-#, fuzzy
-#| msgid "Transaction Summary:\n"
 msgid "Last Transaction"
-msgstr "Transaktsiooni kokkuvõte:\n"
+msgstr "Viimane transaktsioon"
 
 #: output/transaction_table.cpp:128
 msgid "Transaction Summary:\n"
@@ -504,7 +496,7 @@ msgstr[1] ""
 
 #: output/transaction_table.cpp:799
 msgid "Nothing to do."
-msgstr ""
+msgstr "Pole ühtegi ülesannet."
 
 #. The two spaces indent the table the same way as child lines in KeyValueTable
 #: output/transactioninfo.cpp:73
@@ -546,10 +538,8 @@ msgid "Status"
 msgstr ""
 
 #: output/transactioninfo.cpp:106
-#, fuzzy
-#| msgid "Release"
 msgid "Releasever"
-msgstr "Väljalase"
+msgstr "Väljalaskeversioon"
 
 #: output/transactioninfo.cpp:108
 msgid "Comment"
@@ -600,7 +590,7 @@ msgstr "Puuduv käsk"
 #, c++-format
 msgid ""
 "Invalid date passed: \"{}\". Dates in \"YYYY-MM-DD\" format are expected"
-msgstr ""
+msgstr "Oled sisestanud vigase kuupäeva: „{}“. Eeldatud vorming on „AAAA-KK-PP“"
 
 #: session.cpp:270
 #, c++-format
