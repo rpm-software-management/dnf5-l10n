@@ -1,15 +1,15 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Arif Budiman <arifpedia@gmail.com>, 2025.
+# Arif Budiman <arifpedia@gmail.com>, 2025, 2026.
 # Ega Natha <ega8642@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-08 12:03+0000\n"
-"PO-Revision-Date: 2026-06-06 10:01+0000\n"
-"Last-Translator: Ega Natha <ega8642@gmail.com>\n"
+"PO-Revision-Date: 2026-09-11 21:18+0000\n"
+"Last-Translator: Arif Budiman <arifpedia@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/id/>\n"
 "Language: id\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.6.1\n"
+"X-Generator: Weblate 2026.9.1\n"
 
 #: advisory/advisory.cpp:81
 #, c++-format
@@ -30,13 +30,12 @@ msgstr ""
 
 #: advisory/advisory_collection.cpp:94
 msgid "This libdnf5 does not support modularity"
-msgstr ""
+msgstr "libdnf5 ini tidak mendukung modularitas"
 
 #: base/active_transaction_info.cpp:93 base/active_transaction_info.cpp:95
-#, fuzzy, c++-format
-#| msgid "Error during transaction replay JSON parsing : {}"
+#, c++-format
 msgid "Error parsing transaction info: {}"
-msgstr "Kesalahan saat memproses JSON selama pengulangan transaksi: {}"
+msgstr "Kesalahan saat mengurai informasi transaksi: {}"
 
 #: base/base.cpp:185
 #, c++-format
@@ -329,16 +328,14 @@ msgid "Packages for argument '{}' installed, but not available."
 msgstr "Paket untuk argumen '{}' telah diinstal, tetapi tidak tersedia."
 
 #: base/log_event.cpp:248
-#, fuzzy, c++-format
-#| msgid "Package \"{}\" is already installed."
+#, c++-format
 msgid "Group \"{}\" is already installed."
-msgstr "Paket \"{}\" sudah terpasang."
+msgstr "Grup \"{}\" sudah terinstal."
 
 #: base/log_event.cpp:251
-#, fuzzy, c++-format
-#| msgid "Package \"{}\" is already installed."
+#, c++-format
 msgid "Environmental group \"{}\" is already installed."
-msgstr "Paket \"{}\" sudah terpasang."
+msgstr "Grup environment \"{}\" sudah terinstal."
 
 #: base/log_event.cpp:258
 #, c++-format
@@ -615,16 +612,13 @@ msgstr ""
 "{}"
 
 #: base/solver_problems.cpp:75
-#, fuzzy, c++-format
-#| msgid ""
-#| "The operation would result in removing the following protected packages: "
-#| "{}"
+#, c++-format
 msgid ""
 "The operation would result in broken dependencies for the following "
 "protected packages: {}"
 msgstr ""
-"Operasi ini akan mengakibatkan penghapusan paket-paket terlindungi berikut: "
-"{}"
+"Operasi ini akan menyebabkan dependensi rusak pada paket terlindungi "
+"berikut: {}"
 
 #: base/solver_problems.cpp:78
 #, c++-format
@@ -773,15 +767,11 @@ msgstr "Impor kunci publik gagal."
 
 #: base/transaction.cpp:993
 msgid "poll failed during scriptlets pipe processing"
-msgstr ""
+msgstr "poll gagal selama pemrosesan pipe scriptlet"
 
 #: base/transaction.cpp:1016
-#, fuzzy
-#| msgid "Failed to set scriptlet output file, cannot open file \"{}\": {}"
 msgid "failed to read scriptlet output from pipe"
-msgstr ""
-"Gagal menetapkan berkas output scriptlet, tidak dapat membuka berkas \"{}\": "
-"{}"
+msgstr "gagal membaca keluaran scriptlet dari pipe"
 
 #: base/transaction.cpp:1134
 #, c++-format
@@ -831,43 +821,39 @@ msgstr[0] ""
 "Peringatan: Pemeriksaan OpenPGP dilewati untuk paket {0} dari repositori: {1}"
 
 #: base/vendor_change_manager.cpp:145
-#, fuzzy
-#| msgid "Cannot set the locale \"{}\": {}"
 msgid "{func}(): Cannot remove file: {path}: {msg}"
-msgstr "Tidak dapat mengatur locale \"{}\": {}"
+msgstr "{func}(): Tidak dapat menghapus berkas: {path}: {msg}"
 
 #: base/vendor_change_manager.cpp:151
 msgid "{func}(): File does not exist: {path}"
-msgstr ""
+msgstr "{func}(): Berkas tidak ada: {path}"
 
 #: base/vendor_change_manager.cpp:240
-#, fuzzy
-#| msgid "Cannot set the locale \"{}\": {}"
 msgid "{func}(): Cannot remove existing policy file: {path}"
-msgstr "Tidak dapat mengatur locale \"{}\": {}"
+msgstr "{func}(): Tidak dapat menghapus berkas kebijakan yang sudah ada: {path}"
 
 #: base/vendor_change_manager.cpp:252
 msgid "{func}(): Cannot create file: {path}"
-msgstr ""
+msgstr "{func}(): Tidak dapat membuat berkas: {path}"
 
 #: base/vendor_change_manager.cpp:269
-#, fuzzy
-#| msgid "Cannot set the locale \"{}\": {}"
 msgid "{func}(): Cannot write to file: {path}"
-msgstr "Tidak dapat mengatur locale \"{}\": {}"
+msgstr "{func}(): Tidak dapat menulis ke berkas: {path}"
 
 #: base/vendor_change_manager.cpp:306
 msgid "{func}(): Base filename cannot be empty"
-msgstr ""
+msgstr "{func}(): Nama berkas dasar tidak boleh kosong"
 
 #: base/vendor_change_manager.cpp:312
 msgid ""
 "{func}(): Base filename must not contain path components: {base_filename}"
 msgstr ""
+"{func}(): Nama berkas dasar tidak boleh mengandung komponen path: "
+"{base_filename}"
 
 #: base/vendor_change_manager.cpp:437
 msgid "{func}(): Path must have .conf extension: {path}"
-msgstr ""
+msgstr "{func}(): Path harus memiliki ekstensi .conf: {path}"
 
 #: common/exception.cpp:78
 msgid "System error"
@@ -878,16 +864,14 @@ msgid "General RuntimeError exception"
 msgstr "Kecelakaan RuntimeError umum"
 
 #: common/proc.cpp:88
-#, fuzzy, c++-format
-#| msgid "Cannot install package \"{}\""
+#, c++-format
 msgid "Cannot stat {}"
-msgstr "Tidak dapat menginstal paket \"{}\""
+msgstr "Tidak dapat menjalankan stat pada {}"
 
 #: common/proc.cpp:124
-#, fuzzy, c++-format
-#| msgid "cannot open file"
+#, c++-format
 msgid "Cannot open {}"
-msgstr "tidak dapat membuka berkas"
+msgstr "Tidak dapat membuka {}"
 
 #: common/sack/query.cpp:27
 msgid "Query must contain exactly one object."
@@ -903,10 +887,10 @@ msgstr ""
 "get_user_runtime_dir(): Tidak dapat menentukan direktori runtime pengguna"
 
 #: comps/environment/environment.cpp:361
-#, fuzzy, c++-format
-#| msgid "Failed to save xml document for group \"{}\" to file \"{}\": {}"
+#, c++-format
 msgid "Failed to save xml document for environment \"{}\" to file \"{}\": {}"
-msgstr "Gagal menyimpan dokumen XML untuk grup \"{}\" ke berkas \"{}\": {}"
+msgstr ""
+"Gagal menyimpan dokumen XML untuk environment \"{}\" ke berkas \"{}\": {}"
 
 #: comps/group/group.cpp:354
 #, c++-format
@@ -1151,10 +1135,8 @@ msgid "Cannot find plugin library \"{}\""
 msgstr "Tidak dapat menemukan perpustakaan plugin \"{}\""
 
 #: plugin/plugins.cpp:181
-#, fuzzy
-#| msgid "Plugins::load_plugins(): config_dir_path cannot be empty"
 msgid "Plugins::load_plugins(): config_dirs cannot be empty"
-msgstr "Plugins::load_plugins(): config_dir_path tidak boleh kosong"
+msgstr "Plugins::load_plugins(): config_dirs tidak boleh kosong"
 
 #: plugin/plugins.cpp:194
 #, c++-format
@@ -1262,28 +1244,24 @@ msgid "Empty path to the repository cache directory."
 msgstr "Jalur kosong ke direktori cache repositori."
 
 #: repo/repo_config_override.cpp:69
-#, fuzzy, c++-format
-#| msgid "Failed to download metadata ({}: \"{}\") for repository \"{}\": {}"
+#, c++-format
 msgid "Cannot set option \"{}\" for repository \"{}\": {}"
-msgstr "Gagal mengunduh metadata ({}: \"{}\") untuk repositori \"{}\": {}"
+msgstr "Tidak dapat menetapkan opsi \"{}\" untuk repositori \"{}\": {}"
 
 #: repo/repo_config_override.cpp:84
-#, fuzzy, c++-format
-#| msgid "Cannot set root directory \"{}\""
+#, c++-format
 msgid "Cannot create directory \"{}\": {}"
-msgstr "Tidak dapat menetapkan direktori akar \"{}\""
+msgstr "Tidak dapat membuat direktori \"{}\": {}"
 
 #: repo/repo_config_override.cpp:136 repo/repo_config_override.cpp:143
-#, fuzzy, c++-format
-#| msgid "Cannot set the locale \"{}\": {}"
+#, c++-format
 msgid "Cannot write to file \"{}\": {}"
-msgstr "Tidak dapat mengatur locale \"{}\": {}"
+msgstr "Tidak dapat menulis ke berkas \"{}\": {}"
 
 #: repo/repo_config_override.cpp:157
-#, fuzzy, c++-format
-#| msgid "Cannot set the locale \"{}\": {}"
+#, c++-format
 msgid "Cannot set permissions on file \"{}\": {}"
-msgstr "Tidak dapat mengatur locale \"{}\": {}"
+msgstr "Tidak dapat menetapkan izin pada berkas \"{}\": {}"
 
 #: repo/repo_downloader.cpp:224
 #, c++-format
@@ -1413,7 +1391,7 @@ msgstr "Terjadi kesalahan saat memproses berkas sementara di '{}': {}"
 
 #: rpm/checksum.cpp:98
 msgid "Unknown checksum type"
-msgstr ""
+msgstr "Tipe checksum tidak dikenal"
 
 #: rpm/nevra.cpp:82
 #, c++-format
@@ -1491,6 +1469,10 @@ msgid ""
 "versions after an interrupted upgrade. Please remove the duplicate packages "
 "using \"dnf remove\" and retry."
 msgstr ""
+"Transaksi rpm akan menghapus paket secara tidak terduga yang tidak "
+"direncanakan oleh solver: {}. Hal ini biasanya terjadi ketika rpmdb berisi "
+"versi paket duplikat setelah pembaruan yang terputus. Hapus paket duplikat "
+"menggunakan \"dnf remove\", lalu coba lagi."
 
 #: rpm/transaction.cpp:236
 msgid "Failed to order the rpm transaction."
@@ -1573,18 +1555,14 @@ msgid "Writing debugsolver data into \"{}\" failed: {}"
 msgstr "Gagal menulis data debugsolver ke \"{}\": {}"
 
 #: solv/vendor_change_manager.cpp:339
-#, fuzzy, c++-format
-#| msgid "Missing section header on line {}"
+#, c++-format
 msgid "Missing \"version\" key in \"{}\""
-msgstr "Header bagian hilang pada baris {}"
+msgstr "Kunci \"version\" tidak ada dalam \"{}\""
 
 #: solv/vendor_change_manager.cpp:351
-#, fuzzy, c++-format
-#| msgid "Unsupported TOML version \"{}\", maximum supported version is \"{}\""
+#, c++-format
 msgid "Unsupported version \"{}\" in \"{}\". Supported versions: {}"
-msgstr ""
-"Versi TOML yang tidak didukung \"{}\", versi maksimum yang didukung adalah "
-"\"{}\""
+msgstr "Versi \"{}\" dalam \"{}\" tidak didukung. Versi yang didukung: {}"
 
 #: solv/vendor_change_manager.cpp:362
 #, c++-format
@@ -1592,12 +1570,15 @@ msgid ""
 "Configuration \"{}\" uses version \"1.0\" which does not support combining "
 "'equivalent_vendors' with 'outgoing_vendors' and 'incoming_vendors'"
 msgstr ""
+"Konfigurasi \"{}\" menggunakan versi \"1.0\" yang tidak mendukung "
+"penggabungan 'equivalent_vendors' dengan 'outgoing_vendors' dan "
+"'incoming_vendors'"
 
 #: solv/vendor_change_manager.cpp:394 solv/vendor_change_manager.cpp:432
 #: solv/vendor_change_manager.cpp:484 solv/vendor_change_manager.cpp:709
 #, c++-format
 msgid "Unknown key '{}' in \"{}\" on line {}"
-msgstr ""
+msgstr "Kunci '{}' tidak dikenal dalam \"{}\" pada baris {}"
 
 #: solv/vendor_change_manager.cpp:401
 #, c++-format
@@ -1605,6 +1586,8 @@ msgid ""
 "Configuration \"{}\" uses version \"1.0\" which does not support key '{}' on "
 "line {}"
 msgstr ""
+"Konfigurasi \"{}\" menggunakan versi \"1.0\" yang tidak mendukung kunci '{}' "
+"pada baris {}"
 
 #: solv/vendor_change_manager.cpp:420
 #, c++-format
@@ -1612,23 +1595,30 @@ msgid ""
 "Filter \"cmdline_repo\" is only allowed in the 'incoming_packages' section. "
 "Error in \"{}\" in table starting on line {}"
 msgstr ""
+"Filter \"cmdline_repo\" hanya diizinkan dalam bagian 'incoming_packages'. "
+"Kesalahan pada \"{}\" dalam tabel yang dimulai pada baris {}"
 
 #: solv/vendor_change_manager.cpp:442
 #, c++-format
 msgid ""
 "Missing package filter definition in \"{}\" in table starting on line {}"
 msgstr ""
+"Definisi filter paket tidak ada dalam \"{}\" pada tabel yang dimulai pada "
+"baris {}"
 
 #: solv/vendor_change_manager.cpp:473
 #, c++-format
 msgid ""
 "Unsupported comparator \"{}\" for vendor definition in \"{}\" on line {}"
 msgstr ""
+"Komparator \"{}\" tidak didukung untuk definisi vendor dalam \"{}\" pada "
+"baris {}"
 
 #: solv/vendor_change_manager.cpp:494
 #, c++-format
 msgid "Missing 'vendor' key in \"{}\" in table starting on line {}"
 msgstr ""
+"Kunci 'vendor' tidak ada dalam \"{}\" pada tabel yang dimulai pada baris {}"
 
 #: solv/vendor_change_manager.cpp:507
 #, c++-format
@@ -1636,17 +1626,18 @@ msgid ""
 "Invalid regex vendor pattern \"{}\" in \"{}\" in table starting on line {}: "
 "{}"
 msgstr ""
+"Pola vendor regex \"{}\" tidak valid dalam \"{}\" pada tabel yang dimulai "
+"pada baris {}: {}"
 
 #: solv/vendor_change_manager.cpp:535
 #, c++-format
 msgid "Bad value type in \"{}\" on line {}: {}"
-msgstr ""
+msgstr "Tipe nilai tidak tepat dalam \"{}\" pada baris {}: {}"
 
 #: solv/vendor_change_manager.cpp:541
-#, fuzzy, c++-format
-#| msgid "An error occurred importing key \"{}\": {}"
+#, c++-format
 msgid "An error occurred when parsing \"{}\": {}"
-msgstr "Terjadi kesalahan saat mengimpor kunci \"{}\": {}"
+msgstr "Terjadi kesalahan saat mengurai \"{}\": {}"
 
 #: solv/vendor_change_manager.cpp:555
 #, c++-format
@@ -1654,6 +1645,8 @@ msgid ""
 "Configuration \"{}\" uses version \"1.0\" which does not support "
 "'incoming_vendors' without 'outgoing_vendors'"
 msgstr ""
+"Konfigurasi \"{}\" menggunakan versi \"1.0\" yang tidak mendukung "
+"'incoming_vendors' tanpa 'outgoing_vendors'"
 
 #: solv/vendor_change_manager.cpp:561
 #, c++-format
@@ -1661,11 +1654,13 @@ msgid ""
 "Configuration \"{}\" uses version \"1.0\" which does not support "
 "'outgoing_vendors' without 'incoming_vendors'"
 msgstr ""
+"Konfigurasi \"{}\" menggunakan versi \"1.0\" yang tidak mendukung "
+"'outgoing_vendors' tanpa 'incoming_vendors'"
 
 #: solv/vendor_change_manager.cpp:651
 #, c++-format
 msgid "Unknown 'comparator' \"{}\" in \"{}\" on line {}"
-msgstr ""
+msgstr "'comparator' \"{}\" tidak dikenal dalam \"{}\" pada baris {}"
 
 #: solv/vendor_change_manager.cpp:655
 #, c++-format
@@ -1673,21 +1668,23 @@ msgid ""
 "Configuration \"{}\" uses version \"{}\" which does not support 'comparator' "
 "\"{}\""
 msgstr ""
+"Konfigurasi \"{}\" menggunakan versi \"{}\" yang tidak mendukung "
+"'comparator' \"{}\""
 
 #: solv/vendor_change_manager.cpp:694
 #, c++-format
 msgid "Unknown 'filter' \"{}\" in \"{}\" on line {}"
-msgstr ""
+msgstr "'filter' \"{}\" tidak dikenal dalam \"{}\" pada baris {}"
 
 #: solv/vendor_change_manager.cpp:715
 #, c++-format
 msgid "Missing 'filter' key in \"{}\" for table entry on line {}"
-msgstr ""
+msgstr "Kunci 'filter' tidak ada dalam \"{}\" untuk entri tabel pada baris {}"
 
 #: solv/vendor_change_manager.cpp:720
 #, c++-format
 msgid "Missing 'value' key in \"{}\" for table entry on line {}"
-msgstr ""
+msgstr "Kunci 'value' tidak ada dalam \"{}\" untuk entri tabel pada baris {}"
 
 #: solv/vendor_change_manager.cpp:727
 #, c++-format
@@ -1696,6 +1693,9 @@ msgid ""
 "support comparator \"{}\". Only the default \"EXACT\" comparator is allowed "
 "for this filter"
 msgstr ""
+"Filter \"cmdline_repo\" dalam \"{}\" pada tabel yang dimulai pada baris {} "
+"tidak mendukung komparator \"{}\". Hanya komparator default \"EXACT\" yang "
+"diizinkan untuk filter ini"
 
 #: solv/vendor_change_manager.cpp:744
 #, c++-format
@@ -1703,6 +1703,8 @@ msgid ""
 "Invalid 'value' \"{}\" in \"{}\" in table starting on line {}. Only "
 "\"true\", \"1\", \"false\", \"0\" are supported"
 msgstr ""
+"Nilai 'value' \"{}\" tidak valid dalam \"{}\" pada tabel yang dimulai pada "
+"baris {}. Hanya \"true\", \"1\", \"false\", dan \"0\" yang didukung"
 
 #: solv/vendor_change_manager.cpp:754 solv/vendor_change_manager.cpp:765
 #, c++-format
@@ -1710,115 +1712,125 @@ msgid ""
 "Filter \"{}\" in \"{}\" in table starting on line {} does not support "
 "comparator \"{}\""
 msgstr ""
+"Filter \"{}\" dalam \"{}\" pada tabel yang dimulai pada baris {} tidak "
+"mendukung komparator \"{}\""
 
 #: solv/vendor_change_manager.cpp:781
 #, c++-format
 msgid "Invalid epoch value \"{}\" in \"{}\" in table starting on line {}"
 msgstr ""
+"Nilai epoch \"{}\" tidak valid dalam \"{}\" pada tabel yang dimulai pada "
+"baris {}"
 
 #: solv/vendor_change_manager.cpp:796
 #, c++-format
 msgid "Invalid regex \"{}\" in \"{}\" in table starting on line {}: {}"
 msgstr ""
+"Regex \"{}\" tidak valid dalam \"{}\" pada tabel yang dimulai pada baris {}: "
+"{}"
 
 #: solv/vendor_change_manager.cpp:848
 msgid "Unexpected end of input"
-msgstr ""
+msgstr "Akhir input tidak terduga"
 
 #: solv/vendor_change_manager.cpp:865
 #, c++-format
 msgid "Expected '{}' but found end of input"
-msgstr ""
+msgstr "Diharapkan '{}' tetapi ditemukan akhir input"
 
 #: solv/vendor_change_manager.cpp:867
 #, c++-format
 msgid "Expected '{}' but found '{}'"
-msgstr ""
+msgstr "Diharapkan '{}' tetapi ditemukan '{}'"
 
 #: solv/vendor_change_manager.cpp:877
 #, c++-format
 msgid "Compact vendor change policy parse error in \"{}\" at position {}"
 msgstr ""
+"Kesalahan penguraian kebijakan perubahan vendor ringkas dalam \"{}\" pada "
+"posisi {}"
 
 #: solv/vendor_change_manager.cpp:913
 msgid "Empty vendor policy string"
-msgstr ""
+msgstr "String kebijakan vendor kosong"
 
 #: solv/vendor_change_manager.cpp:930
 msgid "Expected package filter after '@'"
-msgstr ""
+msgstr "Diharapkan filter paket setelah '@'"
 
 #: solv/vendor_change_manager.cpp:943
-#, fuzzy, c++-format
-#| msgid "Invalid repository id \"{}\": unexpected character '{}'"
+#, c++-format
 msgid "Unexpected character '{}'"
-msgstr "ID repositori tidak valid \"{}\": karakter tidak terduga '{}'"
+msgstr "Karakter '{}' tidak terduga"
 
 #: solv/vendor_change_manager.cpp:947
 msgid "Empty policy: no vendor definitions or package filters specified"
 msgstr ""
+"Kebijakan kosong: tidak ada definisi vendor atau filter paket yang ditentukan"
 
 #: solv/vendor_change_manager.cpp:1023
 msgid "Expected quoted string starting with '\"'"
-msgstr ""
+msgstr "Diharapkan string yang dikutip, diawali dengan '\"'"
 
 #: solv/vendor_change_manager.cpp:1031
 msgid "Unterminated escape sequence"
-msgstr ""
+msgstr "Urutan escape tidak diakhiri"
 
 #: solv/vendor_change_manager.cpp:1037
 #, c++-format
 msgid "Invalid escape sequence '\\{}'. Only '\\\"' and '\\\\' are supported"
-msgstr ""
+msgstr "Urutan escape '{}' tidak valid. Hanya '\"' dan '\\' yang didukung"
 
 #: solv/vendor_change_manager.cpp:1044
 msgid "Unterminated quoted string"
-msgstr ""
+msgstr "String yang dikutip tidak diakhiri"
 
 #: solv/vendor_change_manager.cpp:1079
 msgid "Expected direction prefix 'in', 'out', or 'eq'"
-msgstr ""
+msgstr "Diharapkan prefiks arah 'in', 'out', atau 'eq'"
 
 #: solv/vendor_change_manager.cpp:1143
 msgid ""
 "Expected comparison operator: relational (<, <=, >, >=) or string (=, ^, $, "
 "*, =*, =~; optionally prefixed with ! and/or i"
 msgstr ""
+"Diharapkan operator perbandingan: relasional (<, <=, >, >=) atau string (=, "
+"^, $, *, =*, =~; opsional diawali dengan ! dan/atau i"
 
 #: solv/vendor_change_manager.cpp:1208
 msgid ""
 "Vendor definition does not support relational comparators. Use string "
 "comparators: =, ^, $, *, =*, =~"
 msgstr ""
+"Definisi vendor tidak mendukung komparator relasional. Gunakan komparator "
+"string: =, ^, $, *, =*, =~"
 
 #: solv/vendor_change_manager.cpp:1216
 #, c++-format
 msgid "Invalid regex vendor pattern '{}': {}"
-msgstr ""
+msgstr "Pola vendor regex '{}' tidak valid: {}"
 
 #: solv/vendor_change_manager.cpp:1234
-#, fuzzy, c++-format
-#| msgid "Unknown time unit '{}'"
+#, c++-format
 msgid "Unknown filter field name '{}'"
-msgstr "Satuan waktu yang tidak dikenal '{}'"
+msgstr "Nama bidang filter '{}' tidak dikenal"
 
 #: solv/vendor_change_manager.cpp:1244
 msgid "Expected filter field name"
-msgstr ""
+msgstr "Diharapkan nama bidang filter"
 
 #: solv/vendor_change_manager.cpp:1267
-#, fuzzy, c++-format
-#| msgid "Invalid boolean value \"{}\""
+#, c++-format
 msgid "Invalid epoch value \"{}\""
-msgstr "Nilai boolean yang tidak valid \"{}\""
+msgstr "Nilai epoch \"{}\" tidak valid"
 
 #: solv/vendor_change_manager.cpp:1271
 msgid "Filter 'cmdline_repo' only supports the '=' (EXACT) comparator"
-msgstr ""
+msgstr "Filter 'cmdline_repo' hanya mendukung komparator '=' (EXACT)"
 
 #: solv/vendor_change_manager.cpp:1274
 msgid "Filter 'cmdline_repo' is only allowed in incoming packages ('in:')"
-msgstr ""
+msgstr "Filter 'cmdline_repo' hanya diizinkan dalam paket masuk ('in:')"
 
 #: solv/vendor_change_manager.cpp:1285
 #, c++-format
@@ -1826,31 +1838,32 @@ msgid ""
 "Invalid value '{}' for 'cmdline_repo' filter. Use 'true', '1', 'false', or "
 "'0'"
 msgstr ""
+"Nilai '{}' tidak valid untuk filter 'cmdline_repo'. Gunakan 'true', '1', "
+"'false', atau '0'"
 
 #: solv/vendor_change_manager.cpp:1289
 #, c++-format
 msgid "Filter '{}' only supports relational comparators: =, !=, >, >=, <, <="
-msgstr ""
+msgstr "Filter '{}' hanya mendukung komparator relasional: =, !=, >, >=, <, <="
 
 #: solv/vendor_change_manager.cpp:1293
 #, c++-format
 msgid "Filter '{}' only supports string comparators: =, ^, $, *, =*, =~"
-msgstr ""
+msgstr "Filter '{}' hanya mendukung komparator string: =, ^, $, *, =*, =~"
 
 #: solv/vendor_change_manager.cpp:1302
-#, fuzzy, c++-format
-#| msgid "Invalid package type: {}"
+#, c++-format
 msgid "Invalid regex '{}': {}"
-msgstr "Jenis paket tidak valid: {}"
+msgstr "Regex '{}' tidak valid: {}"
 
 #: solv/vendor_change_manager.cpp:1313
 msgid "Package filters do not support 'eq' direction. Use 'in' or 'out'"
-msgstr ""
+msgstr "Filter paket tidak mendukung arah 'eq'. Gunakan 'in' atau 'out'"
 
 #: solv/vendor_change_manager.cpp:1404 solv/vendor_change_manager.cpp:1454
 #: solv/vendor_change_manager.cpp:1465 solv/vendor_change_manager.cpp:1476
 msgid "{func}(): Policy index {idx} is out of range"
-msgstr ""
+msgstr "{func}(): Indeks kebijakan {idx} berada di luar rentang"
 
 #: system/state.cpp:282 system/state.cpp:291
 #, c++-format
@@ -1903,15 +1916,15 @@ msgstr "versi data state tidak kompatibel"
 
 #: transaction/transaction.cpp:87
 msgid "Started"
-msgstr ""
+msgstr "Dimulai"
 
 #: transaction/transaction.cpp:89
 msgid "Ok"
-msgstr ""
+msgstr "OK"
 
 #: transaction/transaction.cpp:91
 msgid "Error"
-msgstr ""
+msgstr "Kesalahan"
 
 #: transaction/transaction.cpp:110
 #, c++-format
@@ -1929,11 +1942,11 @@ msgstr "Aksi item transaksi tidak valid: {}"
 
 #: transaction/transaction_item_action.cpp:74
 msgid "Replaced"
-msgstr ""
+msgstr "Digantikan"
 
 #: transaction/transaction_item_action.cpp:84
 msgid "Switch"
-msgstr ""
+msgstr "Ganti"
 
 #: transaction/transaction_item_reason.cpp:30
 #, c++-format
@@ -1942,31 +1955,31 @@ msgstr "Alasan item transaksi tidak valid: {}"
 
 #: transaction/transaction_item_reason.cpp:56
 msgid "None"
-msgstr ""
+msgstr "Tidak ada"
 
 #: transaction/transaction_item_reason.cpp:58
 msgid "Dependency"
-msgstr ""
+msgstr "Dependensi"
 
 #: transaction/transaction_item_reason.cpp:60
 msgid "User"
-msgstr ""
+msgstr "Pengguna"
 
 #: transaction/transaction_item_reason.cpp:62
 msgid "Clean"
-msgstr ""
+msgstr "Bersihkan"
 
 #: transaction/transaction_item_reason.cpp:64
 msgid "Weak Dependency"
-msgstr ""
+msgstr "Dependensi Lemah"
 
 #: transaction/transaction_item_reason.cpp:66
 msgid "Group"
-msgstr ""
+msgstr "Grup"
 
 #: transaction/transaction_item_reason.cpp:68
 msgid "External User"
-msgstr ""
+msgstr "Pengguna Eksternal"
 
 #: transaction/transaction_item_state.cpp:28
 #, c++-format
@@ -2164,33 +2177,32 @@ msgstr ""
 #: utils/bootc.cpp:46
 #, c++-format
 msgid "Error checking bootc status: {}"
-msgstr ""
+msgstr "Kesalahan saat memeriksa status bootc: {}"
 
 #: utils/bootc.cpp:49
 #, c++-format
 msgid "Error checking bootc status: bootc command failed with exit code {}"
 msgstr ""
+"Kesalahan saat memeriksa status bootc: perintah bootc gagal dengan kode "
+"keluar {}"
 
 #: utils/bootc.cpp:58
 msgid "Error checking bootc status: Failed to parse JSON output"
-msgstr ""
+msgstr "Kesalahan saat memeriksa status bootc: gagal mengurai keluaran JSON"
 
 #: utils/bootc.cpp:73
-#, fuzzy, c++-format
-#| msgid "Failed to update from string: {}"
+#, c++-format
 msgid "Failed to query status of bootc system: {}"
-msgstr "Gagal memperbarui dari string: {}"
+msgstr "Gagal meminta status sistem bootc: {}"
 
 #: utils/bootc.cpp:90
-#, fuzzy
-#| msgid "Failed to download files"
 msgid "Failed to stat /usr filesystem"
-msgstr "Gagal mengunduh berkas"
+msgstr "Gagal menjalankan stat pada sistem berkas /usr"
 
 #: utils/bootc.cpp:125
 #, c++-format
 msgid "Error running `bootc usr-overlay --read-only`: {}"
-msgstr ""
+msgstr "Kesalahan saat menjalankan `bootc usr-overlay --read-only`: {}"
 
 #: utils/bootc.cpp:128
 #, c++-format
@@ -2198,18 +2210,17 @@ msgid ""
 "Error running `bootc usr-overlay --read-only`: bootc command failed with "
 "exit code {}"
 msgstr ""
+"Kesalahan saat menjalankan `bootc usr-overlay --read-only`: perintah bootc "
+"gagal dengan kode keluar {}"
 
 #: utils/bootc.cpp:136
-#, fuzzy
-#| msgid "Failed to execute uname()"
 msgid "Failed to unshare mount namespace"
-msgstr "Gagal menjalankan fungsi uname()"
+msgstr "Gagal membatalkan berbagi namespace mount"
 
 #: utils/bootc.cpp:143
-#, fuzzy, c++-format
-#| msgid "Failed to resolve module metadata: {}"
+#, c++-format
 msgid "Failed to remount /usr as read-write: {}"
-msgstr "Gagal memproses metadata modul: {}"
+msgstr "Gagal me-mount ulang /usr sebagai baca-tulis: {}"
 
 #: utils/fs/file.cpp:87
 msgid "cannot open file"
@@ -2321,7 +2332,7 @@ msgstr "Gagal mendapatkan kunci \"{}\""
 
 #: utils/locker.cpp:108
 msgid "File is already open."
-msgstr ""
+msgstr "Berkas sudah terbuka."
 
 #: utils/locker.cpp:121
 #, c++-format
@@ -2329,40 +2340,34 @@ msgid "Failed to open lock file \"{}\""
 msgstr "Gagal membuka berkas kunci \"{}\""
 
 #: utils/locker.cpp:127 utils/locker.cpp:164
-#, fuzzy, c++-format
-#| msgid "The package is not signed."
+#, c++-format
 msgid "The lock file \"{}\" is not opened"
-msgstr "Paket ini tidak ditandatangani."
+msgstr "Berkas kunci \"{}\" tidak dibuka"
 
 #: utils/locker.cpp:132
-#, fuzzy, c++-format
-#| msgid "Failed to close lock file \"{}\""
+#, c++-format
 msgid "Failed to truncate lock file \"{}\""
-msgstr "Gagal menutup berkas kunci \"{}\""
+msgstr "Gagal memotong berkas kunci \"{}\""
 
 #: utils/locker.cpp:135 utils/locker.cpp:172
-#, fuzzy, c++-format
-#| msgid "Failed to close lock file \"{}\""
+#, c++-format
 msgid "Failed to seek lock file \"{}\""
-msgstr "Gagal menutup berkas kunci \"{}\""
+msgstr "Gagal melakukan seek pada berkas kunci \"{}\""
 
 #: utils/locker.cpp:143
-#, fuzzy, c++-format
-#| msgid "Failed to delete lock file \"{}\""
+#, c++-format
 msgid "Failed to write to lock file \"{}\""
-msgstr "Gagal menghapus berkas kunci \"{}\""
+msgstr "Gagal menulis ke berkas kunci \"{}\""
 
 #: utils/locker.cpp:150
-#, fuzzy, c++-format
-#| msgid "Failed to open lock file \"{}\""
+#, c++-format
 msgid "Failed to sync lock file \"{}\""
-msgstr "Gagal membuka berkas kunci \"{}\""
+msgstr "Gagal menyinkronkan berkas kunci \"{}\""
 
 #: utils/locker.cpp:178
-#, fuzzy, c++-format
-#| msgid "Failed to open lock file \"{}\""
+#, c++-format
 msgid "Failed to read from lock file \"{}\""
-msgstr "Gagal membuka berkas kunci \"{}\""
+msgstr "Gagal membaca dari berkas kunci \"{}\""
 
 #: utils/locker.cpp:192
 #, c++-format
@@ -2462,48 +2467,42 @@ msgid "Failed to restore database \"{}\""
 msgstr "Gagal memulihkan database \"{}\""
 
 #: utils/subprocess.cpp:29
-#, fuzzy
-#| msgid "cannot create temporary file"
 msgid "cannot create pipe"
-msgstr "tidak dapat membuat berkas sementara"
+msgstr "tidak dapat membuat pipe"
 
 #: utils/subprocess.cpp:98
 msgid "cannot fork"
-msgstr ""
+msgstr "tidak dapat melakukan fork"
 
 #: utils/subprocess.cpp:173
 msgid "cannot bind child stdin"
-msgstr ""
+msgstr "tidak dapat mengikat stdin proses anak"
 
 #: utils/subprocess.cpp:175
 msgid "cannot bind child stdout"
-msgstr ""
+msgstr "tidak dapat mengikat stdout proses anak"
 
 #: utils/subprocess.cpp:177
-#, fuzzy
-#| msgid "cannot open file"
 msgid "cannot bind child stderr"
-msgstr "tidak dapat membuka berkas"
+msgstr "tidak dapat mengikat stderr proses anak"
 
 #: utils/subprocess.cpp:180
-#, fuzzy, c++-format
-#| msgid "Failed to execute uname()"
+#, c++-format
 msgid "failed to execute command: {}"
-msgstr "Gagal menjalankan fungsi uname()"
+msgstr "gagal menjalankan perintah: {}"
 
 #: utils/subprocess.cpp:185
-#, fuzzy, c++-format
-#| msgid "Error during transaction replay JSON parsing : {}"
+#, c++-format
 msgid "error during preparation of child process: {}"
-msgstr "Kesalahan saat memproses JSON selama pengulangan transaksi: {}"
+msgstr "kesalahan saat menyiapkan proses anak: {}"
 
 #: utils/subprocess.cpp:211
 msgid "poll failed during subprocess I/O"
-msgstr ""
+msgstr "poll gagal selama I/O subproses"
 
 #: utils/subprocess.cpp:257
 msgid "unexpected child process status after waitpid"
-msgstr ""
+msgstr "status proses anak tidak terduga setelah waitpid"
 
 #: utils/system.cpp:34
 msgid "failed to read rpm config files"
