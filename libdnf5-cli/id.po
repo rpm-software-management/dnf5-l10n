@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-08 12:03+0000\n"
-"PO-Revision-Date: 2026-06-06 10:01+0000\n"
-"Last-Translator: Ega Natha <ega8642@gmail.com>\n"
+"PO-Revision-Date: 2026-09-11 21:18+0000\n"
+"Last-Translator: Arif Budiman <arifpedia@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5-cli/id/>\n"
 "Language: id\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.6.1\n"
+"X-Generator: Weblate 2026.9.1\n"
 
 #: argument_parser.cpp:68
 #, c++-format
@@ -248,49 +248,39 @@ msgstr "Bidang yang cocok: "
 
 #: output/status.cpp:45
 msgid "Groups"
-msgstr ""
+msgstr "Grup"
 
 #: output/status.cpp:46 output/status.cpp:55 output/status.cpp:72
-#, fuzzy
-#| msgid "Installed size"
 msgid "installed"
-msgstr "Ukuran terpasang"
+msgstr "terinstal"
 
 #: output/status.cpp:47 output/status.cpp:56 output/status.cpp:73
 msgid "available"
-msgstr ""
+msgstr "tersedia"
 
 #: output/status.cpp:54
 msgid "Environments"
-msgstr ""
+msgstr "Lingkungan"
 
 #: output/status.cpp:71
-#, fuzzy
-#| msgid "Package"
 msgid "Packages"
 msgstr "Paket"
 
 #: output/status.cpp:74
 msgid "user-installed"
-msgstr ""
+msgstr "diinstal oleh pengguna"
 
 #: output/status.cpp:84
-#, fuzzy
-#| msgid "Installed size"
 msgid "Installed Size"
-msgstr "Ukuran terpasang"
+msgstr "Ukuran Terinstal"
 
 #: output/status.cpp:90
-#, fuzzy
-#| msgid "Repository"
 msgid "Enabled Repositories"
-msgstr "Repositori"
+msgstr "Repositori Aktif"
 
 #: output/status.cpp:101
-#, fuzzy
-#| msgid "Transaction Summary:\n"
 msgid "Last Transaction"
-msgstr "Ringkasan Transaksi:\n"
+msgstr "Transaksi Terakhir"
 
 #: output/transaction_table.cpp:128
 msgid "Transaction Summary:\n"
@@ -452,10 +442,8 @@ msgid "Upgrading groups:"
 msgstr "Meningkatkan grup:"
 
 #: output/transaction_table.cpp:630
-#, fuzzy
-#| msgid "Changing reason:"
 msgid "Changing reason of installed groups:"
-msgstr "Mengubah alasan:"
+msgstr "Mengubah alasan grup yang diinstal:"
 
 #: output/transaction_table.cpp:657
 msgid "Installing environmental groups:"
@@ -487,13 +475,13 @@ msgstr "Beralih stream modul:"
 
 #: output/transaction_table.cpp:771 output/transaction_table.cpp:772
 msgid "(none)"
-msgstr ""
+msgstr "(tidak ada)"
 
 #: output/transaction_table.cpp:778
 #, c++-format
 msgid "Skipping {0} package due to vendor change restriction: {1}."
 msgid_plural "Skipping {0} packages due to vendor change restriction: {1}."
-msgstr[0] ""
+msgstr[0] "Melewati {0} paket karena pembatasan perubahan vendor: {1}."
 
 #: output/transaction_table.cpp:799
 msgid "Nothing to do."
@@ -502,83 +490,79 @@ msgstr "Tidak ada yang perlu dilakukan."
 #. The two spaces indent the table the same way as child lines in KeyValueTable
 #: output/transactioninfo.cpp:73
 msgid "Action"
-msgstr ""
+msgstr "Tindakan"
 
 #: output/transactioninfo.cpp:75
 msgid "Reason"
-msgstr ""
+msgstr "Alasan"
 
 #: output/transactioninfo.cpp:98
-#, fuzzy
-#| msgid "Transaction Summary:\n"
 msgid "Transaction ID"
-msgstr "Ringkasan Transaksi:\n"
+msgstr "ID Transaksi"
 
 #: output/transactioninfo.cpp:99
 msgid "Begin time"
-msgstr ""
+msgstr "Waktu Mulai"
 
 #: output/transactioninfo.cpp:100
 msgid "Begin rpmdb"
-msgstr ""
+msgstr "rpmdb Awal"
 
 #: output/transactioninfo.cpp:101
 msgid "End time"
-msgstr ""
+msgstr "Waktu Selesai"
 
 #: output/transactioninfo.cpp:102
 msgid "End rpmdb"
-msgstr ""
+msgstr "rpmdb Akhir"
 
 #: output/transactioninfo.cpp:104
 msgid "User"
-msgstr ""
+msgstr "Pengguna"
 
 #: output/transactioninfo.cpp:105
 msgid "Status"
-msgstr ""
+msgstr "Status"
 
 #: output/transactioninfo.cpp:106
-#, fuzzy
-#| msgid "Release"
 msgid "Releasever"
-msgstr "Rilis"
+msgstr "Versi Rilis"
 
 #: output/transactioninfo.cpp:108
 msgid "Comment"
-msgstr ""
+msgstr "Komentar"
 
 #: output/transactioninfo.cpp:111
 msgid "Packages altered:"
-msgstr ""
+msgstr "Paket yang diubah:"
 
 #: output/transactioninfo.cpp:112
 msgid "Groups altered:"
-msgstr ""
+msgstr "Grup yang diubah:"
 
 #: output/transactioninfo.cpp:113
 msgid "Environments altered:"
-msgstr ""
+msgstr "Lingkungan yang diubah:"
 
 #: output/transactionlist.cpp:53
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: output/transactionlist.cpp:54
 msgid "Command line"
-msgstr ""
+msgstr "Baris perintah"
 
 #: output/transactionlist.cpp:55
 msgid "Date and time"
-msgstr ""
+msgstr "Tanggal dan waktu"
 
 #: output/transactionlist.cpp:56
 msgid "Action(s)"
-msgstr ""
+msgstr "Tindakan"
 
 #: output/transactionlist.cpp:57
 msgid "Altered"
-msgstr ""
+msgstr "Diubah"
 
 #. namespace
 #: progressbar/multi_progress_bar.cpp:85
@@ -594,19 +578,23 @@ msgstr "Perintah tidak ada"
 msgid ""
 "Invalid date passed: \"{}\". Dates in \"YYYY-MM-DD\" format are expected"
 msgstr ""
+"Tanggal tidak valid diberikan: \"{}\". Tanggal dalam format \"YYYY-MM-DD\" "
+"diharapkan"
 
 #: session.cpp:270
 #, c++-format
 msgid "\"{}\" date cannot be represented by time_t type on this platform"
 msgstr ""
+"Tanggal \"{}\" tidak dapat direpresentasikan oleh tipe time_t pada platform "
+"ini"
 
 #: utils/userconfirm.cpp:46
 msgid "Is this ok [Y/n]: "
-msgstr ""
+msgstr "Apakah ini sudah benar [Y/n]: "
 
 #: utils/userconfirm.cpp:49
 msgid "Is this ok [y/N]: "
-msgstr ""
+msgstr "Apakah ini sudah benar [y/N]: "
 
 #~ msgid "No matches found."
 #~ msgstr "Tidak ditemukan yang cocok."
