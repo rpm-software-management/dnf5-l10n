@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-08 12:03+0000\n"
+"POT-Creation-Date: 2026-09-15 22:27+0000\n"
 "PO-Revision-Date: 2026-09-11 21:18+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -1775,46 +1775,38 @@ msgstr ""
 "Błąd podczas analizowania zwięzłego zapisu zasad zmiany dostawcy w „{}” na "
 "pozycji {}"
 
-#: solv/vendor_change_manager.cpp:913
-msgid "Empty vendor policy string"
-msgstr "Pusty ciąg polityki dostawcy"
-
-#: solv/vendor_change_manager.cpp:930
+#: solv/vendor_change_manager.cpp:931
 msgid "Expected package filter after '@'"
 msgstr "Oczekiwany filtr pakietu po znaku „@”"
 
-#: solv/vendor_change_manager.cpp:943
+#: solv/vendor_change_manager.cpp:944
 #, c++-format
 msgid "Unexpected character '{}'"
 msgstr "Nieoczekiwany znak '{}'"
 
-#: solv/vendor_change_manager.cpp:947
-msgid "Empty policy: no vendor definitions or package filters specified"
-msgstr "Pusta polityka: nie określono definicji dostawców ani filtrów pakietów"
-
-#: solv/vendor_change_manager.cpp:1023
+#: solv/vendor_change_manager.cpp:1020
 msgid "Expected quoted string starting with '\"'"
 msgstr "Oczekiwano ciągu znaków w cudzysłowie zaczynającego się od '\"'"
 
-#: solv/vendor_change_manager.cpp:1031
+#: solv/vendor_change_manager.cpp:1028
 msgid "Unterminated escape sequence"
 msgstr "Niezakończona sekwencja ucieczki"
 
-#: solv/vendor_change_manager.cpp:1037
+#: solv/vendor_change_manager.cpp:1034
 #, c++-format
 msgid "Invalid escape sequence '\\{}'. Only '\\\"' and '\\\\' are supported"
 msgstr ""
 "Nieprawidłowa sekwencja ucieczki „\\{}”. Obsługiwane są tylko „\\” i „\\\\”"
 
-#: solv/vendor_change_manager.cpp:1044
+#: solv/vendor_change_manager.cpp:1041
 msgid "Unterminated quoted string"
 msgstr "Niezakończony ciąg w cudzysłowie"
 
-#: solv/vendor_change_manager.cpp:1079
+#: solv/vendor_change_manager.cpp:1076
 msgid "Expected direction prefix 'in', 'out', or 'eq'"
 msgstr "Oczekiwany prefiks kierunku „in”, „out” lub „eq”"
 
-#: solv/vendor_change_manager.cpp:1143
+#: solv/vendor_change_manager.cpp:1140
 msgid ""
 "Expected comparison operator: relational (<, <=, >, >=) or string (=, ^, $, "
 "*, =*, =~; optionally prefixed with ! and/or i"
@@ -1822,7 +1814,7 @@ msgstr ""
 "Oczekiwany operator porównania: relacyjny (<, <=, >, >=) lub łańcuchowy (=, "
 "^, $, *, =*, =~; opcjonalnie poprzedzony znakiem ! i/lub i"
 
-#: solv/vendor_change_manager.cpp:1208
+#: solv/vendor_change_manager.cpp:1205
 msgid ""
 "Vendor definition does not support relational comparators. Use string "
 "comparators: =, ^, $, *, =*, =~"
@@ -1830,35 +1822,35 @@ msgstr ""
 "Definicja dostawcy nie obsługuje komparatorów relacyjnych. Użyj komparatorów "
 "łańcuchowych: =, ^, $, *, =*, =~"
 
-#: solv/vendor_change_manager.cpp:1216
+#: solv/vendor_change_manager.cpp:1213
 #, c++-format
 msgid "Invalid regex vendor pattern '{}': {}"
 msgstr "Nieprawidłowy wzorzec dostawcy wyrażenia regularnego „{}”: {}"
 
-#: solv/vendor_change_manager.cpp:1234
+#: solv/vendor_change_manager.cpp:1231
 #, c++-format
 msgid "Unknown filter field name '{}'"
 msgstr "Nieznana nazwa pola filtra '{}'"
 
-#: solv/vendor_change_manager.cpp:1244
+#: solv/vendor_change_manager.cpp:1241
 msgid "Expected filter field name"
 msgstr "Oczekiwana nazwa pola filtra"
 
-#: solv/vendor_change_manager.cpp:1267
+#: solv/vendor_change_manager.cpp:1264
 #, c++-format
 msgid "Invalid epoch value \"{}\""
 msgstr "Nieprawidłowa wartość epoki „{}”"
 
-#: solv/vendor_change_manager.cpp:1271
+#: solv/vendor_change_manager.cpp:1268
 msgid "Filter 'cmdline_repo' only supports the '=' (EXACT) comparator"
 msgstr "Filtr „cmdline_repo” obsługuje tylko komparator „=” (EXACT)"
 
-#: solv/vendor_change_manager.cpp:1274
+#: solv/vendor_change_manager.cpp:1271
 msgid "Filter 'cmdline_repo' is only allowed in incoming packages ('in:')"
 msgstr ""
 "Filtr „cmdline_repo” jest dozwolony tylko w pakietach przychodzących („in:”)"
 
-#: solv/vendor_change_manager.cpp:1285
+#: solv/vendor_change_manager.cpp:1282
 #, c++-format
 msgid ""
 "Invalid value '{}' for 'cmdline_repo' filter. Use 'true', '1', 'false', or "
@@ -1867,27 +1859,27 @@ msgstr ""
 "Nieprawidłowa wartość „{}” dla filtra „cmdline_repo”. Użyj wartości „true”, "
 "„1”, „false” lub „0”"
 
-#: solv/vendor_change_manager.cpp:1289
+#: solv/vendor_change_manager.cpp:1286
 #, c++-format
 msgid "Filter '{}' only supports relational comparators: =, !=, >, >=, <, <="
 msgstr "Filtr '{}' obsługuje tylko komparatory relacyjne: =, !=, >, >=, <, <="
 
-#: solv/vendor_change_manager.cpp:1293
+#: solv/vendor_change_manager.cpp:1290
 #, c++-format
 msgid "Filter '{}' only supports string comparators: =, ^, $, *, =*, =~"
 msgstr "Filtr '{}' obsługuje tylko komparatory ciągów: =, ^, $, *, =*, =~"
 
-#: solv/vendor_change_manager.cpp:1302
+#: solv/vendor_change_manager.cpp:1299
 #, c++-format
 msgid "Invalid regex '{}': {}"
 msgstr "Nieprawidłowe wyrażenie regularne '{}': {}"
 
-#: solv/vendor_change_manager.cpp:1313
+#: solv/vendor_change_manager.cpp:1310
 msgid "Package filters do not support 'eq' direction. Use 'in' or 'out'"
 msgstr "Filtry pakietów nie obsługują kierunku „eq”. Użyj „in” lub „out”"
 
-#: solv/vendor_change_manager.cpp:1404 solv/vendor_change_manager.cpp:1454
-#: solv/vendor_change_manager.cpp:1465 solv/vendor_change_manager.cpp:1476
+#: solv/vendor_change_manager.cpp:1401 solv/vendor_change_manager.cpp:1451
+#: solv/vendor_change_manager.cpp:1462 solv/vendor_change_manager.cpp:1473
 msgid "{func}(): Policy index {idx} is out of range"
 msgstr "{func}(): Indeks zasad {idx} jest poza zakresem"
 
@@ -2533,6 +2525,13 @@ msgstr "nie udało się odczytać plików konfiguracyjnych rpm"
 #: utils/system.cpp:52
 msgid "Failed to execute uname()"
 msgstr "Nie udało się wykonać uname()"
+
+#~ msgid "Empty vendor policy string"
+#~ msgstr "Pusty ciąg polityki dostawcy"
+
+#~ msgid "Empty policy: no vendor definitions or package filters specified"
+#~ msgstr ""
+#~ "Pusta polityka: nie określono definicji dostawców ani filtrów pakietów"
 
 #~ msgid "failed to save xml document for comps"
 #~ msgstr "nie udało się zapisać dokumentu xml dla comps"
