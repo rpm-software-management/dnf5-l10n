@@ -6,13 +6,14 @@
 # Karol Kosek <krkkx@protonmail.com>, 2025.
 # Marcin Juszkiewicz <mjuszkie@redhat.com>, 2025.
 # Nik Nikovsky <zejdzztegomaila@gmail.com>, 2026.
+# Tomasz Bojanowski <tomasz@bojanowski.me>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-15 22:27+0000\n"
-"PO-Revision-Date: 2026-09-04 11:18+0000\n"
-"Last-Translator: Paweł Marciniak <sunwire+fas@gmail.com>\n"
+"PO-Revision-Date: 2026-09-17 21:16+0000\n"
+"Last-Translator: Tomasz Bojanowski <tomasz@bojanowski.me>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/pl/>\n"
 "Language: pl\n"
@@ -21,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2026.9\n"
+"X-Generator: Weblate 2026.9.1\n"
 
 #: cmdline_aliases.cpp:84 context.cpp:198 main.cpp:1449
 msgid ", "
@@ -228,11 +229,11 @@ msgstr "Zarządzaj ostrzeżeniami"
 
 #: commands/advisory/advisory_info.hpp:35
 msgid "Print details about advisories"
-msgstr "Wydrukuj szczegóły dotyczące ostrzeżeń"
+msgstr "Wyświetl szczegóły ostrzeżeń"
 
 #: commands/advisory/advisory_list.hpp:35
 msgid "List advisories"
-msgstr "Wyświetl ostrzeżenia"
+msgstr "Wyświetl listę ostrzeżeń"
 
 #: commands/advisory/advisory_subcommand.cpp:93 commands/no_matches.cpp:74
 #: commands/repoquery/repoquery.cpp:903
@@ -257,7 +258,7 @@ msgstr "Dostępne"
 
 #: commands/advisory/advisory_summary.hpp:33
 msgid "Print summary of advisories"
-msgstr "Pokaż podsumowanie ostrzeżeń"
+msgstr "Wyświetl podsumowanie ostrzeżeń"
 
 #: commands/advisory/arguments.hpp:34
 msgid "Show advisories containing any version of installed packages."
@@ -363,7 +364,7 @@ msgid ""
 "option. Can be \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgstr ""
 "Uwzględnij treść zawartą w ostrzeżeniach o określonej powadze. Opcja listy. "
-"Może być „critical\", „important\", „moderate\", „low\", „none\"."
+"Może być „critical”, „important”, „moderate”, „low”, „none”."
 
 #: commands/advisory_shared.hpp:235
 msgid "ADVISORY_SEVERITY,..."
@@ -379,7 +380,7 @@ msgstr ""
 
 #: commands/advisory_shared.hpp:248
 msgid "BUGZILLA_ID,..."
-msgstr "ID_BUGZILLI..."
+msgstr "ID_BUGZILLI,..."
 
 #: commands/advisory_shared.hpp:258
 msgid ""
@@ -433,7 +434,7 @@ msgstr "Sprawdź, czy nie ma problemów w packagedb"
 #: commands/check/check.cpp:335
 #, c++-format
 msgid "Check discovered {} problem(s) in {} package(s)"
-msgstr "Sprawdź odkryte {} problemy w {} pakietach"
+msgstr "Sprawdzanie wykryło {} problemów w {} pakietach"
 
 #: commands/clean/clean.cpp:91
 #, c++-format
@@ -470,7 +471,7 @@ msgstr "Zainstaluj pakiety debuginfo."
 msgid ""
 "Upgrade or downgrade installed software to the latest available versions"
 msgstr ""
-"Uaktualnij lub obniż wersję zainstalowanego oprogramowania do najnowszych "
+"Zaktualizuj lub obniż wersję zainstalowanego oprogramowania do najnowszych "
 "dostępnych wersji"
 
 #: commands/do/do.cpp:42
@@ -788,7 +789,7 @@ msgstr "Wyświetl listę pakietów ostatnio dodanych do repozytoriów."
 
 #: commands/list/list.cpp:98
 msgid "List upgrades available for the installed packages."
-msgstr "Wyświetl listę uaktualnień dostępnych dla zainstalowanych pakietów."
+msgstr "Wyświetl listę aktualizacji dostępnych dla zainstalowanych pakietów."
 
 #: commands/list/list.cpp:102
 msgid "List packages which will be removed by the 'dnf autoremove' command."
@@ -944,7 +945,7 @@ msgstr "{} nie jest pożądany przez system-update.target."
 #, c++-format
 msgid "The system will now reboot to upgrade to release version {}."
 msgstr ""
-"System zostanie teraz uruchomiony ponownie w celu uaktualnienia do wersji {}."
+"System zostanie teraz uruchomiony ponownie w celu aktualizacji do wydania {}."
 
 #: commands/offline/offline.cpp:394
 msgid ""
@@ -1205,7 +1206,7 @@ msgstr "Przygotowuje system do aktualizacji do nowego wydania"
 
 #: commands/system-upgrade/system-upgrade.cpp:72
 msgid "Download everything needed to upgrade to a new release"
-msgstr "Pobierz wszystko, co jest potrzebne do uaktualnienia do nowej wersji"
+msgstr "Pobierz wszystko, co jest potrzebne do aktualizacji do nowego wydania"
 
 #: commands/system-upgrade/system-upgrade.cpp:80
 msgid ""
@@ -1227,12 +1228,11 @@ msgstr ""
 
 #: commands/system-upgrade/system-upgrade.cpp:172
 msgid "Store an upgrade transaction to be performed offline"
-msgstr ""
-"Przechowuj transakcję uaktualnienia, która zostanie wykonana w trybie offline"
+msgstr "Zapisz transakcję aktualizacji do wykonania w trybie offline"
 
 #: commands/upgrade/upgrade.cpp:41
 msgid "Upgrade software"
-msgstr "Uaktualnij oprogramowanie"
+msgstr "Zaktualizuj oprogramowanie"
 
 #: commands/upgrade/upgrade.cpp:48
 msgid ""
@@ -1241,10 +1241,10 @@ msgid ""
 "limiting advisories is used it upgrades packages only to the lowest versions "
 "that fix advisories that matching selected advisory property"
 msgstr ""
-"Uaktualniaj pakiety tylko do najniższych wersji, które naprawiają "
-"ostrzeżenia typu bugfix, enhancement, security lub newpackage. W przypadku "
-"użycia jakiejkolwiek opcji ograniczającej ostrzeżenia uaktualnia ona pakiety "
-"tylko do najniższych wersji, które naprawiają ostrzeżenia, które pasują do "
+"Aktualizuj pakiety tylko do najniższych wersji, które naprawiają ostrzeżenia "
+"typu bugfix, enhancement, security lub newpackage. W przypadku użycia "
+"jakiejkolwiek opcji ograniczającej ostrzeżenia pakiety są aktualizowane "
+"tylko do najniższych wersji, które naprawiają ostrzeżenia pasujące do "
 "wybranej właściwości ostrzeżenia"
 
 #. TODO(mblaha): add full command line
