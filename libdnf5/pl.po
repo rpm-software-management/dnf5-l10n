@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-15 22:27+0000\n"
-"PO-Revision-Date: 2026-09-17 21:16+0000\n"
+"PO-Revision-Date: 2026-09-17 21:44+0000\n"
 "Last-Translator: Tomasz Bojanowski <tomasz@bojanowski.me>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/pl/>\n"
@@ -769,11 +769,11 @@ msgstr "Import klucza publicznego nie powiódł się."
 
 #: base/transaction.cpp:993
 msgid "poll failed during scriptlets pipe processing"
-msgstr "sondowanie nie powiodło się podczas przetwarzania potoku skryptletów"
+msgstr "sondowanie nie powiodło się podczas przetwarzania potoku scriptletów"
 
 #: base/transaction.cpp:1016
 msgid "failed to read scriptlet output from pipe"
-msgstr "nie udało się odczytać wyjścia skryptletu z potoku"
+msgstr "nie udało się odczytać wyjścia scriptletu z potoku"
 
 #: base/transaction.cpp:1134
 #, c++-format
@@ -1127,7 +1127,7 @@ msgstr "Brak znaku „:” w wartości"
 #: module/module_sack.cpp:911
 #, c++-format
 msgid "Invalid module status: {}"
-msgstr "Nieprawidłowy status modułu: {}"
+msgstr "Nieprawidłowy stan modułu: {}"
 
 #: plugin/plugins.cpp:68
 #, c++-format
@@ -1610,7 +1610,7 @@ msgstr ""
 #: solv/vendor_change_manager.cpp:484 solv/vendor_change_manager.cpp:709
 #, c++-format
 msgid "Unknown key '{}' in \"{}\" on line {}"
-msgstr "Nieznany klucz '{}' w \"{}\" w linii {}"
+msgstr "Nieznany klucz '{}' w \"{}\" w wierszu {}"
 
 #: solv/vendor_change_manager.cpp:401
 #, c++-format
@@ -1619,7 +1619,7 @@ msgid ""
 "line {}"
 msgstr ""
 "Konfiguracja „{}” wykorzystuje wersję „1.0”, która nie obsługuje klucza „{}” "
-"w linii {}"
+"w wierszu {}"
 
 #: solv/vendor_change_manager.cpp:420
 #, c++-format
@@ -1635,7 +1635,8 @@ msgstr ""
 msgid ""
 "Missing package filter definition in \"{}\" in table starting on line {}"
 msgstr ""
-"Brak definicji filtra pakietów w „{}” w tabeli zaczynającej się od linii {}"
+"Brak definicji filtra pakietów w „{}” w tabeli rozpoczynającej się w wierszu "
+"{}"
 
 #: solv/vendor_change_manager.cpp:473
 #, c++-format
@@ -1661,7 +1662,7 @@ msgstr ""
 #: solv/vendor_change_manager.cpp:535
 #, c++-format
 msgid "Bad value type in \"{}\" on line {}: {}"
-msgstr "Nieprawidłowy typ wartości w \"{}\" w linii {}: {}"
+msgstr "Nieprawidłowy typ wartości w \"{}\" w wierszu {}: {}"
 
 #: solv/vendor_change_manager.cpp:541
 #, c++-format
@@ -1689,7 +1690,7 @@ msgstr ""
 #: solv/vendor_change_manager.cpp:651
 #, c++-format
 msgid "Unknown 'comparator' \"{}\" in \"{}\" on line {}"
-msgstr "Nieznany 'komparator' \"{}\" w \"{}\" w linii {}"
+msgstr "Nieznany 'komparator' \"{}\" w \"{}\" w wierszu {}"
 
 #: solv/vendor_change_manager.cpp:655
 #, c++-format
@@ -1702,17 +1703,17 @@ msgstr ""
 #: solv/vendor_change_manager.cpp:694
 #, c++-format
 msgid "Unknown 'filter' \"{}\" in \"{}\" on line {}"
-msgstr "Nieznany 'filtr' \"{}\" w \"{}\" w linii {}"
+msgstr "Nieznany 'filtr' \"{}\" w \"{}\" w wierszu {}"
 
 #: solv/vendor_change_manager.cpp:715
 #, c++-format
 msgid "Missing 'filter' key in \"{}\" for table entry on line {}"
-msgstr "Brak klucza „filter” w „{}” dla wpisu tabeli w linii {}"
+msgstr "Brak klucza „filter” w „{}” dla wpisu tabeli w wierszu {}"
 
 #: solv/vendor_change_manager.cpp:720
 #, c++-format
 msgid "Missing 'value' key in \"{}\" for table entry on line {}"
-msgstr "Brak klucza „value” w „{}” dla wpisu tabeli w linii {}"
+msgstr "Brak klucza „value” w „{}” dla wpisu tabeli w wierszu {}"
 
 #: solv/vendor_change_manager.cpp:727
 #, c++-format
@@ -2193,13 +2194,13 @@ msgstr ""
 #: utils/bootc.cpp:46
 #, c++-format
 msgid "Error checking bootc status: {}"
-msgstr "Błąd podczas sprawdzania statusu bootc: {}"
+msgstr "Błąd podczas sprawdzania stanu bootc: {}"
 
 #: utils/bootc.cpp:49
 #, c++-format
 msgid "Error checking bootc status: bootc command failed with exit code {}"
 msgstr ""
-"Błąd sprawdzania statusu bootc: polecenie bootc nie powiodło się z kodem "
+"Błąd sprawdzania stanu bootc: polecenie bootc nie powiodło się z kodem "
 "wyjścia {}"
 
 #: utils/bootc.cpp:58
@@ -2211,7 +2212,7 @@ msgstr ""
 #: utils/bootc.cpp:73
 #, c++-format
 msgid "Failed to query status of bootc system: {}"
-msgstr "Nie udało się sprawdzić statusu systemu bootc: {}"
+msgstr "Nie udało się sprawdzić stanu systemu bootc: {}"
 
 #: utils/bootc.cpp:90
 msgid "Failed to stat /usr filesystem"
@@ -2274,7 +2275,7 @@ msgstr "błąd podczas pobierania pozycji pliku"
 
 #: utils/fs/file.cpp:296
 msgid "error reading a line from file"
-msgstr "błąd odczytu linii z pliku"
+msgstr "błąd odczytu wiersza z pliku"
 
 #: utils/fs/file.cpp:334
 msgid "error retrieving file descriptor"
@@ -2300,12 +2301,12 @@ msgstr "Brakuje ']' w wierszu {}"
 #: utils/iniparser.cpp:129
 #, c++-format
 msgid "Empty section name on line {}"
-msgstr "Pusta nazwa sekcji w linii {}"
+msgstr "Pusta nazwa sekcji w wierszu {}"
 
 #: utils/iniparser.cpp:137
 #, c++-format
 msgid "Text after section on line {}"
-msgstr "Tekst po sekcji w linii {}"
+msgstr "Tekst po sekcji w wierszu {}"
 
 #: utils/iniparser.cpp:147
 #, c++-format
@@ -2315,12 +2316,12 @@ msgstr "Brak nagłówka sekcji w wierszu {}"
 #: utils/iniparser.cpp:152
 #, c++-format
 msgid "Illegal continuation line on line {}"
-msgstr "Nielegalna kontynuacja linii w linii {}"
+msgstr "Niedozwolony wiersz kontynuacji w wierszu {}"
 
 #: utils/iniparser.cpp:159
 #, c++-format
 msgid "Missing option name on line {}"
-msgstr "Brak nazwy opcji w linii {}"
+msgstr "Brak nazwy opcji w wierszu {}"
 
 #: utils/iniparser.cpp:163
 #, c++-format
@@ -2519,7 +2520,7 @@ msgstr "sondowanie nie powiodło się podczas wejścia/wyjścia podprocesu"
 
 #: utils/subprocess.cpp:257
 msgid "unexpected child process status after waitpid"
-msgstr "nieoczekiwany status procesu potomnego po waitpid"
+msgstr "nieoczekiwany stan procesu potomnego po waitpid"
 
 #: utils/system.cpp:34
 msgid "failed to read rpm config files"
