@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-15 22:27+0000\n"
-"PO-Revision-Date: 2026-09-14 18:17+0000\n"
+"PO-Revision-Date: 2026-09-17 21:16+0000\n"
 "Last-Translator: Tomasz Bojanowski <tomasz@bojanowski.me>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5-cli/pl/>\n"
@@ -176,11 +176,12 @@ msgstr "Nie udało się rozwiązać transakcji"
 #: output/moduleinfo.cpp:36
 msgid "Hint: [d]efault, [e]nabled, [x]disabled, [i]nstalled, [a]ctive"
 msgstr ""
-"Wskazówka: [d]omyślne, [e]włączone, [x]wyłączone, [i]zainstalowane, [a]ktywne"
+"Wskazówka: d — domyślne, e — włączone, x — wyłączone, i — zainstalowane, a — "
+"aktywne"
 
 #: output/modulelist.cpp:39
 msgid "Hint: [d]efault, [e]nabled, [x]disabled, [i]nstalled"
-msgstr "Wskazówka: [d]omyślne, [e]włączone, [x]wyłączone, [i]zainstalowane"
+msgstr "Wskazówka: d — domyślne, e — włączone, x — wyłączone, i — zainstalowane"
 
 #. Note for translators: This is a right-aligned column separator in
 #. a package properties table as in "Name    : bash".
@@ -252,7 +253,7 @@ msgstr "Opis"
 
 #: output/packageinfo.cpp:109
 msgid "Vendor"
-msgstr "Producent"
+msgstr "Dostawca"
 
 #: output/search.cpp:45
 msgid " (exact)"
@@ -361,9 +362,9 @@ msgstr[2] " Instalowanie poprzedniej wersji:    {:4} pakietów\n"
 #, c++-format
 msgid " Changing reason: {:4} package\n"
 msgid_plural " Changing reason: {:4} packages\n"
-msgstr[0] " Zmienianie przyczyny: {:4} pakietu\n"
-msgstr[1] " Zmienianie przyczyny: {:4} pakietów\n"
-msgstr[2] " Zmienianie przyczyny: {:4} pakietów\n"
+msgstr[0] " Zmienianie przyczyny:               {:4} pakietu\n"
+msgstr[1] " Zmienianie przyczyny:               {:4} pakietów\n"
+msgstr[2] " Zmienianie przyczyny:               {:4} pakietów\n"
 
 #. Keep the replaceble number aligned across all messages.
 #: output/transaction_table.cpp:196
