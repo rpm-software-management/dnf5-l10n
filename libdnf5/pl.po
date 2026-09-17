@@ -10,9 +10,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-15 22:27+0000\n"
-"PO-Revision-Date: 2026-09-11 21:18+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2026-09-17 21:16+0000\n"
+"Last-Translator: Tomasz Bojanowski <tomasz@bojanowski.me>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/pl/>\n"
 "Language: pl\n"
@@ -49,7 +48,7 @@ msgstr "Nieprawidłowa wartość opcji: enabled={}"
 #: base/goal.cpp:490
 #, c++-format
 msgid "Unsupported argument for REMOVE action: {}"
-msgstr "Nieobsługiwany argument dla akcji USUŃ: {}"
+msgstr "Nieobsługiwany argument dla akcji REMOVE: {}"
 
 #. TODO(lukash) throw a proper exception
 #: base/goal.cpp:1741
@@ -63,7 +62,7 @@ msgstr "Instalacja"
 
 #: base/goal_elements.cpp:360
 msgid "Install via provide"
-msgstr "Instalacja za pośrednictwem dostawcy"
+msgstr "Instalacja przez dostarczany zasób"
 
 #: base/goal_elements.cpp:362
 msgid "Install by group"
@@ -75,7 +74,7 @@ msgstr "Aktualizacja"
 
 #: base/goal_elements.cpp:366
 msgid "Upgrade all"
-msgstr "Zaktualizuj wszystko"
+msgstr "Aktualizacja wszystkiego"
 
 #: base/goal_elements.cpp:368
 msgid "Upgrade minimal"
@@ -83,7 +82,7 @@ msgstr "Minimalna aktualizacja"
 
 #: base/goal_elements.cpp:370
 msgid "Upgrade all minimal"
-msgstr "Aktualizuj wszystko minimalnie"
+msgstr "Minimalna aktualizacja wszystkiego"
 
 #: base/goal_elements.cpp:372 transaction/transaction_item_action.cpp:68
 msgid "Downgrade"
@@ -95,7 +94,7 @@ msgstr "Ponowna instalacja"
 
 #: base/goal_elements.cpp:376
 msgid "Install or reinstall"
-msgstr "Zainstaluj lub zainstaluj ponownie"
+msgstr "Instalacja lub ponowna instalacja"
 
 #: base/goal_elements.cpp:378 transaction/transaction_item_action.cpp:72
 msgid "Remove"
@@ -159,11 +158,11 @@ msgstr "zastąpienia przyczyny"
 
 #: base/goal_elements.cpp:408
 msgid "Revert comps upgrade"
-msgstr "Przywróć aktualizację comps"
+msgstr "Cofnięcie aktualizacji comps"
 
 #: base/goal_elements.cpp:410
 msgid "Install debug RPMs"
-msgstr "Zainstaluj pakiety RPM do debugowania"
+msgstr "Instalacja pakietów RPM do debugowania"
 
 #: base/goal_elements.cpp:412
 msgid "Transaction merge"
@@ -358,7 +357,7 @@ msgid ""
 "{0} upgrade cannot be reverted, however associated package actions will be. "
 "({1} id: '{2}') ."
 msgstr ""
-"{0} uaktualnienia nie można cofnąć, ale powiązane z nim działania pakietu "
+"{0} aktualizacji nie można cofnąć, ale powiązane z nim działania pakietu "
 "będą cofnięte. ({1} id: '{2}') ."
 
 #: base/log_event.cpp:279
@@ -584,7 +583,9 @@ msgstr ""
 #, c++-format
 msgid ""
 "package {1} from {2} requires {0}, but none of the providers can be installed"
-msgstr "pakiet {1} z {2} wymaga {0}, ale żaden z dostawców go nie dostarcza"
+msgstr ""
+"pakiet {1} z {2} wymaga {0}, ale nie można zainstalować żadnego z pakietów "
+"to dostarczających"
 
 #: base/solver_problems.cpp:68
 #, c++-format
@@ -592,8 +593,8 @@ msgid ""
 "installed package {1} requires {0}, but none of the providers can be "
 "installed"
 msgstr ""
-"zainstalowany pakiet {1} wymaga {0}, ale od żadnego z dostawców nie można "
-"zainstalować"
+"zainstalowany pakiet {1} wymaga {0}, ale nie można zainstalować żadnego z "
+"pakietów to dostarczających"
 
 #: base/solver_problems.cpp:69
 #, c++-format
@@ -701,7 +702,9 @@ msgstr "moduł {0} niebezpośrednio zastępuje {1} dostarczane przez {2}"
 #: base/solver_problems.cpp:101
 #, c++-format
 msgid "module {1} requires {0}, but none of the providers can be installed"
-msgstr "moduł {1} wymaga {0}, ale żaden z dostawców go nie dostarcza"
+msgstr ""
+"moduł {1} wymaga {0}, ale nie można zainstalować żadnego z pakietów to "
+"dostarczających"
 
 #: base/solver_problems.cpp:102
 #, c++-format
@@ -878,7 +881,7 @@ msgstr "Ogólny wyjątek RuntimeError"
 #: common/proc.cpp:88
 #, c++-format
 msgid "Cannot stat {}"
-msgstr "Nie pobrać statusu pliku {}"
+msgstr "Nie można uzyskać informacji o pliku „{}”"
 
 #: common/proc.cpp:124
 #, c++-format
@@ -1097,12 +1100,12 @@ msgstr "Nie udało się rozwiązać metadanych modułu: {}"
 #: module/module_metadata.cpp:140
 #, c++-format
 msgid "Failed to upgrade defaults: {}"
-msgstr "Nie udało się uaktualnić ustawień domyślnych: {}"
+msgstr "Nie udało się zaktualizować ustawień domyślnych: {}"
 
 #: module/module_metadata.cpp:144
 #, c++-format
 msgid "Failed to upgrade streams: {}"
-msgstr "Nie udało się uaktualnić strumieni: {}"
+msgstr "Nie udało się zaktualizować strumieni: {}"
 
 #: module/module_sack.cpp:93
 #, c++-format
@@ -1498,7 +1501,7 @@ msgid ""
 "versions after an interrupted upgrade. Please remove the duplicate packages "
 "using \"dnf remove\" and retry."
 msgstr ""
-"Transakcja rp, nieoczekiwanie usuwała pakiety niezaplanowane przez solver: "
+"Transakcja rpm nieoczekiwanie usunęłaby pakiety niezaplanowane przez solver: "
 "{}. Dzieje się tak zazwyczaj, gdy baza danych rpm zawiera zduplikowane "
 "wersje pakietów po przerwanej aktualizacji. Usuń zduplikowane pakiety za "
 "pomocą polecenia „dnf remove” i spróbuj ponownie."
@@ -1556,7 +1559,7 @@ msgstr "Nie można usunąć pakietu „{}”"
 #: rpm/transaction.cpp:399
 #, c++-format
 msgid "Cannot upgrade package \"{}\""
-msgstr "Nie można uaktualnić pakietu „{}”"
+msgstr "Nie można zaktualizować pakietu „{}”"
 
 #: rpm/transaction.cpp:403
 #, c++-format
@@ -2024,8 +2027,8 @@ msgid ""
 "Action 'Upgrade' '{0}' cannot be merged because it is not present at that "
 "point -> setting 'Install'."
 msgstr ""
-"Akcji „Uaktualnij” „{0}” nie można scalić, ponieważ nie istnieje ona w tym "
-"momencie -> ustawienie „Instaluj”."
+"Akcji „Aktualizacja” „{0}” nie można scalić, ponieważ nie istnieje w tym "
+"momencie -> ustawienie „Instalacja”."
 
 #: transaction/transaction_merge.cpp:174 transaction/transaction_merge.cpp:231
 #, c++-format
