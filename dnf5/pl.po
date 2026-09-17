@@ -12,9 +12,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-15 22:27+0000\n"
-"PO-Revision-Date: 2026-09-17 21:16+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2026-09-17 21:44+0000\n"
+"Last-Translator: Tomasz Bojanowski <tomasz@bojanowski.me>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/pl/>\n"
 "Language: pl\n"
@@ -36,7 +35,7 @@ msgid ""
 "line {}: {}"
 msgstr ""
 "Dołączony argument nazwany \"{}\" nie został znaleziony: {}: Żądano w pliku "
-"\"{}\" w linii {}: {}"
+"\"{}\" w wierszu {}: {}"
 
 #: cmdline_aliases.cpp:159
 #, c++-format
@@ -45,7 +44,7 @@ msgid ""
 "\"{}\" on line {}: {}"
 msgstr ""
 "Nieznany atrybut „{}” dołączonego nazwanego argumentu dla aliasu „{}” w "
-"pliku „{}” w linii {}: {}"
+"pliku „{}” w wierszu {}: {}"
 
 #: cmdline_aliases.cpp:171
 #, c++-format
@@ -61,7 +60,7 @@ msgstr "Nieobsługiwana wersja „{}” w pliku „{}”. Obsługiwane wersje: {
 #, c++-format
 msgid "Bad value type of attribute \"version\" in file \"{}\" on line {}: {}"
 msgstr ""
-"Nieprawidłowy typ wartości atrybutu „wersja” w pliku „{}” w linii {}: {}"
+"Nieprawidłowy typ wartości atrybutu „version” w pliku „{}” w wierszu {}: {}"
 
 #: cmdline_aliases.cpp:224
 #, c++-format
@@ -71,13 +70,14 @@ msgstr "Brak atrybutu „wersja” w pliku „{}”"
 #: cmdline_aliases.cpp:236
 #, c++-format
 msgid "Unknown key \"{}\" in file \"{}\" on line {}: {}"
-msgstr "Nieznany klucz „{}” w pliku „{}” w linii {}: {}"
+msgstr "Nieznany klucz „{}” w pliku „{}” w wierszu {}: {}"
 
 #: cmdline_aliases.cpp:253
 #, c++-format
 msgid "Empty or bad element id path in file \"{}\" on line {}: {}"
 msgstr ""
-"Pusta lub błędna ścieżka identyfikatora elementu w pliku „{}” w linii {}: {}"
+"Pusta lub błędna ścieżka identyfikatora elementu w pliku „{}” w wierszu {}: "
+"{}"
 
 #: cmdline_aliases.cpp:272
 #, c++-format
@@ -90,7 +90,7 @@ msgstr ""
 #: cmdline_aliases.cpp:301
 #, c++-format
 msgid "Unknown type \"{}\" of element \"{}\" in file \"{}\" on line {}: {}"
-msgstr "Nieznany typ „{}” elementu „{}” w pliku „{}” w linii {}: {}"
+msgstr "Nieznany typ „{}” elementu „{}” w pliku „{}” w wierszu {}: {}"
 
 #: cmdline_aliases.cpp:312
 #, c++-format
@@ -104,20 +104,20 @@ msgid ""
 "{}: {}"
 msgstr ""
 "Nazwany argument \"{}\" jest już zarejestrowany. Zażądano w pliku \"{}\" w "
-"linii {}: {}"
+"wierszu {}: {}"
 
 #: cmdline_aliases.cpp:347
 #, c++-format
 msgid ""
 "Command \"{}\" already registered. Requested in file \"{}\" on line {}: {}"
 msgstr ""
-"Polecenie \"{}\" jest już zarejestrowane. Zażądano w pliku \"{}\" w linii "
+"Polecenie \"{}\" jest już zarejestrowane. Zażądano w pliku \"{}\" w wierszu "
 "{}: {}"
 
 #: cmdline_aliases.cpp:375
 #, c++-format
 msgid "Unknown attribute \"{}\" of group \"{}\" in file \"{}\" on line {}: {}"
-msgstr "Nieznany atrybut „{}” grupy „{}” w pliku „{}” w linii {}: {}"
+msgstr "Nieznany atrybut „{}” grupy „{}” w pliku „{}” w wierszu {}: {}"
 
 #: cmdline_aliases.cpp:387
 #, c++-format
@@ -137,13 +137,14 @@ msgstr ""
 #, c++-format
 msgid "Source \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
 msgstr ""
-"Źródło „{}” nie zostało znalezione: {}: Żądano w pliku „{}” w linii {}: {}"
+"Źródło „{}” nie zostało znalezione: {}: Żądano w pliku „{}” w wierszu {}: {}"
 
 #: cmdline_aliases.cpp:462 cmdline_aliases.cpp:563 cmdline_aliases.cpp:676
 #, c++-format
 msgid "Group \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
 msgstr ""
-"Grupa \"{}\" nie została znaleziona: {}: Żądano w pliku \"{}\" w linii {}: {}"
+"Grupa \"{}\" nie została znaleziona: {}: Żądano w pliku \"{}\" w wierszu {}: "
+"{}"
 
 #: cmdline_aliases.cpp:476 cmdline_aliases.cpp:579
 #, c++-format
@@ -151,7 +152,7 @@ msgid ""
 "Unknown attribute \"{}\" of named argument \"{}\" in file \"{}\" on line {}: "
 "{}"
 msgstr ""
-"Nieznany atrybut „{}” argumentu nazwanego „{}” w pliku „{}” w linii {}: {}"
+"Nieznany atrybut „{}” argumentu nazwanego „{}” w pliku „{}” w wierszu {}: {}"
 
 #: cmdline_aliases.cpp:489
 #, c++-format
@@ -174,7 +175,7 @@ msgid ""
 "{}"
 msgstr ""
 "Dołączone polecenie „{}” nie zostało znalezione: {}: Żądano w pliku „{}” w "
-"linii {}: {}"
+"wierszu {}: {}"
 
 #: cmdline_aliases.cpp:691
 #, c++-format
@@ -183,7 +184,7 @@ msgid ""
 "file \"{}\" on line {}: {}"
 msgstr ""
 "Użyto pliku konfiguracyjnego w wersji „1.0” dla atrybutu „{}” polecenia „{}” "
-"w pliku „{}” w linii {}: {}"
+"w pliku „{}” w wierszu {}: {}"
 
 #: cmdline_aliases.cpp:713
 #, c++-format
@@ -192,7 +193,7 @@ msgid ""
 "on line {}: {}"
 msgstr ""
 "Nieznany atrybut „{}” wymaganej wartości dla aliasu „{}” w pliku „{}” w "
-"linii {}: {}"
+"wierszu {}: {}"
 
 #: cmdline_aliases.cpp:726
 #, c++-format
@@ -206,7 +207,7 @@ msgstr ""
 #, c++-format
 msgid ""
 "Unknown attribute \"{}\" of command \"{}\" in file \"{}\" on line {}: {}"
-msgstr "Nieznany atrybut „{}” polecenia „{}” w pliku „{}” w linii {}: {}"
+msgstr "Nieznany atrybut „{}” polecenia „{}” w pliku „{}” w wierszu {}: {}"
 
 #: cmdline_aliases.cpp:756
 #, c++-format
@@ -217,7 +218,7 @@ msgstr "Brak atrybutu „attached_command” dla polecenia „{}” w pliku „{
 #: cmdline_aliases.cpp:791
 #, c++-format
 msgid "Bad value type in file \"{}\" on line {}: {}"
-msgstr "Nieprawidłowy typ wartości w pliku \"{}\" w linii {}: {}"
+msgstr "Nieprawidłowy typ wartości w pliku \"{}\" w wierszu {}: {}"
 
 #: cmdline_aliases.cpp:804
 #, c++-format
@@ -1018,7 +1019,7 @@ msgstr "Nie można dopasować wpisu dziennika systemd."
 
 #: commands/offline/offline.cpp:708
 msgid "Show logs from past offline transactions"
-msgstr "Pokaż logi z poprzednich transakcji offline"
+msgstr "Pokaż dzienniki z poprzednich transakcji offline"
 
 #: commands/offline/offline.cpp:716
 msgid ""
@@ -1037,7 +1038,7 @@ msgstr ""
 
 #: commands/offline/offline.cpp:736
 msgid "Show status of the current offline transaction"
-msgstr "Pokaż status bieżącej transakcji offline"
+msgstr "Pokaż stan bieżącej transakcji offline"
 
 #: commands/offline/offline.cpp:752
 msgid ""
@@ -1078,7 +1079,7 @@ msgstr ""
 
 #: commands/offline/offline.cpp:769
 msgid "Unknown offline transaction status: "
-msgstr "Nieznany status transakcji offline: "
+msgstr "Nieznany stan transakcji offline: "
 
 #: commands/provides/provides.cpp:50
 msgid "Find what package provides the given value"
@@ -1224,8 +1225,7 @@ msgstr "Wymagana jest wersja --releasever większa niż bieżąca wersja systemu
 #: commands/system-upgrade/system-upgrade.cpp:150
 msgid "Store a distro-sync transaction to be performed offline"
 msgstr ""
-"Przechowuj transakcję synchronizacji dystrybucji, która będzie wykonywana w "
-"trybie offline"
+"Zapisz transakcję synchronizacji dystrybucji do wykonania w trybie offline"
 
 #: commands/system-upgrade/system-upgrade.cpp:172
 msgid "Store an upgrade transaction to be performed offline"
@@ -1252,11 +1252,11 @@ msgstr ""
 #: commands/versionlock/utils.cpp:35
 #, c++-format
 msgid "Added by 'versionlock {}' command on {}"
-msgstr "Dodano poleceniem 'versionlock {}' w {}"
+msgstr "Dodano poleceniem „versionlock {}” w dniu {}"
 
 #: commands/versionlock/versionlock.cpp:40
 msgid "Manage versionlock configuration"
-msgstr "Zarządzaj konfiguracją blokady wersji"
+msgstr "Zarządzaj konfiguracją versionlock"
 
 #: commands/versionlock/versionlock_add.cpp:37
 msgid "Add new entry to versionlock configuration"
@@ -1300,7 +1300,7 @@ msgstr "Usuwanie wpisu blokady wersji:"
 
 #: commands/versionlock/versionlock_exclude.cpp:37
 msgid "Add new exclude entry to versionlock configuration"
-msgstr "Dodaj nowy wpis wykluczenia do konfiguracji blokady wersji"
+msgstr "Dodaj nowy wpis wykluczenia do konfiguracji versionlock"
 
 #: commands/versionlock/versionlock_exclude.cpp:45
 msgid ""
@@ -1876,7 +1876,7 @@ msgstr ""
 
 #: main.cpp:638
 msgid "Print variable values to stdout"
-msgstr "Wyświetl wartości zmienne na standardowe wyjście (stdout)"
+msgstr "Wyświetl wartości zmiennych na standardowe wyjście"
 
 #: main.cpp:652
 msgid "Show DNF5 version and exit"
@@ -2124,8 +2124,8 @@ msgid ""
 "{}. Dropping all logs. To redirect the log file location use the \"logdir\" "
 "configuration option."
 msgstr ""
-"{}. Usunięcie wszystkich logów. Aby przekierować lokalizację pliku logu, "
-"użyj opcji konfiguracji „logdir”."
+"{}. Usunięcie wszystkich dzienników. Aby przekierować lokalizację pliku "
+"dziennika, użyj opcji konfiguracji „logdir”."
 
 #: main.cpp:1578
 msgid ""
