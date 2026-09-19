@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-15 22:27+0000\n"
-"PO-Revision-Date: 2026-09-18 23:18+0000\n"
+"PO-Revision-Date: 2026-09-20 00:17+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf5/dnf5/pt_BR/>\n"
@@ -1839,19 +1839,15 @@ msgstr ""
 "repositórios"
 
 #: main.cpp:557
-#, fuzzy
-#| msgid "override the value of $releasever in config and repo files"
 msgid "override the value of $releasever_major in config and repo files"
 msgstr ""
-"sobrescreve o valor de $releasever em arquivos de configuração e de "
+"sobrescreve o valor de $releasever_major em arquivos de configuração e de "
 "repositórios"
 
 #: main.cpp:570
-#, fuzzy
-#| msgid "override the value of $releasever in config and repo files"
 msgid "override the value of $releasever_minor in config and repo files"
 msgstr ""
-"sobrescreve o valor de $releasever em arquivos de configuração e de "
+"sobrescreve o valor de $releasever_minor em arquivos de configuração e de "
 "repositórios"
 
 #: main.cpp:583
@@ -1883,7 +1879,7 @@ msgstr "Exibe valores das variáveis para a saída padrão"
 
 #: main.cpp:652
 msgid "Show DNF5 version and exit"
-msgstr "Mostrar a versão do DNF5 e sair"
+msgstr "Mostra a versão do DNF5 e sai"
 
 #: main.cpp:666
 msgid "Force the use of a different architecture."
@@ -1892,6 +1888,8 @@ msgstr "Força o uso de uma arquitetura diferente."
 #: main.cpp:698
 msgid "Skip acquiring file locks, such as the lock on the system repository"
 msgstr ""
+"Ignora a aquisição de bloqueios de arquivo, como o bloqueio no repositório "
+"do sistema"
 
 #: main.cpp:713
 msgid "Software Management Commands:"
@@ -1950,16 +1948,12 @@ msgid "  API version: {}.{}"
 msgstr "  Versão da API: {}.{}"
 
 #: main.cpp:863
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "Loaded {} plugins:"
 msgid ""
 "\n"
 "Loaded libdnf5 plugins:"
 msgstr ""
 "\n"
-"{} plugins carregados:"
+"Plugins do libdnf5 carregados:"
 
 #: main.cpp:910
 #, c++-format
@@ -2058,10 +2052,9 @@ msgid "{} to skip uninstallable packages"
 msgstr "{} para ignorar pacotes desinstaláveis"
 
 #: main.cpp:1229
-#, fuzzy, c++-format
-#| msgid "{} to allow extra packages in the transaction"
+#, c++-format
 msgid "{} to allow changing package vendors"
-msgstr "{} para permitir pacotes extras na transação"
+msgstr "{} para permitir a alteração de fornecedores de pacotes"
 
 #: main.cpp:1233
 msgid "You can try to add to command line:"
@@ -2133,6 +2126,8 @@ msgid ""
 "{}. Dropping all logs. To redirect the log file location use the \"logdir\" "
 "configuration option."
 msgstr ""
+"{}. Descartando todos os logs. Para redirecionar o arquivo de log, use a "
+"opção de configuração \"logdir\"."
 
 #: main.cpp:1578
 msgid ""
@@ -2148,7 +2143,7 @@ msgstr ""
 #: main.cpp:1592
 #, c++-format
 msgid "Warning: {}"
-msgstr ""
+msgstr "Aviso: {}"
 
 #: main.cpp:1605
 msgid ""
@@ -2156,6 +2151,9 @@ msgid ""
 "or immutable operating system. For more information, refer to your "
 "distribution's documentation."
 msgstr ""
+"Erro: /usr está configurado para ser somente-leitura. Você pode estar usando "
+"um sistema operacional em imagem ou imutável. Para mais informações, confira "
+"a documentação distribuição."
 
 #: main.cpp:1624
 msgid ""
@@ -2163,23 +2161,23 @@ msgid ""
 "transient to perform this operation in a transient overlay which will reset "
 "when the system reboots."
 msgstr ""
+"Erro: transações persistentes não são suportadas em sistemas bootc. Passe --"
+"transient para efetuar esta operação em um camada de sobreposição transiente "
+"que vai redefinir quando o sistema é reiniciado."
 
 #: main.cpp:1634
-#, fuzzy
-#| msgid ""
-#| "Error: this bootc system is configured to be read-only. For more "
-#| "information, run `bootc --help`."
 msgid ""
 "Error: this bootc system is configured to be read-only. Pass --transient to "
 "perform this operation in a transient overlay which will reset when the "
 "system reboots."
 msgstr ""
-"Erro: este sistema bootc está configurado para ser somente leitura. Para "
-"mais informações, execute `bootc --help`."
+"Erro: este sistema bootc está configurado para ser somente leitura. Passe --"
+"transient para efetuar esta operação em uma camada de sobreposição "
+"transiente que vai redefinir quando o sistema é reiniciado."
 
 #: main.cpp:1645
 msgid "Error: transient transactions are only supported on bootc systems."
-msgstr ""
+msgstr "Erro: transações persistentes não são suportadas em sistemas bootc."
 
 #: main.cpp:1686
 #, c++-format
@@ -2199,18 +2197,17 @@ msgstr ""
 "instalações de chaves OpenPGP e verificações de transações."
 
 #: main.cpp:1702
-#, fuzzy
-#| msgid "Starting offline transaction. This will take a while."
 msgid "Warning: A pending offline transaction will be invalidated."
-msgstr "Iniciando transação offline. Isso levará um tempo."
+msgstr "Aviso: Uma transação offline pendente será invalidada."
 
 #: main.cpp:1705
-#, fuzzy, c++-format
-#| msgid "An offline transaction was initiated by the following command:"
+#, c++-format
 msgid ""
 "Warning: A pending offline transaction initiated by the following command "
 "will be invalidated: {}"
-msgstr "Uma transação offline foi iniciada pelo seguinte comando:"
+msgstr ""
+"Aviso: Uma transação offline pendente iniciada pelo seguinte comando será "
+"invalidado: {}"
 
 #: main.cpp:1730
 msgid ""
@@ -2218,12 +2215,18 @@ msgid ""
 "inconsistencies when the transient overlay on /usr is discarded. See the "
 "usr_drift_protected_paths configuration option for more information."
 msgstr ""
+"Esta transação modificaria os seguintes caminhos, possivelmente introduzindo "
+"inconsistências quando a sobreposição transitória em /usr for descartada. "
+"Consulte a opção de configuração usr_drift_protected_paths para obter mais "
+"informações."
 
 #: main.cpp:1741
 msgid ""
 "Operation aborted. Pass --setopt=usr_drift_protected_paths= to disable this "
 "check and proceed anyway."
 msgstr ""
+"Operação abortada. Passe --setopt=usr_drift_protected_paths= para "
+"desabilitar esta verificação e prosseguir mesmo assim."
 
 #: main.cpp:1750
 msgid ""
@@ -2231,6 +2234,9 @@ msgid ""
 "reboot. Keep in mind that changes to /etc and /var will still persist, and "
 "packages commonly modify these directories."
 msgstr ""
+"Uma camada de sobreposição transitória será criada sobre o diretório /usr e "
+"descartada após a reinicialização. Lembre-se de que as alterações em /etc e /"
+"var persistirão, e pacotes frequentemente modificam esses diretórios."
 
 #: main.cpp:1787
 #, c++-format
@@ -2271,8 +2277,6 @@ msgid "REPO_ID,..."
 msgstr "REPO_ID,..."
 
 #: shared_options.cpp:193
-#, fuzzy
-#| msgid "\"--from_repo\" already defined with diferent value"
 msgid "\"--from_repo\" already defined with different value"
 msgstr "\"--from_repo\" já definido com valor diferente"
 
@@ -2284,36 +2288,27 @@ msgstr ""
 "Filtra os pacotes instalados pelo ID do repositório de onde foram instalados."
 
 #: shared_options.cpp:220
-#, fuzzy
-#| msgid "\"--installed-from_repo\" already defined with diferent value"
 msgid "\"--installed-from_repo\" already defined with different value"
 msgstr "\"--installed-from_repo\" já definido com valor diferente"
 
 #: shared_options.cpp:236
-#, fuzzy
-#| msgid ""
-#| "The following items can be selected only from the specified repositories. "
-#| "All enabled repositories will still be used to satisfy dependencies."
 msgid ""
 "The following items can be selected only from the specified vendors. The "
 "vendor is ignored or vendor change policies (if allow_vendor_change=0) will "
 "still be used for items that satisfy dependencies."
 msgstr ""
-"Os itens a seguir podem ser selecionados apenas nos repositórios "
-"especificados. Todos os repositórios habilitados ainda serão usados para "
-"satisfazer dependências."
+"Os itens a seguir podem ser selecionados apenas nos fornecedores "
+"especificados. O fornecedor é ignorado ou as políticas de alteração de "
+"fornecedor (se allow_vendor_change=0) ainda serão usadas para itens que "
+"satisfazem as dependências."
 
 #: shared_options.cpp:239
-#, fuzzy
-#| msgid "CVE_ID,..."
 msgid "VENDOR,..."
-msgstr "ID_CVE,..."
+msgstr "FORNECEDOR,..."
 
 #: shared_options.cpp:248
-#, fuzzy
-#| msgid "\"--from_repo\" already defined with diferent value"
 msgid "\"--from_vendor\" already defined with different value"
-msgstr "\"--from_repo\" já definido com valor diferente"
+msgstr "\"--from_vendor\" já definido com valor diferente"
 
 #~ msgid "No matching packages to list"
 #~ msgstr "Nenhum pacote correspondente para listar"
