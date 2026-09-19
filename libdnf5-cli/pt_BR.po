@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-15 22:27+0000\n"
-"PO-Revision-Date: 2026-09-18 23:18+0000\n"
+"PO-Revision-Date: 2026-09-20 00:18+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf5/libdnf5-cli/pt_BR/>\n"
@@ -248,49 +248,39 @@ msgstr "Campos correspondentes: "
 
 #: output/status.cpp:45
 msgid "Groups"
-msgstr ""
+msgstr "Grupos"
 
 #: output/status.cpp:46 output/status.cpp:55 output/status.cpp:72
-#, fuzzy
-#| msgid "Installed size"
 msgid "installed"
-msgstr "Tamanho instalado"
+msgstr "instalado"
 
 #: output/status.cpp:47 output/status.cpp:56 output/status.cpp:73
 msgid "available"
-msgstr ""
+msgstr "disponível"
 
 #: output/status.cpp:54
 msgid "Environments"
-msgstr ""
+msgstr "Ambientes"
 
 #: output/status.cpp:71
-#, fuzzy
-#| msgid "Package"
 msgid "Packages"
-msgstr "Pacote"
+msgstr "Pacotes"
 
 #: output/status.cpp:74
 msgid "user-installed"
-msgstr ""
+msgstr "instalado pelo usuário"
 
 #: output/status.cpp:84
-#, fuzzy
-#| msgid "Installed size"
 msgid "Installed Size"
 msgstr "Tamanho instalado"
 
 #: output/status.cpp:90
-#, fuzzy
-#| msgid "Repository"
 msgid "Enabled Repositories"
-msgstr "Repositório"
+msgstr "Repositórios habilitados"
 
 #: output/status.cpp:101
-#, fuzzy
-#| msgid "Transaction Summary:\n"
 msgid "Last Transaction"
-msgstr "Sumário da Transação:\n"
+msgstr "Última transação"
 
 #: output/transaction_table.cpp:128
 msgid "Transaction Summary:\n"
@@ -460,10 +450,8 @@ msgid "Upgrading groups:"
 msgstr "Atualizando grupos:"
 
 #: output/transaction_table.cpp:630
-#, fuzzy
-#| msgid "Changing reason:"
 msgid "Changing reason of installed groups:"
-msgstr "Motivo de mudança:"
+msgstr "Mudança do motivo de grupos instalados:"
 
 #: output/transaction_table.cpp:657
 msgid "Installing environmental groups:"
@@ -495,14 +483,16 @@ msgstr "Trocando fluxos de módulos:"
 
 #: output/transaction_table.cpp:771 output/transaction_table.cpp:772
 msgid "(none)"
-msgstr ""
+msgstr "(nenhum)"
 
 #: output/transaction_table.cpp:778
 #, c++-format
 msgid "Skipping {0} package due to vendor change restriction: {1}."
 msgid_plural "Skipping {0} packages due to vendor change restriction: {1}."
 msgstr[0] ""
+"Ignorando {0} pacote devido à restrição de alteração de fornecedor: {1}."
 msgstr[1] ""
+"Ignorando {0} pacotes devido à restrição de alteração de fornecedor: {1}."
 
 #: output/transaction_table.cpp:799
 msgid "Nothing to do."
@@ -511,33 +501,31 @@ msgstr "Nada para fazer."
 #. The two spaces indent the table the same way as child lines in KeyValueTable
 #: output/transactioninfo.cpp:73
 msgid "Action"
-msgstr ""
+msgstr "Ação"
 
 #: output/transactioninfo.cpp:75
 msgid "Reason"
-msgstr ""
+msgstr "Motivo"
 
 #: output/transactioninfo.cpp:98
-#, fuzzy
-#| msgid "Transaction Summary:\n"
 msgid "Transaction ID"
-msgstr "Sumário da Transação:\n"
+msgstr "ID da transação"
 
 #: output/transactioninfo.cpp:99
 msgid "Begin time"
-msgstr ""
+msgstr "Horário de início"
 
 #: output/transactioninfo.cpp:100
 msgid "Begin rpmdb"
-msgstr ""
+msgstr "Início do rpmdb"
 
 #: output/transactioninfo.cpp:101
 msgid "End time"
-msgstr ""
+msgstr "Horário de fim"
 
 #: output/transactioninfo.cpp:102
 msgid "End rpmdb"
-msgstr ""
+msgstr "Fim do rpmdb"
 
 #: output/transactioninfo.cpp:104
 msgid "User"
@@ -545,49 +533,47 @@ msgstr "Usuário"
 
 #: output/transactioninfo.cpp:105
 msgid "Status"
-msgstr ""
+msgstr "Status"
 
 #: output/transactioninfo.cpp:106
-#, fuzzy
-#| msgid "Release"
 msgid "Releasever"
-msgstr "Lançamento"
+msgstr "Versão de lançamento"
 
 #: output/transactioninfo.cpp:108
 msgid "Comment"
-msgstr ""
+msgstr "Comentário"
 
 #: output/transactioninfo.cpp:111
 msgid "Packages altered:"
-msgstr ""
+msgstr "Pacotes alterados:"
 
 #: output/transactioninfo.cpp:112
 msgid "Groups altered:"
-msgstr ""
+msgstr "Grupos alterados:"
 
 #: output/transactioninfo.cpp:113
 msgid "Environments altered:"
-msgstr ""
+msgstr "Ambientes alterados:"
 
 #: output/transactionlist.cpp:53
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: output/transactionlist.cpp:54
 msgid "Command line"
-msgstr ""
+msgstr "Linha de comando"
 
 #: output/transactionlist.cpp:55
 msgid "Date and time"
-msgstr ""
+msgstr "Data e hora"
 
 #: output/transactionlist.cpp:56
 msgid "Action(s)"
-msgstr ""
+msgstr "Ação(ões)"
 
 #: output/transactionlist.cpp:57
 msgid "Altered"
-msgstr ""
+msgstr "Alterado"
 
 #. namespace
 #: progressbar/multi_progress_bar.cpp:85
@@ -609,14 +595,15 @@ msgstr ""
 #, c++-format
 msgid "\"{}\" date cannot be represented by time_t type on this platform"
 msgstr ""
+"A data \"{}\" não pode ser representada pelo tipo time_t nesta plataforma"
 
 #: utils/userconfirm.cpp:46
 msgid "Is this ok [Y/n]: "
-msgstr ""
+msgstr "Isso está correto [S/n]: "
 
 #: utils/userconfirm.cpp:49
 msgid "Is this ok [y/N]: "
-msgstr ""
+msgstr "Isso está correto? [s/N]: "
 
 #~ msgid "No matches found."
 #~ msgstr "Nenhuma correspondência encontrada."
