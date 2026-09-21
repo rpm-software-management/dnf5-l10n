@@ -2,14 +2,14 @@
 # Luna Jernberg <bittin@reimu.nl>, 2024, 2025.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024, 2026.
 # Göran Uddeborg <goeran@uddeborg.se>, 2024, 2025.
+# Luna Jernberg <droidbittin@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-15 22:27+0000\n"
 "PO-Revision-Date: 2026-09-22 08:18+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5-cli/sv/>\n"
 "Language: sv\n"
@@ -251,46 +251,36 @@ msgid "Groups"
 msgstr "Grupper"
 
 #: output/status.cpp:46 output/status.cpp:55 output/status.cpp:72
-#, fuzzy
-#| msgid "Installed size"
 msgid "installed"
-msgstr "Installerad storlek"
+msgstr "installerad"
 
 #: output/status.cpp:47 output/status.cpp:56 output/status.cpp:73
 msgid "available"
-msgstr ""
+msgstr "tillgänglig"
 
 #: output/status.cpp:54
 msgid "Environments"
-msgstr ""
+msgstr "Miljöer"
 
 #: output/status.cpp:71
-#, fuzzy
-#| msgid "Package"
 msgid "Packages"
 msgstr "Paket"
 
 #: output/status.cpp:74
 msgid "user-installed"
-msgstr ""
+msgstr "användar-installerade"
 
 #: output/status.cpp:84
-#, fuzzy
-#| msgid "Installed size"
 msgid "Installed Size"
-msgstr "Installerad storlek"
+msgstr "Installerad Storlek"
 
 #: output/status.cpp:90
-#, fuzzy
-#| msgid "Repository"
 msgid "Enabled Repositories"
-msgstr "Förråd"
+msgstr "Aktiverade Förråd"
 
 #: output/status.cpp:101
-#, fuzzy
-#| msgid "Transaction Summary:\n"
 msgid "Last Transaction"
-msgstr "Transaktionssammanfattning:\n"
+msgstr "Senaste transaktion"
 
 #: output/transaction_table.cpp:128
 msgid "Transaction Summary:\n"
@@ -460,10 +450,8 @@ msgid "Upgrading groups:"
 msgstr "Uppgraderar grupper:"
 
 #: output/transaction_table.cpp:630
-#, fuzzy
-#| msgid "Changing reason:"
 msgid "Changing reason of installed groups:"
-msgstr "Ändrar anledning:"
+msgstr "Ändra orsak till installerade grupper:"
 
 #: output/transaction_table.cpp:657
 msgid "Installing environmental groups:"
@@ -502,7 +490,11 @@ msgstr "(ingen)"
 msgid "Skipping {0} package due to vendor change restriction: {1}."
 msgid_plural "Skipping {0} packages due to vendor change restriction: {1}."
 msgstr[0] ""
+"Hoppar över paketet {0} på grund av begränsning gällande byte av leverantör: "
+"{1}."
 msgstr[1] ""
+"Hoppar över paketet {0} på grund av begränsning gällande byte av leverantör: "
+"{1}."
 
 #: output/transaction_table.cpp:799
 msgid "Nothing to do."
@@ -518,26 +510,24 @@ msgid "Reason"
 msgstr "Orsak"
 
 #: output/transactioninfo.cpp:98
-#, fuzzy
-#| msgid "Transaction Summary:\n"
 msgid "Transaction ID"
-msgstr "Transaktionssammanfattning:\n"
+msgstr "Transaktions-ID"
 
 #: output/transactioninfo.cpp:99
 msgid "Begin time"
-msgstr ""
+msgstr "Start tid"
 
 #: output/transactioninfo.cpp:100
 msgid "Begin rpmdb"
-msgstr ""
+msgstr "Starta rpmdb"
 
 #: output/transactioninfo.cpp:101
 msgid "End time"
-msgstr ""
+msgstr "Slut tid"
 
 #: output/transactioninfo.cpp:102
 msgid "End rpmdb"
-msgstr ""
+msgstr "Stoppa rpmdb"
 
 #: output/transactioninfo.cpp:104
 msgid "User"
@@ -548,10 +538,8 @@ msgid "Status"
 msgstr "Status"
 
 #: output/transactioninfo.cpp:106
-#, fuzzy
-#| msgid "Release"
 msgid "Releasever"
-msgstr "Utgåva"
+msgstr "Releaseversion"
 
 #: output/transactioninfo.cpp:108
 msgid "Comment"
@@ -563,11 +551,11 @@ msgstr "Ändrade paket:"
 
 #: output/transactioninfo.cpp:112
 msgid "Groups altered:"
-msgstr ""
+msgstr "Grupper ändrade:"
 
 #: output/transactioninfo.cpp:113
 msgid "Environments altered:"
-msgstr ""
+msgstr "Miljöer ändrade:"
 
 #: output/transactionlist.cpp:53
 msgid "ID"
@@ -608,7 +596,7 @@ msgstr ""
 #: session.cpp:270
 #, c++-format
 msgid "\"{}\" date cannot be represented by time_t type on this platform"
-msgstr ""
+msgstr "Datumet ”{}” kan inte representeras av typen time_t på denna plattform"
 
 #: utils/userconfirm.cpp:46
 msgid "Is this ok [Y/n]: "
