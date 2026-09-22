@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-15 22:27+0000\n"
-"PO-Revision-Date: 2026-09-17 21:16+0000\n"
+"PO-Revision-Date: 2026-09-22 17:49+0000\n"
 "Last-Translator: Tomasz Bojanowski <tomasz@bojanowski.me>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5-plugin-copr/pl/>\n"
@@ -164,11 +164,11 @@ msgstr "usuń określone repozytorium Copr z systemu (usuwa plik {}/*.repo)"
 #: copr_repo.cpp:91
 #, c++-format
 msgid "Directory '{}' not found in '{}' Copr project."
-msgstr "Nie znaleziono katalogu '{}' w projekcie Copr '{}'."
+msgstr "Nie znaleziono katalogu „{}” w projekcie Copr „{}”."
 
 #: copr_repo.cpp:97
 msgid "You can use one of these available directories:"
-msgstr "Możesz użyć jednego z poniższych dostępnych katalogów:"
+msgstr "Można użyć jednego z poniższych dostępnych katalogów:"
 
 #: copr_repo.cpp:113
 msgid "Chroot not found in the given Copr project"
@@ -180,7 +180,7 @@ msgstr "Nie można wykryć chroot, należy to określić jawnie."
 
 #: copr_repo.cpp:121
 msgid "We tried to find these repos without a success:"
-msgstr "Próbowaliśmy znaleźć następujące repozytoria, ale nie udało nam się:"
+msgstr "Nie odnaleziono następujących repozytoriów:"
 
 #: copr_repo.cpp:126
 msgid "You can choose one of the available chroots explicitly:"
@@ -198,7 +198,7 @@ msgstr "Nie można usunąć pliku repozytorium {}"
 #: copr_repo.cpp:347
 #, c++-format
 msgid "Repo file {} successfully removed"
-msgstr "Plik repozytorium {} został pomyślnie usunięty"
+msgstr "Plik repozytorium {} został usunięty"
 
 #: copr_repo.cpp:393
 #, c++-format
@@ -208,7 +208,7 @@ msgstr "Nie można znaleźć elementu {} w {}"
 #: copr_repo.cpp:449
 #, c++-format
 msgid "Removing old config file '{}'"
-msgstr "Usuwanie starego pliku konfiguracyjnego '{}'"
+msgstr "Usuwanie starego pliku konfiguracyjnego „{}”"
 
 #: copr_repo.cpp:452
 msgid "Can't remove"
@@ -220,7 +220,7 @@ msgid ""
 "Copr repofile '{}' has an old format, fix by re-enabling it $ {} copr enable "
 "{}"
 msgstr ""
-"Plik repozytorium Copr '{}' ma stary format, napraw go, włączając go "
+"Plik repozytorium Copr „{}” ma stary format, napraw go, włączając go "
 "ponownie $ {} copr enable {}"
 
 #: copr_repo.cpp:560
@@ -236,9 +236,9 @@ msgstr "Identyfikator repozytorium „{}” nie należy do pliku repozytorium �
 #: copr_repo.cpp:618
 #, c++-format
 msgid "Copr repository '{}' in '{}' disabled."
-msgstr "Repozytorium Copr '{}' w '{}' wyłączone."
+msgstr "Repozytorium Copr „{}” w „{}” wyłączone."
 
 #: copr_repo.cpp:632 copr_repo.cpp:657
 #, c++-format
 msgid "Repository '{}' not found on this system"
-msgstr "Repozytorium '{}' nie zostało znalezione w tym systemie"
+msgstr "Repozytorium „{}” nie zostało znalezione w tym systemie"
