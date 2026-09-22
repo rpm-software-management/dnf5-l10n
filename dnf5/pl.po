@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-15 22:27+0000\n"
-"PO-Revision-Date: 2026-09-18 23:18+0000\n"
+"PO-Revision-Date: 2026-09-22 17:49+0000\n"
 "Last-Translator: Tomasz Bojanowski <tomasz@bojanowski.me>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/pl/>\n"
@@ -34,8 +34,8 @@ msgid ""
 "Attached named argument \"{}\" not found: {}: Requested in file \"{}\" on "
 "line {}: {}"
 msgstr ""
-"Dołączony argument nazwany \"{}\" nie został znaleziony: {}: Żądano w pliku "
-"\"{}\" w wierszu {}: {}"
+"Dołączony argument nazwany „{}” nie został znaleziony: {}: Żądano w pliku „{}"
+"” w wierszu {}: {}"
 
 #: cmdline_aliases.cpp:159
 #, c++-format
@@ -43,13 +43,13 @@ msgid ""
 "Unknown attribute \"{}\" of attached named argument for alias \"{}\" in file "
 "\"{}\" on line {}: {}"
 msgstr ""
-"Nieznany atrybut „{}” dołączonego nazwanego argumentu dla aliasu „{}” w "
-"pliku „{}” w wierszu {}: {}"
+"Nieznany atrybut „{}” dołączonego nazwanego argumentu aliasu „{}” w pliku „{}"
+"” w wierszu {}: {}"
 
 #: cmdline_aliases.cpp:171
 #, c++-format
 msgid "Missing attribute \"id_path\" for alias \"{}\" in file \"{}\""
-msgstr "Brak atrybutu „id_path” dla aliasu „{}” w pliku „{}”"
+msgstr "Brak atrybutu „id_path” aliasu „{}” w pliku „{}”"
 
 #: cmdline_aliases.cpp:208
 #, c++-format
@@ -95,7 +95,7 @@ msgstr "Nieznany typ „{}” elementu „{}” w pliku „{}” w wierszu {}: {
 #: cmdline_aliases.cpp:312
 #, c++-format
 msgid "Missing attribute \"type\" for element \"{}\" in file \"{}\""
-msgstr "Brak atrybutu „type” dla elementu „{}” w pliku „{}”"
+msgstr "Brak atrybutu „type” elementu „{}” w pliku „{}”"
 
 #: cmdline_aliases.cpp:331
 #, c++-format
@@ -103,7 +103,7 @@ msgid ""
 "Named argument \"{}\" already registered. Requested in file \"{}\" on line "
 "{}: {}"
 msgstr ""
-"Nazwany argument \"{}\" jest już zarejestrowany. Zażądano w pliku \"{}\" w "
+"Nazwany argument „{}” jest już zarejestrowany. Zażądano w pliku „{}” w "
 "wierszu {}: {}"
 
 #: cmdline_aliases.cpp:347
@@ -111,8 +111,8 @@ msgstr ""
 msgid ""
 "Command \"{}\" already registered. Requested in file \"{}\" on line {}: {}"
 msgstr ""
-"Polecenie \"{}\" jest już zarejestrowane. Zażądano w pliku \"{}\" w wierszu "
-"{}: {}"
+"Polecenie „{}” jest już zarejestrowane. Zażądano w pliku „{}” w wierszu {}: "
+"{}"
 
 #: cmdline_aliases.cpp:375
 #, c++-format
@@ -122,7 +122,7 @@ msgstr "Nieznany atrybut „{}” grupy „{}” w pliku „{}” w wierszu {}: 
 #: cmdline_aliases.cpp:387
 #, c++-format
 msgid "Missing attribute \"header\" for element \"{}\" in file \"{}\""
-msgstr "Brak atrybutu „header” dla elementu „{}” w pliku „{}”"
+msgstr "Brak atrybutu „header” elementu „{}” w pliku „{}”"
 
 #: cmdline_aliases.cpp:428 cmdline_aliases.cpp:538
 #, c++-format
@@ -143,8 +143,7 @@ msgstr ""
 #, c++-format
 msgid "Group \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
 msgstr ""
-"Grupa \"{}\" nie została znaleziona: {}: Żądano w pliku \"{}\" w wierszu {}: "
-"{}"
+"Grupa „{}” nie została znaleziona: {}: Żądano w pliku „{}” w wierszu {}: {}"
 
 #: cmdline_aliases.cpp:476 cmdline_aliases.cpp:579
 #, c++-format
@@ -157,7 +156,7 @@ msgstr ""
 #: cmdline_aliases.cpp:489
 #, c++-format
 msgid "Missing attribute \"source\" for named argument \"{}\" in file \"{}\""
-msgstr "Brak atrybutu „source” dla argumentu nazwanego „{}” w pliku „{}”"
+msgstr "Brak atrybutu „source” argumentu nazwanego „{}” w pliku „{}”"
 
 #: cmdline_aliases.cpp:498 cmdline_aliases.cpp:592
 #, c++-format
@@ -192,16 +191,15 @@ msgid ""
 "Unknown attribute \"{}\" of required value for alias \"{}\" in file \"{}\" "
 "on line {}: {}"
 msgstr ""
-"Nieznany atrybut „{}” wymaganej wartości dla aliasu „{}” w pliku „{}” w "
-"wierszu {}: {}"
+"Nieznany atrybut „{}” wymaganej wartości aliasu „{}” w pliku „{}” w wierszu "
+"{}: {}"
 
 #: cmdline_aliases.cpp:726
 #, c++-format
 msgid ""
 "Missing attribute \"value_help\" of required value for alias \"{}\" in file "
 "\"{}\""
-msgstr ""
-"Brak atrybutu „value_help” wymaganej wartości dla aliasu „{}” w pliku „{}”"
+msgstr "Brak atrybutu „value_help” wymaganej wartości aliasu „{}” w pliku „{}”"
 
 #: cmdline_aliases.cpp:740
 #, c++-format
@@ -213,17 +211,17 @@ msgstr "Nieznany atrybut „{}” polecenia „{}” w pliku „{}” w wierszu 
 #, c++-format
 msgid ""
 "Missing attribute \"attached_command\" for command \"{}\" in file \"{}\""
-msgstr "Brak atrybutu „attached_command” dla polecenia „{}” w pliku „{}”"
+msgstr "Brak atrybutu „attached_command” polecenia „{}” w pliku „{}”"
 
 #: cmdline_aliases.cpp:791
 #, c++-format
 msgid "Bad value type in file \"{}\" on line {}: {}"
-msgstr "Nieprawidłowy typ wartości w pliku \"{}\" w wierszu {}: {}"
+msgstr "Nieprawidłowy typ wartości w pliku „{}” w wierszu {}: {}"
 
 #: cmdline_aliases.cpp:804
 #, c++-format
 msgid "Syntax error in file \"{}\" on line {}:"
-msgstr "Błąd składni w pliku \"{}\" w wierszu {}:"
+msgstr "Błąd składni w pliku „{}” w wierszu {}:"
 
 #: commands/advisory/advisory.cpp:36
 msgid "Manage advisories"
@@ -556,7 +554,7 @@ msgstr "Opcja „--alldeps” powinna być używana z opcją „--resolve”"
 #, c++-format
 msgid ""
 "No package \"{}\" available; You might want to use --skip-unavailable option."
-msgstr "Brak dostępnego pakietu \"{}\". Możesz użyć opcji --skip-unavailable."
+msgstr "Brak dostępnego pakietu „{}”. Można użyć opcji --skip-unavailable."
 
 #: commands/environment/arguments.hpp:33
 msgid "Show only available environments."
@@ -722,7 +720,7 @@ msgstr "Wybrano wiele transakcji do zapisania, dozwolona jest tylko jedna."
 #: commands/history/history_store.cpp:80
 #, c++-format
 msgid "File \"{}\" already exists, it will be overwritten.\n"
-msgstr "Plik \"{}\" już istnieje, zostanie nadpisany.\n"
+msgstr "Plik „{}” już istnieje, zostanie nadpisany.\n"
 
 #: commands/history/transaction_id.cpp:32
 #, c++-format
@@ -997,7 +995,7 @@ msgstr "Błąd podczas odczytu dziennika: {}"
 #: commands/offline/offline.cpp:640
 #, c++-format
 msgid "Add journal match failed: {}"
-msgstr "Dodanie dopasowania dziennika nie powiodło się: {}"
+msgstr "Dodanie dopasowania dziennika się nie powiodło: {}"
 
 #: commands/offline/offline.cpp:668
 msgid "No logs were found."
@@ -1358,7 +1356,7 @@ msgstr "Importowanie klucza OpenPGP 0x{}:\n"
 #: context.cpp:123 context.cpp:148
 #, c++-format
 msgid " UserID     : \"{}\"\n"
-msgstr " Identyfikator użytkownika: \"{}\"\n"
+msgstr " Identyfikator użytkownika: „{}”\n"
 
 #: context.cpp:126
 #, c++-format
@@ -1371,7 +1369,7 @@ msgstr ""
 
 #: context.cpp:135
 msgid "The key was successfully imported."
-msgstr "Klucz został pomyślnie zaimportowany."
+msgstr "Klucz został zaimportowany."
 
 #: context.cpp:144
 #, c++-format
@@ -1412,7 +1410,7 @@ msgstr "System przystąpi teraz do usuwania klucza."
 #: context.cpp:163
 #, c++-format
 msgid "Key 0x{} was successfully removed."
-msgstr "Klucz 0x{} został pomyślnie usunięty."
+msgstr "Klucz 0x{} został usunięty."
 
 #: context.cpp:192
 #, c++-format
@@ -1469,7 +1467,7 @@ msgstr "Testowanie transakcji offline"
 #: context.cpp:326 context.cpp:525
 #, c++-format
 msgid "Transaction failed: {}"
-msgstr "Transakcja nie powiodła się: {}"
+msgstr "Transakcja się nie powiodła: {}"
 
 #: context.cpp:339 context.cpp:538
 #, c++-format
@@ -1993,7 +1991,7 @@ msgstr "Brak pasującego repozytorium do zrzutu konfiguracji: „{}”"
 #: main.cpp:992
 #, c++-format
 msgid "======== \"{}\" repository configuration: ========"
-msgstr "======== Konfiguracja repozytorium \"{}\": ========"
+msgstr "======== Konfiguracja repozytorium „{}”: ========"
 
 #: main.cpp:1012
 msgid "======== Variables: ========"
@@ -2056,7 +2054,7 @@ msgstr "{} aby umożliwić zmianę dostawcy pakietów"
 
 #: main.cpp:1233
 msgid "You can try to add to command line:"
-msgstr "Możesz spróbować dodać do wiersza poleceń:"
+msgstr "Można spróbować dodać do wiersza poleceń:"
 
 #: main.cpp:1251
 #, c++-format
@@ -2079,7 +2077,7 @@ msgstr ""
 #: main.cpp:1318
 #, c++-format
 msgid "--- DNF5 launched with arguments: \"{}\" ---"
-msgstr "--- Uruchomiono DNF5 z argumentami: \"{}\" ---"
+msgstr "--- Uruchomiono DNF5 z argumentami: „{}” ---"
 
 #: main.cpp:1354
 #, c++-format
