@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-15 22:27+0000\n"
-"PO-Revision-Date: 2026-09-17 21:44+0000\n"
+"PO-Revision-Date: 2026-09-22 17:49+0000\n"
 "Last-Translator: Tomasz Bojanowski <tomasz@bojanowski.me>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/pl/>\n"
@@ -220,48 +220,46 @@ msgstr "Brak dopasowania w wybranych ostrzeżeniach"
 #: base/log_event.cpp:169
 #, c++-format
 msgid "No match for argument '{0}' in repositories '{1}'"
-msgstr "Brak dopasowania dla argumentu '{0}' w repozytoriach '{1}'"
+msgstr "Brak dopasowania dla argumentu „{0}” w repozytoriach „{1}”"
 
 #: base/log_event.cpp:175
 #, c++-format
 msgid "Cannot perform {0} for {1} '{2}' because it is not installed."
-msgstr "Nie można wykonać {0} dla {1} '{2}', ponieważ nie jest zainstalowany."
+msgstr "Nie można wykonać {0} dla {1} „{2}”, ponieważ nie jest zainstalowany."
 
 #: base/log_event.cpp:180
 #, c++-format
 msgid "Packages for argument '{}' available, but not installed."
-msgstr "Pakiety dla argumentu '{}' są dostępne, ale nie zainstalowane."
+msgstr "Pakiety dla argumentu „{}” są dostępne, ale niezainstalowane."
 
 #: base/log_event.cpp:184
 #, c++-format
 msgid ""
 "Packages for argument '{}' available, but installed for a different "
 "architecture."
-msgstr ""
-"Pakiety dla argumentu '{}' są dostępne, ale zainstalowane dla innej "
-"architektury."
+msgstr "Pakiety argumentu „{}” są dostępne, ale niezainstalowane."
 
 #: base/log_event.cpp:188
 #, c++-format
 msgid "Cannot perform {0} because '{1}' matches only source packages."
 msgstr ""
-"Nie można wykonać {0}, ponieważ '{1}' pasuje tylko do pakietów źródłowych."
+"Nie można wykonać {0}, ponieważ „{1}” pasuje tylko do pakietów źródłowych."
 
 #: base/log_event.cpp:192
 #, c++-format
 msgid "Argument '{}' matches only source packages."
-msgstr "Argument '{}' pasuje tylko do pakietów źródłowych."
+msgstr "Argument „{}” pasuje tylko do pakietów źródłowych."
 
 #: base/log_event.cpp:196
 #, c++-format
 msgid "Cannot perform {0} because '{1}' matches only excluded packages."
 msgstr ""
-"Nie można wykonać {0}, ponieważ '{1}' pasuje tylko do wykluczonych pakietów."
+"Nie można wykonać {0}, ponieważ „{1}” pasuje tylko do wykluczonych pakietów."
 
 #: base/log_event.cpp:200
 #, c++-format
 msgid "Argument '{}' matches only excluded packages."
-msgstr "Argument '{}' pasuje tylko do wykluczonych pakietów."
+msgstr "Argument „{}” pasuje tylko do wykluczonych pakietów."
 
 #: base/log_event.cpp:204
 #, c++-format
@@ -269,13 +267,13 @@ msgid ""
 "Cannot perform {0} because '{1}' matches only packages excluded by "
 "versionlock."
 msgstr ""
-"Nie można wykonać {0}, ponieważ '{1}' pasuje tylko do pakietów wykluczonych "
+"Nie można wykonać {0}, ponieważ „{1}” pasuje tylko do pakietów wykluczonych "
 "przez versionlock."
 
 #: base/log_event.cpp:208
 #, c++-format
 msgid "Argument '{}' matches only packages excluded by versionlock."
-msgstr "Argument '{}' pasuje tylko do pakietów wykluczonych przez versionlock."
+msgstr "Argument „{}” pasuje tylko do pakietów wykluczonych przez versionlock."
 
 #: base/log_event.cpp:213
 #, c++-format
@@ -285,7 +283,7 @@ msgstr "  • Czy chodziło o: {}"
 #: base/log_event.cpp:216
 #, c++-format
 msgid "There are following alternatives for '{0}': {1}"
-msgstr "Istnieją następujące alternatywy dla '{0}': {1}"
+msgstr "Istnieją następujące alternatywy dla „{0}”: {1}"
 
 #: base/log_event.cpp:223
 #, c++-format
@@ -310,8 +308,8 @@ msgstr ""
 msgid ""
 "Cannot perform {0} because '{1}' is installed in a different version: '{2}'."
 msgstr ""
-"Nie można wykonać {0}, ponieważ '{1}' jest zainstalowany w innej wersji: "
-"'{2}'."
+"Nie można wykonać {0}, ponieważ „{1}” jest zainstalowany w innej wersji: „{2}"
+"”."
 
 #: base/log_event.cpp:241
 #, c++-format
@@ -319,12 +317,12 @@ msgid ""
 "Packages for argument '{}' installed and available, but in a different "
 "version."
 msgstr ""
-"Pakiety dla argumentu '{}' są zainstalowane i dostępne, ale w innej wersji."
+"Pakiety dla argumentu „{}” są zainstalowane i dostępne, ale w innej wersji."
 
 #: base/log_event.cpp:243
 #, c++-format
 msgid "Packages for argument '{}' installed, but not available."
-msgstr "Pakiety dla argumentu '{}' zostały zainstalowane, ale są niedostępne."
+msgstr "Pakiety dla argumentu „{}” zostały zainstalowane, ale są niedostępne."
 
 #: base/log_event.cpp:248
 #, c++-format
@@ -358,18 +356,18 @@ msgid ""
 "({1} id: '{2}') ."
 msgstr ""
 "{0} aktualizacji nie można cofnąć, ale powiązane z nim działania pakietu "
-"będą cofnięte. ({1} id: '{2}') ."
+"będą cofnięte. ({1} id: „{2}”) ."
 
 #: base/log_event.cpp:279
 #, c++-format
 msgid "{} action for argument \"{}\" is not supported."
-msgstr "{} akcja dla argumentu \"{}\" nie jest obsługiwana."
+msgstr "{} akcja dla argumentu „{}” nie jest obsługiwana."
 
 #. Format a leading line of the error message.
 #: base/log_event.cpp:288
 #, c++-format
 msgid "Unable to resolve argument '{}':"
-msgstr "Nie można rozwiązać argumentu '{}':"
+msgstr "Nie można rozwiązać argumentu „{}”:"
 
 #: base/log_event.cpp:292
 #, c++-format
@@ -383,15 +381,15 @@ msgid_plural ""
 "streams are enabled or default."
 msgstr[0] ""
 "\n"
-"  - Argument '{}' pasuje do {} strumienia ('{}') modułu '{}', ale strumień "
+"  - Argument „{}” pasuje do {} strumienia („{}”) modułu „{}”, ale strumień "
 "nie jest włączony lub domyślny."
 msgstr[1] ""
 "\n"
-"  - Argument '{}' pasuje do {} strumieni ('{}') modułu '{}', ale żaden ze "
+"  - Argument „{}” pasuje do {} strumieni („{}”) modułu „{}”, ale żaden ze "
 "strumieni nie jest włączony ani domyślny."
 msgstr[2] ""
 "\n"
-"  - Argument '{}' pasuje do {} strumieni ('{}') modułu '{}', ale żaden ze "
+"  - Argument „{}” pasuje do {} strumieni („{}”) modułu „{}”, ale żaden ze "
 "strumieni nie jest włączony ani domyślny."
 
 #: base/log_event.cpp:299
@@ -416,8 +414,8 @@ msgid ""
 "The operation would result in switching of module '{0}' stream '{1}' to "
 "stream '{2}'\n"
 msgstr ""
-"Operacja spowoduje przełączenie strumienia modułu '{0}' '{1}' na strumień "
-"'{2}'\n"
+"Operacja spowoduje przełączenie strumienia modułu „{0}” „{1}” na strumień „"
+"{2}”\n"
 
 #: base/log_event.cpp:342
 msgid ""
@@ -433,13 +431,13 @@ msgid ""
 "Extra package '{0}' (with action '{1}') which is not present in the stored "
 "transaction was pulled into the transaction.\n"
 msgstr ""
-"Dodatkowy pakiet '{0}' (z akcją '{1}'), którego nie ma w zapisanej "
+"Dodatkowy pakiet „{0}” (z akcją „{1}”), którego nie ma w zapisanej "
 "transakcji, został wciągnięty do transakcji.\n"
 
 #: base/log_event.cpp:353
 #, c++-format
 msgid "Cannot parse file: '{0}': {1}.\n"
-msgstr "Nie można przeanalizować pliku: '{0}': {1}.\n"
+msgstr "Nie można przeanalizować pliku: „{0}”: {1}.\n"
 
 #: base/log_event.cpp:360
 #, c++-format
@@ -448,7 +446,7 @@ msgid ""
 "the argument '{0}': {1}"
 msgstr ""
 "Nie można znaleźć pakietu debuginfo dla następujących pakietów rozwiązanych "
-"na podstawie argumentu '{0}': {1}"
+"na podstawie argumentu „{0}”: {1}"
 
 #: base/log_event.cpp:363 base/log_event.cpp:374
 msgctxt "String for joining NEVRAs - e.g. `foo-4-4.noarch, bar-5-5.noarch`"
@@ -462,12 +460,12 @@ msgid ""
 "the argument '{0}': {1}"
 msgstr ""
 "Nie można znaleźć pakietu debugsource dla następujących pakietów "
-"rozwiązanych na podstawie argumentu '{0}': {1}"
+"rozwiązanych na podstawie argumentu „{0}”: {1}"
 
 #: base/log_event.cpp:377
 #, c++-format
 msgid "Transaction merge error: '{0}'"
-msgstr "Błąd scalania transakcji: '{0}'"
+msgstr "Błąd scalania transakcji: „{0}”"
 
 #: base/solver_problems.cpp:41
 #, c++-format
@@ -735,7 +733,7 @@ msgstr "Nie można uruchomić transakcji z problemami."
 
 #: base/transaction.cpp:90
 msgid "Rpm transaction check failed."
-msgstr "Sprawdzenie transakcji rpm nie powiodło się."
+msgstr "Sprawdzenie transakcji rpm się nie powiodło."
 
 #: base/transaction.cpp:92
 msgid ""
@@ -745,11 +743,11 @@ msgstr ""
 
 #: base/transaction.cpp:93
 msgid "Rpm transaction failed."
-msgstr "Transakcja rpm nie powiodła się."
+msgstr "Transakcja rpm się nie powiodła."
 
 #: base/transaction.cpp:94
 msgid "Signature verification failed."
-msgstr "Weryfikacja podpisu nie powiodła się."
+msgstr "Weryfikacja podpisu się nie powiodła."
 
 #: base/transaction.cpp:98
 msgid "The repository does not have any OpenPGP keys configured."
@@ -794,7 +792,7 @@ msgstr "Wystąpił błąd podczas importowania klucza „{}”: {}"
 #, c++-format
 msgid "OpenPGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
 msgstr ""
-"Sprawdzenie OpenPGP pakietu „{}” ({}) w repozytorium „{}” nie powiodło się: "
+"Sprawdzenie OpenPGP pakietu „{}” ({}) w repozytorium „{}” się nie powiodło: "
 
 #: base/transaction.cpp:1651
 msgid "Import of the key didn't help, wrong key?"
@@ -924,17 +922,17 @@ msgstr "Dane wejściowe są puste. Muszą zawierać wartość."
 #: conf/config_main.cpp:63
 #, c++-format
 msgid "Input value '{}' must not be negative"
-msgstr "Wartość wejściowa '{}' nie może być ujemna"
+msgstr "Wartość wejściowa „{}” nie może być ujemna"
 
 #: conf/config_main.cpp:68
 #, c++-format
 msgid "Could not convert '{}' to bytes"
-msgstr "Nie można przekonwertować '{}' na bajty"
+msgstr "Nie można przekonwertować „{}” na bajty"
 
 #: conf/config_main.cpp:84
 #, c++-format
 msgid "Unknown unit '{}'"
-msgstr "Nieznana jednostka '{}'"
+msgstr "Nieznana jednostka „{}”"
 
 #: conf/config_main.cpp:291
 #, c++-format
@@ -1031,7 +1029,7 @@ msgstr "Nieznany format czasu „{}”"
 #: conf/option_seconds.cpp:78
 #, c++-format
 msgid "Unknown time unit '{}'"
-msgstr "Nieznana jednostka czasu '{}'"
+msgstr "Nieznana jednostka czasu „{}”"
 
 #: conf/option_string.cpp:89
 #, c++-format
@@ -1074,7 +1072,7 @@ msgstr "Nie ma takiego modułu: {}"
 #: module/module_db.cpp:268
 #, c++-format
 msgid "Cannot enable multiple streams for module '{}'"
-msgstr "Nie można włączyć wielu strumieni dla modułu '{}'"
+msgstr "Nie można włączyć wielu strumieni dla modułu „{}”"
 
 #. TODO(pkratoch) replace with a proper and descriptive exception
 #. TODO(jmracek) else if (removalOfProtected && removalOfProtected->size()) {
@@ -1158,7 +1156,7 @@ msgstr "Nie można załadować wtyczki libdnf włączonej z: {}"
 
 #: repo/config_repo.cpp:593
 msgid "get_unique_id(): Computation of SHA256 failed"
-msgstr "get_unique_id(): Obliczenie SHA256 nie powiodło się"
+msgstr "get_unique_id(): Obliczenie SHA256 się nie powiodło"
 
 #: repo/file_downloader.cpp:154
 msgid "Cannot download files, cacheonly option is activated."
@@ -1223,8 +1221,7 @@ msgstr "Repozytorium „{}” ma nieobsługiwany typ „{}”, pomijanie."
 #: repo/repo.cpp:222 repo/repo.cpp:242 repo/repo_sack.cpp:370
 #, c++-format
 msgid "Failed to download metadata ({}: \"{}\") for repository \"{}\": {}"
-msgstr ""
-"Nie udało się pobrać metadanych ({}: \"{}\") dla repozytorium \"{}\": {}"
+msgstr "Nie udało się pobrać metadanych ({}: „{}”) dla repozytorium „{}”: {}"
 
 #: repo/repo.cpp:440
 msgid ""
@@ -1242,7 +1239,7 @@ msgstr "Nie udało się załadować kompozycji „{}”: nie ma rozszerzenia „
 #: repo/repo.cpp:513
 #, c++-format
 msgid "Failed to load xml Comps \"{}\": {}"
-msgstr "Nie udało się załadować kompozycji xml \"{}\": {}"
+msgstr "Nie udało się załadować kompozycji xml „{}”: {}"
 
 #: repo/repo.cpp:531
 #, c++-format
@@ -1301,8 +1298,8 @@ msgstr ""
 #, c++-format
 msgid "Error checking if repomd ({}: \"{}\") is in sync for repository \"{}\""
 msgstr ""
-"Wystąpił błąd podczas sprawdzania, czy repomd ({}: \"{}\") jest "
-"zsynchronizowany z repozytorium \"{}\""
+"Wystąpił błąd podczas sprawdzania, czy repomd ({}: „{}”) jest "
+"zsynchronizowany z repozytorium „{}”"
 
 #: repo/repo_downloader.cpp:526
 #, c++-format
@@ -1418,7 +1415,7 @@ msgstr ""
 msgid ""
 "An error occurred when parsing the temporary files memory file at '{}': {}"
 msgstr ""
-"Wystąpił błąd podczas analizowania pliku pamięci plików tymczasowych w '{}': "
+"Wystąpił błąd podczas analizowania pliku pamięci plików tymczasowych w „{}”: "
 "{}"
 
 #: rpm/checksum.cpp:98
@@ -1523,13 +1520,13 @@ msgstr ""
 msgid "Failed to set scriptlet output file, cannot open file \"{}\": {}"
 msgstr ""
 "Nie udało się ustawić pliku wyjściowego scriptletu, nie można otworzyć pliku "
-"\"{}\": {}"
+"„{}”: {}"
 
 #: rpm/transaction.cpp:312
 #, c++-format
 msgid "Failed to read package header, cannot open file \"{}\": {}"
 msgstr ""
-"Nie udało się odczytać nagłówka pakietu, nie można otworzyć pliku \"{}\": {}"
+"Nie udało się odczytać nagłówka pakietu, nie można otworzyć pliku „{}”: {}"
 
 #: rpm/transaction.cpp:329
 #, c++-format
@@ -1610,7 +1607,7 @@ msgstr ""
 #: solv/vendor_change_manager.cpp:484 solv/vendor_change_manager.cpp:709
 #, c++-format
 msgid "Unknown key '{}' in \"{}\" on line {}"
-msgstr "Nieznany klucz '{}' w \"{}\" w wierszu {}"
+msgstr "Nieznany klucz „{}” w „{}” w wierszu {}"
 
 #: solv/vendor_change_manager.cpp:401
 #, c++-format
@@ -1662,7 +1659,7 @@ msgstr ""
 #: solv/vendor_change_manager.cpp:535
 #, c++-format
 msgid "Bad value type in \"{}\" on line {}: {}"
-msgstr "Nieprawidłowy typ wartości w \"{}\" w wierszu {}: {}"
+msgstr "Nieprawidłowy typ wartości w „{}” w wierszu {}: {}"
 
 #: solv/vendor_change_manager.cpp:541
 #, c++-format
@@ -1690,7 +1687,7 @@ msgstr ""
 #: solv/vendor_change_manager.cpp:651
 #, c++-format
 msgid "Unknown 'comparator' \"{}\" in \"{}\" on line {}"
-msgstr "Nieznany 'komparator' \"{}\" w \"{}\" w wierszu {}"
+msgstr "Nieznany 'komparator' „{}” w „{}” w wierszu {}"
 
 #: solv/vendor_change_manager.cpp:655
 #, c++-format
@@ -1703,7 +1700,7 @@ msgstr ""
 #: solv/vendor_change_manager.cpp:694
 #, c++-format
 msgid "Unknown 'filter' \"{}\" in \"{}\" on line {}"
-msgstr "Nieznany 'filtr' \"{}\" w \"{}\" w wierszu {}"
+msgstr "Nieznany 'filtr' „{}” w „{}” w wierszu {}"
 
 #: solv/vendor_change_manager.cpp:715
 #, c++-format
@@ -1765,12 +1762,12 @@ msgstr "Nieoczekiwany koniec danych wejściowych"
 #: solv/vendor_change_manager.cpp:865
 #, c++-format
 msgid "Expected '{}' but found end of input"
-msgstr "Oczekiwano '{}', ale znaleziono koniec danych wejściowych"
+msgstr "Oczekiwano „{}”, ale znaleziono koniec danych wejściowych"
 
 #: solv/vendor_change_manager.cpp:867
 #, c++-format
 msgid "Expected '{}' but found '{}'"
-msgstr "Oczekiwano '{}', ale znaleziono '{}'"
+msgstr "Oczekiwano „{}”, ale znaleziono „{}”"
 
 #: solv/vendor_change_manager.cpp:877
 #, c++-format
@@ -1786,7 +1783,7 @@ msgstr "Oczekiwany filtr pakietu po znaku „@”"
 #: solv/vendor_change_manager.cpp:944
 #, c++-format
 msgid "Unexpected character '{}'"
-msgstr "Nieoczekiwany znak '{}'"
+msgstr "Nieoczekiwany znak „{}”"
 
 #: solv/vendor_change_manager.cpp:1020
 msgid "Expected quoted string starting with '\"'"
@@ -1834,7 +1831,7 @@ msgstr "Nieprawidłowy wzorzec dostawcy wyrażenia regularnego „{}”: {}"
 #: solv/vendor_change_manager.cpp:1231
 #, c++-format
 msgid "Unknown filter field name '{}'"
-msgstr "Nieznana nazwa pola filtra '{}'"
+msgstr "Nieznana nazwa pola filtra „{}”"
 
 #: solv/vendor_change_manager.cpp:1241
 msgid "Expected filter field name"
@@ -1866,17 +1863,17 @@ msgstr ""
 #: solv/vendor_change_manager.cpp:1286
 #, c++-format
 msgid "Filter '{}' only supports relational comparators: =, !=, >, >=, <, <="
-msgstr "Filtr '{}' obsługuje tylko komparatory relacyjne: =, !=, >, >=, <, <="
+msgstr "Filtr „{}” obsługuje tylko komparatory relacyjne: =, !=, >, >=, <, <="
 
 #: solv/vendor_change_manager.cpp:1290
 #, c++-format
 msgid "Filter '{}' only supports string comparators: =, ^, $, *, =*, =~"
-msgstr "Filtr '{}' obsługuje tylko komparatory ciągów: =, ^, $, *, =*, =~"
+msgstr "Filtr „{}” obsługuje tylko komparatory ciągów: =, ^, $, *, =*, =~"
 
 #: solv/vendor_change_manager.cpp:1299
 #, c++-format
 msgid "Invalid regex '{}': {}"
-msgstr "Nieprawidłowe wyrażenie regularne '{}': {}"
+msgstr "Nieprawidłowe wyrażenie regularne „{}”: {}"
 
 #: solv/vendor_change_manager.cpp:1310
 msgid "Package filters do not support 'eq' direction. Use 'in' or 'out'"
@@ -1895,7 +1892,7 @@ msgstr "Nieprawidłowa wersja TOML „{}”, oczekiwano „MAJOR.MINOR”"
 #: system/state.cpp:299
 #, c++-format
 msgid "{} state for \"{}\" not found."
-msgstr "{} stan dla \"{}\" nie został znaleziony."
+msgstr "{} stan dla „{}” nie został znaleziony."
 
 #: system/state.cpp:303
 #, c++-format
@@ -2019,8 +2016,8 @@ msgid ""
 "Action '{0}' '{1}' cannot be merged after it was '{2}' in preceding "
 "transactions -> setting '{0}'."
 msgstr ""
-"Akcji '{0}' '{1}' nie można scalić po tym, jak w poprzednich transakcjach "
-"była ona '{2}' -> ustawienie '{0}'."
+"Nie można scalić akcji „{0}” „{1}”, ponieważ w poprzednich transakcjach była "
+"to akcja „{2}” -> ustawiono „{0}”."
 
 #: transaction/transaction_merge.cpp:116
 #, c++-format
@@ -2028,8 +2025,8 @@ msgid ""
 "Action 'Upgrade' '{0}' cannot be merged because it is not present at that "
 "point -> setting 'Install'."
 msgstr ""
-"Akcji „Aktualizacja” „{0}” nie można scalić, ponieważ nie istnieje w tym "
-"momencie -> ustawienie „Instalacja”."
+"Nie można scalić akcji „Aktualizacja” „{0}”, ponieważ nie istnieje w tym "
+"momencie -> ustawiono „Instalacja”."
 
 #: transaction/transaction_merge.cpp:174 transaction/transaction_merge.cpp:231
 #, c++-format
@@ -2037,8 +2034,8 @@ msgid ""
 "Action 'Reinstall' '{0}' cannot be merged because it is not present at that "
 "point -> setting 'Install'."
 msgstr ""
-"Akcja „Zainstaluj ponownie” „{0}” nie może zostać scalona, ponieważ nie "
-"istnieje w tym momencie -> ustawienie „Zainstaluj”."
+"Nie można scalić akcji „Ponowna instalacja” „{0}”, ponieważ nie istnieje w "
+"tym momencie -> ustawiono „Instalacja”."
 
 #: transaction/transaction_merge.cpp:194
 #, c++-format
@@ -2046,13 +2043,13 @@ msgid ""
 "Action '{0}' '{1}' cannot be merged after it was '{2}' in preceding "
 "transaction -> setting '{0}'."
 msgstr ""
-"Akcji '{0}' '{1}' nie można scalić po tym, jak w poprzedniej transakcji była "
-"to akcja '{2}' -> ustawienie '{0}'."
+"Nie można scalić akcji „{0}” „{1}”, ponieważ w poprzedniej transakcji była "
+"to akcja „{2}” -> ustawiono „{0}”."
 
 #: transaction/transaction_merge.cpp:215
 #, c++-format
 msgid "Unexpected action encountered: '{0}' during transaction merge."
-msgstr "Napotkano nieoczekiwaną akcję: '{0}' podczas scalania transakcji."
+msgstr "Podczas scalania transakcji napotkano nieoczekiwaną akcję: „{0}”."
 
 #: transaction/transaction_merge.cpp:224
 #, c++-format
@@ -2060,8 +2057,8 @@ msgid ""
 "Action '{0}' '{1}' cannot be merged because it is not present at that point "
 "-> skipping it."
 msgstr ""
-"Akcji '{0}' '{1}' nie można scalić, ponieważ nie ma jej w tym momencie -> "
-"pomijam ją."
+"Nie można scalić akcji „{0}” „{1}”, ponieważ nie ma jej w tym momencie -> "
+"pominięto ją."
 
 #: transaction/transaction_merge.cpp:245
 #, c++-format
@@ -2069,8 +2066,8 @@ msgid ""
 "Action '{0}' '{1}' cannot be merged because it is not present at that point "
 "-> setting 'INSTALL'."
 msgstr ""
-"Akcji '{0}' '{1}' nie może być scalona, ponieważ w tym momencie jej nie ma "
-"-> ustawienie 'INSTALL'."
+"Nie można scalić akcji „{0}” „{1}”, ponieważ nie ma jej w tym momencie -> "
+"ustawiono „INSTALL”."
 
 #: transaction/transaction_merge.cpp:266
 #, c++-format
@@ -2078,8 +2075,8 @@ msgid ""
 "Action '{0}' '{1}' cannot be merged because it is not present at that point "
 "(present versions are: {2}) -> skipping it."
 msgstr ""
-"Akcji '{0}' '{1}' nie można scalić, ponieważ nie ma jej w tym momencie "
-"(obecne wersje to: {2}) -> pomijamy ją."
+"Nie można scalić akcji „{0}” „{1}”, ponieważ nie ma jej w tym momencie "
+"(obecne wersje: {2}) -> pominięto ją."
 
 #: transaction/transaction_merge.cpp:277
 #, c++-format
@@ -2087,8 +2084,8 @@ msgid ""
 "Action '{0}' '{1}' cannot be merged because it is already present at that "
 "point -> skipping it."
 msgstr ""
-"Akcji '{0}' '{1}' nie można scalić, ponieważ jest już obecna w tym momencie "
-"-> pomijam ją."
+"Nie można scalić akcji „{0}” „{1}”, ponieważ jest już obecna w tym "
+"momencie -> pominięto ją."
 
 #: transaction/transaction_merge.cpp:294
 #, c++-format
@@ -2096,13 +2093,13 @@ msgid ""
 "Action '{0}' '{1}' cannot be merged because it is already installed in "
 "version '{2}' -> keeping the action from older transaction with '{1}'."
 msgstr ""
-"Akcji '{0}' '{1}' nie można scalić, ponieważ jest już zainstalowana w wersji "
-"'{2}' -> zachowano akcję ze starszej transakcji z '{1}'."
+"Nie można scalić akcji „{0}” „{1}”, ponieważ jest już zainstalowana w wersji "
+"„{2}” -> zachowano akcję ze starszej transakcji z „{1}”."
 
 #: transaction/transaction_merge.cpp:304
 #, c++-format
 msgid "Invalid action encountered: '{0}' during transaction merge."
-msgstr "Napotkano nieprawidłową akcję: '{0}' podczas scalania transakcji."
+msgstr "Podczas scalania transakcji napotkano nieprawidłową akcję: „{0}”."
 
 #: transaction/transaction_sr.cpp:49
 msgid "Transaction replay JSON serialized transaction input is empty"
@@ -2356,7 +2353,7 @@ msgstr "Plik jest już otwarty."
 #: utils/locker.cpp:121
 #, c++-format
 msgid "Failed to open lock file \"{}\""
-msgstr "Nie udało się otworzyć pliku blokady \"{}\""
+msgstr "Nie udało się otworzyć pliku blokady „{}”"
 
 #: utils/locker.cpp:127 utils/locker.cpp:164
 #, c++-format
@@ -2401,7 +2398,7 @@ msgstr "Nie udało się usunąć pliku blokady „{}”"
 #: utils/sqlite3/sqlite3.cpp:29
 #, c++-format
 msgid "SQL statement compilation failed: \"{}\""
-msgstr "Kompilacja instrukcji SQL nie powiodła się: „{}”"
+msgstr "Kompilacja instrukcji SQL się nie powiodła: „{}”"
 
 #: utils/sqlite3/sqlite3.cpp:31
 #, c++-format
@@ -2417,8 +2414,8 @@ msgstr "Nie udało się powiązać wartości integer64 z poleceniem SQL: „{}�
 #, c++-format
 msgid "Binding unsigned integer32 value to SQL statement failed: \"{}\""
 msgstr ""
-"Powiązanie wartości typu unsigned integer32 z poleceniem SQL nie powiodło "
-"się: „{}”"
+"Powiązanie wartości typu unsigned integer32 z poleceniem SQL się nie "
+"powiodło: „{}”"
 
 #: utils/sqlite3/sqlite3.cpp:37
 #, c++-format
