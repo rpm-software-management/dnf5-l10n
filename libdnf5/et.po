@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-22 14:19+0000\n"
-"PO-Revision-Date: 2026-09-15 21:17+0000\n"
+"PO-Revision-Date: 2026-09-29 09:18+0000\n"
 "Last-Translator: Priit Jõerüüt "
 "<jrtkbfdr@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Estonian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -714,11 +714,11 @@ msgstr ""
 
 #: base/transaction.cpp:993
 msgid "poll failed during scriptlets pipe processing"
-msgstr "pollimine ei õnnestunud lõigendi konveiertöötluses"
+msgstr "pollimine ei õnnestunud haldusskripti konveiertöötluses"
 
 #: base/transaction.cpp:1016
 msgid "failed to read scriptlet output from pipe"
-msgstr "lõigendi väljundit konveiertöötluses ei õnnestunud lugeda"
+msgstr "haldusskripti väljundit konveiertöötluses ei õnnestunud lugeda"
 
 #: base/transaction.cpp:1134
 #, c++-format
@@ -1395,15 +1395,15 @@ msgstr ""
 msgid ""
 "Failed to set scriptlet output file, cannot duplicate file descriptor: {}"
 msgstr ""
-"Lõigendi väljundfaili väärtustamine ei õnnestunud, faili deskriptorist ei "
-"saa teha koopiat: {}"
+"Haldusskripti väljundfaili väärtustamine ei õnnestunud, faili deskriptorist "
+"ei saa teha koopiat: {}"
 
 #: rpm/transaction.cpp:291
 #, c++-format
 msgid "Failed to set scriptlet output file, cannot open file \"{}\": {}"
 msgstr ""
-"Lõigendi väljundfaili väärtustamine ei õnnestunud, „{}“ faili avamine ei "
-"õnnestu: {}"
+"Haldusskripti väljundfaili väärtustamine ei õnnestunud, „{}“ faili avamine "
+"ei õnnestu: {}"
 
 #: rpm/transaction.cpp:312
 #, c++-format
@@ -2141,12 +2141,12 @@ msgstr ""
 #: utils/library.cpp:34
 #, c++-format
 msgid "Cannot load shared library \"{}\": {}"
-msgstr ""
+msgstr "„{}“ jagatud teegi laadimine ei õnnestu: {}"
 
 #: utils/library.cpp:48
 #, c++-format
 msgid "Cannot obtain address of symbol \"{}\": {}"
-msgstr ""
+msgstr "„{}“ sümboli aadressi tuvastamine ei õnnestu: {}"
 
 #: utils/locale.cpp:57
 #, c++-format
