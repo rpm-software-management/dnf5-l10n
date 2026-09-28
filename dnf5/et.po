@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-22 14:19+0000\n"
-"PO-Revision-Date: 2026-09-10 18:18+0000\n"
+"PO-Revision-Date: 2026-09-29 09:18+0000\n"
 "Last-Translator: Priit Jõerüüt "
 "<jrtkbfdr@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Estonian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -215,7 +215,7 @@ msgstr "Nõuandmike loend"
 #: commands/advisory/advisory_subcommand.cpp:93 commands/no_matches.cpp:74
 #: commands/repoquery/repoquery.cpp:903
 msgid "No matches found: no repositories are enabled."
-msgstr ""
+msgstr "Ühtegi vastet ei leidu: ühtegi tarkvarahoidlat pole kasutusel."
 
 #: commands/advisory/advisory_summary.cpp:44
 msgid "All"
@@ -263,12 +263,16 @@ msgid ""
 "Show advisories containing newer versions of installed packages for which a "
 "newer version is available."
 msgstr ""
+"Näita turvateateid, mis sisaldavad paigaldatud pakettide uuemaid versioone, "
+"mille jaoks on saadaval uuem versioon."
 
 #: commands/advisory/arguments.hpp:82
 msgid ""
 "Show only advisories containing packages with specified names. List option, "
 "supports globs."
 msgstr ""
+"Näita turvateateid, mis sisaldavad määratletud nimesid. Loendivalik, toetab "
+"üldnimetusi."
 
 #: commands/advisory/arguments.hpp:83 commands/history/arguments.hpp:81
 msgid "PACKAGE_NAME,..."
@@ -366,6 +370,8 @@ msgstr "CVE_TUNNUS,..."
 #: commands/autoremove/autoremove.cpp:38
 msgid "Remove all unneeded packages originally installed as dependencies."
 msgstr ""
+"Eemalda kõik mittevajalikud paketid, mis algselt olid paigaldatud "
+"sõltuvustena."
 
 #: commands/autoremove/autoremove.cpp:65
 #, c++-format
@@ -512,11 +518,11 @@ msgstr ""
 
 #: commands/environment/arguments.hpp:33
 msgid "Show only available environments."
-msgstr ""
+msgstr "Näita vaid saadaval keskkondi."
 
 #: commands/environment/arguments.hpp:40
 msgid "Show only installed environments."
-msgstr ""
+msgstr "Näita vaid paigaldatud keskkondi."
 
 #: commands/environment/arguments.hpp:47
 msgid "Pattern matching environment identifiers."
@@ -543,33 +549,35 @@ msgstr ""
 
 #: commands/group/arguments.hpp:34
 msgid "Show only available groups."
-msgstr ""
+msgstr "Näita vaid saadaval gruppe."
 
 #: commands/group/arguments.hpp:41
 msgid "Show also hidden groups."
-msgstr ""
+msgstr "Näita ka peidetud gruppe."
 
 #: commands/group/arguments.hpp:48
 msgid "Show only installed groups."
-msgstr ""
+msgstr "Näita vaid paigaldatud gruppe."
 
 #: commands/group/arguments.hpp:59
 msgid ""
 "Show only groups containing packages with specified names. List option, "
 "supports globs."
 msgstr ""
+"Näita vaid gruppe, mis sisaldavad kindlate nimedega pakette. Loendivalik, "
+"toetab üldnimetusi."
 
 #: commands/group/arguments.hpp:67
 msgid "Pattern matching group identifiers."
-msgstr ""
+msgstr "Muster, mis vastab grupitunnustele."
 
 #: commands/group/arguments.hpp:77
 msgid "Pattern matching group or environment identifiers."
-msgstr ""
+msgstr "Muster, mis vastab grupi- või keskkonnatunnustele."
 
 #: commands/group/arguments.hpp:86
 msgid "Include optional packages from groups."
-msgstr ""
+msgstr "Kaasa gruppidest ka valikulised paketid."
 
 #: commands/group/arguments.hpp:97
 msgid "Operate on environments and groups only, no packages are changed."
@@ -577,20 +585,20 @@ msgstr ""
 
 #: commands/group/group_list.cpp:114
 msgid "No matches found: no groups are installed."
-msgstr ""
+msgstr "Ühtegi vastet ei leidu: ühtegi gruppi pole paigaldatud."
 
 #: commands/group/group_list.cpp:116
 msgid "No matches found: no groups are available."
-msgstr ""
+msgstr "Ühtegi vastet ei leidu: ühtegi gruppi pole saadaval."
 
 #: commands/group/group_list.cpp:118
 msgid "No matches found: no groups exist."
-msgstr ""
+msgstr "Ühtegi vastet ei leidu: ühtegi gruppi pole olemas."
 
 #: commands/group/group_list.cpp:144
 #, c++-format
 msgid "Groups: {0} ({1} {2}, {3} {4})"
-msgstr ""
+msgstr "Grupid: {0} ({1} {2}, {3} {4})"
 
 #: commands/group/group_list.cpp:147
 msgid "installed"
@@ -1198,12 +1206,12 @@ msgstr "Käsk: {}"
 #: context.cpp:81
 #, c++-format
 msgid "Process ID: {} (still running)"
-msgstr ""
+msgstr "Protsessi tunnus: {} (jätkuvalt töötab)"
 
 #: context.cpp:83
 #, c++-format
 msgid "Process ID: {}"
-msgstr ""
+msgstr "Protsessi tunnus: {}"
 
 #: context.cpp:92
 #, c++-format
@@ -1213,11 +1221,11 @@ msgstr "Käivitatud: {}"
 #: context.cpp:99
 #, c++-format
 msgid "Comment: {}"
-msgstr ""
+msgstr "Kommentaar: {}"
 
 #: context.cpp:103
 msgid "Details about the currently running transaction:\n"
-msgstr ""
+msgstr "Hetkel töös oleva transaktsiooni üksikasjad:\n"
 
 #: context.cpp:121
 #, c++-format
@@ -1245,7 +1253,7 @@ msgstr "Võtme importimine õnnestus."
 #: context.cpp:144
 #, c++-format
 msgid "The following OpenPGP key (0x{}) is about to be removed:"
-msgstr ""
+msgstr "Järgnev OpenPGP võti (0x{}) kuulub eemaldamisele:"
 
 #: context.cpp:146
 #, c++-format
@@ -1279,7 +1287,7 @@ msgstr "Järgnevalt süsteem eemaldab selle võtme."
 #: context.cpp:163
 #, c++-format
 msgid "Key 0x{} was successfully removed."
-msgstr ""
+msgstr "0x{} võtme eemaldamine õnnestus."
 
 #: context.cpp:192
 #, c++-format
@@ -1343,6 +1351,7 @@ msgid ""
 "Location \"{}\" already contains a stored transaction, it will be "
 "overwritten."
 msgstr ""
+"Asukohas „{}“ juba leidub salvestatud transaktsioon ja see kirjutatakse üle."
 
 #: context.cpp:475
 msgid ""
@@ -1374,7 +1383,7 @@ msgstr ""
 #: context.cpp:553
 #, c++-format
 msgid "To reschedule, run: {}"
-msgstr ""
+msgstr "Uuesti ajastamiseks käivita: {}"
 
 #: context.cpp:916
 #, c++-format
@@ -1413,7 +1422,7 @@ msgstr "Eemaldan: {}"
 #: context.cpp:985
 #, c++-format
 msgid "Cleanup {}"
-msgstr ""
+msgstr "Puhastan: {}"
 
 #: context.cpp:1004
 #, c++-format
@@ -1427,31 +1436,31 @@ msgstr "Cpio viga: {}"
 
 #: context.cpp:1023
 msgid "Scriptlet output:"
-msgstr "Lõigendi väljund:"
+msgstr "Haldusskripti väljund:"
 
 #: context.cpp:1046
 msgid "Running scriptlets"
-msgstr "Käivitan lõigendeid"
+msgstr "Käivitan haldusskripte"
 
 #: context.cpp:1052
 #, c++-format
 msgid "Running {} scriptlet: {}"
-msgstr "Käivitan „{}“ lõigendit: {}"
+msgstr "Käivitan „{}“ haldusskripti: {}"
 
 #: context.cpp:1068
 #, c++-format
 msgid "Finished {} scriptlet: {}"
-msgstr "Lõpetasin „{}“ lõigendi töö: {}"
+msgstr "Lõpetasin „{}“ haldusskripti töö: {}"
 
 #: context.cpp:1075
 #, c++-format
 msgid "Non-critical error in {} scriptlet: {}"
-msgstr "Mittekriitiline viga „{}“ lõigendis: {}"
+msgstr "Mittekriitiline viga „{}“ haldusskriptis: {}"
 
 #: context.cpp:1085
 #, c++-format
 msgid "Error in {} scriptlet: {}"
-msgstr "Viga „{}“ lõigendis: {}"
+msgstr "Viga „{}“ haldusskriptis: {}"
 
 #: context.cpp:1120
 msgid "Verify package files"
@@ -1460,20 +1469,20 @@ msgstr "Kontrollin paketi faile"
 #: library.cpp:33
 #, c++-format
 msgid "Cannot load shared library \"{}\": {}"
-msgstr ""
+msgstr "„{}“ jagatud teegi laadimine ei õnnestu: {}"
 
 #: library.cpp:47
 #, c++-format
 msgid "Cannot obtain address of symbol \"{}\": {}"
-msgstr ""
+msgstr "„{}“ sümboli aadressi tuvastamine ei õnnestu: {}"
 
 #: main.cpp:142
 msgid "Utility for packages maintaining"
-msgstr ""
+msgstr "Paketihalduse tarvik"
 
 #: main.cpp:143
 msgid "DNF5 is a program for maintaining packages."
-msgstr ""
+msgstr "DNF5 on pakettide halduseks mõeldud programm."
 
 #: main.cpp:144
 msgid "Unclassified options:"
