@@ -7,13 +7,14 @@
 # Cheng-Chia Tseng <pswo10680@gmail.com>, 2025, 2026.
 # madomado nuko <mado@fyralabs.com>, 2025.
 # Shihfu Juan <xlion@xlion.tw>, 2026.
+# Skyter Lin <linskyter@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-22 14:19+0000\n"
-"PO-Revision-Date: 2026-08-27 04:18+0000\n"
-"Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
+"PO-Revision-Date: 2026-09-29 09:18+0000\n"
+"Last-Translator: Skyter Lin <linskyter@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
 "projects/dnf5/dnf5/zh_TW/>\n"
 "Language: zh_TW\n"
@@ -21,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.8.1\n"
+"X-Generator: Weblate 2026.9.1\n"
 
 #: cmdline_aliases.cpp:84 context.cpp:198 main.cpp:1449
 msgid ", "
@@ -213,10 +214,8 @@ msgstr "列出通報"
 
 #: commands/advisory/advisory_subcommand.cpp:93 commands/no_matches.cpp:74
 #: commands/repoquery/repoquery.cpp:903
-#, fuzzy
-#| msgid "No matching repositories for {}"
 msgid "No matches found: no repositories are enabled."
-msgstr "沒有符合 {} 的軟體庫"
+msgstr "沒有找到符合的：沒有軟體庫被啟用。"
 
 #: commands/advisory/advisory_summary.cpp:44
 msgid "All"
@@ -521,10 +520,8 @@ msgid "Show only installed environments."
 msgstr "只顯示已安裝的環境。"
 
 #: commands/environment/arguments.hpp:47
-#, fuzzy
-#| msgid "Pattern matching environment IDs."
 msgid "Pattern matching environment identifiers."
-msgstr "符合樣式比對的環境 ID。"
+msgstr "符合樣式的環境識別。"
 
 #: commands/environment/environment.cpp:38
 msgid "Manage comps environments"
@@ -542,10 +539,8 @@ msgstr ""
 
 #: commands/environment/environment_info.cpp:105
 #: commands/environment/environment_list.cpp:103
-#, fuzzy
-#| msgid "No matches found for \"{}\"."
 msgid "No matches found: no environments exist."
-msgstr "找不到符合的「{}」。"
+msgstr "找不到符合的: 沒有環境存在."
 
 #: commands/group/arguments.hpp:34
 msgid "Show only available groups."
@@ -566,16 +561,12 @@ msgid ""
 msgstr "只顯示包含指定名稱軟體包的群組。清單選項，支援 globs。"
 
 #: commands/group/arguments.hpp:67
-#, fuzzy
-#| msgid "Pattern matching group IDS."
 msgid "Pattern matching group identifiers."
-msgstr "符合樣式比對的群組 ID。"
+msgstr "符合樣式的群組識別。"
 
 #: commands/group/arguments.hpp:77
-#, fuzzy
-#| msgid "Pattern matching environment IDs."
 msgid "Pattern matching group or environment identifiers."
-msgstr "符合樣式比對的環境 ID。"
+msgstr "符合樣式的群組或環境識別。"
 
 #: commands/group/arguments.hpp:86
 #, fuzzy
@@ -584,28 +575,20 @@ msgid "Include optional packages from groups."
 msgstr "包含群組提供的選用軟體包。"
 
 #: commands/group/arguments.hpp:97
-#, fuzzy
-#| msgid "Operate on groups only, no packages are changed."
 msgid "Operate on environments and groups only, no packages are changed."
-msgstr "只對群組執行操作，不變更軟體包。"
+msgstr "只對環境與群組執行操作，不變更軟體包。"
 
 #: commands/group/group_list.cpp:114
-#, fuzzy
-#| msgid "No matches found for \"{}\"."
 msgid "No matches found: no groups are installed."
-msgstr "找不到符合的「{}」。"
+msgstr "找不到符合的: 沒有群組被安裝。"
 
 #: commands/group/group_list.cpp:116
-#, fuzzy
-#| msgid "No matches found for \"{}\"."
 msgid "No matches found: no groups are available."
-msgstr "找不到符合的「{}」。"
+msgstr "找不到符合的: 沒有群組可用。"
 
 #: commands/group/group_list.cpp:118
-#, fuzzy
-#| msgid "No matches found for \"{}\"."
 msgid "No matches found: no groups exist."
-msgstr "找不到符合的「{}」。"
+msgstr "找不到符合的: 沒有群組存在。"
 
 #: commands/group/group_list.cpp:144
 #, c++-format
@@ -705,12 +688,10 @@ msgid ""
 msgstr "列出其他已安裝軟體包不需要的已安裝軟體包群組"
 
 #: commands/list/info.hpp:38
-#, fuzzy
-#| msgid "Lists packages depending on the packages' relation to the system"
 msgid ""
 "Lists packages depending on the packages' relation to the system with "
 "additional details"
-msgstr "依據軟體包與系統間的關係列出軟體包"
+msgstr "依據軟體包與系統間的關係列出軟體包，並提供更多詳細資訊"
 
 #: commands/list/list.cpp:49
 msgid "List of package-spec-NI to match (case insensitively)"
@@ -813,10 +794,8 @@ msgid "No matches found: no module streams are disabled."
 msgstr ""
 
 #: commands/module/module_list.cpp:92
-#, fuzzy
-#| msgid "No matches found for \"{}\"."
 msgid "No matches found: no module streams exist."
-msgstr "找不到符合的「{}」。"
+msgstr "找不到符合的: 沒有模組串流存在。"
 
 #: commands/no_matches.cpp:14
 #, c++-format
@@ -832,10 +811,8 @@ msgstr ""
 "use-host-config。"
 
 #: commands/no_matches.cpp:78 commands/no_matches.hpp:45
-#, fuzzy
-#| msgid "No matches found for \"{}\"."
 msgid "No matches found."
-msgstr "找不到符合的「{}」。"
+msgstr "找不到符合的。"
 
 #: commands/offline/offline.cpp:217
 msgid "Manage offline transactions"
