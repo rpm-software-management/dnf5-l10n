@@ -883,10 +883,9 @@ msgid "General RuntimeError exception"
 msgstr "Yleinen RuntimeError-poikkeus"
 
 #: common/proc.cpp:88
-#, fuzzy, c++-format
-#| msgid "Cannot install package \"{}\""
+#, c++-format
 msgid "Cannot stat {}"
-msgstr "Pakettia \"{}\" ei voi asentaa"
+msgstr "Ei voida 'stat' %s"
 
 #: common/proc.cpp:124
 #, fuzzy, c++-format
