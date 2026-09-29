@@ -12,9 +12,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-22 14:19+0000\n"
-"PO-Revision-Date: 2026-09-30 18:17+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2026-09-30 18:18+0000\n"
+"Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/fi/>\n"
 "Language: fi\n"
@@ -38,10 +37,9 @@ msgid "This libdnf5 does not support modularity"
 msgstr ""
 
 #: base/active_transaction_info.cpp:93 base/active_transaction_info.cpp:95
-#, fuzzy, c++-format
-#| msgid "Error during transaction replay JSON parsing : {}"
+#, c++-format
 msgid "Error parsing transaction info: {}"
-msgstr "Virhe tapahtuman toiston JSON-jäsennyksessä: {}"
+msgstr "Virhe jäsennettäessä tapahtumatietoja: {}"
 
 #: base/base.cpp:185
 #, c++-format
@@ -329,10 +327,9 @@ msgid "Packages for argument '{}' installed, but not available."
 msgstr "Paketit argumentille '{}' asennettu, mutta eivät saatavilla."
 
 #: base/log_event.cpp:248
-#, fuzzy, c++-format
-#| msgid "Package \"{}\" is already installed."
+#, c++-format
 msgid "Group \"{}\" is already installed."
-msgstr "Paketti \"{}\" on jo asennettu."
+msgstr "Ryhmä \"{}\" on jo asennettu."
 
 #: base/log_event.cpp:251
 #, fuzzy, c++-format
@@ -626,7 +623,7 @@ msgid ""
 "protected packages: {}"
 msgstr ""
 "Toiminto johtaisi rikkinäisiin riippuvuuksiin seuraaville suojatuille "
-"paketeille:"
+"paketeille: {}"
 
 #: base/solver_problems.cpp:78
 #, c++-format
@@ -885,12 +882,12 @@ msgstr "Yleinen RuntimeError-poikkeus"
 #: common/proc.cpp:88
 #, c++-format
 msgid "Cannot stat {}"
-msgstr "Ei voida 'stat' %s"
+msgstr "Ei voida 'stat' {}"
 
 #: common/proc.cpp:124
 #, c++-format
 msgid "Cannot open {}"
-msgstr "'%s':ta ei voi avata"
+msgstr "{}:ta ei voi avata"
 
 #: common/sack/query.cpp:27
 msgid "Query must contain exactly one object."
@@ -906,12 +903,11 @@ msgstr ""
 "get_user_runtime_dir(): Käyttäjän ajonaikaista hakemistoa ei voida määrittää"
 
 #: comps/environment/environment.cpp:361
-#, fuzzy, c++-format
-#| msgid "Failed to save xml document for group \"{}\" to file \"{}\": {}"
+#, c++-format
 msgid "Failed to save xml document for environment \"{}\" to file \"{}\": {}"
 msgstr ""
-"XML-asiakirjan tallentaminen tiedostoon \"{}\" ryhmälle \"{}\" epäonnistui: "
-"{}"
+"XML-asiakirjan tallentaminen tiedostoon \"{}\" ympäristöön \"{}\" "
+"epäonnistui: {}"
 
 #: comps/group/group.cpp:354
 #, c++-format
