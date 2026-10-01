@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-01 08:30+0000\n"
-"PO-Revision-Date: 2026-09-15 21:18+0000\n"
+"PO-Revision-Date: 2026-10-01 18:53+0000\n"
 "Last-Translator: Keith Bowes <zooplah@gmail.com>\n"
 "Language-Team: Esperanto <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/eo/>\n"
@@ -296,7 +296,7 @@ msgstr ""
 
 #: commands/advisory/arguments.hpp:83 commands/history/arguments.hpp:81
 msgid "PACKAGE_NAME,..."
-msgstr "PAKO_NOMO,..."
+msgstr "PAKA_NOMO,..."
 
 #: commands/advisory/arguments.hpp:90
 msgid "List of patterns matched against advisory names."
@@ -1292,7 +1292,7 @@ msgstr "Pako \"{}\" jam estas ekskluzivigita."
 #: context.cpp:73
 #, c++-format
 msgid "Command: {}"
-msgstr "Informopetaj komandoj:"
+msgstr "Komando: {}"
 
 #: context.cpp:81
 #, c++-format
@@ -1307,7 +1307,7 @@ msgstr "Proceza identigilo: {}"
 #: context.cpp:92
 #, c++-format
 msgid "Started: {}"
-msgstr "setvar: {}"
+msgstr "Komencita: {}"
 
 #: context.cpp:99
 #, c++-format
@@ -1316,7 +1316,7 @@ msgstr "Komento: {}"
 
 #: context.cpp:103
 msgid "Details about the currently running transaction:\n"
-msgstr "Montri staton de nuna eksterreta transakcio\n"
+msgstr "Detaloj pri la nune plenumiĝanta eksterreta transakcio\n"
 
 #: context.cpp:121
 #, c++-format
@@ -1391,7 +1391,7 @@ msgid ""
 "No matching repositories for {}. To use repositories from a host system, "
 "pass --use-host-config option"
 msgstr ""
-"Neniuj kongruantaj deponejoj por {}. Por uzi deponejen el fora sistemo, donu "
+"Neniuj kongruantaj deponejoj por {}. Por uzi deponejon el fora sistemo, donu "
 "la opcion --use-host-config"
 
 #: context.cpp:206
@@ -2094,7 +2094,7 @@ msgid ""
 "options to run the command without modifying the system state."
 msgstr ""
 "La petita operacio postulas privilegiojn de la ĉefuzanto. Bonvolu ensaluti "
-"kiel uzulo kun pli da rajtoj, aŭ uzi la opciojn \"--assumeno\" aŭ \"----"
+"kiel uzulo kun pli da rajtoj, aŭ uzi la opciojn \"--assumeno\" aŭ \"--"
 "downloadonly\" por plenumigi la komandon sen modifo de la sistema stato."
 
 #: main.cpp:1592
@@ -2154,14 +2154,16 @@ msgstr ""
 
 #: main.cpp:1702
 msgid "Warning: A pending offline transaction will be invalidated."
-msgstr "Startigas eksterretan transakcion. Tio eble longe daŭros."
+msgstr "Averto: Atendanta eksterreta transakcio eksvalidiĝos."
 
 #: main.cpp:1705
 #, c++-format
 msgid ""
 "Warning: A pending offline transaction initiated by the following command "
 "will be invalidated: {}"
-msgstr "Eksterreta transakcio estis iniciatata per la jena komando:"
+msgstr ""
+"Averto: Atendanta eksterreta transakcio iniciatata per la jena komando "
+"eksvalidiĝos: {}"
 
 #: main.cpp:1730
 msgid ""
@@ -2255,11 +2257,11 @@ msgstr ""
 
 #: shared_options.cpp:239
 msgid "VENDOR,..."
-msgstr "CVE_IDENTIGILO,..."
+msgstr "VENDINTO,..."
 
 #: shared_options.cpp:248
 msgid "\"--from_vendor\" already defined with different value"
-msgstr "\"--from-repo\" jam estas difinita kun alia valoro"
+msgstr "\"--from-vendor\" jam estas difinita kun alia valoro"
 
 #~ msgid "No matching packages to list"
 #~ msgstr "Neniuj kongruantoj pakoj listigeblas"
