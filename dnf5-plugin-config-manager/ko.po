@@ -2,13 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # 김인수 <simmon@nplob.com>, 2024.
+# Hyeonmin Oh <hyunmin860@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-03 11:07+0000\n"
-"PO-Revision-Date: 2024-10-10 02:54+0000\n"
-"Last-Translator: 김인수 <simmon@nplob.com>\n"
+"PO-Revision-Date: 2026-10-07 09:16+0000\n"
+"Last-Translator: Hyeonmin Oh <hyunmin860@gmail.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5-plugin-config-manager/ko/>\n"
 "Language: ko\n"
@@ -16,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.7.2\n"
+"X-Generator: Weblate 2026.10\n"
 
 #: addrepo.cpp:136
 #, c++-format
@@ -31,7 +32,7 @@ msgstr "from-repofile: {}"
 #: addrepo.cpp:169 setopt.cpp:53 setvar.cpp:49
 #, c++-format
 msgid "{}: Badly formatted argument value \"{}\""
-msgstr "{}: 잘못된 형식의 인수 값 \"{}\""
+msgstr "{}: 인수 값 \"{}\"의 형식이 잘못되었습니다."
 
 #: addrepo.cpp:179
 #, c++-format
@@ -123,18 +124,17 @@ msgstr "수정하는 데 일치하는 저장소가 없습니다: {}"
 
 #: repos.hpp:42
 msgid "Enables repositories"
-msgstr ""
+msgstr "저장소 활성화"
 
 #: repos.hpp:50
 msgid "Disables repositories"
-msgstr ""
+msgstr "저장소 비활성화"
 
 #: setopt.cpp:61 unsetopt.cpp:73
 #, c++-format
 msgid ""
 "{}: Badly formatted argument value: Last key character cannot be '.': {}"
-msgstr ""
-"{}: 잘못된 형식의 인수 값: 마지막 키 문자는 다음과 같을 수 없습니다 '.': {}"
+msgstr "{}: 인수 값의 형식이 잘못되었습니다. 키의 마지막 문자는 '.'일 수 없습니다: {}"
 
 #: setopt.cpp:70 unsetopt.cpp:82
 #, c++-format
@@ -147,15 +147,11 @@ msgid "Cannot set repository option \"{}\": {}"
 msgstr "저장소 옵션을 설정 할 수 없습니다 \"{}\": {}"
 
 #: setopt.cpp:86 setopt.cpp:149
-#, fuzzy, c++-format
-#| msgid ""
-#| "Sets the \"{}\" option of the repository \"{}\" again with a different "
-#| "value: \"{}\" != \"{}\""
+#, c++-format
 msgid ""
 "Sets the \"{}\" option of the repository \"{}\" again with a different "
 "value: \"{}\" != \"{}\""
-msgstr ""
-"다른 값을 갖는 저장소 \"{}\"의 옵션을 다시 설정합니다: \"{}\" != \"{}\""
+msgstr "\"{}\" 옵션을 저장소 \"{}\"에 다른 값으로 다시 설정합니다: \"{}\" != \"{}\""
 
 #: setopt.cpp:100
 #, c++-format
