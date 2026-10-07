@@ -2,7 +2,7 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Byoungchan Lee <byoungchan.lee@gmx.com>, 2024.
-# Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024, 2025.
+# Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024, 2025, 2026.
 # 김인수 <simmon@nplob.com>, 2024, 2025, 2026.
 # Joungmin Lee <leejm516@gmail.com>, 2024.
 # Dohyeon Jeon <hotoras03@gmail.com>, 2026.
@@ -13,7 +13,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-07 05:08+0000\n"
 "PO-Revision-Date: 2026-10-07 22:07+0000\n"
-"Last-Translator: Hyeonmin Oh <hyunmin860@gmail.com>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ko/>\n"
 "Language: ko\n"
@@ -42,8 +43,8 @@ msgid ""
 "Unknown attribute \"{}\" of attached named argument for alias \"{}\" in file "
 "\"{}\" on line {}: {}"
 msgstr ""
-"별칭 \"{}\"에 연결된 이름 있는 인수의 알 수 없는 속성 \"{}\": 파일 \"{}\", {}"
-"번째 줄: {}"
+"행의 파일 \"{}\"에서 별칭 \"{}\"에 부착되어 명명된 인수의 알 수 없는 속성 \""
+"{}\": {}"
 
 #: cmdline_aliases.cpp:171
 #, c++-format
@@ -85,7 +86,7 @@ msgstr ""
 #: cmdline_aliases.cpp:301
 #, c++-format
 msgid "Unknown type \"{}\" of element \"{}\" in file \"{}\" on line {}: {}"
-msgstr "알 수 없는 유형 \"{}\": 요소 \"{}\", 파일 \"{}\", {}번째 줄: {}"
+msgstr "행의 파일 \"{}\"에서 요소 \"{}\"의 알 수 없는 유형 {}: {}"
 
 #: cmdline_aliases.cpp:312
 #, c++-format
@@ -493,7 +494,7 @@ msgstr "작업이 정의되지 않았습니다."
 #: commands/do/do.cpp:231
 #, c++-format
 msgid "Invalid Environment/Group specification: {}"
-msgstr "잘못된 환경/그룹 지정: {}"
+msgstr "잘못된 환경/그룹 사양: {}"
 
 #: commands/do/do.cpp:317
 msgid "Downgrading environments and groups is not supported."
@@ -501,7 +502,7 @@ msgstr "환경 및 그룹의 다운그레이드는 지원하지 않습니다."
 
 #: commands/do/do.cpp:332
 msgid "Reinstalling environments and groups is not supported."
-msgstr "환경 및 그룹의 재설치는 지원하지 않습니다."
+msgstr "환경 및 그룹의 재설치하기는 지원되지 않습니다."
 
 #: commands/downgrade/downgrade.cpp:40
 msgid "Downgrade software"
@@ -544,7 +545,7 @@ msgstr "설치된 환경만 표시합니다."
 
 #: commands/environment/arguments.hpp:47
 msgid "Pattern matching environment identifiers."
-msgstr "환경 식별자와 일치하는 패턴."
+msgstr "유형이 일치되는 환경 IDs."
 
 #: commands/environment/environment.cpp:38
 msgid "Manage comps environments"
@@ -595,11 +596,11 @@ msgstr "그룹 식별자와 일치하는 패턴."
 
 #: commands/group/arguments.hpp:86
 msgid "Include optional packages from groups."
-msgstr "그룹의 선택적 패키지를 포함합니다."
+msgstr "그룹에서 선택적인 꾸러미를 포함합니다."
 
 #: commands/group/arguments.hpp:97
 msgid "Operate on environments and groups only, no packages are changed."
-msgstr "환경과 그룹만 처리하며, 패키지는 변경하지 않습니다."
+msgstr "그룹에서만 동작하며, 어떤 꾸러미도 변경되지 않습니다."
 
 #: commands/group/group_list.cpp:114
 msgid "No matches found: no groups are installed."
@@ -621,7 +622,7 @@ msgstr "그룹: {0} ({1} {2}, {3} {4})"
 #: commands/group/group_list.cpp:147
 msgid "installed"
 msgid_plural "installed"
-msgstr[0] "설치됨"
+msgstr[0] "설치되었습니다"
 
 #: commands/group/group_list.cpp:149
 msgid "available"
@@ -630,7 +631,7 @@ msgstr[0] "사용 가능"
 
 #: commands/history/arguments.hpp:37
 msgid "Transaction ID"
-msgstr "트랜잭션 ID"
+msgstr "연결 ID"
 
 #: commands/history/arguments.hpp:44
 msgid "Reverse the order of transactions."
@@ -719,8 +720,7 @@ msgstr ""
 msgid ""
 "Lists packages depending on the packages' relation to the system with "
 "additional details"
-msgstr ""
-"패키지와 시스템의 관계에 따라 패키지 목록을 상세 정보와 함께 표시합니다."
+msgstr "꾸러미와 시스템의 연관에 따라 의존하는 꾸러미를 나열합니다"
 
 #: commands/list/list.cpp:49
 msgid "List of package-spec-NI to match (case insensitively)"
@@ -840,12 +840,12 @@ msgid ""
 "No repositories were loaded from the installroot. To use the configuration "
 "and repositories of the host system, pass --use-host-config."
 msgstr ""
-"설치 루트에서 불러온 저장소가 없습니다. 호스트 시스템의 설정과 저장소를 사용"
-"하려면 --use-host-config 옵션을 지정하세요."
+"installroot에서 어떤 저장소도 적재되지 않았습니다. 호스트 시스템의 구성 및 "
+"저장소를 사용하려면, --use-host-conifg를 전달하세요."
 
 #: commands/no_matches.cpp:78 commands/no_matches.hpp:45
 msgid "No matches found."
-msgstr "일치하는 항목이 없습니다."
+msgstr "맞는 항목이 없습니다."
 
 #: commands/offline/offline.cpp:217
 msgid "Manage offline transactions"
@@ -1049,8 +1049,8 @@ msgid ""
 "If searching for a file, try specifying the full path or using a wildcard "
 "prefix (\"*/\") at the beginning."
 msgstr ""
-"파일을 검색하려면 전체 경로를 지정하거나 경로 앞에 와일드카드 접두사(\"*/\")"
-"를 붙여 보세요."
+"일치되는 점을 찾지 못했습니다. 만약 파일을 위해 검색하고자 한다면, 전체 "
+"경로를 지정 하거나 시작에서 와일드카드 접두사 (\"*/\")를 사용하여 시도하세요."
 
 #: commands/reinstall/reinstall.cpp:40
 msgid "Reinstall software"
@@ -2105,13 +2105,13 @@ msgid ""
 "perform this operation in a transient overlay which will reset when the "
 "system reboots."
 msgstr ""
-"오류: 이 bootc 시스템은 읽기 전용으로 설정되어 있습니다. --transient 옵션을 "
-"지정하면 시스템을 재부팅할 때 초기화되는 임시 오버레이에서 이 작업을 수행할 "
-"수 있습니다."
+"bootc 시스템은 읽기-전용이 되도록 구성되었습니다. --transient 를 전달하여 "
+"시스템이 재시작 될 때에 재지정되도록 일시적인 씌우기로 해당 연결을 "
+"수행합니다."
 
 #: main.cpp:1645
 msgid "Error: transient transactions are only supported on bootc systems."
-msgstr "오류: 임시 트랜잭션은 bootc 시스템에서만 지원합니다."
+msgstr "일시적인 연결은 bootc 시스템에서만 지원됩니다."
 
 #: main.cpp:1686
 #, c++-format
@@ -2132,7 +2132,7 @@ msgstr ""
 
 #: main.cpp:1702
 msgid "Warning: A pending offline transaction will be invalidated."
-msgstr "경고: 대기 중인 오프라인 트랜잭션이 무효화됩니다."
+msgstr "경고: 대기 중인 오프라인 트랜잭션이 무효화되었습니다."
 
 #: main.cpp:1705
 #, c++-format
@@ -2147,17 +2147,17 @@ msgid ""
 "inconsistencies when the transient overlay on /usr is discarded. See the "
 "usr_drift_protected_paths configuration option for more information."
 msgstr ""
-"이 트랜잭션은 다음 경로를 변경하므로, /usr의 임시 오버레이가 폐기될 때 "
-"불일치가 발생할 수 있습니다. 자세한 내용은 usr_drift_protected_paths 설정 "
-"옵션을 참조하세요."
+"이와 같은 동작은 다음 경로가 수정되어, /usr의 일시적인 덮어쓰기로 삭제 될 때 "
+"불일치가 나타 날 수 있습니다. 더 많은 정보를 위해 usr_drift_protected_paths "
+"구성 옵션을 참고하세요."
 
 #: main.cpp:1741
 msgid ""
 "Operation aborted. Pass --setopt=usr_drift_protected_paths= to disable this "
 "check and proceed anyway."
 msgstr ""
-"작업이 중단되었습니다. 이 검사를 비활성화하고 계속 진행하려면 --"
-"setopt=usr_drift_protected_paths= 옵션을 지정하세요."
+"동작이 중지되었습니다. --setopt=usr_drift_protected_paths= 를 통해 이와 같은 "
+"확인을 비활성하고 계속 진행하세요."
 
 #: main.cpp:1750
 msgid ""
@@ -2165,9 +2165,9 @@ msgid ""
 "reboot. Keep in mind that changes to /etc and /var will still persist, and "
 "packages commonly modify these directories."
 msgstr ""
-"/usr에 재부팅 시 폐기되는 임시 오버레이가 생성됩니다. /etc와 /var의 변경 "
-"사항은 계속 유지되며, 패키지는 흔히 이 디렉터리들을 변경한다는 점에 "
-"유의하세요."
+"일시적인 씌우기는 재시작에서 삭제되고 /usr에서 생성됩니다. /etc 및 /var로의 "
+"변경 사항은 여전히 지속된다는 점을 명심하고, 꾸러미는 일반적으로 이들 "
+"디렉토리에서 수정합니다."
 
 #: main.cpp:1787
 #, c++-format
@@ -2208,7 +2208,7 @@ msgstr "REPO_ID,..."
 
 #: shared_options.cpp:193
 msgid "\"--from_repo\" already defined with different value"
-msgstr "\"--from_repo\"가 이미 다른 값으로 정의되어 있습니다"
+msgstr "\"--from_repo\" 이미 다른 값으로 확인되었습니다"
 
 #: shared_options.cpp:209
 msgid ""
@@ -2218,7 +2218,7 @@ msgstr "설치된 패키지를 설치 출처 저장소의 ID로 필터링합니�
 
 #: shared_options.cpp:220
 msgid "\"--installed-from_repo\" already defined with different value"
-msgstr "\"--installed-from_repo\"가 이미 다른 값으로 정의되어 있습니다"
+msgstr "\"--installed-from_repo\" 이미 다른 값으로 확인되었습니다"
 
 #: shared_options.cpp:236
 msgid ""
