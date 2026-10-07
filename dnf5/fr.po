@@ -6,13 +6,14 @@
 # Léane GRASSER <pierre.grasser@proton.me>, 2024.
 # Antoine BACK <antoine.back@hotmail.fr>, 2024.
 # Léane GRASSER <leane.grasser@proton.me>, 2024, 2025.
+# red max <redmax761@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-07 05:08+0000\n"
-"PO-Revision-Date: 2025-12-10 13:50+0000\n"
-"Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
+"PO-Revision-Date: 2026-10-07 22:07+0000\n"
+"Last-Translator: red max <redmax761@gmail.com>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/fr/>\n"
 "Language: fr\n"
@@ -20,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.14.3\n"
+"X-Generator: Weblate 2026.10\n"
 
 #: cmdline_aliases.cpp:84 context.cpp:198 main.cpp:1449
 msgid ", "
@@ -256,10 +257,8 @@ msgstr "Lister les avertissements"
 
 #: commands/advisory/advisory_subcommand.cpp:93 commands/no_matches.cpp:74
 #: commands/repoquery/repoquery.cpp:903
-#, fuzzy
-#| msgid "No matching repositories for {}"
 msgid "No matches found: no repositories are enabled."
-msgstr "Aucun dépôt correspondant à {}"
+msgstr "Aucune correspondance trouvée : aucun dépôt n'est activé."
 
 #: commands/advisory/advisory_summary.cpp:44
 msgid "All"
@@ -436,6 +435,9 @@ msgid ""
 "either mark it as user-installed or change protected_packages configuration "
 "option."
 msgstr ""
+"Paquet protégé inutile : {0} (et ses dépendances) ne peut pas être supprimé. "
+"Veuillez soit le marquer comme installé par l'utilisateur, soit modifier "
+"l'option de configuration protected_packages."
 
 #: commands/check-upgrade/check-upgrade.cpp:47
 msgid "Check for available package upgrades"
@@ -539,8 +541,7 @@ msgid "Action was not defined"
 msgstr "L'action n'était pas définie"
 
 #: commands/do/do.cpp:231
-#, fuzzy, c++-format
-#| msgid "Invalid Environmet/Group specification: {}"
+#, c++-format
 msgid "Invalid Environment/Group specification: {}"
 msgstr "Spécification d'environnement ou de groupe invalide : {}"
 
@@ -551,11 +552,9 @@ msgstr ""
 "pas prise en charge."
 
 #: commands/do/do.cpp:332
-#, fuzzy
-#| msgid "Reinstaling environments and groups is not supported."
 msgid "Reinstalling environments and groups is not supported."
 msgstr ""
-"La réinstallation d'environnements ou de groupes n'est pas prise en charge."
+"La réinstallation d'environnements et de groupes n'est pas prise en charge."
 
 #: commands/downgrade/downgrade.cpp:40
 msgid "Downgrade software"
@@ -599,10 +598,8 @@ msgid "Show only installed environments."
 msgstr "Afficher uniquement les environnements installés."
 
 #: commands/environment/arguments.hpp:47
-#, fuzzy
-#| msgid "Pattern matching environment IDs."
 msgid "Pattern matching environment identifiers."
-msgstr "Motif à rechercher dans les ID d'environnement."
+msgstr "Motif à rechercher dans les identifiants d'environnement."
 
 #: commands/environment/environment.cpp:38
 msgid "Manage comps environments"
@@ -611,19 +608,17 @@ msgstr "Gérer les environnements comps"
 #: commands/environment/environment_info.cpp:101
 #: commands/environment/environment_list.cpp:99
 msgid "No matches found: no environments are installed."
-msgstr ""
+msgstr "Aucune correspondance trouvée: aucun environnement n'est installé."
 
 #: commands/environment/environment_info.cpp:103
 #: commands/environment/environment_list.cpp:101
 msgid "No matches found: no environments are available."
-msgstr ""
+msgstr "Aucune correspondance trouvée: aucun environnement n'est disponible."
 
 #: commands/environment/environment_info.cpp:105
 #: commands/environment/environment_list.cpp:103
-#, fuzzy
-#| msgid "No matches found for \"{}\"."
 msgid "No matches found: no environments exist."
-msgstr "Aucun résultat pour \"{}\"."
+msgstr "Aucune correspondance trouvée : aucun environnement n'existe."
 
 #: commands/group/arguments.hpp:34
 msgid "Show only available groups."
@@ -646,34 +641,26 @@ msgstr ""
 "aux noms spécifiés. Option liste, prend en charge les globs."
 
 #: commands/group/arguments.hpp:67
-#, fuzzy
-#| msgid "Pattern matching group IDS."
 msgid "Pattern matching group identifiers."
-msgstr "Motif à rechercher dans les ID de groupe."
+msgstr "Motif à rechercher dans les identifiants de groupe."
 
 #: commands/group/arguments.hpp:77
-#, fuzzy
-#| msgid "Pattern matching environment IDs."
 msgid "Pattern matching group or environment identifiers."
-msgstr "Motif à rechercher dans les ID d'environnement."
+msgstr "Motif à rechercher dans les identifiants de groupe ou d'environnement."
 
 #: commands/group/arguments.hpp:86
-#, fuzzy
-#| msgid "Include optional packages from group."
 msgid "Include optional packages from groups."
-msgstr "Inclure les paquets optionnels du groupe."
+msgstr "Inclure les paquets optionnels des groupes."
 
 #: commands/group/arguments.hpp:97
-#, fuzzy
-#| msgid "Operate on groups only, no packages are changed."
 msgid "Operate on environments and groups only, no packages are changed."
-msgstr "Opérer uniquement sur les groupes, sans modifier les paquets."
+msgstr ""
+"Opérer uniquement sur les environnements et les groupes, sans modifier les "
+"paquets."
 
 #: commands/group/group_list.cpp:114
-#, fuzzy
-#| msgid "No matches found for \"{}\"."
 msgid "No matches found: no groups are installed."
-msgstr "Aucun résultat pour \"{}\"."
+msgstr "Aucune correspondance trouvée : aucun groupe n'est installé."
 
 #: commands/group/group_list.cpp:116
 #, fuzzy
