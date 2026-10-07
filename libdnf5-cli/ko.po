@@ -2,7 +2,7 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Byoungchan Lee <byoungchan.lee@gmx.com>, 2024.
-# Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024.
+# Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024, 2026.
 # Joungmin Lee <leejm516@gmail.com>, 2024.
 # 김인수 <simmon@nplob.com>, 2024, 2025.
 # Hyeonmin Oh <hyunmin860@gmail.com>, 2026.
@@ -12,7 +12,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-07 05:08+0000\n"
 "PO-Revision-Date: 2026-10-07 22:07+0000\n"
-"Last-Translator: Hyeonmin Oh <hyunmin860@gmail.com>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5-cli/ko/>\n"
 "Language: ko\n"
@@ -249,13 +250,11 @@ msgstr "일치된 부분: "
 
 #: output/status.cpp:45
 msgid "Groups"
-msgstr "그룹"
+msgstr "모음"
 
 #: output/status.cpp:46 output/status.cpp:55 output/status.cpp:72
-#, fuzzy
-#| msgid "Installed size"
 msgid "installed"
-msgstr "설치된 크기"
+msgstr "설치되었습니다"
 
 #: output/status.cpp:47 output/status.cpp:56 output/status.cpp:73
 msgid "available"
@@ -266,8 +265,6 @@ msgid "Environments"
 msgstr "환경"
 
 #: output/status.cpp:71
-#, fuzzy
-#| msgid "Package"
 msgid "Packages"
 msgstr "꾸러미"
 
@@ -276,22 +273,16 @@ msgid "user-installed"
 msgstr "사용자가 설치함"
 
 #: output/status.cpp:84
-#, fuzzy
-#| msgid "Installed size"
 msgid "Installed Size"
 msgstr "설치된 크기"
 
 #: output/status.cpp:90
-#, fuzzy
-#| msgid "Repository"
 msgid "Enabled Repositories"
-msgstr "저장소"
+msgstr "저장소 활성화"
 
 #: output/status.cpp:101
-#, fuzzy
-#| msgid "Transaction Summary:\n"
 msgid "Last Transaction"
-msgstr "연결 요약:\n"
+msgstr "연결"
 
 #: output/transaction_table.cpp:129
 msgid "Transaction Summary:\n"
@@ -503,23 +494,23 @@ msgstr "처리가 필요하지 않습니다."
 #. The two spaces indent the table the same way as child lines in KeyValueTable
 #: output/transactioninfo.cpp:73
 msgid "Action"
-msgstr "Action"
+msgstr "동작"
 
 #: output/transactioninfo.cpp:75
 msgid "Reason"
-msgstr "사유"
+msgstr "이유"
 
 #: output/transactioninfo.cpp:98
 msgid "Transaction ID"
-msgstr "트랜잭션 ID"
+msgstr "연결 ID"
 
 #: output/transactioninfo.cpp:99
 msgid "Begin time"
-msgstr ""
+msgstr "로그인 시간"
 
 #: output/transactioninfo.cpp:100
 msgid "Begin rpmdb"
-msgstr ""
+msgstr "rpmdb 시작 :"
 
 #: output/transactioninfo.cpp:101
 msgid "End time"
@@ -535,21 +526,19 @@ msgstr "사용자"
 
 #: output/transactioninfo.cpp:105
 msgid "Status"
-msgstr ""
+msgstr "상태"
 
 #: output/transactioninfo.cpp:106
-#, fuzzy
-#| msgid "Release"
 msgid "Releasever"
 msgstr "출시"
 
 #: output/transactioninfo.cpp:108
 msgid "Comment"
-msgstr ""
+msgstr "설명"
 
 #: output/transactioninfo.cpp:111
 msgid "Packages altered:"
-msgstr ""
+msgstr "변경된 꾸러미 :"
 
 #: output/transactioninfo.cpp:112
 msgid "Groups altered:"
@@ -557,27 +546,27 @@ msgstr ""
 
 #: output/transactioninfo.cpp:113
 msgid "Environments altered:"
-msgstr ""
+msgstr "환경이 최신화되었습니다."
 
 #: output/transactionlist.cpp:65
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: output/transactionlist.cpp:66
 msgid "Command line"
-msgstr ""
+msgstr "명령 행"
 
 #: output/transactionlist.cpp:67
 msgid "Date and time"
-msgstr ""
+msgstr "날짜와 시간"
 
 #: output/transactionlist.cpp:68
 msgid "Action(s)"
-msgstr ""
+msgstr "작업"
 
 #: output/transactionlist.cpp:69
 msgid "Altered"
-msgstr ""
+msgstr "변경됨"
 
 #. namespace
 #: progressbar/multi_progress_bar.cpp:85
@@ -601,11 +590,11 @@ msgstr ""
 
 #: utils/userconfirm.cpp:46
 msgid "Is this ok [Y/n]: "
-msgstr ""
+msgstr "진행할까요? [Y/n]: "
 
 #: utils/userconfirm.cpp:49
 msgid "Is this ok [y/N]: "
-msgstr ""
+msgstr "진행할까요? [y/N]: "
 
 #~ msgid "No matches found."
 #~ msgstr "일치 항목이 없습니다."
