@@ -13,8 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-07 05:08+0000\n"
 "PO-Revision-Date: 2026-10-07 22:07+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: Hyeonmin Oh <hyunmin860@gmail.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ko/>\n"
 "Language: ko\n"
@@ -415,7 +414,7 @@ msgstr "패키지 데이터베이스의 문제 확인"
 #: commands/check/check.cpp:335
 #, c++-format
 msgid "Check discovered {} problem(s) in {} package(s)"
-msgstr "검사 결과, 문제 {}개가 패키지 {}개에서 발견되었습니다."
+msgstr "검사 결과, 문제 {}개가 패키지 {}개에서 발견되었습니다"
 
 #: commands/clean/clean.cpp:91
 #, c++-format
@@ -450,8 +449,8 @@ msgstr "디버깅 정보 패키지를 설치합니다."
 msgid ""
 "Upgrade or downgrade installed software to the latest available versions"
 msgstr ""
-"설치된 소프트웨어를 사용 가능한 최신 버전으로 업그레이드하거나 다운그레이드합"
-"니다."
+"설치된 소프트웨어를 사용 가능한 최신 버전으로 업그레이드하거나 "
+"다운그레이드합니다"
 
 #: commands/do/do.cpp:42
 msgid "Do transaction"
@@ -489,7 +488,7 @@ msgstr "패키지 재설치만 지원합니다."
 
 #: commands/do/do.cpp:152
 msgid "Action was not defined"
-msgstr "작업이 정의되지 않았습니다."
+msgstr "작업이 정의되지 않았습니다"
 
 #: commands/do/do.cpp:231
 #, c++-format
@@ -510,7 +509,7 @@ msgstr "소프트웨어 다운그레이드"
 
 #: commands/download/download.cpp:123
 msgid "When running with --url, prints URLs from all available mirrors"
-msgstr "--url 옵션으로 실행하면 사용 가능한 모든 미러의 URL을 출력합니다."
+msgstr "--url 옵션으로 실행하면 사용 가능한 모든 미러의 URL을 출력합니다"
 
 #: commands/download/download.cpp:139
 #, c++-format
@@ -520,12 +519,12 @@ msgstr "잘못된 urlprotocol 옵션: {}"
 #: commands/download/download.cpp:166 main.cpp:685
 #, c++-format
 msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
-msgstr "지원하지 않는 아키텍처 \"{0}\"입니다. {1} 중 하나를 선택하세요."
+msgstr "지원하지 않는 아키텍처 \"{0}\"입니다. {1} 중 하나를 선택하세요"
 
 #. TODO(jrohel): Add support for requiring an argument by another argument in ArgumentParser?
 #: commands/download/download.cpp:207
 msgid "Option \"--alldeps\" should be used with \"--resolve\""
-msgstr "\"--alldeps\" 옵션은 \"--resolve\" 옵션과 함께 사용해야 합니다."
+msgstr "\"--alldeps\" 옵션은 \"--resolve\" 옵션과 함께 사용해야 합니다"
 
 #: commands/download/download.cpp:261
 #, c++-format
@@ -545,7 +544,7 @@ msgstr "설치된 환경만 표시합니다."
 
 #: commands/environment/arguments.hpp:47
 msgid "Pattern matching environment identifiers."
-msgstr "유형이 일치되는 환경 IDs."
+msgstr "환경 식별자와 일치하는 패턴."
 
 #: commands/environment/environment.cpp:38
 msgid "Manage comps environments"
@@ -713,8 +712,8 @@ msgstr "소프트웨어 설치"
 msgid ""
 "List groups of installed packages not required by other installed packages"
 msgstr ""
-"설치된 패키지 중 다른 설치된 패키지에서 필요로 하지 않는 패키지의 그룹 목록"
-"을 표시합니다."
+"설치된 패키지 중 다른 설치된 패키지에서 필요로 하지 않는 패키지의 그룹 "
+"목록을 표시합니다"
 
 #: commands/list/info.hpp:38
 msgid ""
@@ -796,7 +795,7 @@ msgstr "최근 추가된 패키지"
 
 #: commands/list/list.hpp:48
 msgid "Lists packages depending on the packages' relation to the system"
-msgstr "패키지와 시스템의 관계에 따라 패키지 목록을 표시합니다."
+msgstr "패키지와 시스템의 관계에 따라 패키지 목록을 표시합니다"
 
 #: commands/mark/mark.cpp:38
 msgid "Change the reason of an installed package"
@@ -828,7 +827,7 @@ msgstr "일치하는 항목이 없습니다: 비활성화된 모듈 스트림이
 
 #: commands/module/module_list.cpp:92
 msgid "No matches found: no module streams exist."
-msgstr "No matches found: no module streams exist."
+msgstr "일치하는 항목이 없습니다: 모듈 스트림이 없습니다."
 
 #: commands/no_matches.cpp:14
 #, c++-format
@@ -889,7 +888,7 @@ msgstr ""
 
 #: commands/offline/offline.cpp:332
 msgid "Power off the system after the operation is complete"
-msgstr "작업이 완료되면 시스템의 전원을 끕니다."
+msgstr "작업이 완료되면 시스템의 전원을 끕니다"
 
 #: commands/offline/offline.cpp:343
 msgid "No offline transaction is stored."
@@ -982,7 +981,7 @@ msgstr "일치하는 systemd 저널 항목을 찾을 수 없습니다."
 
 #: commands/offline/offline.cpp:708
 msgid "Show logs from past offline transactions"
-msgstr "이전 오프라인 트랜잭션의 로그를 표시합니다."
+msgstr "이전 오프라인 트랜잭션의 로그를 표시합니다"
 
 #: commands/offline/offline.cpp:716
 msgid ""
@@ -1001,7 +1000,7 @@ msgstr ""
 
 #: commands/offline/offline.cpp:736
 msgid "Show status of the current offline transaction"
-msgstr "현재 오프라인 트랜잭션의 상태를 표시합니다."
+msgstr "현재 오프라인 트랜잭션의 상태를 표시합니다"
 
 #: commands/offline/offline.cpp:752
 msgid ""
@@ -1042,7 +1041,7 @@ msgstr "알 수 없는 오프라인 트랜잭션 상태: "
 
 #: commands/provides/provides.cpp:50
 msgid "Find what package provides the given value"
-msgstr "지정한 값을 제공하는 패키지를 찾습니다."
+msgstr "지정한 값을 제공하는 패키지를 찾습니다"
 
 #: commands/provides/provides.cpp:136
 msgid ""
@@ -1094,7 +1093,7 @@ msgstr ""
 
 #: commands/replay/replay.cpp:38
 msgid "Replay a transaction that was previously stored to a directory"
-msgstr "이전에 디렉터리에 저장한 트랜잭션을 다시 실행합니다."
+msgstr "이전에 디렉터리에 저장한 트랜잭션을 다시 실행합니다"
 
 #: commands/repo/arguments.hpp:35
 msgid "Show all repositories."
@@ -1118,7 +1117,7 @@ msgstr "저장소 관리"
 
 #: commands/repoquery/repoquery.cpp:82
 msgid "Search for packages matching various criteria"
-msgstr "다양한 조건에 일치하는 패키지를 검색합니다."
+msgstr "다양한 조건에 일치하는 패키지를 검색합니다"
 
 #: commands/repoquery/repoquery.cpp:527
 msgid ""
@@ -1126,15 +1125,15 @@ msgid ""
 "whatdepends\""
 msgstr ""
 "\"--exactdeps\" 옵션은 \"--whatrequires\" 또는 \"--whatdepends\" 옵션과 함께 "
-"사용해야 합니다."
+"사용해야 합니다"
 
 #: commands/repoquery/repoquery.cpp:532
 msgid ""
 "Option \"--recursive\" has to be used either with \"--whatrequires\" or \"--"
 "providers-of=requires\""
 msgstr ""
-"\"--recursive\" 옵션은 \"--whatrequires\" 또는 \"--providers-of=requires\" 옵"
-"션과 함께 사용해야 합니다."
+"\"--recursive\" 옵션은 \"--whatrequires\" 또는 \"--providers-of=requires\" "
+"옵션과 함께 사용해야 합니다"
 
 #: commands/search/arguments.hpp:37
 msgid "Search also package description and URL."
@@ -1146,7 +1145,7 @@ msgstr "패턴"
 
 #: commands/search/search.cpp:49
 msgid "Search for software matching all specified strings"
-msgstr "지정한 모든 문자열과 일치하는 소프트웨어를 검색합니다."
+msgstr "지정한 모든 문자열과 일치하는 소프트웨어를 검색합니다"
 
 #: commands/search/search.cpp:70
 msgid "Options --name and --summary cannot be used together."
@@ -1158,23 +1157,21 @@ msgstr "--all 옵션은 --name 또는 --summary 옵션과 함께 사용할 수 �
 
 #: commands/swap/swap.cpp:42
 msgid "Remove software and install another in one transaction"
-msgstr ""
-"하나의 트랜잭션으로 소프트웨어를 제거하고 다른 소프트웨어를 설치합니다."
+msgstr "하나의 트랜잭션으로 소프트웨어를 제거하고 다른 소프트웨어를 설치합니다"
 
 #: commands/system-upgrade/system-upgrade.cpp:56
 msgid "Prepare system for upgrade to a new release"
-msgstr "새 릴리스로 업그레이드할 수 있도록 시스템을 준비합니다."
+msgstr "새 릴리스로 업그레이드할 수 있도록 시스템을 준비합니다"
 
 #: commands/system-upgrade/system-upgrade.cpp:72
 msgid "Download everything needed to upgrade to a new release"
-msgstr "새 릴리스로 업그레이드하는 데 필요한 모든 항목을 다운로드합니다."
+msgstr "새 릴리스로 업그레이드하는 데 필요한 모든 항목을 다운로드합니다"
 
 #: commands/system-upgrade/system-upgrade.cpp:80
 msgid ""
 "Do not install packages from the new release if they are older than what is "
 "currently installed"
-msgstr ""
-"새 릴리스의 패키지가 현재 설치된 버전보다 오래된 경우 설치하지 않습니다."
+msgstr "새 릴리스의 패키지가 현재 설치된 버전보다 오래된 경우 설치하지 않습니다"
 
 #: commands/system-upgrade/system-upgrade.cpp:101
 msgid "Need a --releasever greater than the current system version."
@@ -1182,11 +1179,11 @@ msgstr "--releasever 값은 현재 시스템 버전보다 높아야 합니다."
 
 #: commands/system-upgrade/system-upgrade.cpp:150
 msgid "Store a distro-sync transaction to be performed offline"
-msgstr "오프라인으로 수행할 distro-sync 트랜잭션을 저장합니다."
+msgstr "오프라인으로 수행할 distro-sync 트랜잭션을 저장합니다"
 
 #: commands/system-upgrade/system-upgrade.cpp:172
 msgid "Store an upgrade transaction to be performed offline"
-msgstr "오프라인으로 수행할 업그레이드 트랜잭션을 저장합니다."
+msgstr "오프라인으로 수행할 업그레이드 트랜잭션을 저장합니다"
 
 #: commands/upgrade/upgrade.cpp:41
 msgid "Upgrade software"
@@ -1199,10 +1196,10 @@ msgid ""
 "limiting advisories is used it upgrades packages only to the lowest versions "
 "that fix advisories that matching selected advisory property"
 msgstr ""
-"버그 수정, 기능 개선, 보안 또는 새 패키지 유형의 권고 사항을 반영하는 데 필요"
-"한 최소 버전까지만 패키지를 업그레이드합니다. 권고 사항의 범위를 제한하는 옵"
-"션을 사용하면, 선택한 권고 사항 속성과 일치하는 권고 사항을 반영하는 데 필요"
-"한 최소 버전까지만 업그레이드합니다."
+"버그 수정, 기능 개선, 보안 또는 새 패키지 유형의 권고 사항을 반영하는 데 "
+"필요한 최소 버전까지만 패키지를 업그레이드합니다. 권고 사항의 범위를 "
+"제한하는 옵션을 사용하면, 선택한 권고 사항 속성과 일치하는 권고 사항을 "
+"반영하는 데 필요한 최소 버전까지만 업그레이드합니다"
 
 #. TODO(mblaha): add full command line
 #: commands/versionlock/utils.cpp:35
@@ -1350,7 +1347,7 @@ msgstr "이로 인해 이 키로 서명된 패키지는 설치할 수 없게 됩
 
 #: context.cpp:153
 msgid "It is recommended to remove the expired key to allow importing"
-msgstr "키를 가져올 수 있도록 만료된 키를 제거하는 것이 좋습니다."
+msgstr "키를 가져올 수 있도록 만료된 키를 제거하는 것이 좋습니다"
 
 #: context.cpp:154
 msgid ""
@@ -1380,12 +1377,12 @@ msgid ""
 "pass --use-host-config option"
 msgstr ""
 "{}와 일치하는 저장소가 없습니다. 호스트 시스템의 저장소를 사용하려면 --use-"
-"host-config 옵션을 지정하세요."
+"host-config 옵션을 지정하세요"
 
 #: context.cpp:206
 #, c++-format
 msgid "No matching repositories for {}"
-msgstr "{}와 일치하는 저장소가 없습니다."
+msgstr "{}와 일치하는 저장소가 없습니다"
 
 #: context.cpp:278
 msgid ""
@@ -1621,7 +1618,7 @@ msgstr "경로 \"{0}\"의 저장소 캐시를 만료 처리하지 못했습니�
 
 #: main.cpp:227
 msgid "create additional repository using id and path"
-msgstr "ID와 경로를 사용하여 추가 저장소를 생성합니다."
+msgstr "ID와 경로를 사용하여 추가 저장소를 생성합니다"
 
 #: main.cpp:235
 #, c++-format
@@ -1630,7 +1627,7 @@ msgstr "repofrompath: 잘못된 저장소 ID 및 경로 지정 \"{}\""
 
 #: main.cpp:247
 msgid "set arbitrary config and repo options"
-msgstr "임의의 설정 및 저장소 옵션을 지정합니다."
+msgstr "임의의 설정 및 저장소 옵션을 지정합니다"
 
 #: main.cpp:249
 msgid ""
@@ -1653,7 +1650,7 @@ msgstr ""
 #: main.cpp:258 main.cpp:297
 #, c++-format
 msgid "{}: Badly formatted argument value \"{}\""
-msgstr "{}: 인수 값 \"{}\"의 형식이 잘못되었습니다."
+msgstr "{}: 인수 값 \"{}\"의 형식이 잘못되었습니다"
 
 #: main.cpp:265
 #, c++-format
@@ -1669,7 +1666,7 @@ msgstr "setopt: \"{0}\": {1}"
 
 #: main.cpp:290
 msgid "set arbitrary variable"
-msgstr "임의의 변수를 설정합니다."
+msgstr "임의의 변수를 설정합니다"
 
 #: main.cpp:304
 #, c++-format
@@ -1678,19 +1675,19 @@ msgstr "setvar: {}"
 
 #: main.cpp:313
 msgid "automatically answer yes for all questions"
-msgstr "모든 질문에 자동으로 '예'라고 응답합니다."
+msgstr "모든 질문에 자동으로 '예'라고 응답합니다"
 
 #: main.cpp:320
 msgid "automatically answer no for all questions"
-msgstr "모든 질문에 자동으로 '아니요'라고 응답합니다."
+msgstr "모든 질문에 자동으로 '아니요'라고 응답합니다"
 
 #: main.cpp:327
 msgid "try the best available package versions in transactions"
-msgstr "트랜잭션에서 사용 가능한 최적의 패키지 버전을 사용하도록 시도합니다."
+msgstr "트랜잭션에서 사용 가능한 최적의 패키지 버전을 사용하도록 시도합니다"
 
 #: main.cpp:334
 msgid "do not limit the transaction to the best candidate"
-msgstr "트랜잭션을 최적의 후보로만 제한하지 않습니다."
+msgstr "트랜잭션을 최적의 후보로만 제한하지 않습니다"
 
 #: main.cpp:343
 msgid "allow automatic package replacements from different vendors"
