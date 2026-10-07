@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-07 05:08+0000\n"
-"PO-Revision-Date: 2026-10-07 09:15+0000\n"
+"PO-Revision-Date: 2026-10-07 22:07+0000\n"
 "Last-Translator: Hyeonmin Oh <hyunmin860@gmail.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/ko/>\n"
@@ -32,7 +32,7 @@ msgstr ""
 
 #: advisory/advisory_collection.cpp:94
 msgid "This libdnf5 does not support modularity"
-msgstr ""
+msgstr "이 libdnf5는 모듈 기능을 지원하지 않습니다"
 
 #: base/active_transaction_info.cpp:93 base/active_transaction_info.cpp:95
 #, fuzzy, c++-format
@@ -749,7 +749,7 @@ msgstr "공개 키 가져오기에 실패함."
 
 #: base/transaction.cpp:994
 msgid "poll failed during scriptlets pipe processing"
-msgstr ""
+msgstr "스크립틀릿 파이프 처리 중 poll 실패"
 
 #: base/transaction.cpp:1017
 #, fuzzy
@@ -808,7 +808,7 @@ msgstr "지역 설정을 할 수 없습니다 \"{}\": {}"
 
 #: base/vendor_change_manager.cpp:151
 msgid "{func}(): File does not exist: {path}"
-msgstr ""
+msgstr "{func}(): 파일이 없습니다: {path}"
 
 #: base/vendor_change_manager.cpp:240
 #, fuzzy
@@ -818,7 +818,7 @@ msgstr "지역 설정을 할 수 없습니다 \"{}\": {}"
 
 #: base/vendor_change_manager.cpp:252
 msgid "{func}(): Cannot create file: {path}"
-msgstr ""
+msgstr "{func}(): 파일을 생성할 수 없습니다: {path}"
 
 #: base/vendor_change_manager.cpp:269
 #, fuzzy
@@ -828,16 +828,18 @@ msgstr "지역 설정을 할 수 없습니다 \"{}\": {}"
 
 #: base/vendor_change_manager.cpp:306
 msgid "{func}(): Base filename cannot be empty"
-msgstr ""
+msgstr "{func}(): 기본 파일 이름은 비워 둘 수 없습니다"
 
 #: base/vendor_change_manager.cpp:312
 msgid ""
 "{func}(): Base filename must not contain path components: {base_filename}"
 msgstr ""
+"{func}(): 기본 파일 이름에는 경로 구성 요소가 포함되면 안 됩니다: "
+"{base_filename}"
 
 #: base/vendor_change_manager.cpp:437
 msgid "{func}(): Path must have .conf extension: {path}"
-msgstr ""
+msgstr "{func}(): 경로의 파일 확장자는 .conf여야 합니다: {path}"
 
 #: common/exception.cpp:78
 msgid "System error"
@@ -1379,7 +1381,7 @@ msgstr "임시 파일 메모리 파일을 구문 분석 중에 오류가 발생�
 
 #: rpm/checksum.cpp:98
 msgid "Unknown checksum type"
-msgstr ""
+msgstr "알 수 없는 체크섬 유형"
 
 #: rpm/nevra.cpp:82
 #, c++-format
@@ -1457,6 +1459,10 @@ msgid ""
 "versions after an interrupted upgrade. Please remove the duplicate packages "
 "using \"dnf remove\" and retry."
 msgstr ""
+"RPM 트랜잭션이 의존성 해결기가 제거 대상으로 지정하지 않은 패키지를 예기치 "
+"않게 제거하려고 합니다: {}. 이는 일반적으로 업그레이드가 중단된 후 RPM "
+"데이터베이스에 동일한 패키지의 여러 버전이 남아 있을 때 발생합니다. \"dnf "
+"remove\"로 중복 패키지를 제거한 후 다시 시도하세요."
 
 #: rpm/transaction.cpp:236
 msgid "Failed to order the rpm transaction."
@@ -1553,12 +1559,15 @@ msgid ""
 "Configuration \"{}\" uses version \"1.0\" which does not support combining "
 "'equivalent_vendors' with 'outgoing_vendors' and 'incoming_vendors'"
 msgstr ""
+"설정 \"{}\"는 버전 \"1.0\"을 사용하며, 이 버전에서는 'equivalent_vendors'를 "
+"'outgoing_vendors' 및 'incoming_vendors'와 함께 사용하는 것을 지원하지 "
+"않습니다"
 
 #: solv/vendor_change_manager.cpp:394 solv/vendor_change_manager.cpp:432
 #: solv/vendor_change_manager.cpp:484 solv/vendor_change_manager.cpp:709
 #, c++-format
 msgid "Unknown key '{}' in \"{}\" on line {}"
-msgstr ""
+msgstr "알 수 없는 키 '{}': \"{}\", {}번째 줄"
 
 #: solv/vendor_change_manager.cpp:401
 #, c++-format
@@ -1566,6 +1575,8 @@ msgid ""
 "Configuration \"{}\" uses version \"1.0\" which does not support key '{}' on "
 "line {}"
 msgstr ""
+"설정 \"{}\"는 버전 \"1.0\"을 사용하며, 이 버전에서는 키 '{}'를 지원하지 "
+"않습니다({}번째 줄)"
 
 #: solv/vendor_change_manager.cpp:420
 #, c++-format
@@ -1573,35 +1584,37 @@ msgid ""
 "Filter \"cmdline_repo\" is only allowed in the 'incoming_packages' section. "
 "Error in \"{}\" in table starting on line {}"
 msgstr ""
+"\"cmdline_repo\" 필터는 'incoming_packages' 섹션에서만 허용됩니다. \"{}\"의 "
+"{}번째 줄에서 시작하는 테이블에 오류가 있습니다"
 
 #: solv/vendor_change_manager.cpp:442
 #, c++-format
 msgid ""
 "Missing package filter definition in \"{}\" in table starting on line {}"
-msgstr ""
+msgstr "\"{}\"의 {}번째 줄에서 시작하는 테이블에 패키지 필터 정의가 누락되었습니다"
 
 #: solv/vendor_change_manager.cpp:473
 #, c++-format
 msgid ""
 "Unsupported comparator \"{}\" for vendor definition in \"{}\" on line {}"
-msgstr ""
+msgstr "공급업체 정의에 지원하지 않는 비교 연산자 \"{}\": \"{}\", {}번째 줄"
 
 #: solv/vendor_change_manager.cpp:494
 #, c++-format
 msgid "Missing 'vendor' key in \"{}\" in table starting on line {}"
-msgstr ""
+msgstr "\"{}\"의 {}번째 줄에서 시작하는 테이블에 'vendor' 키가 누락되었습니다"
 
 #: solv/vendor_change_manager.cpp:507
 #, c++-format
 msgid ""
 "Invalid regex vendor pattern \"{}\" in \"{}\" in table starting on line {}: "
 "{}"
-msgstr ""
+msgstr "잘못된 공급업체 정규식 패턴 \"{}\": \"{}\", {}번째 줄에서 시작하는 테이블: {}"
 
 #: solv/vendor_change_manager.cpp:535
 #, c++-format
 msgid "Bad value type in \"{}\" on line {}: {}"
-msgstr ""
+msgstr "\"{}\"의 {}번째 줄에 잘못된 값 유형이 있습니다: {}"
 
 #: solv/vendor_change_manager.cpp:541
 #, fuzzy, c++-format
@@ -1615,6 +1628,8 @@ msgid ""
 "Configuration \"{}\" uses version \"1.0\" which does not support "
 "'incoming_vendors' without 'outgoing_vendors'"
 msgstr ""
+"설정 \"{}\"는 버전 \"1.0\"을 사용하며, 이 버전에서는 'outgoing_vendors' 없이 "
+"'incoming_vendors'를 사용하는 것을 지원하지 않습니다"
 
 #: solv/vendor_change_manager.cpp:561
 #, c++-format
@@ -1622,11 +1637,13 @@ msgid ""
 "Configuration \"{}\" uses version \"1.0\" which does not support "
 "'outgoing_vendors' without 'incoming_vendors'"
 msgstr ""
+"설정 \"{}\"는 버전 \"1.0\"을 사용하며, 이 버전에서는 'incoming_vendors' 없이 "
+"'outgoing_vendors'를 사용하는 것을 지원하지 않습니다"
 
 #: solv/vendor_change_manager.cpp:651
 #, c++-format
 msgid "Unknown 'comparator' \"{}\" in \"{}\" on line {}"
-msgstr ""
+msgstr "알 수 없는 'comparator' \"{}\": \"{}\", {}번째 줄"
 
 #: solv/vendor_change_manager.cpp:655
 #, c++-format
@@ -1634,21 +1651,23 @@ msgid ""
 "Configuration \"{}\" uses version \"{}\" which does not support 'comparator' "
 "\"{}\""
 msgstr ""
+"설정 \"{}\"는 버전 \"{}\"를 사용하며, 이 버전에서는 'comparator' \"{}\"를 "
+"지원하지 않습니다"
 
 #: solv/vendor_change_manager.cpp:694
 #, c++-format
 msgid "Unknown 'filter' \"{}\" in \"{}\" on line {}"
-msgstr ""
+msgstr "알 수 없는 'filter' \"{}\": \"{}\", {}번째 줄"
 
 #: solv/vendor_change_manager.cpp:715
 #, c++-format
 msgid "Missing 'filter' key in \"{}\" for table entry on line {}"
-msgstr ""
+msgstr "\"{}\"의 {}번째 줄에 있는 테이블 항목에 'filter' 키가 누락되었습니다"
 
 #: solv/vendor_change_manager.cpp:720
 #, c++-format
 msgid "Missing 'value' key in \"{}\" for table entry on line {}"
-msgstr ""
+msgstr "\"{}\"의 {}번째 줄에 있는 테이블 항목에 'value' 키가 누락되었습니다"
 
 #: solv/vendor_change_manager.cpp:727
 #, c++-format
@@ -1657,6 +1676,9 @@ msgid ""
 "support comparator \"{}\". Only the default \"EXACT\" comparator is allowed "
 "for this filter"
 msgstr ""
+"\"{}\"의 {}번째 줄에서 시작하는 테이블에 있는 \"cmdline_repo\" 필터는 비교 "
+"연산자 \"{}\"를 지원하지 않습니다. 이 필터에는 기본 비교 연산자인 "
+"\"EXACT\"만 허용됩니다"
 
 #: solv/vendor_change_manager.cpp:744
 #, c++-format
@@ -1664,6 +1686,8 @@ msgid ""
 "Invalid 'value' \"{}\" in \"{}\" in table starting on line {}. Only "
 "\"true\", \"1\", \"false\", \"0\" are supported"
 msgstr ""
+"잘못된 'value' \"{}\": \"{}\", {}번째 줄에서 시작하는 테이블. \"true\", "
+"\"1\", \"false\", \"0\"만 지원합니다"
 
 #: solv/vendor_change_manager.cpp:754 solv/vendor_change_manager.cpp:765
 #, c++-format
@@ -1671,39 +1695,41 @@ msgid ""
 "Filter \"{}\" in \"{}\" in table starting on line {} does not support "
 "comparator \"{}\""
 msgstr ""
+"필터 \"{}\": \"{}\", {}번째 줄에서 시작하는 테이블에서는 비교 연산자 \"{}"
+"\"를 지원하지 않습니다"
 
 #: solv/vendor_change_manager.cpp:781
 #, c++-format
 msgid "Invalid epoch value \"{}\" in \"{}\" in table starting on line {}"
-msgstr ""
+msgstr "잘못된 epoch 값 \"{}\": \"{}\", {}번째 줄에서 시작하는 테이블"
 
 #: solv/vendor_change_manager.cpp:796
 #, c++-format
 msgid "Invalid regex \"{}\" in \"{}\" in table starting on line {}: {}"
-msgstr ""
+msgstr "잘못된 정규식 \"{}\": \"{}\", {}번째 줄에서 시작하는 테이블: {}"
 
 #: solv/vendor_change_manager.cpp:848
 msgid "Unexpected end of input"
-msgstr ""
+msgstr "예기치 않은 입력 끝"
 
 #: solv/vendor_change_manager.cpp:865
 #, c++-format
 msgid "Expected '{}' but found end of input"
-msgstr ""
+msgstr "'{}'이 있어야 하지만 입력이 끝났습니다"
 
 #: solv/vendor_change_manager.cpp:867
 #, c++-format
 msgid "Expected '{}' but found '{}'"
-msgstr ""
+msgstr "'{}'이 있어야 하지만 '{}'이 있습니다"
 
 #: solv/vendor_change_manager.cpp:877
 #, c++-format
 msgid "Compact vendor change policy parse error in \"{}\" at position {}"
-msgstr ""
+msgstr "\"{}\"의 {}번째 위치에서 간략한 공급업체 변경 정책 구문 분석 오류 발생"
 
 #: solv/vendor_change_manager.cpp:931
 msgid "Expected package filter after '@'"
-msgstr ""
+msgstr "'@' 뒤에 패키지 필터가 있어야 합니다"
 
 #: solv/vendor_change_manager.cpp:944
 #, fuzzy, c++-format
@@ -1713,41 +1739,45 @@ msgstr "잘못된 저장소 id \"{}\": 예상치 못한 문자 '{}'"
 
 #: solv/vendor_change_manager.cpp:1020
 msgid "Expected quoted string starting with '\"'"
-msgstr ""
+msgstr "큰따옴표('\"')로 시작하는 문자열이 있어야 합니다"
 
 #: solv/vendor_change_manager.cpp:1028
 msgid "Unterminated escape sequence"
-msgstr ""
+msgstr "종료되지 않은 이스케이프 시퀀스"
 
 #: solv/vendor_change_manager.cpp:1034
 #, c++-format
 msgid "Invalid escape sequence '\\{}'. Only '\\\"' and '\\\\' are supported"
-msgstr ""
+msgstr "잘못된 이스케이프 시퀀스 '\\{}'. '\\\"'와 '\\\\'만 지원합니다"
 
 #: solv/vendor_change_manager.cpp:1041
 msgid "Unterminated quoted string"
-msgstr ""
+msgstr "종료되지 않은 따옴표 문자열"
 
 #: solv/vendor_change_manager.cpp:1076
 msgid "Expected direction prefix 'in', 'out', or 'eq'"
-msgstr ""
+msgstr "방향 접두사 'in', 'out' 또는 'eq'가 있어야 합니다"
 
 #: solv/vendor_change_manager.cpp:1140
 msgid ""
 "Expected comparison operator: relational (<, <=, >, >=) or string (=, ^, $, "
 "*, =*, =~; optionally prefixed with ! and/or i"
 msgstr ""
+"비교 연산자가 있어야 합니다: 관계 연산자(<, <=, >, >=) 또는 문자열 연산자(=, "
+"^, $, *, =*, =~; 선택적으로 ! 또는 i, 또는 둘 다를 접두사로 붙일 수 있음"
 
 #: solv/vendor_change_manager.cpp:1205
 msgid ""
 "Vendor definition does not support relational comparators. Use string "
 "comparators: =, ^, $, *, =*, =~"
 msgstr ""
+"공급업체 정의에서는 관계 비교 연산자를 지원하지 않습니다. 문자열 비교 "
+"연산자를 사용하세요: =, ^, $, *, =*, =~"
 
 #: solv/vendor_change_manager.cpp:1213
 #, c++-format
 msgid "Invalid regex vendor pattern '{}': {}"
-msgstr ""
+msgstr "잘못된 공급업체 정규식 패턴 '{}': {}"
 
 #: solv/vendor_change_manager.cpp:1231
 #, fuzzy, c++-format
@@ -1757,7 +1787,7 @@ msgstr "알 수 없는 시간 단위 '{}'"
 
 #: solv/vendor_change_manager.cpp:1241
 msgid "Expected filter field name"
-msgstr ""
+msgstr "필터 필드 이름이 있어야 합니다"
 
 #: solv/vendor_change_manager.cpp:1264
 #, fuzzy, c++-format
@@ -1767,11 +1797,11 @@ msgstr "잘못된 부울 값 \"{}\""
 
 #: solv/vendor_change_manager.cpp:1268
 msgid "Filter 'cmdline_repo' only supports the '=' (EXACT) comparator"
-msgstr ""
+msgstr "'cmdline_repo' 필터는 '='(EXACT) 비교 연산자만 지원합니다"
 
 #: solv/vendor_change_manager.cpp:1271
 msgid "Filter 'cmdline_repo' is only allowed in incoming packages ('in:')"
-msgstr ""
+msgstr "'cmdline_repo' 필터는 들어오는 패키지('in:')에서만 허용됩니다"
 
 #: solv/vendor_change_manager.cpp:1282
 #, c++-format
@@ -1779,16 +1809,18 @@ msgid ""
 "Invalid value '{}' for 'cmdline_repo' filter. Use 'true', '1', 'false', or "
 "'0'"
 msgstr ""
+"'cmdline_repo' 필터에 잘못된 값 '{}'이 지정되었습니다. 'true', '1', 'false' "
+"또는 '0'을 사용하세요"
 
 #: solv/vendor_change_manager.cpp:1286
 #, c++-format
 msgid "Filter '{}' only supports relational comparators: =, !=, >, >=, <, <="
-msgstr ""
+msgstr "필터 '{}'는 관계 비교 연산자만 지원합니다: =, !=, >, >=, <, <="
 
 #: solv/vendor_change_manager.cpp:1290
 #, c++-format
 msgid "Filter '{}' only supports string comparators: =, ^, $, *, =*, =~"
-msgstr ""
+msgstr "필터 '{}'는 문자열 비교 연산자만 지원합니다: =, ^, $, *, =*, =~"
 
 #: solv/vendor_change_manager.cpp:1299
 #, fuzzy, c++-format
@@ -1798,12 +1830,12 @@ msgstr "잘못된 꾸러미 유형: {}"
 
 #: solv/vendor_change_manager.cpp:1310
 msgid "Package filters do not support 'eq' direction. Use 'in' or 'out'"
-msgstr ""
+msgstr "패키지 필터는 'eq' 방향을 지원하지 않습니다. 'in' 또는 'out'을 사용하세요"
 
 #: solv/vendor_change_manager.cpp:1401 solv/vendor_change_manager.cpp:1451
 #: solv/vendor_change_manager.cpp:1462 solv/vendor_change_manager.cpp:1473
 msgid "{func}(): Policy index {idx} is out of range"
-msgstr ""
+msgstr "{func}(): 정책 인덱스 {idx}가 범위를 벗어났습니다"
 
 #: system/state.cpp:282 system/state.cpp:291
 #, c++-format
@@ -1856,15 +1888,16 @@ msgstr "상태 자료의 호환되지 않는 버전"
 
 #: transaction/transaction.cpp:87
 msgid "Started"
-msgstr ""
+msgstr "시작됨"
 
 #: transaction/transaction.cpp:89
+#, fuzzy
 msgid "Ok"
-msgstr ""
+msgstr "Ok"
 
 #: transaction/transaction.cpp:91
 msgid "Error"
-msgstr ""
+msgstr "오류"
 
 #: transaction/transaction.cpp:110
 #, c++-format
@@ -1882,11 +1915,11 @@ msgstr "잘못된 연결 항목 동작: {}"
 
 #: transaction/transaction_item_action.cpp:74
 msgid "Replaced"
-msgstr ""
+msgstr "대체됨"
 
 #: transaction/transaction_item_action.cpp:84
 msgid "Switch"
-msgstr ""
+msgstr "전환"
 
 #: transaction/transaction_item_reason.cpp:30
 #, c++-format
@@ -1895,23 +1928,23 @@ msgstr "잘못된 연결 항목 원인: {}"
 
 #: transaction/transaction_item_reason.cpp:56
 msgid "None"
-msgstr ""
+msgstr "없음"
 
 #: transaction/transaction_item_reason.cpp:58
 msgid "Dependency"
-msgstr ""
+msgstr "의존성"
 
 #: transaction/transaction_item_reason.cpp:60
 msgid "User"
-msgstr ""
+msgstr "사용자"
 
 #: transaction/transaction_item_reason.cpp:62
 msgid "Clean"
-msgstr ""
+msgstr "정리"
 
 #: transaction/transaction_item_reason.cpp:64
 msgid "Weak Dependency"
-msgstr ""
+msgstr "약한 의존성"
 
 #: transaction/transaction_item_reason.cpp:66
 #, fuzzy
@@ -1921,7 +1954,7 @@ msgstr "그룹"
 
 #: transaction/transaction_item_reason.cpp:68
 msgid "External User"
-msgstr ""
+msgstr "외부 사용자"
 
 #: transaction/transaction_item_state.cpp:28
 #, c++-format
@@ -2112,16 +2145,16 @@ msgstr ""
 #: utils/bootc.cpp:46
 #, c++-format
 msgid "Error checking bootc status: {}"
-msgstr ""
+msgstr "bootc 상태 확인 오류: {}"
 
 #: utils/bootc.cpp:49
 #, c++-format
 msgid "Error checking bootc status: bootc command failed with exit code {}"
-msgstr ""
+msgstr "bootc 상태 확인 오류: bootc 명령이 종료 코드 {}로 실패했습니다"
 
 #: utils/bootc.cpp:58
 msgid "Error checking bootc status: Failed to parse JSON output"
-msgstr ""
+msgstr "bootc 상태 확인 오류: JSON 출력을 구문 분석하지 못했습니다"
 
 #: utils/bootc.cpp:73
 #, fuzzy, c++-format
@@ -2138,7 +2171,7 @@ msgstr "파일을 내려받는 데 실패함"
 #: utils/bootc.cpp:125
 #, c++-format
 msgid "Error running `bootc usr-overlay --read-only`: {}"
-msgstr ""
+msgstr "`bootc usr-overlay --read-only` 실행 오류: {}"
 
 #: utils/bootc.cpp:128
 #, c++-format
@@ -2146,6 +2179,8 @@ msgid ""
 "Error running `bootc usr-overlay --read-only`: bootc command failed with "
 "exit code {}"
 msgstr ""
+"`bootc usr-overlay --read-only` 실행 오류: bootc 명령이 종료 코드 {}로 "
+"실패했습니다"
 
 #: utils/bootc.cpp:136
 #, fuzzy
@@ -2269,7 +2304,7 @@ msgstr "잠금 \"{}\"을 획득 하는 데 실패함"
 
 #: utils/locker.cpp:108
 msgid "File is already open."
-msgstr ""
+msgstr "파일이 이미 열려 있습니다."
 
 #: utils/locker.cpp:121
 #, c++-format
@@ -2414,15 +2449,15 @@ msgstr "임시 파일을 생성 할 수 없습니다"
 
 #: utils/subprocess.cpp:98
 msgid "cannot fork"
-msgstr ""
+msgstr "프로세스를 복제할 수 없습니다"
 
 #: utils/subprocess.cpp:173
 msgid "cannot bind child stdin"
-msgstr ""
+msgstr "자식 프로세스의 표준 입력을 연결할 수 없습니다"
 
 #: utils/subprocess.cpp:175
 msgid "cannot bind child stdout"
-msgstr ""
+msgstr "자식 프로세스의 표준 출력을 연결할 수 없습니다"
 
 #: utils/subprocess.cpp:177
 #, fuzzy
@@ -2444,11 +2479,11 @@ msgstr "연결이 재생되는 동안 JSON 구문 분석 중 오류: {}"
 
 #: utils/subprocess.cpp:211
 msgid "poll failed during subprocess I/O"
-msgstr ""
+msgstr "하위 프로세스 입출력 중 poll 실패"
 
 #: utils/subprocess.cpp:257
 msgid "unexpected child process status after waitpid"
-msgstr ""
+msgstr "waitpid 이후 예기치 않은 자식 프로세스 상태"
 
 #: utils/system.cpp:34
 msgid "failed to read rpm config files"
