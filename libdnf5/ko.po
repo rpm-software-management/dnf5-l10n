@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-03 11:07+0000\n"
+"POT-Creation-Date: 2026-10-07 05:08+0000\n"
 "PO-Revision-Date: 2026-10-07 09:15+0000\n"
 "Last-Translator: Hyeonmin Oh <hyunmin860@gmail.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
@@ -706,94 +706,94 @@ msgstr "문제: "
 msgid "Problem {}: "
 msgstr "문제 {}: "
 
-#: base/transaction.cpp:88
+#: base/transaction.cpp:89
 msgid "This transaction has been already run before."
 msgstr "이와 같은 연결은 전에 이미 실행되었습니다."
 
-#: base/transaction.cpp:89
+#: base/transaction.cpp:90
 msgid "Cannot run transaction with resolving problems."
 msgstr "문제를 해결하면서 연결을 실행 할 수 없습니다."
 
-#: base/transaction.cpp:90
+#: base/transaction.cpp:91
 msgid "Rpm transaction check failed."
 msgstr "rpm 연결 점검이 실패했습니다."
 
-#: base/transaction.cpp:92
+#: base/transaction.cpp:93
 msgid ""
 "Failed to obtain rpm transaction lock. Another transaction is in progress."
 msgstr "rpm 연결 잠금을 획득하는 데 실패함. 다른 연결이 진행 중에 있습니다."
 
-#: base/transaction.cpp:93
+#: base/transaction.cpp:94
 msgid "Rpm transaction failed."
 msgstr "rpm 연결이 실패함."
 
-#: base/transaction.cpp:94
+#: base/transaction.cpp:95
 msgid "Signature verification failed."
 msgstr "서명 검증이 실패함."
 
-#: base/transaction.cpp:98
+#: base/transaction.cpp:99
 msgid "The repository does not have any OpenPGP keys configured."
 msgstr "저장소는 구성된 어떤 OpenPGP 키를 갖고 있지 않습니다."
 
-#: base/transaction.cpp:99
+#: base/transaction.cpp:100
 msgid "Public key is not installed."
 msgstr "공개 키가 설치되어 있지 않습니다."
 
-#: base/transaction.cpp:100
+#: base/transaction.cpp:101
 msgid "Canceled by the user."
 msgstr "사용자에 의해 취소되었습니다."
 
-#: base/transaction.cpp:101
+#: base/transaction.cpp:102
 msgid "Public key import failed."
 msgstr "공개 키 가져오기에 실패함."
 
-#: base/transaction.cpp:993
+#: base/transaction.cpp:994
 msgid "poll failed during scriptlets pipe processing"
 msgstr ""
 
-#: base/transaction.cpp:1016
+#: base/transaction.cpp:1017
 #, fuzzy
 #| msgid "Failed to set scriptlet output file, cannot open file \"{}\": {}"
 msgid "failed to read scriptlet output from pipe"
 msgstr "구현 출력 파일을 설정하는 데 실패함, 파일을 열 수 없습니다 \"{}\": {}"
 
-#: base/transaction.cpp:1134
+#: base/transaction.cpp:1135
 #, c++-format
 msgid "Invalid tsflag: {}"
 msgstr "잘못된 tsflag: {}"
 
-#: base/transaction.cpp:1568
+#: base/transaction.cpp:1573
 #, c++-format
 msgid "Public key \"{}\" is already present, not importing."
 msgstr "공개 키 \"{}\"가 이미 존재하고, 가져오지 않습니다."
 
-#: base/transaction.cpp:1589
+#: base/transaction.cpp:1596
 #, c++-format
 msgid "An error occurred importing key \"{}\": {}"
 msgstr "키를 가져오는 중에 발생하였습니다 \"{}\": {}"
 
-#: base/transaction.cpp:1623
+#: base/transaction.cpp:1630
 #, c++-format
 msgid "OpenPGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
 msgstr "Openrepo \"{}에서 꾸러미 \"{}\" ({})를 위한 PGP 점검이 실패했습니다: "
 
-#: base/transaction.cpp:1651
+#: base/transaction.cpp:1658
 msgid "Import of the key didn't help, wrong key?"
 msgstr "키 가져오기가 도움이 되지 않습니다, 잘못된 키입니까?"
 
-#: base/transaction.cpp:1670
+#: base/transaction.cpp:1677
 msgctxt "It is a joining character for repositories IDs"
 msgid ", "
 msgstr ", "
 
-#: base/transaction.cpp:1673
+#: base/transaction.cpp:1680
 #, c++-format
 msgid "Warning: skipped OpenPGP checks for {0} package from repository: {1}"
 msgid_plural ""
 "Warning: skipped OpenPGP checks for {0} packages from repository: {1}"
 msgstr[0] "경고: 저장소에서 {0} 꾸러미를 위해 OpenPGP 점검을 건너뜀: {1}"
 
-#: base/transaction.cpp:1676
+#: base/transaction.cpp:1683
 #, c++-format
 msgid "Warning: skipped OpenPGP checks for {0} package from repositories: {1}"
 msgid_plural ""
@@ -907,7 +907,7 @@ msgstr "'{}'를 바이트로 변환 할 수 없습니다"
 msgid "Unknown unit '{}'"
 msgstr "알 수 없는 단위 '{}'"
 
-#: conf/config_main.cpp:291
+#: conf/config_main.cpp:292
 #, fuzzy, c++-format
 #| msgid "The throttle value {} is outside the allowed range {} ... {}"
 msgid "The throttle value {} is outside the allowed range {} ... {}"
@@ -1131,7 +1131,7 @@ msgstr "Plugins::load_plugins(): config_dir_path는 비워 둘 수 없습니다"
 msgid "Cannot load libdnf plugin enabled from: {}"
 msgstr "다음에서 활성화된 libdnf 플러그인을 적재 할 수 없습니다: {}"
 
-#: repo/config_repo.cpp:593
+#: repo/config_repo.cpp:602
 msgid "get_unique_id(): Computation of SHA256 failed"
 msgstr "get_unique_id(): SHA256 연산이 실패함"
 
@@ -1294,17 +1294,17 @@ msgstr ""
 "저장소 \"{}\"를 위해 유효한 원천(baseurl, mirrorlist 또는 metalink)을 찾을 "
 "수 없습니다"
 
-#: repo/repo_pgp.cpp:65
+#: repo/repo_pgp.cpp:67
 #, c++-format
 msgid "Failed to import OpenPGP keys into temporary keyring: {}"
 msgstr "Openpgp 키를 임시 키링에 가져오는 데 실패함: {}"
 
-#: repo/repo_pgp.cpp:71 repo/repo_pgp.cpp:98
+#: repo/repo_pgp.cpp:73 repo/repo_pgp.cpp:100
 #, c++-format
 msgid "Failed to list OpenPGP keys: {}"
 msgstr "Openpgp 키를 나열하는 데 실패함: {}"
 
-#: repo/repo_pgp.cpp:146
+#: repo/repo_pgp.cpp:153
 #, c++-format
 msgid "Failed to import OpenPGP keys: {}"
 msgstr "Openpgp 키를 가져오는 데 실패함: {}"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-03 11:07+0000\n"
+"POT-Creation-Date: 2026-10-07 05:08+0000\n"
 "PO-Revision-Date: 2026-04-02 22:59+0000\n"
 "Last-Translator: \"Fco. Javier F. Serrador\" <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -723,55 +723,55 @@ msgstr "Problema: "
 msgid "Problem {}: "
 msgstr "Problema {}: "
 
-#: base/transaction.cpp:88
+#: base/transaction.cpp:89
 msgid "This transaction has been already run before."
 msgstr "Esta transacción ha sido ya ejecutada antes."
 
-#: base/transaction.cpp:89
+#: base/transaction.cpp:90
 msgid "Cannot run transaction with resolving problems."
 msgstr ""
 "No se puede ejecutar transacción con problemas pendiente de resolución."
 
-#: base/transaction.cpp:90
+#: base/transaction.cpp:91
 msgid "Rpm transaction check failed."
 msgstr "Comprobante transaccional de rpm incorrecto."
 
-#: base/transaction.cpp:92
+#: base/transaction.cpp:93
 msgid ""
 "Failed to obtain rpm transaction lock. Another transaction is in progress."
 msgstr ""
 "No es capaz de obtener bloqueo de transacción rpm. Otra transacción está en "
 "progreso."
 
-#: base/transaction.cpp:93
+#: base/transaction.cpp:94
 msgid "Rpm transaction failed."
 msgstr "Transacción rpm incorrecta."
 
-#: base/transaction.cpp:94
+#: base/transaction.cpp:95
 msgid "Signature verification failed."
 msgstr "Verificación de firma incorrecta."
 
-#: base/transaction.cpp:98
+#: base/transaction.cpp:99
 msgid "The repository does not have any OpenPGP keys configured."
 msgstr "El repositorio no tiene ninguna de las claves OpenPGP configurada."
 
-#: base/transaction.cpp:99
+#: base/transaction.cpp:100
 msgid "Public key is not installed."
 msgstr "La clave pública no está instalada."
 
-#: base/transaction.cpp:100
+#: base/transaction.cpp:101
 msgid "Canceled by the user."
 msgstr "Cancelado por el usuario."
 
-#: base/transaction.cpp:101
+#: base/transaction.cpp:102
 msgid "Public key import failed."
 msgstr "Importación de clave pública incorrecta."
 
-#: base/transaction.cpp:993
+#: base/transaction.cpp:994
 msgid "poll failed during scriptlets pipe processing"
 msgstr ""
 
-#: base/transaction.cpp:1016
+#: base/transaction.cpp:1017
 #, fuzzy
 #| msgid "Failed to set scriptlet output file, cannot open file \"{}\": {}"
 msgid "failed to read scriptlet output from pipe"
@@ -779,37 +779,37 @@ msgstr ""
 "Incorrecto al fijar el archivo de salida scriptlet, no se pude abrir el "
 "archivo «{}»: {}"
 
-#: base/transaction.cpp:1134
+#: base/transaction.cpp:1135
 #, c++-format
 msgid "Invalid tsflag: {}"
 msgstr "Indicador ts no válida: {}"
 
-#: base/transaction.cpp:1568
+#: base/transaction.cpp:1573
 #, c++-format
 msgid "Public key \"{}\" is already present, not importing."
 msgstr "Clave pública «{}» ya está presente, no se importa."
 
-#: base/transaction.cpp:1589
+#: base/transaction.cpp:1596
 #, c++-format
 msgid "An error occurred importing key \"{}\": {}"
 msgstr "Ha sucedido un error de importación de clave «{}»: {}"
 
-#: base/transaction.cpp:1623
+#: base/transaction.cpp:1630
 #, c++-format
 msgid "OpenPGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
 msgstr ""
 "Comprobante OpenPGP para el paquete «{}» ({}) desde repo «{}» ha fallado: "
 
-#: base/transaction.cpp:1651
+#: base/transaction.cpp:1658
 msgid "Import of the key didn't help, wrong key?"
 msgstr "Importación de la clave no ayuda, ¿clave incorrecta?"
 
-#: base/transaction.cpp:1670
+#: base/transaction.cpp:1677
 msgctxt "It is a joining character for repositories IDs"
 msgid ", "
 msgstr ", "
 
-#: base/transaction.cpp:1673
+#: base/transaction.cpp:1680
 #, c++-format
 msgid "Warning: skipped OpenPGP checks for {0} package from repository: {1}"
 msgid_plural ""
@@ -819,7 +819,7 @@ msgstr[0] ""
 msgstr[1] ""
 "Aviso: comprobante OpenPGP omitido para {0} paquetes desde repositorio: {1}"
 
-#: base/transaction.cpp:1676
+#: base/transaction.cpp:1683
 #, c++-format
 msgid "Warning: skipped OpenPGP checks for {0} package from repositories: {1}"
 msgid_plural ""
@@ -942,7 +942,7 @@ msgstr "No pudo convertir '{}' para bytes"
 msgid "Unknown unit '{}'"
 msgstr "Unidad desconocida '{}'"
 
-#: conf/config_main.cpp:291
+#: conf/config_main.cpp:292
 #, c++-format
 msgid "The throttle value {} is outside the allowed range {} ... {}"
 msgstr "El valor del acelerador {} está fuera del rango permitido {} … {}"
@@ -1165,7 +1165,7 @@ msgstr "Plugins::load_plugins(): config_dir_path no puede estar vacío"
 msgid "Cannot load libdnf plugin enabled from: {}"
 msgstr "No se puede cargar el complemento libdnf habilitado desde: {}"
 
-#: repo/config_repo.cpp:593
+#: repo/config_repo.cpp:602
 msgid "get_unique_id(): Computation of SHA256 failed"
 msgstr "get_unique_id(): computación de SHA256 incorrecta"
 
@@ -1330,17 +1330,17 @@ msgstr ""
 "Origen no válido (baseurl, listado espejo o metalink) encontrado para repo "
 "«{}»"
 
-#: repo/repo_pgp.cpp:65
+#: repo/repo_pgp.cpp:67
 #, c++-format
 msgid "Failed to import OpenPGP keys into temporary keyring: {}"
 msgstr "Incorrecto al importar claves OpenPGP en anillo temporal: {}"
 
-#: repo/repo_pgp.cpp:71 repo/repo_pgp.cpp:98
+#: repo/repo_pgp.cpp:73 repo/repo_pgp.cpp:100
 #, c++-format
 msgid "Failed to list OpenPGP keys: {}"
 msgstr "Incorrecto al listado claves OpenPGP: {}"
 
-#: repo/repo_pgp.cpp:146
+#: repo/repo_pgp.cpp:153
 #, c++-format
 msgid "Failed to import OpenPGP keys: {}"
 msgstr "Incorrecto al importar claves OpenPGP: {}"

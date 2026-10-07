@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-03 11:07+0000\n"
+"POT-Creation-Date: 2026-10-07 05:08+0000\n"
 "PO-Revision-Date: 2026-04-22 02:28+0000\n"
 "Last-Translator: \"Марко Костић (Marko Kostić)\" <marko.m.kostic@gmail.com>\n"
 "Language-Team: Serbian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -714,52 +714,52 @@ msgstr "Проблем: "
 msgid "Problem {}: "
 msgstr "Проблем {}: "
 
-#: base/transaction.cpp:88
+#: base/transaction.cpp:89
 msgid "This transaction has been already run before."
 msgstr "Овај пренос је већ извршен раније."
 
-#: base/transaction.cpp:89
+#: base/transaction.cpp:90
 msgid "Cannot run transaction with resolving problems."
 msgstr "Не могу покренути пренос са решавањем проблема."
 
-#: base/transaction.cpp:90
+#: base/transaction.cpp:91
 msgid "Rpm transaction check failed."
 msgstr "Провера РПМ преноса није успела."
 
-#: base/transaction.cpp:92
+#: base/transaction.cpp:93
 msgid ""
 "Failed to obtain rpm transaction lock. Another transaction is in progress."
 msgstr "Није успело прибављање катанца РПМ преноса. Други пренос је у току."
 
-#: base/transaction.cpp:93
+#: base/transaction.cpp:94
 msgid "Rpm transaction failed."
 msgstr "РПМ пренос није успео."
 
-#: base/transaction.cpp:94
+#: base/transaction.cpp:95
 msgid "Signature verification failed."
 msgstr "Провера потписа није успела."
 
-#: base/transaction.cpp:98
+#: base/transaction.cpp:99
 msgid "The repository does not have any OpenPGP keys configured."
 msgstr "Ризница нема подешених OpenPGP кључева."
 
-#: base/transaction.cpp:99
+#: base/transaction.cpp:100
 msgid "Public key is not installed."
 msgstr "Јавни кључ није инсталиран."
 
-#: base/transaction.cpp:100
+#: base/transaction.cpp:101
 msgid "Canceled by the user."
 msgstr "Отказ од стране корисника."
 
-#: base/transaction.cpp:101
+#: base/transaction.cpp:102
 msgid "Public key import failed."
 msgstr "Није успео увоз јавног кључа."
 
-#: base/transaction.cpp:993
+#: base/transaction.cpp:994
 msgid "poll failed during scriptlets pipe processing"
 msgstr ""
 
-#: base/transaction.cpp:1016
+#: base/transaction.cpp:1017
 #, fuzzy
 #| msgid "Failed to set scriptlet output file, cannot open file \"{}\": {}"
 msgid "failed to read scriptlet output from pipe"
@@ -767,36 +767,36 @@ msgstr ""
 "Нисам успео да поставим излазну датотеку скриптице, не могу да отворим "
 "датотеку „{}“: {}"
 
-#: base/transaction.cpp:1134
+#: base/transaction.cpp:1135
 #, c++-format
 msgid "Invalid tsflag: {}"
 msgstr "Неисправна заставица преноса (tsflag): {}"
 
-#: base/transaction.cpp:1568
+#: base/transaction.cpp:1573
 #, c++-format
 msgid "Public key \"{}\" is already present, not importing."
 msgstr "Јавни кључ „{}“ је већ присутан, не увозим га."
 
-#: base/transaction.cpp:1589
+#: base/transaction.cpp:1596
 #, c++-format
 msgid "An error occurred importing key \"{}\": {}"
 msgstr "Дошло је до грешке приликом увоза кључа „{}“: {}"
 
-#: base/transaction.cpp:1623
+#: base/transaction.cpp:1630
 #, c++-format
 msgid "OpenPGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
 msgstr "Провера OpenPGP-а за пакет „{}“ ({}) из ризнице „{}“ није успела: "
 
-#: base/transaction.cpp:1651
+#: base/transaction.cpp:1658
 msgid "Import of the key didn't help, wrong key?"
 msgstr "Увоз кључа није помогао, погрешан кључ?"
 
-#: base/transaction.cpp:1670
+#: base/transaction.cpp:1677
 msgctxt "It is a joining character for repositories IDs"
 msgid ", "
 msgstr ", "
 
-#: base/transaction.cpp:1673
+#: base/transaction.cpp:1680
 #, c++-format
 msgid "Warning: skipped OpenPGP checks for {0} package from repository: {1}"
 msgid_plural ""
@@ -808,7 +808,7 @@ msgstr[1] ""
 msgstr[2] ""
 "Упозорење: прескочене су OpenPGP провере за {0} пакета из ризнице: {1}"
 
-#: base/transaction.cpp:1676
+#: base/transaction.cpp:1683
 #, c++-format
 msgid "Warning: skipped OpenPGP checks for {0} package from repositories: {1}"
 msgid_plural ""
@@ -928,7 +928,7 @@ msgstr "Не могу да претворим „{}“ у бајтове"
 msgid "Unknown unit '{}'"
 msgstr "Непозната јединица „{}“"
 
-#: conf/config_main.cpp:291
+#: conf/config_main.cpp:292
 #, c++-format
 msgid "The throttle value {} is outside the allowed range {} ... {}"
 msgstr "Вредност ограничења протока {} је изван дозвољеног опсега {} ... {}"
@@ -1150,7 +1150,7 @@ msgstr "Plugins::load_plugins(): config_dir_path не може бити праз
 msgid "Cannot load libdnf plugin enabled from: {}"
 msgstr "Не могу да учитам омогућени libdnf прикључак из: {}"
 
-#: repo/config_repo.cpp:593
+#: repo/config_repo.cpp:602
 msgid "get_unique_id(): Computation of SHA256 failed"
 msgstr "get_unique_id(): Рачунање SHA256 није успело"
 
@@ -1309,17 +1309,17 @@ msgid ""
 msgstr ""
 "Није пронађен важећи извор (baseurl, mirrorlist или metalink) за ризницу „{}“"
 
-#: repo/repo_pgp.cpp:65
+#: repo/repo_pgp.cpp:67
 #, c++-format
 msgid "Failed to import OpenPGP keys into temporary keyring: {}"
 msgstr "Није успео увоз OpenPGP кључева у привремени привезак: {}"
 
-#: repo/repo_pgp.cpp:71 repo/repo_pgp.cpp:98
+#: repo/repo_pgp.cpp:73 repo/repo_pgp.cpp:100
 #, c++-format
 msgid "Failed to list OpenPGP keys: {}"
 msgstr "Није успело излиставање OpenPGP кључева: {}"
 
-#: repo/repo_pgp.cpp:146
+#: repo/repo_pgp.cpp:153
 #, c++-format
 msgid "Failed to import OpenPGP keys: {}"
 msgstr "Није успео увоз OpenPGP кључева: {}"

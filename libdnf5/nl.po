@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-03 11:07+0000\n"
+"POT-Creation-Date: 2026-10-07 05:08+0000\n"
 "PO-Revision-Date: 2025-06-24 22:34+0000\n"
 "Last-Translator: Sijmen Schoon <fedora@vijf.life>\n"
 "Language-Team: Dutch <https://translate.fedoraproject.org/projects/dnf5/"
@@ -734,53 +734,53 @@ msgstr "Probleem: "
 msgid "Problem {}: "
 msgstr "Probleem {}: "
 
-#: base/transaction.cpp:88
+#: base/transaction.cpp:89
 msgid "This transaction has been already run before."
 msgstr "Deze transactie is al een keer uitgevoerd."
 
-#: base/transaction.cpp:89
+#: base/transaction.cpp:90
 msgid "Cannot run transaction with resolving problems."
 msgstr "Kan transactie niet uitvoeren vanwege oplossingsproblemen."
 
-#: base/transaction.cpp:90
+#: base/transaction.cpp:91
 msgid "Rpm transaction check failed."
 msgstr "Rpm-transactiecontrole is mislukt."
 
-#: base/transaction.cpp:92
+#: base/transaction.cpp:93
 msgid ""
 "Failed to obtain rpm transaction lock. Another transaction is in progress."
 msgstr ""
 "Kon rpm-transactieslot niet verkrijgen. Er draait al een andere transactie."
 
-#: base/transaction.cpp:93
+#: base/transaction.cpp:94
 msgid "Rpm transaction failed."
 msgstr "Rpm-transactie mislukt."
 
-#: base/transaction.cpp:94
+#: base/transaction.cpp:95
 msgid "Signature verification failed."
 msgstr "Handtekeningsverificatie is mislukt."
 
-#: base/transaction.cpp:98
+#: base/transaction.cpp:99
 msgid "The repository does not have any OpenPGP keys configured."
 msgstr "De repository heeft geen geconfigureerde OpenPGP-sleutels."
 
-#: base/transaction.cpp:99
+#: base/transaction.cpp:100
 msgid "Public key is not installed."
 msgstr "Publieke sleutel is niet geïnstalleerd."
 
-#: base/transaction.cpp:100
+#: base/transaction.cpp:101
 msgid "Canceled by the user."
 msgstr "Geannuleerd door de gebruiker."
 
-#: base/transaction.cpp:101
+#: base/transaction.cpp:102
 msgid "Public key import failed."
 msgstr "Importeren van publieke sleutel is mislukt."
 
-#: base/transaction.cpp:993
+#: base/transaction.cpp:994
 msgid "poll failed during scriptlets pipe processing"
 msgstr ""
 
-#: base/transaction.cpp:1016
+#: base/transaction.cpp:1017
 #, fuzzy
 #| msgid "Failed to set scriptlet output file, cannot open file \"{}\": {}"
 msgid "failed to read scriptlet output from pipe"
@@ -788,37 +788,37 @@ msgstr ""
 "Instellen van uitvoerbestand voor scriptlet mislukt, kan bestand \"{}\" niet "
 "openen: {}"
 
-#: base/transaction.cpp:1134
+#: base/transaction.cpp:1135
 #, c++-format
 msgid "Invalid tsflag: {}"
 msgstr "Ongeldige tsflag: {}"
 
-#: base/transaction.cpp:1568
+#: base/transaction.cpp:1573
 #, c++-format
 msgid "Public key \"{}\" is already present, not importing."
 msgstr "Publieke sleutel \"{}\" is al aanwezig; import wordt overgeslagen."
 
-#: base/transaction.cpp:1589
+#: base/transaction.cpp:1596
 #, c++-format
 msgid "An error occurred importing key \"{}\": {}"
 msgstr "Er is een fout opgetreden bij het importeren van sleutel \"{}\": {}"
 
-#: base/transaction.cpp:1623
+#: base/transaction.cpp:1630
 #, c++-format
 msgid "OpenPGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
 msgstr ""
 "OpenPGP-controle voor pakket \"{}\" ({})\" van repository \"{}\" is mislukt: "
 
-#: base/transaction.cpp:1651
+#: base/transaction.cpp:1658
 msgid "Import of the key didn't help, wrong key?"
 msgstr "Het importeren van de sleutel hielp niet — verkeerde sleutel?"
 
-#: base/transaction.cpp:1670
+#: base/transaction.cpp:1677
 msgctxt "It is a joining character for repositories IDs"
 msgid ", "
 msgstr ", "
 
-#: base/transaction.cpp:1673
+#: base/transaction.cpp:1680
 #, c++-format
 msgid "Warning: skipped OpenPGP checks for {0} package from repository: {1}"
 msgid_plural ""
@@ -830,7 +830,7 @@ msgstr[1] ""
 "Waarschuwing: OpenPGP-controles overgeslagen voor {0} pakketten uit "
 "repository: {1}"
 
-#: base/transaction.cpp:1676
+#: base/transaction.cpp:1683
 #, c++-format
 msgid "Warning: skipped OpenPGP checks for {0} package from repositories: {1}"
 msgid_plural ""
@@ -951,7 +951,7 @@ msgstr "Kon '{}' niet converteren naar bytes"
 msgid "Unknown unit '{}'"
 msgstr "Onbekende eenheid '{}'"
 
-#: conf/config_main.cpp:291
+#: conf/config_main.cpp:292
 #, c++-format
 msgid "The throttle value {} is outside the allowed range {} ... {}"
 msgstr "De throttle-waarde {} ligt buiten het toegestane bereik {} ... {}"
@@ -1175,7 +1175,7 @@ msgstr "Plugins::load_plugins(): config_dir_path kan niet leeg zijn"
 msgid "Cannot load libdnf plugin enabled from: {}"
 msgstr "Kan libdnf-plugin niet laden die is ingeschakeld vanuit: {}"
 
-#: repo/config_repo.cpp:593
+#: repo/config_repo.cpp:602
 msgid "get_unique_id(): Computation of SHA256 failed"
 msgstr "get_unique_id(): Berekenen van SHA256 mislukt"
 
@@ -1343,18 +1343,18 @@ msgstr ""
 "Geen geldige bron (baseurl, mirrorlist of metalink) gevonden voor repository "
 "\"{}\""
 
-#: repo/repo_pgp.cpp:65
+#: repo/repo_pgp.cpp:67
 #, c++-format
 msgid "Failed to import OpenPGP keys into temporary keyring: {}"
 msgstr ""
 "Importeren van OpenPGP-sleutels naar de tijdelijke sleutelbos is mislukt: {}"
 
-#: repo/repo_pgp.cpp:71 repo/repo_pgp.cpp:98
+#: repo/repo_pgp.cpp:73 repo/repo_pgp.cpp:100
 #, c++-format
 msgid "Failed to list OpenPGP keys: {}"
 msgstr "Het weergeven van OpenPGP-sleutels is mislukt: {}"
 
-#: repo/repo_pgp.cpp:146
+#: repo/repo_pgp.cpp:153
 #, c++-format
 msgid "Failed to import OpenPGP keys: {}"
 msgstr "Het importeren van OpenPGP-sleutels is mislukt: {}"

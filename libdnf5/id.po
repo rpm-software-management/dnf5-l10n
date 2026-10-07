@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-03 11:07+0000\n"
+"POT-Creation-Date: 2026-10-07 05:08+0000\n"
 "PO-Revision-Date: 2026-09-11 21:18+0000\n"
 "Last-Translator: Arif Budiman <arifpedia@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -722,89 +722,89 @@ msgstr "Masalah: "
 msgid "Problem {}: "
 msgstr "Masalah {}: "
 
-#: base/transaction.cpp:88
+#: base/transaction.cpp:89
 msgid "This transaction has been already run before."
 msgstr "Transaksi ini sudah pernah dilakukan sebelumnya."
 
-#: base/transaction.cpp:89
+#: base/transaction.cpp:90
 msgid "Cannot run transaction with resolving problems."
 msgstr ""
 "Tidak dapat menjalankan transaksi karena masalah yang sedang diselesaikan."
 
-#: base/transaction.cpp:90
+#: base/transaction.cpp:91
 msgid "Rpm transaction check failed."
 msgstr "Pemeriksaan transaksi RPM gagal."
 
-#: base/transaction.cpp:92
+#: base/transaction.cpp:93
 msgid ""
 "Failed to obtain rpm transaction lock. Another transaction is in progress."
 msgstr ""
 "Gagal mendapatkan kunci transaksi RPM. Transaksi lain sedang berlangsung."
 
-#: base/transaction.cpp:93
+#: base/transaction.cpp:94
 msgid "Rpm transaction failed."
 msgstr "Transaksi RPM gagal."
 
-#: base/transaction.cpp:94
+#: base/transaction.cpp:95
 msgid "Signature verification failed."
 msgstr "Verifikasi tanda tangan gagal."
 
-#: base/transaction.cpp:98
+#: base/transaction.cpp:99
 msgid "The repository does not have any OpenPGP keys configured."
 msgstr "Repositori ini tidak memiliki kunci OpenPGP yang dikonfigurasi."
 
-#: base/transaction.cpp:99
+#: base/transaction.cpp:100
 msgid "Public key is not installed."
 msgstr "Kunci publik tidak terpasang."
 
-#: base/transaction.cpp:100
+#: base/transaction.cpp:101
 msgid "Canceled by the user."
 msgstr "Dibatalkan oleh pengguna."
 
-#: base/transaction.cpp:101
+#: base/transaction.cpp:102
 msgid "Public key import failed."
 msgstr "Impor kunci publik gagal."
 
-#: base/transaction.cpp:993
+#: base/transaction.cpp:994
 msgid "poll failed during scriptlets pipe processing"
 msgstr "poll gagal selama pemrosesan pipe scriptlet"
 
-#: base/transaction.cpp:1016
+#: base/transaction.cpp:1017
 msgid "failed to read scriptlet output from pipe"
 msgstr "gagal membaca keluaran scriptlet dari pipe"
 
-#: base/transaction.cpp:1134
+#: base/transaction.cpp:1135
 #, c++-format
 msgid "Invalid tsflag: {}"
 msgstr "Tsflag tidak valid: {}"
 
-#: base/transaction.cpp:1568
+#: base/transaction.cpp:1573
 #, c++-format
 msgid "Public key \"{}\" is already present, not importing."
 msgstr "Kunci publik \"{}\" sudah ada, tidak perlu diimpor."
 
-#: base/transaction.cpp:1589
+#: base/transaction.cpp:1596
 #, c++-format
 msgid "An error occurred importing key \"{}\": {}"
 msgstr "Terjadi kesalahan saat mengimpor kunci \"{}\": {}"
 
-#: base/transaction.cpp:1623
+#: base/transaction.cpp:1630
 #, c++-format
 msgid "OpenPGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
 msgstr ""
 "Pemeriksaan OpenPGP untuk paket \"{}\" ({}) dari repositori \"{}\" telah "
 "gagal: "
 
-#: base/transaction.cpp:1651
+#: base/transaction.cpp:1658
 msgid "Import of the key didn't help, wrong key?"
 msgstr "Impor kunci tidak membantu, apakah kuncinya salah?"
 
-#: base/transaction.cpp:1670
+#: base/transaction.cpp:1677
 msgctxt "It is a joining character for repositories IDs"
 msgid ", "
 msgstr ", "
 
-#: base/transaction.cpp:1673
+#: base/transaction.cpp:1680
 #, c++-format
 msgid "Warning: skipped OpenPGP checks for {0} package from repository: {1}"
 msgid_plural ""
@@ -812,7 +812,7 @@ msgid_plural ""
 msgstr[0] ""
 "Peringatan: Pemeriksaan OpenPGP dilewati untuk paket {0} dari repositori: {1}"
 
-#: base/transaction.cpp:1676
+#: base/transaction.cpp:1683
 #, c++-format
 msgid "Warning: skipped OpenPGP checks for {0} package from repositories: {1}"
 msgid_plural ""
@@ -922,7 +922,7 @@ msgstr "Tidak dapat mengonversi '{}' menjadi byte"
 msgid "Unknown unit '{}'"
 msgstr "Unit yang tidak dikenal '{}'"
 
-#: conf/config_main.cpp:291
+#: conf/config_main.cpp:292
 #, c++-format
 msgid "The throttle value {} is outside the allowed range {} ... {}"
 msgstr "Nilai throttle {} berada di luar rentang yang diizinkan {} ... {}"
@@ -1144,7 +1144,7 @@ msgstr "Plugins::load_plugins(): config_dirs tidak boleh kosong"
 msgid "Cannot load libdnf plugin enabled from: {}"
 msgstr "Tidak dapat memuat plugin libdnf yang diaktifkan dari: {}"
 
-#: repo/config_repo.cpp:593
+#: repo/config_repo.cpp:602
 msgid "get_unique_id(): Computation of SHA256 failed"
 msgstr "get_unique_id(): Perhitungan SHA256 gagal"
 
@@ -1304,17 +1304,17 @@ msgstr ""
 "Tidak ditemukan sumber yang valid (baseurl, mirrorlist, atau metalink) untuk "
 "repositori \"{}\"."
 
-#: repo/repo_pgp.cpp:65
+#: repo/repo_pgp.cpp:67
 #, c++-format
 msgid "Failed to import OpenPGP keys into temporary keyring: {}"
 msgstr "Gagal mengimpor kunci OpenPGP ke dalam ring kunci sementara: {}"
 
-#: repo/repo_pgp.cpp:71 repo/repo_pgp.cpp:98
+#: repo/repo_pgp.cpp:73 repo/repo_pgp.cpp:100
 #, c++-format
 msgid "Failed to list OpenPGP keys: {}"
 msgstr "Gagal menampilkan kunci OpenPGP: {}"
 
-#: repo/repo_pgp.cpp:146
+#: repo/repo_pgp.cpp:153
 #, c++-format
 msgid "Failed to import OpenPGP keys: {}"
 msgstr "Gagal mengimpor kunci OpenPGP: {}"

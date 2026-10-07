@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-03 11:07+0000\n"
+"POT-Creation-Date: 2026-10-07 05:08+0000\n"
 "PO-Revision-Date: 2026-09-30 18:18+0000\n"
 "Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -725,53 +725,53 @@ msgstr "Ongelma: "
 msgid "Problem {}: "
 msgstr "Ongelma {}: "
 
-#: base/transaction.cpp:88
+#: base/transaction.cpp:89
 msgid "This transaction has been already run before."
 msgstr "Tämä tapahtuma on jo suoritettu aiemmin."
 
-#: base/transaction.cpp:89
+#: base/transaction.cpp:90
 msgid "Cannot run transaction with resolving problems."
 msgstr "Tapahtumaa ei voi suorittaa ratkaistavana olevien ongelmien kanssa."
 
-#: base/transaction.cpp:90
+#: base/transaction.cpp:91
 msgid "Rpm transaction check failed."
 msgstr "Rpm-tapahtuman tarkistus epäonnistui."
 
-#: base/transaction.cpp:92
+#: base/transaction.cpp:93
 msgid ""
 "Failed to obtain rpm transaction lock. Another transaction is in progress."
 msgstr ""
 "Rpm-tapahtumalukituksen saaminen epäonnistui. Toinen tapahtuma on meneillään."
 
-#: base/transaction.cpp:93
+#: base/transaction.cpp:94
 msgid "Rpm transaction failed."
 msgstr "Rpm-tapahtuma epäonnistui."
 
-#: base/transaction.cpp:94
+#: base/transaction.cpp:95
 msgid "Signature verification failed."
 msgstr "Allekirjoituksen vahvistus epäonnistui."
 
-#: base/transaction.cpp:98
+#: base/transaction.cpp:99
 msgid "The repository does not have any OpenPGP keys configured."
 msgstr "Ohjelmistolähde ei ole määrittänyt yhtäkään OpenPGP-avainta."
 
-#: base/transaction.cpp:99
+#: base/transaction.cpp:100
 msgid "Public key is not installed."
 msgstr "Julkista avainta ei ole asennettu."
 
-#: base/transaction.cpp:100
+#: base/transaction.cpp:101
 msgid "Canceled by the user."
 msgstr "Käyttäjän peruuttamana."
 
-#: base/transaction.cpp:101
+#: base/transaction.cpp:102
 msgid "Public key import failed."
 msgstr "Julkisen avaimen tuonti epäonnistui."
 
-#: base/transaction.cpp:993
+#: base/transaction.cpp:994
 msgid "poll failed during scriptlets pipe processing"
 msgstr ""
 
-#: base/transaction.cpp:1016
+#: base/transaction.cpp:1017
 #, fuzzy
 #| msgid "Failed to set scriptlet output file, cannot open file \"{}\": {}"
 msgid "failed to read scriptlet output from pipe"
@@ -779,38 +779,38 @@ msgstr ""
 "Sovelman tulostustiedoston asettaminen epäonnistui; tiedostoa \"{}\" ei "
 "voida avata: {}"
 
-#: base/transaction.cpp:1134
+#: base/transaction.cpp:1135
 #, c++-format
 msgid "Invalid tsflag: {}"
 msgstr "Virheellinen tsflag: {}"
 
-#: base/transaction.cpp:1568
+#: base/transaction.cpp:1573
 #, c++-format
 msgid "Public key \"{}\" is already present, not importing."
 msgstr "Julkinen avain \"{}\" on jo olemassa; ei tuoda."
 
-#: base/transaction.cpp:1589
+#: base/transaction.cpp:1596
 #, c++-format
 msgid "An error occurred importing key \"{}\": {}"
 msgstr "Avaimen \"{}\" tuonnissa tapahtui virhe: {}"
 
-#: base/transaction.cpp:1623
+#: base/transaction.cpp:1630
 #, c++-format
 msgid "OpenPGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
 msgstr ""
 "OpenPGP-tarkistus tietovarastosta \"{}\" ({}) peräisin olevalle paketille "
 "\"{}\" epäonnistui: "
 
-#: base/transaction.cpp:1651
+#: base/transaction.cpp:1658
 msgid "Import of the key didn't help, wrong key?"
 msgstr "Avaimen tuonti ei auttanut; väärä avain?"
 
-#: base/transaction.cpp:1670
+#: base/transaction.cpp:1677
 msgctxt "It is a joining character for repositories IDs"
 msgid ", "
 msgstr ", "
 
-#: base/transaction.cpp:1673
+#: base/transaction.cpp:1680
 #, c++-format
 msgid "Warning: skipped OpenPGP checks for {0} package from repository: {1}"
 msgid_plural ""
@@ -820,7 +820,7 @@ msgstr[0] ""
 msgstr[1] ""
 "Varoitus: ohitettiin PGP-tarkistukset {0} paketille ohjelmistolähteestä: {1}"
 
-#: base/transaction.cpp:1676
+#: base/transaction.cpp:1683
 #, c++-format
 msgid "Warning: skipped OpenPGP checks for {0} package from repositories: {1}"
 msgid_plural ""
@@ -940,7 +940,7 @@ msgstr "'{}':ta ei voitu muuntaa tavuiksi"
 msgid "Unknown unit '{}'"
 msgstr "Tuntematon yksikkö '{}'"
 
-#: conf/config_main.cpp:291
+#: conf/config_main.cpp:292
 #, c++-format
 msgid "The throttle value {} is outside the allowed range {} ... {}"
 msgstr "Askelten arvo {} on sallitun alueen {} ... {} ulkopuolella"
@@ -1166,7 +1166,7 @@ msgstr ""
 msgid "Cannot load libdnf plugin enabled from: {}"
 msgstr "Libdnf-laajennusta ei voi ladata kohteesta: {}"
 
-#: repo/config_repo.cpp:593
+#: repo/config_repo.cpp:602
 msgid "get_unique_id(): Computation of SHA256 failed"
 msgstr "get_unique_id(): SHA256:n laskenta epäonnistui"
 
@@ -1339,17 +1339,17 @@ msgstr ""
 "Ohjelmistolähteelle \"{}\" ei löytynyt kelvollista lähdettä (baseurl, "
 "peililuettelo tai metalink)"
 
-#: repo/repo_pgp.cpp:65
+#: repo/repo_pgp.cpp:67
 #, c++-format
 msgid "Failed to import OpenPGP keys into temporary keyring: {}"
 msgstr "OpenPGP-avainten tuonti väliaikaiseen avainrenkaaseen epäonnistui: {}"
 
-#: repo/repo_pgp.cpp:71 repo/repo_pgp.cpp:98
+#: repo/repo_pgp.cpp:73 repo/repo_pgp.cpp:100
 #, c++-format
 msgid "Failed to list OpenPGP keys: {}"
 msgstr "OpenPGP-avainten listaaminen epäonnistui: {}"
 
-#: repo/repo_pgp.cpp:146
+#: repo/repo_pgp.cpp:153
 #, c++-format
 msgid "Failed to import OpenPGP keys: {}"
 msgstr "OpenPGP-avainten tuominen epäonnistui: {}"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-03 11:07+0000\n"
+"POT-Creation-Date: 2026-10-07 05:08+0000\n"
 "PO-Revision-Date: 2026-09-20 00:18+0000\n"
 "Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
 "Language-Team: Lao <https://translate.fedoraproject.org/projects/dnf5/"
@@ -681,92 +681,92 @@ msgstr "ບັນຫາ: "
 msgid "Problem {}: "
 msgstr "ບັນຫາ {}: "
 
-#: base/transaction.cpp:88
+#: base/transaction.cpp:89
 msgid "This transaction has been already run before."
 msgstr "ລາຍການປ່ຽນແປງນີ້ໄດ້ຖືກດຳເນີນການໄປແລ້ວກ່ອນໜ້ານີ້."
 
-#: base/transaction.cpp:89
+#: base/transaction.cpp:90
 msgid "Cannot run transaction with resolving problems."
 msgstr "ບໍ່ສາມາດດຳເນີນການລາຍການປ່ຽນແປງໃນຂະນະທີ່ມີບັນຫາການແກ້ໄຂຄວາມຂຶ້ນຕໍ່ກັນ."
 
-#: base/transaction.cpp:90
+#: base/transaction.cpp:91
 msgid "Rpm transaction check failed."
 msgstr "ການກວດສອບທຸລະກຳ Rpm ລົ້ມເຫຼວ."
 
-#: base/transaction.cpp:92
+#: base/transaction.cpp:93
 msgid ""
 "Failed to obtain rpm transaction lock. Another transaction is in progress."
 msgstr "ບໍ່ສາມາດລັອກທຸລະກຳ rpm ໄດ້. ມີອີກທຸລະກຳໜຶ່ງກຳລັງດຳເນີນຢູ່."
 
-#: base/transaction.cpp:93
+#: base/transaction.cpp:94
 msgid "Rpm transaction failed."
 msgstr "ທຸລະກຳ Rpm ລົ້ມເຫຼວ."
 
-#: base/transaction.cpp:94
+#: base/transaction.cpp:95
 msgid "Signature verification failed."
 msgstr "ການກວດສອບລາຍເຊັນ (Signature) ຫຼົ້ມເຫຼວ."
 
-#: base/transaction.cpp:98
+#: base/transaction.cpp:99
 msgid "The repository does not have any OpenPGP keys configured."
 msgstr "ຄັງເກັບແພັກເກດບໍ່ໄດ້ກຳນົດຄ່າຄີ OpenPGP ໃດໆໄວ້."
 
-#: base/transaction.cpp:99
+#: base/transaction.cpp:100
 msgid "Public key is not installed."
 msgstr "ບໍ່ໄດ້ຕິດຕັ້ງຄີສາທາລະນະ (Public key)."
 
-#: base/transaction.cpp:100
+#: base/transaction.cpp:101
 msgid "Canceled by the user."
 msgstr "ຖືກຍົກເລີກໂດຍຜູ້ໃຊ້."
 
-#: base/transaction.cpp:101
+#: base/transaction.cpp:102
 msgid "Public key import failed."
 msgstr "ການນຳເຂົ້າຄີສາທາລະນະຫຼົ້ມເຫຼວ."
 
-#: base/transaction.cpp:993
+#: base/transaction.cpp:994
 msgid "poll failed during scriptlets pipe processing"
 msgstr "ການ poll ລົ້ມເຫຼວໃນລະຫວ່າງການປະມວນຜົນທໍ່ສົ່ງ scriptlet"
 
-#: base/transaction.cpp:1016
+#: base/transaction.cpp:1017
 msgid "failed to read scriptlet output from pipe"
 msgstr "ບໍ່ສາມາດອ່ານຜົນລວມຂອງ scriptlet ຈາກທໍ່ສົ່ງໄດ້"
 
-#: base/transaction.cpp:1134
+#: base/transaction.cpp:1135
 #, c++-format
 msgid "Invalid tsflag: {}"
 msgstr "tsflag ບໍ່ຖືກຕ້ອງ: {}"
 
-#: base/transaction.cpp:1568
+#: base/transaction.cpp:1573
 #, c++-format
 msgid "Public key \"{}\" is already present, not importing."
 msgstr "ຄີສາທາລະນະ \"{}\" ມີຢູ່ແລ້ວ, ຈະບໍ່ນຳເຂົ້າໃໝ່."
 
-#: base/transaction.cpp:1589
+#: base/transaction.cpp:1596
 #, c++-format
 msgid "An error occurred importing key \"{}\": {}"
 msgstr "ເກີດຂໍ້ຜິດພາດໃນການນຳເຂົ້າຄີ \"{}\": {}"
 
-#: base/transaction.cpp:1623
+#: base/transaction.cpp:1630
 #, c++-format
 msgid "OpenPGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
 msgstr "ການກວດສອບ OpenPGP ສຳລັບແພັກເກດ \"{}\" ({}) ຈາກຄັງເກັບ \"{}\" ຫຼົ້ມເຫຼວ: "
 
-#: base/transaction.cpp:1651
+#: base/transaction.cpp:1658
 msgid "Import of the key didn't help, wrong key?"
 msgstr "ການນຳເຂົ້າຄີບໍ່ໄດ້ຊ່ວຍຫຍັງ, ຄີບໍ່ຖືກຕ້ອງບໍ?"
 
-#: base/transaction.cpp:1670
+#: base/transaction.cpp:1677
 msgctxt "It is a joining character for repositories IDs"
 msgid ", "
 msgstr ", "
 
-#: base/transaction.cpp:1673
+#: base/transaction.cpp:1680
 #, c++-format
 msgid "Warning: skipped OpenPGP checks for {0} package from repository: {1}"
 msgid_plural ""
 "Warning: skipped OpenPGP checks for {0} packages from repository: {1}"
 msgstr[0] "ຄຳເຕືອນ: ຂ້າມການກວດສອບ OpenPGP ສຳລັບ {0} ແພັກເກດ ຈາກຄັງເກັບ: {1}"
 
-#: base/transaction.cpp:1676
+#: base/transaction.cpp:1683
 #, c++-format
 msgid "Warning: skipped OpenPGP checks for {0} package from repositories: {1}"
 msgid_plural ""
@@ -870,7 +870,7 @@ msgstr "ບໍ່ສາມາດແປງ '{}' ເປັນໄບຕ໌ (bytes)"
 msgid "Unknown unit '{}'"
 msgstr "ບໍ່ຮູ້ຈັກຫົວໜ່ວຍ '{}'"
 
-#: conf/config_main.cpp:291
+#: conf/config_main.cpp:292
 #, c++-format
 msgid "The throttle value {} is outside the allowed range {} ... {}"
 msgstr "ຄ່າ throttle {} ຢູ່ນອກຊ່ວງທີ່ອະນຸຍາດ {} ... {}"
@@ -1086,7 +1086,7 @@ msgstr "Plugins::load_plugins(): config_dirs ຫວ່າງເປົ່າບ�
 msgid "Cannot load libdnf plugin enabled from: {}"
 msgstr "ບໍ່ສາມາດໂຫຼດປລັກອິນ libdnf ທີ່ເປີດໃຊ້ງານຈາກ: {}"
 
-#: repo/config_repo.cpp:593
+#: repo/config_repo.cpp:602
 msgid "get_unique_id(): Computation of SHA256 failed"
 msgstr "get_unique_id(): ການຄຳນວນ SHA256 ຫຼົ້ມເຫຼວ"
 
@@ -1234,17 +1234,17 @@ msgid ""
 "No valid source (baseurl, mirrorlist or metalink) found for repository \"{}\""
 msgstr "ບໍ່ພົບແຫຼ່ງຂໍ້ມູນທີ່ຖືກຕ້ອງ (baseurl, mirrorlist ຫຼື metalink) ສຳລັບຄັງເກັບ \"{}\""
 
-#: repo/repo_pgp.cpp:65
+#: repo/repo_pgp.cpp:67
 #, c++-format
 msgid "Failed to import OpenPGP keys into temporary keyring: {}"
 msgstr "ບໍ່ສາມາດນຳເຂົ້າຄີ OpenPGP ລົງໃນ keyring ຊົ່ວຄາວ: {}"
 
-#: repo/repo_pgp.cpp:71 repo/repo_pgp.cpp:98
+#: repo/repo_pgp.cpp:73 repo/repo_pgp.cpp:100
 #, c++-format
 msgid "Failed to list OpenPGP keys: {}"
 msgstr "ບໍ່ສາມາດສະແດງລາຍຊື່ຄີ OpenPGP: {}"
 
-#: repo/repo_pgp.cpp:146
+#: repo/repo_pgp.cpp:153
 #, c++-format
 msgid "Failed to import OpenPGP keys: {}"
 msgstr "ບໍ່ສາມາດນຳເຂົ້າຄີ OpenPGP: {}"

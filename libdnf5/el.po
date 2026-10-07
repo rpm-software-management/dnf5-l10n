@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-03 11:07+0000\n"
+"POT-Creation-Date: 2026-10-07 05:08+0000\n"
 "PO-Revision-Date: 2026-06-23 16:18+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek <https://translate.fedoraproject.org/projects/dnf5/"
@@ -737,54 +737,54 @@ msgstr "Πρόβλημα: "
 msgid "Problem {}: "
 msgstr "Πρόβλημα {}: "
 
-#: base/transaction.cpp:88
+#: base/transaction.cpp:89
 msgid "This transaction has been already run before."
 msgstr "Αυτή η συναλλαγή έχει ήδη εκτελεστεί στο παρελθόν."
 
-#: base/transaction.cpp:89
+#: base/transaction.cpp:90
 msgid "Cannot run transaction with resolving problems."
 msgstr "Αδυναμία εκτέλεσης συναλλαγής με προβλήματα επίλυσης."
 
-#: base/transaction.cpp:90
+#: base/transaction.cpp:91
 msgid "Rpm transaction check failed."
 msgstr "Ο έλεγχος συναλλαγής RPM απέτυχε."
 
-#: base/transaction.cpp:92
+#: base/transaction.cpp:93
 msgid ""
 "Failed to obtain rpm transaction lock. Another transaction is in progress."
 msgstr ""
 "Αποτυχία απόκτησης κλειδώματος για τη συναλλαγή RPM. Μια άλλη συναλλαγή "
 "βρίσκεται σε εξέλιξη."
 
-#: base/transaction.cpp:93
+#: base/transaction.cpp:94
 msgid "Rpm transaction failed."
 msgstr "Η συναλλαγή RPM απέτυχε."
 
-#: base/transaction.cpp:94
+#: base/transaction.cpp:95
 msgid "Signature verification failed."
 msgstr "Η επαλήθευση υπογραφής απέτυχε."
 
-#: base/transaction.cpp:98
+#: base/transaction.cpp:99
 msgid "The repository does not have any OpenPGP keys configured."
 msgstr "Το αποθετήριο δεν έχει ρυθμισμένα κλειδιά OpenPGP."
 
-#: base/transaction.cpp:99
+#: base/transaction.cpp:100
 msgid "Public key is not installed."
 msgstr "Το δημόσιο κλειδί δεν είναι εγκατεστημένο."
 
-#: base/transaction.cpp:100
+#: base/transaction.cpp:101
 msgid "Canceled by the user."
 msgstr "Ακυρώθηκε από τον χρήστη."
 
-#: base/transaction.cpp:101
+#: base/transaction.cpp:102
 msgid "Public key import failed."
 msgstr "Η εισαγωγή δημόσιου κλειδιού απέτυχε."
 
-#: base/transaction.cpp:993
+#: base/transaction.cpp:994
 msgid "poll failed during scriptlets pipe processing"
 msgstr ""
 
-#: base/transaction.cpp:1016
+#: base/transaction.cpp:1017
 #, fuzzy
 #| msgid "Failed to set scriptlet output file, cannot open file \"{}\": {}"
 msgid "failed to read scriptlet output from pipe"
@@ -792,38 +792,38 @@ msgstr ""
 "Αποτυχία ορισμού αρχείου εξόδου scriptlet, αδυναμία ανοίγματος αρχείου \"{}"
 "\": {}"
 
-#: base/transaction.cpp:1134
+#: base/transaction.cpp:1135
 #, c++-format
 msgid "Invalid tsflag: {}"
 msgstr "Μη έγκυρο tsflag: {}"
 
-#: base/transaction.cpp:1568
+#: base/transaction.cpp:1573
 #, c++-format
 msgid "Public key \"{}\" is already present, not importing."
 msgstr "Το δημόσιο κλειδί \"{}\" υπάρχει ήδη, δεν θα γίνει εισαγωγή."
 
-#: base/transaction.cpp:1589
+#: base/transaction.cpp:1596
 #, c++-format
 msgid "An error occurred importing key \"{}\": {}"
 msgstr "Προέκυψε σφάλμα κατά την εισαγωγή του κλειδιού \"{}\": {}"
 
-#: base/transaction.cpp:1623
+#: base/transaction.cpp:1630
 #, c++-format
 msgid "OpenPGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
 msgstr ""
 "Ο έλεγχος OpenPGP για το πακέτο \"{}\" ({}) από το αποθετήριο \"{}\" "
 "απέτυχε: "
 
-#: base/transaction.cpp:1651
+#: base/transaction.cpp:1658
 msgid "Import of the key didn't help, wrong key?"
 msgstr "Η εισαγωγή του κλειδιού δεν βοήθησε, μήπως είναι λάθος κλειδί;"
 
-#: base/transaction.cpp:1670
+#: base/transaction.cpp:1677
 msgctxt "It is a joining character for repositories IDs"
 msgid ", "
 msgstr ", "
 
-#: base/transaction.cpp:1673
+#: base/transaction.cpp:1680
 #, c++-format
 msgid "Warning: skipped OpenPGP checks for {0} package from repository: {1}"
 msgid_plural ""
@@ -835,7 +835,7 @@ msgstr[1] ""
 "Προειδοποίηση: παραλείφθηκαν οι έλεγχοι OpenPGP για {0} πακέτα από το "
 "αποθετήριο: {1}"
 
-#: base/transaction.cpp:1676
+#: base/transaction.cpp:1683
 #, c++-format
 msgid "Warning: skipped OpenPGP checks for {0} package from repositories: {1}"
 msgid_plural ""
@@ -958,7 +958,7 @@ msgstr "Αδυναμία μετατροπής του '{}' σε bytes"
 msgid "Unknown unit '{}'"
 msgstr "Άγνωστη μονάδα '{}'"
 
-#: conf/config_main.cpp:291
+#: conf/config_main.cpp:292
 #, c++-format
 msgid "The throttle value {} is outside the allowed range {} ... {}"
 msgstr ""
@@ -1186,7 +1186,7 @@ msgstr ""
 msgid "Cannot load libdnf plugin enabled from: {}"
 msgstr "Αδυναμία φόρτωσης ενεργοποιημένου προσθέτου libdnf από: {}"
 
-#: repo/config_repo.cpp:593
+#: repo/config_repo.cpp:602
 msgid "get_unique_id(): Computation of SHA256 failed"
 msgstr "get_unique_id(): Ο υπολογισμός του SHA256 απέτυχε"
 
@@ -1350,17 +1350,17 @@ msgstr ""
 "Δεν βρέθηκε έγκυρη πηγή (baseurl, mirrorlist ή metalink) για το αποθετήριο "
 "\"{}\""
 
-#: repo/repo_pgp.cpp:65
+#: repo/repo_pgp.cpp:67
 #, c++-format
 msgid "Failed to import OpenPGP keys into temporary keyring: {}"
 msgstr "Αποτυχία εισαγωγής κλειδιών OpenPGP στην προσωρινή κλειδοθήκη: {}"
 
-#: repo/repo_pgp.cpp:71 repo/repo_pgp.cpp:98
+#: repo/repo_pgp.cpp:73 repo/repo_pgp.cpp:100
 #, c++-format
 msgid "Failed to list OpenPGP keys: {}"
 msgstr "Αποτυχία προβολής λίστας κλειδιών OpenPGP: {}"
 
-#: repo/repo_pgp.cpp:146
+#: repo/repo_pgp.cpp:153
 #, c++-format
 msgid "Failed to import OpenPGP keys: {}"
 msgstr "Αποτυχία εισαγωγής κλειδιών OpenPGP: {}"
