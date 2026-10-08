@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-07 05:08+0000\n"
+"POT-Creation-Date: 2026-10-08 07:46+0000\n"
 "PO-Revision-Date: 2026-10-07 22:07+0000\n"
 "Last-Translator: Hyeonmin Oh <hyunmin860@gmail.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
@@ -1459,10 +1459,10 @@ msgid ""
 "versions after an interrupted upgrade. Please remove the duplicate packages "
 "using \"dnf remove\" and retry."
 msgstr ""
-"RPM 트랜잭션이 의존성 해결기가 제거 대상으로 지정하지 않은 패키지를 예기치 "
-"않게 제거하려고 합니다: {}. 이는 일반적으로 업그레이드가 중단된 후 RPM "
-"데이터베이스에 동일한 패키지의 여러 버전이 남아 있을 때 발생합니다. \"dnf "
-"remove\"로 중복 패키지를 제거한 후 다시 시도하세요."
+"RPM 트랜잭션이 의존성 해결기가 제거 대상으로 지정하지 않은 패키지를 예기치 않"
+"게 제거하려고 합니다: {}. 이는 일반적으로 업그레이드가 중단된 후 RPM 데이터베"
+"이스에 동일한 패키지의 여러 버전이 남아 있을 때 발생합니다. \"dnf remove\"로 "
+"중복 패키지를 제거한 후 다시 시도하세요."
 
 #: rpm/transaction.cpp:236
 msgid "Failed to order the rpm transaction."
@@ -1560,8 +1560,8 @@ msgid ""
 "'equivalent_vendors' with 'outgoing_vendors' and 'incoming_vendors'"
 msgstr ""
 "설정 \"{}\"는 버전 \"1.0\"을 사용하며, 이 버전에서는 'equivalent_vendors'를 "
-"'outgoing_vendors' 및 'incoming_vendors'와 함께 사용하는 것을 지원하지 "
-"않습니다"
+"'outgoing_vendors' 및 'incoming_vendors'와 함께 사용하는 것을 지원하지 않습니"
+"다"
 
 #: solv/vendor_change_manager.cpp:394 solv/vendor_change_manager.cpp:432
 #: solv/vendor_change_manager.cpp:484 solv/vendor_change_manager.cpp:709
@@ -1575,8 +1575,8 @@ msgid ""
 "Configuration \"{}\" uses version \"1.0\" which does not support key '{}' on "
 "line {}"
 msgstr ""
-"설정 \"{}\"는 버전 \"1.0\"을 사용하며, 이 버전에서는 키 '{}'를 지원하지 "
-"않습니다({}번째 줄)"
+"설정 \"{}\"는 버전 \"1.0\"을 사용하며, 이 버전에서는 키 '{}'를 지원하지 않습"
+"니다({}번째 줄)"
 
 #: solv/vendor_change_manager.cpp:420
 #, c++-format
@@ -1591,7 +1591,8 @@ msgstr ""
 #, c++-format
 msgid ""
 "Missing package filter definition in \"{}\" in table starting on line {}"
-msgstr "\"{}\"의 {}번째 줄에서 시작하는 테이블에 패키지 필터 정의가 누락되었습니다"
+msgstr ""
+"\"{}\"의 {}번째 줄에서 시작하는 테이블에 패키지 필터 정의가 누락되었습니다"
 
 #: solv/vendor_change_manager.cpp:473
 #, c++-format
@@ -1609,7 +1610,8 @@ msgstr "\"{}\"의 {}번째 줄에서 시작하는 테이블에 'vendor' 키가 �
 msgid ""
 "Invalid regex vendor pattern \"{}\" in \"{}\" in table starting on line {}: "
 "{}"
-msgstr "잘못된 공급업체 정규식 패턴 \"{}\": \"{}\", {}번째 줄에서 시작하는 테이블: {}"
+msgstr ""
+"잘못된 공급업체 정규식 패턴 \"{}\": \"{}\", {}번째 줄에서 시작하는 테이블: {}"
 
 #: solv/vendor_change_manager.cpp:535
 #, c++-format
@@ -1651,8 +1653,8 @@ msgid ""
 "Configuration \"{}\" uses version \"{}\" which does not support 'comparator' "
 "\"{}\""
 msgstr ""
-"설정 \"{}\"는 버전 \"{}\"를 사용하며, 이 버전에서는 'comparator' \"{}\"를 "
-"지원하지 않습니다"
+"설정 \"{}\"는 버전 \"{}\"를 사용하며, 이 버전에서는 'comparator' \"{}\"를 지"
+"원하지 않습니다"
 
 #: solv/vendor_change_manager.cpp:694
 #, c++-format
@@ -1676,9 +1678,9 @@ msgid ""
 "support comparator \"{}\". Only the default \"EXACT\" comparator is allowed "
 "for this filter"
 msgstr ""
-"\"{}\"의 {}번째 줄에서 시작하는 테이블에 있는 \"cmdline_repo\" 필터는 비교 "
-"연산자 \"{}\"를 지원하지 않습니다. 이 필터에는 기본 비교 연산자인 "
-"\"EXACT\"만 허용됩니다"
+"\"{}\"의 {}번째 줄에서 시작하는 테이블에 있는 \"cmdline_repo\" 필터는 비교 연"
+"산자 \"{}\"를 지원하지 않습니다. 이 필터에는 기본 비교 연산자인 \"EXACT\"만 "
+"허용됩니다"
 
 #: solv/vendor_change_manager.cpp:744
 #, c++-format
@@ -1771,8 +1773,8 @@ msgid ""
 "Vendor definition does not support relational comparators. Use string "
 "comparators: =, ^, $, *, =*, =~"
 msgstr ""
-"공급업체 정의에서는 관계 비교 연산자를 지원하지 않습니다. 문자열 비교 "
-"연산자를 사용하세요: =, ^, $, *, =*, =~"
+"공급업체 정의에서는 관계 비교 연산자를 지원하지 않습니다. 문자열 비교 연산자"
+"를 사용하세요: =, ^, $, *, =*, =~"
 
 #: solv/vendor_change_manager.cpp:1213
 #, c++-format
@@ -1830,7 +1832,8 @@ msgstr "잘못된 꾸러미 유형: {}"
 
 #: solv/vendor_change_manager.cpp:1310
 msgid "Package filters do not support 'eq' direction. Use 'in' or 'out'"
-msgstr "패키지 필터는 'eq' 방향을 지원하지 않습니다. 'in' 또는 'out'을 사용하세요"
+msgstr ""
+"패키지 필터는 'eq' 방향을 지원하지 않습니다. 'in' 또는 'out'을 사용하세요"
 
 #: solv/vendor_change_manager.cpp:1401 solv/vendor_change_manager.cpp:1451
 #: solv/vendor_change_manager.cpp:1462 solv/vendor_change_manager.cpp:1473
@@ -2179,8 +2182,8 @@ msgid ""
 "Error running `bootc usr-overlay --read-only`: bootc command failed with "
 "exit code {}"
 msgstr ""
-"`bootc usr-overlay --read-only` 실행 오류: bootc 명령이 종료 코드 {}로 "
-"실패했습니다"
+"`bootc usr-overlay --read-only` 실행 오류: bootc 명령이 종료 코드 {}로 실패했"
+"습니다"
 
 #: utils/bootc.cpp:136
 #, fuzzy
