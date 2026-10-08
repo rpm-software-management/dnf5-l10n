@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-07 05:08+0000\n"
+"POT-Creation-Date: 2026-10-08 07:46+0000\n"
 "PO-Revision-Date: 2026-04-23 03:58+0000\n"
 "Last-Translator: \"Марко Костић (Marko Kostić)\" <marko.m.kostic@gmail.com>\n"
 "Language-Team: Serbian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -19,7 +19,7 @@ msgstr ""
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.17\n"
 
-#: cmdline_aliases.cpp:84 context.cpp:198 main.cpp:1449
+#: cmdline_aliases.cpp:84 context.cpp:221 main.cpp:1449
 msgid ", "
 msgstr ", "
 
@@ -1312,50 +1312,58 @@ msgstr "Додајем изузеће закључавања издања на �
 msgid "Package \"{}\" is already excluded."
 msgstr "Пакет „{}“ је већ изузет."
 
-#: context.cpp:73
+#: context.cpp:81
+#, c++-format
+msgid "{} day, {}:{:02}:{:02}"
+msgid_plural "{} days, {}:{:02}:{:02}"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: context.cpp:96
 #, fuzzy, c++-format
 #| msgid "Query Commands:"
 msgid "Command: {}"
 msgstr "Наредбе упита:"
 
-#: context.cpp:81
+#: context.cpp:104
 #, c++-format
 msgid "Process ID: {} (still running)"
 msgstr ""
 
-#: context.cpp:83
+#: context.cpp:106
 #, c++-format
 msgid "Process ID: {}"
 msgstr ""
 
-#: context.cpp:92
+#: context.cpp:115
 #, fuzzy, c++-format
 #| msgid "setvar: {}"
 msgid "Started: {}"
 msgstr "setvar: {}"
 
-#: context.cpp:99
+#: context.cpp:122
 #, c++-format
 msgid "Comment: {}"
 msgstr ""
 
-#: context.cpp:103
+#: context.cpp:126
 #, fuzzy
 #| msgid "Show status of the current offline transaction"
 msgid "Details about the currently running transaction:\n"
 msgstr "Прикажи стање тренутног преноса ван мреже"
 
-#: context.cpp:121
+#: context.cpp:144
 #, c++-format
 msgid "Importing OpenPGP key 0x{}:\n"
 msgstr "Увозим OpenPGP кључ 0x{}:\n"
 
-#: context.cpp:123 context.cpp:148
+#: context.cpp:146 context.cpp:171
 #, c++-format
 msgid " UserID     : \"{}\"\n"
 msgstr " ИД корисника: „{}“\n"
 
-#: context.cpp:126
+#: context.cpp:149
 #, c++-format
 msgid ""
 " Fingerprint: {}\n"
@@ -1364,55 +1372,55 @@ msgstr ""
 " Отисак: {}\n"
 " Од: {}\n"
 
-#: context.cpp:135
+#: context.cpp:158
 msgid "The key was successfully imported."
 msgstr "Кључ је успешно увезен."
 
-#: context.cpp:144
+#: context.cpp:167
 #, c++-format
 msgid "The following OpenPGP key (0x{}) is about to be removed:"
 msgstr "Следећи OpenPGP кључ (0x{}) ће бити уклоњен:"
 
-#: context.cpp:146
+#: context.cpp:169
 #, c++-format
 msgid " Reason     : {}\n"
 msgstr " Разлог: {}\n"
 
-#: context.cpp:150
+#: context.cpp:173
 #, c++-format
 msgid " Fingerprint: {}\n"
 msgstr " Отисак: {}\n"
 
-#: context.cpp:152
+#: context.cpp:175
 msgid "As a result, installing packages signed with this key will fail."
 msgstr ""
 "Као резултат тога, инсталирање пакета потписаних овим кључем неће успети."
 
-#: context.cpp:153
+#: context.cpp:176
 msgid "It is recommended to remove the expired key to allow importing"
 msgstr "Препоручује се уклањање истеклог кључа како би се омогућио увоз"
 
-#: context.cpp:154
+#: context.cpp:177
 msgid ""
 "an updated key. This might leave already installed packages unverifiable."
 msgstr ""
 "ажурираног кључа. Ово може оставити већ инсталиране пакете непроверљивим."
 
-#: context.cpp:157
+#: context.cpp:180
 msgid "The system will now proceed with removing the key."
 msgstr "Систем ће сада наставити са уклањањем кључа."
 
-#: context.cpp:163
+#: context.cpp:186
 #, c++-format
 msgid "Key 0x{} was successfully removed."
 msgstr "Кључ 0x{} је успешно уклоњен."
 
-#: context.cpp:192
+#: context.cpp:215
 #, c++-format
 msgid "setopt: \"{}.{}\": {}"
 msgstr "setopt: „{}.{}“: {}"
 
-#: context.cpp:202
+#: context.cpp:225
 #, c++-format
 msgid ""
 "No matching repositories for {}. To use repositories from a host system, "
@@ -1421,71 +1429,76 @@ msgstr ""
 "Нема одговарајућих ризница за {}. Да бисте користили ризнице са система "
 "домаћина, проследите опцију --use-host-config"
 
-#: context.cpp:206
+#: context.cpp:229
 #, c++-format
 msgid "No matching repositories for {}"
 msgstr "Нема одговарајућих ризница за {}"
 
-#: context.cpp:278
+#: context.cpp:301
 msgid ""
 "Waiting for a lock on the system repository; another process is currently "
 "accessing it. Use the \"--skip-file-locks\" option to bypass the lock."
 msgstr ""
 
-#: context.cpp:282
+#: context.cpp:305
 msgid ""
 "Waiting for a lock on the system repository. The following processes are "
 "currently accessing it:"
 msgstr ""
 
-#: context.cpp:292
+#: context.cpp:315
 msgid "Use the \"--skip-file-locks\" option to bypass the lock."
 msgstr ""
 
 #. If we're only loading the system repo, we can skip the message.
-#: context.cpp:300
+#: context.cpp:323
 msgid "Updating and loading repositories:"
 msgstr "Ажурирање и учитавање ризница:"
 
-#: context.cpp:315
+#: context.cpp:370
+#, c++-format
+msgid "Last metadata expiration check: {} ago on {}."
+msgstr ""
+
+#: context.cpp:377
 msgid "Repositories loaded."
 msgstr "Ризнице су учитане."
 
-#: context.cpp:322
+#: context.cpp:384
 msgid "Testing offline transaction"
 msgstr "Тестирање преноса ван мреже"
 
-#: context.cpp:326 context.cpp:525
+#: context.cpp:388 context.cpp:587
 #, c++-format
 msgid "Transaction failed: {}"
 msgstr "Пренос није успео: {}"
 
-#: context.cpp:339 context.cpp:538
+#: context.cpp:401 context.cpp:600
 #, c++-format
 msgid "  - {}"
 msgstr "  - {}"
 
-#: context.cpp:441
+#: context.cpp:503
 #, c++-format
 msgid ""
 "Location \"{}\" already contains a stored transaction, it will be "
 "overwritten."
 msgstr "Место „{}“ већ садржи сачувани пренос, биће преписана."
 
-#: context.cpp:475
+#: context.cpp:537
 msgid ""
 "There is already an offline transaction queued, initiated by the following "
 "command:"
 msgstr ""
 "Већ постоји пренос ван мреже на чекању, коју је покренула следећа наредба:"
 
-#: context.cpp:477
+#: context.cpp:539
 msgid ""
 "Continuing will cancel the old offline transaction and replace it with this "
 "one."
 msgstr "Наставак ће отказати стари пренос ван мреже и заменити је овом."
 
-#: context.cpp:496
+#: context.cpp:558
 msgid ""
 "Transaction stored to be performed offline. Run `dnf5 offline reboot` to "
 "reboot and run the transaction. To cancel the transaction and delete the "
@@ -1495,99 +1508,99 @@ msgstr ""
 "да поново покренете систем и извршите пренос. Да откажете пренос и обришете "
 "преузете датотеке, користите „dnf5 offline clean“."
 
-#: context.cpp:502
+#: context.cpp:564
 msgid "Running transaction"
 msgstr "Извршавам пренос"
 
-#: context.cpp:551
+#: context.cpp:613
 #, fuzzy
 #| msgid "Starting offline transaction. This will take a while."
 msgid "Warning: Pending offline transaction has been invalidated."
 msgstr "Покретање преноса ван мреже. Ово ће потрајати."
 
-#: context.cpp:553
+#: context.cpp:615
 #, c++-format
 msgid "To reschedule, run: {}"
 msgstr ""
 
-#: context.cpp:916
+#: context.cpp:978
 #, c++-format
 msgid "Upgrading {}"
 msgstr "Надограђујем {}"
 
-#: context.cpp:919
+#: context.cpp:981
 #, c++-format
 msgid "Downgrading {}"
 msgstr "Уназађујем {}"
 
-#: context.cpp:922
+#: context.cpp:984
 #, c++-format
 msgid "Reinstalling {}"
 msgstr "Поново инсталирам {}"
 
-#: context.cpp:935
+#: context.cpp:997
 #, c++-format
 msgid "Unexpected action in TransactionPackage: {}"
 msgstr "Неочекивана радња у TransactionPackage: {}"
 
-#: context.cpp:941
+#: context.cpp:1003
 #, c++-format
 msgid "Installing {}"
 msgstr "Инсталирање {}"
 
-#: context.cpp:962
+#: context.cpp:1024
 msgid "Prepare transaction"
 msgstr "Припрема преноса"
 
-#: context.cpp:982
+#: context.cpp:1044
 #, c++-format
 msgid "Removing {}"
 msgstr "Уклањам {}"
 
-#: context.cpp:985
+#: context.cpp:1047
 #, c++-format
 msgid "Cleanup {}"
 msgstr "Чистим {}"
 
-#: context.cpp:1004
+#: context.cpp:1066
 #, c++-format
 msgid "Unpack error: {}"
 msgstr "Грешка при отпакивању: {}"
 
-#: context.cpp:1013
+#: context.cpp:1075
 #, c++-format
 msgid "Cpio error: {}"
 msgstr "Cpio грешка: {}"
 
-#: context.cpp:1023
+#: context.cpp:1085
 msgid "Scriptlet output:"
 msgstr "Излаз скриптице:"
 
-#: context.cpp:1046
+#: context.cpp:1108
 msgid "Running scriptlets"
 msgstr "Извршавање скриптица"
 
-#: context.cpp:1052
+#: context.cpp:1114
 #, c++-format
 msgid "Running {} scriptlet: {}"
 msgstr "Покрећем {} скриптицу: {}"
 
-#: context.cpp:1068
+#: context.cpp:1130
 #, c++-format
 msgid "Finished {} scriptlet: {}"
 msgstr "Завршена је {} скриптица: {}"
 
-#: context.cpp:1075
+#: context.cpp:1137
 #, c++-format
 msgid "Non-critical error in {} scriptlet: {}"
 msgstr "Некритична грешка у {} скриптици: {}"
 
-#: context.cpp:1085
+#: context.cpp:1147
 #, c++-format
 msgid "Error in {} scriptlet: {}"
 msgstr "Грешка у {} скриптици: {}"
 
-#: context.cpp:1120
+#: context.cpp:1182
 msgid "Verify package files"
 msgstr "Провери датотеке пакета"
 

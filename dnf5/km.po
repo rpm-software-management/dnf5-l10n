@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-07 05:08+0000\n"
+"POT-Creation-Date: 2026-10-08 07:46+0000\n"
 "PO-Revision-Date: 2025-08-02 13:53+0000\n"
 "Last-Translator: kanitha chim <kchim@redhat.com>\n"
 "Language-Team: Khmer (Central) <https://translate.fedoraproject.org/projects/"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.12.2\n"
 
-#: cmdline_aliases.cpp:84 context.cpp:198 main.cpp:1449
+#: cmdline_aliases.cpp:84 context.cpp:221 main.cpp:1449
 msgid ", "
 msgstr ", "
 
@@ -1284,50 +1284,56 @@ msgstr "កំពុងដាក់បន្ថែម versionlock exclude នៅ
 msgid "Package \"{}\" is already excluded."
 msgstr "Package \"{}\" ត្រូវបានដកចេញរួចរាល់។"
 
-#: context.cpp:73
+#: context.cpp:81
+#, c++-format
+msgid "{} day, {}:{:02}:{:02}"
+msgid_plural "{} days, {}:{:02}:{:02}"
+msgstr[0] ""
+
+#: context.cpp:96
 #, fuzzy, c++-format
 #| msgid "Query Commands:"
 msgid "Command: {}"
 msgstr "ស្វែងរក commands:"
 
-#: context.cpp:81
+#: context.cpp:104
 #, c++-format
 msgid "Process ID: {} (still running)"
 msgstr ""
 
-#: context.cpp:83
+#: context.cpp:106
 #, c++-format
 msgid "Process ID: {}"
 msgstr ""
 
-#: context.cpp:92
+#: context.cpp:115
 #, fuzzy, c++-format
 #| msgid "setvar: {}"
 msgid "Started: {}"
 msgstr "setvar: {}"
 
-#: context.cpp:99
+#: context.cpp:122
 #, c++-format
 msgid "Comment: {}"
 msgstr ""
 
-#: context.cpp:103
+#: context.cpp:126
 #, fuzzy
 #| msgid "Show status of the current offline transaction"
 msgid "Details about the currently running transaction:\n"
 msgstr "បង្ហាញស្ថានភាពនៃប្រតិបត្តិការក្រៅបណ្ដាញបច្ចុប្បន្ន"
 
-#: context.cpp:121
+#: context.cpp:144
 #, c++-format
 msgid "Importing OpenPGP key 0x{}:\n"
 msgstr "កំពុងទាញចូល OpenPGP key 0x{}:\n"
 
-#: context.cpp:123 context.cpp:148
+#: context.cpp:146 context.cpp:171
 #, c++-format
 msgid " UserID     : \"{}\"\n"
 msgstr " .UserID.....:\"{}\"\n"
 
-#: context.cpp:126
+#: context.cpp:149
 #, c++-format
 msgid ""
 " Fingerprint: {}\n"
@@ -1336,55 +1342,55 @@ msgstr ""
 " ស្នាមម្រាមដៃ: {}\n"
 " មកពី       : {}\n"
 
-#: context.cpp:135
+#: context.cpp:158
 msgid "The key was successfully imported."
 msgstr "Key ត្រូវបានទាញចូលជោគជ័យ។"
 
-#: context.cpp:144
+#: context.cpp:167
 #, c++-format
 msgid "The following OpenPGP key (0x{}) is about to be removed:"
 msgstr "OpenPGP key (0x{}) ខាងក្រោមនេះគឺនឹងត្រូវបានលុបចោល:"
 
-#: context.cpp:146
+#: context.cpp:169
 #, c++-format
 msgid " Reason     : {}\n"
 msgstr " ហេតុផល     : {}\n"
 
-#: context.cpp:150
+#: context.cpp:173
 #, c++-format
 msgid " Fingerprint: {}\n"
 msgstr " ស្នាមម្រាមដៃ: {}\n"
 
-#: context.cpp:152
+#: context.cpp:175
 msgid "As a result, installing packages signed with this key will fail."
 msgstr "ជាលទ្ធផល, ការដំឡើង packages ដែលបានចុះហត្ថលេខាជាមួយ key នេះនឹងបរាជ័យ។"
 
-#: context.cpp:153
+#: context.cpp:176
 msgid "It is recommended to remove the expired key to allow importing"
 msgstr "គេបានណែនាំអោយលុប key ដែលផុតកំណត់ដើម្បីអនុញ្ញាតការនាំចូល"
 
-#: context.cpp:154
+#: context.cpp:177
 msgid ""
 "an updated key. This might leave already installed packages unverifiable."
 msgstr ""
 "key ដែលបានធ្វើបច្ចុប្បន្នកាល។ នេះអាចធ្វើអោយ package "
 "ដែលបានដំឡើងរួចហើយក្លាយទៅជាមិនអាចផ្ទៀងផ្ទាត់បាន។"
 
-#: context.cpp:157
+#: context.cpp:180
 msgid "The system will now proceed with removing the key."
 msgstr "ប្រព័ន្ធនឹងចាប់ផ្ដើមលុប key ចោលឥឡូវនេះ។"
 
-#: context.cpp:163
+#: context.cpp:186
 #, c++-format
 msgid "Key 0x{} was successfully removed."
 msgstr "Key 0x{} ត្រូវបានដកចេញជោគជ័យ។"
 
-#: context.cpp:192
+#: context.cpp:215
 #, c++-format
 msgid "setopt: \"{}.{}\": {}"
 msgstr "setopt: \"{}.{}\": {}"
 
-#: context.cpp:202
+#: context.cpp:225
 #, c++-format
 msgid ""
 "No matching repositories for {}. To use repositories from a host system, "
@@ -1393,71 +1399,76 @@ msgstr ""
 "គ្មាន​ repositories ដែលត្រូវនឹងគ្នាសម្រាប់ {}។ ដើម្បីប្រើ repositories ពីប្រព័ន្ធដើម, "
 "វាយបញ្ចូលជម្រើស --use-host-config"
 
-#: context.cpp:206
+#: context.cpp:229
 #, c++-format
 msgid "No matching repositories for {}"
 msgstr "គ្មាន repositories ផ្គូរផ្គងសម្រាប់ {}"
 
-#: context.cpp:278
+#: context.cpp:301
 msgid ""
 "Waiting for a lock on the system repository; another process is currently "
 "accessing it. Use the \"--skip-file-locks\" option to bypass the lock."
 msgstr ""
 
-#: context.cpp:282
+#: context.cpp:305
 msgid ""
 "Waiting for a lock on the system repository. The following processes are "
 "currently accessing it:"
 msgstr ""
 
-#: context.cpp:292
+#: context.cpp:315
 msgid "Use the \"--skip-file-locks\" option to bypass the lock."
 msgstr ""
 
 #. If we're only loading the system repo, we can skip the message.
-#: context.cpp:300
+#: context.cpp:323
 msgid "Updating and loading repositories:"
 msgstr "កំពុងធ្វើបច្ចុប្បន្នភាព និង ទាញផ្ទុក repositories:"
 
-#: context.cpp:315
+#: context.cpp:370
+#, c++-format
+msgid "Last metadata expiration check: {} ago on {}."
+msgstr ""
+
+#: context.cpp:377
 msgid "Repositories loaded."
 msgstr "Repositories ត្រូវបានទាញផ្ទុក។"
 
-#: context.cpp:322
+#: context.cpp:384
 msgid "Testing offline transaction"
 msgstr "កំពុងសាកល្បងប្រតិបត្តិការក្រៅបណ្ដាញ"
 
-#: context.cpp:326 context.cpp:525
+#: context.cpp:388 context.cpp:587
 #, c++-format
 msgid "Transaction failed: {}"
 msgstr "ប្រតិបត្តិការមិនបានជោគជ័យ: {}"
 
-#: context.cpp:339 context.cpp:538
+#: context.cpp:401 context.cpp:600
 #, c++-format
 msgid "  - {}"
 msgstr "  - {}"
 
-#: context.cpp:441
+#: context.cpp:503
 #, c++-format
 msgid ""
 "Location \"{}\" already contains a stored transaction, it will be "
 "overwritten."
 msgstr "ទីតាំង \"{}\" មានផ្ទុកប្រតិបត្តិការស្រាប់ហើយ, វានឹងត្រូវបានសរសេរជាន់លើ។"
 
-#: context.cpp:475
+#: context.cpp:537
 msgid ""
 "There is already an offline transaction queued, initiated by the following "
 "command:"
 msgstr ""
 "មានប្រតិបត្តិការក្រៅបណ្ដាញរួចរាល់ហើយនៅក្នុងជួរ, ត្រូវបានផ្ដួចផ្ដើមដោយ command​ ដូចខាងក្រោម:"
 
-#: context.cpp:477
+#: context.cpp:539
 msgid ""
 "Continuing will cancel the old offline transaction and replace it with this "
 "one."
 msgstr "ធ្វើការបន្តនឹងបោះបង់ចោលប្រតិបត្តិការក្រៅបណ្ដាញចាស់ និងជំនួសវាជាមួយនឹងប្រតិបត្តិការមួយនេះ។"
 
-#: context.cpp:496
+#: context.cpp:558
 msgid ""
 "Transaction stored to be performed offline. Run `dnf5 offline reboot` to "
 "reboot and run the transaction. To cancel the transaction and delete the "
@@ -1467,99 +1478,99 @@ msgstr ""
 "និង run​ ប្រតិបត្តិការ។ ដើម្បីបោះបង់ចោលប្រតិបត្តិការនិងលុបចោលឯកសារដែលបានទាញយក, ប្រើ `dnf5 "
 "offline clean`។"
 
-#: context.cpp:502
+#: context.cpp:564
 msgid "Running transaction"
 msgstr "កំពុងដំណើរការប្រតិបត្តិការ"
 
-#: context.cpp:551
+#: context.cpp:613
 #, fuzzy
 #| msgid "Starting offline transaction. This will take a while."
 msgid "Warning: Pending offline transaction has been invalidated."
 msgstr "ចាប់ផ្ដើមប្រតិបត្តិការក្រៅបណ្ដាញ។ វានឹងត្រូវការពេលបន្តិច។"
 
-#: context.cpp:553
+#: context.cpp:615
 #, c++-format
 msgid "To reschedule, run: {}"
 msgstr ""
 
-#: context.cpp:916
+#: context.cpp:978
 #, c++-format
 msgid "Upgrading {}"
 msgstr "កំពុងធ្វើកំណែឡើង {}"
 
-#: context.cpp:919
+#: context.cpp:981
 #, c++-format
 msgid "Downgrading {}"
 msgstr "កំពុងធ្វើកំណែចុះ {}"
 
-#: context.cpp:922
+#: context.cpp:984
 #, c++-format
 msgid "Reinstalling {}"
 msgstr "កំពុងដំឡើងម្ដងទៀត {}"
 
-#: context.cpp:935
+#: context.cpp:997
 #, c++-format
 msgid "Unexpected action in TransactionPackage: {}"
 msgstr "សកម្មភាពមិនបានរំពឹងទុកនៅក្នុង TransactionPackage: {}"
 
-#: context.cpp:941
+#: context.cpp:1003
 #, c++-format
 msgid "Installing {}"
 msgstr "កំពុងតម្លើង​ {}"
 
-#: context.cpp:962
+#: context.cpp:1024
 msgid "Prepare transaction"
 msgstr "រៀបចំប្រតិបត្តិការ"
 
-#: context.cpp:982
+#: context.cpp:1044
 #, c++-format
 msgid "Removing {}"
 msgstr "ធ្វើការដកចេញ {}"
 
-#: context.cpp:985
+#: context.cpp:1047
 #, c++-format
 msgid "Cleanup {}"
 msgstr "សម្អាត {}"
 
-#: context.cpp:1004
+#: context.cpp:1066
 #, c++-format
 msgid "Unpack error: {}"
 msgstr "ស្រាយកញ្ចប់កំហុស: {}"
 
-#: context.cpp:1013
+#: context.cpp:1075
 #, c++-format
 msgid "Cpio error: {}"
 msgstr "កំហុស​ cpio: {}"
 
-#: context.cpp:1023
+#: context.cpp:1085
 msgid "Scriptlet output:"
 msgstr "សង្ខេបទិន្នផល:"
 
-#: context.cpp:1046
+#: context.cpp:1108
 msgid "Running scriptlets"
 msgstr "កំពុង run scriptlets"
 
-#: context.cpp:1052
+#: context.cpp:1114
 #, c++-format
 msgid "Running {} scriptlet: {}"
 msgstr "កំពុង run {} scriptlet: {}"
 
-#: context.cpp:1068
+#: context.cpp:1130
 #, c++-format
 msgid "Finished {} scriptlet: {}"
 msgstr "បានបញ្ចប់ {} scriptlet: {}"
 
-#: context.cpp:1075
+#: context.cpp:1137
 #, c++-format
 msgid "Non-critical error in {} scriptlet: {}"
 msgstr "កំហុសមិនធ្ងន់ធ្ងរនៅក្នុង {} scriptlet: {}"
 
-#: context.cpp:1085
+#: context.cpp:1147
 #, c++-format
 msgid "Error in {} scriptlet: {}"
 msgstr "កំហុសនៅក្នុង {} scriptlet: {}"
 
-#: context.cpp:1120
+#: context.cpp:1182
 msgid "Verify package files"
 msgstr "បញ្ជាក់ឯកសារ package"
 
