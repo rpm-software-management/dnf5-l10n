@@ -5,13 +5,14 @@
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024, 2025.
 # Léane GRASSER <pierre.grasser@proton.me>, 2024.
 # Léane GRASSER <leane.grasser@proton.me>, 2024, 2025.
+# red max <redmax761@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-08 07:46+0000\n"
-"PO-Revision-Date: 2025-06-02 10:02+0000\n"
-"Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
+"PO-Revision-Date: 2026-10-09 14:53+0000\n"
+"Last-Translator: red max <redmax761@gmail.com>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/fr/>\n"
 "Language: fr\n"
@@ -19,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.11.4\n"
+"X-Generator: Weblate 2026.10.1\n"
 
 #: advisory/advisory.cpp:81
 #, c++-format
@@ -27,7 +28,7 @@ msgid ""
 "Bad libsolv id for advisory \"{}\", solvable name \"{}\" doesn't have "
 "advisory prefix \"{}\""
 msgstr ""
-"Mauvais ID libsolv pour l'avertissement \"{}\", le nom résoluble \"{}\" ne "
+"Mauvais id libsolv pour l'avertissement \"{}\", le nom résoluble \"{}\" ne "
 "commence pas par le préfixe d'avertissement \"{}\""
 
 #: advisory/advisory_collection.cpp:94
@@ -35,10 +36,9 @@ msgid "This libdnf5 does not support modularity"
 msgstr ""
 
 #: base/active_transaction_info.cpp:93 base/active_transaction_info.cpp:95
-#, fuzzy, c++-format
-#| msgid "Error during transaction replay JSON parsing : {}"
+#, c++-format
 msgid "Error parsing transaction info: {}"
-msgstr "Erreur lors de l'analyse du JSON de la transaction à rejouer : {}"
+msgstr "Erreur lors de l'analyse des informations de transaction : {}"
 
 #: base/base.cpp:185
 #, c++-format
@@ -368,8 +368,8 @@ msgid ""
 "{0} upgrade cannot be reverted, however associated package actions will be. "
 "({1} id: '{2}') ."
 msgstr ""
-"La mise à jour de {0} ne peut pas être annulée, mais les actions sur les "
-"autres paquets le seront. (ID de {1} : '{2}')"
+"{0} la mise à niveau ne peut pas être annulée, cependant les actions de "
+"paquet associées le seront. ({1} id : '{2}')."
 
 #: base/log_event.cpp:279
 #, c++-format
@@ -745,18 +745,18 @@ msgstr ""
 
 #: base/transaction.cpp:91
 msgid "Rpm transaction check failed."
-msgstr "Vérification de la transaction RPM échouée."
+msgstr "Vérification de la transaction rpm échouée."
 
 #: base/transaction.cpp:93
 msgid ""
 "Failed to obtain rpm transaction lock. Another transaction is in progress."
 msgstr ""
-"Impossible d'obtenir le verrou de transaction RPM. Une autre transaction est "
+"Impossible d'obtenir le verrou de transaction rpm. Une autre transaction est "
 "en cours."
 
 #: base/transaction.cpp:94
 msgid "Rpm transaction failed."
-msgstr "Transaction RPM échouée."
+msgstr "Transaction rpm échouée."
 
 #: base/transaction.cpp:95
 msgid "Signature verification failed."
@@ -916,19 +916,18 @@ msgstr ""
 "l'utilisateur"
 
 #: comps/environment/environment.cpp:361
-#, fuzzy, c++-format
-#| msgid "Failed to save xml document for group \"{}\" to file \"{}\": {}"
+#, c++-format
 msgid "Failed to save xml document for environment \"{}\" to file \"{}\": {}"
 msgstr ""
-"Échec de l'enregistrement du document XML pour le groupe \"{}\" dans le "
-"fichier \"{}\" : {}"
+"Échec de l'enregistrement du document xml pour le groupe \"{}\" dans le "
+"fichier \"{}\": {}"
 
 #: comps/group/group.cpp:354
 #, c++-format
 msgid "Failed to save xml document for group \"{}\" to file \"{}\": {}"
 msgstr ""
-"Échec de l'enregistrement du document XML pour le groupe \"{}\" dans le "
-"fichier \"{}\" : {}"
+"Échec de l'enregistrement du document xml pour le groupe \"{}\" dans le "
+"fichier \"{}\": {}"
 
 #: comps/group/package.cpp:118 comps/group/package.cpp:121
 #, c++-format
@@ -1237,7 +1236,7 @@ msgstr "Échec de la tentative d'accès au RPM \"{}\" : {}"
 #: repo/repo.cpp:108
 #, c++-format
 msgid "Invalid repository id \"{}\": unexpected character '{}'"
-msgstr "ID de dépôt \"{}\" invalide : caractère '{}' inattendu"
+msgstr "Id de dépôt \"{}\" invalide : caractère '{}' inattendu"
 
 #: repo/repo.cpp:151
 #, c++-format
@@ -1274,7 +1273,7 @@ msgstr "Échec du chargement des comps \"{}\" : extension \".xml\" manquante"
 #: repo/repo.cpp:513
 #, c++-format
 msgid "Failed to load xml Comps \"{}\": {}"
-msgstr "Échec du chargement des comps XML \"{}\" : {}"
+msgstr "Échec du chargement des comps xml \"{}\" : {}"
 
 #: repo/repo.cpp:531
 #, c++-format
@@ -1283,7 +1282,7 @@ msgstr "Échec du chargement du RPM \"{}\" : {}"
 
 #: repo/repo_cache.cpp:255
 msgid "Unable to determine id of the repository in the cache."
-msgstr "Impossible de déterminer l'ID du dépôt dans le cache."
+msgstr "Impossible de déterminer l'id du dépôt dans le cache."
 
 #: repo/repo_cache_private.hpp:59
 msgid "Empty path to the repository cache directory."
@@ -1377,7 +1376,7 @@ msgid ""
 "Failed to create repo \"{}\": Id is present more than once in the "
 "configuration"
 msgstr ""
-"Échec de la création du dépôt \"{}\" : l'ID est présent plus d'une fois dans "
+"Échec de la création du dépôt \"{}\" : l'id est présent plus d'une fois dans "
 "la configuration"
 
 #: repo/repo_sack.cpp:637
@@ -1501,7 +1500,7 @@ msgstr "Une erreur s'est produite lors de l'ouverture du paquet."
 #, c++-format
 msgid "Failed to set rpm transaction rootDir \"{}\"."
 msgstr ""
-"Échec de la définition du rootDir de la transaction RPM à la valeur \"{}\"."
+"Échec de la définition du rootDir de la transaction rpm à la valeur \"{}\"."
 
 #: rpm/rpm_signature.cpp:282
 #, c++-format
@@ -1522,13 +1521,13 @@ msgstr "Impossible de définir le répertoire racine à la valeur \"{}\""
 #: rpm/transaction.cpp:127
 #, c-format
 msgid "Error %i opening rpm database"
-msgstr "Erreur %i lors de l'ouverture de la base de données RPM"
+msgstr "Erreur %i lors de l'ouverture de la base de données rpm"
 
 #: rpm/transaction.cpp:136
 msgid "The rpmdbCookie() function did not return cookie of rpm database."
 msgstr ""
 "La fonction rpmdbCookie() n'a pas retourné le cookie de la base de données "
-"RPM."
+"rpm."
 
 #: rpm/transaction.cpp:228
 #, c++-format
@@ -1541,7 +1540,7 @@ msgstr ""
 
 #: rpm/transaction.cpp:236
 msgid "Failed to order the rpm transaction."
-msgstr "Échec du tri de la transaction RPM."
+msgstr "Échec du tri de la transaction rpm."
 
 #: rpm/transaction.cpp:272
 #, c++-format
@@ -1572,11 +1571,11 @@ msgstr "Échec de la lecture de l'en-tête de paquet dans le fichier \"{}\""
 
 #: rpm/transaction.cpp:342
 msgid "Cannot init rpm database iterator"
-msgstr "Impossible d'initialiser l'itérateur de base de données RPM"
+msgstr "Impossible d'initialiser l'itérateur de base de données rpm"
 
 #: rpm/transaction.cpp:346
 msgid "Package was not found in rpm database"
-msgstr "Le paquet n'a pas pu être trouvé dans la base de données RPM"
+msgstr "Le paquet n'a pas pu être trouvé dans la base de données rpm"
 
 #. TODO(jrohel): Why? Librpm does not provide this information.
 #: rpm/transaction.cpp:362
@@ -1628,12 +1627,11 @@ msgid "Missing \"version\" key in \"{}\""
 msgstr "En-tête de section manquant à la ligne {}"
 
 #: solv/vendor_change_manager.cpp:351
-#, fuzzy, c++-format
-#| msgid "Unsupported TOML version \"{}\", maximum supported version is \"{}\""
+#, c++-format
 msgid "Unsupported version \"{}\" in \"{}\". Supported versions: {}"
 msgstr ""
-"Version TOML \"{}\" non prise en charge, la version prise en charge maximale "
-"est \"{}\""
+"Version non prise en charge \"{}\" dans\" {}\". Versions prises en charge : "
+"{}"
 
 #: solv/vendor_change_manager.cpp:362
 #, c++-format
@@ -1794,10 +1792,9 @@ msgid "Expected package filter after '@'"
 msgstr ""
 
 #: solv/vendor_change_manager.cpp:944
-#, fuzzy, c++-format
-#| msgid "Invalid repository id \"{}\": unexpected character '{}'"
+#, c++-format
 msgid "Unexpected character '{}'"
-msgstr "ID de dépôt \"{}\" invalide : caractère '{}' inattendu"
+msgstr "Id de dépôt \"{}\" invalide : caractère '{}' inattendu"
 
 #: solv/vendor_change_manager.cpp:1020
 msgid "Expected quoted string starting with '\"'"
@@ -2186,22 +2183,22 @@ msgstr "Analyse du NEVRA impossible pour le RPM \"{}\""
 msgid "Either \"nevra\" or \"package_path\" object key is required in an rpm"
 msgstr ""
 "L'une des clés d'objet \"nevra\" ou \"package_path\" sont requises dans un "
-"RPM"
+"rpm"
 
 #: transaction/transaction_sr.cpp:215
 msgid "Missing object key \"action\" in an rpm"
-msgstr "Clé d'objet \"action\" manquante dans un RPM"
+msgstr "Clé d'objet \"action\" manquante dans un rpm"
 
 #: transaction/transaction_sr.cpp:220
 msgid "Missing object key \"reason\" in an rpm"
-msgstr "Clé d'objet \"reason\" manquante dans un RPM"
+msgstr "Clé d'objet \"reason\" manquante dans un rpm"
 
 #: transaction/transaction_sr.cpp:227
 msgid ""
 "Missing mandatory object key \"group_id\" in an rpm with reason \"Group\" "
 "and action \"Reason Change\""
 msgstr ""
-"Clé d'objet obligatoire \"group_id\" manquante dans un RPM ayant pour motif "
+"Clé d'objet obligatoire \"group_id\" manquante dans un rpm ayant pour motif "
 "\"Group\" et pour action \"Changer le motif\""
 
 #: utils/bootc.cpp:46
@@ -2545,10 +2542,9 @@ msgid "failed to execute command: {}"
 msgstr "Échec de l'exécution de uname()"
 
 #: utils/subprocess.cpp:185
-#, fuzzy, c++-format
-#| msgid "Error during transaction replay JSON parsing : {}"
+#, c++-format
 msgid "error during preparation of child process: {}"
-msgstr "Erreur lors de l'analyse du JSON de la transaction à rejouer : {}"
+msgstr "Erreur lors de la préparation du processus enfant : {}"
 
 #: utils/subprocess.cpp:211
 msgid "poll failed during subprocess I/O"
@@ -2560,7 +2556,7 @@ msgstr ""
 
 #: utils/system.cpp:34
 msgid "failed to read rpm config files"
-msgstr "échec de la lecture des fichiers de configuration RPM"
+msgstr "échec de la lecture des fichiers de configuration rpm"
 
 #: utils/system.cpp:52
 msgid "Failed to execute uname()"
