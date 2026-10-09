@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-08 07:46+0000\n"
-"PO-Revision-Date: 2026-10-07 22:07+0000\n"
+"PO-Revision-Date: 2026-10-09 14:53+0000\n"
 "Last-Translator: red max <redmax761@gmail.com>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/fr/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 2026.10\n"
+"X-Generator: Weblate 2026.10.1\n"
 
 #: cmdline_aliases.cpp:84 context.cpp:221 main.cpp:1449
 msgid ", "
@@ -337,20 +337,20 @@ msgstr "Afficher uniquement les avertissements faisant référence à une CVE."
 #: commands/advisory_shared.hpp:93
 #, c++-format
 msgid "No advisory found matching the requested name: \"{}\""
-msgstr "Aucun avertissement portant le nom demandé ({}) n'a été trouvé."
+msgstr "Aucun avertissement portant le nom demandé ({}) n'a été trouvé"
 
 #: commands/advisory_shared.hpp:132
 #, c++-format
 msgid "No advisory found fixing the Bugzilla ID: \"{}\""
 msgstr ""
 "Aucun avertissement de correction à propos de l'ID Bugzilla \"{}\" n'a été "
-"trouvé."
+"trouvé"
 
 #: commands/advisory_shared.hpp:157
 #, c++-format
 msgid "No advisory found fixing the CVE ID: \"{}\""
 msgstr ""
-"Aucun avertissement de correction à propos de la CVE \"{}\" n'a été trouvé."
+"Aucun avertissement de correction à propos de la CVE \"{}\" n'a été trouvé"
 
 #: commands/advisory_shared.hpp:178
 msgid "No advisory found matching the specified filters."
@@ -454,7 +454,7 @@ msgstr ""
 "de type bugfix (correction de bugs), enhancement (amélioration), security "
 "(sécurité) ou newpackage (nouveau paquet). Si une option limitant les "
 "avertissements est utilisée, sont alors affichées uniquement les versions "
-"des paquets les plus basses résolvant les avertissements correspondants."
+"des paquets les plus basses résolvant les avertissements correspondants"
 
 #: commands/check/check.cpp:247
 msgid "Check for problems in the packagedb"
@@ -663,10 +663,8 @@ msgid "No matches found: no groups are installed."
 msgstr "Aucune correspondance trouvée : aucun groupe n'est installé."
 
 #: commands/group/group_list.cpp:116
-#, fuzzy
-#| msgid "No matches found for \"{}\"."
 msgid "No matches found: no groups are available."
-msgstr "Aucun résultat pour \"{}\"."
+msgstr "Aucune correspondance trouvée: aucun groupe n'est disponible."
 
 #: commands/group/group_list.cpp:118
 #, fuzzy
@@ -680,20 +678,16 @@ msgid "Groups: {0} ({1} {2}, {3} {4})"
 msgstr ""
 
 #: commands/group/group_list.cpp:147
-#, fuzzy
-#| msgid "Installed"
 msgid "installed"
 msgid_plural "installed"
-msgstr[0] "Installés"
+msgstr[0] "Installé"
 msgstr[1] "Installés"
 
 #: commands/group/group_list.cpp:149
-#, fuzzy
-#| msgid "Available"
 msgid "available"
 msgid_plural "available"
-msgstr[0] "Disponibles"
-msgstr[1] "Disponibles"
+msgstr[0] "disponible"
+msgstr[1] "disponibles"
 
 #: commands/history/arguments.hpp:37
 msgid "Transaction ID"
@@ -1238,10 +1232,8 @@ msgid "Options --name and --summary cannot be used together."
 msgstr ""
 
 #: commands/search/search.cpp:74
-#, fuzzy
-#| msgid "Option \"--alldeps\" should be used with \"--resolve\""
 msgid "Option --all cannot be used with --name or --summary."
-msgstr "L'option \"--alldeps\" devrait être utilisée avec \"--resolve\""
+msgstr "L'option \"--alldeps\" devrait être utilisée avec \"--resolve\"."
 
 #: commands/swap/swap.cpp:42
 msgid "Remove software and install another in one transaction"
@@ -1294,7 +1286,7 @@ msgstr ""
 "(amélioration), security (sécurité) ou newpackage (nouveau paquet). Si une "
 "option limitant les avertissements est utilisée, seuls les avertissements "
 "correspondants sont pris en compte pour la sélection des paquets à mettre à "
-"jour."
+"jour"
 
 #. TODO(mblaha): add full command line
 #: commands/versionlock/utils.cpp:35
@@ -1382,10 +1374,9 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: context.cpp:96
-#, fuzzy, c++-format
-#| msgid "Query Commands:"
+#, c++-format
 msgid "Command: {}"
-msgstr "Commandes de requête :"
+msgstr "Commande : {}"
 
 #: context.cpp:104
 #, c++-format
@@ -1490,7 +1481,7 @@ msgid ""
 "pass --use-host-config option"
 msgstr ""
 "Aucun dépôt correspondant à {}. Pour utiliser les dépôts du système hôte, "
-"passez l'option --use-host-config."
+"passez l'option --use-host-config"
 
 #: context.cpp:229
 #, c++-format
@@ -1743,7 +1734,7 @@ msgstr "Échec de l'expiration du cache des dépôts ({0}) : {1}"
 
 #: main.cpp:227
 msgid "create additional repository using id and path"
-msgstr "créer un dépôt supplémentaire à partir d'un ID et d'un chemin d'accès"
+msgstr "créer un dépôt supplémentaire à partir d'un id et d'un chemin d'accès"
 
 #: main.cpp:235
 #, c++-format
@@ -2291,12 +2282,13 @@ msgstr ""
 "temps."
 
 #: main.cpp:1705
-#, fuzzy, c++-format
-#| msgid "An offline transaction was initiated by the following command:"
+#, c++-format
 msgid ""
 "Warning: A pending offline transaction initiated by the following command "
 "will be invalidated: {}"
-msgstr "Une transaction hors ligne a été amorcée par la commande suivante :"
+msgstr ""
+"Avertissement : Une transaction hors ligne en attente initiée par la "
+"commande suivante sera invalidée : {}"
 
 #: main.cpp:1730
 msgid ""
