@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-08 07:46+0000\n"
-"PO-Revision-Date: 2026-09-04 11:18+0000\n"
+"PO-Revision-Date: 2026-10-11 03:18+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ka/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.9\n"
+"X-Generator: Weblate 2026.10.1\n"
 
 #: cmdline_aliases.cpp:84 context.cpp:221 main.cpp:1449
 msgid ", "
@@ -1316,8 +1316,8 @@ msgstr "პაკეტი \"{}\" უკვე ამოღებულია."
 #, c++-format
 msgid "{} day, {}:{:02}:{:02}"
 msgid_plural "{} days, {}:{:02}:{:02}"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{} დღე, {}:{:02}:{:02}"
+msgstr[1] "{} დღე, {}:{:02}:{:02}"
 
 #: context.cpp:96
 #, c++-format
@@ -1457,7 +1457,7 @@ msgstr "განახლება და ჩატვირთვა რეპ
 #: context.cpp:370
 #, c++-format
 msgid "Last metadata expiration check: {} ago on {}."
-msgstr ""
+msgstr "ბოლო მეტამონაცემების ვადის შემოწმება: {}-ის წინ {}-ზე."
 
 #: context.cpp:377
 msgid "Repositories loaded."
