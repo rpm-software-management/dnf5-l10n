@@ -13,8 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-08 07:46+0000\n"
 "PO-Revision-Date: 2026-10-12 09:18+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ko/>\n"
 "Language: ko\n"
@@ -389,8 +388,9 @@ msgid ""
 "either mark it as user-installed or change protected_packages configuration "
 "option."
 msgstr ""
-"불필요하게 보호된 꾸러미: %s ( 그리고 해당 의존성) 부분은 제거 될 수 없으며, "
-"사용자-설치되도록 표시하거나 변경 보호된_꾸러미 구성 옵션을 변경하세요."
+"불필요하게 보호된 꾸러미: {0} ( 그리고 해당 의존성) 부분은 제거 될 수 "
+"없으며, 사용자-설치되도록 표시하거나 변경 보호된_꾸러미 구성 옵션을 "
+"변경하세요."
 
 #: commands/check-upgrade/check-upgrade.cpp:47
 msgid "Check for available package upgrades"
@@ -1197,56 +1197,56 @@ msgid ""
 "limiting advisories is used it upgrades packages only to the lowest versions "
 "that fix advisories that matching selected advisory property"
 msgstr ""
-"버그 수정, 기능 개선, 보안 또는 새 패키지 유형의 권고 사항을 반영하는 데 필요"
-"한 최소 버전까지만 패키지를 업그레이드합니다. 권고 사항의 범위를 제한하는 옵"
-"션을 사용하면, 선택한 권고 사항 속성과 일치하는 권고 사항을 반영하는 데 필요"
-"한 최소 버전까지만 업그레이드합니다"
+"결점수정, 향상, 보안, 또는 신규꾸러미 유형의 권고를 수정하도록 최저 "
+"버전으로만 꾸러미를 향상합니다. 권고를 제한하는 옵션이 사용되는 경우에 "
+"선택된 권고 속성과 일치하는 권고를 수정하도록 최소 버전으로만 꾸러미를 "
+"향상합니다"
 
 #. TODO(mblaha): add full command line
 #: commands/versionlock/utils.cpp:35
 #, c++-format
 msgid "Added by 'versionlock {}' command on {}"
-msgstr "'versionlock {}' 명령으로 추가됨: {}"
+msgstr "'versionlock {}' 명령어로 {}에 추가됨"
 
 #: commands/versionlock/versionlock.cpp:40
 msgid "Manage versionlock configuration"
-msgstr "버전 잠금 설정 관리"
+msgstr "versionlock 구성 관리"
 
 #: commands/versionlock/versionlock_add.cpp:37
 msgid "Add new entry to versionlock configuration"
-msgstr "버전 잠금 설정에 새 항목 추가"
+msgstr "versionlock 구성에 신규 항목 추가"
 
 #: commands/versionlock/versionlock_add.cpp:44
 msgid "List of packages to lock to their current versions"
-msgstr "현재 버전으로 고정할 패키지 목록"
+msgstr "현재 버전으로 고정하려는 꾸러미 목록"
 
 #: commands/versionlock/versionlock_add.cpp:107
 #: commands/versionlock/versionlock_exclude.cpp:128
 #, c++-format
 msgid "No package found for \"{}\"."
-msgstr "\"{}\"에 해당하는 패키지를 찾을 수 없습니다."
+msgstr "\"{}\"에 해당하는 꾸러미를 찾을 수 없습니다."
 
 #: commands/versionlock/versionlock_add.cpp:134
 #, c++-format
 msgid "Adding versionlock on \"{0} = {1}\"."
-msgstr "\"{0} = {1}\"에 버전 잠금을 추가합니다."
+msgstr "\"{0} = {1}\"에 versionlock 추가."
 
 #: commands/versionlock/versionlock_add.cpp:137
 #, c++-format
 msgid "Package \"{}\" is already locked."
-msgstr "패키지 \"{}\"는 이미 버전이 고정되어 있습니다."
+msgstr "꾸러미 \"{}\"가 이미 잠겨 있습니다."
 
 #: commands/versionlock/versionlock_clear.cpp:32
 msgid "Remove all entries from versionlock configuration"
-msgstr "버전 잠금 설정의 모든 항목 제거"
+msgstr "versionlock 구성에서 모든 항목을 제거합니다"
 
 #: commands/versionlock/versionlock_delete.cpp:35
 msgid "Remove any matching versionlock configuration entries"
-msgstr "일치하는 버전 잠금 설정 항목 모두 제거"
+msgstr "일치하는 모든 versionlock 구성 항목을 제거합니다"
 
 #: commands/versionlock/versionlock_delete.cpp:41
 msgid "List of package specs to remove versionlock for"
-msgstr "버전 잠금을 제거할 패키지 지정 목록"
+msgstr "versionlock을 제거하려는 꾸러미 상세 목록"
 
 #: commands/versionlock/versionlock_delete.cpp:55
 msgid "Deleting versionlock entry:"
@@ -1419,7 +1419,7 @@ msgstr "저장소 업데이트 및 불러오기:"
 #: context.cpp:370
 #, c++-format
 msgid "Last metadata expiration check: {} ago on {}."
-msgstr "마지막 메타데이터 만료 확인: {} 전, {}."
+msgstr "마지막 메타자료 만료 확인: {} 전에 {} 에서."
 
 #: context.cpp:377
 msgid "Repositories loaded."
@@ -1630,12 +1630,12 @@ msgstr "경로 \"{0}\"의 저장소 캐시를 만료 처리하지 못했습니�
 
 #: main.cpp:227
 msgid "create additional repository using id and path"
-msgstr "ID와 경로를 사용하여 추가 저장소를 생성합니다"
+msgstr "id 및 경로를 사용하여 추가 저장소를 생성합니다"
 
 #: main.cpp:235
 #, c++-format
 msgid "repofrompath: Incorrect repoid and path specification \"{}\""
-msgstr "repofrompath: 잘못된 저장소 ID 및 경로 지정 \"{}\""
+msgstr "repofrompath: 잘못된 repoid 및 경로 지정 \"{}\""
 
 #: main.cpp:247
 msgid "set arbitrary config and repo options"
@@ -2245,7 +2245,7 @@ msgstr "VENDOR,..."
 
 #: shared_options.cpp:248
 msgid "\"--from_vendor\" already defined with different value"
-msgstr "\"--from_vendor\"가 이미 다른 값으로 정의되어 있습니다"
+msgstr "\"--from_vendor\"가 이미 다른 값으로 정의되었습니다"
 
 #~ msgid "No matching packages to list"
 #~ msgstr "목록과 일치하는 꾸러미가 없습니다"
