@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-08 07:46+0000\n"
-"PO-Revision-Date: 2026-10-07 22:07+0000\n"
+"PO-Revision-Date: 2026-10-11 03:18+0000\n"
 "Last-Translator: Hyeonmin Oh <hyunmin860@gmail.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/ko/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.10\n"
+"X-Generator: Weblate 2026.10.1\n"
 
 #: advisory/advisory.cpp:81
 #, c++-format
@@ -35,10 +35,9 @@ msgid "This libdnf5 does not support modularity"
 msgstr "이 libdnf5는 모듈 기능을 지원하지 않습니다"
 
 #: base/active_transaction_info.cpp:93 base/active_transaction_info.cpp:95
-#, fuzzy, c++-format
-#| msgid "Error during transaction replay JSON parsing : {}"
+#, c++-format
 msgid "Error parsing transaction info: {}"
-msgstr "연결이 재생되는 동안 JSON 구문 분석 중 오류: {}"
+msgstr "트랜잭션 정보 구문 분석 오류: {}"
 
 #: base/base.cpp:185
 #, c++-format
@@ -322,16 +321,14 @@ msgid "Packages for argument '{}' installed, but not available."
 msgstr "인수 '{}'를 위한 꾸러미가 설치되었지만, 사용 할 수 없습니다."
 
 #: base/log_event.cpp:248
-#, fuzzy, c++-format
-#| msgid "Package \"{}\" is already installed."
+#, c++-format
 msgid "Group \"{}\" is already installed."
-msgstr "\"{}\" 꾸러미는 이미 설치되었습니다."
+msgstr "그룹 \"{}\"는 이미 설치되어 있습니다."
 
 #: base/log_event.cpp:251
-#, fuzzy, c++-format
-#| msgid "Package \"{}\" is already installed."
+#, c++-format
 msgid "Environmental group \"{}\" is already installed."
-msgstr "\"{}\" 꾸러미는 이미 설치되었습니다."
+msgstr "환경 그룹 \"{}\"는 이미 설치되어 있습니다."
 
 #: base/log_event.cpp:258
 #, c++-format
@@ -598,14 +595,11 @@ msgid ""
 msgstr "이 작업은 다음과 같은 보호된 꾸러미가 제거됩니다: {}"
 
 #: base/solver_problems.cpp:75
-#, fuzzy, c++-format
-#| msgid ""
-#| "The operation would result in removing the following protected packages: "
-#| "{}"
+#, c++-format
 msgid ""
 "The operation would result in broken dependencies for the following "
 "protected packages: {}"
-msgstr "이 작업은 다음과 같은 보호된 꾸러미가 제거됩니다: {}"
+msgstr "이 작업을 수행하면 다음 보호된 패키지의 의존성이 손상됩니다: {}"
 
 #: base/solver_problems.cpp:78
 #, c++-format
@@ -752,10 +746,8 @@ msgid "poll failed during scriptlets pipe processing"
 msgstr "스크립틀릿 파이프 처리 중 poll 실패"
 
 #: base/transaction.cpp:1017
-#, fuzzy
-#| msgid "Failed to set scriptlet output file, cannot open file \"{}\": {}"
 msgid "failed to read scriptlet output from pipe"
-msgstr "구현 출력 파일을 설정하는 데 실패함, 파일을 열 수 없습니다 \"{}\": {}"
+msgstr "파이프에서 스크립틀릿 출력을 읽지 못했습니다"
 
 #: base/transaction.cpp:1135
 #, c++-format
@@ -801,30 +793,24 @@ msgid_plural ""
 msgstr[0] "경고: 저장소에서 {0} 꾸러미를 위해 OpenPGP 점검을 건너뜀: {1}"
 
 #: base/vendor_change_manager.cpp:145
-#, fuzzy
-#| msgid "Cannot set the locale \"{}\": {}"
 msgid "{func}(): Cannot remove file: {path}: {msg}"
-msgstr "지역 설정을 할 수 없습니다 \"{}\": {}"
+msgstr "{func}(): 파일을 제거할 수 없습니다: {path}: {msg}"
 
 #: base/vendor_change_manager.cpp:151
 msgid "{func}(): File does not exist: {path}"
 msgstr "{func}(): 파일이 없습니다: {path}"
 
 #: base/vendor_change_manager.cpp:240
-#, fuzzy
-#| msgid "Cannot set the locale \"{}\": {}"
 msgid "{func}(): Cannot remove existing policy file: {path}"
-msgstr "지역 설정을 할 수 없습니다 \"{}\": {}"
+msgstr "{func}(): 기존 정책 파일을 제거할 수 없습니다: {path}"
 
 #: base/vendor_change_manager.cpp:252
 msgid "{func}(): Cannot create file: {path}"
 msgstr "{func}(): 파일을 생성할 수 없습니다: {path}"
 
 #: base/vendor_change_manager.cpp:269
-#, fuzzy
-#| msgid "Cannot set the locale \"{}\": {}"
 msgid "{func}(): Cannot write to file: {path}"
-msgstr "지역 설정을 할 수 없습니다 \"{}\": {}"
+msgstr "{func}(): 파일에 쓸 수 없습니다: {path}"
 
 #: base/vendor_change_manager.cpp:306
 msgid "{func}(): Base filename cannot be empty"
@@ -850,16 +836,14 @@ msgid "General RuntimeError exception"
 msgstr "일반 RuntimeError 예외"
 
 #: common/proc.cpp:88
-#, fuzzy, c++-format
-#| msgid "Cannot install package \"{}\""
+#, c++-format
 msgid "Cannot stat {}"
-msgstr "꾸러미를 설치 할 수 없습니다 \"{}\""
+msgstr "{}의 파일 상태 정보를 조회할 수 없습니다"
 
 #: common/proc.cpp:124
-#, fuzzy, c++-format
-#| msgid "cannot open file"
+#, c++-format
 msgid "Cannot open {}"
-msgstr "파일을 열 수 없음"
+msgstr "{}를 열 수 없습니다"
 
 #: common/sack/query.cpp:27
 msgid "Query must contain exactly one object."
@@ -875,10 +859,9 @@ msgstr ""
 "get_user_runtime_dir(): 사용자의 runtime 디렉토리를 결정 할 수 없습니다"
 
 #: comps/environment/environment.cpp:361
-#, fuzzy, c++-format
-#| msgid "Failed to save xml document for group \"{}\" to file \"{}\": {}"
+#, c++-format
 msgid "Failed to save xml document for environment \"{}\" to file \"{}\": {}"
-msgstr "파일에 그룹 \"{}\"을 위해 xml 문서를 저장하는 데 실패함 \"{}\": {}"
+msgstr "환경 \"{}\"의 XML 문서를 파일 \"{}\"에 저장하지 못했습니다: {}"
 
 #: comps/group/group.cpp:354
 #, c++-format
@@ -910,10 +893,9 @@ msgid "Unknown unit '{}'"
 msgstr "알 수 없는 단위 '{}'"
 
 #: conf/config_main.cpp:292
-#, fuzzy, c++-format
-#| msgid "The throttle value {} is outside the allowed range {} ... {}"
+#, c++-format
 msgid "The throttle value {} is outside the allowed range {} ... {}"
-msgstr "쓰로틀 값 {}은 허용된 범위 {} 밖에 있습니다 {} ... {}"
+msgstr "속도 제한 값 {}가 허용 범위 {} ... {}를 벗어났습니다"
 
 #: conf/config_parser.cpp:54
 #, c++-format
@@ -1102,16 +1084,13 @@ msgid "Invalid module status: {}"
 msgstr "잘못된 모듈 상태: {}"
 
 #: plugin/plugins.cpp:68
-#, fuzzy, c++-format
-#| msgid ""
-#| "Unsupported plugin API combination. API version provided by plugin \"{}\" "
-#| "(\"{}\") is \"{}.{}\". API version in libdnf is \"{}.{}\"."
+#, c++-format
 msgid ""
 "Unsupported plugin API combination. API version provided by plugin \"{}\" "
 "(\"{}\") is \"{}.{}\". API version in libdnf is \"{}.{}\"."
 msgstr ""
-"미지원 플러그인 API 조합. 플러그인에 의해 제공되는 API 버전은 \"{}.{}\"입니"
-"다. libdnf에서 API 버전은 \"{}.{}\"입니다."
+"지원하지 않는 플러그인 API 조합입니다. 플러그인 \"{}\"(\"{}\")이 제공하는 "
+"API 버전은 \"{}.{}\"입니다. libdnf의 API 버전은 \"{}.{}\"입니다."
 
 #: plugin/plugins.cpp:93
 msgid "Failed to create a libdnf plugin instance"
@@ -1123,10 +1102,8 @@ msgid "Cannot find plugin library \"{}\""
 msgstr "플러그인 라이브러리 \"{}\"를 찾을 수 없습니다"
 
 #: plugin/plugins.cpp:181
-#, fuzzy
-#| msgid "Plugins::load_plugins(): config_dir_path cannot be empty"
 msgid "Plugins::load_plugins(): config_dirs cannot be empty"
-msgstr "Plugins::load_plugins(): config_dir_path는 비워 둘 수 없습니다"
+msgstr "Plugins::load_plugins(): config_dirs는 비워 둘 수 없습니다"
 
 #: plugin/plugins.cpp:194
 #, c++-format
@@ -1235,28 +1212,24 @@ msgid "Empty path to the repository cache directory."
 msgstr "저장소 캐쉬 디렉토리에 빈 경로."
 
 #: repo/repo_config_override.cpp:69
-#, fuzzy, c++-format
-#| msgid "Failed to download metadata ({}: \"{}\") for repository \"{}\": {}"
+#, c++-format
 msgid "Cannot set option \"{}\" for repository \"{}\": {}"
-msgstr "저장소를 위한 메타자료 ({}: \"{}\") 를 내려받는 데 실패함 \"{}\": {}"
+msgstr "옵션 \"{}\"를 저장소 \"{}\"에 설정할 수 없습니다: {}"
 
 #: repo/repo_config_override.cpp:84
-#, fuzzy, c++-format
-#| msgid "Cannot set root directory \"{}\""
+#, c++-format
 msgid "Cannot create directory \"{}\": {}"
-msgstr "root 디렉토리 \"{}\"로 설정 할 수 없습니다"
+msgstr "디렉터리 \"{}\"를 생성할 수 없습니다: {}"
 
 #: repo/repo_config_override.cpp:136 repo/repo_config_override.cpp:143
-#, fuzzy, c++-format
-#| msgid "Cannot set the locale \"{}\": {}"
+#, c++-format
 msgid "Cannot write to file \"{}\": {}"
-msgstr "지역 설정을 할 수 없습니다 \"{}\": {}"
+msgstr "파일 \"{}\"에 쓸 수 없습니다: {}"
 
 #: repo/repo_config_override.cpp:157
-#, fuzzy, c++-format
-#| msgid "Cannot set the locale \"{}\": {}"
+#, c++-format
 msgid "Cannot set permissions on file \"{}\": {}"
-msgstr "지역 설정을 할 수 없습니다 \"{}\": {}"
+msgstr "파일 \"{}\"의 권한을 설정할 수 없습니다: {}"
 
 #: repo/repo_downloader.cpp:224
 #, c++-format
@@ -1542,16 +1515,14 @@ msgid "Writing debugsolver data into \"{}\" failed: {}"
 msgstr "debugsolver 자료를 \"{}\"로 작성하는 데 실패함: {}"
 
 #: solv/vendor_change_manager.cpp:339
-#, fuzzy, c++-format
-#| msgid "Missing section header on line {}"
+#, c++-format
 msgid "Missing \"version\" key in \"{}\""
-msgstr "행 {}에서 누락된 부분 헤더"
+msgstr "\"{}\"에 \"version\" 키가 누락되었습니다"
 
 #: solv/vendor_change_manager.cpp:351
-#, fuzzy, c++-format
-#| msgid "Unsupported TOML version \"{}\", maximum supported version is \"{}\""
+#, c++-format
 msgid "Unsupported version \"{}\" in \"{}\". Supported versions: {}"
-msgstr "미지원 TOML 버전 \"{}\", 최대 지원된 버전은 \"{}\"입니다"
+msgstr "지원하지 않는 버전 \"{}\": \"{}\". 지원하는 버전: {}"
 
 #: solv/vendor_change_manager.cpp:362
 #, c++-format
@@ -1619,10 +1590,9 @@ msgid "Bad value type in \"{}\" on line {}: {}"
 msgstr "\"{}\"의 {}번째 줄에 잘못된 값 유형이 있습니다: {}"
 
 #: solv/vendor_change_manager.cpp:541
-#, fuzzy, c++-format
-#| msgid "An error occurred importing key \"{}\": {}"
+#, c++-format
 msgid "An error occurred when parsing \"{}\": {}"
-msgstr "키를 가져오는 중에 발생하였습니다 \"{}\": {}"
+msgstr "\"{}\"의 구문을 분석하는 중 오류가 발생했습니다: {}"
 
 #: solv/vendor_change_manager.cpp:555
 #, c++-format
@@ -1734,10 +1704,9 @@ msgid "Expected package filter after '@'"
 msgstr "'@' 뒤에 패키지 필터가 있어야 합니다"
 
 #: solv/vendor_change_manager.cpp:944
-#, fuzzy, c++-format
-#| msgid "Invalid repository id \"{}\": unexpected character '{}'"
+#, c++-format
 msgid "Unexpected character '{}'"
-msgstr "잘못된 저장소 id \"{}\": 예상치 못한 문자 '{}'"
+msgstr "예기치 않은 문자 '{}'"
 
 #: solv/vendor_change_manager.cpp:1020
 msgid "Expected quoted string starting with '\"'"
@@ -1782,20 +1751,18 @@ msgid "Invalid regex vendor pattern '{}': {}"
 msgstr "잘못된 공급업체 정규식 패턴 '{}': {}"
 
 #: solv/vendor_change_manager.cpp:1231
-#, fuzzy, c++-format
-#| msgid "Unknown time unit '{}'"
+#, c++-format
 msgid "Unknown filter field name '{}'"
-msgstr "알 수 없는 시간 단위 '{}'"
+msgstr "알 수 없는 필터 필드 이름 '{}'"
 
 #: solv/vendor_change_manager.cpp:1241
 msgid "Expected filter field name"
 msgstr "필터 필드 이름이 있어야 합니다"
 
 #: solv/vendor_change_manager.cpp:1264
-#, fuzzy, c++-format
-#| msgid "Invalid boolean value \"{}\""
+#, c++-format
 msgid "Invalid epoch value \"{}\""
-msgstr "잘못된 부울 값 \"{}\""
+msgstr "잘못된 epoch 값 \"{}\""
 
 #: solv/vendor_change_manager.cpp:1268
 msgid "Filter 'cmdline_repo' only supports the '=' (EXACT) comparator"
@@ -1825,10 +1792,9 @@ msgid "Filter '{}' only supports string comparators: =, ^, $, *, =*, =~"
 msgstr "필터 '{}'는 문자열 비교 연산자만 지원합니다: =, ^, $, *, =*, =~"
 
 #: solv/vendor_change_manager.cpp:1299
-#, fuzzy, c++-format
-#| msgid "Invalid package type: {}"
+#, c++-format
 msgid "Invalid regex '{}': {}"
-msgstr "잘못된 꾸러미 유형: {}"
+msgstr "잘못된 정규식 '{}': {}"
 
 #: solv/vendor_change_manager.cpp:1310
 msgid "Package filters do not support 'eq' direction. Use 'in' or 'out'"
@@ -1894,9 +1860,8 @@ msgid "Started"
 msgstr "시작됨"
 
 #: transaction/transaction.cpp:89
-#, fuzzy
 msgid "Ok"
-msgstr "Ok"
+msgstr "정상"
 
 #: transaction/transaction.cpp:91
 msgid "Error"
@@ -2160,16 +2125,13 @@ msgid "Error checking bootc status: Failed to parse JSON output"
 msgstr "bootc 상태 확인 오류: JSON 출력을 구문 분석하지 못했습니다"
 
 #: utils/bootc.cpp:73
-#, fuzzy, c++-format
-#| msgid "Failed to update from string: {}"
+#, c++-format
 msgid "Failed to query status of bootc system: {}"
-msgstr "문자열에서 최신화 하는 데 실패함: {}"
+msgstr "bootc 시스템의 상태를 조회하지 못했습니다: {}"
 
 #: utils/bootc.cpp:90
-#, fuzzy
-#| msgid "Failed to download files"
 msgid "Failed to stat /usr filesystem"
-msgstr "파일을 내려받는 데 실패함"
+msgstr "/usr 파일 시스템의 상태 정보를 조회하지 못했습니다"
 
 #: utils/bootc.cpp:125
 #, c++-format
@@ -2186,16 +2148,13 @@ msgstr ""
 "습니다"
 
 #: utils/bootc.cpp:136
-#, fuzzy
-#| msgid "Failed to execute uname()"
 msgid "Failed to unshare mount namespace"
-msgstr "uname()을 실행하는 데 실패함"
+msgstr "마운트 네임스페이스를 분리하지 못했습니다"
 
 #: utils/bootc.cpp:143
-#, fuzzy, c++-format
-#| msgid "Failed to resolve module metadata: {}"
+#, c++-format
 msgid "Failed to remount /usr as read-write: {}"
-msgstr "모듈 메타자료를 확인 하는 데 실패함: {}"
+msgstr "/usr를 읽기/쓰기 모드로 다시 마운트하지 못했습니다: {}"
 
 #: utils/fs/file.cpp:87
 msgid "cannot open file"
@@ -2315,40 +2274,34 @@ msgid "Failed to open lock file \"{}\""
 msgstr "잠금 파일을 열 수 없습니다 \"{}\""
 
 #: utils/locker.cpp:127 utils/locker.cpp:164
-#, fuzzy, c++-format
-#| msgid "The package is not signed."
+#, c++-format
 msgid "The lock file \"{}\" is not opened"
-msgstr "꾸러미가 서명되지 않았습니다."
+msgstr "잠금 파일 \"{}\"가 열려 있지 않습니다"
 
 #: utils/locker.cpp:132
-#, fuzzy, c++-format
-#| msgid "Failed to close lock file \"{}\""
+#, c++-format
 msgid "Failed to truncate lock file \"{}\""
-msgstr "잠금 파일 \"{}\"을 닫는 데 실패함"
+msgstr "잠금 파일 \"{}\"의 크기를 줄이지 못했습니다"
 
 #: utils/locker.cpp:135 utils/locker.cpp:172
-#, fuzzy, c++-format
-#| msgid "Failed to close lock file \"{}\""
+#, c++-format
 msgid "Failed to seek lock file \"{}\""
-msgstr "잠금 파일 \"{}\"을 닫는 데 실패함"
+msgstr "잠금 파일 \"{}\"의 읽기/쓰기 위치를 이동하지 못했습니다"
 
 #: utils/locker.cpp:143
-#, fuzzy, c++-format
-#| msgid "Failed to delete lock file \"{}\""
+#, c++-format
 msgid "Failed to write to lock file \"{}\""
-msgstr "잠금 파일 \"{}\"을 삭제하는 데 실패함"
+msgstr "잠금 파일 \"{}\"에 쓰지 못했습니다"
 
 #: utils/locker.cpp:150
-#, fuzzy, c++-format
-#| msgid "Failed to open lock file \"{}\""
+#, c++-format
 msgid "Failed to sync lock file \"{}\""
-msgstr "잠금 파일을 열 수 없습니다 \"{}\""
+msgstr "잠금 파일 \"{}\"을 동기화하지 못했습니다"
 
 #: utils/locker.cpp:178
-#, fuzzy, c++-format
-#| msgid "Failed to open lock file \"{}\""
+#, c++-format
 msgid "Failed to read from lock file \"{}\""
-msgstr "잠금 파일을 열 수 없습니다 \"{}\""
+msgstr "잠금 파일 \"{}\"에서 읽지 못했습니다"
 
 #: utils/locker.cpp:192
 #, c++-format
@@ -2445,10 +2398,8 @@ msgid "Failed to restore database \"{}\""
 msgstr "데이타베이스 \"{}\"를 복구하는 데 실패함"
 
 #: utils/subprocess.cpp:29
-#, fuzzy
-#| msgid "cannot create temporary file"
 msgid "cannot create pipe"
-msgstr "임시 파일을 생성 할 수 없습니다"
+msgstr "파이프를 생성할 수 없습니다"
 
 #: utils/subprocess.cpp:98
 msgid "cannot fork"
@@ -2463,22 +2414,18 @@ msgid "cannot bind child stdout"
 msgstr "자식 프로세스의 표준 출력을 연결할 수 없습니다"
 
 #: utils/subprocess.cpp:177
-#, fuzzy
-#| msgid "cannot open file"
 msgid "cannot bind child stderr"
-msgstr "파일을 열 수 없음"
+msgstr "자식 프로세스의 표준 오류 출력을 연결할 수 없습니다"
 
 #: utils/subprocess.cpp:180
-#, fuzzy, c++-format
-#| msgid "Failed to execute uname()"
+#, c++-format
 msgid "failed to execute command: {}"
-msgstr "uname()을 실행하는 데 실패함"
+msgstr "명령을 실행하지 못했습니다: {}"
 
 #: utils/subprocess.cpp:185
-#, fuzzy, c++-format
-#| msgid "Error during transaction replay JSON parsing : {}"
+#, c++-format
 msgid "error during preparation of child process: {}"
-msgstr "연결이 재생되는 동안 JSON 구문 분석 중 오류: {}"
+msgstr "자식 프로세스 준비 중 오류 발생: {}"
 
 #: utils/subprocess.cpp:211
 msgid "poll failed during subprocess I/O"
