@@ -10,9 +10,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-12 08:34+0000\n"
-"PO-Revision-Date: 2026-09-22 08:18+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2026-10-13 09:44+0000\n"
+"Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/sv/>\n"
 "Language: sv\n"
@@ -20,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.9.1\n"
+"X-Generator: Weblate 2026.10.1\n"
 
 #: cmdline_aliases.cpp:84 context.cpp:221 main.cpp:1449
 msgid ", "
@@ -1303,8 +1302,8 @@ msgstr "Paketet \"{}\" är redan exkluderat."
 #, c++-format
 msgid "{} day, {}:{:02}:{:02}"
 msgid_plural "{} days, {}:{:02}:{:02}"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{} dag, {}:{:02}:{:02}"
+msgstr[1] "{} dagar, {}:{:02}:{:02}"
 
 #: context.cpp:96
 #, c++-format
@@ -1447,7 +1446,7 @@ msgstr "Uppdaterar och laddar förråd:"
 #: context.cpp:370
 #, c++-format
 msgid "Last metadata expiration check: {} ago on {}."
-msgstr ""
+msgstr "Senaste kontroll av utgång av metadata: {} sedan den {}."
 
 #: context.cpp:377
 msgid "Repositories loaded."
