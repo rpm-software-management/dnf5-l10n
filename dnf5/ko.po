@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-08 07:46+0000\n"
-"PO-Revision-Date: 2026-10-12 09:18+0000\n"
+"PO-Revision-Date: 2026-10-12 09:45+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ko/>\n"
@@ -1165,7 +1165,7 @@ msgstr "새 릴리스로 업그레이드할 수 있도록 시스템을 준비합
 
 #: commands/system-upgrade/system-upgrade.cpp:72
 msgid "Download everything needed to upgrade to a new release"
-msgstr "새 릴리스로 업그레이드하는 데 필요한 모든 항목을 다운로드합니다"
+msgstr "신규 출시로 향상하는 데 데 필요한 모든 것을 내려받습니다"
 
 #: commands/system-upgrade/system-upgrade.cpp:80
 msgid ""
@@ -1466,9 +1466,9 @@ msgid ""
 "reboot and run the transaction. To cancel the transaction and delete the "
 "downloaded files, use `dnf5 offline clean`."
 msgstr ""
-"오프라인으로 수행할 트랜잭션이 저장되었습니다. 재부팅하여 트랜잭션을 실행하려"
-"면 `dnf5 offline reboot`를 실행하세요. 트랜잭션을 취소하고 다운로드한 파일을 "
-"삭제하려면 `dnf5 offline clean`을 실행하세요."
+"연결은 오프라인에서 수행되도록 저장됩니다. `dnf5 offline reboot`를 실행하여 "
+"재시작하고 연결을 실행합니다. 연결을 취소하고 내려받은 파일을 삭제하려면, "
+"`dnf5 offline clean`을 사용하세요."
 
 #: context.cpp:564
 msgid "Running transaction"
@@ -1909,8 +1909,8 @@ msgstr ""
 msgid ""
 "Total size of inbound packages is {:.0f} {:s}. Need to download {:.0f} {:s}."
 msgstr ""
-"설치할 패키지의 전체 크기는 {:.0f} {:s}입니다. {:.0f} {:s}를 다운로드해야 합"
-"니다."
+"들어온 꾸러미의 크기 합계는 {:.0f} {:s}입니다. {:.0f} {:s} 내려받기가 "
+"필요합니다."
 
 #: main.cpp:927
 #, c++-format
@@ -2128,15 +2128,15 @@ msgstr "이 작업은 트랜잭션을 {}에 저장하기만 합니다"
 
 #: main.cpp:1688
 msgid "The operation will only download packages for the transaction."
-msgstr "이 작업은 트랜잭션에 필요한 패키지를 다운로드하기만 합니다."
+msgstr "동작은 연결을 위해 꾸러미만 내려받을 수 있습니다."
 
 #: main.cpp:1693
 msgid ""
 "Test mode enabled: Only package downloads, OpenPGP key installations and "
 "transaction checks will be performed."
 msgstr ""
-"테스트 모드 활성화: 패키지 다운로드, OpenPGP 키 설치 및 트랜잭션 검사만 수행"
-"합니다."
+"시험 방식 활성화됨: 꾸러미 내려받기, OpenPGP 키 설치 및 연결 점검만 "
+"수행됩니다."
 
 #: main.cpp:1702
 msgid "Warning: A pending offline transaction will be invalidated."
