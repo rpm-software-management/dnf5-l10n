@@ -14,13 +14,14 @@
 # 耗子 <haozi@loli.email>, 2026.
 # Luke Na <narukeu@outlook.com>, 2026.
 # Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>, 2026.
+# Cold Mint <cold_mint@qq.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-12 08:34+0000\n"
-"PO-Revision-Date: 2026-06-20 09:10+0000\n"
-"Last-Translator: Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>\n"
+"PO-Revision-Date: 2026-10-13 09:45+0000\n"
+"Last-Translator: Cold Mint <cold_mint@qq.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/dnf5/dnf5/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -28,7 +29,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.6.1\n"
+"X-Generator: Weblate 2026.10.1\n"
 
 #: cmdline_aliases.cpp:84 context.cpp:221 main.cpp:1449
 msgid ", "
@@ -380,6 +381,8 @@ msgid ""
 "either mark it as user-installed or change protected_packages configuration "
 "option."
 msgstr ""
+"受保护的多余软件包：{0}（及其依赖项）无法卸载，可将其标记为用户安装，或修改 "
+"protected_packages 配置项。"
 
 #: commands/check-upgrade/check-upgrade.cpp:47
 msgid "Check for available package upgrades"
@@ -531,10 +534,8 @@ msgid "Show only installed environments."
 msgstr "仅显示已安装的环境。"
 
 #: commands/environment/arguments.hpp:47
-#, fuzzy
-#| msgid "Pattern matching environment IDs."
 msgid "Pattern matching environment identifiers."
-msgstr "模式匹配环境ID。"
+msgstr "正在对环境标识符进行模式匹配。"
 
 #: commands/environment/environment.cpp:38
 msgid "Manage comps environments"
@@ -543,19 +544,17 @@ msgstr "计算机环境管理"
 #: commands/environment/environment_info.cpp:101
 #: commands/environment/environment_list.cpp:99
 msgid "No matches found: no environments are installed."
-msgstr ""
+msgstr "未找到匹配项：没有已安装的环境。"
 
 #: commands/environment/environment_info.cpp:103
 #: commands/environment/environment_list.cpp:101
 msgid "No matches found: no environments are available."
-msgstr ""
+msgstr "未找到匹配项：没有可用的环境。"
 
 #: commands/environment/environment_info.cpp:105
 #: commands/environment/environment_list.cpp:103
-#, fuzzy
-#| msgid "No matches found for \"{}\"."
 msgid "No matches found: no environments exist."
-msgstr "未找到与 \"{}\" 匹配的结果。"
+msgstr "未找到匹配项：不存在任何环境。"
 
 #: commands/group/arguments.hpp:34
 msgid "Show only available groups."
@@ -576,46 +575,32 @@ msgid ""
 msgstr "仅显示包含具有指定名称的软件包组。列表选项，支持通配符。"
 
 #: commands/group/arguments.hpp:67
-#, fuzzy
-#| msgid "Pattern matching group IDS."
 msgid "Pattern matching group identifiers."
-msgstr "模式匹配软件包组ID。"
+msgstr "正在对组标识符进行模式匹配。"
 
 #: commands/group/arguments.hpp:77
-#, fuzzy
-#| msgid "Pattern matching environment IDs."
 msgid "Pattern matching group or environment identifiers."
-msgstr "模式匹配环境ID。"
+msgstr "正在对组标识符或环境标识符进行模式匹配。"
 
 #: commands/group/arguments.hpp:86
-#, fuzzy
-#| msgid "Include optional packages from group."
 msgid "Include optional packages from groups."
 msgstr "包含软件包组中的可选软件包。"
 
 #: commands/group/arguments.hpp:97
-#, fuzzy
-#| msgid "Operate on groups only, no packages are changed."
 msgid "Operate on environments and groups only, no packages are changed."
-msgstr "仅对软件包组进行操作，不更改任何软件包。"
+msgstr "仅对环境和软件包组执行操作，不会修改任何软件包。"
 
 #: commands/group/group_list.cpp:114
-#, fuzzy
-#| msgid "No matches found for \"{}\"."
 msgid "No matches found: no groups are installed."
-msgstr "未找到与 \"{}\" 匹配的结果。"
+msgstr "未找到匹配项：没有已安装的软件包组。"
 
 #: commands/group/group_list.cpp:116
-#, fuzzy
-#| msgid "No matches found for \"{}\"."
 msgid "No matches found: no groups are available."
-msgstr "未找到与 \"{}\" 匹配的结果。"
+msgstr "未找到匹配项：没有可用的软件包组。"
 
 #: commands/group/group_list.cpp:118
-#, fuzzy
-#| msgid "No matches found for \"{}\"."
 msgid "No matches found: no groups exist."
-msgstr "未找到与 \"{}\" 匹配的结果。"
+msgstr "未找到匹配项：不存在任何软件包组。"
 
 #: commands/group/group_list.cpp:144
 #, c++-format
@@ -2191,10 +2176,8 @@ msgid "VENDOR,..."
 msgstr "CVE_ID,..."
 
 #: shared_options.cpp:248
-#, fuzzy
-#| msgid "\"--from_repo\" already defined with diferent value"
 msgid "\"--from_vendor\" already defined with different value"
-msgstr "\"--from_repo\" 已经被使用不同的值定义"
+msgstr "\"--from_vendor\" 已经被使用不同的值定义"
 
 #~ msgid "No matching packages to list"
 #~ msgstr "没有匹配的软件包可以列出"
