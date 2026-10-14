@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-13 07:51+0000\n"
+"POT-Creation-Date: 2026-10-13 19:04+0000\n"
 "PO-Revision-Date: 2026-09-08 05:18+0000\n"
 "Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
 "Language-Team: Lao <https://translate.fedoraproject.org/projects/dnf5/dnf5-"
@@ -105,7 +105,7 @@ msgstr ""
 msgid "A repository with id \"{}\" already configured in file: {}"
 msgstr "ຄັງເກັບທີ່ມີ id \"{}\" ຖືກຕັ້ງຄ່າໄວ້ແລ້ວໃນໄຟລ໌: {}"
 
-#: addrepo.cpp:486 shared.hpp:150
+#: addrepo.cpp:486 shared.hpp:151
 #, c++-format
 msgid "Cannot read repositories from directory \"{}\": {}"
 msgstr "ບໍ່ສາມາດອ່ານຄັງເກັບຈາກໄດເຣັກທໍຣີ \"{}\": {}"
@@ -174,26 +174,26 @@ msgstr "ບໍ່ພົບເສັ້ນທາງໄປຫາໄດເຣັກ
 msgid "Cannot write variable to file \"{}\": {}"
 msgstr "ບໍ່ສາມາດຂຽນຕົວປ່ຽນລົງໃນໄຟລ໌ \"{}\": {}"
 
-#: shared.hpp:59
+#: shared.hpp:60
 #, c++-format
 msgid ""
 "The path \"{}\" exists, but it is not a directory or a symlink to a "
 "directory."
 msgstr "ເສັ້ນທາງ \"{}\" ມີຢູ່, ແຕ່ມັນບໍ່ແມ່ນໄດເຣັກທໍຣີ ຫຼື ຊິມລິງ (symlink) ທີ່ຊີ້ໄປຫາໄດເຣັກທໍຣີ."
 
-#: shared.hpp:64
+#: shared.hpp:65
 #, c++-format
 msgid "The path \"{}\" exists, but it is a symlink to a non-existent object."
 msgstr "ເສັ້ນທາງ \"{}\" ມີຢູ່, ແຕ່ມັນແມ່ນຊິມລິງ (symlink) ທີ່ຊີ້ໄປຫາສິ່ງທີ່ບໍ່ມີຢູ່."
 
-#: shared.hpp:70
+#: shared.hpp:71
 #, c++-format
 msgid ""
 "Directory \"{}\" does not exist. Add \"--create-missing-dir\" to create "
 "missing directories."
 msgstr "ໄດເຣັກທໍຣີ \"{}\" ບໍ່ມີຢູ່. ໃຫ້ເພີ່ມ \"--create-missing-dir\" ເພື່ອສ້າງໄດເຣັກທໍຣີທີ່ຍັງບໍ່ມີ."
 
-#: shared.hpp:81
+#: shared.hpp:82
 #, c++-format
 msgid "Variable name can contain only ASCII letters, numbers and '_': {}"
 msgstr "ຊື່ຕົວປ່ຽນສາມາດມີໄດ້ພຽງແຕ່ຕົວອັກສອນ ASCII, ຕົວເລກ ແລະ '_': {}"

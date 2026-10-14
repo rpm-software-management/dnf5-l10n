@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-13 07:51+0000\n"
+"POT-Creation-Date: 2026-10-13 19:04+0000\n"
 "PO-Revision-Date: 2026-02-13 11:58+0000\n"
 "Last-Translator: Mario Blättermann <mario.blaettermann@gmail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf5/"
@@ -112,7 +112,7 @@ msgstr ""
 msgid "A repository with id \"{}\" already configured in file: {}"
 msgstr "Eine Paketquelle mit ID „{}“ ist bereits konfiguriert in Datei: {}"
 
-#: addrepo.cpp:486 shared.hpp:150
+#: addrepo.cpp:486 shared.hpp:151
 #, c++-format
 msgid "Cannot read repositories from directory \"{}\": {}"
 msgstr "Paketquellen können nicht aus dem Verzeichnis „{}“ gelesen werden: {}"
@@ -185,7 +185,7 @@ msgstr "Fehlender Pfad zum Variablenverzeichnis"
 msgid "Cannot write variable to file \"{}\": {}"
 msgstr "Variable kann nicht in Datei „{}“ geschrieben werden: {}"
 
-#: shared.hpp:59
+#: shared.hpp:60
 #, c++-format
 msgid ""
 "The path \"{}\" exists, but it is not a directory or a symlink to a "
@@ -194,14 +194,14 @@ msgstr ""
 "Der Pfad „{}“ existiert, ist aber kein Verzeichnis oder symbolischer Link zu "
 "einem Verzeichnis."
 
-#: shared.hpp:64
+#: shared.hpp:65
 #, c++-format
 msgid "The path \"{}\" exists, but it is a symlink to a non-existent object."
 msgstr ""
 "Der Pfad „{}“ existiert, ist aber ein symbolischer Link zu einem nicht "
 "existierenden Objekt."
 
-#: shared.hpp:70
+#: shared.hpp:71
 #, c++-format
 msgid ""
 "Directory \"{}\" does not exist. Add \"--create-missing-dir\" to create "
@@ -210,7 +210,7 @@ msgstr ""
 "Verzeichnis „{}“ existiert nicht. Fügen Sie „--create-missing-dir“ hinzu, um "
 "fehlende Verzeichnisse anzulegen."
 
-#: shared.hpp:81
+#: shared.hpp:82
 #, c++-format
 msgid "Variable name can contain only ASCII letters, numbers and '_': {}"
 msgstr "Variablenname darf nur ASCII-Zeichen, Zahlen und '_' enthalten: {}"

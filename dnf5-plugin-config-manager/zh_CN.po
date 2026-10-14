@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-13 07:51+0000\n"
+"POT-Creation-Date: 2026-10-13 19:04+0000\n"
 "PO-Revision-Date: 2026-07-03 16:17+0000\n"
 "Last-Translator: Jesse Guo <jesseguotech@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
@@ -108,7 +108,7 @@ msgstr ""
 msgid "A repository with id \"{}\" already configured in file: {}"
 msgstr "ID为 \"{}\" 的软件仓库已配置在此文件中：{}"
 
-#: addrepo.cpp:486 shared.hpp:150
+#: addrepo.cpp:486 shared.hpp:151
 #, c++-format
 msgid "Cannot read repositories from directory \"{}\": {}"
 msgstr "无法在 \"{}\" 目录中读取软件仓库：{}"
@@ -178,26 +178,26 @@ msgstr "缺少vars目录的路径"
 msgid "Cannot write variable to file \"{}\": {}"
 msgstr "无法将变量写入文件 \"{}\"：{}"
 
-#: shared.hpp:59
+#: shared.hpp:60
 #, c++-format
 msgid ""
 "The path \"{}\" exists, but it is not a directory or a symlink to a "
 "directory."
 msgstr "路径 \"{}\" 存在，但不是目录或指向目录的符号链接。"
 
-#: shared.hpp:64
+#: shared.hpp:65
 #, c++-format
 msgid "The path \"{}\" exists, but it is a symlink to a non-existent object."
 msgstr "路径 \"{}\" 存在，但是一个指向不存在对象的符号链接。"
 
-#: shared.hpp:70
+#: shared.hpp:71
 #, c++-format
 msgid ""
 "Directory \"{}\" does not exist. Add \"--create-missing-dir\" to create "
 "missing directories."
 msgstr "目录 \"{}\" 不存在。添加 \"--create-missing-dir\" 来创建缺失的目录。"
 
-#: shared.hpp:81
+#: shared.hpp:82
 #, c++-format
 msgid "Variable name can contain only ASCII letters, numbers and '_': {}"
 msgstr "变量名只能包含ASCII字母、数字和\"_\"：{}"
