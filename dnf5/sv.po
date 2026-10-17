@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-16 18:17+0000\n"
-"PO-Revision-Date: 2026-10-13 09:44+0000\n"
+"PO-Revision-Date: 2026-10-18 09:18+0000\n"
 "Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/sv/>\n"
@@ -1743,69 +1743,51 @@ msgid "do not allow automatic package replacements from different vendors"
 msgstr "tillåt inte automatiska paketersättningar från olika leverantörer"
 
 #: main.cpp:376
-#, fuzzy
-#| msgid ""
-#| "Enable additional repositories. List option. Supports globs, can be "
-#| "specified multiple times."
 msgid ""
 "Allow switching packages from any vendor to packages from VENDOR. Supports "
 "globs, can be specified multiple times."
 msgstr ""
-"Aktivera ytterligare datakataloger. Listalternativ. Stödjer globbningar, kan "
-"anges flera gånger."
+"Tillåt byte av paket från valfri leverantör till paket från LEVERANTÖR. "
+"Stöder jokertecken (globs) och kan anges flera gånger."
 
 #: main.cpp:395
-#, fuzzy
-#| msgid ""
-#| "Disable repositories. List option. Supports globs, can be specified "
-#| "multiple times."
 msgid ""
 "Allow replacing packages from VENDOR to packages from any vendor. Supports "
 "globs, can be specified multiple times."
 msgstr ""
-"Avaktivera förråd. Listalternativ. Stödjer globbningar, kan anges flera "
-"gånger."
+"Tillåt ersättning av paket från LEVERANTÖR till paket från valfri "
+"leverantör. Stöder jokertecken och kan anges flera gånger."
 
 #: main.cpp:414
-#, fuzzy
-#| msgid ""
-#| "Enable libdnf5 plugins by name. List option. Supports globs, can be "
-#| "specified multiple times."
 msgid ""
 "Allow vendor changes for packages matching PKG_NAME (bidirectional). List "
 "option. Supports globs, can be specified multiple times."
 msgstr ""
-"Akvtivera libdnf5-insticksmoduler efter namn. Listalternativ. Stödjer "
-"globbningar, kan anges flera gånger."
+"Tillåt leverantörsändringar för paket som matchar PKG_NAME (dubbelriktad)"
+".Listalternativ. Stöder jokertecken och kan anges flera gånger."
 
 #: main.cpp:443
-#, fuzzy
-#| msgid ""
-#| "Disable repositories. List option. Supports globs, can be specified "
-#| "multiple times."
 msgid ""
 "Add a vendor change policy for this run. Can be specified multiple times."
 msgstr ""
-"Avaktivera förråd. Listalternativ. Stödjer globbningar, kan anges flera "
-"gånger."
+"Lägg till en leverantörsändringspolicy för den här körningen. Kan anges "
+"flera gånger."
 
 #: main.cpp:458
 #, c++-format
 msgid ""
 "Remove all vendor change policies. Can be combined with {} to replace them."
 msgstr ""
+"Ta bort alla policyer för leverantörsändringar. Kan kombineras med {} för "
+"att ersätta dem."
 
 #: main.cpp:477
-#, fuzzy
-#| msgid ""
-#| "Disable repositories. List option. Supports globs, can be specified "
-#| "multiple times."
 msgid ""
 "Disable vendor change policies whose source matches the specified pattern. "
 "Supports globs, can be specified multiple times."
 msgstr ""
-"Avaktivera förråd. Listalternativ. Stödjer globbningar, kan anges flera "
-"gånger."
+"Inaktivera leverantörsändringspolicyer vars källa matchar det angivna "
+"mönstret. Stöder jokertecken (globs) och kan anges flera gånger."
 
 #: main.cpp:494
 msgid ""
@@ -2101,27 +2083,24 @@ msgid "{} to skip uninstallable packages"
 msgstr "{} för att hoppa över oinstallerbara paket"
 
 #: main.cpp:1362
-#, fuzzy, c++-format
-#| msgid "{} to allow changing package vendors"
+#, c++-format
 msgid "{} to allow switching to packages from VENDOR"
-msgstr "{} att tillåta byte av paketleverantörer"
+msgstr "{} för att tillåta byte till paket från LEVERANTÖR"
 
 #: main.cpp:1364
-#, fuzzy, c++-format
-#| msgid "{} to allow changing package vendors"
+#, c++-format
 msgid "{} to allow replacing packages from VENDOR"
-msgstr "{} att tillåta byte av paketleverantörer"
+msgstr "{} för att tillåta ersättning av paket från LEVERANTÖR"
 
 #: main.cpp:1366
 #, c++-format
 msgid "{} to add specific vendor change rules"
-msgstr ""
+msgstr "{} för att lägga till specifika regler för leverantörsändring"
 
 #: main.cpp:1367
-#, fuzzy, c++-format
-#| msgid "{} to allow changing package vendors"
+#, c++-format
 msgid "{} to allow all vendor changes"
-msgstr "{} att tillåta byte av paketleverantörer"
+msgstr "{} för att tillåta alla leverantörsändringar"
 
 #: main.cpp:1371
 msgid "You can try to add to command line:"
