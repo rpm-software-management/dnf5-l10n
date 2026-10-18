@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-16 18:17+0000\n"
-"PO-Revision-Date: 2026-10-11 03:18+0000\n"
+"PO-Revision-Date: 2026-10-18 09:18+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ka/>\n"
@@ -1752,69 +1752,55 @@ msgid "do not allow automatic package replacements from different vendors"
 msgstr "პაკეტის განსხვავებული მომწოდებლებიდან ავტომატური ჩანაცვლების არდაშვება"
 
 #: main.cpp:376
-#, fuzzy
-#| msgid ""
-#| "Enable additional repositories. List option. Supports globs, can be "
-#| "specified multiple times."
 msgid ""
 "Allow switching packages from any vendor to packages from VENDOR. Supports "
 "globs, can be specified multiple times."
 msgstr ""
-"დამატებითი რეპოზიტორიების ჩართვა. სიის პარამეტრი. აქვს ვაილდკარდების "
-"მხარდაჭერა. შეიძლება მითითებული იყოს ერთზე მეტჯერაც."
+"პაკეტების გადართვის დაშვება ნებისმიერი მომწოდებლიდან VENDOR-ის მიერ "
+"მოწოდებულ პაკეტებზე. აქვს გლობების მხარდაჭერა და შეიძლება, მითითებული იყოს "
+"ერთზე მეტჯერაც."
 
 #: main.cpp:395
-#, fuzzy
-#| msgid ""
-#| "Disable repositories. List option. Supports globs, can be specified "
-#| "multiple times."
 msgid ""
 "Allow replacing packages from VENDOR to packages from any vendor. Supports "
 "globs, can be specified multiple times."
 msgstr ""
-"რეპოზიტორიების გამორთვა. სიის პარამეტრი. აქვს ვაილდკარდების მხარდაჭერა. "
-"შეიძლება მითითებული იყოს ერთზე მეტჯერაც."
+"VENDOR-ის მიერ მოწოდებული პაკეტების ნებისმიერი მომწოდებლის მიერ მოწოდებული "
+"პაკეტებით ჩანაცვლების დაშვება. აქვს გლობების მხარდაჭერა და შეიძლება, "
+"მითითებული იყოს ერთზე მეტჯერაც."
 
 #: main.cpp:414
-#, fuzzy
-#| msgid ""
-#| "Enable libdnf5 plugins by name. List option. Supports globs, can be "
-#| "specified multiple times."
 msgid ""
 "Allow vendor changes for packages matching PKG_NAME (bidirectional). List "
 "option. Supports globs, can be specified multiple times."
 msgstr ""
-"'libdnf5'-ის დამატების ჩართვა მისი სახელით. სიის პარამეტრი. აქვს "
-"ვაილდკარდების მხარდაჭერა. შეიძლება მითითებული იყოს ერთზე მეტჯერაც."
+"მომწოდებლის ცვლილებების დაშვება პაკეტებისთვის, რომლებიც ემთხვევა PKG_NAME-ს "
+"(ორმხრივი). სიის პარამეტრი. აქვს გლობების მხარდაჭერა და მისი მითითება ერთზე "
+"მეტჯერაც შეგიძლიათ."
 
 #: main.cpp:443
-#, fuzzy
-#| msgid ""
-#| "Disable repositories. List option. Supports globs, can be specified "
-#| "multiple times."
 msgid ""
 "Add a vendor change policy for this run. Can be specified multiple times."
 msgstr ""
-"რეპოზიტორიების გამორთვა. სიის პარამეტრი. აქვს ვაილდკარდების მხარდაჭერა. "
-"შეიძლება მითითებული იყოს ერთზე მეტჯერაც."
+"მომწოდებლის ცვლილების პოლიტიკის დამატება ამ გაშვებისთვის. შეიძლება, "
+"მითითებული იყოს ერთზე მეტჯერაც."
 
 #: main.cpp:458
 #, c++-format
 msgid ""
 "Remove all vendor change policies. Can be combined with {} to replace them."
 msgstr ""
+"ყველა მომწოდებლის ცვლილების პოლიტიკის წაშლა. შეგიძლიათ, გამოიყენოთ {}-სთან "
+"ერთად მის ჩასანაცვლებლად."
 
 #: main.cpp:477
-#, fuzzy
-#| msgid ""
-#| "Disable repositories. List option. Supports globs, can be specified "
-#| "multiple times."
 msgid ""
 "Disable vendor change policies whose source matches the specified pattern. "
 "Supports globs, can be specified multiple times."
 msgstr ""
-"რეპოზიტორიების გამორთვა. სიის პარამეტრი. აქვს ვაილდკარდების მხარდაჭერა. "
-"შეიძლება მითითებული იყოს ერთზე მეტჯერაც."
+"მომწოდებლის ცვლილების პოლიტიკის გამორთვა მითითებული ნიმუშის შესაბამისი "
+"წყაროების მქონე პაკეტებისთვის. აქვს გლობების მხარდაჭერა და შეიძლება, "
+"მითითებული იყოს ერთზე მეტჯერაც."
 
 #: main.cpp:494
 msgid ""
@@ -2114,27 +2100,24 @@ msgid "{} to skip uninstallable packages"
 msgstr "{} ისეთი პაკეტების გამოსატოვებლად, რომლებიც არ იშლება"
 
 #: main.cpp:1362
-#, fuzzy, c++-format
-#| msgid "{} to allow changing package vendors"
+#, c++-format
 msgid "{} to allow switching to packages from VENDOR"
-msgstr "{} პაკეტის მომწოდებლების შეცვლის დასაშვებად"
+msgstr "{} VENDOR-ის მიერ მოწოდებულ პაკეტებზე გადართვის დასაშვებად"
 
 #: main.cpp:1364
-#, fuzzy, c++-format
-#| msgid "{} to allow changing package vendors"
+#, c++-format
 msgid "{} to allow replacing packages from VENDOR"
-msgstr "{} პაკეტის მომწოდებლების შეცვლის დასაშვებად"
+msgstr "{} VENDOR-ის მიერ მოწოდებულ პაკეტებზე გადართვის ასაკრძალად"
 
 #: main.cpp:1366
 #, c++-format
 msgid "{} to add specific vendor change rules"
-msgstr ""
+msgstr "{} სპეციფიკური მომწოდებლის ცვლილების წესების დასამატებლად"
 
 #: main.cpp:1367
-#, fuzzy, c++-format
-#| msgid "{} to allow changing package vendors"
+#, c++-format
 msgid "{} to allow all vendor changes"
-msgstr "{} პაკეტის მომწოდებლების შეცვლის დასაშვებად"
+msgstr "{} ყველა მომწოდებლის ცვლილების დასაშვებად"
 
 #: main.cpp:1371
 msgid "You can try to add to command line:"
