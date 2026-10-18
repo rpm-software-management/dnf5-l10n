@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-16 18:17+0000\n"
-"PO-Revision-Date: 2026-10-09 01:27+0000\n"
+"PO-Revision-Date: 2026-10-18 09:18+0000\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ro/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
-"X-Generator: Weblate 2026.10\n"
+"X-Generator: Weblate 2026.10.1\n"
 
 #: cmdline_aliases.cpp:84 context.cpp:222 main.cpp:1587
 msgid ", "
@@ -1778,68 +1778,53 @@ msgid "do not allow automatic package replacements from different vendors"
 msgstr "nu permite înlocuirea automată a pachetelor de la diferiți furnizori"
 
 #: main.cpp:376
-#, fuzzy
-#| msgid ""
-#| "Enable additional repositories. List option. Supports globs, can be "
-#| "specified multiple times."
 msgid ""
 "Allow switching packages from any vendor to packages from VENDOR. Supports "
 "globs, can be specified multiple times."
 msgstr ""
-"Activează depozite suplimentare. Opțiune listă. Acceptă modele globale (ce "
-"conțin caractere joker), poate fi specificată de mai multe ori."
+"Permite înlocuirea pachetelor de la orice furnizor cu pachete de la "
+"FURNIZOR. Acceptă modele globale (ce conțin caractere joker), poate fi "
+"specificată de mai multe ori."
 
 #: main.cpp:395
-#, fuzzy
-#| msgid ""
-#| "Disable repositories. List option. Supports globs, can be specified "
-#| "multiple times."
 msgid ""
 "Allow replacing packages from VENDOR to packages from any vendor. Supports "
 "globs, can be specified multiple times."
 msgstr ""
-"Dezactivează depozitele. Opțiune listă. Acceptă modele globale, poate fi "
-"specificată de mai multe ori."
+"Permite înlocuirea pachetelor de la FURNIZOR cu pachete de la orice "
+"furnizor.. Acceptă modele globale, poate fi specificată de mai multe ori."
 
 #: main.cpp:414
-#, fuzzy
-#| msgid ""
-#| "Enable libdnf5 plugins by name. List option. Supports globs, can be "
-#| "specified multiple times."
 msgid ""
 "Allow vendor changes for packages matching PKG_NAME (bidirectional). List "
 "option. Supports globs, can be specified multiple times."
 msgstr ""
-"Activează modulele libdnf5 după nume. Opțiune listă. Acceptă modele globale "
-"(ce conțin caractere joker), poate fi specificată de mai multe ori."
+"Permite modificările furnizorului pentru pachetele care corespund cu "
+"NUME_PACHET (bidirecțional). Opțiune listă. Acceptă modele globale (ce "
+"conțin caractere joker), poate fi specificată de mai multe ori."
 
 #: main.cpp:443
-#, fuzzy
-#| msgid ""
-#| "Disable repositories. List option. Supports globs, can be specified "
-#| "multiple times."
 msgid ""
 "Add a vendor change policy for this run. Can be specified multiple times."
 msgstr ""
-"Dezactivează depozitele. Opțiune listă. Acceptă modele globale, poate fi "
-"specificată de mai multe ori."
+"Adaugă o politică privind schimbarea furnizorului pentru această execuție. "
+"Opțiune listă. Poate fi specificată de mai multe ori."
 
 #: main.cpp:458
 #, c++-format
 msgid ""
 "Remove all vendor change policies. Can be combined with {} to replace them."
 msgstr ""
+"Elimină toate politicile de modificare ale furnizorilor. Poate fi combinată "
+"cu {} pentru a le înlocui."
 
 #: main.cpp:477
-#, fuzzy
-#| msgid ""
-#| "Disable repositories. List option. Supports globs, can be specified "
-#| "multiple times."
 msgid ""
 "Disable vendor change policies whose source matches the specified pattern. "
 "Supports globs, can be specified multiple times."
 msgstr ""
-"Dezactivează depozitele. Opțiune listă. Acceptă modele globale, poate fi "
+"Dezactivează politicile privind schimbarea furnizorilor a căror sursă "
+"corespunde modelului specificat. Acceptă modele globale, poate fi "
 "specificată de mai multe ori."
 
 #: main.cpp:494
@@ -2148,27 +2133,24 @@ msgid "{} to skip uninstallable packages"
 msgstr "{} pentru a omite pachetele ce pot fi dezinstalate"
 
 #: main.cpp:1362
-#, fuzzy, c++-format
-#| msgid "{} to allow changing package vendors"
+#, c++-format
 msgid "{} to allow switching to packages from VENDOR"
-msgstr "{} pentru a permite schimbarea furnizorilor de pachete"
+msgstr "{} pentru a permite trecerea la pachetele de la FURNIZOR"
 
 #: main.cpp:1364
-#, fuzzy, c++-format
-#| msgid "{} to allow changing package vendors"
+#, c++-format
 msgid "{} to allow replacing packages from VENDOR"
-msgstr "{} pentru a permite schimbarea furnizorilor de pachete"
+msgstr "{} pentru a permite înlocuirea pachetelor de la FURNIZOR"
 
 #: main.cpp:1366
 #, c++-format
 msgid "{} to add specific vendor change rules"
-msgstr ""
+msgstr "{} pentru a adăuga reguli specifice privind schimbarea furnizorilor"
 
 #: main.cpp:1367
-#, fuzzy, c++-format
-#| msgid "{} to allow changing package vendors"
+#, c++-format
 msgid "{} to allow all vendor changes"
-msgstr "{} pentru a permite schimbarea furnizorilor de pachete"
+msgstr "{} pentru a permite toate schimbările furnizorilor"
 
 #: main.cpp:1371
 msgid "You can try to add to command line:"
