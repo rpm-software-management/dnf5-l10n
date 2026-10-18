@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-16 18:17+0000\n"
-"PO-Revision-Date: 2026-10-09 03:29+0000\n"
+"PO-Revision-Date: 2026-10-18 09:18+0000\n"
 "Last-Translator: Paweł Marciniak <sunwire+fas@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/pl/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2026.10\n"
+"X-Generator: Weblate 2026.10.1\n"
 
 #: cmdline_aliases.cpp:84 context.cpp:222 main.cpp:1587
 msgid ", "
@@ -2144,10 +2144,9 @@ msgid "{} to add specific vendor change rules"
 msgstr ""
 
 #: main.cpp:1367
-#, fuzzy, c++-format
-#| msgid "{} to allow changing package vendors"
+#, c++-format
 msgid "{} to allow all vendor changes"
-msgstr "{} aby umożliwić zmianę dostawcy pakietów"
+msgstr "{} aby zezwolić na wszystkie zmiany dostawcy"
 
 #: main.cpp:1371
 msgid "You can try to add to command line:"
