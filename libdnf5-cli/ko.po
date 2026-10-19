@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-16 18:17+0000\n"
-"PO-Revision-Date: 2026-10-12 09:18+0000\n"
+"PO-Revision-Date: 2026-10-20 06:25+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5-cli/ko/>\n"
@@ -482,7 +482,7 @@ msgstr "(없음)"
 #, c++-format
 msgid "Skipping {0} package due to vendor change restriction: {1}."
 msgid_plural "Skipping {0} packages due to vendor change restriction: {1}."
-msgstr[0] "공급업체 변경 제한으로 {0} 패키지를 건너뜁니다: {1}."
+msgstr[0] "공급업체 변경 제한으로 {0} 꾸러미 건너뛰기: {1}."
 
 #: output/transaction_table.cpp:812
 msgid "Nothing to do."
@@ -535,7 +535,7 @@ msgstr "설명"
 
 #: output/transactioninfo.cpp:111
 msgid "Packages altered:"
-msgstr "변경된 패키지:"
+msgstr "변경된 꾸러미:"
 
 #: output/transactioninfo.cpp:112
 msgid "Groups altered:"
@@ -578,8 +578,7 @@ msgstr "누락된 명령"
 #, c++-format
 msgid ""
 "Invalid date passed: \"{}\". Dates in \"YYYY-MM-DD\" format are expected"
-msgstr ""
-"잘못된 날짜가 전달되었습니다: \"{}\". 날짜는 \"YYYY-MM-DD\" 형식이어야 합니다"
+msgstr "잘못된 날짜가 전달됨: \"{}\". 날짜는 \"YYYY-MM-DD\" 형식이 요구됩니다"
 
 #: session.cpp:270
 #, c++-format
