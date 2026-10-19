@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-16 18:17+0000\n"
-"PO-Revision-Date: 2026-10-13 09:45+0000\n"
+"PO-Revision-Date: 2026-10-20 06:25+0000\n"
 "Last-Translator: Ciro Mota "
 "<ciromota@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
@@ -1765,69 +1765,54 @@ msgstr ""
 "não permite substituições automáticas de pacotes de fornecedores diferentes"
 
 #: main.cpp:376
-#, fuzzy
-#| msgid ""
-#| "Enable additional repositories. List option. Supports globs, can be "
-#| "specified multiple times."
 msgid ""
 "Allow switching packages from any vendor to packages from VENDOR. Supports "
 "globs, can be specified multiple times."
 msgstr ""
-"Habilita repositórios adicionais. Lista opções. Suporta globs, podem ser "
-"especificados várias vezes."
+"Permite substituir pacotes de qualquer fornecedor por pacotes do VENDOR. "
+"Aceita padrões globs e pode ser especificado múltiplas vezes."
 
 #: main.cpp:395
-#, fuzzy
-#| msgid ""
-#| "Disable repositories. List option. Supports globs, can be specified "
-#| "multiple times."
 msgid ""
 "Allow replacing packages from VENDOR to packages from any vendor. Supports "
 "globs, can be specified multiple times."
 msgstr ""
-"Desabilita repositórios. Lista opções. Suporta globs, pode ser especificado "
-"várias vezes."
+"Permite substituir pacotes provenientes de um FORNECEDOR por pacotes de "
+"qualquer fornecedor. Suporta padrões globs e pode ser especificado múltiplas "
+"vezes."
 
 #: main.cpp:414
-#, fuzzy
-#| msgid ""
-#| "Enable libdnf5 plugins by name. List option. Supports globs, can be "
-#| "specified multiple times."
 msgid ""
 "Allow vendor changes for packages matching PKG_NAME (bidirectional). List "
 "option. Supports globs, can be specified multiple times."
 msgstr ""
-"Habilita plug-ins libdnf5 por nome. Lista opções. Suporta globs, pode ser "
-"especificado várias vezes."
+"Permite alterações de fornecedor para pacotes que correspondem a PKG_NAME "
+"(bidirecional). Opção de lista. Aceita padrões (globs) e pode ser "
+"especificada múltiplas vezes."
 
 #: main.cpp:443
-#, fuzzy
-#| msgid ""
-#| "Disable repositories. List option. Supports globs, can be specified "
-#| "multiple times."
 msgid ""
 "Add a vendor change policy for this run. Can be specified multiple times."
 msgstr ""
-"Desabilita repositórios. Lista opções. Suporta globs, pode ser especificado "
-"várias vezes."
+"Adicione uma política de alteração de fornecedor para esta execução. Pode "
+"ser especificada várias vezes."
 
 #: main.cpp:458
 #, c++-format
 msgid ""
 "Remove all vendor change policies. Can be combined with {} to replace them."
 msgstr ""
+"Remova todas as políticas de alteração de fornecedor. Podem ser combinadas "
+"com {} para substituí-las."
 
 #: main.cpp:477
-#, fuzzy
-#| msgid ""
-#| "Disable repositories. List option. Supports globs, can be specified "
-#| "multiple times."
 msgid ""
 "Disable vendor change policies whose source matches the specified pattern. "
 "Supports globs, can be specified multiple times."
 msgstr ""
-"Desabilita repositórios. Lista opções. Suporta globs, pode ser especificado "
-"várias vezes."
+"Desabilite políticas de alteração de fornecedor cuja origem corresponda ao "
+"padrão especificado. Suporta padrões do tipo glob e pode ser especificado "
+"múltiplas vezes."
 
 #: main.cpp:494
 msgid ""
@@ -2133,27 +2118,24 @@ msgid "{} to skip uninstallable packages"
 msgstr "{} para ignorar pacotes desinstaláveis"
 
 #: main.cpp:1362
-#, fuzzy, c++-format
-#| msgid "{} to allow changing package vendors"
+#, c++-format
 msgid "{} to allow switching to packages from VENDOR"
-msgstr "{} para permitir a alteração de fornecedores de pacotes"
+msgstr "{} para permitir a alternância para pacotes do FORNECEDOR"
 
 #: main.cpp:1364
-#, fuzzy, c++-format
-#| msgid "{} to allow changing package vendors"
+#, c++-format
 msgid "{} to allow replacing packages from VENDOR"
-msgstr "{} para permitir a alteração de fornecedores de pacotes"
+msgstr "{} para permitir a substituição de pacotes do FORNECEDOR"
 
 #: main.cpp:1366
 #, c++-format
 msgid "{} to add specific vendor change rules"
-msgstr ""
+msgstr "{} para adicionar regras específicas de alteração de fornecedor"
 
 #: main.cpp:1367
-#, fuzzy, c++-format
-#| msgid "{} to allow changing package vendors"
+#, c++-format
 msgid "{} to allow all vendor changes"
-msgstr "{} para permitir a alteração de fornecedores de pacotes"
+msgstr "{} para permitir todas as alterações feitas pelo fornecedor"
 
 #: main.cpp:1371
 msgid "You can try to add to command line:"
