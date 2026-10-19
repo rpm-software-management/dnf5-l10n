@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-16 18:17+0000\n"
-"PO-Revision-Date: 2026-10-19 11:36+0000\n"
+"PO-Revision-Date: 2026-10-19 12:06+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ko/>\n"
@@ -1712,39 +1712,27 @@ msgstr ""
 "유형을 지원하며, 여러 번 지정 할 수 있습니다."
 
 #: main.cpp:395
-#, fuzzy
-#| msgid ""
-#| "Disable repositories. List option. Supports globs, can be specified "
-#| "multiple times."
 msgid ""
 "Allow replacing packages from VENDOR to packages from any vendor. Supports "
 "globs, can be specified multiple times."
 msgstr ""
-"저장소를 비활성화합니다. 목록 형식의 옵션입니다. 와일드카드 패턴을 지원하며, "
-"여러 번 지정할 수 있습니다."
+"공급업체의 꾸러미를 모든 공급업체의 꾸러미로 교체 할 수 있도록 허용합니다. "
+"와일드카드 유형을 지원하며, 여러 번 지정 할 수 있습니다."
 
 #: main.cpp:414
-#, fuzzy
-#| msgid ""
-#| "Enable libdnf5 plugins by name. List option. Supports globs, can be "
-#| "specified multiple times."
 msgid ""
 "Allow vendor changes for packages matching PKG_NAME (bidirectional). List "
 "option. Supports globs, can be specified multiple times."
 msgstr ""
-"이름으로 libdnf5 플러그인을 활성화합니다. 목록 형식의 옵션입니다. 와일드카드 "
-"패턴을 지원하며, 여러 번 지정할 수 있습니다."
+"PKG_NAME (양방향)과 일치하는 꾸러미를 위한 제조사 변경을 허용합니다. 목록 "
+"옵션. 와일드카드 유형을 지원하며, 여러 번 지정 할 수 있습니다."
 
 #: main.cpp:443
-#, fuzzy
-#| msgid ""
-#| "Disable repositories. List option. Supports globs, can be specified "
-#| "multiple times."
 msgid ""
 "Add a vendor change policy for this run. Can be specified multiple times."
 msgstr ""
-"저장소를 비활성화합니다. 목록 형식의 옵션입니다. 와일드카드 패턴을 지원하며, "
-"여러 번 지정할 수 있습니다."
+"이와 같은 동작을 위한 제조사 변경 정책을 추가합니다. 여러 번 지정 할 수 "
+"있습니다."
 
 #: main.cpp:458
 #, c++-format
@@ -1755,16 +1743,12 @@ msgstr ""
 "대체합니다."
 
 #: main.cpp:477
-#, fuzzy
-#| msgid ""
-#| "Disable repositories. List option. Supports globs, can be specified "
-#| "multiple times."
 msgid ""
 "Disable vendor change policies whose source matches the specified pattern. "
 "Supports globs, can be specified multiple times."
 msgstr ""
-"저장소를 비활성화합니다. 목록 형식의 옵션입니다. 와일드카드 패턴을 지원하며, "
-"여러 번 지정할 수 있습니다."
+"원천이 지정된 유형과 일치하는 공급업체 정책을 비활성합니다. 와일드카드 "
+"유형을 지원하며, 여러 번 지정 할 수 있습니다."
 
 #: main.cpp:494
 msgid ""
@@ -2056,16 +2040,14 @@ msgid "{} to skip uninstallable packages"
 msgstr "{} 옵션으로 설치할 수 없는 패키지 건너뛰기"
 
 #: main.cpp:1362
-#, fuzzy, c++-format
-#| msgid "{} to allow changing package vendors"
+#, c++-format
 msgid "{} to allow switching to packages from VENDOR"
-msgstr "{} 옵션으로 패키지 공급업체 변경 허용"
+msgstr "공급업체의 꾸러미로 전환하도록 허용하는 {}"
 
 #: main.cpp:1364
-#, fuzzy, c++-format
-#| msgid "{} to allow changing package vendors"
+#, c++-format
 msgid "{} to allow replacing packages from VENDOR"
-msgstr "{} 옵션으로 패키지 공급업체 변경 허용"
+msgstr "공급업체에서 꾸러미를 교체하도록 허용하는 {}"
 
 #: main.cpp:1366
 #, c++-format
@@ -2073,10 +2055,9 @@ msgid "{} to add specific vendor change rules"
 msgstr "특정 공급업체 변경 규칙을 추가하려면 {}"
 
 #: main.cpp:1367
-#, fuzzy, c++-format
-#| msgid "{} to allow changing package vendors"
+#, c++-format
 msgid "{} to allow all vendor changes"
-msgstr "{} 옵션으로 패키지 공급업체 변경 허용"
+msgstr "모든 공급업체 변경을 허용하는 {}"
 
 #: main.cpp:1371
 msgid "You can try to add to command line:"
