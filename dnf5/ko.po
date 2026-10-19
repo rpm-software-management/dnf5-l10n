@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-16 18:17+0000\n"
-"PO-Revision-Date: 2026-10-17 07:11+0000\n"
+"PO-Revision-Date: 2026-10-19 11:36+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ko/>\n"
@@ -393,7 +393,7 @@ msgstr ""
 
 #: commands/check-upgrade/check-upgrade.cpp:47
 msgid "Check for available package upgrades"
-msgstr "사용 가능한 패키지 업그레이드 확인"
+msgstr "사용 가능한 꾸러미 향상을 위한 확인"
 
 #: commands/check-upgrade/check-upgrade.cpp:54
 msgid ""
@@ -402,92 +402,90 @@ msgid ""
 "advisories is used it reports the lowest versions of packages that fix "
 "advisories matching selected advisory properties"
 msgstr ""
-"버그 수정, 기능 개선, 보안 또는 새 패키지 유형의 권고 사항을 반영한 패키지의 "
-"최소 버전을 표시합니다. 권고 사항의 범위를 제한하는 옵션을 사용하면, 선택한 "
-"권고 사항 속성과 일치하는 권고 사항을 반영한 패키지의 최소 버전을 표시합니다."
+"결점 수정, 개선, 보안, 또는 신규 꾸러미 유형의 권고를 수정하는 꾸러미의 최저 "
+"버전을 보고합니다. 옵션을 제한하는 권고가 사용되는 경우 선택한 권고 속성과 "
+"일치하는 권고를 수정하는 최저 버전의 꾸러미를 보고합니다."
 
 #: commands/check/check.cpp:247
 msgid "Check for problems in the packagedb"
-msgstr "패키지 데이터베이스의 문제 확인"
+msgstr "꾸러미 데이터베이스의 문제를 점검합니다"
 
 #: commands/check/check.cpp:335
 #, c++-format
 msgid "Check discovered {} problem(s) in {} package(s)"
-msgstr "검사 결과, 문제 {}개가 패키지 {}개에서 발견되었습니다"
+msgstr "{} 꾸러미에서 발견된 {} 문제를 점검합니다"
 
 #: commands/clean/clean.cpp:91
 #, c++-format
 msgid "List of cache types to clean up. Supported types: {0}"
-msgstr "정리할 캐시 유형 목록입니다. 지원하는 유형: {0}"
+msgstr "정리하려는 캐쉬 유형의 목록. 지원된 유형: {0}"
 
 #: commands/clean/clean.cpp:109
 #, c++-format
 msgid "Unknown cache type \"{0}\". Supported types: {1}"
-msgstr "알 수 없는 캐시 유형 \"{0}\"입니다. 지원하는 유형: {1}"
+msgstr "알 수 없는 캐쉬 유형 \"{0}\". 지원된 유형: {1}"
 
 #: commands/clean/clean.cpp:166
 #, c++-format
 msgid "Failed to cleanup repository cache in path \"{0}\": {1}"
-msgstr "경로 \"{0}\"의 저장소 캐시를 정리하지 못했습니다: {1}"
+msgstr "경로에서 저장소 캐쉬를 정리하는 데 실패함 \"{0}\": {1}"
 
 #: commands/clean/clean.cpp:176
 #, c++-format
 msgid "Cache directory \"{}\" does not exist. Nothing to clean."
-msgstr "캐시 디렉터리 \"{}\"가 없습니다. 정리할 항목이 없습니다."
+msgstr "캐쉬 디렉토리 \"{}\"가 존재하지 않습니다. 정리 할 게 없습니다."
 
 #: commands/clean/clean.cpp:181
 #, c++-format
 msgid "Cannot iterate cache directory \"{}\": {}"
-msgstr "캐시 디렉터리 \"{}\"의 항목을 순회할 수 없습니다: {}"
+msgstr "캐쉬 디렉토리를 반복 할 수 없습니다 \"{}\": {}"
 
 #: commands/debuginfo-install/debuginfo-install.cpp:45
 msgid "Install debuginfo packages."
-msgstr "디버깅 정보 패키지를 설치합니다."
+msgstr "debuginfo 꾸러미 설치."
 
 #: commands/distro-sync/distro-sync.cpp:42
 msgid ""
 "Upgrade or downgrade installed software to the latest available versions"
-msgstr ""
-"설치된 소프트웨어를 사용 가능한 최신 버전으로 업그레이드하거나 다운그레이드합"
-"니다"
+msgstr "설치된 소프트웨어를 최신의 사용 가능한 버전으로 향상 또는 하향"
 
 #: commands/do/do.cpp:42
 msgid "Do transaction"
-msgstr "트랜잭션 실행"
+msgstr "연결 실행"
 
 #: commands/do/do.cpp:47
 msgid "Action to be done on the following items."
-msgstr "다음 항목에 수행할 작업."
+msgstr "다음 항목에서 실행 해야 할 동작."
 
 #: commands/do/do.cpp:61
 #, c++-format
 msgid "Unsupported action \"{}\""
-msgstr "지원하지 않는 작업 \"{}\""
+msgstr "미지원 동작 \"{}\""
 
 #: commands/do/do.cpp:71
 msgid "Type of the following items."
-msgstr "다음 항목의 유형."
+msgstr "다음 항목 유형."
 
 #: commands/do/do.cpp:84
 #, c++-format
 msgid "Unsupported item type \"{}\""
-msgstr "지원하지 않는 항목 유형 \"{}\""
+msgstr "미지원 항목 유형 \"{}\""
 
 #: commands/do/do.cpp:98
 msgid "List of items to take action on"
-msgstr "작업을 수행할 항목 목록"
+msgstr "동작을 취하는 항목의 목록"
 
 #: commands/do/do.cpp:131 commands/do/do.cpp:135
 msgid "Only package downgrade is supported."
-msgstr "패키지 다운그레이드만 지원합니다."
+msgstr "꾸러미 하향설치만 지원됩니다."
 
 #: commands/do/do.cpp:142 commands/do/do.cpp:146
 msgid "Only package reinstall is supported."
-msgstr "패키지 재설치만 지원합니다."
+msgstr "꾸러미 재설치만 지원됩니다."
 
 #: commands/do/do.cpp:152
 msgid "Action was not defined"
-msgstr "작업이 정의되지 않았습니다"
+msgstr "동작이 정의되지 않았습니다"
 
 #: commands/do/do.cpp:231
 #, c++-format
@@ -496,19 +494,19 @@ msgstr "잘못된 환경/그룹 사양: {}"
 
 #: commands/do/do.cpp:317
 msgid "Downgrading environments and groups is not supported."
-msgstr "환경 및 그룹의 다운그레이드는 지원하지 않습니다."
+msgstr "환경 및 그룹 하향설치는 지원되지 않습니다."
 
 #: commands/do/do.cpp:332
 msgid "Reinstalling environments and groups is not supported."
-msgstr "환경 및 그룹의 재설치하기는 지원되지 않습니다."
+msgstr "환경 및 그룹의 재설치는 지원되지 않습니다."
 
 #: commands/downgrade/downgrade.cpp:40
 msgid "Downgrade software"
-msgstr "소프트웨어 다운그레이드"
+msgstr "소프트웨어 하향설치"
 
 #: commands/download/download.cpp:123
 msgid "When running with --url, prints URLs from all available mirrors"
-msgstr "--url 옵션으로 실행하면 사용 가능한 모든 미러의 URL을 출력합니다"
+msgstr "--url 과 함께 사용하여 실행하면, 모든 사용 가능한 미러에서 URL을 출력합니다"
 
 #: commands/download/download.cpp:139
 #, c++-format
@@ -518,20 +516,20 @@ msgstr "잘못된 urlprotocol 옵션: {}"
 #: commands/download/download.cpp:166 main.cpp:818
 #, c++-format
 msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
-msgstr "지원하지 않는 아키텍처 \"{0}\"입니다. {1} 중 하나를 선택하세요"
+msgstr "미지원 구조 \"{0}\". {1}에서 하나를 골라주세요"
 
 #. TODO(jrohel): Add support for requiring an argument by another argument in ArgumentParser?
 #: commands/download/download.cpp:207
 msgid "Option \"--alldeps\" should be used with \"--resolve\""
-msgstr "\"--alldeps\" 옵션은 \"--resolve\" 옵션과 함께 사용해야 합니다"
+msgstr "옵션 \"--alldeps\"은 \"--resolve\"와 함께 사용 될 수 있습니다"
 
 #: commands/download/download.cpp:261
 #, c++-format
 msgid ""
 "No package \"{}\" available; You might want to use --skip-unavailable option."
 msgstr ""
-"사용 가능한 패키지 \"{}\"가 없습니다. --skip-unavailable 옵션을 사용해 보세"
-"요."
+"사용 가능한 \"{}\" 꾸러미가 없습니다; --skip-unavailable 선택을 사용하고 "
+"싶을 수도 있습니다."
 
 #: commands/environment/arguments.hpp:33
 msgid "Show only available environments."
@@ -543,11 +541,11 @@ msgstr "설치된 환경만 표시합니다."
 
 #: commands/environment/arguments.hpp:47
 msgid "Pattern matching environment identifiers."
-msgstr "환경 식별자와 일치하는 패턴."
+msgstr "유형이 일치하는 환경 식별자."
 
 #: commands/environment/environment.cpp:38
 msgid "Manage comps environments"
-msgstr "comps 환경 관리"
+msgstr "comps 환경을 관리합니다"
 
 #: commands/environment/environment_info.cpp:101
 #: commands/environment/environment_list.cpp:99
@@ -581,16 +579,16 @@ msgid ""
 "Show only groups containing packages with specified names. List option, "
 "supports globs."
 msgstr ""
-"지정한 이름의 패키지가 포함된 그룹만 표시합니다. 목록 형식의 옵션이며, 와일드"
-"카드 패턴을 지원합니다."
+"지정된 이름을 갖는 꾸러미가 포함된 그룹만 표시합니다. 목록 옵션, glob을 "
+"지원합니다."
 
 #: commands/group/arguments.hpp:67
 msgid "Pattern matching group identifiers."
-msgstr "그룹 식별자와 일치하는 패턴."
+msgstr "유형이 일치하는 그룹 식별자."
 
 #: commands/group/arguments.hpp:77
 msgid "Pattern matching group or environment identifiers."
-msgstr "그룹 식별자와 일치하는 패턴."
+msgstr "유형이 일치하는 그룹이나 환경 식별자."
 
 #: commands/group/arguments.hpp:86
 msgid "Include optional packages from groups."
@@ -1558,7 +1556,7 @@ msgstr "{} 스크립틀릿에서 오류 발생: {}"
 
 #: context.cpp:1230
 msgid "Verify package files"
-msgstr "패키지 파일 검증"
+msgstr "꾸러미 파일 검증"
 
 #: library.cpp:33
 #, c++-format
@@ -1706,16 +1704,12 @@ msgid "do not allow automatic package replacements from different vendors"
 msgstr "다른 공급업체의 패키지로 자동 교체하는 것을 허용하지 않습니다"
 
 #: main.cpp:376
-#, fuzzy
-#| msgid ""
-#| "Enable additional repositories. List option. Supports globs, can be "
-#| "specified multiple times."
 msgid ""
 "Allow switching packages from any vendor to packages from VENDOR. Supports "
 "globs, can be specified multiple times."
 msgstr ""
-"추가 저장소를 활성화합니다. 목록 형식의 옵션입니다. 와일드카드 패턴을 지원하"
-"며, 여러 번 지정할 수 있습니다."
+"모든 공급업체에서 VENDOR의 꾸러미로 변경된 꾸러미를 허용합니다.와일드카드 "
+"유형을 지원하며, 여러 번 지정 할 수 있습니다."
 
 #: main.cpp:395
 #, fuzzy
@@ -1757,6 +1751,8 @@ msgstr ""
 msgid ""
 "Remove all vendor change policies. Can be combined with {} to replace them."
 msgstr ""
+"모든 공급업체 변경 정책을 제거합니다. {} 와 함께 연결 할 수 있고 이를 "
+"대체합니다."
 
 #: main.cpp:477
 #, fuzzy
@@ -2074,7 +2070,7 @@ msgstr "{} 옵션으로 패키지 공급업체 변경 허용"
 #: main.cpp:1366
 #, c++-format
 msgid "{} to add specific vendor change rules"
-msgstr ""
+msgstr "특정 공급업체 변경 규칙을 추가하려면 {}"
 
 #: main.cpp:1367
 #, fuzzy, c++-format
