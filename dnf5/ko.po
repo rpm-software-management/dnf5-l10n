@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-16 18:17+0000\n"
-"PO-Revision-Date: 2026-10-19 12:06+0000\n"
+"PO-Revision-Date: 2026-10-19 12:35+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ko/>\n"
@@ -639,34 +639,33 @@ msgid ""
 "as errors. This can result in an empty transaction because among other "
 "things the option can ignore failing Remove actions."
 msgstr ""
-"설치된 패키지와 저장된 트랜잭션의 패키지가 일치하지 않아도 오류로 처리하지 않"
-"습니다. 이 옵션은 실패한 제거 작업도 무시할 수 있으므로, 트랜잭션이 비어 있"
-"을 수 있습니다."
+"오류가 있는 설치되었거나 저장된 연결 꾸러미 사이에서 불일치를 고려하지 "
+"마세요. 무엇보다도 이 옵션은 실패한 제거 작업들 무시 할 수 있기 때문에 빈 "
+"연결이 나타 날 수 있습니다."
 
 #: commands/history/arguments.hpp:67
 msgid "Don't consider extra packages pulled into the transaction as errors."
-msgstr "트랜잭션에 추가로 포함된 패키지를 오류로 처리하지 않습니다."
+msgstr "연결에 포함된 추가 꾸러미를 오류로 고려하지 마세요."
 
 #: commands/history/arguments.hpp:80
 msgid ""
 "Show only transactions containing packages with specified names. List "
 "option, supports globs."
 msgstr ""
-"지정한 이름의 패키지가 포함된 트랜잭션만 표시합니다. 목록 형식의 옵션이며, 와"
-"일드카드 패턴을 지원합니다."
+"지정된 이름을 갖는 꾸러미가 포함된 연결만 표시합니다. 옵션 목록, "
+"와일드카드를 지원."
 
 #: commands/history/history.cpp:41
 msgid "Manage transaction history"
-msgstr "트랜잭션 기록 관리"
+msgstr "연결 기록 관리"
 
 #: commands/history/history_info.cpp:78
 msgid ""
 "No match found, history info defaults to considering only the last "
 "transaction, specify \"1..last\" range to search all transactions."
 msgstr ""
-"일치하는 항목이 없습니다. 트랜잭션 기록 정보 조회는 기본적으로 마지막 트랜잭"
-"션만 대상으로 합니다. 모든 트랜잭션을 검색하려면 \"1..last\" 범위를 지정하세"
-"요."
+"일치하는 내용이 없으며, 기록 정보는 최종 연결만 고려하고, 모든 연결을 "
+"검색하려면 \"1..last\" 범위를 지정하세요."
 
 #: commands/history/history_redo.cpp:56
 #: commands/history/history_rollback.cpp:60
@@ -708,9 +707,7 @@ msgstr "소프트웨어 설치"
 #: commands/leaves/leaves.cpp:42
 msgid ""
 "List groups of installed packages not required by other installed packages"
-msgstr ""
-"설치된 패키지 중 다른 설치된 패키지에서 필요로 하지 않는 패키지의 그룹 목록"
-"을 표시합니다"
+msgstr "다른 설치된 꾸러미에서 필요하지 않는 설치된 꾸러미들의 그룹 목록"
 
 #: commands/list/info.hpp:38
 msgid ""
@@ -724,23 +721,23 @@ msgstr "일치 여부를 확인할 package-spec-NI 목록(대소문자 구분 �
 
 #: commands/list/list.cpp:61
 msgid "Show all versions of the packages, not only the latest ones."
-msgstr "최신 버전을 포함한 패키지의 모든 버전을 표시합니다."
+msgstr "최신 버전 뿐만 아니라 모든 꾸러미 버전을 표시합니다."
 
 #: commands/list/list.cpp:69
 msgid "List installed packages."
-msgstr "설치된 패키지 목록을 표시합니다."
+msgstr "설치된 꾸러미 목록."
 
 #: commands/list/list.cpp:74
 msgid "List available packages."
-msgstr "사용 가능한 패키지 목록을 표시합니다."
+msgstr "사용 가능한 꾸러미 목록."
 
 #: commands/list/list.cpp:81
 msgid ""
 "List extras, that is packages installed on the system that are not available "
 "in any known repository."
 msgstr ""
-"시스템에 설치되어 있지만 알려진 어떤 저장소에서도 제공되지 않는 패키지 목록"
-"을 표시합니다."
+"추가 목록, 시스템에 설치되어 있는 꾸러미로 알려진 모든 저장소에서 사용 할 수 "
+"없는 꾸러미 목록."
 
 #: commands/list/list.cpp:89
 msgid ""
