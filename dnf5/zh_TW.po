@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-16 18:17+0000\n"
-"PO-Revision-Date: 2026-09-29 09:18+0000\n"
+"PO-Revision-Date: 2026-10-20 06:25+0000\n"
 "Last-Translator: Skyter Lin <linskyter@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
 "projects/dnf5/dnf5/zh_TW/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.9.1\n"
+"X-Generator: Weblate 2026.10.1\n"
 
 #: cmdline_aliases.cpp:84 context.cpp:222 main.cpp:1587
 msgid ", "
@@ -369,6 +369,8 @@ msgid ""
 "either mark it as user-installed or change protected_packages configuration "
 "option."
 msgstr ""
+"不再需要的受保護軟體包：{0}（及其相依項目）無法移除。請將它標記為使用者安裝，"
+"或變更 protected_packages 組態選項。"
 
 #: commands/check-upgrade/check-upgrade.cpp:47
 msgid "Check for available package upgrades"
@@ -467,8 +469,7 @@ msgid "Action was not defined"
 msgstr "動作未定義"
 
 #: commands/do/do.cpp:231
-#, fuzzy, c++-format
-#| msgid "Invalid Environmet/Group specification: {}"
+#, c++-format
 msgid "Invalid Environment/Group specification: {}"
 msgstr "無效的環境/群組規格：{}"
 
@@ -477,8 +478,6 @@ msgid "Downgrading environments and groups is not supported."
 msgstr "不支援降級環境和群組。"
 
 #: commands/do/do.cpp:332
-#, fuzzy
-#| msgid "Reinstaling environments and groups is not supported."
 msgid "Reinstalling environments and groups is not supported."
 msgstr "不支援重新安裝環境和群組。"
 
@@ -530,12 +529,12 @@ msgstr "管理 comps 環境"
 #: commands/environment/environment_info.cpp:101
 #: commands/environment/environment_list.cpp:99
 msgid "No matches found: no environments are installed."
-msgstr ""
+msgstr "找不到符合項目：沒有已安裝的環境。"
 
 #: commands/environment/environment_info.cpp:103
 #: commands/environment/environment_list.cpp:101
 msgid "No matches found: no environments are available."
-msgstr ""
+msgstr "找不到符合項目：沒有可用的環境。"
 
 #: commands/environment/environment_info.cpp:105
 #: commands/environment/environment_list.cpp:103
@@ -569,8 +568,6 @@ msgid "Pattern matching group or environment identifiers."
 msgstr "符合樣式的群組或環境識別。"
 
 #: commands/group/arguments.hpp:86
-#, fuzzy
-#| msgid "Include optional packages from group."
 msgid "Include optional packages from groups."
 msgstr "包含群組提供的選用軟體包。"
 
@@ -593,18 +590,14 @@ msgstr "找不到符合的: 沒有群組存在。"
 #: commands/group/group_list.cpp:144
 #, c++-format
 msgid "Groups: {0} ({1} {2}, {3} {4})"
-msgstr ""
+msgstr "群組：{0}（{1} {2}，{3} {4}）"
 
 #: commands/group/group_list.cpp:147
-#, fuzzy
-#| msgid "Installed"
 msgid "installed"
 msgid_plural "installed"
 msgstr[0] "已安裝"
 
 #: commands/group/group_list.cpp:149
-#, fuzzy
-#| msgid "Available"
 msgid "available"
 msgid_plural "available"
 msgstr[0] "可用"
@@ -787,11 +780,11 @@ msgstr "管理模組"
 
 #: commands/module/module_list.cpp:88
 msgid "No matches found: no module streams are enabled."
-msgstr ""
+msgstr "找不到符合項目：沒有已啟用的模組串流。"
 
 #: commands/module/module_list.cpp:90
 msgid "No matches found: no module streams are disabled."
-msgstr ""
+msgstr "找不到符合項目：沒有已停用的模組串流。"
 
 #: commands/module/module_list.cpp:92
 msgid "No matches found: no module streams exist."
@@ -830,14 +823,14 @@ msgstr ""
 #: commands/offline/offline.cpp:264
 msgid ""
 "The system has been modified since the offline transaction was prepared."
-msgstr ""
+msgstr "自離線處理事項準備完成後，系統已有變更。"
 
 #: commands/offline/offline.cpp:268
 #, c++-format
 msgid ""
 "The system has been modified since the offline transaction was prepared. To "
 "reschedule, run: {}"
-msgstr ""
+msgstr "自離線處理事項準備完成後，系統已有變更。若要重新排程，請執行：{}"
 
 #: commands/offline/offline.cpp:290
 #, c++-format
@@ -856,7 +849,7 @@ msgstr "操作完成後關閉系統電源"
 
 #: commands/offline/offline.cpp:343
 msgid "No offline transaction is stored."
-msgstr "不會儲存離線處理事項。"
+msgstr "目前沒有已儲存的離線處理事項。"
 
 #: commands/offline/offline.cpp:352
 msgid "System is not ready for offline transaction."
@@ -911,7 +904,7 @@ msgstr "使用 `dnf5 offline reboot` 開始處理事項。"
 
 #: commands/offline/offline.cpp:564
 msgid "Transaction failed: "
-msgstr "處理事項失敗 "
+msgstr "處理事項失敗： "
 
 #: commands/offline/offline.cpp:634
 #, c++-format
@@ -921,11 +914,11 @@ msgstr "讀取日誌時出錯：{}"
 #: commands/offline/offline.cpp:640
 #, c++-format
 msgid "Add journal match failed: {}"
-msgstr "新增日誌對失敗：{}"
+msgstr "新增日誌比對失敗：{}"
 
 #: commands/offline/offline.cpp:668
 msgid "No logs were found."
-msgstr "未找到日誌。"
+msgstr "找不到日誌。"
 
 #: commands/offline/offline.cpp:672
 msgid "The following boots appear to contain offline transaction logs:"
@@ -959,19 +952,15 @@ msgid "Show status of the current offline transaction"
 msgstr "顯示目前離線處理事項的狀態"
 
 #: commands/offline/offline.cpp:752
-#, fuzzy
-#| msgid ""
-#| "The system will now reboot to perform the offline transaction initiated "
-#| "by the following command:"
 msgid ""
 "The system has been modified since the offline transaction was prepared. The "
 "offline transaction initiated by the following command is no longer valid:"
-msgstr "系統現在會重新啟動，以執行由下列命令啟動的離線處理事項："
+msgstr "自離線處理事項準備完成後，系統已有變更。由下列命令啟動的離線處理事項已失效："
 
 #: commands/offline/offline.cpp:756
 msgid ""
 "To reschedule, run the command above. To clean up, run `dnf5 offline clean`."
-msgstr ""
+msgstr "若要重新排程，請執行上述命令。若要清理，請執行 `dnf5 offline clean`。"
 
 #: commands/offline/offline.cpp:760
 msgid "An offline transaction was initiated by the following command:"
@@ -996,13 +985,13 @@ msgstr "未知離線處理事項狀態： "
 
 #: commands/provides/provides.cpp:50
 msgid "Find what package provides the given value"
-msgstr "尋找哪個軟體包提供了所提供的值"
+msgstr "找出哪個軟體包提供指定的值"
 
 #: commands/provides/provides.cpp:136
 msgid ""
 "If searching for a file, try specifying the full path or using a wildcard "
 "prefix (\"*/\") at the beginning."
-msgstr ""
+msgstr "如果要搜尋檔案，請嘗試指定完整路徑，或在開頭使用萬用字元前綴（「*/」）。"
 
 #: commands/reinstall/reinstall.cpp:40
 msgid "Reinstall software"
@@ -1016,19 +1005,17 @@ msgstr "移除（卸載）軟體"
 msgid ""
 "Option '--limit' must be equal or greater than 1 (to keep at least the "
 "newest installed package)."
-msgstr ""
+msgstr "選項「--limit」必須大於或等於 1（至少保留最新安裝的軟體包）。"
 
 #: commands/remove/remove.cpp:237
 msgid "Option '--limit' can only be used with '--oldinstallonly'."
-msgstr ""
+msgstr "選項「--limit」只能與「--oldinstallonly」搭配使用。"
 
 #: commands/remove/remove.cpp:242
-#, fuzzy
-#| msgid "{}. Add \"--help\" for more information about the arguments."
 msgid ""
 "Missing positional arguments for \"remove\" command. Add \"--help\" for more "
 "information about the arguments."
-msgstr "{}。加入\"--help\" 取得更多關於引數的資訊。"
+msgstr "「remove」命令缺少位置引數。加入「--help」可取得更多引數資訊。"
 
 #: commands/remove/remove.cpp:269
 #, c++-format
@@ -1037,6 +1024,8 @@ msgid ""
 "version and was not removed. Please reboot into the latest kernel and run "
 "this command again to complete the cleanup."
 msgstr ""
+"警告：目前執行中的核心「{}」不是最新安裝的版本，因此未將其移除。請重新開機進"
+"入最新核心，再次執行此命令以完成清理。"
 
 #: commands/replay/replay.cpp:38
 msgid "Replay a transaction that was previously stored to a directory"
@@ -1095,13 +1084,11 @@ msgstr "搜尋符合所有指定字串的軟體"
 
 #: commands/search/search.cpp:70
 msgid "Options --name and --summary cannot be used together."
-msgstr ""
+msgstr "選項 --name 與 --summary 不能同時使用。"
 
 #: commands/search/search.cpp:74
-#, fuzzy
-#| msgid "Option \"--alldeps\" should be used with \"--resolve\""
 msgid "Option --all cannot be used with --name or --summary."
-msgstr "選項「—alldeps」應與「—resolve」搭配使用"
+msgstr "選項 --all 不能與 --name 或 --summary 一起使用。"
 
 #: commands/swap/swap.cpp:42
 msgid "Remove software and install another in one transaction"
@@ -1123,7 +1110,7 @@ msgstr "如果新版本中的軟體包比目前安裝的軟體包舊，請勿安
 
 #: commands/system-upgrade/system-upgrade.cpp:101
 msgid "Need a --releasever greater than the current system version."
-msgstr "需要比 --releasever 更新的目前系統版本。"
+msgstr "需要指定大於目前系統版本的 --releasever。"
 
 #: commands/system-upgrade/system-upgrade.cpp:150
 msgid "Store a distro-sync transaction to be performed offline"
@@ -1163,10 +1150,8 @@ msgid "Add new entry to versionlock configuration"
 msgstr "在版本鎖組態中加入新項目"
 
 #: commands/versionlock/versionlock_add.cpp:44
-#, fuzzy
-#| msgid "List of package specs to remove versionlock for"
 msgid "List of packages to lock to their current versions"
-msgstr "要移除版本鎖的軟體包規格清單"
+msgstr "要鎖定在目前版本的軟體包清單"
 
 #: commands/versionlock/versionlock_add.cpp:107
 #: commands/versionlock/versionlock_exclude.cpp:128
@@ -1208,7 +1193,7 @@ msgstr "在版本鎖的組態設定中新增排除項目"
 msgid ""
 "List of packages to exclude. If no version is specified, all available "
 "versions of the package will be excluded."
-msgstr ""
+msgstr "要排除的軟體包清單。若未指定版本，將排除該軟體包所有可用版本。"
 
 #: commands/versionlock/versionlock_exclude.cpp:91
 #: commands/versionlock/versionlock_exclude.cpp:103
@@ -1225,40 +1210,36 @@ msgstr "軟體包「 {}」已排除。"
 #, c++-format
 msgid "{} day, {}:{:02}:{:02}"
 msgid_plural "{} days, {}:{:02}:{:02}"
-msgstr[0] ""
+msgstr[0] "{} 天，{}:{:02}:{:02}"
 
 #: context.cpp:97
-#, fuzzy, c++-format
-#| msgid "Query Commands:"
+#, c++-format
 msgid "Command: {}"
-msgstr "查詢命令："
+msgstr "命令：{}"
 
 #: context.cpp:105
 #, c++-format
 msgid "Process ID: {} (still running)"
-msgstr ""
+msgstr "行程 ID：{}（仍在執行）"
 
 #: context.cpp:107
 #, c++-format
 msgid "Process ID: {}"
-msgstr ""
+msgstr "行程 ID：{}"
 
 #: context.cpp:116
-#, fuzzy, c++-format
-#| msgid "setvar: {}"
+#, c++-format
 msgid "Started: {}"
-msgstr "setvar：{}"
+msgstr "開始時間：{}"
 
 #: context.cpp:123
 #, c++-format
 msgid "Comment: {}"
-msgstr ""
+msgstr "評註：{}"
 
 #: context.cpp:127
-#, fuzzy
-#| msgid "Show status of the current offline transaction"
 msgid "Details about the currently running transaction:\n"
-msgstr "顯示目前離線處理事項的狀態"
+msgstr "目前正在執行的處理事項詳細資訊：\n"
 
 #: context.cpp:145
 #, c++-format
@@ -1300,7 +1281,7 @@ msgstr " 指紋     ：{}\n"
 
 #: context.cpp:176
 msgid "As a result, installing packages signed with this key will fail."
-msgstr "因此，安裝以此金鑰簽章的軟體包將會安裝失敗。"
+msgstr "因此，安裝以此金鑰簽章的軟體包將會失敗。"
 
 #: context.cpp:177
 msgid "It is recommended to remove the expired key to allow importing"
@@ -1309,7 +1290,7 @@ msgstr "建議移除過期的金鑰，以允許匯入更新後的金鑰。"
 #: context.cpp:178
 msgid ""
 "an updated key. This might leave already installed packages unverifiable."
-msgstr "這可能會導致已安裝的軟體包無法核驗。"
+msgstr "這可能使已安裝的軟體包無法驗證。"
 
 #: context.cpp:181
 msgid "The system will now proceed with removing the key."
@@ -1343,16 +1324,18 @@ msgid ""
 "Waiting for a lock on the system repository; another process is currently "
 "accessing it. Use the \"--skip-file-locks\" option to bypass the lock."
 msgstr ""
+"正在等待系統軟體庫的鎖定；目前有另一個行程正在存取它。請使用「--skip-file-"
+"locks」選項略過鎖定。"
 
 #: context.cpp:306
 msgid ""
 "Waiting for a lock on the system repository. The following processes are "
 "currently accessing it:"
-msgstr ""
+msgstr "正在等待系統軟體庫的鎖定。目前下列行程正在存取它："
 
 #: context.cpp:316
 msgid "Use the \"--skip-file-locks\" option to bypass the lock."
-msgstr ""
+msgstr "請使用「--skip-file-locks」選項略過鎖定。"
 
 #. If we're only loading the system repo, we can skip the message.
 #: context.cpp:324
@@ -1362,7 +1345,7 @@ msgstr "正在更新和載入軟體庫："
 #: context.cpp:371
 #, c++-format
 msgid "Last metadata expiration check: {} ago on {}."
-msgstr ""
+msgstr "上次中介資料過期檢查：{} 前，於 {}。"
 
 #: context.cpp:378
 msgid "Repositories loaded."
@@ -1415,15 +1398,13 @@ msgid "Running transaction"
 msgstr "執行處理事項"
 
 #: context.cpp:614
-#, fuzzy
-#| msgid "Starting offline transaction. This will take a while."
 msgid "Warning: Pending offline transaction has been invalidated."
-msgstr "開始離線處理事項。這將需要一段時間。"
+msgstr "警告：待處理的離線處理事項已失效。"
 
 #: context.cpp:616
 #, c++-format
 msgid "To reschedule, run: {}"
-msgstr ""
+msgstr "若要重新排程，請執行：{}"
 
 #: context.cpp:1026
 #, c++-format
@@ -1476,31 +1457,31 @@ msgstr "Cpio 錯誤：{}"
 
 #: context.cpp:1133
 msgid "Scriptlet output:"
-msgstr "命令小稿輸出："
+msgstr "指令稿輸出："
 
 #: context.cpp:1156
 msgid "Running scriptlets"
-msgstr "正在執行命令小稿"
+msgstr "正在執行指令稿"
 
 #: context.cpp:1162
 #, c++-format
 msgid "Running {} scriptlet: {}"
-msgstr "正在執行 {} 命令小稿：{}"
+msgstr "正在執行 {} 指令稿：{}"
 
 #: context.cpp:1178
 #, c++-format
 msgid "Finished {} scriptlet: {}"
-msgstr "完成 {} 命令小稿：{}"
+msgstr "完成 {} 指令稿：{}"
 
 #: context.cpp:1185
 #, c++-format
 msgid "Non-critical error in {} scriptlet: {}"
-msgstr "{} 命令小稿中有非關鍵性錯誤：{}"
+msgstr "{} 指令稿中有非關鍵性錯誤：{}"
 
 #: context.cpp:1195
 #, c++-format
 msgid "Error in {} scriptlet: {}"
-msgstr "{} 命令小稿中有錯誤：{}"
+msgstr "{} 指令稿中有錯誤：{}"
 
 #: context.cpp:1230
 msgid "Verify package files"
@@ -1509,7 +1490,7 @@ msgstr "核驗軟體包檔案"
 #: library.cpp:33
 #, c++-format
 msgid "Cannot load shared library \"{}\": {}"
-msgstr "無法載入共享的函式庫「{}」：{}"
+msgstr "無法載入共用函式庫「{}」：{}"
 
 #: library.cpp:47
 #, c++-format
@@ -1534,7 +1515,7 @@ msgstr "全域選項："
 
 #: main.cpp:165
 msgid "Print help"
-msgstr "列印求助訊息"
+msgstr "顯示說明"
 
 #: main.cpp:172
 msgid "Configuration file location"
@@ -1556,7 +1537,7 @@ msgstr "完全從系統快取執行，不更新快取，即使快取已過期也
 
 #: main.cpp:204
 msgid "Control whether color is used."
-msgstr "控制使用什麼顏色。"
+msgstr "控制是否使用顏色。"
 
 #: main.cpp:210
 msgid "Force refreshing metadata before running the command."
@@ -1574,7 +1555,7 @@ msgstr "使用 id 和路徑建立其他軟體庫"
 #: main.cpp:248
 #, c++-format
 msgid "repofrompath: Incorrect repoid and path specification \"{}\""
-msgstr "repofrompath：不正確的 repofoid 和路徑規格「{}」"
+msgstr "repofrompath：repo ID 與路徑規格不正確：「{}」"
 
 #: main.cpp:260
 msgid "set arbitrary config and repo options"
@@ -1639,66 +1620,48 @@ msgstr "不要將處理事項限制在最佳候選"
 
 #: main.cpp:356
 msgid "allow automatic package replacements from different vendors"
-msgstr ""
+msgstr "允許自動將軟體包替換為不同供應商提供的軟體包"
 
 #: main.cpp:363
 msgid "do not allow automatic package replacements from different vendors"
-msgstr ""
+msgstr "不允許自動將軟體包替換為不同供應商提供的軟體包"
 
 #: main.cpp:376
-#, fuzzy
-#| msgid ""
-#| "Enable additional repositories. List option. Supports globs, can be "
-#| "specified multiple times."
 msgid ""
 "Allow switching packages from any vendor to packages from VENDOR. Supports "
 "globs, can be specified multiple times."
-msgstr "啟用額外軟體庫。列出選項。支援 glob，可多次指定。"
+msgstr "允許從任何供應商的軟體包切換為 VENDOR 提供的軟體包。支援 glob，可指定多次。"
 
 #: main.cpp:395
-#, fuzzy
-#| msgid ""
-#| "Disable repositories. List option. Supports globs, can be specified "
-#| "multiple times."
 msgid ""
 "Allow replacing packages from VENDOR to packages from any vendor. Supports "
 "globs, can be specified multiple times."
-msgstr "停用軟體庫。列出選項。支援 glob，可多次指定。"
+msgstr "允許以任何供應商的軟體包取代 VENDOR 提供的軟體包。支援 glob，可指定多次。"
 
 #: main.cpp:414
-#, fuzzy
-#| msgid ""
-#| "Enable libdnf5 plugins by name. List option. Supports globs, can be "
-#| "specified multiple times."
 msgid ""
 "Allow vendor changes for packages matching PKG_NAME (bidirectional). List "
 "option. Supports globs, can be specified multiple times."
-msgstr "依名稱啟用 libdnf5 外掛元件。清單選項。支援 glob，可指定多次。"
+msgstr ""
+"允許符合 PKG_NAME 的軟體包變更供應商（雙向）。清單選項。支援 glob，可指定多次"
+"。"
 
 #: main.cpp:443
-#, fuzzy
-#| msgid ""
-#| "Disable repositories. List option. Supports globs, can be specified "
-#| "multiple times."
 msgid ""
 "Add a vendor change policy for this run. Can be specified multiple times."
-msgstr "停用軟體庫。列出選項。支援 glob，可多次指定。"
+msgstr "為本次執行加入供應商變更政策。可指定多次。"
 
 #: main.cpp:458
 #, c++-format
 msgid ""
 "Remove all vendor change policies. Can be combined with {} to replace them."
-msgstr ""
+msgstr "移除所有供應商變更政策。可與 {} 搭配使用以重新設定。"
 
 #: main.cpp:477
-#, fuzzy
-#| msgid ""
-#| "Disable repositories. List option. Supports globs, can be specified "
-#| "multiple times."
 msgid ""
 "Disable vendor change policies whose source matches the specified pattern. "
 "Supports globs, can be specified multiple times."
-msgstr "停用軟體庫。列出選項。支援 glob，可多次指定。"
+msgstr "停用來源符合指定樣式的供應商變更政策。支援 glob，可指定多次。"
 
 #: main.cpp:494
 msgid ""
@@ -1773,22 +1736,18 @@ msgid "override the value of $releasever in config and repo files"
 msgstr "凌駕組態檔與 repo 檔案中的 $releasever 值"
 
 #: main.cpp:690
-#, fuzzy
-#| msgid "override the value of $releasever in config and repo files"
 msgid "override the value of $releasever_major in config and repo files"
-msgstr "凌駕組態檔與 repo 檔案中的 $releasever 值"
+msgstr "覆寫組態檔與 repo 檔案中的 $releasever_major 值"
 
 #: main.cpp:703
-#, fuzzy
-#| msgid "override the value of $releasever in config and repo files"
 msgid "override the value of $releasever_minor in config and repo files"
-msgstr "凌駕組態檔與 repo 檔案中的 $releasever 值"
+msgstr "覆寫組態檔與 repo 檔案中的 $releasever_minor 值"
 
 #: main.cpp:716
 msgid ""
 "Show newly installed leaf packages and packages that became leaves after a "
 "transaction."
-msgstr "顯示新安裝的遺留軟體包，以及在事項處理完成後成為遺留的軟體包。"
+msgstr "顯示新安裝的葉節點軟體包，以及在處理事項完成後變成葉節點的軟體包。"
 
 #: main.cpp:730
 msgid "Dump detailed solving results into files"
@@ -1817,7 +1776,7 @@ msgstr "強制使用不同的架構。"
 
 #: main.cpp:831
 msgid "Skip acquiring file locks, such as the lock on the system repository"
-msgstr ""
+msgstr "略過取得檔案鎖定，例如系統軟體庫的鎖定"
 
 #: main.cpp:846
 msgid "Software Management Commands:"
@@ -1876,16 +1835,12 @@ msgid "  API version: {}.{}"
 msgstr "  API 版本：{}.{}"
 
 #: main.cpp:996
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "Loaded {} plugins:"
 msgid ""
 "\n"
 "Loaded libdnf5 plugins:"
 msgstr ""
 "\n"
-"已載入 {} 外掛元件："
+"已載入 libdnf5 外掛元件："
 
 #: main.cpp:1043
 #, c++-format
@@ -1929,7 +1884,7 @@ msgstr "======== 變數：========"
 
 #: main.cpp:1185
 msgid "New leaves:"
-msgstr "新的遺留軟體包："
+msgstr "新的葉節點軟體包："
 
 #: main.cpp:1187
 #, c++-format
@@ -1974,30 +1929,27 @@ msgstr "{} 載入額外的檔案清單中介資料"
 #: main.cpp:1347
 #, c++-format
 msgid "{} to skip uninstallable packages"
-msgstr "{} 跳過無法安裝的軟體包"
+msgstr "{} 跳過無法解除安裝的軟體包"
 
 #: main.cpp:1362
-#, fuzzy, c++-format
-#| msgid "{} to allow extra packages in the transaction"
+#, c++-format
 msgid "{} to allow switching to packages from VENDOR"
-msgstr "{} 允許在處理事項中使用額外的軟體包"
+msgstr "{} 允許切換至 VENDOR 提供的軟體包"
 
 #: main.cpp:1364
-#, fuzzy, c++-format
-#| msgid "{} to allow extra packages in the transaction"
+#, c++-format
 msgid "{} to allow replacing packages from VENDOR"
-msgstr "{} 允許在處理事項中使用額外的軟體包"
+msgstr "{} 允許替換來自 VENDOR 的軟體包"
 
 #: main.cpp:1366
 #, c++-format
 msgid "{} to add specific vendor change rules"
-msgstr ""
+msgstr "{} 以加入特定的供應商變更規則"
 
 #: main.cpp:1367
-#, fuzzy, c++-format
-#| msgid "{} to allow extra packages in the transaction"
+#, c++-format
 msgid "{} to allow all vendor changes"
-msgstr "{} 允許在處理事項中使用額外的軟體包"
+msgstr "{} 允許所有供應商變更"
 
 #: main.cpp:1371
 msgid "You can try to add to command line:"
@@ -2053,14 +2005,14 @@ msgstr "該引數可用於命令：{}。（必須放在命令之後）"
 
 #: main.cpp:1622
 msgid "No read/execute access in current directory, moving to /"
-msgstr "在目前的目錄沒有讀寫與執行的權能，移動至 /"
+msgstr "目前目錄缺少讀取／執行權限，移動至 /"
 
 #: main.cpp:1657
 #, c++-format
 msgid ""
 "{}. Dropping all logs. To redirect the log file location use the \"logdir\" "
 "configuration option."
-msgstr ""
+msgstr "{}。將捨棄所有記錄。若要重新指定記錄檔位置，請使用「logdir」組態選項。"
 
 #: main.cpp:1718
 msgid ""
@@ -2068,13 +2020,13 @@ msgid ""
 "user with elevated rights, or use the \"--assumeno\" or \"--downloadonly\" "
 "options to run the command without modifying the system state."
 msgstr ""
-"請求的操作需要有超級使用者特權。請以具有特定權限的使用者登入，或使用「--"
-"assumeno」或「--downloadonly」選項執行命令，而不修改系統狀態。"
+"要求的操作需要超級使用者權限。請以具有較高權限的使用者登入，或使用「--"
+"assumeno」或「--downloadonly」選項執行命令，以免修改系統狀態。"
 
 #: main.cpp:1732
 #, c++-format
 msgid "Warning: {}"
-msgstr ""
+msgstr "警告：{}"
 
 #: main.cpp:1745
 msgid ""
@@ -2082,6 +2034,8 @@ msgid ""
 "or immutable operating system. For more information, refer to your "
 "distribution's documentation."
 msgstr ""
+"錯誤：/usr 設定為唯讀。您可能正在執行映像式或不可變作業系統。如需更多資訊，請"
+"參閱所用發行版的文件。"
 
 #: main.cpp:1764
 msgid ""
@@ -2089,21 +2043,21 @@ msgid ""
 "transient to perform this operation in a transient overlay which will reset "
 "when the system reboots."
 msgstr ""
+"錯誤：bootc 系統不支援持久性處理事項。請傳入 --transient，在暫時性疊加層中執"
+"行此操作；系統重新開機時，該疊加層會重設。"
 
 #: main.cpp:1774
-#, fuzzy
-#| msgid ""
-#| "Error: this bootc system is configured to be read-only. For more "
-#| "information, run `bootc --help`."
 msgid ""
 "Error: this bootc system is configured to be read-only. Pass --transient to "
 "perform this operation in a transient overlay which will reset when the "
 "system reboots."
-msgstr "錯誤：此 bootc 系統設定為唯讀。如需更多資訊，請執行 `bootc --help`。"
+msgstr ""
+"錯誤：此 bootc 系統設定為唯讀。請傳入 --transient，在暫時性疊加層中執行此操作"
+"；系統重新開機時，該疊加層會重設。"
 
 #: main.cpp:1785
 msgid "Error: transient transactions are only supported on bootc systems."
-msgstr ""
+msgstr "錯誤：只有 bootc 系統支援暫時性處理事項。"
 
 #: main.cpp:1826
 #, c++-format
@@ -2121,18 +2075,15 @@ msgid ""
 msgstr "測試模式已啟用：只執行軟體包下載、OpenPGP 金鑰安裝，以及處理事項檢查。"
 
 #: main.cpp:1842
-#, fuzzy
-#| msgid "Starting offline transaction. This will take a while."
 msgid "Warning: A pending offline transaction will be invalidated."
-msgstr "開始離線處理事項。這將需要一段時間。"
+msgstr "警告：待處理的離線處理事項將會失效。"
 
 #: main.cpp:1845
-#, fuzzy, c++-format
-#| msgid "An offline transaction was initiated by the following command:"
+#, c++-format
 msgid ""
 "Warning: A pending offline transaction initiated by the following command "
 "will be invalidated: {}"
-msgstr "離線處理事項由下列命令啟動："
+msgstr "警告：由下列命令啟動的待處理離線處理事項將會失效：{}"
 
 #: main.cpp:1870
 msgid ""
@@ -2140,12 +2091,16 @@ msgid ""
 "inconsistencies when the transient overlay on /usr is discarded. See the "
 "usr_drift_protected_paths configuration option for more information."
 msgstr ""
+"此處理事項會修改下列路徑，因此當 /usr 上的暫時性疊加層遭捨棄時，可能造成不一"
+"致。如需更多資訊，請參閱 usr_drift_protected_paths 組態選項。"
 
 #: main.cpp:1881
 msgid ""
 "Operation aborted. Pass --setopt=usr_drift_protected_paths= to disable this "
 "check and proceed anyway."
 msgstr ""
+"操作已中止。請傳入 --setopt=usr_drift_protected_paths= 以停用此檢查並繼續執行"
+"。"
 
 #: main.cpp:1890
 msgid ""
@@ -2153,6 +2108,8 @@ msgid ""
 "reboot. Keep in mind that changes to /etc and /var will still persist, and "
 "packages commonly modify these directories."
 msgstr ""
+"將在 /usr 上建立暫時性疊加層，重新開機時便會捨棄。請注意，對 /etc 與 /var 的"
+"變更仍會保留，而軟體包通常會修改這些目錄。"
 
 #: main.cpp:1927
 #, c++-format
@@ -2191,8 +2148,6 @@ msgid "REPO_ID,..."
 msgstr "REPO_ID,..."
 
 #: shared_options.cpp:193
-#, fuzzy
-#| msgid "\"--from_repo\" already defined with diferent value"
 msgid "\"--from_repo\" already defined with different value"
 msgstr "「--from_repo」已使用不同的值定義"
 
@@ -2203,34 +2158,25 @@ msgid ""
 msgstr "依據安裝來源的軟體庫 ID 篩選已安裝的軟體包。"
 
 #: shared_options.cpp:220
-#, fuzzy
-#| msgid "\"--installed-from_repo\" already defined with diferent value"
 msgid "\"--installed-from_repo\" already defined with different value"
 msgstr "「--installed-from_repo」已使用不同的值定義"
 
 #: shared_options.cpp:236
-#, fuzzy
-#| msgid ""
-#| "The following items can be selected only from the specified repositories. "
-#| "All enabled repositories will still be used to satisfy dependencies."
 msgid ""
 "The following items can be selected only from the specified vendors. The "
 "vendor is ignored or vendor change policies (if allow_vendor_change=0) will "
 "still be used for items that satisfy dependencies."
 msgstr ""
-"以下項目只能從指定的軟體庫選擇。所有已啟用的軟體庫仍會用於滿足依賴關係。"
+"下列項目只能從指定的供應商中選取。對於用來滿足相依關係的項目，將忽略供應商限"
+"制；若 allow_vendor_change=0，仍會套用供應商變更政策。"
 
 #: shared_options.cpp:239
-#, fuzzy
-#| msgid "CVE_ID,..."
 msgid "VENDOR,..."
-msgstr "CVE_ID,..."
+msgstr "VENDOR,..."
 
 #: shared_options.cpp:248
-#, fuzzy
-#| msgid "\"--from_repo\" already defined with diferent value"
 msgid "\"--from_vendor\" already defined with different value"
-msgstr "「--from_repo」已使用不同的值定義"
+msgstr "「--from_vendor」已使用不同的值定義"
 
 #~ msgid "No matching packages to list"
 #~ msgstr "沒有可列出的符合軟體包"
