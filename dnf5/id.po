@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-16 18:17+0000\n"
-"PO-Revision-Date: 2026-09-11 21:18+0000\n"
+"PO-Revision-Date: 2026-10-21 07:18+0000\n"
 "Last-Translator: Arif Budiman <arifpedia@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/id/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.9.1\n"
+"X-Generator: Weblate 2026.10.1\n"
 
 #: cmdline_aliases.cpp:84 context.cpp:222 main.cpp:1587
 msgid ", "
@@ -1330,7 +1330,7 @@ msgstr "Paket \"{}\" sudah dikecualikan."
 #, c++-format
 msgid "{} day, {}:{:02}:{:02}"
 msgid_plural "{} days, {}:{:02}:{:02}"
-msgstr[0] ""
+msgstr[0] "{} hari, {}:{:02}:{:02}"
 
 #: context.cpp:97
 #, c++-format
@@ -1472,7 +1472,7 @@ msgstr "Memperbarui dan memuat repositori:"
 #: context.cpp:371
 #, c++-format
 msgid "Last metadata expiration check: {} ago on {}."
-msgstr ""
+msgstr "Pemeriksaan kedaluwarsa metadata terakhir: {} yang lalu pada {}."
 
 #: context.cpp:378
 msgid "Repositories loaded."
@@ -1767,50 +1767,34 @@ msgid "do not allow automatic package replacements from different vendors"
 msgstr "jangan izinkan penggantian paket otomatis dari vendor yang berbeda"
 
 #: main.cpp:376
-#, fuzzy
-#| msgid ""
-#| "Enable additional repositories. List option. Supports globs, can be "
-#| "specified multiple times."
 msgid ""
 "Allow switching packages from any vendor to packages from VENDOR. Supports "
 "globs, can be specified multiple times."
 msgstr ""
-"Aktifkan repositori tambahan. Daftar opsi. Mendukung globs, dapat ditentukan "
-"beberapa kali."
+"Izinkan penggantian paket dari vendor mana pun dengan paket dari VENDOR. "
+"Mendukung pola glob, dapat ditentukan beberapa kali."
 
 #: main.cpp:395
-#, fuzzy
-#| msgid ""
-#| "Disable repositories. List option. Supports globs, can be specified "
-#| "multiple times."
 msgid ""
 "Allow replacing packages from VENDOR to packages from any vendor. Supports "
 "globs, can be specified multiple times."
 msgstr ""
-"Nonaktifkan repositori. Daftar opsi. Mendukung globs, dapat ditentukan "
-"beberapa kali."
+"Izinkan penggantian paket dari VENDOR dengan paket dari vendor mana pun. "
+"Mendukung pola glob, dapat ditentukan beberapa kali."
 
 #: main.cpp:414
-#, fuzzy
-#| msgid ""
-#| "Enable libdnf5 plugins by name. List option. Supports globs, can be "
-#| "specified multiple times."
 msgid ""
 "Allow vendor changes for packages matching PKG_NAME (bidirectional). List "
 "option. Supports globs, can be specified multiple times."
 msgstr ""
-"Aktifkan plugin libdnf5 berdasarkan nama. Daftar opsi. Mendukung globs, "
-"dapat ditentukan beberapa kali."
+"Izinkan perubahan vendor untuk paket yang cocok dengan PKG_NAME (dua arah). "
+"Opsi daftar. Mendukung pola glob, dapat ditentukan beberapa kali."
 
 #: main.cpp:443
-#, fuzzy
-#| msgid ""
-#| "Disable repositories. List option. Supports globs, can be specified "
-#| "multiple times."
 msgid ""
 "Add a vendor change policy for this run. Can be specified multiple times."
 msgstr ""
-"Nonaktifkan repositori. Daftar opsi. Mendukung globs, dapat ditentukan "
+"Tambahkan kebijakan perubahan vendor untuk eksekusi ini. Dapat ditentukan "
 "beberapa kali."
 
 #: main.cpp:458
@@ -1818,18 +1802,16 @@ msgstr ""
 msgid ""
 "Remove all vendor change policies. Can be combined with {} to replace them."
 msgstr ""
+"Hapus semua kebijakan perubahan vendor. Dapat digabungkan dengan {} untuk "
+"menggantinya."
 
 #: main.cpp:477
-#, fuzzy
-#| msgid ""
-#| "Disable repositories. List option. Supports globs, can be specified "
-#| "multiple times."
 msgid ""
 "Disable vendor change policies whose source matches the specified pattern. "
 "Supports globs, can be specified multiple times."
 msgstr ""
-"Nonaktifkan repositori. Daftar opsi. Mendukung globs, dapat ditentukan "
-"beberapa kali."
+"Nonaktifkan kebijakan perubahan vendor yang sumbernya cocok dengan pola yang "
+"ditentukan. Mendukung pola glob, dapat ditentukan beberapa kali."
 
 #: main.cpp:494
 msgid ""
@@ -2125,27 +2107,24 @@ msgid "{} to skip uninstallable packages"
 msgstr "{} untuk melewati paket yang dapat di pasang"
 
 #: main.cpp:1362
-#, fuzzy, c++-format
-#| msgid "{} to allow changing package vendors"
+#, c++-format
 msgid "{} to allow switching to packages from VENDOR"
-msgstr "{} untuk mengizinkan perubahan vendor paket"
+msgstr "{} untuk mengizinkan penggantian dengan paket dari VENDOR"
 
 #: main.cpp:1364
-#, fuzzy, c++-format
-#| msgid "{} to allow changing package vendors"
+#, c++-format
 msgid "{} to allow replacing packages from VENDOR"
-msgstr "{} untuk mengizinkan perubahan vendor paket"
+msgstr "{} untuk mengizinkan penggantian paket dari VENDOR"
 
 #: main.cpp:1366
 #, c++-format
 msgid "{} to add specific vendor change rules"
-msgstr ""
+msgstr "{} untuk menambahkan aturan perubahan vendor tertentu"
 
 #: main.cpp:1367
-#, fuzzy, c++-format
-#| msgid "{} to allow changing package vendors"
+#, c++-format
 msgid "{} to allow all vendor changes"
-msgstr "{} untuk mengizinkan perubahan vendor paket"
+msgstr "{} untuk mengizinkan semua perubahan vendor"
 
 #: main.cpp:1371
 msgid "You can try to add to command line:"
