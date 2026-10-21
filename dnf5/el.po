@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-16 18:17+0000\n"
+"POT-Creation-Date: 2026-10-20 19:42+0000\n"
 "PO-Revision-Date: 2026-06-23 16:18+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 2026.6.1\n"
 
-#: cmdline_aliases.cpp:84 context.cpp:222 main.cpp:1587
+#: cmdline_aliases.cpp:84 context.cpp:222 main.cpp:1619
 msgid ", "
 msgstr ", "
 
@@ -565,7 +565,7 @@ msgstr ""
 msgid "Invalid urlprotocol option: {}"
 msgstr "Μη έγκυρη επιλογή urlprotocol: {}"
 
-#: commands/download/download.cpp:166 main.cpp:818
+#: commands/download/download.cpp:166 main.cpp:833
 #, c++-format
 msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
 msgstr ""
@@ -1591,84 +1591,84 @@ msgstr "Έναρξη offline συναλλαγής. Αυτό θα πάρει λί
 msgid "To reschedule, run: {}"
 msgstr ""
 
-#: context.cpp:1026
+#: context.cpp:1034
 #, c++-format
 msgid "Upgrading {}"
 msgstr "Αναβάθμιση του {}"
 
-#: context.cpp:1029
+#: context.cpp:1037
 #, c++-format
 msgid "Downgrading {}"
 msgstr "Υποβάθμιση του {}"
 
-#: context.cpp:1032
+#: context.cpp:1040
 #, c++-format
 msgid "Reinstalling {}"
 msgstr "Επανεγκατάσταση του {}"
 
-#: context.cpp:1045
+#: context.cpp:1053
 #, c++-format
 msgid "Unexpected action in TransactionPackage: {}"
 msgstr "Μη αναμενόμενη ενέργεια στο TransactionPackage: {}"
 
-#: context.cpp:1051
+#: context.cpp:1059
 #, c++-format
 msgid "Installing {}"
 msgstr "Εγκατάσταση του {}"
 
-#: context.cpp:1072
+#: context.cpp:1080
 msgid "Prepare transaction"
 msgstr "Προετοιμασία συναλλαγής"
 
-#: context.cpp:1092
+#: context.cpp:1100
 #, c++-format
 msgid "Removing {}"
 msgstr "Αφαίρεση του {}"
 
-#: context.cpp:1095
+#: context.cpp:1103
 #, c++-format
 msgid "Cleanup {}"
 msgstr "Εκκαθάριση του {}"
 
-#: context.cpp:1114
+#: context.cpp:1122
 #, c++-format
 msgid "Unpack error: {}"
 msgstr "Σφάλμα αποσυμπίεσης: {}"
 
-#: context.cpp:1123
+#: context.cpp:1131
 #, c++-format
 msgid "Cpio error: {}"
 msgstr "Σφάλμα cpio: {}"
 
-#: context.cpp:1133
+#: context.cpp:1141
 msgid "Scriptlet output:"
 msgstr "Έξοδος scriptlet:"
 
-#: context.cpp:1156
+#: context.cpp:1164
 msgid "Running scriptlets"
 msgstr "Εκτέλεση scriptlets"
 
-#: context.cpp:1162
+#: context.cpp:1170
 #, c++-format
 msgid "Running {} scriptlet: {}"
 msgstr "Εκτέλεση του {} scriptlet: {}"
 
-#: context.cpp:1178
+#: context.cpp:1186
 #, c++-format
 msgid "Finished {} scriptlet: {}"
 msgstr "Ολοκληρώθηκε το {} scriptlet: {}"
 
-#: context.cpp:1185
+#: context.cpp:1193
 #, c++-format
 msgid "Non-critical error in {} scriptlet: {}"
 msgstr "Μη κρίσιμο σφάλμα στο {} scriptlet: {}"
 
-#: context.cpp:1195
+#: context.cpp:1203
 #, c++-format
 msgid "Error in {} scriptlet: {}"
 msgstr "Σφάλμα στο {} scriptlet: {}"
 
-#: context.cpp:1230
+#: context.cpp:1238
 msgid "Verify package files"
 msgstr "Επαλήθευση αρχείων πακέτου"
 
@@ -1682,31 +1682,31 @@ msgstr "Αδυναμία φόρτωσης κοινόχρηστης βιβλιο�
 msgid "Cannot obtain address of symbol \"{}\": {}"
 msgstr "Αδυναμία λήψης διεύθυνσης του συμβόλου \"{}\": {}"
 
-#: main.cpp:155
+#: main.cpp:156
 msgid "Utility for packages maintaining"
 msgstr "Εργαλείο για τη συντήρηση πακέτων"
 
-#: main.cpp:156
+#: main.cpp:157
 msgid "DNF5 is a program for maintaining packages."
 msgstr "Το DNF5 είναι ένα πρόγραμμα για τη συντήρηση πακέτων."
 
-#: main.cpp:157
+#: main.cpp:158
 msgid "Unclassified options:"
 msgstr "Μη ταξινομημένες επιλογές:"
 
-#: main.cpp:160
+#: main.cpp:161
 msgid "Global options:"
 msgstr "Καθολικές επιλογές:"
 
-#: main.cpp:165
+#: main.cpp:166
 msgid "Print help"
 msgstr "Εκτύπωση βοήθειας"
 
-#: main.cpp:172
+#: main.cpp:173
 msgid "Configuration file location"
 msgstr "Τοποθεσία αρχείου ρυθμίσεων"
 
-#: main.cpp:180
+#: main.cpp:181
 msgid ""
 "In combination with a non-interactive command, shows just the relevant "
 "content. Suppresses messages notifying about the current state or actions of "
@@ -1716,7 +1716,7 @@ msgstr ""
 "περιεχόμενο. Καταστέλλει τα μηνύματα που ενημερώνουν για την τρέχουσα "
 "κατάσταση ή τις ενέργειες του dnf5."
 
-#: main.cpp:195
+#: main.cpp:196
 msgid ""
 "Run entirely from system cache, don't update the cache and use it even in "
 "case it is expired."
@@ -1724,35 +1724,35 @@ msgstr ""
 "Εκτέλεση εξ ολοκλήρου από την προσωρινή μνήμη του συστήματος, χωρίς "
 "ενημέρωση της προσωρινής μνήμης και χρήση της ακόμα και αν έχει λήξει."
 
-#: main.cpp:204
+#: main.cpp:205
 msgid "Control whether color is used."
 msgstr "Έλεγχος χρήσης χρωμάτων."
 
-#: main.cpp:210
+#: main.cpp:211
 msgid "Force refreshing metadata before running the command."
 msgstr "Επιβολή ανανέωσης μεταδεδομένων πριν την εκτέλεση της εντολής."
 
-#: main.cpp:226
+#: main.cpp:227
 #, c++-format
 msgid "Failed to expire repository cache in path \"{0}\": {1}"
 msgstr ""
 "Αποτυχία λήξης της προσωρινής μνήμης του αποθετηρίου στη διαδρομή \"{0}\": "
 "{1}"
 
-#: main.cpp:240
+#: main.cpp:241
 msgid "create additional repository using id and path"
 msgstr "δημιουργία πρόσθετου αποθετηρίου χρησιμοποιώντας id και διαδρομή"
 
-#: main.cpp:248
+#: main.cpp:249
 #, c++-format
 msgid "repofrompath: Incorrect repoid and path specification \"{}\""
 msgstr "repofrompath: Εσφαλμένη προδιαγραφή repoid και διαδρομής \"{}\""
 
-#: main.cpp:260
+#: main.cpp:261
 msgid "set arbitrary config and repo options"
 msgstr "ορισμός αυθαίρετων επιλογών ρυθμίσεων και αποθετηρίων"
 
-#: main.cpp:262
+#: main.cpp:263
 msgid ""
 "Override a configuration option from the configuration file. To override "
 "configuration options for repositories, use repoid.option for  the\n"
@@ -1763,12 +1763,12 @@ msgid ""
 "(e.g. --setopt=tsflags=) will clear the option."
 msgstr ""
 
-#: main.cpp:271 main.cpp:310
+#: main.cpp:272 main.cpp:311
 #, c++-format
 msgid "{}: Badly formatted argument value \"{}\""
 msgstr "{}: Κακώς μορφοποιημένη τιμή ορίσματος «{}»"
 
-#: main.cpp:278
+#: main.cpp:279
 #, c++-format
 msgid ""
 "{}: Badly formatted argument value: Last key character cannot be '.': {}"
@@ -1776,45 +1776,45 @@ msgstr ""
 "{}: Κακώς μορφοποιημένη τιμή ορίσματος: Ο τελευταίος χαρακτήρας του κλειδιού "
 "δεν μπορεί να είναι «.»: {}"
 
-#: main.cpp:291
+#: main.cpp:292
 #, c++-format
 msgid "setopt: \"{0}\": {1}"
 msgstr "setopt: \"{0}\": {1}"
 
-#: main.cpp:303
+#: main.cpp:304
 msgid "set arbitrary variable"
 msgstr "ορισμός αυθαίρετης μεταβλητής"
 
-#: main.cpp:317
+#: main.cpp:318
 #, c++-format
 msgid "setvar: {}"
 msgstr "setvar: {}"
 
-#: main.cpp:326
+#: main.cpp:327
 msgid "automatically answer yes for all questions"
 msgstr "αυτόματη απάντηση 'ναι' σε όλες τις ερωτήσεις"
 
-#: main.cpp:333
+#: main.cpp:334
 msgid "automatically answer no for all questions"
 msgstr "αυτόματη απάντηση 'όχι' σε όλες τις ερωτήσεις"
 
-#: main.cpp:340
+#: main.cpp:341
 msgid "try the best available package versions in transactions"
 msgstr "δοκιμή των βέλτιστων διαθέσιμων εκδόσεων πακέτων στις συναλλαγές"
 
-#: main.cpp:347
+#: main.cpp:348
 msgid "do not limit the transaction to the best candidate"
 msgstr "να μην περιορίζεται η συναλλαγή στον βέλτιστο υποψήφιο"
 
-#: main.cpp:356
+#: main.cpp:357
 msgid "allow automatic package replacements from different vendors"
 msgstr ""
 
-#: main.cpp:363
+#: main.cpp:364
 msgid "do not allow automatic package replacements from different vendors"
 msgstr ""
 
-#: main.cpp:376
+#: main.cpp:377
 #, fuzzy
 #| msgid ""
 #| "Enable additional repositories. List option. Supports globs, can be "
@@ -1826,7 +1826,7 @@ msgstr ""
 "Ενεργοποίηση πρόσθετων αποθετηρίων. Επιλογή λίστας. Υποστηρίζει globs, "
 "μπορεί να οριστεί πολλαπλές φορές."
 
-#: main.cpp:395
+#: main.cpp:396
 #, fuzzy
 #| msgid ""
 #| "Disable repositories. List option. Supports globs, can be specified "
@@ -1838,7 +1838,7 @@ msgstr ""
 "Απενεργοποίηση αποθετηρίων. Επιλογή λίστας. Υποστηρίζει globs, μπορεί να "
 "οριστεί πολλαπλές φορές."
 
-#: main.cpp:414
+#: main.cpp:415
 #, fuzzy
 #| msgid ""
 #| "Enable libdnf5 plugins by name. List option. Supports globs, can be "
@@ -1850,7 +1850,7 @@ msgstr ""
 "Ενεργοποίηση πρόσθετων libdnf5 ονομαστικά. Επιλογή λίστας. Υποστηρίζει "
 "globs, μπορεί να οριστεί πολλαπλές φορές."
 
-#: main.cpp:443
+#: main.cpp:444
 #, fuzzy
 #| msgid ""
 #| "Disable repositories. List option. Supports globs, can be specified "
@@ -1861,13 +1861,13 @@ msgstr ""
 "Απενεργοποίηση αποθετηρίων. Επιλογή λίστας. Υποστηρίζει globs, μπορεί να "
 "οριστεί πολλαπλές φορές."
 
-#: main.cpp:458
+#: main.cpp:459
 #, c++-format
 msgid ""
 "Remove all vendor change policies. Can be combined with {} to replace them."
 msgstr ""
 
-#: main.cpp:477
+#: main.cpp:478
 #, fuzzy
 #| msgid ""
 #| "Disable repositories. List option. Supports globs, can be specified "
@@ -1879,7 +1879,7 @@ msgstr ""
 "Απενεργοποίηση αποθετηρίων. Επιλογή λίστας. Υποστηρίζει globs, μπορεί να "
 "οριστεί πολλαπλές φορές."
 
-#: main.cpp:494
+#: main.cpp:495
 msgid ""
 "Don't install files that are marked as documentation (which includes man "
 "pages and texinfo documents)"
@@ -1887,11 +1887,11 @@ msgstr ""
 "Να μην εγκαθίστανται αρχεία που έχουν σημανθεί ως τεκμηρίωση (η οποία "
 "περιλαμβάνει σελίδες man και έγγραφα texinfo)"
 
-#: main.cpp:510
+#: main.cpp:511
 msgid "exclude packages by name or glob"
 msgstr "εξαίρεση πακέτων βάσει ονόματος ή glob"
 
-#: main.cpp:529
+#: main.cpp:530
 msgid ""
 "Enable additional repositories. List option. Supports globs, can be "
 "specified multiple times."
@@ -1899,7 +1899,7 @@ msgstr ""
 "Ενεργοποίηση πρόσθετων αποθετηρίων. Επιλογή λίστας. Υποστηρίζει globs, "
 "μπορεί να οριστεί πολλαπλές φορές."
 
-#: main.cpp:547
+#: main.cpp:548
 msgid ""
 "Disable repositories. List option. Supports globs, can be specified multiple "
 "times."
@@ -1907,7 +1907,7 @@ msgstr ""
 "Απενεργοποίηση αποθετηρίων. Επιλογή λίστας. Υποστηρίζει globs, μπορεί να "
 "οριστεί πολλαπλές φορές."
 
-#: main.cpp:565
+#: main.cpp:566
 msgid ""
 "Enable just specific repositories. List option. Supports globs, can be "
 "specified multiple times."
@@ -1915,16 +1915,16 @@ msgstr ""
 "Ενεργοποίηση μόνο συγκεκριμένων αποθετηρίων. Επιλογή λίστας. Υποστηρίζει "
 "globs, μπορεί να οριστεί πολλαπλές φορές."
 
-#: main.cpp:587
+#: main.cpp:588
 msgid "disable OpenPGP signature checking (if RPM policy allows)"
 msgstr ""
 "απενεργοποίηση ελέγχου υπογραφής OpenPGP (αν το επιτρέπει η πολιτική RPM)"
 
-#: main.cpp:604
+#: main.cpp:605
 msgid "Disable all libdnf5 plugins"
 msgstr "Απενεργοποίηση όλων των πρόσθετων libdnf5"
 
-#: main.cpp:614
+#: main.cpp:615
 msgid ""
 "Enable libdnf5 plugins by name. List option. Supports globs, can be "
 "specified multiple times."
@@ -1932,7 +1932,7 @@ msgstr ""
 "Ενεργοποίηση πρόσθετων libdnf5 ονομαστικά. Επιλογή λίστας. Υποστηρίζει "
 "globs, μπορεί να οριστεί πολλαπλές φορές."
 
-#: main.cpp:629
+#: main.cpp:630
 msgid ""
 "Disable libdnf5 plugins by name. List option. Supports globs, can be "
 "specified multiple times."
@@ -1940,11 +1940,11 @@ msgstr ""
 "Απενεργοποίηση πρόσθετων libdnf5 ονομαστικά. Επιλογή λίστας. Υποστηρίζει "
 "globs, μπορεί να οριστεί πολλαπλές φορές."
 
-#: main.cpp:646
+#: main.cpp:647
 msgid "add a comment to transaction"
 msgstr "προσθήκη σχολίου στη συναλλαγή"
 
-#: main.cpp:648
+#: main.cpp:649
 msgid ""
 "Adds a comment to the action. If a transaction takes place, the comment is "
 "stored in it."
@@ -1952,11 +1952,11 @@ msgstr ""
 "Προσθέτει ένα σχόλιο στην ενέργεια. Εάν πραγματοποιηθεί συναλλαγή, το σχόλιο "
 "αποθηκεύεται σε αυτήν."
 
-#: main.cpp:661
+#: main.cpp:662
 msgid "set install root"
 msgstr "ορισμός install root"
 
-#: main.cpp:668
+#: main.cpp:669
 msgid ""
 "use configuration, reposdir, and vars from the host system rather than the "
 "installroot"
@@ -1964,23 +1964,23 @@ msgstr ""
 "χρήση ρυθμίσεων, reposdir και μεταβλητών από το κεντρικό σύστημα αντί για το "
 "installroot"
 
-#: main.cpp:677
+#: main.cpp:678
 msgid "override the value of $releasever in config and repo files"
 msgstr "παράκαμψη της τιμής $releasever στα αρχεία ρυθμίσεων και αποθετηρίων"
 
-#: main.cpp:690
+#: main.cpp:691
 #, fuzzy
 #| msgid "override the value of $releasever in config and repo files"
 msgid "override the value of $releasever_major in config and repo files"
 msgstr "παράκαμψη της τιμής $releasever στα αρχεία ρυθμίσεων και αποθετηρίων"
 
-#: main.cpp:703
+#: main.cpp:704
 #, fuzzy
 #| msgid "override the value of $releasever in config and repo files"
 msgid "override the value of $releasever_minor in config and repo files"
 msgstr "παράκαμψη της τιμής $releasever στα αρχεία ρυθμίσεων και αποθετηρίων"
 
-#: main.cpp:716
+#: main.cpp:717
 msgid ""
 "Show newly installed leaf packages and packages that became leaves after a "
 "transaction."
@@ -1988,70 +1988,76 @@ msgstr ""
 "Εμφάνιση των πρόσφατα εγκατεστημένων πακέτων-φύλλων και των πακέτων που "
 "έγιναν φύλλα μετά από μια συναλλαγή."
 
-#: main.cpp:730
+#: main.cpp:731
 msgid "Dump detailed solving results into files"
 msgstr "Εξαγωγή λεπτομερών αποτελεσμάτων επίλυσης σε αρχεία"
 
-#: main.cpp:739
+#: main.cpp:740
 msgid "Print main configuration values to stdout"
 msgstr "Εκτύπωση των κύριων τιμών ρυθμίσεων στην τυπική έξοδο (stdout)"
 
-#: main.cpp:756
+#: main.cpp:757
 msgid ""
 "Print repository configuration values to stdout. List option. Supports globs"
 msgstr ""
 "Εκτύπωση των τιμών ρυθμίσεων των αποθετηρίων στην τυπική έξοδο. Επιλογή "
 "λίστας. Υποστηρίζει globs"
 
-#: main.cpp:771
+#: main.cpp:772
 msgid "Print variable values to stdout"
 msgstr "Εκτύπωση τιμών μεταβλητών στην τυπική έξοδο"
 
-#: main.cpp:785
+#: main.cpp:786
+#, fuzzy
+#| msgid "Print variable values to stdout"
+msgid "Print loaded vendor change policies to stdout"
+msgstr "Εκτύπωση τιμών μεταβλητών στην τυπική έξοδο"
+
+#: main.cpp:800
 msgid "Show DNF5 version and exit"
 msgstr "Εμφάνιση της έκδοσης του DNF5 και έξοδος"
 
-#: main.cpp:799
+#: main.cpp:814
 msgid "Force the use of a different architecture."
 msgstr "Επιβολή χρήσης διαφορετικής αρχιτεκτονικής."
 
-#: main.cpp:831
+#: main.cpp:846
 msgid "Skip acquiring file locks, such as the lock on the system repository"
 msgstr ""
 
-#: main.cpp:846
+#: main.cpp:861
 msgid "Software Management Commands:"
 msgstr "Εντολές Διαχείρισης Λογισμικού:"
 
-#: main.cpp:853
+#: main.cpp:868
 msgid "Query Commands:"
 msgstr "Εντολές Ερωτημάτων:"
 
-#: main.cpp:860
+#: main.cpp:875
 msgid "Subcommands:"
 msgstr "Υποεντολές:"
 
-#: main.cpp:961
+#: main.cpp:977
 #, c++-format
 msgid "{} version {}.{}.{}.{}"
 msgstr "{} έκδοση {}.{}.{}.{}"
 
-#: main.cpp:964
+#: main.cpp:980
 #, c++-format
 msgid "{} plugin API version {}.{}"
 msgstr "{} έκδοση API πρόσθετων {}.{}"
 
-#: main.cpp:969
+#: main.cpp:985
 #, c++-format
 msgid "libdnf5 version {}.{}.{}.{}"
 msgstr "libdnf5 έκδοση {}.{}.{}.{}"
 
-#: main.cpp:972
+#: main.cpp:988
 #, c++-format
 msgid "libdnf5 plugin API version {}.{}"
 msgstr "libdnf5 έκδοση API πρόσθετων {}.{}"
 
-#: main.cpp:979
+#: main.cpp:995
 #, c++-format
 msgid ""
 "\n"
@@ -2060,22 +2066,22 @@ msgstr ""
 "\n"
 "Φορτώθηκαν {} πρόσθετα:"
 
-#: main.cpp:984 main.cpp:1000
+#: main.cpp:1000 main.cpp:1016
 #, c++-format
 msgid "  name: {}"
 msgstr "  όνομα: {}"
 
-#: main.cpp:987 main.cpp:1003
+#: main.cpp:1003 main.cpp:1019
 #, c++-format
 msgid "  version: {}.{}.{}"
 msgstr "  έκδοση: {}.{}.{}"
 
-#: main.cpp:989 main.cpp:1005
+#: main.cpp:1005 main.cpp:1021
 #, c++-format
 msgid "  API version: {}.{}"
 msgstr "  Έκδοση API: {}.{}"
 
-#: main.cpp:996
+#: main.cpp:1012
 #, fuzzy
 #| msgid ""
 #| "\n"
@@ -2087,7 +2093,7 @@ msgstr ""
 "\n"
 "Φορτώθηκαν {} πρόσθετα:"
 
-#: main.cpp:1043
+#: main.cpp:1059
 #, c++-format
 msgid ""
 "Total size of inbound packages is {:.0f} {:s}. Need to download {:.0f} {:s}."
@@ -2095,7 +2101,7 @@ msgstr ""
 "Το συνολικό μέγεθος των εισερχόμενων πακέτων είναι {:.0f} {:s}. Απαιτείται "
 "λήψη {:.0f} {:s}."
 
-#: main.cpp:1060
+#: main.cpp:1076
 #, c++-format
 msgid ""
 "After this operation, {:.0f} {:s} extra will be used (install {:.0f} {:s}, "
@@ -2104,7 +2110,7 @@ msgstr ""
 "Μετά από αυτήν την ενέργεια, θα χρησιμοποιηθούν επιπλέον {:.0f} {:s} "
 "(εγκατάσταση {:.0f} {:s}, αφαίρεση {:.0f} {:s})."
 
-#: main.cpp:1071
+#: main.cpp:1087
 #, c++-format
 msgid ""
 "After this operation, {:.0f} {:s} will be freed (install {:.0f} {:s}, remove "
@@ -2113,44 +2119,61 @@ msgstr ""
 "Μετά από αυτήν την ενέργεια, θα ελευθερωθούν {:.0f} {:s} (εγκατάσταση {:.0f} "
 "{:s}, αφαίρεση {:.0f} {:s})."
 
-#: main.cpp:1083
+#: main.cpp:1099
 msgid "======== Main configuration: ========"
 msgstr "======== Κύριες ρυθμίσεις: ========"
 
-#: main.cpp:1120
+#: main.cpp:1136
 #, c++-format
 msgid "No matching repo to dump configuration: \"{}\""
 msgstr "Δεν βρέθηκε αντίστοιχο αποθετήριο για εξαγωγή ρυθμίσεων: \"{}\""
 
-#: main.cpp:1125
+#: main.cpp:1141
 #, c++-format
 msgid "======== \"{}\" repository configuration: ========"
 msgstr "======== Ρυθμίσεις αποθετηρίου \"{}\": ========"
 
-#: main.cpp:1145
+#: main.cpp:1161
 msgid "======== Variables: ========"
 msgstr "======== Μεταβλητές: ========"
 
-#: main.cpp:1185
+#: main.cpp:1169
+#, fuzzy
+#| msgid "======== Variables: ========"
+msgid "======== Vendor Change Policies: ========"
+msgstr "======== Μεταβλητές: ========"
+
+#: main.cpp:1173
+#, c++-format
+msgid "Policy #{}: source: {}"
+msgstr ""
+
+#: main.cpp:1179
+msgid ""
+"allow_vendor_change is enabled. Packages can be replaced by any vendor, and "
+"vendor change policies will be ignored."
+msgstr ""
+
+#: main.cpp:1217
 msgid "New leaves:"
 msgstr "Νέα φύλλα:"
 
-#: main.cpp:1187
+#: main.cpp:1219
 #, c++-format
 msgid " {}"
 msgstr " {}"
 
-#: main.cpp:1247
+#: main.cpp:1279
 #, c++-format
 msgid "{} to skip unavailable packages"
 msgstr "{} για παράλειψη μη διαθέσιμων πακέτων"
 
-#: main.cpp:1255
+#: main.cpp:1287
 #, c++-format
 msgid "{} to allow extra packages in the transaction"
 msgstr "{} για να επιτραπούν επιπλέον πακέτα στη συναλλαγή"
 
-#: main.cpp:1268
+#: main.cpp:1300
 #, c++-format
 msgid ""
 "{} to allow mismatches between installed and stored transaction packages. "
@@ -2162,56 +2185,56 @@ msgstr ""
 "επειδή μεταξύ άλλων η επιλογή μπορεί να αγνοήσει αποτυχημένες ενέργειες "
 "αφαίρεσης."
 
-#: main.cpp:1324
+#: main.cpp:1356
 #, c++-format
 msgid "{} to not limit the transaction to the best candidates"
 msgstr "{} για να μην περιοριστεί η συναλλαγή στους βέλτιστους υποψηφίους"
 
-#: main.cpp:1331
+#: main.cpp:1363
 #, c++-format
 msgid "{} to allow removing of installed packages to resolve problems"
 msgstr ""
 "{} για να επιτραπεί η αφαίρεση εγκατεστημένων πακέτων για την επίλυση "
 "προβλημάτων"
 
-#: main.cpp:1340
+#: main.cpp:1372
 #, c++-format
 msgid "{} to load additional filelists metadata"
 msgstr "{} για φόρτωση επιπλέον μεταδεδομένων filelists"
 
-#: main.cpp:1347
+#: main.cpp:1379
 #, c++-format
 msgid "{} to skip uninstallable packages"
 msgstr "{} για παράλειψη πακέτων που δεν μπορούν να εγκατασταθούν"
 
-#: main.cpp:1362
+#: main.cpp:1394
 #, fuzzy, c++-format
 #| msgid "{} to allow extra packages in the transaction"
 msgid "{} to allow switching to packages from VENDOR"
 msgstr "{} για να επιτραπούν επιπλέον πακέτα στη συναλλαγή"
 
-#: main.cpp:1364
+#: main.cpp:1396
 #, fuzzy, c++-format
 #| msgid "{} to allow extra packages in the transaction"
 msgid "{} to allow replacing packages from VENDOR"
 msgstr "{} για να επιτραπούν επιπλέον πακέτα στη συναλλαγή"
 
-#: main.cpp:1366
+#: main.cpp:1398
 #, c++-format
 msgid "{} to add specific vendor change rules"
 msgstr ""
 
-#: main.cpp:1367
+#: main.cpp:1399
 #, fuzzy, c++-format
 #| msgid "{} to allow extra packages in the transaction"
 msgid "{} to allow all vendor changes"
 msgstr "{} για να επιτραπούν επιπλέον πακέτα στη συναλλαγή"
 
-#: main.cpp:1371
+#: main.cpp:1403
 msgid "You can try to add to command line:"
 msgstr "Μπορείτε να δοκιμάσετε να προσθέσετε στη γραμμή εντολών:"
 
-#: main.cpp:1389
+#: main.cpp:1421
 #, c++-format
 msgid ""
 "No matches were found for the following plugin name patterns while enabling "
@@ -2220,7 +2243,7 @@ msgstr ""
 "Δεν βρέθηκαν αντιστοιχίες για τα ακόλουθα πρότυπα ονομάτων πρόσθετων κατά "
 "την ενεργοποίηση πρόσθετων libdnf: {}"
 
-#: main.cpp:1390
+#: main.cpp:1422
 #, c++-format
 msgid ""
 "No matches were found for the following plugin name patterns while disabling "
@@ -2229,28 +2252,28 @@ msgstr ""
 "Δεν βρέθηκαν αντιστοιχίες για τα ακόλουθα πρότυπα ονομάτων πρόσθετων κατά "
 "την απενεργοποίηση πρόσθετων libdnf: {}"
 
-#: main.cpp:1456
+#: main.cpp:1488
 #, c++-format
 msgid "--- DNF5 launched with arguments: \"{}\" ---"
 msgstr "--- Το DNF5 ξεκίνησε με ορίσματα: \"{}\" ---"
 
-#: main.cpp:1492
+#: main.cpp:1524
 #, c++-format
 msgid "Invalid \"index\" in \"--complete=<index>[,...]\": {}"
 msgstr "Μη έγκυρο \"index\" στο \"--complete=<index>[,...]\": {}"
 
-#: main.cpp:1531
+#: main.cpp:1563
 #, c++-format
 msgid "{}."
 msgstr "{}."
 
-#: main.cpp:1534 main.cpp:1917
+#: main.cpp:1566 main.cpp:1953
 #, c++-format
 msgid "{}. Add \"--help\" for more information about the arguments."
 msgstr ""
 "{}. Προσθέστε \"--help\" για περισσότερες πληροφορίες σχετικά με τα ορίσματα."
 
-#: main.cpp:1543
+#: main.cpp:1575
 #, c++-format
 msgid ""
 "It could be a command provided by a plugin, try: dnf5 install 'dnf5-"
@@ -2259,7 +2282,7 @@ msgstr ""
 "Θα μπορούσε να είναι μια εντολή που παρέχεται από ένα πρόσθετο, δοκιμάστε: "
 "dnf5 install 'dnf5-command({})'"
 
-#: main.cpp:1585
+#: main.cpp:1617
 #, c++-format
 msgid ""
 "The argument is available for commands: {}. (It has to be placed after the "
@@ -2268,20 +2291,20 @@ msgstr ""
 "Το όρισμα είναι διαθέσιμο για τις εντολές: {}. (Πρέπει να τοποθετηθεί μετά "
 "την εντολή.)"
 
-#: main.cpp:1622
+#: main.cpp:1654
 msgid "No read/execute access in current directory, moving to /"
 msgstr ""
 "Δεν υπάρχει πρόσβαση ανάγνωσης/εκτέλεσης στον τρέχοντα κατάλογο, μετακίνηση "
 "στο /"
 
-#: main.cpp:1657
+#: main.cpp:1689
 #, c++-format
 msgid ""
 "{}. Dropping all logs. To redirect the log file location use the \"logdir\" "
 "configuration option."
 msgstr ""
 
-#: main.cpp:1718
+#: main.cpp:1754
 msgid ""
 "The requested operation requires superuser privileges. Please log in as a "
 "user with elevated rights, or use the \"--assumeno\" or \"--downloadonly\" "
@@ -2292,26 +2315,26 @@ msgstr ""
 "ή \"--downloadonly\" για να εκτελέσετε την εντολή χωρίς να τροποποιήσετε την "
 "κατάσταση του συστήματος."
 
-#: main.cpp:1732
+#: main.cpp:1768
 #, c++-format
 msgid "Warning: {}"
 msgstr ""
 
-#: main.cpp:1745
+#: main.cpp:1781
 msgid ""
 "Error: /usr is configured to be read-only. You may be running an image-based "
 "or immutable operating system. For more information, refer to your "
 "distribution's documentation."
 msgstr ""
 
-#: main.cpp:1764
+#: main.cpp:1800
 msgid ""
 "Error: persistent transactions aren't supported on bootc systems. Pass --"
 "transient to perform this operation in a transient overlay which will reset "
 "when the system reboots."
 msgstr ""
 
-#: main.cpp:1774
+#: main.cpp:1810
 #, fuzzy
 #| msgid ""
 #| "Error: this bootc system is configured to be read-only. For more "
@@ -2324,20 +2347,20 @@ msgstr ""
 "Σφάλμα: αυτό το σύστημα bootc είναι ρυθμισμένο να είναι μόνο για ανάγνωση. "
 "Για περισσότερες πληροφορίες, εκτελέστε `bootc --help`."
 
-#: main.cpp:1785
+#: main.cpp:1821
 msgid "Error: transient transactions are only supported on bootc systems."
 msgstr ""
 
-#: main.cpp:1826
+#: main.cpp:1862
 #, c++-format
 msgid "The operation will only store the transaction in {}"
 msgstr "Η ενέργεια θα αποθηκεύσει μόνο τη συναλλαγή στο {}"
 
-#: main.cpp:1828
+#: main.cpp:1864
 msgid "The operation will only download packages for the transaction."
 msgstr "Η ενέργεια θα πραγματοποιήσει μόνο λήψη πακέτων για τη συναλλαγή."
 
-#: main.cpp:1833
+#: main.cpp:1869
 msgid ""
 "Test mode enabled: Only package downloads, OpenPGP key installations and "
 "transaction checks will be performed."
@@ -2345,13 +2368,13 @@ msgstr ""
 "Λειτουργία δοκιμής ενεργοποιημένη: Θα πραγματοποιηθούν μόνο λήψεις πακέτων, "
 "εγκαταστάσεις κλειδιών OpenPGP και έλεγχοι συναλλαγών."
 
-#: main.cpp:1842
+#: main.cpp:1878
 #, fuzzy
 #| msgid "Starting offline transaction. This will take a while."
 msgid "Warning: A pending offline transaction will be invalidated."
 msgstr "Έναρξη offline συναλλαγής. Αυτό θα πάρει λίγη ώρα."
 
-#: main.cpp:1845
+#: main.cpp:1881
 #, fuzzy, c++-format
 #| msgid "An offline transaction was initiated by the following command:"
 msgid ""
@@ -2359,36 +2382,36 @@ msgid ""
 "will be invalidated: {}"
 msgstr "Μια offline συναλλαγή ξεκίνησε από την ακόλουθη εντολή:"
 
-#: main.cpp:1870
+#: main.cpp:1906
 msgid ""
 "This transaction would modify the following paths, possibly introducing "
 "inconsistencies when the transient overlay on /usr is discarded. See the "
 "usr_drift_protected_paths configuration option for more information."
 msgstr ""
 
-#: main.cpp:1881
+#: main.cpp:1917
 msgid ""
 "Operation aborted. Pass --setopt=usr_drift_protected_paths= to disable this "
 "check and proceed anyway."
 msgstr ""
 
-#: main.cpp:1890
+#: main.cpp:1926
 msgid ""
 "A transient overlay will be created on /usr that will be discarded on "
 "reboot. Keep in mind that changes to /etc and /var will still persist, and "
 "packages commonly modify these directories."
 msgstr ""
 
-#: main.cpp:1927
+#: main.cpp:1963
 #, c++-format
 msgid "Command returned error: {}"
 msgstr "Η εντολή επέστρεψε σφάλμα: {}"
 
-#: main.cpp:1935
+#: main.cpp:1971
 msgid "DNF5 finished"
 msgstr "Το DNF5 ολοκληρώθηκε"
 
-#: main.cpp:1939
+#: main.cpp:1975
 msgid "Complete!"
 msgstr "Ολοκληρώθηκε!"
 

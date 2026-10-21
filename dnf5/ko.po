@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-16 18:17+0000\n"
+"POT-Creation-Date: 2026-10-20 19:42+0000\n"
 "PO-Revision-Date: 2026-10-20 06:25+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
@@ -23,7 +23,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 2026.10.1\n"
 
-#: cmdline_aliases.cpp:84 context.cpp:222 main.cpp:1587
+#: cmdline_aliases.cpp:84 context.cpp:222 main.cpp:1619
 msgid ", "
 msgstr ", "
 
@@ -403,8 +403,8 @@ msgid ""
 "advisories matching selected advisory properties"
 msgstr ""
 "결점 수정, 개선, 보안, 또는 신규 꾸러미 유형의 권고를 수정하는 꾸러미의 최저 "
-"버전을 보고합니다. 옵션을 제한하는 권고가 사용되는 경우 선택한 권고 속성과 "
-"일치하는 권고를 수정하는 최저 버전의 꾸러미를 보고합니다."
+"버전을 보고합니다. 옵션을 제한하는 권고가 사용되는 경우 선택한 권고 속성과 일"
+"치하는 권고를 수정하는 최저 버전의 꾸러미를 보고합니다."
 
 #: commands/check/check.cpp:247
 msgid "Check for problems in the packagedb"
@@ -506,14 +506,15 @@ msgstr "소프트웨어 하향설치"
 
 #: commands/download/download.cpp:123
 msgid "When running with --url, prints URLs from all available mirrors"
-msgstr "--url 과 함께 사용하여 실행하면, 모든 사용 가능한 미러에서 URL을 출력합니다"
+msgstr ""
+"--url 과 함께 사용하여 실행하면, 모든 사용 가능한 미러에서 URL을 출력합니다"
 
 #: commands/download/download.cpp:139
 #, c++-format
 msgid "Invalid urlprotocol option: {}"
 msgstr "잘못된 urlprotocol 옵션: {}"
 
-#: commands/download/download.cpp:166 main.cpp:818
+#: commands/download/download.cpp:166 main.cpp:833
 #, c++-format
 msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
 msgstr "미지원 구조 \"{0}\". {1}에서 하나를 골라주세요"
@@ -528,8 +529,8 @@ msgstr "옵션 \"--alldeps\"은 \"--resolve\"와 함께 사용 될 수 있습니
 msgid ""
 "No package \"{}\" available; You might want to use --skip-unavailable option."
 msgstr ""
-"사용 가능한 \"{}\" 꾸러미가 없습니다; --skip-unavailable 선택을 사용하고 "
-"싶을 수도 있습니다."
+"사용 가능한 \"{}\" 꾸러미가 없습니다; --skip-unavailable 선택을 사용하고 싶"
+"을 수도 있습니다."
 
 #: commands/environment/arguments.hpp:33
 msgid "Show only available environments."
@@ -579,8 +580,8 @@ msgid ""
 "Show only groups containing packages with specified names. List option, "
 "supports globs."
 msgstr ""
-"지정된 이름을 갖는 꾸러미가 포함된 그룹만 표시합니다. 옵션 목록, "
-"와일드카드를 지원합니다."
+"지정된 이름을 갖는 꾸러미가 포함된 그룹만 표시합니다. 옵션 목록, 와일드카드"
+"를 지원합니다."
 
 #: commands/group/arguments.hpp:67
 msgid "Pattern matching group identifiers."
@@ -639,9 +640,9 @@ msgid ""
 "as errors. This can result in an empty transaction because among other "
 "things the option can ignore failing Remove actions."
 msgstr ""
-"오류가 있는 설치되었거나 저장된 연결 꾸러미 사이에서 불일치를 고려하지 "
-"마세요. 무엇보다도 이 옵션은 실패한 제거 작업들 무시 할 수 있기 때문에 빈 "
-"연결이 나타 날 수 있습니다."
+"오류가 있는 설치되었거나 저장된 연결 꾸러미 사이에서 불일치를 고려하지 마세"
+"요. 무엇보다도 이 옵션은 실패한 제거 작업들 무시 할 수 있기 때문에 빈 연결이 "
+"나타 날 수 있습니다."
 
 #: commands/history/arguments.hpp:67
 msgid "Don't consider extra packages pulled into the transaction as errors."
@@ -652,8 +653,8 @@ msgid ""
 "Show only transactions containing packages with specified names. List "
 "option, supports globs."
 msgstr ""
-"지정된 이름을 갖는 꾸러미가 포함된 연결만 표시합니다. 옵션 목록, "
-"와일드카드를 지원."
+"지정된 이름을 갖는 꾸러미가 포함된 연결만 표시합니다. 옵션 목록, 와일드카드"
+"를 지원."
 
 #: commands/history/history.cpp:41
 msgid "Manage transaction history"
@@ -664,8 +665,8 @@ msgid ""
 "No match found, history info defaults to considering only the last "
 "transaction, specify \"1..last\" range to search all transactions."
 msgstr ""
-"일치하는 내용이 없으며, 기록 정보는 최종 연결만 고려하고, 모든 연결을 "
-"검색하려면 \"1..last\" 범위를 지정하세요."
+"일치하는 내용이 없으며, 기록 정보는 최종 연결만 고려하고, 모든 연결을 검색하"
+"려면 \"1..last\" 범위를 지정하세요."
 
 #: commands/history/history_redo.cpp:56
 #: commands/history/history_rollback.cpp:60
@@ -744,8 +745,8 @@ msgid ""
 "List packages installed on the system that are obsoleted by packages in any "
 "known repository."
 msgstr ""
-"모든 알려진 저장소의 꾸러미들에 의해 더 이상 사용하지 않는 시스템에 설치된 "
-"꾸러미 목록."
+"모든 알려진 저장소의 꾸러미들에 의해 더 이상 사용하지 않는 시스템에 설치된 꾸"
+"러미 목록."
 
 #: commands/list/list.cpp:94
 msgid "List packages recently added into the repositories."
@@ -1057,7 +1058,8 @@ msgstr "소프트웨어 제거(설치 해제)"
 msgid ""
 "Option '--limit' must be equal or greater than 1 (to keep at least the "
 "newest installed package)."
-msgstr "'--limit' 옵션은 1 이상이어야 합니다(최소한 최근 설치된 꾸러미를 유지하도록)."
+msgstr ""
+"'--limit' 옵션은 1 이상이어야 합니다(최소한 최근 설치된 꾸러미를 유지하도록)."
 
 #: commands/remove/remove.cpp:237
 msgid "Option '--limit' can only be used with '--oldinstallonly'."
@@ -1164,8 +1166,8 @@ msgid ""
 "Do not install packages from the new release if they are older than what is "
 "currently installed"
 msgstr ""
-"만약 현재 설치된 것보다 오래된 경우라면 신규 출시에서 꾸러미를 설치하지 "
-"않습니다"
+"만약 현재 설치된 것보다 오래된 경우라면 신규 출시에서 꾸러미를 설치하지 않습"
+"니다"
 
 #: commands/system-upgrade/system-upgrade.cpp:101
 msgid "Need a --releasever greater than the current system version."
@@ -1253,8 +1255,8 @@ msgid ""
 "List of packages to exclude. If no version is specified, all available "
 "versions of the package will be excluded."
 msgstr ""
-"제외되는 꾸러미 목록. 만약 버전을 지정하지 않으면, 모든 사용 가능한 해당 "
-"꾸러미 버전이 제외됩니다."
+"제외되는 꾸러미 목록. 만약 버전을 지정하지 않으면, 모든 사용 가능한 해당 꾸러"
+"미 버전이 제외됩니다."
 
 #: commands/versionlock/versionlock_exclude.cpp:91
 #: commands/versionlock/versionlock_exclude.cpp:103
@@ -1473,84 +1475,84 @@ msgstr "경고: 대기 중인 오프라인 트랜잭션이 무효화되었습니
 msgid "To reschedule, run: {}"
 msgstr "다시 예약하려면 다음 명령을 실행하세요: {}"
 
-#: context.cpp:1026
+#: context.cpp:1034
 #, c++-format
 msgid "Upgrading {}"
 msgstr "{} 업그레이드 중"
 
-#: context.cpp:1029
+#: context.cpp:1037
 #, c++-format
 msgid "Downgrading {}"
 msgstr "{} 다운그레이드 중"
 
-#: context.cpp:1032
+#: context.cpp:1040
 #, c++-format
 msgid "Reinstalling {}"
 msgstr "{} 재설치 중"
 
-#: context.cpp:1045
+#: context.cpp:1053
 #, c++-format
 msgid "Unexpected action in TransactionPackage: {}"
 msgstr "연결꾸러미에서 예상치 못한 동작: {}"
 
-#: context.cpp:1051
+#: context.cpp:1059
 #, c++-format
 msgid "Installing {}"
 msgstr "{} 설치 중"
 
-#: context.cpp:1072
+#: context.cpp:1080
 msgid "Prepare transaction"
 msgstr "트랜잭션 준비"
 
-#: context.cpp:1092
+#: context.cpp:1100
 #, c++-format
 msgid "Removing {}"
 msgstr "{} 제거 중"
 
-#: context.cpp:1095
+#: context.cpp:1103
 #, c++-format
 msgid "Cleanup {}"
 msgstr "{} 정리 중"
 
-#: context.cpp:1114
+#: context.cpp:1122
 #, c++-format
 msgid "Unpack error: {}"
 msgstr "압축 해제 오류: {}"
 
-#: context.cpp:1123
+#: context.cpp:1131
 #, c++-format
 msgid "Cpio error: {}"
 msgstr "Cpio 오류: {}"
 
-#: context.cpp:1133
+#: context.cpp:1141
 msgid "Scriptlet output:"
 msgstr "스크립틀릿 출력:"
 
-#: context.cpp:1156
+#: context.cpp:1164
 msgid "Running scriptlets"
 msgstr "스크립틀릿 실행 중"
 
-#: context.cpp:1162
+#: context.cpp:1170
 #, c++-format
 msgid "Running {} scriptlet: {}"
 msgstr "{} 스크립틀릿 실행 중: {}"
 
-#: context.cpp:1178
+#: context.cpp:1186
 #, c++-format
 msgid "Finished {} scriptlet: {}"
 msgstr "{} 스크립틀릿 실행 완료: {}"
 
-#: context.cpp:1185
+#: context.cpp:1193
 #, c++-format
 msgid "Non-critical error in {} scriptlet: {}"
 msgstr "{} 스크립틀릿에서 비치명적 오류 발생: {}"
 
-#: context.cpp:1195
+#: context.cpp:1203
 #, c++-format
 msgid "Error in {} scriptlet: {}"
 msgstr "{} 스크립틀릿에서 오류 발생: {}"
 
-#: context.cpp:1230
+#: context.cpp:1238
 msgid "Verify package files"
 msgstr "꾸러미 파일 검증"
 
@@ -1564,31 +1566,31 @@ msgstr "공유 라이브러리 \"{}\"를 불러올 수 없습니다: {}"
 msgid "Cannot obtain address of symbol \"{}\": {}"
 msgstr "심볼 \"{}\"의 주소를 가져올 수 없습니다: {}"
 
-#: main.cpp:155
+#: main.cpp:156
 msgid "Utility for packages maintaining"
 msgstr "꾸러미 유지 관리용 유틸리티"
 
-#: main.cpp:156
+#: main.cpp:157
 msgid "DNF5 is a program for maintaining packages."
 msgstr "DNF5는 꾸러미 유지 관리용 프로그램입니다."
 
-#: main.cpp:157
+#: main.cpp:158
 msgid "Unclassified options:"
 msgstr "분류되지 않은 옵션:"
 
-#: main.cpp:160
+#: main.cpp:161
 msgid "Global options:"
 msgstr "전역 옵션:"
 
-#: main.cpp:165
+#: main.cpp:166
 msgid "Print help"
 msgstr "도움말 출력"
 
-#: main.cpp:172
+#: main.cpp:173
 msgid "Configuration file location"
 msgstr "설정 파일 위치"
 
-#: main.cpp:180
+#: main.cpp:181
 msgid ""
 "In combination with a non-interactive command, shows just the relevant "
 "content. Suppresses messages notifying about the current state or actions of "
@@ -1597,7 +1599,7 @@ msgstr ""
 "비대화형 명령과 함께 사용하면 관련 내용만 표시합니다. dnf5의 현재 상태나 작업"
 "을 알리는 메시지는 표시하지 않습니다."
 
-#: main.cpp:195
+#: main.cpp:196
 msgid ""
 "Run entirely from system cache, don't update the cache and use it even in "
 "case it is expired."
@@ -1605,33 +1607,33 @@ msgstr ""
 "시스템 캐쉬에서 전체를 동작하며, 캐쉬를 최신화 하지 않고 만료된 경우라도 사용"
 "합니다."
 
-#: main.cpp:204
+#: main.cpp:205
 msgid "Control whether color is used."
 msgstr "색상 사용 여부를 설정합니다."
 
-#: main.cpp:210
+#: main.cpp:211
 msgid "Force refreshing metadata before running the command."
 msgstr "명령을 실행하기 전에 메타데이터를 강제로 새로 고칩니다."
 
-#: main.cpp:226
+#: main.cpp:227
 #, c++-format
 msgid "Failed to expire repository cache in path \"{0}\": {1}"
 msgstr "경로 \"{0}\"의 저장소 캐시를 만료 처리하지 못했습니다: {1}"
 
-#: main.cpp:240
+#: main.cpp:241
 msgid "create additional repository using id and path"
 msgstr "id 및 경로를 사용하여 추가 저장소를 생성합니다"
 
-#: main.cpp:248
+#: main.cpp:249
 #, c++-format
 msgid "repofrompath: Incorrect repoid and path specification \"{}\""
 msgstr "repofrompath: 잘못된 repoid 및 경로 지정 \"{}\""
 
-#: main.cpp:260
+#: main.cpp:261
 msgid "set arbitrary config and repo options"
 msgstr "임의의 설정 및 저장소 옵션을 지정합니다"
 
-#: main.cpp:262
+#: main.cpp:263
 msgid ""
 "Override a configuration option from the configuration file. To override "
 "configuration options for repositories, use repoid.option for  the\n"
@@ -1641,122 +1643,122 @@ msgid ""
 "              they do not override it. However, specifying an empty value "
 "(e.g. --setopt=tsflags=) will clear the option."
 msgstr ""
-"설정 파일에 지정된 옵션 값을 재정의합니다. 저장소용 구성 옵션을 "
-"재정의하려면, repoid.option을 사용하세요\n"
-"              <option>.  excludepkgs, includepkgs, installonlypkgs 및 "
-"tsflags와 같은 구성 옵션용  Values  은 원래 값으로 추가되었으며,\n"
+"설정 파일에 지정된 옵션 값을 재정의합니다. 저장소용 구성 옵션을 재정의하려"
+"면, repoid.option을 사용하세요\n"
+"              <option>.  excludepkgs, includepkgs, installonlypkgs 및 tsflags"
+"와 같은 구성 옵션용  Values  은 원래 값으로 추가되었으며,\n"
 "              이는 재정의 하지 않습니다. 단, 빈 값(예: --setopt=tsflags=)을 "
 "지정하면 해당 옵션의 값이 지워집니다."
 
-#: main.cpp:271 main.cpp:310
+#: main.cpp:272 main.cpp:311
 #, c++-format
 msgid "{}: Badly formatted argument value \"{}\""
 msgstr "{}: 인수 값 \"{}\"의 형식이 잘못되었습니다"
 
-#: main.cpp:278
+#: main.cpp:279
 #, c++-format
 msgid ""
 "{}: Badly formatted argument value: Last key character cannot be '.': {}"
 msgstr ""
 "{}: 인수 값의 형식이 잘못되었습니다. 키의 마지막 문자는 '.'일 수 없습니다: {}"
 
-#: main.cpp:291
+#: main.cpp:292
 #, c++-format
 msgid "setopt: \"{0}\": {1}"
 msgstr "setopt: \"{0}\": {1}"
 
-#: main.cpp:303
+#: main.cpp:304
 msgid "set arbitrary variable"
 msgstr "임의의 변수를 설정합니다"
 
-#: main.cpp:317
+#: main.cpp:318
 #, c++-format
 msgid "setvar: {}"
 msgstr "setvar: {}"
 
-#: main.cpp:326
+#: main.cpp:327
 msgid "automatically answer yes for all questions"
 msgstr "모든 질문에 자동으로 '예'라고 응답합니다"
 
-#: main.cpp:333
+#: main.cpp:334
 msgid "automatically answer no for all questions"
 msgstr "모든 질문에 자동으로 '아니요'라고 응답합니다"
 
-#: main.cpp:340
+#: main.cpp:341
 msgid "try the best available package versions in transactions"
 msgstr "연결에서 최상의 사용 가능한 꾸러미 버전을 시도합니다"
 
-#: main.cpp:347
+#: main.cpp:348
 msgid "do not limit the transaction to the best candidate"
 msgstr "트랜잭션을 최적의 후보로만 제한하지 않습니다"
 
-#: main.cpp:356
+#: main.cpp:357
 msgid "allow automatic package replacements from different vendors"
 msgstr "다른 공급업체에서 자동 꾸러미 교체를 허용합니다"
 
-#: main.cpp:363
+#: main.cpp:364
 msgid "do not allow automatic package replacements from different vendors"
 msgstr "다른 공급업체에서 자동 꾸러미 교체를 허용하지 않습니다"
 
-#: main.cpp:376
+#: main.cpp:377
 msgid ""
 "Allow switching packages from any vendor to packages from VENDOR. Supports "
 "globs, can be specified multiple times."
 msgstr ""
-"모든 공급업체에서 VENDOR의 꾸러미로 변경된 꾸러미를 허용합니다.와일드카드 "
-"유형을 지원하며, 여러 번 지정 할 수 있습니다."
+"모든 공급업체에서 VENDOR의 꾸러미로 변경된 꾸러미를 허용합니다.와일드카드 유"
+"형을 지원하며, 여러 번 지정 할 수 있습니다."
 
-#: main.cpp:395
+#: main.cpp:396
 msgid ""
 "Allow replacing packages from VENDOR to packages from any vendor. Supports "
 "globs, can be specified multiple times."
 msgstr ""
-"공급업체의 꾸러미를 모든 공급업체의 꾸러미로 교체 할 수 있도록 허용합니다. "
-"와일드카드 유형을 지원하며, 여러 번 지정 할 수 있습니다."
+"공급업체의 꾸러미를 모든 공급업체의 꾸러미로 교체 할 수 있도록 허용합니다. 와"
+"일드카드 유형을 지원하며, 여러 번 지정 할 수 있습니다."
 
-#: main.cpp:414
+#: main.cpp:415
 msgid ""
 "Allow vendor changes for packages matching PKG_NAME (bidirectional). List "
 "option. Supports globs, can be specified multiple times."
 msgstr ""
-"PKG_NAME (양방향)과 일치하는 꾸러미를 위한 제조사 변경을 허용합니다. 목록 "
-"옵션. 와일드카드 유형을 지원하며, 여러 번 지정 할 수 있습니다."
+"PKG_NAME (양방향)과 일치하는 꾸러미를 위한 제조사 변경을 허용합니다. 목록 옵"
+"션. 와일드카드 유형을 지원하며, 여러 번 지정 할 수 있습니다."
 
-#: main.cpp:443
+#: main.cpp:444
 msgid ""
 "Add a vendor change policy for this run. Can be specified multiple times."
 msgstr ""
-"이와 같은 동작을 위한 제조사 변경 정책을 추가합니다. 여러 번 지정 할 수 "
-"있습니다."
+"이와 같은 동작을 위한 제조사 변경 정책을 추가합니다. 여러 번 지정 할 수 있습"
+"니다."
 
-#: main.cpp:458
+#: main.cpp:459
 #, c++-format
 msgid ""
 "Remove all vendor change policies. Can be combined with {} to replace them."
 msgstr ""
-"모든 공급업체 변경 정책을 제거합니다. {} 와 함께 연결 할 수 있고 이를 "
-"대체합니다."
+"모든 공급업체 변경 정책을 제거합니다. {} 와 함께 연결 할 수 있고 이를 대체합"
+"니다."
 
-#: main.cpp:477
+#: main.cpp:478
 msgid ""
 "Disable vendor change policies whose source matches the specified pattern. "
 "Supports globs, can be specified multiple times."
 msgstr ""
-"원천이 지정된 유형과 일치하는 공급업체 정책을 비활성합니다. 와일드카드 "
-"유형을 지원하며, 여러 번 지정 할 수 있습니다."
+"원천이 지정된 유형과 일치하는 공급업체 정책을 비활성합니다. 와일드카드 유형"
+"을 지원하며, 여러 번 지정 할 수 있습니다."
 
-#: main.cpp:494
+#: main.cpp:495
 msgid ""
 "Don't install files that are marked as documentation (which includes man "
 "pages and texinfo documents)"
 msgstr ""
 "문서로 표시된 파일을 설치하지 않습니다(man 페이지 및 texinfo 문서 포함)"
 
-#: main.cpp:510
+#: main.cpp:511
 msgid "exclude packages by name or glob"
 msgstr "이름이나 와일드카드로 꾸러미를 제외합니다"
 
-#: main.cpp:529
+#: main.cpp:530
 msgid ""
 "Enable additional repositories. List option. Supports globs, can be "
 "specified multiple times."
@@ -1764,7 +1766,7 @@ msgstr ""
 "추가 저장소를 활성화합니다. 목록 형식의 옵션입니다. 와일드카드 패턴을 지원하"
 "며, 여러 번 지정할 수 있습니다."
 
-#: main.cpp:547
+#: main.cpp:548
 msgid ""
 "Disable repositories. List option. Supports globs, can be specified multiple "
 "times."
@@ -1772,7 +1774,7 @@ msgstr ""
 "저장소를 비활성화합니다. 목록 형식의 옵션입니다. 와일드카드 패턴을 지원하며, "
 "여러 번 지정할 수 있습니다."
 
-#: main.cpp:565
+#: main.cpp:566
 msgid ""
 "Enable just specific repositories. List option. Supports globs, can be "
 "specified multiple times."
@@ -1780,15 +1782,15 @@ msgstr ""
 "지정한 저장소만 활성화합니다. 목록 형식의 옵션입니다. 와일드카드 패턴을 지원"
 "하며, 여러 번 지정할 수 있습니다."
 
-#: main.cpp:587
+#: main.cpp:588
 msgid "disable OpenPGP signature checking (if RPM policy allows)"
 msgstr "OpenPGP 서명 검사를 비활성화합니다 (RPM 정책에서 허용하는 경우)"
 
-#: main.cpp:604
+#: main.cpp:605
 msgid "Disable all libdnf5 plugins"
 msgstr "모든 libdnf5 플러그인을 비활성화합니다"
 
-#: main.cpp:614
+#: main.cpp:615
 msgid ""
 "Enable libdnf5 plugins by name. List option. Supports globs, can be "
 "specified multiple times."
@@ -1796,7 +1798,7 @@ msgstr ""
 "이름으로 libdnf5 플러그인을 활성화합니다. 목록 형식의 옵션입니다. 와일드카드 "
 "패턴을 지원하며, 여러 번 지정할 수 있습니다."
 
-#: main.cpp:629
+#: main.cpp:630
 msgid ""
 "Disable libdnf5 plugins by name. List option. Supports globs, can be "
 "specified multiple times."
@@ -1804,11 +1806,11 @@ msgstr ""
 "이름으로 libdnf5 플러그인을 비활성화합니다. 목록 형식의 옵션입니다. 와일드카"
 "드 패턴을 지원하며, 여러 번 지정할 수 있습니다."
 
-#: main.cpp:646
+#: main.cpp:647
 msgid "add a comment to transaction"
 msgstr "트랜잭션에 설명을 추가합니다"
 
-#: main.cpp:648
+#: main.cpp:649
 msgid ""
 "Adds a comment to the action. If a transaction takes place, the comment is "
 "stored in it."
@@ -1816,98 +1818,104 @@ msgstr ""
 "작업에 설명을 추가합니다. 트랜잭션이 수행되면 해당 설명이 트랜잭션에 저장됩니"
 "다."
 
-#: main.cpp:661
+#: main.cpp:662
 msgid "set install root"
 msgstr "설치 루트를 설정합니다"
 
-#: main.cpp:668
+#: main.cpp:669
 msgid ""
 "use configuration, reposdir, and vars from the host system rather than the "
 "installroot"
 msgstr "설치 루트 대신 호스트 시스템의 설정, reposdir 및 변수를 사용합니다"
 
-#: main.cpp:677
+#: main.cpp:678
 msgid "override the value of $releasever in config and repo files"
 msgstr "설정 파일과 저장소 파일의 $releasever 값을 재정의합니다"
 
-#: main.cpp:690
+#: main.cpp:691
 msgid "override the value of $releasever_major in config and repo files"
 msgstr "설정 파일과 저장소 파일의 $releasever_major 값을 재정의합니다"
 
-#: main.cpp:703
+#: main.cpp:704
 msgid "override the value of $releasever_minor in config and repo files"
 msgstr "설정 파일과 저장소 파일의 $releasever_minor 값을 재정의합니다"
 
-#: main.cpp:716
+#: main.cpp:717
 msgid ""
 "Show newly installed leaf packages and packages that became leaves after a "
 "transaction."
 msgstr "새롭게 설치된 leaf 꾸러미와 연결 후 leaves 된 꾸러미를 표시합니다."
 
-#: main.cpp:730
+#: main.cpp:731
 msgid "Dump detailed solving results into files"
 msgstr "상세한 의존성 해결 결과를 파일로 저장합니다"
 
-#: main.cpp:739
+#: main.cpp:740
 msgid "Print main configuration values to stdout"
 msgstr "주요 설정 값을 표준 출력으로 출력합니다"
 
-#: main.cpp:756
+#: main.cpp:757
 msgid ""
 "Print repository configuration values to stdout. List option. Supports globs"
 msgstr ""
 "저장소 설정 값을 표준 출력으로 출력합니다. 목록 형식의 옵션입니다. 와일드카"
 "드 패턴을 지원합니다"
 
-#: main.cpp:771
+#: main.cpp:772
 msgid "Print variable values to stdout"
 msgstr "변수 값을 표준 출력으로 출력합니다"
 
-#: main.cpp:785
+#: main.cpp:786
+#, fuzzy
+#| msgid "Print variable values to stdout"
+msgid "Print loaded vendor change policies to stdout"
+msgstr "변수 값을 표준 출력으로 출력합니다"
+
+#: main.cpp:800
 msgid "Show DNF5 version and exit"
 msgstr "DNF5 버전을 표시하고 종료합니다"
 
-#: main.cpp:799
+#: main.cpp:814
 msgid "Force the use of a different architecture."
 msgstr "다른 아키텍처를 사용하도록 강제합니다."
 
-#: main.cpp:831
+#: main.cpp:846
 msgid "Skip acquiring file locks, such as the lock on the system repository"
 msgstr "시스템 저장소 잠금과 같은 파일 잠금을 획득하지 않습니다"
 
-#: main.cpp:846
+#: main.cpp:861
 msgid "Software Management Commands:"
 msgstr "소프트웨어 관리 명령:"
 
-#: main.cpp:853
+#: main.cpp:868
 msgid "Query Commands:"
 msgstr "조회 명령:"
 
-#: main.cpp:860
+#: main.cpp:875
 msgid "Subcommands:"
 msgstr "하위 명령:"
 
-#: main.cpp:961
+#: main.cpp:977
 #, c++-format
 msgid "{} version {}.{}.{}.{}"
 msgstr "{} 버전 {}.{}.{}.{}"
 
-#: main.cpp:964
+#: main.cpp:980
 #, c++-format
 msgid "{} plugin API version {}.{}"
 msgstr "{} 플러그인 API 버전 {}.{}"
 
-#: main.cpp:969
+#: main.cpp:985
 #, c++-format
 msgid "libdnf5 version {}.{}.{}.{}"
 msgstr "libdnf5 버전 {}.{}.{}.{}"
 
-#: main.cpp:972
+#: main.cpp:988
 #, c++-format
 msgid "libdnf5 plugin API version {}.{}"
 msgstr "libdnf5 플러그인 API 버전 {}.{}"
 
-#: main.cpp:979
+#: main.cpp:995
 #, c++-format
 msgid ""
 "\n"
@@ -1916,22 +1924,22 @@ msgstr ""
 "\n"
 "플러그인 {}개를 불러왔습니다:"
 
-#: main.cpp:984 main.cpp:1000
+#: main.cpp:1000 main.cpp:1016
 #, c++-format
 msgid "  name: {}"
 msgstr "  이름: {}"
 
-#: main.cpp:987 main.cpp:1003
+#: main.cpp:1003 main.cpp:1019
 #, c++-format
 msgid "  version: {}.{}.{}"
 msgstr "  버전: {}.{}.{}"
 
-#: main.cpp:989 main.cpp:1005
+#: main.cpp:1005 main.cpp:1021
 #, c++-format
 msgid "  API version: {}.{}"
 msgstr "  API 버전: {}.{}"
 
-#: main.cpp:996
+#: main.cpp:1012
 msgid ""
 "\n"
 "Loaded libdnf5 plugins:"
@@ -1939,7 +1947,7 @@ msgstr ""
 "\n"
 "불러온 libdnf5 플러그인:"
 
-#: main.cpp:1043
+#: main.cpp:1059
 #, c++-format
 msgid ""
 "Total size of inbound packages is {:.0f} {:s}. Need to download {:.0f} {:s}."
@@ -1947,7 +1955,7 @@ msgstr ""
 "들어온 꾸러미의 크기 합계는 {:.0f} {:s}입니다. {:.0f} {:s} 내려받기가 필요합"
 "니다."
 
-#: main.cpp:1060
+#: main.cpp:1076
 #, c++-format
 msgid ""
 "After this operation, {:.0f} {:s} extra will be used (install {:.0f} {:s}, "
@@ -1956,7 +1964,7 @@ msgstr ""
 "이 작업 후 {:.0f} {:s}의 공간을 추가로 사용합니다(설치 {:.0f} {:s}, 제거 "
 "{:.0f} {:s})."
 
-#: main.cpp:1071
+#: main.cpp:1087
 #, c++-format
 msgid ""
 "After this operation, {:.0f} {:s} will be freed (install {:.0f} {:s}, remove "
@@ -1965,44 +1973,61 @@ msgstr ""
 "이 작업 후 {:.0f} {:s}의 공간이 확보됩니다(설치 {:.0f} {:s}, 제거 {:.0f} "
 "{:s})."
 
-#: main.cpp:1083
+#: main.cpp:1099
 msgid "======== Main configuration: ========"
 msgstr "======== 주요 구성: ========"
 
-#: main.cpp:1120
+#: main.cpp:1136
 #, c++-format
 msgid "No matching repo to dump configuration: \"{}\""
 msgstr "설정을 출력할 일치하는 저장소가 없습니다: \"{}\""
 
-#: main.cpp:1125
+#: main.cpp:1141
 #, c++-format
 msgid "======== \"{}\" repository configuration: ========"
 msgstr "======== \"{}\" 저장소 구성: ========"
 
-#: main.cpp:1145
+#: main.cpp:1161
 msgid "======== Variables: ========"
 msgstr "======== 변수: ========"
 
-#: main.cpp:1185
+#: main.cpp:1169
+#, fuzzy
+#| msgid "======== Variables: ========"
+msgid "======== Vendor Change Policies: ========"
+msgstr "======== 변수: ========"
+
+#: main.cpp:1173
+#, c++-format
+msgid "Policy #{}: source: {}"
+msgstr ""
+
+#: main.cpp:1179
+msgid ""
+"allow_vendor_change is enabled. Packages can be replaced by any vendor, and "
+"vendor change policies will be ignored."
+msgstr ""
+
+#: main.cpp:1217
 msgid "New leaves:"
 msgstr "새로운 leaves:"
 
-#: main.cpp:1187
+#: main.cpp:1219
 #, c++-format
 msgid " {}"
 msgstr " {}"
 
-#: main.cpp:1247
+#: main.cpp:1279
 #, c++-format
 msgid "{} to skip unavailable packages"
 msgstr "사용 할 수 없는 꾸러미를 건너뛰려면 {}"
 
-#: main.cpp:1255
+#: main.cpp:1287
 #, c++-format
 msgid "{} to allow extra packages in the transaction"
 msgstr "연결에서 추가 꾸러미를 허용하려면 {}"
 
-#: main.cpp:1268
+#: main.cpp:1300
 #, c++-format
 msgid ""
 "{} to allow mismatches between installed and stored transaction packages. "
@@ -2010,54 +2035,54 @@ msgid ""
 "option can ignore failing Remove actions."
 msgstr ""
 "설치되고 저장된 연결 꾸러미 사이에서 불일치를 허용하는 {}. 이는 다른 옵션 중 "
-"하나가 실패한 제거 작업을 무시 할 수 있기 때문에 빈 연결로 나타 날 수 "
-"있습니다."
+"하나가 실패한 제거 작업을 무시 할 수 있기 때문에 빈 연결로 나타 날 수 있습니"
+"다."
 
-#: main.cpp:1324
+#: main.cpp:1356
 #, c++-format
 msgid "{} to not limit the transaction to the best candidates"
 msgstr "{} 옵션으로 트랜잭션을 최적의 후보로만 제한하지 않음"
 
-#: main.cpp:1331
+#: main.cpp:1363
 #, c++-format
 msgid "{} to allow removing of installed packages to resolve problems"
 msgstr "문제를 해결하도록 설치된 꾸러미의 제거를 허용하는 {}"
 
-#: main.cpp:1340
+#: main.cpp:1372
 #, c++-format
 msgid "{} to load additional filelists metadata"
 msgstr "{} 옵션으로 추가 파일 목록 메타데이터 불러오기"
 
-#: main.cpp:1347
+#: main.cpp:1379
 #, c++-format
 msgid "{} to skip uninstallable packages"
 msgstr "설치 할 수 없는 패키지 건너뛰도록 {}"
 
-#: main.cpp:1362
+#: main.cpp:1394
 #, c++-format
 msgid "{} to allow switching to packages from VENDOR"
 msgstr "공급업체의 꾸러미로 전환하도록 허용하는 {}"
 
-#: main.cpp:1364
+#: main.cpp:1396
 #, c++-format
 msgid "{} to allow replacing packages from VENDOR"
 msgstr "공급업체에서 꾸러미를 교체하도록 허용하는 {}"
 
-#: main.cpp:1366
+#: main.cpp:1398
 #, c++-format
 msgid "{} to add specific vendor change rules"
 msgstr "특정 공급업체 변경 규칙을 추가하려면 {}"
 
-#: main.cpp:1367
+#: main.cpp:1399
 #, c++-format
 msgid "{} to allow all vendor changes"
 msgstr "모든 공급업체 변경을 허용하는 {}"
 
-#: main.cpp:1371
+#: main.cpp:1403
 msgid "You can try to add to command line:"
 msgstr "명령줄에 다음 옵션을 추가해 보세요:"
 
-#: main.cpp:1389
+#: main.cpp:1421
 #, c++-format
 msgid ""
 "No matches were found for the following plugin name patterns while enabling "
@@ -2066,7 +2091,7 @@ msgstr ""
 "libdnf 플러그인을 활성화하는 중 다음 플러그인 이름 패턴과 일치하는 항목을 찾"
 "을 수 없습니다: {}"
 
-#: main.cpp:1390
+#: main.cpp:1422
 #, c++-format
 msgid ""
 "No matches were found for the following plugin name patterns while disabling "
@@ -2075,27 +2100,27 @@ msgstr ""
 "libdnf 플러그인을 비활성화하는 중 다음 플러그인 이름 패턴과 일치하는 항목을 "
 "찾을 수 없습니다: {}"
 
-#: main.cpp:1456
+#: main.cpp:1488
 #, c++-format
 msgid "--- DNF5 launched with arguments: \"{}\" ---"
 msgstr "--- 다음 인수로 DNF5 실행: \"{}\" ---"
 
-#: main.cpp:1492
+#: main.cpp:1524
 #, c++-format
 msgid "Invalid \"index\" in \"--complete=<index>[,...]\": {}"
 msgstr "\"--complete=<index>[,...]\"의 \"index\" 값이 잘못되었습니다: {}"
 
-#: main.cpp:1531
+#: main.cpp:1563
 #, c++-format
 msgid "{}."
 msgstr "{}."
 
-#: main.cpp:1534 main.cpp:1917
+#: main.cpp:1566 main.cpp:1953
 #, c++-format
 msgid "{}. Add \"--help\" for more information about the arguments."
 msgstr "{}. 인수에 대한 자세한 내용을 보려면 \"--help\" 옵션을 추가하세요."
 
-#: main.cpp:1543
+#: main.cpp:1575
 #, c++-format
 msgid ""
 "It could be a command provided by a plugin, try: dnf5 install 'dnf5-"
@@ -2104,18 +2129,18 @@ msgstr ""
 "플러그인에서 제공하는 명령일 수 있습니다. 다음 명령을 실행해 보세요: dnf5 "
 "install 'dnf5-command({})'"
 
-#: main.cpp:1585
+#: main.cpp:1617
 #, c++-format
 msgid ""
 "The argument is available for commands: {}. (It has to be placed after the "
 "command.)"
 msgstr "이 인수를 사용할 수 있는 명령: {}. (인수는 명령 뒤에 지정해야 합니다.)"
 
-#: main.cpp:1622
+#: main.cpp:1654
 msgid "No read/execute access in current directory, moving to /"
 msgstr "현재 디렉터리에 읽기/실행 권한이 없어 /로 이동합니다"
 
-#: main.cpp:1657
+#: main.cpp:1689
 #, c++-format
 msgid ""
 "{}. Dropping all logs. To redirect the log file location use the \"logdir\" "
@@ -2124,7 +2149,7 @@ msgstr ""
 "{}. 모든 로그를 버립니다. 로그 파일의 저장 위치를 변경하려면 \"logdir\" 설정 "
 "옵션을 사용하세요."
 
-#: main.cpp:1718
+#: main.cpp:1754
 msgid ""
 "The requested operation requires superuser privileges. Please log in as a "
 "user with elevated rights, or use the \"--assumeno\" or \"--downloadonly\" "
@@ -2134,12 +2159,12 @@ msgstr ""
 "인하거나, \"--assumeno\" 또는 \"--downloadonly\" 옵션을 사용하여 시스템 상태"
 "를 변경하지 않고 명령을 실행하세요."
 
-#: main.cpp:1732
+#: main.cpp:1768
 #, c++-format
 msgid "Warning: {}"
 msgstr "경고: {}"
 
-#: main.cpp:1745
+#: main.cpp:1781
 msgid ""
 "Error: /usr is configured to be read-only. You may be running an image-based "
 "or immutable operating system. For more information, refer to your "
@@ -2148,7 +2173,7 @@ msgstr ""
 "오류: /usr가 읽기 전용으로 설정되어 있습니다. 이미지 기반 또는 불변 운영 체제"
 "를 사용 중일 수 있습니다. 자세한 내용은 사용 중인 배포판의 문서를 참조하세요."
 
-#: main.cpp:1764
+#: main.cpp:1800
 msgid ""
 "Error: persistent transactions aren't supported on bootc systems. Pass --"
 "transient to perform this operation in a transient overlay which will reset "
@@ -2158,7 +2183,7 @@ msgstr ""
 "을 지정하면 시스템을 재부팅할 때 초기화되는 임시 오버레이에서 이 작업을 수행"
 "할 수 있습니다."
 
-#: main.cpp:1774
+#: main.cpp:1810
 msgid ""
 "Error: this bootc system is configured to be read-only. Pass --transient to "
 "perform this operation in a transient overlay which will reset when the "
@@ -2167,20 +2192,20 @@ msgstr ""
 "bootc 시스템은 읽기-전용이 되도록 구성되었습니다. --transient 를 전달하여 시"
 "스템이 재시작 될 때에 재지정되도록 일시적인 씌우기로 해당 연결을 수행합니다."
 
-#: main.cpp:1785
+#: main.cpp:1821
 msgid "Error: transient transactions are only supported on bootc systems."
 msgstr "일시적인 연결은 bootc 시스템에서만 지원됩니다."
 
-#: main.cpp:1826
+#: main.cpp:1862
 #, c++-format
 msgid "The operation will only store the transaction in {}"
 msgstr "이 작업은 트랜잭션을 {}에 저장하기만 합니다"
 
-#: main.cpp:1828
+#: main.cpp:1864
 msgid "The operation will only download packages for the transaction."
 msgstr "동작은 연결을 위해 꾸러미만 내려받을 수 있습니다."
 
-#: main.cpp:1833
+#: main.cpp:1869
 msgid ""
 "Test mode enabled: Only package downloads, OpenPGP key installations and "
 "transaction checks will be performed."
@@ -2188,11 +2213,11 @@ msgstr ""
 "시험 방식 활성화됨: 꾸러미 내려받기, OpenPGP 키 설치 및 연결 점검만 수행됩니"
 "다."
 
-#: main.cpp:1842
+#: main.cpp:1878
 msgid "Warning: A pending offline transaction will be invalidated."
 msgstr "경고: 대기 중인 오프라인 트랜잭션이 무효화되었습니다."
 
-#: main.cpp:1845
+#: main.cpp:1881
 #, c++-format
 msgid ""
 "Warning: A pending offline transaction initiated by the following command "
@@ -2200,7 +2225,7 @@ msgid ""
 msgstr ""
 "경고: 다음 명령으로 시작한 대기 중인 오프라인 트랜잭션이 무효화됩니다: {}"
 
-#: main.cpp:1870
+#: main.cpp:1906
 msgid ""
 "This transaction would modify the following paths, possibly introducing "
 "inconsistencies when the transient overlay on /usr is discarded. See the "
@@ -2210,7 +2235,7 @@ msgstr ""
 "불일치가 나타 날 수 있습니다. 더 많은 정보를 위해 usr_drift_protected_paths "
 "구성 옵션을 참고하세요."
 
-#: main.cpp:1881
+#: main.cpp:1917
 msgid ""
 "Operation aborted. Pass --setopt=usr_drift_protected_paths= to disable this "
 "check and proceed anyway."
@@ -2218,7 +2243,7 @@ msgstr ""
 "동작이 중지되었습니다. --setopt=usr_drift_protected_paths= 를 통해 이와 같은 "
 "확인을 비활성하고 계속 진행하세요."
 
-#: main.cpp:1890
+#: main.cpp:1926
 msgid ""
 "A transient overlay will be created on /usr that will be discarded on "
 "reboot. Keep in mind that changes to /etc and /var will still persist, and "
@@ -2228,16 +2253,16 @@ msgstr ""
 "변경 사항은 여전히 지속된다는 점을 명심하고, 꾸러미는 일반적으로 이들 디렉토"
 "리에서 수정합니다."
 
-#: main.cpp:1927
+#: main.cpp:1963
 #, c++-format
 msgid "Command returned error: {}"
 msgstr "명령에서 오류가 반환되었습니다: {}"
 
-#: main.cpp:1935
+#: main.cpp:1971
 msgid "DNF5 finished"
 msgstr "DNF5 실행 완료"
 
-#: main.cpp:1939
+#: main.cpp:1975
 msgid "Complete!"
 msgstr "완료!"
 

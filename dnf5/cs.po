@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-16 18:17+0000\n"
+"POT-Creation-Date: 2026-10-20 19:42+0000\n"
 "PO-Revision-Date: 2025-09-19 20:13+0000\n"
 "Last-Translator: Petr Pisar <ppisar@redhat.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf5/dnf5/"
@@ -23,7 +23,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Weblate 5.13.3\n"
 
-#: cmdline_aliases.cpp:84 context.cpp:222 main.cpp:1587
+#: cmdline_aliases.cpp:84 context.cpp:222 main.cpp:1619
 msgid ", "
 msgstr ", "
 
@@ -530,7 +530,7 @@ msgstr "S přepínačem --url vypisuje adresy ze všech dostupných zrcadel"
 msgid "Invalid urlprotocol option: {}"
 msgstr "Neplatná volba protokolu adresy URL: {}"
 
-#: commands/download/download.cpp:166 main.cpp:818
+#: commands/download/download.cpp:166 main.cpp:833
 #, c++-format
 msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
 msgstr "Nepodporovaná architektura „{0}“. Vyberte prosím jednu z {1}"
@@ -1527,84 +1527,84 @@ msgstr ""
 msgid "To reschedule, run: {}"
 msgstr ""
 
-#: context.cpp:1026
+#: context.cpp:1034
 #, c++-format
 msgid "Upgrading {}"
 msgstr "Aktualizuje se {}"
 
-#: context.cpp:1029
+#: context.cpp:1037
 #, c++-format
 msgid "Downgrading {}"
 msgstr "Ponižuje se {}"
 
-#: context.cpp:1032
+#: context.cpp:1040
 #, c++-format
 msgid "Reinstalling {}"
 msgstr "Přeinstalovává se {}"
 
-#: context.cpp:1045
+#: context.cpp:1053
 #, c++-format
 msgid "Unexpected action in TransactionPackage: {}"
 msgstr "Nečekaný úkon v TransactionPackage: {}"
 
-#: context.cpp:1051
+#: context.cpp:1059
 #, c++-format
 msgid "Installing {}"
 msgstr "Instaluje se {}"
 
-#: context.cpp:1072
+#: context.cpp:1080
 msgid "Prepare transaction"
 msgstr "Transakce se připravuje"
 
-#: context.cpp:1092
+#: context.cpp:1100
 #, c++-format
 msgid "Removing {}"
 msgstr "Odstraňuje se {}"
 
-#: context.cpp:1095
+#: context.cpp:1103
 #, c++-format
 msgid "Cleanup {}"
 msgstr "Uklízí se {}"
 
-#: context.cpp:1114
+#: context.cpp:1122
 #, c++-format
 msgid "Unpack error: {}"
 msgstr "Chyba při rozbalování: {}"
 
-#: context.cpp:1123
+#: context.cpp:1131
 #, c++-format
 msgid "Cpio error: {}"
 msgstr "Chyba archivu cpio: {}"
 
-#: context.cpp:1133
+#: context.cpp:1141
 msgid "Scriptlet output:"
 msgstr "Výstup skriptu:"
 
-#: context.cpp:1156
+#: context.cpp:1164
 msgid "Running scriptlets"
 msgstr "Vykonávají se skripty"
 
-#: context.cpp:1162
+#: context.cpp:1170
 #, c++-format
 msgid "Running {} scriptlet: {}"
 msgstr "Spouští se skript {}: {}"
 
-#: context.cpp:1178
+#: context.cpp:1186
 #, c++-format
 msgid "Finished {} scriptlet: {}"
 msgstr "Skript {} dokončen: {}"
 
-#: context.cpp:1185
+#: context.cpp:1193
 #, c++-format
 msgid "Non-critical error in {} scriptlet: {}"
 msgstr "Nekritická chyba ve skriptu {}: {}"
 
-#: context.cpp:1195
+#: context.cpp:1203
 #, c++-format
 msgid "Error in {} scriptlet: {}"
 msgstr "Chyba ve skriptu {}: {}"
 
-#: context.cpp:1230
+#: context.cpp:1238
 msgid "Verify package files"
 msgstr "Ověřují se soubory s balíčky"
 
@@ -1618,31 +1618,31 @@ msgstr "Nelze načíst sdílenou knihovnu \"{}\": {}"
 msgid "Cannot obtain address of symbol \"{}\": {}"
 msgstr "Nelze získat adresu symbolu \"{}\": {}"
 
-#: main.cpp:155
+#: main.cpp:156
 msgid "Utility for packages maintaining"
 msgstr "Nástroj pro správu balíčků"
 
-#: main.cpp:156
+#: main.cpp:157
 msgid "DNF5 is a program for maintaining packages."
 msgstr "DNF5 je program pro správu balíčků."
 
-#: main.cpp:157
+#: main.cpp:158
 msgid "Unclassified options:"
 msgstr "Ostatní přepínače:"
 
-#: main.cpp:160
+#: main.cpp:161
 msgid "Global options:"
 msgstr "Globální přepínače:"
 
-#: main.cpp:165
+#: main.cpp:166
 msgid "Print help"
 msgstr "Vypíše nápovědu"
 
-#: main.cpp:172
+#: main.cpp:173
 msgid "Configuration file location"
 msgstr "Umístění konfiguračního souboru"
 
-#: main.cpp:180
+#: main.cpp:181
 msgid ""
 "In combination with a non-interactive command, shows just the relevant "
 "content. Suppresses messages notifying about the current state or actions of "
@@ -1651,7 +1651,7 @@ msgstr ""
 "Ve spojení s neinteraktivními příkazy ukazuje pouze relevantní obsah. "
 "Potlačuje zprávy o současném stavu a úkonech DNF5."
 
-#: main.cpp:195
+#: main.cpp:196
 msgid ""
 "Run entirely from system cache, don't update the cache and use it even in "
 "case it is expired."
@@ -1659,35 +1659,35 @@ msgstr ""
 "Běží zcela ze systémové mezipaměti. Mezipaměť neaktualizuje a používá ji, "
 "i když je zastaralá."
 
-#: main.cpp:204
+#: main.cpp:205
 msgid "Control whether color is used."
 msgstr "Řídí používání barev."
 
-#: main.cpp:210
+#: main.cpp:211
 msgid "Force refreshing metadata before running the command."
 msgstr "Vynutí obnovení metadat před vykonáním příkazu."
 
-#: main.cpp:226
+#: main.cpp:227
 #, c++-format
 msgid "Failed to expire repository cache in path \"{0}\": {1}"
 msgstr "Selhalo ukončení platnosti mezipaměti repozitáře na cestě „{0}“: {1}"
 
-#: main.cpp:240
+#: main.cpp:241
 msgid "create additional repository using id and path"
 msgstr "Vytvoří další repozitář s daným identifikátorem a cestou"
 
-#: main.cpp:248
+#: main.cpp:249
 #, c++-format
 msgid "repofrompath: Incorrect repoid and path specification \"{}\""
 msgstr ""
 "repofrompath: Nesprávný identifikátor repozitáře a nesprávné určená cesta "
 "„{}“"
 
-#: main.cpp:260
+#: main.cpp:261
 msgid "set arbitrary config and repo options"
 msgstr "nastaví libovolné volby konfigurace a repozitářů"
 
-#: main.cpp:262
+#: main.cpp:263
 msgid ""
 "Override a configuration option from the configuration file. To override "
 "configuration options for repositories, use repoid.option for  the\n"
@@ -1705,57 +1705,57 @@ msgstr ""
 "              Avšak volbu lze vyprázdnit zadáním prázdné hodnoty (např. --"
 "setopt=tsflags=)."
 
-#: main.cpp:271 main.cpp:310
+#: main.cpp:272 main.cpp:311
 #, c++-format
 msgid "{}: Badly formatted argument value \"{}\""
 msgstr "{}: Špatně utvořená hodnota argumentu „{}“"
 
-#: main.cpp:278
+#: main.cpp:279
 #, c++-format
 msgid ""
 "{}: Badly formatted argument value: Last key character cannot be '.': {}"
 msgstr ""
 "{}: Špatně utvořená hodnota argumentu: Poslední znak klíče nemůže být „.“: {}"
 
-#: main.cpp:291
+#: main.cpp:292
 #, c++-format
 msgid "setopt: \"{0}\": {1}"
 msgstr "setopt: „{0}“: {1}"
 
-#: main.cpp:303
+#: main.cpp:304
 msgid "set arbitrary variable"
 msgstr "nastaví jakoukoliv proměnnou"
 
-#: main.cpp:317
+#: main.cpp:318
 #, c++-format
 msgid "setvar: {}"
 msgstr "setvar: {}"
 
-#: main.cpp:326
+#: main.cpp:327
 msgid "automatically answer yes for all questions"
 msgstr "automaticky odpoví ano na všechny otázky"
 
-#: main.cpp:333
+#: main.cpp:334
 msgid "automatically answer no for all questions"
 msgstr "automaticky odpoví ne na všechny otázky"
 
-#: main.cpp:340
+#: main.cpp:341
 msgid "try the best available package versions in transactions"
 msgstr "zkusí v transakci nejvyšší dostupnou verzi balíčku"
 
-#: main.cpp:347
+#: main.cpp:348
 msgid "do not limit the transaction to the best candidate"
 msgstr "neomezí transakci na nejvyšší verze"
 
-#: main.cpp:356
+#: main.cpp:357
 msgid "allow automatic package replacements from different vendors"
 msgstr ""
 
-#: main.cpp:363
+#: main.cpp:364
 msgid "do not allow automatic package replacements from different vendors"
 msgstr ""
 
-#: main.cpp:376
+#: main.cpp:377
 #, fuzzy
 #| msgid ""
 #| "Enable additional repositories. List option. Supports globs, can be "
@@ -1767,7 +1767,7 @@ msgstr ""
 "Zapne další repozitáře. Seznamový přepínač. Podporuje globu, lze jej zadat "
 "vícekrát."
 
-#: main.cpp:395
+#: main.cpp:396
 #, fuzzy
 #| msgid ""
 #| "Disable repositories. List option. Supports globs, can be specified "
@@ -1779,7 +1779,7 @@ msgstr ""
 "Vypne repozitáře. Seznamový přepínač. Podporuje globy, lze jej zadat "
 "vícekrát."
 
-#: main.cpp:414
+#: main.cpp:415
 #, fuzzy
 #| msgid ""
 #| "Enable libdnf5 plugins by name. List option. Supports globs, can be "
@@ -1791,7 +1791,7 @@ msgstr ""
 "Zapne zásuvné moduly pro knihovnu libdnf5 podle jména. Seznamový přepínač, "
 "podporuje globy, lze jej zadat vícekrát."
 
-#: main.cpp:443
+#: main.cpp:444
 #, fuzzy
 #| msgid ""
 #| "Disable repositories. List option. Supports globs, can be specified "
@@ -1802,13 +1802,13 @@ msgstr ""
 "Vypne repozitáře. Seznamový přepínač. Podporuje globy, lze jej zadat "
 "vícekrát."
 
-#: main.cpp:458
+#: main.cpp:459
 #, c++-format
 msgid ""
 "Remove all vendor change policies. Can be combined with {} to replace them."
 msgstr ""
 
-#: main.cpp:477
+#: main.cpp:478
 #, fuzzy
 #| msgid ""
 #| "Disable repositories. List option. Supports globs, can be specified "
@@ -1820,7 +1820,7 @@ msgstr ""
 "Vypne repozitáře. Seznamový přepínač. Podporuje globy, lze jej zadat "
 "vícekrát."
 
-#: main.cpp:494
+#: main.cpp:495
 msgid ""
 "Don't install files that are marked as documentation (which includes man "
 "pages and texinfo documents)"
@@ -1828,11 +1828,11 @@ msgstr ""
 "Neinstaluje soubory, které jsou označeny jako dokumentace (což zahrnuje "
 "manuálové stránky a dokumenty texinfa)"
 
-#: main.cpp:510
+#: main.cpp:511
 msgid "exclude packages by name or glob"
 msgstr "vyloučí balíčky podle názvu nebo globu"
 
-#: main.cpp:529
+#: main.cpp:530
 msgid ""
 "Enable additional repositories. List option. Supports globs, can be "
 "specified multiple times."
@@ -1840,7 +1840,7 @@ msgstr ""
 "Zapne další repozitáře. Seznamový přepínač. Podporuje globu, lze jej zadat "
 "vícekrát."
 
-#: main.cpp:547
+#: main.cpp:548
 msgid ""
 "Disable repositories. List option. Supports globs, can be specified multiple "
 "times."
@@ -1848,7 +1848,7 @@ msgstr ""
 "Vypne repozitáře. Seznamový přepínač. Podporuje globy, lze jej zadat "
 "vícekrát."
 
-#: main.cpp:565
+#: main.cpp:566
 msgid ""
 "Enable just specific repositories. List option. Supports globs, can be "
 "specified multiple times."
@@ -1856,15 +1856,15 @@ msgstr ""
 "Zapne jej zadané repozitáře. Seznamový přepínač. Podporuje globy, lze jej "
 "zadat vícekrát."
 
-#: main.cpp:587
+#: main.cpp:588
 msgid "disable OpenPGP signature checking (if RPM policy allows)"
 msgstr "vypne ověřování podpisů OpenPGP (dovoluje-li to nastavení RPM)"
 
-#: main.cpp:604
+#: main.cpp:605
 msgid "Disable all libdnf5 plugins"
 msgstr "Vypne všechny zásuvné moduly pro knihovnu libdnf5"
 
-#: main.cpp:614
+#: main.cpp:615
 msgid ""
 "Enable libdnf5 plugins by name. List option. Supports globs, can be "
 "specified multiple times."
@@ -1872,7 +1872,7 @@ msgstr ""
 "Zapne zásuvné moduly pro knihovnu libdnf5 podle jména. Seznamový přepínač, "
 "podporuje globy, lze jej zadat vícekrát."
 
-#: main.cpp:629
+#: main.cpp:630
 msgid ""
 "Disable libdnf5 plugins by name. List option. Supports globs, can be "
 "specified multiple times."
@@ -1880,11 +1880,11 @@ msgstr ""
 "Vypne zásuvné moduly pro knihovnu libdnf5 podle jména. Seznamový přepínač, "
 "podporuje globy, lze jej zadat vícekrát."
 
-#: main.cpp:646
+#: main.cpp:647
 msgid "add a comment to transaction"
 msgstr "přidá ke transakci komentář"
 
-#: main.cpp:648
+#: main.cpp:649
 msgid ""
 "Adds a comment to the action. If a transaction takes place, the comment is "
 "stored in it."
@@ -1892,11 +1892,11 @@ msgstr ""
 "Přidá komentář k úkonu. Bude-li transakce dokončena, bude komentář uložen do "
 "ní."
 
-#: main.cpp:661
+#: main.cpp:662
 msgid "set install root"
 msgstr "nastaví kořenový adresář pro instalaci systému"
 
-#: main.cpp:668
+#: main.cpp:669
 msgid ""
 "use configuration, reposdir, and vars from the host system rather than the "
 "installroot"
@@ -1904,23 +1904,23 @@ msgstr ""
 "použije konfiguraci DNF5, repozitářů a proměnných z hostitelského systému "
 "namísto instalačního adresáře"
 
-#: main.cpp:677
+#: main.cpp:678
 msgid "override the value of $releasever in config and repo files"
 msgstr "přebije hodnotu $releasever v souborech konfigurace a repozitářů"
 
-#: main.cpp:690
+#: main.cpp:691
 #, fuzzy
 #| msgid "override the value of $releasever in config and repo files"
 msgid "override the value of $releasever_major in config and repo files"
 msgstr "přebije hodnotu $releasever v souborech konfigurace a repozitářů"
 
-#: main.cpp:703
+#: main.cpp:704
 #, fuzzy
 #| msgid "override the value of $releasever in config and repo files"
 msgid "override the value of $releasever_minor in config and repo files"
 msgstr "přebije hodnotu $releasever v souborech konfigurace a repozitářů"
 
-#: main.cpp:716
+#: main.cpp:717
 msgid ""
 "Show newly installed leaf packages and packages that became leaves after a "
 "transaction."
@@ -1928,70 +1928,76 @@ msgstr ""
 "Zobrazí nově nainstalované listové balíčky a baličky, které se po transakci "
 "staly listy."
 
-#: main.cpp:730
+#: main.cpp:731
 msgid "Dump detailed solving results into files"
 msgstr "Uloží do souborů podrobnosti o řešení závislostí"
 
-#: main.cpp:739
+#: main.cpp:740
 msgid "Print main configuration values to stdout"
 msgstr "Vypíše hodnoty hlavní konfigurace na standardní výstup"
 
-#: main.cpp:756
+#: main.cpp:757
 msgid ""
 "Print repository configuration values to stdout. List option. Supports globs"
 msgstr ""
 "Vypíše hodnoty konfigurace repozitářů na standardní výstup. Seznamový "
 "přepínač. Podporuje globy."
 
-#: main.cpp:771
+#: main.cpp:772
 msgid "Print variable values to stdout"
 msgstr "Vypíše hodnoty proměnných na standardní výstup"
 
-#: main.cpp:785
+#: main.cpp:786
+#, fuzzy
+#| msgid "Print variable values to stdout"
+msgid "Print loaded vendor change policies to stdout"
+msgstr "Vypíše hodnoty proměnných na standardní výstup"
+
+#: main.cpp:800
 msgid "Show DNF5 version and exit"
 msgstr "Ukáže verzi DNF5 a skončí"
 
-#: main.cpp:799
+#: main.cpp:814
 msgid "Force the use of a different architecture."
 msgstr "Vnutí jinou architekturu."
 
-#: main.cpp:831
+#: main.cpp:846
 msgid "Skip acquiring file locks, such as the lock on the system repository"
 msgstr ""
 
-#: main.cpp:846
+#: main.cpp:861
 msgid "Software Management Commands:"
 msgstr "Příkazy pro správu programového vybavení:"
 
-#: main.cpp:853
+#: main.cpp:868
 msgid "Query Commands:"
 msgstr "Dotazovací příkazy:"
 
-#: main.cpp:860
+#: main.cpp:875
 msgid "Subcommands:"
 msgstr "Podpříkazy:"
 
-#: main.cpp:961
+#: main.cpp:977
 #, c++-format
 msgid "{} version {}.{}.{}.{}"
 msgstr "{} verze {}.{}.{}.{}"
 
-#: main.cpp:964
+#: main.cpp:980
 #, c++-format
 msgid "{} plugin API version {}.{}"
 msgstr "Verze rozhraní {} pro zásuvné moduly {}.{}"
 
-#: main.cpp:969
+#: main.cpp:985
 #, c++-format
 msgid "libdnf5 version {}.{}.{}.{}"
 msgstr "libdnf5 verze {}.{}.{}.{}"
 
-#: main.cpp:972
+#: main.cpp:988
 #, c++-format
 msgid "libdnf5 plugin API version {}.{}"
 msgstr "Verze rozhraní libdnf5 pro zásuvné moduly {}.{}"
 
-#: main.cpp:979
+#: main.cpp:995
 #, c++-format
 msgid ""
 "\n"
@@ -2000,22 +2006,22 @@ msgstr ""
 "\n"
 "Zavedené moduly {}:"
 
-#: main.cpp:984 main.cpp:1000
+#: main.cpp:1000 main.cpp:1016
 #, c++-format
 msgid "  name: {}"
 msgstr "  název: {}"
 
-#: main.cpp:987 main.cpp:1003
+#: main.cpp:1003 main.cpp:1019
 #, c++-format
 msgid "  version: {}.{}.{}"
 msgstr "  verze: {}.{}.{}"
 
-#: main.cpp:989 main.cpp:1005
+#: main.cpp:1005 main.cpp:1021
 #, c++-format
 msgid "  API version: {}.{}"
 msgstr "  version rozhraní: {}.{}"
 
-#: main.cpp:996
+#: main.cpp:1012
 #, fuzzy
 #| msgid ""
 #| "\n"
@@ -2027,7 +2033,7 @@ msgstr ""
 "\n"
 "Zavedené moduly {}:"
 
-#: main.cpp:1043
+#: main.cpp:1059
 #, c++-format
 msgid ""
 "Total size of inbound packages is {:.0f} {:s}. Need to download {:.0f} {:s}."
@@ -2035,7 +2041,7 @@ msgstr ""
 "Celková velikost balíčků k instalaci je {:.0f} {:s}. Staženo bude {:.0f} "
 "{:s}."
 
-#: main.cpp:1060
+#: main.cpp:1076
 #, c++-format
 msgid ""
 "After this operation, {:.0f} {:s} extra will be used (install {:.0f} {:s}, "
@@ -2044,7 +2050,7 @@ msgstr ""
 "Po tomto úkonu bude navíc zabráno {:.0f} {:s} (nainstalováno {:.0f} {:s}, "
 "odstraněno {:.0f} {:s})."
 
-#: main.cpp:1071
+#: main.cpp:1087
 #, c++-format
 msgid ""
 "After this operation, {:.0f} {:s} will be freed (install {:.0f} {:s}, remove "
@@ -2053,44 +2059,61 @@ msgstr ""
 "Po tomto úkonu bude uvolněno {:.0f} {:s} (nainstalováno {:.0f} {:s}, "
 "odstraněno {:.0f} {:s})."
 
-#: main.cpp:1083
+#: main.cpp:1099
 msgid "======== Main configuration: ========"
 msgstr "======== Hlavní konfigurace: ========"
 
-#: main.cpp:1120
+#: main.cpp:1136
 #, c++-format
 msgid "No matching repo to dump configuration: \"{}\""
 msgstr "Žádné odpovídající repozitáře, kterým se má vypsat konfigurace: „{}“"
 
-#: main.cpp:1125
+#: main.cpp:1141
 #, c++-format
 msgid "======== \"{}\" repository configuration: ========"
 msgstr "======== Konfigurace repozitáře „{}“: ========"
 
-#: main.cpp:1145
+#: main.cpp:1161
 msgid "======== Variables: ========"
 msgstr "======== Proměnné: ========"
 
-#: main.cpp:1185
+#: main.cpp:1169
+#, fuzzy
+#| msgid "======== Variables: ========"
+msgid "======== Vendor Change Policies: ========"
+msgstr "======== Proměnné: ========"
+
+#: main.cpp:1173
+#, c++-format
+msgid "Policy #{}: source: {}"
+msgstr ""
+
+#: main.cpp:1179
+msgid ""
+"allow_vendor_change is enabled. Packages can be replaced by any vendor, and "
+"vendor change policies will be ignored."
+msgstr ""
+
+#: main.cpp:1217
 msgid "New leaves:"
 msgstr "Nové listy:"
 
-#: main.cpp:1187
+#: main.cpp:1219
 #, c++-format
 msgid " {}"
 msgstr " {}"
 
-#: main.cpp:1247
+#: main.cpp:1279
 #, c++-format
 msgid "{} to skip unavailable packages"
 msgstr "{} pro přeskočení nedostupných balíčků"
 
-#: main.cpp:1255
+#: main.cpp:1287
 #, c++-format
 msgid "{} to allow extra packages in the transaction"
 msgstr "{} pro povolení dalších balíčků v transakci"
 
-#: main.cpp:1268
+#: main.cpp:1300
 #, c++-format
 msgid ""
 "{} to allow mismatches between installed and stored transaction packages. "
@@ -2101,54 +2124,54 @@ msgstr ""
 "v transakci. To může vést k prázdné transakci, protože, mimo jiné, tento "
 "přepínač ignoruje selhávající úkony odstranění."
 
-#: main.cpp:1324
+#: main.cpp:1356
 #, c++-format
 msgid "{} to not limit the transaction to the best candidates"
 msgstr "{} pro neomezování transakce na nejvyšší verze"
 
-#: main.cpp:1331
+#: main.cpp:1363
 #, c++-format
 msgid "{} to allow removing of installed packages to resolve problems"
 msgstr "{} pro povolení odstraňovat balíčky, vyřeší-li to problémy"
 
-#: main.cpp:1340
+#: main.cpp:1372
 #, c++-format
 msgid "{} to load additional filelists metadata"
 msgstr "{} pro zavedení volitelných metadat o zabalených souborech"
 
-#: main.cpp:1347
+#: main.cpp:1379
 #, c++-format
 msgid "{} to skip uninstallable packages"
 msgstr "{} pro přeskočení neinstalovatelných balíčků"
 
-#: main.cpp:1362
+#: main.cpp:1394
 #, fuzzy, c++-format
 #| msgid "{} to allow extra packages in the transaction"
 msgid "{} to allow switching to packages from VENDOR"
 msgstr "{} pro povolení dalších balíčků v transakci"
 
-#: main.cpp:1364
+#: main.cpp:1396
 #, fuzzy, c++-format
 #| msgid "{} to allow extra packages in the transaction"
 msgid "{} to allow replacing packages from VENDOR"
 msgstr "{} pro povolení dalších balíčků v transakci"
 
-#: main.cpp:1366
+#: main.cpp:1398
 #, c++-format
 msgid "{} to add specific vendor change rules"
 msgstr ""
 
-#: main.cpp:1367
+#: main.cpp:1399
 #, fuzzy, c++-format
 #| msgid "{} to allow extra packages in the transaction"
 msgid "{} to allow all vendor changes"
 msgstr "{} pro povolení dalších balíčků v transakci"
 
-#: main.cpp:1371
+#: main.cpp:1403
 msgid "You can try to add to command line:"
 msgstr "K příkazu můžete zkusit přidat:"
 
-#: main.cpp:1389
+#: main.cpp:1421
 #, c++-format
 msgid ""
 "No matches were found for the following plugin name patterns while enabling "
@@ -2157,7 +2180,7 @@ msgstr ""
 "Při zapínání zásuvných modulů libdnf nebyla nalezena žádná shoda "
 "s následujícími vzory názvů modulů: {}"
 
-#: main.cpp:1390
+#: main.cpp:1422
 #, c++-format
 msgid ""
 "No matches were found for the following plugin name patterns while disabling "
@@ -2166,27 +2189,27 @@ msgstr ""
 "Při vypínání zásuvných modulů libdnf nebyla nalezena žádná shoda "
 "s následujícími vzory názvů modulů: {}"
 
-#: main.cpp:1456
+#: main.cpp:1488
 #, c++-format
 msgid "--- DNF5 launched with arguments: \"{}\" ---"
 msgstr "--- DNF5 bylo spuštěno s těmito argumenty: „{}“ ---"
 
-#: main.cpp:1492
+#: main.cpp:1524
 #, c++-format
 msgid "Invalid \"index\" in \"--complete=<index>[,...]\": {}"
 msgstr "Chybný „index“ v „--complete=<index>[,…]“: {}"
 
-#: main.cpp:1531
+#: main.cpp:1563
 #, c++-format
 msgid "{}."
 msgstr "{}."
 
-#: main.cpp:1534 main.cpp:1917
+#: main.cpp:1566 main.cpp:1953
 #, c++-format
 msgid "{}. Add \"--help\" for more information about the arguments."
 msgstr "{}. Podrobnosti o argumentech získáte přidáním přepínače „--help“."
 
-#: main.cpp:1543
+#: main.cpp:1575
 #, c++-format
 msgid ""
 "It could be a command provided by a plugin, try: dnf5 install 'dnf5-"
@@ -2195,7 +2218,7 @@ msgstr ""
 "Možná se jedná o příkaz poskytovaný zásuvným modulem. Zkuste „dnf5 install "
 "'dnf5-command({})'“."
 
-#: main.cpp:1585
+#: main.cpp:1617
 #, c++-format
 msgid ""
 "The argument is available for commands: {}. (It has to be placed after the "
@@ -2203,19 +2226,19 @@ msgid ""
 msgstr ""
 "Argument je možný u těchto příkazů: {}. (Je nutné jej uvést za příkazem.)"
 
-#: main.cpp:1622
+#: main.cpp:1654
 msgid "No read/execute access in current directory, moving to /"
 msgstr ""
 "Současný pracovní adresář nelze ani číst, ani prohledávat. Přechází se do /."
 
-#: main.cpp:1657
+#: main.cpp:1689
 #, c++-format
 msgid ""
 "{}. Dropping all logs. To redirect the log file location use the \"logdir\" "
 "configuration option."
 msgstr ""
 
-#: main.cpp:1718
+#: main.cpp:1754
 msgid ""
 "The requested operation requires superuser privileges. Please log in as a "
 "user with elevated rights, or use the \"--assumeno\" or \"--downloadonly\" "
@@ -2225,26 +2248,26 @@ msgstr ""
 "uživatel s vyššími právy, nebo použijte přepínače „--assumeno“ nebo „--"
 "downloadonly“, aby se příkaz vykonal bez zásahu do systému."
 
-#: main.cpp:1732
+#: main.cpp:1768
 #, c++-format
 msgid "Warning: {}"
 msgstr ""
 
-#: main.cpp:1745
+#: main.cpp:1781
 msgid ""
 "Error: /usr is configured to be read-only. You may be running an image-based "
 "or immutable operating system. For more information, refer to your "
 "distribution's documentation."
 msgstr ""
 
-#: main.cpp:1764
+#: main.cpp:1800
 msgid ""
 "Error: persistent transactions aren't supported on bootc systems. Pass --"
 "transient to perform this operation in a transient overlay which will reset "
 "when the system reboots."
 msgstr ""
 
-#: main.cpp:1774
+#: main.cpp:1810
 #, fuzzy
 #| msgid ""
 #| "Error: this bootc system is configured to be read-only. For more "
@@ -2257,20 +2280,20 @@ msgstr ""
 "Chyba: Tento systém bootc je nastaven jen pro čtení. Pro podrobnosti spusťte "
 "„bootc --help“."
 
-#: main.cpp:1785
+#: main.cpp:1821
 msgid "Error: transient transactions are only supported on bootc systems."
 msgstr ""
 
-#: main.cpp:1826
+#: main.cpp:1862
 #, c++-format
 msgid "The operation will only store the transaction in {}"
 msgstr "Tento úkon pouze uloží transakci do {}."
 
-#: main.cpp:1828
+#: main.cpp:1864
 msgid "The operation will only download packages for the transaction."
 msgstr "Tento úkon pouze stáhne balíčky potřebné pro transakci."
 
-#: main.cpp:1833
+#: main.cpp:1869
 msgid ""
 "Test mode enabled: Only package downloads, OpenPGP key installations and "
 "transaction checks will be performed."
@@ -2278,14 +2301,14 @@ msgstr ""
 "Zapnut testovací režim: Balíčky budou pouze staženy, OpenPGP klíče "
 "nainstalovány a transakce zkontrolována."
 
-#: main.cpp:1842
+#: main.cpp:1878
 #, fuzzy
 #| msgid "Starting offline transaction. This will take a while."
 msgid "Warning: A pending offline transaction will be invalidated."
 msgstr ""
 "Zahajuje sa transakce mimo běžící systém. Transakce bude nějakou dobu trvat."
 
-#: main.cpp:1845
+#: main.cpp:1881
 #, fuzzy, c++-format
 #| msgid "An offline transaction was initiated by the following command:"
 msgid ""
@@ -2293,36 +2316,36 @@ msgid ""
 "will be invalidated: {}"
 msgstr "Transakce mimo běh systému byla zadána tímto příkazem:"
 
-#: main.cpp:1870
+#: main.cpp:1906
 msgid ""
 "This transaction would modify the following paths, possibly introducing "
 "inconsistencies when the transient overlay on /usr is discarded. See the "
 "usr_drift_protected_paths configuration option for more information."
 msgstr ""
 
-#: main.cpp:1881
+#: main.cpp:1917
 msgid ""
 "Operation aborted. Pass --setopt=usr_drift_protected_paths= to disable this "
 "check and proceed anyway."
 msgstr ""
 
-#: main.cpp:1890
+#: main.cpp:1926
 msgid ""
 "A transient overlay will be created on /usr that will be discarded on "
 "reboot. Keep in mind that changes to /etc and /var will still persist, and "
 "packages commonly modify these directories."
 msgstr ""
 
-#: main.cpp:1927
+#: main.cpp:1963
 #, c++-format
 msgid "Command returned error: {}"
 msgstr "Příkaz vrátil chybu: {}"
 
-#: main.cpp:1935
+#: main.cpp:1971
 msgid "DNF5 finished"
 msgstr "DNF5 skončil"
 
-#: main.cpp:1939
+#: main.cpp:1975
 msgid "Complete!"
 msgstr "Hotovo!"
 
