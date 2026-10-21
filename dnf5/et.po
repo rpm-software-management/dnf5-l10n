@@ -12,8 +12,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-20 19:42+0000\n"
 "PO-Revision-Date: 2026-10-22 07:58+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: Priit Jõerüüt "
+"<jrtkbfdr@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Estonian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/et/>\n"
 "Language: et\n"
@@ -42,7 +42,7 @@ msgid ""
 "Unknown attribute \"{}\" of attached named argument for alias \"{}\" in file "
 "\"{}\" on line {}: {}"
 msgstr ""
-"Lisetatud nimetatud argumendi tundmatu „{}“ atribuut „{}“ aliase jaoks „{}“ "
+"Lisatud nimetatud argumendi tundmatu „{}“ atribuut „{}“ aliase jaoks „{}“ "
 "failis real {}: {}"
 
 #: cmdline_aliases.cpp:171
@@ -89,7 +89,7 @@ msgstr ""
 #: cmdline_aliases.cpp:312
 #, c++-format
 msgid "Missing attribute \"type\" for element \"{}\" in file \"{}\""
-msgstr "Puuduv atribuut \"id_asukoht\" aliase \"{}\" jaoks failis \"{}\""
+msgstr "Puuduv atribuut „type“ „{}“ elemendi jaoks failis „{}“"
 
 #: cmdline_aliases.cpp:331
 #, c++-format
@@ -112,7 +112,7 @@ msgstr ""
 #: cmdline_aliases.cpp:387
 #, c++-format
 msgid "Missing attribute \"header\" for element \"{}\" in file \"{}\""
-msgstr ""
+msgstr "Puuduv atribuut „header“ „{}“ elemendi jaoks failis „{}“"
 
 #: cmdline_aliases.cpp:428 cmdline_aliases.cpp:538
 #, c++-format
@@ -124,12 +124,12 @@ msgstr ""
 #: cmdline_aliases.cpp:446
 #, c++-format
 msgid "Source \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
-msgstr ""
+msgstr "„{}“ allikat ei leidunud: {}: Päritud „{}“ failis real {}: {}"
 
 #: cmdline_aliases.cpp:462 cmdline_aliases.cpp:563 cmdline_aliases.cpp:676
 #, c++-format
 msgid "Group \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
-msgstr ""
+msgstr "„{}“ gruppi ei leidunud: {}: Päritud „{}“ failis real {}: {}"
 
 #: cmdline_aliases.cpp:476 cmdline_aliases.cpp:579
 #, c++-format
@@ -526,7 +526,7 @@ msgstr "Näita vaid paigaldatud keskkondi."
 
 #: commands/environment/arguments.hpp:47
 msgid "Pattern matching environment identifiers."
-msgstr "Muster, mis vastab grupi- või keskkonnatunnustele."
+msgstr "Muster, mis vastab keskkonnatunnustele."
 
 #: commands/environment/environment.cpp:38
 msgid "Manage comps environments"
@@ -535,17 +535,17 @@ msgstr ""
 #: commands/environment/environment_info.cpp:101
 #: commands/environment/environment_list.cpp:99
 msgid "No matches found: no environments are installed."
-msgstr "Ühtegi vastet ei leidu: ühtegi gruppi pole paigaldatud."
+msgstr "Ühtegi vastet ei leidu: ühtegi keskkonda pole paigaldatud."
 
 #: commands/environment/environment_info.cpp:103
 #: commands/environment/environment_list.cpp:101
 msgid "No matches found: no environments are available."
-msgstr "Ühtegi vastet ei leidu: ühtegi gruppi pole saadaval."
+msgstr "Ühtegi vastet ei leidu: ühtegi keskkonda pole saadaval."
 
 #: commands/environment/environment_info.cpp:105
 #: commands/environment/environment_list.cpp:103
 msgid "No matches found: no environments exist."
-msgstr "Ühtegi vastet ei leidu: ühtegi gruppi pole olemas."
+msgstr "Ühtegi vastet ei leidu: ühtegi keskkonda pole olemas."
 
 #: commands/group/arguments.hpp:34
 msgid "Show only available groups."
@@ -636,8 +636,8 @@ msgid ""
 "Show only transactions containing packages with specified names. List "
 "option, supports globs."
 msgstr ""
-"Näita vaid gruppe, mis sisaldavad kindlate nimedega pakette. Loendivalik, "
-"toetab üldnimetusi."
+"Näita vaid transaktsioone, mis sisaldavad kindlate nimedega pakette. "
+"Loendivalik, toetab üldnimetusi."
 
 #: commands/history/history.cpp:41
 msgid "Manage transaction history"
@@ -860,7 +860,7 @@ msgstr ""
 #: commands/offline/offline.cpp:355
 #, c++-format
 msgid "Data directory {} does not exist."
-msgstr "Sihtkataloogi \"%s\" pole olemas"
+msgstr "„{}“ andmekausta pole olemas."
 
 #: commands/offline/offline.cpp:380
 #, c++-format
@@ -928,7 +928,7 @@ msgstr ""
 
 #: commands/offline/offline.cpp:689
 msgid "Cannot find logs with this index."
-msgstr ""
+msgstr "Selle indeksiga logisid ei leidu."
 
 #: commands/offline/offline.cpp:696
 msgid "Unable to match systemd journal entry."
@@ -2091,6 +2091,8 @@ msgid ""
 "Operation aborted. Pass --setopt=usr_drift_protected_paths= to disable this "
 "check and proceed anyway."
 msgstr ""
+"Tegevus on katkestatud. Selle kontrolli saad keelata „--"
+"setopt=usr_drift_protected_paths=“ argumendiga ning ikkagi jätkata."
 
 #: main.cpp:1926
 msgid ""
@@ -2106,7 +2108,7 @@ msgstr ""
 
 #: main.cpp:1971
 msgid "DNF5 finished"
-msgstr "DNF5 lõpetas"
+msgstr "DNF5 lõpetas töö"
 
 #: main.cpp:1975
 msgid "Complete!"
