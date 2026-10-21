@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-20 19:42+0000\n"
-"PO-Revision-Date: 2026-10-18 09:18+0000\n"
+"PO-Revision-Date: 2026-10-22 07:58+0000\n"
 "Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/sv/>\n"
@@ -1913,10 +1913,8 @@ msgid "Print variable values to stdout"
 msgstr "Skriv variabelvärden till standard ut"
 
 #: main.cpp:786
-#, fuzzy
-#| msgid "Print variable values to stdout"
 msgid "Print loaded vendor change policies to stdout"
-msgstr "Skriv variabelvärden till standard ut"
+msgstr "Skriv ut laddade leverantörsändringspolicyer till stdout"
 
 #: main.cpp:800
 msgid "Show DNF5 version and exit"
@@ -2039,21 +2037,21 @@ msgid "======== Variables: ========"
 msgstr "======== Variabler: ========"
 
 #: main.cpp:1169
-#, fuzzy
-#| msgid "======== Variables: ========"
 msgid "======== Vendor Change Policies: ========"
-msgstr "======== Variabler: ========"
+msgstr "======== Policyer för leverantörsändringar: ========"
 
 #: main.cpp:1173
 #, c++-format
 msgid "Policy #{}: source: {}"
-msgstr ""
+msgstr "Policy #{}: källa: {}"
 
 #: main.cpp:1179
 msgid ""
 "allow_vendor_change is enabled. Packages can be replaced by any vendor, and "
 "vendor change policies will be ignored."
 msgstr ""
+"allow_vendor_change är aktiverat. Paket kan ersättas av vilken leverantör "
+"som helst, och policyer för leverantörsbyte ignoreras."
 
 #: main.cpp:1217
 msgid "New leaves:"
