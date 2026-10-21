@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-16 18:17+0000\n"
+"POT-Creation-Date: 2026-10-20 19:42+0000\n"
 "PO-Revision-Date: 2026-09-17 11:18+0000\n"
 "Last-Translator: Keith Bowes <zooplah@gmail.com>\n"
 "Language-Team: Esperanto <https://translate.fedoraproject.org/projects/dnf5/"
@@ -1513,7 +1513,13 @@ msgstr "Ne eblas malpromocii pakon \"{}\""
 msgid "Cannot install package \"{}\""
 msgstr "Ne eblas instali pakon \"{}\""
 
-#: rpm/versionlock_config.cpp:284 system/state.cpp:605
+#: rpm/versionlock_config.cpp:259
+#, fuzzy, c++-format
+#| msgid "Error parsing transaction info: {}"
+msgid "Error parsing versionlock file \"{}\": {}"
+msgstr "Eraro dum analizo de transakciaj informoj: {}"
+
+#: rpm/versionlock_config.cpp:297 system/state.cpp:605
 #, c++-format
 msgid "{}"
 msgstr "{}"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-16 18:17+0000\n"
+"POT-Creation-Date: 2026-10-20 19:42+0000\n"
 "PO-Revision-Date: 2026-09-10 18:18+0000\n"
 "Last-Translator: Andrei Stepanov <adem4ik@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -1547,7 +1547,13 @@ msgstr "Невозможно понизить версию пакета \"{}\""
 msgid "Cannot install package \"{}\""
 msgstr "Невозможно установить пакет \"{}\""
 
-#: rpm/versionlock_config.cpp:284 system/state.cpp:605
+#: rpm/versionlock_config.cpp:259
+#, fuzzy, c++-format
+#| msgid "Error parsing transaction info: {}"
+msgid "Error parsing versionlock file \"{}\": {}"
+msgstr "Ошибка при разборе информации о транзакции: {}"
+
+#: rpm/versionlock_config.cpp:297 system/state.cpp:605
 #, c++-format
 msgid "{}"
 msgstr "{}"

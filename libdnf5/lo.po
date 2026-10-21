@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-16 18:17+0000\n"
+"POT-Creation-Date: 2026-10-20 19:42+0000\n"
 "PO-Revision-Date: 2026-09-20 00:18+0000\n"
 "Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
 "Language-Team: Lao <https://translate.fedoraproject.org/projects/dnf5/"
@@ -1461,7 +1461,13 @@ msgstr "ບໍ່ສາມາດຫຼຸດລຸ້ນແພັກເກດ \"
 msgid "Cannot install package \"{}\""
 msgstr "ບໍ່ສາມາດຕິດຕັ້ງແພັກເກດ \"{}\" ໄດ້"
 
-#: rpm/versionlock_config.cpp:284 system/state.cpp:605
+#: rpm/versionlock_config.cpp:259
+#, fuzzy, c++-format
+#| msgid "Error parsing transaction info: {}"
+msgid "Error parsing versionlock file \"{}\": {}"
+msgstr "ເກີດຂໍ້ຜິດພາດໃນການແປຂໍ້ມູນທຸລະກຳ: {}"
+
+#: rpm/versionlock_config.cpp:297 system/state.cpp:605
 #, c++-format
 msgid "{}"
 msgstr "{}"

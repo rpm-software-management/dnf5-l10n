@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-16 18:17+0000\n"
+"POT-Creation-Date: 2026-10-20 19:42+0000\n"
 "PO-Revision-Date: 2026-04-02 22:59+0000\n"
 "Last-Translator: \"Fco. Javier F. Serrador\" <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -1566,7 +1566,13 @@ msgstr "No se pude degradar el paquete «{}»"
 msgid "Cannot install package \"{}\""
 msgstr "No se puede instalar el paquete «{}»"
 
-#: rpm/versionlock_config.cpp:284 system/state.cpp:605
+#: rpm/versionlock_config.cpp:259
+#, fuzzy, c++-format
+#| msgid "Error during transaction replay JSON parsing : {}"
+msgid "Error parsing versionlock file \"{}\": {}"
+msgstr "Error durante transacción repite intérprete JSON : {}"
+
+#: rpm/versionlock_config.cpp:297 system/state.cpp:605
 #, c++-format
 msgid "{}"
 msgstr "{}"

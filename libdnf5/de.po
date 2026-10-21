@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-16 18:17+0000\n"
+"POT-Creation-Date: 2026-10-20 19:42+0000\n"
 "PO-Revision-Date: 2026-02-13 11:58+0000\n"
 "Last-Translator: Mario Blättermann <mario.blaettermann@gmail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf5/"
@@ -1614,7 +1614,14 @@ msgstr "Paket „{}“ kann nicht heruntergestuft werden"
 msgid "Cannot install package \"{}\""
 msgstr "Paket „{}“ kann nicht installiert werden"
 
-#: rpm/versionlock_config.cpp:284 system/state.cpp:605
+#: rpm/versionlock_config.cpp:259
+#, fuzzy, c++-format
+#| msgid "Error during transaction replay JSON parsing : {}"
+msgid "Error parsing versionlock file \"{}\": {}"
+msgstr ""
+"Fehler beim Einlesen der serialisierten JSON-Transaktionswiederholung: {}"
+
+#: rpm/versionlock_config.cpp:297 system/state.cpp:605
 #, c++-format
 msgid "{}"
 msgstr "{}"

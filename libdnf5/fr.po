@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-16 18:17+0000\n"
+"POT-Creation-Date: 2026-10-20 19:42+0000\n"
 "PO-Revision-Date: 2026-10-09 14:53+0000\n"
 "Last-Translator: red max <redmax761@gmail.com>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf5/"
@@ -1604,7 +1604,13 @@ msgstr "Impossible d'installer la version antérieure du paquet \"{}\""
 msgid "Cannot install package \"{}\""
 msgstr "Impossible d'installer le paquet \"{}\""
 
-#: rpm/versionlock_config.cpp:284 system/state.cpp:605
+#: rpm/versionlock_config.cpp:259
+#, fuzzy, c++-format
+#| msgid "Error parsing transaction info: {}"
+msgid "Error parsing versionlock file \"{}\": {}"
+msgstr "Erreur lors de l'analyse des informations de transaction : {}"
+
+#: rpm/versionlock_config.cpp:297 system/state.cpp:605
 #, c++-format
 msgid "{}"
 msgstr "{}"
