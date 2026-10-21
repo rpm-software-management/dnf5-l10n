@@ -10,8 +10,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-20 19:42+0000\n"
 "PO-Revision-Date: 2026-10-22 07:58+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: Priit Jõerüüt "
+"<jrtkbfdr@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Estonian <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5-cli/et/>\n"
 "Language: et\n"
@@ -256,11 +256,11 @@ msgstr "paigaldatud"
 
 #: output/status.cpp:47 output/status.cpp:56 output/status.cpp:73
 msgid "available"
-msgstr ""
+msgstr "saadaval"
 
 #: output/status.cpp:54
 msgid "Environments"
-msgstr ""
+msgstr "Keskkonnad"
 
 #: output/status.cpp:71
 msgid "Packages"
@@ -307,16 +307,16 @@ msgstr[1] " Paigaldan uuesti:      {:4} paketti\n"
 #, c++-format
 msgid " Upgrading:       {:4} package\n"
 msgid_plural " Upgrading:       {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " Uuendan:       {:4} pakett\n"
+msgstr[1] " Uuendan:       {:4} paketti\n"
 
 #. Keep the replaceble number aligned across all messages.
 #: output/transaction_table.cpp:161
 #, c++-format
 msgid " Replacing:       {:4} package\n"
 msgid_plural " Replacing:       {:4} packages\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " Asendan:       {:4} pakett\n"
+msgstr[1] " Asendan:       {:4} paketti\n"
 
 #. Keep the replaceble number aligned across all messages.
 #: output/transaction_table.cpp:170
@@ -366,7 +366,7 @@ msgstr "Maht"
 #: output/transaction_table.cpp:476
 #, c++-format
 msgid "{} -> {}"
-msgstr ""
+msgstr "{} -> {}"
 
 #: output/transaction_table.cpp:381
 #, c++-format
@@ -447,7 +447,7 @@ msgstr "Eemaldan gruppe:"
 
 #: output/transaction_table.cpp:628
 msgid "Upgrading groups:"
-msgstr ""
+msgstr "Uuendan gruppe:"
 
 #: output/transaction_table.cpp:631
 msgid "Changing reason of installed groups:"
@@ -503,7 +503,7 @@ msgstr "Tegevus"
 
 #: output/transactioninfo.cpp:75
 msgid "Reason"
-msgstr ""
+msgstr "Põhjus"
 
 #: output/transactioninfo.cpp:98
 msgid "Transaction ID"
@@ -511,7 +511,7 @@ msgstr "Transaktsiooni tunnus"
 
 #: output/transactioninfo.cpp:99
 msgid "Begin time"
-msgstr "Logimise aeg"
+msgstr "Algusaeg"
 
 #: output/transactioninfo.cpp:100
 msgid "Begin rpmdb"
@@ -555,7 +555,7 @@ msgstr ""
 
 #: output/transactionlist.cpp:65
 msgid "ID"
-msgstr "ID"
+msgstr "Tunnus"
 
 #: output/transactionlist.cpp:66
 msgid "Command line"
@@ -567,7 +567,7 @@ msgstr "Kuupäev ja kellaaeg"
 
 #: output/transactionlist.cpp:68
 msgid "Action(s)"
-msgstr "Tegevused"
+msgstr "Tegevus(ed)"
 
 #: output/transactionlist.cpp:69
 msgid "Altered"
@@ -596,11 +596,11 @@ msgstr ""
 
 #: utils/userconfirm.cpp:46
 msgid "Is this ok [Y/n]: "
-msgstr ""
+msgstr "Kas see sobib sulle [Y/n]: "
 
 #: utils/userconfirm.cpp:49
 msgid "Is this ok [y/N]: "
-msgstr ""
+msgstr "Kas see sobib sulle [y/N]: "
 
 #~ msgid "No matches found."
 #~ msgstr "Vasteid ei leidu."
