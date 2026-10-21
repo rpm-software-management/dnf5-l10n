@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-20 19:42+0000\n"
-"PO-Revision-Date: 2026-10-20 06:25+0000\n"
+"PO-Revision-Date: 2026-10-22 07:58+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ko/>\n"
@@ -1866,10 +1866,8 @@ msgid "Print variable values to stdout"
 msgstr "변수 값을 표준 출력으로 출력합니다"
 
 #: main.cpp:786
-#, fuzzy
-#| msgid "Print variable values to stdout"
 msgid "Print loaded vendor change policies to stdout"
-msgstr "변수 값을 표준 출력으로 출력합니다"
+msgstr "불러온 공급업체 정책을 표준출력으로 출력합니다"
 
 #: main.cpp:800
 msgid "Show DNF5 version and exit"
@@ -1877,7 +1875,7 @@ msgstr "DNF5 버전을 표시하고 종료합니다"
 
 #: main.cpp:814
 msgid "Force the use of a different architecture."
-msgstr "다른 아키텍처를 사용하도록 강제합니다."
+msgstr "다른 구조의 사용을 강제합니다."
 
 #: main.cpp:846
 msgid "Skip acquiring file locks, such as the lock on the system repository"
@@ -1992,21 +1990,21 @@ msgid "======== Variables: ========"
 msgstr "======== 변수: ========"
 
 #: main.cpp:1169
-#, fuzzy
-#| msgid "======== Variables: ========"
 msgid "======== Vendor Change Policies: ========"
-msgstr "======== 변수: ========"
+msgstr "======== 공급업체 변경 정책: ========"
 
 #: main.cpp:1173
 #, c++-format
 msgid "Policy #{}: source: {}"
-msgstr ""
+msgstr "정책 #{}: 원천: {}"
 
 #: main.cpp:1179
 msgid ""
 "allow_vendor_change is enabled. Packages can be replaced by any vendor, and "
 "vendor change policies will be ignored."
 msgstr ""
+"공급업체_변경_허용이 활성화되었습니다. 꾸러미는 모든 공급업체로 대체 될 수 "
+"있고 공급업체 정책은 무시 될 수 있습니다."
 
 #: main.cpp:1217
 msgid "New leaves:"
