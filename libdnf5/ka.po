@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-20 19:42+0000\n"
-"PO-Revision-Date: 2026-09-10 18:17+0000\n"
+"PO-Revision-Date: 2026-10-22 07:58+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/ka/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.9.1\n"
+"X-Generator: Weblate 2026.10.1\n"
 
 #: advisory/advisory.cpp:81
 #, c++-format
@@ -1548,10 +1548,9 @@ msgid "Cannot install package \"{}\""
 msgstr "ვერ დავაყენე პაკეტი \"{}\""
 
 #: rpm/versionlock_config.cpp:259
-#, fuzzy, c++-format
-#| msgid "Error parsing transaction info: {}"
+#, c++-format
 msgid "Error parsing versionlock file \"{}\": {}"
-msgstr "ტრანზაქციის ინფორმაციის დამუშავების შეცდომა: {}"
+msgstr "დამუშავების შეცდომა versionlock-ის ფაილისთვის \"{}\": {}"
 
 #: rpm/versionlock_config.cpp:297 system/state.cpp:605
 #, c++-format
