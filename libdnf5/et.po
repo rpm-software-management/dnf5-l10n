@@ -10,8 +10,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-20 19:42+0000\n"
 "PO-Revision-Date: 2026-10-22 07:58+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: Priit Jõerüüt "
+"<jrtkbfdr@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Estonian <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/et/>\n"
 "Language: et\n"
@@ -30,7 +30,7 @@ msgstr ""
 
 #: advisory/advisory_collection.cpp:94
 msgid "This libdnf5 does not support modularity"
-msgstr ""
+msgstr "See libdnf5 ei toeta modulaarsust"
 
 #: base/active_transaction_info.cpp:93 base/active_transaction_info.cpp:95
 #, c++-format
@@ -79,7 +79,7 @@ msgstr "Uuenda minimaalset vajalik"
 
 #: base/goal_elements.cpp:370
 msgid "Upgrade all minimal"
-msgstr "Uuenda minimaalset vajalik"
+msgstr "Uuenda kõik minimaalset vajalik"
 
 #: base/goal_elements.cpp:372 transaction/transaction_item_action.cpp:68
 msgid "Downgrade"
@@ -131,7 +131,7 @@ msgstr ""
 
 #: base/goal_elements.cpp:396
 msgid "Install action"
-msgstr "Paigaldamine"
+msgstr "Paigaldustoiming"
 
 #: base/goal_elements.cpp:398
 msgid "Remove action"
@@ -673,7 +673,7 @@ msgstr "Probleem {}: "
 
 #: base/transaction.cpp:89
 msgid "This transaction has been already run before."
-msgstr ""
+msgstr "Seda transaktsiooni on juba varem käivitatud."
 
 #: base/transaction.cpp:90
 msgid "Cannot run transaction with resolving problems."
@@ -718,7 +718,7 @@ msgstr "pollimine ei õnnestunud haldusskripti konveiertöötluses"
 
 #: base/transaction.cpp:1017
 msgid "failed to read scriptlet output from pipe"
-msgstr "haldusskripti väljundit konveiertöötluses ei õnnestunud lugeda"
+msgstr "konveiertöötlusest tulnud haldusskripti väljundi lugemine ei õnnestunud"
 
 #: base/transaction.cpp:1135
 #, c++-format
@@ -905,7 +905,7 @@ msgstr ""
 #: conf/option_bool.cpp:82
 #, c++-format
 msgid "Invalid boolean value \"{}\""
-msgstr "„{}“ on vigane epohhi väärtus"
+msgstr "„{}“ on vigane tõeväärtus"
 
 #: conf/option_enum.cpp:68
 #, c++-format
@@ -963,6 +963,8 @@ msgid ""
 "Input value \"{}\" not allowed, allowed values for this option are defined "
 "by regular expression \"{}\""
 msgstr ""
+"Sisendväärtus „{}“ pole lubatud. Lubatud sisendvaliku tuvastamiseks on "
+"kasutusel regulaaravaldis „{}“"
 
 #. TODO(jrohel): We don't know the option name at this time. Add a text name to the options
 #. or extend exception (add name) in upper layer.
@@ -976,6 +978,8 @@ msgid ""
 "Input item value \"{}\" not allowed, allowed values for this option are "
 "defined by regular expression \"{}\""
 msgstr ""
+"Sisendobjekti väärtus „{}“ pole lubatud. Lubatud sisendvaliku tuvastamiseks "
+"on kasutusel regulaaravaldis „{}“"
 
 #: conf/vars.cpp:347 conf/vars.cpp:387
 #, c++-format
@@ -1199,12 +1203,14 @@ msgstr "Metateabe allalaadimise seadistamine ei õnnestunud"
 
 #: repo/repo_downloader.cpp:323 repo/repo_downloader.cpp:373
 msgid "Failed to download metadata"
-msgstr ""
+msgstr "Metateabe allalaadimine ei õnnestunud"
 
 #: repo/repo_downloader.cpp:437
 #, c++-format
 msgid "Error checking if metalink \"{}\" is in sync for repository \"{}\""
 msgstr ""
+"Viga kontrollimisel, kas „{}“ metalink on sünkroonis „{}“ tarkvarahoidla "
+"jaoks"
 
 #: repo/repo_downloader.cpp:457
 #, c++-format
@@ -1225,17 +1231,17 @@ msgstr ""
 #: repo/repo_pgp.cpp:67
 #, c++-format
 msgid "Failed to import OpenPGP keys into temporary keyring: {}"
-msgstr ""
+msgstr "OpenPGP võtmete importimine ajutisse võtmerõngasse ei õnnestunud: {}"
 
 #: repo/repo_pgp.cpp:73 repo/repo_pgp.cpp:100
 #, c++-format
 msgid "Failed to list OpenPGP keys: {}"
-msgstr ""
+msgstr "OpenPGP võtmete loendi loomine ei õnnestunud: {}"
 
 #: repo/repo_pgp.cpp:153
 #, c++-format
 msgid "Failed to import OpenPGP keys: {}"
-msgstr ""
+msgstr "OpenPGP võtmete importimine ei õnnestunud: {}"
 
 #: repo/repo_sack.cpp:159
 #, c++-format
@@ -1307,7 +1313,7 @@ msgstr ""
 
 #: rpm/checksum.cpp:98
 msgid "Unknown checksum type"
-msgstr ""
+msgstr "Tundmatu kontrollsumma tüüp"
 
 #: rpm/nevra.cpp:82
 #, c++-format
@@ -1321,7 +1327,7 @@ msgstr ""
 
 #: rpm/package.cpp:81
 msgid "Package with rpmdbid was not found"
-msgstr ""
+msgstr "Ei leidunud paketti, kus oleks „rpmdbid“"
 
 #: rpm/package.cpp:486
 msgid "<unknown>"
@@ -1337,15 +1343,15 @@ msgstr ""
 
 #: rpm/rpm_signature.cpp:46
 msgid "The signature is valid, but the key is not trusted."
-msgstr ""
+msgstr "See allkiri on kehtiv, kuid allkirja võti pole usaldusväärne."
 
 #: rpm/rpm_signature.cpp:47
 msgid "The package is not signed."
-msgstr ""
+msgstr "See pakett pole allkirjastatud."
 
 #: rpm/rpm_signature.cpp:48
 msgid "Problem occurred when opening the package."
-msgstr ""
+msgstr "Paketi avamisel tekkis viga."
 
 #: rpm/rpm_signature.cpp:64
 #, c++-format
@@ -1408,12 +1414,12 @@ msgstr ""
 #: rpm/transaction.cpp:312
 #, c++-format
 msgid "Failed to read package header, cannot open file \"{}\": {}"
-msgstr ""
+msgstr "Paketipäise lugemine ei õnnestunud, „{}“ fail pole avatav: {}"
 
 #: rpm/transaction.cpp:329
 #, c++-format
 msgid "Failed to read package header from file \"{}\""
-msgstr ""
+msgstr "Paketipäise lugemine „{}“ failist ei õnnestunud"
 
 #: rpm/transaction.cpp:342
 msgid "Cannot init rpm database iterator"
@@ -1421,34 +1427,34 @@ msgstr ""
 
 #: rpm/transaction.cpp:346
 msgid "Package was not found in rpm database"
-msgstr ""
+msgstr "Paketti ei leidunud rpm-i andmebaasis"
 
 #. TODO(jrohel): Why? Librpm does not provide this information.
 #: rpm/transaction.cpp:362
 #, c++-format
 msgid "Cannot reinstall package \"{}\""
-msgstr ""
+msgstr "„{}“ paketi uuesti paigaldamine ei õnnestu"
 
 #. TODO(jrohel): Why? Librpm does not provide this information.
 #: rpm/transaction.cpp:380
 #, c++-format
 msgid "Cannot remove package \"{}\""
-msgstr ""
+msgstr "„{}“ paketi eemaldamine ei õnnestu"
 
 #: rpm/transaction.cpp:399
 #, c++-format
 msgid "Cannot upgrade package \"{}\""
-msgstr ""
+msgstr "„{}“ paketi uuendamine ei õnnestu"
 
 #: rpm/transaction.cpp:403
 #, c++-format
 msgid "Cannot downgrade package \"{}\""
-msgstr ""
+msgstr "„{}“ paketi varasema versiooni paigaldamine ei õnnestu"
 
 #: rpm/transaction.cpp:407
 #, c++-format
 msgid "Cannot install package \"{}\""
-msgstr ""
+msgstr "„{}“ paketi paigaldamine ei õnnestu"
 
 #: rpm/versionlock_config.cpp:259
 #, c++-format
@@ -1464,7 +1470,7 @@ msgstr "{}"
 #: solv/pool.cpp:198
 #, c++-format
 msgid "Failed to convert epoch \"{}\" to number"
-msgstr ""
+msgstr "„{}“ epohhi teisendamine numbriks ei õnnestunud"
 
 #: solv/solver.cpp:79
 #, c++-format
@@ -1806,11 +1812,11 @@ msgstr ""
 
 #: transaction/transaction_item_action.cpp:74
 msgid "Replaced"
-msgstr "Asenda"
+msgstr "Asendatud"
 
 #: transaction/transaction_item_action.cpp:84
 msgid "Switch"
-msgstr "Haldur"
+msgstr "Vahetus"
 
 #: transaction/transaction_item_reason.cpp:30
 #, c++-format
@@ -2101,7 +2107,7 @@ msgstr "ajutise kausta loomine ei õnnestunud"
 
 #: utils/fs/temp.cpp:89
 msgid "cannot create temporary file"
-msgstr "ajutise kausta loomine ei õnnestunud"
+msgstr "ajutise faili loomine ei õnnestunud"
 
 #: utils/fs/temp.cpp:142
 msgid "cannot close temporary file"
@@ -2161,7 +2167,7 @@ msgstr ""
 #: utils/locker.cpp:99
 #, c++-format
 msgid "Failed to obtain lock \"{}\""
-msgstr "„{}“ lukustusfaili avamine ei õnnestunud"
+msgstr "„{}“ lukustuse reserveerimine ei õnnestunud"
 
 #: utils/locker.cpp:108
 msgid "File is already open."
