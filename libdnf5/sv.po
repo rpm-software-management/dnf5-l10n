@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-21 15:17+0000\n"
-"PO-Revision-Date: 2026-10-22 07:58+0000\n"
+"PO-Revision-Date: 2026-10-22 19:00+0000\n"
 "Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/sv/>\n"
@@ -742,6 +742,8 @@ msgid ""
 "This transaction is no longer valid because the system repository has "
 "changed since it was loaded."
 msgstr ""
+"Denna transaktion är inte längre giltig eftersom systemarkivet har ändrats "
+"sedan det lästes in."
 
 #: base/transaction.cpp:101
 msgid "The repository does not have any OpenPGP keys configured."
@@ -768,10 +770,10 @@ msgid "failed to read scriptlet output from pipe"
 msgstr "Misslyckades med att läsa scriptlet-utdata från pipe"
 
 #: base/transaction.cpp:1103
-#, fuzzy, c++-format
-#| msgid "Failed to load system repo from root \"{}\": {}"
+#, c++-format
 msgid "Failed to acquire system repo lock for writing, lock located at \"{}\""
-msgstr "Misslyckades att ladda systemförråd från root \"{}\": {}"
+msgstr ""
+"Misslyckades att förvärva systemarkivet för skrivning, låset finns på \"{}\""
 
 #: base/transaction.cpp:1173
 #, c++-format
@@ -1351,10 +1353,11 @@ msgid "Failed to load {} extension for repo \"{}\" from \"{}\": {}"
 msgstr "Misslyckades att ladda {} utökning för förråd \"{}\" från \"{}\": {}"
 
 #: repo/solv_repo.cpp:436
-#, fuzzy, c++-format
-#| msgid "Failed to load system repo from root \"{}\": {}"
+#, c++-format
 msgid "Failed to acquire system repo lock for reading, lock located at \"{}\""
-msgstr "Misslyckades att ladda systemförråd från root \"{}\": {}"
+msgstr ""
+"Misslyckades att förvärva systemarkives lås för skrivning, lås finns på \"{}"
+"\""
 
 #: repo/solv_repo.cpp:455
 #, c++-format
@@ -1884,22 +1887,17 @@ msgid "Unsupported TOML version \"{}\", maximum supported version is \"{}\""
 msgstr "Ostödd TOML-version \"{}\", maximalt stödd version är \"{}\""
 
 #: system/state.cpp:798
-#, fuzzy, c++-format
-#| msgid "Error %i opening rpm database"
+#, c++-format
 msgid "Error {} opening rpm database"
-msgstr "Fel %i vid öppnande av rpm databas"
+msgstr "Fel {} vid öppnande av rpm databas"
 
 #: system/state.cpp:802
-#, fuzzy
-#| msgid "Failed to restore database \"{}\""
 msgid "Failed to get rpm database"
-msgstr "Misslyckades med att återställa databas \"{}\""
+msgstr "Misslyckades med att hämta rpm databas"
 
 #: system/state.cpp:808
-#, fuzzy
-#| msgid "Cannot init rpm database iterator"
 msgid "Failed to initialize database index iterator"
-msgstr "Kunde inte starta rpm databas iterator"
+msgstr "Misslyckades med att initiera databasindexiteratorn"
 
 #. TODO(dmach): replace with a better exception class
 #: transaction/db/comps_environment_group.cpp:100
@@ -2375,10 +2373,9 @@ msgid "Failed to read from lock file \"{}\""
 msgstr "Misslyckades med att läsa från låsfil \"{}\""
 
 #: utils/locker.cpp:194
-#, fuzzy, c++-format
-#| msgid "The lock file \"{}\" is not opened"
+#, c++-format
 msgid "The lock file \"{}\" is not locked"
-msgstr "Låsfilen ”{}” är inte öppnad."
+msgstr "Låsfilen ”{}” är inte låst."
 
 #: utils/locker.cpp:207
 #, c++-format
