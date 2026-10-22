@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-20 19:42+0000\n"
+"POT-Creation-Date: 2026-10-21 15:17+0000\n"
 "PO-Revision-Date: 2026-09-11 21:18+0000\n"
 "Last-Translator: Arif Budiman <arifpedia@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -749,62 +749,74 @@ msgstr "Transaksi RPM gagal."
 msgid "Signature verification failed."
 msgstr "Verifikasi tanda tangan gagal."
 
-#: base/transaction.cpp:99
+#: base/transaction.cpp:97
+msgid ""
+"This transaction is no longer valid because the system repository has "
+"changed since it was loaded."
+msgstr ""
+
+#: base/transaction.cpp:101
 msgid "The repository does not have any OpenPGP keys configured."
 msgstr "Repositori ini tidak memiliki kunci OpenPGP yang dikonfigurasi."
 
-#: base/transaction.cpp:100
+#: base/transaction.cpp:102
 msgid "Public key is not installed."
 msgstr "Kunci publik tidak terpasang."
 
-#: base/transaction.cpp:101
+#: base/transaction.cpp:103
 msgid "Canceled by the user."
 msgstr "Dibatalkan oleh pengguna."
 
-#: base/transaction.cpp:102
+#: base/transaction.cpp:104
 msgid "Public key import failed."
 msgstr "Impor kunci publik gagal."
 
-#: base/transaction.cpp:994
+#: base/transaction.cpp:997
 msgid "poll failed during scriptlets pipe processing"
 msgstr "poll gagal selama pemrosesan pipe scriptlet"
 
-#: base/transaction.cpp:1017
+#: base/transaction.cpp:1020
 msgid "failed to read scriptlet output from pipe"
 msgstr "gagal membaca keluaran scriptlet dari pipe"
 
-#: base/transaction.cpp:1135
+#: base/transaction.cpp:1103
+#, fuzzy, c++-format
+#| msgid "Failed to load system repo from root \"{}\": {}"
+msgid "Failed to acquire system repo lock for writing, lock located at \"{}\""
+msgstr "Gagal memuat repositori sistem dari direktori akar \"{}\": {}"
+
+#: base/transaction.cpp:1173
 #, c++-format
 msgid "Invalid tsflag: {}"
 msgstr "Tsflag tidak valid: {}"
 
-#: base/transaction.cpp:1573
+#: base/transaction.cpp:1611
 #, c++-format
 msgid "Public key \"{}\" is already present, not importing."
 msgstr "Kunci publik \"{}\" sudah ada, tidak perlu diimpor."
 
-#: base/transaction.cpp:1596
+#: base/transaction.cpp:1634
 #, c++-format
 msgid "An error occurred importing key \"{}\": {}"
 msgstr "Terjadi kesalahan saat mengimpor kunci \"{}\": {}"
 
-#: base/transaction.cpp:1630
+#: base/transaction.cpp:1668
 #, c++-format
 msgid "OpenPGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
 msgstr ""
 "Pemeriksaan OpenPGP untuk paket \"{}\" ({}) dari repositori \"{}\" telah "
 "gagal: "
 
-#: base/transaction.cpp:1658
+#: base/transaction.cpp:1696
 msgid "Import of the key didn't help, wrong key?"
 msgstr "Impor kunci tidak membantu, apakah kuncinya salah?"
 
-#: base/transaction.cpp:1677
+#: base/transaction.cpp:1715
 msgctxt "It is a joining character for repositories IDs"
 msgid ", "
 msgstr ", "
 
-#: base/transaction.cpp:1680
+#: base/transaction.cpp:1718
 #, c++-format
 msgid "Warning: skipped OpenPGP checks for {0} package from repository: {1}"
 msgid_plural ""
@@ -812,7 +824,7 @@ msgid_plural ""
 msgstr[0] ""
 "Peringatan: Pemeriksaan OpenPGP dilewati untuk paket {0} dari repositori: {1}"
 
-#: base/transaction.cpp:1683
+#: base/transaction.cpp:1721
 #, c++-format
 msgid "Warning: skipped OpenPGP checks for {0} package from repositories: {1}"
 msgid_plural ""
@@ -1221,17 +1233,17 @@ msgstr ""
 "Gagal memuat repositori: data \"primary\" tidak tersedia atau dalam format "
 "yang tidak didukung"
 
-#: repo/repo.cpp:506
+#: repo/repo.cpp:513
 #, c++-format
 msgid "Failed to load comps \"{}\": doesn't have the \".xml\" extension"
 msgstr "Gagal memuat berkas \"{}\": tidak memiliki ekstensi \".xml\""
 
-#: repo/repo.cpp:513
+#: repo/repo.cpp:520
 #, c++-format
 msgid "Failed to load xml Comps \"{}\": {}"
 msgstr "Gagal memuat XML Comps \"{}\": {}"
 
-#: repo/repo.cpp:531
+#: repo/repo.cpp:538
 #, c++-format
 msgid "Failed to load RPM \"{}\": {}"
 msgstr "Gagal memuat RPM \"{}\": {}"
@@ -1333,53 +1345,59 @@ msgstr ""
 msgid "Cache-only enabled but no cache for repository \"{}\""
 msgstr "Cache-only diaktifkan tetapi tidak ada cache untuk repositori \"{}\""
 
-#: repo/solv_repo.cpp:267
+#: repo/solv_repo.cpp:268
 #, c++-format
 msgid "Failed to load repomd for repo \"{}\" from \"{}\": {}."
 msgstr "Gagal memuat repomd untuk repositori \"{}\" dari \"{}\": {}."
 
-#: repo/solv_repo.cpp:275
+#: repo/solv_repo.cpp:276
 #, c++-format
 msgid "Failed to load primary for repo \"{}\" from \"{}\": {}."
 msgstr "Gagal memuat repositori utama \"{}\" dari \"{}\": {}."
 
-#: repo/solv_repo.cpp:323
+#: repo/solv_repo.cpp:324
 #, c++-format
 msgid "Unsupported extended repodata type for the system repo: \"{}\"."
 msgstr ""
 "Tipe data repositori yang tidak didukung untuk repositori sistem: \"{}\"."
 
-#: repo/solv_repo.cpp:395
+#: repo/solv_repo.cpp:396
 #, c++-format
 msgid "Failed to load {} extension for repo \"{}\" from \"{}\": {}"
 msgstr "Gagal memuat ekstensi {} untuk repositori \"{}\" dari \"{}\": {}"
 
-#: repo/solv_repo.cpp:431
+#: repo/solv_repo.cpp:436
+#, fuzzy, c++-format
+#| msgid "Failed to load system repo from root \"{}\": {}"
+msgid "Failed to acquire system repo lock for reading, lock located at \"{}\""
+msgstr "Gagal memuat repositori sistem dari direktori akar \"{}\": {}"
+
+#: repo/solv_repo.cpp:455
 #, c++-format
 msgid "Failed to load system repo from root \"{}\": {}"
 msgstr "Gagal memuat repositori sistem dari direktori akar \"{}\": {}"
 
-#: repo/solv_repo.cpp:532
+#: repo/solv_repo.cpp:559
 #, c++-format
 msgid "Failed to load {} cache for repo \"{}\" from \"{}\": {}"
 msgstr "Gagal memuat cache {} untuk repositori \"{}\" dari \"{}\": {}"
 
-#: repo/solv_repo.cpp:586
+#: repo/solv_repo.cpp:613
 #, c++-format
 msgid "Failed to write primary cache for repo \"{}\" to \"{}\": {}"
 msgstr "Gagal menulis cache utama untuk repositori \"{}\" ke \"{}\": {}"
 
-#: repo/solv_repo.cpp:608
+#: repo/solv_repo.cpp:635
 #, c++-format
 msgid "Failed to re-load primary cache for repo \"{}\" from \"{}\": {}"
 msgstr "Gagal memuat ulang cache utama untuk repositori \"{}\" dari \"{}\": {}"
 
-#: repo/solv_repo.cpp:673
+#: repo/solv_repo.cpp:700
 #, c++-format
 msgid "Failed to write {} cache for repo \"{}\" to \"{}\": {}"
 msgstr "Gagal menulis cache {} untuk repositori \"{}\" ke \"{}\": {}"
 
-#: repo/solv_repo.cpp:694
+#: repo/solv_repo.cpp:721
 #, c++-format
 msgid "Failed to re-load {} cache for repo \"{}\" from \"{}\": {}"
 msgstr "Gagal memuat ulang cache {} untuk repositori \"{}\" dari \"{}\": {}"
@@ -1432,7 +1450,7 @@ msgstr "Paket ini tidak ditandatangani."
 msgid "Problem occurred when opening the package."
 msgstr "Masalah terjadi saat membuka paket."
 
-#: rpm/rpm_signature.cpp:64
+#: rpm/rpm_signature.cpp:64 system/state.cpp:792
 #, c++-format
 msgid "Failed to set rpm transaction rootDir \"{}\"."
 msgstr "Gagal menetapkan rootDir transaksi rpm \"{}\"."
@@ -1545,7 +1563,7 @@ msgstr "Tidak dapat menginstal paket \"{}\""
 msgid "Error parsing versionlock file \"{}\": {}"
 msgstr "Kesalahan saat mengurai informasi transaksi: {}"
 
-#: rpm/versionlock_config.cpp:297 system/state.cpp:605
+#: rpm/versionlock_config.cpp:297 system/state.cpp:614
 #, c++-format
 msgid "{}"
 msgstr "{}"
@@ -1863,28 +1881,46 @@ msgstr "Filter paket tidak mendukung arah 'eq'. Gunakan 'in' atau 'out'"
 msgid "{func}(): Policy index {idx} is out of range"
 msgstr "{func}(): Indeks kebijakan {idx} berada di luar rentang"
 
-#: system/state.cpp:282 system/state.cpp:291
+#: system/state.cpp:291 system/state.cpp:300
 #, c++-format
 msgid "Invalid TOML version \"{}\", \"MAJOR.MINOR\" expected"
 msgstr "Versi TOML tidak valid \"{}\", diharapkan \"MAJOR.MINOR\""
 
-#: system/state.cpp:299
+#: system/state.cpp:308
 #, c++-format
 msgid "{} state for \"{}\" not found."
 msgstr "{} status untuk \"{}\" tidak ditemukan."
 
-#: system/state.cpp:303
+#: system/state.cpp:312
 #, c++-format
 msgid "Loading system state TOML file {} failed (see dnf5-system-state(7)): {}"
 msgstr ""
 "Pemuatan berkas TOML status sistem {} gagal (lihat dnf5-system-state(7)): {}"
 
-#: system/state.cpp:640
+#: system/state.cpp:649
 #, c++-format
 msgid "Unsupported TOML version \"{}\", maximum supported version is \"{}\""
 msgstr ""
 "Versi TOML yang tidak didukung \"{}\", versi maksimum yang didukung adalah "
 "\"{}\""
+
+#: system/state.cpp:798
+#, fuzzy, c++-format
+#| msgid "Error %i opening rpm database"
+msgid "Error {} opening rpm database"
+msgstr "Kesalahan %i saat membuka basis data RPM"
+
+#: system/state.cpp:802
+#, fuzzy
+#| msgid "Failed to restore database \"{}\""
+msgid "Failed to get rpm database"
+msgstr "Gagal memulihkan database \"{}\""
+
+#: system/state.cpp:808
+#, fuzzy
+#| msgid "Cannot init rpm database iterator"
+msgid "Failed to initialize database index iterator"
+msgstr "Tidak dapat menginisialisasi iterator basis data RPM"
 
 #. TODO(dmach): replace with a better exception class
 #: transaction/db/comps_environment_group.cpp:100
@@ -2323,56 +2359,62 @@ msgstr "Tidak dapat memperoleh alamat simbol \"{}\": {}"
 msgid "Cannot set the locale \"{}\": {}"
 msgstr "Tidak dapat mengatur locale \"{}\": {}"
 
-#: utils/locker.cpp:99
+#: utils/locker.cpp:101
 #, c++-format
 msgid "Failed to obtain lock \"{}\""
 msgstr "Gagal mendapatkan kunci \"{}\""
 
-#: utils/locker.cpp:108
+#: utils/locker.cpp:111
 msgid "File is already open."
 msgstr "Berkas sudah terbuka."
 
-#: utils/locker.cpp:121
+#: utils/locker.cpp:124
 #, c++-format
 msgid "Failed to open lock file \"{}\""
 msgstr "Gagal membuka berkas kunci \"{}\""
 
-#: utils/locker.cpp:127 utils/locker.cpp:164
+#: utils/locker.cpp:130 utils/locker.cpp:167
 #, c++-format
 msgid "The lock file \"{}\" is not opened"
 msgstr "Berkas kunci \"{}\" tidak dibuka"
 
-#: utils/locker.cpp:132
+#: utils/locker.cpp:135
 #, c++-format
 msgid "Failed to truncate lock file \"{}\""
 msgstr "Gagal memotong berkas kunci \"{}\""
 
-#: utils/locker.cpp:135 utils/locker.cpp:172
+#: utils/locker.cpp:138 utils/locker.cpp:175
 #, c++-format
 msgid "Failed to seek lock file \"{}\""
 msgstr "Gagal melakukan seek pada berkas kunci \"{}\""
 
-#: utils/locker.cpp:143
+#: utils/locker.cpp:146
 #, c++-format
 msgid "Failed to write to lock file \"{}\""
 msgstr "Gagal menulis ke berkas kunci \"{}\""
 
-#: utils/locker.cpp:150
+#: utils/locker.cpp:153
 #, c++-format
 msgid "Failed to sync lock file \"{}\""
 msgstr "Gagal menyinkronkan berkas kunci \"{}\""
 
-#: utils/locker.cpp:178
+#: utils/locker.cpp:181
 #, c++-format
 msgid "Failed to read from lock file \"{}\""
 msgstr "Gagal membaca dari berkas kunci \"{}\""
 
-#: utils/locker.cpp:192
+#: utils/locker.cpp:194
+#, fuzzy, c++-format
+#| msgid "The lock file \"{}\" is not opened"
+msgid "The lock file \"{}\" is not locked"
+msgstr "Berkas kunci \"{}\" tidak dibuka"
+
+#: utils/locker.cpp:207
 #, c++-format
 msgid "Failed to close lock file \"{}\""
 msgstr "Gagal menutup berkas kunci \"{}\""
 
-#: utils/locker.cpp:196
+#: utils/locker.cpp:211
 #, c++-format
 msgid "Failed to delete lock file \"{}\""
 msgstr "Gagal menghapus berkas kunci \"{}\""

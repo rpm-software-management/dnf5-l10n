@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-20 19:42+0000\n"
+"POT-Creation-Date: 2026-10-21 15:17+0000\n"
 "PO-Revision-Date: 2026-09-20 00:18+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
@@ -747,62 +747,74 @@ msgstr "Falha na transação RPM."
 msgid "Signature verification failed."
 msgstr "A verificação da assinatura falhou."
 
-#: base/transaction.cpp:99
+#: base/transaction.cpp:97
+msgid ""
+"This transaction is no longer valid because the system repository has "
+"changed since it was loaded."
+msgstr ""
+
+#: base/transaction.cpp:101
 msgid "The repository does not have any OpenPGP keys configured."
 msgstr "O repositório não possui nenhuma chave OpenPGP configurada."
 
-#: base/transaction.cpp:100
+#: base/transaction.cpp:102
 msgid "Public key is not installed."
 msgstr "A chave pública não está instalada."
 
-#: base/transaction.cpp:101
+#: base/transaction.cpp:103
 msgid "Canceled by the user."
 msgstr "Cancelada pelo usuário."
 
-#: base/transaction.cpp:102
+#: base/transaction.cpp:104
 msgid "Public key import failed."
 msgstr "Falha na importação da chave pública."
 
-#: base/transaction.cpp:994
+#: base/transaction.cpp:997
 msgid "poll failed during scriptlets pipe processing"
 msgstr ""
 "falha na operação de poll durante o processamento de pipe de scriptlets"
 
-#: base/transaction.cpp:1017
+#: base/transaction.cpp:1020
 msgid "failed to read scriptlet output from pipe"
 msgstr "falha ao ler a saída do scriptlet do pipe"
 
-#: base/transaction.cpp:1135
+#: base/transaction.cpp:1103
+#, fuzzy, c++-format
+#| msgid "Failed to load system repo from root \"{}\": {}"
+msgid "Failed to acquire system repo lock for writing, lock located at \"{}\""
+msgstr "Falha ao carregar o repositório do sistema a partir da raiz \"{}\": {}"
+
+#: base/transaction.cpp:1173
 #, c++-format
 msgid "Invalid tsflag: {}"
 msgstr "tsflag inválida: {}"
 
-#: base/transaction.cpp:1573
+#: base/transaction.cpp:1611
 #, c++-format
 msgid "Public key \"{}\" is already present, not importing."
 msgstr "A chave pública \"{}\" já está presente, não será importada."
 
-#: base/transaction.cpp:1596
+#: base/transaction.cpp:1634
 #, c++-format
 msgid "An error occurred importing key \"{}\": {}"
 msgstr "Ocorreu um erro ao importar a chave \"{}\": {}"
 
-#: base/transaction.cpp:1630
+#: base/transaction.cpp:1668
 #, c++-format
 msgid "OpenPGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
 msgstr ""
 "A verificação OpenPGP do pacote \"{}\" ({}) do repositório \"{}\" falhou: "
 
-#: base/transaction.cpp:1658
+#: base/transaction.cpp:1696
 msgid "Import of the key didn't help, wrong key?"
 msgstr "A importação da chave não ajudou, chave errada?"
 
-#: base/transaction.cpp:1677
+#: base/transaction.cpp:1715
 msgctxt "It is a joining character for repositories IDs"
 msgid ", "
 msgstr ", "
 
-#: base/transaction.cpp:1680
+#: base/transaction.cpp:1718
 #, c++-format
 msgid "Warning: skipped OpenPGP checks for {0} package from repository: {1}"
 msgid_plural ""
@@ -813,7 +825,7 @@ msgstr[1] ""
 "Aviso: ignoradas as verificações de OpenPGP para {0} pacotes dos "
 "repositórios: {1}"
 
-#: base/transaction.cpp:1683
+#: base/transaction.cpp:1721
 #, c++-format
 msgid "Warning: skipped OpenPGP checks for {0} package from repositories: {1}"
 msgid_plural ""
@@ -1230,17 +1242,17 @@ msgstr ""
 "Falha ao carregar o repositório: dados \"primários\" não presentes ou em "
 "formato não suportado"
 
-#: repo/repo.cpp:506
+#: repo/repo.cpp:513
 #, c++-format
 msgid "Failed to load comps \"{}\": doesn't have the \".xml\" extension"
 msgstr "Falha ao carregar comps \"{}\": não possui a extensão \".xml\""
 
-#: repo/repo.cpp:513
+#: repo/repo.cpp:520
 #, c++-format
 msgid "Failed to load xml Comps \"{}\": {}"
 msgstr "Falha ao carregar comps xml \"{}\": {}"
 
-#: repo/repo.cpp:531
+#: repo/repo.cpp:538
 #, c++-format
 msgid "Failed to load RPM \"{}\": {}"
 msgstr "Falha ao carregar RPM \"{}\": {}"
@@ -1342,57 +1354,63 @@ msgstr ""
 msgid "Cache-only enabled but no cache for repository \"{}\""
 msgstr "Somente cache ativado, mas sem cache para o repositório \"{}\""
 
-#: repo/solv_repo.cpp:267
+#: repo/solv_repo.cpp:268
 #, c++-format
 msgid "Failed to load repomd for repo \"{}\" from \"{}\": {}."
 msgstr "Falha ao carregar o repomd para o repositório \"{}\" de \"{}\": {}."
 
-#: repo/solv_repo.cpp:275
+#: repo/solv_repo.cpp:276
 #, c++-format
 msgid "Failed to load primary for repo \"{}\" from \"{}\": {}."
 msgstr "Falha ao carregar o primário do repositório \"{}\" de \"{}\": {}."
 
-#: repo/solv_repo.cpp:323
+#: repo/solv_repo.cpp:324
 #, c++-format
 msgid "Unsupported extended repodata type for the system repo: \"{}\"."
 msgstr ""
 "Tipo de repodata estendido não compatível para o repositório do sistema: \"{}"
 "\"."
 
-#: repo/solv_repo.cpp:395
+#: repo/solv_repo.cpp:396
 #, c++-format
 msgid "Failed to load {} extension for repo \"{}\" from \"{}\": {}"
 msgstr ""
 "Falha ao carregar a extensão {} para o repositório \"{}\" de \"{}\": {}"
 
-#: repo/solv_repo.cpp:431
+#: repo/solv_repo.cpp:436
+#, fuzzy, c++-format
+#| msgid "Failed to load system repo from root \"{}\": {}"
+msgid "Failed to acquire system repo lock for reading, lock located at \"{}\""
+msgstr "Falha ao carregar o repositório do sistema a partir da raiz \"{}\": {}"
+
+#: repo/solv_repo.cpp:455
 #, c++-format
 msgid "Failed to load system repo from root \"{}\": {}"
 msgstr "Falha ao carregar o repositório do sistema a partir da raiz \"{}\": {}"
 
-#: repo/solv_repo.cpp:532
+#: repo/solv_repo.cpp:559
 #, c++-format
 msgid "Failed to load {} cache for repo \"{}\" from \"{}\": {}"
 msgstr ""
 "Falha ao carregar o cache de {} para o repositório \"{}\" de \"{}\": {}"
 
-#: repo/solv_repo.cpp:586
+#: repo/solv_repo.cpp:613
 #, c++-format
 msgid "Failed to write primary cache for repo \"{}\" to \"{}\": {}"
 msgstr "Falha ao gravar cache primário do repositório \"{}\" em \"{}\": {}"
 
-#: repo/solv_repo.cpp:608
+#: repo/solv_repo.cpp:635
 #, c++-format
 msgid "Failed to re-load primary cache for repo \"{}\" from \"{}\": {}"
 msgstr ""
 "Falha ao recarregar o cache primário do repositório \"{}\" de \"{}\": {}"
 
-#: repo/solv_repo.cpp:673
+#: repo/solv_repo.cpp:700
 #, c++-format
 msgid "Failed to write {} cache for repo \"{}\" to \"{}\": {}"
 msgstr "Falha ao gravar o cache de {} do repositório \"{}\" em \"{}\": {}"
 
-#: repo/solv_repo.cpp:694
+#: repo/solv_repo.cpp:721
 #, c++-format
 msgid "Failed to re-load {} cache for repo \"{}\" from \"{}\": {}"
 msgstr ""
@@ -1448,7 +1466,7 @@ msgstr "O pacote não está assinado."
 msgid "Problem occurred when opening the package."
 msgstr "Ocorreu um problema ao abrir o pacote."
 
-#: rpm/rpm_signature.cpp:64
+#: rpm/rpm_signature.cpp:64 system/state.cpp:792
 #, c++-format
 msgid "Failed to set rpm transaction rootDir \"{}\"."
 msgstr "Falha ao definir o rootDir de transação rpm com \"{}\"."
@@ -1562,7 +1580,7 @@ msgstr "Não é possível instalar o pacote \"{}\""
 msgid "Error parsing versionlock file \"{}\": {}"
 msgstr "Erro ao analisar as informações da transação: {}"
 
-#: rpm/versionlock_config.cpp:297 system/state.cpp:605
+#: rpm/versionlock_config.cpp:297 system/state.cpp:614
 #, c++-format
 msgid "{}"
 msgstr "{}"
@@ -1879,27 +1897,45 @@ msgstr "Os filtros de pacote não suportam a direção 'eq'. Use 'in' ou 'out'"
 msgid "{func}(): Policy index {idx} is out of range"
 msgstr "{func}(): O índice de política {idx} está fora do intervalo"
 
-#: system/state.cpp:282 system/state.cpp:291
+#: system/state.cpp:291 system/state.cpp:300
 #, c++-format
 msgid "Invalid TOML version \"{}\", \"MAJOR.MINOR\" expected"
 msgstr "Versão TOML inválida \"{}\"; espera-se \"MAJOR.MINOR\""
 
-#: system/state.cpp:299
+#: system/state.cpp:308
 #, c++-format
 msgid "{} state for \"{}\" not found."
 msgstr "Estado {} para \"{}\" não encontrado."
 
-#: system/state.cpp:303
+#: system/state.cpp:312
 #, c++-format
 msgid "Loading system state TOML file {} failed (see dnf5-system-state(7)): {}"
 msgstr ""
 "Falha ao carregar o arquivo TOML do estado do sistema {} (consulte dnf5-"
 "system-state(7)): {}"
 
-#: system/state.cpp:640
+#: system/state.cpp:649
 #, c++-format
 msgid "Unsupported TOML version \"{}\", maximum supported version is \"{}\""
 msgstr "Versão TOML \"{}\" não suportada, a versão máxima suportada é \"{}\""
+
+#: system/state.cpp:798
+#, fuzzy, c++-format
+#| msgid "Error %i opening rpm database"
+msgid "Error {} opening rpm database"
+msgstr "Erro %i ao abrir o banco de dados rpm"
+
+#: system/state.cpp:802
+#, fuzzy
+#| msgid "Failed to restore database \"{}\""
+msgid "Failed to get rpm database"
+msgstr "Falha ao restaurar o banco de dados \"{}\""
+
+#: system/state.cpp:808
+#, fuzzy
+#| msgid "Cannot init rpm database iterator"
+msgid "Failed to initialize database index iterator"
+msgstr "Não é possível iniciar o iterador do banco de dados RPM"
 
 #. TODO(dmach): replace with a better exception class
 #: transaction/db/comps_environment_group.cpp:100
@@ -2335,56 +2371,62 @@ msgstr "Não foi possível obter o endereço de símbolo \"{}\": {}"
 msgid "Cannot set the locale \"{}\": {}"
 msgstr "Não foi possível definir a localidade \"{}\": {}"
 
-#: utils/locker.cpp:99
+#: utils/locker.cpp:101
 #, c++-format
 msgid "Failed to obtain lock \"{}\""
 msgstr "Falha ao obter o arquivo de bloqueio \"{}\""
 
-#: utils/locker.cpp:108
+#: utils/locker.cpp:111
 msgid "File is already open."
 msgstr "O arquivo já está aberto."
 
-#: utils/locker.cpp:121
+#: utils/locker.cpp:124
 #, c++-format
 msgid "Failed to open lock file \"{}\""
 msgstr "Falha ao abrir o arquivo de bloqueio \"{}\""
 
-#: utils/locker.cpp:127 utils/locker.cpp:164
+#: utils/locker.cpp:130 utils/locker.cpp:167
 #, c++-format
 msgid "The lock file \"{}\" is not opened"
 msgstr "O arquivo de bloqueio \"{}\" não está aberto"
 
-#: utils/locker.cpp:132
+#: utils/locker.cpp:135
 #, c++-format
 msgid "Failed to truncate lock file \"{}\""
 msgstr "Falha ao truncar o arquivo de bloqueio \"{}\""
 
-#: utils/locker.cpp:135 utils/locker.cpp:172
+#: utils/locker.cpp:138 utils/locker.cpp:175
 #, c++-format
 msgid "Failed to seek lock file \"{}\""
 msgstr "Falha ao buscar o arquivo de bloqueio \"{}\""
 
-#: utils/locker.cpp:143
+#: utils/locker.cpp:146
 #, c++-format
 msgid "Failed to write to lock file \"{}\""
 msgstr "Falha ao gravar no arquivo de bloqueio \"{}\""
 
-#: utils/locker.cpp:150
+#: utils/locker.cpp:153
 #, c++-format
 msgid "Failed to sync lock file \"{}\""
 msgstr "Falha ao sincronizar o arquivo de bloqueio \"{}\""
 
-#: utils/locker.cpp:178
+#: utils/locker.cpp:181
 #, c++-format
 msgid "Failed to read from lock file \"{}\""
 msgstr "Falha ao ler o arquivo de bloqueio \"{}\""
 
-#: utils/locker.cpp:192
+#: utils/locker.cpp:194
+#, fuzzy, c++-format
+#| msgid "The lock file \"{}\" is not opened"
+msgid "The lock file \"{}\" is not locked"
+msgstr "O arquivo de bloqueio \"{}\" não está aberto"
+
+#: utils/locker.cpp:207
 #, c++-format
 msgid "Failed to close lock file \"{}\""
 msgstr "Falha ao fechar o arquivo de bloqueio \"{}\""
 
-#: utils/locker.cpp:196
+#: utils/locker.cpp:211
 #, c++-format
 msgid "Failed to delete lock file \"{}\""
 msgstr "Falha ao excluir o arquivo de bloqueio \"{}\""

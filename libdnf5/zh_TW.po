@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-20 19:42+0000\n"
+"POT-Creation-Date: 2026-10-21 15:17+0000\n"
 "PO-Revision-Date: 2026-10-21 07:18+0000\n"
 "Last-Translator: Skyter Lin <linskyter@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
@@ -705,67 +705,79 @@ msgstr "Rpm 處理事項失敗。"
 msgid "Signature verification failed."
 msgstr "簽章驗證失敗。"
 
-#: base/transaction.cpp:99
+#: base/transaction.cpp:97
+msgid ""
+"This transaction is no longer valid because the system repository has "
+"changed since it was loaded."
+msgstr ""
+
+#: base/transaction.cpp:101
 msgid "The repository does not have any OpenPGP keys configured."
 msgstr "軟體庫未設定任何 OpenPGP 金鑰。"
 
-#: base/transaction.cpp:100
+#: base/transaction.cpp:102
 msgid "Public key is not installed."
 msgstr "未安裝公開金鑰。"
 
-#: base/transaction.cpp:101
+#: base/transaction.cpp:103
 msgid "Canceled by the user."
 msgstr "已由使用者取消。"
 
-#: base/transaction.cpp:102
+#: base/transaction.cpp:104
 msgid "Public key import failed."
 msgstr "公開金鑰匯入失敗。"
 
-#: base/transaction.cpp:994
+#: base/transaction.cpp:997
 msgid "poll failed during scriptlets pipe processing"
 msgstr "處理指令稿管線時 poll 失敗"
 
-#: base/transaction.cpp:1017
+#: base/transaction.cpp:1020
 msgid "failed to read scriptlet output from pipe"
 msgstr "無法從管線讀取指令稿輸出"
 
-#: base/transaction.cpp:1135
+#: base/transaction.cpp:1103
+#, fuzzy, c++-format
+#| msgid "Failed to load system repo from root \"{}\": {}"
+msgid "Failed to acquire system repo lock for writing, lock located at \"{}\""
+msgstr "無法從根目錄「{}」載入系統軟體庫：{}"
+
+#: base/transaction.cpp:1173
 #, c++-format
 msgid "Invalid tsflag: {}"
 msgstr "無效的 tsflag：{}"
 
-#: base/transaction.cpp:1573
+#: base/transaction.cpp:1611
 #, c++-format
 msgid "Public key \"{}\" is already present, not importing."
 msgstr "公開金鑰「{}」已存在，不再匯入。"
 
-#: base/transaction.cpp:1596
+#: base/transaction.cpp:1634
 #, c++-format
 msgid "An error occurred importing key \"{}\": {}"
 msgstr "匯入金鑰「{}」時發生錯誤：{}"
 
-#: base/transaction.cpp:1630
+#: base/transaction.cpp:1668
 #, c++-format
 msgid "OpenPGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
 msgstr "OpenPGP 檢查失敗：軟體包「{}」（{}）來自軟體庫「{}」： "
 
-#: base/transaction.cpp:1658
+#: base/transaction.cpp:1696
 msgid "Import of the key didn't help, wrong key?"
 msgstr "匯入金鑰無效，可能是金鑰錯誤？"
 
-#: base/transaction.cpp:1677
+#: base/transaction.cpp:1715
 msgctxt "It is a joining character for repositories IDs"
 msgid ", "
 msgstr "， "
 
-#: base/transaction.cpp:1680
+#: base/transaction.cpp:1718
 #, c++-format
 msgid "Warning: skipped OpenPGP checks for {0} package from repository: {1}"
 msgid_plural ""
 "Warning: skipped OpenPGP checks for {0} packages from repository: {1}"
 msgstr[0] "警告：已略過軟體庫 {1} 的 {0} 個軟體包的 OpenPGP 檢查"
 
-#: base/transaction.cpp:1683
+#: base/transaction.cpp:1721
 #, c++-format
 msgid "Warning: skipped OpenPGP checks for {0} package from repositories: {1}"
 msgid_plural ""
@@ -1154,17 +1166,17 @@ msgid ""
 "format"
 msgstr "無法載入軟體庫：「primary」資料不存在或不支援格式"
 
-#: repo/repo.cpp:506
+#: repo/repo.cpp:513
 #, c++-format
 msgid "Failed to load comps \"{}\": doesn't have the \".xml\" extension"
 msgstr "無法載入 comps「{}」：沒有「.xml」副檔名"
 
-#: repo/repo.cpp:513
+#: repo/repo.cpp:520
 #, c++-format
 msgid "Failed to load xml Comps \"{}\": {}"
 msgstr "無法載入 xml Comps「{}」：{}"
 
-#: repo/repo.cpp:531
+#: repo/repo.cpp:538
 #, c++-format
 msgid "Failed to load RPM \"{}\": {}"
 msgstr "無法載入 RPM「{}」：{}"
@@ -1258,52 +1270,58 @@ msgstr "無法建立軟體庫「{}」：Id 在設定中出現多次"
 msgid "Cache-only enabled but no cache for repository \"{}\""
 msgstr "已啟用僅快取模式，但軟體庫「{}」沒有快取"
 
-#: repo/solv_repo.cpp:267
+#: repo/solv_repo.cpp:268
 #, c++-format
 msgid "Failed to load repomd for repo \"{}\" from \"{}\": {}."
 msgstr "無法載入軟體庫「{}」的 repomd（來自「{}」）：{}。"
 
-#: repo/solv_repo.cpp:275
+#: repo/solv_repo.cpp:276
 #, c++-format
 msgid "Failed to load primary for repo \"{}\" from \"{}\": {}."
 msgstr "無法載入軟體庫「{}」的主要資料（來自「{}」）：{}。"
 
-#: repo/solv_repo.cpp:323
+#: repo/solv_repo.cpp:324
 #, c++-format
 msgid "Unsupported extended repodata type for the system repo: \"{}\"."
 msgstr "系統軟體庫不支援的擴充 repodata 類型：「{}」。"
 
-#: repo/solv_repo.cpp:395
+#: repo/solv_repo.cpp:396
 #, c++-format
 msgid "Failed to load {} extension for repo \"{}\" from \"{}\": {}"
 msgstr "無法載入軟體庫「{}」的 {} 擴充功能（來自「{}」）：{}"
 
-#: repo/solv_repo.cpp:431
+#: repo/solv_repo.cpp:436
+#, fuzzy, c++-format
+#| msgid "Failed to load system repo from root \"{}\": {}"
+msgid "Failed to acquire system repo lock for reading, lock located at \"{}\""
+msgstr "無法從根目錄「{}」載入系統軟體庫：{}"
+
+#: repo/solv_repo.cpp:455
 #, c++-format
 msgid "Failed to load system repo from root \"{}\": {}"
 msgstr "無法從根目錄「{}」載入系統軟體庫：{}"
 
-#: repo/solv_repo.cpp:532
+#: repo/solv_repo.cpp:559
 #, c++-format
 msgid "Failed to load {} cache for repo \"{}\" from \"{}\": {}"
 msgstr "無法載入軟體庫「{}」的 {} 快取（來自「{}」）：{}"
 
-#: repo/solv_repo.cpp:586
+#: repo/solv_repo.cpp:613
 #, c++-format
 msgid "Failed to write primary cache for repo \"{}\" to \"{}\": {}"
 msgstr "無法寫入軟體庫「{}」的主要快取（到「{}」）：{}"
 
-#: repo/solv_repo.cpp:608
+#: repo/solv_repo.cpp:635
 #, c++-format
 msgid "Failed to re-load primary cache for repo \"{}\" from \"{}\": {}"
 msgstr "無法重新載入軟體庫「{}」的主要快取（來自「{}」）：{}"
 
-#: repo/solv_repo.cpp:673
+#: repo/solv_repo.cpp:700
 #, c++-format
 msgid "Failed to write {} cache for repo \"{}\" to \"{}\": {}"
 msgstr "無法寫入軟體庫「{}」的 {} 快取到「{}」：{}"
 
-#: repo/solv_repo.cpp:694
+#: repo/solv_repo.cpp:721
 #, c++-format
 msgid "Failed to re-load {} cache for repo \"{}\" from \"{}\": {}"
 msgstr "無法從「{}」重新載入軟體庫「{}」的 {} 快取：{}"
@@ -1356,7 +1374,7 @@ msgstr "此軟體包未簽章。"
 msgid "Problem occurred when opening the package."
 msgstr "開啟軟體包時發生錯誤。"
 
-#: rpm/rpm_signature.cpp:64
+#: rpm/rpm_signature.cpp:64 system/state.cpp:792
 #, c++-format
 msgid "Failed to set rpm transaction rootDir \"{}\"."
 msgstr "無法設定 rpm 處理事項根目錄「{}」。"
@@ -1464,7 +1482,7 @@ msgstr "無法安裝軟體包「{}」"
 msgid "Error parsing versionlock file \"{}\": {}"
 msgstr "剖析處理事項資訊時發生錯誤：{}"
 
-#: rpm/versionlock_config.cpp:297 system/state.cpp:605
+#: rpm/versionlock_config.cpp:297 system/state.cpp:614
 #, c++-format
 msgid "{}"
 msgstr "{}"
@@ -1759,25 +1777,43 @@ msgstr "軟體包篩選器不支援「eq」方向。請使用「in」或「out�
 msgid "{func}(): Policy index {idx} is out of range"
 msgstr "{func}()：原則索引 {idx} 超出範圍"
 
-#: system/state.cpp:282 system/state.cpp:291
+#: system/state.cpp:291 system/state.cpp:300
 #, c++-format
 msgid "Invalid TOML version \"{}\", \"MAJOR.MINOR\" expected"
 msgstr "無效的 TOML 版本「{}」，預期為「MAJOR.MINOR」"
 
-#: system/state.cpp:299
+#: system/state.cpp:308
 #, c++-format
 msgid "{} state for \"{}\" not found."
 msgstr "找不到「{}」的「{}」狀態。"
 
-#: system/state.cpp:303
+#: system/state.cpp:312
 #, c++-format
 msgid "Loading system state TOML file {} failed (see dnf5-system-state(7)): {}"
 msgstr "載入系統狀態 TOML 檔案「{}」失敗（請參閱 dnf5-system-state(7)）：{}"
 
-#: system/state.cpp:640
+#: system/state.cpp:649
 #, c++-format
 msgid "Unsupported TOML version \"{}\", maximum supported version is \"{}\""
 msgstr "不支援的 TOML 版本「{}」，最高支援版本為「{}」"
+
+#: system/state.cpp:798
+#, fuzzy, c++-format
+#| msgid "Error %i opening rpm database"
+msgid "Error {} opening rpm database"
+msgstr "開啟 rpm 資料庫錯誤 %i"
+
+#: system/state.cpp:802
+#, fuzzy
+#| msgid "Failed to restore database \"{}\""
+msgid "Failed to get rpm database"
+msgstr "無法還原資料庫「{}」"
+
+#: system/state.cpp:808
+#, fuzzy
+#| msgid "Cannot init rpm database iterator"
+msgid "Failed to initialize database index iterator"
+msgstr "無法初始化 rpm 資料庫疊代器"
 
 #. TODO(dmach): replace with a better exception class
 #: transaction/db/comps_environment_group.cpp:100
@@ -2192,56 +2228,62 @@ msgstr "無法取得符號「{}」的位址：{}"
 msgid "Cannot set the locale \"{}\": {}"
 msgstr "無法設定地區「{}」：{}"
 
-#: utils/locker.cpp:99
+#: utils/locker.cpp:101
 #, c++-format
 msgid "Failed to obtain lock \"{}\""
 msgstr "無法取得鎖定「{}」"
 
-#: utils/locker.cpp:108
+#: utils/locker.cpp:111
 msgid "File is already open."
 msgstr "檔案已經開啟。"
 
-#: utils/locker.cpp:121
+#: utils/locker.cpp:124
 #, c++-format
 msgid "Failed to open lock file \"{}\""
 msgstr "無法開啟鎖定檔「{}」"
 
-#: utils/locker.cpp:127 utils/locker.cpp:164
+#: utils/locker.cpp:130 utils/locker.cpp:167
 #, c++-format
 msgid "The lock file \"{}\" is not opened"
 msgstr "鎖定檔「{}」尚未開啟"
 
-#: utils/locker.cpp:132
+#: utils/locker.cpp:135
 #, c++-format
 msgid "Failed to truncate lock file \"{}\""
 msgstr "無法截斷鎖定檔「{}」"
 
-#: utils/locker.cpp:135 utils/locker.cpp:172
+#: utils/locker.cpp:138 utils/locker.cpp:175
 #, c++-format
 msgid "Failed to seek lock file \"{}\""
 msgstr "無法定位鎖定檔「{}」"
 
-#: utils/locker.cpp:143
+#: utils/locker.cpp:146
 #, c++-format
 msgid "Failed to write to lock file \"{}\""
 msgstr "無法寫入鎖定檔「{}」"
 
-#: utils/locker.cpp:150
+#: utils/locker.cpp:153
 #, c++-format
 msgid "Failed to sync lock file \"{}\""
 msgstr "無法同步鎖定檔「{}」"
 
-#: utils/locker.cpp:178
+#: utils/locker.cpp:181
 #, c++-format
 msgid "Failed to read from lock file \"{}\""
 msgstr "無法讀取鎖定檔「{}」"
 
-#: utils/locker.cpp:192
+#: utils/locker.cpp:194
+#, fuzzy, c++-format
+#| msgid "The lock file \"{}\" is not opened"
+msgid "The lock file \"{}\" is not locked"
+msgstr "鎖定檔「{}」尚未開啟"
+
+#: utils/locker.cpp:207
 #, c++-format
 msgid "Failed to close lock file \"{}\""
 msgstr "無法關閉鎖定檔「{}」"
 
-#: utils/locker.cpp:196
+#: utils/locker.cpp:211
 #, c++-format
 msgid "Failed to delete lock file \"{}\""
 msgstr "無法刪除鎖定檔「{}」"
