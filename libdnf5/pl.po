@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-21 15:17+0000\n"
-"PO-Revision-Date: 2026-09-22 17:55+0000\n"
-"Last-Translator: Tomasz Bojanowski <tomasz@bojanowski.me>\n"
+"PO-Revision-Date: 2026-10-22 19:00+0000\n"
+"Last-Translator: Paweł Marciniak <sunwire+fas@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/pl/>\n"
 "Language: pl\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2026.9.1\n"
+"X-Generator: Weblate 2026.10.1\n"
 
 #: advisory/advisory.cpp:81
 #, c++-format
@@ -1589,10 +1589,9 @@ msgid "Cannot install package \"{}\""
 msgstr "Nie można zainstalować pakietu „{}”"
 
 #: rpm/versionlock_config.cpp:259
-#, fuzzy, c++-format
-#| msgid "Error parsing transaction info: {}"
+#, c++-format
 msgid "Error parsing versionlock file \"{}\": {}"
-msgstr "Błąd podczas analizowania informacji o transakcji: {}"
+msgstr "Błąd podczas analizowania pliku blokady wersji „{}”: {}"
 
 #: rpm/versionlock_config.cpp:297 system/state.cpp:614
 #, c++-format
