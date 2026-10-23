@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-21 15:17+0000\n"
-"PO-Revision-Date: 2026-10-22 07:58+0000\n"
+"PO-Revision-Date: 2026-10-24 01:18+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/ka/>\n"
@@ -748,6 +748,8 @@ msgid ""
 "This transaction is no longer valid because the system repository has "
 "changed since it was loaded."
 msgstr ""
+"ეს ტრანზაქცია სწორი აღარაა, რადგან სისტემური რეპოზიტორია შეიცვალა მისი "
+"ჩატვირთვის შემდეგ."
 
 #: base/transaction.cpp:101
 msgid "The repository does not have any OpenPGP keys configured."
@@ -774,10 +776,11 @@ msgid "failed to read scriptlet output from pipe"
 msgstr "კომუნიკაციის არხდან მინისკრიპტის გამოტანის წაკითხვის შეცდომა"
 
 #: base/transaction.cpp:1103
-#, fuzzy, c++-format
-#| msgid "Failed to load system repo from root \"{}\": {}"
+#, c++-format
 msgid "Failed to acquire system repo lock for writing, lock located at \"{}\""
-msgstr "შეცდომა სისტემური რეპოზიტორიის ჩატვირთვისას root-დან \"{}\": {}"
+msgstr ""
+"შეცდომა სისტემური რეპოზიტორიის ბლოკის მიღებისას ჩასაწერად. ბლოკი "
+"მოთავსებულია ბილიკზე \"{}\""
 
 #: base/transaction.cpp:1173
 #, c++-format
@@ -1370,10 +1373,11 @@ msgid "Failed to load {} extension for repo \"{}\" from \"{}\": {}"
 msgstr "შეცდომა გაფართოების {} ჩატვირთვისას რეპოზიტორიისთვის {} \"{}\"-დან: {}"
 
 #: repo/solv_repo.cpp:436
-#, fuzzy, c++-format
-#| msgid "Failed to load system repo from root \"{}\": {}"
+#, c++-format
 msgid "Failed to acquire system repo lock for reading, lock located at \"{}\""
-msgstr "შეცდომა სისტემური რეპოზიტორიის ჩატვირთვისას root-დან \"{}\": {}"
+msgstr ""
+"შეცდომა სისტემური რეპოზიტორიის ბლოკის მიღებისას წასაკითხად. ბლოკი "
+"მოთავსებულია ბილიკზე \"{}\""
 
 #: repo/solv_repo.cpp:455
 #, c++-format
@@ -1913,22 +1917,17 @@ msgstr ""
 "TOML-ის მხარდაუჭერელი ვერსია \"{}\". მაქსიმალური მხარდაჭერილი ვერსიაა \"{}\""
 
 #: system/state.cpp:798
-#, fuzzy, c++-format
-#| msgid "Error %i opening rpm database"
+#, c++-format
 msgid "Error {} opening rpm database"
-msgstr "შეცდომა %i rpm-ის ბაზის გახსნისას"
+msgstr "შეცდომა {} rpm-ის ბაზის გახსნისას"
 
 #: system/state.cpp:802
-#, fuzzy
-#| msgid "Failed to restore database \"{}\""
 msgid "Failed to get rpm database"
-msgstr "შეცდომა ბაზის \"{}\" აღდგენისას"
+msgstr "შეცდომა rpm-ის მონაცემთა ბაზის მიღებსიას"
 
 #: system/state.cpp:808
-#, fuzzy
-#| msgid "Cannot init rpm database iterator"
 msgid "Failed to initialize database index iterator"
-msgstr "'rpm'-ის ბაზის იტერატორის ინიციალიზაციის შეცდომა"
+msgstr "მონაცემთა ბაზის ინდექსის იტერატორის ინიციალიზაცია ჩავარდა"
 
 #. TODO(dmach): replace with a better exception class
 #: transaction/db/comps_environment_group.cpp:100
@@ -2407,10 +2406,9 @@ msgid "Failed to read from lock file \"{}\""
 msgstr "შეცდომა დაბლოკვის ფაილიდან \"{}\" წაკითხვისას"
 
 #: utils/locker.cpp:194
-#, fuzzy, c++-format
-#| msgid "The lock file \"{}\" is not opened"
+#, c++-format
 msgid "The lock file \"{}\" is not locked"
-msgstr "ბლოკის ფაილი \"{}\" ღია არაა"
+msgstr "ბლოკის ფაილი \"{}\" ჩაკეტილი არაა"
 
 #: utils/locker.cpp:207
 #, c++-format
