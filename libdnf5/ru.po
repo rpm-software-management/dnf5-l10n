@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-21 15:17+0000\n"
-"PO-Revision-Date: 2026-10-22 07:58+0000\n"
+"PO-Revision-Date: 2026-10-24 01:18+0000\n"
 "Last-Translator: Andrei Stepanov <adem4ik@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/ru/>\n"
@@ -745,6 +745,8 @@ msgid ""
 "This transaction is no longer valid because the system repository has "
 "changed since it was loaded."
 msgstr ""
+"Эта транзакция больше не действительна, поскольку системный репозиторий "
+"изменился с момента его загрузки."
 
 #: base/transaction.cpp:101
 msgid "The repository does not have any OpenPGP keys configured."
@@ -771,10 +773,11 @@ msgid "failed to read scriptlet output from pipe"
 msgstr "не удалось прочитать вывод scriptlet'а из канала"
 
 #: base/transaction.cpp:1103
-#, fuzzy, c++-format
-#| msgid "Failed to load system repo from root \"{}\": {}"
+#, c++-format
 msgid "Failed to acquire system repo lock for writing, lock located at \"{}\""
-msgstr "Не удалось загрузить системный репозиторий из корня \"{}\": {}"
+msgstr ""
+"Не удалось получить блокировку системного репозитория для записи; блокировка "
+"находится по пути \"{}\""
 
 #: base/transaction.cpp:1173
 #, c++-format
@@ -1372,10 +1375,11 @@ msgstr ""
 "Не удалось загрузить расширение {} для репозитория \"{}\" из \"{}\": {}"
 
 #: repo/solv_repo.cpp:436
-#, fuzzy, c++-format
-#| msgid "Failed to load system repo from root \"{}\": {}"
+#, c++-format
 msgid "Failed to acquire system repo lock for reading, lock located at \"{}\""
-msgstr "Не удалось загрузить системный репозиторий из корня \"{}\": {}"
+msgstr ""
+"Не удалось получить блокировку системного репозитория для чтения; блокировка "
+"находится по пути \"{}\""
 
 #: repo/solv_repo.cpp:455
 #, c++-format
@@ -1917,22 +1921,17 @@ msgstr ""
 "\"{}\""
 
 #: system/state.cpp:798
-#, fuzzy, c++-format
-#| msgid "Error %i opening rpm database"
+#, c++-format
 msgid "Error {} opening rpm database"
-msgstr "Ошибка %i при открытии базы данных rpm"
+msgstr "Ошибка {} при открытии базы данных rpm"
 
 #: system/state.cpp:802
-#, fuzzy
-#| msgid "Failed to restore database \"{}\""
 msgid "Failed to get rpm database"
-msgstr "Не удалось восстановить базу данных \"{}\""
+msgstr "Не удалось получить базу данных rpm"
 
 #: system/state.cpp:808
-#, fuzzy
-#| msgid "Cannot init rpm database iterator"
 msgid "Failed to initialize database index iterator"
-msgstr "Невозможно инициировать итератор базы данных rpm"
+msgstr "Не удалось инициализировать итератор индекса базы данных"
 
 #. TODO(dmach): replace with a better exception class
 #: transaction/db/comps_environment_group.cpp:100
@@ -2412,10 +2411,9 @@ msgid "Failed to read from lock file \"{}\""
 msgstr "Не удалось прочитать из файла блокировки \"{}\""
 
 #: utils/locker.cpp:194
-#, fuzzy, c++-format
-#| msgid "The lock file \"{}\" is not opened"
+#, c++-format
 msgid "The lock file \"{}\" is not locked"
-msgstr "Файл блокировки \"{}\" не открыт"
+msgstr "Файл блокировки \"{}\" не заблокирован"
 
 #: utils/locker.cpp:207
 #, c++-format
