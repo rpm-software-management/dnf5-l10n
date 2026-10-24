@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-23 11:17+0000\n"
-"PO-Revision-Date: 2026-10-19 11:36+0000\n"
+"PO-Revision-Date: 2026-10-25 17:57+0000\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ro/>\n"
@@ -1958,10 +1958,10 @@ msgid "Print variable values to stdout"
 msgstr "Afișează valorile variabilelor la ieșirea standard"
 
 #: main.cpp:786
-#, fuzzy
-#| msgid "Print variable values to stdout"
 msgid "Print loaded vendor change policies to stdout"
-msgstr "Afișează valorile variabilelor la ieșirea standard"
+msgstr ""
+"Afișează la ieșirea standard politicile încărcate privind schimbarea "
+"furnizorului"
 
 #: main.cpp:800
 msgid "Show DNF5 version and exit"
@@ -2087,21 +2087,22 @@ msgid "======== Variables: ========"
 msgstr "======== Variabile: ========"
 
 #: main.cpp:1169
-#, fuzzy
-#| msgid "======== Variables: ========"
 msgid "======== Vendor Change Policies: ========"
-msgstr "======== Variabile: ========"
+msgstr "======== Politici privind schimbarea furnizorului: ========"
 
 #: main.cpp:1173
 #, c++-format
 msgid "Policy #{}: source: {}"
-msgstr ""
+msgstr "Politică #{}: sursă: {}"
 
 #: main.cpp:1179
 msgid ""
 "allow_vendor_change is enabled. Packages can be replaced by any vendor, and "
 "vendor change policies will be ignored."
 msgstr ""
+"allow_vendor_change este activată. Pachetele pot fi înlocuite cu pachete de "
+"la orice furnizor, iar politicile privind schimbarea furnizorului vor fi "
+"ignorate."
 
 #: main.cpp:1217
 msgid "New leaves:"
