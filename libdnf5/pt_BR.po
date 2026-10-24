@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-21 15:17+0000\n"
+"POT-Creation-Date: 2026-10-23 11:17+0000\n"
 "PO-Revision-Date: 2026-09-20 00:18+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
@@ -395,7 +395,7 @@ msgstr[1] ""
 "  - O argumento '{}' corresponde a {} fluxos ('{}') do módulo '{}', mas "
 "nenhum dos fluxos está ativado ou é padrão."
 
-#: base/log_event.cpp:299
+#: base/log_event.cpp:299 base/log_event.cpp:385
 msgid "', '"
 msgstr "', '"
 
@@ -470,6 +470,13 @@ msgstr ""
 #, c++-format
 msgid "Transaction merge error: '{0}'"
 msgstr "Erro de mesclagem da transação: '{0}'"
+
+#: base/log_event.cpp:381
+#, c++-format
+msgid ""
+"Exceeded installonly_limit ({0}): found {1} installed: '{2}'. You can use "
+"'remove --oldinstallonly'."
+msgstr ""
 
 #: base/solver_problems.cpp:41
 #, c++-format
@@ -1089,8 +1096,8 @@ msgstr "Não é possível habilitar vários fluxos para o módulo '{}'"
 #. DNF_ERROR_REMOVAL_OF_PROTECTED_PKG);
 #. }
 #. TODO(lukash) replace with a proper and descriptive exception
-#: module/module_goal_private.cpp:83 rpm/solv/goal_private.cpp:354
-#: rpm/solv/goal_private.cpp:776
+#: module/module_goal_private.cpp:83 rpm/solv/goal_private.cpp:374
+#: rpm/solv/goal_private.cpp:796
 msgid "no solution possible"
 msgstr "sem solução possível"
 
@@ -1596,17 +1603,17 @@ msgstr "Falha ao converter a época \"{}\" para número"
 msgid "Writing debugsolver data into \"{}\" failed: {}"
 msgstr "Falha ao gravar os dados do solucionador de depuração em \"{}\": {}"
 
-#: solv/vendor_change_manager.cpp:339
+#: solv/vendor_change_manager.cpp:357
 #, c++-format
 msgid "Missing \"version\" key in \"{}\""
 msgstr "Chave \"version\" ausente em \"{}\""
 
-#: solv/vendor_change_manager.cpp:351
+#: solv/vendor_change_manager.cpp:369
 #, c++-format
 msgid "Unsupported version \"{}\" in \"{}\". Supported versions: {}"
 msgstr "Versão não suportada \"{}\" em \"{}\". Versões suportadas: {}"
 
-#: solv/vendor_change_manager.cpp:362
+#: solv/vendor_change_manager.cpp:380
 #, c++-format
 msgid ""
 "Configuration \"{}\" uses version \"1.0\" which does not support combining "
@@ -1615,13 +1622,13 @@ msgstr ""
 "A configuração \"{}\" utiliza a versão \"1.0\", que não suporta combinar "
 "'equivalent_vendors' com 'outgoing_vendors' e 'incoming_vendors'"
 
-#: solv/vendor_change_manager.cpp:394 solv/vendor_change_manager.cpp:432
-#: solv/vendor_change_manager.cpp:484 solv/vendor_change_manager.cpp:709
+#: solv/vendor_change_manager.cpp:412 solv/vendor_change_manager.cpp:457
+#: solv/vendor_change_manager.cpp:509 solv/vendor_change_manager.cpp:734
 #, c++-format
 msgid "Unknown key '{}' in \"{}\" on line {}"
 msgstr "Chave desconhecida '{}' em \"{}\" na linha {}"
 
-#: solv/vendor_change_manager.cpp:401
+#: solv/vendor_change_manager.cpp:419
 #, c++-format
 msgid ""
 "Configuration \"{}\" uses version \"1.0\" which does not support key '{}' on "
@@ -1630,7 +1637,7 @@ msgstr ""
 "A configuração \"{}\" utiliza a versão \"1.0\", que não oferece suporte à "
 "chave '{}' na linha {}"
 
-#: solv/vendor_change_manager.cpp:420
+#: solv/vendor_change_manager.cpp:445
 #, c++-format
 msgid ""
 "Filter \"cmdline_repo\" is only allowed in the 'incoming_packages' section. "
@@ -1639,7 +1646,7 @@ msgstr ""
 "O filtro \"cmdline_repo\" só é permitido na seção 'incoming_packages'. Erro "
 "em \"{}\" na tabela que começa na linha {}"
 
-#: solv/vendor_change_manager.cpp:442
+#: solv/vendor_change_manager.cpp:467
 #, c++-format
 msgid ""
 "Missing package filter definition in \"{}\" in table starting on line {}"
@@ -1647,7 +1654,7 @@ msgstr ""
 "Definição de filtro de pacote ausente em \"{}\" na tabela que começa na "
 "linha {}"
 
-#: solv/vendor_change_manager.cpp:473
+#: solv/vendor_change_manager.cpp:498
 #, c++-format
 msgid ""
 "Unsupported comparator \"{}\" for vendor definition in \"{}\" on line {}"
@@ -1655,12 +1662,12 @@ msgstr ""
 "Operador de comparação \"{}\" não suportado para a definição de fornecedor "
 "em \"{}\" na linha {}"
 
-#: solv/vendor_change_manager.cpp:494
+#: solv/vendor_change_manager.cpp:519
 #, c++-format
 msgid "Missing 'vendor' key in \"{}\" in table starting on line {}"
 msgstr "Chave 'vendor' ausente em \"{}\" na tabela que começa na linha {}"
 
-#: solv/vendor_change_manager.cpp:507
+#: solv/vendor_change_manager.cpp:532
 #, c++-format
 msgid ""
 "Invalid regex vendor pattern \"{}\" in \"{}\" in table starting on line {}: "
@@ -1669,17 +1676,17 @@ msgstr ""
 "Padrão de fornecedor de regex inválido \"{}\" em \"{}\" na tabela que começa "
 "na linha {}: {}"
 
-#: solv/vendor_change_manager.cpp:535
+#: solv/vendor_change_manager.cpp:560
 #, c++-format
 msgid "Bad value type in \"{}\" on line {}: {}"
 msgstr "Tipo de valor inválido em \"{}\" na linha {}: {}"
 
-#: solv/vendor_change_manager.cpp:541
+#: solv/vendor_change_manager.cpp:566
 #, c++-format
 msgid "An error occurred when parsing \"{}\": {}"
 msgstr "Ocorreu um erro ao analisar \"{}\": {}"
 
-#: solv/vendor_change_manager.cpp:555
+#: solv/vendor_change_manager.cpp:580
 #, c++-format
 msgid ""
 "Configuration \"{}\" uses version \"1.0\" which does not support "
@@ -1688,7 +1695,7 @@ msgstr ""
 "A configuração \"{}\" utiliza a versão \"1.0\", que não oferece suporte a "
 "'incoming_vendors' sem 'outgoing_vendors'"
 
-#: solv/vendor_change_manager.cpp:561
+#: solv/vendor_change_manager.cpp:586
 #, c++-format
 msgid ""
 "Configuration \"{}\" uses version \"1.0\" which does not support "
@@ -1697,12 +1704,12 @@ msgstr ""
 "A configuração \"{}\" utiliza a versão \"1.0\", que não oferece suporte a "
 "'outgoing_vendors' sem 'incoming_vendors'"
 
-#: solv/vendor_change_manager.cpp:651
+#: solv/vendor_change_manager.cpp:676
 #, c++-format
 msgid "Unknown 'comparator' \"{}\" in \"{}\" on line {}"
 msgstr "'Comparador' desconhecido \"{}\" em \"{}\" na linha {}"
 
-#: solv/vendor_change_manager.cpp:655
+#: solv/vendor_change_manager.cpp:680
 #, c++-format
 msgid ""
 "Configuration \"{}\" uses version \"{}\" which does not support 'comparator' "
@@ -1711,22 +1718,22 @@ msgstr ""
 "A configuração \"{}\" utiliza a versão \"{}\", que não oferece suporte ao "
 "comparador \"{}\""
 
-#: solv/vendor_change_manager.cpp:694
+#: solv/vendor_change_manager.cpp:719
 #, c++-format
 msgid "Unknown 'filter' \"{}\" in \"{}\" on line {}"
 msgstr "'Filtro' desconhecido \"{}\" em \"{}\" na linha {}"
 
-#: solv/vendor_change_manager.cpp:715
+#: solv/vendor_change_manager.cpp:740
 #, c++-format
 msgid "Missing 'filter' key in \"{}\" for table entry on line {}"
 msgstr "Chave 'filter' ausente em \"{}\" para a entrada da tabela na linha {}"
 
-#: solv/vendor_change_manager.cpp:720
+#: solv/vendor_change_manager.cpp:745
 #, c++-format
 msgid "Missing 'value' key in \"{}\" for table entry on line {}"
 msgstr "Chave 'value' ausente em \"{}\" para a entrada da tabela na linha {}"
 
-#: solv/vendor_change_manager.cpp:727
+#: solv/vendor_change_manager.cpp:752
 #, c++-format
 msgid ""
 "Filter \"cmdline_repo\" in \"{}\" in table starting on line {} does not "
@@ -1737,7 +1744,7 @@ msgstr ""
 "suporta o comparador \"{}\". Apenas o comparador padrão \"EXACT\" é "
 "permitido para este filtro"
 
-#: solv/vendor_change_manager.cpp:744
+#: solv/vendor_change_manager.cpp:769
 #, c++-format
 msgid ""
 "Invalid 'value' \"{}\" in \"{}\" in table starting on line {}. Only "
@@ -1746,7 +1753,7 @@ msgstr ""
 "Valor inválido \"{}\" em \"{}\" na tabela que começa na linha {}. Apenas "
 "\"true\", \"1\", \"false\", \"0\" são suportados"
 
-#: solv/vendor_change_manager.cpp:754 solv/vendor_change_manager.cpp:765
+#: solv/vendor_change_manager.cpp:779 solv/vendor_change_manager.cpp:790
 #, c++-format
 msgid ""
 "Filter \"{}\" in \"{}\" in table starting on line {} does not support "
@@ -1755,70 +1762,70 @@ msgstr ""
 "Filtro \"{}\" em \"{}\" na tabela que começa na linha {} não suporta o "
 "operador de comparação \"{}\""
 
-#: solv/vendor_change_manager.cpp:781
+#: solv/vendor_change_manager.cpp:806
 #, c++-format
 msgid "Invalid epoch value \"{}\" in \"{}\" in table starting on line {}"
 msgstr ""
 "Valor de época inválido \"{}\" em \"{}\" na tabela que começa na linha {}"
 
-#: solv/vendor_change_manager.cpp:796
+#: solv/vendor_change_manager.cpp:821
 #, c++-format
 msgid "Invalid regex \"{}\" in \"{}\" in table starting on line {}: {}"
 msgstr "Regex inválida \"{}\" em \"{}\" na tabela que começa na linha {}: {}"
 
-#: solv/vendor_change_manager.cpp:848
+#: solv/vendor_change_manager.cpp:873
 msgid "Unexpected end of input"
 msgstr "Fim de entrada inesperado"
 
-#: solv/vendor_change_manager.cpp:865
+#: solv/vendor_change_manager.cpp:890
 #, c++-format
 msgid "Expected '{}' but found end of input"
 msgstr "Esperava-se '{}', mas foi encontrado o fim da entrada"
 
-#: solv/vendor_change_manager.cpp:867
+#: solv/vendor_change_manager.cpp:892
 #, c++-format
 msgid "Expected '{}' but found '{}'"
 msgstr "Esperava-se '{}' mas foi encontrado '{}'"
 
-#: solv/vendor_change_manager.cpp:877
+#: solv/vendor_change_manager.cpp:902
 #, c++-format
 msgid "Compact vendor change policy parse error in \"{}\" at position {}"
 msgstr ""
 "Erro de análise da política de alteração de fornecedor compacto em \"{}\" na "
 "posição {}"
 
-#: solv/vendor_change_manager.cpp:931
+#: solv/vendor_change_manager.cpp:956
 msgid "Expected package filter after '@'"
 msgstr "Esperava-se um filtro de pacote após '@'"
 
-#: solv/vendor_change_manager.cpp:944
+#: solv/vendor_change_manager.cpp:969
 #, c++-format
 msgid "Unexpected character '{}'"
 msgstr "Caractere inesperado '{}'"
 
-#: solv/vendor_change_manager.cpp:1020
+#: solv/vendor_change_manager.cpp:1045
 msgid "Expected quoted string starting with '\"'"
 msgstr "Esperava-se uma string entre aspas começando com '\"'"
 
-#: solv/vendor_change_manager.cpp:1028
+#: solv/vendor_change_manager.cpp:1053
 msgid "Unterminated escape sequence"
 msgstr "Sequência de escape não encerrada"
 
-#: solv/vendor_change_manager.cpp:1034
+#: solv/vendor_change_manager.cpp:1059
 #, c++-format
 msgid "Invalid escape sequence '\\{}'. Only '\\\"' and '\\\\' are supported"
 msgstr ""
 "Sequência de escape inválida '\\{}'. Apenas '\\\"' e '\\\\' são suportadas"
 
-#: solv/vendor_change_manager.cpp:1041
+#: solv/vendor_change_manager.cpp:1066
 msgid "Unterminated quoted string"
 msgstr "Cadeia de caracteres entre aspas não encerrada"
 
-#: solv/vendor_change_manager.cpp:1076
+#: solv/vendor_change_manager.cpp:1101
 msgid "Expected direction prefix 'in', 'out', or 'eq'"
 msgstr "Esperado prefixo de direção 'in', 'out' ou 'eq'"
 
-#: solv/vendor_change_manager.cpp:1140
+#: solv/vendor_change_manager.cpp:1165
 msgid ""
 "Expected comparison operator: relational (<, <=, >, >=) or string (=, ^, $, "
 "*, =*, =~; optionally prefixed with ! and/or i"
@@ -1826,7 +1833,7 @@ msgstr ""
 "Operador de comparação esperado: relacional (<, <=, >, >=) ou de string (=, "
 "^, $, *, =*, =~; opcionalmente prefixado com ! e/ou i"
 
-#: solv/vendor_change_manager.cpp:1205
+#: solv/vendor_change_manager.cpp:1230
 msgid ""
 "Vendor definition does not support relational comparators. Use string "
 "comparators: =, ^, $, *, =*, =~"
@@ -1834,34 +1841,34 @@ msgstr ""
 "A definição de fornecedor não suporta comparadores relacionais. Utilize "
 "comparadores de string: =, ^, $, *, =*, =~"
 
-#: solv/vendor_change_manager.cpp:1213
+#: solv/vendor_change_manager.cpp:1238
 #, c++-format
 msgid "Invalid regex vendor pattern '{}': {}"
 msgstr "Padrão de fornecedor de regex inválido '{}': {}"
 
-#: solv/vendor_change_manager.cpp:1231
+#: solv/vendor_change_manager.cpp:1256
 #, c++-format
 msgid "Unknown filter field name '{}'"
 msgstr "Nome de campo de filtro desconhecido '{}'"
 
-#: solv/vendor_change_manager.cpp:1241
+#: solv/vendor_change_manager.cpp:1266
 msgid "Expected filter field name"
 msgstr "Nome do campo de filtro esperado"
 
-#: solv/vendor_change_manager.cpp:1264
+#: solv/vendor_change_manager.cpp:1295
 #, c++-format
 msgid "Invalid epoch value \"{}\""
 msgstr "Valor de época inválido \"{}\""
 
-#: solv/vendor_change_manager.cpp:1268
+#: solv/vendor_change_manager.cpp:1299
 msgid "Filter 'cmdline_repo' only supports the '=' (EXACT) comparator"
 msgstr "O filtro 'cmdline_repo' suporta apenas o comparador '=' (EXACT)"
 
-#: solv/vendor_change_manager.cpp:1271
+#: solv/vendor_change_manager.cpp:1302
 msgid "Filter 'cmdline_repo' is only allowed in incoming packages ('in:')"
 msgstr "O filtro 'cmdline_repo' só é permitido em pacotes de entrada ('in:')"
 
-#: solv/vendor_change_manager.cpp:1282
+#: solv/vendor_change_manager.cpp:1313
 #, c++-format
 msgid ""
 "Invalid value '{}' for 'cmdline_repo' filter. Use 'true', '1', 'false', or "
@@ -1870,30 +1877,30 @@ msgstr ""
 "Valor inválido '{}' para o filtro 'cmdline_repo'. Use 'true', '1', 'false' "
 "ou '0'"
 
-#: solv/vendor_change_manager.cpp:1286
+#: solv/vendor_change_manager.cpp:1317
 #, c++-format
 msgid "Filter '{}' only supports relational comparators: =, !=, >, >=, <, <="
 msgstr ""
 "O filtro '{}' suporta apenas operadores de comparação relacionais: =, !=, >, "
 ">=, <, <="
 
-#: solv/vendor_change_manager.cpp:1290
+#: solv/vendor_change_manager.cpp:1321
 #, c++-format
 msgid "Filter '{}' only supports string comparators: =, ^, $, *, =*, =~"
 msgstr ""
 "O filtro '{}' suporta apenas comparadores de string: =, ^, $, *, =*, =~"
 
-#: solv/vendor_change_manager.cpp:1299
+#: solv/vendor_change_manager.cpp:1330
 #, c++-format
 msgid "Invalid regex '{}': {}"
 msgstr "Regex inválida '{}': {}"
 
-#: solv/vendor_change_manager.cpp:1310
+#: solv/vendor_change_manager.cpp:1341
 msgid "Package filters do not support 'eq' direction. Use 'in' or 'out'"
 msgstr "Os filtros de pacote não suportam a direção 'eq'. Use 'in' ou 'out'"
 
-#: solv/vendor_change_manager.cpp:1401 solv/vendor_change_manager.cpp:1451
-#: solv/vendor_change_manager.cpp:1462 solv/vendor_change_manager.cpp:1473
+#: solv/vendor_change_manager.cpp:1432 solv/vendor_change_manager.cpp:1482
+#: solv/vendor_change_manager.cpp:1493 solv/vendor_change_manager.cpp:1504
 msgid "{func}(): Policy index {idx} is out of range"
 msgstr "{func}(): O índice de política {idx} está fora do intervalo"
 
