@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-23 11:17+0000\n"
-"PO-Revision-Date: 2026-09-14 18:17+0000\n"
+"PO-Revision-Date: 2026-10-25 17:57+0000\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/ro/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
-"X-Generator: Weblate 2026.9.1\n"
+"X-Generator: Weblate 2026.10.1\n"
 
 #: advisory/advisory.cpp:81
 #, c++-format
@@ -478,6 +478,8 @@ msgid ""
 "Exceeded installonly_limit ({0}): found {1} installed: '{2}'. You can use "
 "'remove --oldinstallonly'."
 msgstr ""
+"A fost depășită limita „installonly_limit” ({0}): s-au găsit {1} elemente "
+"instalate: „{2}”. Puteți utiliza „remove --oldinstallonly”."
 
 #: base/solver_problems.cpp:41
 #, c++-format
@@ -760,6 +762,8 @@ msgid ""
 "This transaction is no longer valid because the system repository has "
 "changed since it was loaded."
 msgstr ""
+"Această tranzacție nu mai este validă, deoarece depozitul sistemului s-a "
+"modificat de la momentul încărcării acestuia."
 
 #: base/transaction.cpp:101
 msgid "The repository does not have any OpenPGP keys configured."
@@ -786,10 +790,11 @@ msgid "failed to read scriptlet output from pipe"
 msgstr "eșec la citirea ieșirii scriptlet-ului din conductă"
 
 #: base/transaction.cpp:1103
-#, fuzzy, c++-format
-#| msgid "Failed to load system repo from root \"{}\": {}"
+#, c++-format
 msgid "Failed to acquire system repo lock for writing, lock located at \"{}\""
-msgstr "Încărcarea depozitului de sistem de la rădăcina „{}” a eșuat: {}"
+msgstr ""
+"Nu s-a putut obține blocarea depozitului de sistem pentru scriere; blocarea "
+"se află la „{}”"
 
 #: base/transaction.cpp:1173
 #, c++-format
@@ -1387,10 +1392,11 @@ msgstr ""
 "Nu s-a reușit încărcarea extensiei {} pentru depozitul „{}” de la „{}”: {}"
 
 #: repo/solv_repo.cpp:436
-#, fuzzy, c++-format
-#| msgid "Failed to load system repo from root \"{}\": {}"
+#, c++-format
 msgid "Failed to acquire system repo lock for reading, lock located at \"{}\""
-msgstr "Încărcarea depozitului de sistem de la rădăcina „{}” a eșuat: {}"
+msgstr ""
+"Nu s-a putut obține blocarea depozitului de sistem pentru citire; blocarea "
+"se află la „{}”"
 
 #: repo/solv_repo.cpp:455
 #, c++-format
@@ -1588,10 +1594,9 @@ msgid "Cannot install package \"{}\""
 msgstr "Nu se poate instala pachetul „{}”"
 
 #: rpm/versionlock_config.cpp:259
-#, fuzzy, c++-format
-#| msgid "Error parsing transaction info: {}"
+#, c++-format
 msgid "Error parsing versionlock file \"{}\": {}"
-msgstr "Eroare la analizarea informațiilor despre tranzacție: {}"
+msgstr "Eroare la analizarea fișierului versionlock „{}”: {}"
 
 #: rpm/versionlock_config.cpp:297 system/state.cpp:614
 #, c++-format
@@ -1943,22 +1948,17 @@ msgid "Unsupported TOML version \"{}\", maximum supported version is \"{}\""
 msgstr "Versiune TOML neacceptată „{}”, versiunea maximă acceptată este „{}”"
 
 #: system/state.cpp:798
-#, fuzzy, c++-format
-#| msgid "Error %i opening rpm database"
+#, c++-format
 msgid "Error {} opening rpm database"
-msgstr "Eroare %i la deschiderea bazei de date rpm"
+msgstr "Eroare {} la deschiderea bazei de date rpm"
 
 #: system/state.cpp:802
-#, fuzzy
-#| msgid "Failed to restore database \"{}\""
 msgid "Failed to get rpm database"
-msgstr "Restaurarea bazei de date „{}” a eșuat"
+msgstr "Nu s-a putut accesa baza de date rpm"
 
 #: system/state.cpp:808
-#, fuzzy
-#| msgid "Cannot init rpm database iterator"
 msgid "Failed to initialize database index iterator"
-msgstr "Nu se poate iniția iteratorul bazei de date rpm"
+msgstr "Inițializarea iteratorului de index al bazei de date a eșuat"
 
 #. TODO(dmach): replace with a better exception class
 #: transaction/db/comps_environment_group.cpp:100
@@ -2439,10 +2439,9 @@ msgid "Failed to read from lock file \"{}\""
 msgstr "Eșec la citirea fișierului de blocare „{}”"
 
 #: utils/locker.cpp:194
-#, fuzzy, c++-format
-#| msgid "The lock file \"{}\" is not opened"
+#, c++-format
 msgid "The lock file \"{}\" is not locked"
-msgstr "Fișierul de blocare „{}” nu este deschis"
+msgstr "Fișierul de blocare „{}” nu este blocat"
 
 #: utils/locker.cpp:207
 #, c++-format
