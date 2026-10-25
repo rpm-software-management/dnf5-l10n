@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-23 11:17+0000\n"
-"PO-Revision-Date: 2026-10-22 07:58+0000\n"
+"PO-Revision-Date: 2026-10-25 17:57+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/ko/>\n"
@@ -459,6 +459,8 @@ msgid ""
 "Exceeded installonly_limit ({0}): found {1} installed: '{2}'. You can use "
 "'remove --oldinstallonly'."
 msgstr ""
+"초과된 설치전용_제한 ({0}): {1} 를 찾았고 '{2}' 를 설치했습니다. 당신은 "
+"'remove --oldinstallonly'를 사용 할 수 있습니다."
 
 #: base/solver_problems.cpp:41
 #, c++-format
@@ -738,6 +740,8 @@ msgid ""
 "This transaction is no longer valid because the system repository has "
 "changed since it was loaded."
 msgstr ""
+"이 연결은 시스템 저장소가 불러온 이후에 변경되었기 때문에 더 이상 유효하지 "
+"않습니다."
 
 #: base/transaction.cpp:101
 msgid "The repository does not have any OpenPGP keys configured."
@@ -764,10 +768,11 @@ msgid "failed to read scriptlet output from pipe"
 msgstr "파이프에서 스크립틀릿 출력을 읽지 못했습니다"
 
 #: base/transaction.cpp:1103
-#, fuzzy, c++-format
-#| msgid "Failed to load system repo from root \"{}\": {}"
+#, c++-format
 msgid "Failed to acquire system repo lock for writing, lock located at \"{}\""
-msgstr "root에서 시스템 repo를 적재하는 데 실패함 \"{}\": {}"
+msgstr ""
+"쓰기용 시스템 저장소 잠금을 획득하는 데 실패했으며, 잠금은 \"{}\"에 "
+"위치했습니다"
 
 #: base/transaction.cpp:1173
 #, c++-format
@@ -1337,10 +1342,11 @@ msgid "Failed to load {} extension for repo \"{}\" from \"{}\": {}"
 msgstr "\"{}\"에서 repo \"{}\"를 위한 {} 확장을 적재하는 데 실패함: {}"
 
 #: repo/solv_repo.cpp:436
-#, fuzzy, c++-format
-#| msgid "Failed to load system repo from root \"{}\": {}"
+#, c++-format
 msgid "Failed to acquire system repo lock for reading, lock located at \"{}\""
-msgstr "root에서 시스템 repo를 적재하는 데 실패함 \"{}\": {}"
+msgstr ""
+"읽기용 시스템 저장소 잠금을 획득하는 데 실패했으며, 잠금은 \"{}\"에 "
+"위치했습니다"
 
 #: repo/solv_repo.cpp:455
 #, c++-format
@@ -1861,22 +1867,17 @@ msgid "Unsupported TOML version \"{}\", maximum supported version is \"{}\""
 msgstr "미지원 TOML 버전 \"{}\", 최대 지원된 버전은 \"{}\"입니다"
 
 #: system/state.cpp:798
-#, fuzzy, c++-format
-#| msgid "Error %i opening rpm database"
+#, c++-format
 msgid "Error {} opening rpm database"
-msgstr "rpm 데이타베이스를 여는 동안 오류 %i가 발생했습니다"
+msgstr "rpm 데이타베이스를 여는 동안 오류 {}가 발생했습니다"
 
 #: system/state.cpp:802
-#, fuzzy
-#| msgid "Failed to restore database \"{}\""
 msgid "Failed to get rpm database"
-msgstr "데이타베이스 \"{}\"를 복구하는 데 실패함"
+msgstr "rpm 데이타베이스를 획득하는 데 실패함"
 
 #: system/state.cpp:808
-#, fuzzy
-#| msgid "Cannot init rpm database iterator"
 msgid "Failed to initialize database index iterator"
-msgstr "rpm 데이타베이스 반복자(database iterator)를 초기화 할 수 없습니다"
+msgstr "rpm 데이타베이스 반복자 초기화에 실패함"
 
 #. TODO(dmach): replace with a better exception class
 #: transaction/db/comps_environment_group.cpp:100
@@ -2352,10 +2353,9 @@ msgid "Failed to read from lock file \"{}\""
 msgstr "잠금 파일 \"{}\" 부분에서 읽는 데 실패함"
 
 #: utils/locker.cpp:194
-#, fuzzy, c++-format
-#| msgid "The lock file \"{}\" is not opened"
+#, c++-format
 msgid "The lock file \"{}\" is not locked"
-msgstr "잠금 파일 \"{}\"가 열려 있지 않습니다"
+msgstr "잠금 파일 \"{}\" 부분이 잠금되지 않습니다"
 
 #: utils/locker.cpp:207
 #, c++-format
