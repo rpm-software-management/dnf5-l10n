@@ -6,13 +6,15 @@
 # "Geraldo S. Simião Kutz" <geraldo.simiao.kutz@gmail.com>, 2024.
 # Fábio Rodrigues Ribeiro <farribeiro@gmail.com>, 2024.
 # Ciro Mota <ciro.mota@gmail.com>, 2025, 2026.
+# Ciro Mota <ciromota@users.noreply.translate.fedoraproject.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-23 11:17+0000\n"
-"PO-Revision-Date: 2026-09-20 00:18+0000\n"
-"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
+"PO-Revision-Date: 2026-10-26 18:00+0000\n"
+"Last-Translator: Ciro Mota "
+"<ciromota@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf5/libdnf5/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -20,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 2026.9.1\n"
+"X-Generator: Weblate 2026.10.1\n"
 
 #: advisory/advisory.cpp:81
 #, c++-format
@@ -477,6 +479,8 @@ msgid ""
 "Exceeded installonly_limit ({0}): found {1} installed: '{2}'. You can use "
 "'remove --oldinstallonly'."
 msgstr ""
+"Limite de 'installonly_limit' ({0}) excedido: foram encontrados {1} "
+"instalados: {2}'. Você pode usar 'remove --oldinstallonly'."
 
 #: base/solver_problems.cpp:41
 #, c++-format
@@ -759,6 +763,8 @@ msgid ""
 "This transaction is no longer valid because the system repository has "
 "changed since it was loaded."
 msgstr ""
+"Esta transação não é mais válida, pois o repositório do sistema foi alterado "
+"desde que ela foi carregada."
 
 #: base/transaction.cpp:101
 msgid "The repository does not have any OpenPGP keys configured."
@@ -786,10 +792,11 @@ msgid "failed to read scriptlet output from pipe"
 msgstr "falha ao ler a saída do scriptlet do pipe"
 
 #: base/transaction.cpp:1103
-#, fuzzy, c++-format
-#| msgid "Failed to load system repo from root \"{}\": {}"
+#, c++-format
 msgid "Failed to acquire system repo lock for writing, lock located at \"{}\""
-msgstr "Falha ao carregar o repositório do sistema a partir da raiz \"{}\": {}"
+msgstr ""
+"Não foi possível obter o bloqueio de escrita para o repositório do sistema; "
+"o bloqueio está localizado em \"{}\""
 
 #: base/transaction.cpp:1173
 #, c++-format
@@ -1385,10 +1392,11 @@ msgstr ""
 "Falha ao carregar a extensão {} para o repositório \"{}\" de \"{}\": {}"
 
 #: repo/solv_repo.cpp:436
-#, fuzzy, c++-format
-#| msgid "Failed to load system repo from root \"{}\": {}"
+#, c++-format
 msgid "Failed to acquire system repo lock for reading, lock located at \"{}\""
-msgstr "Falha ao carregar o repositório do sistema a partir da raiz \"{}\": {}"
+msgstr ""
+"Falha ao obter o bloqueio do repositório do sistema para leitura; o bloqueio "
+"está localizado em \"{}\""
 
 #: repo/solv_repo.cpp:455
 #, c++-format
@@ -1927,22 +1935,17 @@ msgid "Unsupported TOML version \"{}\", maximum supported version is \"{}\""
 msgstr "Versão TOML \"{}\" não suportada, a versão máxima suportada é \"{}\""
 
 #: system/state.cpp:798
-#, fuzzy, c++-format
-#| msgid "Error %i opening rpm database"
+#, c++-format
 msgid "Error {} opening rpm database"
-msgstr "Erro %i ao abrir o banco de dados rpm"
+msgstr "Erro {} ao abrir o banco de dados rpm"
 
 #: system/state.cpp:802
-#, fuzzy
-#| msgid "Failed to restore database \"{}\""
 msgid "Failed to get rpm database"
-msgstr "Falha ao restaurar o banco de dados \"{}\""
+msgstr "Falha ao obter o banco de dados rpm"
 
 #: system/state.cpp:808
-#, fuzzy
-#| msgid "Cannot init rpm database iterator"
 msgid "Failed to initialize database index iterator"
-msgstr "Não é possível iniciar o iterador do banco de dados RPM"
+msgstr "Falha ao inicializar o iterador de índice do banco de dados"
 
 #. TODO(dmach): replace with a better exception class
 #: transaction/db/comps_environment_group.cpp:100
@@ -2423,10 +2426,9 @@ msgid "Failed to read from lock file \"{}\""
 msgstr "Falha ao ler o arquivo de bloqueio \"{}\""
 
 #: utils/locker.cpp:194
-#, fuzzy, c++-format
-#| msgid "The lock file \"{}\" is not opened"
+#, c++-format
 msgid "The lock file \"{}\" is not locked"
-msgstr "O arquivo de bloqueio \"{}\" não está aberto"
+msgstr "O arquivo de bloqueio \"{}\" não está bloqueado"
 
 #: utils/locker.cpp:207
 #, c++-format
