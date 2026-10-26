@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-23 11:17+0000\n"
-"PO-Revision-Date: 2026-10-26 18:00+0000\n"
+"PO-Revision-Date: 2026-10-26 18:13+0000\n"
 "Last-Translator: Ciro Mota "
 "<ciromota@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
@@ -1590,10 +1590,9 @@ msgid "Cannot install package \"{}\""
 msgstr "Não é possível instalar o pacote \"{}\""
 
 #: rpm/versionlock_config.cpp:259
-#, fuzzy, c++-format
-#| msgid "Error parsing transaction info: {}"
+#, c++-format
 msgid "Error parsing versionlock file \"{}\": {}"
-msgstr "Erro ao analisar as informações da transação: {}"
+msgstr "Erro ao analisar o arquivo versionlock \"{}\": {}"
 
 #: rpm/versionlock_config.cpp:297 system/state.cpp:614
 #, c++-format
