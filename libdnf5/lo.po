@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-26 14:40+0000\n"
+"POT-Creation-Date: 2026-10-27 12:49+0000\n"
 "PO-Revision-Date: 2026-09-20 00:18+0000\n"
 "Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
 "Language-Team: Lao <https://translate.fedoraproject.org/projects/dnf5/"
@@ -792,36 +792,42 @@ msgid_plural ""
 "Warning: skipped OpenPGP checks for {0} packages from repositories: {1}"
 msgstr[0] "ຄຳເຕືອນ: ຂ້າມການກວດສອບ OpenPGP ສຳລັບ {0} ແພັກເກດ ຈາກຄັງເກັບ: {1}"
 
-#: base/vendor_change_manager.cpp:145
+#: base/vendor_change_manager.cpp:115
+#, fuzzy
+#| msgid "{func}(): Cannot remove file: {path}: {msg}"
+msgid "{func}(): Cannot create directory: {path}: {msg}"
+msgstr "{func}(): ບໍ່ສາມາດລຶບໄຟລ໌ໄດ້: {path}: {msg}"
+
+#: base/vendor_change_manager.cpp:164
 msgid "{func}(): Cannot remove file: {path}: {msg}"
 msgstr "{func}(): ບໍ່ສາມາດລຶບໄຟລ໌ໄດ້: {path}: {msg}"
 
-#: base/vendor_change_manager.cpp:151
+#: base/vendor_change_manager.cpp:170
 msgid "{func}(): File does not exist: {path}"
 msgstr "{func}(): ໄຟລ໌ບໍ່ມີຢູ່: {path}"
 
-#: base/vendor_change_manager.cpp:240
+#: base/vendor_change_manager.cpp:259
 msgid "{func}(): Cannot remove existing policy file: {path}"
 msgstr "{func}(): ບໍ່ສາມາດລຶບໄຟລ໌ນະໂຍບາຍທີ່ມີຢູ່: {path}"
 
-#: base/vendor_change_manager.cpp:252
+#: base/vendor_change_manager.cpp:271
 msgid "{func}(): Cannot create file: {path}"
 msgstr "{func}(): ບໍ່ສາມາດສ້າງໄຟລ໌ໄດ້: {path}"
 
-#: base/vendor_change_manager.cpp:269
+#: base/vendor_change_manager.cpp:288
 msgid "{func}(): Cannot write to file: {path}"
 msgstr "{func}(): ບໍ່ສາມາດຂຽນໄຟລ໌ໄດ້: {path}"
 
-#: base/vendor_change_manager.cpp:306
+#: base/vendor_change_manager.cpp:325
 msgid "{func}(): Base filename cannot be empty"
 msgstr "{func}(): ຊື່ໄຟລ໌ພື້ນຖານຫວ່າງເປົ່າບໍ່ໄດ້"
 
-#: base/vendor_change_manager.cpp:312
+#: base/vendor_change_manager.cpp:331
 msgid ""
 "{func}(): Base filename must not contain path components: {base_filename}"
 msgstr "{func}(): ຊື່ໄຟລ໌ພື້ນຖານຕ້ອງບໍ່ມີສ່ວນປະກອບຂອງເສັ້ນທາງໄຟລ໌: {base_filename}"
 
-#: base/vendor_change_manager.cpp:437
+#: base/vendor_change_manager.cpp:461
 msgid "{func}(): Path must have .conf extension: {path}"
 msgstr "{func}(): ເສັ້ນທາງໄຟລ໌ຕ້ອງມີນາມສະກຸນ .conf: {path}"
 

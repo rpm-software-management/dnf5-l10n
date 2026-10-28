@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-26 14:40+0000\n"
+"POT-Creation-Date: 2026-10-27 12:49+0000\n"
 "PO-Revision-Date: 2026-02-13 11:58+0000\n"
 "Last-Translator: Mario Blättermann <mario.blaettermann@gmail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf5/"
@@ -879,42 +879,48 @@ msgstr[1] ""
 "Warnung: Übersprungene OpenPGP-Prüfungen für {0} Pakete aus den "
 "Paketquellen: {1}"
 
-#: base/vendor_change_manager.cpp:145
+#: base/vendor_change_manager.cpp:115
+#, fuzzy
+#| msgid "Cannot set the locale \"{}\": {}"
+msgid "{func}(): Cannot create directory: {path}: {msg}"
+msgstr "Locale „{}“ kann nicht festgelegt werden: {}"
+
+#: base/vendor_change_manager.cpp:164
 #, fuzzy
 #| msgid "Cannot set the locale \"{}\": {}"
 msgid "{func}(): Cannot remove file: {path}: {msg}"
 msgstr "Locale „{}“ kann nicht festgelegt werden: {}"
 
-#: base/vendor_change_manager.cpp:151
+#: base/vendor_change_manager.cpp:170
 msgid "{func}(): File does not exist: {path}"
 msgstr ""
 
-#: base/vendor_change_manager.cpp:240
+#: base/vendor_change_manager.cpp:259
 #, fuzzy
 #| msgid "Cannot set the locale \"{}\": {}"
 msgid "{func}(): Cannot remove existing policy file: {path}"
 msgstr "Locale „{}“ kann nicht festgelegt werden: {}"
 
-#: base/vendor_change_manager.cpp:252
+#: base/vendor_change_manager.cpp:271
 msgid "{func}(): Cannot create file: {path}"
 msgstr ""
 
-#: base/vendor_change_manager.cpp:269
+#: base/vendor_change_manager.cpp:288
 #, fuzzy
 #| msgid "Cannot set the locale \"{}\": {}"
 msgid "{func}(): Cannot write to file: {path}"
 msgstr "Locale „{}“ kann nicht festgelegt werden: {}"
 
-#: base/vendor_change_manager.cpp:306
+#: base/vendor_change_manager.cpp:325
 msgid "{func}(): Base filename cannot be empty"
 msgstr ""
 
-#: base/vendor_change_manager.cpp:312
+#: base/vendor_change_manager.cpp:331
 msgid ""
 "{func}(): Base filename must not contain path components: {base_filename}"
 msgstr ""
 
-#: base/vendor_change_manager.cpp:437
+#: base/vendor_change_manager.cpp:461
 msgid "{func}(): Path must have .conf extension: {path}"
 msgstr ""
 
