@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-29 08:48+0000\n"
-"PO-Revision-Date: 2026-10-25 17:57+0000\n"
+"PO-Revision-Date: 2026-10-29 19:37+0000\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/ro/>\n"
@@ -427,8 +427,8 @@ msgid ""
 "explicitly enabled via configuration option module_stream_switch."
 msgstr ""
 "Eroare: Nu este posibilă comutarea fluxurilor activate ale unui modul decât "
-"dacă este activată explicit prin opțiunea de configurare "
-"„module_stream_switch”."
+"dacă este activată explicit prin opțiunea de configurare „"
+"module_stream_switch”."
 
 #: base/log_event.cpp:347
 #, c++-format
@@ -831,10 +831,8 @@ msgstr ", "
 msgid "Warning: skipped OpenPGP checks for {0} package from repository: {1}"
 msgid_plural ""
 "Warning: skipped OpenPGP checks for {0} packages from repository: {1}"
-msgstr[0] ""
-"Atenție: verificări OpenPGP omise pentru {0} pachet din depozitul: {1}"
-msgstr[1] ""
-"Atenție: verificări OpenPGP omise pentru {0} pachete din depozitul: {1}"
+msgstr[0] "Atenție: verificări OpenPGP omise pentru {0} pachet din depozitul: {1}"
+msgstr[1] "Atenție: verificări OpenPGP omise pentru {0} pachete din depozitul: {1}"
 msgstr[2] ""
 "Atenție: verificări OpenPGP omise pentru {0} de pachete din depozitul: {1}"
 
@@ -843,18 +841,15 @@ msgstr[2] ""
 msgid "Warning: skipped OpenPGP checks for {0} package from repositories: {1}"
 msgid_plural ""
 "Warning: skipped OpenPGP checks for {0} packages from repositories: {1}"
-msgstr[0] ""
-"Atenție: verificări OpenPGP omise pentru {0} pachet din depozitele: {1}"
+msgstr[0] "Atenție: verificări OpenPGP omise pentru {0} pachet din depozitele: {1}"
 msgstr[1] ""
 "Atenție: verificări OpenPGP omise pentru {0} pachete din depozitele: {1}"
 msgstr[2] ""
 "Atenție: verificări OpenPGP omise pentru {0} de pachete din depozitele: {1}"
 
 #: base/vendor_change_manager.cpp:115
-#, fuzzy
-#| msgid "{func}(): Cannot remove file: {path}: {msg}"
 msgid "{func}(): Cannot create directory: {path}: {msg}"
-msgstr "{func}(): Nu se poate elimina fișierul: {path}: {msg}"
+msgstr "{func}(): Nu se poate crea directorul: {path}: {msg}"
 
 #: base/vendor_change_manager.cpp:164
 msgid "{func}(): Cannot remove file: {path}: {msg}"
@@ -1164,8 +1159,8 @@ msgid ""
 "Unsupported plugin API combination. API version provided by plugin \"{}\" "
 "(\"{}\") is \"{}.{}\". API version in libdnf is \"{}.{}\"."
 msgstr ""
-"Combinație API/modul neacceptată. Versiunea API furnizată de modulul „{}” "
-"(„{}”) este „{}.{}”. Versiunea API în libdnf este „{}.{}”."
+"Combinație API/modul neacceptată. Versiunea API furnizată de modulul „{}” („"
+"{}”) este „{}.{}”. Versiunea API în libdnf este „{}.{}”."
 
 #: plugin/plugins.cpp:93
 msgid "Failed to create a libdnf plugin instance"
@@ -1323,8 +1318,8 @@ msgstr "Descărcarea metadatelor a eșuat"
 #, c++-format
 msgid "Error checking if metalink \"{}\" is in sync for repository \"{}\""
 msgstr ""
-"Eroare la verificarea dacă metalink „{}” este sincronizat pentru depozitul "
-"„{}”"
+"Eroare la verificarea dacă metalink „{}” este sincronizat pentru depozitul „"
+"{}”"
 
 #: repo/repo_downloader.cpp:457
 #, c++-format
@@ -1418,8 +1413,7 @@ msgstr ""
 #: repo/solv_repo.cpp:613
 #, c++-format
 msgid "Failed to write primary cache for repo \"{}\" to \"{}\": {}"
-msgstr ""
-"Scrierea cache-ului „primary” pentru depozitul „{}” în „{}” a eșuat: {}"
+msgstr "Scrierea cache-ului „primary” pentru depozitul „{}” în „{}” a eșuat: {}"
 
 #: repo/solv_repo.cpp:635
 #, c++-format
@@ -1556,8 +1550,8 @@ msgstr ""
 #, c++-format
 msgid "Failed to read package header, cannot open file \"{}\": {}"
 msgstr ""
-"Nu s-a reușit citirea antetului pachetului, nu se poate deschide fișierul "
-"„{}”: {}"
+"Nu s-a reușit citirea antetului pachetului, nu se poate deschide fișierul „{}"
+"”: {}"
 
 #: rpm/transaction.cpp:329
 #, c++-format
@@ -1637,8 +1631,8 @@ msgid ""
 "'equivalent_vendors' with 'outgoing_vendors' and 'incoming_vendors'"
 msgstr ""
 "Fișierul de configurare „{}” utilizează versiunea „1.0”, care nu acceptă "
-"combinarea parametrului „equivalent_vendors” cu parametrii "
-"„outgoing_vendors” și „incoming_vendors”"
+"combinarea parametrului „equivalent_vendors” cu parametrii „outgoing_vendors"
+"” și „incoming_vendors”"
 
 #: solv/vendor_change_manager.cpp:412 solv/vendor_change_manager.cpp:457
 #: solv/vendor_change_manager.cpp:509 solv/vendor_change_manager.cpp:734
@@ -1692,8 +1686,8 @@ msgid ""
 "Invalid regex vendor pattern \"{}\" in \"{}\" in table starting on line {}: "
 "{}"
 msgstr ""
-"Modelul de expresie regulată al furnizorului „{}” nu este valid în fișierul "
-"„{}”, în tabelul care începe la linia {}: {}"
+"Modelul de expresie regulată al furnizorului „{}” nu este valid în fișierul „"
+"{}”, în tabelul care începe la linia {}: {}"
 
 #: solv/vendor_change_manager.cpp:560
 #, c++-format
@@ -1711,8 +1705,8 @@ msgid ""
 "Configuration \"{}\" uses version \"1.0\" which does not support "
 "'incoming_vendors' without 'outgoing_vendors'"
 msgstr ""
-"Fișierul de configurare „{}” utilizează versiunea „1.0”, care nu acceptă "
-"„incoming_vendors” fără „outgoing_vendors”"
+"Fișierul de configurare „{}” utilizează versiunea „1.0”, care nu acceptă „"
+"incoming_vendors” fără „outgoing_vendors”"
 
 #: solv/vendor_change_manager.cpp:586
 #, c++-format
@@ -1720,8 +1714,8 @@ msgid ""
 "Configuration \"{}\" uses version \"1.0\" which does not support "
 "'outgoing_vendors' without 'incoming_vendors'"
 msgstr ""
-"Fișierul de configurare „{}” utilizează versiunea „1.0”, care nu acceptă "
-"„outgoing_vendors” fără „incoming_vendors”"
+"Fișierul de configurare „{}” utilizează versiunea „1.0”, care nu acceptă „"
+"outgoing_vendors” fără „incoming_vendors”"
 
 #: solv/vendor_change_manager.cpp:676
 #, c++-format
@@ -1734,8 +1728,8 @@ msgid ""
 "Configuration \"{}\" uses version \"{}\" which does not support 'comparator' "
 "\"{}\""
 msgstr ""
-"Fișierul de configurare „{}” utilizează versiunea „{}”, care nu acceptă "
-"„comparatorul” „{}”"
+"Fișierul de configurare „{}” utilizează versiunea „{}”, care nu acceptă „"
+"comparatorul” „{}”"
 
 #: solv/vendor_change_manager.cpp:719
 #, c++-format
@@ -1763,8 +1757,8 @@ msgid ""
 "support comparator \"{}\". Only the default \"EXACT\" comparator is allowed "
 "for this filter"
 msgstr ""
-"Filtrul „cmdline_repo” din fișierul „{}”, în tabelul care începe la linia "
-"{}, nu acceptă comparatorul „{}”. Pentru acest filtru este permis doar "
+"Filtrul „cmdline_repo” din fișierul „{}”, în tabelul care începe la linia {}"
+", nu acceptă comparatorul „{}”. Pentru acest filtru este permis doar "
 "comparatorul implicit „EXACT”"
 
 #: solv/vendor_change_manager.cpp:769
@@ -1900,15 +1894,15 @@ msgid ""
 "Invalid value '{}' for 'cmdline_repo' filter. Use 'true', '1', 'false', or "
 "'0'"
 msgstr ""
-"Valoarea „{}” nu este validă pentru filtrul „cmdline_repo”. Utilizați "
-"„true”, „1”, „false” sau „0”"
+"Valoarea „{}” nu este validă pentru filtrul „cmdline_repo”. Utilizați „true"
+"”, „1”, „false” sau „0”"
 
 #: solv/vendor_change_manager.cpp:1317
 #, c++-format
 msgid "Filter '{}' only supports relational comparators: =, !=, >, >=, <, <="
 msgstr ""
-"Filtrul „{}” acceptă doar operatorii de comparație relațională: =, !=, >, "
-">=, <, <="
+"Filtrul „{}” acceptă doar operatorii de comparație relațională: =, !=, >, >"
+"=, <, <="
 
 #: solv/vendor_change_manager.cpp:1321
 #, c++-format
