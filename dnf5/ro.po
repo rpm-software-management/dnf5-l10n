@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-27 12:49+0000\n"
+"POT-Creation-Date: 2026-10-29 08:48+0000\n"
 "PO-Revision-Date: 2026-10-25 17:57+0000\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -880,11 +880,11 @@ msgstr ""
 msgid "No matches found."
 msgstr "Nu s-au găsit potriviri."
 
-#: commands/offline/offline.cpp:217
+#: commands/offline/offline.cpp:220
 msgid "Manage offline transactions"
 msgstr "Gestionează tranzacțiile fără conexiune la rețea"
 
-#: commands/offline/offline.cpp:251
+#: commands/offline/offline.cpp:254
 #, c++-format
 msgid ""
 "Error reading state: {}. Rerun the command you used to initiate the offline "
@@ -894,14 +894,14 @@ msgstr ""
 "pentru a iniția tranzacția fără conexiune, de exemplu «dnf5 system-upgrade "
 "download [OPȚIUNI]»."
 
-#: commands/offline/offline.cpp:264
+#: commands/offline/offline.cpp:267
 msgid ""
 "The system has been modified since the offline transaction was prepared."
 msgstr ""
 "Sistemul a fost modificat de când a fost pregătită tranzacția fără conexiune "
 "la rețea."
 
-#: commands/offline/offline.cpp:268
+#: commands/offline/offline.cpp:271
 #, c++-format
 msgid ""
 "The system has been modified since the offline transaction was prepared. To "
@@ -910,12 +910,26 @@ msgstr ""
 "Sistemul a fost modificat de când a fost pregătită tranzacția fără conexiune "
 "la rețea. Pentru a o replanifica, executați: {}"
 
-#: commands/offline/offline.cpp:290
+#: commands/offline/offline.cpp:293
 #, c++-format
 msgid "Couldn't connect to D-Bus: {}"
 msgstr "Nu s-a putut realiza conectarea la D-Bus: {}"
 
-#: commands/offline/offline.cpp:325
+#: commands/offline/offline.cpp:333
+#, c++-format
+msgid "Waiting for {0} process blocking shutdown ({1}/{2}s)"
+msgid_plural "Waiting for {0} processes blocking shutdown ({1}/{2}s)"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: commands/offline/offline.cpp:348
+msgid ""
+"Timed out waiting for processes blocking shutdown. Continuing shutdown "
+"request."
+msgstr ""
+
+#: commands/offline/offline.cpp:411
 msgid ""
 "Prepare the system to perform the offline transaction and reboot to start "
 "the transaction."
@@ -923,37 +937,37 @@ msgstr ""
 "Pregătește sistemul pentru a efectua tranzacția fără conexiune și îl "
 "repornește pentru a începe tranzacția."
 
-#: commands/offline/offline.cpp:332
+#: commands/offline/offline.cpp:418
 msgid "Power off the system after the operation is complete"
 msgstr "Oprește sistemul după finalizarea operațiunii"
 
-#: commands/offline/offline.cpp:343
+#: commands/offline/offline.cpp:429
 msgid "No offline transaction is stored."
 msgstr "Nu este stocată nicio tranzacție fără conexiune."
 
-#: commands/offline/offline.cpp:352
+#: commands/offline/offline.cpp:438
 msgid "System is not ready for offline transaction."
 msgstr "Sistemul nu este pregătit pentru tranzacția fără conexiune."
 
-#: commands/offline/offline.cpp:355
+#: commands/offline/offline.cpp:441
 #, c++-format
 msgid "Data directory {} does not exist."
 msgstr "Directorul de date {} nu există."
 
-#: commands/offline/offline.cpp:380
+#: commands/offline/offline.cpp:466
 #, c++-format
 msgid "{} is not wanted by system-update.target."
 msgstr ""
 "{} nu este una dintre dependențele (Wants/WantedBy) ale system-update.target."
 
-#: commands/offline/offline.cpp:390
+#: commands/offline/offline.cpp:476
 #, c++-format
 msgid "The system will now reboot to upgrade to release version {}."
 msgstr ""
 "Sistemul va reporni acum pentru a face actualizarea la noua versiune lansată "
 "{}."
 
-#: commands/offline/offline.cpp:394
+#: commands/offline/offline.cpp:480
 msgid ""
 "The system will now reboot to perform the offline transaction initiated by "
 "the following command:"
@@ -961,7 +975,7 @@ msgstr ""
 "Sistemul va reporni acum pentru a efectua tranzacția fără conexiune inițiată "
 "de următoarea comandă:"
 
-#: commands/offline/offline.cpp:425
+#: commands/offline/offline.cpp:511
 msgid ""
 "Internal use only, not intended to be run by the user. Execute the "
 "transaction in the offline environment."
@@ -969,69 +983,69 @@ msgstr ""
 "Numai pentru uz intern, nu este destinată a fi executată de către "
 "utilizator. Execută tranzacția în mediul fără conexiune."
 
-#: commands/offline/offline.cpp:459
+#: commands/offline/offline.cpp:545
 msgid "Trigger file does not exist. Exiting."
 msgstr "Fișierul de declanșare nu există. Se iese."
 
-#: commands/offline/offline.cpp:463
+#: commands/offline/offline.cpp:549
 msgid "Another offline transaction tool is running. Exiting."
 msgstr "Un alt instrument de tranzacționare fără conexiune rulează. Se iese."
 
-#: commands/offline/offline.cpp:495
+#: commands/offline/offline.cpp:581
 msgid "Starting offline transaction. This will take a while."
 msgstr "Se inițiază tranzacția fără conexiune. Aceasta va dura ceva timp."
 
-#: commands/offline/offline.cpp:499
+#: commands/offline/offline.cpp:585
 msgid "Starting system upgrade. This will take a while."
 msgstr "Se inițiază actualizarea sistemului. Aceasta va dura ceva timp."
 
-#: commands/offline/offline.cpp:511
+#: commands/offline/offline.cpp:597
 msgid "Use `dnf5 offline reboot` to begin the transaction."
 msgstr "Utilizați comanda «dnf5 offline reboot» pentru a începe tranzacția."
 
-#: commands/offline/offline.cpp:564
+#: commands/offline/offline.cpp:650
 msgid "Transaction failed: "
 msgstr "Tranzacția a eșuat: "
 
-#: commands/offline/offline.cpp:634
+#: commands/offline/offline.cpp:720
 #, c++-format
 msgid "Error reading journal: {}"
 msgstr "Eroare la citirea fișierului de jurnal: {}"
 
-#: commands/offline/offline.cpp:640
+#: commands/offline/offline.cpp:726
 #, c++-format
 msgid "Add journal match failed: {}"
 msgstr "Adăugarea potrivirii în jurnal a eșuat: {}"
 
-#: commands/offline/offline.cpp:668
+#: commands/offline/offline.cpp:754
 msgid "No logs were found."
 msgstr "Nu a fost găsit niciun jurnal."
 
-#: commands/offline/offline.cpp:672
+#: commands/offline/offline.cpp:758
 msgid "The following boots appear to contain offline transaction logs:"
 msgstr ""
 "Următoarele porniri par să conțină jurnale de tranzacții fără conexiune:"
 
-#: commands/offline/offline.cpp:689
+#: commands/offline/offline.cpp:775
 msgid "Cannot find logs with this index."
 msgstr "Nu se poate găsi niciun jurnal cu acest index."
 
-#: commands/offline/offline.cpp:696
+#: commands/offline/offline.cpp:782
 msgid "Unable to match systemd journal entry."
 msgstr "Nu s-a găsit nicio intrare care să corespundă în jurnalul systemd."
 
-#: commands/offline/offline.cpp:708
+#: commands/offline/offline.cpp:794
 msgid "Show logs from past offline transactions"
 msgstr "Afișează jurnalele din tranzacțiile efectuate fără conexiune în trecut"
 
-#: commands/offline/offline.cpp:716
+#: commands/offline/offline.cpp:802
 msgid ""
 "Which log to show. Run without any arguments to get a list of available logs."
 msgstr ""
 "Ce jurnal să fie afișat. Executați-o fără niciun argument pentru a obține o "
 "listă a jurnalelor disponibile."
 
-#: commands/offline/offline.cpp:731
+#: commands/offline/offline.cpp:817
 msgid ""
 "systemd is not supported in this build of DNF 5; the `log` subcommand is "
 "unavailable."
@@ -1039,11 +1053,11 @@ msgstr ""
 "systemd nu este acceptat în această versiune a DNF 5; subcomanda „log” nu "
 "este disponibilă."
 
-#: commands/offline/offline.cpp:736
+#: commands/offline/offline.cpp:822
 msgid "Show status of the current offline transaction"
 msgstr "Afișează starea tranzacției efectuate fără conexiune, curente"
 
-#: commands/offline/offline.cpp:752
+#: commands/offline/offline.cpp:838
 msgid ""
 "The system has been modified since the offline transaction was prepared. The "
 "offline transaction initiated by the following command is no longer valid:"
@@ -1052,26 +1066,26 @@ msgstr ""
 "la rețea. Tranzacția fără conexiune inițiată prin următoarea comandă nu mai "
 "este valabilă:"
 
-#: commands/offline/offline.cpp:756
+#: commands/offline/offline.cpp:842
 msgid ""
 "To reschedule, run the command above. To clean up, run `dnf5 offline clean`."
 msgstr ""
 "Pentru a o replanifica, executați comanda de mai sus. Pentru a o elimina, "
 "executați «dnf5 offline clean»."
 
-#: commands/offline/offline.cpp:760
+#: commands/offline/offline.cpp:846
 msgid "An offline transaction was initiated by the following command:"
 msgstr ""
 "O tranzacție fără conexiune la rețea a fost inițiată prin următoarea comandă:"
 
-#: commands/offline/offline.cpp:762
+#: commands/offline/offline.cpp:848
 msgid ""
 "Run `dnf5 offline reboot` to reboot and perform the offline transaction."
 msgstr ""
 "Rulați «dnf5 offline reboot» pentru a reporni și a efectua tranzacția fără "
 "conexiune la rețea."
 
-#: commands/offline/offline.cpp:764
+#: commands/offline/offline.cpp:850
 msgid ""
 "An offline transaction was started, but it did not finish. Run `dnf5 offline "
 "log` for more information. The command that initiated the transaction was:"
@@ -1080,7 +1094,7 @@ msgstr ""
 "finalizată. Rulați «dnf5 offline log» pentru mai multe informații. Comanda "
 "care a inițiat tranzacția a fost:"
 
-#: commands/offline/offline.cpp:769
+#: commands/offline/offline.cpp:855
 msgid "Unknown offline transaction status: "
 msgstr "Stare necunoscută a tranzacției fără conexiune la rețea: "
 

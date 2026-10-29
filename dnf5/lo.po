@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-27 12:49+0000\n"
+"POT-Creation-Date: 2026-10-29 08:48+0000\n"
 "PO-Revision-Date: 2026-09-09 07:34+0000\n"
 "Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
 "Language-Team: Lao <https://translate.fedoraproject.org/projects/dnf5/dnf5/"
@@ -802,149 +802,161 @@ msgstr ""
 msgid "No matches found."
 msgstr "ບໍ່ພົບລາຍການທີ່ກົງກັນ."
 
-#: commands/offline/offline.cpp:217
+#: commands/offline/offline.cpp:220
 msgid "Manage offline transactions"
 msgstr "ຈັດການທຸລະກຳແບບອອຟລາຍ"
 
-#: commands/offline/offline.cpp:251
+#: commands/offline/offline.cpp:254
 #, c++-format
 msgid ""
 "Error reading state: {}. Rerun the command you used to initiate the offline "
 "transaction, e.g. `dnf5 system-upgrade download [OPTIONS]`."
 msgstr "ເກີດຂໍ້ຜິດພາດໃນການອ່ານສະຖານະ: {}. ກະລຸນາລອງໃຊ້ຄຳສັ່ງທີ່ເຈົ້າເຄີຍໃຊ້ເພື່ອເລີ່ມທຸລະກຳໃໝ່."
 
-#: commands/offline/offline.cpp:264
+#: commands/offline/offline.cpp:267
 msgid ""
 "The system has been modified since the offline transaction was prepared."
 msgstr "ລະບົບໄດ້ຖືກປ່ຽນແປງຕັ້ງແຕ່ທຸລະກຳແບບອອຟລາຍຖືກກຽມໄວ້."
 
-#: commands/offline/offline.cpp:268
+#: commands/offline/offline.cpp:271
 #, c++-format
 msgid ""
 "The system has been modified since the offline transaction was prepared. To "
 "reschedule, run: {}"
 msgstr "ລະບົບໄດ້ຖືກປ່ຽນແປງຕັ້ງແຕ່ທຸລະກຳແບບອອຟລາຍຖືກກຽມໄວ້. ເພື່ອກຳນົດເວລາໃໝ່, ໃຫ້ລັນ: {}"
 
-#: commands/offline/offline.cpp:290
+#: commands/offline/offline.cpp:293
 #, c++-format
 msgid "Couldn't connect to D-Bus: {}"
 msgstr "ບໍ່ສາມາດເຊື່ອມຕໍ່ກັບ D-Bus: {}"
 
-#: commands/offline/offline.cpp:325
+#: commands/offline/offline.cpp:333
+#, c++-format
+msgid "Waiting for {0} process blocking shutdown ({1}/{2}s)"
+msgid_plural "Waiting for {0} processes blocking shutdown ({1}/{2}s)"
+msgstr[0] ""
+
+#: commands/offline/offline.cpp:348
+msgid ""
+"Timed out waiting for processes blocking shutdown. Continuing shutdown "
+"request."
+msgstr ""
+
+#: commands/offline/offline.cpp:411
 msgid ""
 "Prepare the system to perform the offline transaction and reboot to start "
 "the transaction."
 msgstr "ກຽມລະບົບເພື່ອດຳເນີນທຸລະກຳແບບອອຟລາຍ ແລະ ເລີ່ມລະບົບໃໝ່ເພື່ອເລີ່ມການດຳເນີນການ."
 
-#: commands/offline/offline.cpp:332
+#: commands/offline/offline.cpp:418
 msgid "Power off the system after the operation is complete"
 msgstr "ປິດເຄື່ອງຫຼັງຈາກການດຳເນີນການສຳເລັດ"
 
-#: commands/offline/offline.cpp:343
+#: commands/offline/offline.cpp:429
 msgid "No offline transaction is stored."
 msgstr "ບໍ່ມີທຸລະກຳແບບອອຟລາຍຖືກຈັດເກັບໄວ້."
 
-#: commands/offline/offline.cpp:352
+#: commands/offline/offline.cpp:438
 msgid "System is not ready for offline transaction."
 msgstr "ລະບົບຍັງບໍ່ພ້ອມສຳລັບທຸລະກຳແບບອອຟລາຍ."
 
-#: commands/offline/offline.cpp:355
+#: commands/offline/offline.cpp:441
 #, c++-format
 msgid "Data directory {} does not exist."
 msgstr "ບໍ່ມີໂຟນເດີຂໍ້ມູນ {} ຢູ່."
 
-#: commands/offline/offline.cpp:380
+#: commands/offline/offline.cpp:466
 #, c++-format
 msgid "{} is not wanted by system-update.target."
 msgstr "{} ບໍ່ເປັນທີ່ຕ້ອງການໂດຍ system-update.target."
 
-#: commands/offline/offline.cpp:390
+#: commands/offline/offline.cpp:476
 #, c++-format
 msgid "The system will now reboot to upgrade to release version {}."
 msgstr "ລະບົບຈະເລີ່ມໃໝ່ດຽວນີ້ເພື່ອອັບເກຣດເປັນເວີຊັນ {}."
 
-#: commands/offline/offline.cpp:394
+#: commands/offline/offline.cpp:480
 msgid ""
 "The system will now reboot to perform the offline transaction initiated by "
 "the following command:"
 msgstr "ລະບົບຈະເລີ່ມໃໝ່ດຽວນີ້ເພື່ອດຳເນີນທຸລະກຳແບບອອຟລາຍທີ່ເລີ່ມໂດຍຄຳສັ່ງ:"
 
-#: commands/offline/offline.cpp:425
+#: commands/offline/offline.cpp:511
 msgid ""
 "Internal use only, not intended to be run by the user. Execute the "
 "transaction in the offline environment."
 msgstr "ສຳລັບໃຊ້ພາຍໃນເທົ່ານັ້ນ. ດຳເນີນທຸລະກຳໃນສະພາບແວດລ້ອມແບບອອຟລາຍ."
 
-#: commands/offline/offline.cpp:459
+#: commands/offline/offline.cpp:545
 msgid "Trigger file does not exist. Exiting."
 msgstr "ບໍ່ມີໄຟລ໌ຕົວຈຸດຊະນວນ (trigger file) ຢູ່. ກຳລັງອອກ."
 
-#: commands/offline/offline.cpp:463
+#: commands/offline/offline.cpp:549
 msgid "Another offline transaction tool is running. Exiting."
 msgstr "ມີເຄື່ອງມືທຸລະກຳອອຟລາຍອື່ນກຳລັງເຮັດວຽກຢູ່. ກຳລັງອອກ."
 
-#: commands/offline/offline.cpp:495
+#: commands/offline/offline.cpp:581
 msgid "Starting offline transaction. This will take a while."
 msgstr "ກຳລັງເລີ່ມທຸລະກຳແບບອອຟລາຍ. ອາດຈະໃຊ້ເວລາໄລຍະໜຶ່ງ."
 
-#: commands/offline/offline.cpp:499
+#: commands/offline/offline.cpp:585
 msgid "Starting system upgrade. This will take a while."
 msgstr "ກຳລັງເລີ່ມການອັບເກຣດລະບົບ. ອາດຈະໃຊ້ເວລາໄລຍະໜຶ່ງ."
 
-#: commands/offline/offline.cpp:511
+#: commands/offline/offline.cpp:597
 msgid "Use `dnf5 offline reboot` to begin the transaction."
 msgstr "ໃຊ້ `dnf5 offline reboot` ເພື່ອເລີ່ມທຸລະກຳ."
 
-#: commands/offline/offline.cpp:564
+#: commands/offline/offline.cpp:650
 msgid "Transaction failed: "
 msgstr "ທຸລະກຳຜິດພາດ: "
 
-#: commands/offline/offline.cpp:634
+#: commands/offline/offline.cpp:720
 #, c++-format
 msgid "Error reading journal: {}"
 msgstr "ຂໍ້ຜິດພາດໃນການອ່ານ journal: {}"
 
-#: commands/offline/offline.cpp:640
+#: commands/offline/offline.cpp:726
 #, c++-format
 msgid "Add journal match failed: {}"
 msgstr "ການເພີ່ມ journal match ຜິດພາດ: {}"
 
-#: commands/offline/offline.cpp:668
+#: commands/offline/offline.cpp:754
 msgid "No logs were found."
 msgstr "ບໍ່ພົບຂໍ້ມູນບັນທຶກ (logs)."
 
-#: commands/offline/offline.cpp:672
+#: commands/offline/offline.cpp:758
 msgid "The following boots appear to contain offline transaction logs:"
 msgstr "ການເລີ່ມລະບົບຕໍ່ໄປນີ້ປະກົດວ່າມີບັນທຶກທຸລະກຳແບບອອຟລາຍ:"
 
-#: commands/offline/offline.cpp:689
+#: commands/offline/offline.cpp:775
 msgid "Cannot find logs with this index."
 msgstr "ບໍ່ພົບຂໍ້ມູນບັນທຶກດ້ວຍດັດຊະນີ (index) ນີ້."
 
-#: commands/offline/offline.cpp:696
+#: commands/offline/offline.cpp:782
 msgid "Unable to match systemd journal entry."
 msgstr "ບໍ່ສາມາດຈັບຄູ່ກັບຂໍ້ມູນໃນ systemd journal."
 
-#: commands/offline/offline.cpp:708
+#: commands/offline/offline.cpp:794
 msgid "Show logs from past offline transactions"
 msgstr "ສະແດງບັນທຶກຈາກທຸລະກຳແບບອອຟລາຍໃນອະດີດ"
 
-#: commands/offline/offline.cpp:716
+#: commands/offline/offline.cpp:802
 msgid ""
 "Which log to show. Run without any arguments to get a list of available logs."
 msgstr "ຕ້ອງການເບິ່ງບັນທຶກໃດ. ໃຊ້ຄຳສັ່ງໂດຍບໍ່ມີອາຄິວເມນເພື່ອເບິ່ງລາຍຊື່ບັນທຶກທັງໝົດ."
 
-#: commands/offline/offline.cpp:731
+#: commands/offline/offline.cpp:817
 msgid ""
 "systemd is not supported in this build of DNF 5; the `log` subcommand is "
 "unavailable."
 msgstr "systemd ບໍ່ຖືກຮອງຮັບໃນ DNF 5 ເວີຊັນນີ້; ຄຳສັ່ງຍ່ອຍ `log` ບໍ່ສາມາດໃຊ້ໄດ້."
 
-#: commands/offline/offline.cpp:736
+#: commands/offline/offline.cpp:822
 msgid "Show status of the current offline transaction"
 msgstr "ສະແດງສະຖານະຂອງທຸລະກຳແບບອອຟລາຍປັດຈຸບັນ"
 
-#: commands/offline/offline.cpp:752
+#: commands/offline/offline.cpp:838
 msgid ""
 "The system has been modified since the offline transaction was prepared. The "
 "offline transaction initiated by the following command is no longer valid:"
@@ -952,21 +964,21 @@ msgstr ""
 "ລະບົບໄດ້ຖືກດັດແປງນັບຕັ້ງແຕ່ການເຮັດທຸລະກຳອອບລາຍໄດ້ຖືກກຽມໄວ້. "
 "ການເຮັດທຸລະກຳອອບລາຍທີ່ເລີ່ມຕົ້ນໂດຍຄຳສັ່ງຕໍ່ໄປນີ້ບໍ່ສາມາດໃຊ້ງານໄດ້ອີກຕໍ່ໄປ:"
 
-#: commands/offline/offline.cpp:756
+#: commands/offline/offline.cpp:842
 msgid ""
 "To reschedule, run the command above. To clean up, run `dnf5 offline clean`."
 msgstr "ເພື່ອກຳນົດເວລາໃໝ່, ໃຫ້ລັນຄຳສັ່ງຂ້າງເທິງ. ເພື່ອລຶບລ້າງ, ໃຫ້ລັນ `dnf5 offline clean`."
 
-#: commands/offline/offline.cpp:760
+#: commands/offline/offline.cpp:846
 msgid "An offline transaction was initiated by the following command:"
 msgstr "ທຸລະກຳແບບອອຟລາຍຖືກເລີ່ມໂດຍຄຳສັ່ງຕໍ່ໄປນີ້:"
 
-#: commands/offline/offline.cpp:762
+#: commands/offline/offline.cpp:848
 msgid ""
 "Run `dnf5 offline reboot` to reboot and perform the offline transaction."
 msgstr "ໃຊ້ `dnf5 offline reboot` ເພື່ອເລີ່ມລະບົບໃໝ່ ແລະ ດຳເນີນທຸລະກຳແບບອອຟລາຍ."
 
-#: commands/offline/offline.cpp:764
+#: commands/offline/offline.cpp:850
 msgid ""
 "An offline transaction was started, but it did not finish. Run `dnf5 offline "
 "log` for more information. The command that initiated the transaction was:"
@@ -974,7 +986,7 @@ msgstr ""
 "ທຸລະກຳແບບອອບລາຍໄດ້ເລີ່ມຕົ້ນແລ້ວ, ແຕ່ຍັງບໍ່ທັນສຳເລັດ. ໃຫ້ລັນ dnf5 offline log "
 "ເພື່ອເບິ່ງຂໍ້ມູນເພີ່ມເຕີມ. ຄຳສັ່ງທີ່ເລີ່ມຕົ້ນທຸລະກຳນີ້ແມ່ນ:"
 
-#: commands/offline/offline.cpp:769
+#: commands/offline/offline.cpp:855
 msgid "Unknown offline transaction status: "
 msgstr "ບໍ່ຮູ້ຈັກສະຖານະທຸລະກຳແບບອອຟລາຍ: "
 

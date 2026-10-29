@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-27 12:49+0000\n"
+"POT-Creation-Date: 2026-10-29 08:48+0000\n"
 "PO-Revision-Date: 2025-08-02 13:53+0000\n"
 "Last-Translator: kanitha chim <kchim@redhat.com>\n"
 "Language-Team: Khmer (Central) <https://translate.fedoraproject.org/projects/"
@@ -868,11 +868,11 @@ msgstr ""
 msgid "No matches found."
 msgstr "រកមិនឃើញការផ្គូរផ្គងសម្រាប់ \"{}\"។"
 
-#: commands/offline/offline.cpp:217
+#: commands/offline/offline.cpp:220
 msgid "Manage offline transactions"
 msgstr "គ្រប់គ្រងប្រតិបត្តិការក្រៅបណ្ដាញ"
 
-#: commands/offline/offline.cpp:251
+#: commands/offline/offline.cpp:254
 #, c++-format
 msgid ""
 "Error reading state: {}. Rerun the command you used to initiate the offline "
@@ -881,57 +881,69 @@ msgstr ""
 "កំហុសអានស្ថានភាព: {}។ Rerun command ដែលអ្នកបានប្រើដើម្បីចាប់ផ្ដើមប្រតិបត្តិការក្រៅបណ្ដាញ, "
 "ឧទាហរណ៍ `dnf5 system-upgrade download [OPTIONS]`។"
 
-#: commands/offline/offline.cpp:264
+#: commands/offline/offline.cpp:267
 msgid ""
 "The system has been modified since the offline transaction was prepared."
 msgstr ""
 
-#: commands/offline/offline.cpp:268
+#: commands/offline/offline.cpp:271
 #, c++-format
 msgid ""
 "The system has been modified since the offline transaction was prepared. To "
 "reschedule, run: {}"
 msgstr ""
 
-#: commands/offline/offline.cpp:290
+#: commands/offline/offline.cpp:293
 #, c++-format
 msgid "Couldn't connect to D-Bus: {}"
 msgstr "មិនអាច់ភ្ជាប់ទៅកាន់ D-Bus: {}"
 
-#: commands/offline/offline.cpp:325
+#: commands/offline/offline.cpp:333
+#, c++-format
+msgid "Waiting for {0} process blocking shutdown ({1}/{2}s)"
+msgid_plural "Waiting for {0} processes blocking shutdown ({1}/{2}s)"
+msgstr[0] ""
+
+#: commands/offline/offline.cpp:348
+msgid ""
+"Timed out waiting for processes blocking shutdown. Continuing shutdown "
+"request."
+msgstr ""
+
+#: commands/offline/offline.cpp:411
 msgid ""
 "Prepare the system to perform the offline transaction and reboot to start "
 "the transaction."
 msgstr "រៀបចំប្រព័ន្ធដើម្បីអនុវត្តប្រតិបត្តិការក្រៅបណ្ដាញនិង reboot ដើម្បីចាប់ផ្ដើមប្រតិបត្តិការ។"
 
-#: commands/offline/offline.cpp:332
+#: commands/offline/offline.cpp:418
 msgid "Power off the system after the operation is complete"
 msgstr "បិទប្រព័ន្ធបន្ទាប់ពីប្រតិបត្តិការបញ្ចប់"
 
-#: commands/offline/offline.cpp:343
+#: commands/offline/offline.cpp:429
 msgid "No offline transaction is stored."
 msgstr "គ្មានប្រតិបត្តិការក្រៅបណ្ដាញត្រូវបានរក្សាទុក។"
 
-#: commands/offline/offline.cpp:352
+#: commands/offline/offline.cpp:438
 msgid "System is not ready for offline transaction."
 msgstr "ប្រព័ន្ធគឺមិនទាន់រួចរាល់សម្រាប់ប្រតិបត្តិការក្រៅបណ្ដាញ។"
 
-#: commands/offline/offline.cpp:355
+#: commands/offline/offline.cpp:441
 #, c++-format
 msgid "Data directory {} does not exist."
 msgstr "ថតទិន្នន័យ {} គឺមិនមាន។"
 
-#: commands/offline/offline.cpp:380
+#: commands/offline/offline.cpp:466
 #, c++-format
 msgid "{} is not wanted by system-update.target."
 msgstr "{} គឺមិនត្រូវការដោយ system-update.target។"
 
-#: commands/offline/offline.cpp:390
+#: commands/offline/offline.cpp:476
 #, c++-format
 msgid "The system will now reboot to upgrade to release version {}."
 msgstr "ប្រព័ន្ធនឹង reboot ឥឡូវនេះដើម្បីធ្វើកំណែឡើងទៅ release version {}។"
 
-#: commands/offline/offline.cpp:394
+#: commands/offline/offline.cpp:480
 msgid ""
 "The system will now reboot to perform the offline transaction initiated by "
 "the following command:"
@@ -939,7 +951,7 @@ msgstr ""
 "ប្រព័ន្ធនឹងធ្វើការ reboot​ ឥឡូវនេះដើម្បីអនុវត្តប្រតិបត្តិការក្រៅបណ្ដាញដែលផ្ដួចផ្ដើមដោយ command​ "
 "ដូចខាងក្រោម:"
 
-#: commands/offline/offline.cpp:425
+#: commands/offline/offline.cpp:511
 msgid ""
 "Internal use only, not intended to be run by the user. Execute the "
 "transaction in the offline environment."
@@ -947,78 +959,78 @@ msgstr ""
 "អ្នកប្រើប្រាស់ផ្ទៃក្នុងតែមួយគត់, មិនមែនសម្រាប់ run ដោយអ្នកប្រើប្រាស់ទូរទៅ។​ ធ្វើប្រតិបត្តិការនៅក្នុង​ "
 "environment ក្រៅបណ្ដាញ។"
 
-#: commands/offline/offline.cpp:459
+#: commands/offline/offline.cpp:545
 msgid "Trigger file does not exist. Exiting."
 msgstr "ឯកសារដែលបាន​ trigger​ មិនមាន។​ ចាកចេញ។"
 
-#: commands/offline/offline.cpp:463
+#: commands/offline/offline.cpp:549
 msgid "Another offline transaction tool is running. Exiting."
 msgstr "ឧបករណ៍ប្រតិបត្តិការក្រៅបណ្ដាញផ្សេងទៀតគឺកំពុងធ្វើដំណើរការ។​ ចាកចេញ។"
 
-#: commands/offline/offline.cpp:495
+#: commands/offline/offline.cpp:581
 msgid "Starting offline transaction. This will take a while."
 msgstr "ចាប់ផ្ដើមប្រតិបត្តិការក្រៅបណ្ដាញ។ វានឹងត្រូវការពេលបន្តិច។"
 
-#: commands/offline/offline.cpp:499
+#: commands/offline/offline.cpp:585
 msgid "Starting system upgrade. This will take a while."
 msgstr "ចាប់ផ្ដើមធ្វើកំណែឡើងសម្រាប់ប្រព័ន្ធ។ វានឹងត្រូវការពេលបន្តិច។"
 
-#: commands/offline/offline.cpp:511
+#: commands/offline/offline.cpp:597
 msgid "Use `dnf5 offline reboot` to begin the transaction."
 msgstr "ប្រើ `dnf5 offline reboot` ដើម្បីចាប់ផ្ដើមប្រតិបត្តិការ។"
 
-#: commands/offline/offline.cpp:564
+#: commands/offline/offline.cpp:650
 msgid "Transaction failed: "
 msgstr "ប្រតិបត្តិការមិនបានជោគជ័យ: "
 
-#: commands/offline/offline.cpp:634
+#: commands/offline/offline.cpp:720
 #, c++-format
 msgid "Error reading journal: {}"
 msgstr "កំហុសអាន journal: {}"
 
-#: commands/offline/offline.cpp:640
+#: commands/offline/offline.cpp:726
 #, c++-format
 msgid "Add journal match failed: {}"
 msgstr "ដាក់ journal​ ផ្គូរផ្គងមិនបានសម្រេច: {}"
 
-#: commands/offline/offline.cpp:668
+#: commands/offline/offline.cpp:754
 msgid "No logs were found."
 msgstr "រកមិនឃើញ​ logs។"
 
-#: commands/offline/offline.cpp:672
+#: commands/offline/offline.cpp:758
 msgid "The following boots appear to contain offline transaction logs:"
 msgstr "boots​ ខាងក្រោមនេះហាក់ដូចជាមានផ្ទុក logs​ នៃប្រតិបត្តិការក្រៅបណ្ដាញ:"
 
-#: commands/offline/offline.cpp:689
+#: commands/offline/offline.cpp:775
 msgid "Cannot find logs with this index."
 msgstr "មិនអាចស្វែងរក logs ជាមួយនឹង index នេះទេ។"
 
-#: commands/offline/offline.cpp:696
+#: commands/offline/offline.cpp:782
 msgid "Unable to match systemd journal entry."
 msgstr "មិនអាចធ្វើការផ្គូរផ្គង systemd journal entry។"
 
-#: commands/offline/offline.cpp:708
+#: commands/offline/offline.cpp:794
 msgid "Show logs from past offline transactions"
 msgstr "បង្ហាញ logs ពីប្រតិបត្តិការក្រៅបណ្ដាញអតីតកាល"
 
-#: commands/offline/offline.cpp:716
+#: commands/offline/offline.cpp:802
 msgid ""
 "Which log to show. Run without any arguments to get a list of available logs."
 msgstr ""
 "Which log ដើម្បីបង្ហាញ។ Run​ ដោយគ្មានអមជាមួយ arguments ណាមួយដើម្បីបានតារាងនៃ logs "
 "ទាំងអស់។"
 
-#: commands/offline/offline.cpp:731
+#: commands/offline/offline.cpp:817
 msgid ""
 "systemd is not supported in this build of DNF 5; the `log` subcommand is "
 "unavailable."
 msgstr "systemd គឺមិនត្រូវបានគាំទ្រនៅក្នុង build នៃ DNF 5; `log` subcommand មិនមានទេ។"
 
-#: commands/offline/offline.cpp:736
+#: commands/offline/offline.cpp:822
 msgid "Show status of the current offline transaction"
 msgstr "បង្ហាញស្ថានភាពនៃប្រតិបត្តិការក្រៅបណ្ដាញបច្ចុប្បន្ន"
 
-#: commands/offline/offline.cpp:752
+#: commands/offline/offline.cpp:838
 #, fuzzy
 #| msgid ""
 #| "The system will now reboot to perform the offline transaction initiated "
@@ -1030,21 +1042,21 @@ msgstr ""
 "ប្រព័ន្ធនឹងធ្វើការ reboot​ ឥឡូវនេះដើម្បីអនុវត្តប្រតិបត្តិការក្រៅបណ្ដាញដែលផ្ដួចផ្ដើមដោយ command​ "
 "ដូចខាងក្រោម:"
 
-#: commands/offline/offline.cpp:756
+#: commands/offline/offline.cpp:842
 msgid ""
 "To reschedule, run the command above. To clean up, run `dnf5 offline clean`."
 msgstr ""
 
-#: commands/offline/offline.cpp:760
+#: commands/offline/offline.cpp:846
 msgid "An offline transaction was initiated by the following command:"
 msgstr "ប្រតិបត្តិការក្រៅបណ្ដាញត្រូវបានផ្ដួចផ្ដើមដោយ command ដូចខាងក្រោម:"
 
-#: commands/offline/offline.cpp:762
+#: commands/offline/offline.cpp:848
 msgid ""
 "Run `dnf5 offline reboot` to reboot and perform the offline transaction."
 msgstr "Run `dnf5 offline reboot` ដើម្បី reboot និងអនុវត្តប្រតិបត្តិការក្រៅបណ្ដាញ។"
 
-#: commands/offline/offline.cpp:764
+#: commands/offline/offline.cpp:850
 msgid ""
 "An offline transaction was started, but it did not finish. Run `dnf5 offline "
 "log` for more information. The command that initiated the transaction was:"
@@ -1052,7 +1064,7 @@ msgstr ""
 "ប្រតិបត្តិការក្រៅបណ្ដាញត្រូវបានចាប់ផ្ដើម, ប៉ុន្តែវាមិនបានបញ្ចប់ទេ។​ Run `dnf5 offline log` "
 "សម្រាប់មើលព័ត៏មានបន្ថែម។​ command ដែលបានផ្ដួចផ្ដើមប្រតិបត្តិការគឺ:"
 
-#: commands/offline/offline.cpp:769
+#: commands/offline/offline.cpp:855
 msgid "Unknown offline transaction status: "
 msgstr "មិនស្គាល់ស្ថានភាពរបស់ប្រតិបត្តិការក្រៅបណ្ដាញ: "
 

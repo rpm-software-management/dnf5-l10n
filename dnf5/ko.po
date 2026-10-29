@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-27 12:49+0000\n"
+"POT-Creation-Date: 2026-10-29 08:48+0000\n"
 "PO-Revision-Date: 2026-10-22 07:58+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
@@ -841,11 +841,11 @@ msgstr ""
 msgid "No matches found."
 msgstr "맞는 항목이 없습니다."
 
-#: commands/offline/offline.cpp:217
+#: commands/offline/offline.cpp:220
 msgid "Manage offline transactions"
 msgstr "오프라인 트랜잭션 관리"
 
-#: commands/offline/offline.cpp:251
+#: commands/offline/offline.cpp:254
 #, c++-format
 msgid ""
 "Error reading state: {}. Rerun the command you used to initiate the offline "
@@ -854,12 +854,12 @@ msgstr ""
 "상태 읽기 오류: {}. 오프라인 트랜잭션을 시작할 때 사용한 명령(예: `dnf5 "
 "system-upgrade download [OPTIONS]`)을 다시 실행하세요."
 
-#: commands/offline/offline.cpp:264
+#: commands/offline/offline.cpp:267
 msgid ""
 "The system has been modified since the offline transaction was prepared."
 msgstr "오프라인 트랜잭션을 준비한 이후 시스템이 변경되었습니다."
 
-#: commands/offline/offline.cpp:268
+#: commands/offline/offline.cpp:271
 #, c++-format
 msgid ""
 "The system has been modified since the offline transaction was prepared. To "
@@ -868,12 +868,24 @@ msgstr ""
 "오프라인 트랜잭션을 준비한 이후 시스템이 변경되었습니다. 다시 예약하려면 다"
 "음 명령을 실행하세요: {}"
 
-#: commands/offline/offline.cpp:290
+#: commands/offline/offline.cpp:293
 #, c++-format
 msgid "Couldn't connect to D-Bus: {}"
 msgstr "D-Bus에 연결할 수 없습니다: {}"
 
-#: commands/offline/offline.cpp:325
+#: commands/offline/offline.cpp:333
+#, c++-format
+msgid "Waiting for {0} process blocking shutdown ({1}/{2}s)"
+msgid_plural "Waiting for {0} processes blocking shutdown ({1}/{2}s)"
+msgstr[0] ""
+
+#: commands/offline/offline.cpp:348
+msgid ""
+"Timed out waiting for processes blocking shutdown. Continuing shutdown "
+"request."
+msgstr ""
+
+#: commands/offline/offline.cpp:411
 msgid ""
 "Prepare the system to perform the offline transaction and reboot to start "
 "the transaction."
@@ -881,34 +893,34 @@ msgstr ""
 "오프라인 트랜잭션을 수행할 수 있도록 시스템을 준비하고, 재부팅하여 트랜잭션"
 "을 시작합니다."
 
-#: commands/offline/offline.cpp:332
+#: commands/offline/offline.cpp:418
 msgid "Power off the system after the operation is complete"
 msgstr "작업이 완료되면 시스템의 전원을 끕니다"
 
-#: commands/offline/offline.cpp:343
+#: commands/offline/offline.cpp:429
 msgid "No offline transaction is stored."
 msgstr "저장된 오프라인 트랜잭션이 없습니다."
 
-#: commands/offline/offline.cpp:352
+#: commands/offline/offline.cpp:438
 msgid "System is not ready for offline transaction."
 msgstr "시스템이 오프라인 트랜잭션을 수행할 준비가 되지 않았습니다."
 
-#: commands/offline/offline.cpp:355
+#: commands/offline/offline.cpp:441
 #, c++-format
 msgid "Data directory {} does not exist."
 msgstr "데이터 디렉터리 {}가 없습니다."
 
-#: commands/offline/offline.cpp:380
+#: commands/offline/offline.cpp:466
 #, c++-format
 msgid "{} is not wanted by system-update.target."
 msgstr "{}는 system-update.target에서 필요로 하는 대상이 아닙니다."
 
-#: commands/offline/offline.cpp:390
+#: commands/offline/offline.cpp:476
 #, c++-format
 msgid "The system will now reboot to upgrade to release version {}."
 msgstr "릴리스 버전 {}로 업그레이드하기 위해 시스템을 지금 재부팅합니다."
 
-#: commands/offline/offline.cpp:394
+#: commands/offline/offline.cpp:480
 msgid ""
 "The system will now reboot to perform the offline transaction initiated by "
 "the following command:"
@@ -916,7 +928,7 @@ msgstr ""
 "다음 명령으로 시작한 오프라인 트랜잭션을 수행하기 위해 시스템을 지금 재부팅합"
 "니다:"
 
-#: commands/offline/offline.cpp:425
+#: commands/offline/offline.cpp:511
 msgid ""
 "Internal use only, not intended to be run by the user. Execute the "
 "transaction in the offline environment."
@@ -924,68 +936,68 @@ msgstr ""
 "내부 전용이며, 사용자가 직접 실행하는 용도가 아닙니다. 오프라인 환경에서 트랜"
 "잭션을 실행합니다."
 
-#: commands/offline/offline.cpp:459
+#: commands/offline/offline.cpp:545
 msgid "Trigger file does not exist. Exiting."
 msgstr "트리거 파일이 없습니다. 종료합니다."
 
-#: commands/offline/offline.cpp:463
+#: commands/offline/offline.cpp:549
 msgid "Another offline transaction tool is running. Exiting."
 msgstr "다른 오프라인 트랜잭션 도구가 실행 중입니다. 종료합니다."
 
-#: commands/offline/offline.cpp:495
+#: commands/offline/offline.cpp:581
 msgid "Starting offline transaction. This will take a while."
 msgstr "오프라인 트랜잭션을 시작합니다. 시간이 다소 걸릴 수 있습니다."
 
-#: commands/offline/offline.cpp:499
+#: commands/offline/offline.cpp:585
 msgid "Starting system upgrade. This will take a while."
 msgstr "시스템 업그레이드를 시작합니다. 시간이 다소 걸릴 수 있습니다."
 
-#: commands/offline/offline.cpp:511
+#: commands/offline/offline.cpp:597
 msgid "Use `dnf5 offline reboot` to begin the transaction."
 msgstr "트랜잭션을 시작하려면 `dnf5 offline reboot`를 실행하세요."
 
-#: commands/offline/offline.cpp:564
+#: commands/offline/offline.cpp:650
 msgid "Transaction failed: "
 msgstr "트랜잭션 실패: "
 
-#: commands/offline/offline.cpp:634
+#: commands/offline/offline.cpp:720
 #, c++-format
 msgid "Error reading journal: {}"
 msgstr "저널 읽기 오류: {}"
 
-#: commands/offline/offline.cpp:640
+#: commands/offline/offline.cpp:726
 #, c++-format
 msgid "Add journal match failed: {}"
 msgstr "저널 검색 조건 추가 실패: {}"
 
-#: commands/offline/offline.cpp:668
+#: commands/offline/offline.cpp:754
 msgid "No logs were found."
 msgstr "로그가 없습니다."
 
-#: commands/offline/offline.cpp:672
+#: commands/offline/offline.cpp:758
 msgid "The following boots appear to contain offline transaction logs:"
 msgstr "다음 부팅 기록에 오프라인 트랜잭션 로그가 포함된 것으로 보입니다:"
 
-#: commands/offline/offline.cpp:689
+#: commands/offline/offline.cpp:775
 msgid "Cannot find logs with this index."
 msgstr "이 인덱스에 해당하는 로그를 찾을 수 없습니다."
 
-#: commands/offline/offline.cpp:696
+#: commands/offline/offline.cpp:782
 msgid "Unable to match systemd journal entry."
 msgstr "일치하는 systemd 저널 항목을 찾을 수 없습니다."
 
-#: commands/offline/offline.cpp:708
+#: commands/offline/offline.cpp:794
 msgid "Show logs from past offline transactions"
 msgstr "이전 오프라인 트랜잭션의 로그를 표시합니다"
 
-#: commands/offline/offline.cpp:716
+#: commands/offline/offline.cpp:802
 msgid ""
 "Which log to show. Run without any arguments to get a list of available logs."
 msgstr ""
 "표시할 로그를 지정합니다. 사용 가능한 로그 목록을 보려면 인수 없이 실행하세"
 "요."
 
-#: commands/offline/offline.cpp:731
+#: commands/offline/offline.cpp:817
 msgid ""
 "systemd is not supported in this build of DNF 5; the `log` subcommand is "
 "unavailable."
@@ -993,11 +1005,11 @@ msgstr ""
 "이 DNF 5 빌드에서는 systemd를 지원하지 않으므로 `log` 하위 명령을 사용할 수 "
 "없습니다."
 
-#: commands/offline/offline.cpp:736
+#: commands/offline/offline.cpp:822
 msgid "Show status of the current offline transaction"
 msgstr "현재 오프라인 트랜잭션의 상태를 표시합니다"
 
-#: commands/offline/offline.cpp:752
+#: commands/offline/offline.cpp:838
 msgid ""
 "The system has been modified since the offline transaction was prepared. The "
 "offline transaction initiated by the following command is no longer valid:"
@@ -1005,24 +1017,24 @@ msgstr ""
 "오프라인 트랜잭션을 준비한 이후 시스템이 변경되었습니다. 다음 명령으로 시작"
 "한 오프라인 트랜잭션은 더 이상 유효하지 않습니다:"
 
-#: commands/offline/offline.cpp:756
+#: commands/offline/offline.cpp:842
 msgid ""
 "To reschedule, run the command above. To clean up, run `dnf5 offline clean`."
 msgstr ""
 "다시 예약하려면 위 명령을 실행하세요. 정리하려면 `dnf5 offline clean`을 실행"
 "하세요."
 
-#: commands/offline/offline.cpp:760
+#: commands/offline/offline.cpp:846
 msgid "An offline transaction was initiated by the following command:"
 msgstr "다음 명령으로 오프라인 트랜잭션이 시작되었습니다:"
 
-#: commands/offline/offline.cpp:762
+#: commands/offline/offline.cpp:848
 msgid ""
 "Run `dnf5 offline reboot` to reboot and perform the offline transaction."
 msgstr ""
 "재부팅하여 오프라인 트랜잭션을 수행하려면 `dnf5 offline reboot`를 실행하세요."
 
-#: commands/offline/offline.cpp:764
+#: commands/offline/offline.cpp:850
 msgid ""
 "An offline transaction was started, but it did not finish. Run `dnf5 offline "
 "log` for more information. The command that initiated the transaction was:"
@@ -1030,7 +1042,7 @@ msgstr ""
 "오프라인 트랜잭션이 시작되었지만 완료되지 않았습니다. 자세한 내용을 확인하려"
 "면 `dnf5 offline log`를 실행하세요. 트랜잭션을 시작한 명령은 다음과 같습니다:"
 
-#: commands/offline/offline.cpp:769
+#: commands/offline/offline.cpp:855
 msgid "Unknown offline transaction status: "
 msgstr "알 수 없는 오프라인 트랜잭션 상태: "
 

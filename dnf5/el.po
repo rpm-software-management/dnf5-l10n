@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-27 12:49+0000\n"
+"POT-Creation-Date: 2026-10-29 08:48+0000\n"
 "PO-Revision-Date: 2026-06-23 16:18+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -930,11 +930,11 @@ msgstr ""
 msgid "No matches found."
 msgstr "Δεν βρέθηκαν αντιστοιχίες για το \"{}\"."
 
-#: commands/offline/offline.cpp:217
+#: commands/offline/offline.cpp:220
 msgid "Manage offline transactions"
 msgstr "Διαχείριση εκτός σύνδεσης (offline) συναλλαγών"
 
-#: commands/offline/offline.cpp:251
+#: commands/offline/offline.cpp:254
 #, c++-format
 msgid ""
 "Error reading state: {}. Rerun the command you used to initiate the offline "
@@ -944,24 +944,37 @@ msgstr ""
 "χρησιμοποιήσατε για να ξεκινήσετε την offline συναλλαγή, π.χ. `dnf5 system-"
 "upgrade download [ΕΠΙΛΟΓΕΣ]`."
 
-#: commands/offline/offline.cpp:264
+#: commands/offline/offline.cpp:267
 msgid ""
 "The system has been modified since the offline transaction was prepared."
 msgstr ""
 
-#: commands/offline/offline.cpp:268
+#: commands/offline/offline.cpp:271
 #, c++-format
 msgid ""
 "The system has been modified since the offline transaction was prepared. To "
 "reschedule, run: {}"
 msgstr ""
 
-#: commands/offline/offline.cpp:290
+#: commands/offline/offline.cpp:293
 #, c++-format
 msgid "Couldn't connect to D-Bus: {}"
 msgstr "Δεν ήταν δυνατή η σύνδεση στο D-Bus: {}"
 
-#: commands/offline/offline.cpp:325
+#: commands/offline/offline.cpp:333
+#, c++-format
+msgid "Waiting for {0} process blocking shutdown ({1}/{2}s)"
+msgid_plural "Waiting for {0} processes blocking shutdown ({1}/{2}s)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: commands/offline/offline.cpp:348
+msgid ""
+"Timed out waiting for processes blocking shutdown. Continuing shutdown "
+"request."
+msgstr ""
+
+#: commands/offline/offline.cpp:411
 msgid ""
 "Prepare the system to perform the offline transaction and reboot to start "
 "the transaction."
@@ -969,35 +982,35 @@ msgstr ""
 "Προετοιμασία του συστήματος για την εκτέλεση της offline συναλλαγής και "
 "επανεκκίνηση για την έναρξη της συναλλαγής."
 
-#: commands/offline/offline.cpp:332
+#: commands/offline/offline.cpp:418
 msgid "Power off the system after the operation is complete"
 msgstr "Απενεργοποίηση του συστήματος μετά την ολοκλήρωση της λειτουργίας"
 
-#: commands/offline/offline.cpp:343
+#: commands/offline/offline.cpp:429
 msgid "No offline transaction is stored."
 msgstr "Δεν υπάρχει αποθηκευμένη offline συναλλαγή."
 
-#: commands/offline/offline.cpp:352
+#: commands/offline/offline.cpp:438
 msgid "System is not ready for offline transaction."
 msgstr "Το σύστημα δεν είναι έτοιμο για offline συναλλαγή."
 
-#: commands/offline/offline.cpp:355
+#: commands/offline/offline.cpp:441
 #, c++-format
 msgid "Data directory {} does not exist."
 msgstr "Ο κατάλογος δεδομένων {} δεν υπάρχει."
 
-#: commands/offline/offline.cpp:380
+#: commands/offline/offline.cpp:466
 #, c++-format
 msgid "{} is not wanted by system-update.target."
 msgstr "Το {} δεν απαιτείται από το system-update.target."
 
-#: commands/offline/offline.cpp:390
+#: commands/offline/offline.cpp:476
 #, c++-format
 msgid "The system will now reboot to upgrade to release version {}."
 msgstr ""
 "Το σύστημα θα επανεκκινηθεί τώρα για αναβάθμιση στην έκδοση κυκλοφορίας {}."
 
-#: commands/offline/offline.cpp:394
+#: commands/offline/offline.cpp:480
 msgid ""
 "The system will now reboot to perform the offline transaction initiated by "
 "the following command:"
@@ -1005,7 +1018,7 @@ msgstr ""
 "Το σύστημα θα επανεκκινηθεί τώρα για την εκτέλεση της offline συναλλαγής που "
 "ξεκίνησε από την ακόλουθη εντολή:"
 
-#: commands/offline/offline.cpp:425
+#: commands/offline/offline.cpp:511
 msgid ""
 "Internal use only, not intended to be run by the user. Execute the "
 "transaction in the offline environment."
@@ -1013,71 +1026,71 @@ msgstr ""
 "Μόνο για εσωτερική χρήση, δεν προορίζεται για εκτέλεση από τον χρήστη. "
 "Εκτέλεση της συναλλαγής στο offline περιβάλλον."
 
-#: commands/offline/offline.cpp:459
+#: commands/offline/offline.cpp:545
 msgid "Trigger file does not exist. Exiting."
 msgstr "Το αρχείο έναυσης (trigger) δεν υπάρχει. Έξοδος."
 
-#: commands/offline/offline.cpp:463
+#: commands/offline/offline.cpp:549
 msgid "Another offline transaction tool is running. Exiting."
 msgstr "Ένα άλλο εργαλείο offline συναλλαγών εκτελείται. Έξοδος."
 
-#: commands/offline/offline.cpp:495
+#: commands/offline/offline.cpp:581
 msgid "Starting offline transaction. This will take a while."
 msgstr "Έναρξη offline συναλλαγής. Αυτό θα πάρει λίγη ώρα."
 
-#: commands/offline/offline.cpp:499
+#: commands/offline/offline.cpp:585
 msgid "Starting system upgrade. This will take a while."
 msgstr "Έναρξη αναβάθμισης συστήματος. Αυτό θα πάρει λίγη ώρα."
 
-#: commands/offline/offline.cpp:511
+#: commands/offline/offline.cpp:597
 msgid "Use `dnf5 offline reboot` to begin the transaction."
 msgstr ""
 "Χρησιμοποιήστε το `dnf5 offline reboot` για να ξεκινήσετε τη συναλλαγή."
 
-#: commands/offline/offline.cpp:564
+#: commands/offline/offline.cpp:650
 msgid "Transaction failed: "
 msgstr "Η συναλλαγή απέτυχε: "
 
-#: commands/offline/offline.cpp:634
+#: commands/offline/offline.cpp:720
 #, c++-format
 msgid "Error reading journal: {}"
 msgstr "Σφάλμα κατά την ανάγνωση του ημερολογίου (journal): {}"
 
-#: commands/offline/offline.cpp:640
+#: commands/offline/offline.cpp:726
 #, c++-format
 msgid "Add journal match failed: {}"
 msgstr "Η προσθήκη αντιστοίχισης ημερολογίου απέτυχε: {}"
 
-#: commands/offline/offline.cpp:668
+#: commands/offline/offline.cpp:754
 msgid "No logs were found."
 msgstr "Δεν βρέθηκαν αρχεία καταγραφής."
 
-#: commands/offline/offline.cpp:672
+#: commands/offline/offline.cpp:758
 msgid "The following boots appear to contain offline transaction logs:"
 msgstr ""
 "Οι ακόλουθες εκκινήσεις φαίνεται να περιέχουν αρχεία καταγραφής offline "
 "συναλλαγών:"
 
-#: commands/offline/offline.cpp:689
+#: commands/offline/offline.cpp:775
 msgid "Cannot find logs with this index."
 msgstr "Δεν είναι δυνατή η εύρεση αρχείων καταγραφής με αυτό το ευρετήριο."
 
-#: commands/offline/offline.cpp:696
+#: commands/offline/offline.cpp:782
 msgid "Unable to match systemd journal entry."
 msgstr "Αδυναμία αντιστοίχισης καταχώρησης ημερολογίου systemd."
 
-#: commands/offline/offline.cpp:708
+#: commands/offline/offline.cpp:794
 msgid "Show logs from past offline transactions"
 msgstr "Εμφάνιση αρχείων καταγραφής από προηγούμενες offline συναλλαγές"
 
-#: commands/offline/offline.cpp:716
+#: commands/offline/offline.cpp:802
 msgid ""
 "Which log to show. Run without any arguments to get a list of available logs."
 msgstr ""
 "Ποιο αρχείο καταγραφής να εμφανιστεί. Εκτελέστε χωρίς ορίσματα για να λάβετε "
 "μια λίστα με τα διαθέσιμα αρχεία."
 
-#: commands/offline/offline.cpp:731
+#: commands/offline/offline.cpp:817
 msgid ""
 "systemd is not supported in this build of DNF 5; the `log` subcommand is "
 "unavailable."
@@ -1085,11 +1098,11 @@ msgstr ""
 "το systemd δεν υποστηρίζεται σε αυτή την έκδοση του DNF 5· η υποεντολή `log` "
 "είναι μη διαθέσιμη."
 
-#: commands/offline/offline.cpp:736
+#: commands/offline/offline.cpp:822
 msgid "Show status of the current offline transaction"
 msgstr "Εμφάνιση κατάστασης της τρέχουσας offline συναλλαγής"
 
-#: commands/offline/offline.cpp:752
+#: commands/offline/offline.cpp:838
 #, fuzzy
 #| msgid ""
 #| "The system will now reboot to perform the offline transaction initiated "
@@ -1101,23 +1114,23 @@ msgstr ""
 "Το σύστημα θα επανεκκινηθεί τώρα για την εκτέλεση της offline συναλλαγής που "
 "ξεκίνησε από την ακόλουθη εντολή:"
 
-#: commands/offline/offline.cpp:756
+#: commands/offline/offline.cpp:842
 msgid ""
 "To reschedule, run the command above. To clean up, run `dnf5 offline clean`."
 msgstr ""
 
-#: commands/offline/offline.cpp:760
+#: commands/offline/offline.cpp:846
 msgid "An offline transaction was initiated by the following command:"
 msgstr "Μια offline συναλλαγή ξεκίνησε από την ακόλουθη εντολή:"
 
-#: commands/offline/offline.cpp:762
+#: commands/offline/offline.cpp:848
 msgid ""
 "Run `dnf5 offline reboot` to reboot and perform the offline transaction."
 msgstr ""
 "Εκτελέστε `dnf5 offline reboot` για επανεκκίνηση και εκτέλεση της offline "
 "συναλλαγής."
 
-#: commands/offline/offline.cpp:764
+#: commands/offline/offline.cpp:850
 msgid ""
 "An offline transaction was started, but it did not finish. Run `dnf5 offline "
 "log` for more information. The command that initiated the transaction was:"
@@ -1126,7 +1139,7 @@ msgstr ""
 "offline log` για περισσότερες πληροφορίες. Η εντολή που ξεκίνησε τη "
 "συναλλαγή ήταν:"
 
-#: commands/offline/offline.cpp:769
+#: commands/offline/offline.cpp:855
 msgid "Unknown offline transaction status: "
 msgstr "Άγνωστη κατάσταση offline συναλλαγής: "
 
