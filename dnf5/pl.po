@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-29 08:48+0000\n"
-"PO-Revision-Date: 2026-10-22 19:00+0000\n"
-"Last-Translator: Paweł Marciniak <sunwire+fas@gmail.com>\n"
+"PO-Revision-Date: 2026-10-29 19:37+0000\n"
+"Last-Translator: Nik Nikovsky <zejdzztegomaila@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/pl/>\n"
 "Language: pl\n"
@@ -916,15 +916,17 @@ msgstr "Nie można połączyć się z D-Bus: {}"
 #, c++-format
 msgid "Waiting for {0} process blocking shutdown ({1}/{2}s)"
 msgid_plural "Waiting for {0} processes blocking shutdown ({1}/{2}s)"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Czekanie na {0} proces blokujący wyłączenie ({1}/{2}s)"
+msgstr[1] "Czekanie na {0} procesy blokujące wyłączenie ({1}/{2}s)"
+msgstr[2] "Czekanie na {0} procesy blokujące wyłączenie ({1}/{2}s)"
 
 #: commands/offline/offline.cpp:348
 msgid ""
 "Timed out waiting for processes blocking shutdown. Continuing shutdown "
 "request."
 msgstr ""
+"Przekroczono limit czasu oczekiwania na procesy blokujące wyłączenie. "
+"Kontynuowanie procesu zamykania."
 
 #: commands/offline/offline.cpp:411
 msgid ""
@@ -1780,10 +1782,6 @@ msgid "do not allow automatic package replacements from different vendors"
 msgstr "nie zezwalaj na automatyczną wymianę pakietów od różnych dostawców"
 
 #: main.cpp:377
-#, fuzzy
-#| msgid ""
-#| "Enable additional repositories. List option. Supports globs, can be "
-#| "specified multiple times."
 msgid ""
 "Allow switching packages from any vendor to packages from VENDOR. Supports "
 "globs, can be specified multiple times."
@@ -1792,10 +1790,6 @@ msgstr ""
 "określić wielokrotnie."
 
 #: main.cpp:396
-#, fuzzy
-#| msgid ""
-#| "Disable repositories. List option. Supports globs, can be specified "
-#| "multiple times."
 msgid ""
 "Allow replacing packages from VENDOR to packages from any vendor. Supports "
 "globs, can be specified multiple times."
@@ -1804,10 +1798,6 @@ msgstr ""
 "określić wielokrotnie."
 
 #: main.cpp:415
-#, fuzzy
-#| msgid ""
-#| "Enable libdnf5 plugins by name. List option. Supports globs, can be "
-#| "specified multiple times."
 msgid ""
 "Allow vendor changes for packages matching PKG_NAME (bidirectional). List "
 "option. Supports globs, can be specified multiple times."
@@ -1830,10 +1820,6 @@ msgstr ""
 "zastąpić."
 
 #: main.cpp:478
-#, fuzzy
-#| msgid ""
-#| "Disable repositories. List option. Supports globs, can be specified "
-#| "multiple times."
 msgid ""
 "Disable vendor change policies whose source matches the specified pattern. "
 "Supports globs, can be specified multiple times."
@@ -2169,7 +2155,7 @@ msgid "{} to allow replacing packages from VENDOR"
 msgstr "{} aby umożliwić zmianę dostawcy pakietów"
 
 #: main.cpp:1398
-#, fuzzy, c++-format
+#, c++-format
 msgid "{} to add specific vendor change rules"
 msgstr "{} żeby dodać określone reguły zmiany dostawcy"
 
