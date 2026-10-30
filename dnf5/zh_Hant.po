@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-29 08:48+0000\n"
+"POT-Creation-Date: 2026-10-30 06:13+0000\n"
 "PO-Revision-Date: 2026-10-30 03:46+0000\n"
 "Last-Translator: Skyter Lin <linskyter@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://"
@@ -111,7 +111,8 @@ msgstr "遺失「header」特性，所在「{}」元素位於「{}」檔案"
 msgid ""
 "The \"short_name\" attribute of named argument \"{}\" must be one character "
 "long in file \"{}\" on line {}: {}"
-msgstr "檔案「{}」第 {} 列：具名引數「{}」的「short_name」特性必須為一個字元長：{}"
+msgstr ""
+"檔案「{}」第 {} 列：具名引數「{}」的「short_name」特性必須為一個字元長：{}"
 
 #: cmdline_aliases.cpp:446
 #, c++-format
@@ -323,8 +324,8 @@ msgid ""
 "Include content contained in advisories with specified severity. List "
 "option. Can be \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgstr ""
-"納入指定嚴重程度的通報所含的內容。列表選項。可以是 "
-"\"critical\"、\"important\"、\"moderate\"、\"low\"、\"none\"。"
+"納入指定嚴重程度的通報所含的內容。列表選項。可以是 \"critical\"、"
+"\"important\"、\"moderate\"、\"low\"、\"none\"。"
 
 #: commands/advisory_shared.hpp:235
 msgid "ADVISORY_SEVERITY,..."
@@ -377,9 +378,9 @@ msgid ""
 "advisories is used it reports the lowest versions of packages that fix "
 "advisories matching selected advisory properties"
 msgstr ""
-"回報可修復臭蟲修正、功能增強、安全性、新軟體包等修正通報類型的軟體包最低版本"
-"。如果使用了任何限定通報的選項，則回報可修復符合所選通報屬性的修正通報軟體包"
-"最低版本"
+"回報可修復臭蟲修正、功能增強、安全性、新軟體包等修正通報類型的軟體包最低版"
+"本。如果使用了任何限定通報的選項，則回報可修復符合所選通報屬性的修正通報軟體"
+"包最低版本"
 
 #: commands/check/check.cpp:247
 msgid "Check for problems in the packagedb"
@@ -662,8 +663,8 @@ msgid ""
 "Invalid transaction ID range \"{}\", \"ID\" or \"ID..ID\" expected, where ID "
 "is \"NUMBER\", \"last\" or \"last-NUMBER\"."
 msgstr ""
-"無效的處理事項 ID 範圍「{}」，預期「ID」或「ID...ID」，其中 ID 應為「NUMBER」"
-"、「last」或「last-NUMBER」。"
+"無效的處理事項 ID 範圍「{}」，預期「ID」或「ID...ID」，其中 ID 應為"
+"「NUMBER」、「last」或「last-NUMBER」。"
 
 #: commands/install/install.cpp:41
 msgid "Install software"
@@ -961,7 +962,8 @@ msgstr "顯示目前離線處理事項的狀態"
 msgid ""
 "The system has been modified since the offline transaction was prepared. The "
 "offline transaction initiated by the following command is no longer valid:"
-msgstr "自離線處理事項準備完成後，系統已有變更。由下列命令啟動的離線處理事項已失效："
+msgstr ""
+"自離線處理事項準備完成後，系統已有變更。由下列命令啟動的離線處理事項已失效："
 
 #: commands/offline/offline.cpp:842
 msgid ""
@@ -997,7 +999,8 @@ msgstr "找出哪個軟體包提供指定的值"
 msgid ""
 "If searching for a file, try specifying the full path or using a wildcard "
 "prefix (\"*/\") at the beginning."
-msgstr "如果要搜尋檔案，請嘗試指定完整路徑，或在開頭使用萬用字元前綴（「*/」）。"
+msgstr ""
+"如果要搜尋檔案，請嘗試指定完整路徑，或在開頭使用萬用字元前綴（「*/」）。"
 
 #: commands/reinstall/reinstall.cpp:40
 msgid "Reinstall software"
@@ -1065,7 +1068,8 @@ msgstr "搜尋符合各種條件的軟體包"
 msgid ""
 "Option \"--exactdeps\" has to be used either with \"--whatrequires\" or \"--"
 "whatdepends\""
-msgstr "選項 \"--exactdeps\" 必須與 \"--whatrequires\" 或 \"--whatdepends\" 一起使用"
+msgstr ""
+"選項 \"--exactdeps\" 必須與 \"--whatrequires\" 或 \"--whatdepends\" 一起使用"
 
 #: commands/repoquery/repoquery.cpp:532
 msgid ""
@@ -1316,7 +1320,8 @@ msgstr "setopt：「{}.{}」：{}"
 msgid ""
 "No matching repositories for {}. To use repositories from a host system, "
 "pass --use-host-config option"
-msgstr "沒有符合 {} 的軟體庫。若要使用主機系統的軟體庫，請使用 --use-host-config 選項"
+msgstr ""
+"沒有符合 {} 的軟體庫。若要使用主機系統的軟體庫，請使用 --use-host-config 選項"
 
 #: context.cpp:230
 #, c++-format
@@ -1530,7 +1535,8 @@ msgid ""
 "In combination with a non-interactive command, shows just the relevant "
 "content. Suppresses messages notifying about the current state or actions of "
 "dnf5."
-msgstr "結合非互動命令使用，只顯示相關內容。隱藏通知 dnf5 目前狀態或動作的訊息。"
+msgstr ""
+"結合非互動命令使用，只顯示相關內容。隱藏通知 dnf5 目前狀態或動作的訊息。"
 
 #: main.cpp:196
 msgid ""
@@ -1576,8 +1582,8 @@ msgid ""
 msgstr ""
 "凌駕組態設定檔中的組態選項。若要凌駕軟體庫的組態設定選項，請使用 "
 "repoid.option 來設定 <option>。\n"
-"  組態設定選項的值，例如 excludepkgs、includepkgs、installonlypkgs 和 tsflags"
-"，會附加到原始值，而不會凌駕原始值。\n"
+"  組態設定選項的值，例如 excludepkgs、includepkgs、installonlypkgs 和 "
+"tsflags，會附加到原始值，而不會凌駕原始值。\n"
 "不過，指定一個空值（例如 --setopt=tsflags=）會清除該選項。"
 
 #: main.cpp:272 main.cpp:311
@@ -1633,21 +1639,23 @@ msgstr "不允許自動將軟體包替換為不同供應商提供的軟體包"
 msgid ""
 "Allow switching packages from any vendor to packages from VENDOR. Supports "
 "globs, can be specified multiple times."
-msgstr "允許從任何供應商的軟體包切換為 VENDOR 提供的軟體包。支援 glob，可指定多次。"
+msgstr ""
+"允許從任何供應商的軟體包切換為 VENDOR 提供的軟體包。支援 glob，可指定多次。"
 
 #: main.cpp:396
 msgid ""
 "Allow replacing packages from VENDOR to packages from any vendor. Supports "
 "globs, can be specified multiple times."
-msgstr "允許以任何供應商的軟體包取代 VENDOR 提供的軟體包。支援 glob，可指定多次。"
+msgstr ""
+"允許以任何供應商的軟體包取代 VENDOR 提供的軟體包。支援 glob，可指定多次。"
 
 #: main.cpp:415
 msgid ""
 "Allow vendor changes for packages matching PKG_NAME (bidirectional). List "
 "option. Supports globs, can be specified multiple times."
 msgstr ""
-"允許符合 PKG_NAME 的軟體包變更供應商（雙向）。清單選項。支援 glob，可指定多次"
-"。"
+"允許符合 PKG_NAME 的軟體包變更供應商（雙向）。清單選項。支援 glob，可指定多"
+"次。"
 
 #: main.cpp:444
 msgid ""
@@ -1860,14 +1868,16 @@ msgstr "傳入的軟體包總大小為 {:.0f} {:s}。需要下載 {:.0f} {:s}。
 msgid ""
 "After this operation, {:.0f} {:s} extra will be used (install {:.0f} {:s}, "
 "remove {:.0f} {:s})."
-msgstr "經這次操作後，會額外使用 {:.0f} {:s}（安裝 {:.0f} {:s}，移除 {:.0f} {:s}）。"
+msgstr ""
+"經這次操作後，會額外使用 {:.0f} {:s}（安裝 {:.0f} {:s}，移除 {:.0f} {:s}）。"
 
 #: main.cpp:1087
 #, c++-format
 msgid ""
 "After this operation, {:.0f} {:s} will be freed (install {:.0f} {:s}, remove "
 "{:.0f} {:s})."
-msgstr "經這次操作後，會釋放 {:.0f} {:s}（安裝 {:.0f} {:s}，移除 {:.0f} {:s}）。"
+msgstr ""
+"經這次操作後，會釋放 {:.0f} {:s}（安裝 {:.0f} {:s}，移除 {:.0f} {:s}）。"
 
 #: main.cpp:1099
 msgid "======== Main configuration: ========"
@@ -2072,8 +2082,8 @@ msgid ""
 "perform this operation in a transient overlay which will reset when the "
 "system reboots."
 msgstr ""
-"錯誤：此 bootc 系統設定為唯讀。請傳入 --transient，在暫時性疊加層中執行此操作"
-"；系統重新開機時，該疊加層會重設。"
+"錯誤：此 bootc 系統設定為唯讀。請傳入 --transient，在暫時性疊加層中執行此操"
+"作；系統重新開機時，該疊加層會重設。"
 
 #: main.cpp:1821
 msgid "Error: transient transactions are only supported on bootc systems."
@@ -2119,8 +2129,8 @@ msgid ""
 "Operation aborted. Pass --setopt=usr_drift_protected_paths= to disable this "
 "check and proceed anyway."
 msgstr ""
-"操作已中止。請傳入 --setopt=usr_drift_protected_paths= 以停用此檢查並繼續執行"
-"。"
+"操作已中止。請傳入 --setopt=usr_drift_protected_paths= 以停用此檢查並繼續執"
+"行。"
 
 #: main.cpp:1926
 msgid ""
@@ -2160,7 +2170,8 @@ msgstr "允許跳過不可用的軟體包"
 msgid ""
 "The following items can be selected only from the specified repositories. "
 "All enabled repositories will still be used to satisfy dependencies."
-msgstr "以下項目只能從指定的軟體庫選擇。所有已啟用的軟體庫仍會用於滿足依賴關係。"
+msgstr ""
+"以下項目只能從指定的軟體庫選擇。所有已啟用的軟體庫仍會用於滿足依賴關係。"
 
 #: shared_options.cpp:178 shared_options.cpp:211
 msgid "REPO_ID,..."
