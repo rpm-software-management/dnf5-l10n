@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-30 06:13+0000\n"
-"PO-Revision-Date: 2026-10-22 07:58+0000\n"
+"PO-Revision-Date: 2026-10-31 13:18+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ka/>\n"
@@ -912,14 +912,16 @@ msgstr "D-Bus-თან მიერთება შეუძლებელი�
 #, c++-format
 msgid "Waiting for {0} process blocking shutdown ({1}/{2}s)"
 msgid_plural "Waiting for {0} processes blocking shutdown ({1}/{2}s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{0} პროცესის მოლოდინი, რომელიც კომპიუტერის გამორთვას ბლოკავს {1}/{2}წმ)"
+msgstr[1] "{0} პროცესის მოლოდინი, რომელიც კომპიუტერის გამორთვას ბლოკავს {1}/{2}წმ)"
 
 #: commands/offline/offline.cpp:348
 msgid ""
 "Timed out waiting for processes blocking shutdown. Continuing shutdown "
 "request."
 msgstr ""
+"პროცესების, რომლებიც კომპიუტერის გამორთვას ბლოკავენ, გამორთვის მოლოდინის "
+"ვადა ამოიწურა. კომპიუტერის გამორთვის მოთხოვნა გრძელდება."
 
 #: commands/offline/offline.cpp:411
 msgid ""
