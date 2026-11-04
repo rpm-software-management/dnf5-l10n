@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
-"PO-Revision-Date: 2026-11-03 09:07+0000\n"
+"PO-Revision-Date: 2026-11-05 09:18+0000\n"
 "Last-Translator: David Medina <dmedinacpnl@gmail.com>\n"
 "Language-Team: Catalan <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/ca/>\n"
@@ -178,7 +178,7 @@ msgstr "No hi ha grups a eliminar per a l'argument: {}"
 #: base/log_event.cpp:146
 #, c++-format
 msgid "No environmental groups to remove for argument: {}"
-msgstr "No hi ha grups ambientals a eliminar per a l'argument: {}"
+msgstr "No hi ha grups d'entorn per suprimir per a l'argument: {}"
 
 #: base/log_event.cpp:148
 #, c++-format
@@ -294,7 +294,7 @@ msgid ""
 "cannot downgrade it."
 msgstr ""
 "La versió més baixa disponible del paquet \"{}\" ja està instal·lada, no es "
-"pot desactualitzar."
+"pot degradar."
 
 #: base/log_event.cpp:229
 #, c++-format
@@ -336,7 +336,7 @@ msgstr "El grup \"{}\" ja està instal·lat."
 #: base/log_event.cpp:251
 #, c++-format
 msgid "Environmental group \"{}\" is already installed."
-msgstr "El grup ambiental \"{}\" ja està instal·lat."
+msgstr "El grup d'entorn \"{}\" ja està instal·lat."
 
 #: base/log_event.cpp:258
 #, c++-format
@@ -525,7 +525,7 @@ msgstr ""
 
 #: base/solver_problems.cpp:51 base/solver_problems.cpp:90
 msgid "cannot install the best candidate for the job"
-msgstr "no es pot instal·lar el millor candidat per al treball"
+msgstr "no es pot instal·lar el millor candidat per a la tasca"
 
 #: base/solver_problems.cpp:52
 #, c++-format
@@ -808,7 +808,7 @@ msgstr "La marca tsflag no és vàlida: {}"
 #: base/transaction.cpp:1611
 #, c++-format
 msgid "Public key \"{}\" is already present, not importing."
-msgstr "La clau pública \"{}\" ja està present, no s'està important."
+msgstr "La clau pública \"{}\" ja està present, no s'importa."
 
 #: base/transaction.cpp:1634
 #, c++-format
@@ -1117,7 +1117,7 @@ msgstr "no hi ha solució possible"
 #: module/module_metadata.cpp:102
 #, c++-format
 msgid "Failed to update from string: {}"
-msgstr "No s'ha pogut actualitzar des de la cadena: {}"
+msgstr "Ha fallat actualitzar des de la cadena: {}"
 
 #: module/module_metadata.cpp:129
 #, c++-format
@@ -1127,12 +1127,12 @@ msgstr "No s'han pogut resoldre les metadades del mòdul: {}"
 #: module/module_metadata.cpp:140
 #, c++-format
 msgid "Failed to upgrade defaults: {}"
-msgstr "No s'han pogut actualitzar els valors predeterminats: {}"
+msgstr "Ha fallat actualitzar els valors per defecte: {}"
 
 #: module/module_metadata.cpp:144
 #, c++-format
 msgid "Failed to upgrade streams: {}"
-msgstr "No s'han pogut actualitzar els fluxos: {}"
+msgstr "Ha fallat actualitzar els fluxos: {}"
 
 #: module/module_sack.cpp:93
 #, c++-format
@@ -1603,7 +1603,7 @@ msgstr "No es pot eliminar el paquet \"{}\""
 #: rpm/transaction.cpp:399
 #, c++-format
 msgid "Cannot upgrade package \"{}\""
-msgstr "No es pot actualitzar el paquet \"{}\""
+msgstr "No es pot actualitzar el paquet {}"
 
 #: rpm/transaction.cpp:403
 #, c++-format
@@ -2335,7 +2335,7 @@ msgstr "s'ha produït un error en escriure el fitxer"
 
 #: utils/fs/file.cpp:190
 msgid "error flushing file"
-msgstr "s'ha produït un error en netejar el fitxer"
+msgstr "error en netejar el fitxer"
 
 #: utils/fs/file.cpp:199
 msgid "error seeking in file"
