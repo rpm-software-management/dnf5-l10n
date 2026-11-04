@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
-"PO-Revision-Date: 2026-11-03 09:47+0000\n"
-"Last-Translator: Joan Aymà <joan@ayma.cat>\n"
+"PO-Revision-Date: 2026-11-05 09:18+0000\n"
+"Last-Translator: David Medina <dmedinacpnl@gmail.com>\n"
 "Language-Team: Catalan <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ca/>\n"
 "Language: ca\n"
@@ -460,12 +460,13 @@ msgstr "Tipus de memòria cau\"{0}\" desconegut. Tipus suportats: {1}"
 #: commands/clean/clean.cpp:166
 #, c++-format
 msgid "Failed to cleanup repository cache in path \"{0}\": {1}"
-msgstr "Ha fallat al netejar la memòria cau a la ruta \"{0}\": {1}"
+msgstr "Ha fallat netejar la memòria cau al camí \"{0}\": {1}"
 
 #: commands/clean/clean.cpp:176
 #, c++-format
 msgid "Cache directory \"{}\" does not exist. Nothing to clean."
-msgstr "El directori de memòria cau \"{}\" no existeix. No hi ha res a netejar."
+msgstr ""
+"El directori de memòria cau \"{}\" no existeix. No hi ha res per netejar."
 
 #: commands/clean/clean.cpp:181
 #, c++-format
@@ -480,7 +481,7 @@ msgstr "Instal·la els paquets d'informació de depuració."
 msgid ""
 "Upgrade or downgrade installed software to the latest available versions"
 msgstr ""
-"Actualitzar o desactualitzar el programari instal·lat a la versions més "
+"Actualitza o desactualitza el programari instal·lat a la versions més "
 "recents disponibles"
 
 #: commands/do/do.cpp:42
@@ -536,7 +537,7 @@ msgstr "No s'admet la reinstal·lació d'entorns i grups."
 
 #: commands/downgrade/downgrade.cpp:40
 msgid "Downgrade software"
-msgstr "Desactualitzar programari"
+msgstr "Degrada programari"
 
 #: commands/download/download.cpp:123
 msgid "When running with --url, prints URLs from all available mirrors"
@@ -967,7 +968,7 @@ msgstr "{} no és requerit per system-update.target."
 #: commands/offline/offline.cpp:476
 #, c++-format
 msgid "The system will now reboot to upgrade to release version {}."
-msgstr "Ara el sistema es reiniciarà per actualitzar a la versió {}."
+msgstr "Ara el sistema es reiniciarà per actualitzar-se a la versió {}."
 
 #: commands/offline/offline.cpp:480
 msgid ""
@@ -1072,8 +1073,8 @@ msgstr ""
 msgid ""
 "To reschedule, run the command above. To clean up, run `dnf5 offline clean`."
 msgstr ""
-"Per a reprogramar, executeu l'ordre anterior. Per a netejar, executeu .dnf5 "
-"offline clean.."
+"Per a reprogramar, executeu l'ordre anterior. Per a netejar, executeu dnf5 "
+"offline clean."
 
 #: commands/offline/offline.cpp:846
 msgid "An offline transaction was initiated by the following command:"
@@ -1219,11 +1220,11 @@ msgstr "Suprimeix programari i n'instal·la un altre en una transacció"
 
 #: commands/system-upgrade/system-upgrade.cpp:56
 msgid "Prepare system for upgrade to a new release"
-msgstr "Es prepara el sistema per actualitzar-lo a una versió nova"
+msgstr "Es prepara el sistema per actualitzar-se a una versió nova"
 
 #: commands/system-upgrade/system-upgrade.cpp:72
 msgid "Download everything needed to upgrade to a new release"
-msgstr "Es baixa tot el necessari per actualitzar a una versió nova"
+msgstr "Es baixa tot el necessari per actualitzar-se a una versió nova"
 
 #: commands/system-upgrade/system-upgrade.cpp:80
 msgid ""
