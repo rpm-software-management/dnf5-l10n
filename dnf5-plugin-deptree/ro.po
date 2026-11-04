@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
-"PO-Revision-Date: 2026-11-04 08:13+0000\n"
+"PO-Revision-Date: 2026-11-05 09:18+0000\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5-plugin-deptree/ro/>\n"
@@ -21,51 +21,55 @@ msgstr ""
 
 #: deptree.cpp:31
 msgid "Display package dependency trees."
-msgstr ""
+msgstr "Afișează arborii de dependențe ale pachetelor."
 
 #: deptree.cpp:35
 msgid "Package names, NEVRAs, or glob patterns."
-msgstr ""
+msgstr "Nume de pachete, NEVRA-uri sau modele globale."
 
 #: deptree.cpp:45
 msgid "Show packages requiring each package."
-msgstr ""
+msgstr "Afișează pachetele ce necesită fiecare pachet."
 
 #: deptree.cpp:47
 msgid "Print a sorted, deduplicated package list."
-msgstr ""
+msgstr "Imprimă o listă a pachetelor sortată și fără duplicate."
 
 #: deptree.cpp:49
 msgid "Show requirement capability nodes."
-msgstr ""
+msgstr "Afișează nodurile de capacitate necesare."
 
 #: deptree.cpp:52
 msgid "Include all matching package versions."
-msgstr ""
+msgstr "Include toate versiunile de pachete compatibile."
 
 #: deptree.cpp:54
 msgid "Display dependency trees for installed packages only."
-msgstr ""
+msgstr "Afișează arborii de dependențe numai pentru pachetele instalate."
 
 #: deptree.cpp:59
 msgid ""
 "Show only branches leading to packages with specified names. List option, "
 "supports globs."
 msgstr ""
+"Afișează numai ramurile care duc la pachete cu numele specificate. Opțiune "
+"de listare, acceptă expresii globale."
 
 #: deptree.cpp:64
 msgid "Limit to packages of the specified architectures."
-msgstr ""
+msgstr "Limitează la pachetele pentru arhitecturile specificate."
 
 #: deptree.cpp:78
 msgid "Limit traversal to N dependency levels."
-msgstr ""
+msgstr "Limitează parcurgerea la N niveluri de dependență."
 
 #: deptree.cpp:92
 msgid ""
 "Comma-separated dependency types: requires, recommends, suggests, "
 "supplements, enhances."
 msgstr ""
+"Tipuri de dependențe separate prin virgule: necesită, recomandă, sugerează, "
+"completează, îmbunătățește."
 
 #: deptree.cpp:125
 #, c++-format
@@ -75,28 +79,28 @@ msgstr "Nu există nicio potrivire pentru argumentul „{}”."
 #: deptree_graph.cpp:422
 #, c++-format
 msgid "choice: {}"
-msgstr ""
+msgstr "alegere: {}"
 
 #: deptree_graph.cpp:424
 #, c++-format
 msgid "if {}:"
-msgstr ""
+msgstr "dacă {}:"
 
 #: deptree_graph.cpp:426
 msgid "else:"
-msgstr ""
+msgstr "altfel:"
 
 #: deptree_graph.cpp:428
 #, c++-format
 msgid "requirement: {}"
-msgstr ""
+msgstr "cerință: {}"
 
 #: deptree_graph.cpp:430
 #, c++-format
 msgid "unsatisfied: {}"
-msgstr ""
+msgstr "nesatisfăcut: {}"
 
 #: deptree_graph.cpp:452
 #, c++-format
 msgid "{} [expanded elsewhere]"
-msgstr ""
+msgstr "{} [detaliat în altă parte]"
