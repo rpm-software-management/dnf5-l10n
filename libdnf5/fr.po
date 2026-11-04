@@ -13,8 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
 "PO-Revision-Date: 2026-11-05 09:18+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: blutch112 <vincent.lefebvre59@gmail.com>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/fr/>\n"
 "Language: fr\n"
@@ -861,7 +860,7 @@ msgstr "{func}() : impossible de supprimer le fichier {path} : {msg}"
 
 #: base/vendor_change_manager.cpp:170
 msgid "{func}(): File does not exist: {path}"
-msgstr "Le fichier source n'existe pas : {path}"
+msgstr "{func}() : Le fichier n'existe pas : {path}"
 
 #: base/vendor_change_manager.cpp:259
 msgid "{func}(): Cannot remove existing policy file: {path}"
@@ -870,7 +869,7 @@ msgstr ""
 
 #: base/vendor_change_manager.cpp:271
 msgid "{func}(): Cannot create file: {path}"
-msgstr "{func}() : impossible d'écrire dans le fichier : {path}"
+msgstr "{func}() : impossible de créer le fichier : {path}"
 
 #: base/vendor_change_manager.cpp:288
 msgid "{func}(): Cannot write to file: {path}"
@@ -1731,7 +1730,7 @@ msgstr ""
 #: solv/vendor_change_manager.cpp:719
 #, c++-format
 msgid "Unknown 'filter' \"{}\" in \"{}\" on line {}"
-msgstr ""
+msgstr "« filter » « {} » inconnu dans « {} » à la ligne {}"
 
 #: solv/vendor_change_manager.cpp:740
 #, c++-format
@@ -2530,11 +2529,11 @@ msgstr ""
 
 #: utils/subprocess.cpp:173
 msgid "cannot bind child stdin"
-msgstr ""
+msgstr "impossible de lier l'entrée standard (stdin) du processus enfant"
 
 #: utils/subprocess.cpp:175
 msgid "cannot bind child stdout"
-msgstr ""
+msgstr "impossible de lier la sortie standard (stdout) du processus enfant"
 
 #: utils/subprocess.cpp:177
 msgid "cannot bind child stderr"
