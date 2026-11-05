@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
-"PO-Revision-Date: 2026-11-03 09:52+0000\n"
+"PO-Revision-Date: 2026-11-05 09:18+0000\n"
 "Last-Translator: Arif Budiman <arifpedia@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/id/>\n"
@@ -468,6 +468,8 @@ msgid ""
 "Exceeded installonly_limit ({0}): found {1} installed: '{2}'. You can use "
 "'remove --oldinstallonly'."
 msgstr ""
+"Batas installonly_limit ({0}) terlampaui: ditemukan {1} yang terinstal: '{2}"
+"'. Anda dapat menggunakan 'remove --oldinstallonly'."
 
 #: base/solver_problems.cpp:41
 #, c++-format
@@ -759,6 +761,8 @@ msgid ""
 "This transaction is no longer valid because the system repository has "
 "changed since it was loaded."
 msgstr ""
+"Transaksi ini tidak lagi valid karena repositori sistem telah berubah sejak "
+"dimuat."
 
 #: base/transaction.cpp:101
 msgid "The repository does not have any OpenPGP keys configured."
@@ -785,10 +789,11 @@ msgid "failed to read scriptlet output from pipe"
 msgstr "gagal membaca keluaran scriptlet dari pipe"
 
 #: base/transaction.cpp:1103
-#, fuzzy, c++-format
-#| msgid "Failed to load system repo from root \"{}\": {}"
+#, c++-format
 msgid "Failed to acquire system repo lock for writing, lock located at \"{}\""
-msgstr "Gagal memuat repositori sistem dari direktori akar \"{}\": {}"
+msgstr ""
+"Gagal memperoleh kunci repositori sistem untuk penulisan, kunci berada di \""
+"{}\""
 
 #: base/transaction.cpp:1173
 #, c++-format
@@ -838,10 +843,8 @@ msgstr[0] ""
 "Peringatan: Pemeriksaan OpenPGP dilewati untuk paket {0} dari repositori: {1}"
 
 #: base/vendor_change_manager.cpp:115
-#, fuzzy
-#| msgid "{func}(): Cannot remove file: {path}: {msg}"
 msgid "{func}(): Cannot create directory: {path}: {msg}"
-msgstr "{func}(): Tidak dapat menghapus berkas: {path}: {msg}"
+msgstr "{func}(): Tidak dapat membuat direktori: {path}: {msg}"
 
 #: base/vendor_change_manager.cpp:164
 msgid "{func}(): Cannot remove file: {path}: {msg}"
@@ -1377,10 +1380,11 @@ msgid "Failed to load {} extension for repo \"{}\" from \"{}\": {}"
 msgstr "Gagal memuat ekstensi {} untuk repositori \"{}\" dari \"{}\": {}"
 
 #: repo/solv_repo.cpp:436
-#, fuzzy, c++-format
-#| msgid "Failed to load system repo from root \"{}\": {}"
+#, c++-format
 msgid "Failed to acquire system repo lock for reading, lock located at \"{}\""
-msgstr "Gagal memuat repositori sistem dari direktori akar \"{}\": {}"
+msgstr ""
+"Gagal memperoleh kunci repositori sistem untuk pembacaan, kunci berada di \""
+"{}\""
 
 #: repo/solv_repo.cpp:455
 #, c++-format
@@ -1568,10 +1572,9 @@ msgid "Cannot install package \"{}\""
 msgstr "Tidak dapat menginstal paket \"{}\""
 
 #: rpm/versionlock_config.cpp:259
-#, fuzzy, c++-format
-#| msgid "Error parsing transaction info: {}"
+#, c++-format
 msgid "Error parsing versionlock file \"{}\": {}"
-msgstr "Kesalahan saat mengurai informasi transaksi: {}"
+msgstr "Kesalahan saat mengurai berkas versionlock \"{}\": {}"
 
 #: rpm/versionlock_config.cpp:297 system/state.cpp:614
 #, c++-format
@@ -1915,22 +1918,17 @@ msgstr ""
 "{}\""
 
 #: system/state.cpp:798
-#, fuzzy, c++-format
-#| msgid "Error %i opening rpm database"
+#, c++-format
 msgid "Error {} opening rpm database"
-msgstr "Kesalahan %i saat membuka basis data RPM"
+msgstr "Kesalahan {} saat membuka basis data rpm"
 
 #: system/state.cpp:802
-#, fuzzy
-#| msgid "Failed to restore database \"{}\""
 msgid "Failed to get rpm database"
-msgstr "Gagal memulihkan database \"{}\""
+msgstr "Gagal memperoleh basis data rpm"
 
 #: system/state.cpp:808
-#, fuzzy
-#| msgid "Cannot init rpm database iterator"
 msgid "Failed to initialize database index iterator"
-msgstr "Tidak dapat menginisialisasi iterator basis data RPM"
+msgstr "Gagal menginisialisasi iterator indeks basis data"
 
 #. TODO(dmach): replace with a better exception class
 #: transaction/db/comps_environment_group.cpp:100
@@ -2414,10 +2412,9 @@ msgid "Failed to read from lock file \"{}\""
 msgstr "Gagal membaca dari berkas kunci \"{}\""
 
 #: utils/locker.cpp:194
-#, fuzzy, c++-format
-#| msgid "The lock file \"{}\" is not opened"
+#, c++-format
 msgid "The lock file \"{}\" is not locked"
-msgstr "Berkas kunci \"{}\" tidak dibuka"
+msgstr "Berkas kunci \"{}\" tidak terkunci"
 
 #: utils/locker.cpp:207
 #, c++-format
