@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
-"PO-Revision-Date: 2026-11-03 09:40+0000\n"
-"Last-Translator: Hyeonmin Oh <hyunmin860@gmail.com>\n"
+"PO-Revision-Date: 2026-11-07 18:18+0000\n"
+"Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ko/>\n"
 "Language: ko\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.11\n"
+"X-Generator: Weblate 2026.11.1\n"
 
 #: cmdline_aliases.cpp:84 context.cpp:222 main.cpp:1619
 msgid ", "
@@ -762,7 +762,7 @@ msgstr "사용 가능한 꾸러미"
 
 #: commands/list/list.cpp:236
 msgid "Available upgrades"
-msgstr "사용 가능한 업그레이드"
+msgstr "사용 가능한 향상"
 
 #: commands/list/list.cpp:252
 msgid "Obsoleting packages"
@@ -869,13 +869,13 @@ msgstr "D-Bus에 연결할 수 없습니다: {}"
 #, c++-format
 msgid "Waiting for {0} process blocking shutdown ({1}/{2}s)"
 msgid_plural "Waiting for {0} processes blocking shutdown ({1}/{2}s)"
-msgstr[0] ""
+msgstr[0] "종료를 차단하는 {0} 처리 대기 중 ({1}/{2}s)"
 
 #: commands/offline/offline.cpp:348
 msgid ""
 "Timed out waiting for processes blocking shutdown. Continuing shutdown "
 "request."
-msgstr ""
+msgstr "종료를 차단하는 처리를 위해 대기 중 시간종료. 종료 요청 진행 중."
 
 #: commands/offline/offline.cpp:411
 msgid ""
@@ -1529,31 +1529,31 @@ msgstr "Cpio 오류: {}"
 
 #: context.cpp:1141
 msgid "Scriptlet output:"
-msgstr "스크립틀릿 출력:"
+msgstr "구현 출력 :"
 
 #: context.cpp:1164
 msgid "Running scriptlets"
-msgstr "스크립틀릿 실행 중"
+msgstr "구현 실행 중"
 
 #: context.cpp:1170
 #, c++-format
 msgid "Running {} scriptlet: {}"
-msgstr "{} 스크립틀릿 실행 중: {}"
+msgstr "{} 구현 실행 중: {}"
 
 #: context.cpp:1186
 #, c++-format
 msgid "Finished {} scriptlet: {}"
-msgstr "{} 스크립틀릿 실행 완료: {}"
+msgstr "{} 구현 실행 완료: {}"
 
 #: context.cpp:1193
 #, c++-format
 msgid "Non-critical error in {} scriptlet: {}"
-msgstr "{} 스크립틀릿에서 비치명적 오류 발생: {}"
+msgstr "{} 구현에서 심각하지 않은 오류: {}"
 
 #: context.cpp:1203
 #, c++-format
 msgid "Error in {} scriptlet: {}"
-msgstr "{} 스크립틀릿에서 오류 발생: {}"
+msgstr "{} 구현에서 오류 발생: {}"
 
 #: context.cpp:1238
 msgid "Verify package files"
@@ -2055,7 +2055,7 @@ msgstr "{} 옵션으로 추가 파일 목록 메타데이터 불러오기"
 #: main.cpp:1379
 #, c++-format
 msgid "{} to skip uninstallable packages"
-msgstr "설치 할 수 없는 패키지 건너뛰도록 {}"
+msgstr "설치 할 수 없는 꾸러미 건너뛰도록 {}"
 
 #: main.cpp:1394
 #, c++-format
