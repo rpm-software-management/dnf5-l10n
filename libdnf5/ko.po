@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-02 08:43+0000\n"
-"PO-Revision-Date: 2026-11-03 09:41+0000\n"
-"Last-Translator: Hyeonmin Oh <hyunmin860@gmail.com>\n"
+"PO-Revision-Date: 2026-11-07 18:18+0000\n"
+"Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/ko/>\n"
 "Language: ko\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.11\n"
+"X-Generator: Weblate 2026.11.1\n"
 
 #: advisory/advisory.cpp:81
 #, c++-format
@@ -755,11 +755,11 @@ msgstr "공개 키 가져오기에 실패함."
 
 #: base/transaction.cpp:997
 msgid "poll failed during scriptlets pipe processing"
-msgstr "스크립틀릿 파이프 처리 중 poll 실패"
+msgstr "연결 파이프 처리 중에 poll이 실패함"
 
 #: base/transaction.cpp:1020
 msgid "failed to read scriptlet output from pipe"
-msgstr "파이프에서 스크립틀릿 출력을 읽지 못했습니다"
+msgstr "파이프에서 구현 출력을 읽는 데 실패함"
 
 #: base/transaction.cpp:1103
 #, c++-format
@@ -812,10 +812,8 @@ msgid_plural ""
 msgstr[0] "경고: 저장소에서 {0} 꾸러미를 위해 OpenPGP 점검을 건너뜀: {1}"
 
 #: base/vendor_change_manager.cpp:115
-#, fuzzy
-#| msgid "{func}(): Cannot remove file: {path}: {msg}"
 msgid "{func}(): Cannot create directory: {path}: {msg}"
-msgstr "{func}(): 파일을 제거 할 수 없습니다: {path}: {msg}"
+msgstr "{func}(): 디렉토리를 생성 할 수 없습니다: {path}: {msg}"
 
 #: base/vendor_change_manager.cpp:164
 msgid "{func}(): Cannot remove file: {path}: {msg}"
