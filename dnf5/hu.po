@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-02 08:43+0000\n"
+"POT-Creation-Date: 2026-11-09 08:53+0000\n"
 "PO-Revision-Date: 2026-11-03 09:48+0000\n"
 "Last-Translator: GitHub webhook <noreply-webhook-github@weblate.org>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -55,7 +55,8 @@ msgstr "Nem támogatott „{}” verzió a(z) „{}” fájlban. Támogatott ver
 #: cmdline_aliases.cpp:218
 #, c++-format
 msgid "Bad value type of attribute \"version\" in file \"{}\" on line {}: {}"
-msgstr "A „version” attribútum értéktípusa hibás a(z) „{}” fájl {}. sorában: {}"
+msgstr ""
+"A „version” attribútum értéktípusa hibás a(z) „{}” fájl {}. sorában: {}"
 
 #: cmdline_aliases.cpp:224
 #, c++-format
@@ -364,8 +365,8 @@ msgid ""
 "option. Can be \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgstr ""
 "A megadott súlyosságú tájékoztatókban található tartalom belevétele. "
-"Felsorolás a következőkből: „critical”, „important”, „moderate”, „low”, „none"
-"”."
+"Felsorolás a következőkből: „critical”, „important”, „moderate”, „low”, "
+"„none”."
 
 #: commands/advisory_shared.hpp:235
 msgid "ADVISORY_SEVERITY,..."
@@ -747,9 +748,9 @@ msgid ""
 "Invalid transaction ID range \"{}\", \"ID\" or \"ID..ID\" expected, where ID "
 "is \"NUMBER\", \"last\" or \"last-NUMBER\"."
 msgstr ""
-"Érvénytelen tranzakcióazonosító-tartomány: „{}”, „AZONOSÍTÓ” vagy „"
-"AZONOSÍTÓ..AZONOSÍTÓ” várt, ahol az azonosító „SZÁM”, „last” vagy „last-SZÁM"
-"”."
+"Érvénytelen tranzakcióazonosító-tartomány: „{}”, „AZONOSÍTÓ” vagy "
+"„AZONOSÍTÓ..AZONOSÍTÓ” várt, ahol az azonosító „SZÁM”, „last” vagy „last-"
+"SZÁM”."
 
 #: commands/install/install.cpp:41
 msgid "Install software"
@@ -778,7 +779,8 @@ msgstr ""
 
 #: commands/list/list.cpp:61
 msgid "Show all versions of the packages, not only the latest ones."
-msgstr "A csomagok összes verziójának megjelenítése, nem csak a legfrissebbeké."
+msgstr ""
+"A csomagok összes verziójának megjelenítése, nem csak a legfrissebbeké."
 
 #: commands/list/list.cpp:69
 msgid "List installed packages."
@@ -1149,7 +1151,8 @@ msgstr ""
 msgid ""
 "Missing positional arguments for \"remove\" command. Add \"--help\" for more "
 "information about the arguments."
-msgstr "{}. A kapcsolók további információiért adja hozzá a „--help” kapcsolót."
+msgstr ""
+"{}. A kapcsolók további információiért adja hozzá a „--help” kapcsolót."
 
 #: commands/remove/remove.cpp:269
 #, c++-format
@@ -1200,8 +1203,8 @@ msgid ""
 "Option \"--recursive\" has to be used either with \"--whatrequires\" or \"--"
 "providers-of=requires\""
 msgstr ""
-"A „--recursive” kapcsolót a „--whatrequires” vagy a „--providers-of=requires"
-"” kapcsolók egyikével kell használni"
+"A „--recursive” kapcsolót a „--whatrequires” vagy a „--providers-"
+"of=requires” kapcsolók egyikével kell használni"
 
 #: commands/search/arguments.hpp:37
 msgid "Search also package description and URL."
@@ -2251,7 +2254,8 @@ msgstr "{}."
 #: main.cpp:1566 main.cpp:1953
 #, c++-format
 msgid "{}. Add \"--help\" for more information about the arguments."
-msgstr "{}. A kapcsolók további információiért adja hozzá a „--help” kapcsolót."
+msgstr ""
+"{}. A kapcsolók további információiért adja hozzá a „--help” kapcsolót."
 
 #: main.cpp:1575
 #, c++-format

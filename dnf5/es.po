@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-02 08:43+0000\n"
+"POT-Creation-Date: 2026-11-09 08:53+0000\n"
 "PO-Revision-Date: 2026-11-03 09:47+0000\n"
 "Last-Translator: gossypium "
 "<gossypium@users.noreply.translate.fedoraproject.org>\n"
@@ -369,7 +369,8 @@ msgstr "Incluir el contenido presente en los avisos de seguridad."
 
 #: commands/advisory_shared.hpp:208
 msgid "Include content contained in bugfix advisories."
-msgstr "Incluir el contenido presente en los avisos de correcciones de errores."
+msgstr ""
+"Incluir el contenido presente en los avisos de correcciones de errores."
 
 #: commands/advisory_shared.hpp:215
 msgid "Include content contained in enhancement advisories."
@@ -385,8 +386,8 @@ msgid ""
 "option. Can be \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgstr ""
 "Incluir el contenido presente en los avisos con severidad especificada. "
-"Opción de lista. Puede ser «critical», «important», «moderate», «low» o «none"
-"»."
+"Opción de lista. Puede ser «critical», «important», «moderate», «low» o "
+"«none»."
 
 #: commands/advisory_shared.hpp:235
 msgid "ADVISORY_SEVERITY,..."
@@ -409,8 +410,8 @@ msgid ""
 "Include content contained in advisories that fix a CVE (Common "
 "Vulnerabilities and Exposures) ID, Eg. CVE-2201-0123. List option."
 msgstr ""
-"Incluir el contenido presente en los avisos que corrigen una ID de CVE («"
-"vulnerabilidades y exposiciones comunes»), p. ej. CVE-2201-0123. Opción de "
+"Incluir el contenido presente en los avisos que corrigen una ID de CVE "
+"(«vulnerabilidades y exposiciones comunes»), p. ej. CVE-2201-0123. Opción de "
 "lista."
 
 #: commands/advisory_shared.hpp:260
@@ -553,7 +554,8 @@ msgstr "Degradar software"
 
 #: commands/download/download.cpp:123
 msgid "When running with --url, prints URLs from all available mirrors"
-msgstr "Al ejecutar con --url, imprime las URL de todos los espejos disponibles"
+msgstr ""
+"Al ejecutar con --url, imprime las URL de todos los espejos disponibles"
 
 #: commands/download/download.cpp:139
 #, c++-format
@@ -757,7 +759,8 @@ msgstr ""
 
 #: commands/history/history_store.cpp:68
 msgid "Multiple transactions selected for storing, only one allowed."
-msgstr "Seleccionadas múltiples transacciones a almacenar, solo se permite una."
+msgstr ""
+"Seleccionadas múltiples transacciones a almacenar, solo se permite una."
 
 #: commands/history/history_store.cpp:80
 #, c++-format
@@ -801,7 +804,8 @@ msgstr ""
 
 #: commands/list/list.cpp:61
 msgid "Show all versions of the packages, not only the latest ones."
-msgstr "Mostrar todas las versiones de los paquetes, no solo las más recientes."
+msgstr ""
+"Mostrar todas las versiones de los paquetes, no solo las más recientes."
 
 #: commands/list/list.cpp:69
 msgid "List installed packages."
@@ -837,7 +841,8 @@ msgstr "Listar actualizaciones disponibles para los paquetes instalados."
 
 #: commands/list/list.cpp:102
 msgid "List packages which will be removed by the 'dnf autoremove' command."
-msgstr "Listar paquetes que serán eliminados por el comando \"dnf autoremove\"."
+msgstr ""
+"Listar paquetes que serán eliminados por el comando \"dnf autoremove\"."
 
 #: commands/list/list.cpp:214 commands/list/list.cpp:219
 msgid "Installed packages"
@@ -1276,7 +1281,8 @@ msgstr "Necesita una --releasever mayor que la versión actual del sistema."
 
 #: commands/system-upgrade/system-upgrade.cpp:150
 msgid "Store a distro-sync transaction to be performed offline"
-msgstr "Almacenar una transacción distro-sync para ser realizada fuera de línea"
+msgstr ""
+"Almacenar una transacción distro-sync para ser realizada fuera de línea"
 
 #: commands/system-upgrade/system-upgrade.cpp:172
 msgid "Store an upgrade transaction to be performed offline"
@@ -2125,8 +2131,8 @@ msgid ""
 "After this operation, {:.0f} {:s} will be freed (install {:.0f} {:s}, remove "
 "{:.0f} {:s})."
 msgstr ""
-"Después de esta operación, {:.0f} {:s} serán liberados (instalar {:.0f} {:s}"
-", eliminar {:.0f} {:s})."
+"Después de esta operación, {:.0f} {:s} serán liberados (instalar {:.0f} "
+"{:s}, eliminar {:.0f} {:s})."
 
 #: main.cpp:1099
 msgid "======== Main configuration: ========"

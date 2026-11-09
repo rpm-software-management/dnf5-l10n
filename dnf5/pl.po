@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-02 08:43+0000\n"
+"POT-Creation-Date: 2026-11-09 08:53+0000\n"
 "PO-Revision-Date: 2026-11-03 09:45+0000\n"
 "Last-Translator: Tomasz Bojanowski <tomasz@bojanowski.me>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -34,8 +34,8 @@ msgid ""
 "Attached named argument \"{}\" not found: {}: Requested in file \"{}\" on "
 "line {}: {}"
 msgstr ""
-"Dołączony argument nazwany „{}” nie został znaleziony: {}: Żądano w pliku „{}"
-"” w wierszu {}: {}"
+"Dołączony argument nazwany „{}” nie został znaleziony: {}: Żądano w pliku "
+"„{}” w wierszu {}: {}"
 
 #: cmdline_aliases.cpp:159
 #, c++-format
@@ -43,8 +43,8 @@ msgid ""
 "Unknown attribute \"{}\" of attached named argument for alias \"{}\" in file "
 "\"{}\" on line {}: {}"
 msgstr ""
-"Nieznany atrybut „{}” dołączonego nazwanego argumentu aliasu „{}” w pliku „{}"
-"” w wierszu {}: {}"
+"Nieznany atrybut „{}” dołączonego nazwanego argumentu aliasu „{}” w pliku "
+"„{}” w wierszu {}: {}"
 
 #: cmdline_aliases.cpp:171
 #, c++-format
@@ -314,7 +314,8 @@ msgstr "Pokaż tylko ostrzeżenia odnoszące się do CVE."
 #: commands/advisory_shared.hpp:93
 #, c++-format
 msgid "No advisory found matching the requested name: \"{}\""
-msgstr "Nie znaleziono żadnego ostrzeżenia odpowiadającego żądanej nazwie: „{}”"
+msgstr ""
+"Nie znaleziono żadnego ostrzeżenia odpowiadającego żądanej nazwie: „{}”"
 
 #: commands/advisory_shared.hpp:132
 #, c++-format
@@ -727,8 +728,8 @@ msgid ""
 "Invalid transaction ID range \"{}\", \"ID\" or \"ID..ID\" expected, where ID "
 "is \"NUMBER\", \"last\" or \"last-NUMBER\"."
 msgstr ""
-"Nieprawidłowy zakresu identyfikatorów transakcji: „{}”, oczekiwano „ID” lub „"
-"ID..ID”, gdzie identyfikatorem jest „NUMBER”, „last” lub „last-NUMBER”."
+"Nieprawidłowy zakresu identyfikatorów transakcji: „{}”, oczekiwano „ID” lub "
+"„ID..ID”, gdzie identyfikatorem jest „NUMBER”, „last” lub „last-NUMBER”."
 
 #: commands/install/install.cpp:41
 msgid "Install software"
@@ -1695,8 +1696,8 @@ msgstr "Wymuś odświeżenie metadanych przed uruchomieniem polecenia."
 #, c++-format
 msgid "Failed to expire repository cache in path \"{0}\": {1}"
 msgstr ""
-"Nie udało się anulować ważność pamięci podręcznej repozytorium w ścieżce „{0}"
-"”: {1}"
+"Nie udało się anulować ważność pamięci podręcznej repozytorium w ścieżce "
+"„{0}”: {1}"
 
 #: main.cpp:241
 msgid "create additional repository using id and path"
@@ -1864,7 +1865,8 @@ msgstr ""
 
 #: main.cpp:588
 msgid "disable OpenPGP signature checking (if RPM policy allows)"
-msgstr "wyłącza sprawdzanie podpisów OpenPGP (jeśli zasady RPM na to pozwalają)"
+msgstr ""
+"wyłącza sprawdzanie podpisów OpenPGP (jeśli zasady RPM na to pozwalają)"
 
 #: main.cpp:605
 msgid "Disable all libdnf5 plugins"
@@ -1906,7 +1908,8 @@ msgstr "ustaw katalog główny instalacji"
 msgid ""
 "use configuration, reposdir, and vars from the host system rather than the "
 "installroot"
-msgstr "użyj konfiguracji, reposdir i vars z systemu hosta, a nie z installroot"
+msgstr ""
+"użyj konfiguracji, reposdir i vars z systemu hosta, a nie z installroot"
 
 #: main.cpp:678
 msgid "override the value of $releasever in config and repo files"
@@ -2044,8 +2047,8 @@ msgid ""
 "After this operation, {:.0f} {:s} extra will be used (install {:.0f} {:s}, "
 "remove {:.0f} {:s})."
 msgstr ""
-"Po tej operacji zostanie użyte dodatkowo {:.0f} {:s} (zainstaluje {:.0f} {:s}"
-", usunie {:.0f} {:s})."
+"Po tej operacji zostanie użyte dodatkowo {:.0f} {:s} (zainstaluje {:.0f} "
+"{:s}, usunie {:.0f} {:s})."
 
 #: main.cpp:1087
 #, c++-format
@@ -2361,7 +2364,8 @@ msgstr ""
 
 #: shared_options.cpp:41
 msgid "Allow resolving of depsolve problems by skipping packages"
-msgstr "Zezwalaj na rozwiązywanie problemów depsolve poprzez pomijanie pakietów"
+msgstr ""
+"Zezwalaj na rozwiązywanie problemów depsolve poprzez pomijanie pakietów"
 
 #: shared_options.cpp:53
 msgid "Allow skipping unavailable packages"

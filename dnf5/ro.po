@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-02 08:43+0000\n"
+"POT-Creation-Date: 2026-11-09 08:53+0000\n"
 "PO-Revision-Date: 2026-11-05 09:18+0000\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -56,8 +56,8 @@ msgstr "Versiune neacceptată „{}” în fișierul „{}”. Versiunile accept
 #, c++-format
 msgid "Bad value type of attribute \"version\" in file \"{}\" on line {}: {}"
 msgstr ""
-"Tip de valoare greșit pentru atributul „version” în fișierul „{}” pe linia {}"
-": {}"
+"Tip de valoare greșit pentru atributul „version” în fișierul „{}” pe linia "
+"{}: {}"
 
 #: cmdline_aliases.cpp:224
 #, c++-format
@@ -73,8 +73,8 @@ msgstr "Cheie necunoscută „{}” în fișierul „{}” pe linia {}: {}"
 #, c++-format
 msgid "Empty or bad element id path in file \"{}\" on line {}: {}"
 msgstr ""
-"Ruta cu id-ul elementului este goală sau greșită în fișierul „{}” pe linia {}"
-": {}"
+"Ruta cu id-ul elementului este goală sau greșită în fișierul „{}” pe linia "
+"{}: {}"
 
 #: cmdline_aliases.cpp:272
 #, c++-format
@@ -109,8 +109,8 @@ msgstr ""
 msgid ""
 "Command \"{}\" already registered. Requested in file \"{}\" on line {}: {}"
 msgstr ""
-"Comanda „{}” este deja înregistrată. Solicitată în fișierul „{}” pe linia {}"
-": {}"
+"Comanda „{}” este deja înregistrată. Solicitată în fișierul „{}” pe linia "
+"{}: {}"
 
 #: cmdline_aliases.cpp:375
 #, c++-format
@@ -192,8 +192,8 @@ msgid ""
 "Unknown attribute \"{}\" of required value for alias \"{}\" in file \"{}\" "
 "on line {}: {}"
 msgstr ""
-"Atribut necunoscut „{}” al valorii necesare pentru alias „{}” în fișierul „{}"
-"” pe linia {}: {}"
+"Atribut necunoscut „{}” al valorii necesare pentru alias „{}” în fișierul "
+"„{}” pe linia {}: {}"
 
 #: cmdline_aliases.cpp:726
 #, c++-format
@@ -713,7 +713,8 @@ msgstr ""
 #: commands/history/history_rollback.cpp:64
 #: commands/history/history_undo.cpp:63
 msgid "Matched more than one transaction ID, exactly one required."
-msgstr "Se potrivește mai mult de un ID de tranzacție, este necesar exact unul."
+msgstr ""
+"Se potrivește mai mult de un ID de tranzacție, este necesar exact unul."
 
 #: commands/history/history_store.cpp:68
 msgid "Multiple transactions selected for storing, only one allowed."
@@ -1251,7 +1252,8 @@ msgstr ""
 
 #: commands/system-upgrade/system-upgrade.cpp:150
 msgid "Store a distro-sync transaction to be performed offline"
-msgstr "Stochează o tranzacție distro-sync pentru a fi efectuată fără conexiune"
+msgstr ""
+"Stochează o tranzacție distro-sync pentru a fi efectuată fără conexiune"
 
 #: commands/system-upgrade/system-upgrade.cpp:172
 msgid "Store an upgrade transaction to be performed offline"
@@ -1270,11 +1272,11 @@ msgid ""
 "that fix advisories that matching selected advisory property"
 msgstr ""
 "Actualizează pachetele numai la cele mai mici versiuni care corectează avize "
-"de tip corecție de erori „bugfix”, îmbunătățire „enhancement”, securitate „"
-"security” sau pachet nou „newpackage”. În cazul în care este utilizată orice "
-"opțiune de limitare a avizelor, aceasta actualizează pachetele numai la cele "
-"mai mici versiuni care corectează avizele care corespund proprietății de "
-"aviz selectate"
+"de tip corecție de erori „bugfix”, îmbunătățire „enhancement”, securitate "
+"„security” sau pachet nou „newpackage”. În cazul în care este utilizată "
+"orice opțiune de limitare a avizelor, aceasta actualizează pachetele numai "
+"la cele mai mici versiuni care corectează avizele care corespund "
+"proprietății de aviz selectate"
 
 #. TODO(mblaha): add full command line
 #: commands/versionlock/utils.cpp:35

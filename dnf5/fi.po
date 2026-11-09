@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-02 08:43+0000\n"
+"POT-Creation-Date: 2026-11-09 08:53+0000\n"
 "PO-Revision-Date: 2026-11-03 09:42+0000\n"
 "Last-Translator: Jouko Tiilikainen "
 "<jti65@users.noreply.translate.fedoraproject.org>\n"
@@ -60,8 +60,8 @@ msgstr "Ei tuettu versio \"{}\" tiedostossa \"{}\". Tuetut versiot: {}"
 #, c++-format
 msgid "Bad value type of attribute \"version\" in file \"{}\" on line {}: {}"
 msgstr ""
-"Virheellinen attribuutin \"versio\" arvotyyppi tiedostossa \"{}\" rivillä {}"
-": {}"
+"Virheellinen attribuutin \"versio\" arvotyyppi tiedostossa \"{}\" rivillä "
+"{}: {}"
 
 #: cmdline_aliases.cpp:224
 #, c++-format
@@ -435,9 +435,9 @@ msgid ""
 "advisories is used it reports the lowest versions of packages that fix "
 "advisories matching selected advisory properties"
 msgstr ""
-"Raportoi pakettien alimmat versiot, jotka kuuluvat virheenkorjaus-, parannus-"
-", turvallisuus- tai uusi paketti -tyyppisiin päivitysilmoituksiin. Jos "
-"käytetään mitä tahansa päivitysilmoituksia rajaavaa valitsinta, raportoi "
+"Raportoi pakettien alimmat versiot, jotka kuuluvat virheenkorjaus-, "
+"parannus-, turvallisuus- tai uusi paketti -tyyppisiin päivitysilmoituksiin. "
+"Jos käytetään mitä tahansa päivitysilmoituksia rajaavaa valitsinta, raportoi "
 "pakettien alimmat versiot, jotka kuuluvat valitun tyyppisiin "
 "päivitysilmoituksiin"
 
@@ -1704,7 +1704,8 @@ msgstr "luo lisäohjelmistolähde tunnuksen ja polun avulla"
 #: main.cpp:249
 #, c++-format
 msgid "repofrompath: Incorrect repoid and path specification \"{}\""
-msgstr "repofrompath: Virheellinen tietovaraston tunnus ja polkumääritys \"{}\""
+msgstr ""
+"repofrompath: Virheellinen tietovaraston tunnus ja polkumääritys \"{}\""
 
 #: main.cpp:261
 msgid "set arbitrary config and repo options"
@@ -1800,8 +1801,8 @@ msgid ""
 "Allow replacing packages from VENDOR to packages from any vendor. Supports "
 "globs, can be specified multiple times."
 msgstr ""
-"Poista ohjelmistolähteet käytöstä. Luettelovalitsin. Tukee globeja (joukkoja)"
-", voidaan määrittää useita kertoja."
+"Poista ohjelmistolähteet käytöstä. Luettelovalitsin. Tukee globeja "
+"(joukkoja), voidaan määrittää useita kertoja."
 
 #: main.cpp:415
 #, fuzzy
@@ -1823,8 +1824,8 @@ msgstr ""
 msgid ""
 "Add a vendor change policy for this run. Can be specified multiple times."
 msgstr ""
-"Poista ohjelmistolähteet käytöstä. Luettelovalitsin. Tukee globeja (joukkoja)"
-", voidaan määrittää useita kertoja."
+"Poista ohjelmistolähteet käytöstä. Luettelovalitsin. Tukee globeja "
+"(joukkoja), voidaan määrittää useita kertoja."
 
 #: main.cpp:459
 #, c++-format
@@ -1841,8 +1842,8 @@ msgid ""
 "Disable vendor change policies whose source matches the specified pattern. "
 "Supports globs, can be specified multiple times."
 msgstr ""
-"Poista ohjelmistolähteet käytöstä. Luettelovalitsin. Tukee globeja (joukkoja)"
-", voidaan määrittää useita kertoja."
+"Poista ohjelmistolähteet käytöstä. Luettelovalitsin. Tukee globeja "
+"(joukkoja), voidaan määrittää useita kertoja."
 
 #: main.cpp:495
 msgid ""
@@ -1869,8 +1870,8 @@ msgid ""
 "Disable repositories. List option. Supports globs, can be specified multiple "
 "times."
 msgstr ""
-"Poista ohjelmistolähteet käytöstä. Luettelovalitsin. Tukee globeja (joukkoja)"
-", voidaan määrittää useita kertoja."
+"Poista ohjelmistolähteet käytöstä. Luettelovalitsin. Tukee globeja "
+"(joukkoja), voidaan määrittää useita kertoja."
 
 #: main.cpp:566
 msgid ""
@@ -2074,8 +2075,8 @@ msgid ""
 "After this operation, {:.0f} {:s} will be freed (install {:.0f} {:s}, remove "
 "{:.0f} {:s})."
 msgstr ""
-"Tämän toimenpiteen jälkeen tilaa vapautuu {:.0f} {:s} (asennetaan {:.0f} {:s}"
-", poistetaan {:.0f} {:s})."
+"Tämän toimenpiteen jälkeen tilaa vapautuu {:.0f} {:s} (asennetaan {:.0f} "
+"{:s}, poistetaan {:.0f} {:s})."
 
 #: main.cpp:1099
 msgid "======== Main configuration: ========"
@@ -2237,8 +2238,8 @@ msgid ""
 "It could be a command provided by a plugin, try: dnf5 install 'dnf5-"
 "command({})'"
 msgstr ""
-"Se voi olla lisäosan tarjoama komento; kokeile `dnf5 install 'dnf5-command("
-"{})'`"
+"Se voi olla lisäosan tarjoama komento; kokeile `dnf5 install 'dnf5-"
+"command({})'`"
 
 #: main.cpp:1617
 #, c++-format

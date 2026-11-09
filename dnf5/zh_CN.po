@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-02 08:43+0000\n"
+"POT-Creation-Date: 2026-11-09 08:53+0000\n"
 "PO-Revision-Date: 2026-11-03 09:48+0000\n"
 "Last-Translator: Luke Na <narukeu@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
@@ -48,7 +48,8 @@ msgstr "附加的命名参数 \"{}\" 未找到: {}: 请求的文件 \"{}\" 行�
 msgid ""
 "Unknown attribute \"{}\" of attached named argument for alias \"{}\" in file "
 "\"{}\" on line {}: {}"
-msgstr "未知属性 \"{}\" 为别名附加的命名参数 \"{}\" 在文件 \"{}\" 中的行列位置 {}: {}"
+msgstr ""
+"未知属性 \"{}\" 为别名附加的命名参数 \"{}\" 在文件 \"{}\" 中的行列位置 {}: {}"
 
 #: cmdline_aliases.cpp:171
 #, c++-format
@@ -172,8 +173,8 @@ msgid ""
 "Used config file version \"1.0\" for attribute \"{}\" of command \"{}\" in "
 "file \"{}\" on line {}: {}"
 msgstr ""
-"为属性使用 \"1.0\" 版本的配置文件 \"{}\" 命令 \"{}\" 文件 \"{}\" 行列位置 {}"
-": {}"
+"为属性使用 \"1.0\" 版本的配置文件 \"{}\" 命令 \"{}\" 文件 \"{}\" 行列位置 "
+"{}: {}"
 
 #: cmdline_aliases.cpp:713
 #, c++-format
@@ -363,7 +364,8 @@ msgstr "BUGZILLA_ID,..."
 msgid ""
 "Include content contained in advisories that fix a CVE (Common "
 "Vulnerabilities and Exposures) ID, Eg. CVE-2201-0123. List option."
-msgstr "包含修复CVE(常见漏洞和暴露)ID(例如CVE-2201-0123)的建议中的内容，列表选项。"
+msgstr ""
+"包含修复CVE(常见漏洞和暴露)ID(例如CVE-2201-0123)的建议中的内容，列表选项。"
 
 #: commands/advisory_shared.hpp:260
 msgid "CVE_ID,..."
@@ -686,8 +688,8 @@ msgid ""
 "Invalid transaction ID range \"{}\", \"ID\" or \"ID..ID\" expected, where ID "
 "is \"NUMBER\", \"last\" or \"last-NUMBER\"."
 msgstr ""
-"不合法的事务ID范围 \"{}\"，应该为 \"ID\" 或 \"ID..ID\"，ID应该是 \"数"
-"字\"、\"last\" 或 \"last-数字\"。"
+"不合法的事务ID范围 \"{}\"，应该为 \"ID\" 或 \"ID..ID\"，ID应该是 \"数字\"、"
+"\"last\" 或 \"last-数字\"。"
 
 #: commands/install/install.cpp:41
 msgid "Install software"
@@ -726,13 +728,15 @@ msgstr "列出可安装的软件包。"
 msgid ""
 "List extras, that is packages installed on the system that are not available "
 "in any known repository."
-msgstr "列出额外的，即安装在系统上的软件包，这些软件包在任何已知的仓库中都不可用。"
+msgstr ""
+"列出额外的，即安装在系统上的软件包，这些软件包在任何已知的仓库中都不可用。"
 
 #: commands/list/list.cpp:89
 msgid ""
 "List packages installed on the system that are obsoleted by packages in any "
 "known repository."
-msgstr "列出已安装在系统上的软件包，这些软件包已被任何已知仓库中的软件包所取代。"
+msgstr ""
+"列出已安装在系统上的软件包，这些软件包已被任何已知仓库中的软件包所取代。"
 
 #: commands/list/list.cpp:94
 msgid "List packages recently added into the repositories."
@@ -1016,8 +1020,8 @@ msgid ""
 "An offline transaction was started, but it did not finish. Run `dnf5 offline "
 "log` for more information. The command that initiated the transaction was:"
 msgstr ""
-"一个离线事务已经开始，但是并未结束。运行 \"dnf5 offline log\" 以获得更多信息"
-"。启动事务的命令是:"
+"一个离线事务已经开始，但是并未结束。运行 \"dnf5 offline log\" 以获得更多信"
+"息。启动事务的命令是:"
 
 #: commands/offline/offline.cpp:855
 msgid "Unknown offline transaction status: "
@@ -1099,7 +1103,8 @@ msgstr "搜索符合各种条件的软件包"
 msgid ""
 "Option \"--exactdeps\" has to be used either with \"--whatrequires\" or \"--"
 "whatdepends\""
-msgstr "选项 \"--exactdeps\" 必须与 \"--whatrequires\" 或 \"--whatdepends\" 一起使用"
+msgstr ""
+"选项 \"--exactdeps\" 必须与 \"--whatrequires\" 或 \"--whatdepends\" 一起使用"
 
 #: commands/repoquery/repoquery.cpp:532
 msgid ""
@@ -1358,7 +1363,8 @@ msgstr "设置选项: \"{}.{}\": {}"
 msgid ""
 "No matching repositories for {}. To use repositories from a host system, "
 "pass --use-host-config option"
-msgstr "任何仓库未匹配到 {} 。通过 \"--use-host-config\" 选项使用指定域名中的仓库"
+msgstr ""
+"任何仓库未匹配到 {} 。通过 \"--use-host-config\" 选项使用指定域名中的仓库"
 
 #: context.cpp:230
 #, c++-format
@@ -1434,8 +1440,8 @@ msgid ""
 "reboot and run the transaction. To cancel the transaction and delete the "
 "downloaded files, use `dnf5 offline clean`."
 msgstr ""
-"已经存储的事务可以离线执行。运行 \"dnf5 offline reboot\" 以重新启动并运行事务"
-"。若要取消事务并删除已下载的文件，须使用 \"dnf5 offline clean\" 命令。"
+"已经存储的事务可以离线执行。运行 \"dnf5 offline reboot\" 以重新启动并运行事"
+"务。若要取消事务并删除已下载的文件，须使用 \"dnf5 offline clean\" 命令。"
 
 #: context.cpp:565
 msgid "Running transaction"
@@ -1931,8 +1937,8 @@ msgid ""
 "After this operation, {:.0f} {:s} extra will be used (install {:.0f} {:s}, "
 "remove {:.0f} {:s})."
 msgstr ""
-"此次操作后，将额外占用 {:.0f} {:s} 空间（安装 {:.0f} {:s}，移除 {:.0f} {:s}）"
-"。"
+"此次操作后，将额外占用 {:.0f} {:s} 空间（安装 {:.0f} {:s}，移除 {:.0f} "
+"{:s}）。"
 
 #: main.cpp:1087
 #, c++-format
@@ -1940,8 +1946,8 @@ msgid ""
 "After this operation, {:.0f} {:s} will be freed (install {:.0f} {:s}, remove "
 "{:.0f} {:s})."
 msgstr ""
-"此次操作完成之后，{:.0f} {:s} 空间被释放 (安装 {:.0f} {:s}, 删除 {:.0f} {:s})"
-"。"
+"此次操作完成之后，{:.0f} {:s} 空间被释放 (安装 {:.0f} {:s}, 删除 {:.0f} "
+"{:s})。"
 
 #: main.cpp:1099
 msgid "======== Main configuration: ========"
@@ -2234,7 +2240,8 @@ msgstr "允许跳过不可用的软件包"
 msgid ""
 "The following items can be selected only from the specified repositories. "
 "All enabled repositories will still be used to satisfy dependencies."
-msgstr "以下项目只能从指定的存储库中选择。所有已启用的存储库仍将用于满足依赖项。"
+msgstr ""
+"以下项目只能从指定的存储库中选择。所有已启用的存储库仍将用于满足依赖项。"
 
 #: shared_options.cpp:178 shared_options.cpp:211
 msgid "REPO_ID,..."
@@ -2267,7 +2274,8 @@ msgid ""
 "The following items can be selected only from the specified vendors. The "
 "vendor is ignored or vendor change policies (if allow_vendor_change=0) will "
 "still be used for items that satisfy dependencies."
-msgstr "以下项目只能从指定的存储库中选择。所有已启用的存储库仍将用于满足依赖项。"
+msgstr ""
+"以下项目只能从指定的存储库中选择。所有已启用的存储库仍将用于满足依赖项。"
 
 #: shared_options.cpp:239
 #, fuzzy

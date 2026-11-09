@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-02 08:43+0000\n"
+"POT-Creation-Date: 2026-11-09 08:53+0000\n"
 "PO-Revision-Date: 2026-11-03 09:46+0000\n"
 "Last-Translator: Nathan <nathan95@live.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -53,7 +53,8 @@ msgstr "Attributo mancante \"id_path\" per l'alias \"{}\" nel file \"{}\""
 #: cmdline_aliases.cpp:208
 #, c++-format
 msgid "Unsupported version \"{}\" in file \"{}\". Supported versions: {}"
-msgstr "Versione non supportata \"{}\" nel file \"{}\". Versioni supportate: {}"
+msgstr ""
+"Versione non supportata \"{}\" nel file \"{}\". Versioni supportate: {}"
 
 #: cmdline_aliases.cpp:218
 #, c++-format
@@ -83,8 +84,8 @@ msgstr ""
 msgid ""
 "Parent command \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
 msgstr ""
-"Comando padre \"{}\" non trovato: {}: Richiesto nel file \"{}\" alla riga {}"
-": {}"
+"Comando padre \"{}\" non trovato: {}: Richiesto nel file \"{}\" alla riga "
+"{}: {}"
 
 #: cmdline_aliases.cpp:301
 #, c++-format
@@ -186,8 +187,8 @@ msgid ""
 "Used config file version \"1.0\" for attribute \"{}\" of command \"{}\" in "
 "file \"{}\" on line {}: {}"
 msgstr ""
-"Utilizzata la versione \"1.0\" del file di configurazione per l'attributo \""
-"{}\" del comando \"{}\" nel file \"{}\" alla riga {}: {}"
+"Utilizzata la versione \"1.0\" del file di configurazione per l'attributo "
+"\"{}\" del comando \"{}\" nel file \"{}\" alla riga {}: {}"
 
 #: cmdline_aliases.cpp:713
 #, c++-format
@@ -212,8 +213,8 @@ msgstr ""
 msgid ""
 "Unknown attribute \"{}\" of command \"{}\" in file \"{}\" on line {}: {}"
 msgstr ""
-"Attributo sconosciuto \"{}\" del comando \"{}\" nel file \"{}\" alla riga {}"
-": {}"
+"Attributo sconosciuto \"{}\" del comando \"{}\" nel file \"{}\" alla riga "
+"{}: {}"
 
 #: cmdline_aliases.cpp:756
 #, c++-format
@@ -551,7 +552,8 @@ msgstr "Opzione urlprotocol invalida: {}"
 #: commands/download/download.cpp:166 main.cpp:833
 #, c++-format
 msgid "Unsupported architecture \"{0}\". Please choose one from {1}"
-msgstr "Architettura \"{0}\"non supportata. Scegli un'altra architettura da {1}"
+msgstr ""
+"Architettura \"{0}\"non supportata. Scegli un'altra architettura da {1}"
 
 #. TODO(jrohel): Add support for requiring an argument by another argument in ArgumentParser?
 #: commands/download/download.cpp:207
@@ -686,7 +688,8 @@ msgstr ""
 
 #: commands/history/arguments.hpp:67
 msgid "Don't consider extra packages pulled into the transaction as errors."
-msgstr "Non considera pacchetti extra spinti dentro le transazioni come errori."
+msgstr ""
+"Non considera pacchetti extra spinti dentro le transazioni come errori."
 
 #: commands/history/arguments.hpp:80
 msgid ""
@@ -805,7 +808,8 @@ msgstr "Elenco degli aggiornamenti disponibili per i pacchetti installati."
 
 #: commands/list/list.cpp:102
 msgid "List packages which will be removed by the 'dnf autoremove' command."
-msgstr "Elenco dei pacchetti che verranno rimossi dal comando 'dnf autoremove'."
+msgstr ""
+"Elenco dei pacchetti che verranno rimossi dal comando 'dnf autoremove'."
 
 #: commands/list/list.cpp:214 commands/list/list.cpp:219
 msgid "Installed packages"
@@ -861,7 +865,8 @@ msgstr "Gestisce i moduli"
 
 #: commands/module/module_list.cpp:88
 msgid "No matches found: no module streams are enabled."
-msgstr "Nessuna corrispondenza trovata: non è abilitato alcun flusso di moduli."
+msgstr ""
+"Nessuna corrispondenza trovata: non è abilitato alcun flusso di moduli."
 
 #: commands/module/module_list.cpp:90
 msgid "No matches found: no module streams are disabled."

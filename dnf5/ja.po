@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-02 08:43+0000\n"
+"POT-Creation-Date: 2026-11-09 08:53+0000\n"
 "PO-Revision-Date: 2026-11-03 09:43+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf5/"
@@ -360,7 +360,8 @@ msgstr "ADVISORY_SEVERITY,..."
 msgid ""
 "Include content contained in advisories that fix a Bugzilla ID, Eg. 123123. "
 "List option."
-msgstr "指定 Bugzilla ID (例: 123123) を修正する勧告のあるパッケージのみ。リスト。"
+msgstr ""
+"指定 Bugzilla ID (例: 123123) を修正する勧告のあるパッケージのみ。リスト。"
 
 #: commands/advisory_shared.hpp:248
 msgid "BUGZILLA_ID,..."
@@ -375,8 +376,8 @@ msgid ""
 "Include content contained in advisories that fix a CVE (Common "
 "Vulnerabilities and Exposures) ID, Eg. CVE-2201-0123. List option."
 msgstr ""
-"指定 CVE (共通脆弱性識別子) ID (例: CVE-2201-0123) を修正する勧告のみ。リスト"
-"。"
+"指定 CVE (共通脆弱性識別子) ID (例: CVE-2201-0123) を修正する勧告のみ。リス"
+"ト。"
 
 #: commands/advisory_shared.hpp:260
 msgid "CVE_ID,..."
@@ -432,12 +433,14 @@ msgstr "不明なキャッシュタイプ \"{0}\"。サポートするタイプ:
 #: commands/clean/clean.cpp:166
 #, c++-format
 msgid "Failed to cleanup repository cache in path \"{0}\": {1}"
-msgstr "パス \"{0}\" のリポジトリ キャッシュのクリーンアップに失敗しました: {1}"
+msgstr ""
+"パス \"{0}\" のリポジトリ キャッシュのクリーンアップに失敗しました: {1}"
 
 #: commands/clean/clean.cpp:176
 #, c++-format
 msgid "Cache directory \"{}\" does not exist. Nothing to clean."
-msgstr "キャッシュ ディレクトリ \"{}\" は存在しません。クリーンするものはありません。"
+msgstr ""
+"キャッシュ ディレクトリ \"{}\" は存在しません。クリーンするものはありません。"
 
 #: commands/clean/clean.cpp:181
 #, c++-format
@@ -532,7 +535,8 @@ msgstr "サポートされてないアーキテクチャ \"{0}\"。 {1} から�
 #. TODO(jrohel): Add support for requiring an argument by another argument in ArgumentParser?
 #: commands/download/download.cpp:207
 msgid "Option \"--alldeps\" should be used with \"--resolve\""
-msgstr "オプション \"--alldeps\" は \"--resolve\" と一緒に使用する必要があります"
+msgstr ""
+"オプション \"--alldeps\" は \"--resolve\" と一緒に使用する必要があります"
 
 #: commands/download/download.cpp:261
 #, c++-format
@@ -670,21 +674,22 @@ msgid ""
 "as errors. This can result in an empty transaction because among other "
 "things the option can ignore failing Remove actions."
 msgstr ""
-"インストール済みパッケージと保存済みトランザクションのパッケージ不一致を"
-"エラーとして扱わないようにします。これにより、失敗した Remove アクションを無"
-"視することがあるため、空のトランザクションになる可能性があります。"
+"インストール済みパッケージと保存済みトランザクションのパッケージ不一致をエ"
+"ラーとして扱わないようにします。これにより、失敗した Remove アクションを無視"
+"することがあるため、空のトランザクションになる可能性があります。"
 
 #: commands/history/arguments.hpp:67
 msgid "Don't consider extra packages pulled into the transaction as errors."
 msgstr ""
-"トランザクションに入れられた追加パッケージをエラーとして扱わないようにします"
-"。"
+"トランザクションに入れられた追加パッケージをエラーとして扱わないようにしま"
+"す。"
 
 #: commands/history/arguments.hpp:80
 msgid ""
 "Show only transactions containing packages with specified names. List "
 "option, supports globs."
-msgstr "指定名前のパッケージに含むトランザクションを表示。リスト、glob 利用可能。"
+msgstr ""
+"指定名前のパッケージに含むトランザクションを表示。リスト、glob 利用可能。"
 
 #: commands/history/history.cpp:41
 msgid "Manage transaction history"
@@ -702,7 +707,8 @@ msgstr ""
 #: commands/history/history_rollback.cpp:60
 #: commands/history/history_store.cpp:65 commands/history/history_undo.cpp:59
 msgid "No matching transaction ID found, exactly one required."
-msgstr "一致するトランザクション ID を見つかりませんでした。正確な一つが必要です。"
+msgstr ""
+"一致するトランザクション ID を見つかりませんでした。正確な一つが必要です。"
 
 #: commands/history/history_redo.cpp:60
 #: commands/history/history_rollback.cpp:64
@@ -725,8 +731,8 @@ msgid ""
 "Invalid transaction ID range \"{}\", \"ID\" or \"ID..ID\" expected, where ID "
 "is \"NUMBER\", \"last\" or \"last-NUMBER\"."
 msgstr ""
-"無効なトランザクション ID 範囲 \"{}\"。\"ID\" または \"ID..ID\" が必要です"
-"。\"ID\" は \"NUMBER\"、\"last\"、または \"last-NUMBER\" です。"
+"無効なトランザクション ID 範囲 \"{}\"。\"ID\" または \"ID..ID\" が必要です。"
+"\"ID\" は \"NUMBER\"、\"last\"、または \"last-NUMBER\" です。"
 
 #: commands/install/install.cpp:41
 msgid "Install software"
@@ -736,8 +742,8 @@ msgstr "ソフトウェアをインストール"
 msgid ""
 "List groups of installed packages not required by other installed packages"
 msgstr ""
-"他のインストール済みパッケージに依存しないインストール済みパッケージの"
-"グループを表示"
+"他のインストール済みパッケージに依存しないインストール済みパッケージのグルー"
+"プを表示"
 
 #: commands/list/info.hpp:38
 #, fuzzy
@@ -869,8 +875,8 @@ msgid ""
 "No repositories were loaded from the installroot. To use the configuration "
 "and repositories of the host system, pass --use-host-config."
 msgstr ""
-"installroot からリポジトリを読み込みませんでした。ホスト システムの設定と"
-"リポジトリを利用するには、--use-host-config を渡してください。"
+"installroot からリポジトリを読み込みませんでした。ホスト システムの設定とリポ"
+"ジトリを利用するには、--use-host-config を渡してください。"
 
 #: commands/no_matches.cpp:78 commands/no_matches.hpp:45
 #, fuzzy
@@ -926,8 +932,8 @@ msgid ""
 "Prepare the system to perform the offline transaction and reboot to start "
 "the transaction."
 msgstr ""
-"オフライン トランザクションを実行するためにシステムを準備し、再起動して"
-"トランザクションを実行します。"
+"オフライン トランザクションを実行するためにシステムを準備し、再起動してトラン"
+"ザクションを実行します。"
 
 #: commands/offline/offline.cpp:418
 msgid "Power off the system after the operation is complete"
@@ -970,8 +976,8 @@ msgid ""
 "Internal use only, not intended to be run by the user. Execute the "
 "transaction in the offline environment."
 msgstr ""
-"内部用、ユーザーが実行することを考慮していません。オフライン環境で"
-"トランザクションを実行します。"
+"内部用、ユーザーが実行することを考慮していません。オフライン環境でトランザク"
+"ションを実行します。"
 
 #: commands/offline/offline.cpp:545
 msgid "Trigger file does not exist. Exiting."
@@ -1031,8 +1037,8 @@ msgstr "過去のオフライン トランザクションのログを表示し�
 msgid ""
 "Which log to show. Run without any arguments to get a list of available logs."
 msgstr ""
-"表示させたいログ。引数なしで実行すると、利用可能なすべてのログが表示されます"
-"。"
+"表示させたいログ。引数なしで実行すると、利用可能なすべてのログが表示されま"
+"す。"
 
 #: commands/offline/offline.cpp:817
 msgid ""
@@ -1071,8 +1077,8 @@ msgstr "オフライン トランザクションは以下のコマンドによ�
 msgid ""
 "Run `dnf5 offline reboot` to reboot and perform the offline transaction."
 msgstr ""
-"`dnf5 offline reboot` を実行してオフライン トランザクションを実行してください"
-"。"
+"`dnf5 offline reboot` を実行してオフライン トランザクションを実行してくださ"
+"い。"
 
 #: commands/offline/offline.cpp:850
 msgid ""
@@ -1080,8 +1086,8 @@ msgid ""
 "log` for more information. The command that initiated the transaction was:"
 msgstr ""
 "オフライン トランザクションが開始されましたが、完了できませんでした。`dnf5 "
-"offline log` を実行して更なる情報を確認できます。トランザクションはこちらの"
-"コマンドによって初期化されました:"
+"offline log` を実行して更なる情報を確認できます。トランザクションはこちらのコ"
+"マンドによって初期化されました:"
 
 #: commands/offline/offline.cpp:855
 msgid "Unknown offline transaction status: "
@@ -1195,7 +1201,8 @@ msgstr ""
 #, fuzzy
 #| msgid "Option \"--alldeps\" should be used with \"--resolve\""
 msgid "Option --all cannot be used with --name or --summary."
-msgstr "オプション \"--alldeps\" は \"--resolve\" と一緒に使用する必要があります"
+msgstr ""
+"オプション \"--alldeps\" は \"--resolve\" と一緒に使用する必要があります"
 
 #: commands/swap/swap.cpp:42
 msgid "Remove software and install another in one transaction"
@@ -1207,7 +1214,8 @@ msgstr "新しいリリースへのアップグレードのためにシステム
 
 #: commands/system-upgrade/system-upgrade.cpp:72
 msgid "Download everything needed to upgrade to a new release"
-msgstr "新しいリリースにアップグレードするための必要なものをすべてダウンロードします"
+msgstr ""
+"新しいリリースにアップグレードするための必要なものをすべてダウンロードします"
 
 #: commands/system-upgrade/system-upgrade.cpp:80
 msgid ""
@@ -1240,10 +1248,9 @@ msgid ""
 "limiting advisories is used it upgrades packages only to the lowest versions "
 "that fix advisories that matching selected advisory property"
 msgstr ""
-"bugfix、enhancement、security、newpackage の勧告を修正するための最低"
-"バージョンにパッケージを更新します。勧告の制限オプションが使用された場合、"
-"プロパティに一致する勧告を修正するための最低バージョンにのみパッケージを更新"
-"します"
+"bugfix、enhancement、security、newpackage の勧告を修正するための最低バージョ"
+"ンにパッケージを更新します。勧告の制限オプションが使用された場合、プロパティ"
+"に一致する勧告を修正するための最低バージョンにのみパッケージを更新します"
 
 #. TODO(mblaha): add full command line
 #: commands/versionlock/utils.cpp:35
@@ -1401,7 +1408,8 @@ msgstr "結果として、そのキーで署名したパッケージをインス
 
 #: context.cpp:177
 msgid "It is recommended to remove the expired key to allow importing"
-msgstr "更新したキーをインポートするため、期限切れのキーの削除をお勧めしますが、"
+msgstr ""
+"更新したキーをインポートするため、期限切れのキーの削除をお勧めしますが、"
 
 #: context.cpp:178
 msgid ""
@@ -1428,8 +1436,8 @@ msgid ""
 "No matching repositories for {}. To use repositories from a host system, "
 "pass --use-host-config option"
 msgstr ""
-"{} に一致するリポジトリがありません。ホストシステムのリポジトリを使用するには"
-"、--use-host-config オプションを指定してください"
+"{} に一致するリポジトリがありません。ホストシステムのリポジトリを使用するに"
+"は、--use-host-config オプションを指定してください"
 
 #: context.cpp:230
 #, c++-format
@@ -1485,7 +1493,8 @@ msgstr "  - {}"
 msgid ""
 "Location \"{}\" already contains a stored transaction, it will be "
 "overwritten."
-msgstr "\"{}\" にはすでに保存されたトランザクションがあったため、上書きされます。"
+msgstr ""
+"\"{}\" にはすでに保存されたトランザクションがあったため、上書きされます。"
 
 #: context.cpp:538
 msgid ""
@@ -1658,8 +1667,8 @@ msgid ""
 "Run entirely from system cache, don't update the cache and use it even in "
 "case it is expired."
 msgstr ""
-"期限切れであってもキャッシュを更新せず、完全にシステム キャッシュで実行します"
-"。"
+"期限切れであってもキャッシュを更新せず、完全にシステム キャッシュで実行しま"
+"す。"
 
 #: main.cpp:205
 msgid "Control whether color is used."
@@ -1739,7 +1748,8 @@ msgstr "すべての質問に「いいえ」と自動的に答えます"
 
 #: main.cpp:341
 msgid "try the best available package versions in transactions"
-msgstr "トランザクションにおいて利用可能な最適なパッケージ バージョンを試します"
+msgstr ""
+"トランザクションにおいて利用可能な最適なパッケージ バージョンを試します"
 
 #: main.cpp:348
 msgid "do not limit the transaction to the best candidate"
@@ -1903,8 +1913,8 @@ msgid ""
 "Show newly installed leaf packages and packages that became leaves after a "
 "transaction."
 msgstr ""
-"新しくインストールされたリーフ パッケージおよびトランザクション後にリーフにな"
-"ったパッケージを表示します。"
+"新しくインストールされたリーフ パッケージおよびトランザクション後にリーフに"
+"なったパッケージを表示します。"
 
 #: main.cpp:731
 msgid "Dump detailed solving results into files"
@@ -2197,7 +2207,8 @@ msgstr ""
 msgid ""
 "The argument is available for commands: {}. (It has to be placed after the "
 "command.)"
-msgstr "引数は以下のコマンドで利用可能: {}. (コマンドの後で指定する必要があります)"
+msgstr ""
+"引数は以下のコマンドで利用可能: {}. (コマンドの後で指定する必要があります)"
 
 #: main.cpp:1654
 msgid "No read/execute access in current directory, moving to /"
@@ -2216,9 +2227,9 @@ msgid ""
 "user with elevated rights, or use the \"--assumeno\" or \"--downloadonly\" "
 "options to run the command without modifying the system state."
 msgstr ""
-"要求された操作にはスーパー ユーザー権限が必要です。権限のあるユーザーで"
-"ログインするか、システム状態を変更せずにコマンドを実行するには \"--"
-"assumeno\" または \"--downloadonly\" オプションを使用してください。"
+"要求された操作にはスーパー ユーザー権限が必要です。権限のあるユーザーでログイ"
+"ンするか、システム状態を変更せずにコマンドを実行するには \"--assumeno\" また"
+"は \"--downloadonly\" オプションを使用してください。"
 
 #: main.cpp:1768
 #, c++-format
@@ -2264,16 +2275,16 @@ msgstr "この操作では、トランザクションを {} への保存のみ�
 #: main.cpp:1864
 msgid "The operation will only download packages for the transaction."
 msgstr ""
-"この操作では、トランザクションのためのパッケージのダウンロードのみがされます"
-"。"
+"この操作では、トランザクションのためのパッケージのダウンロードのみがされま"
+"す。"
 
 #: main.cpp:1869
 msgid ""
 "Test mode enabled: Only package downloads, OpenPGP key installations and "
 "transaction checks will be performed."
 msgstr ""
-"テスト モードが有効です: パッケージのダウンロード、OpenPGP キーのインストール"
-"、およびトランザクションのチェックのみが行われます。"
+"テスト モードが有効です: パッケージのダウンロード、OpenPGP キーのインストー"
+"ル、およびトランザクションのチェックのみが行われます。"
 
 #: main.cpp:1878
 #, fuzzy
@@ -2358,8 +2369,8 @@ msgid ""
 "Filters installed packages by the ID of the repository they were installed "
 "from."
 msgstr ""
-"他のインストール済みパッケージに依存しないインストール済みパッケージの"
-"グループを表示"
+"他のインストール済みパッケージに依存しないインストール済みパッケージのグルー"
+"プを表示"
 
 #: shared_options.cpp:220
 msgid "\"--installed-from_repo\" already defined with different value"

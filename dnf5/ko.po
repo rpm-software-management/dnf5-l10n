@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-02 08:43+0000\n"
+"POT-Creation-Date: 2026-11-09 08:53+0000\n"
 "PO-Revision-Date: 2026-11-07 18:18+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
@@ -33,8 +33,8 @@ msgid ""
 "Attached named argument \"{}\" not found: {}: Requested in file \"{}\" on "
 "line {}: {}"
 msgstr ""
-"첨부되어 명명된 인수 \"{}\"를 찾을 수 없습니다: {}: 행에서 파일 \"{}\"로 "
-"요청됨 {}:{}"
+"첨부되어 명명된 인수 \"{}\"를 찾을 수 없습니다: {}: 행에서 파일 \"{}\"로 요청"
+"됨 {}:{}"
 
 #: cmdline_aliases.cpp:159
 #, c++-format
@@ -42,8 +42,8 @@ msgid ""
 "Unknown attribute \"{}\" of attached named argument for alias \"{}\" in file "
 "\"{}\" on line {}: {}"
 msgstr ""
-"행의 파일 \"{}\"에서 별칭 \"{}\"에 부착되어 명명된 인수의 알 수 없는 속성 \""
-"{}\": {}"
+"행의 파일 \"{}\"에서 별칭 \"{}\"에 부착되어 명명된 인수의 알 수 없는 속성 "
+"\"{}\": {}"
 
 #: cmdline_aliases.cpp:171
 #, c++-format
@@ -79,7 +79,8 @@ msgstr "행의 파일 \"{}\"에서 비어 있거나 잘못된 요소 id 경로 {
 #, c++-format
 msgid ""
 "Parent command \"{}\" not found: {}: Requested in file \"{}\" on line {}: {}"
-msgstr "상위 명령 \"{}\"를 찾을 수 없음: {}: 행의 파일 \"{}\"에서 요청됨 {}\" {}"
+msgstr ""
+"상위 명령 \"{}\"를 찾을 수 없음: {}: 행의 파일 \"{}\"에서 요청됨 {}\" {}"
 
 #: cmdline_aliases.cpp:301
 #, c++-format
@@ -96,7 +97,8 @@ msgstr "파일 \"{}\"에서 요소 \"{}\"를 위한 누락된 속성 \"유형\""
 msgid ""
 "Named argument \"{}\" already registered. Requested in file \"{}\" on line "
 "{}: {}"
-msgstr "명명된 인수 \"{}\"는 이미 등록되었습니다. 행의 파일 \"{}\"에서 요청됨 {}: {}"
+msgstr ""
+"명명된 인수 \"{}\"는 이미 등록되었습니다. 행의 파일 \"{}\"에서 요청됨 {}: {}"
 
 #: cmdline_aliases.cpp:347
 #, c++-format
@@ -120,8 +122,8 @@ msgid ""
 "The \"short_name\" attribute of named argument \"{}\" must be one character "
 "long in file \"{}\" on line {}: {}"
 msgstr ""
-"명명된 인수 \"{}\"의 \"short_name\" 속성은 행의 파일 \"{}\"에서 한 문자 "
-"길이여야 합니다 {}: {}"
+"명명된 인수 \"{}\"의 \"short_name\" 속성은 행의 파일 \"{}\"에서 한 문자 길이"
+"여야 합니다 {}: {}"
 
 #: cmdline_aliases.cpp:446
 #, c++-format
@@ -138,7 +140,8 @@ msgstr "그룹 \"{}\"를 찾을 수 없습니다: {}: 행의 파일 \"{}\"에서
 msgid ""
 "Unknown attribute \"{}\" of named argument \"{}\" in file \"{}\" on line {}: "
 "{}"
-msgstr "행의 파일 \"{}\"에서 명명된 인수 \"{}\"의 알 수 없는 속성 \"{}\" {}: {}"
+msgstr ""
+"행의 파일 \"{}\"에서 명명된 인수 \"{}\"의 알 수 없는 속성 \"{}\" {}: {}"
 
 #: cmdline_aliases.cpp:489
 #, c++-format
@@ -151,15 +154,16 @@ msgid ""
 "At least one of the attributes \"long_name\" and \"short_name\" must be set "
 "for named argument \"{}\" in file \"{}\""
 msgstr ""
-"최소한 \"long_name\" 및 \"short_name\" 중에 하나 이상은 파일 \"{}\"에서 "
-"명명된 인수 \"{}\"를 위해 설정해야 합니다"
+"최소한 \"long_name\" 및 \"short_name\" 중에 하나 이상은 파일 \"{}\"에서 명명"
+"된 인수 \"{}\"를 위해 설정해야 합니다"
 
 #: cmdline_aliases.cpp:657
 #, c++-format
 msgid ""
 "Attached command \"{}\" not found: {}: Requested in file \"{}\" on line {}: "
 "{}"
-msgstr "부착된 명령 \"{}\"를 찾을 수 없습니다: {}: 행의 파일 \"{}\"에서 요청됨 {}: {}"
+msgstr ""
+"부착된 명령 \"{}\"를 찾을 수 없습니다: {}: 행의 파일 \"{}\"에서 요청됨 {}: {}"
 
 #: cmdline_aliases.cpp:691
 #, c++-format
@@ -176,15 +180,16 @@ msgid ""
 "Unknown attribute \"{}\" of required value for alias \"{}\" in file \"{}\" "
 "on line {}: {}"
 msgstr ""
-"행의 파일 \"{}\"에서 별칭 \"{}\"를 위한 요청된 값의 알 수 없는 속성 \"{}\" {}"
-": {}"
+"행의 파일 \"{}\"에서 별칭 \"{}\"를 위한 요청된 값의 알 수 없는 속성 \"{}\" "
+"{}: {}"
 
 #: cmdline_aliases.cpp:726
 #, c++-format
 msgid ""
 "Missing attribute \"value_help\" of required value for alias \"{}\" in file "
 "\"{}\""
-msgstr "파일 \"{}\"에서 별칭 \"{}\"를 위해 필요한 값의 누락된 속성 \"value_help\""
+msgstr ""
+"파일 \"{}\"에서 별칭 \"{}\"를 위해 필요한 값의 누락된 속성 \"value_help\""
 
 #: cmdline_aliases.cpp:740
 #, c++-format
@@ -253,7 +258,8 @@ msgstr "설치된 꾸러미의 모든 버전을 포함하는 권고를 표시합
 msgid ""
 "Show advisories containing newer versions of installed packages. This is the "
 "default behavior."
-msgstr "설치된 꾸러미의 신규 버전을 포함하는 권고를 표시합니다. 이는 기본 동작입니다."
+msgstr ""
+"설치된 꾸러미의 신규 버전을 포함하는 권고를 표시합니다. 이는 기본 동작입니다."
 
 #: commands/advisory/arguments.hpp:57
 msgid ""
@@ -265,16 +271,16 @@ msgid ""
 "Show advisories containing newer versions of installed packages for which a "
 "newer version is available."
 msgstr ""
-"신규 버전을 사용 할 수 있는 설치된 꾸러미의 신규 버전을 포함하는 권고를 "
-"표시합니다."
+"신규 버전을 사용 할 수 있는 설치된 꾸러미의 신규 버전을 포함하는 권고를 표시"
+"합니다."
 
 #: commands/advisory/arguments.hpp:82
 msgid ""
 "Show only advisories containing packages with specified names. List option, "
 "supports globs."
 msgstr ""
-"지정된 이름을 갖는 꾸러미를 포함하는 권고만 표시합니다. 옵션을 나열하고, "
-"glob을 지원합니다."
+"지정된 이름을 갖는 꾸러미를 포함하는 권고만 표시합니다. 옵션을 나열하고, glob"
+"을 지원합니다."
 
 #: commands/advisory/arguments.hpp:83 commands/history/arguments.hpp:81
 msgid "PACKAGE_NAME,..."
@@ -341,8 +347,8 @@ msgid ""
 "Include content contained in advisories with specified severity. List "
 "option. Can be \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgstr ""
-"지정된 심각도를 갖는 권고에 담긴 내용을 포함합니다. 옵션 목록. \"심각\", "
-"\"중요\", \"보통\", \"낮음\", \"없음\"이 될 수 있습니다."
+"지정된 심각도를 갖는 권고에 담긴 내용을 포함합니다. 옵션 목록. \"심각\", \"중"
+"요\", \"보통\", \"낮음\", \"없음\"이 될 수 있습니다."
 
 #: commands/advisory_shared.hpp:235
 msgid "ADVISORY_SEVERITY,..."
@@ -352,7 +358,8 @@ msgstr "권고_심각도,..."
 msgid ""
 "Include content contained in advisories that fix a Bugzilla ID, Eg. 123123. "
 "List option."
-msgstr "버그질라 ID (Eg. 123123)에서 수정된 권고에 담긴 내용을 포함합니다. 옵션 목록."
+msgstr ""
+"버그질라 ID (Eg. 123123)에서 수정된 권고에 담긴 내용을 포함합니다. 옵션 목록."
 
 #: commands/advisory_shared.hpp:248
 msgid "BUGZILLA_ID,..."
@@ -363,8 +370,8 @@ msgid ""
 "Include content contained in advisories that fix a CVE (Common "
 "Vulnerabilities and Exposures) ID, Eg. CVE-2201-0123. List option."
 msgstr ""
-"CVE(일반 취약점 및 노출) ID(예: CVE-2201-0123)로 수정된 권고에 담긴 내용을 "
-"포함합니다. 옵션 목록."
+"CVE(일반 취약점 및 노출) ID(예: CVE-2201-0123)로 수정된 권고에 담긴 내용을 포"
+"함합니다. 옵션 목록."
 
 #: commands/advisory_shared.hpp:260
 msgid "CVE_ID,..."
@@ -381,9 +388,8 @@ msgid ""
 "either mark it as user-installed or change protected_packages configuration "
 "option."
 msgstr ""
-"불필요하게 보호된 꾸러미: {0} ( 그리고 해당 의존성) 부분은 제거 될 수 "
-"없으며, 사용자-설치되도록 표시하거나 변경 보호된_꾸러미 구성 옵션을 "
-"변경하세요."
+"불필요하게 보호된 꾸러미: {0} ( 그리고 해당 의존성) 부분은 제거 될 수 없으"
+"며, 사용자-설치되도록 표시하거나 변경 보호된_꾸러미 구성 옵션을 변경하세요."
 
 #: commands/check-upgrade/check-upgrade.cpp:47
 msgid "Check for available package upgrades"
@@ -397,8 +403,8 @@ msgid ""
 "advisories matching selected advisory properties"
 msgstr ""
 "결점 수정, 개선, 보안, 또는 신규 꾸러미 유형의 권고를 수정하는 꾸러미의 최저 "
-"버전을 보고합니다. 옵션을 제한하는 권고가 사용되는 경우 선택한 권고 속성과 "
-"일치하는 권고를 수정하는 최저 버전의 꾸러미를 보고합니다."
+"버전을 보고합니다. 옵션을 제한하는 권고가 사용되는 경우 선택한 권고 속성과 일"
+"치하는 권고를 수정하는 최저 버전의 꾸러미를 보고합니다."
 
 #: commands/check/check.cpp:247
 msgid "Check for problems in the packagedb"
@@ -500,7 +506,8 @@ msgstr "소프트웨어 하향설치"
 
 #: commands/download/download.cpp:123
 msgid "When running with --url, prints URLs from all available mirrors"
-msgstr "--url 과 함께 사용하여 실행하면, 모든 사용 가능한 미러에서 URL을 출력합니다"
+msgstr ""
+"--url 과 함께 사용하여 실행하면, 모든 사용 가능한 미러에서 URL을 출력합니다"
 
 #: commands/download/download.cpp:139
 #, c++-format
@@ -522,8 +529,8 @@ msgstr "옵션 \"--alldeps\"은 \"--resolve\"와 함께 사용 될 수 있습니
 msgid ""
 "No package \"{}\" available; You might want to use --skip-unavailable option."
 msgstr ""
-"사용 가능한 \"{}\" 꾸러미가 없습니다; --skip-unavailable 선택을 사용하고 "
-"싶을 수도 있습니다."
+"사용 가능한 \"{}\" 꾸러미가 없습니다; --skip-unavailable 선택을 사용하고 싶"
+"을 수도 있습니다."
 
 #: commands/environment/arguments.hpp:33
 msgid "Show only available environments."
@@ -573,8 +580,8 @@ msgid ""
 "Show only groups containing packages with specified names. List option, "
 "supports globs."
 msgstr ""
-"지정된 이름을 갖는 꾸러미가 포함된 그룹만 표시합니다. 옵션 목록, "
-"와일드카드를 지원합니다."
+"지정된 이름을 갖는 꾸러미가 포함된 그룹만 표시합니다. 옵션 목록, 와일드카드"
+"를 지원합니다."
 
 #: commands/group/arguments.hpp:67
 msgid "Pattern matching group identifiers."
@@ -633,9 +640,9 @@ msgid ""
 "as errors. This can result in an empty transaction because among other "
 "things the option can ignore failing Remove actions."
 msgstr ""
-"오류가 있는 설치되었거나 저장된 연결 꾸러미 사이에서 불일치를 고려하지 "
-"마세요. 무엇보다도 이 옵션은 실패한 제거 작업들 무시 할 수 있기 때문에 빈 "
-"연결이 나타 날 수 있습니다."
+"오류가 있는 설치되었거나 저장된 연결 꾸러미 사이에서 불일치를 고려하지 마세"
+"요. 무엇보다도 이 옵션은 실패한 제거 작업들 무시 할 수 있기 때문에 빈 연결이 "
+"나타 날 수 있습니다."
 
 #: commands/history/arguments.hpp:67
 msgid "Don't consider extra packages pulled into the transaction as errors."
@@ -646,8 +653,8 @@ msgid ""
 "Show only transactions containing packages with specified names. List "
 "option, supports globs."
 msgstr ""
-"지정된 이름을 갖는 꾸러미가 포함된 연결만 표시합니다. 옵션 목록, "
-"와일드카드를 지원."
+"지정된 이름을 갖는 꾸러미가 포함된 연결만 표시합니다. 옵션 목록, 와일드카드"
+"를 지원."
 
 #: commands/history/history.cpp:41
 msgid "Manage transaction history"
@@ -658,22 +665,23 @@ msgid ""
 "No match found, history info defaults to considering only the last "
 "transaction, specify \"1..last\" range to search all transactions."
 msgstr ""
-"일치하는 내용이 없으며, 기록 정보는 최종 연결만 고려하고, 모든 연결을 "
-"검색하려면 \"1..last\" 범위를 지정하세요."
+"일치하는 내용이 없으며, 기록 정보는 최종 연결만 고려하고, 모든 연결을 검색하"
+"려면 \"1..last\" 범위를 지정하세요."
 
 #: commands/history/history_redo.cpp:56
 #: commands/history/history_rollback.cpp:60
 #: commands/history/history_store.cpp:65 commands/history/history_undo.cpp:59
 msgid "No matching transaction ID found, exactly one required."
-msgstr "일치하는 트랜잭션 ID가 없습니다. 정확히 하나의 트랜잭션 ID가 필요합니다."
+msgstr ""
+"일치하는 트랜잭션 ID가 없습니다. 정확히 하나의 트랜잭션 ID가 필요합니다."
 
 #: commands/history/history_redo.cpp:60
 #: commands/history/history_rollback.cpp:64
 #: commands/history/history_undo.cpp:63
 msgid "Matched more than one transaction ID, exactly one required."
 msgstr ""
-"일치하는 트랜잭션 ID가 여러 개 있습니다. 정확히 하나의 트랜잭션 ID가 "
-"필요합니다."
+"일치하는 트랜잭션 ID가 여러 개 있습니다. 정확히 하나의 트랜잭션 ID가 필요합니"
+"다."
 
 #: commands/history/history_store.cpp:68
 msgid "Multiple transactions selected for storing, only one allowed."
@@ -690,8 +698,8 @@ msgid ""
 "Invalid transaction ID range \"{}\", \"ID\" or \"ID..ID\" expected, where ID "
 "is \"NUMBER\", \"last\" or \"last-NUMBER\"."
 msgstr ""
-"잘못된 트랜잭션 ID 범위 \"{}\"입니다. \"ID\" 또는 \"ID..ID\" 형식으로 "
-"지정해야 하며, ID는 \"NUMBER\", \"last\" 또는 \"last-NUMBER\"여야 합니다."
+"잘못된 트랜잭션 ID 범위 \"{}\"입니다. \"ID\" 또는 \"ID..ID\" 형식으로 지정해"
+"야 하며, ID는 \"NUMBER\", \"last\" 또는 \"last-NUMBER\"여야 합니다."
 
 #: commands/install/install.cpp:41
 msgid "Install software"
@@ -737,8 +745,8 @@ msgid ""
 "List packages installed on the system that are obsoleted by packages in any "
 "known repository."
 msgstr ""
-"모든 알려진 저장소의 꾸러미들에 의해 더 이상 사용하지 않는 시스템에 설치된 "
-"꾸러미 목록."
+"모든 알려진 저장소의 꾸러미들에 의해 더 이상 사용하지 않는 시스템에 설치된 꾸"
+"러미 목록."
 
 #: commands/list/list.cpp:94
 msgid "List packages recently added into the repositories."
@@ -826,8 +834,8 @@ msgid ""
 "No repositories were loaded from the installroot. To use the configuration "
 "and repositories of the host system, pass --use-host-config."
 msgstr ""
-"installroot에서 어떤 저장소도 적재되지 않았습니다. 호스트 시스템의 구성 및 "
-"저장소를 사용하려면, --use-host-conifg를 전달하세요."
+"installroot에서 어떤 저장소도 적재되지 않았습니다. 호스트 시스템의 구성 및 저"
+"장소를 사용하려면, --use-host-conifg를 전달하세요."
 
 #: commands/no_matches.cpp:78 commands/no_matches.hpp:45
 msgid "No matches found."
@@ -857,8 +865,8 @@ msgid ""
 "The system has been modified since the offline transaction was prepared. To "
 "reschedule, run: {}"
 msgstr ""
-"오프라인 트랜잭션을 준비한 이후 시스템이 변경되었습니다. 다시 예약하려면 "
-"다음 명령을 실행하세요: {}"
+"오프라인 트랜잭션을 준비한 이후 시스템이 변경되었습니다. 다시 예약하려면 다"
+"음 명령을 실행하세요: {}"
 
 #: commands/offline/offline.cpp:293
 #, c++-format
@@ -882,8 +890,8 @@ msgid ""
 "Prepare the system to perform the offline transaction and reboot to start "
 "the transaction."
 msgstr ""
-"오프라인 트랜잭션을 수행할 수 있도록 시스템을 준비하고, 재부팅하여 "
-"트랜잭션을 시작합니다."
+"오프라인 트랜잭션을 수행할 수 있도록 시스템을 준비하고, 재부팅하여 트랜잭션"
+"을 시작합니다."
 
 #: commands/offline/offline.cpp:418
 msgid "Power off the system after the operation is complete"
@@ -917,16 +925,16 @@ msgid ""
 "The system will now reboot to perform the offline transaction initiated by "
 "the following command:"
 msgstr ""
-"다음 명령으로 시작한 오프라인 트랜잭션을 수행하기 위해 시스템을 지금 "
-"재부팅합니다:"
+"다음 명령으로 시작한 오프라인 트랜잭션을 수행하기 위해 시스템을 지금 재부팅합"
+"니다:"
 
 #: commands/offline/offline.cpp:511
 msgid ""
 "Internal use only, not intended to be run by the user. Execute the "
 "transaction in the offline environment."
 msgstr ""
-"내부 전용이며, 사용자가 직접 실행하는 용도가 아닙니다. 오프라인 환경에서 "
-"트랜잭션을 실행합니다."
+"내부 전용이며, 사용자가 직접 실행하는 용도가 아닙니다. 오프라인 환경에서 트랜"
+"잭션을 실행합니다."
 
 #: commands/offline/offline.cpp:545
 msgid "Trigger file does not exist. Exiting."
@@ -986,8 +994,8 @@ msgstr "이전 오프라인 트랜잭션의 로그를 표시합니다"
 msgid ""
 "Which log to show. Run without any arguments to get a list of available logs."
 msgstr ""
-"표시할 로그를 지정합니다. 사용 가능한 로그 목록을 보려면 인수 없이 "
-"실행하세요."
+"표시할 로그를 지정합니다. 사용 가능한 로그 목록을 보려면 인수 없이 실행하세"
+"요."
 
 #: commands/offline/offline.cpp:817
 msgid ""
@@ -1006,15 +1014,15 @@ msgid ""
 "The system has been modified since the offline transaction was prepared. The "
 "offline transaction initiated by the following command is no longer valid:"
 msgstr ""
-"오프라인 트랜잭션을 준비한 이후 시스템이 변경되었습니다. 다음 명령으로 "
-"시작한 오프라인 트랜잭션은 더 이상 유효하지 않습니다:"
+"오프라인 트랜잭션을 준비한 이후 시스템이 변경되었습니다. 다음 명령으로 시작"
+"한 오프라인 트랜잭션은 더 이상 유효하지 않습니다:"
 
 #: commands/offline/offline.cpp:842
 msgid ""
 "To reschedule, run the command above. To clean up, run `dnf5 offline clean`."
 msgstr ""
-"다시 예약하려면 위 명령을 실행하세요. 정리하려면 `dnf5 offline clean`을 "
-"실행하세요."
+"다시 예약하려면 위 명령을 실행하세요. 정리하려면 `dnf5 offline clean`을 실행"
+"하세요."
 
 #: commands/offline/offline.cpp:846
 msgid "An offline transaction was initiated by the following command:"
@@ -1023,16 +1031,16 @@ msgstr "다음 명령으로 오프라인 트랜잭션이 시작되었습니다:"
 #: commands/offline/offline.cpp:848
 msgid ""
 "Run `dnf5 offline reboot` to reboot and perform the offline transaction."
-msgstr "재부팅하여 오프라인 트랜잭션을 수행하려면 `dnf5 offline reboot`를 실행하세요."
+msgstr ""
+"재부팅하여 오프라인 트랜잭션을 수행하려면 `dnf5 offline reboot`를 실행하세요."
 
 #: commands/offline/offline.cpp:850
 msgid ""
 "An offline transaction was started, but it did not finish. Run `dnf5 offline "
 "log` for more information. The command that initiated the transaction was:"
 msgstr ""
-"오프라인 트랜잭션이 시작되었지만 완료되지 않았습니다. 자세한 내용을 "
-"확인하려면 `dnf5 offline log`를 실행하세요. 트랜잭션을 시작한 명령은 다음과 "
-"같습니다:"
+"오프라인 트랜잭션이 시작되었지만 완료되지 않았습니다. 자세한 내용을 확인하려"
+"면 `dnf5 offline log`를 실행하세요. 트랜잭션을 시작한 명령은 다음과 같습니다:"
 
 #: commands/offline/offline.cpp:855
 msgid "Unknown offline transaction status: "
@@ -1047,8 +1055,8 @@ msgid ""
 "If searching for a file, try specifying the full path or using a wildcard "
 "prefix (\"*/\") at the beginning."
 msgstr ""
-"일치되는 점을 찾지 못했습니다. 만약 파일을 위해 검색하고자 한다면, 전체 "
-"경로를 지정 하거나 시작에서 와일드카드 접두사 (\"*/\")를 사용하여 시도하세요."
+"일치되는 점을 찾지 못했습니다. 만약 파일을 위해 검색하고자 한다면, 전체 경로"
+"를 지정 하거나 시작에서 와일드카드 접두사 (\"*/\")를 사용하여 시도하세요."
 
 #: commands/reinstall/reinstall.cpp:40
 msgid "Reinstall software"
@@ -1062,21 +1070,22 @@ msgstr "소프트웨어 제거(설치 해제)"
 msgid ""
 "Option '--limit' must be equal or greater than 1 (to keep at least the "
 "newest installed package)."
-msgstr "'--limit' 옵션은 1 이상이어야 합니다(최소한 최근 설치된 꾸러미를 유지하도록)."
+msgstr ""
+"'--limit' 옵션은 1 이상이어야 합니다(최소한 최근 설치된 꾸러미를 유지하도록)."
 
 #: commands/remove/remove.cpp:237
 msgid "Option '--limit' can only be used with '--oldinstallonly'."
 msgstr ""
-"'--limit' 옵션은 '--oldinstallonly' 옵션과 함께 사용할 때만 지정할 수 "
-"있습니다."
+"'--limit' 옵션은 '--oldinstallonly' 옵션과 함께 사용할 때만 지정할 수 있습니"
+"다."
 
 #: commands/remove/remove.cpp:242
 msgid ""
 "Missing positional arguments for \"remove\" command. Add \"--help\" for more "
 "information about the arguments."
 msgstr ""
-"\"remove\" 명령에 필요한 위치 인수가 누락되었습니다. 인수에 대한 자세한 "
-"내용을 보려면 \"--help\" 옵션을 추가하세요."
+"\"remove\" 명령에 필요한 위치 인수가 누락되었습니다. 인수에 대한 자세한 내용"
+"을 보려면 \"--help\" 옵션을 추가하세요."
 
 #: commands/remove/remove.cpp:269
 #, c++-format
@@ -1085,9 +1094,8 @@ msgid ""
 "version and was not removed. Please reboot into the latest kernel and run "
 "this command again to complete the cleanup."
 msgstr ""
-"경고: 현재 실행 중인 커널 '{}'은 설치된 최신 버전이 아니며, 제거되지 "
-"않았습니다. 정리를 완료하려면 최신 커널로 재부팅한 후 이 명령을 다시 "
-"실행하세요."
+"경고: 현재 실행 중인 커널 '{}'은 설치된 최신 버전이 아니며, 제거되지 않았습니"
+"다. 정리를 완료하려면 최신 커널로 재부팅한 후 이 명령을 다시 실행하세요."
 
 #: commands/replay/replay.cpp:38
 msgid "Replay a transaction that was previously stored to a directory"
@@ -1130,8 +1138,8 @@ msgid ""
 "Option \"--recursive\" has to be used either with \"--whatrequires\" or \"--"
 "providers-of=requires\""
 msgstr ""
-"\"--recursive\" 옵션은 \"--whatrequires\" 또는 \"--providers-of=requires\" "
-"옵션과 함께 사용해야 합니다"
+"\"--recursive\" 옵션은 \"--whatrequires\" 또는 \"--providers-of=requires\" 옵"
+"션과 함께 사용해야 합니다"
 
 #: commands/search/arguments.hpp:37
 msgid "Search also package description and URL."
@@ -1170,8 +1178,8 @@ msgid ""
 "Do not install packages from the new release if they are older than what is "
 "currently installed"
 msgstr ""
-"만약 현재 설치된 것보다 오래된 경우라면 신규 출시에서 꾸러미를 설치하지 "
-"않습니다"
+"만약 현재 설치된 것보다 오래된 경우라면 신규 출시에서 꾸러미를 설치하지 않습"
+"니다"
 
 #: commands/system-upgrade/system-upgrade.cpp:101
 msgid "Need a --releasever greater than the current system version."
@@ -1196,10 +1204,9 @@ msgid ""
 "limiting advisories is used it upgrades packages only to the lowest versions "
 "that fix advisories that matching selected advisory property"
 msgstr ""
-"결점수정, 향상, 보안, 또는 신규꾸러미 유형의 권고를 수정하도록 최저 "
-"버전으로만 꾸러미를 향상합니다. 권고를 제한하는 옵션이 사용되는 경우에 "
-"선택된 권고 속성과 일치하는 권고를 수정하도록 최소 버전으로만 꾸러미를 "
-"향상합니다"
+"결점수정, 향상, 보안, 또는 신규꾸러미 유형의 권고를 수정하도록 최저 버전으로"
+"만 꾸러미를 향상합니다. 권고를 제한하는 옵션이 사용되는 경우에 선택된 권고 속"
+"성과 일치하는 권고를 수정하도록 최소 버전으로만 꾸러미를 향상합니다"
 
 #. TODO(mblaha): add full command line
 #: commands/versionlock/utils.cpp:35
@@ -1260,8 +1267,8 @@ msgid ""
 "List of packages to exclude. If no version is specified, all available "
 "versions of the package will be excluded."
 msgstr ""
-"제외되는 꾸러미 목록. 만약 버전을 지정하지 않으면, 모든 사용 가능한 해당 "
-"꾸러미 버전이 제외됩니다."
+"제외되는 꾸러미 목록. 만약 버전을 지정하지 않으면, 모든 사용 가능한 해당 꾸러"
+"미 버전이 제외됩니다."
 
 #: commands/versionlock/versionlock_exclude.cpp:91
 #: commands/versionlock/versionlock_exclude.cpp:103
@@ -1393,16 +1400,16 @@ msgid ""
 "Waiting for a lock on the system repository; another process is currently "
 "accessing it. Use the \"--skip-file-locks\" option to bypass the lock."
 msgstr ""
-"다른 프로세스가 시스템 저장소에 접근하고 있어 잠금이 해제되기를 기다리는 "
-"중입니다. 잠금을 우회하려면 \"--skip-file-locks\" 옵션을 사용하세요."
+"다른 프로세스가 시스템 저장소에 접근하고 있어 잠금이 해제되기를 기다리는 중입"
+"니다. 잠금을 우회하려면 \"--skip-file-locks\" 옵션을 사용하세요."
 
 #: context.cpp:306
 msgid ""
 "Waiting for a lock on the system repository. The following processes are "
 "currently accessing it:"
 msgstr ""
-"시스템 저장소의 잠금이 해제되기를 기다리는 중입니다. 현재 다음 프로세스가 "
-"저장소에 접근하고 있습니다:"
+"시스템 저장소의 잠금이 해제되기를 기다리는 중입니다. 현재 다음 프로세스가 저"
+"장소에 접근하고 있습니다:"
 
 #: context.cpp:316
 msgid "Use the \"--skip-file-locks\" option to bypass the lock."
@@ -1441,7 +1448,8 @@ msgstr "  - {}"
 msgid ""
 "Location \"{}\" already contains a stored transaction, it will be "
 "overwritten."
-msgstr "위치 \"{}\"에 저장된 트랜잭션이 이미 있습니다. 기존 트랜잭션을 덮어씁니다."
+msgstr ""
+"위치 \"{}\"에 저장된 트랜잭션이 이미 있습니다. 기존 트랜잭션을 덮어씁니다."
 
 #: context.cpp:538
 msgid ""
@@ -1453,7 +1461,8 @@ msgstr "다음 명령으로 시작한 오프라인 트랜잭션이 이미 대기
 msgid ""
 "Continuing will cancel the old offline transaction and replace it with this "
 "one."
-msgstr "계속 진행하면 기존 오프라인 트랜잭션이 취소되고 새 트랜잭션으로 대체됩니다."
+msgstr ""
+"계속 진행하면 기존 오프라인 트랜잭션이 취소되고 새 트랜잭션으로 대체됩니다."
 
 #: context.cpp:559
 msgid ""
@@ -1599,16 +1608,16 @@ msgid ""
 "content. Suppresses messages notifying about the current state or actions of "
 "dnf5."
 msgstr ""
-"비대화형 명령과 함께 사용하면 관련 내용만 표시합니다. dnf5의 현재 상태나 "
-"작업을 알리는 메시지는 표시하지 않습니다."
+"비대화형 명령과 함께 사용하면 관련 내용만 표시합니다. dnf5의 현재 상태나 작업"
+"을 알리는 메시지는 표시하지 않습니다."
 
 #: main.cpp:196
 msgid ""
 "Run entirely from system cache, don't update the cache and use it even in "
 "case it is expired."
 msgstr ""
-"시스템 캐쉬에서 전체를 동작하며, 캐쉬를 최신화 하지 않고 만료된 경우라도 "
-"사용합니다."
+"시스템 캐쉬에서 전체를 동작하며, 캐쉬를 최신화 하지 않고 만료된 경우라도 사용"
+"합니다."
 
 #: main.cpp:205
 msgid "Control whether color is used."
@@ -1646,10 +1655,10 @@ msgid ""
 "              they do not override it. However, specifying an empty value "
 "(e.g. --setopt=tsflags=) will clear the option."
 msgstr ""
-"설정 파일에 지정된 옵션 값을 재정의합니다. 저장소용 구성 옵션을 "
-"재정의하려면, repoid.option을 사용하세요\n"
-"              <option>.  excludepkgs, includepkgs, installonlypkgs 및 "
-"tsflags와 같은 구성 옵션용  Values  은 원래 값으로 추가되었으며,\n"
+"설정 파일에 지정된 옵션 값을 재정의합니다. 저장소용 구성 옵션을 재정의하려"
+"면, repoid.option을 사용하세요\n"
+"              <option>.  excludepkgs, includepkgs, installonlypkgs 및 tsflags"
+"와 같은 구성 옵션용  Values  은 원래 값으로 추가되었으며,\n"
 "              이는 재정의 하지 않습니다. 단, 빈 값(예: --setopt=tsflags=)을 "
 "지정하면 해당 옵션의 값이 지워집니다."
 
@@ -1662,7 +1671,8 @@ msgstr "{}: 인수 값 \"{}\"의 형식이 잘못되었습니다"
 #, c++-format
 msgid ""
 "{}: Badly formatted argument value: Last key character cannot be '.': {}"
-msgstr "{}: 인수 값의 형식이 잘못되었습니다. 키의 마지막 문자는 '.'일 수 없습니다: {}"
+msgstr ""
+"{}: 인수 값의 형식이 잘못되었습니다. 키의 마지막 문자는 '.'일 수 없습니다: {}"
 
 #: main.cpp:292
 #, c++-format
@@ -1707,53 +1717,54 @@ msgid ""
 "Allow switching packages from any vendor to packages from VENDOR. Supports "
 "globs, can be specified multiple times."
 msgstr ""
-"모든 공급업체에서 VENDOR의 꾸러미로 변경된 꾸러미를 허용합니다.와일드카드 "
-"유형을 지원하며, 여러 번 지정 할 수 있습니다."
+"모든 공급업체에서 VENDOR의 꾸러미로 변경된 꾸러미를 허용합니다.와일드카드 유"
+"형을 지원하며, 여러 번 지정 할 수 있습니다."
 
 #: main.cpp:396
 msgid ""
 "Allow replacing packages from VENDOR to packages from any vendor. Supports "
 "globs, can be specified multiple times."
 msgstr ""
-"공급업체의 꾸러미를 모든 공급업체의 꾸러미로 교체 할 수 있도록 허용합니다. "
-"와일드카드 유형을 지원하며, 여러 번 지정 할 수 있습니다."
+"공급업체의 꾸러미를 모든 공급업체의 꾸러미로 교체 할 수 있도록 허용합니다. 와"
+"일드카드 유형을 지원하며, 여러 번 지정 할 수 있습니다."
 
 #: main.cpp:415
 msgid ""
 "Allow vendor changes for packages matching PKG_NAME (bidirectional). List "
 "option. Supports globs, can be specified multiple times."
 msgstr ""
-"PKG_NAME (양방향)과 일치하는 꾸러미를 위한 제조사 변경을 허용합니다. 목록 "
-"옵션. 와일드카드 유형을 지원하며, 여러 번 지정 할 수 있습니다."
+"PKG_NAME (양방향)과 일치하는 꾸러미를 위한 제조사 변경을 허용합니다. 목록 옵"
+"션. 와일드카드 유형을 지원하며, 여러 번 지정 할 수 있습니다."
 
 #: main.cpp:444
 msgid ""
 "Add a vendor change policy for this run. Can be specified multiple times."
 msgstr ""
-"이와 같은 동작을 위한 제조사 변경 정책을 추가합니다. 여러 번 지정 할 수 "
-"있습니다."
+"이와 같은 동작을 위한 제조사 변경 정책을 추가합니다. 여러 번 지정 할 수 있습"
+"니다."
 
 #: main.cpp:459
 #, c++-format
 msgid ""
 "Remove all vendor change policies. Can be combined with {} to replace them."
 msgstr ""
-"모든 공급업체 변경 정책을 제거합니다. {} 와 함께 연결 할 수 있고 이를 "
-"대체합니다."
+"모든 공급업체 변경 정책을 제거합니다. {} 와 함께 연결 할 수 있고 이를 대체합"
+"니다."
 
 #: main.cpp:478
 msgid ""
 "Disable vendor change policies whose source matches the specified pattern. "
 "Supports globs, can be specified multiple times."
 msgstr ""
-"원천이 지정된 유형과 일치하는 공급업체 정책을 비활성합니다. 와일드카드 "
-"유형을 지원하며, 여러 번 지정 할 수 있습니다."
+"원천이 지정된 유형과 일치하는 공급업체 정책을 비활성합니다. 와일드카드 유형"
+"을 지원하며, 여러 번 지정 할 수 있습니다."
 
 #: main.cpp:495
 msgid ""
 "Don't install files that are marked as documentation (which includes man "
 "pages and texinfo documents)"
-msgstr "문서로 표시된 파일을 설치하지 않습니다(man 페이지 및 texinfo 문서 포함)"
+msgstr ""
+"문서로 표시된 파일을 설치하지 않습니다(man 페이지 및 texinfo 문서 포함)"
 
 #: main.cpp:511
 msgid "exclude packages by name or glob"
@@ -1764,8 +1775,8 @@ msgid ""
 "Enable additional repositories. List option. Supports globs, can be "
 "specified multiple times."
 msgstr ""
-"추가 저장소를 활성화합니다. 목록 형식의 옵션입니다. 와일드카드 패턴을 "
-"지원하며, 여러 번 지정할 수 있습니다."
+"추가 저장소를 활성화합니다. 목록 형식의 옵션입니다. 와일드카드 패턴을 지원하"
+"며, 여러 번 지정할 수 있습니다."
 
 #: main.cpp:548
 msgid ""
@@ -1780,8 +1791,8 @@ msgid ""
 "Enable just specific repositories. List option. Supports globs, can be "
 "specified multiple times."
 msgstr ""
-"지정한 저장소만 활성화합니다. 목록 형식의 옵션입니다. 와일드카드 패턴을 "
-"지원하며, 여러 번 지정할 수 있습니다."
+"지정한 저장소만 활성화합니다. 목록 형식의 옵션입니다. 와일드카드 패턴을 지원"
+"하며, 여러 번 지정할 수 있습니다."
 
 #: main.cpp:588
 msgid "disable OpenPGP signature checking (if RPM policy allows)"
@@ -1804,8 +1815,8 @@ msgid ""
 "Disable libdnf5 plugins by name. List option. Supports globs, can be "
 "specified multiple times."
 msgstr ""
-"이름으로 libdnf5 플러그인을 비활성화합니다. 목록 형식의 옵션입니다. "
-"와일드카드 패턴을 지원하며, 여러 번 지정할 수 있습니다."
+"이름으로 libdnf5 플러그인을 비활성화합니다. 목록 형식의 옵션입니다. 와일드카"
+"드 패턴을 지원하며, 여러 번 지정할 수 있습니다."
 
 #: main.cpp:647
 msgid "add a comment to transaction"
@@ -1816,8 +1827,8 @@ msgid ""
 "Adds a comment to the action. If a transaction takes place, the comment is "
 "stored in it."
 msgstr ""
-"작업에 설명을 추가합니다. 트랜잭션이 수행되면 해당 설명이 트랜잭션에 "
-"저장됩니다."
+"작업에 설명을 추가합니다. 트랜잭션이 수행되면 해당 설명이 트랜잭션에 저장됩니"
+"다."
 
 #: main.cpp:662
 msgid "set install root"
@@ -1859,8 +1870,8 @@ msgstr "주요 설정 값을 표준 출력으로 출력합니다"
 msgid ""
 "Print repository configuration values to stdout. List option. Supports globs"
 msgstr ""
-"저장소 설정 값을 표준 출력으로 출력합니다. 목록 형식의 옵션입니다. "
-"와일드카드 패턴을 지원합니다"
+"저장소 설정 값을 표준 출력으로 출력합니다. 목록 형식의 옵션입니다. 와일드카"
+"드 패턴을 지원합니다"
 
 #: main.cpp:772
 msgid "Print variable values to stdout"
@@ -1951,8 +1962,8 @@ msgstr ""
 msgid ""
 "Total size of inbound packages is {:.0f} {:s}. Need to download {:.0f} {:s}."
 msgstr ""
-"들어온 꾸러미의 크기 합계는 {:.0f} {:s}입니다. {:.0f} {:s} 내려받기가 "
-"필요합니다."
+"들어온 꾸러미의 크기 합계는 {:.0f} {:s}입니다. {:.0f} {:s} 내려받기가 필요합"
+"니다."
 
 #: main.cpp:1076
 #, c++-format
@@ -2004,8 +2015,8 @@ msgid ""
 "allow_vendor_change is enabled. Packages can be replaced by any vendor, and "
 "vendor change policies will be ignored."
 msgstr ""
-"공급업체_변경_허용이 활성화되었습니다. 꾸러미는 모든 공급업체로 대체 될 수 "
-"있고 공급업체 정책은 무시 될 수 있습니다."
+"공급업체_변경_허용이 활성화되었습니다. 꾸러미는 모든 공급업체로 대체 될 수 있"
+"고 공급업체 정책은 무시 될 수 있습니다."
 
 #: main.cpp:1217
 msgid "New leaves:"
@@ -2034,8 +2045,8 @@ msgid ""
 "option can ignore failing Remove actions."
 msgstr ""
 "설치되고 저장된 연결 꾸러미 사이에서 불일치를 허용하는 {}. 이는 다른 옵션 중 "
-"하나가 실패한 제거 작업을 무시 할 수 있기 때문에 빈 연결로 나타 날 수 "
-"있습니다."
+"하나가 실패한 제거 작업을 무시 할 수 있기 때문에 빈 연결로 나타 날 수 있습니"
+"다."
 
 #: main.cpp:1356
 #, c++-format
@@ -2087,8 +2098,8 @@ msgid ""
 "No matches were found for the following plugin name patterns while enabling "
 "libdnf plugins: {}"
 msgstr ""
-"libdnf 플러그인을 활성화하는 중 다음 플러그인 이름 패턴과 일치하는 항목을 "
-"찾을 수 없습니다: {}"
+"libdnf 플러그인을 활성화하는 중 다음 플러그인 이름 패턴과 일치하는 항목을 찾"
+"을 수 없습니다: {}"
 
 #: main.cpp:1422
 #, c++-format
@@ -2154,9 +2165,9 @@ msgid ""
 "user with elevated rights, or use the \"--assumeno\" or \"--downloadonly\" "
 "options to run the command without modifying the system state."
 msgstr ""
-"요청한 작업에는 슈퍼유저 권한이 필요합니다. 관리자 권한이 있는 사용자로 "
-"로그인하거나, \"--assumeno\" 또는 \"--downloadonly\" 옵션을 사용하여 시스템 "
-"상태를 변경하지 않고 명령을 실행하세요."
+"요청한 작업에는 슈퍼유저 권한이 필요합니다. 관리자 권한이 있는 사용자로 로그"
+"인하거나, \"--assumeno\" 또는 \"--downloadonly\" 옵션을 사용하여 시스템 상태"
+"를 변경하지 않고 명령을 실행하세요."
 
 #: main.cpp:1768
 #, c++-format
@@ -2169,9 +2180,8 @@ msgid ""
 "or immutable operating system. For more information, refer to your "
 "distribution's documentation."
 msgstr ""
-"오류: /usr가 읽기 전용으로 설정되어 있습니다. 이미지 기반 또는 불변 운영 "
-"체제를 사용 중일 수 있습니다. 자세한 내용은 사용 중인 배포판의 문서를 "
-"참조하세요."
+"오류: /usr가 읽기 전용으로 설정되어 있습니다. 이미지 기반 또는 불변 운영 체제"
+"를 사용 중일 수 있습니다. 자세한 내용은 사용 중인 배포판의 문서를 참조하세요."
 
 #: main.cpp:1800
 msgid ""
@@ -2179,9 +2189,9 @@ msgid ""
 "transient to perform this operation in a transient overlay which will reset "
 "when the system reboots."
 msgstr ""
-"오류: bootc 시스템에서는 영구 트랜잭션을 지원하지 않습니다. --transient "
-"옵션을 지정하면 시스템을 재부팅할 때 초기화되는 임시 오버레이에서 이 작업을 "
-"수행할 수 있습니다."
+"오류: bootc 시스템에서는 영구 트랜잭션을 지원하지 않습니다. --transient 옵션"
+"을 지정하면 시스템을 재부팅할 때 초기화되는 임시 오버레이에서 이 작업을 수행"
+"할 수 있습니다."
 
 #: main.cpp:1810
 msgid ""
@@ -2189,9 +2199,8 @@ msgid ""
 "perform this operation in a transient overlay which will reset when the "
 "system reboots."
 msgstr ""
-"bootc 시스템은 읽기-전용이 되도록 구성되었습니다. --transient 를 전달하여 "
-"시스템이 재시작 될 때에 재지정되도록 일시적인 씌우기로 해당 연결을 "
-"수행합니다."
+"bootc 시스템은 읽기-전용이 되도록 구성되었습니다. --transient 를 전달하여 시"
+"스템이 재시작 될 때에 재지정되도록 일시적인 씌우기로 해당 연결을 수행합니다."
 
 #: main.cpp:1821
 msgid "Error: transient transactions are only supported on bootc systems."
@@ -2211,8 +2220,8 @@ msgid ""
 "Test mode enabled: Only package downloads, OpenPGP key installations and "
 "transaction checks will be performed."
 msgstr ""
-"시험 방식 활성화됨: 꾸러미 내려받기, OpenPGP 키 설치 및 연결 점검만 "
-"수행됩니다."
+"시험 방식 활성화됨: 꾸러미 내려받기, OpenPGP 키 설치 및 연결 점검만 수행됩니"
+"다."
 
 #: main.cpp:1878
 msgid "Warning: A pending offline transaction will be invalidated."
@@ -2223,7 +2232,8 @@ msgstr "경고: 대기 중인 오프라인 트랜잭션이 무효화되었습니
 msgid ""
 "Warning: A pending offline transaction initiated by the following command "
 "will be invalidated: {}"
-msgstr "경고: 다음 명령으로 시작한 대기 중인 오프라인 트랜잭션이 무효화됩니다: {}"
+msgstr ""
+"경고: 다음 명령으로 시작한 대기 중인 오프라인 트랜잭션이 무효화됩니다: {}"
 
 #: main.cpp:1906
 msgid ""
@@ -2250,8 +2260,8 @@ msgid ""
 "packages commonly modify these directories."
 msgstr ""
 "일시적인 씌우기는 재시작에서 삭제되고 /usr에서 생성됩니다. /etc 및 /var로의 "
-"변경 사항은 여전히 지속된다는 점을 명심하고, 꾸러미는 일반적으로 이들 "
-"디렉토리에서 수정합니다."
+"변경 사항은 여전히 지속된다는 점을 명심하고, 꾸러미는 일반적으로 이들 디렉토"
+"리에서 수정합니다."
 
 #: main.cpp:1963
 #, c++-format
@@ -2283,8 +2293,8 @@ msgid ""
 "The following items can be selected only from the specified repositories. "
 "All enabled repositories will still be used to satisfy dependencies."
 msgstr ""
-"다음 항목은 지정한 저장소에서만 선택할 수 있습니다. 의존성을 충족하는 데는 "
-"활성화된 모든 저장소가 계속 사용됩니다."
+"다음 항목은 지정한 저장소에서만 선택할 수 있습니다. 의존성을 충족하는 데는 활"
+"성화된 모든 저장소가 계속 사용됩니다."
 
 #: shared_options.cpp:178 shared_options.cpp:211
 msgid "REPO_ID,..."
@@ -2310,8 +2320,8 @@ msgid ""
 "vendor is ignored or vendor change policies (if allow_vendor_change=0) will "
 "still be used for items that satisfy dependencies."
 msgstr ""
-"다음 항목은 지정한 공급업체에서만 선택할 수 있습니다. 의존성을 충족하는 "
-"항목에는 공급업체 제한이 적용되지 않거나, 공급업체 변경 정책"
+"다음 항목은 지정한 공급업체에서만 선택할 수 있습니다. 의존성을 충족하는 항목"
+"에는 공급업체 제한이 적용되지 않거나, 공급업체 변경 정책"
 "(allow_vendor_change=0인 경우)이 계속 적용됩니다."
 
 #: shared_options.cpp:239

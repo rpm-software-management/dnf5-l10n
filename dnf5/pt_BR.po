@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-02 08:43+0000\n"
+"POT-Creation-Date: 2026-11-09 08:53+0000\n"
 "PO-Revision-Date: 2026-11-04 07:31+0000\n"
 "Last-Translator: Ciro Mota "
 "<ciromota@users.noreply.translate.fedoraproject.org>\n"
@@ -36,8 +36,8 @@ msgid ""
 "Attached named argument \"{}\" not found: {}: Requested in file \"{}\" on "
 "line {}: {}"
 msgstr ""
-"Argumento nomeado anexado \"{}\" não encontrado: {}: Solicitado no arquivo \""
-"{}\" na linha {}: {}"
+"Argumento nomeado anexado \"{}\" não encontrado: {}: Solicitado no arquivo "
+"\"{}\" na linha {}: {}"
 
 #: cmdline_aliases.cpp:159
 #, c++-format
@@ -126,7 +126,8 @@ msgstr ""
 #: cmdline_aliases.cpp:387
 #, c++-format
 msgid "Missing attribute \"header\" for element \"{}\" in file \"{}\""
-msgstr "Atributo \"cabeçalho\" ausente para o elemento \"{}\" no arquivo \"{}\""
+msgstr ""
+"Atributo \"cabeçalho\" ausente para o elemento \"{}\" no arquivo \"{}\""
 
 #: cmdline_aliases.cpp:428 cmdline_aliases.cpp:538
 #, c++-format
@@ -214,8 +215,8 @@ msgstr ""
 msgid ""
 "Unknown attribute \"{}\" of command \"{}\" in file \"{}\" on line {}: {}"
 msgstr ""
-"Atributo desconhecido \"{}\" do comando \"{}\" no arquivo \"{}\" na linha {}"
-": {}"
+"Atributo desconhecido \"{}\" do comando \"{}\" no arquivo \"{}\" na linha "
+"{}: {}"
 
 #: cmdline_aliases.cpp:756
 #, c++-format
@@ -249,7 +250,8 @@ msgstr "Lista os avisos"
 #: commands/advisory/advisory_subcommand.cpp:93 commands/no_matches.cpp:74
 #: commands/repoquery/repoquery.cpp:903
 msgid "No matches found: no repositories are enabled."
-msgstr "Nenhuma correspondência encontrada: nenhum repositório está habilitado."
+msgstr ""
+"Nenhuma correspondência encontrada: nenhum repositório está habilitado."
 
 #: commands/advisory/advisory_summary.cpp:44
 msgid "All"
@@ -875,9 +877,9 @@ msgid ""
 "No repositories were loaded from the installroot. To use the configuration "
 "and repositories of the host system, pass --use-host-config."
 msgstr ""
-"Nenhum repositório foi carregado a partir da raiz da instalação (installroot)"
-". Para usar a configuração e repositórios do sistema hospedeiro, passe --use-"
-"host-config."
+"Nenhum repositório foi carregado a partir da raiz da instalação "
+"(installroot). Para usar a configuração e repositórios do sistema "
+"hospedeiro, passe --use-host-config."
 
 #: commands/no_matches.cpp:78 commands/no_matches.hpp:45
 msgid "No matches found."
@@ -920,7 +922,8 @@ msgstr "Não foi possível se conectar ao D-Bus: {}"
 #, c++-format
 msgid "Waiting for {0} process blocking shutdown ({1}/{2}s)"
 msgid_plural "Waiting for {0} processes blocking shutdown ({1}/{2}s)"
-msgstr[0] "Aguardando o processo {0} que está bloqueando o desligamento ({1}/{2}s)"
+msgstr[0] ""
+"Aguardando o processo {0} que está bloqueando o desligamento ({1}/{2}s)"
 msgstr[1] "Aguardando {0} processos que impedem o desligamento ({1}/{2}s)"
 
 #: commands/offline/offline.cpp:348
@@ -1202,7 +1205,8 @@ msgstr "Padrões"
 
 #: commands/search/search.cpp:49
 msgid "Search for software matching all specified strings"
-msgstr "Pesquisar por software que corresponda a todas as strings especificadas"
+msgstr ""
+"Pesquisar por software que corresponda a todas as strings especificadas"
 
 #: commands/search/search.cpp:70
 msgid "Options --name and --summary cannot be used together."
@@ -1768,7 +1772,8 @@ msgstr "não limita a transação ao melhor candidato"
 
 #: main.cpp:357
 msgid "allow automatic package replacements from different vendors"
-msgstr "permite substituições automáticas de pacotes de fornecedores diferentes"
+msgstr ""
+"permite substituições automáticas de pacotes de fornecedores diferentes"
 
 #: main.cpp:364
 msgid "do not allow automatic package replacements from different vendors"
@@ -1906,7 +1911,8 @@ msgstr "define a raiz de instalação"
 msgid ""
 "use configuration, reposdir, and vars from the host system rather than the "
 "installroot"
-msgstr "usa configuração, reposdir e vars do sistema host em vez do installroot"
+msgstr ""
+"usa configuração, reposdir e vars do sistema host em vez do installroot"
 
 #: main.cpp:678
 msgid "override the value of $releasever in config and repo files"
@@ -2069,7 +2075,8 @@ msgstr "====== Configuração principal: ======"
 #: main.cpp:1136
 #, c++-format
 msgid "No matching repo to dump configuration: \"{}\""
-msgstr "Nenhum repositório correspondente para descarregar a configuração: “{}”"
+msgstr ""
+"Nenhum repositório correspondente para descarregar a configuração: “{}”"
 
 #: main.cpp:1141
 #, c++-format
