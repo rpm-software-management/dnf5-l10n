@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-02 08:43+0000\n"
+"POT-Creation-Date: 2026-11-09 08:53+0000\n"
 "PO-Revision-Date: 2026-11-08 05:47+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
@@ -159,16 +159,16 @@ msgid ""
 "Policy file \"{path}\" already exists. Use \"{option}\" to allow replacing "
 "it."
 msgstr ""
-"정책 파일 \"{path}\"가 이미 존재합니다. \"{option}\"을 사용하여 이를 "
-"대체하도록 허용합니다."
+"정책 파일 \"{path}\"가 이미 존재합니다. \"{option}\"을 사용하여 이를 대체하도"
+"록 허용합니다."
 
 #: addvendorpolicy.cpp:150
 msgid ""
 "Distribution policy \"{name}\" already exists. Use \"{option}\" to allow "
 "masking it."
 msgstr ""
-"분배 정책 \"{name}\"이 이미 존재합니다. \"{option}\" 부분을 사용하여 이를 "
-"가리도록 허용합니다."
+"분배 정책 \"{name}\"이 이미 존재합니다. \"{option}\" 부분을 사용하여 이를 가"
+"리도록 허용합니다."
 
 #: addvendorpolicy.cpp:165
 msgid ""
@@ -183,8 +183,8 @@ msgid ""
 "Cannot add policy: option \"{option}\" requires replacing an existing system "
 "policy, but no system policy file named \"{name}\" exists."
 msgstr ""
-"정책을 추가 할 수 없습니다: option \"{option}\" 부분은 기존 시스템 정책 "
-"교체가 필요하지만, 시스템 파일 명칭 \"{named}\" 부분이 존재하지 않습니다."
+"정책을 추가 할 수 없습니다: option \"{option}\" 부분은 기존 시스템 정책 교체"
+"가 필요하지만, 시스템 파일 명칭 \"{named}\" 부분이 존재하지 않습니다."
 
 #: addvendorpolicy.cpp:191 addvendorpolicy.cpp:215 addvendorpolicy.cpp:244
 msgid "Replaced vendor policy file: {path}"
@@ -297,8 +297,8 @@ msgstr "정책 파일 제거하는 데 실패함: {path}"
 msgid ""
 "Cannot remove distribution policy file \"{path}\". To mask it, use: {command}"
 msgstr ""
-"배포 정책 파일 \"{path}\"을 제거 할 수 없습니다. 이를 가리려면, 다음을 "
-"사용합니다: {command}"
+"배포 정책 파일 \"{path}\"을 제거 할 수 없습니다. 이를 가리려면, 다음을 사용합"
+"니다: {command}"
 
 #: repos.cpp:56 setopt.cpp:140
 #, c++-format
@@ -317,7 +317,8 @@ msgstr "저장소 비활성화"
 #, c++-format
 msgid ""
 "{}: Badly formatted argument value: Last key character cannot be '.': {}"
-msgstr "{}: 인수 값의 형식이 잘못되었습니다. 키의 마지막 문자는 '.'일 수 없습니다: {}"
+msgstr ""
+"{}: 인수 값의 형식이 잘못되었습니다. 키의 마지막 문자는 '.'일 수 없습니다: {}"
 
 #: setopt.cpp:70 unsetopt.cpp:82
 #, c++-format
@@ -368,8 +369,8 @@ msgid ""
 "The path \"{}\" exists, but it is not a directory or a symlink to a "
 "directory."
 msgstr ""
-"경로 \"{}\"가 존재하지만, 디렉토리 또는 디렉토리에 대한 심볼릭링크가 "
-"아닙니다."
+"경로 \"{}\"가 존재하지만, 디렉토리 또는 디렉토리에 대한 심볼릭링크가 아닙니"
+"다."
 
 #: shared.hpp:70
 #, c++-format
@@ -382,8 +383,8 @@ msgid ""
 "Directory \"{}\" does not exist. Add \"--create-missing-dir\" to create "
 "missing directories."
 msgstr ""
-"디렉토리 \"{}\"가 존재하지 않습니다. \"--create-missing-dir\"를 추가하여 "
-"누락된 디렉토리를 생성합니다."
+"디렉토리 \"{}\"가 존재하지 않습니다. \"--create-missing-dir\"를 추가하여 누락"
+"된 디렉토리를 생성합니다."
 
 #: shared.hpp:87
 #, c++-format
@@ -406,16 +407,16 @@ msgid ""
 "config-manager: Request to remove main option but it is not present in the "
 "config file: {}"
 msgstr ""
-"config-manager: 주요 옵션을 제거하도록 요청하지만 config 파일에서 존재하지 "
-"않습니다: {}"
+"config-manager: 주요 옵션을 제거하도록 요청하지만 config 파일에서 존재하지 않"
+"습니다: {}"
 
 #: unsetopt.cpp:152
 #, c++-format
 msgid ""
 "config-manager: Request to remove main option but config file not found: {}"
 msgstr ""
-"config-manager: 주요 옵션을 제거하도록 요청하지만 config 파일을 찾을 수 "
-"없습니다: {}"
+"config-manager: 주요 옵션을 제거하도록 요청하지만 config 파일을 찾을 수 없습"
+"니다: {}"
 
 #: unsetopt.cpp:186
 #, c++-format
@@ -423,8 +424,8 @@ msgid ""
 "config-manager: Request to remove repository option but repoid is not "
 "present in the overrides: {}"
 msgstr ""
-"config-manager: 저장소 옵션을 제거하도록 요청하지만 repoid는 재정의에서 "
-"존재하지 않습니다: {}"
+"config-manager: 저장소 옵션을 제거하도록 요청하지만 repoid는 재정의에서 존재"
+"하지 않습니다: {}"
 
 #: unsetopt.cpp:194
 #, c++-format
@@ -432,8 +433,8 @@ msgid ""
 "config-manager: Request to remove repository option but it is not present in "
 "the overrides: {}.{}"
 msgstr ""
-"config-manager: 저장소 옵션을 제거하려고 요청하지만 재정의에서 존재하지 "
-"않습니다: {}.{}"
+"config-manager: 저장소 옵션을 제거하려고 요청하지만 재정의에서 존재하지 않습"
+"니다: {}.{}"
 
 #: unsetopt.cpp:208
 #, c++-format
@@ -450,8 +451,8 @@ msgid ""
 "config-manager: Request to remove variable but vars directory was not found: "
 "{}"
 msgstr ""
-"config-manager: 변수를 제거하려고 요청하지만 var 디렉토리를 찾을 수 "
-"없습니다: {}"
+"config-manager: 변수를 제거하려고 요청하지만 var 디렉토리를 찾을 수 없습니"
+"다: {}"
 
 #: unsetvar.cpp:82
 #, c++-format
@@ -459,8 +460,8 @@ msgid ""
 "config-manager: Request to remove variable but it is not present in the vars "
 "directory: {}"
 msgstr ""
-"config-manager: 변수를 제거하려고 요청하지만 var 디렉토레에서 존재하지 "
-"않습니다: {}"
+"config-manager: 변수를 제거하려고 요청하지만 var 디렉토레에서 존재하지 않습니"
+"다: {}"
 
 #: unsetvar.cpp:88
 #, c++-format
