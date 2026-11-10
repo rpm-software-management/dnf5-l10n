@@ -9,8 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-09 08:53+0000\n"
 "PO-Revision-Date: 2026-11-10 10:25+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5-plugin-expired-pgp-keys/ko/>\n"
 "Language: ko\n"
@@ -28,17 +27,17 @@ msgstr "다음 OpenPGP 키(0x{})를 제거하려고 합니다:"
 #: expired-pgp-keys.cpp:111
 #, c++-format
 msgid "Expired on {}"
-msgstr ""
+msgstr "{}에 만료됨"
 
 #: expired-pgp-keys.cpp:112
 #, c++-format
 msgid " Reason     : {}\n"
-msgstr " 사유       : {}\n"
+msgstr " 사유     : {}\n"
 
 #: expired-pgp-keys.cpp:115
 #, c++-format
 msgid " UserID     : \"{}\"\n"
-msgstr ""
+msgstr " 사용자ID     : \"{}\"\n"
 
 #: expired-pgp-keys.cpp:117
 #, c++-format
@@ -52,7 +51,7 @@ msgid ""
 "an updated key. This might leave already installed packages unverifiable."
 msgstr ""
 "결과적으로, 이 키와 함께 서명된 꾸러미 설치하기는 실패합니다.\n"
-"최신화된 키를 가져오도록 허용하여 만료된 키를 제거하도록\n"
+"최신화된 키를 가져오도록 허용하여 만료된 키를 제거하도록 \n"
 "추천됩니다. 이는 이미 설치된 꾸러미를 검증 할 수 없게 될 수 있습니다."
 
 #: expired-pgp-keys.cpp:128
