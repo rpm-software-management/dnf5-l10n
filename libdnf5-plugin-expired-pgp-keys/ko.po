@@ -43,7 +43,7 @@ msgstr ""
 #: expired-pgp-keys.cpp:117
 #, c++-format
 msgid " Fingerprint: {}\n"
-msgstr ""
+msgstr " 지문: {}\n"
 
 #: expired-pgp-keys.cpp:123
 msgid ""
@@ -51,6 +51,9 @@ msgid ""
 "It is recommended to remove the expired key to allow importing\n"
 "an updated key. This might leave already installed packages unverifiable."
 msgstr ""
+"결과적으로, 이 키와 함께 서명된 꾸러미 설치하기는 실패합니다.\n"
+"최신화된 키를 가져오도록 허용하여 만료된 키를 제거하도록\n"
+"추천됩니다. 이는 이미 설치된 꾸러미를 검증 할 수 없게 될 수 있습니다."
 
 #: expired-pgp-keys.cpp:128
 msgid "The system will now proceed with removing the key."
