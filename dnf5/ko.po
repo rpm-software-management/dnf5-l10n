@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-09 08:53+0000\n"
-"PO-Revision-Date: 2026-11-10 05:04+0000\n"
+"PO-Revision-Date: 2026-11-10 05:27+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ko/>\n"
@@ -2179,9 +2179,9 @@ msgid ""
 "transient to perform this operation in a transient overlay which will reset "
 "when the system reboots."
 msgstr ""
-"오류: bootc 시스템에서는 영구 트랜잭션을 지원하지 않습니다. --transient 옵션"
-"을 지정하면 시스템을 재부팅할 때 초기화되는 임시 오버레이에서 이 작업을 수행"
-"할 수 있습니다."
+"오류: 영구적인 연결은 bootc 시스템에서 지원하지 않습니다. --transient 부분을 "
+"전달하여 시스템을 재시작 할 때에 초기화되는 임시 겹침 화면에서 이 작업을 "
+"수행합니다."
 
 #: main.cpp:1810
 msgid ""
@@ -2199,7 +2199,7 @@ msgstr "일시적인 연결은 bootc 시스템에서만 지원됩니다."
 #: main.cpp:1862
 #, c++-format
 msgid "The operation will only store the transaction in {}"
-msgstr "이 작업은 트랜잭션을 {}에 저장하기만 합니다"
+msgstr "이 동작은 {}의 연결만 저장합니다"
 
 #: main.cpp:1864
 msgid "The operation will only download packages for the transaction."
@@ -2215,15 +2215,14 @@ msgstr ""
 
 #: main.cpp:1878
 msgid "Warning: A pending offline transaction will be invalidated."
-msgstr "경고: 대기 중인 오프라인 트랜잭션이 무효화되었습니다."
+msgstr "경고: 보류 중인 오프라인 연결이 무효화되었습니다."
 
 #: main.cpp:1881
 #, c++-format
 msgid ""
 "Warning: A pending offline transaction initiated by the following command "
 "will be invalidated: {}"
-msgstr ""
-"경고: 다음 명령으로 시작한 대기 중인 오프라인 트랜잭션이 무효화됩니다: {}"
+msgstr "경고: 다음 명령에 의해 초기화되어 보류 중인 오프라인 연결이 무효화됩니다: {}"
 
 #: main.cpp:1906
 msgid ""
