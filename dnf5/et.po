@@ -12,8 +12,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-10 09:05+0000\n"
 "PO-Revision-Date: 2026-11-12 10:19+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: Priit Jõerüüt "
+"<jrtkbfdr@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Estonian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/et/>\n"
 "Language: et\n"
@@ -155,7 +155,7 @@ msgstr ""
 msgid ""
 "Attached command \"{}\" not found: {}: Requested in file \"{}\" on line {}: "
 "{}"
-msgstr ""
+msgstr "Lisatud „{}“ käsku ei leidu: {}. Päring oli „{}“ failis real {}: {}"
 
 #: cmdline_aliases.cpp:691
 #, c++-format
@@ -786,15 +786,17 @@ msgstr "Halda mooduleid"
 
 #: commands/module/module_list.cpp:88
 msgid "No matches found: no module streams are enabled."
-msgstr "Ühtegi vastet ei leidu: ühtegi tarkvarahoidlat pole kasutusel."
+msgstr "Ühtegi vastet ei leidu: ühtegi mooduli voogedastust pole kasutusel."
 
 #: commands/module/module_list.cpp:90
 msgid "No matches found: no module streams are disabled."
 msgstr ""
+"Ühtegi vastet ei leidu: ühtegi mooduli voogedastust pole kasutuselt "
+"eemaldatud."
 
 #: commands/module/module_list.cpp:92
 msgid "No matches found: no module streams exist."
-msgstr ""
+msgstr "Ühtegi vastet ei leidu: ühtegi mooduli voogedastust pole olemas."
 
 #: commands/no_matches.cpp:14
 #, c++-format
