@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-10 09:05+0000\n"
-"PO-Revision-Date: 2026-11-03 09:55+0000\n"
+"PO-Revision-Date: 2026-11-11 06:49+0000\n"
 "Last-Translator: Skyter Lin <linskyter@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://"
 "translate.fedoraproject.org/projects/dnf5/dnf5/zh_Hant/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.11\n"
+"X-Generator: Weblate 2026.11.1\n"
 
 #: cmdline_aliases.cpp:84 context.cpp:222 main.cpp:1617
 msgid ", "
@@ -836,13 +836,13 @@ msgstr "無法與 D-Bus 連線：{}"
 #, c++-format
 msgid "Waiting for {0} process blocking shutdown ({1}/{2}s)"
 msgid_plural "Waiting for {0} processes blocking shutdown ({1}/{2}s)"
-msgstr[0] ""
+msgstr[0] "正在等待 {0} 個阻止關機的程序（{1}/{2} 秒）"
 
 #: commands/offline/offline.cpp:348
 msgid ""
 "Timed out waiting for processes blocking shutdown. Continuing shutdown "
 "request."
-msgstr ""
+msgstr "等待阻止關機的程序逾時。將繼續執行關機要求。"
 
 #: commands/offline/offline.cpp:411
 msgid ""
@@ -1779,7 +1779,7 @@ msgstr "列印變數值到 stdout"
 
 #: main.cpp:784
 msgid "Print loaded vendor change policies to stdout"
-msgstr ""
+msgstr "將已載入的供應商變更政策輸出至標準輸出"
 
 #: main.cpp:798
 msgid "Show DNF5 version and exit"
@@ -1899,18 +1899,20 @@ msgstr "======== 變數：========"
 
 #: main.cpp:1167
 msgid "======== Vendor Change Policies: ========"
-msgstr ""
+msgstr "======== 供應商變更政策：========"
 
 #: main.cpp:1171
 #, c++-format
 msgid "Policy #{}: source: {}"
-msgstr ""
+msgstr "政策 #{}：來源：{}"
 
 #: main.cpp:1177
 msgid ""
 "allow_vendor_change is enabled. Packages can be replaced by any vendor, and "
 "vendor change policies will be ignored."
 msgstr ""
+"已啟用 allow_vendor_change。套件可由任何供應商的套件取代，並將忽略供應商變更"
+"政策。"
 
 #: main.cpp:1215
 msgid "New leaves:"
