@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-10 09:05+0000\n"
-"PO-Revision-Date: 2026-11-03 09:58+0000\n"
+"PO-Revision-Date: 2026-11-11 06:49+0000\n"
 "Last-Translator: Skyter Lin <linskyter@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://"
 "translate.fedoraproject.org/projects/dnf5/libdnf5/zh_Hant/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.11\n"
+"X-Generator: Weblate 2026.11.1\n"
 
 #: advisory/advisory.cpp:81
 #, c++-format
@@ -442,6 +442,8 @@ msgid ""
 "Exceeded installonly_limit ({0}): found {1} installed: '{2}'. You can use "
 "'remove --oldinstallonly'."
 msgstr ""
+"已超過 installonly_limit（{0}）：發現已安裝 {1} 個：「{2}」。您可以使用「"
+"remove --oldinstallonly」。"
 
 #: base/solver_problems.cpp:41
 #, c++-format
@@ -712,7 +714,7 @@ msgstr "簽章驗證失敗。"
 msgid ""
 "This transaction is no longer valid because the system repository has "
 "changed since it was loaded."
-msgstr ""
+msgstr "自從載入這筆交易後，系統軟體庫已變更，因此這筆交易不再有效。"
 
 #: base/transaction.cpp:101
 msgid "The repository does not have any OpenPGP keys configured."
@@ -741,7 +743,7 @@ msgstr "無法從管線讀取指令稿輸出"
 #: base/transaction.cpp:1103
 #, c++-format
 msgid "Failed to acquire system repo lock for writing, lock located at \"{}\""
-msgstr ""
+msgstr "無法取得系統軟體庫的寫入鎖定，鎖定檔位於「{}」"
 
 #: base/transaction.cpp:1173
 #, c++-format
@@ -788,7 +790,7 @@ msgstr[0] "警告：已略過軟體庫 {1} 的 {0} 個軟體包的 OpenPGP 檢�
 
 #: base/vendor_change_manager.cpp:115
 msgid "{func}(): Cannot create directory: {path}: {msg}"
-msgstr ""
+msgstr "{func}()：無法建立目錄：{path}：{msg}"
 
 #: base/vendor_change_manager.cpp:164
 msgid "{func}(): Cannot remove file: {path}: {msg}"
@@ -1299,7 +1301,7 @@ msgstr "無法載入軟體庫「{}」的 {} 擴充功能（來自「{}」）：{
 #: repo/solv_repo.cpp:436
 #, c++-format
 msgid "Failed to acquire system repo lock for reading, lock located at \"{}\""
-msgstr ""
+msgstr "無法取得系統軟體庫的讀取鎖定，鎖定檔位於「{}」"
 
 #: repo/solv_repo.cpp:455
 #, c++-format
@@ -1484,7 +1486,7 @@ msgstr "無法安裝軟體包「{}」"
 #: rpm/versionlock_config.cpp:259
 #, c++-format
 msgid "Error parsing versionlock file \"{}\": {}"
-msgstr ""
+msgstr "解析 versionlock 檔案「{}」時發生錯誤：{}"
 
 #: rpm/versionlock_config.cpp:297 system/state.cpp:614
 #, c++-format
@@ -1804,15 +1806,15 @@ msgstr "不支援的 TOML 版本「{}」，最高支援版本為「{}」"
 #: system/state.cpp:798
 #, c++-format
 msgid "Error {} opening rpm database"
-msgstr ""
+msgstr "開啟 rpm 資料庫時發生錯誤 {}"
 
 #: system/state.cpp:802
 msgid "Failed to get rpm database"
-msgstr ""
+msgstr "無法取得 rpm 資料庫"
 
 #: system/state.cpp:808
 msgid "Failed to initialize database index iterator"
-msgstr ""
+msgstr "無法初始化資料庫索引迭代器"
 
 #. TODO(dmach): replace with a better exception class
 #: transaction/db/comps_environment_group.cpp:100
@@ -2274,7 +2276,7 @@ msgstr "無法讀取鎖定檔「{}」"
 #: utils/locker.cpp:194
 #, c++-format
 msgid "The lock file \"{}\" is not locked"
-msgstr ""
+msgstr "鎖定檔「{}」未被鎖定"
 
 #: utils/locker.cpp:207
 #, c++-format
