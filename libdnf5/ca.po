@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-10 09:05+0000\n"
+"POT-Creation-Date: 2026-11-12 05:17+0000\n"
 "PO-Revision-Date: 2026-11-05 09:18+0000\n"
 "Last-Translator: David Medina <dmedinacpnl@gmail.com>\n"
 "Language-Team: Catalan <https://translate.fedoraproject.org/projects/dnf5/"
@@ -806,32 +806,32 @@ msgstr ""
 msgid "Invalid tsflag: {}"
 msgstr "La marca tsflag no és vàlida: {}"
 
-#: base/transaction.cpp:1611
+#: base/transaction.cpp:1617
 #, c++-format
 msgid "Public key \"{}\" is already present, not importing."
 msgstr "La clau pública \"{}\" ja està present, no s'importa."
 
-#: base/transaction.cpp:1634
+#: base/transaction.cpp:1640
 #, c++-format
 msgid "An error occurred importing key \"{}\": {}"
 msgstr "S'ha produït un error en importar la clau \"{}\": {}"
 
-#: base/transaction.cpp:1668
+#: base/transaction.cpp:1674
 #, c++-format
 msgid "OpenPGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
 msgstr ""
 "La comprovació OpenPGP del paquet \"{}\" ({}) del dipòsit \"{}\" ha fallat: "
 
-#: base/transaction.cpp:1696
+#: base/transaction.cpp:1702
 msgid "Import of the key didn't help, wrong key?"
 msgstr "La importació de la clau no ha ajudat, clau incorrecta?"
 
-#: base/transaction.cpp:1715
+#: base/transaction.cpp:1721
 msgctxt "It is a joining character for repositories IDs"
 msgid ", "
 msgstr ". "
 
-#: base/transaction.cpp:1718
+#: base/transaction.cpp:1724
 #, c++-format
 msgid "Warning: skipped OpenPGP checks for {0} package from repository: {1}"
 msgid_plural ""
@@ -842,7 +842,7 @@ msgstr[1] ""
 "Avís: s'han omès les comprovacions de l'OpenPGP per {0} paquets del "
 "repositori: {1}"
 
-#: base/transaction.cpp:1721
+#: base/transaction.cpp:1727
 #, c++-format
 msgid "Warning: skipped OpenPGP checks for {0} package from repositories: {1}"
 msgid_plural ""
@@ -1111,8 +1111,8 @@ msgstr "No es poden habilitar múltiples fluxos per al mòdul '{}'"
 #. DNF_ERROR_REMOVAL_OF_PROTECTED_PKG);
 #. }
 #. TODO(lukash) replace with a proper and descriptive exception
-#: module/module_goal_private.cpp:83 rpm/solv/goal_private.cpp:374
-#: rpm/solv/goal_private.cpp:796
+#: module/module_goal_private.cpp:83 rpm/solv/goal_private.cpp:389
+#: rpm/solv/goal_private.cpp:811
 msgid "no solution possible"
 msgstr "no hi ha solució possible"
 

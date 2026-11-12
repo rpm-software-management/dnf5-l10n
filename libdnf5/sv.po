@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-10 09:05+0000\n"
+"POT-Creation-Date: 2026-11-12 05:17+0000\n"
 "PO-Revision-Date: 2026-11-03 09:38+0000\n"
 "Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -789,32 +789,32 @@ msgstr ""
 msgid "Invalid tsflag: {}"
 msgstr "Ogiltig tsflag: {}"
 
-#: base/transaction.cpp:1611
+#: base/transaction.cpp:1617
 #, c++-format
 msgid "Public key \"{}\" is already present, not importing."
 msgstr "Publik nyckel \"{}\" finns redan, importerar inte."
 
-#: base/transaction.cpp:1634
+#: base/transaction.cpp:1640
 #, c++-format
 msgid "An error occurred importing key \"{}\": {}"
 msgstr "Ett fel uppstod vid import av nyckeln \"{}\": {}"
 
-#: base/transaction.cpp:1668
+#: base/transaction.cpp:1674
 #, c++-format
 msgid "OpenPGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
 msgstr ""
 "OpenPGP-kontroll för paket \"{}\" ({}) från förråd \"{}\" har misslyckats: "
 
-#: base/transaction.cpp:1696
+#: base/transaction.cpp:1702
 msgid "Import of the key didn't help, wrong key?"
 msgstr "Importen av nyckeln hjälpte inte, fel nyckel?"
 
-#: base/transaction.cpp:1715
+#: base/transaction.cpp:1721
 msgctxt "It is a joining character for repositories IDs"
 msgid ", "
 msgstr ", "
 
-#: base/transaction.cpp:1718
+#: base/transaction.cpp:1724
 #, c++-format
 msgid "Warning: skipped OpenPGP checks for {0} package from repository: {1}"
 msgid_plural ""
@@ -824,7 +824,7 @@ msgstr[0] ""
 msgstr[1] ""
 "Varning: hoppade över OpenPGP-kontroller för {0} paket från flera förråd: {1}"
 
-#: base/transaction.cpp:1721
+#: base/transaction.cpp:1727
 #, c++-format
 msgid "Warning: skipped OpenPGP checks for {0} package from repositories: {1}"
 msgid_plural ""
@@ -1082,8 +1082,8 @@ msgstr "Kan inte aktivera flera strömmar för modul '{}'"
 #. DNF_ERROR_REMOVAL_OF_PROTECTED_PKG);
 #. }
 #. TODO(lukash) replace with a proper and descriptive exception
-#: module/module_goal_private.cpp:83 rpm/solv/goal_private.cpp:374
-#: rpm/solv/goal_private.cpp:796
+#: module/module_goal_private.cpp:83 rpm/solv/goal_private.cpp:389
+#: rpm/solv/goal_private.cpp:811
 msgid "no solution possible"
 msgstr "ingen lösning möjlig"
 

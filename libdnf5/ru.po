@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-10 09:05+0000\n"
+"POT-Creation-Date: 2026-11-12 05:17+0000\n"
 "PO-Revision-Date: 2026-11-03 09:40+0000\n"
 "Last-Translator: Andrei Stepanov <adem4ik@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -793,31 +793,31 @@ msgstr ""
 msgid "Invalid tsflag: {}"
 msgstr "Недопустимый tsflag: {}"
 
-#: base/transaction.cpp:1611
+#: base/transaction.cpp:1617
 #, c++-format
 msgid "Public key \"{}\" is already present, not importing."
 msgstr "Публичный ключ \"{}\" уже присутствует, не импортируется."
 
-#: base/transaction.cpp:1634
+#: base/transaction.cpp:1640
 #, c++-format
 msgid "An error occurred importing key \"{}\": {}"
 msgstr "Произошла ошибка при импорте ключа \"{}\": {}"
 
-#: base/transaction.cpp:1668
+#: base/transaction.cpp:1674
 #, c++-format
 msgid "OpenPGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
 msgstr "Сбой проверки OpenPGP для пакета \"{}\" ({}) из репозитория \"{}\": "
 
-#: base/transaction.cpp:1696
+#: base/transaction.cpp:1702
 msgid "Import of the key didn't help, wrong key?"
 msgstr "Импорт ключа не помог, неправильный ключ?"
 
-#: base/transaction.cpp:1715
+#: base/transaction.cpp:1721
 msgctxt "It is a joining character for repositories IDs"
 msgid ", "
 msgstr ", "
 
-#: base/transaction.cpp:1718
+#: base/transaction.cpp:1724
 #, c++-format
 msgid "Warning: skipped OpenPGP checks for {0} package from repository: {1}"
 msgid_plural ""
@@ -831,7 +831,7 @@ msgstr[2] ""
 "Предупреждение: пропущены проверки OpenPGP для {0} пакетов из репозитория: "
 "{1}"
 
-#: base/transaction.cpp:1721
+#: base/transaction.cpp:1727
 #, c++-format
 msgid "Warning: skipped OpenPGP checks for {0} package from repositories: {1}"
 msgid_plural ""
@@ -1100,8 +1100,8 @@ msgstr "Невозможно включить несколько потоков 
 #. DNF_ERROR_REMOVAL_OF_PROTECTED_PKG);
 #. }
 #. TODO(lukash) replace with a proper and descriptive exception
-#: module/module_goal_private.cpp:83 rpm/solv/goal_private.cpp:374
-#: rpm/solv/goal_private.cpp:796
+#: module/module_goal_private.cpp:83 rpm/solv/goal_private.cpp:389
+#: rpm/solv/goal_private.cpp:811
 msgid "no solution possible"
 msgstr "нет возможного решения"
 
