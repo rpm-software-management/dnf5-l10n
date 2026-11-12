@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-12 05:17+0000\n"
-"PO-Revision-Date: 2026-11-03 09:43+0000\n"
-"Last-Translator: GitHub webhook <noreply-webhook-github@weblate.org>\n"
+"PO-Revision-Date: 2026-11-12 18:02+0000\n"
+"Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5/fi/>\n"
 "Language: fi\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.11\n"
+"X-Generator: Weblate 2026.11.1\n"
 
 #: advisory/advisory.cpp:81
 #, c++-format
@@ -35,7 +35,7 @@ msgstr ""
 
 #: advisory/advisory_collection.cpp:94
 msgid "This libdnf5 does not support modularity"
-msgstr ""
+msgstr "Tämä libdnf5 ei tue modulaarisuutta"
 
 #: base/active_transaction_info.cpp:93 base/active_transaction_info.cpp:95
 #, c++-format
@@ -112,7 +112,7 @@ msgstr "Synkronoi koko jakelun"
 
 #: base/goal_elements.cpp:384 transaction/transaction_item_action.cpp:76
 msgid "Reason Change"
-msgstr "Muutoksen syy"
+msgstr "Syyn muutos"
 
 #: base/goal_elements.cpp:386
 msgid "Resolve"
@@ -152,7 +152,7 @@ msgstr "Asenna uudelleen toiminto"
 
 #: base/goal_elements.cpp:404
 msgid "Reason change action"
-msgstr "Syy muuttaa toimintaa"
+msgstr "Syyn muutostoiminto"
 
 #: base/goal_elements.cpp:406
 msgid "Reason override"
@@ -333,10 +333,9 @@ msgid "Group \"{}\" is already installed."
 msgstr "Ryhmä \"{}\" on jo asennettu."
 
 #: base/log_event.cpp:251
-#, fuzzy, c++-format
-#| msgid "Package \"{}\" is already installed."
+#, c++-format
 msgid "Environmental group \"{}\" is already installed."
-msgstr "Paketti \"{}\" on jo asennettu."
+msgstr "Ympäristöryhmä \"{}\" on jo asennettu."
 
 #: base/log_event.cpp:258
 #, c++-format
@@ -472,6 +471,8 @@ msgid ""
 "Exceeded installonly_limit ({0}): found {1} installed: '{2}'. You can use "
 "'remove --oldinstallonly'."
 msgstr ""
+"installonly_limit ({0}) ylitetty: asennettuja löytyi {1}: '{2}'. Voit "
+"käyttää komentoa 'remove --oldinstallonly'."
 
 #: base/solver_problems.cpp:41
 #, c++-format
@@ -764,6 +765,8 @@ msgid ""
 "This transaction is no longer valid because the system repository has "
 "changed since it was loaded."
 msgstr ""
+"Tämä tapahtuma ei ole enää kelvollinen, koska järjestelmän tietovarasto on "
+"muuttunut sen lataamisen jälkeen."
 
 #: base/transaction.cpp:101
 msgid "The repository does not have any OpenPGP keys configured."
@@ -783,21 +786,18 @@ msgstr "Julkisen avaimen tuonti epäonnistui."
 
 #: base/transaction.cpp:997
 msgid "poll failed during scriptlets pipe processing"
-msgstr ""
+msgstr "poll epäonnistui sovelmien putken käsittelyssä"
 
 #: base/transaction.cpp:1020
-#, fuzzy
-#| msgid "Failed to set scriptlet output file, cannot open file \"{}\": {}"
 msgid "failed to read scriptlet output from pipe"
-msgstr ""
-"Sovelman tulostustiedoston asettaminen epäonnistui; tiedostoa \"{}\" ei "
-"voida avata: {}"
+msgstr "sovelman tulosteen lukeminen putkesta epäonnistui"
 
 #: base/transaction.cpp:1103
-#, fuzzy, c++-format
-#| msgid "Failed to load system repo from root \"{}\": {}"
+#, c++-format
 msgid "Failed to acquire system repo lock for writing, lock located at \"{}\""
-msgstr "Järjestelmätietovaraston lataaminen juurelta \"{}\" epäonnistui: {}"
+msgstr ""
+"Järjestelmän tietovaraston kirjoituslukon hankkiminen epäonnistui, lukon "
+"sijainti \"{}\""
 
 #: base/transaction.cpp:1173
 #, c++-format
@@ -818,8 +818,7 @@ msgstr "Avaimen \"{}\" tuonnissa tapahtui virhe: {}"
 #, c++-format
 msgid "OpenPGP check for package \"{}\" ({}) from repo \"{}\" has failed: "
 msgstr ""
-"OpenPGP-tarkistus tietovarastosta \"{}\" ({}) peräisin olevalle paketille "
-"\"{}\" epäonnistui: "
+"OpenPGP-tarkistus paketille \"{}\" ({}) tietovarastosta \"{}\" epäonnistui: "
 
 #: base/transaction.cpp:1702
 msgid "Import of the key didn't help, wrong key?"
@@ -853,49 +852,42 @@ msgstr[1] ""
 "peräisin paketteille: {1}"
 
 #: base/vendor_change_manager.cpp:115
-#, fuzzy
-#| msgid "Cannot set the locale \"{}\": {}"
 msgid "{func}(): Cannot create directory: {path}: {msg}"
-msgstr "Kieli-asetusta ei voi asettaa ”{}” : {}"
+msgstr "{func}(): Hakemistoa ei voi luoda: {path}: {msg}"
 
 #: base/vendor_change_manager.cpp:164
-#, fuzzy
-#| msgid "Cannot set the locale \"{}\": {}"
 msgid "{func}(): Cannot remove file: {path}: {msg}"
-msgstr "Kieli-asetusta ei voi asettaa ”{}” : {}"
+msgstr "{func}(): Tiedostoa ei voi poistaa: {path}: {msg}"
 
 #: base/vendor_change_manager.cpp:170
 msgid "{func}(): File does not exist: {path}"
-msgstr ""
+msgstr "{func}(): Tiedostoa ei ole olemassa: {path}"
 
 #: base/vendor_change_manager.cpp:259
-#, fuzzy
-#| msgid "Cannot set the locale \"{}\": {}"
 msgid "{func}(): Cannot remove existing policy file: {path}"
-msgstr "Kieli-asetusta ei voi asettaa ”{}” : {}"
+msgstr "{func}(): Olemassa olevaa käytäntötiedostoa ei voi poistaa: {path}"
 
 #: base/vendor_change_manager.cpp:271
 msgid "{func}(): Cannot create file: {path}"
-msgstr ""
+msgstr "{func}(): Tiedostoa ei voi luoda: {path}"
 
 #: base/vendor_change_manager.cpp:288
-#, fuzzy
-#| msgid "Cannot set the locale \"{}\": {}"
 msgid "{func}(): Cannot write to file: {path}"
-msgstr "Kieli-asetusta ei voi asettaa ”{}” : {}"
+msgstr "{func}(): Tiedostoon ei voi kirjoittaa: {path}"
 
 #: base/vendor_change_manager.cpp:325
 msgid "{func}(): Base filename cannot be empty"
-msgstr ""
+msgstr "{func}(): Tiedoston perusnimi ei voi olla tyhjä"
 
 #: base/vendor_change_manager.cpp:331
 msgid ""
 "{func}(): Base filename must not contain path components: {base_filename}"
 msgstr ""
+"{func}(): Tiedoston perusnimi ei saa sisältää polun osia: {base_filename}"
 
 #: base/vendor_change_manager.cpp:461
 msgid "{func}(): Path must have .conf extension: {path}"
-msgstr ""
+msgstr "{func}(): Polulla on oltava .conf-pääte: {path}"
 
 #: common/exception.cpp:78
 msgid "System error"
@@ -932,15 +924,14 @@ msgstr ""
 #, c++-format
 msgid "Failed to save xml document for environment \"{}\" to file \"{}\": {}"
 msgstr ""
-"XML-asiakirjan tallentaminen tiedostoon \"{}\" ympäristöön \"{}\" "
+"Ympäristön \"{}\" XML-asiakirjan tallentaminen tiedostoon \"{}\" "
 "epäonnistui: {}"
 
 #: comps/group/group.cpp:354
 #, c++-format
 msgid "Failed to save xml document for group \"{}\" to file \"{}\": {}"
 msgstr ""
-"XML-asiakirjan tallentaminen tiedostoon \"{}\" ryhmälle \"{}\" epäonnistui: "
-"{}"
+"Ryhmän \"{}\" XML-asiakirjan tallentaminen tiedostoon \"{}\" epäonnistui: {}"
 
 #: comps/group/package.cpp:118 comps/group/package.cpp:121
 #, c++-format
@@ -1180,12 +1171,8 @@ msgid "Cannot find plugin library \"{}\""
 msgstr "Laajennuskirjastoa \"{}\" ei löydy"
 
 #: plugin/plugins.cpp:181
-#, fuzzy
-#| msgid "Plugins::load_plugins(): config_dir_path cannot be empty"
 msgid "Plugins::load_plugins(): config_dirs cannot be empty"
-msgstr ""
-"Plugins::load_plugins(): määrityksen hakemiston polku config_dir_path ei saa "
-"olla tyhjä"
+msgstr "Plugins::load_plugins(): config_dirs ei saa olla tyhjä"
 
 #: plugin/plugins.cpp:194
 #, c++-format
@@ -1266,7 +1253,7 @@ msgstr "Ohjelmistolähteen \"{}\" tyyppiä \"{}\" ei tueta, ohitetaan."
 #, c++-format
 msgid "Failed to download metadata ({}: \"{}\") for repository \"{}\": {}"
 msgstr ""
-"Tietovaraston \"{}\" metatietojen ({}: \"{}\") lataaminen epäonnistui: {}"
+"Metatietojen ({}: \"{}\") lataaminen tietovarastolle \"{}\" epäonnistui: {}"
 
 #: repo/repo.cpp:440
 msgid ""
@@ -1301,29 +1288,24 @@ msgid "Empty path to the repository cache directory."
 msgstr "Tyhjä polku ohjelmistolähteen välimuistihakemistoon."
 
 #: repo/repo_config_override.cpp:69
-#, fuzzy, c++-format
-#| msgid "Failed to download metadata ({}: \"{}\") for repository \"{}\": {}"
+#, c++-format
 msgid "Cannot set option \"{}\" for repository \"{}\": {}"
-msgstr ""
-"Tietovaraston \"{}\" metatietojen ({}: \"{}\") lataaminen epäonnistui: {}"
+msgstr "Vaihtoehtoa \"{}\" ei voi asettaa tietovarastolle \"{}\": {}"
 
 #: repo/repo_config_override.cpp:84
-#, fuzzy, c++-format
-#| msgid "Cannot set root directory \"{}\""
+#, c++-format
 msgid "Cannot create directory \"{}\": {}"
-msgstr "Juurihakemistoa \"{}\" ei voi asettaa"
+msgstr "Hakemistoa \"{}\" ei voi luoda: {}"
 
 #: repo/repo_config_override.cpp:136 repo/repo_config_override.cpp:143
-#, fuzzy, c++-format
-#| msgid "Cannot set the locale \"{}\": {}"
+#, c++-format
 msgid "Cannot write to file \"{}\": {}"
-msgstr "Kieli-asetusta ei voi asettaa ”{}” : {}"
+msgstr "Tiedostoon \"{}\" ei voi kirjoittaa: {}"
 
 #: repo/repo_config_override.cpp:157
-#, fuzzy, c++-format
-#| msgid "Cannot set the locale \"{}\": {}"
+#, c++-format
 msgid "Cannot set permissions on file \"{}\": {}"
-msgstr "Kieli-asetusta ei voi asettaa ”{}” : {}"
+msgstr "Tiedoston \"{}\" käyttöoikeuksia ei voi asettaa: {}"
 
 #: repo/repo_downloader.cpp:224
 #, c++-format
@@ -1416,13 +1398,15 @@ msgstr ""
 #, c++-format
 msgid "Failed to load {} extension for repo \"{}\" from \"{}\": {}"
 msgstr ""
-"{} laajennuksen lataaminen \"{}\":sta tietovarastolle \"{}\" epäonnistui: {}"
+"Laajennuksen {} lataaminen tietovarastolle \"{}\" kohteesta \"{}\" "
+"epäonnistui: {}"
 
 #: repo/solv_repo.cpp:436
-#, fuzzy, c++-format
-#| msgid "Failed to load system repo from root \"{}\": {}"
+#, c++-format
 msgid "Failed to acquire system repo lock for reading, lock located at \"{}\""
-msgstr "Järjestelmätietovaraston lataaminen juurelta \"{}\" epäonnistui: {}"
+msgstr ""
+"Järjestelmän tietovaraston lukulukon hankkiminen epäonnistui, lukon sijainti "
+"\"{}\""
 
 #: repo/solv_repo.cpp:455
 #, c++-format
@@ -1433,7 +1417,8 @@ msgstr "Järjestelmätietovaraston lataaminen juurelta \"{}\" epäonnistui: {}"
 #, c++-format
 msgid "Failed to load {} cache for repo \"{}\" from \"{}\": {}"
 msgstr ""
-"Tietovaraston \"{}\" välimuistin {} lataaminen \"{}\":sta epäonnistui: {}"
+"Välimuistin {} lataaminen tietovarastolle \"{}\" kohteesta \"{}\" "
+"epäonnistui: {}"
 
 #: repo/solv_repo.cpp:613
 #, c++-format
@@ -1453,14 +1438,15 @@ msgstr ""
 #, c++-format
 msgid "Failed to write {} cache for repo \"{}\" to \"{}\": {}"
 msgstr ""
-"Välimuistin {} kirjoittaminen tietovarastolle \"{}\" \"{}\":sta epäonnistui: "
-"{}"
+"Välimuistin {} kirjoittaminen tietovarastolle \"{}\" kohteeseen \"{}\" "
+"epäonnistui: {}"
 
 #: repo/solv_repo.cpp:721
 #, c++-format
 msgid "Failed to re-load {} cache for repo \"{}\" from \"{}\": {}"
 msgstr ""
-"Tietovaraston \"{}\" välimuistin {} lataaminen \"{}\":sta epäonnistui: {}"
+"Välimuistin {} uudelleenlataaminen tietovarastolle \"{}\" kohteesta \"{}\" "
+"epäonnistui: {}"
 
 #: repo/temp_files_memory.cpp:52
 #, c++-format
@@ -1472,7 +1458,7 @@ msgstr ""
 
 #: rpm/checksum.cpp:98
 msgid "Unknown checksum type"
-msgstr ""
+msgstr "Tuntematon tarkistussumman tyyppi"
 
 #: rpm/nevra.cpp:82
 #, c++-format
@@ -1550,6 +1536,10 @@ msgid ""
 "versions after an interrupted upgrade. Please remove the duplicate packages "
 "using \"dnf remove\" and retry."
 msgstr ""
+"Rpm-tapahtuma poistaisi odottamatta paketteja, joita ratkaisija ei ollut "
+"suunnitellut: {}. Näin käy yleensä, kun rpmdb sisältää samasta paketista "
+"kaksi versiota keskeytyneen päivityksen jälkeen. Poista ylimääräiset paketit "
+"komennolla \"dnf remove\" ja yritä uudelleen."
 
 #: rpm/transaction.cpp:236
 msgid "Failed to order the rpm transaction."
@@ -1617,10 +1607,9 @@ msgid "Cannot install package \"{}\""
 msgstr "Pakettia \"{}\" ei voi asentaa"
 
 #: rpm/versionlock_config.cpp:259
-#, fuzzy, c++-format
-#| msgid "Error parsing transaction info: {}"
+#, c++-format
 msgid "Error parsing versionlock file \"{}\": {}"
-msgstr "Virhe jäsennettäessä tapahtumatietoja: {}"
+msgstr "Virhe jäsennettäessä versionlock-tiedostoa \"{}\": {}"
 
 #: rpm/versionlock_config.cpp:297 system/state.cpp:614
 #, c++-format
@@ -1639,16 +1628,14 @@ msgid "Writing debugsolver data into \"{}\" failed: {}"
 msgstr "debugsolverin tietojen kirjoittaminen \"{}\":iin epäonnistui: {}"
 
 #: solv/vendor_change_manager.cpp:357
-#, fuzzy, c++-format
-#| msgid "Missing section header on line {}"
+#, c++-format
 msgid "Missing \"version\" key in \"{}\""
-msgstr "Rivillä {} puuttuu osion otsikko"
+msgstr "Avain \"version\" puuttuu tiedostosta \"{}\""
 
 #: solv/vendor_change_manager.cpp:369
-#, fuzzy, c++-format
-#| msgid "Unsupported TOML version \"{}\", maximum supported version is \"{}\""
+#, c++-format
 msgid "Unsupported version \"{}\" in \"{}\". Supported versions: {}"
-msgstr "Ei-tuettu TOML-versio \"{}\", suurin tuettu versio on \"{}\""
+msgstr "Ei-tuettu versio \"{}\" tiedostossa \"{}\". Tuetut versiot: {}"
 
 #: solv/vendor_change_manager.cpp:380
 #, c++-format
@@ -1656,12 +1643,14 @@ msgid ""
 "Configuration \"{}\" uses version \"1.0\" which does not support combining "
 "'equivalent_vendors' with 'outgoing_vendors' and 'incoming_vendors'"
 msgstr ""
+"Määritys \"{}\" käyttää versiota \"1.0\", joka ei tue 'equivalent_vendors'-"
+"avaimen yhdistämistä avaimiin 'outgoing_vendors' ja 'incoming_vendors'"
 
 #: solv/vendor_change_manager.cpp:412 solv/vendor_change_manager.cpp:457
 #: solv/vendor_change_manager.cpp:509 solv/vendor_change_manager.cpp:734
 #, c++-format
 msgid "Unknown key '{}' in \"{}\" on line {}"
-msgstr ""
+msgstr "Tuntematon avain '{}' tiedostossa \"{}\" rivillä {}"
 
 #: solv/vendor_change_manager.cpp:419
 #, c++-format
@@ -1669,6 +1658,7 @@ msgid ""
 "Configuration \"{}\" uses version \"1.0\" which does not support key '{}' on "
 "line {}"
 msgstr ""
+"Määritys \"{}\" käyttää versiota \"1.0\", joka ei tue avainta '{}' rivillä {}"
 
 #: solv/vendor_change_manager.cpp:445
 #, c++-format
@@ -1676,23 +1666,30 @@ msgid ""
 "Filter \"cmdline_repo\" is only allowed in the 'incoming_packages' section. "
 "Error in \"{}\" in table starting on line {}"
 msgstr ""
+"Suodatin \"cmdline_repo\" on sallittu vain osiossa 'incoming_packages'. "
+"Virhe tiedostossa \"{}\" rivillä {} alkavassa taulukossa"
 
 #: solv/vendor_change_manager.cpp:467
 #, c++-format
 msgid ""
 "Missing package filter definition in \"{}\" in table starting on line {}"
 msgstr ""
+"Pakettisuodattimen määritys puuttuu tiedostossa \"{}\" rivillä {} alkavassa "
+"taulukossa"
 
 #: solv/vendor_change_manager.cpp:498
 #, c++-format
 msgid ""
 "Unsupported comparator \"{}\" for vendor definition in \"{}\" on line {}"
 msgstr ""
+"Toimittajan määritykselle ei-tuettu vertailuoperaattori \"{}\" tiedostossa \""
+"{}\" rivillä {}"
 
 #: solv/vendor_change_manager.cpp:519
 #, c++-format
 msgid "Missing 'vendor' key in \"{}\" in table starting on line {}"
 msgstr ""
+"Avain 'vendor' puuttuu tiedostossa \"{}\" rivillä {} alkavassa taulukossa"
 
 #: solv/vendor_change_manager.cpp:532
 #, c++-format
@@ -1700,17 +1697,18 @@ msgid ""
 "Invalid regex vendor pattern \"{}\" in \"{}\" in table starting on line {}: "
 "{}"
 msgstr ""
+"Virheellinen toimittajan säännöllinen lauseke \"{}\" tiedostossa \"{}\" "
+"rivillä {} alkavassa taulukossa: {}"
 
 #: solv/vendor_change_manager.cpp:560
 #, c++-format
 msgid "Bad value type in \"{}\" on line {}: {}"
-msgstr ""
+msgstr "Virheellinen arvon tyyppi tiedostossa \"{}\" rivillä {}: {}"
 
 #: solv/vendor_change_manager.cpp:566
-#, fuzzy, c++-format
-#| msgid "An error occurred importing key \"{}\": {}"
+#, c++-format
 msgid "An error occurred when parsing \"{}\": {}"
-msgstr "Avaimen \"{}\" tuonnissa tapahtui virhe: {}"
+msgstr "Virhe jäsennettäessä kohdetta \"{}\": {}"
 
 #: solv/vendor_change_manager.cpp:580
 #, c++-format
@@ -1718,6 +1716,8 @@ msgid ""
 "Configuration \"{}\" uses version \"1.0\" which does not support "
 "'incoming_vendors' without 'outgoing_vendors'"
 msgstr ""
+"Määritys \"{}\" käyttää versiota \"1.0\", joka ei tue avainta "
+"'incoming_vendors' ilman avainta 'outgoing_vendors'"
 
 #: solv/vendor_change_manager.cpp:586
 #, c++-format
@@ -1725,11 +1725,13 @@ msgid ""
 "Configuration \"{}\" uses version \"1.0\" which does not support "
 "'outgoing_vendors' without 'incoming_vendors'"
 msgstr ""
+"Määritys \"{}\" käyttää versiota \"1.0\", joka ei tue avainta "
+"'outgoing_vendors' ilman avainta 'incoming_vendors'"
 
 #: solv/vendor_change_manager.cpp:676
 #, c++-format
 msgid "Unknown 'comparator' \"{}\" in \"{}\" on line {}"
-msgstr ""
+msgstr "Tuntematon 'comparator' \"{}\" tiedostossa \"{}\" rivillä {}"
 
 #: solv/vendor_change_manager.cpp:680
 #, c++-format
@@ -1737,21 +1739,27 @@ msgid ""
 "Configuration \"{}\" uses version \"{}\" which does not support 'comparator' "
 "\"{}\""
 msgstr ""
+"Määritys \"{}\" käyttää versiota \"{}\", joka ei tue 'comparator'-arvoa \"{}"
+"\""
 
 #: solv/vendor_change_manager.cpp:719
 #, c++-format
 msgid "Unknown 'filter' \"{}\" in \"{}\" on line {}"
-msgstr ""
+msgstr "Tuntematon 'filter' \"{}\" tiedostossa \"{}\" rivillä {}"
 
 #: solv/vendor_change_manager.cpp:740
 #, c++-format
 msgid "Missing 'filter' key in \"{}\" for table entry on line {}"
 msgstr ""
+"Avain 'filter' puuttuu tiedostossa \"{}\" rivillä {} olevasta taulukon "
+"merkinnästä"
 
 #: solv/vendor_change_manager.cpp:745
 #, c++-format
 msgid "Missing 'value' key in \"{}\" for table entry on line {}"
 msgstr ""
+"Avain 'value' puuttuu tiedostossa \"{}\" rivillä {} olevasta taulukon "
+"merkinnästä"
 
 #: solv/vendor_change_manager.cpp:752
 #, c++-format
@@ -1760,6 +1768,9 @@ msgid ""
 "support comparator \"{}\". Only the default \"EXACT\" comparator is allowed "
 "for this filter"
 msgstr ""
+"Suodatin \"cmdline_repo\" tiedostossa \"{}\" rivillä {} alkavassa taulukossa "
+"ei tue vertailuoperaattoria \"{}\". Tälle suodattimelle on sallittu vain "
+"oletusoperaattori \"EXACT\""
 
 #: solv/vendor_change_manager.cpp:769
 #, c++-format
@@ -1767,6 +1778,8 @@ msgid ""
 "Invalid 'value' \"{}\" in \"{}\" in table starting on line {}. Only "
 "\"true\", \"1\", \"false\", \"0\" are supported"
 msgstr ""
+"Virheellinen 'value' \"{}\" tiedostossa \"{}\" rivillä {} alkavassa "
+"taulukossa. Vain \"true\", \"1\", \"false\" ja \"0\" ovat tuettuja"
 
 #: solv/vendor_change_manager.cpp:779 solv/vendor_change_manager.cpp:790
 #, c++-format
@@ -1774,108 +1787,116 @@ msgid ""
 "Filter \"{}\" in \"{}\" in table starting on line {} does not support "
 "comparator \"{}\""
 msgstr ""
+"Suodatin \"{}\" tiedostossa \"{}\" rivillä {} alkavassa taulukossa ei tue "
+"vertailuoperaattoria \"{}\""
 
 #: solv/vendor_change_manager.cpp:806
 #, c++-format
 msgid "Invalid epoch value \"{}\" in \"{}\" in table starting on line {}"
 msgstr ""
+"Virheellinen epoch-arvo \"{}\" tiedostossa \"{}\" rivillä {} alkavassa "
+"taulukossa"
 
 #: solv/vendor_change_manager.cpp:821
 #, c++-format
 msgid "Invalid regex \"{}\" in \"{}\" in table starting on line {}: {}"
 msgstr ""
+"Virheellinen säännöllinen lauseke \"{}\" tiedostossa \"{}\" rivillä {} "
+"alkavassa taulukossa: {}"
 
 #: solv/vendor_change_manager.cpp:873
 msgid "Unexpected end of input"
-msgstr ""
+msgstr "Odottamaton syötteen loppu"
 
 #: solv/vendor_change_manager.cpp:890
 #, c++-format
 msgid "Expected '{}' but found end of input"
-msgstr ""
+msgstr "Odotettiin '{}', mutta syöte loppui"
 
 #: solv/vendor_change_manager.cpp:892
 #, c++-format
 msgid "Expected '{}' but found '{}'"
-msgstr ""
+msgstr "Odotettiin '{}', mutta löytyi '{}'"
 
 #: solv/vendor_change_manager.cpp:902
 #, c++-format
 msgid "Compact vendor change policy parse error in \"{}\" at position {}"
 msgstr ""
+"Tiiviin toimittajanvaihtokäytännön jäsennysvirhe kohteessa \"{}\" kohdassa {}"
 
 #: solv/vendor_change_manager.cpp:956
 msgid "Expected package filter after '@'"
-msgstr ""
+msgstr "Odotettiin pakettisuodatinta merkin '@' jälkeen"
 
 #: solv/vendor_change_manager.cpp:969
-#, fuzzy, c++-format
-#| msgid "Invalid repository id \"{}\": unexpected character '{}'"
+#, c++-format
 msgid "Unexpected character '{}'"
-msgstr ""
-"Virheellinen ohjelmistolähteen tunnus \"{}\": odottamaton merkki \"{}\""
+msgstr "Odottamaton merkki '{}'"
 
 #: solv/vendor_change_manager.cpp:1045
 msgid "Expected quoted string starting with '\"'"
 msgstr ""
+"Odotettiin lainausmerkeissä olevaa merkkijonoa, joka alkaa merkillä '\"'"
 
 #: solv/vendor_change_manager.cpp:1053
 msgid "Unterminated escape sequence"
-msgstr ""
+msgstr "Päättymätön ohjaussarja"
 
 #: solv/vendor_change_manager.cpp:1059
 #, c++-format
 msgid "Invalid escape sequence '\\{}'. Only '\\\"' and '\\\\' are supported"
-msgstr ""
+msgstr "Virheellinen ohjaussarja '\\{}'. Vain '\\\"' ja '\\\\' ovat tuettuja"
 
 #: solv/vendor_change_manager.cpp:1066
 msgid "Unterminated quoted string"
-msgstr ""
+msgstr "Päättymätön lainausmerkeissä oleva merkkijono"
 
 #: solv/vendor_change_manager.cpp:1101
 msgid "Expected direction prefix 'in', 'out', or 'eq'"
-msgstr ""
+msgstr "Odotettiin suunnan etuliitettä 'in', 'out' tai 'eq'"
 
 #: solv/vendor_change_manager.cpp:1165
 msgid ""
 "Expected comparison operator: relational (<, <=, >, >=) or string (=, ^, $, "
 "*, =*, =~; optionally prefixed with ! and/or i"
 msgstr ""
+"Odotettiin vertailuoperaattoria: suuruusvertailu (<, <=, >, >=) tai "
+"merkkijonovertailu (=, ^, $, *, =*, =~; valinnaisesti etuliitteenä ! ja/tai i"
 
 #: solv/vendor_change_manager.cpp:1230
 msgid ""
 "Vendor definition does not support relational comparators. Use string "
 "comparators: =, ^, $, *, =*, =~"
 msgstr ""
+"Toimittajan määritys ei tue suuruusvertailuoperaattoreita. Käytä "
+"merkkijonovertailuoperaattoreita: =, ^, $, *, =*, =~"
 
 #: solv/vendor_change_manager.cpp:1238
 #, c++-format
 msgid "Invalid regex vendor pattern '{}': {}"
-msgstr ""
+msgstr "Virheellinen toimittajan säännöllinen lauseke '{}': {}"
 
 #: solv/vendor_change_manager.cpp:1256
-#, fuzzy, c++-format
-#| msgid "Unknown time unit '{}'"
+#, c++-format
 msgid "Unknown filter field name '{}'"
-msgstr "Tuntematon aikayksikkö '{}'"
+msgstr "Tuntematon suodatinkentän nimi '{}'"
 
 #: solv/vendor_change_manager.cpp:1266
 msgid "Expected filter field name"
-msgstr ""
+msgstr "Odotettiin suodatinkentän nimeä"
 
 #: solv/vendor_change_manager.cpp:1295
-#, fuzzy, c++-format
-#| msgid "Invalid boolean value \"{}\""
+#, c++-format
 msgid "Invalid epoch value \"{}\""
-msgstr "Virheellinen looginen arvo \"{}\""
+msgstr "Virheellinen epoch-arvo \"{}\""
 
 #: solv/vendor_change_manager.cpp:1299
 msgid "Filter 'cmdline_repo' only supports the '=' (EXACT) comparator"
-msgstr ""
+msgstr "Suodatin 'cmdline_repo' tukee vain vertailuoperaattoria '=' (EXACT)"
 
 #: solv/vendor_change_manager.cpp:1302
 msgid "Filter 'cmdline_repo' is only allowed in incoming packages ('in:')"
-msgstr ""
+msgstr "Suodatin 'cmdline_repo' on sallittu vain saapuville paketeille ('in:')"
 
 #: solv/vendor_change_manager.cpp:1313
 #, c++-format
@@ -1883,31 +1904,34 @@ msgid ""
 "Invalid value '{}' for 'cmdline_repo' filter. Use 'true', '1', 'false', or "
 "'0'"
 msgstr ""
+"Virheellinen arvo '{}' suodattimelle 'cmdline_repo'. Käytä arvoa 'true', "
+"'1', 'false' tai '0'"
 
 #: solv/vendor_change_manager.cpp:1317
 #, c++-format
 msgid "Filter '{}' only supports relational comparators: =, !=, >, >=, <, <="
 msgstr ""
+"Suodatin '{}' tukee vain suuruusvertailuoperaattoreita: =, !=, >, >=, <, <="
 
 #: solv/vendor_change_manager.cpp:1321
 #, c++-format
 msgid "Filter '{}' only supports string comparators: =, ^, $, *, =*, =~"
 msgstr ""
+"Suodatin '{}' tukee vain merkkijonovertailuoperaattoreita: =, ^, $, *, =*, =~"
 
 #: solv/vendor_change_manager.cpp:1330
-#, fuzzy, c++-format
-#| msgid "Invalid package type: {}"
+#, c++-format
 msgid "Invalid regex '{}': {}"
-msgstr "Virheellinen pakettityyppi: {}"
+msgstr "Virheellinen säännöllinen lauseke '{}': {}"
 
 #: solv/vendor_change_manager.cpp:1341
 msgid "Package filters do not support 'eq' direction. Use 'in' or 'out'"
-msgstr ""
+msgstr "Pakettisuodattimet eivät tue suuntaa 'eq'. Käytä suuntaa 'in' tai 'out'"
 
 #: solv/vendor_change_manager.cpp:1432 solv/vendor_change_manager.cpp:1482
 #: solv/vendor_change_manager.cpp:1493 solv/vendor_change_manager.cpp:1504
 msgid "{func}(): Policy index {idx} is out of range"
-msgstr ""
+msgstr "{func}(): Käytännön indeksi {idx} on sallitun alueen ulkopuolella"
 
 #: system/state.cpp:291 system/state.cpp:300
 #, c++-format
@@ -1915,10 +1939,9 @@ msgid "Invalid TOML version \"{}\", \"MAJOR.MINOR\" expected"
 msgstr "Virheellinen TOML-versio \"{}\", odotettiin muotoa \"MAJOR.MINOR\""
 
 #: system/state.cpp:308
-#, fuzzy, c++-format
-#| msgid "{} state for \"{}\" not found."
+#, c++-format
 msgid "{} state for \"{}\" not found."
-msgstr "{} tilaa kohteelle \"{}\" ei löytynyt.{}."
+msgstr "{}-tilaa kohteelle \"{}\" ei löytynyt."
 
 #: system/state.cpp:312
 #, c++-format
@@ -1933,22 +1956,17 @@ msgid "Unsupported TOML version \"{}\", maximum supported version is \"{}\""
 msgstr "Ei-tuettu TOML-versio \"{}\", suurin tuettu versio on \"{}\""
 
 #: system/state.cpp:798
-#, fuzzy, c++-format
-#| msgid "Error %i opening rpm database"
+#, c++-format
 msgid "Error {} opening rpm database"
-msgstr "Virhe %i avattaessa rpm-tietokantaa"
+msgstr "Virhe {} avattaessa rpm-tietokantaa"
 
 #: system/state.cpp:802
-#, fuzzy
-#| msgid "Failed to restore database \"{}\""
 msgid "Failed to get rpm database"
-msgstr "Tietokannan \"{}\" palauttaminen epäonnistui"
+msgstr "Rpm-tietokannan hakeminen epäonnistui"
 
 #: system/state.cpp:808
-#, fuzzy
-#| msgid "Cannot init rpm database iterator"
 msgid "Failed to initialize database index iterator"
-msgstr "rpm-tietokannan iteraattoria ei voida alustaa"
+msgstr "Tietokannan indeksi-iteraattorin alustaminen epäonnistui"
 
 #. TODO(dmach): replace with a better exception class
 #: transaction/db/comps_environment_group.cpp:100
@@ -1978,15 +1996,15 @@ msgstr "yhteensopimaton versio tilatiedoista"
 
 #: transaction/transaction.cpp:87
 msgid "Started"
-msgstr ""
+msgstr "Aloitettu"
 
 #: transaction/transaction.cpp:89
 msgid "Ok"
-msgstr ""
+msgstr "OK"
 
 #: transaction/transaction.cpp:91
 msgid "Error"
-msgstr ""
+msgstr "Virhe"
 
 #: transaction/transaction.cpp:110
 #, c++-format
@@ -2004,11 +2022,11 @@ msgstr "Virheellinen tapahtumanimikkeen toiminto: {}"
 
 #: transaction/transaction_item_action.cpp:74
 msgid "Replaced"
-msgstr ""
+msgstr "Korvattu"
 
 #: transaction/transaction_item_action.cpp:84
 msgid "Switch"
-msgstr ""
+msgstr "Vaihda"
 
 #: transaction/transaction_item_reason.cpp:30
 #, c++-format
@@ -2017,31 +2035,31 @@ msgstr "Virheellisen tapahtuman syy: {}"
 
 #: transaction/transaction_item_reason.cpp:56
 msgid "None"
-msgstr ""
+msgstr "Ei mitään"
 
 #: transaction/transaction_item_reason.cpp:58
 msgid "Dependency"
-msgstr ""
+msgstr "Riippuvuus"
 
 #: transaction/transaction_item_reason.cpp:60
 msgid "User"
-msgstr ""
+msgstr "Käyttäjä"
 
 #: transaction/transaction_item_reason.cpp:62
 msgid "Clean"
-msgstr ""
+msgstr "Siivous"
 
 #: transaction/transaction_item_reason.cpp:64
 msgid "Weak Dependency"
-msgstr ""
+msgstr "Heikko riippuvuus"
 
 #: transaction/transaction_item_reason.cpp:66
 msgid "Group"
-msgstr ""
+msgstr "Ryhmä"
 
 #: transaction/transaction_item_reason.cpp:68
 msgid "External User"
-msgstr ""
+msgstr "Ulkoinen käyttäjä"
 
 #: transaction/transaction_item_state.cpp:28
 #, c++-format
@@ -2232,33 +2250,33 @@ msgstr ""
 #: utils/bootc.cpp:47
 #, c++-format
 msgid "Error checking bootc status: {}"
-msgstr ""
+msgstr "Virhe tarkistettaessa bootcin tilaa: {}"
 
 #: utils/bootc.cpp:50
 #, c++-format
 msgid "Error checking bootc status: bootc command failed with exit code {}"
 msgstr ""
+"Virhe tarkistettaessa bootcin tilaa: bootc-komento epäonnistui paluuarvolla "
+"{}"
 
 #: utils/bootc.cpp:59
 msgid "Error checking bootc status: Failed to parse JSON output"
 msgstr ""
+"Virhe tarkistettaessa bootcin tilaa: JSON-tulosteen jäsentäminen epäonnistui"
 
 #: utils/bootc.cpp:74
-#, fuzzy, c++-format
-#| msgid "Failed to update from string: {}"
+#, c++-format
 msgid "Failed to query status of bootc system: {}"
-msgstr "Päivitys merkkijonosta epäonnistui: {}"
+msgstr "Bootc-järjestelmän tilan kysely epäonnistui: {}"
 
 #: utils/bootc.cpp:91
-#, fuzzy
-#| msgid "Failed to download files"
 msgid "Failed to stat /usr filesystem"
-msgstr "Tiedostojen lataaminen epäonnistui"
+msgstr "/usr-tiedostojärjestelmän tilaa ei saatu (stat)"
 
 #: utils/bootc.cpp:127
 #, c++-format
 msgid "Error running `bootc usr-overlay --read-only`: {}"
-msgstr ""
+msgstr "Virhe suoritettaessa komentoa `bootc usr-overlay --read-only`: {}"
 
 #: utils/bootc.cpp:130
 #, c++-format
@@ -2266,18 +2284,18 @@ msgid ""
 "Error running `bootc usr-overlay --read-only`: bootc command failed with "
 "exit code {}"
 msgstr ""
+"Virhe suoritettaessa komentoa `bootc usr-overlay --read-only`: bootc-komento "
+"epäonnistui paluuarvolla {}"
 
 #: utils/bootc.cpp:138
-#, fuzzy
-#| msgid "Failed to execute uname()"
 msgid "Failed to unshare mount namespace"
-msgstr "uname():n suoritus epäonnistui"
+msgstr "Liitosnimiavaruuden irrottaminen (unshare) epäonnistui"
 
 #: utils/bootc.cpp:146
-#, fuzzy, c++-format
-#| msgid "Failed to resolve module metadata: {}"
+#, c++-format
 msgid "Failed to remount /usr as read-write: {}"
-msgstr "Moduulin metatietojen ratkaiseminen epäonnistui: {}"
+msgstr ""
+"/usr-hakemiston uudelleenliittäminen luku-kirjoitustilaan epäonnistui: {}"
 
 #: utils/fs/file.cpp:87
 msgid "cannot open file"
@@ -2389,7 +2407,7 @@ msgstr "Lukon \"{}\" varaaminen epäonnistui"
 
 #: utils/locker.cpp:111
 msgid "File is already open."
-msgstr ""
+msgstr "Tiedosto on jo auki."
 
 #: utils/locker.cpp:124
 #, c++-format
@@ -2397,46 +2415,39 @@ msgid "Failed to open lock file \"{}\""
 msgstr "Lukkotiedoston \"{}\" avaaminen epäonnistui"
 
 #: utils/locker.cpp:130 utils/locker.cpp:167
-#, fuzzy, c++-format
-#| msgid "The package is not signed."
+#, c++-format
 msgid "The lock file \"{}\" is not opened"
-msgstr "Pakettia ei ole allekirjoitettu."
+msgstr "Lukkotiedostoa \"{}\" ei ole avattu"
 
 #: utils/locker.cpp:135
-#, fuzzy, c++-format
-#| msgid "Failed to close lock file \"{}\""
+#, c++-format
 msgid "Failed to truncate lock file \"{}\""
-msgstr "Lukkotiedoston \"{}\" sulkeminen epäonnistui"
+msgstr "Lukkotiedoston \"{}\" katkaiseminen epäonnistui"
 
 #: utils/locker.cpp:138 utils/locker.cpp:175
-#, fuzzy, c++-format
-#| msgid "Failed to close lock file \"{}\""
+#, c++-format
 msgid "Failed to seek lock file \"{}\""
-msgstr "Lukkotiedoston \"{}\" sulkeminen epäonnistui"
+msgstr "Siirtyminen lukkotiedostossa \"{}\" epäonnistui"
 
 #: utils/locker.cpp:146
-#, fuzzy, c++-format
-#| msgid "Failed to delete lock file \"{}\""
+#, c++-format
 msgid "Failed to write to lock file \"{}\""
-msgstr "Lukkotiedoston \"{}\" poistaminen epäonnistui"
+msgstr "Lukkotiedostoon \"{}\" kirjoittaminen epäonnistui"
 
 #: utils/locker.cpp:153
-#, fuzzy, c++-format
-#| msgid "Failed to open lock file \"{}\""
+#, c++-format
 msgid "Failed to sync lock file \"{}\""
-msgstr "Lukkotiedoston \"{}\" avaaminen epäonnistui"
+msgstr "Lukkotiedoston \"{}\" synkronointi epäonnistui"
 
 #: utils/locker.cpp:181
-#, fuzzy, c++-format
-#| msgid "Failed to open lock file \"{}\""
+#, c++-format
 msgid "Failed to read from lock file \"{}\""
-msgstr "Lukkotiedoston \"{}\" avaaminen epäonnistui"
+msgstr "Lukkotiedoston \"{}\" lukeminen epäonnistui"
 
 #: utils/locker.cpp:194
-#, fuzzy, c++-format
-#| msgid "The package is not signed."
+#, c++-format
 msgid "The lock file \"{}\" is not locked"
-msgstr "Pakettia ei ole allekirjoitettu."
+msgstr "Lukkotiedostoa \"{}\" ei ole lukittu"
 
 #: utils/locker.cpp:207
 #, c++-format
@@ -2456,7 +2467,7 @@ msgstr "SQL-lausekkeen kääntäminen epäonnistui: \"{}\""
 #: utils/sqlite3/sqlite3.cpp:31
 #, c++-format
 msgid "Binding integer value to SQL statement failed: \"{}\""
-msgstr "Kokonaisluvun arvon sitominen SQL-lausekkeeseen epäonnistui: \"{}"
+msgstr "Kokonaisluvun arvon sitominen SQL-lausekkeeseen epäonnistui: \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:33
 #, c++-format
@@ -2467,8 +2478,8 @@ msgstr "Kokonaisluvun 64 arvon sitominen SQL-lausekkeeseen epäonnistui: \"{}\""
 #, c++-format
 msgid "Binding unsigned integer32 value to SQL statement failed: \"{}\""
 msgstr ""
-"Allekirjoittamattoman kokonaisluvun 32 arvon sitominen SQL-lausekkeeseen "
-"epäonnistui: \"{}"
+"Etumerkittömän 32-bittisen kokonaisluvun arvon sitominen SQL-lausekkeeseen "
+"epäonnistui: \"{}\""
 
 #: utils/sqlite3/sqlite3.cpp:37
 #, c++-format
@@ -2535,48 +2546,42 @@ msgid "Failed to restore database \"{}\""
 msgstr "Tietokannan \"{}\" palauttaminen epäonnistui"
 
 #: utils/subprocess.cpp:29
-#, fuzzy
-#| msgid "cannot create temporary file"
 msgid "cannot create pipe"
-msgstr "väliaikaistiedostoa ei voi luoda"
+msgstr "putkea ei voi luoda"
 
 #: utils/subprocess.cpp:98
 msgid "cannot fork"
-msgstr ""
+msgstr "fork epäonnistui"
 
 #: utils/subprocess.cpp:173
 msgid "cannot bind child stdin"
-msgstr ""
+msgstr "lapsiprosessin stdin-syötettä ei voi sitoa"
 
 #: utils/subprocess.cpp:175
 msgid "cannot bind child stdout"
-msgstr ""
+msgstr "lapsiprosessin stdout-tulostetta ei voi sitoa"
 
 #: utils/subprocess.cpp:177
-#, fuzzy
-#| msgid "cannot open file"
 msgid "cannot bind child stderr"
-msgstr "tiedostoa ei voi avata"
+msgstr "lapsiprosessin stderr-tulostetta ei voi sitoa"
 
 #: utils/subprocess.cpp:180
-#, fuzzy, c++-format
-#| msgid "Failed to execute uname()"
+#, c++-format
 msgid "failed to execute command: {}"
-msgstr "uname():n suoritus epäonnistui"
+msgstr "komennon suorittaminen epäonnistui: {}"
 
 #: utils/subprocess.cpp:185
-#, fuzzy, c++-format
-#| msgid "Error during transaction replay JSON parsing : {}"
+#, c++-format
 msgid "error during preparation of child process: {}"
-msgstr "Virhe tapahtuman toiston JSON-jäsennyksessä: {}"
+msgstr "virhe valmisteltaessa lapsiprosessia: {}"
 
 #: utils/subprocess.cpp:211
 msgid "poll failed during subprocess I/O"
-msgstr ""
+msgstr "poll epäonnistui aliprosessin I/O:n aikana"
 
 #: utils/subprocess.cpp:257
 msgid "unexpected child process status after waitpid"
-msgstr ""
+msgstr "odottamaton lapsiprosessin tila waitpid-kutsun jälkeen"
 
 #: utils/system.cpp:34
 msgid "failed to read rpm config files"
