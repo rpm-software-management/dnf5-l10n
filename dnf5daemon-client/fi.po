@@ -5,13 +5,14 @@
 # Ville-Pekka Vainio <vpvainio@iki.fi>, 2024.
 # Ricky Tigg <ricky.tigg@gmail.com>, 2024, 2025.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024.
+# Jan Kuparinen <copper_fin@hotmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-12 05:17+0000\n"
-"PO-Revision-Date: 2025-07-19 11:40+0000\n"
-"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
+"PO-Revision-Date: 2026-11-12 17:55+0000\n"
+"Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5daemon-client/fi/>\n"
 "Language: fi\n"
@@ -19,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 2026.11.1\n"
 
 #: commands/advisory/advisory.cpp:35
 msgid "Manage advisories"
@@ -68,7 +69,7 @@ msgid ""
 "supports globs."
 msgstr ""
 "Näytä vain neuvoja, jotka sisältävät paketteja tietyillä nimillä. "
-"Luettelovaihtoehto, tukee laajamittaisia."
+"Luettelovalitsin, tukee jokerimerkkejä."
 
 #: commands/advisory/arguments.hpp:81
 msgid "PACKAGE_NAME,..."
@@ -91,7 +92,7 @@ msgid ""
 "Include content contained in advisories with specified name. List option."
 msgstr ""
 "Sisällytä määritetyllä nimellä varustettujen tiedotteiden sisältö. "
-"Luettelovaihtoehto."
+"Luettelovalitsin."
 
 #: commands/advisory/arguments.hpp:114
 msgid "ADVISORY_NAME,..."
@@ -121,12 +122,12 @@ msgid ""
 "option. Can be \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgstr ""
 "Sisällytä tiedotteissa oleva sisältö, jolla on määritelty vakavuusaste. "
-"Luettelovaihtoehto. Voi olla 'critical', 'important', 'moderate', 'low', "
+"Luettelovalitsin. Voi olla 'critical', 'important', 'moderate', 'low', "
 "'none'."
 
 #: commands/advisory/arguments.hpp:157
 msgid "ADVISORY_SEVERITY,..."
-msgstr "NEUVON_VAKAVUUS..."
+msgstr "NEUVON_VAKAVUUS,..."
 
 #: commands/advisory/arguments.hpp:169
 msgid ""
@@ -134,7 +135,7 @@ msgid ""
 "List option."
 msgstr ""
 "Sisällytä tiedotteissa oleva sisältö, jotka korjaavat jokin Bugzilla-"
-"tunnuksen, esim. 123123. Luettelovaihtoehto."
+"tunnuksen, esim. 123123. Luettelovalitsin."
 
 #: commands/advisory/arguments.hpp:170
 msgid "BUGZILLA_ID,..."
@@ -147,7 +148,7 @@ msgid ""
 msgstr ""
 "Sisällytä tiedotteissa oleva sisältö, jotka korjaavat jokin CVE (Common "
 "Vulnerabilities and Exposures)-tunnuksen, esim. CVE-2201-0123. "
-"Luettelovaihtoehto."
+"Luettelovalitsin."
 
 #: commands/advisory/arguments.hpp:182
 msgid "CVE_ID,..."
@@ -187,7 +188,7 @@ msgid ""
 "supports globs."
 msgstr ""
 "Näytä vain ryhmät, jotka sisältävät paketteja tietyillä nimillä. "
-"Luettelovaihtoehto, tukee laajamittaisia."
+"Luettelovalitsin, tukee jokerimerkkejä."
 
 #: commands/repo/repo.cpp:37
 msgid "Manage repositories"
