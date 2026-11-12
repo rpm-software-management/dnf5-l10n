@@ -7,14 +7,14 @@
 # Ville-Pekka Vainio <vpvainio@iki.fi>, 2024, 2026.
 # Jouko Tiilikainen <jti65@users.noreply.translate.fedoraproject.org>, 2026.
 # GitHub webhook <noreply-webhook-github@weblate.org>, 2026.
+# Jan Kuparinen <copper_fin@hotmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-12 05:17+0000\n"
-"PO-Revision-Date: 2026-11-03 09:42+0000\n"
-"Last-Translator: Jouko Tiilikainen "
-"<jti65@users.noreply.translate.fedoraproject.org>\n"
+"PO-Revision-Date: 2026-11-12 17:55+0000\n"
+"Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/fi/>\n"
 "Language: fi\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.11\n"
+"X-Generator: Weblate 2026.11.1\n"
 
 #: cmdline_aliases.cpp:84 context.cpp:222 main.cpp:1617
 msgid ", "
@@ -305,7 +305,7 @@ msgid ""
 "supports globs."
 msgstr ""
 "Näytä vain neuvoja, jotka sisältävät paketteja tietyillä nimillä. "
-"Luettelovaihtoehto, tukee laajamittaisia."
+"Luettelovalitsin, tukee jokerimerkkejä."
 
 #: commands/advisory/arguments.hpp:83 commands/history/arguments.hpp:81
 msgid "PACKAGE_NAME,..."
@@ -347,7 +347,7 @@ msgid ""
 "Include content contained in advisories with specified name. List option."
 msgstr ""
 "Sisällytä määritetyllä nimellä varustettujen tiedotteiden sisältö. "
-"Luettelovaihtoehto."
+"Luettelovalitsin."
 
 #: commands/advisory_shared.hpp:194
 msgid "ADVISORY_NAME,..."
@@ -375,12 +375,12 @@ msgid ""
 "option. Can be \"critical\", \"important\", \"moderate\", \"low\", \"none\"."
 msgstr ""
 "Sisällytä tiedotteissa oleva sisältö, jolla on määritelty vakavuusaste. "
-"Luettelovaihtoehto. Voi olla 'critical', 'important', 'moderate', 'low', "
+"Luettelovalitsin. Voi olla 'critical', 'important', 'moderate', 'low', "
 "'none'."
 
 #: commands/advisory_shared.hpp:235
 msgid "ADVISORY_SEVERITY,..."
-msgstr "NEUVON_VAKAVUUS..."
+msgstr "NEUVON_VAKAVUUS,..."
 
 #: commands/advisory_shared.hpp:247
 msgid ""
@@ -388,7 +388,7 @@ msgid ""
 "List option."
 msgstr ""
 "Sisällytä tiedotteissa oleva sisältö, jotka korjaavat jokin Bugzilla-"
-"tunnuksen, esim. 123123. Luettelovaihtoehto."
+"tunnuksen, esim. 123123. Luettelovalitsin."
 
 #: commands/advisory_shared.hpp:248
 msgid "BUGZILLA_ID,..."
@@ -401,7 +401,7 @@ msgid ""
 msgstr ""
 "Sisällytä tiedotteissa oleva sisältö, jotka korjaavat jokin CVE (Common "
 "Vulnerabilities and Exposures)-tunnuksen, esim. CVE-2201-0123. "
-"Luettelovaihtoehto."
+"Luettelovalitsin."
 
 #: commands/advisory_shared.hpp:260
 msgid "CVE_ID,..."
@@ -621,7 +621,7 @@ msgid ""
 "supports globs."
 msgstr ""
 "Näytä vain ryhmät, jotka sisältävät paketteja tietyillä nimillä. "
-"Luettelovaihtoehto, tukee laajamittaisia."
+"Luettelovalitsin, tukee jokerimerkkejä."
 
 #: commands/group/arguments.hpp:67
 msgid "Pattern matching group identifiers."
@@ -696,7 +696,7 @@ msgid ""
 "option, supports globs."
 msgstr ""
 "Näytä vain tapahtumat, jotka sisältävät paketteja tietyillä nimillä. "
-"Luettelovaihtoehto, tukee laajamittaisia."
+"Luettelovalitsin, tukee jokerimerkkejä."
 
 #: commands/history/history.cpp:41
 msgid "Manage transaction history"
@@ -923,14 +923,16 @@ msgstr "Yhteys D-Busiin ei onnistunut: {}"
 #, c++-format
 msgid "Waiting for {0} process blocking shutdown ({1}/{2}s)"
 msgid_plural "Waiting for {0} processes blocking shutdown ({1}/{2}s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Odotetaan {0} sammutuksen estävää prosessia ({1}/{2} s)"
+msgstr[1] "Odotetaan {0} sammutuksen estävää prosessia ({1}/{2} s)"
 
 #: commands/offline/offline.cpp:348
 msgid ""
 "Timed out waiting for processes blocking shutdown. Continuing shutdown "
 "request."
 msgstr ""
+"Aikakatkaisu odotettaessa sammutuksen estäviä prosesseja. Jatketaan "
+"sammutuspyyntöä."
 
 #: commands/offline/offline.cpp:411
 msgid ""
@@ -1343,8 +1345,8 @@ msgstr "Paketti ”{}” on jo suljettu pois."
 #, c++-format
 msgid "{} day, {}:{:02}:{:02}"
 msgid_plural "{} days, {}:{:02}:{:02}"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{} päivä, {}:{:02}:{:02}"
+msgstr[1] "{} päivää, {}:{:02}:{:02}"
 
 #: context.cpp:97
 #, c++-format
@@ -1486,7 +1488,7 @@ msgstr "Päivitetään ja ladataan ohjelmistolähteet:"
 #: context.cpp:371
 #, c++-format
 msgid "Last metadata expiration check: {} ago on {}."
-msgstr ""
+msgstr "Metatietojen vanhenemisen viimeisin tarkistus: {} sitten, {}."
 
 #: context.cpp:378
 msgid "Repositories loaded."
@@ -1781,69 +1783,52 @@ msgid "do not allow automatic package replacements from different vendors"
 msgstr "älä salli pakettien automaattista korvaamista eri toimittajilta"
 
 #: main.cpp:375
-#, fuzzy
-#| msgid ""
-#| "Enable additional repositories. List option. Supports globs, can be "
-#| "specified multiple times."
 msgid ""
 "Allow switching packages from any vendor to packages from VENDOR. Supports "
 "globs, can be specified multiple times."
 msgstr ""
-"Ota käyttöön lisäohjelmistolähteitä. Luettelovalitsin. Tukee globeja "
-"(joukkoja), voidaan määrittää useita kertoja."
+"Salli pakettien vaihtaminen minkä tahansa toimittajan paketeista toimittajan "
+"VENDOR paketteihin. Tukee jokerimerkkejä, voidaan määrittää useita kertoja."
 
 #: main.cpp:394
-#, fuzzy
-#| msgid ""
-#| "Disable repositories. List option. Supports globs, can be specified "
-#| "multiple times."
 msgid ""
 "Allow replacing packages from VENDOR to packages from any vendor. Supports "
 "globs, can be specified multiple times."
 msgstr ""
-"Poista ohjelmistolähteet käytöstä. Luettelovalitsin. Tukee globeja "
-"(joukkoja), voidaan määrittää useita kertoja."
+"Salli toimittajan VENDOR pakettien korvaaminen minkä tahansa toimittajan "
+"paketeilla. Tukee jokerimerkkejä, voidaan määrittää useita kertoja."
 
 #: main.cpp:413
-#, fuzzy
-#| msgid ""
-#| "Enable libdnf5 plugins by name. List option. Supports globs, can be "
-#| "specified multiple times."
 msgid ""
 "Allow vendor changes for packages matching PKG_NAME (bidirectional). List "
 "option. Supports globs, can be specified multiple times."
 msgstr ""
-"Ota libdnf5-lisäosat käyttöön nimen mukaan. Luettelovaihtoehto. Tukee "
-"laajamittaisia, voidaan määrittää useita kertoja."
+"Salli toimittajan vaihto paketeille, jotka vastaavat nimeä PKG_NAME "
+"(molempiin suuntiin). Luettelovalitsin. Tukee jokerimerkkejä, voidaan "
+"määrittää useita kertoja."
 
 #: main.cpp:442
-#, fuzzy
-#| msgid ""
-#| "Disable repositories. List option. Supports globs, can be specified "
-#| "multiple times."
 msgid ""
 "Add a vendor change policy for this run. Can be specified multiple times."
 msgstr ""
-"Poista ohjelmistolähteet käytöstä. Luettelovalitsin. Tukee globeja "
-"(joukkoja), voidaan määrittää useita kertoja."
+"Lisää toimittajanvaihtokäytäntö tälle suorituskerralle. Voidaan määrittää "
+"useita kertoja."
 
 #: main.cpp:457
 #, c++-format
 msgid ""
 "Remove all vendor change policies. Can be combined with {} to replace them."
 msgstr ""
+"Poista kaikki toimittajanvaihtokäytännöt. Voidaan yhdistää valitsimen {} "
+"kanssa niiden korvaamiseksi."
 
 #: main.cpp:476
-#, fuzzy
-#| msgid ""
-#| "Disable repositories. List option. Supports globs, can be specified "
-#| "multiple times."
 msgid ""
 "Disable vendor change policies whose source matches the specified pattern. "
 "Supports globs, can be specified multiple times."
 msgstr ""
-"Poista ohjelmistolähteet käytöstä. Luettelovalitsin. Tukee globeja "
-"(joukkoja), voidaan määrittää useita kertoja."
+"Poista käytöstä toimittajanvaihtokäytännöt, joiden lähde vastaa annettua "
+"kuviota. Tukee jokerimerkkejä, voidaan määrittää useita kertoja."
 
 #: main.cpp:493
 msgid ""
@@ -1862,24 +1847,24 @@ msgid ""
 "Enable additional repositories. List option. Supports globs, can be "
 "specified multiple times."
 msgstr ""
-"Ota käyttöön lisäohjelmistolähteitä. Luettelovalitsin. Tukee globeja "
-"(joukkoja), voidaan määrittää useita kertoja."
+"Ota käyttöön lisäohjelmistolähteitä. Luettelovalitsin. Tukee jokerimerkkejä, "
+"voidaan määrittää useita kertoja."
 
 #: main.cpp:546
 msgid ""
 "Disable repositories. List option. Supports globs, can be specified multiple "
 "times."
 msgstr ""
-"Poista ohjelmistolähteet käytöstä. Luettelovalitsin. Tukee globeja "
-"(joukkoja), voidaan määrittää useita kertoja."
+"Poista ohjelmistolähteet käytöstä. Luettelovalitsin. Tukee jokerimerkkejä, "
+"voidaan määrittää useita kertoja."
 
 #: main.cpp:564
 msgid ""
 "Enable just specific repositories. List option. Supports globs, can be "
 "specified multiple times."
 msgstr ""
-"Ota käyttöön vain tietyt tietovarastot. Luettelovaihtoehto. Tukee "
-"laajamittaisia, voidaan määrittää useita kertoja."
+"Ota käyttöön vain tietyt tietovarastot. Luettelovalitsin. Tukee "
+"jokerimerkkejä, voidaan määrittää useita kertoja."
 
 #: main.cpp:586
 msgid "disable OpenPGP signature checking (if RPM policy allows)"
@@ -1896,16 +1881,16 @@ msgid ""
 "Enable libdnf5 plugins by name. List option. Supports globs, can be "
 "specified multiple times."
 msgstr ""
-"Ota libdnf5-lisäosat käyttöön nimen mukaan. Luettelovaihtoehto. Tukee "
-"laajamittaisia, voidaan määrittää useita kertoja."
+"Ota libdnf5-lisäosat käyttöön nimen mukaan. Luettelovalitsin. Tukee "
+"jokerimerkkejä, voidaan määrittää useita kertoja."
 
 #: main.cpp:628
 msgid ""
 "Disable libdnf5 plugins by name. List option. Supports globs, can be "
 "specified multiple times."
 msgstr ""
-"Poista libdnf5-lisäosat käytöstä nimen mukaan. Luettelovaihtoehto. Tukee "
-"laajamittaisia, voidaan määrittää useita kertoja."
+"Poista libdnf5-lisäosat käytöstä nimen mukaan. Luettelovalitsin. Tukee "
+"jokerimerkkejä, voidaan määrittää useita kertoja."
 
 #: main.cpp:645
 msgid "add a comment to transaction"
@@ -1963,18 +1948,16 @@ msgstr "Tulosta päämääritysarvot stdout:een"
 msgid ""
 "Print repository configuration values to stdout. List option. Supports globs"
 msgstr ""
-"Tulosta ohjelmistolähteen määritysarvot stdout:een. Luettelovaihtoehto. "
-"Tukee laajamittaisia"
+"Tulosta ohjelmistolähteen määritysarvot stdout:een. Luettelovalitsin. Tukee "
+"jokerimerkkejä"
 
 #: main.cpp:770
 msgid "Print variable values to stdout"
 msgstr "Tulosta muuttujan arvot oletustulosteeseen (stdout)"
 
 #: main.cpp:784
-#, fuzzy
-#| msgid "Print variable values to stdout"
 msgid "Print loaded vendor change policies to stdout"
-msgstr "Tulosta muuttujan arvot oletustulosteeseen (stdout)"
+msgstr "Tulosta ladatut toimittajanvaihtokäytännöt stdout:iin"
 
 #: main.cpp:798
 msgid "Show DNF5 version and exit"
@@ -2097,10 +2080,8 @@ msgid "======== Variables: ========"
 msgstr "======== Muuttujat: ========"
 
 #: main.cpp:1167
-#, fuzzy
-#| msgid "======== Variables: ========"
 msgid "======== Vendor Change Policies: ========"
-msgstr "======== Muuttujat: ========"
+msgstr "======== Toimittajanvaihtokäytännöt: ========"
 
 #: main.cpp:1171
 #, c++-format
@@ -2168,16 +2149,14 @@ msgid "{} to skip uninstallable packages"
 msgstr "{} ei-asennettavissa olevien pakettien ohittamiseksi"
 
 #: main.cpp:1392
-#, fuzzy, c++-format
-#| msgid "{} to allow changing package vendors"
+#, c++-format
 msgid "{} to allow switching to packages from VENDOR"
-msgstr "{} mahdollistaakseen pakettien toimittajien vaihtamisen"
+msgstr "{} salliaksesi vaihtamisen toimittajan VENDOR paketteihin"
 
 #: main.cpp:1394
-#, fuzzy, c++-format
-#| msgid "{} to allow changing package vendors"
+#, c++-format
 msgid "{} to allow replacing packages from VENDOR"
-msgstr "{} mahdollistaakseen pakettien toimittajien vaihtamisen"
+msgstr "{} salliaksesi toimittajan VENDOR pakettien korvaamisen"
 
 #: main.cpp:1396
 #, c++-format
@@ -2185,10 +2164,9 @@ msgid "{} to add specific vendor change rules"
 msgstr "{} lisätäksesi tiettyjä toimittajanvaihtosääntöjä"
 
 #: main.cpp:1397
-#, fuzzy, c++-format
-#| msgid "{} to allow changing package vendors"
+#, c++-format
 msgid "{} to allow all vendor changes"
-msgstr "{} mahdollistaakseen pakettien toimittajien vaihtamisen"
+msgstr "{} salliaksesi kaikki toimittajanvaihdot"
 
 #: main.cpp:1401
 msgid "You can try to add to command line:"
