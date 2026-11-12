@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-12 05:17+0000\n"
-"PO-Revision-Date: 2026-11-10 19:57+0000\n"
+"PO-Revision-Date: 2026-11-12 17:55+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5-plugin-deptree/ko/>\n"
@@ -21,31 +21,31 @@ msgstr ""
 
 #: deptree.cpp:31
 msgid "Display package dependency trees."
-msgstr ""
+msgstr "꾸러미 의존성 가지를 표시."
 
 #: deptree.cpp:35
 msgid "Package names, NEVRAs, or glob patterns."
-msgstr ""
+msgstr "꾸러미 이름, NEVRA 또는 glob 유형."
 
 #: deptree.cpp:45
 msgid "Show packages requiring each package."
-msgstr ""
+msgstr "개별 꾸러미에 요구되는 꾸러미 표시."
 
 #: deptree.cpp:47
 msgid "Print a sorted, deduplicated package list."
-msgstr ""
+msgstr "정렬되고, 중복이 제거된 꾸러미 목록을 출력합니다."
 
 #: deptree.cpp:49
 msgid "Show requirement capability nodes."
-msgstr ""
+msgstr "요구사항 능력 노드 표시."
 
 #: deptree.cpp:52
 msgid "Include all matching package versions."
-msgstr ""
+msgstr "모든 일치된 꾸러미 버전을 포함합니다."
 
 #: deptree.cpp:54
 msgid "Display dependency trees for installed packages only."
-msgstr ""
+msgstr "설치된 꾸러미에 대해서만 의존성 가지를 표시합니다."
 
 #: deptree.cpp:59
 msgid ""
@@ -57,17 +57,17 @@ msgstr ""
 
 #: deptree.cpp:64
 msgid "Limit to packages of the specified architectures."
-msgstr ""
+msgstr "특정한 구조의 꾸러미로만 제한합니다."
 
 #: deptree.cpp:78
 msgid "Limit traversal to N dependency levels."
-msgstr ""
+msgstr "N 의존성 단계로 탐색을 제한합니다."
 
 #: deptree.cpp:92
 msgid ""
 "Comma-separated dependency types: requires, recommends, suggests, "
 "supplements, enhances."
-msgstr ""
+msgstr "쉼표-구분된 의존성 유형: 요구, 권장, 제안, 보완, 강화하다."
 
 #: deptree.cpp:125
 #, c++-format
@@ -77,28 +77,28 @@ msgstr "인수 \"{}\"와 일치하지 않습니다."
 #: deptree_graph.cpp:422
 #, c++-format
 msgid "choice: {}"
-msgstr ""
+msgstr "선택: {}"
 
 #: deptree_graph.cpp:424
 #, c++-format
 msgid "if {}:"
-msgstr ""
+msgstr "만약 {}:"
 
 #: deptree_graph.cpp:426
 msgid "else:"
-msgstr ""
+msgstr "그 밖에:"
 
 #: deptree_graph.cpp:428
 #, c++-format
 msgid "requirement: {}"
-msgstr ""
+msgstr "요구사항: {}"
 
 #: deptree_graph.cpp:430
 #, c++-format
 msgid "unsatisfied: {}"
-msgstr ""
+msgstr "불만족: {}"
 
 #: deptree_graph.cpp:452
 #, c++-format
 msgid "{} [expanded elsewhere]"
-msgstr ""
+msgstr "{} [다른 곳으로 확대됨]"
