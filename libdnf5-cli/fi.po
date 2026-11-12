@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-12 05:17+0000\n"
-"PO-Revision-Date: 2026-11-12 18:02+0000\n"
+"PO-Revision-Date: 2026-11-12 18:11+0000\n"
 "Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf5/"
 "libdnf5-cli/fi/>\n"
@@ -162,11 +162,14 @@ msgstr "Tapahtuman ratkaiseminen epäonnistui"
 #: output/moduleinfo.cpp:36
 msgid "Hint: [d]efault, [e]nabled, [x]disabled, [i]nstalled, [a]ctive"
 msgstr ""
-"Vihje: [o]letus, [k]äytössä, [p]oistettu käytöstä, [a]sennettu, [ak]tiivinen"
+"Vihje: [d] = oletus, [e] = käytössä, [x] = poistettu käytöstä, [i] = "
+"asennettu, [a] = aktiivinen"
 
 #: output/modulelist.cpp:39
 msgid "Hint: [d]efault, [e]nabled, [x]disabled, [i]nstalled"
-msgstr "Vihje: [o]letus, [k]äytössä, [p]oistettu käytöstä, [a]sennettu"
+msgstr ""
+"Vihje: [d] = oletus, [e] = käytössä, [x] = poistettu käytöstä, [i] = "
+"asennettu"
 
 #. Note for translators: This is a right-aligned column separator in
 #. a package properties table as in "Name    : bash".
@@ -181,7 +184,7 @@ msgstr "Nimi"
 
 #: output/packageinfo.cpp:68
 msgid "Epoch"
-msgstr "Ajanjakso"
+msgstr "Epoch"
 
 #: output/packageinfo.cpp:69 output/transaction_table.cpp:291
 msgid "Version"
@@ -250,49 +253,39 @@ msgstr "Täsmäävät kentät: "
 
 #: output/status.cpp:45
 msgid "Groups"
-msgstr ""
+msgstr "Ryhmät"
 
 #: output/status.cpp:46 output/status.cpp:55 output/status.cpp:72
-#, fuzzy
-#| msgid "Installed size"
 msgid "installed"
-msgstr "Asennuksen koko"
+msgstr "asennettu"
 
 #: output/status.cpp:47 output/status.cpp:56 output/status.cpp:73
 msgid "available"
-msgstr ""
+msgstr "saatavilla"
 
 #: output/status.cpp:54
 msgid "Environments"
-msgstr ""
+msgstr "Ympäristöt"
 
 #: output/status.cpp:71
-#, fuzzy
-#| msgid "Package"
 msgid "Packages"
-msgstr "Paketti"
+msgstr "Paketit"
 
 #: output/status.cpp:74
 msgid "user-installed"
-msgstr ""
+msgstr "käyttäjän asentama"
 
 #: output/status.cpp:84
-#, fuzzy
-#| msgid "Installed size"
 msgid "Installed Size"
 msgstr "Asennuksen koko"
 
 #: output/status.cpp:90
-#, fuzzy
-#| msgid "Repository"
 msgid "Enabled Repositories"
-msgstr "Ohjelmistolähde"
+msgstr "Käytössä olevat ohjelmistolähteet"
 
 #: output/status.cpp:101
-#, fuzzy
-#| msgid "Transaction Summary:\n"
 msgid "Last Transaction"
-msgstr "Transaktion yhteenveto:\n"
+msgstr "Viimeisin tapahtuma"
 
 #: output/transaction_table.cpp:129
 msgid "Transaction Summary:\n"
@@ -423,7 +416,7 @@ msgstr "Päivitetään:"
 
 #: output/transaction_table.cpp:572
 msgid "Downgrading:"
-msgstr "Vanhennetaan:"
+msgstr "Varhennetaan:"
 
 #: output/transaction_table.cpp:575
 msgid "Reinstalling:"
@@ -462,10 +455,8 @@ msgid "Upgrading groups:"
 msgstr "Päivitetään ryhmät:"
 
 #: output/transaction_table.cpp:631
-#, fuzzy
-#| msgid "Changing reason:"
 msgid "Changing reason of installed groups:"
-msgstr "Muutetaan syy:"
+msgstr "Muutetaan asennettujen ryhmien syytä:"
 
 #: output/transaction_table.cpp:658
 msgid "Installing environmental groups:"
@@ -497,14 +488,14 @@ msgstr "Vaihdetaan moduulivirtoja:"
 
 #: output/transaction_table.cpp:776 output/transaction_table.cpp:777
 msgid "(none)"
-msgstr ""
+msgstr "(ei mitään)"
 
 #: output/transaction_table.cpp:783
 #, c++-format
 msgid "Skipping {0} package due to vendor change restriction: {1}."
 msgid_plural "Skipping {0} packages due to vendor change restriction: {1}."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Ohitetaan {0} paketti toimittajanvaihdon rajoituksen vuoksi: {1}."
+msgstr[1] "Ohitetaan {0} pakettia toimittajanvaihdon rajoituksen vuoksi: {1}."
 
 #: output/transaction_table.cpp:812
 msgid "Nothing to do."
@@ -513,33 +504,31 @@ msgstr "Ei mitään tehtävää."
 #. The two spaces indent the table the same way as child lines in KeyValueTable
 #: output/transactioninfo.cpp:73
 msgid "Action"
-msgstr ""
+msgstr "Toiminto"
 
 #: output/transactioninfo.cpp:75
 msgid "Reason"
-msgstr ""
+msgstr "Syy"
 
 #: output/transactioninfo.cpp:98
-#, fuzzy
-#| msgid "Transaction Summary:\n"
 msgid "Transaction ID"
-msgstr "Transaktion yhteenveto:\n"
+msgstr "Tapahtuman tunnus"
 
 #: output/transactioninfo.cpp:99
 msgid "Begin time"
-msgstr ""
+msgstr "Alkamisaika"
 
 #: output/transactioninfo.cpp:100
 msgid "Begin rpmdb"
-msgstr ""
+msgstr "rpmdb alussa"
 
 #: output/transactioninfo.cpp:101
 msgid "End time"
-msgstr ""
+msgstr "Päättymisaika"
 
 #: output/transactioninfo.cpp:102
 msgid "End rpmdb"
-msgstr ""
+msgstr "rpmdb lopussa"
 
 #: output/transactioninfo.cpp:104
 msgid "User"
@@ -547,49 +536,47 @@ msgstr "Käyttäjä"
 
 #: output/transactioninfo.cpp:105
 msgid "Status"
-msgstr ""
+msgstr "Tila"
 
 #: output/transactioninfo.cpp:106
-#, fuzzy
-#| msgid "Release"
 msgid "Releasever"
-msgstr "Julkaisu"
+msgstr "Julkaisuversio"
 
 #: output/transactioninfo.cpp:108
 msgid "Comment"
-msgstr ""
+msgstr "Kommentti"
 
 #: output/transactioninfo.cpp:111
 msgid "Packages altered:"
-msgstr ""
+msgstr "Muutetut paketit:"
 
 #: output/transactioninfo.cpp:112
 msgid "Groups altered:"
-msgstr ""
+msgstr "Muutetut ryhmät:"
 
 #: output/transactioninfo.cpp:113
 msgid "Environments altered:"
-msgstr ""
+msgstr "Muutetut ympäristöt:"
 
 #: output/transactionlist.cpp:65
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: output/transactionlist.cpp:66
 msgid "Command line"
-msgstr ""
+msgstr "Komentorivi"
 
 #: output/transactionlist.cpp:67
 msgid "Date and time"
-msgstr ""
+msgstr "Päivämäärä ja aika"
 
 #: output/transactionlist.cpp:68
 msgid "Action(s)"
-msgstr ""
+msgstr "Toiminnot"
 
 #: output/transactionlist.cpp:69
 msgid "Altered"
-msgstr ""
+msgstr "Muutettu"
 
 #. namespace
 #: progressbar/multi_progress_bar.cpp:85
@@ -605,19 +592,21 @@ msgstr "Puuttuva komento"
 msgid ""
 "Invalid date passed: \"{}\". Dates in \"YYYY-MM-DD\" format are expected"
 msgstr ""
+"Virheellinen päivämäärä: \"{}\". Päivämäärät on annettava muodossa \"YYYY-MM-"
+"DD\""
 
 #: session.cpp:270
 #, c++-format
 msgid "\"{}\" date cannot be represented by time_t type on this platform"
-msgstr ""
+msgstr "Päivämäärää \"{}\" ei voi esittää tämän alustan time_t-tyypillä"
 
 #: utils/userconfirm.cpp:57
 msgid "Is this ok [Y/n]: "
-msgstr ""
+msgstr "Onko tämä kunnossa [K/e]: "
 
 #: utils/userconfirm.cpp:60
 msgid "Is this ok [y/N]: "
-msgstr ""
+msgstr "Onko tämä kunnossa [k/E]: "
 
 #~ msgid "No matches found."
 #~ msgstr "Täsmäävyyksiä ei löytynyt."
