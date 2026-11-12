@@ -9,8 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-12 05:17+0000\n"
 "PO-Revision-Date: 2026-11-12 17:55+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5-plugin-automatic/ko/>\n"
 "Language: ko\n"
@@ -24,27 +23,27 @@ msgstr ""
 msgid ""
 "An alternative CLI to 'dnf upgrade' suitable to be executed automatically "
 "and regularly."
-msgstr ""
+msgstr "대체CLI를 자동 및 정기적으로 실행되도록 적합한 'dnf upgrade' 명령."
 
 #: automatic.cpp:234
 msgid "Apply random delay before execution."
-msgstr ""
+msgstr "실행 전에 임의 지연을 적용합니다."
 
 #: automatic.cpp:239
 msgid "Automatically download updated packages"
-msgstr ""
+msgstr "자동으로 최신화된 꾸러미 내려받기"
 
 #: automatic.cpp:246
 msgid "Do not automatically download updated packages"
-msgstr ""
+msgstr "자동으로 최신화된 꾸러미를 내려받지 않습니다"
 
 #: automatic.cpp:255
 msgid "Automatically install downloaded updates"
-msgstr ""
+msgstr "자동으로 내려받은 최신화 설치"
 
 #: automatic.cpp:262
 msgid "Do not automatically install downloaded updates"
-msgstr ""
+msgstr "자동으로 내려받은 최신화를 설치하지 않습니다"
 
 #: automatic.cpp:322
 #, c++-format
@@ -52,6 +51,8 @@ msgid ""
 "Warning: Configuration file location \"{}\" for dnf automatic is deprecated. "
 "See dnf5-automatic(8) for details."
 msgstr ""
+"경고: dnf 자동에 대한 구성 파일 위치 \"{}\"는 폐기되었습니다. 자세한 부분은 "
+"dnf5-automatic(8)를 참고하세요."
 
 #: automatic.cpp:355
 #, c++-format
@@ -59,10 +60,12 @@ msgid ""
 "The \"email\" emitter is configured but the installed libcurl does not "
 "support the {} protocol."
 msgstr ""
+"\"email\" 발신자는 구성되었지만 설치된 libcurl은 {} 통신규약을 지원하지 "
+"않습니다."
 
 #: automatic.cpp:398
 msgid "Resolved transaction:"
-msgstr ""
+msgstr "처리된 연결:"
 
 #: automatic.cpp:427
 msgid "Downloading packages:"
@@ -87,35 +90,35 @@ msgstr "연결 실패함: "
 #: automatic.cpp:489
 #, c++-format
 msgid "Unknown report emitter for dnf5 automatic: \"{}\"."
-msgstr ""
+msgstr "dnf5 자동에 대해 알 수 없는 보고 발신자: \"{}\"."
 
 #: automatic.cpp:504
 #, c++-format
 msgid "Error: reboot command returned nonzero exit code: {}"
-msgstr ""
+msgstr "오류: reboot 명령이 nonzero 종료코드를 반환했습니다: {}"
 
 #: emitters.cpp:64
 msgid "No new upgrades available."
-msgstr ""
+msgstr "사용 할 수 있는 신규 향상이 없습니다."
 
 #: emitters.cpp:68
 #, c++-format
 msgid "{} packages can be upgraded."
-msgstr ""
+msgstr "{} 꾸러미는 향상 될 수 있습니다."
 
 #: emitters.cpp:71
 #, c++-format
 msgid "{} new upgrades have been downloaded."
-msgstr ""
+msgstr "{} 신규 향상을 내려받았습니다."
 
 #: emitters.cpp:74
 #, c++-format
 msgid "{} new upgrades have been installed."
-msgstr ""
+msgstr "{} 신규 향상이 설치되었습니다."
 
 #: emitters.cpp:82
 msgid "Failed to check for upgrades."
-msgstr ""
+msgstr "향상을 위한 점검이 실패함."
 
 #: emitters.cpp:85
 msgid "Failed to download upgrades."
@@ -123,9 +126,9 @@ msgstr "향상을 내려받는 데 실패함."
 
 #: emitters.cpp:88
 msgid "Failed to install upgrades."
-msgstr "향상을 내려받는 데 실패함."
+msgstr "향상 설치하는 데 실패함."
 
 #: emitters.cpp:143 emitters.cpp:164
 #, c++-format
 msgid "[{}] dnf5-automatic: {}"
-msgstr ""
+msgstr "[{}] dnf5-automatic: {}"
