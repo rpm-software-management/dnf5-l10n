@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-12 05:17+0000\n"
-"PO-Revision-Date: 2026-09-30 18:18+0000\n"
+"PO-Revision-Date: 2026-11-12 17:55+0000\n"
 "Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5-plugin-config-manager/fi/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.9.1\n"
+"X-Generator: Weblate 2026.11.1\n"
 
 #: addrepo.cpp:115
 #, c++-format
@@ -38,7 +38,7 @@ msgstr "{}: Virheellisesti muotoiltu argumentin arvo \"{}\""
 #: addrepo.cpp:158
 #, c++-format
 msgid "Cannot set repository option \"{}={}\": {}"
-msgstr "Ohjelmistolähteen vaihtoehtoa \"{}={}\" ei voi asettaa: {}"
+msgstr "Tietovaraston vaihtoehtoa \"{}={}\" ei voi asettaa: {}"
 
 #: addrepo.cpp:166 setopt.cpp:108
 #, c++-format
@@ -117,92 +117,103 @@ msgstr "Tietovarastoja ei voi lukea hakemistosta \"{}\": {}"
 #: addvendorpolicy.cpp:23
 msgid "Add a vendor change policy from a TOML file or compact format string"
 msgstr ""
+"Lisää toimittajanvaihtokäytäntö TOML-tiedostosta tai tiiviissä muodossa "
+"annetusta merkkijonosta"
 
 #: addvendorpolicy.cpp:29
 msgid "Policy base filename (without .conf extension)"
-msgstr ""
+msgstr "Käytäntötiedoston perusnimi (ilman .conf-päätettä)"
 
 #: addvendorpolicy.cpp:40
 msgid "URL or local path to the source TOML policy file"
-msgstr ""
+msgstr "Lähteenä olevan TOML-käytäntötiedoston URL tai paikallinen polku"
 
 #: addvendorpolicy.cpp:52
 msgid "Vendor change policy in compact format"
-msgstr ""
+msgstr "Toimittajanvaihtokäytäntö tiiviissä muodossa"
 
 #: addvendorpolicy.cpp:64
 msgid "Allow masking a distribution policy"
-msgstr ""
+msgstr "Salli jakelun käytännön peittäminen"
 
 #: addvendorpolicy.cpp:73
 msgid "Allow replacing an existing policy file"
-msgstr ""
+msgstr "Salli olemassa olevan käytäntötiedoston korvaaminen"
 
 #: addvendorpolicy.cpp:82
 msgid "Require that the new policy masks a distribution policy"
-msgstr ""
+msgstr "Vaadi, että uusi käytäntö peittää jakelun käytännön"
 
 #: addvendorpolicy.cpp:94
 msgid "Require that the new policy replaces an existing system policy file"
 msgstr ""
+"Vaadi, että uusi käytäntö korvaa olemassa olevan järjestelmän "
+"käytäntötiedoston"
 
 #: addvendorpolicy.cpp:123
 msgid "Option \"{option}\" with nonempty value is required"
-msgstr ""
+msgstr "Valitsin \"{option}\" on annettava ei-tyhjällä arvolla"
 
 #: addvendorpolicy.cpp:129
 msgid "Either \"{option1}\" or non-empty \"{option2}\" is required"
-msgstr ""
+msgstr "Joko \"{option1}\" tai ei-tyhjä \"{option2}\" vaaditaan"
 
 #: addvendorpolicy.cpp:142
 msgid ""
 "Policy file \"{path}\" already exists. Use \"{option}\" to allow replacing "
 "it."
 msgstr ""
+"Käytäntötiedosto \"{path}\" on jo olemassa. Salli sen korvaaminen "
+"valitsimella \"{option}\"."
 
 #: addvendorpolicy.cpp:150
 msgid ""
 "Distribution policy \"{name}\" already exists. Use \"{option}\" to allow "
 "masking it."
 msgstr ""
+"Jakelun käytäntö \"{name}\" on jo olemassa. Salli sen peittäminen "
+"valitsimella \"{option}\"."
 
 #: addvendorpolicy.cpp:165
 msgid ""
 "Cannot add policy: option \"{option}\" requires masking a distribution "
 "policy, but no distribution policy named \"{name}\" exists."
 msgstr ""
+"Käytäntöä ei voi lisätä: valitsin \"{option}\" edellyttää jakelun käytännön "
+"peittämistä, mutta jakelun käytäntöä nimeltä \"{name}\" ei ole."
 
 #: addvendorpolicy.cpp:172
 msgid ""
 "Cannot add policy: option \"{option}\" requires replacing an existing system "
 "policy, but no system policy file named \"{name}\" exists."
 msgstr ""
+"Käytäntöä ei voi lisätä: valitsin \"{option}\" edellyttää olemassa olevan "
+"järjestelmän käytännön korvaamista, mutta järjestelmän käytäntötiedostoa "
+"nimeltä \"{name}\" ei ole."
 
 #: addvendorpolicy.cpp:191 addvendorpolicy.cpp:215 addvendorpolicy.cpp:244
 msgid "Replaced vendor policy file: {path}"
-msgstr ""
+msgstr "Toimittajakäytäntötiedosto korvattu: {path}"
 
 #: addvendorpolicy.cpp:196
 msgid "Created vendor policy file: {path}"
-msgstr ""
+msgstr "Toimittajakäytäntötiedosto luotu: {path}"
 
 #: addvendorpolicy.cpp:204
-#, fuzzy
-#| msgid "from-repofile: \"{}\" file does not exist"
 msgid "Source file does not exist: {path}"
-msgstr "from-repofile: tiedostoa \"{}\" ei ole olemassa"
+msgstr "Lähdetiedostoa ei ole olemassa: {path}"
 
 #: addvendorpolicy.cpp:222 addvendorpolicy.cpp:251
 msgid "Saved vendor policy file: {path}"
-msgstr ""
+msgstr "Toimittajakäytäntötiedosto tallennettu: {path}"
 
 #: addvendorpolicy.cpp:260
 msgid "Masked distribution policy file: {path}"
-msgstr ""
+msgstr "Jakelun käytäntötiedosto peitetty: {path}"
 
 #: addvendorpolicy.cpp:264
 msgid "Failed to add vendor policy"
-msgstr ""
+msgstr "Toimittajakäytännön lisääminen epäonnistui"
 
 #: config-manager.cpp:47
 msgid "Manage configuration"
@@ -210,87 +221,89 @@ msgstr "Hallitse kokoonpanoa"
 
 #: listvendorpolicies.cpp:27
 msgid "List vendor change policy files"
-msgstr ""
+msgstr "Luettele toimittajanvaihtokäytäntöjen tiedostot"
 
 #: listvendorpolicies.cpp:33 removevendorpolicy.cpp:29
 msgid "Policy base filename pattern (supports globs)"
-msgstr ""
+msgstr "Käytäntötiedoston perusnimen kuvio (tukee jokerimerkkejä)"
 
 #: listvendorpolicies.cpp:42
 msgid "Show detailed information about the policies"
-msgstr ""
+msgstr "Näytä käytäntöjen yksityiskohtaiset tiedot"
 
 #: listvendorpolicies.cpp:61 removevendorpolicy.cpp:49
 msgid "No vendor policy files found"
-msgstr ""
+msgstr "Toimittajakäytäntötiedostoja ei löytynyt"
 
 #: listvendorpolicies.cpp:80 removevendorpolicy.cpp:63
 msgid "No matching vendor policy files found for pattern: {pattern}"
-msgstr ""
+msgstr "Kuviota vastaavia toimittajakäytäntötiedostoja ei löytynyt: {pattern}"
 
 #. Note for translators: This is a right-aligned column separator in
 #. a package properties table as in "Name    : bash".
 #: listvendorpolicies.cpp:149
 msgid " : "
-msgstr ""
+msgstr " : "
 
 #. Add policy info
 #: listvendorpolicies.cpp:155
 msgid "Policy"
-msgstr ""
+msgstr "Käytäntö"
 
 #: listvendorpolicies.cpp:156
 msgid "Source"
-msgstr ""
+msgstr "Lähde"
 
 #: listvendorpolicies.cpp:157
 msgid "Distribution (read-only)"
-msgstr ""
+msgstr "Jakelu (vain luku)"
 
 #: listvendorpolicies.cpp:157
 msgid "System (manageable)"
-msgstr ""
+msgstr "Järjestelmä (hallittavissa)"
 
 #: listvendorpolicies.cpp:157
 msgid "Type"
-msgstr ""
+msgstr "Tyyppi"
 
 #: listvendorpolicies.cpp:160
 msgid "Masks"
-msgstr ""
+msgstr "Peittää"
 
 #: listvendorpolicies.cpp:165
 msgid "Masked by"
-msgstr ""
+msgstr "Peittävä tiedosto"
 
 #: listvendorpolicies.cpp:174
 msgid "<conversion failed: {what}>"
-msgstr ""
+msgstr "<muunnos epäonnistui: {what}>"
 
 #: listvendorpolicies.cpp:178 listvendorpolicies.cpp:183
 msgid "Compact"
-msgstr ""
+msgstr "Tiivis"
 
 #: removevendorpolicy.cpp:23
 msgid "Remove vendor change policy files"
-msgstr ""
+msgstr "Poista toimittajanvaihtokäytäntöjen tiedostoja"
 
 #: removevendorpolicy.cpp:74
 msgid "Removed vendor policy file: {path}"
-msgstr ""
+msgstr "Toimittajakäytäntötiedosto poistettu: {path}"
 
 #: removevendorpolicy.cpp:78
 msgid "Unmasked distribution policy file: {path}"
-msgstr ""
+msgstr "Jakelun käytäntötiedoston peitto poistettu: {path}"
 
 #: removevendorpolicy.cpp:83
 msgid "Failed to remove policy file: {path}"
-msgstr ""
+msgstr "Käytäntötiedoston poistaminen epäonnistui: {path}"
 
 #: removevendorpolicy.cpp:87
 msgid ""
 "Cannot remove distribution policy file \"{path}\". To mask it, use: {command}"
 msgstr ""
+"Jakelun käytäntötiedostoa \"{path}\" ei voi poistaa. Peitä se komennolla: "
+"{command}"
 
 #: repos.cpp:56 setopt.cpp:140
 #, c++-format
@@ -303,7 +316,7 @@ msgstr "Ottaa käyttöön tietovarastoja"
 
 #: repos.hpp:50
 msgid "Disables repositories"
-msgstr ""
+msgstr "Poistaa tietovarastoja käytöstä"
 
 #: setopt.cpp:61 unsetopt.cpp:73
 #, c++-format
@@ -389,8 +402,7 @@ msgstr "Muuttujan nimi voi sisältää vain ASCII-kirjaimia, numeroita ja '_': {
 #: unsetopt.cpp:94
 #, c++-format
 msgid "config-manager: Request to remove unsupported repository option: {}"
-msgstr ""
-"config-manager: Pyyntöä ei-tuetun tietovarastovaihtoehdon poistamiseksi : {}"
+msgstr "config-manager: Pyyntö poistaa ei-tuettu tietovaraston vaihtoehto: {}"
 
 #: unsetopt.cpp:106
 #, c++-format
@@ -420,8 +432,8 @@ msgid ""
 "config-manager: Request to remove repository option but repoid is not "
 "present in the overrides: {}"
 msgstr ""
-"config-manager: Pyyntöä tietovarastovaihtoehdon poistamiseksi, mutta repoid "
-"ei ole läsnä ohituksissa: {}"
+"config-manager: Pyyntö poistaa tietovaraston vaihtoehto, mutta repoid ei ole "
+"ohituksissa: {}"
 
 #: unsetopt.cpp:194
 #, c++-format
@@ -429,8 +441,8 @@ msgid ""
 "config-manager: Request to remove repository option but it is not present in "
 "the overrides: {}.{}"
 msgstr ""
-"config-manager: Pyyntöä tietovarastovaihtoehdon poistamiseksi mutta se ei "
-"ole läsnä ohituksissa: {}.{}"
+"config-manager: Pyyntö poistaa tietovaraston vaihtoehto, mutta sitä ei ole "
+"ohituksissa: {}.{}"
 
 #: unsetopt.cpp:208
 #, c++-format
@@ -438,8 +450,8 @@ msgid ""
 "config-manager: Request to remove repository option but file with overrides "
 "not found: {}"
 msgstr ""
-"config-manager: Pyyntöä tietovarastovaihtoehdon poistamiseksi mutta "
-"ohituksia sisältävää tiedostoa ei löydy: {}"
+"config-manager: Pyyntö poistaa tietovaraston vaihtoehto, mutta ohituksia "
+"sisältävää tiedostoa ei löydy: {}"
 
 #: unsetvar.cpp:69
 #, c++-format
@@ -447,8 +459,8 @@ msgid ""
 "config-manager: Request to remove variable but vars directory was not found: "
 "{}"
 msgstr ""
-"config-manager: Pyyntöä muuttujan poistamiseksi, mutta vars-hakemistoa ei "
-"löytynyt: {}"
+"config-manager: Pyyntö poistaa muuttuja, mutta vars-hakemistoa ei löytynyt: "
+"{}"
 
 #: unsetvar.cpp:82
 #, c++-format
@@ -456,7 +468,7 @@ msgid ""
 "config-manager: Request to remove variable but it is not present in the vars "
 "directory: {}"
 msgstr ""
-"config-manager: Pyyntöä muuttujan poistamiseksi, mutta se ei ole läsnä vars-"
+"config-manager: Pyyntö poistaa muuttuja, mutta sitä ei ole vars-"
 "hakemistossa: {}"
 
 #: unsetvar.cpp:88
