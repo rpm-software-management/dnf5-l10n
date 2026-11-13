@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 05:17+0000\n"
+"POT-Creation-Date: 2026-11-12 19:48+0000\n"
 "PO-Revision-Date: 2026-11-06 13:28+0000\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -19,7 +19,7 @@ msgstr ""
 "20)) ? 1 : 2;\n"
 "X-Generator: Weblate 2026.11.1\n"
 
-#: automatic.cpp:228
+#: automatic.cpp:229
 msgid ""
 "An alternative CLI to 'dnf upgrade' suitable to be executed automatically "
 "and regularly."
@@ -27,27 +27,27 @@ msgstr ""
 "O alternativă la comanda CLI „dnf upgrade”, potrivită pentru a fi executată "
 "automat și periodic."
 
-#: automatic.cpp:234
+#: automatic.cpp:235
 msgid "Apply random delay before execution."
 msgstr "Aplică o întârziere aleatorie înainte de execuție."
 
-#: automatic.cpp:239
+#: automatic.cpp:240
 msgid "Automatically download updated packages"
 msgstr "Descarcă automat pachetele actualizate"
 
-#: automatic.cpp:246
+#: automatic.cpp:247
 msgid "Do not automatically download updated packages"
 msgstr "Nu descarcă automat pachetele actualizate"
 
-#: automatic.cpp:255
+#: automatic.cpp:256
 msgid "Automatically install downloaded updates"
 msgstr "Instalează automat actualizările descărcate"
 
-#: automatic.cpp:262
+#: automatic.cpp:263
 msgid "Do not automatically install downloaded updates"
 msgstr "Nu instalează automat actualizările descărcate"
 
-#: automatic.cpp:322
+#: automatic.cpp:316
 #, c++-format
 msgid ""
 "Warning: Configuration file location \"{}\" for dnf automatic is deprecated. "
@@ -56,7 +56,7 @@ msgstr ""
 "Avertisment: Locația fișierului de configurare „{}” pentru dnf automatic "
 "este învechită. Consultați dnf5-automatic(8) pentru detalii."
 
-#: automatic.cpp:355
+#: automatic.cpp:382
 #, c++-format
 msgid ""
 "The \"email\" emitter is configured but the installed libcurl does not "
@@ -65,36 +65,36 @@ msgstr ""
 "Emitentul „email” este configurat, dar biblioteca libcurl instalată nu "
 "acceptă protocolul {}."
 
-#: automatic.cpp:398
+#: automatic.cpp:425
 msgid "Resolved transaction:"
 msgstr "Tranzacție rezolvată:"
 
-#: automatic.cpp:427
+#: automatic.cpp:454
 msgid "Downloading packages:"
 msgstr "Se descarcă pachetele:"
 
-#: automatic.cpp:437
+#: automatic.cpp:464
 msgid "Packages downloaded."
 msgstr "Pachete descărcate."
 
-#: automatic.cpp:440
+#: automatic.cpp:467
 msgid "Running transaction:"
 msgstr "Tranzacție în derulare:"
 
-#: automatic.cpp:454
+#: automatic.cpp:481
 msgid "Transaction finished."
 msgstr "Tranzacția s-a încheiat."
 
-#: automatic.cpp:456
+#: automatic.cpp:483
 msgid "Transaction failed: "
 msgstr "Tranzacția a eșuat: "
 
-#: automatic.cpp:489
+#: automatic.cpp:516
 #, c++-format
 msgid "Unknown report emitter for dnf5 automatic: \"{}\"."
 msgstr "Emitent necunoscut al raportului pentru dnf5 automatic: „{}”."
 
-#: automatic.cpp:504
+#: automatic.cpp:531
 #, c++-format
 msgid "Error: reboot command returned nonzero exit code: {}"
 msgstr ""
