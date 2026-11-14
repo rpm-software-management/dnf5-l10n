@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 19:48+0000\n"
+"POT-Creation-Date: 2026-11-13 16:46+0000\n"
 "PO-Revision-Date: 2026-11-05 09:18+0000\n"
 "Last-Translator: blutch112 <vincent.lefebvre59@gmail.com>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf5/"
@@ -46,13 +46,13 @@ msgstr "Erreur lors de l'analyse des informations de transaction : {}"
 msgid "Invalid option value: enabled={}"
 msgstr "Valeur d'option invalide : enabled={}"
 
-#: base/goal.cpp:492
+#: base/goal.cpp:491
 #, c++-format
 msgid "Unsupported argument for REMOVE action: {}"
 msgstr "Argument non pris en charge pour l'action REMOVE : {}"
 
 #. TODO(lukash) throw a proper exception
-#: base/goal.cpp:1743
+#: base/goal.cpp:1742
 #, c++-format
 msgid "Incorrect configuration value for multilib_policy: {}"
 msgstr "Valeur de configuration pour multilib_policy incorrecte : {}"
@@ -1258,7 +1258,7 @@ msgstr ""
 msgid "Repository \"{}\" has unsupported type \"{}\", skipping."
 msgstr "Le dépôt \"{}\" est du type non pris en charge \"{}\", ignoré."
 
-#: repo/repo.cpp:222 repo/repo.cpp:242 repo/repo_sack.cpp:370
+#: repo/repo.cpp:222 repo/repo.cpp:242 repo/repo_sack.cpp:374
 #, c++-format
 msgid "Failed to download metadata ({}: \"{}\") for repository \"{}\": {}"
 msgstr ""
@@ -1372,7 +1372,7 @@ msgstr "Échec de la récupération de la liste des clés OpenPGP : {}"
 msgid "Failed to import OpenPGP keys: {}"
 msgstr "Échec de l'importation des clés OpenPGP : {}"
 
-#: repo/repo_sack.cpp:159
+#: repo/repo_sack.cpp:160
 #, c++-format
 msgid ""
 "Failed to create repo \"{}\": Id is present more than once in the "
@@ -1381,7 +1381,7 @@ msgstr ""
 "Échec de la création du dépôt \"{}\" : l'id est présent plus d'une fois dans "
 "la configuration"
 
-#: repo/repo_sack.cpp:637
+#: repo/repo_sack.cpp:641
 #, c++-format
 msgid "Cache-only enabled but no cache for repository \"{}\""
 msgstr "L'option cacheonly est activée mais le dépôt \"{}\" n'est pas en cache"

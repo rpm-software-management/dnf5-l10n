@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 19:48+0000\n"
+"POT-Creation-Date: 2026-11-13 16:46+0000\n"
 "PO-Revision-Date: 2026-11-03 09:44+0000\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -43,13 +43,13 @@ msgstr "Eroare la analizarea informațiilor despre tranzacție: {}"
 msgid "Invalid option value: enabled={}"
 msgstr "Valoare nevalidă a opțiunii: enabled={}"
 
-#: base/goal.cpp:492
+#: base/goal.cpp:491
 #, c++-format
 msgid "Unsupported argument for REMOVE action: {}"
 msgstr "Argument neacceptat pentru acțiunea REMOVE: {}"
 
 #. TODO(lukash) throw a proper exception
-#: base/goal.cpp:1743
+#: base/goal.cpp:1742
 #, c++-format
 msgid "Incorrect configuration value for multilib_policy: {}"
 msgstr "Valoare de configurare incorectă pentru multilib_policy: {}"
@@ -1248,7 +1248,7 @@ msgstr ""
 msgid "Repository \"{}\" has unsupported type \"{}\", skipping."
 msgstr "Depozitul „{}” are tipul neacceptat „{}”, se omite."
 
-#: repo/repo.cpp:222 repo/repo.cpp:242 repo/repo_sack.cpp:370
+#: repo/repo.cpp:222 repo/repo.cpp:242 repo/repo_sack.cpp:374
 #, c++-format
 msgid "Failed to download metadata ({}: \"{}\") for repository \"{}\": {}"
 msgstr "Descărcarea metadatelor ({}: „{}”) pentru depozitul „{}” a eșuat: {}"
@@ -1359,7 +1359,7 @@ msgstr "Eșec la listarea cheilor OpenPGP: {}"
 msgid "Failed to import OpenPGP keys: {}"
 msgstr "Importare eșuată a cheilor OpenPGP: {}"
 
-#: repo/repo_sack.cpp:159
+#: repo/repo_sack.cpp:160
 #, c++-format
 msgid ""
 "Failed to create repo \"{}\": Id is present more than once in the "
@@ -1368,7 +1368,7 @@ msgstr ""
 "Nu s-a reușit crearea depozitului „{}”: Id-ul este prezent de mai multe ori "
 "în configurație"
 
-#: repo/repo_sack.cpp:637
+#: repo/repo_sack.cpp:641
 #, c++-format
 msgid "Cache-only enabled but no cache for repository \"{}\""
 msgstr ""

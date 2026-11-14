@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 19:48+0000\n"
+"POT-Creation-Date: 2026-11-13 16:46+0000\n"
 "PO-Revision-Date: 2026-11-07 18:18+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf5/"
@@ -44,13 +44,13 @@ msgstr "연결 정보 구문 분석 중 오류: {}"
 msgid "Invalid option value: enabled={}"
 msgstr "잘못된 옵션 값: enabled={}"
 
-#: base/goal.cpp:492
+#: base/goal.cpp:491
 #, c++-format
 msgid "Unsupported argument for REMOVE action: {}"
 msgstr "제거(REMOVE) 동작을 위해 미지원된 인수: {}"
 
 #. TODO(lukash) throw a proper exception
-#: base/goal.cpp:1743
+#: base/goal.cpp:1742
 #, c++-format
 msgid "Incorrect configuration value for multilib_policy: {}"
 msgstr "multilib_policy용 잘못된 구성 값: {}"
@@ -1204,7 +1204,7 @@ msgstr ""
 msgid "Repository \"{}\" has unsupported type \"{}\", skipping."
 msgstr "저장소 \"{}는 미지원 유형 \"{}\"을 가지며, 건너뜁니다."
 
-#: repo/repo.cpp:222 repo/repo.cpp:242 repo/repo_sack.cpp:370
+#: repo/repo.cpp:222 repo/repo.cpp:242 repo/repo_sack.cpp:374
 #, c++-format
 msgid "Failed to download metadata ({}: \"{}\") for repository \"{}\": {}"
 msgstr "저장소를 위한 메타자료 ({}: \"{}\") 를 내려받는 데 실패함 \"{}\": {}"
@@ -1313,14 +1313,14 @@ msgstr "Openpgp 키를 나열하는 데 실패함: {}"
 msgid "Failed to import OpenPGP keys: {}"
 msgstr "Openpgp 키를 가져오는 데 실패함: {}"
 
-#: repo/repo_sack.cpp:159
+#: repo/repo_sack.cpp:160
 #, c++-format
 msgid ""
 "Failed to create repo \"{}\": Id is present more than once in the "
 "configuration"
 msgstr "repo \"{}\"를 생성하는 데 실패함: Id는 구성에서 두 번 이상 존재합니다"
 
-#: repo/repo_sack.cpp:637
+#: repo/repo_sack.cpp:641
 #, c++-format
 msgid "Cache-only enabled but no cache for repository \"{}\""
 msgstr "캐쉬-전용이 활성화되었으나 저장소를 위한 캐쉬가 없습니다 \"{}\""

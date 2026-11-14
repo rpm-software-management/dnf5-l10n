@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 19:48+0000\n"
+"POT-Creation-Date: 2026-11-13 16:46+0000\n"
 "PO-Revision-Date: 2026-11-03 09:50+0000\n"
 "Last-Translator: GitHub webhook <noreply-webhook-github@weblate.org>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf5/"
@@ -44,13 +44,13 @@ msgstr "Error durante transacción repite intérprete JSON : {}"
 msgid "Invalid option value: enabled={}"
 msgstr "Valor de opción no válida: enabled={}"
 
-#: base/goal.cpp:492
+#: base/goal.cpp:491
 #, c++-format
 msgid "Unsupported argument for REMOVE action: {}"
 msgstr "Argumento no soportado para acción REMOVE: {}"
 
 #. TODO(lukash) throw a proper exception
-#: base/goal.cpp:1743
+#: base/goal.cpp:1742
 #, c++-format
 msgid "Incorrect configuration value for multilib_policy: {}"
 msgstr "Valor de configuración incorrecto para multilib_policy: {}"
@@ -1256,7 +1256,7 @@ msgstr ""
 msgid "Repository \"{}\" has unsupported type \"{}\", skipping."
 msgstr "El repositorio \"{}\" tiene tipo \"{}\" no admitido, se descarta."
 
-#: repo/repo.cpp:222 repo/repo.cpp:242 repo/repo_sack.cpp:370
+#: repo/repo.cpp:222 repo/repo.cpp:242 repo/repo_sack.cpp:374
 #, c++-format
 msgid "Failed to download metadata ({}: \"{}\") for repository \"{}\": {}"
 msgstr ""
@@ -1371,7 +1371,7 @@ msgstr "Incorrecto al listado claves OpenPGP: {}"
 msgid "Failed to import OpenPGP keys: {}"
 msgstr "Incorrecto al importar claves OpenPGP: {}"
 
-#: repo/repo_sack.cpp:159
+#: repo/repo_sack.cpp:160
 #, c++-format
 msgid ""
 "Failed to create repo \"{}\": Id is present more than once in the "
@@ -1380,7 +1380,7 @@ msgstr ""
 "Incorrecto al crear repo “{}”: Id está presente más de una vez en la "
 "configuración"
 
-#: repo/repo_sack.cpp:637
+#: repo/repo_sack.cpp:641
 #, c++-format
 msgid "Cache-only enabled but no cache for repository \"{}\""
 msgstr "Solo caché activado pero ningún cache para repositorio «{}»"

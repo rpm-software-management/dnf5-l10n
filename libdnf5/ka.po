@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 19:48+0000\n"
+"POT-Creation-Date: 2026-11-13 16:46+0000\n"
 "PO-Revision-Date: 2026-11-03 09:37+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf5/"
@@ -42,13 +42,13 @@ msgstr "ტრანზაქციის ინფორმაციის დ�
 msgid "Invalid option value: enabled={}"
 msgstr "არასწორი პარამეტრის მნიშვნელობა: enabled={}"
 
-#: base/goal.cpp:492
+#: base/goal.cpp:491
 #, c++-format
 msgid "Unsupported argument for REMOVE action: {}"
 msgstr "მხარდაუჭერელი არგუმენტი ქმედებისთვის REMOVE: {}"
 
 #. TODO(lukash) throw a proper exception
-#: base/goal.cpp:1743
+#: base/goal.cpp:1742
 #, c++-format
 msgid "Incorrect configuration value for multilib_policy: {}"
 msgstr "არასწორი კონფიგურაციის მნიშვნელობა multilib_policy-სთვის: {}"
@@ -1238,7 +1238,7 @@ msgstr ""
 msgid "Repository \"{}\" has unsupported type \"{}\", skipping."
 msgstr "რეპოზიტორიის \"{}\" ტიპი \"{}\" მხარდაჭერილი არაა. გამოტოვება."
 
-#: repo/repo.cpp:222 repo/repo.cpp:242 repo/repo_sack.cpp:370
+#: repo/repo.cpp:222 repo/repo.cpp:242 repo/repo_sack.cpp:374
 #, c++-format
 msgid "Failed to download metadata ({}: \"{}\") for repository \"{}\": {}"
 msgstr ""
@@ -1349,7 +1349,7 @@ msgstr "OpenPGP გასაღების ჩამოთვლა ჩავ�
 msgid "Failed to import OpenPGP keys: {}"
 msgstr "ჩავარდა შემოტანა OpenPGP გასაღებებისათვის: {}"
 
-#: repo/repo_sack.cpp:159
+#: repo/repo_sack.cpp:160
 #, c++-format
 msgid ""
 "Failed to create repo \"{}\": Id is present more than once in the "
@@ -1358,7 +1358,7 @@ msgstr ""
 "რეპოს \"{}\" შექმნა ჩავარდა: კონფიგურაციაში, ეს ID-ები, ერთზე მეტჯერაა "
 "ნახსენები"
 
-#: repo/repo_sack.cpp:637
+#: repo/repo_sack.cpp:641
 #, c++-format
 msgid "Cache-only enabled but no cache for repository \"{}\""
 msgstr "მხოლოდ-კეში ჩართულია, მაგრამ რეპოზიტორიას \"{}\" კეში არ გააჩნია"

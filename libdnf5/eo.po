@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 19:48+0000\n"
+"POT-Creation-Date: 2026-11-13 16:46+0000\n"
 "PO-Revision-Date: 2026-11-03 10:01+0000\n"
 "Last-Translator: Keith Bowes <zooplah@gmail.com>\n"
 "Language-Team: Esperanto <https://translate.fedoraproject.org/projects/dnf5/"
@@ -41,13 +41,13 @@ msgstr "Eraro dum analizo de transakciaj informoj: {}"
 msgid "Invalid option value: enabled={}"
 msgstr "Nevalida opcia valoro: enabled={}"
 
-#: base/goal.cpp:492
+#: base/goal.cpp:491
 #, c++-format
 msgid "Unsupported argument for REMOVE action: {}"
 msgstr "Nekonata argumento por ago REMOVE: {}"
 
 #. TODO(lukash) throw a proper exception
-#: base/goal.cpp:1743
+#: base/goal.cpp:1742
 #, c++-format
 msgid "Incorrect configuration value for multilib_policy: {}"
 msgstr "Malĝusta agordo-valoro por multilib_ploticy: {}"
@@ -1209,7 +1209,7 @@ msgstr ""
 msgid "Repository \"{}\" has unsupported type \"{}\", skipping."
 msgstr "Deponejo \"{}\" havas nekonatan tipon \"{}\", preterpasas."
 
-#: repo/repo.cpp:222 repo/repo.cpp:242 repo/repo_sack.cpp:370
+#: repo/repo.cpp:222 repo/repo.cpp:242 repo/repo_sack.cpp:374
 #, c++-format
 msgid "Failed to download metadata ({}: \"{}\") for repository \"{}\": {}"
 msgstr "Malsukcesis elŝuti metadatumojn ({}: \"{}\") por deponejo \"{}\": {}"
@@ -1320,7 +1320,7 @@ msgstr "Malsukcesis listigi OpenPGP-ŝlosilojn: {}"
 msgid "Failed to import OpenPGP keys: {}"
 msgstr "Malsukcesis importi OpenPGP-ŝlosilojn: {}"
 
-#: repo/repo_sack.cpp:159
+#: repo/repo_sack.cpp:160
 #, c++-format
 msgid ""
 "Failed to create repo \"{}\": Id is present more than once in the "
@@ -1329,7 +1329,7 @@ msgstr ""
 "Malsukcesis krei deponejon \"{}\": Identigilo pli ol unufoje ĉeestas en la "
 "agordo"
 
-#: repo/repo_sack.cpp:637
+#: repo/repo_sack.cpp:641
 #, c++-format
 msgid "Cache-only enabled but no cache for repository \"{}\""
 msgstr "Nurkaŝmemora ŝaltita sed neniu kaŝmemoro por deponejo \"{}\""

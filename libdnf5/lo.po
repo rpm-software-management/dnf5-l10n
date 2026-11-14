@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 19:48+0000\n"
+"POT-Creation-Date: 2026-11-13 16:46+0000\n"
 "PO-Revision-Date: 2026-11-03 10:03+0000\n"
 "Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
 "Language-Team: Lao <https://translate.fedoraproject.org/projects/dnf5/"
@@ -41,13 +41,13 @@ msgstr "ເກີດຂໍ້ຜິດພາດໃນການແປຂໍ້ມ
 msgid "Invalid option value: enabled={}"
 msgstr "ຄ່າຕົວເລືອກບໍ່ຖືກຕ້ອງ: enabled={}"
 
-#: base/goal.cpp:492
+#: base/goal.cpp:491
 #, c++-format
 msgid "Unsupported argument for REMOVE action: {}"
 msgstr "ບໍ່ຮອງຮັບຄ່າທີ່ລະບຸສຳລັບການຖອນອອກ (REMOVE): {}"
 
 #. TODO(lukash) throw a proper exception
-#: base/goal.cpp:1743
+#: base/goal.cpp:1742
 #, c++-format
 msgid "Incorrect configuration value for multilib_policy: {}"
 msgstr "ຄ່າການກຳນົດຄ່າບໍ່ຖືກຕ້ອງສຳລັບ multilib_policy: {}"
@@ -1171,7 +1171,7 @@ msgstr "ຄັງເກັບ \"{}\" ບໍ່ມີການກຳນົດແ�
 msgid "Repository \"{}\" has unsupported type \"{}\", skipping."
 msgstr "ຄັງເກັບ \"{}\" ມີປະເພດທີ່ບໍ່ຮອງຮັບ \"{}\", ຈະຂ້າມໄປ."
 
-#: repo/repo.cpp:222 repo/repo.cpp:242 repo/repo_sack.cpp:370
+#: repo/repo.cpp:222 repo/repo.cpp:242 repo/repo_sack.cpp:374
 #, c++-format
 msgid "Failed to download metadata ({}: \"{}\") for repository \"{}\": {}"
 msgstr "ບໍ່ສາມາດດາວໂຫຼດ metadata ({}: \"{}\") ສຳລັບຄັງເກັບ \"{}\": {}"
@@ -1274,14 +1274,14 @@ msgstr "ບໍ່ສາມາດສະແດງລາຍຊື່ຄີ OpenPGP:
 msgid "Failed to import OpenPGP keys: {}"
 msgstr "ບໍ່ສາມາດນຳເຂົ້າຄີ OpenPGP: {}"
 
-#: repo/repo_sack.cpp:159
+#: repo/repo_sack.cpp:160
 #, c++-format
 msgid ""
 "Failed to create repo \"{}\": Id is present more than once in the "
 "configuration"
 msgstr "ບໍ່ສາມາດສ້າງຄັງເກັບ \"{}\": ພົບ Id ນີ້ຫຼາຍກວ່າໜຶ່ງຄັ້ງໃນການກຳນົດຄ່າ"
 
-#: repo/repo_sack.cpp:637
+#: repo/repo_sack.cpp:641
 #, c++-format
 msgid "Cache-only enabled but no cache for repository \"{}\""
 msgstr "ເປີດໃຊ້ງານ cache-only ແຕ່ບໍ່ພົບແຄຊສຳລັບຄັງເກັບ \"{}\""
