@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-23 14:41+0000\n"
-"PO-Revision-Date: 2026-11-19 21:57+0000\n"
+"PO-Revision-Date: 2026-11-25 14:18+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ka/>\n"
@@ -440,29 +440,27 @@ msgstr "შეამოწმეთ {} აღმოჩენილი პრო�
 
 #: commands/clean/clean.cpp:52
 msgid "Delete all cached data from the repositories cache"
-msgstr ""
+msgstr "დაკეშილი მონაცემების სრულად წაშლა რეპოზიტორიების კეშიდან"
 
 #: commands/clean/clean.cpp:53
-#, fuzzy
-#| msgid "List packages recently added into the repositories."
 msgid "Delete packages from the repositories cache"
-msgstr "რეპოზიტორიებში ახლახან ჩამატებული პაკეტების ჩამონათვალი."
+msgstr "პაკეტების წაშლა რეპოზიტორიების კეშიდან"
 
 #: commands/clean/clean.cpp:55
 msgid "Delete the metadata and dbcache from the repositories cache"
-msgstr ""
+msgstr "მეტამონაცემებისა და მონაცემთა ბაზის კეშის წაშლა რეპოზიტორიების კეშიდან"
 
 #: commands/clean/clean.cpp:57
 msgid "Delete dbcache from the repositories cache"
-msgstr ""
+msgstr "მონაცემთა ბაზის კეშის წაშლა რეპოზიტოების კეშიდან"
 
 #: commands/clean/clean.cpp:58
 msgid "Mark the repositories cache as expired"
-msgstr ""
+msgstr "რეპოზიტორიების კეშის ვადაამოწურულად მონიშვნა"
 
 #: commands/clean/clean.cpp:76
 msgid "Remove or expire cached data"
-msgstr ""
+msgstr "დაკეშილი მონაცემების წაშლა ან ვადაამოწურულად მონიშვნა"
 
 #: commands/clean/clean.cpp:91
 #, c++-format
@@ -478,7 +476,7 @@ msgstr "უცნობი კეშის ტიპი \"{0}\". მხარდ
 #: commands/clean/clean.cpp:123
 #, c++-format
 msgid "{:15} ({})"
-msgstr ""
+msgstr "{:15} ({})"
 
 #: commands/clean/clean.cpp:167
 #, c++-format
@@ -500,16 +498,16 @@ msgstr "კეშის საქაღალდის \"{}\" იტერაც
 #, c++-format
 msgid "{} file"
 msgid_plural "{} files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{} ფაილი"
+msgstr[1] "{} ფაილი"
 
 #. Note for translators: The argument is a counter.
 #: commands/clean/clean.cpp:193
 #, c++-format
 msgid "{} directory"
 msgid_plural "{} directories"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{} საქაღალდე"
+msgstr[1] "{} საქაღალდე"
 
 #. Note for translators: The first two arguments are "{} files" and
 #. "{} directories" translated above. The third and forth arguments are
@@ -519,8 +517,8 @@ msgstr[1] ""
 #, c++-format
 msgid "Removed {}, {} (total of {:.0f} {:s}). {} error occurred."
 msgid_plural "Removed {}, {} (total of {:.0f} {:s}). {} errors occurred."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "წაიშალა {}, {} (სულ {:.0f} {:s}). აღმოჩენილია {} შეცდომა."
+msgstr[1] "წაიშალა {}, {} (სულ {:.0f} {:s}). აღმოჩენილია {} შეცდომა."
 
 #: commands/debuginfo-install/debuginfo-install.cpp:45
 msgid "Install debuginfo packages."
