@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-23 14:41+0000\n"
-"PO-Revision-Date: 2026-11-22 20:18+0000\n"
-"Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
+"PO-Revision-Date: 2026-11-25 14:18+0000\n"
+"Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/sv/>\n"
 "Language: sv\n"
@@ -433,29 +433,27 @@ msgstr "Kontrollen upptäckte {} problem i {} paket"
 
 #: commands/clean/clean.cpp:52
 msgid "Delete all cached data from the repositories cache"
-msgstr ""
+msgstr "Ta bort all cachad data från förrådets cache"
 
 #: commands/clean/clean.cpp:53
-#, fuzzy
-#| msgid "List packages recently added into the repositories."
 msgid "Delete packages from the repositories cache"
-msgstr "Lista paket som nyligen lagts till i förråd."
+msgstr "Ta bort paket från förrådets cache"
 
 #: commands/clean/clean.cpp:55
 msgid "Delete the metadata and dbcache from the repositories cache"
-msgstr ""
+msgstr "Ta bort metadata och dbcache från förrådets cache"
 
 #: commands/clean/clean.cpp:57
 msgid "Delete dbcache from the repositories cache"
-msgstr ""
+msgstr "Ta bort dbcache från förrådets cache"
 
 #: commands/clean/clean.cpp:58
 msgid "Mark the repositories cache as expired"
-msgstr ""
+msgstr "Markera förrådscachen som utgången"
 
 #: commands/clean/clean.cpp:76
 msgid "Remove or expire cached data"
-msgstr ""
+msgstr "Ta bort eller låt cachad data upphöra att gälla"
 
 #: commands/clean/clean.cpp:91
 #, c++-format
@@ -471,7 +469,7 @@ msgstr "Okänd cachetyp \"{0}\". Typer som stöds: {1}"
 #: commands/clean/clean.cpp:123
 #, c++-format
 msgid "{:15} ({})"
-msgstr ""
+msgstr "{:15} ({})"
 
 #: commands/clean/clean.cpp:167
 #, c++-format
@@ -493,16 +491,16 @@ msgstr "Kan inte iterera cachekatalog \"{}\": {}"
 #, c++-format
 msgid "{} file"
 msgid_plural "{} files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{} fil"
+msgstr[1] "{} filer"
 
 #. Note for translators: The argument is a counter.
 #: commands/clean/clean.cpp:193
 #, c++-format
 msgid "{} directory"
 msgid_plural "{} directories"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{} katalog"
+msgstr[1] "{} kataloger"
 
 #. Note for translators: The first two arguments are "{} files" and
 #. "{} directories" translated above. The third and forth arguments are
@@ -512,8 +510,8 @@ msgstr[1] ""
 #, c++-format
 msgid "Removed {}, {} (total of {:.0f} {:s}). {} error occurred."
 msgid_plural "Removed {}, {} (total of {:.0f} {:s}). {} errors occurred."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Tog bort {}, {} (total av {:.0f} {:s}). {} fel uppstod."
+msgstr[1] "Tog bort {}, {} (total av {:.0f} {:s}). {} fel uppstog."
 
 #: commands/debuginfo-install/debuginfo-install.cpp:45
 msgid "Install debuginfo packages."
