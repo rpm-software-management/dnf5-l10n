@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-23 14:41+0000\n"
-"PO-Revision-Date: 2026-11-21 13:18+0000\n"
+"PO-Revision-Date: 2026-11-26 13:40+0000\n"
 "Last-Translator: Rihards Prieditis <rprieditis@gmail.com>\n"
 "Language-Team: Latvian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/lv/>\n"
@@ -425,29 +425,27 @@ msgstr "Pārbaudē atklātas problēmas: {}; skartās pakotnes: {}"
 
 #: commands/clean/clean.cpp:52
 msgid "Delete all cached data from the repositories cache"
-msgstr ""
+msgstr "Dzēst visus kešotos datus no repozitoriju kešatmiņas"
 
 #: commands/clean/clean.cpp:53
-#, fuzzy
-#| msgid "List packages recently added into the repositories."
 msgid "Delete packages from the repositories cache"
-msgstr "Uzskaitīt repozitorijiem nesen pievienotās pakotnes."
+msgstr "Dzēst pakotnes no repozitoriju kešatmiņas"
 
 #: commands/clean/clean.cpp:55
 msgid "Delete the metadata and dbcache from the repositories cache"
-msgstr ""
+msgstr "Dzēst metadatus un dbcache no repozitoriju kešatmiņas"
 
 #: commands/clean/clean.cpp:57
 msgid "Delete dbcache from the repositories cache"
-msgstr ""
+msgstr "Dzēst dbcache no repozitoriju kešatmiņas"
 
 #: commands/clean/clean.cpp:58
 msgid "Mark the repositories cache as expired"
-msgstr ""
+msgstr "Atzīmēt repozitoriju kešatmiņu kā novecojušu"
 
 #: commands/clean/clean.cpp:76
 msgid "Remove or expire cached data"
-msgstr ""
+msgstr "Noņemt kešotos datus vai padarīt tos novecojušus"
 
 #: commands/clean/clean.cpp:91
 #, c++-format
@@ -463,7 +461,7 @@ msgstr "Nezināms kešatmiņas tips „{0}”. Atbalstītie tipi: {1}"
 #: commands/clean/clean.cpp:123
 #, c++-format
 msgid "{:15} ({})"
-msgstr ""
+msgstr "{:15} ({})"
 
 #: commands/clean/clean.cpp:167
 #, c++-format
@@ -485,18 +483,18 @@ msgstr "Nevar pārlasīt kešatmiņas direktoriju „{}”: {}"
 #, c++-format
 msgid "{} file"
 msgid_plural "{} files"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "{} failu"
+msgstr[1] "{} fails"
+msgstr[2] "{} faili"
 
 #. Note for translators: The argument is a counter.
 #: commands/clean/clean.cpp:193
 #, c++-format
 msgid "{} directory"
 msgid_plural "{} directories"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "{} direktoriju"
+msgstr[1] "{} direktorija"
+msgstr[2] "{} direktorijas"
 
 #. Note for translators: The first two arguments are "{} files" and
 #. "{} directories" translated above. The third and forth arguments are
@@ -506,9 +504,9 @@ msgstr[2] ""
 #, c++-format
 msgid "Removed {}, {} (total of {:.0f} {:s}). {} error occurred."
 msgid_plural "Removed {}, {} (total of {:.0f} {:s}). {} errors occurred."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Noņemts: {}, {} (kopā {:.0f} {:s}). Radās {} kļūdu."
+msgstr[1] "Noņemts: {}, {} (kopā {:.0f} {:s}). Radās {} kļūda."
+msgstr[2] "Noņemts: {}, {} (kopā {:.0f} {:s}). Radās {} kļūdas."
 
 #: commands/debuginfo-install/debuginfo-install.cpp:45
 msgid "Install debuginfo packages."
