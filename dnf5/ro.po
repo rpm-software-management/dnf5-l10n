@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-23 14:41+0000\n"
-"PO-Revision-Date: 2026-11-18 20:41+0000\n"
+"PO-Revision-Date: 2026-11-25 14:18+0000\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/dnf5/"
 "dnf5/ro/>\n"
@@ -442,29 +442,27 @@ msgstr "Verifică {} problemă(e) descoperită(e) în {} pachet(e)"
 
 #: commands/clean/clean.cpp:52
 msgid "Delete all cached data from the repositories cache"
-msgstr ""
+msgstr "Șterge toate datele stocate în memoria cache a depozitelor"
 
 #: commands/clean/clean.cpp:53
-#, fuzzy
-#| msgid "List packages recently added into the repositories."
 msgid "Delete packages from the repositories cache"
-msgstr "Listează pachetele adăugate recent în depozite."
+msgstr "Șterge pachetele din memoria cache a depozitelor"
 
 #: commands/clean/clean.cpp:55
 msgid "Delete the metadata and dbcache from the repositories cache"
-msgstr ""
+msgstr "Șterge metadatele și dbcache din memoria cache a depozitelor"
 
 #: commands/clean/clean.cpp:57
 msgid "Delete dbcache from the repositories cache"
-msgstr ""
+msgstr "Șterge dbcache din memoria cache a depozitelor"
 
 #: commands/clean/clean.cpp:58
 msgid "Mark the repositories cache as expired"
-msgstr ""
+msgstr "Marchează cache-ul depozitelor ca fiind expirat"
 
 #: commands/clean/clean.cpp:76
 msgid "Remove or expire cached data"
-msgstr ""
+msgstr "Elimină sau marchează ca expirate datele din memoria cache."
 
 #: commands/clean/clean.cpp:91
 #, c++-format
@@ -480,7 +478,7 @@ msgstr "Tip de cache necunoscut „{0}”. Tipuri acceptate: {1}"
 #: commands/clean/clean.cpp:123
 #, c++-format
 msgid "{:15} ({})"
-msgstr ""
+msgstr "{:15} ({})"
 
 #: commands/clean/clean.cpp:167
 #, c++-format
@@ -502,18 +500,18 @@ msgstr "Nu se poate itera directorul de cache „{}”: {}"
 #, c++-format
 msgid "{} file"
 msgid_plural "{} files"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "{} fișier"
+msgstr[1] "{} fișiere"
+msgstr[2] "{} de fișiere"
 
 #. Note for translators: The argument is a counter.
 #: commands/clean/clean.cpp:193
 #, c++-format
 msgid "{} directory"
 msgid_plural "{} directories"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "{} director"
+msgstr[1] "{} directoare"
+msgstr[2] "{} de directoare"
 
 #. Note for translators: The first two arguments are "{} files" and
 #. "{} directories" translated above. The third and forth arguments are
@@ -523,9 +521,9 @@ msgstr[2] ""
 #, c++-format
 msgid "Removed {}, {} (total of {:.0f} {:s}). {} error occurred."
 msgid_plural "Removed {}, {} (total of {:.0f} {:s}). {} errors occurred."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "S-au eliminat {}, {} (în total {:.0f} {:s}). A apărut {} eroare."
+msgstr[1] "S-au eliminat {}, {} (în total {:.0f} {:s}). Au apărut {} erori."
+msgstr[2] "S-au eliminat {}, {} (în total {:.0f} {:s}). Au apărut {} de erori."
 
 #: commands/debuginfo-install/debuginfo-install.cpp:45
 msgid "Install debuginfo packages."
